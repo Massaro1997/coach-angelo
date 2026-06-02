@@ -198,15 +198,15 @@ export default function Servizi() {
               <h3 className="text-xl font-bold text-white mb-2">3 {language === 'de' ? 'Monate' : 'Mesi'}</h3>
               <p className="text-white/50 text-sm mb-6">{t.pathDuration1}</p>
               <div className="mb-4">
-                <div className="flex items-end gap-2"><span className="text-5xl font-bold text-white">€300</span></div>
-                <p className="text-white/50 text-sm mt-2">{language === 'de' ? 'oder €100/Monat in Raten' : 'o €100/mese a rate'}</p>
+                <div className="flex items-end gap-2"><span className="text-5xl font-bold text-white">€450</span></div>
+                <p className="text-white/50 text-sm mt-2">{language === 'de' ? '150€/Monat' : '150€/mese'}</p>
               </div>
               <ul className="space-y-3 mb-8 text-sm">
                 <li className="flex items-center text-white/70"><svg className="w-5 h-5 text-fuchsia-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>{t.pathF1}</li>
                 <li className="flex items-center text-white/70"><svg className="w-5 h-5 text-fuchsia-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>{t.pathF2}</li>
                 <li className="flex items-center text-white/70"><svg className="w-5 h-5 text-fuchsia-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>{t.whatsappSupport}</li>
               </ul>
-              <button onClick={() => addItem({ id: "path-3-months", name: `Percorso 3 ${language === 'de' ? 'Monate' : 'Mesi'}`, price: 300, type: "percorso", variant: "3 months" })} className="w-full bg-neutral-700 hover:bg-neutral-600 text-white py-3 rounded-full font-semibold transition-all">
+              <button onClick={() => addItem({ id: "path-3-months", name: `Percorso 3 ${language === 'de' ? 'Monate' : 'Mesi'}`, price: 450, type: "percorso", variant: "3 months" })} className="w-full bg-neutral-700 hover:bg-neutral-600 text-white py-3 rounded-full font-semibold transition-all">
                 {t.buyPath}
               </button>
             </div>
@@ -216,15 +216,15 @@ export default function Servizi() {
               <h3 className="text-xl font-bold text-white mb-2">6 {language === 'de' ? 'Monate' : 'Mesi'}</h3>
               <p className="text-white/50 text-sm mb-6">{t.pathDuration2}</p>
               <div className="mb-4">
-                <div className="flex items-end gap-2"><span className="text-5xl font-bold text-white">€600</span></div>
-                <p className="text-white/50 text-sm mt-2">{language === 'de' ? 'oder €100/Monat in Raten' : 'o €100/mese a rate'}</p>
+                <div className="flex items-end gap-2"><span className="text-5xl font-bold text-white">€850</span></div>
+                <p className="text-white/50 text-sm mt-2">{language === 'de' ? 'oder ~142€/Monat in Raten' : 'o ~142€/mese a rate'}</p>
               </div>
               <ul className="space-y-3 mb-8 text-sm">
                 <li className="flex items-center text-white/70"><svg className="w-5 h-5 text-fuchsia-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>{t.pathF1}</li>
                 <li className="flex items-center text-white/70"><svg className="w-5 h-5 text-fuchsia-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>{t.pathF2}</li>
                 <li className="flex items-center text-white/70"><svg className="w-5 h-5 text-fuchsia-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>{t.whatsappSupport}</li>
               </ul>
-              <button onClick={() => addItem({ id: "path-6-months", name: `Percorso 6 ${language === 'de' ? 'Monate' : 'Mesi'}`, price: 600, type: "percorso", variant: "6 months" })} className="w-full bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 hover:from-pink-400 hover:via-fuchsia-400 hover:to-violet-400 text-white py-3 rounded-full font-semibold transition-all shadow-lg hover:shadow-fuchsia-500/25">
+              <button onClick={() => addItem({ id: "path-6-months", name: `Percorso 6 ${language === 'de' ? 'Monate' : 'Mesi'}`, price: 850, type: "percorso", variant: "6 months" })} className="w-full bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 hover:from-pink-400 hover:via-fuchsia-400 hover:to-violet-400 text-white py-3 rounded-full font-semibold transition-all shadow-lg hover:shadow-fuchsia-500/25">
                 {t.buyPath}
               </button>
             </div>
@@ -233,15 +233,15 @@ export default function Servizi() {
               <h3 className="text-xl font-bold text-white mb-2">12 {language === 'de' ? 'Monate' : 'Mesi'}</h3>
               <p className="text-white/50 text-sm mb-6">{t.pathDuration3}</p>
               <div className="mb-4">
-                <div className="flex items-end gap-2"><span className="text-5xl font-bold text-white">€950</span></div>
-                <p className="text-white/50 text-sm mt-2">{language === 'de' ? 'oder ~€80/Monat in Raten' : 'o ~€80/mese a rate'}</p>
+                <div className="flex items-end gap-2"><span className="text-5xl font-bold text-white">€1500</span></div>
+                <p className="text-white/50 text-sm mt-2">{language === 'de' ? 'oder 125€/Monat in Raten' : 'o 125€/mese a rate'}</p>
               </div>
               <ul className="space-y-3 mb-8 text-sm">
                 <li className="flex items-center text-white/70"><svg className="w-5 h-5 text-violet-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>{t.pathF1}</li>
                 <li className="flex items-center text-white/70"><svg className="w-5 h-5 text-violet-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>{t.pathF2}</li>
                 <li className="flex items-center text-white/70"><svg className="w-5 h-5 text-violet-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>{t.whatsappSupport}</li>
               </ul>
-              <button onClick={() => addItem({ id: "path-12-months", name: `Percorso 12 ${language === 'de' ? 'Monate' : 'Mesi'}`, price: 950, type: "percorso", variant: "12 months" })} className="w-full bg-neutral-700 hover:bg-neutral-600 text-white py-3 rounded-full font-semibold transition-all">
+              <button onClick={() => addItem({ id: "path-12-months", name: `Percorso 12 ${language === 'de' ? 'Monate' : 'Mesi'}`, price: 1500, type: "percorso", variant: "12 months" })} className="w-full bg-neutral-700 hover:bg-neutral-600 text-white py-3 rounded-full font-semibold transition-all">
                 {t.buyPath}
               </button>
             </div>
