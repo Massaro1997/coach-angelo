@@ -1474,6 +1474,143 @@ export const blogPosts: BlogPost[] = [
         "text": "Du musst nicht ins Fitnessstudio, um anzufangen. Aber du musst ehrlich mit dir sein, was du isst, wie du schläfst und welche Gewohnheiten dich bremsen. Ich arbeite in Köln mit Berufstätigen, die genau diesen Alltag kennen: wenig Zeit, viel Stress, echte Ziele. Wenn du wissen willst, wo du konkret ansetzen kannst, komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, keine Verpflichtung. Nur ein ehrlicher Blick auf deine Situation. Meld dich unter angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "proteinreiche-lebensmittel-muskelaufbau",
+    "title": "Proteinreiche Lebensmittel: Was du täglich essen solltest, um Muskeln aufzubauen",
+    "metaTitle": "Proteinreiche Lebensmittel für Muskelaufbau",
+    "metaDescription": "Welche proteinreichen Lebensmittel du täglich essen solltest, um Muskeln aufzubauen. Praktische Tipps und Einkaufsliste für Berufstätige in Köln.",
+    "date": "2026-06-13",
+    "readMinutes": 4,
+    "excerpt": "Ohne komplizierte Diät gezielt Eiweiß aufnehmen: Hier bekommst du eine alltagstaugliche Einkaufsliste und konkrete Tipps für Berufstätige in Köln.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du arbeitest den ganzen Tag, abends gehst du trainieren, und trotzdem stagnieren deine Muskeln. Meistens liegt das nicht am Training. Es liegt am Teller. Proteinreiche Lebensmittel für den Muskelaufbau müssen nicht teuer oder aufwendig sein. Du brauchst einen klaren Plan und einen Einkaufszettel, den du tatsächlich umsetzt. Das hier ist beides."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Protein so entscheidend für Muskeln ist"
+      },
+      {
+        "type": "p",
+        "text": "Muskeln bestehen aus Proteinen. Wenn du trainierst, entstehen kleine Risse in den Muskelfasern, und dein Körper repariert sie, indem er neue Eiweißstrukturen aufbaut. Ohne ausreichend Protein aus der Nahrung fehlt ihm schlicht das Baumaterial. Das Training war dann zwar ein Reiz, aber der Körper kann nicht optimal reagieren."
+      },
+      {
+        "type": "p",
+        "text": "Viele Leute essen zu wenig Eiweiß, ohne es zu merken. Ein normaler Bürotag mit Brötchen zum Frühstück, einem Salat zu Mittag und Pasta am Abend liefert oft deutlich weniger Protein, als der Körper nach dem Training braucht. Dabei muss die Ernährung gar nicht kompliziert werden, nur etwas gezielter."
+      },
+      {
+        "type": "h2",
+        "text": "Die besten proteinreichen Lebensmittel für deinen Alltag"
+      },
+      {
+        "type": "p",
+        "text": "Hier sind keine Exoten dabei. Das sind Lebensmittel, die du in jedem Supermarkt in Köln findest, auch beim Rewe um die Ecke oder beim Aldi. Wichtig ist, dass du lernst, sie regelmäßig in deinen Tag einzubauen, nicht nur einmal pro Woche."
+      },
+      {
+        "type": "p",
+        "text": "Eier sind nach wie vor eine der effizientesten Proteinquellen überhaupt. Schnell zubereitet, günstig, vielseitig. Magerquark und Hüttenkäse liefern viel Eiweiß pro 100 Gramm und passen sowohl zum Frühstück als auch als Snack. Hähnchenbrust ist der Klassiker, aber auch Thunfisch aus der Dose ist praktisch für unterwegs."
+      },
+      {
+        "type": "p",
+        "text": "Hülsenfrüchte wie Linsen, Kichererbsen oder Edamame werden unterschätzt. Sie sind günstig, machen satt und liefern neben Protein auch Ballaststoffe. Ich empfehle meinen Kunden in Köln, einmal pro Woche eine größere Portion Linsensuppe zu kochen und sie auf mehrere Tage aufzuteilen. Das spart Zeit und versorgt dich konstant."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Eier (ganze Eier, nicht nur Eiweiß)",
+          "Magerquark und Hüttenkäse",
+          "Hähnchenbrust oder Putenfilet",
+          "Thunfisch und Lachs",
+          "Linsen, Kichererbsen, Edamame",
+          "Griechischer Joghurt (Natur, ohne Zuckerzusatz)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wie viel Protein brauchst du wirklich pro Tag"
+      },
+      {
+        "type": "p",
+        "text": "Diese Frage höre ich täglich. Eine pauschale Antwort gibt es nicht, weil Körpergewicht, Trainingsintensität und Ziel eine Rolle spielen. Als grobe Orientierung gilt: Wer aktiv Muskeln aufbauen will, sollte pro Kilogramm Körpergewicht deutlich mehr Protein essen, als eine sitzende Person braucht. Konkrete Werte solltest du mit einem Fachmann besprechen, der deine Situation kennt."
+      },
+      {
+        "type": "p",
+        "text": "Was ich aus der Praxis sagen kann: Die meisten Berufstätigen, die zu mir kommen, liegen zu niedrig. Nicht weil sie es nicht wollen, sondern weil sie keine Struktur haben. Drei Mahlzeiten täglich mit je einer guten Proteinquelle bringen dich näher ans Ziel als jeder Shake, den du einmal am Tag trinkst und den Rest vergisst."
+      },
+      {
+        "type": "p",
+        "text": "Verteile dein Eiweiß über den Tag. Frühstück, Mittagessen, Abendessen. Das ist kein Hexenwerk. Wer morgens mit Magerquark und Beeren startet, mittags Hähnchen oder Hülsenfrüchte isst und abends Fisch oder Eier auf den Teller bringt, ist schon sehr nah dran."
+      },
+      {
+        "type": "h2",
+        "text": "Praktische Einkaufsliste für die Woche"
+      },
+      {
+        "type": "p",
+        "text": "Ich rate meinen Kunden, einmal pro Woche gezielt einzukaufen statt täglich spontane Entscheidungen zu treffen. Spontane Entscheidungen enden meistens mit dem Döner von der Ecke. Nicht schlimm, aber auch kein Plan."
+      },
+      {
+        "type": "p",
+        "text": "Plane für sieben Tage voraus: zwei Packungen Magerquark, ein Karton Eier, zwei Hähnchenbrüste oder Putenfilets, eine Dose Lachs und eine Dose Thunfisch, getrocknete Linsen oder eine Packung Kichererbsen. Dazu griechischer Joghurt und eine Tüte Edamame aus dem Tiefkühlregal. Das kostet keine zwanzig Euro und deckt einen Großteil deines Wochenbedarfs."
+      },
+      {
+        "type": "p",
+        "text": "Was viele vergessen: Proteinhaltigkeit alleine reicht nicht. Du brauchst auch Gemüse, gesunde Fette und Kohlenhydrate rund ums Training. Aber Protein ist oft das erste, was fehlt. Fang dort an, bevor du alles auf einmal umstellst."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "2x Magerquark (500g)",
+          "10 Eier",
+          "2 Hähnchenbrüste oder Putenfilets",
+          "1 Dose Lachs, 1 Dose Thunfisch",
+          "Linsen oder Kichererbsen (getrocknet oder aus der Dose)",
+          "Griechischer Joghurt Natur, Edamame tiefgekühlt"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Protein im Berufsalltag: So klappt es wirklich"
+      },
+      {
+        "type": "p",
+        "text": "Köln ist eine Stadt mit kurzen Mittagspausen und langen Arbeitstagen. Ich kenne das aus Gesprächen mit meinen Kunden. Wer abends trainiert und vorher acht Stunden im Büro saß, hat oft gar keine Zeit für aufwendiges Kochen. Deswegen müssen die Proteinquellen schnell zugänglich sein."
+      },
+      {
+        "type": "p",
+        "text": "Hüttenkäse in der Schublade. Hartgekochte Eier, die du am Abend vorher vorbereitet hast. Griechischer Joghurt in der Kühltasche. Das klingt banal, aber genau diese kleinen Vorbereitungen entscheiden darüber, ob du dein Ziel erreichst oder nicht. Training ohne passende Ernährung ist wie ein Auto ohne Benzin. Du kannst das Gaspedal drücken, so viel du willst."
+      },
+      {
+        "type": "p",
+        "text": "Mach es dir so einfach wie möglich. Nicht perfekt. Einfach. Wer drei Mal täglich eine brauchbare Proteinquelle auf dem Teller hat, ist besser aufgestellt als jemand, der montags einen perfekten Meal-Prep-Plan startet und donnerstags aufgibt."
+      },
+      {
+        "type": "h2",
+        "text": "Was mit pflanzlichem Protein wirklich geht"
+      },
+      {
+        "type": "p",
+        "text": "Ich bekomme diese Frage oft. Kann man auch mit rein pflanzlicher Ernährung Muskeln aufbauen? Ja, kann man. Es erfordert aber etwas mehr Planung, weil pflanzliche Proteinquellen oft weniger von bestimmten Aminosäuren enthalten als tierische. Das bedeutet nicht, dass es nicht funktioniert, sondern nur, dass du verschiedene Quellen kombinieren solltest."
+      },
+      {
+        "type": "p",
+        "text": "Linsen mit Reis, Kichererbsen mit Quinoa, Tofu mit Edamame. Diese Kombinationen ergänzen sich gut und liefern zusammen ein vollständigeres Aminosäureprofil. Wer kein Fleisch isst, sollte außerdem auf Hüttenkäse, Quark und Eier setzen, sofern er diese verträgt. Das sind günstige und alltagstaugliche Brücken zwischen rein veganer und gemischter Ernährung."
+      },
+      {
+        "type": "p",
+        "text": "Proteinpulver kann eine praktische Ergänzung sein. Aber es ist eine Ergänzung, kein Ersatz für echte Lebensmittel. Ein Shake nach dem Training ist okay. Drei Shakes täglich und kaum echtes Essen ist keine Lösung."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Proteinreiche Lebensmittel für den Muskelaufbau müssen nicht kompliziert sein. Ein klarer Einkaufsplan, drei solide Mahlzeiten pro Tag und ein bisschen Vorbereitung reichen für den Anfang. Wenn du in Köln lebst und wissen willst, wie du Ernährung und Training konkret auf dein Leben zuschneidest, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos und ohne Verpflichtung. Schreib mir einfach über angelocoach.com."
+      }
+    ]
   }
 ];
 
