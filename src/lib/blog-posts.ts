@@ -195,7 +195,7 @@ export const blogPosts: BlogPost[] = [
         text: "Online Coaching als Basis: individueller Trainingsplan, Ernährung, wöchentlicher Check-in. Dazu am Anfang zwei bis vier 1-zu-1 Stunden für die Technik, später eine Stunde pro Monat als Qualitätskontrolle. Du bekommst das Beste aus beidem und bleibst unter 250€ im Monat. In der kostenlosen Erstberatung rechnen wir dein Setup konkret durch.",
       },
     ],
-  },,
+  },
   {
     "slug": "personal-trainer-koeln-berufstaetige",
     "title": "Personal Trainer Köln für Berufstätige: Fit werden trotz Vollzeitjob",
