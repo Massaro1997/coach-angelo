@@ -1181,6 +1181,148 @@ export const blogPosts: BlogPost[] = [
         "text": "Gesund abnehmen ohne Hunger ist kein Trick und kein Geheimnis. Es ist das Ergebnis von ein paar klaren Entscheidungen, die du konsequent, aber ohne Druck umsetzt. Mehr Protein, sättigende Lebensmittel, ein moderates Defizit und ein bisschen Struktur im Alltag. Das reicht. Wenn du weißt, dass du Unterstützung brauchst, sei es beim Einstieg, beim Trainingsplan oder einfach um endlich mal einen Plan zu haben, der zu dir passt, melde dich gerne bei mir. Das erste Gespräch ist kostenlos, unverbindlich und auf Deutsch. Schreib mir einfach über angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "ernaehrungsplan-abnehmen-alltag",
+    "title": "Ernährungsplan für den Alltag: So nimmst du ab, ohne dein Leben umzukrempeln",
+    "metaTitle": "Ernährungsplan Alltag: Abnehmen ohne Diät",
+    "metaDescription": "Abnehmen im Alltag ohne Kalorienzählen? Angelo zeigt dir, wie ein alltagstauglicher Ernährungsplan wirklich funktioniert. Konkret, machbar, ohne Verbote.",
+    "date": "2026-06-12",
+    "readMinutes": 4,
+    "excerpt": "Kein Kalorienzählen, keine Verbote. Dieser Ernährungsplan zeigt Berufstätigen, wie Abnehmen im Alltag wirklich funktioniert, ohne alles auf den Kopf zu stellen.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du arbeitest vierzig Stunden die Woche, der Kühlschrank ist halb leer und Meal Prep klingt nach einem Sonntagsprojekt, das nie passiert. Trotzdem willst du abnehmen. Ich verstehe das, ich höre es täglich von meinen Klienten hier in Köln. Die gute Nachricht: Ein Ernährungsplan, der im Alltag wirklich funktioniert, sieht nicht aus wie eine Diätzeitschrift. Er passt sich an dein Leben an, nicht umgekehrt."
+      },
+      {
+        "type": "h2",
+        "text": "Warum die meisten Ernährungspläne im Alltag scheitern"
+      },
+      {
+        "type": "p",
+        "text": "Das Problem ist nicht fehlende Disziplin. Das Problem ist, dass die meisten Pläne für Menschen gemacht wurden, die den ganzen Tag Zeit haben. Detaillierte Mahlzeitenlisten, exakte Grammangaben, fünf verschiedene Zutaten für ein Frühstück. Wer um sieben Uhr morgens aus dem Haus muss, hat dafür keine Kapazität."
+      },
+      {
+        "type": "p",
+        "text": "Ich habe Klienten, die wochenlang perfekt durchgehalten haben und beim ersten langen Arbeitstag alles hingeschmissen haben. Nicht weil sie schwach sind, sondern weil der Plan keine Ausfälle eingeplant hat. Ein guter Ernährungsplan für den Alltag braucht Puffer, Alternativen und vor allem: Einfachheit. Weniger Regeln bedeuten mehr Spielraum, und mehr Spielraum bedeutet, dass du langfristig dabei bleibst."
+      },
+      {
+        "type": "p",
+        "text": "Das Ziel ist kein perfekter Plan. Das Ziel ist ein Plan, den du auch dann noch folgst, wenn die Woche chaotisch wird."
+      },
+      {
+        "type": "h2",
+        "text": "Die Basis: Drei Mahlzeiten, die du wirklich isst"
+      },
+      {
+        "type": "p",
+        "text": "Vergiss Snacks, Zwischenmahlzeiten und die Idee, alle drei Stunden etwas essen zu müssen. Drei solide Mahlzeiten am Tag sind für die meisten Berufstätigen realistischer und einfacher zu planen. Frühstück, Mittagessen, Abendessen. Das war es."
+      },
+      {
+        "type": "p",
+        "text": "Das Entscheidende ist, dass jede dieser Mahlzeiten eine gute Portion Eiweiss enthält. Eier, Hähnchen, Hülsenfrüchte, Quark, Fisch. Eiweiss hält länger satt als Kohlenhydrate allein, und das bedeutet weniger Heisshunger am Nachmittag. Wer nachmittags nicht aus Hunger zum Automaten rennt, hat schon viel gewonnen."
+      },
+      {
+        "type": "p",
+        "text": "Du musst nicht jeden Tag dasselbe essen. Aber es hilft, zwei oder drei Frühstücksvarianten zu kennen, die du ohne Nachdenken zubereiten kannst. Bei mir daheim läuft das genauso."
+      },
+      {
+        "type": "h2",
+        "text": "Abnehmen ohne Kalorienzählen: Was wirklich zählt"
+      },
+      {
+        "type": "p",
+        "text": "Kalorien zählen funktioniert, ist aber auf Dauer für die meisten Menschen nicht durchhaltbar. Es erzeugt Stress, es lenkt ab, und es macht aus Essen eine Rechenaufgabe. Das braucht kein Mensch. Es gibt einfachere Stellschrauben."
+      },
+      {
+        "type": "p",
+        "text": "Die wichtigste: Verarbeitete Lebensmittel reduzieren. Fertiggerichte, Weissbrot, zuckerhaltige Getränke, Snackriegel. Nicht weil sie 'böse' sind, sondern weil sie wenig sattmachen und gleichzeitig viele Kalorien liefern. Wer die Hälfte davon durch echte Lebensmittel ersetzt, merkt einen Unterschied, ohne eine einzige Kalorie gezählt zu haben."
+      },
+      {
+        "type": "p",
+        "text": "Ein zweiter, oft unterschätzter Faktor: Trinkgewohnheiten. Wasser und ungesüsster Tee statt Saft, Softdrinks oder mehrere Kaffeespezialitäten mit Sirup. Das klingt banal. Ich habe Klienten, die allein dadurch in wenigen Wochen deutlich weniger auf der Waage hatten."
+      },
+      {
+        "type": "h2",
+        "text": "Praktischer Ernährungsplan für die Arbeitswoche"
+      },
+      {
+        "type": "p",
+        "text": "Ich empfehle keinen Stundenplan mit vorgeschriebenen Gerichten. Was ich empfehle, ist ein System. Du wählst sonntags aus, was du die Woche über essen willst, kaufst einmal ein und hast für drei bis vier Tage eine Basis. Das spart Zeit und verhindert, dass du abends ratlos vor dem Kühlschrank stehst."
+      },
+      {
+        "type": "p",
+        "text": "Frühstück: Haferflocken mit Quark und Obst, Rührei mit Gemüse oder griechischer Joghurt mit Nüssen. Alles unter zehn Minuten. Mittagessen: Wenn du ins Büro fährst, eine Box mit Salat und Hühnchen oder Linsen ist in zwanzig Minuten vorbereitet. Wenn du ausser Haus isst, wähle das Gericht mit dem meisten Gemüse und einer Eiweissquelle. Abendessen darf simpel sein. Lachs mit Brokkoli, Nudeln mit Hähnchen und Gemüse, Suppe aus Resten."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Sonntag: einmal einkaufen für die ganze Woche",
+          "Eiweiss bei jeder Hauptmahlzeit einplanen",
+          "Mindestens eine Gemüseportion pro Mahlzeit",
+          "Zuckerhaltige Getränke durch Wasser ersetzen",
+          "Maximal eine Ausnahme pro Tag, bewusst geniessen",
+          "Mittagsbox vorbereiten, wenn möglich"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Auswärts essen und Ausnahmen: So bleibst du trotzdem auf Kurs"
+      },
+      {
+        "type": "p",
+        "text": "Restaurants, Betriebskantine, der Geburtstag eines Kollegen. Das Leben passiert, und ein Ernährungsplan, der mit der ersten Einladung zusammenbricht, taugt nichts. Mein Tipp: Ausnahmen einplanen, nicht verbieten. Wer weiss, dass er freitagabends mit Freunden essen geht, kann die restliche Woche entspannt und sauber essen."
+      },
+      {
+        "type": "p",
+        "text": "Im Restaurant hilft eine einfache Regel: Wähle das Gericht, das dir wirklich schmeckt, und iss es langsam. Kein Schuldgefühl, kein Kompensieren am nächsten Tag. Einmalige Ausnahmen machen keinen messbaren Unterschied, aber das schlechte Gewissen danach führt oft zu einem 'egal-jetzt'-Effekt, der wirklich schadet."
+      },
+      {
+        "type": "p",
+        "text": "Berufstätige, die regelmässig Geschäftsessen haben, sollten eine Standardwahl entwickeln. Ein Gericht, das du fast überall bekommst und das dich nicht wirft. Für mich ist das meistens Fisch oder Hähnchen mit Salat. Klingt langweilig, funktioniert aber."
+      },
+      {
+        "type": "h2",
+        "text": "Gewohnheiten statt Willenskraft: Wie du langfristig dranbleibst"
+      },
+      {
+        "type": "p",
+        "text": "Willenskraft ist eine begrenzte Ressource. Wer den ganzen Tag schwierige Entscheidungen trifft, hat abends kaum noch Kapazität, auch noch beim Essen stark zu sein. Deshalb ist der Trick nicht, willenskräftiger zu werden, sondern Entscheidungen zu reduzieren."
+      },
+      {
+        "type": "p",
+        "text": "Automatisiere das Frühstück. Immer dasselbe, oder maximal zwei Varianten. Leg dir Gemüse bereits geschnitten in den Kühlschrank. Stell Wasser auf den Schreibtisch, nicht neben die Kaffeemaschine. Das sind keine Tricks, das ist Verhaltenspsychologie im Alltag. Je weniger du nachdenken musst, desto seltener greifst du zu dem, was du eigentlich nicht willst."
+      },
+      {
+        "type": "p",
+        "text": "Fortschritt sieht nicht immer linear aus. Es gibt Wochen, in denen nichts klappt. Das ist normal und kein Zeichen, dass du gescheitert bist. Wer nach einem schlechten Tag einfach weitermacht, ist weiter als jemand, der nach Perfektion sucht und beim ersten Stolpern aufgibt."
+      },
+      {
+        "type": "h2",
+        "text": "Was ein Personal Trainer für die Ernährung wirklich bringt"
+      },
+      {
+        "type": "p",
+        "text": "Viele denken, ein Personal Trainer ist nur für das Training zuständig. In meiner Arbeit hier in Köln nehme ich Ernährung genauso ernst. Nicht weil ich dir eine Diät vorschreibe, sondern weil ich dir helfe, herauszufinden, was in deinem Alltag machbar ist und was nicht."
+      },
+      {
+        "type": "p",
+        "text": "Jeder Mensch hat andere Arbeitstage, andere Vorlieben, andere Kühlschrankinhalte. Ein allgemeiner Ernährungsplan aus dem Internet kennt das nicht. Ein persönliches Gespräch schon. Ich schaue mir an, was du bisher gegessen hast, wo die grössten Hebel sind, und wir bauen von dort aus. Ohne radikale Umstellung, ohne lange Verbotslisten."
+      },
+      {
+        "type": "p",
+        "text": "Das Ergebnis ist ein Ernährungsplan, der zu dir passt, nicht einer, bei dem du nach zwei Wochen kapitulierst."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Abnehmen im Alltag ist keine Frage der perfekten Diät. Es ist eine Frage der richtigen Gewohnheiten, die zu deinem Leben passen. Wenn du wissen willst, wie das konkret für dich aussehen kann, buch dir jetzt ein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsgespräch, kein Druck. Einfach dreissig Minuten, in denen wir schauen, was für dich funktioniert."
+      }
+    ]
   }
 ];
 
