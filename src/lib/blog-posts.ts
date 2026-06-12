@@ -330,6 +330,129 @@ export const blogPosts: BlogPost[] = [
         "text": "Du musst deinen Job nicht kündigen, um fit zu werden. Du brauchst einen Plan, der zu deinem Leben in Köln passt, nicht umgekehrt. Wenn du wissen willst, wie das konkret für dich aussieht, lade ich dich zu einem kostenlosen Erstgespräch ein. Wir schauen uns zusammen an, wo du stehst, was du willst und wie wir das realistisch umsetzen. Kein Druck, kein Verkaufsgespräch, einfach ein offenes Gespräch unter zwei Menschen. Schreib mir auf angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "rueckenschmerzen-bueroarbeit-uebungen",
+    "title": "Rückenschmerzen durch Büroarbeit: 7 Übungen, die wirklich helfen",
+    "metaTitle": "Rückenschmerzen Büroarbeit: 7 Übungen die helfen",
+    "metaDescription": "Rückenschmerzen durch Büroarbeit? Personal Trainer Angelo aus Köln zeigt 7 alltagstaugliche Übungen, die du sofort am Schreibtisch oder zuhause umsetzen kannst.",
+    "date": "2026-06-12",
+    "readMinutes": 4,
+    "excerpt": "Schreibtisch, steifer Rücken, und kein Ende in Sicht? Personal Trainer Angelo aus Köln erklärt, welche 7 Übungen Büroangestellten wirklich Linderung bringen.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du sitzt acht Stunden am Schreibtisch, der untere Rücken zieht, die Schultern sind hochgezogen, und abends auf der Couch ist es auch nicht besser. Das kennen sehr viele Berufstätige in Köln und anderswo. Die gute Nachricht: Du brauchst kein Fitnessstudio und keine teure Ausstattung, um diesen Kreislauf zu durchbrechen. Diese sieben Übungen kannst du in deinen Alltag einbauen, ohne dafür extra Zeit zu opfern."
+      },
+      {
+        "type": "h2",
+        "text": "Warum der Schreibtisch deinem Rücken so zusetzt"
+      },
+      {
+        "type": "p",
+        "text": "Das Problem ist nicht die Arbeit selbst, sondern die Kombination aus Bewegungsarmut und dauerhaft gleicher Körperhaltung. Wenn du stundenlang sitzt, verkürzen sich die Hüftbeuger, die tiefe Bauchmuskulatur schläft ein, und die Brustwirbelsäule wird immer runder. Der Körper passt sich an, was du ihm gibst. Und wenn du ihm acht Stunden statisches Sitzen gibst, bekommst du genau das zurück."
+      },
+      {
+        "type": "p",
+        "text": "Hinzu kommt, dass viele Bürostühle und Schreibtischhöhen nicht optimal eingestellt sind. Aber selbst mit dem besten ergonomischen Stuhl brauchst du regelmäßige Bewegung. Kein Möbelstück der Welt ersetzt das. Der Schlüssel liegt in gezielter Aktivierung der Muskeln, die beim Sitzen kaum arbeiten."
+      },
+      {
+        "type": "h2",
+        "text": "Bevor du anfängst: Diese zwei Grundregeln"
+      },
+      {
+        "type": "p",
+        "text": "Erstens: Schmerz ist kein Fortschritt. Wenn eine Übung ein stechendes oder ausgeprägtes Ziehen verursacht, hör sofort auf. Ein leichtes Spannungsgefühl ist normal, ein scharfer Schmerz nicht. Bei anhaltenden oder starken Beschwerden gehst du bitte zuerst zum Arzt oder Physiotherapeuten."
+      },
+      {
+        "type": "p",
+        "text": "Zweitens: Regelmäßigkeit schlägt Intensität. Drei Mal pro Woche zwanzig Minuten bringen dir deutlich mehr als einmal pro Woche eine Stunde, bei der du danach zwei Tage kaum laufen kannst. Setz dir eine feste Zeit, zum Beispiel direkt nach dem Aufstehen oder in der Mittagspause. Das ist der einzige Trick, der wirklich funktioniert."
+      },
+      {
+        "type": "h2",
+        "text": "Die 7 Übungen gegen Rückenschmerzen aus dem Büro"
+      },
+      {
+        "type": "p",
+        "text": "Diese Auswahl ist kein Zufallsprodukt. Ich nutze sie seit Jahren mit Klienten, die Bürojobs haben, und sie decken genau die Schwachstellen ab, die langes Sitzen erzeugt: verkürzte Hüftbeuger, schwache tiefe Bauchmuskulatur, blockierte Brustwirbelsäule und zu wenig Stabilität rund um das Becken."
+      },
+      {
+        "type": "p",
+        "text": "Du brauchst eine Gymnastikmatte, maximal zwanzig Minuten, und die Bereitschaft, wirklich dabei zu bleiben. Die Übungen sind so gewählt, dass du sie zuhause oder im Büro in der Mittagspause durchführen kannst."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Hüftbeuger-Dehnung im Ausfallschritt (je 45 Sekunden pro Seite)",
+          "Beckenkippen im Liegen (3 x 15 Wiederholungen, langsam)",
+          "Dead Bug: Arm-Bein-Koordination auf dem Boden (3 x 10 pro Seite)",
+          "Katze-Kuh: Wirbelsäulenmobilisation im Vierfüßlerstand (2 x 10)",
+          "Brücke: Gesäß und hintere Oberschenkel aktivieren (3 x 12)",
+          "Thorakale Rotation im Sitzen oder Liegen (2 x 8 pro Seite)",
+          "Wandstehen mit flachem Rücken zur Haltungskorrektur (2 x 60 Sekunden)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "So führst du die wichtigsten Übungen richtig aus"
+      },
+      {
+        "type": "p",
+        "text": "Beim Dead Bug legst du dich auf den Rücken, beide Arme zeigen senkrecht zur Decke, beide Beine sind im 90-Grad-Winkel angehoben. Dann streckst du langsam einen Arm über den Kopf, während das gegenüberliegende Bein nach vorne gestreckt wird, ohne dass der untere Rücken vom Boden abhebt. Das ist die entscheidende Bedingung. Wenn du den Rücken nicht unten halten kannst, ist die Bewegung zu groß. Reduziere den Bewegungsradius."
+      },
+      {
+        "type": "p",
+        "text": "Die thorakale Rotation machst du am einfachsten so: Setz dich aufrecht hin, verschränke die Arme vor der Brust, und drehe den Oberkörper so weit wie möglich nach rechts und links, ohne dass das Becken mitwandert. Diese Übung öffnet genau den Teil der Wirbelsäule, der beim Sitzen am stärksten einfriert. Viele meiner Klienten spüren hier schon nach einer Woche einen Unterschied."
+      },
+      {
+        "type": "p",
+        "text": "Das Wandstehen klingt simpel, ist aber effektiv. Stell dich mit dem Rücken an die Wand, Fersen etwa zehn Zentimeter vom Wandabstand, Schultern und Hinterkopf berühren die Wand, der untere Rücken hat eine kleine natürliche Wölbung. Halte diese Position und atme bewusst. Du trainierst damit die aufrechte Haltung, ohne ein einziges Gerät zu brauchen."
+      },
+      {
+        "type": "h2",
+        "text": "Was du zusätzlich im Büro ändern kannst"
+      },
+      {
+        "type": "p",
+        "text": "Übungen allein lösen das Problem nicht vollständig, wenn du den Rest des Tages nichts veränderst. Der einfachste Hebel: Steh alle 45 bis 60 Minuten kurz auf. Nicht für fünf Minuten, einfach nur kurz aufstehen, drei Schritte gehen, wieder hinsetzen. Das reicht, um den Muskeltonus zu unterbrechen und die Durchblutung anzuregen."
+      },
+      {
+        "type": "p",
+        "text": "Schau dir auch deinen Bildschirm an. Die Oberkante sollte ungefähr auf Augenhöhe sein, damit dein Kopf nicht nach unten sinkt. Ein nach vorne gebeugter Kopf belastet die Halswirbelsäule enorm, und das zieht sich direkt in den oberen und mittleren Rücken. Das ist ein einfacher Fix mit großer Wirkung."
+      },
+      {
+        "type": "h2",
+        "text": "Wie lange dauert es, bis du Ergebnisse merkst"
+      },
+      {
+        "type": "p",
+        "text": "Ich werde keine Zahl aus dem Hut zaubern. Es hängt davon ab, wie lange du die Beschwerden schon hast, wie regelmäßig du die Übungen machst, und wie dein allgemeines Aktivitätsniveau ist. Was ich aus der Praxis sagen kann: Wer konsequent drei bis vier Mal pro Woche diese Übungen durchführt, merkt in der Regel nach zwei bis drei Wochen, dass sich etwas verändert. Der Rücken wird morgens lockerer, das Spannen im Sitzen lässt nach."
+      },
+      {
+        "type": "p",
+        "text": "Das bedeutet nicht, dass alle Probleme weg sind. Tiefgreifende Muskelschwächen, die sich über Monate oder Jahre aufgebaut haben, brauchen Zeit. Aber du wirst den Unterschied spüren, wenn du es ernst nimmst. Und genau das ist der Punkt: Ernst nehmen heißt nicht perfekt, es heißt dran bleiben."
+      },
+      {
+        "type": "h2",
+        "text": "Wann du professionelle Unterstützung brauchst"
+      },
+      {
+        "type": "p",
+        "text": "Es gibt Situationen, in denen Selbsthilfe nicht ausreicht. Wenn du Schmerzen hast, die in die Beine ausstrahlen, wenn du Kribbeln oder Taubheit spürst, oder wenn die Schmerzen trotz regelmäßiger Übungen über Wochen nicht besser werden, dann ist ein Arztbesuch Pflicht. Diese Symptome können auf eine strukturelle Ursache hinweisen, die abgeklärt werden muss."
+      },
+      {
+        "type": "p",
+        "text": "Wenn die Diagnose klar ist und du einfach Anleitung brauchst, wie du deinen Körper langfristig aufbaust und Rückfälle verhinderst, kann ein Personal Trainer genau das richtige sein. Ich begleite Klienten in Köln dabei, alltagstaugliche Trainingspläne zu entwickeln, die sie tatsächlich umsetzen können. Kein Einheitsplan, kein Copy-Paste."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Rückenschmerzen durch Büroarbeit sind kein Schicksal, das du einfach hinnehmen musst. Mit den richtigen Übungen, etwas Konsequenz und kleinen Veränderungen im Arbeitsalltag kannst du sehr viel erreichen, ohne dein Leben umzukrempeln. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du dir unsicher bist, ob du die Übungen korrekt ausführst: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, einfach ein ehrlicher Austausch darüber, was dir wirklich hilft. Meld dich gerne über angelocoach.com."
+      }
+    ]
   }
 ];
 
