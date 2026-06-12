@@ -195,7 +195,142 @@ export const blogPosts: BlogPost[] = [
         text: "Online Coaching als Basis: individueller Trainingsplan, Ernährung, wöchentlicher Check-in. Dazu am Anfang zwei bis vier 1-zu-1 Stunden für die Technik, später eine Stunde pro Monat als Qualitätskontrolle. Du bekommst das Beste aus beidem und bleibst unter 250€ im Monat. In der kostenlosen Erstberatung rechnen wir dein Setup konkret durch.",
       },
     ],
-  },
+  },,
+  {
+    "slug": "personal-trainer-koeln-berufstaetige",
+    "title": "Personal Trainer Köln für Berufstätige: Fit werden trotz Vollzeitjob",
+    "metaTitle": "Personal Trainer Köln für Berufstätige: Fit trotz Job",
+    "metaDescription": "Personal Trainer Köln für Berufstätige: Angelo zeigt dir, wie du mit wenig Zeit und smartem Training nachhaltige Ergebnisse erzielst. Jetzt informieren.",
+    "date": "2026-06-12",
+    "readMinutes": 5,
+    "excerpt": "Vollzeitjob, Familie, Pendeln: Kaum Zeit für Sport. Angelo, Personal Trainer in Köln, zeigt dir, wie smartes Training auch bei vollem Terminkalender funktioniert.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Morgens früh raus, abends erschöpft nach Hause, dazwischen Meetings und Pendeln durch Köln. Fitness klingt da fast wie Luxus. Ich bin Angelo, Personal Trainer in Köln, und ich arbeite genau mit solchen Menschen: Berufstätigen, die keine Zeit zu verschenken haben und trotzdem etwas an ihrer Fitness ändern wollen. Hier erfährst du, wie das konkret aussieht."
+      },
+      {
+        "type": "h2",
+        "text": "Warum klassische Fitnesspläne für Berufstätige scheitern"
+      },
+      {
+        "type": "p",
+        "text": "Die meisten Trainingspläne gehen davon aus, dass du fünf Mal pro Woche ins Studio kannst, morgens Zeit für Cardio hast und abends entspannt kochen kannst. Das klappt vielleicht in den ersten zwei Wochen. Dann kommt ein langer Projekttag, eine Dienstreise nach Düsseldorf oder einfach ein Abend, an dem du nichts mehr willst außer Ruhe. Der Plan bricht zusammen, die Motivation auch."
+      },
+      {
+        "type": "p",
+        "text": "Das Problem liegt nicht an dir. Es liegt an einem Plan, der deinen Alltag nicht kennt. Ein guter Personal Trainer in Köln schaut sich zuerst an, wie deine Woche tatsächlich aussieht: wann du Energie hast, wann du erschöpft bist, wann sich ein kurzes Training realistisch einbauen lässt. Erst dann entsteht ein Plan, der auch in Woche sieben noch funktioniert."
+      },
+      {
+        "type": "h2",
+        "text": "Wie viel Training braucht ein Berufstätiger wirklich"
+      },
+      {
+        "type": "p",
+        "text": "Kurze Antwort: weniger, als du denkst. Zwei bis drei Einheiten pro Woche reichen aus, um deinen Körper spürbar zu verändern, vorausgesetzt, jede Einheit sitzt. Das bedeutet: kein Herumstehen, kein Scrollen zwischen den Sätzen, kein halb-herziges Laufen auf dem Laufband. Fokussiertes Training von 45 bis 60 Minuten bringt mehr als zwei Stunden halbherziger Beschäftigung."
+      },
+      {
+        "type": "p",
+        "text": "Ich sage das aus Erfahrung, nicht aus einem Lehrbuch. Die Berufstätigen, die ich in Köln betreue, kommen oft mit der Überzeugung, sie bräuchten täglich Sport. Was sie wirklich brauchen, ist Konsistenz über Monate. Drei solide Einheiten pro Woche, konsequent über zwölf Wochen, verändern mehr als sieben chaotische Einheiten, die nach drei Wochen aufgehört haben."
+      },
+      {
+        "type": "h2",
+        "text": "Trainingsformen, die sich in einen vollen Terminkalender einfügen"
+      },
+      {
+        "type": "p",
+        "text": "Wenn du abends um 19 Uhr aus dem Büro kommst, willst du keine 90-Minuten-Session mehr. Das verstehe ich. Deshalb setze ich mit Berufstätigen oft auf Krafttraining mit Ganzkörperübungen, die in 45 Minuten abgeschlossen sind. Kniebeugen, Kreuzheben, Rudern, Drücken: Vier bis fünf Übungen, gut ausgeführt, fertig. Kein Schnickschnack, aber maximale Wirkung."
+      },
+      {
+        "type": "p",
+        "text": "Mittags in der Mittagspause gibt es in Köln gute Möglichkeiten, besonders in der Innenstadt und in Deutz. Eine 30-Minuten-Einheit reicht, wenn sie strukturiert ist. Ich plane solche Kurztrainings explizit für Kunden, die in der Nähe des Büros trainieren wollen. Das spart Abendzeit und gibt dir mittags einen klaren Kopf für die zweite Tageshälfte."
+      },
+      {
+        "type": "p",
+        "text": "Morgentraining ist eine weitere Option, die viele unterschätzen. Ja, der Wecker klingelt früher. Aber viele meiner Kunden berichten, dass sie danach produktiver in den Arbeitstag starten. Du musst das nicht jeden Tag machen, zweimal pro Woche morgens und einmal am Wochenende reicht vollkommen aus."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Ganzkörper-Krafteinheiten in 45 Minuten",
+          "Mittagspausen-Training nahe dem Büro",
+          "Morgeneinheiten zweimal pro Woche",
+          "Wochenendtraining als dritte Einheit",
+          "Kein Cardio um des Cardios willen, Bewegung mit Zweck"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung im Büroalltag: keine Perfektion, aber Struktur"
+      },
+      {
+        "type": "p",
+        "text": "Du wirst nicht jeden Tag frisch kochen. Das wäre schön, ist aber nicht realistisch, wenn du um 8 Uhr im Büro bist und erst um 19 Uhr nach Hause kommst. Was du stattdessen brauchst, sind ein paar feste Gewohnheiten, die du auch unter Stress nicht komplett aus den Augen verlierst. Ein gutes Frühstück mit ausreichend Protein, ein Mittagessen, das dich satt macht ohne müde, und ein Abendessen, das nicht aus dem erstbesten Lieferdienst kommt."
+      },
+      {
+        "type": "p",
+        "text": "Ich rate meinen Kunden, Meal Prep nicht als Pflicht, sondern als Werkzeug zu sehen. Einmal pro Woche eine Stunde in der Küche spart dir abends viermal 20 Minuten Überlegung und schlechte Spontanentscheidungen. Konkret heißt das: ein paar Portionen Reis oder Kartoffeln vorgekocht, etwas Hähnchen oder Linsen, Gemüse im Kühlschrank. Keine Diät, keine Verbote, einfach eine Basis, auf die du zurückgreifst."
+      },
+      {
+        "type": "h2",
+        "text": "Erholung: der Teil, den die meisten Berufstätigen ignorieren"
+      },
+      {
+        "type": "p",
+        "text": "Schlaf ist kein Bonus, er ist Teil des Trainings. Wenn du nacht für Nacht zu wenig schläfst, wirst du trotz gutem Training kaum Fortschritte sehen, dein Körper kommt einfach nicht in die Regenerationsphase, die er braucht. Das ist keine Entschuldigung, sondern eine Tatsache aus der Praxis. Ich sehe es bei Kunden, die gut trainieren, aber chronisch übermüdet sind: Die Ergebnisse stagnieren."
+      },
+      {
+        "type": "p",
+        "text": "Aktive Erholung funktioniert besser als komplette Passivität an freien Tagen. Ein Spaziergang an der Rheinuferpromenade in Köln, eine lockere Radtour durch Müngersdorf oder einfach 20 Minuten Dehnen zu Hause halten deinen Körper in Bewegung, ohne ihn zu belasten. Das klingt simpel, weil es simpel ist. Trotzdem machen es die wenigsten konsequent."
+      },
+      {
+        "type": "h2",
+        "text": "Was ein Personal Trainer in Köln konkret für dich tut"
+      },
+      {
+        "type": "p",
+        "text": "Ich nehme dir die Planung komplett ab. Du kommst zum Training, ich sage dir was du tust, korrigiere deine Ausführung und passe die Belastung Woche für Woche an. Das klingt nach wenig, aber es ist der entscheidende Unterschied. Wer alleine trainiert, schiebt Einheiten auf, macht Übungen falsch ohne es zu merken und verliert nach ein paar Wochen den Faden."
+      },
+      {
+        "type": "p",
+        "text": "Konkret bedeutet das: Wir legen in einem ersten Gespräch fest, was dein Ziel ist, wie deine Woche aussieht und welche Rahmenbedingungen gelten. Dann baue ich dir einen Plan, der zu dir passt, nicht zu einem fiktiven Menschen mit fünf freien Abenden. Wir trainieren gemeinsam, du lernst, wie sich richtige Ausführung anfühlt, und mit der Zeit kannst du auch eigenständige Einheiten sinnvoll gestalten."
+      },
+      {
+        "type": "p",
+        "text": "Ich biete Einzeltraining in Köln an, wahlweise in deiner Nähe oder in einem Studio, das für dich gut erreichbar ist. Für manche Kunden fahre ich auch direkt zum Firmensitz, wenn das die einzige realistische Option ist. Flexibilität ist kein Sonderservice, sondern Teil meiner Arbeit mit Berufstätigen."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Individuelle Trainingsplanung nach deinem Alltag",
+          "Technikkorrekturen und Begleitung bei jeder Einheit",
+          "Anpassung der Belastung Woche für Woche",
+          "Ernährungsberatung ohne Verbote",
+          "Flexible Trainingszeiten und Orte in Köln"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Typische Fehler, die Berufstätige beim Selbsttraining machen"
+      },
+      {
+        "type": "p",
+        "text": "Der häufigste Fehler: zu viel auf einmal wollen. Du startest motiviert, planst sieben Einheiten pro Woche, hältst das zwei Wochen durch und gibst dann komplett auf. Besser ist ein Plan, der sich von Anfang an realistisch anfühlt. Lieber zweimal pro Woche konsequent als siebenmal mit dem Vorsatz, der nie funktioniert."
+      },
+      {
+        "type": "p",
+        "text": "Ein weiterer Fehler ist das Fehlen von Progression. Viele Berufstätige trainieren seit Monaten mit denselben Gewichten, denselben Übungen, demselben Ablauf. Das ist zwar besser als gar nichts, aber dein Körper gewöhnt sich an Reize, er braucht neue Herausforderungen. Genau das steuert ein Personal Trainer: er sieht, wann du bereit bist für mehr, und gibt dir den nächsten Schritt."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Du musst deinen Job nicht kündigen, um fit zu werden. Du brauchst einen Plan, der zu deinem Leben in Köln passt, nicht umgekehrt. Wenn du wissen willst, wie das konkret für dich aussieht, lade ich dich zu einem kostenlosen Erstgespräch ein. Wir schauen uns zusammen an, wo du stehst, was du willst und wie wir das realistisch umsetzen. Kein Druck, kein Verkaufsgespräch, einfach ein offenes Gespräch unter zwei Menschen. Schreib mir auf angelocoach.com."
+      }
+    ]
+  }
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
