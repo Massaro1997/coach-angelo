@@ -737,6 +737,161 @@ export const blogPosts: BlogPost[] = [
         "text": "Dranbleiben ist keine Frage von Härte oder Willenskraft. Es ist eine Frage von Strategie, Gewohnheiten und dem richtigen Umfeld. Wenn du merkst, dass du immer wieder an denselben Punkten hängen bleibst, muss das nicht so sein. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam anschauen, wo bei dir der Knoten liegt und wie ein Plan aussehen kann, der wirklich zu deinem Alltag passt. Kein Verkaufsgespräch, kein Druck, einfach ein ehrliches Gespräch unter vier Augen."
       }
     ]
+  },
+  {
+    "slug": "training-ab-40-mann",
+    "title": "Training ab 40: Warum dein Körper andere Regeln braucht und wie du trotzdem stärker wirst",
+    "metaTitle": "Training ab 40 Mann: Stärker werden trotz Veränderung",
+    "metaDescription": "Training ab 40 als Mann funktioniert anders. Angelo erklärt, wie du Muskelaufbau und Regeneration anpasst und trotzdem stärker wirst. Praxistipps aus Köln.",
+    "date": "2026-06-12",
+    "readMinutes": 5,
+    "excerpt": "Ab 40 verändert sich der Körper spürbar. Hier erfährst du, welche Anpassungen im Training wirklich funktionieren und wie du gezielt stärker wirst.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du bist über 40, trainierst regelmäßig und merkst trotzdem, dass irgendetwas nicht mehr so funktioniert wie früher. Die Knie melden sich nach dem Beintraining, die Schulter zickt, und die Erholung dauert länger als gedacht. Das ist keine Schwäche. Das ist Biologie. Und wenn du verstehst, was sich verändert hat, kannst du dein Training so anpassen, dass du in deinen 40ern stärker wirst als je zuvor."
+      },
+      {
+        "type": "h2",
+        "text": "Was sich ab 40 wirklich verändert"
+      },
+      {
+        "type": "p",
+        "text": "Der größte Irrtum ist, dass du ab 40 einfach weniger leisten kannst. Stimmt nicht. Was sich verändert, ist der Zeitraum, den dein Körper für Anpassungen braucht. Die Muskelproteinsynthese läuft nach dem Training etwas langsamer an als mit 25. Das bedeutet nicht, dass du weniger Fortschritt machst, sondern dass du dem Prozess mehr Raum geben musst."
+      },
+      {
+        "type": "p",
+        "text": "Dazu kommt der Hormonspiegel. Testosteron und Wachstumshormone nehmen mit dem Alter schrittweise ab. Das ist ein schleichender Prozess, kein plötzlicher Einbruch. Die Konsequenz im Alltag: Fett sitzt hartnäckiger, Muskeln bauen sich ohne Reiz schneller ab, und Schlaf wird zum echten Leistungsfaktor. Wer das ignoriert und trainiert wie mit 25, landet früher oder später mit Überlastungsschäden auf der Matte."
+      },
+      {
+        "type": "p",
+        "text": "Gelenke und Sehnen reagieren außerdem empfindlicher auf zu schnelle Laststeigerungen. Das Gewebe braucht mehr Aufwärmzeit und mehr Abstand zwischen intensiven Einheiten. Das klingt nach Einschränkung, ist aber in Wirklichkeit eine Chance: Du lernst, smarter zu trainieren statt einfach nur härter."
+      },
+      {
+        "type": "h2",
+        "text": "Krafttraining ab 40: Was wirklich funktioniert"
+      },
+      {
+        "type": "p",
+        "text": "Krafttraining bleibt das effektivste Werkzeug, das du hast. Kein Diskurs. Wer ab 40 regelmäßig mit Gewichten trainiert, schützt Muskelmasse, stärkt Knochen, verbessert die Insulinsensitivität und bleibt langfristig leistungsfähig. Das gilt für Einsteiger genauso wie für erfahrene Sportler."
+      },
+      {
+        "type": "p",
+        "text": "Der Unterschied liegt in der Programmgestaltung. Drei bis vier Krafttrainingseinheiten pro Woche sind für die meisten Männer ab 40 der sinnvolle Rahmen. Nicht fünf oder sechs. Volumen ist wichtig, aber Erholung ist genauso ein Teil des Trainings wie die Einheit selbst. Wer montags Beine powert und mittwochs wieder unter die Kniebeuge geht, ohne dass die Muskeln sich erholt haben, erzeugt Reize ohne Anpassung."
+      },
+      {
+        "type": "p",
+        "text": "Beim Gewicht gilt: Lass das Ego vor der Tür. Arbeite in einem Wiederholungsbereich, der saubere Ausführung erlaubt. Sechs bis zwölf Wiederholungen pro Satz mit einem Gewicht, das du technisch sauber bewegst, bringt mehr Ergebnis als maximales Gewicht mit halber Bewegung und verspanntem Nacken."
+      },
+      {
+        "type": "h2",
+        "text": "Regeneration ist kein Luxus, sondern Training"
+      },
+      {
+        "type": "p",
+        "text": "Viele Männer ab 40 schlafen fünf bis sechs Stunden, trinken zu wenig, essen unregelmäßig und wundern sich dann, warum sie trotz hartem Training nicht vorankommen. Der Körper wächst nicht im Training. Er wächst in der Erholung. Und die braucht Zeit, Nährstoffe und Schlaf."
+      },
+      {
+        "type": "p",
+        "text": "Sieben bis acht Stunden Schlaf sind keine weiche Empfehlung, sondern die Grundlage für alles. In dieser Zeit schüttet der Körper den größten Teil seiner Wachstumshormone aus, repariert Gewebe und verarbeitet den Trainingsreiz. Wer das unterschätzt, blockiert seinen eigenen Fortschritt, ganz egal wie gut sein Trainingsplan ist."
+      },
+      {
+        "type": "p",
+        "text": "Zwischen zwei intensiven Einheiten für dieselbe Muskelgruppe sollten mindestens 48 Stunden liegen. An den Erholungstagen kannst du trotzdem aktiv sein: ein lockerer Spaziergang, Mobilityarbeit, leichtes Radfahren. Das fördert die Durchblutung, ohne neue Ermüdung zu erzeugen. Aktive Erholung ist kein Widerspruch, sie beschleunigt den Prozess."
+      },
+      {
+        "type": "h2",
+        "text": "Mobilität und Gelenke: Der Teil, den die meisten überspringen"
+      },
+      {
+        "type": "p",
+        "text": "Ich sehe es in meinen Trainings in Köln immer wieder: Männer ab 40, die jahrelang Krafttraining gemacht haben, aber nie an ihrer Beweglichkeit gearbeitet haben. Das rächt sich. Eingeschränkte Hüftmobilität führt zu Ausweichbewegungen bei der Kniebeuge, eine verklebte Brustwirbelsäule macht sauberes Bankdrücken unmöglich, und enge Schultern sorgen für chronische Beschwerden beim Überkopfdrücken."
+      },
+      {
+        "type": "p",
+        "text": "Zehn bis fünfzehn Minuten Mobilityarbeit vor dem Training sind kein Zeitverlust. Sie sind eine Investition in die Qualität jeder einzelnen Übung. Hüftöffner, Thoraxrotation, Schulterkreisen mit Widerstand, das sind keine Yoga-Extras, sondern direkte Vorarbeit für saubere Bewegungsmuster unter Last."
+      },
+      {
+        "type": "p",
+        "text": "Nach dem Training lohnt sich leichtes Dehnen für die beanspruchten Muskelgruppen. Nicht als Mythos-Befehl, sondern weil es dir hilft, den Körper besser wahrzunehmen und Spannungen früh zu erkennen, bevor sie zu Problemen werden. Wer seinen Körper gut kennt, kann Überlastung vermeiden, bevor sie entsteht."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Hüftöffner vor dem Beintraining",
+          "Thoraxrotation vor dem Drücken",
+          "Schulterkreisen mit Widerstandsband",
+          "Knöchelkreisen vor Knieübungen",
+          "Brücke zur Aktivierung der hinteren Kette"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung ab 40: Weniger Spielraum, mehr Wirkung"
+      },
+      {
+        "type": "p",
+        "text": "Mit 40 verzeiht der Körper weniger. Zwei Wochen schlechter Schlaf und Fast Food mit 25 hat kaum Spuren hinterlassen. Mit 40 merkt man das am Bauch, an der Energie und an der Leistung im Training. Das bedeutet nicht, dass du auf alles verzichten musst. Es bedeutet, dass Konsistenz wichtiger ist als Perfektion."
+      },
+      {
+        "type": "p",
+        "text": "Protein ist die wichtigste Stellschraube. Für Männer ab 40, die regelmäßig Krafttraining betreiben, ist eine ausreichende tägliche Proteinzufuhr entscheidend für den Muskelerhalt und den Aufbau. Gute Quellen im Alltag: Hüttenkäse, Eier, mageres Fleisch, Hülsenfrüchte, Skyr. Keine Geheimnisse, nur Konsequenz."
+      },
+      {
+        "type": "p",
+        "text": "Kohlenhydrate und Fette sind keine Feinde. Wer sie gezielt um das Training herum platziert, also Kohlenhydrate vor und nach der Einheit, hat damit eine einfache und wirksame Strategie. Aufwändige Diätpläne mit zehn verschiedenen Mahlzeiten braucht kein Mensch. Was du brauchst, ist ein Ansatz, den du tatsächlich durchhältst."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler, die Männer ab 40 im Training machen"
+      },
+      {
+        "type": "p",
+        "text": "Der klassischste Fehler: das alte Training einfach weitermachen und sich wundern, dass es nicht mehr funktioniert. Der Körper mit 40 ist nicht der Körper mit 25. Wer das ignoriert, trainiert nicht effizient, sondern stur. Sturheit erzeugt Verletzungen, keine Ergebnisse."
+      },
+      {
+        "type": "p",
+        "text": "Ein weiterer Fehler ist das komplette Weglassen von schwerem Krafttraining aus Angst vor Verletzungen. Das Gegenteil ist sinnvoll: dosiertes, progressives Krafttraining macht Gelenke und Sehnen belastbarer, nicht schwächer. Die Dosis macht den Unterschied. Zu viel auf einmal ist das Problem, nicht das Training selbst."
+      },
+      {
+        "type": "p",
+        "text": "Und dann ist da noch der Vergleich mit anderen. Auf Instagram sieht man Männer Anfang 40 mit sechs Prozent Körperfett und fragt sich, warum das bei einem selbst nicht klappt. Diese Menschen trainieren meist seit Jahrzehnten, haben oft Unterstützung durch Profis und zeigen ihre besten Tage. Dein Maßstab bist du selbst, deine Fortschritte von Monat zu Monat."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Altes Training ohne Anpassung weitermachen",
+          "Schweres Training aus Angst komplett meiden",
+          "Regeneration als Zeitverschwendung sehen",
+          "Proteinzufuhr dauerhaft vernachlässigen",
+          "Sich mit unrealistischen Social-Media-Vergleichen belasten"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wie ein realistischer Trainingsplan ab 40 aussieht"
+      },
+      {
+        "type": "p",
+        "text": "Drei bis vier Krafttrainingseinheiten pro Woche sind der solide Rahmen. An zwei weiteren Tagen kannst du mit leichtem Ausdauertraining oder Mobilityarbeit aktiv bleiben. Mindestens ein bis zwei vollständige Ruhetage gehören dazu. Diese Struktur gibt dir genug Reiz für Fortschritt und genug Erholung für Anpassung."
+      },
+      {
+        "type": "p",
+        "text": "Eine bewährte Aufteilung für Männer ab 40 ist das Oberkörper-Unterkörper-Split oder ein Push-Pull-Legs-System mit angepasstem Volumen. Wichtig ist, dass du die Intensität innerhalb einer Woche variierst. Nicht jede Einheit kann und soll maximal intensiv sein. Eine härtere Woche, gefolgt von einer etwas leichteren, hält den Körper langfristig leistungsfähig."
+      },
+      {
+        "type": "p",
+        "text": "Fortschritt misst sich nicht nur in Gewicht auf der Stange. Bessere Bewegungsqualität, mehr Energie im Alltag, weniger Rückenschmerzen, stabilere Schultern, das sind echte Fortschritte. Schreib dir auf, was du trainierst, wie du dich fühlst und wie die Ausführung war. Dieses Feedback ist wertvoller als jede App."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Training ab 40 ist kein Kampf gegen den Körper. Es ist eine Zusammenarbeit mit ihm. Wer versteht, was sich verändert hat, und sein Training entsprechend anpasst, kann in seinen 40ern echte Stärke aufbauen, funktional, nachhaltig und ohne ständige Verletzungen. Wenn du nicht weißt, wo du anfangen sollst, oder dein aktuelles Training nicht mehr die Ergebnisse bringt, die du dir wünschst, dann meld dich einfach. Im kostenlosen Erstgespräch schauen wir gemeinsam, was für dich persönlich wirklich Sinn ergibt. Kein Pitch, kein Druck, nur ein ehrliches Gespräch. Du findest mich unter https://www.angelocoach.com."
+      }
+    ]
   }
 ];
 
