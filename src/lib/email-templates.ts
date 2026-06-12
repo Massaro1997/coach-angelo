@@ -15,6 +15,7 @@ const styles = {
   `,
   header: `
     background: linear-gradient(135deg, #ec4899 0%, #d946ef 50%, #8b5cf6 100%);
+    border-bottom: 2px solid #d946ef;
     padding: 30px;
     text-align: center;
   `,
@@ -374,7 +375,7 @@ export function orderConfirmationEmail(data: {
               Prossimi Passi
             </h3>
             <p style="color: #a3a3a3; line-height: 1.6; margin: 0; font-size: 14px;">
-              Ti contattero entro 24 ore via WhatsApp o email per iniziare il tuo percorso di trasformazione.
+              Ti contattero entro 24 ore per iniziare il tuo percorso di trasformazione.
             </p>
           </div>
 
@@ -384,27 +385,15 @@ export function orderConfirmationEmail(data: {
               Hai domande? Contattami!
             </h3>
             <p style="margin: 8px 0; font-size: 14px;">
-              <a href="https://wa.me/4917693193043" style="color: #22c55e; text-decoration: none;">
-                WhatsApp: +49 176 93193043
-              </a>
-            </p>
-            <p style="margin: 8px 0; font-size: 14px;">
               <a href="mailto:info@angelocoach.com" style="color: #d946ef; text-decoration: none;">
                 Email: info@angelocoach.com
               </a>
             </p>
             <p style="margin: 8px 0; font-size: 14px;">
-              <a href="https://instagram.com/angelo_fitnesscoach" style="color: #ec4899; text-decoration: none;">
+              <a href="https://instagram.com/angelo_fitnesscoach" style="color: #d946ef; text-decoration: none;">
                 Instagram: @angelo_fitnesscoach
               </a>
             </p>
-          </div>
-
-          <!-- CTA -->
-          <div style="text-align: center; margin-top: 25px;">
-            <a href="https://wa.me/4917693193043" style="${styles.button}">
-              Scrivimi su WhatsApp
-            </a>
           </div>
         </div>
 
@@ -493,22 +482,10 @@ export function schedaProntaEmail(data: {
               Hai domande sulla scheda?
             </h3>
             <p style="margin: 8px 0; font-size: 14px;">
-              <a href="https://wa.me/4917693193043" style="color: #22c55e; text-decoration: none;">
-                WhatsApp: +49 176 93193043
-              </a>
-            </p>
-            <p style="margin: 8px 0; font-size: 14px;">
               <a href="mailto:info@angelocoach.com" style="color: #d946ef; text-decoration: none;">
                 Email: info@angelocoach.com
               </a>
             </p>
-          </div>
-
-          <!-- CTA -->
-          <div style="text-align: center; margin-top: 25px;">
-            <a href="https://wa.me/4917693193043" style="${styles.button}">
-              Scrivimi su WhatsApp
-            </a>
           </div>
         </div>
 
@@ -576,7 +553,7 @@ export function contactConfirmationEmail(data: {
             <p style="color: #e5e5e5; line-height: 1.7; margin: 0; font-size: 15px;">
               Grazie per avermi contattato!<br><br>
               ${data.service ? `Hai richiesto informazioni su: <strong style="color: #d946ef;">${serviceLabels[data.service] || data.service}</strong><br><br>` : ""}
-              Ti rispondero entro <strong style="color: #d946ef;">24 ore</strong> via email o WhatsApp.
+              Ti rispondero entro <strong style="color: #d946ef;">24 ore</strong>.
             </p>
           </div>
 
@@ -593,16 +570,11 @@ export function contactConfirmationEmail(data: {
           <!-- Contact Info -->
           <div style="background-color: #171717; border-radius: 12px; padding: 20px;">
             <h3 style="color: #ffffff; font-size: 15px; margin: 0 0 12px 0;">
-              Preferisci una risposta piu veloce?
+              Nel frattempo seguimi
             </h3>
             <p style="margin: 8px 0; font-size: 14px;">
-              <a href="https://wa.me/4917693193043" style="color: #22c55e; text-decoration: none;">
-                Scrivimi su WhatsApp
-              </a>
-            </p>
-            <p style="margin: 8px 0; font-size: 14px;">
-              <a href="https://instagram.com/angelo_fitnesscoach" style="color: #ec4899; text-decoration: none;">
-                Seguimi su Instagram
+              <a href="https://instagram.com/angelo_fitnesscoach" style="color: #d946ef; text-decoration: none;">
+                Instagram: @angelo_fitnesscoach
               </a>
             </p>
           </div>

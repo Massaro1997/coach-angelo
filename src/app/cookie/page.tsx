@@ -94,10 +94,10 @@ export default function Cookie() {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-900 pt-32 pb-20">
+    <div className="min-h-screen bg-background pt-32 pb-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-8">
-          {t.title}<span className="bg-gradient-to-r from-pink-400 via-fuchsia-400 to-violet-500 bg-clip-text text-transparent">{t.titleHighlight}</span>
+        <h1 className="text-3xl md:text-4xl font-black text-ink uppercase mb-8">
+          {t.title}<span className="text-gold">{t.titleHighlight}</span>
         </h1>
 
         <div className="prose prose-invert prose-lg max-w-none">
@@ -160,8 +160,7 @@ export default function Cookie() {
             <h2 className="text-xl font-bold text-white mb-4">{t.s7Title}</h2>
             <p className="text-white/70 mb-4">
               {t.s7Text}<br />
-              Email: magliarisiangelo912@gmail.com<br />
-              {language === 'de' ? 'Telefon' : 'Telefono'}: +49 176 93193043
+              Email: magliarisiangelo912@gmail.com
             </p>
           </section>
         </div>

@@ -16,7 +16,7 @@ export default function LayoutWrapper({
   const pathname = usePathname();
 
   // Pagine senza Header/Footer/Cart/Cookie (per stampa)
-  const isPrintPage = pathname === "/bewerbung" || pathname === "/lebenslauf" || pathname === "/contratti";
+  const isPrintPage = pathname === "/bewerbung" || pathname === "/lebenslauf";
 
   if (isPrintPage) {
     return <>{children}</>;

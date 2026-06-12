@@ -45,3 +45,17 @@ model Order {
   createdAt   DateTime @default(now())
   status      String   @default("pending") // pending, completed, cancelled
 }
+
+// Documenti generati: contratti + Rechnung (archivio)
+model Document {
+  id          String   @id @default(cuid())
+  type        String   // "contract" | "rechnung"
+  clientName  String
+  serviceType String?  // pacchetto (per contratti)
+  rechnungNr  String?  // numero fattura (per Rechnung)
+  total       Float    @default(0)
+  // Snapshot completo per ri-aprire/stampare il documento
+  contractData Json?
+  rechnungData Json?
+  createdAt   DateTime @default(now())
+}

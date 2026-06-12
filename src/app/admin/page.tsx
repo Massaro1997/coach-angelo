@@ -129,7 +129,7 @@ export default function AdminPage() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full px-4 py-3 rounded-lg bg-neutral-700 border border-neutral-600 text-white focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent outline-none"
+                className="w-full px-4 py-3 rounded-lg bg-neutral-700 border border-neutral-600 text-white focus:ring-2 focus:ring-gold focus:border-transparent outline-none"
                 placeholder="Inserisci password"
               />
             </div>
@@ -138,7 +138,7 @@ export default function AdminPage() {
             )}
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white px-6 py-3 rounded-full font-semibold"
+              className="w-full bg-gold text-white px-6 py-3 rounded-full font-semibold"
             >
               Accedi
             </button>
@@ -154,7 +154,7 @@ export default function AdminPage() {
         {/* Header */}
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl font-bold text-white">
-            <span className="bg-gradient-to-r from-pink-400 via-fuchsia-400 to-violet-500 bg-clip-text text-transparent">
+            <span className="text-gold">
               Admin Dashboard
             </span>
           </h1>
@@ -178,7 +178,7 @@ export default function AdminPage() {
           </div>
           <div className="bg-neutral-800 rounded-xl p-6">
             <h3 className="text-white/60 text-sm mb-2">Fatturato Totale</h3>
-            <p className="text-3xl font-bold text-fuchsia-400">
+            <p className="text-3xl font-bold text-gold">
               €{orders.reduce((sum, order) => sum + order.totalPrice, 0).toFixed(2)}
             </p>
           </div>
@@ -190,7 +190,7 @@ export default function AdminPage() {
             onClick={() => setActiveTab("contacts")}
             className={`px-6 py-3 rounded-full font-semibold transition-all ${
               activeTab === "contacts"
-                ? "bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white"
+                ? "bg-gold text-white"
                 : "bg-neutral-800 text-white/60 hover:text-white"
             }`}
           >
@@ -200,7 +200,7 @@ export default function AdminPage() {
             onClick={() => setActiveTab("orders")}
             className={`px-6 py-3 rounded-full font-semibold transition-all ${
               activeTab === "orders"
-                ? "bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white"
+                ? "bg-gold text-white"
                 : "bg-neutral-800 text-white/60 hover:text-white"
             }`}
           >
@@ -211,7 +211,7 @@ export default function AdminPage() {
         {/* Content */}
         {loading ? (
           <div className="text-center py-12">
-            <div className="w-12 h-12 border-4 border-fuchsia-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+            <div className="w-12 h-12 border-4 border-gold border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
             <p className="text-white/60">Caricamento...</p>
           </div>
         ) : activeTab === "contacts" ? (
@@ -231,7 +231,7 @@ export default function AdminPage() {
                       <h3 className="text-lg font-semibold text-white">
                         {contact.name}
                       </h3>
-                      <p className="text-fuchsia-400">{contact.email}</p>
+                      <p className="text-gold">{contact.email}</p>
                     </div>
                     <span className="text-white/40 text-sm">
                       {formatDate(contact.createdAt)}
@@ -255,7 +255,7 @@ export default function AdminPage() {
                   <div className="mt-4 flex gap-2">
                     <a
                       href={`mailto:${contact.email}`}
-                      className="text-sm text-fuchsia-400 hover:text-fuchsia-300"
+                      className="text-sm text-gold hover:text-gold-soft"
                     >
                       Rispondi via Email
                     </a>
@@ -291,10 +291,10 @@ export default function AdminPage() {
                       <h3 className="text-lg font-semibold text-white">
                         {order.firstName} {order.lastName}
                       </h3>
-                      <p className="text-fuchsia-400">{order.email}</p>
+                      <p className="text-gold">{order.email}</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-2xl font-bold text-fuchsia-400">
+                      <p className="text-2xl font-bold text-gold">
                         €{order.totalPrice}
                       </p>
                       <span className="text-white/40 text-sm">
@@ -350,7 +350,7 @@ export default function AdminPage() {
                     <div className="flex gap-2">
                       <a
                         href={`mailto:${order.email}`}
-                        className="text-sm text-fuchsia-400 hover:text-fuchsia-300"
+                        className="text-sm text-gold hover:text-gold-soft"
                       >
                         Email
                       </a>

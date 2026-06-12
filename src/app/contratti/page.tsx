@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 // Coach data - fixed
 const COACH = {
@@ -27,18 +28,10 @@ interface ContractData {
   clientPhone: string;
   clientDob: string;
   serviceType: string;
-  duration: string;
-  sessionsPerWeek: string;
-  monthlyPrice: string;
-  paymentType: string;
-  paymentMethod: string;
   einmalMethod: string;
   startDate: string;
   location: string;
   notes: string;
-  accountHolder: string;
-  iban: string;
-  bic: string;
 }
 
 interface RechnungData {
@@ -54,20 +47,30 @@ interface RechnungData {
 
 // ============ CONSTANTS ============
 
-const SERVICE_OPTIONS = [
-  "Personal Training 1-to-1",
-  "Online-Coaching 3 Monate (€300)",
-  "Online-Coaching 6 Monate (€600)",
-  "Online-Coaching 12 Monate (€950)",
-  "Individueller Trainingsplan",
+// Each package carries its own price, duration and billing logic.
+// monthly = price billed per month (recurring); months = number of months.
+// total price = monthly * months (or one-off einmalig amount).
+interface ServiceMeta {
+  label: string;
+  duration: string;   // human duration shown on contract
+  months: number;     // number of billing months (for PayPal cycles / totals)
+  monthly: number;    // monthly amount in €
+  recurring: boolean; // true = monthly billing, false = single payment
+}
+
+const SERVICES: ServiceMeta[] = [
+  { label: "Personal Training 1-to-1", duration: "nach Vereinbarung", months: 1, monthly: 150, recurring: true },
+  { label: "Online-Coaching 3 Monate", duration: "3 Monate", months: 3, monthly: 150, recurring: true },
+  { label: "Online-Coaching 6 Monate", duration: "6 Monate", months: 6, monthly: 150, recurring: true },
+  { label: "Online-Coaching 12 Monate", duration: "12 Monate", months: 12, monthly: 150, recurring: true },
+  { label: "Individueller Trainingsplan", duration: "Einmalleistung", months: 1, monthly: 150, recurring: false },
 ];
 
-const DURATION_OPTIONS = ["1 Monat", "3 Monate", "6 Monate", "12 Monate", "Einzelsitzung"];
+const SERVICE_OPTIONS = SERVICES.map((s) => s.label);
 
-const PAYMENT_TYPE_OPTIONS = ["Einmalzahlung", "Monatliche Ratenzahlung"];
+const getServiceMeta = (label: string): ServiceMeta => SERVICES.find((s) => s.label === label) ?? SERVICES[0];
 
-const PAYMENT_OPTIONS = ["SEPA-Lastschrift (Dauerauftrag)", "Einmalzahlung"];
-
+// "Come paga" — single payment method only (no SEPA).
 const EINMAL_OPTIONS = ["Barzahlung", "PayPal", "Kreditkarte", "Überweisung"];
 
 // ============ MAIN COMPONENT ============
@@ -77,15 +80,15 @@ export default function ContrattiPage() {
 
   const [formData, setFormData] = useState<ContractData>({
     clientName: "", clientAddress: "", clientEmail: "", clientPhone: "", clientDob: "",
-    serviceType: SERVICE_OPTIONS[0], duration: DURATION_OPTIONS[0], sessionsPerWeek: "3",
-    monthlyPrice: "", paymentType: PAYMENT_TYPE_OPTIONS[0], paymentMethod: PAYMENT_OPTIONS[0],
-    einmalMethod: EINMAL_OPTIONS[0], startDate: new Date().toISOString().split("T")[0],
-    location: "Köln", notes: "", accountHolder: "", iban: "", bic: "",
+    serviceType: SERVICE_OPTIONS[0], einmalMethod: EINMAL_OPTIONS[0],
+    startDate: new Date().toISOString().split("T")[0],
+    location: "Köln", notes: "",
   });
 
   const [paypalLink, setPaypalLink] = useState<string | null>(null);
   const [paypalLoading, setPaypalLoading] = useState(false);
   const [paypalError, setPaypalError] = useState<string | null>(null);
+  const [pdfLoading, setPdfLoading] = useState(false);
 
   const [rechnungData, setRechnungData] = useState<RechnungData>({
     clientName: "", clientAddress: "", clientCity: "",
@@ -111,19 +114,15 @@ export default function ContrattiPage() {
   const blankLine = <span className="inline-block border-b-2 border-neutral-300 min-w-[200px] w-full">&nbsp;</span>;
   const blankShort = <span className="inline-block border-b-2 border-neutral-300 min-w-[120px]">&nbsp;</span>;
 
-  const getMonths = (duration: string): number => {
-    const match = duration.match(/(\d+)/);
-    return match ? parseInt(match[1]) : 1;
-  };
-  const months = getMonths(formData.duration);
-  const isInstallment = formData.paymentType === "Monatliche Ratenzahlung" && months > 1;
-  const monthlyPrice = formData.monthlyPrice ? parseFloat(formData.monthlyPrice) : 0;
-  const monthlyPriceStr = monthlyPrice ? monthlyPrice.toFixed(2) : "";
-  const isSepa = formData.paymentMethod === "SEPA-Lastschrift (Dauerauftrag)";
-  const resolvedPayment = isSepa ? "SEPA-Lastschrift" : formData.einmalMethod;
-
-  const formatIBAN = (raw: string) => raw.replace(/\s/g, "").replace(/(.{4})/g, "$1 ").trim();
-  const mandateRef = `CA-${formData.startDate.replace(/-/g, "")}-${formData.clientName.replace(/\s/g, "").substring(0, 6).toUpperCase() || "XXXXX"}`;
+  // Price + duration derived from the selected service package
+  const service = getServiceMeta(formData.serviceType);
+  const months = service.months;
+  const isInstallment = service.recurring && months > 1;
+  const monthlyPrice = service.monthly;
+  const monthlyPriceStr = monthlyPrice.toFixed(2);
+  const totalPrice = monthlyPrice * months;
+  const totalPriceStr = totalPrice.toFixed(2);
+  const resolvedPayment = formData.einmalMethod;
 
   // Rechnung helpers
   const rechnungTotal = rechnungData.items.reduce((s, i) => s + i.qty * i.price, 0);
@@ -134,12 +133,87 @@ export default function ContrattiPage() {
   };
   const zahlungsziel = addDays(rechnungData.rechnungDate, 14);
 
+  // ============ AUTO-SAVE TO ARCHIVE ============
+  // Saves the document once when its preview is opened (dedup by content signature).
+  const savedSig = useRef<string>("");
+
+  // ============ REOPEN FROM ARCHIVE ============
+  // When arriving from /contratti/archivio, restore the snapshot and jump to preview.
+  useEffect(() => {
+    const raw = typeof window !== "undefined" ? sessionStorage.getItem("contrattiReopen") : null;
+    if (!raw) return;
+    sessionStorage.removeItem("contrattiReopen");
+    try {
+      const snap = JSON.parse(raw) as { type: string; contractData: ContractData | null; rechnungData: RechnungData | null };
+      savedSig.current = "reopened"; // don't re-save a reopened doc
+      if (snap.type === "contract" && snap.contractData) {
+        setFormData(snap.contractData);
+        if (snap.rechnungData) setRechnungData(snap.rechnungData);
+        setView("contract-preview");
+      } else if (snap.type === "rechnung" && snap.rechnungData) {
+        setRechnungData(snap.rechnungData);
+        setView("rechnung-preview");
+      }
+    } catch {
+      // ignore malformed snapshot
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    let payload: Record<string, unknown> | null = null;
+
+    if (view === "contract-preview" && formData.clientName.trim()) {
+      const addrParts = formData.clientAddress.split(",").map((s) => s.trim());
+      const rd: RechnungData = {
+        clientName: formData.clientName,
+        clientAddress: addrParts[0] || formData.clientAddress,
+        clientCity: addrParts[1] || "",
+        rechnungNr: rechnungData.rechnungNr,
+        rechnungDate: formData.startDate || new Date().toISOString().split("T")[0],
+        leistungszeitraum: service.duration,
+        items: isInstallment
+          ? [{ title: formData.serviceType, desc: `Monatliche Rate (${service.duration})`, qty: 1, price: monthlyPrice }]
+          : [{ title: formData.serviceType, desc: service.duration, qty: 1, price: totalPrice }],
+        notes: formData.notes,
+      };
+      payload = {
+        type: "contract",
+        clientName: formData.clientName,
+        serviceType: formData.serviceType,
+        rechnungNr: rechnungData.rechnungNr,
+        total: totalPrice,
+        contractData: formData,
+        rechnungData: rd,
+      };
+    } else if (view === "rechnung-preview" && rechnungData.clientName.trim()) {
+      payload = {
+        type: "rechnung",
+        clientName: rechnungData.clientName,
+        rechnungNr: rechnungData.rechnungNr,
+        total: rechnungTotal,
+        rechnungData,
+      };
+    }
+
+    if (!payload) return;
+    if (savedSig.current === "reopened") return; // doc came from archive, already stored
+    const sig = JSON.stringify(payload);
+    if (sig === savedSig.current) return; // already saved this exact doc
+    savedSig.current = sig;
+    fetch("/api/documents", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: sig,
+    }).catch(() => { savedSig.current = ""; }); // allow retry on failure
+  }, [view, formData, rechnungData, service, isInstallment, monthlyPrice, totalPrice, rechnungTotal]);
+
   // ========================================
   // MENU VIEW
   // ========================================
   if (view === "menu") {
     return (
-      <div className="min-h-screen bg-neutral-900 flex items-center justify-center px-4">
+      <div className="min-h-screen bg-neutral-900 flex items-center justify-center px-4 pt-28 pb-16">
         <div className="max-w-4xl w-full">
           <div className="text-center mb-12">
             <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3">
@@ -186,6 +260,14 @@ export default function ContrattiPage() {
             </button>
           </div>
 
+          {/* Archivio */}
+          <div className="mt-8 text-center">
+            <Link href="/contratti/archivio"
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white border border-neutral-700 hover:border-fuchsia-500/50 rounded-full px-6 py-3 transition-all">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
+              <span className="font-semibold">Archivio documenti</span>
+            </Link>
+          </div>
         </div>
       </div>
     );
@@ -194,13 +276,41 @@ export default function ContrattiPage() {
   // ============ PRINT CSS (shared) ============
   const printCSS = (
     <style jsx global>{`
+      /* ---- SCREEN: scale the A4 pages so they fit any viewport (mobile) ---- */
+      /* A4 @96dpi = 794 x 1123 px. We render the page at exact A4 px size and
+         scale it down with a transform so proportions stay perfect (no squish). */
+      .print-wrapper {
+        --a4w: 794px;
+        --a4h: 1123px;
+        /* scale factor: fit width minus side padding, never upscale past 1 */
+        --s: min(1, (100vw - 32px) / 794);
+      }
+      .contract-page, .invoice-page {
+        width: var(--a4w) !important;
+        height: var(--a4h) !important;
+        flex: none;
+        transform: scale(var(--s));
+        transform-origin: top center;
+        /* pull following page up by the height removed by scaling */
+        margin-bottom: calc(var(--a4h) * (var(--s) - 1)) !important;
+      }
+      .print-wrapper > .contract-page:last-child,
+      .print-wrapper > .invoice-page:last-child { margin-bottom: 0 !important; }
+
       @media print {
         @page { size: A4; margin: 0; }
         * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
         html, body { margin: 0 !important; padding: 0 !important; background: white !important; }
+        /* hide angelocoach.com site chrome when printing */
+        header, footer { display: none !important; }
         .no-print { display: none !important; }
         .print-wrapper { margin: 0 !important; padding: 0 !important; background: white !important; min-height: auto !important; gap: 0 !important; display: block !important; }
-        .contract-page, .invoice-page { width: 210mm !important; height: 297mm !important; margin: 0 !important; padding: 0 !important; box-shadow: none !important; break-after: page; overflow: hidden !important; }
+        .contract-page, .invoice-page {
+          width: 210mm !important; height: 297mm !important;
+          margin: 0 !important; padding: 0 !important; box-shadow: none !important;
+          break-after: page; overflow: hidden !important;
+          transform: none !important;
+        }
         .contract-page:last-child, .invoice-page:last-child { break-after: auto; }
       }
     `}</style>
@@ -208,9 +318,9 @@ export default function ContrattiPage() {
 
   // Generate Rechnung from contract data
   const generateRechnungFromContract = () => {
-    const mp = formData.monthlyPrice ? parseFloat(formData.monthlyPrice) : 0;
-    const m = getMonths(formData.duration);
-    const isRate = formData.paymentType === "Monatliche Ratenzahlung" && m > 1;
+    const m = service.months;
+    const mp = service.monthly;
+    const isRate = isInstallment;
 
     // Split address into street + city if possible (e.g. "Musterstraße 12, 50667 Köln")
     const addrParts = formData.clientAddress.split(",").map(s => s.trim());
@@ -225,8 +335,8 @@ export default function ContrattiPage() {
       rechnungDate: new Date().toISOString().split("T")[0],
       leistungszeitraum: new Date().toLocaleDateString("de-DE", { month: "long", year: "numeric" }),
       items: isRate
-        ? [{ title: formData.serviceType, desc: `Monatliche Rate (${formData.duration})`, qty: 1, price: mp }]
-        : [{ title: formData.serviceType, desc: formData.duration, qty: 1, price: mp * m }],
+        ? [{ title: formData.serviceType, desc: `Monatliche Rate (${service.duration})`, qty: 1, price: mp }]
+        : [{ title: formData.serviceType, desc: service.duration, qty: 1, price: mp * m }],
       notes: "",
     });
     setView("rechnung-form");
@@ -269,8 +379,68 @@ export default function ContrattiPage() {
     }
   };
 
+  // ============ PDF DOWNLOAD ============
+  // Renders the on-screen A4 pages to a real multi-page PDF and triggers a
+  // direct file download (better than window.print() on mobile, which only
+  // opens a preview). Pages are already exact A4 px (794x1123); we clone them
+  // at scale 1 into an offscreen node so the mobile preview transform doesn't
+  // shrink the capture.
+  const downloadPDF = async (filename: string) => {
+    if (pdfLoading) return;
+    const source = document.querySelector(".print-wrapper");
+    if (!source) return;
+    setPdfLoading(true);
+    try {
+      const html2pdf = (await import("html2pdf.js")).default;
+
+      // Offscreen clone with neutral scale + white bg
+      const holder = document.createElement("div");
+      holder.style.position = "fixed";
+      holder.style.left = "-10000px";
+      holder.style.top = "0";
+      holder.style.background = "#ffffff";
+      const clone = source.cloneNode(true) as HTMLElement;
+      clone.style.background = "#ffffff";
+      clone.style.margin = "0";
+      clone.style.padding = "0";
+      clone.style.gap = "0";
+      clone.style.display = "block";
+      clone.querySelectorAll<HTMLElement>(".contract-page, .invoice-page").forEach((el) => {
+        el.style.transform = "none";
+        el.style.margin = "0";
+        el.style.boxShadow = "none";
+        el.style.width = "794px";
+        el.style.height = "1123px";
+      });
+      holder.appendChild(clone);
+      document.body.appendChild(holder);
+
+      const opt = {
+        margin: 0,
+        filename: `${filename}.pdf`,
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true, backgroundColor: "#ffffff", windowWidth: 794 },
+        jsPDF: { unit: "px", format: [794, 1123], orientation: "portrait" },
+        pagebreak: { mode: ["css", "legacy"], after: ".contract-page, .invoice-page" },
+      };
+      // html2pdf.js bundled types are incomplete (no pagebreak); options are valid at runtime.
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      await html2pdf().set(opt as any).from(clone).save();
+
+      document.body.removeChild(holder);
+    } catch (e) {
+      console.error("PDF download error:", e);
+      // fallback: print dialog
+      window.print();
+    } finally {
+      setPdfLoading(false);
+    }
+  };
+
+  const sanitize = (s: string) => s.replace(/[^\p{L}\p{N}]+/gu, "_").replace(/^_+|_+$/g, "") || "Coach_Angelo";
+
   // ============ TOOLBAR ============
-  const Toolbar = ({ onBack, label, extraButton }: { onBack: () => void; label?: string; extraButton?: React.ReactNode }) => (
+  const Toolbar = ({ onBack, label, extraButton, pdfName }: { onBack: () => void; label?: string; extraButton?: React.ReactNode; pdfName: string }) => (
     <div className="no-print fixed top-0 left-0 right-0 z-50 bg-neutral-900 border-b border-neutral-700 px-6 py-4 flex items-center justify-between">
       <button type="button" onClick={onBack} className="text-white/70 hover:text-white flex items-center gap-2 transition-colors">
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
@@ -279,10 +449,20 @@ export default function ContrattiPage() {
       {label && <span className="text-white/40 text-sm hidden sm:block">{label}</span>}
       <div className="flex items-center gap-3">
         {extraButton}
-        <button type="button" onClick={() => window.print()}
-          className="bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white px-6 py-2.5 rounded-full font-semibold hover:from-pink-400 hover:via-fuchsia-400 hover:to-violet-400 transition-all flex items-center gap-2">
+        {/* secondary: open browser print dialog */}
+        <button type="button" onClick={() => window.print()} aria-label="Drucken"
+          className="text-white/60 hover:text-white border border-neutral-700 hover:border-neutral-500 rounded-full p-2.5 transition-all">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" /></svg>
-          Drucken / PDF
+        </button>
+        {/* primary: direct PDF download */}
+        <button type="button" onClick={() => downloadPDF(pdfName)} disabled={pdfLoading}
+          className="bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white px-6 py-2.5 rounded-full font-semibold hover:from-pink-400 hover:via-fuchsia-400 hover:to-violet-400 transition-all flex items-center gap-2 disabled:opacity-60">
+          {pdfLoading ? (
+            <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" /><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" /></svg>
+          ) : (
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+          )}
+          {pdfLoading ? "Erstelle PDF..." : "PDF herunterladen"}
         </button>
       </div>
     </div>
@@ -296,14 +476,13 @@ export default function ContrattiPage() {
     const cp = filled ? formData.clientPhone : blank;
     const cd = filled && formData.clientDob ? formatDateDE(formData.clientDob) : blank;
     const sd = filled ? formatDateDE(formData.startDate) : blank;
-    const dur = filled ? formData.duration : blank;
+    const dur = filled ? service.duration : blank;
     const svc = filled ? formData.serviceType : blank;
-    const spw = filled ? formData.sessionsPerWeek : "___";
     const loc = filled ? (formData.location || "nach Vereinbarung") : blank;
     const pay = filled ? resolvedPayment : blank;
-    const mp = filled && monthlyPriceStr ? `€${monthlyPriceStr}` : blank;
-    const mpFull = filled && monthlyPriceStr ? `€${monthlyPriceStr}/Monat` : blank;
-    const showSepa = filled && isSepa;
+    const mp = filled ? `€${monthlyPriceStr}` : blank;
+    const mpFull = filled ? (isInstallment ? `€${monthlyPriceStr}/Monat` : `€${totalPriceStr}`) : blank;
+    const totalStr = filled ? `€${totalPriceStr}` : blank;
 
     return (
       <>
@@ -358,15 +537,14 @@ export default function ContrattiPage() {
                     <div className="grid grid-cols-3 gap-x-6 gap-y-2.5">
                       <div><span className="text-neutral-400 text-[10px]">Leistung</span><p className="font-semibold text-black text-[11.5px]">{svc}</p></div>
                       <div><span className="text-neutral-400 text-[10px]">Laufzeit</span><p className="font-semibold text-black text-[11.5px]">{dur}</p></div>
-                      <div><span className="text-neutral-400 text-[10px]">Sitzungen/Woche</span><p className="font-semibold text-black text-[11.5px]">{spw}</p></div>
                       <div><span className="text-neutral-400 text-[10px]">Beginn</span><p className="font-semibold text-black text-[11.5px]">{sd}</p></div>
                       <div><span className="text-neutral-400 text-[10px]">Ort</span><p className="font-semibold text-black text-[11.5px]">{loc}</p></div>
                       <div><span className="text-neutral-400 text-[10px]">Zahlung</span><p className="font-semibold text-black text-[11.5px]">{pay}</p></div>
                     </div>
                     <div className="mt-3 pt-3 border-t border-neutral-200 flex items-center justify-between">
                       <div>
-                        <span className="text-neutral-400 text-[10.5px]">Monatliche Vergütung</span>
-                        {isInstallment && <p className="text-neutral-500 text-[10px] mt-0.5">{months} Monate Laufzeit</p>}
+                        <span className="text-neutral-400 text-[10.5px]">{isInstallment ? "Monatliche Vergütung" : "Gesamtvergütung"}</span>
+                        {isInstallment && <p className="text-neutral-500 text-[10px] mt-0.5">{months} Monate × €{monthlyPriceStr} = €{totalPriceStr}</p>}
                       </div>
                       <span className="text-[17px] font-bold text-black">{mpFull}</span>
                     </div>
@@ -376,7 +554,6 @@ export default function ContrattiPage() {
                     <div className="grid grid-cols-2 gap-x-8 gap-y-3">
                       <div className="flex items-end gap-2"><span className="text-neutral-400 text-[10px] whitespace-nowrap w-28">Leistung:</span>{blankLine}</div>
                       <div className="flex items-end gap-2"><span className="text-neutral-400 text-[10px] whitespace-nowrap w-28">Laufzeit:</span>{blankLine}</div>
-                      <div className="flex items-end gap-2"><span className="text-neutral-400 text-[10px] whitespace-nowrap w-28">Sitzungen/Woche:</span>{blankLine}</div>
                       <div className="flex items-end gap-2"><span className="text-neutral-400 text-[10px] whitespace-nowrap w-28">Beginn:</span>{blankLine}</div>
                       <div className="flex items-end gap-2"><span className="text-neutral-400 text-[10px] whitespace-nowrap w-28">Ort:</span>{blankLine}</div>
                       <div className="flex items-end gap-2"><span className="text-neutral-400 text-[10px] whitespace-nowrap w-28">Zahlung:</span>{blankLine}</div>
@@ -404,16 +581,17 @@ export default function ContrattiPage() {
 
               <Heading>§4 Vergütung und Zahlung</Heading>
               <p className="mb-5">
-                Die monatliche Vergütung beträgt <strong className="text-black">{filled ? mp : blankShort}</strong>.
                 {filled && isInstallment ? (
-                  <> Die Zahlung erfolgt in <strong className="text-black">{months} monatlichen Raten</strong>,
-                  jeweils fällig zum Monatsanfang, per {pay}.
-                  {showSepa && " Der Einzug erfolgt mittels SEPA-Lastschrift gemäß dem beigefügten Lastschriftmandat."}</>
+                  <>Die monatliche Vergütung beträgt <strong className="text-black">{mp}</strong>{" "}
+                  (Gesamtbetrag <strong className="text-black">{totalStr}</strong> für {months} Monate).
+                  Die Zahlung erfolgt in <strong className="text-black">{months} monatlichen Raten</strong>,
+                  jeweils fällig zum Monatsanfang, per {pay}.</>
                 ) : filled ? (
-                  <> Die Zahlung erfolgt per {pay}.
-                  {showSepa && " Der Einzug erfolgt mittels SEPA-Lastschrift gemäß dem beigefügten Lastschriftmandat."}</>
+                  <>Die Vergütung beträgt <strong className="text-black">{totalStr}</strong>.
+                  Die Zahlung erfolgt per {pay}.</>
                 ) : (
-                  <> Die Zahlung erfolgt per {blankShort}.</>
+                  <>Die Vergütung beträgt <strong className="text-black">{blankShort}</strong>.
+                  Die Zahlung erfolgt per {blankShort}.</>
                 )}
                 {" "}Bei Zahlungsverzug von mehr als 14 Tagen behält sich der Coach das Recht vor, die Leistungen
                 auszusetzen. Verzugszinsen können gemäß §288 BGB erhoben werden.
@@ -478,43 +656,6 @@ export default function ContrattiPage() {
               <Heading>§12 Salvatorische Klausel</Heading>
               <p className="mb-6">Sollte eine Bestimmung unwirksam sein, bleibt der Vertrag im Übrigen wirksam. An die Stelle der unwirksamen Bestimmung tritt eine Regelung, die dem wirtschaftlichen Zweck möglichst nahekommt.</p>
 
-              {/* SEPA LASTSCHRIFTMANDAT */}
-              {showSepa && (
-                <div className="mb-5 border-2 border-neutral-300 rounded-lg" style={{ padding: "14px 16px" }}>
-                  <p className="text-[11px] uppercase tracking-[0.1em] text-neutral-800 font-bold mb-2">SEPA-Lastschriftmandat</p>
-                  <p className="text-[10px] text-neutral-500 mb-3">Mandatsreferenz: {mandateRef} &bull; Gläubiger-ID: {COACH.name}, {COACH.address}</p>
-                  <p className="mb-2.5">
-                    Ich ermächtige <strong className="text-black">{COACH.name}</strong>, Zahlungen von meinem Konto mittels
-                    SEPA-Lastschrift einzuziehen. Zugleich weise ich mein Kreditinstitut an, die von {COACH.name} auf
-                    mein Konto gezogenen Lastschriften einzulösen.
-                  </p>
-                  <p className="mb-3 text-[10.5px] text-neutral-500">
-                    Hinweis: Ich kann innerhalb von 8 Wochen, beginnend mit dem Belastungsdatum, die Erstattung des
-                    belasteten Betrages verlangen. Es gelten dabei die mit meinem Kreditinstitut vereinbarten Bedingungen.
-                  </p>
-                  <div className="grid grid-cols-2 gap-6 bg-neutral-50 rounded border border-neutral-200" style={{ padding: "10px 14px" }}>
-                    <div>
-                      <span className="text-neutral-400 text-[10px]">Kontoinhaber</span>
-                      <p className="font-semibold text-black text-[11.5px]">{formData.accountHolder || formData.clientName || blank}</p>
-                    </div>
-                    <div>
-                      <span className="text-neutral-400 text-[10px]">IBAN</span>
-                      <p className="font-semibold text-black text-[11.5px] font-mono tracking-wide">{formData.iban ? formatIBAN(formData.iban) : blank}</p>
-                    </div>
-                    {formData.bic && (
-                      <div>
-                        <span className="text-neutral-400 text-[10px]">BIC</span>
-                        <p className="font-semibold text-black text-[11.5px] font-mono">{formData.bic}</p>
-                      </div>
-                    )}
-                    <div>
-                      <span className="text-neutral-400 text-[10px]">Einzugsbetrag</span>
-                      <p className="font-semibold text-black text-[11.5px]">{mpFull}</p>
-                    </div>
-                  </div>
-                </div>
-              )}
-
 
               {/* NOTES */}
               {filled && formData.notes && (
@@ -570,6 +711,139 @@ export default function ContrattiPage() {
     );
   };
 
+  // ============ RECHNUNG PAGE CONTENT (reusable for standalone + combined view) ============
+  const rechnungPageContent = (data: RechnungData) => {
+    const total = data.items.reduce((s, i) => s + i.qty * i.price, 0);
+    const faellig = addDays(data.rechnungDate, 14);
+    return (
+      <div className="invoice-page w-[210mm] h-[297mm] bg-white text-black shadow-2xl overflow-hidden"
+        style={{ fontFamily: "'Lato', 'Helvetica Neue', Arial, sans-serif", padding: "10px" }}>
+        <div className="flex flex-col h-full overflow-hidden rounded-sm">
+          {/* HEADER */}
+          <div className="bg-neutral-800 flex items-center justify-between flex-shrink-0" style={{ padding: "18px 18mm" }}>
+            <Image src="/logo-bianco.png" alt="Coach Angelo" width={130} height={42} className="h-10 w-auto" unoptimized />
+            <div className="text-right">
+              <p className="text-white text-[18px] font-light tracking-[3px] uppercase">Rechnung</p>
+              <p className="text-white/60 text-[11px] mt-1">Nr. <strong className="text-white font-semibold">{data.rechnungNr}</strong></p>
+            </div>
+          </div>
+          <div className="h-[3px] flex-shrink-0" style={{ background: "linear-gradient(90deg, #ec4899, #a855f7, #6366f1)" }} />
+
+          {/* BODY */}
+          <div className="flex-1 text-[12px] leading-[1.5] text-neutral-700" style={{ padding: "28px 18mm 16px" }}>
+            {/* Info grid */}
+            <div className="grid grid-cols-3 gap-8 mb-8">
+              <div>
+                <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-2 pb-1.5 border-b border-neutral-200">Von</p>
+                <p className="font-semibold text-[13px] text-black mb-1.5">{COACH.name}</p>
+                <p className="text-neutral-500 text-[11px]">{COACH.fullAddress}</p>
+                {COACH.taxId && <p className="text-neutral-400 text-[10px] mt-2">Steuernr.: {COACH.taxId}</p>}
+              </div>
+              <div>
+                <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-2 pb-1.5 border-b border-neutral-200">An</p>
+                <p className="font-semibold text-[13px] text-black mb-1.5">{data.clientName || blank}</p>
+                <p className="text-neutral-500 text-[11px]">{data.clientAddress || blank}</p>
+                <p className="text-neutral-500 text-[11px]">{data.clientCity || blank}</p>
+              </div>
+              <div>
+                <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-2 pb-1.5 border-b border-neutral-200">Details</p>
+                <p className="text-[11px]"><strong>Datum:</strong> {formatDateDE(data.rechnungDate)}</p>
+                <p className="text-[11px]"><strong>Leistungszeitraum:</strong> {data.leistungszeitraum}</p>
+                <p className="text-[11px]"><strong>Zahlungsziel:</strong> 14 Tage (bis {faellig})</p>
+              </div>
+            </div>
+
+            {/* Table */}
+            <div className="mb-6">
+              <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-3">Leistungen</p>
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr className="bg-neutral-800">
+                    <th className="text-left text-[9px] font-semibold text-white uppercase tracking-wider" style={{ padding: "10px 12px" }}>Beschreibung</th>
+                    <th className="text-center text-[9px] font-semibold text-white uppercase w-16" style={{ padding: "10px 12px" }}>Menge</th>
+                    <th className="text-right text-[9px] font-semibold text-white uppercase" style={{ padding: "10px 12px" }}>Einzelpreis</th>
+                    <th className="text-right text-[9px] font-semibold text-white uppercase" style={{ padding: "10px 12px" }}>Gesamt</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {data.items.map((item, i) => (
+                    <tr key={i} className="border-b border-neutral-200">
+                      <td style={{ padding: "12px" }}>
+                        <p className="font-medium text-black text-[12px]">{item.title || "—"}</p>
+                        {item.desc && <p className="text-[11px] text-neutral-500 mt-0.5">{item.desc}</p>}
+                      </td>
+                      <td className="text-center" style={{ padding: "12px" }}>{item.qty}</td>
+                      <td className="text-right font-medium text-black whitespace-nowrap" style={{ padding: "12px" }}>€ {item.price.toFixed(2).replace(".", ",")}</td>
+                      <td className="text-right font-medium text-black whitespace-nowrap" style={{ padding: "12px" }}>€ {(item.qty * item.price).toFixed(2).replace(".", ",")}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {/* Total */}
+            <div className="flex justify-end mb-8">
+              <div className="border-2 border-neutral-800" style={{ padding: "16px 24px", minWidth: "260px" }}>
+                <div className="flex justify-between">
+                  <span className="text-[16px] font-semibold text-neutral-800">Gesamtbetrag</span>
+                  <span className="text-[16px] font-semibold text-neutral-800">€ {total.toFixed(2).replace(".", ",")}</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Payment info */}
+            <div className="grid grid-cols-2 gap-6 bg-neutral-50 mb-6" style={{ padding: "16px 20px" }}>
+              <div>
+                <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-800 font-bold mb-2">Zahlungsbedingungen</p>
+                <p className="text-[11px] text-neutral-600">Zahlbar innerhalb von 14 Tagen ohne Abzug</p>
+                <p className="text-[11px] text-neutral-600 mt-1"><strong>Fällig bis:</strong> {faellig}</p>
+              </div>
+              <div>
+                <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-800 font-bold mb-2">Bankverbindung</p>
+                <p className="text-[11px] font-medium text-black">{COACH.bankName}</p>
+                <p className="text-[11px] text-neutral-600">Kontoinhaber: {COACH.name}</p>
+                <p className="text-[11px] text-neutral-600">IBAN: {COACH.bankIban}</p>
+                <p className="text-[11px] text-neutral-600">BIC: {COACH.bankBic}</p>
+              </div>
+            </div>
+
+            {/* Note */}
+            {data.notes && (
+              <div className="border-l-3 bg-neutral-50 mb-6" style={{ padding: "14px 18px", borderLeft: "3px solid #1e3a5f" }}>
+                <p className="text-[11px] text-neutral-600 leading-relaxed">{data.notes}</p>
+              </div>
+            )}
+            <div className="border-l-3 bg-neutral-50" style={{ padding: "14px 18px", borderLeft: "3px solid #1e3a5f" }}>
+              <p className="text-[11px] text-neutral-800 font-semibold">Gemäß § 19 Abs. 1 UStG wird keine Umsatzsteuer berechnet.</p>
+            </div>
+          </div>
+
+          {/* FOOTER */}
+          <div className="border-t border-neutral-200 text-center flex-shrink-0" style={{ padding: "12px 16mm" }}>
+            <p className="text-[10px] text-neutral-400">{COACH.name} &middot; {COACH.fullAddress} &middot; {COACH.email}</p>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  // Build a Rechnung object directly from the current contract (for the 2-in-1 view)
+  const buildRechnungFromContract = (): RechnungData => {
+    const addrParts = formData.clientAddress.split(",").map((s) => s.trim());
+    return {
+      clientName: formData.clientName,
+      clientAddress: addrParts[0] || formData.clientAddress,
+      clientCity: addrParts[1] || "",
+      rechnungNr: rechnungData.rechnungNr,
+      rechnungDate: formData.startDate || new Date().toISOString().split("T")[0],
+      leistungszeitraum: service.duration,
+      items: isInstallment
+        ? [{ title: formData.serviceType, desc: `Monatliche Rate (${service.duration})`, qty: 1, price: monthlyPrice }]
+        : [{ title: formData.serviceType, desc: service.duration, qty: 1, price: totalPrice }],
+      notes: formData.notes,
+    };
+  };
+
   // ========================================
   // CONTRACT PREVIEW (filled)
   // ========================================
@@ -577,7 +851,8 @@ export default function ContrattiPage() {
     return (
       <>
         {printCSS}
-        <Toolbar onBack={() => setView("contract-form")} label="Coaching-Vertrag"
+        <Toolbar onBack={() => setView("contract-form")} label="Coaching-Vertrag + Rechnung"
+          pdfName={`Vertrag_${sanitize(formData.clientName)}`}
           extraButton={
             <div className="flex items-center gap-2">
               <button type="button" onClick={generateRechnungFromContract}
@@ -638,7 +913,7 @@ export default function ContrattiPage() {
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                       {paypalError}
                     </p>
-                    <button type="button" onClick={() => setPaypalError(null)} className="text-white/40 hover:text-white">
+                    <button type="button" aria-label="Chiudi" onClick={() => setPaypalError(null)} className="text-white/40 hover:text-white">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
                     </button>
                   </div>
@@ -661,6 +936,7 @@ export default function ContrattiPage() {
 
         <div className="print-wrapper min-h-screen bg-neutral-800 pt-24 pb-16 flex flex-col items-center gap-10">
           {contractPageContent(true)}
+          {rechnungPageContent(buildRechnungFromContract())}
         </div>
       </>
     );
@@ -673,7 +949,7 @@ export default function ContrattiPage() {
     return (
       <>
         {printCSS}
-        <Toolbar onBack={() => setView("menu")} label="Contratto Vuoto" />
+        <Toolbar onBack={() => setView("menu")} label="Contratto Vuoto" pdfName="Coaching_Vertrag_Vorlage" />
         <div className="print-wrapper min-h-screen bg-neutral-800 pt-24 pb-16 flex flex-col items-center gap-10">
           {contractPageContent(false)}
         </div>
@@ -688,116 +964,9 @@ export default function ContrattiPage() {
     return (
       <>
         {printCSS}
-        <Toolbar onBack={() => setView("rechnung-form")} label={`Rechnung ${rechnungData.rechnungNr}`} />
+        <Toolbar onBack={() => setView("rechnung-form")} label={`Rechnung ${rechnungData.rechnungNr}`} pdfName={`Rechnung_${rechnungData.rechnungNr}_${sanitize(rechnungData.clientName)}`} />
         <div className="print-wrapper min-h-screen bg-neutral-800 pt-24 pb-16 flex flex-col items-center gap-10">
-          <div className="invoice-page w-[210mm] h-[297mm] bg-white text-black shadow-2xl overflow-hidden"
-            style={{ fontFamily: "'Lato', 'Helvetica Neue', Arial, sans-serif", padding: "10px" }}>
-            <div className="flex flex-col h-full overflow-hidden rounded-sm">
-              {/* HEADER */}
-              <div className="bg-neutral-800 flex items-center justify-between flex-shrink-0" style={{ padding: "18px 18mm" }}>
-                <Image src="/logo-bianco.png" alt="Coach Angelo" width={130} height={42} className="h-10 w-auto" unoptimized />
-                <div className="text-right">
-                  <p className="text-white text-[18px] font-light tracking-[3px] uppercase">Rechnung</p>
-                  <p className="text-white/60 text-[11px] mt-1">Nr. <strong className="text-white font-semibold">{rechnungData.rechnungNr}</strong></p>
-                </div>
-              </div>
-              <div className="h-[3px] flex-shrink-0" style={{ background: "linear-gradient(90deg, #ec4899, #a855f7, #6366f1)" }} />
-
-              {/* BODY */}
-              <div className="flex-1 text-[12px] leading-[1.5] text-neutral-700" style={{ padding: "28px 18mm 16px" }}>
-                {/* Info grid */}
-                <div className="grid grid-cols-3 gap-8 mb-8">
-                  <div>
-                    <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-2 pb-1.5 border-b border-neutral-200">Von</p>
-                    <p className="font-semibold text-[13px] text-black mb-1.5">{COACH.name}</p>
-                    <p className="text-neutral-500 text-[11px]">{COACH.fullAddress}</p>
-                    {COACH.taxId && <p className="text-neutral-400 text-[10px] mt-2">Steuernr.: {COACH.taxId}</p>}
-                  </div>
-                  <div>
-                    <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-2 pb-1.5 border-b border-neutral-200">An</p>
-                    <p className="font-semibold text-[13px] text-black mb-1.5">{rechnungData.clientName || blank}</p>
-                    <p className="text-neutral-500 text-[11px]">{rechnungData.clientAddress || blank}</p>
-                    <p className="text-neutral-500 text-[11px]">{rechnungData.clientCity || blank}</p>
-                  </div>
-                  <div>
-                    <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-2 pb-1.5 border-b border-neutral-200">Details</p>
-                    <p className="text-[11px]"><strong>Datum:</strong> {formatDateDE(rechnungData.rechnungDate)}</p>
-                    <p className="text-[11px]"><strong>Leistungszeitraum:</strong> {rechnungData.leistungszeitraum}</p>
-                    <p className="text-[11px]"><strong>Zahlungsziel:</strong> 14 Tage (bis {zahlungsziel})</p>
-                  </div>
-                </div>
-
-                {/* Table */}
-                <div className="mb-6">
-                  <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-3">Leistungen</p>
-                  <table className="w-full border-collapse">
-                    <thead>
-                      <tr className="bg-neutral-800">
-                        <th className="text-left text-[9px] font-semibold text-white uppercase tracking-wider" style={{ padding: "10px 12px" }}>Beschreibung</th>
-                        <th className="text-center text-[9px] font-semibold text-white uppercase w-16" style={{ padding: "10px 12px" }}>Menge</th>
-                        <th className="text-right text-[9px] font-semibold text-white uppercase" style={{ padding: "10px 12px" }}>Einzelpreis</th>
-                        <th className="text-right text-[9px] font-semibold text-white uppercase" style={{ padding: "10px 12px" }}>Gesamt</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {rechnungData.items.map((item, i) => (
-                        <tr key={i} className="border-b border-neutral-200">
-                          <td style={{ padding: "12px" }}>
-                            <p className="font-medium text-black text-[12px]">{item.title || "—"}</p>
-                            {item.desc && <p className="text-[11px] text-neutral-500 mt-0.5">{item.desc}</p>}
-                          </td>
-                          <td className="text-center" style={{ padding: "12px" }}>{item.qty}</td>
-                          <td className="text-right font-medium text-black whitespace-nowrap" style={{ padding: "12px" }}>€ {item.price.toFixed(2).replace(".", ",")}</td>
-                          <td className="text-right font-medium text-black whitespace-nowrap" style={{ padding: "12px" }}>€ {(item.qty * item.price).toFixed(2).replace(".", ",")}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-
-                {/* Total */}
-                <div className="flex justify-end mb-8">
-                  <div className="border-2 border-neutral-800" style={{ padding: "16px 24px", minWidth: "260px" }}>
-                    <div className="flex justify-between">
-                      <span className="text-[16px] font-semibold text-neutral-800">Gesamtbetrag</span>
-                      <span className="text-[16px] font-semibold text-neutral-800">€ {rechnungTotal.toFixed(2).replace(".", ",")}</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Payment info */}
-                <div className="grid grid-cols-2 gap-6 bg-neutral-50 mb-6" style={{ padding: "16px 20px" }}>
-                  <div>
-                    <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-800 font-bold mb-2">Zahlungsbedingungen</p>
-                    <p className="text-[11px] text-neutral-600">Zahlbar innerhalb von 14 Tagen ohne Abzug</p>
-                    <p className="text-[11px] text-neutral-600 mt-1"><strong>Fällig bis:</strong> {zahlungsziel}</p>
-                  </div>
-                  <div>
-                    <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-800 font-bold mb-2">Bankverbindung</p>
-                    <p className="text-[11px] font-medium text-black">{COACH.bankName}</p>
-                    <p className="text-[11px] text-neutral-600">Kontoinhaber: {COACH.name}</p>
-                    <p className="text-[11px] text-neutral-600">IBAN: {COACH.bankIban}</p>
-                    <p className="text-[11px] text-neutral-600">BIC: {COACH.bankBic}</p>
-                  </div>
-                </div>
-
-                {/* Note */}
-                {rechnungData.notes && (
-                  <div className="border-l-3 bg-neutral-50 mb-6" style={{ padding: "14px 18px", borderLeft: "3px solid #1e3a5f" }}>
-                    <p className="text-[11px] text-neutral-600 leading-relaxed">{rechnungData.notes}</p>
-                  </div>
-                )}
-                <div className="border-l-3 bg-neutral-50" style={{ padding: "14px 18px", borderLeft: "3px solid #1e3a5f" }}>
-                  <p className="text-[11px] text-neutral-800 font-semibold">Gemäß § 19 Abs. 1 UStG wird keine Umsatzsteuer berechnet.</p>
-                </div>
-              </div>
-
-              {/* FOOTER */}
-              <div className="border-t border-neutral-200 text-center flex-shrink-0" style={{ padding: "12px 16mm" }}>
-                <p className="text-[10px] text-neutral-400">{COACH.name} &middot; {COACH.fullAddress} &middot; {COACH.email}</p>
-              </div>
-            </div>
-          </div>
+          {rechnungPageContent(rechnungData)}
         </div>
       </>
     );
@@ -808,7 +977,7 @@ export default function ContrattiPage() {
   // ========================================
   if (view === "contract-form") {
     return (
-      <div className="min-h-screen bg-neutral-900 pt-8 pb-20">
+      <div className="min-h-screen bg-neutral-900 pt-28 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-10">
             <button type="button" onClick={() => setView("menu")} className="text-white/50 hover:text-white flex items-center gap-2 mb-6 transition-colors text-sm">
@@ -848,35 +1017,15 @@ export default function ContrattiPage() {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <SelectField label="Tipo di servizio" value={formData.serviceType} options={SERVICE_OPTIONS} onChange={(v) => updateField("serviceType", v)} />
-                <SelectField label="Durata" value={formData.duration} options={DURATION_OPTIONS} onChange={(v) => updateField("duration", v)} />
-                <InputField label="Sessioni a settimana" type="number" value={formData.sessionsPerWeek} onChange={(v) => updateField("sessionsPerWeek", v)} />
                 <InputField label="Data inizio" type="date" value={formData.startDate} onChange={(v) => updateField("startDate", v)} />
-                <InputField label="Prezzo mensile (€)" type="number" value={formData.monthlyPrice} onChange={(v) => updateField("monthlyPrice", v)} placeholder="es. 80" />
-                <SelectField label="Tipo di pagamento" value={formData.paymentType} options={PAYMENT_TYPE_OPTIONS} onChange={(v) => updateField("paymentType", v)} />
-                <SelectField label="Metodo di pagamento" value={formData.paymentMethod} options={PAYMENT_OPTIONS} onChange={(v) => updateField("paymentMethod", v)} />
-                {!isSepa && (
-                  <SelectField label="Come paga" value={formData.einmalMethod} options={EINMAL_OPTIONS} onChange={(v) => updateField("einmalMethod", v)} />
-                )}
-                {isSepa && (
-                  <div className="sm:col-span-2 bg-violet-500/10 border border-violet-500/30 rounded-xl p-4 space-y-4">
-                    <p className="text-violet-300 text-sm font-semibold flex items-center gap-2">
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" /></svg>
-                      Dati SEPA Lastschrift (Dauerauftrag)
-                    </p>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div className="sm:col-span-2">
-                        <InputField label="Titolare del conto (Kontoinhaber)" value={formData.accountHolder} onChange={(v) => updateField("accountHolder", v)} placeholder="Nome come sul conto bancario" />
-                      </div>
-                      <InputField label="IBAN" value={formData.iban} onChange={(v) => updateField("iban", v)} placeholder="DE89 3704 0044 0532 0130 00" />
-                      <InputField label="BIC (opzionale)" value={formData.bic} onChange={(v) => updateField("bic", v)} placeholder="COBADEFFXXX" />
-                    </div>
-                  </div>
-                )}
-                {monthlyPrice > 0 && months > 0 && (
-                  <div className="bg-fuchsia-500/10 border border-fuchsia-500/30 rounded-xl px-4 py-3">
-                    <p className="text-fuchsia-300 text-sm font-semibold">€{monthlyPriceStr}/mese × {months} mesi</p>
-                  </div>
-                )}
+                <SelectField label="Come paga" value={formData.einmalMethod} options={EINMAL_OPTIONS} onChange={(v) => updateField("einmalMethod", v)} />
+                <div className="bg-fuchsia-500/10 border border-fuchsia-500/30 rounded-xl px-4 py-3 flex items-center">
+                  <p className="text-fuchsia-300 text-sm font-semibold">
+                    {isInstallment
+                      ? `€${monthlyPriceStr}/mese × ${months} mesi = €${totalPriceStr}`
+                      : `€${totalPriceStr} (${service.duration})`}
+                  </p>
+                </div>
                 <div className="sm:col-span-2">
                   <InputField label="Luogo" value={formData.location} onChange={(v) => updateField("location", v)} />
                 </div>
@@ -907,7 +1056,7 @@ export default function ContrattiPage() {
   // ========================================
   if (view === "rechnung-form") {
     return (
-      <div className="min-h-screen bg-neutral-900 pt-8 pb-20">
+      <div className="min-h-screen bg-neutral-900 pt-28 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-10">
             <button type="button" onClick={() => setView("menu")} className="text-white/50 hover:text-white flex items-center gap-2 mb-6 transition-colors text-sm">

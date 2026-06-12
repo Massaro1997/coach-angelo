@@ -1,34 +1,32 @@
 import type { Metadata } from "next";
-import { Lato } from "next/font/google";
+import { Archivo } from "next/font/google";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 
-const lato = Lato({
-  weight: ["100", "300", "400", "700", "900"],
-  variable: "--font-lato",
+const archivo = Archivo({
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-archivo",
   subsets: ["latin"],
 });
 
-const siteUrl = "https://coachangelo.com";
+const siteUrl = "https://www.angelocoach.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Coach Angelo | Personal Trainer in Germania",
+    default: "Coach Angelo | Personal Trainer Köln",
     template: "%s | Coach Angelo",
   },
-  description: "Personal Trainer italiano in Germania. Trasforma il tuo corpo e la tua vita con allenamenti personalizzati. Online e in presenza. Risultati garantiti.",
+  description: "Personal Trainer in Köln. WABBA International Athlet. Personal Training 1-zu-1, Online Coaching und individuelle Trainingspläne. Kostenlose Erstberatung.",
   keywords: [
-    "personal trainer",
-    "personal trainer Germania",
-    "fitness coach",
-    "allenamento personalizzato",
-    "personal trainer italiano",
-    "dimagrimento",
-    "massa muscolare",
-    "coaching online",
-    "trainer online",
-    "fitness Italia Germania",
+    "personal trainer Köln",
+    "fitness coach Köln",
+    "personal training Köln",
+    "abnehmen coach Köln",
+    "muskelaufbau Köln",
+    "online coaching",
+    "personal trainer italiano Germania",
+    "WABBA",
   ],
   authors: [{ name: "Coach Angelo" }],
   creator: "Coach Angelo",
@@ -66,18 +64,25 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "lwHOqV9YwUVEAUtHtYYwOktOyGjaYQdJdHnLiqNuSng",
+  },
 };
 
 // Schema.org JSON-LD
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Coach Angelo",
+  name: "Angelo Magliarisi",
+  alternateName: "Coach Angelo",
   jobTitle: "Personal Trainer",
-  description: "Personal Trainer italiano in Germania specializzato in allenamenti personalizzati per dimagrimento e massa muscolare.",
+  description: "Personal Trainer in Köln, WABBA International Athlet. Personal Training, Online Coaching und individuelle Trainingspläne.",
   url: siteUrl,
   image: `${siteUrl}/og-image.jpg`,
-  sameAs: [],
+  sameAs: [
+    "https://www.instagram.com/angelo_fitnesscoach",
+    "https://www.tiktok.com/@angelo.fitnesscoach",
+  ],
   knowsLanguage: [
     { "@type": "Language", name: "Italian" },
     { "@type": "Language", name: "German" },
@@ -86,8 +91,8 @@ const jsonLd = {
     "@type": "Occupation",
     name: "Personal Trainer",
     occupationLocation: {
-      "@type": "Country",
-      name: "Germany",
+      "@type": "City",
+      name: "Köln",
     },
   },
   makesOffer: [
@@ -123,7 +128,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${lato.variable} font-sans antialiased`}>
+      <body className={`${archivo.variable} font-sans antialiased`}>
         <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>

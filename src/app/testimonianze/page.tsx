@@ -25,14 +25,17 @@ export default function Testimonianze() {
       ? 'Konkrete Ergebnisse, die meine Kunden mit Engagement und Hingabe erzielt haben.'
       : 'Risultati concreti ottenuti dai miei clienti con impegno e dedizione.',
 
-    trans1Title: language === 'de' ? 'Komplette Transformation' : 'Trasformazione Completa',
-    trans1Desc: language === 'de' ? 'Gewichtsverlust und Definition' : 'Perdita peso e definizione',
-    trans2Title: language === 'de' ? 'Muskelaufbau' : 'Aumento Massa',
-    trans2Desc: language === 'de' ? '+8kg Muskelmasse' : '+8kg massa muscolare',
-    trans3Title: language === 'de' ? 'Körperrekomposition' : 'Ricomposizione',
-    trans3Desc: language === 'de' ? 'Abnehmen und Straffen' : 'Dimagrimento e tonificazione',
-    trans4Title: language === 'de' ? 'Definition' : 'Definizione',
-    trans4Desc: language === 'de' ? 'Athletische Vorbereitung' : 'Preparazione atletica',
+    transformations: language === 'de' ? [
+      { title: 'Komplette Transformation', desc: 'Gewichtsverlust und Definition' },
+      { title: 'Muskelaufbau', desc: '+8kg Muskelmasse' },
+      { title: 'Körperrekomposition', desc: 'Abnehmen und Straffen' },
+      { title: 'Definition', desc: 'Athletische Vorbereitung' },
+    ] : [
+      { title: 'Trasformazione Completa', desc: 'Perdita peso e definizione' },
+      { title: 'Aumento Massa', desc: '+8kg massa muscolare' },
+      { title: 'Ricomposizione', desc: 'Dimagrimento e tonificazione' },
+      { title: 'Definizione', desc: 'Preparazione atletica' },
+    ],
 
     ctaTitle: language === 'de'
       ? 'Möchtest du die nächste Erfolgsgeschichte sein?'
@@ -43,10 +46,14 @@ export default function Testimonianze() {
     ctaButton: language === 'de' ? 'Starte Deine Transformation' : 'Inizia la Tua Trasformazione',
 
     clientLabel: language === 'de' ? 'Kunde seit' : 'Cliente da',
-    onlineClient: language === 'de' ? 'Online-Kunde' : 'Cliente online',
-    months: language === 'de' ? 'Monaten' : 'mesi',
-    year: language === 'de' ? 'Jahr' : 'anno',
   };
+
+  const stats = [
+    { number: "100+", label: t.stat1Label },
+    { number: "500+", label: t.stat2Label },
+    { number: "98%", label: t.stat3Label },
+    { number: "5.0", label: t.stat4Label },
+  ];
 
   const testimonials = language === 'de' ? [
     {
@@ -138,78 +145,55 @@ export default function Testimonianze() {
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative pt-24 sm:pt-32 pb-12 sm:pb-20 bg-neutral-900 overflow-hidden">
-        {/* Animated gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900"></div>
-
-        {/* Floating gradient orbs */}
-        <div className="absolute top-12 left-12 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute top-20 right-16 w-80 h-80 bg-fuchsia-500/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.2s' }}></div>
-        <div className="absolute bottom-0 left-1/3 w-72 h-72 bg-violet-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2.5s' }}></div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6">
-            <span className="bg-gradient-to-r from-pink-400 via-fuchsia-400 to-violet-500 bg-clip-text text-transparent">{t.heroTitle}</span>
+      {/* Hero */}
+      <section className="pt-32 sm:pt-40 pb-12 sm:pb-16 bg-background">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-ink uppercase">
+            {t.heroTitle}
           </h1>
-          <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">
-            {t.heroSubtitle}
-          </p>
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-12 bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">100+</div>
-              <div className="text-white/80">{t.stat1Label}</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">500+</div>
-              <div className="text-white/80">{t.stat2Label}</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">98%</div>
-              <div className="text-white/80">{t.stat3Label}</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">5.0</div>
-              <div className="text-white/80">{t.stat4Label}</div>
-            </div>
+      {/* Stats */}
+      <section className="border-y border-line bg-surface">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4">
+            {stats.map((stat, index) => (
+              <div
+                key={index}
+                className={`py-10 sm:py-12 text-center ${index > 0 ? 'border-l border-line max-md:[&:nth-child(3)]:border-l-0' : ''} ${index >= 2 ? 'max-md:border-t max-md:border-line' : ''}`}
+              >
+                <div className="text-4xl md:text-5xl font-black text-gold mb-2">{stat.number}</div>
+                <div className="text-ink/60 uppercase tracking-wider text-[10px] sm:text-xs font-medium">{stat.label}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Testimonials Grid */}
-      <section className="relative py-20 bg-neutral-800 overflow-hidden">
-        {/* Sophisticated gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-neutral-800 via-fuchsia-950/12 to-neutral-800"></div>
-        <div className="absolute top-1/4 right-0 w-[550px] h-[550px] bg-pink-500/8 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 left-0 w-[500px] h-[500px] bg-violet-500/10 rounded-full blur-3xl"></div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <section className="py-20 sm:py-24 bg-background">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-neutral-900 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-                <div className="flex items-center mb-4">
+              <div key={index} className="bg-surface border border-line rounded-lg p-8 hover:border-gold-deep transition-colors">
+                <div className="flex items-center mb-4" aria-label="5/5">
                   {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <svg key={i} className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
                 </div>
-                <p className="text-white/70 mb-6 italic">&quot;{testimonial.text}&quot;</p>
-                <div className="border-t border-neutral-700 pt-4">
-                  <div className="flex items-center justify-between">
+                <p className="text-ink/70 mb-6 leading-relaxed">&quot;{testimonial.text}&quot;</p>
+                <div className="border-t border-line pt-4">
+                  <div className="flex items-center justify-between gap-4">
                     <div>
-                      <p className="font-semibold text-white">{testimonial.name}</p>
-                      <p className="text-sm text-white/50">{testimonial.location}</p>
+                      <p className="font-bold text-ink">{testimonial.name}</p>
+                      <p className="text-sm text-ink/50">{testimonial.location}</p>
                     </div>
                     <div className="text-right">
-                      <p className="bg-gradient-to-r from-pink-400 via-fuchsia-400 to-violet-500 bg-clip-text text-transparent font-semibold text-sm">{testimonial.result}</p>
-                      <p className="text-xs text-white/50">{t.clientLabel} {testimonial.duration}</p>
+                      <p className="text-gold font-bold text-sm">{testimonial.result}</p>
+                      <p className="text-xs text-ink/50">{t.clientLabel} {testimonial.duration}</p>
                     </div>
                   </div>
                 </div>
@@ -220,109 +204,57 @@ export default function Testimonianze() {
       </section>
 
       {/* Before/After Section */}
-      <section className="relative py-20 bg-neutral-900 overflow-hidden">
-        {/* Refined gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-neutral-900 via-violet-950/15 to-neutral-900"></div>
-        <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-fuchsia-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-pink-500/8 rounded-full blur-3xl"></div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              {t.transformationsTitle1}<span className="bg-gradient-to-r from-pink-400 via-fuchsia-400 to-violet-500 bg-clip-text text-transparent">{t.transformationsTitle2}</span>
+      <section className="py-20 sm:py-24 bg-surface border-t border-line">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="mb-14">
+            <h2 className="text-3xl md:text-4xl font-black text-ink uppercase mb-4">
+              {t.transformationsTitle1}<span className="text-accent">{t.transformationsTitle2}</span>
             </h2>
-            <p className="text-lg text-white/70 max-w-2xl mx-auto">
+            <p className="text-lg text-ink/60 max-w-2xl">
               {t.transformationsSubtitle}
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Transformation 1 */}
-            <div className="bg-neutral-800 rounded-2xl overflow-hidden shadow-lg group">
-              <div className="relative aspect-[3/4]">
-                <Image
-                  src="/images/Testimonianze/before-after-1.webp"
-                  alt={language === 'de' ? 'Kundentransformation - Vorher und Nachher' : 'Trasformazione Cliente - Prima e Dopo'}
-                  fill
-                  className="object-contain bg-neutral-900 group-hover:scale-105 transition-transform duration-500"
-                />
+            {t.transformations.map((trans, idx) => (
+              <div key={trans.title} className="bg-background border border-line rounded-lg overflow-hidden hover:border-gold-deep transition-colors">
+                <div className="relative aspect-[3/4]">
+                  <Image
+                    src={`/images/Testimonianze/before-after-${idx + 1}.webp`}
+                    alt={language === 'de' ? 'Kundentransformation - Vorher und Nachher' : 'Trasformazione Cliente - Prima e Dopo'}
+                    fill
+                    className="object-contain bg-background"
+                  />
+                </div>
+                <div className="p-4 border-t border-line">
+                  <h3 className="font-bold text-ink text-sm uppercase mb-1">{trans.title}</h3>
+                  <p className="text-ink/60 text-xs">{trans.desc}</p>
+                </div>
               </div>
-              <div className="p-4">
-                <h3 className="font-bold text-white text-sm mb-1">{t.trans1Title}</h3>
-                <p className="text-white/70 text-xs">{t.trans1Desc}</p>
-              </div>
-            </div>
-
-            {/* Transformation 2 */}
-            <div className="bg-neutral-800 rounded-2xl overflow-hidden shadow-lg group">
-              <div className="relative aspect-[3/4]">
-                <Image
-                  src="/images/Testimonianze/before-after-2.webp"
-                  alt={language === 'de' ? 'Kundentransformation - Vorher und Nachher' : 'Trasformazione Cliente - Prima e Dopo'}
-                  fill
-                  className="object-contain bg-neutral-900 group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="font-bold text-white text-sm mb-1">{t.trans2Title}</h3>
-                <p className="text-white/70 text-xs">{t.trans2Desc}</p>
-              </div>
-            </div>
-
-            {/* Transformation 3 */}
-            <div className="bg-neutral-800 rounded-2xl overflow-hidden shadow-lg group">
-              <div className="relative aspect-[3/4]">
-                <Image
-                  src="/images/Testimonianze/before-after-3.webp"
-                  alt={language === 'de' ? 'Kundentransformation - Vorher und Nachher' : 'Trasformazione Cliente - Prima e Dopo'}
-                  fill
-                  className="object-contain bg-neutral-900 group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="font-bold text-white text-sm mb-1">{t.trans3Title}</h3>
-                <p className="text-white/70 text-xs">{t.trans3Desc}</p>
-              </div>
-            </div>
-
-            {/* Transformation 4 */}
-            <div className="bg-neutral-800 rounded-2xl overflow-hidden shadow-lg group">
-              <div className="relative aspect-[3/4]">
-                <Image
-                  src="/images/Testimonianze/before-after-4.webp"
-                  alt={language === 'de' ? 'Kundentransformation - Vorher und Nachher' : 'Trasformazione Cliente - Prima e Dopo'}
-                  fill
-                  className="object-contain bg-neutral-900 group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="font-bold text-white text-sm mb-1">{t.trans4Title}</h3>
-                <p className="text-white/70 text-xs">{t.trans4Desc}</p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-32">
+      <section className="relative py-28 sm:py-32 border-t border-line">
         <Image
           src="/hero bassa.png"
           alt="Coach Angelo"
           fill
           className="object-cover object-bottom"
         />
-        <div className="absolute inset-0 bg-black/60" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+        <div className="absolute inset-0 bg-background/70" />
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-black text-ink uppercase mb-6">
             {t.ctaTitle}
           </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-ink/80 mb-8 max-w-2xl mx-auto">
             {t.ctaText}
           </p>
           <Link
             href="/contatti"
-            className="bg-white text-fuchsia-600 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-all inline-block"
+            className="bg-gold text-white hover:bg-gold-soft px-8 py-4 rounded-md font-bold uppercase tracking-wider text-lg transition-colors inline-block"
           >
             {t.ctaButton}
           </Link>
