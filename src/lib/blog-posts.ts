@@ -892,6 +892,140 @@ export const blogPosts: BlogPost[] = [
         "text": "Training ab 40 ist kein Kampf gegen den Körper. Es ist eine Zusammenarbeit mit ihm. Wer versteht, was sich verändert hat, und sein Training entsprechend anpasst, kann in seinen 40ern echte Stärke aufbauen, funktional, nachhaltig und ohne ständige Verletzungen. Wenn du nicht weißt, wo du anfangen sollst, oder dein aktuelles Training nicht mehr die Ergebnisse bringt, die du dir wünschst, dann meld dich einfach. Im kostenlosen Erstgespräch schauen wir gemeinsam, was für dich persönlich wirklich Sinn ergibt. Kein Pitch, kein Druck, nur ein ehrliches Gespräch. Du findest mich unter https://www.angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "ruckentraining-zuhause-ohne-gerate",
+    "title": "Rückentraining zuhause ohne Geräte: 6 Übungen gegen Schmerzen und Verspannungen",
+    "metaTitle": "Rückentraining zuhause ohne Geräte: 6 Übungen",
+    "metaDescription": "Rückentraining zuhause ohne Geräte: 6 konkrete Übungen für Berufstätige mit Bürojob. Gegen Schmerzen und Verspannungen, ohne Fitnessstudio.",
+    "date": "2026-06-12",
+    "readMinutes": 5,
+    "excerpt": "Bürojob, steifer Rücken, keine Zeit für das Fitnessstudio? Diese 6 Übungen helfen dir zuhause, ohne ein einziges Gerät.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du sitzt acht Stunden am Schreibtisch, der Rücken zieht, der Nacken ist fest. Kein Wunder. Der Bürojob ist eine der häufigsten Ursachen für chronische Rückenprobleme, und ein Fitnessstudio hilft dir dabei genau gar nichts, wenn du abends keine Energie mehr hast, noch hinzufahren. Die gute Nachricht: Du brauchst keinen einzigen Quadratmeter Fitnessstudio. Nur deinen Boden, eine Matte wenn vorhanden, und sechs Minuten Konzentration."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Berufstätige mit Bürojob einen schwachen Rücken bekommen"
+      },
+      {
+        "type": "p",
+        "text": "Langes Sitzen verkürzt die Hüftbeuger und schaltet gleichzeitig die Gesäßmuskulatur ab. Das klingt technisch, bedeutet aber im Alltag: Dein Körper verlagert die Arbeit auf Muskeln, die dafür nicht gedacht sind, vor allem auf die untere Lendenwirbelsäule und die Nackenmuskulatur. Resultat ist das klassische Bürorücken-Gefühl, diese diffuse Schwere zwischen den Schulterblättern nach dem Mittagessen."
+      },
+      {
+        "type": "p",
+        "text": "Das Problem ist nicht der Schmerz selbst. Das Problem ist, dass viele Leute dann einfach Ibuprofen nehmen und weitermachen. Der Schmerz meldet sich zurück, stärker als zuvor. Was du wirklich brauchst, sind gezielte Kräftigungsübungen, die genau die Muskeln aktivieren, die beim Sitzen einschlafen. Dehnen allein reicht nicht. Dehnen ohne Kräftigung ist wie ein Auto waschen, ohne den Motor zu reparieren."
+      },
+      {
+        "type": "h2",
+        "text": "Bevor du anfängst: So bereitest du dich richtig vor"
+      },
+      {
+        "type": "p",
+        "text": "Keine Aufwärmphase überspringen. Drei bis fünf Minuten lockeres Hüftkreisen, Schulterrollen und langsames Katze-Kuh auf allen vieren reichen völlig. Du musst nicht schwitzen, bevor du schwitzen willst, aber kalte Muskeln und intensive Rückenübungen vertragen sich schlecht."
+      },
+      {
+        "type": "p",
+        "text": "Wichtig ist auch die Körperwahrnehmung während der Übungen. Wenn du eine Übung machst und dabei stechenden Schmerz spürst, also keinen Muskelbrennschmerz, sondern echten Schmerz, dann hör sofort auf. Das hier ist kein Militärtraining. Ich sage das als Trainer, weil ich zu oft Leute sehe, die sich durch Schmerzen hindurchquälen und sich dabei ernsthaft schaden. Muskelkater am nächsten Tag ist okay. Stechende Schmerzen während der Übung sind es nicht."
+      },
+      {
+        "type": "p",
+        "text": "Starte mit zwei Durchgängen pro Übung, nicht drei. Dein Körper muss sich erst an die Belastung gewöhnen, besonders wenn du seit Monaten kaum trainiert hast."
+      },
+      {
+        "type": "h2",
+        "text": "Die 6 Übungen für ein komplettes Rückentraining zuhause"
+      },
+      {
+        "type": "p",
+        "text": "Diese sechs Übungen decken alle wichtigen Bereiche des Rückens ab: den unteren Rücken, die Brustwirbelsäule, die tiefen Stabilisatoren und die Schulterblattmuskeln. Du brauchst keine Geräte, kein Seil, keinen Widerstandsband. Nur dein Körpergewicht."
+      },
+      {
+        "type": "p",
+        "text": "Für jede Übung gilt: lieber langsam und sauber als schnell und schludrig. Ein sauber ausgeführter Superman bringt mehr als zehn schlampige Wiederholungen, bei denen du den Impuls nutzt statt die Muskeln."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Superman: In Bauchlage Arme und Beine gleichzeitig anheben, 2 Sekunden halten, ablegen. 3x10 Wiederholungen.",
+          "Bird-Dog: Im Vierfüßlerstand gegenüberliegenden Arm und Bein strecken, Becken stabil halten. 3x8 pro Seite.",
+          "Glute Bridge: Rückenlage, Füße hüftbreit, Becken heben bis Knie-Hüfte-Schulter eine Linie bilden. 3x12.",
+          "Dead Bug: Rückenlage, Arme zur Decke, Beine in 90 Grad. Abwechselnd Arm und Bein der gleichen Seite senken. 3x8 pro Seite.",
+          "Reverse Snow Angel: Bauchlage, Arme neben dem Körper, langsam über Kopf führen ohne den Boden zu verlassen. 3x10.",
+          "Thoracic Extension: Sitz auf den Fersen, Hände hinter dem Kopf, obere Wirbelsäule gezielt strecken ohne ins Hohlkreuz zu fallen. 3x8."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "So baust du die Übungen in deinen Büroalltag ein"
+      },
+      {
+        "type": "p",
+        "text": "Das größte Problem beim Heimtraining ist nicht die Motivation am ersten Tag. Es ist die Motivation am dreizehnten Tag, wenn der Anfangsschwung weg ist und Netflix lockt. Deswegen empfehle ich dir einen festen Slot, keine Option. Morgens direkt nach dem Aufwachen, vor dem Duschen, ist für viele meiner Klienten aus Köln der realistischste Zeitpunkt. Zehn Minuten, bevor der Tag anfängt und die erste Mail reinkommt."
+      },
+      {
+        "type": "p",
+        "text": "Wenn morgens gar nicht geht, dann nutze die Mittagspause. Zwanzig Minuten reichen: fünf Minuten Aufwärmen, zwölf Minuten Übungen, drei Minuten lockeres Ausschütteln. Du musst danach nicht geduscht und mit frischer Kleidung zurück ins Büro, denn bei diesen Intensitäten wirst du nicht durchgeschwitzt."
+      },
+      {
+        "type": "p",
+        "text": "Drei Einheiten pro Woche sind ideal. Zwei sind völlig ausreichend für Anfänger. Jeden Tag trainieren klingt ehrgeizig, ist aber bei reinen Kraftübungen ohne Geräte kontraproduktiv, weil dein Körper Zeit zur Regeneration braucht."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler, die dein Rückentraining sabotieren"
+      },
+      {
+        "type": "p",
+        "text": "Nummer eins: Nur dehnen, nicht kräftigen. Viele Leute machen Yoga oder stretchen täglich und wundern sich, dass der Rücken nicht besser wird. Mobilität ohne Stabilität ist wie ein weiches Fundament unter einem Haus. Du brauchst beides."
+      },
+      {
+        "type": "p",
+        "text": "Nummer zwei: Das Hohlkreuz bei jeder Übung. Beim Superman zum Beispiel reißen viele den Kopf nach hinten und kippen stark ins Hohlkreuz. Das belastet genau die Strukturen, die du entlasten willst. Schau beim Superman lieber nach unten statt nach oben, und stell dir vor, du willst mit dem Scheitel die gegenüberliegende Wand berühren, nicht die Decke."
+      },
+      {
+        "type": "p",
+        "text": "Nummer drei: Zu viel zu schnell. Ich habe Klienten gehabt, die nach einer Woche fragen, warum sie noch keinen Sixpack haben und warum der Rücken noch nicht schmerzfrei ist. Dein Körper braucht Wochen, um strukturelle Veränderungen zu zeigen. Bleib konsequent, nicht ungeduldig."
+      },
+      {
+        "type": "h2",
+        "text": "Was du zusätzlich tun kannst, wenn du am Schreibtisch sitzt"
+      },
+      {
+        "type": "p",
+        "text": "Das Training zuhause wirkt nur dann langfristig, wenn du auch tagsüber die Gewohnheiten änderst. Konkret heißt das: Steh alle sechzig bis neunzig Minuten kurz auf. Nicht weil irgendeine Studie das empfiehlt, sondern weil du selbst nach einer Stunde Sitzen merkst, wie der Rücken anfängt zu ziehen. Hör auf deinen Körper."
+      },
+      {
+        "type": "p",
+        "text": "Schau dir deinen Sitz an. Der Monitor sollte auf Augenhöhe stehen, die Ellbogen beim Tippen etwa im rechten Winkel. Das ist keine Raketenwissenschaft, aber die meisten Leute sitzen jahrelang mit dem Monitor zu tief und dem Stuhl zu hoch oder zu niedrig. Ein einmaliger Aufwand von zehn Minuten für die Sitzanpassung spart dir langfristig viel Schmerz."
+      },
+      {
+        "type": "p",
+        "text": "Trinke ausreichend Wasser. Das klingt banal, ist aber tatsächlich relevant, weil die Bandscheiben hydratationsabhängig sind. Nicht weil das ein Wundermittel ist, sondern weil Dehydration die allgemeine Muskelfunktion beeinträchtigt und du das am Rücken oft als erstes merkst."
+      },
+      {
+        "type": "h2",
+        "text": "Wie lange bis du Ergebnisse siehst"
+      },
+      {
+        "type": "p",
+        "text": "Das ist die Frage, die ich am häufigsten höre. Und ich wäre unehrlich, wenn ich dir eine genaue Zahl nennen würde. Was ich aus meiner Arbeit als Personal Trainer in Köln sagen kann: Die meisten Menschen, die zwei bis dreimal pro Woche konsequent diese Art von Rückentraining machen, berichten nach drei bis vier Wochen von spürbar weniger Verspannungen im Alltag."
+      },
+      {
+        "type": "p",
+        "text": "Das bedeutet nicht, dass die Ursache behoben ist. Es bedeutet, dass dein Körper beginnt, die richtigen Muskeln wieder zu nutzen. Echte strukturelle Veränderungen, also eine deutlich verbesserte Haltung und dauerhafte Schmerzfreiheit, brauchen länger. Plane mindestens acht bis zwölf Wochen ein. Wer nach zwei Wochen aufhört, weil er noch keinen Unterschied sieht, hat das Training genau dann abgebrochen, bevor es anfängt zu wirken."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Rückentraining zuhause ohne Geräte ist keine Notlösung. Es ist für viele Berufstätige die realistischste und effektivste Möglichkeit, dem Bürorücken entgegenzuwirken. Die sechs Übungen in diesem Artikel reichen für den Einstieg völlig aus. Wenn du jedoch merkst, dass du nicht weißt, wie du die Bewegungen korrekt ausführst, oder wenn du mit einem konkreten Plan starten willst, der zu deinem Alltag passt, dann lass uns darüber reden. Beim kostenlosen Erstgespräch auf angelocoach.com schauen wir gemeinsam, was für dich der sinnvollste nächste Schritt ist, ohne Druck und ohne Verpflichtung."
+      }
+    ]
   }
 ];
 
