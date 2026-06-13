@@ -2688,6 +2688,142 @@ export const blogPosts: BlogPost[] = [
         "text": "Rückenschmerzen durch Büroarbeit sind lösbar. Nicht mit Schmerztabletten, nicht mit einer neuen Sitzgelegenheit, sondern mit einem gezielten Trainingsplan, der zu deinem Alltag passt. Wenn du nicht weißt, wo du anfangen sollst oder einfach sicher gehen möchtest, dass du von Anfang an richtig trainierst: Ich biete dir ein kostenloses Erstgespräch an. Keine Verpflichtung, kein Verkaufsgespräch. Nur ein ehrliches Gespräch darüber, was dir wirklich helfen kann. Melde dich gerne über angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "muskelaufbau-zuhause-ohne-geraete",
+    "title": "Muskelaufbau zuhause ohne Geräte: So funktioniert es wirklich",
+    "metaTitle": "Muskelaufbau zuhause ohne Geräte: Der Guide",
+    "metaDescription": "Muskeln aufbauen ohne Gym? Angelo zeigt dir, wie es mit Körpergewicht zuhause wirklich klappt. Trainingsplan, häufige Fehler und konkrete Tipps.",
+    "date": "2026-06-13",
+    "readMinutes": 4,
+    "excerpt": "Kein Gym, kein Equipment, kein Problem. Dieser Guide zeigt dir, wie du zuhause effektiv Muskeln aufbaust, welche Fehler du vermeidest und wie ein echter Trainingsplan aussieht.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du hast keine Mitgliedschaft, kein Rack und keinen Platz für Hanteln. Trotzdem willst du Muskeln aufbauen. Gute Nachricht: Das geht. Ich trainiere seit Jahren Menschen in Köln, und einige meiner besten Fortschritte habe ich mit Leuten gesehen, die ausschließlich mit dem eigenen Körpergewicht gearbeitet haben. Der Schlüssel liegt nicht im Equipment, sondern im Prinzip dahinter."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Körpergewichtstraining wirklich funktioniert"
+      },
+      {
+        "type": "p",
+        "text": "Muskeln wachsen nicht, weil du eine Langhantel anfasst. Sie wachsen, weil du ihnen einen Reiz gibst, der über das hinausgeht, was sie gewohnt sind. Dieses Prinzip nennt sich progressive Überlastung, und es funktioniert genauso gut mit deinem eigenen Körpergewicht wie mit Gewichten im Studio. Du kannst Übungen schwerer machen, indem du den Hebel veränderst, die Geschwindigkeit anpasst oder instabile Positionen einbaust."
+      },
+      {
+        "type": "p",
+        "text": "Ein klassisches Beispiel: Du fängst mit normalen Liegestützen an. Nach ein paar Wochen werden die leicht. Also wechselst du zu Diamant-Liegestützen, dann zu Archer-Liegestützen, dann irgendwann zu einarmigen Liegestützen. Der Muskel merkt den Unterschied, auch wenn keine Scheibe auf einer Stange liegt. Das ist kein Trick, das ist Physiologie."
+      },
+      {
+        "type": "h2",
+        "text": "Die wichtigsten Übungen für zu Hause"
+      },
+      {
+        "type": "p",
+        "text": "Du brauchst keine 30 verschiedenen Übungen. Wirklich nicht. Konzentriere dich auf Bewegungsmuster, nicht auf einzelne Muskeln. Push, Pull, Squat, Hip Hinge, Core: Das sind die fünf Kategorien, die deinen ganzen Körper abdecken. Wer diese Basis solide beherrscht, baut mehr Muskeln als jemand, der täglich neue Übungen aus YouTube-Videos zusammenklaubt."
+      },
+      {
+        "type": "p",
+        "text": "Für die Push-Kategorie sind Liegestütze in allen Variationen dein bestes Werkzeug. Für Pull brauchst du eine Klimmzugstange, die du für unter zwanzig Euro in jeden Türrahmen einschrauben kannst. Squats, Ausfallschritte und Einbein-Squats decken die Beine ab. Hüftheben und Romanian Deadlifts mit dem eigenen Körpergewicht trainieren die hintere Kette. Plank, Hollow Body Hold und Beinheben für den Rumpf."
+      },
+      {
+        "type": "p",
+        "text": "Investiere in eine Türriegelstange. Das ist das einzige Gerät, das ich dir empfehle, und es kostet fast nichts. Ohne Pull-Bewegungen ist Muskelaufbau zuhause unvollständig, der Rücken bleibt sonst auf der Strecke."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Push: Liegestütze, Dips an der Stuhllehne, Pike Push-ups",
+          "Pull: Klimmzüge, Rudern unter einem Tisch",
+          "Beine: Kniebeuge, Ausfallschritt, Einbeinige Kniebeuge",
+          "Hintere Kette: Hüftheben, Romanian Deadlift mit Körpergewicht",
+          "Core: Plank, Hollow Body Hold, Beinheben liegend"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ein konkreter Trainingsplan für Einsteiger"
+      },
+      {
+        "type": "p",
+        "text": "Drei Einheiten pro Woche reichen für Anfänger völlig aus. Mehr ist in dieser Phase nicht besser, dein Körper braucht Zeit zur Regeneration. Ich empfehle ein Ganzkörper-Schema, also in jeder Einheit alle Muskelgruppen trainieren, anstatt Split-Pläne zu fahren, die für Fortgeschrittene mit viel mehr Volumen gebaut wurden."
+      },
+      {
+        "type": "p",
+        "text": "Eine Einheit sieht dann so aus: drei bis vier Sätze Liegestütze, drei Sätze Klimmzüge oder Tischrudern, drei Sätze Kniebeugen oder Ausfallschritte, zwei Sätze Hüftheben, zwei Sätze Core-Übung. Pausiere etwa 60 bis 90 Sekunden zwischen den Sätzen. Das Ganze dauert 35 bis 45 Minuten. Mehr Zeit brauchst du nicht."
+      },
+      {
+        "type": "p",
+        "text": "Wichtig: Führe ein simples Trainingsprotokoll. Notizbuch, Notizen-App, egal. Schreib auf, wie viele Wiederholungen du in welcher Variation gemacht hast. Nur so siehst du, ob du fortschrittst, und nur so weißt du, wann es Zeit ist, die Übung schwerer zu machen. Ohne Protokoll trainierst du im Blindflug."
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung: Was du zuhause nicht ignorieren kannst"
+      },
+      {
+        "type": "p",
+        "text": "Training ist die eine Seite. Essen ist die andere. Muskeln wachsen nicht aus dem Nichts, sie brauchen Protein und genug Kalorien. Wenn du dauerhaft zu wenig isst, wirst du trotz hartem Training kaum Muskeln aufbauen. Das ist keine Meinung, das ist der Grund, warum viele Leute jahrelang trainieren und trotzdem gleich aussehen."
+      },
+      {
+        "type": "p",
+        "text": "Als grober Anhaltspunkt gilt: Iss ausreichend Protein pro Mahlzeit, verteilt auf drei bis vier Mahlzeiten am Tag. Gute Quellen sind Eier, Hüttenkäse, Hähnchenbrust, Lachs, Linsen und Tofu. Du musst kein Profi-Koch sein. Vier Eier zum Frühstück, ein proteinreicher Snack mittags, eine ordentliche Portion Fleisch oder Hülsenfrüchte abends, das bringt dich schon weit."
+      },
+      {
+        "type": "p",
+        "text": "Schlaf gehört auch zur Ernährung im weiteren Sinne. Wachstumsprozesse laufen nachts, nicht im Training. Wer dauerhaft unter sieben Stunden schläft, bremst seine Ergebnisse aus, egal wie gut der Trainingsplan ist. Klingt banal, wird aber von den meisten Einsteigern komplett ignoriert."
+      },
+      {
+        "type": "h2",
+        "text": "Die häufigsten Fehler beim Training zuhause"
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer eins: zu viel Abwechslung, zu wenig Konsequenz. Jeden Montag ein neues YouTube-Workout ausprobieren bringt nichts. Dein Körper braucht Wiederholung, um sich anzupassen. Bleib mindestens sechs bis acht Wochen bei einem Plan, bevor du etwas änderst. Das fühlt sich langweilig an. Es ist trotzdem richtig."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer zwei: Technik vernachlässigen, weil niemand zuschaut. Gerade zuhause, ohne Trainer und ohne Trainingspartner, schleichen sich schlechte Muster ein. Filmé dich gelegentlich mit dem Handy und schau, ob deine Kniebeugen sauber sind, ob dein Rücken beim Liegestütz gerade bleibt. Ein schlechtes Bewegungsmuster wird mit jedem Satz tiefer eingeschliffen."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer drei: kein progressiver Anstieg. Du machst seit drei Monaten dieselben Liegestütze mit denselben Wiederholungszahlen. Und wunderst dich, dass nichts mehr passiert. Überlastung bedeutet, dass du dem Muskel immer wieder einen neuen Reiz gibst. Mehr Wiederholungen, schwierigere Variationen, kürzere Pausen, langsamere Ausführung: Es gibt viele Wege, das Training anspruchsvoller zu machen."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Kein fester Plan: Zufallstraining bringt Zufallsergebnisse",
+          "Schlechte Technik: Filme dich, korrigiere früh",
+          "Kein Protokoll: Ohne Aufzeichnung kein Fortschritt",
+          "Zu wenig Protein: Muskeln brauchen Baumaterial",
+          "Zu wenig Schlaf: Regeneration passiert nachts",
+          "Zu viel Programm-Hopping: Ein Plan für mindestens sechs Wochen"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wann du zum Gym oder einem Trainer wechseln solltest"
+      },
+      {
+        "type": "p",
+        "text": "Bodyweight-Training hat seine Grenzen. Nach einem Jahr soliden Trainings wirst du an einen Punkt kommen, wo die Progression schwieriger wird, weil das eigene Körpergewicht einfach nicht beliebig skalierbar ist. Das ist kein Misserfolg, das ist ein Zeichen, dass du Fortschritt gemacht hast. An diesem Punkt lohnt es sich, über externe Widerstände nachzudenken."
+      },
+      {
+        "type": "p",
+        "text": "Manche Menschen kommen auch an diesem Punkt nie an, weil sie vorher aufgehört haben, weil Motivation fehlt, weil Technikprobleme ungelöst blieben oder weil der Alltag das Training immer wieder verdrängt. Hier kann ein Personal Trainer helfen, nicht als Luxus, sondern als Abkürzung. Jemand, der dir einmal zeigt, wie du richtig ausführst und einen Plan gibt, der zu deinem Leben passt, spart dir Monate des Herumprobierens."
+      },
+      {
+        "type": "p",
+        "text": "Du musst nicht täglich ins Studio, um von einem Trainer zu profitieren. Manchmal reicht ein einmaliges Feedback-Gespräch, um die nächsten sechs Monate in die richtige Richtung zu lenken."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Muskelaufbau zuhause ohne Geräte ist keine Notlösung. Es ist ein legitimer, effektiver Weg, besonders für Einsteiger, die erst lernen müssen, ihren Körper zu bewegen und zu spüren. Nimm die Grundübungen ernst, bleib bei einem Plan, iss genug Protein und schlaf ausreichend. Der Rest kommt mit der Zeit. Wenn du magst, können wir in einem kostenlosen Erstgespräch schauen, wie ein auf dich zugeschnittener Plan aussehen könnte, ohne Verpflichtung, aber mit konkreten Antworten. Schreib mir einfach über angelocoach.com."
+      }
+    ]
   }
 ];
 
