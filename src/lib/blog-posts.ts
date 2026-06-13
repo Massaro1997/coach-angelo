@@ -3078,6 +3078,123 @@ export const blogPosts: BlogPost[] = [
         "text": "Kalorien zählen oder intuitiv essen, das ist keine Glaubensfrage. Es ist eine pragmatische Entscheidung, die zu dir und deinem Alltag passen muss. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon verschiedenes probiert hast und trotzdem nicht weiterkommst, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam herausfinden, was für dich konkret Sinn macht. Ohne Verkaufsdruck, ohne Standardprogramm. Einfach ein ehrliches Gespräch. Meld dich auf angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "abnehmen-plateau-ueberwinden",
+    "title": "Abnehm-Plateau überwinden: Warum du plötzlich kein Gewicht mehr verlierst, und was du jetzt tun kannst",
+    "metaTitle": "Abnehm-Plateau überwinden: Tipps für Berufstätige",
+    "metaDescription": "Warum stagniert die Waage plötzlich? Angelo, Personal Trainer in Köln, erklärt das Plateau-Phänomen und zeigt dir konkrete Wege, wieder abzunehmen.",
+    "date": "2026-06-13",
+    "readMinutes": 5,
+    "excerpt": "Die Waage bewegt sich nicht mehr, obwohl du alles richtig machst. Hier erfährst du, warum das Plateau entsteht und wie du es als Berufstätiger in Köln konkret überwindest.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du nimmst seit Wochen ab, alles läuft gut, und dann: nichts mehr. Die Waage zeigt dieselbe Zahl, egal was du tust. Das ist kein Versagen. Das ist Biologie. Dein Körper ist schlauer, als du denkst, und er hat sich einfach angepasst. Ich erkläre dir, was da genau passiert, und vor allem, was du als Berufstätiger in Köln konkret dagegen tun kannst."
+      },
+      {
+        "type": "h2",
+        "text": "Was passiert im Körper, wenn das Abnehmen stoppt"
+      },
+      {
+        "type": "p",
+        "text": "Wenn du über Wochen weniger isst und dich mehr bewegst, verlierst du Gewicht. Irgendwann aber passt sich dein Körper an dieses neue Niveau an. Er senkt seinen Energieverbrauch, weil er jetzt schlicht weniger Masse zu versorgen hat. Das ist kein Trick, das ist reine Physik: Ein leichterer Körper braucht weniger Kalorien, um zu funktionieren. Was früher ein Kaloriendefizit war, ist jetzt Gleichgewicht."
+      },
+      {
+        "type": "p",
+        "text": "Dazu kommt, dass dein Körper auf Kalorienreduktion mit hormonellen Anpassungen reagiert. Hunger- und Sättigungshormone verschieben sich, du wirst hungriger, und dein Körper wird effizienter darin, Energie zu speichern. Das klingt frustrierend, ist aber kein Zeichen, dass du gescheitert bist. Es ist ein Zeichen, dass dein Körper funktioniert. Die gute Nachricht: Du kannst gezielt dagegen steuern."
+      },
+      {
+        "type": "h2",
+        "text": "Der häufigste Fehler: immer dasselbe Training"
+      },
+      {
+        "type": "p",
+        "text": "Viele machen wochenlang dasselbe Workout. Gleiche Laufstrecke, gleiche Gewichte, gleiche Reihenfolge. Dein Körper gewöhnt sich daran. Er wird effizienter, verbraucht weniger Energie für dieselbe Bewegung, und der Reiz, der anfangs für Anpassungen gesorgt hat, verpufft einfach. Kein neuer Reiz, kein neues Ergebnis."
+      },
+      {
+        "type": "p",
+        "text": "Was hilft, ist Variation. Wenn du bisher nur Ausdauer trainiert hast, füge Krafttraining hinzu. Wenn du immer mit mittlerer Intensität läufst, probiere kürzere, intensivere Einheiten, zum Beispiel Intervalle. Du musst dein Programm nicht komplett umwerfen. Oft reicht es schon, zwei oder drei Elemente zu ändern, damit dein Körper wieder aus der Reserve gelockt wird. In Köln gibt es genug Parks und Möglichkeiten, das auch draußen umzusetzen, der Stadtwald eignet sich zum Beispiel hervorragend für Laufintervalle."
+      },
+      {
+        "type": "h2",
+        "text": "Kalorien stimmen eigentlich, trotzdem geht nichts: Was du übersehen hast"
+      },
+      {
+        "type": "p",
+        "text": "Hier ist eine unbequeme Wahrheit. Mit der Zeit unterschätzen die meisten Menschen, wie viel sie essen. Nicht weil sie lügen, sondern weil Portionsgrößen schleichen. Ein Löffel Öl mehr beim Kochen, ein Griff in die Nussmischung im Büro, ein Kaffee mit Milch mehr als sonst. Alles Kleinigkeiten, zusammen aber durchaus relevant."
+      },
+      {
+        "type": "p",
+        "text": "Mein Tipp: Führ für eine einzige Woche wieder ein ehrliches Ernährungstagebuch. Nicht um dich zu quälen, sondern um ein klares Bild zu bekommen. Apps wie MyFitnessPal oder Yazio können helfen. Du wirst oft überrascht sein, wo die Kalorien sich verstecken. Danach kannst du bewusst und gezielt anpassen, ohne dich in dauerhaftes Zählen zu flüchten."
+      },
+      {
+        "type": "p",
+        "text": "Außerdem lohnt es sich, die Proteinzufuhr zu prüfen. Protein sättigt gut und hilft dir, Muskelmasse zu erhalten, wenn du im Kaloriendefizit bist. Wer zu wenig davon isst, verliert beim Abnehmen auch Muskeln, was den Stoffwechsel weiter bremst. Eier, Hüttenkäse, Hülsenfrüchte, Hähnchen, Fisch: Das sind keine exotischen Superfoods, sondern ganz normale Lebensmittel, die du auch mit wenig Zeit in den Alltag integrieren kannst."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Ernährungstagebuch für eine Woche führen",
+          "Versteckte Kalorien in Soßen, Ölen und Snacks identifizieren",
+          "Proteinanteil bei jeder Hauptmahlzeit bewusst erhöhen",
+          "Alkohol kritisch prüfen: Kalorien und Erholungsqualität beachten",
+          "Mahlzeiten nicht unter Zeitdruck essen, Sättigungsgefühl wahrnehmen"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Schlaf und Stress: die unterschätzten Faktoren beim Plateau"
+      },
+      {
+        "type": "p",
+        "text": "Als Personal Trainer in Köln arbeite ich oft mit Berufstätigen, die 50-Stunden-Wochen schieben, abends kaum runterkommen und trotzdem täglich trainieren. Das Problem: Zu wenig Schlaf und dauerhafter Stress wirken sich direkt auf den Körper aus. Das Stresshormon Kortisol steigt, der Appetit steigt, und der Körper hält lieber an Energiereserven fest. Du trainierst hart, schläfst schlecht, und wunderst dich, warum nichts passiert."
+      },
+      {
+        "type": "p",
+        "text": "Sieben bis acht Stunden Schlaf pro Nacht sind keine Luxus-Empfehlung für Wellness-Magazine. Sie sind eine funktionale Voraussetzung dafür, dass Erholung stattfindet, Muskeln wachsen und Hormone sich regulieren. Wenn du gerade im Plateau steckst und dabei weniger als sechs Stunden schläfst, dann arbeite zuerst daran. Kein Trainingsplan der Welt kann schlechten Schlaf kompensieren."
+      },
+      {
+        "type": "p",
+        "text": "Stressmanagement klingt abstrakt, bedeutet in der Praxis aber konkrete kleine Entscheidungen. Eine Mittagspause ohne Bildschirm. Ein Spaziergang nach der Arbeit. Das konsequente Abschalten des Handys eine Stunde vor dem Schlafen. Das sind keine großen Einschnitte in deinen Kölner Arbeitsalltag, aber sie summieren sich zu echter Erholung."
+      },
+      {
+        "type": "h2",
+        "text": "Wie du dein Kaloriendefizit neu kalibrierst"
+      },
+      {
+        "type": "p",
+        "text": "Wenn du abgenommen hast, ist dein Kalorienbedarf gesunken. Das, was vor drei Monaten ein Defizit war, ist heute womöglich dein Erhaltungsbedarf. Um das Plateau zu überwinden, musst du entweder die Kalorienzufuhr leicht senken oder den Verbrauch erhöhen, oder beides in Kombination. Aber Achtung: Zu drastisch kürzen ist kontraproduktiv. Der Körper reagiert mit weiterem Abbau von Muskelmasse und noch mehr Anpassung."
+      },
+      {
+        "type": "p",
+        "text": "Ein moderater Ansatz: Reduziere die tägliche Kalorienzufuhr um eine kleine, handhabbare Menge, zum Beispiel durch Weglassen eines Snacks oder kleinere Abendmahlzeit, und erhöhe gleichzeitig deine allgemeine Alltagsbewegung. Nicht unbedingt ein extra Workout, sondern mehr Schritte, Fahrrad statt U-Bahn, Treppe statt Aufzug. In Köln ist das dank kurzer Distanzen im Stadtbereich gut machbar. Diese Kombination erzeugt ein neues, kleines Defizit, ohne den Körper zu stressen."
+      },
+      {
+        "type": "h2",
+        "text": "Geduld als Strategie: Was das Plateau dir eigentlich sagt"
+      },
+      {
+        "type": "p",
+        "text": "Hier ist etwas, das ich meinen Klienten immer sage: Ein Plateau ist nicht das Ende. Es ist ein Zeichen, dass du schon echte Fortschritte gemacht hast. Dein Körper hat sich verändert, er hat sich stabilisiert, und jetzt braucht er neue Impulse. Das ist ein völlig normaler Prozess, kein Grund zur Panik."
+      },
+      {
+        "type": "p",
+        "text": "Manchmal ist das Beste, was du tun kannst, ein oder zwei Wochen lang auf einem höheren Kalorienlevel zu essen, also eine kurze Phase ohne Defizit. Das kann den Stoffwechsel wieder ankurbeln und Hormone normalisieren. Das nennt sich manchmal Diet Break, und obwohl es kontraintuitiv klingt, berichten viele Menschen danach von neuen Fortschritten. Es geht nicht darum, die Kontrolle zu verlieren, sondern darum, dem Körper eine Pause zu gönnen."
+      },
+      {
+        "type": "p",
+        "text": "Abnehmen ist kein Sprint. Das klingt banal, ist aber die Wahrheit. Wer langfristig denkt, statt auf schnelle Ergebnisse zu jagen, kommt weiter. Das Plateau ist Teil des Weges, nicht das Ende davon. Wenn du die richtigen Anpassungen machst, wirst du wieder Fortschritte sehen, manchmal schon nach wenigen Wochen."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Wenn du das Gefühl hast, dass du alles versuchst und trotzdem nicht weiterkommst, dann könnte ein frischer, externer Blick genau das sein, was du brauchst. Ich biete dir ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, wo bei dir der Hebel sitzt. Kein Standardprogramm, kein Druck, einfach ein ehrliches Gespräch darüber, was wirklich funktioniert. Schreib mir unter angelocoach.com."
+      }
+    ]
   }
 ];
 
