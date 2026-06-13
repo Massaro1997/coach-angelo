@@ -1611,6 +1611,161 @@ export const blogPosts: BlogPost[] = [
         "text": "Proteinreiche Lebensmittel für den Muskelaufbau müssen nicht kompliziert sein. Ein klarer Einkaufsplan, drei solide Mahlzeiten pro Tag und ein bisschen Vorbereitung reichen für den Anfang. Wenn du in Köln lebst und wissen willst, wie du Ernährung und Training konkret auf dein Leben zuschneidest, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos und ohne Verpflichtung. Schreib mir einfach über angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "muskelaufbau-ernaehrung-plan-anfaenger",
+    "title": "Muskelaufbau Ernährungsplan: Was du als Anfänger wirklich essen musst",
+    "metaTitle": "Muskelaufbau Ernährungsplan für Anfänger",
+    "metaDescription": "Muskelaufbau Ernährungsplan für Einsteiger: konkrete Mahlzeiten, Kalorienorientierung und ein praktikabler Wochenplan ohne Diät-Chaos. Jetzt lesen.",
+    "date": "2026-06-13",
+    "readMinutes": 5,
+    "excerpt": "Kein Diät-Chaos, keine Supplements-Flut. Dieser Muskelaufbau Ernährungsplan zeigt dir als Anfänger genau, was, wann und wie viel du essen solltest.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du fängst mit dem Training an, willst Muskeln aufbauen, und weißt nicht genau, was auf den Teller soll. Verständlich. Das Netz ist voll mit widersprüchlichen Infos, Supplement-Werbung und Plänen, die sich kein normaler Mensch im Alltag leisten kann, weder zeitlich noch finanziell. Ich zeige dir, wie ein solider Muskelaufbau Ernährungsplan als Anfänger wirklich aussieht: konkret, umsetzbar, ohne Magie."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Ernährung beim Muskelaufbau so entscheidend ist"
+      },
+      {
+        "type": "p",
+        "text": "Training ohne passende Ernährung ist wie ein Auto ohne Benzin. Du kannst so hart trainieren, wie du willst, wenn die Energiezufuhr nicht stimmt, baut dein Körper keine Muskelmasse auf. Der Muskel braucht Material zum Wachsen, und dieses Material kommt ausschließlich aus dem, was du isst und trinkst."
+      },
+      {
+        "type": "p",
+        "text": "Als Anfänger ist das eigentlich eine gute Nachricht. Du musst keine extremen Diäten fahren. Ein leichter Kalorienüberschuss, also etwas mehr essen als du verbrauchst, reicht völlig aus, um sichtbare Fortschritte zu machen. Viele Einsteiger überschätzen, wie viel sie essen müssen, und kippen zu viel rein, was dann eher Fett als Muskeln bringt."
+      },
+      {
+        "type": "p",
+        "text": "Orientiere dich an deinem Gefühl und an der Waage. Wenn du in vier Wochen kaum zunimmst, iss etwas mehr. Wenn du merkst, dass du hauptsächlich am Bauch zulegest, dreh die Zufuhr leicht zurück. Das ist kein Hexenwerk, das ist aufmerksames Beobachten."
+      },
+      {
+        "type": "h2",
+        "text": "Kalorienüberschuss richtig berechnen ohne Kopfrechnen"
+      },
+      {
+        "type": "p",
+        "text": "Du brauchst keine App, die dir auf 10 Kalorien genau rechnet. Als Faustregel gilt: Nimm dein Körpergewicht in Kilogramm, multipliziere es mit 33 bis 35, und du hast einen groben Startpunkt für deinen Tagesbedarf bei moderater Aktivität. Für den Muskelaufbau addierst du etwa 200 bis 300 Kilokalorien oben drauf."
+      },
+      {
+        "type": "p",
+        "text": "Ein Beispiel: Du wiegst 75 Kilogramm und trainierst drei Mal pro Woche. Dein ungefährer Bedarf liegt dann bei etwa 2.500 Kilokalorien. Mit Überschuss zielst du auf 2.700 bis 2.800 Kilokalorien täglich. Das klingt nach viel, ist es aber nicht, wenn du weißt, welche Lebensmittel du wählen solltest."
+      },
+      {
+        "type": "p",
+        "text": "Wichtig: Das sind Orientierungswerte, keine Gesetze. Jeder Körper reagiert anders. Beobachte dich über zwei bis drei Wochen, dann justiere. Genauigkeit ist gut. Flexibilität ist besser."
+      },
+      {
+        "type": "h2",
+        "text": "Protein: Wie viel brauchst du wirklich"
+      },
+      {
+        "type": "p",
+        "text": "Protein ist der Baustoff für Muskelgewebe. Das stimmt. Aber die Menge, die in Fitness-Kreisen oft propagiert wird, ist meistens übertrieben. Als Anfänger kommst du mit etwa 1,6 bis 2 Gramm Protein pro Kilogramm Körpergewicht sehr gut aus. Bei 75 Kilogramm wären das also zwischen 120 und 150 Gramm Protein täglich."
+      },
+      {
+        "type": "p",
+        "text": "Diese Menge erreichst du ohne Pulver und ohne Verzauberung. Drei Hühnerbrustfilets über den Tag verteilt, ein paar Eier zum Frühstück und ein Becher Quark am Abend, schon bist du nah dran. Hülsenfrüchte wie Linsen und Kichererbsen helfen ebenfalls und sind günstig."
+      },
+      {
+        "type": "p",
+        "text": "Verteile dein Protein auf drei bis vier Mahlzeiten. Der Körper kann nicht unbegrenzt viel auf einmal verwerten. Gleichmäßige Verteilung ist effizienter als eine riesige Proteinbombe beim Abendessen."
+      },
+      {
+        "type": "h2",
+        "text": "Konkreter Wochenplan: So könnten deine Mahlzeiten aussehen"
+      },
+      {
+        "type": "p",
+        "text": "Ich zeige dir ein einfaches Tagesbeispiel, das du variieren kannst. Frühstück: drei Eier gerührt, zwei Scheiben Vollkornbrot, eine Handvoll Spinat. Das sind ungefähr 500 bis 550 Kilokalorien und rund 35 Gramm Protein. Kein Schnickschnack, fertig in zehn Minuten."
+      },
+      {
+        "type": "p",
+        "text": "Mittagessen: 150 Gramm Hähnchenbrust gegrillt, 200 Gramm gegarter Reis, gebratene Paprika und Zucchini mit etwas Olivenöl. Das bringt dir ungefähr 600 bis 650 Kilokalorien und weitere 45 Gramm Protein. Abendessen: 200 Gramm Lachs in der Pfanne, Süßkartoffel aus dem Ofen, grüner Salat. Nochmals etwa 600 Kilokalorien, 40 Gramm Protein."
+      },
+      {
+        "type": "p",
+        "text": "Dazwischen ein Snack: griechischer Joghurt mit Beeren oder ein paar Nüsse mit einem Stück Obst. So kommst du über den Tag auf rund 2.600 bis 2.800 Kilokalorien und 120 bis 130 Gramm Protein. Für die Woche gilt: Wechsle die Proteinquellen, tausche Hähnchen gegen Rind oder Tofu, und du vermeidest Monotonie."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Montag und Donnerstag: Hähnchen, Reis, Gemüse",
+          "Dienstag und Freitag: Lachs oder Thunfisch, Süßkartoffel",
+          "Mittwoch: Rinderhackfleisch (mager), Vollkornnudeln",
+          "Samstag: Eier-basiertes Gericht, Haferflocken zum Frühstück",
+          "Sonntag: Hülsenfrüchte, Linsensuppe oder Kichererbsen-Pfanne"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Kohlenhydrate und Fette: Nicht der Feind, sondern der Motor"
+      },
+      {
+        "type": "p",
+        "text": "Kohlenhydrate werden beim Muskelaufbau oft schlechtgeredet. Dabei sind sie dein wichtigster Energielieferant fürs Training. Ohne ausreichend Carbs trainierst du schlapp, erholst dich langsamer und machst weniger Fortschritte. Reis, Haferflocken, Vollkornnudeln, Süßkartoffeln: Das sind deine besten Freunde."
+      },
+      {
+        "type": "p",
+        "text": "Fette brauchst du für Hormone und für die Aufnahme fettlöslicher Vitamine. Kein Grund, sie zu vermeiden. Wähle gute Quellen: Olivenöl, Avocado, Nüsse, fetter Fisch. Eine Handvoll Nüsse am Tag reicht aus, um deinen Fettbedarf zu einem guten Teil zu decken."
+      },
+      {
+        "type": "p",
+        "text": "Ein häufiger Fehler bei Anfängern: Sie essen zu wenig Kohlenhydrate aus Angst, zuzunehmen, und dann wundern sie sich, warum das Training so anstrengend ist. Iss deine Carbs, vor allem rund ums Training. Das macht den Unterschied."
+      },
+      {
+        "type": "h2",
+        "text": "Supplements: Was du wirklich brauchst und was du dir sparen kannst"
+      },
+      {
+        "type": "p",
+        "text": "Ehrliche Antwort: Als Anfänger brauchst du keine Supplements. Die Ernährung über echte Lebensmittel ist immer die Basis. Wer das ignoriert und gleich mit Pre-Workout, BCAA und teuren Proteinpulvern startet, verschwendet Geld und Zeit."
+      },
+      {
+        "type": "p",
+        "text": "Wenn du trotzdem etwas ergänzen möchtest, dann ist Kreatin das einzige Supplement mit wirklich solider wissenschaftlicher Basis. Es ist günstig, gut verträglich und hilft dir, im Training mehr Leistung abzurufen. Vitamin D im Winter ist in Deutschland ebenfalls sinnvoll, da viele Menschen hierzulande einen Mangel haben."
+      },
+      {
+        "type": "p",
+        "text": "Proteinpulver ist kein Wundermittel. Es ist einfach Protein in Pulverform, praktisch wenn du mal keine Zeit hast, aber kein Ersatz für eine vernünftige Mahlzeit. Steck dein Geld lieber in gute Lebensmittel."
+      },
+      {
+        "type": "h2",
+        "text": "Die häufigsten Fehler beim Muskelaufbau Ernährungsplan und wie du sie vermeidest"
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer eins: zu wenig essen und gleichzeitig erwarten, dass Muskeln wachsen. Muskelaufbau braucht Energie. Wer dauerhaft im Defizit ist, baut ab, nicht auf. Das klingt einfach, aber gerade Menschen, die vorher eine Diät gemacht haben, unterschätzen ihren Energiebedarf systematisch."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer zwei: zu viel auf einmal ändern. Wer seine Ernährung komplett umstellt, gleichzeitig mit dem Training anfängt und noch drei Supplements einwirft, weiß nach vier Wochen nicht, was geholfen hat und was nicht. Starte mit einer kleinen Änderung, beobachte sie, dann kommt die nächste."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer drei: Wochenenden ignorieren. Von Montag bis Freitag perfekt essen und am Wochenende alles umwerfen funktioniert nicht dauerhaft. Du musst keinen Mönch spielen, aber totales Chaos am Wochenende zerstört den Fortschritt der Woche."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Zu wenig essen: Kalorienüberschuss nicht vergessen",
+          "Zu viel auf einmal ändern: eine Sache nach der anderen",
+          "Protein vergessen: auf jede Mahlzeit achten",
+          "Wochenenden auslassen: auch samstags und sonntags strukturiert essen",
+          "Supplements priorisieren: erst die Ernährung, dann Extras"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Ein Muskelaufbau Ernährungsplan muss nicht kompliziert sein. Feste Mahlzeiten, ausreichend Protein, genug Energie aus Kohlenhydraten und Fetten, das ist das Gerüst. Der Rest kommt mit der Zeit. Wenn du dir nicht sicher bist, wo du anfangen sollst, oder wenn du merkst, dass du trotz Bemühungen keine Fortschritte machst, dann lass uns kurz reden. Ich biete ein kostenloses Erstgespräch an, damit wir gemeinsam schauen, was für dich konkret Sinn macht. Kein Verkaufsgespräch, keine Verpflichtung. Einfach ein ehrlicher Austausch. Meld dich unter angelocoach.com."
+      }
+    ]
   }
 ];
 
