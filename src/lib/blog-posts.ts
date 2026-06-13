@@ -3340,6 +3340,124 @@ export const blogPosts: BlogPost[] = [
         "text": "Stoffwechsel anregen ab 40 ist keine Frage von Willenskraft oder magischen Supplements. Es ist eine Frage der richtigen Hebel: Krafttraining, ausreichend Protein, guter Schlaf und Bewegung im Alltag. Du musst nicht alles auf einmal umsetzen. Fang mit einem Punkt an, mach ihn zur Gewohnheit, dann kommt der nächste. Wenn du wissen willst, wie ein konkreter Plan für dich persönlich aussieht, hol dir einfach ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, keine Verpflichtung. Einfach 30 Minuten, um zu schauen, wo du stehst und was sinnvoll ist. Meld dich unter angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "rueckenschmerzen-buero-uebungen-morgens",
+    "title": "Rückenschmerzen durch Büroarbeit: Die 10-Minuten-Morgenroutine, die wirklich hilft",
+    "metaTitle": "Rückenschmerzen Büro: Morgenroutine für Köln",
+    "metaDescription": "10-Minuten-Morgenroutine gegen Rückenschmerzen durch Büroarbeit. Konkrete Übungen für Berufstätige in Köln, direkt umsetzbar, kein Equipment nötig.",
+    "date": "2026-06-13",
+    "readMinutes": 3,
+    "excerpt": "Wer täglich am Schreibtisch sitzt, kennt das Ziehen im Rücken. Diese Morgenroutine beugt Rückenschmerzen vor, in nur 10 Minuten, bevor der Arbeitstag beginnt.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du sitzt acht Stunden am Tag, vielleicht mehr. Der Rücken meldet sich, erst leise, dann lauter. Das ist kein Zufall und auch kein Schicksal. Als Personal Trainer in Köln sehe ich das bei fast jedem Büroangestellten, der zu mir kommt. Die gute Nachricht: Zehn Minuten am Morgen reichen, um den Unterschied zu spüren. Nicht irgendwann, sondern schon nach wenigen Tagen."
+      },
+      {
+        "type": "h2",
+        "text": "Warum der Morgen der richtige Zeitpunkt ist"
+      },
+      {
+        "type": "p",
+        "text": "Viele warten auf den Schmerz, bevor sie etwas tun. Das ist menschlich, aber strategisch falsch. Morgens, bevor du dich ans Schreibtisch setzt, ist dein Körper noch nicht in der Sitzposition festgefressen. Genau dann ist der beste Moment, um die Muskulatur zu aktivieren und die Wirbelsäule zu mobilisieren."
+      },
+      {
+        "type": "p",
+        "text": "Wer abends trainieren will, kämpft gegen Erschöpfung, Meetings, die sich ziehen, und den Feierabend-Hunger. Morgens gibt es diese Ausreden nicht. Du stehst auf, rollst die Matte aus, fertig. Zehn Minuten vor dem Frühstück, das sitzt. Und es schützt deinen Rücken durch den ganzen Arbeitstag."
+      },
+      {
+        "type": "h2",
+        "text": "Was Büroarbeit mit deinem Rücken macht"
+      },
+      {
+        "type": "p",
+        "text": "Langes Sitzen bringt die tiefe Rückenmuskulatur aus dem Gleichgewicht. Die Hüftbeuger verkürzen sich, der untere Rücken übernimmt Arbeit, die er nicht leisten sollte, und die Gesäßmuskeln schlafen buchstäblich ein. Das ist keine Übertreibung, das ist Biomechanik."
+      },
+      {
+        "type": "p",
+        "text": "Dazu kommt die Schulter-Nacken-Region. Wer stundenlang auf einen Bildschirm schaut, zieht unbewusst die Schultern hoch und schiebt den Kopf nach vorne. Das belastet die Halswirbelsäule erheblich. Eine Morgenroutine, die gezielt diese Muster angeht, ist keine nette Ergänzung. Sie ist Prävention."
+      },
+      {
+        "type": "h2",
+        "text": "Die 10-Minuten-Routine Schritt für Schritt"
+      },
+      {
+        "type": "p",
+        "text": "Hier ist die Routine, die ich meinen Klienten in Köln empfehle. Kein Equipment, nur eine Matte oder ein Teppich. Mach jede Übung in dem Tempo, das sich für dich richtig anfühlt. Kein Wettkampf."
+      },
+      {
+        "type": "p",
+        "text": "Starte mit der Katzenkuh: Auf allen Vieren, Rücken rund machen, dann hohlkreuzen. Zehn langsame Wiederholungen. Danach das Hüftbeuger-Dehnen im Ausfallschritt, je Seite dreißig Sekunden halten. Dann die Glute Bridge: auf dem Rücken liegen, Füße hüftbreit, Hüfte heben und oben kurz halten. Zwölf Wiederholungen. Abschließend ein einfaches Thoraxrotation-Stretching in Seitenlage, je Seite acht langsame Bewegungen."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Katzenkuh: 10 Wiederholungen, langsam",
+          "Hüftbeuger-Dehnung: 30 Sek. pro Seite",
+          "Glute Bridge: 12 Wiederholungen",
+          "Thoraxrotation in Seitenlage: 8 pro Seite",
+          "Schulterblatt-Retraktion im Stehen: 15 Wiederholungen",
+          "Kindhaltung mit Armen nach vorne: 45 Sekunden halten"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Katzenkuh und Glute Bridge: Warum genau diese Übungen"
+      },
+      {
+        "type": "p",
+        "text": "Katzenkuh klingt simpel und ist es auch. Aber sie mobilisiert jeden einzelnen Wirbel der Wirbelsäule und weckt die tiefe Rumpfmuskulatur auf, ohne sie zu überlasten. Morgens ist das Gold wert. Die Wirbelsäule braucht Bewegung, keine Dehnung in eine Richtung, sondern kontrollierte Bewegung durch den vollen Bereich."
+      },
+      {
+        "type": "p",
+        "text": "Die Glute Bridge ist die vielleicht unterschätzteste Übung für Büroangestellte. Sie aktiviert den Gluteus maximus, also den großen Gesäßmuskel, der bei Büroarbeit am meisten abschaltet. Ein starker Gluteus entlastet den unteren Rücken direkt. Wer diese Übung konsequent macht, merkt den Unterschied im Alltag, spätestens wenn er die Treppe hochgeht."
+      },
+      {
+        "type": "h2",
+        "text": "Was du zusätzlich am Schreibtisch tun kannst"
+      },
+      {
+        "type": "p",
+        "text": "Die Morgenroutine ist kein Freifahrtschein für acht Stunden regungslosem Sitzen. Der Körper braucht über den Tag verteilt kleine Bewegungspausen. Steh einmal pro Stunde auf, auch wenn es nur für zwei Minuten ist. Geh zum Drucker, hol dir Wasser, mach fünf Schulterkreisen. Das kostet nichts und summiert sich."
+      },
+      {
+        "type": "p",
+        "text": "Wichtig ist auch die Sitzposition. Füße flach auf dem Boden, Knie ungefähr im rechten Winkel, Bildschirm auf Augenhöhe. Viele Kölner Büros haben höhenverstellbare Schreibtische, aber kaum jemand nutzt sie. Steh auch mal im Stehen, nicht nur sitzen. Abwechslung ist das Prinzip."
+      },
+      {
+        "type": "h2",
+        "text": "Wann eine Morgenroutine allein nicht mehr reicht"
+      },
+      {
+        "type": "p",
+        "text": "Zehn Minuten am Morgen sind ein guter Start, aber kein Allheilmittel. Wenn du bereits chronische Rückenschmerzen hast, wenn der Schmerz in Beine oder Arme ausstrahlt, oder wenn er morgens nach dem Aufstehen besonders stark ist, dann braucht es mehr als Eigenarbeit. In solchen Fällen ist ein Arztbesuch der erste Schritt."
+      },
+      {
+        "type": "p",
+        "text": "Danach kommt individuelles Training. Ich sage das nicht, weil ich Werbung für mich machen will, sondern weil ich zu oft gesehen habe, was passiert, wenn Menschen mit einem generischen YouTube-Video versuchen, ein spezifisches Problem zu lösen. Was für einen funktioniert, kann für den anderen kontraproduktiv sein. Rücken ist nicht gleich Rücken."
+      },
+      {
+        "type": "h2",
+        "text": "Konsistenz schlägt Intensität jeden Tag"
+      },
+      {
+        "type": "p",
+        "text": "Das Wichtigste an dieser Routine ist nicht, dass sie perfekt ist. Es ist, dass du sie machst. Jeden Morgen. Auch wenn du müde bist, auch wenn du nur sieben von zehn Minuten schaffst. Konsistenz über Wochen verändert Muster, die sich über Jahre aufgebaut haben."
+      },
+      {
+        "type": "p",
+        "text": "Ich sehe das regelmäßig bei meinen Klienten in Köln. Nach zwei, drei Wochen kommt der Kommentar: Ich hatte die ganze Woche kaum Rückenschmerzen. Nicht weil sie ein Wunder erlebt haben, sondern weil der Körper reagiert, wenn er täglich die richtige Stimulation bekommt. Fang heute an, nicht nach dem nächsten langen Wochenende."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Du brauchst keinen perfekten Plan. Du brauchst einen guten Plan, den du wirklich durchziehst. Diese Morgenroutine ist ein konkreter erster Schritt. Wenn du wissen willst, was speziell für deinen Rücken und deine Situation sinnvoll ist, dann lade ich dich herzlich ein: Komm zu einem kostenlosen Erstgespräch bei mir in Köln. Wir schauen uns gemeinsam an, wo du stehst und was dir wirklich weiterhilft. Melde dich einfach über angelocoach.com."
+      }
+    ]
   }
 ];
 
