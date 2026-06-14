@@ -4731,6 +4731,122 @@ export const blogPosts: BlogPost[] = [
         "text": "Muskelaufbau als Frau ist kein Hexenwerk. Du brauchst einen strukturierten Plan, ausreichend Protein, Geduld und die Bereitschaft, dich wirklich zu fordern. Fang lieber heute mit einem einfachen Plan an als nächsten Monat mit dem perfekten. Wenn du wissen willst, wie ein Plan aussieht, der genau zu deinem Körper, deinem Alltag und deinen Zielen passt, dann buche dein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsdruck, keine Verpflichtung. Nur ein ehrliches Gespräch über das, was für dich Sinn macht."
       }
     ]
+  },
+  {
+    "slug": "trainingsplan-berufstaetige-wenig-zeit",
+    "title": "Trainingsplan für Berufstätige: So wirst du fit mit nur 3 Stunden pro Woche",
+    "metaTitle": "Trainingsplan für Berufstätige: Fit in 3h pro Woche",
+    "metaDescription": "Trainingsplan für Berufstätige mit wenig Zeit: Konkreter Wochenplan für 3 Stunden Training. Effektiv, alltagstauglich, ohne Gym-Marathon. Jetzt lesen.",
+    "date": "2026-06-14",
+    "readMinutes": 4,
+    "excerpt": "Voller Kalender, kaum Zeit, trotzdem Fortschritt. Dieser Wochenplan zeigt dir, wie Berufstätige mit drei Stunden pro Woche wirklich etwas bewegen können.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du arbeitest Vollzeit, der Kalender ist voll und abends fehlt schlicht die Energie. Trotzdem willst du fitter werden, mehr Kraft aufbauen und dich besser fühlen. Klingt widersprüchlich? Ist es nicht. Mit einem durchdachten Trainingsplan für Berufstätige erreichst du mit wenig Zeit deutlich mehr, als du gerade glaubst. Ich zeige dir, wie ein realistischer Wochenplan aussieht, der wirklich funktioniert."
+      },
+      {
+        "type": "h2",
+        "text": "Warum kurze Trainingseinheiten oft besser funktionieren"
+      },
+      {
+        "type": "p",
+        "text": "Viele Menschen glauben, Training unter 90 Minuten lohne sich kaum. Das stimmt so nicht. Wer mit klarer Struktur trainiert, kann in 45 Minuten mehr Reiz setzen als jemand, der eine Stunde lang zwischen Übungen herumschlendert und das Handy checkt. Der Unterschied liegt nicht im Zeitaufwand, sondern im Fokus."
+      },
+      {
+        "type": "p",
+        "text": "Für Berufstätige hat kurzes Training sogar einen konkreten Vorteil: Du weißt, wann du fertig bist. Kein offenes Ende, kein schlechtes Gewissen, wenn du nach einer Stunde gehst. Das senkt die Hemmschwelle enorm. Du gehst hin, weil du weißt, dass es überschaubar ist. Und genau diese Regelmäßigkeit bringt langfristig Ergebnisse."
+      },
+      {
+        "type": "h2",
+        "text": "Dein konkreter Wochenplan für 3 Stunden Training"
+      },
+      {
+        "type": "p",
+        "text": "Der Plan basiert auf drei Einheiten pro Woche, jeweils zwischen 45 und 60 Minuten. Montag, Mittwoch und Freitag oder Samstag sind eine bewährte Aufteilung. Du trainierst Ganzkörper in jeder Einheit, variierst aber den Schwerpunkt. So regenerierst du gut und verlierst trotzdem keinen Tag."
+      },
+      {
+        "type": "p",
+        "text": "Einheit 1 am Montag konzentriert sich auf Kniebeugen, Rudern und Schulterdrücken. Einheit 2 am Mittwoch auf Kreuzheben, Liegestütze und Core-Arbeit. Einheit 3 am Freitag verbindet beide Muster und fügt etwas Kondition dazu, zum Beispiel zehn Minuten Intervalle auf dem Rad oder zu Fuß. Kein kompliziertes System, kein Equipment-Fetisch."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Montag: Kniebeugen, Rudern, Schulterdrücken (45 Min.)",
+          "Mittwoch: Kreuzheben, Liegestütze, Core (45 Min.)",
+          "Freitag: Kombination + 10 Min. Intervalle (55 Min.)",
+          "Samstag oder Sonntag: aktive Erholung, Spaziergang, Dehnen"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Welche Übungen wirklich Zeit sparen"
+      },
+      {
+        "type": "p",
+        "text": "Verbundübungen sind dein bestes Werkzeug. Kniebeugen, Kreuzheben, Bankdrücken, Klimmzüge, Rudern: Diese Bewegungen trainieren mehrere Muskelgruppen gleichzeitig. Du sparst Zeit, weil du keine zehn Isolationsübungen brauchst, um ein vernünftiges Ganzkörpertraining zu bekommen. Eine Kniebeuge ersetzt in Sachen Effizienz locker drei Maschinenübungen."
+      },
+      {
+        "type": "p",
+        "text": "Dazu kommt die Sache mit den Pausen. Kurze Pausen von 60 bis 90 Sekunden zwischen den Sätzen erhöhen die Dichte des Trainings. Das fühlt sich anstrengender an. Es ist auch anstrengender. Aber du bist schneller fertig und hast trotzdem vollständig trainiert. Wer Pausen von drei Minuten macht, braucht sich nicht zu wundern, dass eine Einheit zwei Stunden dauert."
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung im Berufsalltag: Drei pragmatische Punkte"
+      },
+      {
+        "type": "p",
+        "text": "Training allein reicht nicht. Ich sage das nicht, um dir eine komplizierte Diät aufzuzwingen, sondern weil Ernährung direkt entscheidet, wie gut du dich nach dem Training erholst und wie viel Energie du überhaupt mitbringst. Der gute Umgang mit wenig Zeit fängt hier an."
+      },
+      {
+        "type": "p",
+        "text": "Erstens: Frühstück oder kein Frühstück, das ist deine Entscheidung. Aber habe Protein in deiner ersten Mahlzeit. Eier, Quark, Hüttenkäse, was auch immer du magst. Zweitens: Bereite mittags etwas vor, das du auch unter Stress essen kannst, ohne Fast Food zu brauchen. Drittens: Trink tagsüber genug Wasser. Klingt trivial. Die meisten Berufstätigen, die ich betreue, trinken im Büro deutlich zu wenig."
+      },
+      {
+        "type": "h2",
+        "text": "Wie du dranbleibst, wenn die Woche explodiert"
+      },
+      {
+        "type": "p",
+        "text": "Es wird Wochen geben, in denen alles schiefläuft. Ein Termin fällt in die Trainingszeit, du schläfst schlecht, oder du bist schlicht fertig nach einem langen Tag. Das ist normal. Das Problem ist nicht die einzelne verpasste Einheit, sondern was du danach machst."
+      },
+      {
+        "type": "p",
+        "text": "Mein Rat: Wenn du eine Einheit ausfallen lässt, streiche sie nicht einfach. Verschiebe sie um einen Tag. Und wenn das auch nicht klappt, reduziere die Einheit auf 20 Minuten statt sie ganz zu streichen. Ein kurzes Training ist immer besser als keines. Diese Denkweise trennt langfristig erfolgreiche Trainierende von denen, die nach drei Wochen wieder aufhören."
+      },
+      {
+        "type": "h2",
+        "text": "Training im Homeoffice oder auf Reisen"
+      },
+      {
+        "type": "p",
+        "text": "Wer oft reist oder im Homeoffice arbeitet, braucht einen Plan B. Keine Ausrede, aber eine ehrliche Lösung. Mit einem Widerstandsband und dem eigenen Körpergewicht kannst du alle drei Einheiten auch im Hotelzimmer oder Wohnzimmer durchführen. Liegestütze, Ausfallschritte, Rudern mit dem Band, Planks: Das reicht für einen ordentlichen Trainingsreiz."
+      },
+      {
+        "type": "p",
+        "text": "In Köln gibt es außerdem viele Parks, in denen du draußen trainieren kannst. Der Rheinpark zum Beispiel bietet Calisthenics-Stationen, die kostenlos zugänglich sind. Du brauchst kein teures Gym, wenn du weißt, was du tust. Das ist keine Frage des Budgets, sondern des Plans."
+      },
+      {
+        "type": "h2",
+        "text": "Was realistische Fortschritte bedeuten"
+      },
+      {
+        "type": "p",
+        "text": "Nach vier Wochen mit diesem Plan wirst du dich besser fühlen. Nicht spektakulär anders, aber besser. Mehr Energie am Morgen, weniger Schulter- und Rückenverspannungen nach dem Bürotag, ein klarerer Kopf nachmittags. Das sind keine großen Versprechen, sondern das, was meine Klienten mir regelmäßig zurückmelden."
+      },
+      {
+        "type": "p",
+        "text": "Sichtbare körperliche Veränderungen kommen etwas später, meistens nach acht bis zwölf Wochen bei konsequentem Training und halbwegs vernünftiger Ernährung. Wer das nicht hört, weil er in vier Wochen einen Sixpack will, dem kann kein Trainingsplan helfen. Aber wer realistische Erwartungen mitbringt und kontinuierlich bleibt, der wird überrascht sein, was drei Stunden pro Woche wirklich bewirken."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Drei Stunden pro Woche. Das klingt nach wenig, und das ist auch der Punkt. Du musst dein Leben nicht umkrempeln, um fit zu werden. Du brauchst einen Plan, der zu deinem echten Alltag passt, nicht zu einem idealisierten Fitnessleben. Wenn du wissen willst, wie ein solcher Plan konkret für dich aussieht, dann meld dich für ein kostenloses Erstgespräch bei mir. Wir schauen uns gemeinsam an, was in deinem Kalender realistisch machbar ist und wie du anfängst, ohne nach zwei Wochen wieder aufzuhören."
+      }
+    ]
   }
 ];
 
