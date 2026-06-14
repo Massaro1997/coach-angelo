@@ -3850,6 +3850,158 @@ export const blogPosts: BlogPost[] = [
         "text": "Ab 40 ist nicht der Moment um kürzer zu treten. Es ist der Moment um klüger zu trainieren. Mit dem richtigen Coach an deiner Seite nutzt du die körperlichen Veränderungen als Information, nicht als Ausrede. Wenn du wissen willst, wie das konkret für dich aussehen kann, vereinbare jetzt dein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsgespräch, kein Druck. Nur ein ehrliches Gespräch darüber, was möglich ist."
       }
     ]
+  },
+  {
+    "slug": "trainingsplan-anfaenger-zuhause-ohne-geraete",
+    "title": "Trainingsplan für Anfänger: So startest du zuhause ohne Geräte richtig durch",
+    "metaTitle": "Trainingsplan Anfänger Zuhause: Ohne Geräte starten",
+    "metaDescription": "Trainingsplan für Anfänger zuhause: Kein Fitnessstudio, keine Geräte. Angelo zeigt dir Schritt für Schritt, wie du effektiv mit dem Training beginnst.",
+    "date": "2026-06-14",
+    "readMinutes": 5,
+    "excerpt": "Kein Gym, kein Equipment, kein Problem. Dieser Trainingsplan für Anfänger zeigt dir, wie du zuhause von Null an wirklich durchstartest.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du willst anfangen, aber das Fitnessstudio ist zu teuer, zu weit oder schlicht einschüchternd? Verständlich. Die gute Nachricht: Dein Wohnzimmer reicht völlig aus. Ich bin Angelo, Personal Trainer in Köln, und ich sage dir aus Erfahrung, dass die meisten Anfänger mit zu viel Equipment starten wollen, statt einfach loszulegen. Dieser Plan zeigt dir, wie du ohne einen einzigen Gegenstand kaufen zu müssen, solide Grundlagen aufbaust."
+      },
+      {
+        "type": "h2",
+        "text": "Warum zuhause trainieren für Anfänger oft sogar besser ist"
+      },
+      {
+        "type": "p",
+        "text": "Im Fitnessstudio bist du von Maschinen, Spiegeln und fremden Blicken umgeben. Das kostet mental Energie, die du als Einsteiger besser in die Übungen selbst steckst. Zuhause konzentrierst du dich auf das Wesentliche: die Bewegung, dein Körpergefühl, deinen Rhythmus."
+      },
+      {
+        "type": "p",
+        "text": "Bodyweight-Training, also Training mit dem eigenen Körpergewicht, baut eine ehrliche Basis. Du lernst, deinen Körper zu kontrollieren, bevor du irgendwelche Zusatzgewichte anfasst. Das ist keine Kompromisslösung, das ist Methodik. Wer Liegestütze sauber ausführt, hat mehr gelernt als jemand, der planlos an der Brustpresse sitzt."
+      },
+      {
+        "type": "p",
+        "text": "Ein weiterer Punkt: Konstanz schlägt Intensität. Wenn der Weg zum Training nur zehn Schritte bis ins Wohnzimmer beträgt, fällt es dir leichter, dranzubleiben. Und Dranzubleiben ist der einzige Faktor, der langfristig wirklich zählt."
+      },
+      {
+        "type": "h2",
+        "text": "Die richtige Erwartungshaltung vor dem ersten Training"
+      },
+      {
+        "type": "p",
+        "text": "Lass mich direkt sein: In den ersten zwei Wochen wirst du dich komisch fühlen. Bewegungen fühlen sich ungewohnt an, du weißt nicht genau, wie tief du in die Kniebeuge gehst, und nach zehn Liegestützen brennen die Arme. Das ist normal. Das ist kein Zeichen, dass du es falsch machst."
+      },
+      {
+        "type": "p",
+        "text": "Setz dir kein Ziel wie 'Ich will in vier Wochen einen Sixpack'. Setz dir ein Verhaltensziel: drei Mal pro Woche trainieren, vier Wochen am Stück. Das ist kontrollierbar, das ist messbar, und das gibt dir ein echtes Erfolgsgefühl. Ergebnisse am Körper kommen danach von allein."
+      },
+      {
+        "type": "p",
+        "text": "Muskelkater nach den ersten Einheiten ist kein Qualitätsmerkmal. Starker Muskelkater, der dich zwei Tage lähmt, zeigt eher, dass du zu viel auf einmal wolltest. Geh in den ersten Wochen bewusst etwas zurück mit der Intensität. Lieber mit 70 Prozent starten und konstant bleiben."
+      },
+      {
+        "type": "h2",
+        "text": "Der konkrete Wochenplan: Drei Tage, die wirklich funktionieren"
+      },
+      {
+        "type": "p",
+        "text": "Drei Trainingstage pro Woche sind für Anfänger optimal. Zwischen den Einheiten braucht dein Körper Zeit zur Erholung, das ist kein Luxus, das ist Biologie. Ich empfehle Montag, Mittwoch, Freitag oder Dienstag, Donnerstag, Samstag. Hauptsache, immer ein Ruhetag dazwischen."
+      },
+      {
+        "type": "p",
+        "text": "Jede Einheit dauert 30 bis 40 Minuten. Fünf Minuten Aufwärmen, ungefähr 25 Minuten Hauptteil, fünf bis zehn Minuten Dehnen am Ende. Mehr brauchst du nicht. Wer als Einsteiger täglich eine Stunde trainiert, überlastet sich und hört nach zwei Wochen auf."
+      },
+      {
+        "type": "p",
+        "text": "Der Plan läuft nach dem Push-Pull-Legs-Prinzip in vereinfachter Form. Ein Tag Drücken, ein Tag Ziehen und Körpermitte, ein Tag Beine. So belastest du nie dieselben Muskelgruppen an aufeinanderfolgenden Tagen."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Tag 1 (Drücken): Liegestütze, Trizeps-Dips an einem Stuhl, Schulterpresse mit Wasserflaschen optional",
+          "Tag 2 (Ziehen und Core): Rudern am Tisch, Plank, Dead Bug, Hollow Body Hold",
+          "Tag 3 (Beine): Kniebeugen, Ausfallschritte, Glute Bridge, Wadenheben"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Die wichtigsten Übungen und wie du sie richtig ausführst"
+      },
+      {
+        "type": "p",
+        "text": "Lass uns bei der Kniebeuge anfangen, weil sie die häufigsten Fehler mitbringt. Stell dich schulterbreit hin, Zehen leicht nach außen. Senke dich ab, als würdest du auf einen niedrigen Hocker sitzen wollen, Knie zeigen in Zehenrichtung, Rücken bleibt aufrecht. Geh so tief, wie es ohne Schmerzen geht, und drücke dich dann aktiv hoch."
+      },
+      {
+        "type": "p",
+        "text": "Liegestütze werden von Anfängern fast immer zu schnell ausgeführt. Verlangsame die Bewegung. Zwei Sekunden runter, kurze Pause, zwei Sekunden hoch. Wenn klassische Liegestütze noch zu schwer sind, starte auf den Knien. Das ist keine Scham, das ist kluge Progression. Wichtig: Hüfte nicht durchhängen lassen, Körper wie ein Brett."
+      },
+      {
+        "type": "p",
+        "text": "Der Plank ist einfacher als er wirkt, wenn du weißt, worauf du achten sollst. Ellenbogen unter den Schultern, Bauch aktiv angespannt, Gesäß nicht zu hoch. Starte mit 20 Sekunden und steigere dich wöchentlich um fünf bis zehn Sekunden. Qualität vor Dauer, immer."
+      },
+      {
+        "type": "h2",
+        "text": "Progression: Wie du dich Woche für Woche steigerst"
+      },
+      {
+        "type": "p",
+        "text": "Progression bedeutet nicht, dass du jede Woche neue Übungen lernst. Es bedeutet, dass du bei denselben Übungen ein bisschen mehr schaffst. Eine Wiederholung mehr, eine Sekunde länger halten, die Bewegung eine Spur langsamer ausführen. Das klingt unspektakulär, ist aber der Motor hinter echten Fortschritten."
+      },
+      {
+        "type": "p",
+        "text": "Ich nutze mit meinen Klienten eine einfache Regel: Wenn du drei Sätze einer Übung mit sauberer Form ohne große Anstrengung schaffst, wird es Zeit, die Schwierigkeit zu erhöhen. Bei Liegestützen könntest du die Füße auf ein Sofa stellen. Bei Kniebeugen könntest du die Bewegung pausieren und drei Sekunden unten halten."
+      },
+      {
+        "type": "p",
+        "text": "Führe ein einfaches Trainingsprotokoll. Das muss keine App sein, ein Notizbuch reicht. Schreib auf, was du gemacht hast, wie viele Wiederholungen, und wie sich die Übung angefühlt hat. Nach vier Wochen hast du schwarz auf weiß, was sich verbessert hat. Das motiviert mehr als jede Fitnessuhr."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler, die Anfänger ausbremsen"
+      },
+      {
+        "type": "p",
+        "text": "Der größte Fehler ist das Alles-oder-Nichts-Denken. Wenn du einen Trainingstag verpasst, ist der Plan nicht gescheitert. Du machst einfach beim nächsten geplanten Tag weiter. Ein verpasster Tag ist kein Problem. Eine verpasste Woche wird zum Problem, wenn du dich dann komplett aufgibst."
+      },
+      {
+        "type": "p",
+        "text": "Zu wenig Schlaf sabotiert dein Training mehr als du denkst. Dein Körper repariert und stärkt Muskeln hauptsächlich nachts. Wer konstant wenig schläft und trotzdem hart trainiert, dreht sich im Kreis. Das sage ich nicht als Allgemeinplatz, ich sehe das regelmäßig bei Klienten, die keinen Fortschritt sehen, obwohl sie konsequent trainieren."
+      },
+      {
+        "type": "p",
+        "text": "Außerdem: Vergiss die Ernährung nicht komplett. Du musst kein striktes Ernährungsprogramm starten, aber ausreichend Protein zu essen, also Hülsenfrüchte, Eier, Quark, Fleisch, unterstützt deinen Muskelaufbau spürbar. Kein Hexenwerk, nur gesunder Menschenverstand."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Zu oft trainieren: Mehr ist nicht besser, Erholung gehört zum Plan",
+          "Übungen zu schnell steigern: Technik vor Intensität",
+          "Keinen Plan aufschreiben: Was nicht dokumentiert wird, wird nicht verbessert",
+          "Vergleiche mit anderen: Dein Maßstab bist du selbst, vier Wochen zuvor"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "So bleibst du langfristig dabei, ohne dich zu zwingen"
+      },
+      {
+        "type": "p",
+        "text": "Motivation kommt und geht. Das ist keine persönliche Schwäche, das ist menschlich. Deshalb baust du dir Routinen auf, die funktionieren, auch wenn die Motivation mal fehlt. Lege deine Trainingszeit fest wie einen Termin. Nicht 'irgendwann nach der Arbeit', sondern 'Dienstag um 18:30 Uhr'."
+      },
+      {
+        "type": "p",
+        "text": "Mach dir das Training so einfach zugänglich wie möglich. Leg die Sportkleidung abends schon raus. Räum eine Ecke im Zimmer frei, die nur fürs Training ist. Solche kleinen Rituale senken die Einstiegshürde enorm. Das klingt nach Kleinigkeit, aber genau diese Kleinigkeiten entscheiden über Dranzubleiben."
+      },
+      {
+        "type": "p",
+        "text": "Nach vier bis sechs Wochen wirst du merken, dass du das Training nicht mehr als Pflicht empfindest, sondern als etwas, das dir fehlt, wenn es ausfällt. Bis dahin: einfach anfangen und nicht zu viel nachdenken."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Du hast jetzt alles, was du brauchst, um morgen anzufangen. Keine Ausreden, kein Equipment nötig, nur du und dein Wohnzimmer. Wenn du einen individuellen Plan willst, der genau zu deinem Alltag, deinen Zielen und deinem aktuellen Fitnessstand passt, dann komm in mein kostenloses Erstgespräch. Kein Verkaufsgespräch, kein Druck: Wir schauen gemeinsam, was für dich Sinn macht. Meld dich einfach auf angelocoach.com."
+      }
+    ]
   }
 ];
 
