@@ -4291,6 +4291,154 @@ export const blogPosts: BlogPost[] = [
         "text": "Krafttraining ab 50 ist kein Kampf gegen den Körper, es ist die klügste Zusammenarbeit mit ihm. Du brauchst keinen perfekten Plan, du brauchst einen, der zu deinem Leben passt und den du wirklich umsetzt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon Versuche hinter dir hast, die nicht funktioniert haben, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam anschauen, was für dich konkret Sinn macht. Kein Verkaufsgespräch, kein Druck, nur ein ehrliches Gespräch über deinen Start."
       }
     ]
+  },
+  {
+    "slug": "intermittierendes-fasten-abnehmen-erfahrungen",
+    "title": "Intermittierendes Fasten zum Abnehmen: Meine Erfahrungen und was wirklich funktioniert",
+    "metaTitle": "Intervallfasten zum Abnehmen: Funktioniert es wirklich?",
+    "metaDescription": "Intermittierendes Fasten zum Abnehmen: Erfahrungen, konkrete Tipps für Berufstätige und ehrliche Antworten, ob 16:8 wirklich funktioniert.",
+    "date": "2026-06-14",
+    "readMinutes": 5,
+    "excerpt": "Intervallfasten klingt simpel, scheitert aber oft am Alltag. Hier erfährst du, was wirklich funktioniert und wie du es als Berufstätiger dauerhaft umsetzt.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Ich höre das fast täglich in meiner Arbeit als Personal Trainer in Köln: 'Angelo, ich hab intermittierendes Fasten probiert und nach zwei Wochen aufgehört.' Kein Wunder. Die meisten starten mit einer Methode, die nicht zu ihrem Leben passt. In diesem Artikel teile ich echte Erfahrungen aus meiner Praxis und zeige dir, wann Intervallfasten funktioniert und wann es schlicht das falsche Werkzeug ist."
+      },
+      {
+        "type": "h2",
+        "text": "Was intermittierendes Fasten überhaupt bedeutet"
+      },
+      {
+        "type": "p",
+        "text": "Intervallfasten heißt: du isst in einem bestimmten Zeitfenster und fastest den Rest des Tages. Die bekannteste Variante ist 16:8, also 16 Stunden fasten, 8 Stunden essen. Klingt kompliziert, ist es aber nicht. Wenn du um 20 Uhr deine letzte Mahlzeit beendest und erst um 12 Uhr mittags wieder isst, hast du das 16:8-Prinzip schon umgesetzt, ohne groß nachdenken zu müssen."
+      },
+      {
+        "type": "p",
+        "text": "Es gibt noch andere Varianten: 5:2 bedeutet, an zwei Tagen pro Woche sehr wenig zu essen und an den restlichen fünf normal. Oder das OMAD-Prinzip, eine Mahlzeit pro Tag, das aber für die meisten Berufstätigen mit Familie oder Schichtarbeit schlicht nicht praktikabel ist. Meine Empfehlung für Einsteiger ist immer 16:8, weil es sich am ehesten in bestehende Tagesabläufe einfügen lässt, ohne das komplette Leben umzukrempeln."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Berufstätige oft beim Intervallfasten scheitern"
+      },
+      {
+        "type": "p",
+        "text": "Das typische Scheitern sieht so aus: Montagmorgen, volles Programm, Meeting um 9 Uhr, kein Frühstück, und um 11 Uhr fällt der Blutzucker so tief, dass du dich auf Süßkram stürzt. Dann gibst du dem Fasten die Schuld. Dabei war das Problem nicht das Fasten, sondern die fehlende Vorbereitung. Hunger in den ersten zwei Wochen ist normal und hört auf."
+      },
+      {
+        "type": "p",
+        "text": "Ein anderer Klassiker: Das Essensfenster wird eingehalten, aber die Mahlzeiten darin sind katastrophal zusammengestellt. Wer acht Stunden lang Pasta, Weißbrot und Schokoriegel isst, nimmt nicht ab, egal wie lange er danach fastet. Intervallfasten ist kein Freifahrtschein. Es ist ein Rahmen, und was du in diesen Rahmen packst, entscheidet über Erfolg oder Misserfolg."
+      },
+      {
+        "type": "p",
+        "text": "Das dritte Problem ist Stress. Bei hohem Cortisol, also dem klassischen Bürostress, kann Fasten den Körper zusätzlich belasten. Ich empfehle in solchen Phasen, lieber auf ein engeres Essensfenster von 12:12 zu setzen und erst bei niedrigerem Stresslevel auf 16:8 umzusteigen. Das klingt weich, ist aber die pragmatische Lösung, die wirklich funktioniert."
+      },
+      {
+        "type": "h2",
+        "text": "Wie du 16:8 in deinen Arbeitsalltag integrierst"
+      },
+      {
+        "type": "p",
+        "text": "Der einfachste Einstieg: Frühstück weglassen oder nach hinten verschieben. Das erste Kaffee am Morgen ist kein Problem, schwarzer Kaffee oder Tee ohne Milch und Zucker brechen das Fasten nicht. Wer um 12 Uhr seine erste Mahlzeit einplant und um 20 Uhr die letzte, hat das Prinzip verstanden und muss seinen Alltag kaum umbauen."
+      },
+      {
+        "type": "p",
+        "text": "Morgens: Wasser, schwarzer Kaffee, Tee. Mittags eine vollwertige Mahlzeit mit ausreichend Protein, also Hähnchen, Hülsenfrüchte, Eier oder Fisch, kombiniert mit Gemüse und guten Kohlenhydraten. Nachmittags ein Snack, wenn nötig. Abends eine warme Mahlzeit bis spätestens 20 Uhr. So sieht ein realistischer 16:8-Tag aus, der auch mit Kindergarten, Überstunden oder Pendeln vereinbar ist."
+      },
+      {
+        "type": "p",
+        "text": "Wichtig ist die Konstanz über die Woche, nicht die perfekte Ausführung an jedem einzelnen Tag. Wenn du donnerstags ein Geschäftsessen bis 22 Uhr hast, ist das kein Weltuntergang. Du passt einfach den nächsten Tag an. Ich sage meinen Klienten immer: Wochenbilanz schlägt Tagesperfektionismus."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Morgens: Wasser, schwarzer Kaffee oder Tee",
+          "Erste Mahlzeit um 12 Uhr: Protein plus Gemüse plus Kohlenhydrate",
+          "Nachmittags: kleiner Snack wenn nötig, zum Beispiel Nüsse oder Quark",
+          "Abendessen bis spätestens 20 Uhr",
+          "Fasten bricht um 12 Uhr des nächsten Tages: 16 Stunden sind um",
+          "An Ausnahmetagen einfach das Fenster verschieben, nicht aufgeben"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Was du in der Fastenphase essen solltest"
+      },
+      {
+        "type": "p",
+        "text": "Nichts. Das ist der Punkt. Viele torpedieren das Fasten mit Bulletproof Coffee, Proteinshakes oder dem harmlosen Happen zwischendurch. Sobald Kalorien reinkommen, reagiert der Körper mit Insulinausschüttung, und das unterbricht den Fastenstoffwechsel. Wasser, schwarzer Kaffee und ungesüßter Tee sind erlaubt. Alles andere solltest du ins Essensfenster legen."
+      },
+      {
+        "type": "p",
+        "text": "In deinem Essensfenster ist Qualität entscheidend. Genug Protein hält dich satt und schützt deine Muskelmasse beim Abnehmen. Ich empfehle meinen Klienten, bei jeder Hauptmahlzeit bewusst auf eine gute Proteinquelle zu achten, sei es Hülsenfrüchte, Fisch, Geflügel oder Eier. Gemüse füllt den Magen, ohne viele Kalorien zu liefern. Das hält den Hunger im Essensfenster besser unter Kontrolle, als wenn du hauptsächlich Kohlenhydrate isst."
+      },
+      {
+        "type": "h2",
+        "text": "Sport und Intervallfasten: Geht das zusammen?"
+      },
+      {
+        "type": "p",
+        "text": "Ja, geht. Aber mit etwas Planung. Leichtes Training im Fastenzustand, also Spazierengehen, lockeres Radfahren oder Yoga, ist für die meisten kein Problem. Intensives Krafttraining oder HIIT kurz vor Ende des Fastenfensters kann aber dazu führen, dass du die Leistung einfach nicht bringst. Ich sehe das regelmäßig bei Klienten, die um 11:30 Uhr trainieren und seit dem Vorabend nichts gegessen haben."
+      },
+      {
+        "type": "p",
+        "text": "Mein Tipp: Lege intensivere Einheiten in die ersten Stunden deines Essensfensters. Also trainiere um 13 Uhr, nachdem du um 12 Uhr gegessen hast. Oder trainiere abends vor deiner letzten Mahlzeit, dann kannst du direkt nach dem Training essen und regenerieren. So verbindest du Fasten und Sport, ohne Leistungseinbußen hinnehmen zu müssen. Das erfordert ein bisschen Umorganisation, ist aber absolut machbar."
+      },
+      {
+        "type": "p",
+        "text": "Für Frauen gilt übrigens: Manche reagieren empfindlicher auf längere Fastenphasen, besonders hormonell. Das ist keine Theorie, das sehe ich in meiner Praxis. Wer merkt, dass Schlaf, Zyklus oder Energie leiden, sollte das Fastenfenster verkürzen oder 5:2 statt 16:8 ausprobieren. Hör auf deinen Körper, nicht auf starre Regeln aus dem Internet."
+      },
+      {
+        "type": "h2",
+        "text": "Echte Erfahrungen aus meiner Praxis als Personal Trainer in Köln"
+      },
+      {
+        "type": "p",
+        "text": "Marcus, 38, arbeitet im Vertrieb, viel unterwegs, viel Restaurantessen. Er hat mir gesagt, er schafft kein Kalorienprotokoll und keine komplizierte Diät. Wir haben 16:8 eingeführt, Frühstück gestrichen, Mittagessen priorisiert, Abendessen unter Kontrolle gebracht. Nach acht Wochen hatte er merklich abgenommen, ohne einmal Kalorien zu zählen. Das ist kein Versprechen, das gilt für ihn in seinem Kontext."
+      },
+      {
+        "type": "p",
+        "text": "Sandra, 44, Teilzeit, zwei Kinder, Sport dreimal pro Woche. Sie hatte Angst, beim Fasten keine Energie für die Kinder zu haben. Wir haben mit 13:11 angefangen, also nur 13 Stunden fasten, und sie hat sich langsam herangetastet. Nach vier Wochen war sie bei 15:9, hatte keine Energieprobleme mehr und fühlte sich nach eigener Aussage klarer im Kopf. Das zeigt: Es gibt keinen universellen Plan, nur deinen Plan."
+      },
+      {
+        "type": "p",
+        "text": "Was ich aus dutzenden solcher Erfahrungen mitgenommen habe: Intervallfasten ist ein Werkzeug, kein Allheilmittel. Es funktioniert, wenn es zu deinem Leben passt, und es scheitert, wenn du es gegen dein Leben ankämpfst. Der entscheidende Faktor ist nicht die Methode, sondern die Kontinuität über Wochen und Monate."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler, die du vermeiden solltest"
+      },
+      {
+        "type": "p",
+        "text": "Der größte Fehler: zu schnell zu viel. Direkt mit 16:8 starten, wenn du bisher dreimal täglich gegessen hast, ist ein Rezept für Hunger, Reizbarkeit und Aufgeben. Fang mit 12:12 an und verlängere das Fastenfenster schrittweise um 30 Minuten pro Woche. Dein Körper braucht Zeit, sich anzupassen."
+      },
+      {
+        "type": "p",
+        "text": "Zweiter Fehler: zu wenig trinken. Im Fastenzustand vergessen viele zu trinken, weil sie kein Hungergefühl mit Durst verwechseln. Mindestens zwei Liter Wasser täglich, auch in der Fastenphase, sind Pflicht. Viele Hungergefühle in der Fastenphase sind eigentlich Durst."
+      },
+      {
+        "type": "p",
+        "text": "Dritter Fehler: Das Essensfenster als Belohnungszeit sehen. Ich erlebe immer wieder, dass Menschen acht Stunden lang alles nachholen wollen, was sie 16 Stunden nicht essen durften. Das endet mit mehr Kalorien als vorher und null Gewichtsabnahme. Das Essensfenster ist kein Fressen-Modus, sondern dein normaler Ernährungsrahmen."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Nicht direkt mit 16:8 starten, lieber bei 12:12 beginnen",
+          "Genug trinken, mindestens zwei Liter Wasser pro Tag",
+          "Im Essensfenster nicht überkompensieren",
+          "Kein kalorienreiches Frühstück direkt nach der Fastenphase",
+          "Sport nicht auf nüchternen Magen forcieren, wenn die Intensität hoch ist"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Intermittierendes Fasten zum Abnehmen funktioniert, wenn du es richtig angehst und an deinen Alltag anpasst. Es ist kein Trend, der nach drei Wochen wieder weg ist, sondern eine Methode, die viele meiner Klienten dauerhaft umsetzen. Aber, und das ist entscheidend, es ist nur ein Werkzeug. Was du isst, wie du trainierst und wie du mit Stress umgehst, macht den großen Unterschied. Wenn du wissen willst, ob Intervallfasten zu deinem Leben in Köln oder Umgebung passt und wie du es konkret umsetzt, dann buche dir ein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsdruck, einfach ein ehrliches Gespräch über das, was für dich wirklich funktioniert."
+      }
+    ]
   }
 ];
 
