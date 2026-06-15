@@ -7125,6 +7125,130 @@ export const blogPosts: BlogPost[] = [
         "text": "Vegetarischer Muskelaufbau ist kein Experiment, sondern eine durchdachte Strategie, die mit den richtigen Lebensmitteln und etwas Struktur im Alltag sehr gut funktioniert. Wenn du nicht sicher bist, wo du anfangen sollst, oder wenn du das Gefühl hast, dass du trotz Training keine Fortschritte machst, dann komm einfach auf mich zu. Ich biete ein kostenloses Erstgespräch an, bei dem wir gemeinsam schauen, was bei dir konkret fehlt und wie du es angehen kannst. Schau auf angelocoach.com vorbei und schreib mir."
       }
     ]
+  },
+  {
+    "slug": "motivation-sport-wiederfinden-nach-pause",
+    "title": "Motivation Sport wiederfinden nach Pause: Dein ehrlicher Wiedereinstiegs-Guide",
+    "metaTitle": "Motivation nach Trainingspause zurückfinden",
+    "metaDescription": "Lange Pause gehabt? So findest du deine Motivation für Sport wieder, ohne leere Sprüche, mit konkreten Schritten für den Alltag in Köln und überall.",
+    "date": "2026-06-15",
+    "readMinutes": 4,
+    "excerpt": "Nach einer Trainingspause fühlt sich der Wiedereinstieg oft schwerer an als der erste Start. Hier bekommst du konkrete Schritte, die wirklich funktionieren.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du hast eine Weile nicht trainiert. Vielleicht warst du krank, der Job hat alles gefressen, oder das Leben hat einfach andere Prioritäten gesetzt. Jetzt stehst du da und weißt nicht, wie du wieder anfangen sollst. Das Sofa zieht, die Motivation fehlt, und der innere Kritiker redet dir ein, du hättest alles verloren. Ich kenne dieses Gefühl aus eigener Erfahrung und aus Hunderten Gesprächen mit Klientinnen und Klienten. Die gute Nachricht: Der Wiedereinstieg ist einfacher, als dein Kopf dir gerade sagt."
+      },
+      {
+        "type": "h2",
+        "text": "Warum die Pause nicht dein Feind ist"
+      },
+      {
+        "type": "p",
+        "text": "Viele Menschen behandeln eine Trainingspause wie ein persönliches Versagen. Das ist der erste Fehler. Dein Körper hat sich erholt, dein Nervensystem hat Luft bekommen, und manchmal war die Pause genau das, was du gebraucht hast. Pausen sind kein Rückschritt, solange du wieder anfängst."
+      },
+      {
+        "type": "p",
+        "text": "Das Problem ist nicht die Pause selbst, sondern das Narrativ, das du dir danach erzählst. Sätze wie 'Ich bin zu weit zurückgefallen' oder 'Das hat keinen Sinn mehr' blockieren dich mehr als jede körperliche Konditionsveränderung. Dein Fitness-Level erholt sich schneller als du denkst. Dein Mindset braucht manchmal länger."
+      },
+      {
+        "type": "p",
+        "text": "Also: Hör auf, die Pause zu verurteilen. Fang an, den nächsten Schritt zu planen. Das ist der einzige Moment, der zählt."
+      },
+      {
+        "type": "h2",
+        "text": "Der häufigste Fehler beim Wiedereinstieg"
+      },
+      {
+        "type": "p",
+        "text": "Du hast endlich wieder Lust, trainierst zwei Stunden am ersten Tag, bist danach tagelang platt und verlierst sofort wieder die Motivation. Dieses Muster kenne ich auswendig. Es passiert, weil wir zu viel auf einmal wollen und den Körper damit überfordern."
+      },
+      {
+        "type": "p",
+        "text": "Der Körper reagiert auf Überbelastung nach einer Pause anders als vorher. Muskelkater, Erschöpfung und Schlafprobleme können die Folge sein. Das demotiviert schneller als jede faule Ausrede. Weniger ist am Anfang wirklich mehr, nicht aus Bequemlichkeit, sondern aus Strategie."
+      },
+      {
+        "type": "p",
+        "text": "Mein Rat: Plane deine ersten zwei Wochen bewusst unter deinen Möglichkeiten. Dreißig Minuten moderate Bewegung statt neunzig Minuten Vollgas. Lass dem Körper Zeit, sich anzupassen, und lass dir selbst die kleinen Erfolge."
+      },
+      {
+        "type": "h2",
+        "text": "Konkrete Schritte für die erste Woche zurück"
+      },
+      {
+        "type": "p",
+        "text": "Die erste Woche ist die entscheidende. Nicht weil du dort schon Ergebnisse siehst, sondern weil du dort die Gewohnheit neu verdrahtest. Mach es dir so einfach wie möglich, keine Ausrede zu finden."
+      },
+      {
+        "type": "p",
+        "text": "Leg die Sportklamotten abends raus. Trainiere zur gleichen Uhrzeit wie damals. Wähle eine Einheit, die du kennst und magst, kein neues Programm, kein neuer Sport, keine Experimente. Altes Terrain gibt Sicherheit, und Sicherheit gibt Energie."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Tag 1 bis 3: Zwei kurze Einheiten von 20 bis 30 Minuten, Schwerpunkt Mobilität oder leichtes Cardio",
+          "Tag 4: aktive Erholung, ein Spaziergang reicht",
+          "Tag 5 bis 6: eine etwas intensivere Einheit, aber nicht bis ans Limit",
+          "Tag 7: Reflexion, was hat funktioniert, was nicht"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wie du deine Motivation langfristig stabil hältst"
+      },
+      {
+        "type": "p",
+        "text": "Motivation ist kein dauerhafter Zustand. Sie kommt und geht, das ist normal. Was langfristig funktioniert, ist nicht Motivation, sondern Gewohnheit. Wenn du lange genug konsequent bist, trainierst du auch an Tagen, an denen du keine Lust hast, weil die Routine dich trägt."
+      },
+      {
+        "type": "p",
+        "text": "Dafür brauchst du ein Warum, das tiefer geht als Optik. 'Ich will abnehmen' hält dich zwei Wochen. 'Ich will mit meinen Kindern ohne Atemprobleme Fußball spielen' hält dich zwei Jahre. Schreib deinen echten Grund auf und lies ihn, wenn du wieder zögerst."
+      },
+      {
+        "type": "p",
+        "text": "Außerdem hilft externe Verbindlichkeit. Ein Trainingspartner, ein fester Termin beim Coach, ein Kurs, für den du bezahlt hast. Nicht weil du dich nicht selbst motivieren kannst, sondern weil wir alle manchmal eine äußere Struktur brauchen. Das ist keine Schwäche, das ist Realismus."
+      },
+      {
+        "type": "h2",
+        "text": "Was tun, wenn der Alltag wieder dazwischenkommt"
+      },
+      {
+        "type": "p",
+        "text": "Stress, Überstunden, Krankheit der Kinder, kaputtes Auto. Der Alltag in Köln oder anderswo ist kein leeres Blatt. Er ist voll. Und er wird immer wieder dazwischenkommen. Die Frage ist nicht, ob das passiert, sondern wie du damit umgehst."
+      },
+      {
+        "type": "p",
+        "text": "Der Trick ist, deine Messlatte für 'Training zählt' zu senken. Zehn Minuten Körpergewichtsübungen im Wohnzimmer zählen. Ein schneller Spaziergang in der Mittagspause zählt. Wer wartet, bis er perfekte Bedingungen hat, wartet meistens sehr lange."
+      },
+      {
+        "type": "p",
+        "text": "Definiere für dich ein Minimum, das du auch am schlechtesten Tag schaffst. Dieses Minimum hält deine Kontinuität aufrecht und verhindert, dass du wieder von vorne anfangen musst. Kontinuität schlägt Intensität auf lange Sicht fast immer."
+      },
+      {
+        "type": "h2",
+        "text": "Warum du dir professionelle Unterstützung holen solltest"
+      },
+      {
+        "type": "p",
+        "text": "Ich sage das nicht, um mich selbst zu verkaufen. Ich sage es, weil ich gesehen habe, was passiert, wenn jemand nach einer langen Pause alleine durchstartet und sich dabei verletzt oder nach drei Wochen wieder aufgibt. Beides ist vermeidbar."
+      },
+      {
+        "type": "p",
+        "text": "Ein Coach hilft dir nicht nur mit dem richtigen Programm. Er hilft dir, realistische Ziele zu setzen, Rückschläge einzuordnen und dranzubleiben, wenn dein innerer Schweinehund lauter ist als dein Vorsatz. Das ist der eigentliche Wert, nicht der Trainingsplan auf dem Papier."
+      },
+      {
+        "type": "p",
+        "text": "Gerade nach einer Pause durch Krankheit oder Verletzung ist es wichtig, die Belastung behutsam aufzubauen. Ein erfahrener Trainer erkennt, wann du mehr fordern kannst und wann Zurückhaltung klüger ist. Das ist kein Luxus, das ist Effizienz."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Nach einer Trainingspause wieder anzufangen ist kein Sprint. Es ist eine bewusste Entscheidung, die du jeden Tag neu triffst, bis sie zur Gewohnheit wird. Fang klein an, bleib konsequent, und sei ehrlich mit dir, was gerade realistisch ist. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du einfach jemanden brauchst, der dich durch die ersten Wochen begleitet: Ich biete dir ein kostenloses Erstgespräch an. Kein Druck, keine Verpflichtung. Nur ein offenes Gespräch darüber, wo du stehst und wie du wieder in Bewegung kommst. Schreib mir einfach über angelocoach.com."
+      }
+    ]
   }
 ];
 
