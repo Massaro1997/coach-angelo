@@ -8669,6 +8669,139 @@ export const blogPosts: BlogPost[] = [
         "text": "Ein Motivationstief im Sport ist kein Endpunkt, sondern ein Hinweis, dass irgendetwas nicht stimmt, das Programm, die Erwartungen oder die fehlende Verbindung zum eigenen Alltag. Mit den richtigen Anpassungen kommst du wieder rein, und das schneller als du denkst. Wenn du dir nicht sicher bist, wo du anfangen sollst, komm in ein unverbindliches Erstgespräch mit mir. Keine Verpflichtung, kein Verkaufsgespräch, einfach ein ehrliches Gespräch darüber, was bei dir gerade nicht funktioniert und was helfen könnte. Du findest mich unter angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "wassereinlagerungen-loswerden-abnehmen",
+    "title": "Wassereinlagerungen loswerden: Warum du trotz Diät nicht abnimmst",
+    "metaTitle": "Wassereinlagerungen loswerden & abnehmen",
+    "metaDescription": "Waage stagniert trotz Diät? Angelo erklärt, warum Wassereinlagerungen das Gewicht blockieren und welche Alltagsstrategien wirklich helfen.",
+    "date": "2026-06-16",
+    "readMinutes": 4,
+    "excerpt": "Die Waage bewegt sich nicht, obwohl du dich gesund ernährst? Wassereinlagerungen sind oft der Grund. Hier erfährst du, was dahintersteckt und was du konkret tun kannst.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du isst weniger, du achtest auf deine Ernährung, und trotzdem zeigt die Waage dieselbe Zahl wie vor drei Wochen. Das ist frustrierend. Meistens liegt das nicht daran, dass du irgendetwas falsch machst, sondern daran, dass dein Körper gerade Wasser hält. Als Personal Trainer in Köln erlebe ich das bei Berufstätigen und Frauen ab 40 ständig. Die gute Nachricht: Das lässt sich ändern."
+      },
+      {
+        "type": "h2",
+        "text": "Was Wassereinlagerungen überhaupt sind"
+      },
+      {
+        "type": "p",
+        "text": "Wasser macht einen großen Teil unseres Körpergewichts aus. Das Gewebe, die Muskeln, das Bindegewebe, alles braucht Flüssigkeit zum Funktionieren. Wenn der Körper aus irgendeinem Grund mehr Wasser als nötig im Gewebe speichert, spricht man von Ödemen oder Wassereinlagerungen. Das ist kein Körperfett, aber die Waage macht keinen Unterschied."
+      },
+      {
+        "type": "p",
+        "text": "Das Problem: Wassereinlagerungen können das angezeigte Gewicht innerhalb weniger Tage um ein bis mehrere Kilogramm nach oben treiben, ohne dass sich dein Körperfettanteil verändert hat. Wer das nicht weiß, denkt sofort, die Diät funktioniert nicht. Das stimmt aber nicht. Du musst verstehen, was deinen Körper dazu bringt, das Wasser zu halten."
+      },
+      {
+        "type": "h2",
+        "text": "Die häufigsten Ursachen bei Berufstätigen und Frauen ab 40"
+      },
+      {
+        "type": "p",
+        "text": "Zu viel Salz in der Ernährung ist einer der offensichtlichsten Auslöser. Fertiggerichte, Brot, Käse, Wurst, das meiste Salz kommt nicht vom Salzstreuer, sondern aus verarbeiteten Lebensmitteln. Der Körper bindet Wasser, um die Salzkonzentration im Blut auszugleichen. Das ist Biologie, kein Versagen."
+      },
+      {
+        "type": "p",
+        "text": "Stress ist ein zweiter, oft unterschätzter Faktor. Cortisol, das Stresshormon, signalisiert dem Körper, Natrium und damit Wasser zu speichern. Wer einen stressigen Job hat, acht Stunden am Schreibtisch sitzt und abends kaum abschaltet, hat dauerhaft erhöhte Cortisolspiegel. Das schlägt sich direkt auf die Waage nieder."
+      },
+      {
+        "type": "p",
+        "text": "Bei Frauen ab 40 kommen hormonelle Schwankungen dazu. In der Perimenopause und Menopause verändert sich das Verhältnis von Östrogen und Progesteron. Das beeinflusst direkt, wie der Körper Flüssigkeit reguliert. Das ist keine Ausrede, das ist Physiologie. Und ja, man kann trotzdem gegensteuern."
+      },
+      {
+        "type": "h2",
+        "text": "Warum mehr trinken trotzdem die richtige Antwort ist"
+      },
+      {
+        "type": "p",
+        "text": "Klingt paradox, ist aber so: Wer zu wenig trinkt, gibt dem Körper das Signal, Wasser zu horten. Der Körper schaltet in einen Art Sparmodus. Wenn er merkt, dass regelmäßig genug Flüssigkeit reinkommt, gibt er das gespeicherte Wasser wieder ab."
+      },
+      {
+        "type": "p",
+        "text": "Konkret bedeutet das: Stilles Wasser oder ungesüßte Kräutertees über den Tag verteilt trinken, nicht in einem Zug viel auf einmal. Wer im Büro sitzt, stellt sich am besten eine große Flasche auf den Tisch, die er im Blickfeld hat. Keine Raketenwissenschaft, aber es funktioniert. Kaffee in Maßen ist in Ordnung, mehrere Tassen schwarzen Kaffee am Tag machen das Trinken aber nicht wett."
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung anpassen ohne Verbotslisten"
+      },
+      {
+        "type": "p",
+        "text": "Du musst nichts komplett streichen. Aber ein paar konkrete Veränderungen machen einen spürbaren Unterschied. Weniger verarbeitete Lebensmittel, mehr selbst Gekochtes, das reduziert die Salzzufuhr automatisch, ohne dass du jeden Bissen analysieren musst."
+      },
+      {
+        "type": "p",
+        "text": "Kaliumreiche Lebensmittel helfen dem Körper, überschüssiges Natrium auszuscheiden. Avocado, Bananen, Kartoffeln, Spinat, das sind keine Superfood-Klischees, das sind günstige, im Kölner Supermarkt erhältliche Lebensmittel. Ein Mittagessen aus gekochten Kartoffeln mit Spinat kostet keine drei Euro und wirkt besser als jedes Entschlackungstee-Versprechen."
+      },
+      {
+        "type": "p",
+        "text": "Magnesium ist ebenfalls relevant, besonders wenn du Sport machst oder viel schwitzt. Kürbiskerne, Hülsenfrüchte, dunkle Schokolade, das sind gute Quellen. Nahrungsergänzungsmittel brauchst du nur dann, wenn die Ernährung wirklich lückenhaft ist, nicht als Ersatz für eine vernünftige Mahlzeit."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Mehr selbst kochen, weniger Fertiggerichte",
+          "Kaliumreiche Lebensmittel täglich einbauen",
+          "Ausreichend Wasser über den Tag verteilen",
+          "Alkohol reduzieren, er fördert Wassereinlagerungen stark",
+          "Zucker und Weißmehl einschränken, sie erhöhen Insulin und damit die Wasserretention"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Bewegung im Alltag: Was wirklich hilft und was nicht"
+      },
+      {
+        "type": "p",
+        "text": "Ausdauertraining und Krafttraining helfen, die Durchblutung zu verbessern und den Lymphfluss anzuregen. Beides zusammen ist das Beste, was du für deinen Körper tun kannst, wenn du Wassereinlagerungen loswerden willst. Aber ich weiß, dass du nicht jeden Tag Zeit für ein Stunde Training hast."
+      },
+      {
+        "type": "p",
+        "text": "Was ich meinen Klienten in Köln immer empfehle: Geh in der Mittagspause 15 Minuten spazieren. Nimm die Treppe. Wenn du im Homeoffice bist, steh einmal pro Stunde kurz auf und beweg dich. Das klingt minimal, macht aber über Wochen einen echten Unterschied für die Wasserregulation im Körper."
+      },
+      {
+        "type": "p",
+        "text": "Langes Sitzen ist einer der größten Faktoren für Wassereinlagerungen in den Beinen und Füßen. Das Blut und die Lymphflüssigkeit stauen sich. Wer einen Bürojob hat, sollte das nicht unterschätzen. Kompressionsstrümpfe können helfen, sind aber kein Ersatz für Bewegung."
+      },
+      {
+        "type": "h2",
+        "text": "Schlaf und Stress: Die unterschätzte Verbindung"
+      },
+      {
+        "type": "p",
+        "text": "Schlechter Schlaf erhöht Cortisol. Cortisol fördert Wassereinlagerungen. Das ist eine direkte Kette, die viele nicht auf dem Schirm haben. Wer fünf Stunden schläft und sich dann wundert, warum die Waage nicht runtergeht, muss als erstes am Schlaf arbeiten, nicht an der Diät."
+      },
+      {
+        "type": "p",
+        "text": "Das heißt nicht, dass du sofort acht Stunden perfekten Schlaf brauchst. Aber Routinen helfen: feste Schlafzeiten, kein Bildschirm kurz vor dem Einschlafen, das Schlafzimmer kühl halten. Das sind keine Spa-Tipps, das ist Grundlage. Wer das ignoriert, kämpft gegen seinen eigenen Körper an."
+      },
+      {
+        "type": "p",
+        "text": "Stressmanagement ist ähnlich. Du kannst nicht immer den Stressor beseitigen, aber du kannst lernen, wie du deinem Nervensystem regelmäßige Auszeiten gibst. Spaziergang, fünf Minuten tiefes Atmen, zehn Minuten ohne Handy, das sind keine großen Gesten, aber sie summieren sich."
+      },
+      {
+        "type": "h2",
+        "text": "Wann du einen Arzt aufsuchen solltest"
+      },
+      {
+        "type": "p",
+        "text": "Wassereinlagerungen haben meistens harmlose Ursachen wie Stress, schlechte Ernährung oder Bewegungsmangel. Wenn die Schwellungen aber stark sind, nur an einer Körperstelle auftreten, mit Schmerzen verbunden sind oder plötzlich stark zunehmen, solltest du das ärztlich abklären lassen. Nieren, Herz und Schilddrüse können ebenfalls beteiligt sein."
+      },
+      {
+        "type": "p",
+        "text": "Ich sage das nicht, um dich zu beunruhigen. Die meisten Menschen, die zu mir kommen, haben ganz banale Ursachen, die sich mit Lebensstiländerungen gut in den Griff kriegen lassen. Aber ich bin kein Arzt und du solltest bei anhaltenden oder auffälligen Symptomen immer erst zur Praxis, bevor du mit dem Training anfängst."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Wassereinlagerungen sind ärgerlich, aber sie sind kein Zeichen, dass dein Körper versagt oder deine Ernährung falsch ist. Meistens steckt eine Kombination aus zu viel Salz, zu wenig Bewegung, Stress und schlechtem Schlaf dahinter. Das lässt sich ändern, Schritt für Schritt, ohne radikale Verbotslisten. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du das Gefühl hast, dass du trotz allem nicht vom Fleck kommst, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, ohne Druck, ohne Verkaufsgespräch. Schreib mir einfach über angelocoach.com."
+      }
+    ]
   }
 ];
 
