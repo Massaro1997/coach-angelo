@@ -1,5 +1,5 @@
 // Single source of truth per l'asse SEO Stadtteil × Intent.
-// Usato dalla route Next (/personal-trainer-koeln/[stadtteil]/[intent]) E dal generatore forge.
+// Usato dalla route Next (/koeln/[stadtteil]/[intent]) E dal generatore forge.
 // Strategia anti near-duplicate: testo dominato dai dati reali del quartiere (vedi SEO_SCALE_REPORT.md).
 
 import { stadtteile, Stadtteil, density, getStadtteil } from "./koeln-stadtteile";
@@ -183,5 +183,5 @@ export function neighborIntentLinks(st: Stadtteil, intent: Intent) {
     .map((slug) => getStadtteil(slug))
     .filter((s): s is Stadtteil => Boolean(s))
     .slice(0, 3)
-    .map((n) => ({ name: n.name, href: `/personal-trainer-koeln/${n.slug}/${intent.key}` }));
+    .map((n) => ({ name: n.name, href: `/koeln/${n.slug}/${intent.key}` }));
 }

@@ -18,10 +18,19 @@ export async function generateMetadata({
   const { slug } = await params;
   const f = getFaq(slug);
   if (!f) return {};
+  const url = `${siteUrl}/fitness-faq/${f.slug}`;
   return {
     title: `${f.question} | Coach Angelo`,
     description: f.shortAnswer.slice(0, 155),
-    alternates: { canonical: `${siteUrl}/fitness-faq/${f.slug}` },
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      locale: "de_DE",
+      url,
+      title: f.question,
+      description: f.shortAnswer.slice(0, 155),
+      images: ["/og-image.jpg"],
+    },
   };
 }
 
@@ -37,18 +46,30 @@ export default async function FaqPage({
   const related = f.relatedSlugs.map((s) => getFaq(s)).filter(Boolean);
   const catLabel = faqCategories.find((c) => c.key === f.category)?.label ?? "";
 
+  const url = `${siteUrl}/fitness-faq/${f.slug}`;
   // FAQPage schema: la domanda principale + le sezioni come Q&A
   const faqLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
+    "@graph": [
       {
-        "@type": "Question",
-        name: f.question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: f.shortAnswer + " " + f.body.map((b) => b.text).join(" "),
-        },
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Fitness FAQ", item: `${siteUrl}/fitness-faq` },
+          { "@type": "ListItem", position: 2, name: f.question, item: url },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.shortAnswer + " " + f.body.map((b) => b.text).join(" "),
+            },
+          },
+        ],
       },
     ],
   };

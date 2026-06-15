@@ -9,6 +9,14 @@ export const metadata: Metadata = {
   description:
     "Ehrliche Antworten zu Training, Abnehmen und Muskelaufbau in Köln. Geschrieben von Angelo Magliarisi, Personal Trainer und WABBA International Athlet.",
   alternates: { canonical: `${siteUrl}/blog` },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: `${siteUrl}/blog`,
+    title: "Fitness Blog Köln | Coach Angelo",
+    description: "Ehrliche Antworten zu Training, Abnehmen und Muskelaufbau in Köln. WABBA International Athlet.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function BlogIndex() {

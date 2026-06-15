@@ -17,10 +17,21 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
+  const url = `${siteUrl}/blog/${post.slug}`;
   return {
     title: post.metaTitle,
     description: post.metaDescription,
-    alternates: { canonical: `${siteUrl}/blog/${post.slug}` },
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      locale: "de_DE",
+      url,
+      title: post.title,
+      description: post.metaDescription,
+      publishedTime: post.date,
+      authors: ["Angelo Magliarisi"],
+      images: ["/og-image.jpg"],
+    },
   };
 }
 
@@ -33,18 +44,38 @@ export default async function BlogPostPage({
   const post = getPost(slug);
   if (!post) notFound();
 
+  const url = `${siteUrl}/blog/${post.slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: post.title,
-    description: post.metaDescription,
-    datePublished: post.date,
-    author: {
-      "@type": "Person",
-      name: "Angelo Magliarisi",
-      url: siteUrl,
-      jobTitle: "Personal Trainer",
-    },
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Blog", item: `${siteUrl}/blog` },
+          { "@type": "ListItem", position: 2, name: post.title, item: url },
+        ],
+      },
+      {
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.metaDescription,
+        datePublished: post.date,
+        dateModified: post.date,
+        image: `${siteUrl}/og-image.jpg`,
+        mainEntityOfPage: { "@type": "WebPage", "@id": url },
+        author: {
+          "@type": "Person",
+          name: "Angelo Magliarisi",
+          url: siteUrl,
+          jobTitle: "Personal Trainer",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Coach Angelo",
+          logo: { "@type": "ImageObject", url: `${siteUrl}/logo.png` },
+        },
+      },
+    ],
   };
 
   return (

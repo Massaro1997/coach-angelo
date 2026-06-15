@@ -19,10 +19,19 @@ export async function generateMetadata({
   const { intent } = await params;
   const it = getIntent(intent);
   if (!it) return {};
+  const url = `${siteUrl}/leistungen/${it.key}`;
   return {
     title: `${it.label} in Köln | Coach Angelo`,
     description: `${it.metaIntent} in Köln, in allen 86 Stadtteilen. WABBA International Athlet, kostenlose Erstberatung, Antwort in 24h.`,
-    alternates: { canonical: `${siteUrl}/leistungen/${it.key}` },
+    alternates: { canonical: url },
+    openGraph: {
+      type: "website",
+      locale: "de_DE",
+      url,
+      title: `${it.label} in Köln`,
+      description: `${it.metaIntent} in Köln, in allen 86 Stadtteilen. WABBA Athlet, kostenlose Erstberatung.`,
+      images: ["/og-image.jpg"],
+    },
   };
 }
 
@@ -40,8 +49,31 @@ export default async function IntentCategory({
     items: stadtteile.filter((st) => st.bezirk === b.name),
   }));
 
+  const url = `${siteUrl}/leistungen/${it.key}`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Personal Trainer Köln", item: `${siteUrl}/personal-trainer-koeln` },
+          { "@type": "ListItem", position: 2, name: it.label, item: url },
+        ],
+      },
+      {
+        "@type": "Service",
+        serviceType: it.label,
+        provider: { "@type": "Person", name: "Angelo Magliarisi", jobTitle: "Personal Trainer", url: siteUrl },
+        areaServed: { "@type": "City", name: "Köln" },
+        ...(it.price ? { offers: { "@type": "Offer", price: it.price, priceCurrency: "EUR" } } : {}),
+        mainEntityOfPage: url,
+      },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section className="pt-32 sm:pt-40 pb-12 sm:pb-16 bg-background">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-accent uppercase tracking-[0.2em] text-xs font-semibold mb-5">

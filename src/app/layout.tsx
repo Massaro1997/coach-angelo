@@ -70,47 +70,73 @@ export const metadata: Metadata = {
 };
 
 // Schema.org JSON-LD
+const sameAs = [
+  "https://www.instagram.com/angelo_fitnesscoach",
+  "https://www.tiktok.com/@angelo.fitnesscoach",
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Angelo Magliarisi",
-  alternateName: "Coach Angelo",
-  jobTitle: "Personal Trainer",
-  description: "Personal Trainer in Köln, WABBA International Athlet. Personal Training, Online Coaching und individuelle Trainingspläne.",
-  url: siteUrl,
-  image: `${siteUrl}/og-image.jpg`,
-  sameAs: [
-    "https://www.instagram.com/angelo_fitnesscoach",
-    "https://www.tiktok.com/@angelo.fitnesscoach",
-  ],
-  knowsLanguage: [
-    { "@type": "Language", name: "Italian" },
-    { "@type": "Language", name: "German" },
-  ],
-  hasOccupation: {
-    "@type": "Occupation",
-    name: "Personal Trainer",
-    occupationLocation: {
-      "@type": "City",
-      name: "Köln",
-    },
-  },
-  makesOffer: [
+  "@graph": [
     {
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Service",
-        name: "Personal Training in Presenza",
-        description: "Allenamenti personalizzati one-to-one",
+      "@type": "Person",
+      "@id": `${siteUrl}/#angelo`,
+      name: "Angelo Magliarisi",
+      alternateName: "Coach Angelo",
+      jobTitle: "Personal Trainer",
+      description: "Personal Trainer in Köln, WABBA International Athlet. Personal Training, Online Coaching und individuelle Trainingspläne.",
+      url: siteUrl,
+      image: `${siteUrl}/og-image.jpg`,
+      sameAs,
+      knowsLanguage: [
+        { "@type": "Language", name: "Italian" },
+        { "@type": "Language", name: "German" },
+      ],
+      areaServed: { "@type": "City", name: "Köln" },
+      hasOccupation: {
+        "@type": "Occupation",
+        name: "Personal Trainer",
+        occupationLocation: { "@type": "City", name: "Köln" },
       },
+      makesOffer: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Personal Training in Presenza",
+            description: "Allenamenti personalizzati one-to-one",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Coaching Online",
+            description: "Programmi di allenamento online personalizzati",
+          },
+        },
+      ],
     },
     {
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Service",
-        name: "Coaching Online",
-        description: "Programmi di allenamento online personalizzati",
+      "@type": ["LocalBusiness", "SportsActivityLocation"],
+      "@id": `${siteUrl}/#business`,
+      name: "Coach Angelo — Personal Trainer Köln",
+      description: "Personal Training, Online Coaching und individuelle Trainingspläne in Köln. WABBA International Athlet, kostenlose Erstberatung.",
+      url: siteUrl,
+      image: `${siteUrl}/og-image.jpg`,
+      logo: `${siteUrl}/logo.png`,
+      founder: { "@id": `${siteUrl}/#angelo` },
+      sameAs,
+      priceRange: "€€",
+      currenciesAccepted: "EUR",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Köln",
+        addressRegion: "NRW",
+        addressCountry: "DE",
       },
+      geo: { "@type": "GeoCoordinates", latitude: 50.9375, longitude: 6.9603 },
+      areaServed: { "@type": "City", name: "Köln" },
     },
   ],
 };

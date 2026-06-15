@@ -9,6 +9,14 @@ export const metadata: Metadata = {
   description:
     "Ehrliche Antworten auf die häufigsten Fitness-Fragen: Abnehmen, Muskelaufbau, Ernährung und Training. Von Angelo Magliarisi, Personal Trainer in Köln und WABBA Athlet.",
   alternates: { canonical: `${siteUrl}/fitness-faq` },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: `${siteUrl}/fitness-faq`,
+    title: "Fitness FAQ | Coach Angelo",
+    description: "Ehrliche Antworten auf die häufigsten Fitness-Fragen: Abnehmen, Muskelaufbau, Ernährung und Training.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function FitnessFaqIndex() {

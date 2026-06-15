@@ -20,10 +20,19 @@ export async function generateMetadata({
   const b = getBezirk(bezirk);
   if (!b) return {};
   const stats = bezirkStats(b);
+  const url = `${siteUrl}/personal-trainer-koeln/${b.slug}`;
   return {
     title: `Personal Trainer Köln-${b.name} | Coach Angelo`,
     description: `Personal Training und Online Coaching im Bezirk Köln-${b.name} (${stats.count} Stadtteile, ${stats.einwohner.toLocaleString("de-DE")} Einwohner). WABBA Athlet, kostenlose Erstberatung.`,
-    alternates: { canonical: `${siteUrl}/personal-trainer-koeln/${b.slug}` },
+    alternates: { canonical: url },
+    openGraph: {
+      type: "website",
+      locale: "de_DE",
+      url,
+      title: `Personal Trainer in Köln-${b.name}`,
+      description: `Personal Training und Online Coaching im Bezirk Köln-${b.name}. WABBA Athlet, kostenlose Erstberatung.`,
+      images: ["/og-image.jpg"],
+    },
   };
 }
 
@@ -40,21 +49,33 @@ export default async function BezirkPage({
   const stats = bezirkStats(b);
   const otherBezirke = bezirke.filter((x) => x.slug !== b.slug);
 
-  const faqJsonLd = {
+  const url = `${siteUrl}/personal-trainer-koeln/${b.slug}`;
+  const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: b.faq.map((f) => ({
-      "@type": "Question",
-      name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.a },
-    })),
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Personal Trainer Köln", item: `${siteUrl}/personal-trainer-koeln` },
+          { "@type": "ListItem", position: 2, name: `Köln-${b.name}`, item: url },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: b.faq.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      },
+    ],
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       {/* Hero */}
       <section className="pt-32 sm:pt-40 pb-10 sm:pb-14 bg-background">

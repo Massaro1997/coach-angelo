@@ -32,6 +32,14 @@ export async function generateMetadata({
     title: c.metaTitle,
     description: c.metaDescription,
     alternates: { canonical: c.url },
+    openGraph: {
+      type: "website",
+      locale: "de_DE",
+      url: c.url,
+      title: c.h1,
+      description: c.metaDescription,
+      images: ["/og-image.jpg"],
+    },
   };
 }
 
@@ -51,27 +59,37 @@ export default async function StadtteilIntentPage({
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    serviceType: it.label,
-    provider: {
-      "@type": "Person",
-      name: "Angelo Magliarisi",
-      jobTitle: "Personal Trainer",
-      url: siteUrl,
-    },
-    areaServed: { "@type": "Place", name: `Köln-${st.name}`, address: { "@type": "PostalAddress", addressLocality: "Köln", addressRegion: "NRW", addressCountry: "DE" } },
-    mainEntityOfPage: c.url,
-  };
-  const faqLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: c.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Personal Trainer Köln", item: `${siteUrl}/personal-trainer-koeln` },
+          { "@type": "ListItem", position: 2, name: it.label, item: `${siteUrl}/leistungen/${it.key}` },
+          { "@type": "ListItem", position: 3, name: `Köln-${st.name}`, item: c.url },
+        ],
+      },
+      {
+        "@type": "Service",
+        serviceType: it.label,
+        provider: {
+          "@type": "Person",
+          name: "Angelo Magliarisi",
+          jobTitle: "Personal Trainer",
+          url: siteUrl,
+        },
+        areaServed: { "@type": "Place", name: `Köln-${st.name}`, address: { "@type": "PostalAddress", addressLocality: "Köln", addressRegion: "NRW", addressCountry: "DE" } },
+        mainEntityOfPage: c.url,
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: c.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+      },
+    ],
   };
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
 
       {/* Hero */}
       <section className="pt-32 sm:pt-40 pb-10 sm:pb-14 bg-background">

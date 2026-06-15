@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   description:
     "Personal Trainer in Köln: 1-zu-1 Training (50€/Std), Online Coaching ab 150€/Monat, individuelle Trainingspläne. WABBA International Athlet. Kostenlose Erstberatung, Antwort in 24h.",
   alternates: { canonical: `${siteUrl}/personal-trainer-koeln` },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: `${siteUrl}/personal-trainer-koeln`,
+    title: "Personal Trainer Köln | Coach Angelo",
+    description: "1-zu-1 Training, Online Coaching und individuelle Trainingspläne in Köln. WABBA International Athlet.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function PersonalTrainerKoeln() {
