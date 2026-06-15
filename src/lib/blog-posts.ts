@@ -7795,6 +7795,141 @@ export const blogPosts: BlogPost[] = [
         "text": "Protein Shakes selber machen ist keine Kunst. Es braucht ein bisschen Planung und den Willen, mal etwas auszuprobieren. Wenn du merkst, dass du trotz Shake und Training nicht die Ergebnisse bekommst, die du willst, liegt es meistens an der Gesamtstrategie, nicht am Rezept. Genau dafür bin ich da. Wenn du wissen willst, wie du Ernährung und Training in deinen Kölner Alltag integrierst, ohne dein Leben komplett umzustellen, dann buch dir ein kostenloses Erstgespräch auf angelocoach.com. Kein Druck, kein Verkaufsgespräch, nur ein ehrliches Gespräch darüber, was für dich funktioniert."
       }
     ]
+  },
+  {
+    "slug": "trainingsplan-berufstaetige-3-tage-pro-woche",
+    "title": "3-Tage-Trainingsplan für Berufstätige ab 40: So trainierst du effektiv trotz wenig Zeit",
+    "metaTitle": "3-Tage-Trainingsplan für Berufstätige ab 40",
+    "metaDescription": "Trainingsplan für Berufstätige ab 40: 3x pro Woche effektiv trainieren trotz vollem Terminkalender. Konkreter Wochenplan von Personal Trainer Angelo aus Köln.",
+    "date": "2026-06-15",
+    "readMinutes": 5,
+    "excerpt": "Vollzeitjob, Familie, kaum Energie am Abend: Trotzdem fit werden ab 40 ist möglich. Hier ist dein realistischer 3-Tage-Trainingsplan für den Alltag.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Montag Überstunden, Mittwoch Elternabend, Freitag komplett auf dem Zahnfleisch. Kenn ich. Als Personal Trainer in Köln arbeite ich täglich mit Menschen ab 40, die genau in dieser Lage stecken. Die gute Nachricht: Du brauchst keinen täglichen Trainingsplan, um Ergebnisse zu sehen. Drei gezielte Einheiten pro Woche sind realistisch, umsetzbar und, wenn sie richtig aufgebaut sind, sehr effektiv."
+      },
+      {
+        "type": "h2",
+        "text": "Warum drei Tage pro Woche der richtige Ansatz ist"
+      },
+      {
+        "type": "p",
+        "text": "Viele Berufstätige ab 40 machen denselben Fehler: Sie starten mit fünf Trainingstagen, halten das zwei Wochen durch und hören dann komplett auf. Das ist kein Willensproblem, das ist ein Planungsproblem. Drei Tage pro Woche sind ein Format, das sich langfristig in echte Lebensrealität integrieren lässt, ohne dass du dafür alles andere opfern musst."
+      },
+      {
+        "type": "p",
+        "text": "Ab 40 verändert sich außerdem, wie dein Körper auf Training und Belastung reagiert. Regeneration wird wichtiger. Du brauchst mehr Zeit zwischen intensiven Einheiten, nicht weniger. Drei Trainingstage mit je einem Ruhetag dazwischen geben deinem Körper genau das Fenster, das er braucht, um sich anzupassen und stärker zu werden. Weniger ist hier tatsächlich mehr, wenn die Qualität stimmt."
+      },
+      {
+        "type": "h2",
+        "text": "Die Grundstruktur deines Wochenplans"
+      },
+      {
+        "type": "p",
+        "text": "Mein Standardvorschlag für Berufstätige: Montag, Mittwoch, Freitag. Oder Dienstag, Donnerstag, Samstag, wenn der Montagmorgen schon chaotisch genug ist. Wichtig ist nur, dass zwischen zwei Trainingstagen immer mindestens ein Ruhetag liegt. Kein Training an zwei aufeinanderfolgenden Tagen, zumindest nicht in der Anfangsphase."
+      },
+      {
+        "type": "p",
+        "text": "Jede Einheit sollte zwischen 45 und 60 Minuten dauern. Nicht kürzer aus Faulheit, nicht länger aus Ehrgeiz. Wenn du nach 60 Minuten noch problemlos weitermachen könntest, war die Intensität zu niedrig. Ein strukturiertes Aufwärmen von etwa zehn Minuten, der Hauptteil mit drei bis vier Übungen, ein kurzes Cool-down: Das ist dein Grundgerüst."
+      },
+      {
+        "type": "p",
+        "text": "Ich empfehle für die meisten meiner Klientinnen und Klienten ab 40 ein Ganzkörpertraining an allen drei Tagen, anstatt einen klassischen Split-Plan. Du trainierst häufiger die gleichen Muskelgruppen, sammelst mehr Übungspraxis und hast trotzdem genug Erholung. Außerdem spielt es keine Rolle, wenn mal ein Tag wegfällt, weil du am nächsten Tag sowieso wieder alles trainierst."
+      },
+      {
+        "type": "h2",
+        "text": "Dein konkreter Wochenplan: Tag für Tag"
+      },
+      {
+        "type": "p",
+        "text": "Tag 1 (z. B. Montag) ist dein Kraftfokustag. Kniebeuge oder Goblet Squat, Bankdrücken oder Liegestütz in einer schwierigen Variante, Kurzhantelrudern, eine Rumpfübung wie Pallof Press oder Dead Bug. Drei bis vier Sätze pro Übung, acht bis zwölf Wiederholungen. Tempo ruhig halten, keine Hektik."
+      },
+      {
+        "type": "p",
+        "text": "Tag 2 (z. B. Mittwoch) bringt etwas mehr Dynamik rein. Romanian Deadlift, Schulterdrücken, einbeinige Übungen wie Step-ups oder Split Squats, horizontales Rudern. Du arbeitest an denselben Grundbewegungsmustern, aber mit anderen Übungsvarianten. Das hält die Sache frisch und sorgt für eine breitere Reizvielfalt."
+      },
+      {
+        "type": "p",
+        "text": "Tag 3 (z. B. Freitag) darf intensiver sein. Kreuzheben, Klimmzüge oder Lat-Pulldown, Dips oder Trizepspresse, eine konditionelle Komponente wie Kettlebell Swings oder Sled Push, falls verfügbar. Dieser Tag ist der Abschluss der Woche, also gib ruhig nochmal etwas mehr. Das Wochenende gibt dir dann Zeit zur Regeneration."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Tag 1: Kniebeuge, Bankdrücken, Kurzhantelrudern, Rumpfstabilisierung",
+          "Tag 2: Romanian Deadlift, Schulterdrücken, einbeinige Übungen, Rudern",
+          "Tag 3: Kreuzheben, Klimmzüge/Lat-Pulldown, Dips, konditionelles Element",
+          "Pause: mindestens ein Ruhetag zwischen je zwei Trainingstagen",
+          "Dauer pro Einheit: 45 bis 60 Minuten inklusive Aufwärmen"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung: Was du nicht ignorieren kannst"
+      },
+      {
+        "type": "p",
+        "text": "Ich sage das direkt, ohne Umschweife: Du kannst den besten Trainingsplan der Welt haben, wenn die Ernährung komplett chaotisch ist, wirst du kaum Fortschritte sehen. Das bedeutet nicht, dass du jeden Bissen tracken oder auf Pasta verzichten musst. Es bedeutet, dass du ein paar Grundregeln brauchst, die du ohne großen Aufwand in deinen Alltag einbaust."
+      },
+      {
+        "type": "p",
+        "text": "Für Berufstätige ab 40 ist vor allem eine ausreichende Proteinzufuhr entscheidend. Protein unterstützt den Muskelaufbau und hilft dir, nach dem Training zu regenerieren. Eine praktische Faustregel, keine wissenschaftliche Garantie: Versuche bei jeder Hauptmahlzeit eine gute Proteinquelle zu haben, zum Beispiel Hühnchen, Quark, Eier, Hülsenfrüchte oder Fisch. Das reicht als Einstieg."
+      },
+      {
+        "type": "p",
+        "text": "Schlaf ist genauso Teil der Ernährung wie das, was auf deinem Teller liegt. Wer nachts dauerhaft nur fünf Stunden schläft, trainiert gegen seinen eigenen Körper an. Kein Trainingsplan der Welt kompensiert chronischen Schlafmangel. Das ist kein Ratschlag aus einem Buch, das ist das, was ich täglich bei meinen Klienten beobachte."
+      },
+      {
+        "type": "h2",
+        "text": "Die häufigsten Fehler, die Berufstätige ab 40 machen"
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer eins: zu viel auf einmal. Neuer Trainingsplan, neue Diät, neues Schlafprotokoll, alles in derselben Woche. Das ist ein sicherer Weg in die Überforderung. Fang mit dem Training an, lass es zwei bis drei Wochen zur Gewohnheit werden, dann kümmere dich um die Ernährung. Schritt für Schritt."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer zwei: zu viel Cardio, zu wenig Kraft. Viele denken, Laufen oder Radfahren sei das Wichtigste. Cardio hat seinen Platz, keine Frage. Aber für Körperzusammensetzung, Rückengesundheit und langfristige Mobilität ist Krafttraining für Menschen ab 40 mindestens genauso wichtig. Wer nur läuft, verliert mit der Zeit Muskelmasse, besonders wenn er gleichzeitig wenig isst."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer drei: kein progressiver Aufbau. Wenn du jede Woche dieselben Gewichte mit denselben Wiederholungen hebst, stagnierst du nach einigen Wochen. Steigere regelmäßig, entweder das Gewicht, die Wiederholungszahl oder die Qualität der Bewegungsausführung. Dein Körper passt sich nur an, wenn du ihm einen Grund dazu gibst."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Zu viele Veränderungen auf einmal angehen",
+          "Cardio priorisieren und Krafttraining vernachlässigen",
+          "Kein progressiver Aufbau über Wochen",
+          "Regeneration unterschätzen",
+          "Unregelmäßige Trainingstage ohne feste Struktur"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wie du den Plan langfristig durchhältst"
+      },
+      {
+        "type": "p",
+        "text": "Kontinuität schlägt Perfektion. Eine verpasste Einheit macht gar nichts. Zwei verpasste Einheiten in Folge sind ein Signal, nicht eine Katastrophe. Wer seinen Plan als flexibles Werkzeug behandelt und nicht als Gesetz, das er bei jeder Abweichung komplett hinwirft, kommt weiter als jemand, der monatelang perfekt trainiert und dann nach einem Urlaub nie wieder anfängt."
+      },
+      {
+        "type": "p",
+        "text": "Feste Zeiten helfen enorm. Nicht 'irgendwann am Montag', sondern 'Montag um 7 Uhr morgens' oder 'Montag um 18:30 Uhr direkt nach der Arbeit'. Je weniger Entscheidungsaufwand an dem Moment hängt, ob du trainierst oder nicht, desto wahrscheinlicher ist es, dass du es tust. Das ist keine Motivationsfrage, das ist Struktur."
+      },
+      {
+        "type": "p",
+        "text": "Such dir außerdem eine Umgebung, die dich unterstützt, kein Fitnessstudio, das zwanzig Minuten entfernt liegt und wo du nach der Arbeit garantiert keine Parkplätze findest. Ein gutes Gym in deiner Nähe, eine Trainingspartnerin oder ein Trainer, der dich zur Rechenschaft zieht: Das macht in der Praxis mehr Unterschied als jede Motivationsrede."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Drei Tage pro Woche, eine klare Struktur, ein Plan der zu deinem echten Leben passt und nicht zu einem idealen Leben, das du nicht hast. Das ist alles, was du brauchst. Wenn du wissen willst, wie ein solcher Plan konkret für dich aussehen könnte, ruf mich an oder schreib mir. Das erste Gespräch ist kostenlos, dauert etwa 30 Minuten und gibt dir einen klaren ersten Schritt. Kein Druck, kein Verkaufsgespräch. Nur Klarheit darüber, wo du stehst und wohin du willst."
+      }
+    ]
   }
 ];
 
