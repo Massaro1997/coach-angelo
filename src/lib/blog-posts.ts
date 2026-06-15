@@ -7512,6 +7512,143 @@ export const blogPosts: BlogPost[] = [
         "text": "Schlaf ist kein Bonus zu deinem Training. Er ist ein Kernteil davon. Wenn du endlich Fortschritte machen willst, die auch dauerhaft bleiben, dann schauen wir uns gemeinsam an, wie dein Training, deine Ernährung und deine Regeneration zusammenpassen. Als Personal Trainer in Köln biete ich ein kostenloses Erstgespräch an, ganz ohne Verpflichtung. Schreib mir einfach über angelocoach.com, dann finden wir gemeinsam heraus, was wirklich bei dir bremst."
       }
     ]
+  },
+  {
+    "slug": "rueckentraining-buero-pause-uebungen",
+    "title": "Rücken stärken in der Mittagspause: 5 Übungen für Büroangestellte ohne Geräte",
+    "metaTitle": "Rücken stärken in der Mittagspause: 5 Übungen",
+    "metaDescription": "5 einfache Rückenübungen für die Büropause, ohne Geräte, ohne Umziehen. Deine 10-Minuten-Routine gegen Verspannungen, direkt umsetzbar.",
+    "date": "2026-06-15",
+    "readMinutes": 5,
+    "excerpt": "Rückenschmerzen nach langem Sitzen? Diese 5 kurzen Übungen für die Büropause helfen dir, deinen Rücken ohne Gym und ohne Umziehen gezielt zu stärken.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Acht Stunden am Schreibtisch, der Rücken brennt, die Schultern sind hochgezogen, und nach der Arbeit fehlt dir die Energie fürs Gym. Kennst du das? Dann ist diese Routine genau richtig für dich. Kein Umziehen, keine Geräte, keine Ausreden. Du brauchst nur deine Mittagspause und einen kleinen freien Fleck im Büro."
+      },
+      {
+        "type": "h2",
+        "text": "Warum dein Rücken beim Sitzen so leidet"
+      },
+      {
+        "type": "p",
+        "text": "Langes Sitzen ist keine neutrale Position für deinen Körper. Die Hüftbeuger verkürzen sich, die Gesäßmuskulatur schläft regelrecht ein, und die Rückenstrecker werden dauerhaft auf Dehnung gehalten, ohne sich je richtig anspannen zu dürfen. Das Ergebnis kennst du: Ziehen im Lendenbereich, Nackenverspannungen, manchmal sogar Kopfschmerzen am Nachmittag."
+      },
+      {
+        "type": "p",
+        "text": "Das Problem ist nicht nur der Schmerz selbst, sondern was passiert, wenn du ihn ignorierst. Die Muskulatur kompensiert, andere Bereiche übernehmen Aufgaben, die sie nicht übernehmen sollten, und irgendwann ist ein simples Bücken das Auslösende für eine Blockade. Ich sehe das bei Klienten aus Köln regelmäßig, Menschen, die sich nicht als unsportlich bezeichnen würden, aber deren Körper jahrelang in einer einzigen Position verbracht hat."
+      },
+      {
+        "type": "p",
+        "text": "Die gute Nachricht: Du musst das Rad nicht neu erfinden. Du musst nur regelmäßig Gegenbewegungen einbauen. Genau dafür ist diese Routine gedacht."
+      },
+      {
+        "type": "h2",
+        "text": "Bevor du anfängst: So bereitest du dich in 60 Sekunden vor"
+      },
+      {
+        "type": "p",
+        "text": "Kein aufwändiges Aufwärmen nötig. Steh kurz auf, schüttle die Arme locker aus und atme dreimal tief in den Bauch. Das reicht, um deinem Nervensystem zu signalisieren: jetzt kommt Bewegung. Wenn du magst, kannst du kurz auf der Stelle marschieren, aber es ist keine Pflicht."
+      },
+      {
+        "type": "p",
+        "text": "Trage normale Bürokleidung? Kein Problem. Diese Übungen wurden so ausgewählt, dass du dir weder Hemd noch Hose streckst. Kein Boden, kein Schwitzen, keine Situation, in der du danach erklärt werden musst. Das ist mir wichtig, weil Alltagstauglichkeit der einzige Grund ist, warum eine Routine auch wirklich durchgehalten wird."
+      },
+      {
+        "type": "p",
+        "text": "Wichtig: Wenn du akute Beschwerden hast oder ein Arzt dir bestimmte Bewegungen verboten hat, dann halte dich daran. Diese Übungen sind für gesunde Rücken gedacht, die zu viel sitzen, nicht als Therapie."
+      },
+      {
+        "type": "h2",
+        "text": "Die 5 Rückenübungen für deine Büropause"
+      },
+      {
+        "type": "p",
+        "text": "Übung 1: Stehende Katze-Kuh. Stell dich hüftbreit hin, leg beide Hände auf die Oberschenkel und mach deinen Rücken abwechselnd rund und hohl. Zehn langsame Wiederholungen, mit der Atmung synchronisiert. Das mobilisiert die gesamte Wirbelsäule und kostet dich genau eine Minute."
+      },
+      {
+        "type": "p",
+        "text": "Übung 2: Schulterblatt-Squeeze im Stehen. Arme locker seitlich, ziehe beide Schulterblätter zur Wirbelsäule zusammen, halte zwei Sekunden, lass los. Mach das fünfzehn Mal. Du aktivierst damit die Muskulatur, die beim Sitzen am Computer am meisten schläft, den mittleren Trapez und die Rhomboiden."
+      },
+      {
+        "type": "p",
+        "text": "Übung 3: Hüftstrecker-Dehnung am Stuhl. Ein Knie auf den Boden oder, wenn das nicht geht, mach einen großen Ausfallschritt und schiebe die Hüfte nach vorne. Dreißig Sekunden pro Seite. Du wirst sofort merken, wie sich der Zug im vorderen Oberschenkel und die Entlastung im unteren Rücken gleichzeitig einstellen."
+      },
+      {
+        "type": "p",
+        "text": "Übung 4: Wandstütze für die hintere Kette. Stell dich einen halben Meter von der Wand entfernt, leg die Hände flach dagegen und schiebe sie langsam nach oben, soweit du kannst ohne den Rücken zu überstrecken. Halte oben zwei Sekunden. Das kräftigt Schulterblatt-Stabilisatoren und dehnt die Brustmuskulatur gleichzeitig."
+      },
+      {
+        "type": "p",
+        "text": "Übung 5: Stehende Rumpfrotation. Arme vor der Brust verschränkt, Füße hüftbreit, drehe den Oberkörper langsam nach rechts und links. Zehn Wiederholungen pro Seite, ohne die Hüfte mitzudrehen. Diese Rotation ist das, was beim Sitzen am meisten fehlt, und sie tut sofort gut."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Katze-Kuh im Stehen: 10 Wdh.",
+          "Schulterblatt-Squeeze: 15 Wdh.",
+          "Hüftstrecker-Dehnung: 30 Sek. pro Seite",
+          "Wandstütze nach oben: 8-10 Wdh.",
+          "Rumpfrotation im Stehen: 10 Wdh. pro Seite"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wie du die Routine in deinen Arbeitsalltag integrierst"
+      },
+      {
+        "type": "p",
+        "text": "Eine Routine, die du dir erst mühsam erkämpfen musst, wird nicht zur Gewohnheit. Mein Rat: Koppel die Übungen an etwas, das du sowieso schon machst. Nach dem Mittagessen aufstehen, bevor du wieder an den Rechner gehst. Das Telefon klingelt, du nimmst es im Stehen entgegen und machst dabei Schulterbewegungen. Kleine Haken, an denen du die neue Gewohnheit aufhängst."
+      },
+      {
+        "type": "p",
+        "text": "Drei Mal pro Woche ist realistischer als täglich, wenn du gerade neu anfängst. Ich sage das bewusst, weil ich zu oft erlebt habe, wie ambitionierte Pläne nach zwei Wochen einschlafen, weil sie zu viel auf einmal verlangen. Fang mit drei Mal an, und steigere erst, wenn es sich selbstverständlich anfühlt."
+      },
+      {
+        "type": "p",
+        "text": "Setz dir eine Erinnerung im Kalender, zum Beispiel täglich um 12:30 Uhr mit dem Titel 'Rücken, 10 Min'. Klingt banal, wirkt aber. Dein Gehirn behandelt Kalendereinträge anders als vage Vorsätze."
+      },
+      {
+        "type": "h2",
+        "text": "Was diese Übungen leisten, und was nicht"
+      },
+      {
+        "type": "p",
+        "text": "Diese fünf Übungen sind kein Ersatz für ein strukturiertes Krafttraining. Sie lösen keine Bandscheibenvorfälle auf und bauen keine tiefe Stabilisationsmuskulatur auf, die echter Trainingsreize braucht. Was sie aber können: Sie unterbrechen das stundenlange Bewegungsdefizit, reaktivieren Muskelgruppen, die im Sitzen einschlafen, und reduzieren das Spannungsgefühl spürbar."
+      },
+      {
+        "type": "p",
+        "text": "Ich arbeite mit vielen Büroangestellten aus dem Kölner Raum, und der häufigste Satz, den ich höre, ist: 'Ich dachte, das kommt vom Alter.' Kommt es meistens nicht. Es kommt vom Sitzen. Und das ist eigentlich gute Nachricht, weil Sitzen ist etwas, das du verändern kannst."
+      },
+      {
+        "type": "p",
+        "text": "Wenn du merkst, dass die Routine Wirkung zeigt und du mehr willst, dann ist das der richtige Moment für ein strukturiertes Programm. Nicht früher, nicht aus Ehrgeiz, sondern wenn dein Körper dir signalisiert, dass er bereit ist."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler bei Büropausen-Training und wie du sie vermeidest"
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer eins: zu schnell. Die meisten machen diese Übungen in dem Tempo, in dem sie auch Aufgaben im Job abarbeiten. Zu schnell, zu oberflächlich. Nimm dir für jede Übung mehr Zeit als du denkst. Die Wirkung kommt aus der kontrollierten Bewegung, nicht aus den Wiederholungen."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer zwei: Luft anhalten. Klingt trivial, aber unter Anspannung hält fast jeder die Luft an. Atme bei jeder Übung bewusst aus, besonders beim stärksten Punkt der Bewegung. Das reduziert Spannung im Rumpf und macht die Übungen gleichzeitig effektiver."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer drei: einmal machen und erwarten, dass sich etwas ändert. Einmaliger Sport hat keinen Trainingseffekt. Dein Rücken braucht Wiederholung über Wochen, um tatsächlich belastbarer zu werden. Geduld ist hier keine Tugend, sondern einfach Biologie."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Zehn Minuten in der Mittagspause können mehr bewirken als du denkst, wenn du sie konsequent nutzt. Diese fünf Übungen sind dein Einstieg. Wenn du merkst, dass du mehr Struktur brauchst oder nicht sicher bist, ob du die Übungen richtig ausführst, dann lade ich dich gerne zu einem kostenlosen Erstgespräch ein. Wir schauen gemeinsam, wo dein Rücken gerade steht und was realistisch für dich drin ist. Kein Verkaufsgespräch, nur ein ehrlicher Blick auf deine Situation. Du findest mich auf angelocoach.com."
+      }
+    ]
   }
 ];
 
