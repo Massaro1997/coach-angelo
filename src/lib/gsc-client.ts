@@ -8,7 +8,8 @@ import { google } from 'googleapis';
 const CLIENT_ID = process.env.GOOGLE_OAUTH_CLIENT_ID;
 const CLIENT_SECRET = process.env.GOOGLE_OAUTH_CLIENT_SECRET;
 const REFRESH_TOKEN = process.env.GSC_REFRESH_TOKEN;
-const PROPERTY = process.env.GSC_PROPERTY || 'sc-domain:angelocoach.com';
+// NB: property registrata in GSC come URL-prefix, NON Domain (sc-domain:).
+const PROPERTY = process.env.GSC_PROPERTY || 'https://www.angelocoach.com/';
 
 function getAuthClient() {
   if (!CLIENT_ID || !CLIENT_SECRET || !REFRESH_TOKEN) {
