@@ -9221,6 +9221,157 @@ export const blogPosts: BlogPost[] = [
         "text": "Mentale Stärke im Training ist kein Talent, das du entweder hast oder nicht hast. Es ist eine Fähigkeit, die du trainierst, genau wie Kraft oder Ausdauer. Mit den richtigen Techniken und etwas Geduld wirst du feststellen, dass der innere Schweinehund nicht verschwindet, aber leiser wird. Und irgendwann bemerkst du, dass du einfach gehst, ohne groß darüber nachzudenken. Wenn du als Anfänger in Köln wissen willst, wie dein persönlicher Einstieg aussehen kann, komm gerne auf mich zu. Das erste Gespräch ist kostenlos und unverbindlich. Zusammen schauen wir, was für dich wirklich funktioniert."
       }
     ]
+  },
+  {
+    "slug": "sport-nach-langer-pause-wieder-anfangen",
+    "title": "Sport nach langer Pause wieder anfangen: So gelingt dir der Neustart",
+    "metaTitle": "Sport nach langer Pause wieder anfangen",
+    "metaDescription": "Nach Wochen oder Monaten Auszeit zurück zum Training? Personal Trainer Angelo zeigt dir, wie der Wiedereinstieg ohne Verletzungen und Frust gelingt.",
+    "date": "2026-06-16",
+    "readMinutes": 5,
+    "excerpt": "Lange nichts gemacht und jetzt wieder anfangen? Personal Trainer Angelo aus Köln zeigt dir, wie du ohne Frust und Verletzungen zurück ins Training findest.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du hast eine Weile pausiert, vielleicht wegen Stress, Urlaub, Krankheit oder einfach weil das Leben dazwischengekommen ist. Jetzt willst du wieder anfangen. Das ist gut. Aber der häufigste Fehler beim Wiedereinstieg ist, zu schnell zu viel zu wollen und dann nach zwei Wochen wieder aufzuhören, weil der Körper streikt oder die Motivation wegbricht. Ich zeige dir, wie du es diesmal anders machst."
+      },
+      {
+        "type": "h2",
+        "text": "Warum der Wiedereinstieg anders ist als der Anfang"
+      },
+      {
+        "type": "p",
+        "text": "Viele denken, wer früher mal trainiert hat, steigt einfach dort wieder ein, wo er aufgehört hat. Das stimmt leider nicht. Dein Körper hat sich angepasst, die Muskeln haben an Volumen verloren, die Ausdauer ist gesunken, und was genauso wichtig ist: Sehnen und Bänder brauchen länger, um sich wieder an Belastung zu gewöhnen als das Muskelgewebe selbst."
+      },
+      {
+        "type": "p",
+        "text": "Das ist keine schlechte Nachricht. Es bedeutet nur, dass du die ersten Wochen mit mehr Geduld angehen solltest als du wahrscheinlich möchtest. Wer sechs Monate pausiert hat, braucht keine sechs Monate, um wieder auf Niveau zu kommen. Aber er braucht auch keine zwei Wochen. Rechne realistisch mit vier bis acht Wochen, bis du wieder in einem Rhythmus bist, der sich stabil anfühlt."
+      },
+      {
+        "type": "h2",
+        "text": "Die ersten zwei Wochen: Weniger ist tatsächlich mehr"
+      },
+      {
+        "type": "p",
+        "text": "In den ersten zwei Wochen geht es nicht um Leistung. Es geht darum, Gewohnheit aufzubauen. Zwei bis drei Einheiten pro Woche reichen völlig aus. Eine Einheit kann 30 bis 40 Minuten dauern, kein Marathon. Wenn du danach nicht erschöpft bist, ist das ein gutes Zeichen, kein schlechtes."
+      },
+      {
+        "type": "p",
+        "text": "Ich empfehle meinen Klienten in Köln immer dasselbe: Fang mit Bewegungsformen an, die du kennst und magst. Wenn du früher gerne gelaufen bist, dann geh laufen. Aber geh langsam. Wenn du lieber Krafttraining machst, dann nimm Gewichte, die leichter sind als du denkst, dass du solltest. Dein Ego wird meckern. Dein Körper wird es dir danken."
+      },
+      {
+        "type": "p",
+        "text": "Muskelkater nach der ersten Einheit ist normal und kein Zeichen, dass du zu wenig gemacht hast. Starker Muskelkater, der zwei bis drei Tage anhält und dich beim Treppensteigen blockiert, ist ein Zeichen, dass du zu viel gemacht hast. Das ist der feine Unterschied."
+      },
+      {
+        "type": "h2",
+        "text": "Welche Trainingsform eignet sich für den Neustart"
+      },
+      {
+        "type": "p",
+        "text": "Es gibt keine universell beste Methode. Was zählt: Was passt zu deinem Alltag, was macht dir halbwegs Spaß und was kannst du konstant durchhalten. Eine Methode, die du dreimal pro Woche machst, schlägt jede perfekte Methode, die du einmal ausprobierst und dann lässt."
+      },
+      {
+        "type": "p",
+        "text": "Kraft und Ausdauer kombinieren ist ein guter Ansatz für den Wiedereinstieg. Zwei Krafteinheiten und eine lockere Ausdauereinheit pro Woche geben deinem Körper verschiedene Reize, ohne ihn zu überlasten. Yoga oder Mobility-Training als Ergänzung ist keine Schwäche, sondern macht dich langfristig belastbarer."
+      },
+      {
+        "type": "p",
+        "text": "Vermeide in den ersten Wochen hochintensive Intervallprogramme oder sehr schwere Grundübungen mit maximalem Gewicht. Nicht weil du das nicht könntest, sondern weil das Verletzungsrisiko in der Wiederanpassungsphase höher ist. Du hast Zeit."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "2x Krafttraining pro Woche mit moderatem Gewicht",
+          "1x lockeres Ausdauertraining (spazieren, Rad, schwimmen)",
+          "10 bis 15 Minuten Mobility täglich, auch zuhause",
+          "Kein HIIT in den ersten drei Wochen",
+          "Einheiten planen wie Termine, nicht improvisieren"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung beim Wiedereinstieg: Was du wirklich brauchst"
+      },
+      {
+        "type": "p",
+        "text": "Du musst deine Ernährung nicht komplett umstellen, um wieder fit zu werden. Was hilft: ausreichend Protein, genug Wasser und nicht mit einem extremen Kaloriendefizit gleichzeitig starten. Wenn du gerade wieder mit Training anfängst und gleichzeitig sehr wenig isst, fehlt deinem Körper das Material, um sich anzupassen und zu regenerieren."
+      },
+      {
+        "type": "p",
+        "text": "Konkret: Stell sicher, dass du bei jeder Hauptmahlzeit eine Proteinquelle hast, also Fleisch, Fisch, Hülsenfrüchte, Eier oder Quark. Das ist keine Raketenwissenschaft, aber es macht einen spürbaren Unterschied, wie schnell du dich nach dem Training erholst. Den Rest kannst du schrittweise angehen, wenn das Training sitzt."
+      },
+      {
+        "type": "p",
+        "text": "Ich sage das nicht, um Ernährungsberatung zu machen. Ich sage das, weil ich in der Praxis immer wieder sehe, wie Menschen gleichzeitig ambitioniert trainieren und ambitioniert Kalorien sparen, und dann nach drei Wochen ausgebrannt sind und aufhören. Tu dir das nicht an."
+      },
+      {
+        "type": "h2",
+        "text": "Der Kopf ist das eigentliche Problem"
+      },
+      {
+        "type": "p",
+        "text": "Du wirst dich in den ersten Wochen langsamer fühlen als früher. Schwächer. Das ist real und das ist normal. Der Vergleich mit deinem alten Ich ist der größte Motivationskiller beim Wiedereinstieg. Dein Körper von vor zwei Jahren ist nicht dein Maßstab heute."
+      },
+      {
+        "type": "p",
+        "text": "Was hilft: Mach dir bewusst, dass du gerade aufbaust. Jede Einheit ist ein Schritt nach vorne, auch wenn sie sich nicht grandios anfühlt. Ich empfehle, die ersten vier Wochen gar keine Leistungsziele zu setzen, sondern nur Anwesenheitsziele. Vier Einheiten diese Woche? Geschafft. Das ist der Fortschritt."
+      },
+      {
+        "type": "p",
+        "text": "Wenn du merkst, dass du immer wieder Gründe findest, das Training zu verschieben, dann ist das meistens kein Willensproblem, sondern ein Planungsproblem. Feste Zeiten im Kalender, ein konkreter Ort und wenn möglich jemand, der dich erwartet, machen den Unterschied zwischen dem Training, das du planst, und dem Training, das du wirklich machst."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler und wie du sie vermeidest"
+      },
+      {
+        "type": "p",
+        "text": "Zu schnell steigern ist der klassischste Fehler. Du fühlst dich nach einer Woche gut, also verdoppelst du das Volumen. Zwei Tage später hast du Knieschmerzen oder einen gereizten Rücken und pausierst wieder. Steigere Umfang und Intensität nie um mehr als zehn bis zwanzig Prozent pro Woche."
+      },
+      {
+        "type": "p",
+        "text": "Schlechter Schlaf und zu viel Stress im Alltag machen Trainingsfortschritte zunichte, das ist kein Geheimnis. Wenn du gerade in einer Phase mit wenig Schlaf und viel Stress bist, dann ist leichtes Bewegungstraining gut, aber kein hartes Kraftprogramm. Hör auf deinen Körper, auch wenn das unbequem klingt."
+      },
+      {
+        "type": "p",
+        "text": "Und noch etwas: Kein Plan zu haben ist teurer als ein schlechter Plan. Wer planlos ins Fitnessstudio geht oder planlos joggen geht, hört früher auf. Ein einfacher, klarer Trainingsplan, den du wirklich umsetzt, bringt dich weiter als das perfekte Programm, das du nie konsequent durchziehst."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Volumen zu früh zu stark erhöhen",
+          "Den alten Leistungsstand als Maßstab nehmen",
+          "Ernährung und Training gleichzeitig extrem umstellen",
+          "Kein fester Trainingsplan",
+          "Regenerationszeiten ignorieren"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ab wann siehst du erste Ergebnisse"
+      },
+      {
+        "type": "p",
+        "text": "Ehrliche Antwort: Erste spürbare Veränderungen kommen nach vier bis sechs Wochen konsequentem Training. Sichtbare Veränderungen brauchen länger, je nach Ausgangssituation und Zielen. Wer das erwartet und akzeptiert, bleibt dran. Wer nach zwei Wochen auf spektakuläre Ergebnisse hofft, wird enttäuscht sein."
+      },
+      {
+        "type": "p",
+        "text": "Was du aber schneller merkst, oft schon nach einer Woche: besserer Schlaf, mehr Energie im Alltag, weniger Spannungen im Rücken und Nacken. Das sind keine kleinen Dinge. Das sind Lebensqualität in direkter Form. Nutze diese frühen Effekte als Motivation, weiterzumachen, auch wenn die Waage noch nicht das zeigt, was du willst."
+      },
+      {
+        "type": "p",
+        "text": "Gib dir mindestens acht Wochen, bevor du bewertest, ob dein Ansatz funktioniert. Nicht acht Wochen gelegentliches Training, sondern acht Wochen konsequente Einheiten. Dann kannst du sinnvoll anpassen. Vorher ist jede Anpassung zu früh."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Der Neustart nach einer langen Pause ist kein Kraftakt, er ist eine Entscheidung. Und dann eine Gewohnheit. Wenn du nicht weißt, wo du anfangen sollst oder du beim letzten Mal immer wieder gescheitert bist, dann kann ein erstes Gespräch viel klarer machen, was für dich konkret funktioniert. Ich biete dir ein kostenloses Erstgespräch an, kein Verkaufsgespräch, sondern eine ehrliche Einschätzung deiner Situation und erste konkrete Schritte. Meld dich einfach auf angelocoach.com."
+      }
+    ]
   }
 ];
 
