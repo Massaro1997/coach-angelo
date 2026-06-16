@@ -10989,6 +10989,152 @@ export const blogPosts: BlogPost[] = [
         "text": "Abends essen und trotzdem abnehmen, das ist kein Widerspruch. Es ist schlicht eine Frage der Gesamtbilanz und eines alltagstauglichen Plans. Wenn du merkst, dass du mit den Abendmahlzeiten nicht weiterkommst oder nicht weißt, wie du dein Kalorienbudget sinnvoll aufteilst, dann lass uns darüber reden. Ich biete ein kostenloses Erstgespräch an, in dem wir schauen, was für deinen Alltag wirklich funktioniert. Kein Standard-Plan, keine Diät aus dem Internet, sondern etwas, das zu dir passt. Meld dich gerne über angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "krafttraining-frauen-trainingsplan-einsteiger-koeln",
+    "title": "Krafttraining Frauen: Der komplette Trainingsplan für Einsteiger in Köln",
+    "metaTitle": "Krafttraining Frauen: Trainingsplan für Einsteiger",
+    "metaDescription": "Krafttraining für Frauen ohne Vorkenntnisse: konkreter Trainingsplan mit Übungen, Sätzen und Wiederholungen, für Köln und zuhause. Von Personal Trainer Angelo.",
+    "date": "2026-06-16",
+    "readMinutes": 4,
+    "excerpt": "Du willst mit Krafttraining anfangen, weißt aber nicht wo? Dieser Trainingsplan für Frauen zeigt dir genau, wie du sicher und effektiv einsteigst.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du hast dich entschieden, mit Krafttraining anzufangen. Gut so. Viele Frauen, die ich in Köln begleite, kommen mit denselben Fragen zu mir: Welche Übungen soll ich machen? Wie viele Sätze? Werde ich davon zu muskulös? Dieser Trainingsplan beantwortet genau das, ohne Umwege und ohne Halbwahrheiten."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Krafttraining für Frauen so sinnvoll ist"
+      },
+      {
+        "type": "p",
+        "text": "Muskeln verbrennen auch in Ruhe Energie. Das ist kein Geheimnis, aber viele unterschätzen, wie stark sich das im Alltag bemerkbar macht. Wer regelmäßig Kraft trainiert, schläft besser, hat mehr Energie beim Treppensteigen und fühlt sich im eigenen Körper wohler, ganz ohne Diät-Wahnsinn."
+      },
+      {
+        "type": "p",
+        "text": "Dazu kommt der Knochenaufbau. Krafttraining belastet die Knochen auf eine Art, die das Gewebe stärkt. Das ist besonders für Frauen ab Mitte dreißig relevant, wenn der natürliche Knochenabbau langsam beginnt. Kein Ersatz für ärztliche Beratung, aber ein echter Beitrag zur Prävention."
+      },
+      {
+        "type": "p",
+        "text": "Und das mit dem 'zu muskulös werden'? Frauen haben deutlich weniger Testosteron als Männer. Ausgeprägte Muskelmasse, wie man sie von Bodybuildingbühnen kennt, entsteht durch jahrelanges gezieltes Training und meistens eine sehr spezifische Ernährung. Mit einem normalen Trainingsplan passiert das einfach nicht."
+      },
+      {
+        "type": "h2",
+        "text": "Wie oft trainieren: Die richtige Frequenz für den Einstieg"
+      },
+      {
+        "type": "p",
+        "text": "Zwei Einheiten pro Woche sind für den Anfang genug. Wirklich. Ich sehe häufig Frauen, die am ersten Tag vier Tage einplanen und nach drei Wochen aufgehört haben, weil das Leben dazwischengekommen ist. Besser zwei Einheiten konsequent als vier Einheiten im ersten Monat und dann nichts mehr."
+      },
+      {
+        "type": "p",
+        "text": "Nach vier bis sechs Wochen, wenn der Körper sich angepasst hat und die Übungen flüssig klappen, kannst du auf drei Einheiten erhöhen. Das ist dann auch der Punkt, an dem du spürst, dass du nach einer Einheit schneller regenerierst als am Anfang. Dein Körper gibt dir das Signal selbst."
+      },
+      {
+        "type": "p",
+        "text": "Zwischen zwei Krafteinheiten sollte mindestens ein Ruhetag liegen. Nicht weil eine Regel es verlangt, sondern weil Muskelwachstum in der Erholung passiert, nicht beim Training selbst. Wer das ignoriert, bleibt stagnieren oder verletzt sich."
+      },
+      {
+        "type": "h2",
+        "text": "Die Grundübungen: Was wirklich zählt"
+      },
+      {
+        "type": "p",
+        "text": "Vergiss komplizierte Maschinen am Anfang. Die Grundübungen decken den größten Teil deiner Muskeln ab und lassen sich sowohl im Studio als auch zuhause umsetzen. Das ist kein vereinfachter Ansatz, das ist Effizienz."
+      },
+      {
+        "type": "p",
+        "text": "Kniebeugen trainieren den gesamten Unterkörper und die Rumpfstabilität gleichzeitig. Rudern in einer Variante zieht den Rücken und die hinteren Schultern auf. Drücken, ob Liegestütz oder Brustdrücken, stärkt die Vorderkette. Diese drei Bewegungsmuster zusammen erfassen fast alle großen Muskelgruppen."
+      },
+      {
+        "type": "p",
+        "text": "Hinzu kommen Kreuzheben in einer einsteigerfreundlichen Variante, zum Beispiel das rumänische Kreuzheben mit leichten Kurzhanteln, und Rudern mit Kurzhantel einseitig gestützt auf einer Bank. Beide Übungen trainieren die Hinterkette, also Oberschenkelrückseite und unterer Rücken, die bei vielen Frauen vergleichsweise schwach ist."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Kniebeugen: 3 Sätze à 10-12 Wiederholungen",
+          "Rumänisches Kreuzheben: 3 Sätze à 10-12 Wiederholungen",
+          "Kurzhantelrudern einarmig: 3 Sätze à 10-12 Wiederholungen pro Seite",
+          "Liegestütz (kniend oder gestreckt): 3 Sätze à 8-12 Wiederholungen",
+          "Schulterdrücken mit Kurzhanteln: 3 Sätze à 10-12 Wiederholungen",
+          "Plank: 3 Sätze à 20-40 Sekunden"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Sätze, Wiederholungen und Gewichte: Die Zahlen dahinter"
+      },
+      {
+        "type": "p",
+        "text": "Für den Einstieg gilt: drei Sätze, zehn bis zwölf Wiederholungen, Pause von etwa neunzig Sekunden bis zwei Minuten zwischen den Sätzen. Das ist kein Dogma, aber ein bewährter Rahmen. Du hast genug Wiederholungen, um die Technik zu lernen, und genug Gewicht, um eine echte Reiz zu setzen."
+      },
+      {
+        "type": "p",
+        "text": "Das richtige Gewicht erkennst du so: Die letzten zwei Wiederholungen des letzten Satzes sollten anstrengend sein, aber du solltest sie sauber ausführen können. Wenn du nach Wiederholung acht schon die Form verlierst, ist das Gewicht zu schwer. Wenn Wiederholung zwölf sich anfühlt wie ein Spaziergang, zu leicht."
+      },
+      {
+        "type": "p",
+        "text": "Steigere das Gewicht immer dann, wenn du drei aufeinanderfolgende Einheiten alle Sätze und Wiederholungen sauber absolviert hast. Nicht früher. Diese Methode nennt sich progressive Überlastung und ist das eigentliche Herzstück jedes Trainingsplans, egal ob für Anfängerinnen oder Fortgeschrittene."
+      },
+      {
+        "type": "h2",
+        "text": "Studio oder zuhause: Was passt besser für dich"
+      },
+      {
+        "type": "p",
+        "text": "Beides funktioniert, wenn du es ernst nimmst. Zuhause brauchst du mindestens zwei Kurzhanteln in unterschiedlichen Gewichten und Platz für Liegestütze. Das reicht für die ersten Monate locker, um echte Fortschritte zu erzielen."
+      },
+      {
+        "type": "p",
+        "text": "Im Studio hast du mehr Optionen: Langhanteln, Kabelzüge, Rudermaschinen. Das macht den Plan nach einigen Wochen vielseitiger und ermöglicht eine präzisere Steuerung des Trainingsgewichts. Außerdem ist die Hürde zu einem eigenen Termin im Studio für viele klarer definiert als der Weg ins Wohnzimmer."
+      },
+      {
+        "type": "p",
+        "text": "In Köln gibt es genug gute Studios, in denen du auch als Anfängerin ohne Einschüchterung trainieren kannst. Wenn du dir unsicher bist, ob du die Übungen richtig ausführst, lohnt sich eine erste Einheit mit einem Personal Trainer. Nicht als Dauerlösung, aber als Startpunkt, der dir teure Fehler erspart."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler, die ich immer wieder sehe"
+      },
+      {
+        "type": "p",
+        "text": "Zu viel zu früh. Frauen, die am ersten Tag vier Übungen mit sechs Sätzen absolvieren und drei Tage später kaum laufen können, kommen selten wieder. Muskelkater ist kein Qualitätsmerkmal. Fang kleiner an, als du denkst."
+      },
+      {
+        "type": "p",
+        "text": "Kein Aufwärmen. Zehn Minuten lockeres Cardio und zwei leichte Aufwärmsätze vor jeder Übung kosten dich zwanzig Minuten, die du dir später dreifach zurückholst, weil du nicht mit Schulterschmerzen pausieren musst."
+      },
+      {
+        "type": "p",
+        "text": "Auf die Waage starren. Krafttraining verändert die Körperzusammensetzung. Muskeln wiegen mehr als Fett auf gleichem Volumen. In den ersten Wochen kann das Gewicht auf der Waage gleich bleiben oder minimal steigen, während deine Kleidung besser sitzt. Vertrau dem Spiegel und dem Gefühl, nicht der Waage."
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung: Was du zum Training wissen musst"
+      },
+      {
+        "type": "p",
+        "text": "Kein Trainingsplan funktioniert ohne ausreichend Protein. Ich empfehle meinen Klientinnen, bei jeder Mahlzeit eine Eiweißquelle einzuplanen, also Eier, Hühnchen, Quark, Hülsenfrüchte oder Fisch. Keine Zählerei notwendig, nur Bewusstsein dafür."
+      },
+      {
+        "type": "p",
+        "text": "Iss vor dem Training keine schwere Mahlzeit. Ein Joghurt mit etwas Obst oder eine kleine Portion Haferflocken zwei Stunden vorher reicht. Danach, innerhalb von etwa zwei Stunden, solltest du wieder etwas essen, idealerweise mit Protein dabei."
+      },
+      {
+        "type": "p",
+        "text": "Kalorien drastisch zu reduzieren und gleichzeitig Kraft zu trainieren funktioniert langfristig nicht gut. Dein Körper braucht Energie, um Muskeln aufzubauen. Wer dauerhaft zu wenig isst, verliert Muskelmasse, fühlt sich schlapp und wundert sich, warum keine Fortschritte kommen. Das ist ein häufiges Muster, das ich kenne."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Krafttraining ist kein kompliziertes Thema, wenn du weißt, wo du anfangen sollst. Zwei Einheiten pro Woche, die richtigen Grundübungen, saubere Technik und ein bisschen Geduld, mehr braucht es am Anfang nicht. Wenn du in Köln bist und dir eine Einheit wünschst, bei der jemand draufschaut und ehrliches Feedback gibt, dann melde dich für ein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsdruck, kein Standardprogramm, nur ein ehrliches Gespräch darüber, was für dich passt."
+      }
+    ]
   }
 ];
 
