@@ -11135,6 +11135,136 @@ export const blogPosts: BlogPost[] = [
         "text": "Krafttraining ist kein kompliziertes Thema, wenn du weißt, wo du anfangen sollst. Zwei Einheiten pro Woche, die richtigen Grundübungen, saubere Technik und ein bisschen Geduld, mehr braucht es am Anfang nicht. Wenn du in Köln bist und dir eine Einheit wünschst, bei der jemand draufschaut und ehrliches Feedback gibt, dann melde dich für ein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsdruck, kein Standardprogramm, nur ein ehrliches Gespräch darüber, was für dich passt."
       }
     ]
+  },
+  {
+    "slug": "kaloriendefizit-berechnen-abnehmen",
+    "title": "Kaloriendefizit berechnen und abnehmen: So findest du deine persönliche Grenze",
+    "metaTitle": "Kaloriendefizit berechnen und richtig abnehmen",
+    "metaDescription": "Kaloriendefizit berechnen leicht gemacht: Schritt für Schritt zu deinem persönlichen Wert, ohne Muskelverlust oder Jojo-Effekt. Praxistipps von Personal Trainer Angelo.",
+    "date": "2026-06-17",
+    "readMinutes": 4,
+    "excerpt": "Kaloriendefizit richtig berechnen, Muskeln erhalten, Jojo-Effekt vermeiden. Personal Trainer Angelo zeigt dir Schritt für Schritt, wie es wirklich funktioniert.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du willst abnehmen, aber nicht mit einem Crash-Kurs, der dich nach drei Wochen ausgepowert und frustriert zurücklässt. Das kenne ich. Als Personal Trainer in Köln arbeite ich täglich mit Menschen, die genau das hinter sich haben. Die gute Nachricht: Ein richtig berechnetes Kaloriendefizit ist keine Raketenwissenschaft. Du brauchst keine App mit Premium-Abo und kein kompliziertes Spreadsheet. Nur die richtigen Schritte in der richtigen Reihenfolge."
+      },
+      {
+        "type": "h2",
+        "text": "Was ein Kaloriendefizit überhaupt bedeutet"
+      },
+      {
+        "type": "p",
+        "text": "Dein Körper braucht jeden Tag eine bestimmte Menge an Energie, nur um zu funktionieren. Atmung, Herzschlag, Verdauung, das alles kostet Kalorien, auch wenn du den ganzen Tag auf dem Sofa liegst. Dieser Wert heißt Grundumsatz. Wenn du weniger isst als dein Körper insgesamt verbraucht, greift er auf seine Energiereserven zurück. So entsteht ein Kaloriendefizit, und genau darin liegt der Kern jedes Fettabbaus."
+      },
+      {
+        "type": "p",
+        "text": "Das klingt simpel, und im Prinzip ist es das auch. Das Problem liegt nicht im Konzept, sondern in der Umsetzung. Zu viele Menschen setzen das Defizit zu hoch an, verlieren schnell Gewicht, aber dabei auch Muskelmasse und Energie, und landen nach einiger Zeit wieder am Ausgangspunkt. Das ist kein Versagen deinerseits. Das ist Biologie. Dein Körper schützt sich, wenn er merkt, dass zu wenig Energie reinkommt."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 1: Deinen Grundumsatz berechnen"
+      },
+      {
+        "type": "p",
+        "text": "Der erste Schritt ist, deinen Grundumsatz zu kennen. Dafür nutzt du eine Formel, die Körpergewicht, Größe, Alter und Geschlecht berücksichtigt. Eine verbreitete Option ist die Harris-Benedict-Formel, aber auch die Mifflin-St.-Jeor-Formel liefert gute Schätzwerte. Beide findest du kostenlos online, zum Beispiel auf Ernährungsportalen oder in seriösen Fitness-Apps."
+      },
+      {
+        "type": "p",
+        "text": "Wichtig: Das Ergebnis ist eine Schätzung, kein exakter Wert. Dein tatsächlicher Grundumsatz kann von deiner Muskelmasse, deinem Hormonhaushalt und anderen Faktoren abhängen, die keine Formel vollständig abbildet. Nimm die Zahl also als Ausgangspunkt, nicht als Evangelium. Mit der Zeit lernst du durch deine eigene Erfahrung, wie dein Körper wirklich reagiert."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 2: Deinen Gesamtverbrauch ermitteln"
+      },
+      {
+        "type": "p",
+        "text": "Dein Grundumsatz ist nur der Anfang. Dazu kommt alles, was du tagsüber machst: zur Arbeit fahren, einkaufen, Sport treiben, Treppensteigen. Dieser Gesamtverbrauch wird auch als Energieumsatz oder TDEE bezeichnet, Total Daily Energy Expenditure. Um ihn zu berechnen, multiplizierst du deinen Grundumsatz mit einem Aktivitätsfaktor."
+      },
+      {
+        "type": "p",
+        "text": "Wer hauptsächlich am Schreibtisch sitzt und einmal pro Woche trainiert, liegt bei einem Faktor um 1,4. Wer täglich aktiv ist und dreimal pro Woche intensiv trainiert, eher bei 1,6 bis 1,7. Sei hier ehrlich mit dir. Die meisten überschätzen ihre Aktivität, weil sie die Bewegung aus dem Alltag nicht mitrechnen, aber auch die Stunden auf dem Sofa vergessen. Ein realistischer Wert ist besser als ein optimistischer."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Sitzend, kaum Bewegung: Faktor ca. 1,2",
+          "Leicht aktiv, 1-2 Tage Sport pro Woche: Faktor ca. 1,375",
+          "Mäßig aktiv, 3-5 Tage Sport: Faktor ca. 1,55",
+          "Sehr aktiv, täglicher Sport oder körperliche Arbeit: Faktor ca. 1,725"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 3: Das Defizit festlegen, ohne zu übertreiben"
+      },
+      {
+        "type": "p",
+        "text": "Jetzt kommt die entscheidende Frage: Wie groß soll das Defizit sein? Meine klare Empfehlung liegt zwischen 300 und 500 Kalorien unter deinem Gesamtverbrauch pro Tag. Das klingt nach wenig, führt aber über mehrere Wochen zu einem spürbaren, nachhaltigen Ergebnis. Du verlierst Fett, behältst Energie für dein Training und gibst deinem Körper Zeit, sich anzupassen."
+      },
+      {
+        "type": "p",
+        "text": "Finger weg von Ansätzen, die 700, 800 oder gar 1000 Kalorien Defizit versprechen. Klar, die Waage bewegt sich schnell. Aber ein Großteil dieses Gewichtsverlusts kommt aus Wasser und Muskelmasse, nicht aus Fett. Und Muskeln zu verlieren bedeutet, deinen Grundumsatz zu senken, was den nächsten Versuch noch schwieriger macht. Das ist der Kreislauf, aus dem viele nicht herauskommen."
+      },
+      {
+        "type": "h2",
+        "text": "Muskelmasse erhalten während des Abnehmens"
+      },
+      {
+        "type": "p",
+        "text": "Ein Kaloriendefizit alleine reicht nicht. Was du isst, spielt genauso eine Rolle. Ausreichend Protein ist das wichtigste Werkzeug, um Muskeln zu schützen, während du Fett verlierst. Gute Proteinquellen sind zum Beispiel Hähnchenbrust, Hüttenkäse, Linsen, Eier oder griechischer Joghurt. Konkret: Protein sollte bei den meisten Menschen mit moderatem Aktivitätslevel ein zentraler Teil jeder Mahlzeit sein."
+      },
+      {
+        "type": "p",
+        "text": "Krafttraining ist der zweite Schlüssel. Wenn du nur mit Defizit und Cardio arbeitest, gibst du deinem Körper keinen Grund, die Muskeln zu behalten. Zwei bis drei Einheiten pro Woche mit Gewichten oder Körpergewicht reichen, um das Signal zu senden: Diese Muskeln werden gebraucht, also bleiben sie. Das muss kein aufwendiges Gym-Programm sein, auch zuhause lässt sich das umsetzen."
+      },
+      {
+        "type": "h2",
+        "text": "Den Jojo-Effekt wirklich vermeiden"
+      },
+      {
+        "type": "p",
+        "text": "Der Jojo-Effekt ist kein Mythos. Er passiert, wenn du nach einer Diät einfach wieder zu deinen alten Gewohnheiten zurückkehrst, ohne einen Plan für danach zu haben. Dein Körper hat sich während des Defizits angepasst, er ist sparsamer geworden. Wenn du jetzt plötzlich wieder normal isst, landet der Überschuss schnell als Fettreserve. Das ist eine biologische Schutzreaktion, keine Schwäche."
+      },
+      {
+        "type": "p",
+        "text": "Die Lösung ist ein langsamer Übergang. Nach dem Erreichen deines Ziels erhöhst du deine Kalorienzufuhr schrittweise, nicht von einem Tag auf den anderen. Gleichzeitig behältst du dein Training bei. So gewöhnt sich dein Stoffwechsel an den neuen Zustand, ohne sofort gegenzusteuern. Das braucht Geduld, aber es ist der Unterschied zwischen einer dauerhaften Veränderung und der nächsten Runde auf dem Karussell."
+      },
+      {
+        "type": "h2",
+        "text": "Alltagstaugliche Tipps, die wirklich funktionieren"
+      },
+      {
+        "type": "p",
+        "text": "Theorie ist das eine, Alltag das andere. Wenn du weißt, dass du abends oft unkontrolliert isst, plane eine sättigende Abendmahlzeit mit viel Protein und Volumen ein, statt sie einfach wegzulassen. Wenn du viel unterwegs bist, bereite dir morgens eine Mahlzeit vor, die du mitnehmen kannst. Kleine Anpassungen an deinen echten Alltag sind effektiver als ein perfekter Plan, den du nie durchhältst."
+      },
+      {
+        "type": "p",
+        "text": "Tracke deine Kalorien für zwei bis drei Wochen, nicht als Daueraufgabe, sondern als Lernphase. Du wirst überrascht sein, wie viel du über deine eigenen Gewohnheiten lernst. Danach hast du ein gutes Gefühl für Portionsgrößen und Energiedichte von Lebensmitteln, das du ohne App nutzen kannst. Das Ziel ist immer Unabhängigkeit, nicht Abhängigkeit von einer App."
+      },
+      {
+        "type": "p",
+        "text": "Iss langsam. Das klingt banal, ist aber eine der wirkungsvollsten Strategien gegen unbewusstes Überessen. Dein Sättigungsgefühl braucht Zeit, um anzukommen. Wer in zehn Minuten isst, was andere in zwanzig essen, nimmt oft mehr auf, als er bräuchte."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Kalorientracking für 2-3 Wochen als Lernphase, nicht als Dauerlösung",
+          "Jede Mahlzeit mit einer Proteinquelle planen",
+          "Langsam essen, Pausen einbauen",
+          "Sättigende Abendmahlzeit vorbereiten statt Abendessen streichen",
+          "2-3 Krafteinheiten pro Woche als festen Bestandteil einplanen"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Kaloriendefizit berechnen ist kein Hexenwerk, aber es braucht einen realistischen Ausgangspunkt und die Bereitschaft, sich selbst ehrlich zu beobachten. Wenn du das Grundprinzip verstanden hast und es an deinen Alltag anpasst, ist nachhaltiges Abnehmen ohne Jojo-Effekt absolut machbar. Du brauchst keinen Diätplan aus dem Internet, du brauchst einen Ansatz, der zu dir passt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du bisher jedes Mal gescheitert bist, dann lass uns miteinander reden. Ich biete ein kostenloses Erstgespräch an, ohne Verkaufsdruck, ohne vorgefertigte Pakete. Einfach eine ehrliche Bestandsaufnahme und ein erster konkreter Schritt für dich."
+      }
+    ]
   }
 ];
 
