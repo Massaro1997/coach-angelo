@@ -9793,6 +9793,153 @@ export const blogPosts: BlogPost[] = [
         "text": "Muskelaufbau und Schlaf gehören untrennbar zusammen. Du kannst das beste Training der Welt haben, aber ohne ausreichend Regeneration läufst du auf der Stelle. Fang heute Nacht an: Handy weg, Zimmer kühlen, feste Schlafzeit setzen. Kleine Änderungen, echter Unterschied. Wenn du wissen willst, wie dein Training und deine Regeneration zusammenpassen und wo genau bei dir der Hebel liegt, dann buch dir ein kostenloses Erstgespräch mit mir unter angelocoach.com. Ich schaue mir deinen Alltag an und sage dir konkret, was du ändern kannst."
       }
     ]
+  },
+  {
+    "slug": "rueckenubungen-im-buro-sitzen-schreibtisch",
+    "title": "Rückenübungen im Büro: 7 Übungen, die du direkt am Schreibtisch machen kannst",
+    "metaTitle": "Rückenübungen im Büro: 7 Übungen am Schreibtisch",
+    "metaDescription": "Rückenschmerzen im Büro? Diese 7 Übungen machst du direkt am Stuhl, kein Platz nötig, keine Ausrüstung. Sofort anwendbar, erklärt von Personal Trainer Angelo.",
+    "date": "2026-06-16",
+    "readMinutes": 4,
+    "excerpt": "Rückenschmerzen nach stundenlangem Sitzen? Diese 7 Übungen funktionieren direkt am Bürostuhl, dauern wenige Minuten und bringen sofortige Erleichterung.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du sitzt seit zwei Stunden am Schreibtisch und spürst schon wieder dieses Ziehen im unteren Rücken. Kein Sportraum in der Nähe, keine Zeit für eine Mittagspause-Yoga-Session. Ich kenne das. Als Personal Trainer in Köln arbeite ich regelmäßig mit Berufstätigen, die ihren Rücken schonen wollen, aber zwischen Meetings kaum Luft bekommen. Diese sieben Übungen funktionieren genau in dieser Situation, direkt am Stuhl, ohne Ausrüstung."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Sitzen deinen Rücken überhaupt so belastet"
+      },
+      {
+        "type": "p",
+        "text": "Langes Sitzen ist kein neutraler Zustand für deinen Körper. Die Hüftbeuger verkürzen sich, die Gesäßmuskulatur schaltet ab und die Wirbelsäule verliert ihre natürliche S-Form, weil du irgendwann nach vorne sackt. Das ist keine Schwäche, das ist schlicht Physik."
+      },
+      {
+        "type": "p",
+        "text": "Das eigentliche Problem ist nicht das Sitzen selbst, sondern das stundenlange Verharren in einer einzigen Position. Deine Muskeln und Faszien brauchen Bewegung, um durchblutet zu bleiben. Wenn du sie nicht bekommst, melden sie sich mit Schmerz. Dieser Schmerz ist ein Signal, kein Zeichen, dass du kaputt bist."
+      },
+      {
+        "type": "p",
+        "text": "Deshalb reicht es schon, alle 45 bis 60 Minuten kurz zu intervenieren. Nicht mit einem kompletten Training, sondern mit gezielten kleinen Bewegungsimpulsen. Genau darum geht es hier."
+      },
+      {
+        "type": "h2",
+        "text": "Schulterrollen und Schulterblatt-Squeeze"
+      },
+      {
+        "type": "p",
+        "text": "Fang mit dem Schulterrollen an. Zieh beide Schultern langsam nach oben in Richtung Ohren, dann nach hinten und lass sie fallen. Zehn Wiederholungen, bewusst und langsam. Du wirst sofort spüren, wie sich die Spannung im oberen Rücken löst."
+      },
+      {
+        "type": "p",
+        "text": "Danach kommt der Schulterblatt-Squeeze. Setz dich aufrecht hin, zieh beide Schulterblätter zusammen, als wolltest du einen Stift zwischen ihnen halten. Halte die Position drei Sekunden. Das aktiviert die Muskeln zwischen deinen Schulterblättern, also genau die Zone, die beim Tippen und Mausen chronisch unterfordert ist."
+      },
+      {
+        "type": "p",
+        "text": "Mach davon zehn bis zwölf Wiederholungen. Diese zwei Übungen zusammen dauern keine drei Minuten und bauen messbar Spannung in der oberen Rückenpartie ab."
+      },
+      {
+        "type": "h2",
+        "text": "Brustwirbelsäulen-Rotation für die mittlere Rückenzone"
+      },
+      {
+        "type": "p",
+        "text": "Sitz aufrecht, Füße flach auf dem Boden, Arme vor der Brust verschränkt. Dann drehst du den Oberkörper langsam nach rechts, hältst kurz inne und drehst zurück. Dasselbe nach links. Die Bewegung kommt aus dem mittleren Rücken, nicht aus den Hüften."
+      },
+      {
+        "type": "p",
+        "text": "Das ist eine der effektivsten Übungen für die Brustwirbelsäule, weil diese Zone bei den meisten Menschen durch langes Sitzen steif wird. Wenn du das erste Mal merkst, dass du kaum noch rotieren kannst, ist das kein schlechtes Zeichen. Es zeigt dir nur, wo du Nachholbedarf hast."
+      },
+      {
+        "type": "p",
+        "text": "Mach acht bis zehn Wiederholungen pro Seite. Wenn du einen Stuhl mit Rückenlehne hast, kannst du dich leicht dagegen lehnen, um mehr Bewegungsumfang zu bekommen. Langsam und kontrolliert ist hier wichtiger als viele Wiederholungen."
+      },
+      {
+        "type": "h2",
+        "text": "Beckenkippen und Hüftkreisen gegen den unteren Rücken"
+      },
+      {
+        "type": "p",
+        "text": "Das Beckenkippen ist so simpel, dass viele Leute nicht daran glauben. Sitz gerade, Hände auf den Oberschenkeln. Kipple das Becken jetzt bewusst nach vorne, sodass ein Hohlkreuz entsteht, dann nach hinten, sodass du einen runden Rücken bekommst. Zwischen diesen beiden Extremen liegt deine neutrale Position."
+      },
+      {
+        "type": "p",
+        "text": "Diese Übung erinnert dein Nervensystem daran, dass du den unteren Rücken aktiv kontrollieren kannst. Das ist wichtiger als viele denken, denn bei Rückenschmerzen verlieren viele Menschen das motorische Gefühl für diese Zone. Zehn langsame Wiederholungen reichen."
+      },
+      {
+        "type": "p",
+        "text": "Danach kleine Kreise mit den Hüften, als würdest du einen imaginären Hula-Hoop-Reifen drehen. Acht Kreise nach rechts, acht nach links. Das mobilisiert das Iliosakralgelenk, also die Verbindung zwischen Becken und Wirbelsäule, die bei Büromenschen oft blockiert ist."
+      },
+      {
+        "type": "h2",
+        "text": "Nackendehnung richtig gemacht"
+      },
+      {
+        "type": "p",
+        "text": "Lass den Kopf langsam zur rechten Schulter sinken. Keine Kraft, kein Drücken, einfach das Gewicht des Kopfes nutzen. Halte 20 bis 30 Sekunden. Du spürst die Dehnung auf der linken Seite des Nackens, oft bis in die Schulter hinein."
+      },
+      {
+        "type": "p",
+        "text": "Dann die andere Seite. Danach neigst du das Kinn leicht zur Brust und schaust ein bisschen nach links und rechts. Das dehnt die hinteren Nackenextensoren, also genau die Muskeln, die beim Starren auf einen Bildschirm ständig unter Spannung stehen."
+      },
+      {
+        "type": "p",
+        "text": "Bitte keine ruckartigen Bewegungen. Der Nacken ist ein sensibler Bereich. Langsam, warm und mit Atemkontrolle. Wenn du dabei starke Schmerzen spürst, die in den Arm ausstrahlen, ist das ein Signal, zum Arzt zu gehen und keine Übungsindikation."
+      },
+      {
+        "type": "h2",
+        "text": "Aufstehen und Hüftstreckung: Die unterschätzte Pause"
+      },
+      {
+        "type": "p",
+        "text": "Steh einmal auf. Wirklich. Das ist keine Übung mit Anleitung, das ist der wichtigste Tipp überhaupt. Steh auf, stell dich gerade hin und strecke dich kurz. Dann mach einen Ausfallschritt nach vorne mit dem rechten Bein, das linke Knie geht langsam zum Boden, du lehnst leicht nach vorne und spürst die Dehnung vorne in der linken Hüfte."
+      },
+      {
+        "type": "p",
+        "text": "Diese Hüftbeuger-Dehnung ist besonders wichtig, weil verkürzte Hüftbeuger direkt zu Schmerzen im unteren Rücken führen. Das ist kein Mythos. Wenn der Muskel vorne an der Hüfte zu kurz ist, zieht er das Becken nach vorne und erzeugt ein Hohlkreuz, das den Lendenwirbeln dauerhaft Stress macht."
+      },
+      {
+        "type": "p",
+        "text": "Halte die Position 20 bis 30 Sekunden pro Seite. Wenn du keinen Platz für einen Ausfallschritt hast, reicht es auch, im Stand das Knie nach hinten zu ziehen und den Fuß hinter dir festzuhalten. Vier Mal am Tag reicht aus, um den Effekt zu spüren."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Schulterrollen: 10 Wiederholungen, langsam nach hinten",
+          "Schulterblatt-Squeeze: 10 x 3 Sekunden halten",
+          "Brustwirbelsäulen-Rotation: 8 x pro Seite",
+          "Beckenkippen: 10 Wiederholungen",
+          "Hüftkreisen: 8 x rechts und links",
+          "Nackendehnung: 20-30 Sekunden pro Seite",
+          "Hüftbeuger-Stretch im Ausfallschritt: 20-30 Sekunden pro Seite"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wie du die Übungen in deinen Arbeitsalltag integrierst"
+      },
+      {
+        "type": "p",
+        "text": "Das größte Problem bei Büroübungen ist nicht das Wissen, es ist das Vergessen. Du liest das hier, nickst und machst heute Nachmittag gar nichts. Das kenne ich. Mein Tipp: Verknüpfe die Übungen mit etwas, das sowieso passiert. Jedes Mal, wenn du vom Klo zurückkommst, machst du zwei Minuten Schulterrollen und Beckenkippen. Fertig."
+      },
+      {
+        "type": "p",
+        "text": "Alternativ funktionieren Kalenderblöcker gut. Setz dir alle 60 Minuten eine Erinnerung für drei Minuten Bewegung. Nicht als Aufgabe, sondern als feste Pause. Drei Minuten Übungen pro Stunde summieren sich auf über 20 Minuten Bewegung an einem Acht-Stunden-Tag."
+      },
+      {
+        "type": "p",
+        "text": "Du musst dafür nicht aufstehen, nicht ins Treppenhaus gehen und dich vor niemandem rechtfertigen. Die meisten dieser Übungen sehen am Schreibtisch aus wie konzentriertes Sitzen. Niemand schaut komisch."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Rückenübungen im Büro müssen nicht spektakulär sein, um zu wirken. Diese sieben Übungen kosten dich täglich weniger als zehn Minuten und du kannst sie alle direkt am Schreibtisch machen, ohne Ausrüstung, ohne Umziehen. Wenn du merkst, dass die Schmerzen trotzdem bleiben oder du einen individuellen Plan brauchst, der zu deinem Alltag passt: Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was bei dir genau sinnvoll ist. Melde dich einfach über angelocoach.com."
+      }
+    ]
   }
 ];
 
