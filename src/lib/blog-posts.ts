@@ -10738,6 +10738,128 @@ export const blogPosts: BlogPost[] = [
         "text": "Rückenschmerzen durch langes Sitzen sind kein Schicksal. Sie sind das Ergebnis von Mustern, die du ändern kannst, mit den richtigen Übungen, der richtigen Frequenz und einem Plan, der zu deinem Alltag passt. Wenn du wissen willst, wo bei dir konkret der Schuh drückt, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich Sinn macht. Kein Verkaufsgespräch, keine Verpflichtung, nur eine ehrliche Einschätzung. Du findest mich unter angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "muskelaufbau-tipps-maenner-anfaenger",
+    "title": "Muskelaufbau für Männer: Die 7 wichtigsten Tipps für Anfänger",
+    "metaTitle": "Muskelaufbau Männer Anfänger: 7 Tipps für Köln",
+    "metaDescription": "Muskelaufbau für männliche Anfänger: 7 konkrete Tipps zu Training, Ernährung und häufigen Fehlern. Dein Einstieg als Personal Trainer aus Köln.",
+    "date": "2026-06-16",
+    "readMinutes": 4,
+    "excerpt": "Du willst als Mann endlich Muskeln aufbauen, weißt aber nicht wo anfangen? Hier bekommst du 7 konkrete Tipps, die wirklich funktionieren.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du gehst seit ein paar Wochen ins Gym, schwitzt ordentlich, und trotzdem passiert optisch kaum etwas. Das kennst du. Ich sehe das bei fast jedem Neueinsteiger, der zu mir kommt. Kein Wunder: Die meisten Anfänger trainieren entweder planlos oder kopieren Profipläne, die für ihren Körper schlicht nicht passen. Dieser Guide zeigt dir, worauf es wirklich ankommt, und zwar ohne Mythen und ohne Zeitverschwendung."
+      },
+      {
+        "type": "h2",
+        "text": "Warum die ersten Wochen über alles entscheiden"
+      },
+      {
+        "type": "p",
+        "text": "Dein Körper reagiert als Anfänger besonders stark auf neue Trainingsreize. Das ist kein Marketingspruch, das ist schlicht Biologie: Wer vorher wenig oder gar nicht trainiert hat, braucht keine komplexen Periodisierungsmodelle. Ein einfacher, konsequent durchgezogener Plan bringt in den ersten Monaten mehr als jedes Supplement-Regal."
+      },
+      {
+        "type": "p",
+        "text": "Das Problem ist, dass viele Männer direkt mit einem Splitprogramm anfangen, weil sie es von Bodybuildern übernehmen. Montag Brust, Dienstag Rücken, und so weiter. Das funktioniert. Nur nicht für dich, nicht jetzt. Als Anfänger brauchst du Frequenz: Jede Muskelgruppe öfter belasten, nicht einmal pro Woche. Behalte das im Hinterkopf, wenn du deinen Plan aufstellst."
+      },
+      {
+        "type": "h2",
+        "text": "Der häufigste Fehler, den Anfänger machen"
+      },
+      {
+        "type": "p",
+        "text": "Zu viel zu früh. Ich sehe es jede Woche in Kölner Gyms: Männer, die in der ersten Woche fünfmal trainieren, nach drei Wochen frustiert aufhören, weil Muskelkater und Motivationstief zusammenfallen. Dein Körper braucht Zeit, sich anzupassen. Drei gut geplante Einheiten pro Woche sind am Anfang mehr als genug."
+      },
+      {
+        "type": "p",
+        "text": "Ein zweiter Klassiker: die Technik ignorieren. Lieber 60 Kilo mit sauberer Ausführung als 100 Kilo mit krummem Rücken. Verletzungen beim Bankdrücken oder Kreuzheben passieren fast immer wegen schlechter Form, nicht wegen zu viel Gewicht. Investiere deine ersten Wochen in die Grundbewegungen. Der Rest kommt von selbst."
+      },
+      {
+        "type": "h2",
+        "text": "Diese Übungen brauchst du wirklich"
+      },
+      {
+        "type": "p",
+        "text": "Vergiss Isolationsübungen am Anfang. Du brauchst Grundübungen, die viele Muskeln gleichzeitig ansprechen. Kniebeugen, Kreuzheben, Bankdrücken, Rudern und Klimmzüge bauen mehr Gesamtmasse auf als jede Bizeps-Curl-Variation. Das ist keine Meinung, das ist Trainingspraxis."
+      },
+      {
+        "type": "p",
+        "text": "Konkret: Starte mit einem Dreier-Split aus diesen Bewegungen, je drei bis vier Sätze, acht bis zwölf Wiederholungen. Steigere das Gewicht schrittweise, sobald du alle Wiederholungen sauber schaffst. Keine Eile. Wer wöchentlich auch nur zwei Kilo mehr hebt, ist nach einem Jahr an einem Ort, den er sich heute kaum vorstellen kann."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Kniebeugen (Squat)",
+          "Kreuzheben (Deadlift)",
+          "Bankdrücken (Bench Press)",
+          "Vorgebeugtes Rudern",
+          "Klimmzüge oder Latzug",
+          "Schulterdrücken (Overhead Press)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung: So viel Protein brauchst du wirklich"
+      },
+      {
+        "type": "p",
+        "text": "Ohne ausreichend Protein baust du keine Muskeln, egal wie hart du trainierst. Die Faustregel lautet: etwa 1,6 bis 2 Gramm Protein pro Kilogramm Körpergewicht pro Tag. Bei 80 Kilo Körpergewicht sind das zwischen 128 und 160 Gramm täglich. Klingt viel, ist aber mit etwas Planung problemlos erreichbar."
+      },
+      {
+        "type": "p",
+        "text": "Gute Quellen im Alltag: Hähnchenbrust, Magerquark, Eier, Hüttenkäse, Linsen, Kichererbsen. Du musst nicht jeden Abend Hähnchen essen, aber du musst bewusster einkaufen als bisher. Ein Proteinshake kann helfen, wenn du merkst, dass du an manchen Tagen zu wenig Protein bekommst. Er ersetzt aber keine vollwertige Mahlzeit."
+      },
+      {
+        "type": "p",
+        "text": "Vergiss Kalorienzählen am Anfang nicht komplett, aber mach es pragmatisch: Schau, ob du nach dem Training hungrig bist und esse dann etwas Eiweißreiches. Wer morgens nach dem Aufstehen und abends vor dem Schlafen je eine Portion Protein einplant, ist schon deutlich besser aufgestellt als der Durchschnitt."
+      },
+      {
+        "type": "h2",
+        "text": "Schlaf und Regeneration: Der unterschätzte Faktor"
+      },
+      {
+        "type": "p",
+        "text": "Muskeln wachsen nicht im Gym. Sie wachsen nachts, während du schläfst. Das klingt banal, wird aber von fast jedem Anfänger stiefmütterlich behandelt. Wer chronisch unter sieben Stunden schläft, hemmt seine eigene Erholung und damit seinen Fortschritt, egal wie gut sein Trainingsplan ist."
+      },
+      {
+        "type": "p",
+        "text": "Ich sage meinen Klienten in Köln immer: Wenn du zwischen Training und Schlaf priorisieren müsstest, wähle den Schlaf. Eine Einheit weniger pro Woche kostet dich kaum etwas. Eine Woche Schlafmangel kostet dich Leistung, Stimmung und Ergebnisse. Baue aktive Erholung ein: Spaziergänge, leichtes Dehnen, ein ruhiger Abend ohne Bildschirm direkt vor dem Einschlafen."
+      },
+      {
+        "type": "h2",
+        "text": "Fortschritt messen, ohne dich zu verrückt zu machen"
+      },
+      {
+        "type": "p",
+        "text": "Nicht die Waage, nicht der Spiegel. Zumindest nicht allein. Der zuverlässigste Indikator für Muskelaufbau als Anfänger ist deine Leistungsentwicklung im Training: Hebst du mehr als letzten Monat? Schaffst du mehr Wiederholungen mit demselben Gewicht? Dann läuft es. Dieser sogenannte progressive Overload ist der Motor hinter jedem Muskelaufbau."
+      },
+      {
+        "type": "p",
+        "text": "Führe ein einfaches Trainstagebuch. Es muss kein teures App-Abo sein, eine Notiz im Handy reicht. Notiere Übung, Gewicht und Wiederholungen. Nach vier Wochen siehst du schwarz auf weiß, ob du Fortschritte machst. Das motiviert mehr als jedes Vorher-Nachher-Foto in den ersten Wochen."
+      },
+      {
+        "type": "h2",
+        "text": "Supplements: Was du brauchst und was Geldverschwendung ist"
+      },
+      {
+        "type": "p",
+        "text": "Creatin Monohydrat ist das einzige Supplement mit wirklich solider Datenbasis für Kraftsportler. Es ist günstig, sicher und hilft, mehr Leistung im Training abzurufen. Das war es fast schon. Alles andere, ob Pre-Workout-Booster, BCAAs oder teure Fatburner, ist für Anfänger komplett nachrangig."
+      },
+      {
+        "type": "p",
+        "text": "Bevor du Geld für Supplements ausgibst, frag dich ehrlich: Ist mein Schlaf gut? Esse ich genug Protein? Trainiere ich mindestens dreimal pro Woche? Wenn auch nur eine Antwort Nein ist, leg dein Geld lieber in bessere Lebensmittel oder eine Trainingsbegleitung. Supplements ergänzen einen funktionierenden Plan. Sie retten keinen kaputten."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Muskelaufbau als Anfänger ist kein Geheimnis. Es geht um Konsequenz bei wenigen, klar definierten Dingen: Grundübungen mit sauberer Technik, ausreichend Protein, genug Schlaf und ein Trainingsplan, der zu deinem Alltag passt. Kein Wirrwarr, kein Overloading, kein blinder Aktionismus. Wenn du dir nicht sicher bist, wo du anfangen sollst, oder einfach wissen willst, ob dein bisheriger Ansatz Sinn macht, dann komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, einfach ein ehrlicher Blick auf deine Situation. Meld dich gerne über angelocoach.com."
+      }
+    ]
   }
 ];
 
