@@ -10221,6 +10221,141 @@ export const blogPosts: BlogPost[] = [
         "text": "Wenn du merkst, dass du alleine nicht weiterkommst, oder wenn du einfach wissen willst, wo du gerade stehst und wie ich dir gezielt helfen kann, dann meld dich für ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck. Nur ein ehrliches Gespräch darüber, was für dich wirklich funktioniert. Du erreichst mich direkt über angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "intervallfasten-plan-anfaenger-koeln",
+    "title": "Intervallfasten für Anfänger: Der einfache Einstiegsplan für Berufstätige in Köln",
+    "metaTitle": "Intervallfasten Plan für Anfänger: Einstieg 2024",
+    "metaDescription": "Intervallfasten Plan für Anfänger mit wenig Zeit: konkreter Wochenplan, typische Fehler vermeiden und alltagstaugliche Tipps vom Personal Trainer in Köln.",
+    "date": "2026-06-16",
+    "readMinutes": 4,
+    "excerpt": "Intervallfasten klingt kompliziert, ist es aber nicht. Hier bekommst du einen konkreten Wochenplan, der wirklich in den Berufsalltag passt, ohne dass du dein Leben umkrempeln musst.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du arbeitest viel, isst zwischendurch was du kriegst, und abends fragst du dich, warum die Waage sich nicht bewegt. Das kenne ich aus Hunderten Erstgesprächen hier in Köln. Intervallfasten ist kein Wundermittel, aber es ist eine der wenigen Methoden, die sich ohne großen Aufwand in einen vollen Terminkalender integrieren lässt. Dieser Plan zeigt dir, wie du konkret anfängst."
+      },
+      {
+        "type": "h2",
+        "text": "Was Intervallfasten wirklich bedeutet und warum es für Anfänger funktioniert"
+      },
+      {
+        "type": "p",
+        "text": "Intervallfasten bedeutet: du isst nicht weniger, sondern in einem kürzeren Zeitfenster. Das klingt simpel, weil es simpel ist. Die bekannteste Variante für Anfänger ist die 16:8-Methode, bei der du 16 Stunden fastest und innerhalb von 8 Stunden deine Mahlzeiten zu dir nimmst. Kein Kalorienzählen, keine verbotenen Lebensmittel, kein Meal-Prep-Marathon am Sonntag."
+      },
+      {
+        "type": "p",
+        "text": "Der eigentliche Vorteil für Berufstätige: du streichst eine Mahlzeit, meistens das frühe Frühstück, und sparst dir damit die morgendliche Küchenhektik vor der Arbeit. Dein Körper gewöhnt sich nach einer Anlaufzeit von ein bis zwei Wochen daran. Die ersten Tage können etwas ungewohnt sein, das ist normal und kein Grund zum Aufhören."
+      },
+      {
+        "type": "h2",
+        "text": "Der konkrete Wochenplan für den Einstieg"
+      },
+      {
+        "type": "p",
+        "text": "Woche eins ist reine Gewöhnung. Du verschiebst dein Frühstück täglich um 30 Minuten nach hinten. Wenn du normalerweise um 7 Uhr isst, frühstückst du am Montag um 7:30 Uhr, am Mittwoch um 8 Uhr, am Freitag um 8:30 Uhr. Kaffee oder Tee ohne Milch und Zucker sind im Fastenfenster erlaubt. Wasser sowieso."
+      },
+      {
+        "type": "p",
+        "text": "Ab Woche zwei strebst du ein Essfenster von 12 bis 20 Uhr an. Das passt gut zu einem typischen Arbeitstag in Köln: du isst mittags mit Kollegen und abends zuhause, ohne abends um 22 Uhr noch snacken zu müssen. Wer früher ins Bett geht, kann das Fenster auf 11 bis 19 Uhr verschieben. Das ist kein Problem."
+      },
+      {
+        "type": "p",
+        "text": "Ab Woche drei machst du das erste Mal die vollen 16 Stunden. Ersten Kaffee um 7 Uhr, erste Mahlzeit um 12 Uhr, letzte Mahlzeit spätestens um 20 Uhr. Das war es. Keine Komplikationen, keine App notwendig, kein Premium-Abo für irgendetwas."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Woche 1: Frühstück täglich 30 Minuten nach hinten verschieben",
+          "Woche 2: Essfenster 12 bis 20 Uhr etablieren",
+          "Woche 3: Erstmals 16 Stunden Fastenfenster durchhalten",
+          "Woche 4: Routine festigen, Essfenster nach Bedarf anpassen",
+          "Optional: An 1 bis 2 Tagen die Woche auf 18:6 steigern"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Was du im Essfenster essen solltest"
+      },
+      {
+        "type": "p",
+        "text": "Intervallfasten funktioniert nur, wenn du im Essfenster nicht alles nachholst, was du im Fastenfenster nicht gegessen hast. Das klingt offensichtlich, passiert aber regelmäßig. Wenn du um 12 Uhr mit einem Döner anfängst, zwei Stunden später eine Tafel Schokolade isst und abends nochmal groß angreifst, wirst du keine Veränderung sehen."
+      },
+      {
+        "type": "p",
+        "text": "Mein Rat: Setz auf sättigende Mahlzeiten mit ausreichend Protein, also Fleisch, Fisch, Hülsenfrüchte, Eier, und kombiniere sie mit Gemüse und guten Kohlenhydraten. Nicht weil das eine heilige Regel ist, sondern weil du damit länger satt bleibst und das Fastenintervall deutlich leichter fällt. Hunger im Fastenfenster ist meistens die Folge von schlechten Mahlzeiten davor."
+      },
+      {
+        "type": "p",
+        "text": "Snacks zwischen den Mahlzeiten sind im Essfenster erlaubt, aber ehrlich gesagt: wenn du zwei ordentliche Mahlzeiten isst, brauchst du sie oft nicht. Weniger Mahlzeiten bedeuten weniger Entscheidungen. Das ist einer der unterschätzten Vorteile dieser Methode."
+      },
+      {
+        "type": "h2",
+        "text": "Die häufigsten Anfängerfehler und wie du sie vermeidest"
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer eins: zu viel zu schnell. Wer am ersten Tag direkt 20 Stunden fastet, bricht nach drei Tagen ab. Der Einstieg über zwei bis drei Wochen, so wie ich ihn oben beschrieben habe, ist kein Zeichen von Schwäche, sondern von Vernunft. Dein Körper braucht Anpassungszeit, das gilt für jedes Training genauso."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer zwei: zu wenig trinken. Viele verwechseln Hunger mit Durst, besonders im Fastenfenster. Zwei bis drei Liter Wasser oder ungesüßter Tee pro Tag sind keine Empfehlung aus einem Ratgeber, sondern praktische Erfahrung aus meiner Arbeit als Personal Trainer. Wer ausreichend trinkt, hat deutlich weniger Probleme mit Kopfschmerzen und Konzentrationsabfall."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer drei: das Essfenster am Wochenende komplett ignorieren. Ein Samstagabend mit Freunden in der Kölner Südstadt, bei dem du bis 1 Uhr nachts isst und trinkst, ist kein Weltuntergang. Aber wenn jedes Wochenende das Fastenprinzip kippt, bremst du deinen eigenen Fortschritt. Eine Faustregel: an fünf von sieben Tagen konsequent, an zwei Tagen flexibel."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Nicht mit 20 Stunden Fasten starten, langsam steigern",
+          "Mindestens 2 Liter Wasser täglich trinken",
+          "Kaffee und Tee ohne Zusätze sind im Fastenfenster erlaubt",
+          "Essfenster am Wochenende nicht komplett aufgeben",
+          "Zwischen den Mahlzeiten nichts essen, auch keine Kleinigkeiten"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Intervallfasten und Sport: Was passt für Berufstätige"
+      },
+      {
+        "type": "p",
+        "text": "Hier kommt eine Frage, die ich in Köln fast täglich höre: Kann ich im Fastenfenster trainieren? Die kurze Antwort lautet ja, mit Einschränkungen. Leichtes Ausdauertraining, ein Spaziergang oder lockeres Radfahren im Fastenzustand ist für die meisten Menschen kein Problem. Intensives Krafttraining oder hohe Belastungen sind eine andere Sache."
+      },
+      {
+        "type": "p",
+        "text": "Meine Empfehlung für Anfänger: Trainiere in den ersten zwei Wochen kurz vor deiner ersten Mahlzeit. So hast du die Trainingsbelastung im Fastenfenster, isst danach aber direkt und gibst deinem Körper, was er braucht. Wer nachmittags trainiert, was für viele Berufstätige realistischer ist, kann das genauso gut in die Mitte des Essfensters legen."
+      },
+      {
+        "type": "p",
+        "text": "Intervallfasten und gezieltes Krafttraining ergänzen sich gut, wenn du beides richtig planst. Das eine ersetzt das andere nicht. Wer abnehmen und gleichzeitig Muskelmasse erhalten will, kommt an einem strukturierten Trainingsplan nicht vorbei."
+      },
+      {
+        "type": "h2",
+        "text": "Typische Fragen aus dem Kölner Alltag"
+      },
+      {
+        "type": "p",
+        "text": "Was ist mit dem Mittagessen in der Kantine? Kein Problem. Wenn dein Essfenster um 12 Uhr beginnt, isst du normal mit. Wenn du erst um 13 Uhr anfängst, nimmst du dir etwas mit oder isst es einfach eine Stunde später. Niemand zwingt dich, um Punkt zwölf in der Schlange zu stehen."
+      },
+      {
+        "type": "p",
+        "text": "Was ist mit Abendessen bei Freunden oder Familientreffen? Hier gilt das gleiche Prinzip wie beim Wochenende. Ausnahmen sind menschlich. Ein Abend, an dem du das Essfenster um zwei Stunden verlängerst, macht deinen gesamten Fortschritt nicht kaputt. Stress wegen Ausnahmen erzeugt mehr Schaden als die Ausnahme selbst."
+      },
+      {
+        "type": "p",
+        "text": "Brauche ich eine App? Ich sage nein. Eine Uhr reicht. Du weißt, wann du das letzte Mal gegessen hast, und zählst 16 Stunden. Wer das mit einer App tracken will, kann das tun, aber es ist kein Muss. Manchmal ist einfacher einfach besser."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Intervallfasten ist kein Sprint und kein Selbstversuch im stillen Kämmerlein, der besonders gut funktionieren muss. Es ist eine Methode, die dann greift, wenn sie zu deinem Leben passt und nicht gegen es kämpft. Wenn du unsicher bist, wie du den Plan auf deinen Alltag, deine Arbeitszeiten oder dein Training anpassen kannst, rede einfach mit mir. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret sinnvoll ist. Kein Verkaufsgespräch, kein Druck, einfach ein ehrlicher Austausch. Schreib mir gerne über angelocoach.com."
+      }
+    ]
   }
 ];
 
