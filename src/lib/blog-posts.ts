@@ -11812,6 +11812,120 @@ export const blogPosts: BlogPost[] = [
         "text": "Du möchtest wissen, was für deinen spezifischen Alltag, dein Ziel und deinen Körper wirklich Sinn ergibt? Dann lass uns das gemeinsam anschauen. Ich biete ein kostenloses Erstgespräch an, in dem wir ohne Verkaufsdruck schauen, wo du gerade stehst und was du wirklich brauchst. Keine Standardrezepte, keine Supplement-Empfehlungen auf Verdacht. Nur ein ehrliches Gespräch. Schreib mir einfach über angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "rueckenubungen-morgens-aufwachen",
+    "title": "Rückenübungen morgens nach dem Aufwachen: 5 Minuten gegen Verspannungen vor dem Bürotag",
+    "metaTitle": "5 Min Rückenübungen nach dem Aufwachen | AngeloCoach",
+    "metaDescription": "Rückenübungen morgens nach dem Aufwachen: einfache Routine im Bett oder auf der Matte gegen Verspannungen vor dem Bürotag. Konkrete Tipps von Personal Trainer Angelo.",
+    "date": "2026-06-17",
+    "readMinutes": 4,
+    "excerpt": "Morgens steif aufwachen und direkt ins Büro? Mit diesen einfachen Rückenübungen aktivierst du deinen Rücken in 5 Minuten, noch bevor der erste Kaffee fertig ist.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du kennst das: Wecker klingelt, du richtest dich auf und dein Rücken meldet sich sofort. Steif, schwer, manchmal mit einem dumpfen Ziehen. Bevor du dann acht Stunden auf dem Bürostuhl sitzt, macht es einen riesigen Unterschied, ob du deinen Rücken vorher kurz aktivierst oder nicht. Diese Morgenroutine ist für genau dich gemacht, kein Fitnessstudio, keine Ausrede."
+      },
+      {
+        "type": "h2",
+        "text": "Warum morgens der richtige Moment für Rückenübungen ist"
+      },
+      {
+        "type": "p",
+        "text": "Während du schläfst, liegt deine Wirbelsäule stundenlang in einer relativ statischen Position. Bandscheiben nehmen Flüssigkeit auf, Muskeln entspannen sich vollständig. Das klingt gut, ist es auch, aber der Übergang von dieser tiefen Ruhe zum aufrechten Gehen braucht einen kurzen Moment der Vorbereitung. Wer das überspringt und direkt auf den Küchenstuhl sinkt oder sich ins Auto setzt, gibt seinem Rücken keinen guten Start."
+      },
+      {
+        "type": "p",
+        "text": "Hinzu kommt: Wer im Büro arbeitet, wird seinen Rücken den ganzen Tag wenig bewegen. Kurze Rückenübungen morgens nach dem Aufwachen sind deshalb nicht nur Wellness, sie sind schlicht sinnvoll. Fünf Minuten jetzt können dir den Unterschied machen zwischen einem Tag mit Ziehen im unteren Rücken und einem Tag, an dem du das Thema kaum denkst."
+      },
+      {
+        "type": "h2",
+        "text": "Noch im Bett: Drei Bewegungen zum Starten"
+      },
+      {
+        "type": "p",
+        "text": "Bevor du überhaupt aufstehst, kannst du im Bett schon etwas tun. Leg dich auf den Rücken, zieh beide Knie zur Brust und halte sie mit den Händen. Bleib so zehn bis zwanzig Sekunden, atme ruhig. Danach lässt du die Knie langsam nach rechts fallen, beide zusammen, Schultern bleiben auf der Matratze, und wartest wieder kurz. Dann die andere Seite. Das nennt sich lumbale Rotation und ist wahrscheinlich die sanfteste Art, den unteren Rücken morgens zu wecken."
+      },
+      {
+        "type": "p",
+        "text": "Danach: Füße flach auf die Matratze stellen, Knie gebeugt, und den unteren Rücken langsam in die Matratze drücken und wieder lösen. Das ist die sogenannte Beckenkippung. Sie klingt unspektakulär und ist es vom Aussehen her auch, aber sie aktiviert die tiefen Rumpfmuskeln, ohne dass du dafür irgendetwas können musst. Zehn Wiederholungen, langsam, mit Atemkontrolle."
+      },
+      {
+        "type": "h2",
+        "text": "Auf die Matte: Die Übungen, die wirklich etwas bringen"
+      },
+      {
+        "type": "p",
+        "text": "Wenn du aufgestanden bist, hol dir eine Yogamatte oder stell dich einfach auf den Teppich. Die erste Übung: Cat-Cow, also Katze und Kuh. Im Vierfüßlerstand den Rücken abwechselnd rund machen und hohlkreuzen, je zehn Mal, langsam und bewusst. Diese Übung mobilisiert die gesamte Wirbelsäule von oben bis unten. Klingt simpel? Ist es. Und sie funktioniert trotzdem, oder gerade deswegen."
+      },
+      {
+        "type": "p",
+        "text": "Danach kommt das Kind, also Child's Pose. Setz dich auf die Fersen, strecke die Arme nach vorne, Stirn auf der Matte. Hier bleibst du eine Minute. Nicht zählen, nicht hetzen. Einfach atmen und zulassen, dass sich die Lendenwirbelsäule öffnet. Viele meiner Kunden in Köln sagen mir, dass das allein schon den Morgen verändert, vor allem nach durchwachten Nächten oder langen Arbeitstagen davor."
+      },
+      {
+        "type": "p",
+        "text": "Als letzte Übung: im Stehen. Füße hüftbreit, Knie leicht gebeugt. Dann langsam nach vorne rollen, Wirbel für Wirbel, Kinn zur Brust, Schultern folgen, bis du mit den Fingern so weit nach unten kommst, wie es geht. Kein Zwang, keine Schmerzen. Zehn Sekunden halten, dann genauso langsam wieder aufrichten. Das streckt die gesamte Rückseite und gibt dir gleichzeitig ein klares Körpergefühl für den Tag."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Knie zur Brust im Bett: 20 Sekunden",
+          "Lumbale Rotation: je 20 Sekunden pro Seite",
+          "Beckenkippung: 10 Wiederholungen",
+          "Cat-Cow im Vierfüßlerstand: 10 Wiederholungen",
+          "Child's Pose: 1 Minute",
+          "Vorwärtsbeuge im Stehen: 10 Sekunden halten"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Was du dabei falsch machen kannst und wie du es vermeidest"
+      },
+      {
+        "type": "p",
+        "text": "Der häufigste Fehler: zu schnell, zu viel Ehrgeiz. Morgens ist der Körper noch nicht auf Betriebstemperatur. Wer die Vorwärtsbeuge mit einem Ruck macht oder beim Cat-Cow zu aggressiv ins Hohlkreuz geht, riskiert mehr als er gewinnt. Langsamkeit ist hier kein Zeichen von Schwäche, es ist die richtige Dosierung."
+      },
+      {
+        "type": "p",
+        "text": "Zweiter Punkt, der oft vergessen wird: Atmung. Klingt nach Yoga-Klischee, ich weiß. Aber wenn du die Atemzüge mit den Bewegungen verbindest, nimmst du deutlich mehr wahr und vermeidest unbewusste Anspannungen. Einfache Regel: Einatmen beim Öffnen der Bewegung, ausatmen beim Zusammenfalten. Das wars. Kein kompliziertes Atemsystem nötig."
+      },
+      {
+        "type": "h2",
+        "text": "Wie du die Routine wirklich durchhältst"
+      },
+      {
+        "type": "p",
+        "text": "Fünf Minuten klingen nach nichts. Aber wenn der Wecker klingelt, ist selbst das manchmal zu viel. Was hilft: die Matte abends ausrollen und neben das Bett legen. Das klingt banal, reduziert aber die mentale Hürde am Morgen erheblich. Du siehst sie, du liegst drauf, du machst es. Kein Nachdenken mehr nötig."
+      },
+      {
+        "type": "p",
+        "text": "Verknüpf die Routine mit etwas, das du sowieso machst. Kaffee kochen dauert vier bis fünf Minuten. Während die Maschine läuft, bist du auf der Matte. Fertig. Diese Art von Gewohnheitsverknüpfung funktioniert besser als jede Willenskraft, weil sie keinen extra Entschluss braucht. Du hängst die neue Gewohnheit einfach an eine alte."
+      },
+      {
+        "type": "p",
+        "text": "Setz dir außerdem keine perfekte Streak als Ziel. Wenn du donnerstags müde bist und es weglässt, ist das kein Versagen. Morgen wieder anfangen, fertig. Ich sage das meinen Kunden immer: Konsistenz über Perfektion. Wer fünf Mal die Woche fünf Minuten macht, hat nach einem Monat mehr gewonnen als jemand, der einmal eine Stunde trainiert und dann drei Wochen nichts tut."
+      },
+      {
+        "type": "h2",
+        "text": "Wann du mehr brauchst als eine Morgenroutine"
+      },
+      {
+        "type": "p",
+        "text": "Diese Übungen sind ein guter Start. Aber wenn du morgens aufwachst und der Rücken wirklich schmerzt, wenn du nachts schlecht schläfst wegen der Verspannungen, wenn die Steifigkeit auch nach einer Stunde nicht nachlässt, dann reicht eine Fünf-Minuten-Routine allein nicht. Das sage ich dir direkt, weil es die Wahrheit ist."
+      },
+      {
+        "type": "p",
+        "text": "In solchen Fällen geht es meistens um mehr: um Haltung, um Kräftigung der richtigen Muskelgruppen, manchmal um schlechte Sitzgewohnheiten, die sich über Jahre aufgebaut haben. Das ist nichts, wofür du dich schämen müsstest, fast alle Büroarbeitenden in Köln, die zu mir kommen, haben irgendeine Version davon. Aber es braucht dann einen gezielteren Ansatz als eine allgemeine Routine aus dem Internet."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach 20 Minuten, in denen wir schauen, was dir wirklich helfen kann. Du findest das Formular direkt auf angelocoach.com."
+      }
+    ]
   }
 ];
 
