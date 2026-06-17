@@ -12996,6 +12996,134 @@ export const blogPosts: BlogPost[] = [
         "text": "Die ersten Wochen im Training sind kein Sprint, sie sind das Fundament. Alles, was du jetzt aufbaust, trägt dich später. Mikro-Gewohnheiten, konkrete Ziele, ein fester Termin im Kalender: Das sind keine Tricks, das ist echte Strategie. Wenn du merkst, dass du Unterstützung brauchst, jemanden der mit dir plant, der erklärt und motiviert, dann melde dich gerne. Ich biete ein kostenloses Erstgespräch an, ohne Verkaufsdruck, einfach um zu schauen, was für dich wirklich passt. Den Link findest du auf angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "schreibtischtaeter-training-plan",
+    "title": "Trainingsplan für Schreibtischtäter: So bleibst du fit trotz 8 Stunden sitzen",
+    "metaTitle": "Trainingsplan für Schreibtischtäter: fit trotz Bürojob",
+    "metaDescription": "Konkreter Wochenplan für Menschen mit Bürojob in Köln. Wenig Zeit, große Wirkung: So trainierst du gegen Rückenschmerzen und Verspannungen.",
+    "date": "2026-06-17",
+    "readMinutes": 4,
+    "excerpt": "Bürojob, wenig Zeit, Rücken zieht schon wieder? Dieser konkrete Wochenplan zeigt dir, wie du als Schreibtischtäter gezielt trainierst und schmerzfreier lebst.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du sitzt acht Stunden am Schreibtisch, der Nacken zieht, die Hüfte ist steif und zum Sport fehlt einfach die Energie. Das kenne ich. Fast jeder meiner Klientinnen und Klienten hier in Köln kommt mit genau dieser Geschichte zu mir. Die gute Nachricht: Du brauchst keinen Zwei-Stunden-Plan. Du brauchst einen, der wirklich zu deinem Alltag passt."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Schreibtischtäter anders trainieren müssen"
+      },
+      {
+        "type": "p",
+        "text": "Wer täglich viele Stunden sitzt, entwickelt typische Muster: verkürzte Hüftbeuger, schwache Gesäßmuskulatur, eine nach vorne gezogene Schulterpartie und ein Nacken, der ständig unter Spannung steht. Das ist kein Schicksal, aber es bedeutet, dass du nicht einfach irgendeinen Trainingsplan aus dem Internet nehmen kannst. Ein Plan, der für jemanden mit körperlich aktivem Job funktioniert, trifft bei dir oft die falschen Schwerpunkte."
+      },
+      {
+        "type": "p",
+        "text": "Konkret heißt das: Bevor du an Kraft oder Ausdauer denkst, musst du zuerst die Beweglichkeit in den Bereichen zurückgewinnen, die durch langes Sitzen einschränken. Hüfte, Brustwirbelsäule und Schultern stehen ganz oben auf der Liste. Erst wenn diese Strukturen wieder frei bewegen können, macht intensiveres Training Sinn, weil du dann saubere Bewegungsmuster entwickelst, statt einfach nur Schmerzen zu kompensieren."
+      },
+      {
+        "type": "h2",
+        "text": "Die Grundstruktur deines Wochenplans"
+      },
+      {
+        "type": "p",
+        "text": "Ich empfehle meinen Klientinnen und Klienten eine Wochenstruktur, die auf drei Säulen steht: tägliche Mini-Mobilisation am Morgen, zwei bis drei Krafteinheiten pro Woche und kurze Bewegungspausen während des Arbeitstags. Klingt nach viel? Ist es nicht. Die Morgenroutine dauert zehn Minuten, die Krafteinheiten gehen realistisch in 45 bis 60 Minuten durch, und die Pausen kosten dich fünf Minuten alle anderthalb Stunden."
+      },
+      {
+        "type": "p",
+        "text": "Der entscheidende Punkt ist Regelmäßigkeit, nicht Intensität. Drei moderate Einheiten pro Woche, die du wirklich durchziehst, bringen mehr als ein ambitionierter Plan, den du nach zwei Wochen abbrichst. Ich sage das nicht, um die Messlatte niedrig zu hängen, sondern weil ich das Muster hundertfach gesehen habe. Fang klein an, baue dann auf."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Montag: Krafttraining Unterkörper + Rumpf (45 Min.)",
+          "Dienstag: 10 Min. Mobilisation Morgen + Büropausen",
+          "Mittwoch: Krafttraining Oberkörper + Zugbewegungen (45 Min.)",
+          "Donnerstag: 10 Min. Mobilisation + leichtes Gehen oder Radfahren",
+          "Freitag: Vollkörper-Einheit oder aktive Erholung (Spaziergang, Schwimmen)",
+          "Wochenende: Bewegung, die Spaß macht, kein Pflichtprogramm"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Die 10-Minuten-Morgenroutine gegen Steifigkeit"
+      },
+      {
+        "type": "p",
+        "text": "Direkt nach dem Aufstehen, bevor der erste Kaffee fertig ist, legst du zehn Minuten für Mobilisation ein. Kein aufwendiges Stretching, keine komplizierte Yoga-Sequenz. Es geht darum, die Gelenke sanft durch ihre natürlichen Bewegungsrichtungen zu führen und den Körper auf den Tag vorzubereiten. Konkret: Hüftkreisen im Stand, Cat-Cow auf dem Boden, Brustöffnung im Liegen und Schultermobilisation mit einem Theraband oder einfach mit den Armen."
+      },
+      {
+        "type": "p",
+        "text": "Diese Routine verändert, wie du den Rest des Tages sitzt. Das ist keine Übertreibung. Wenn deine Hüfte morgens ein bisschen mehr Beweglichkeit hat, sitzt du automatisch weniger zusammengekauert. Du wirst das nach zwei Wochen selbst merken. Mach es zur festen Gewohnheit, genauso wie Zähneputzen, ohne Wenn und Aber."
+      },
+      {
+        "type": "h2",
+        "text": "Krafttraining für Schreibtischtäter: Worauf es wirklich ankommt"
+      },
+      {
+        "type": "p",
+        "text": "Im Krafttraining lege ich bei Schreibtischtätern einen klaren Schwerpunkt auf Zugbewegungen und Gesäßaktivierung. Rudern in allen Variationen, Klimmzüge oder Lat-Ziehen, Hip Hinges wie Deadlifts oder Kettlebell-Schwingen, dazu Gesäßbrücken und Bulgarian Split Squats. Diese Übungen adressieren genau die Muskeln, die durch langes Sitzen schwach und inaktiv werden, und sie bauen gleichzeitig eine stabile Körpermitte auf."
+      },
+      {
+        "type": "p",
+        "text": "Drückende Bewegungen wie Bankdrücken oder Schulterdrücken sind nicht verboten, aber sie sollten in einer guten Balance zu den Zugbewegungen stehen. Ein Verhältnis von zwei Zugeinheiten zu einer Drückeinheit ist ein vernünftiger Richtwert für jemanden mit Bürojob und bereits vorhandener Schultervorneigung. Wenn du noch nie strukturiert trainiert hast, empfehle ich, mit dem Körpergewicht anzufangen und erst dann mit externem Gewicht zu arbeiten."
+      },
+      {
+        "type": "h2",
+        "text": "Bewegungspausen im Büro: Konkret und ohne Peinlichkeit"
+      },
+      {
+        "type": "p",
+        "text": "Ich weiß, dass die meisten Menschen keine Liegestütze im Großraumbüro machen wollen. Das musst du auch nicht. Effektive Büropausen sehen einfacher aus: Alle anderthalb Stunden aufstehen, kurz umhergehen, ein paar tiefe Kniebeugen im Gang zur Toilette, Schulterkrollen am Schreibtisch, stehend telefonieren. Es geht darum, die lange statische Belastung zu unterbrechen, nicht darum, ein Mini-Workout einzubauen."
+      },
+      {
+        "type": "p",
+        "text": "Ein einfacher Trick, den viele meiner Klientinnen und Klienten nutzen: Trinkflasche auf dem Schreibtisch. Wenn sie leer ist, muss man aufstehen, um sie zu befüllen. Das klingt banal, erzeugt aber tatsächlich regelmäßige Bewegungsimpulse über den Tag. Kombiniere das mit einem Handy-Alarm alle 90 Minuten, und du hast eine Routine, die null Aufwand kostet und langfristig einen echten Unterschied macht."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler, die ich immer wieder sehe"
+      },
+      {
+        "type": "p",
+        "text": "Der größte Fehler: Wochenende-Warrior-Mentalität. Also fünf Tage komplett still sitzen und dann samstags zwei Stunden Sport machen, um alles aufzuholen. Das funktioniert nicht, und dein Körper reagiert mit Muskelkater und Überlastungsschmerzen, nicht mit Fortschritt. Dein Bewegungsapparat braucht regelmäßige, kleinere Impulse, keine seltenen Schocktherapien."
+      },
+      {
+        "type": "p",
+        "text": "Ein weiterer klassischer Fehler ist es, sofort mit hoher Intensität einzusteigen, weil man das Gefühl hat, nachzuholen. Ich verstehe den Impuls. Aber wer nach Monaten ohne Training direkt mit schweren Gewichten beginnt, riskiert Überlastungsverletzungen, die dann wochenlang Pause bedeuten. Lieber zwei Wochen zu leicht als zwei Monate verletzt."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Zu viel auf einmal planen und dann nichts umsetzen",
+          "Mobilisation überspringen, weil sie nicht 'richtig' trainieren fühlt",
+          "Ernährung ignorieren, obwohl sie direkten Einfluss auf Energie und Erholung hat",
+          "Schmerzen ignorieren statt anzupassen",
+          "Vergleiche mit anderen, die deutlich mehr Zeit haben"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung und Energie: Was du im Alltag wirklich anpassen kannst"
+      },
+      {
+        "type": "p",
+        "text": "Training ohne Ernährung ist die halbe Sache. Gerade Schreibtischtäter neigen dazu, mittags wenig zu essen und sich dann nachmittags mit Snacks und Kaffee durch den Tag zu kämpfen. Das drückt die Energie für das Training, das du nach der Arbeit noch schaffen willst. Ein eiweißreiches Mittagessen mit viel Gemüse und einer vernünftigen Portion Kohlenhydraten hält dich stabiler durch den Nachmittag."
+      },
+      {
+        "type": "p",
+        "text": "Du musst keine Diät machen. Schau einfach, dass du genug Protein isst, ausreichend trinkst und das große Energieloch um 15 Uhr nicht mit Süßigkeiten stopfst, sondern mit einer kleinen, nahrhaften Mahlzeit. Diese Kleinigkeiten summieren sich über Wochen zu einem merklichen Unterschied in deiner Trainingsqualität und deiner allgemeinen Energie."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Ein Trainingsplan für Schreibtischtäter muss realistisch sein, er muss in deinen Alltag passen, und er muss die richtigen Schwachstellen angehen. Was ich dir hier gegeben habe, ist ein solider Rahmen. Aber ehrlich gesagt: Der beste Plan ist der, der auf dich persönlich zugeschnitten ist, auf deinen Körper, deine Schmerzen, deinen Zeitplan. Wenn du weißt, dass du das mit einem konkreten Ansprechpartner besser umsetzt als alleine, dann melde dich gerne zu einem kostenlosen Erstgespräch bei mir. Gemeinsam schauen wir, wo du gerade stehst und was der nächste sinnvolle Schritt für dich ist. Kein Druck, kein Verkaufsgespräch, einfach ein offenes Gespräch."
+      }
+    ]
   }
 ];
 
