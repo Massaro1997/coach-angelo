@@ -11517,6 +11517,150 @@ export const blogPosts: BlogPost[] = [
         "text": "Abends keinen Zucker zu essen ist keine Diät und kein Verzicht, es ist eine Gewohnheit, die du aufbauen kannst. Schritt für Schritt, mit konkreten Alternativen und einem klaren Verständnis davon, was in deinem Körper passiert. Wenn du wissen willst, wie das für dich persönlich aussehen kann, dann melde dich für ein kostenloses Erstgespräch bei mir. Wir schauen gemeinsam, was in deinem Alltag hier in Köln wirklich funktioniert, ohne komplizierte Pläne und ohne Verbote, die du sowieso nicht durchhältst."
       }
     ]
+  },
+  {
+    "slug": "inneren-schweinehund-ueberwinden-sport",
+    "title": "Inneren Schweinehund überwinden: 7 ehrliche Strategien, die beim Sport wirklich helfen",
+    "metaTitle": "Inneren Schweinehund überwinden: 7 Strategien",
+    "metaDescription": "Inneren Schweinehund überwinden beim Sport: 7 ehrliche Mikro-Strategien für Berufstätige in Köln. Keine leeren Sprüche, nur konkrete Alltagstricks.",
+    "date": "2026-06-17",
+    "readMinutes": 5,
+    "excerpt": "Immer wieder der gleiche Kreislauf: Du nimmst dir Sport vor, schaffst eine Woche und brichst dann ab. Diese 7 Strategien helfen dir endlich raus.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du kennst das. Montag, bestes Vorsatz, Sporttasche gepackt. Dienstag, Meeting bis 19 Uhr. Mittwoch, zu müde. Donnerstag, aufgegeben. Der innere Schweinehund gewinnt nicht, weil du zu schwach bist, er gewinnt, weil dein System schlecht gebaut ist. Ich bin Angelo, Personal Trainer in Köln, und ich zeige dir sieben Strategien, die im echten Alltag funktionieren, nicht auf Instagram."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Willenskraft der falsche Ansatz ist"
+      },
+      {
+        "type": "p",
+        "text": "Die meisten Menschen glauben, sie brauchen einfach mehr Disziplin. Dabei ist Willenskraft eine begrenzte Ressource, die im Laufe eines langen Arbeitstages aufgebraucht wird. Wenn du abends nach Hause kommst und schon zehn Entscheidungen getroffen hast, ist dein Kopf schlicht leer für eine elfte. Das ist keine Schwäche, das ist Biologie."
+      },
+      {
+        "type": "p",
+        "text": "Der Trick liegt darin, das Training so in den Alltag einzubauen, dass du gar keine Entscheidung mehr treffen musst. Eine feste Uhrzeit, ein fester Ort, ein fester Auslöser. Je weniger du in dem Moment nachdenken musst, desto seltener verliert dein Verstand die Diskussion gegen den Schweinehund."
+      },
+      {
+        "type": "h2",
+        "text": "Strategie 1: Die Zwei-Minuten-Regel wirklich ernst nehmen"
+      },
+      {
+        "type": "p",
+        "text": "Zieh einfach die Sportschuhe an. Mehr nicht. Kein Plan, kein Ziel, keine lange Workout-Playlist. Nur Schuhe anziehen. Diese eine kleine Handlung senkt die Einstiegshürde so weit, dass der innere Widerstand kaum noch greift. Du wirst feststellen, dass du dann meistens doch rausgehst."
+      },
+      {
+        "type": "p",
+        "text": "Das klingt absurd simpel, und das ist genau der Punkt. Dein Gehirn lehnt große Aufgaben ab, kleine Aktionen dagegen bewertet es als harmlos. Wenn du die Schuhe an hast und wirklich nicht willst, dann gehst du halt nicht. Aber neun von zehn Mal bist du trotzdem draußen. Aus eigener Erfahrung mit Kunden in Köln kann ich das bestätigen."
+      },
+      {
+        "type": "h2",
+        "text": "Strategie 2: Wenn-Dann-Pläne statt vager Vorsätze"
+      },
+      {
+        "type": "p",
+        "text": "Vage Vorsätze wie 'Ich will mehr Sport machen' sind wertlos. Was bedeutet mehr? Wann? Wo? Ein Wenn-Dann-Plan sieht anders aus: Wenn ich dienstags um 18 Uhr das Büro verlasse, gehe ich direkt zur Sporthalle in der Nähe des Kölner Hauptbahnhofs, bevor ich nach Hause fahre. Konkret, ort- und zeitgebunden."
+      },
+      {
+        "type": "p",
+        "text": "Forschung zur Verhaltenspsychologie zeigt seit Jahrzehnten, dass solche Implementierungsintentionen die Wahrscheinlichkeit erhöhen, eine Handlung tatsächlich auszuführen. Der Grund ist einfach: Du verknüpfst das Training mit einem Reiz, der sowieso passiert. Du musst dich nicht erinnern, du musst nicht motiviert sein, der Reiz triggert automatisch die nächste Handlung."
+      },
+      {
+        "type": "p",
+        "text": "Schreib deinen Wenn-Dann-Plan heute Abend auf, nicht morgen früh. Morgen früh ist schon zu spät, dann ist die Motivation schon weg."
+      },
+      {
+        "type": "h2",
+        "text": "Strategie 3: Das Training verkleinern, bis es lächerlich einfach klingt"
+      },
+      {
+        "type": "p",
+        "text": "Zehn Minuten Joggen zählen. Fünf Minuten Mobilität zählen. Drei Sätze Liegestütze zählen. Viele Berufstätige fallen nicht aus dem Rhythmus, weil sie zu wenig Zeit haben, sondern weil sie alles oder nichts denken. Wenn das geplante Training nicht vollständig klappt, streichen sie es komplett. Das ist der Fehler."
+      },
+      {
+        "type": "p",
+        "text": "Ein kurzes Training erhält die Gewohnheitsschleife aufrecht. Das ist das Entscheidende. Die Schleife zu unterbrechen kostet viel mehr Energie als ein kurzes Training, das die Routine am Leben hält. Ich sage meinen Kunden immer: Ein schlechtes Training ist hundertmal besser als keines. Weil es dich in der Spur hält."
+      },
+      {
+        "type": "p",
+        "text": "Reduziere dein Mindest-Training auf eine Einheit, die du auch dann noch schaffst, wenn der Tag komplett gegen dich läuft. Zehn Minuten, nicht neunzig. Neunzig Minuten sind das Ideal, zehn Minuten sind das Minimum. Beide haben ihren Platz."
+      },
+      {
+        "type": "h2",
+        "text": "Strategie 4: Umgebungsgestaltung vor Motivation"
+      },
+      {
+        "type": "p",
+        "text": "Leg die Sporttasche abends vor die Tür. Stell die Laufschuhe neben das Bett. Häng den Stundenplan an den Kühlschrank, nicht in eine App, die du ignorierst. Deine Umgebung beeinflusst dein Verhalten stärker, als du denkst. Wenn der Widerstand sichtbar niedrig ist, handelst du öfter."
+      },
+      {
+        "type": "p",
+        "text": "Das Gegenteil funktioniert genauso: Schlechte Gewohnheiten werden schwerer, wenn du sie versteckst. Aber darum geht es hier nicht. Hier geht es darum, Sport buchstäblich auf deinen Weg zu legen. Physisch, nicht metaphorisch. Wenn du morgens über die Turnschuhe stolperst, erinnerst du dich an dein Vorhaben, bevor der Alltag dich einholt."
+      },
+      {
+        "type": "h2",
+        "text": "Strategie 5: Soziale Verbindlichkeit schaffen"
+      },
+      {
+        "type": "p",
+        "text": "Sag jemandem, dass du trainierst. Einer Kollegin, einem Freund, einem Trainingspartner. Menschen brechen Versprechen an sich selbst leicht, Versprechen an andere dagegen viel seltener. Das ist keine moralische Aussage, das ist einfach, wie soziale Tiere funktionieren."
+      },
+      {
+        "type": "p",
+        "text": "Ein Trainingspartner verdoppelt deine Erscheinungsrate, das sehe ich in meiner täglichen Arbeit immer wieder. Ihr haltet euch gegenseitig accountable, ohne großen Aufwand. Wenn du keinen Trainingspartner hast, funktioniert auch eine öffentliche Ankündigung oder ein festes Coaching-Terminsystem. Der externe Druck überbrückt die Phasen, in denen der innere Antrieb fehlt."
+      },
+      {
+        "type": "h2",
+        "text": "Strategie 6: Identität statt Ziele"
+      },
+      {
+        "type": "p",
+        "text": "Wer sagt 'Ich will abnehmen', denkt in Ergebnissen. Wer sagt 'Ich bin jemand, der regelmäßig trainiert', denkt in Identität. Das klingt nach Selbsthilfe-Phrasen, hat aber einen echten praktischen Unterschied. Ziele enden, wenn man sie erreicht oder nicht erreicht. Identitäten bleiben."
+      },
+      {
+        "type": "p",
+        "text": "Fang klein an, diese Identität zu bestätigen. Einmal pro Woche ist die Basis. Dreimal ist gut. Fünfmal ist stark. Aber einmal ist nicht nichts. Jedes Training, das du absolvierst, ist ein Beweis für dich selbst, dass du diese Person bist. Über Monate hinweg summiert sich das zu echter Überzeugung."
+      },
+      {
+        "type": "p",
+        "text": "Wenn du das nächste Mal nicht willst, frag dich nicht 'Habe ich Lust?', sondern 'Was würde die Person tun, die ich sein will?' Das ist keine Spielerei, das ist eine ernsthafte Umrahmung, die deinen inneren Monolog verändert."
+      },
+      {
+        "type": "h2",
+        "text": "Strategie 7: Scheitern einplanen, nicht vermeiden"
+      },
+      {
+        "type": "p",
+        "text": "Du wirst Wochen haben, in denen nichts klappt. Krankes Kind, Überstunden, Dienstreise nach Hamburg oder Frankfurt. Das ist normal, das ist Leben. Wer keine Ausfallstrategie hat, interpretiert jede Unterbrechung als Scheitern und gibt auf."
+      },
+      {
+        "type": "p",
+        "text": "Plane im Voraus: Was ist dein Plan B, wenn das reguläre Training nicht geht? Zwanzig Minuten Körpergewichtstraining in der Hotelkammer? Zehn Minuten Spaziergang in der Mittagspause? Die konkrete Antwort auf diese Frage, bevor die Krise kommt, entscheidet darüber, ob du nach einer schwierigen Woche zurückkommst oder aufhörst."
+      },
+      {
+        "type": "p",
+        "text": "Kein Mensch ist jede Woche gleich diszipliniert. Die Frage ist nicht, ob du fällst, sondern wie schnell du wieder aufstehst. Wer das Scheitern eingeplant hat, steht schneller auf."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Reservetraining definieren, bevor die Ausrede kommt",
+          "Eine verpasste Einheit nie zweimal in Folge verpassen",
+          "Kürzere Einheiten als Backup in der Kalender-App eintragen",
+          "Nach einem Ausfall sofort die nächste Einheit terminieren"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Den inneren Schweinehund überwinden bedeutet nicht, jeden Tag topfit und hochmotiviert aufzuwachen. Es bedeutet, ein System zu bauen, das auch dann noch funktioniert, wenn die Motivation weg ist. Diese sieben Strategien sind keine Theorie, sie kommen aus der täglichen Arbeit mit Berufstätigen, die genau dein Problem kennen. Wenn du wissen willst, welche davon zu deinem Alltag passt, dann meld dich gerne für ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach ein ehrliches Gespräch darüber, wo du stehst und wie du weiterkommst. Du findest mich unter angelocoach.com."
+      }
+    ]
   }
 ];
 
