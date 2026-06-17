@@ -12071,6 +12071,131 @@ export const blogPosts: BlogPost[] = [
         "text": "Rückentraining beim Sitzen im Büro ist keine Zauberei und kein großes Zeitinvestment. Es braucht Konsequenz und das Bewusstsein, dass du deinem Körper täglich etwas zurückgeben musst, das der Schreibtisch ihm nimmt. Wenn du merkst, dass du alleine nicht weiterkommst, oder wenn du ein strukturiertes Programm willst, das zu deinem Leben in Köln passt, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos, unverbindlich, und wir schauen gemeinsam, was für dich wirklich sinnvoll ist. Du findest mich unter angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "rueckenschmerzen-schreibtischjob-uebungen-pause",
+    "title": "Rückenschmerzen im Schreibtischjob: Die besten Übungen für deine Pause",
+    "metaTitle": "Rückenschmerzen im Schreibtischjob: Übungen für die Pause",
+    "metaDescription": "5-Minuten-Pausenroutine gegen Rückenschmerzen im Büro. Konkrete Übungen für Büroangestellte in Köln, die sofort helfen und langfristig vorbeugen.",
+    "date": "2026-06-17",
+    "readMinutes": 4,
+    "excerpt": "Rückenschmerzen nach stundenlangem Sitzen? Diese 5-Minuten-Routine hilft Büroangestellten in Köln, Schmerzen sofort zu lindern und dauerhaft vorzubeugen.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du sitzt seit Stunden am Schreibtisch, der untere Rücken meldet sich mit einem dumpfen Ziehen, und bis Feierabend sind es noch vier Stunden. Klingt bekannt? In Köln arbeiten tausende Menschen täglich in Büros und kämpfen genau mit diesem Problem. Die gute Nachricht: Du brauchst kein Fitnessstudio und keine Sportkleidung. Fünf Minuten, ein bisschen Platz neben deinem Stuhl, und du kannst deinen Rücken direkt jetzt entlasten."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Sitzen deinen Rücken so belastet"
+      },
+      {
+        "type": "p",
+        "text": "Wenn du sitzt, verkürzt sich der Hüftbeuger, also der Muskel, der dein Becken nach vorne kippt. Das klingt erstmal abstrakt. Praktisch bedeutet es: Deine Lendenwirbelsäule gerät unter Dauerspannung, weil sie eine Fehlstellung ausgleichen muss, die du selbst gar nicht bewusst wahrnimmst. Nach zwei, drei Stunden am Stück baut sich das zu einem echten Schmerz auf."
+      },
+      {
+        "type": "p",
+        "text": "Dazu kommt die Brustwirbelsäule. Sie wird beim Tippen und Schauen auf den Bildschirm nach vorne gezogen, die Schultern runden sich ab, der Nacken schiebt sich vor. Diese Haltung ist kein Charakterfehler und kein Zeichen von Faulheit, sondern eine ganz normale Reaktion deines Körpers auf eine unnatürliche Dauerposition. Das Problem ist, dass du sie mit jedem Arbeitstag ein bisschen mehr trainierst, bis sie zur Standardhaltung wird."
+      },
+      {
+        "type": "h2",
+        "text": "Die 5-Minuten-Pausenroutine: So geht sie"
+      },
+      {
+        "type": "p",
+        "text": "Diese Routine habe ich so zusammengestellt, dass du sie ohne Yogamatte, ohne Umziehen und ohne große Vorbereitung direkt neben deinem Schreibtisch machen kannst. Du brauchst keinen Timer. Geh einfach durch die Übungen in der angegebenen Reihenfolge und halte jede Position so lange, bis du spürst, dass der Muskel ein bisschen nachgibt."
+      },
+      {
+        "type": "p",
+        "text": "Fang mit dem Hüftbeuger-Stretch an. Geh in einen Ausfallschritt, hinteres Knie auf dem Boden oder auf einem Stuhl abgestützt, und schieb das Becken leicht nach vorne. Nicht reißen, nicht federn. Halt die Position ruhig für etwa dreißig Sekunden pro Seite. Du wirst direkt merken, wo du den ganzen Tag Spannung gesammelt hast."
+      },
+      {
+        "type": "p",
+        "text": "Danach kommt die Brustwirbelsäulen-Rotation. Setz dich aufrecht auf den Stuhlrand, verschränke die Arme vor der Brust und rotiere den Oberkörper langsam nach rechts und nach links. Nicht mit dem Lendenbereich mitdrehen, sondern wirklich nur den mittleren Rücken bewegen. Das ist am Anfang ungewohnt, aber genau das ist der Punkt."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Hüftbeuger-Stretch: 30 Sekunden pro Seite",
+          "BWS-Rotation auf dem Stuhl: 8 Wiederholungen pro Seite",
+          "Katze-Kuh im Stehen: 10 langsame Wiederholungen",
+          "Schulterblatt-Retraktion: 15 Wiederholungen",
+          "Tiefe Bauchatmung mit Rumpfaktivierung: 5 Atemzüge"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Katze-Kuh im Stehen: Vergiss die Matte"
+      },
+      {
+        "type": "p",
+        "text": "Die klassische Katze-Kuh kennen die meisten aus dem Yoga auf dem Boden. Ich zeige meinen Kunden in Köln immer die stehende Variante, weil sie im Büro tausendmal praktischer ist. Stell dich hüftbreit hin, leg die Hände auf die Oberschenkel und beuge die Knie leicht. Jetzt rollst du die Wirbelsäule Segment für Segment ein und wieder auf, genauso wie beim Originalübung auf dem Boden."
+      },
+      {
+        "type": "p",
+        "text": "Diese Bewegung schmiert deine Facettengelenke, verbessert die Durchblutung der Bandscheiben und bringt dein Nervensystem kurz aus dem Sitzalltag heraus. Zehn langsame Wiederholungen reichen. Du solltest dabei durch die Nase atmen und jede Endposition kurz halten, nicht durchhetzen. Qualität schlägt Quantität hier ohne jede Ausnahme."
+      },
+      {
+        "type": "h2",
+        "text": "Schulterblätter aktivieren gegen den Rundrücken"
+      },
+      {
+        "type": "p",
+        "text": "Steh aufrecht, Arme locker an den Seiten. Jetzt ziehst du beide Schulterblätter nach hinten und unten zusammen, als würdest du eine Walnuss zwischen ihnen zerquetschen. Halt zwei Sekunden, dann lass los. Das klingt banal. Aber genau diese Muskeln zwischen den Schulterblättern sind bei den meisten Büroangestellten chronisch unterbeschäftigt, weil die Arme beim Tippen immer nach vorne geführt werden."
+      },
+      {
+        "type": "p",
+        "text": "Fünfzehn saubere Wiederholungen aktivieren diese Muskulatur wieder, bevor sie vollständig einschläft. Ich sage meinen Kunden immer: Das ist kein Training im klassischen Sinne, das ist Körperpflege. So wie du Zähne putzt, damit nichts kaputt geht, aktivierst du hier Muskeln, damit dein Rücken nicht irgendwann streikt."
+      },
+      {
+        "type": "h2",
+        "text": "Tiefe Atmung als Rumpfaktivierung"
+      },
+      {
+        "type": "p",
+        "text": "Der letzte Schritt der Routine ist der, den die meisten zuerst weglassen, weil er so unspektakulär aussieht. Fünf tiefe Atemzüge in den Bauch, wobei du beim Ausatmen den Bauch leicht einziehst und die Beckenbodenmuskulatur minimal anspannst. Das klingt nach Yoga-Kurs, hat aber einen handfesten Grund."
+      },
+      {
+        "type": "p",
+        "text": "Dein Zwerchfell ist ein direkter Gegenspieler des Hüftbeugers und stabilisiert deinen Rumpf von innen. Wenn du flach und schnell atmest, was Büroarbeit unter Druck oft auslöst, verlierst du diese natürliche Stabilisierung. Fünf bewusste Atemzüge holen dich da raus. Es kostet nichts, dauert eine Minute, und du merkst direkt, dass dein Körper ruhiger wird."
+      },
+      {
+        "type": "h2",
+        "text": "Wie oft und wann du die Routine machen solltest"
+      },
+      {
+        "type": "p",
+        "text": "Einmal pro Tag bringt dir wenig. Die Routine funktioniert, wenn du sie als festen Rhythmus in deinen Arbeitstag einbaust. Ich empfehle meinen Kunden: einmal nach zwei Stunden Sitzen am Vormittag, einmal nach dem Mittagessen, einmal gegen 15 Uhr. Das sind drei mal fünf Minuten, also fünfzehn Minuten über den ganzen Tag verteilt."
+      },
+      {
+        "type": "p",
+        "text": "Wenn das am Anfang zu viel klingt, fang mit zweimal an. Aber setz dir eine feste Erinnerung im Kalender oder im Telefon, sonst passiert es schlicht nicht. Der Schmerz meldet sich meistens nicht sofort, wenn du die Pause weglässt. Er kommt auf Raten und stellt dich dann irgendwann vor vollendete Tatsachen."
+      },
+      {
+        "type": "p",
+        "text": "Kölner Büroalltag hat sein eigenes Tempo, das weiß ich. Termine, Calls, Deadlines. Deswegen habe ich die Routine bewusst so kurz gehalten, dass du keine Ausrede brauchst. Stell dir einfach vor, du gehst kurz auf die Toilette, nur dass du dieses Mal auch deinen Rücken mitnimmst."
+      },
+      {
+        "type": "h2",
+        "text": "Wann Übungen allein nicht reichen"
+      },
+      {
+        "type": "p",
+        "text": "Diese Routine ist Prävention und Soforthilfe in einem. Sie ersetzt aber keine professionelle Einschätzung, wenn du bereits seit Wochen unter akuten Schmerzen leidest, wenn der Schmerz in die Beine ausstrahlt oder wenn du morgens kaum aufstehen kannst. In diesen Fällen gehst du zuerst zum Arzt oder Physiotherapeuten, und danach gerne zu mir."
+      },
+      {
+        "type": "p",
+        "text": "Was ich als Personal Trainer in Köln häufig sehe: Menschen kommen zu mir, nachdem sie monatelang geschmerzgedämpft weitergequält haben. Mit einem gezielten Aufbauprogramm für Rumpf, Gesäß und die tiefen Rückenmuskeln lassen sich viele dieser Beschwerden langfristig deutlich reduzieren. Die Pausenroutine ist der Einstieg. Ein individuelles Training ist der nächste Schritt."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Rückenschmerzen im Schreibtischjob sind kein Schicksal, das du einfach akzeptieren musst. Mit fünf Minuten Routine in der Pause kannst du anfangen, deinen Rücken jeden Tag ein bisschen besser zu versorgen. Wenn du wissen willst, was darüber hinaus für dich persönlich sinnvoll ist, buch dir einfach ein kostenloses Erstgespräch mit mir auf angelocoach.com. Wir schauen uns zusammen an, wo dein Rücken steht und was dir wirklich hilft."
+      }
+    ]
   }
 ];
 
