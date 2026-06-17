@@ -11926,6 +11926,151 @@ export const blogPosts: BlogPost[] = [
         "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach 20 Minuten, in denen wir schauen, was dir wirklich helfen kann. Du findest das Formular direkt auf angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "rueckentraining-beim-sitzen-im-buero",
+    "title": "Rückentraining beim Sitzen: 7 Übungen, die du direkt am Schreibtisch machen kannst",
+    "metaTitle": "Rückentraining im Büro: 7 Übungen am Schreibtisch",
+    "metaDescription": "Rückentraining beim Sitzen im Büro: 7 konkrete Mikro-Übungen ohne Equipment, die Verspannungen lösen und deinen Rücken direkt am Schreibtisch stärken.",
+    "date": "2026-06-17",
+    "readMinutes": 5,
+    "excerpt": "Kein Aufstehen, kein Equipment, keine Ausrede. Diese 7 Mikro-Übungen stärken deinen Rücken mitten im Büroalltag und lösen Verspannungen sofort.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Acht, neun, manchmal zehn Stunden am Tag sitzen. Der Rücken meldet sich irgendwann immer. Nicht dramatisch am Anfang, nur ein leichtes Ziehen im Nacken, ein dumpfer Druck in der Lendenwirbelsäule. Das Problem ist nicht das Sitzen an sich, sondern das statische Sitzen ohne jede Unterbrechung. Ich zeige dir sieben Übungen, die du genau jetzt, ohne aufzustehen und ohne irgendwas zu kaufen, an deinem Schreibtisch machen kannst."
+      },
+      {
+        "type": "h2",
+        "text": "Warum dein Rücken nach dem Bürotag so reagiert"
+      },
+      {
+        "type": "p",
+        "text": "Wenn du lange sitzt, passiert im Körper eine ganze Kette von Anpassungen. Die Hüftbeuger verkürzen sich, weil sie dauerhaft in einer verkürzten Position gehalten werden. Die Gesäßmuskulatur schaltet sich regelrecht ab, sie wird nicht gebraucht. Der mittlere und untere Rücken versucht, diese fehlende Stabilität zu kompensieren, und ermüdet dabei schneller als er sollte."
+      },
+      {
+        "type": "p",
+        "text": "Gleichzeitig runden sich Schultern und Brustwirbelsäule nach vorne, weil der Blick auf den Bildschirm die Kopfhaltung nach vorne zieht. Der Nacken trägt dann das Gewicht des Kopfes in einer ungünstigen Position, oft für Stunden am Stück. Das Ergebnis kennst du: Nackensteifheit, Druckgefühl zwischen den Schulterblättern, gelegentliches Taubheitsgefühl in den Armen."
+      },
+      {
+        "type": "p",
+        "text": "Die gute Nachricht: Der Körper reagiert sehr schnell auf gezielte Reize. Du musst keine stundenlangen Workouts einplanen. Kurze, bewusste Aktivierungssequenzen über den Tag verteilt können diesen Kreislauf unterbrechen, und das merkst du oft schon nach wenigen Tagen."
+      },
+      {
+        "type": "h2",
+        "text": "Übung 1 und 2: Nacken und Halswirbelsäule entspannen"
+      },
+      {
+        "type": "p",
+        "text": "Fang mit dem Nacken an. Setz dich aufrecht hin, Füße flach auf dem Boden. Lass den Kopf langsam zur rechten Schulter sinken, ohne die Schulter hochzuziehen. Halt die Position zehn bis fünfzehn Sekunden, atme dabei ruhig aus. Dann die Gegenseite. Drei bis vier Wiederholungen reichen völlig. Kein Rucken, keine Gewalt, nur ein gleichmäßiger, sanfter Zug."
+      },
+      {
+        "type": "p",
+        "text": "Die zweite Übung aktiviert die tiefen Nackenstrecker. Du sitzt gerade, ziehst das Kinn langsam Richtung Brust, als würdest du einen langen Hals machen. Dann hebst du den Blick wieder, ohne den Kopf in den Nacken zu werfen. Diese Bewegung klingt klein. Sie ist es nicht. Gerade die Muskeln entlang der Halswirbelsäule werden im Büroalltag kaum kontrolliert bewegt, und genau dort sammelt sich der Großteil der Verspannung an."
+      },
+      {
+        "type": "p",
+        "text": "Mach beide Übungen zusammen in drei Minuten. Ideal als Einstieg, bevor du mit dem Rest weitermachst."
+      },
+      {
+        "type": "h2",
+        "text": "Übung 3 und 4: Brustwirbelsäule mobilisieren"
+      },
+      {
+        "type": "p",
+        "text": "Die Brustwirbelsäule ist der am stärksten vernachlässigte Bereich im Rückentraining beim Sitzen. Dabei ist sie für die gesamte Aufrichtung verantwortlich. Wenn sie steif ist, übernehmen Lendenwirbelsäule und Nacken ihre Arbeit, und da kommen die Schmerzen her, die du eigentlich woanders spürst."
+      },
+      {
+        "type": "p",
+        "text": "Übung drei: Falte die Hände hinter dem Kopf, Ellenbogen seitlich. Lehne dich langsam nach hinten über die Stuhllehne, soweit sie das erlaubt, öffne die Brust Richtung Decke und halte zwei bis drei Atemzüge. Komm kontrolliert zurück. Fünf Wiederholungen. Du wirst ein deutliches Knacken oder Öffnen in der Brustwirbelsäule spüren, das ist normal und harmlos."
+      },
+      {
+        "type": "p",
+        "text": "Übung vier ist eine Rotation. Setz dich aufrecht, verschränk die Arme vor der Brust. Dreh den Oberkörper so weit wie möglich nach rechts, halt kurz, dann nach links. Die Drehung soll aus der Brustwirbelsäule kommen, nicht aus der Hüfte. Zehn Wiederholungen pro Seite. Diese Bewegung ist fast medizinisch in ihrer Wirkung auf steife Segmente."
+      },
+      {
+        "type": "h2",
+        "text": "Übung 5: Lendenwirbelsäule aktivieren ohne aufzustehen"
+      },
+      {
+        "type": "p",
+        "text": "Der untere Rücken leidet am meisten unter dem flachen Sitzen. Eine der effektivsten Übungen dafür ist das bewusste Beckenkippen. Du sitzt aufrecht, stellst beide Füße flach auf den Boden. Dann kippst du das Becken abwechselnd nach vorne, also in ein leichtes Hohlkreuz, und nach hinten, also in eine leichte Rundung. Langsam, kontrolliert, zehn bis fünfzehn Mal."
+      },
+      {
+        "type": "p",
+        "text": "Das klingt simpel, ist es aber nicht. Die meisten Menschen haben kaum Bewusstsein für ihre Beckenposition. Wenn du merkst, dass du die Bewegung kaum spürst oder sie nicht sauber kontrollieren kannst, ist das ein klares Signal, dass die Verbindung zwischen Gehirn und Rumpfmuskulatur trainiert werden muss. Genau das tust du mit dieser Übung."
+      },
+      {
+        "type": "p",
+        "text": "Kombinier das Beckenkippen mit einem tiefen Atemzug: einatmen beim Hohlkreuz, ausatmen beim Abrunden. Die Atmung verstärkt die Aktivierung der tiefen Rumpfstabilisatoren und macht die Übung deutlich effektiver."
+      },
+      {
+        "type": "h2",
+        "text": "Übung 6 und 7: Schultern und Rumpf aktivieren"
+      },
+      {
+        "type": "p",
+        "text": "Übung sechs zielt auf die Schulterblätter. Setz dich aufrecht, Arme hängen locker seitlich. Zieh beide Schulterblätter langsam zusammen Richtung Wirbelsäule, als würdest du einen Stift zwischen ihnen festhalten wollen. Halte fünf Sekunden, dann loslassen. Zehn Wiederholungen. Du spürst das direkt zwischen den Schulterblättern, genau dort, wo sich bei Büroangestellten die Spannung festsetzt."
+      },
+      {
+        "type": "p",
+        "text": "Übung sieben ist ein isometrisches Anspannen des Rumpfes, das sogenannte Bracing. Du atmest aus, spannst den gesamten Bauch an, als würdest du einen Schlag erwarten, und hältst das drei bis fünf Sekunden, ohne die Luft anzuhalten. Dann entspannen. Zehn Wiederholungen. Diese Übung trainiert die tiefe Bauchmuskulatur, die für die Stabilisierung der Lendenwirbelsäule entscheidend ist."
+      },
+      {
+        "type": "p",
+        "text": "Bracing ist keine Glamour-Übung. Niemand sieht es, niemand bemerkt es. Aber wenn du es konsequent in deinen Büroalltag integrierst, wirst du nach zwei bis drei Wochen merken, dass du automatisch aufrechter sitzt, ohne bewusst daran zu denken."
+      },
+      {
+        "type": "h2",
+        "text": "Wie du diese Übungen in deinen Alltag integrierst"
+      },
+      {
+        "type": "p",
+        "text": "Das größte Problem ist nicht das Können, sondern das Dranbleiben. Ich empfehle meinen Klienten in Köln, die Übungen an feste Trigger zu koppeln. Zum Beispiel: Jedes Mal, wenn du auf eine neue E-Mail antwortest, machst du danach eine Minute Schulterblatt-Übungen. Oder vor jedem Meeting drei Minuten Mobilisierung. Kein extra Zeitfenster, keine Kalendereinträge."
+      },
+      {
+        "type": "p",
+        "text": "Eine andere Möglichkeit ist die Stundenregel. Stelle einen einfachen Timer auf 60 Minuten. Wenn er klingelt, machst du zwei bis drei der oben genannten Übungen, insgesamt fünf Minuten. Dann weiter. Auf acht Stunden gerechnet kommt da eine echte Trainingszeit zusammen, die sich über den Tag verteilt deutlich weniger erschöpfend anfühlt als ein komprimiertes Abendworkout."
+      },
+      {
+        "type": "p",
+        "text": "Wichtig: Du wirst am Anfang vergessen. Das ist normal. Setz dir keine zu hohen Ziele in der ersten Woche. Zwei bis drei Sequenzen pro Tag sind ein guter Start. Beständigkeit schlägt Perfektion hier eindeutig."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Timer auf 60 Minuten stellen, dann 2 Übungen",
+          "Übungen an E-Mails oder Meetings koppeln",
+          "Morgens direkt eine Sequenz starten, bevor der Tag hektisch wird",
+          "Partner im Büro suchen, der mitmacht",
+          "Fortschritt nicht nach Schmerz messen, sondern nach Aufrichtung"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Was diese Übungen leisten können und was nicht"
+      },
+      {
+        "type": "p",
+        "text": "Lass mich direkt sein. Diese Übungen ersetzen kein strukturiertes Rückentraining mit Gewichten, kein regelmäßiges Krafttraining, kein Aufstehen und Bewegen über den Tag. Sie sind Mikro-Interventionen, keine Therapie. Wenn du bereits chronische Rückenschmerzen hast, radikuläre Symptome wie Ausstrahlungen ins Bein, oder neurologische Auffälligkeiten, dann geh zuerst zum Arzt oder Physiotherapeuten."
+      },
+      {
+        "type": "p",
+        "text": "Für alle anderen sind diese Übungen ein sehr guter Anfang. Sie schaffen Körperbewusstsein, sie unterbrechen schlechte Muster, und sie halten die Gelenke mobil. Das ist nicht nichts. Das ist tatsächlich der Bereich, in dem viele Menschen die größten Defizite haben: nicht im Gym, sondern in den acht Stunden davor."
+      },
+      {
+        "type": "p",
+        "text": "Kombiniere die Schreibtischübungen mit zwei bis drei echten Trainingseinheiten pro Woche, und du wirst langfristig einen Rücken haben, der deinen Alltag trägt, ohne sich ständig zu melden."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Rückentraining beim Sitzen im Büro ist keine Zauberei und kein großes Zeitinvestment. Es braucht Konsequenz und das Bewusstsein, dass du deinem Körper täglich etwas zurückgeben musst, das der Schreibtisch ihm nimmt. Wenn du merkst, dass du alleine nicht weiterkommst, oder wenn du ein strukturiertes Programm willst, das zu deinem Leben in Köln passt, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos, unverbindlich, und wir schauen gemeinsam, was für dich wirklich sinnvoll ist. Du findest mich unter angelocoach.com."
+      }
+    ]
   }
 ];
 
