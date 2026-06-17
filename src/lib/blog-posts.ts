@@ -13553,6 +13553,147 @@ export const blogPosts: BlogPost[] = [
         "text": "Muskelaufbau ab 40 ist kein Wunschdenken, er ist eine Frage der richtigen Herangehensweise. Du brauchst keinen Extremplan, kein Fünf-Tage-Split und keine teuren Supplemente. Du brauchst Konstanz, eine saubere Technik, genug Protein und echten Respekt vor der Erholung. Das klingt unspektakulär, weil es unspektakulär ist, und genau deshalb funktioniert es. Wenn du nicht weißt, wo du anfangen sollst, oder wenn bisherige Versuche nicht geklappt haben, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was zu dir und deinem Alltag passt. Kein Verkaufsdruck, kein Standardprogramm. Einfach ein ehrliches Gespräch."
       }
     ]
+  },
+  {
+    "slug": "abnehmen-muskeln-aufbauen-gleichzeitig-anfaenger",
+    "title": "Gleichzeitig abnehmen und Muskeln aufbauen: Geht das wirklich als Anfänger?",
+    "metaTitle": "Abnehmen und Muskeln aufbauen: Geht das?",
+    "metaDescription": "Muskelaufbau ohne Muskeln zu verlieren beim Abnehmen: Ob Body Recomposition für Anfänger funktioniert und wie du konkret vorgehst, erklärt von Personal Trainer Angelo in Köln.",
+    "date": "2026-06-17",
+    "readMinutes": 5,
+    "excerpt": "Body Recomposition klingt nach Widerspruch, ist aber für Anfänger tatsächlich möglich. Angelo erklärt, warum das so ist und wie du es konkret angehst.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Ich höre diese Frage fast jede Woche: Kann ich abnehmen, ohne dabei meine Muskeln zu verlieren, oder sogar Muskeln aufbauen, während ich Fett abbaue? Die ehrliche Antwort: Ja, das geht. Aber nicht für jeden gleich gut und nicht ohne Plan. Als Anfänger hast du dabei sogar einen echten Vorteil, den die meisten Menschen unterschätzen."
+      },
+      {
+        "type": "h2",
+        "text": "Was Body Recomposition eigentlich bedeutet"
+      },
+      {
+        "type": "p",
+        "text": "Body Recomposition beschreibt den Prozess, bei dem du gleichzeitig Körperfett reduzierst und Muskelmasse aufbaust. Das klingt nach einem Widerspruch, weil Fettabbau normalerweise ein Kaloriendefizit voraussetzt, Muskelaufbau aber eher ein Kalorienplus. Trotzdem ist es möglich, weil der Körper nicht immer linear reagiert."
+      },
+      {
+        "type": "p",
+        "text": "Dein Körper greift beim Muskelaufbau auf verschiedene Energiequellen zurück. Als Anfänger sind deine Muskeln noch sehr empfänglich für neue Trainingsreize. Das bedeutet, selbst bei einem leichten Kaloriendefizit kann dein Körper Fett als Energiequelle nutzen und gleichzeitig neues Muskelgewebe aufbauen. Dieser Effekt ist wissenschaftlich gut dokumentiert und wird oft als Neulings-Vorteil bezeichnet."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Anfänger einen echten Vorteil haben"
+      },
+      {
+        "type": "p",
+        "text": "Fortgeschrittene Sportler kennen dieses Problem: Irgendwann muss man sich entscheiden, ob man gerade aufbaut oder abnimmt. Für sie ist Body Recomposition kaum noch möglich, weil ihre Muskeln bereits gut trainiert sind und kaum noch auf leichte Reize reagieren. Als Anfänger ist das komplett anders."
+      },
+      {
+        "type": "p",
+        "text": "Dein Nervensystem lernt bei jedem Training neu, wie es deine Muskelfasern koordiniert. Diese neuromuskuläre Anpassung sorgt dafür, dass du in den ersten Wochen und Monaten spürbar stärker wirst, selbst wenn du nicht viel isst. Gleichzeitig baut dein Körper tatsächlich neue Muskelfasern auf, solange du genug Protein zu dir nimmst und regelmäßig trainierst. Ich habe das bei vielen meiner Klientinnen und Klienten hier in Köln immer wieder beobachtet."
+      },
+      {
+        "type": "p",
+        "text": "Dieser Vorteil ist zeitlich begrenzt. Nach ungefähr sechs bis zwölf Monaten regelmäßigem Training flacht er ab. Das ist kein Grund zur Panik, aber ein guter Grund, jetzt anzufangen und dieses Fenster zu nutzen."
+      },
+      {
+        "type": "h2",
+        "text": "Die richtige Kalorienzufuhr: Nicht zu viel, nicht zu wenig"
+      },
+      {
+        "type": "p",
+        "text": "Für Body Recomposition brauchst du kein extremes Defizit. Ein zu starkes Kaloriendefizit ist eines der häufigsten Fehler, die ich beobachte. Wenn du zu wenig isst, baut dein Körper Muskeln ab, weil er dringend Energie braucht und Muskelgewebe als Reservetank nutzt. Das willst du vermeiden."
+      },
+      {
+        "type": "p",
+        "text": "Ein moderates Defizit von ungefähr 200 bis 400 Kilokalorien unter deinem täglichen Bedarf ist ein sinnvoller Startpunkt. Das ist kein magischer Wert, sondern eine Orientierung. Wichtiger ist, dass du deinen tatsächlichen Bedarf kennst und ihn realistisch einschätzt. Tracking-Apps können dabei helfen, aber sie sind kein Ersatz für ein echtes Gespräch über deine Ziele und deinen Alltag."
+      },
+      {
+        "type": "p",
+        "text": "Was viele vergessen: An Trainingstagen darf es auch etwas mehr sein. Dein Körper braucht Energie, um sich nach dem Training zu erholen und Muskeln aufzubauen. Wer an jedem Tag gleich viel isst, unabhängig davon ob Trainings- oder Ruhetag, macht sich das Leben unnötig schwer."
+      },
+      {
+        "type": "h2",
+        "text": "Protein ist dein wichtigstes Werkzeug"
+      },
+      {
+        "type": "p",
+        "text": "Wenn ich einen einzigen Ernährungstipp für Body Recomposition nennen müsste, dann ist es dieser: Iss genug Protein. Protein ist das Baumaterial für deine Muskeln. Ohne ausreichend Protein kannst du noch so hart trainieren, der Aufbau bleibt aus."
+      },
+      {
+        "type": "p",
+        "text": "Als Orientierung gilt: ungefähr 1,6 bis 2,2 Gramm Protein pro Kilogramm Körpergewicht pro Tag. Das ist die Spanne, die in der Sporternährung als sinnvoll gilt. Konkret bedeutet das für eine Person mit 80 Kilogramm Körpergewicht etwa 130 bis 175 Gramm Protein täglich. Das klingt viel, ist aber über den Tag verteilt gut erreichbar."
+      },
+      {
+        "type": "p",
+        "text": "Gute Proteinquellen im Alltag sind Hühnerbrust, Magerquark, Eier, Linsen, Hülsenfrüchte und fettarmer Fisch. In Köln gibt es auf den Wochenmärkten, zum Beispiel am Nippeser Tünn oder am Wiener Platz, frische Zutaten, die sowohl günstig als auch proteinreich sind. Du brauchst keine teuren Supplements, wenn deine Grundernährung stimmt."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Hühnerbrust, Pute, mageres Rindfleisch",
+          "Eier und Magerquark",
+          "Hülsenfrüchte: Linsen, Kichererbsen, schwarze Bohnen",
+          "Fettarmer Fisch: Thunfisch, Kabeljau, Tilapia",
+          "Skyr und griechischer Joghurt"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Krafttraining: Warum Ausdauer allein nicht reicht"
+      },
+      {
+        "type": "p",
+        "text": "Viele Anfänger denken, sie müssen abnehmen und setzen dabei auf Joggen oder Radfahren. Das ist nicht falsch, aber es reicht nicht aus, wenn du gleichzeitig Muskeln aufbauen willst. Ausdauertraining verbrennt Kalorien, gibt deinen Muskeln aber keinen Reiz zum Wachsen."
+      },
+      {
+        "type": "p",
+        "text": "Krafttraining ist die Voraussetzung für Muskelaufbau. Zwei bis drei Einheiten pro Woche mit Grundübungen wie Kniebeuge, Kreuzheben, Bankdrücken und Rudern sind ein solider Anfang. Diese Übungen trainieren mehrere Muskelgruppen gleichzeitig, sind effizient und für Anfänger besonders wirkungsvoll. Du brauchst kein teures Fitnessstudio, viele dieser Übungen funktionieren auch mit dem eigenen Körpergewicht oder einfachen Kurzhanteln."
+      },
+      {
+        "type": "p",
+        "text": "Progressive Überlastung ist das Schlüsselprinzip: Du musst deinen Muskeln immer wieder neue, leicht schwerere Reize geben. Wer drei Monate lang die gleichen Gewichte hebt, gibt seinem Körper keinen Grund mehr, sich anzupassen. Erhöhe das Gewicht oder die Wiederholungszahl schrittweise, und dein Körper reagiert."
+      },
+      {
+        "type": "h2",
+        "text": "Schlaf und Erholung: Der unterschätzte Teil des Plans"
+      },
+      {
+        "type": "p",
+        "text": "Ich sage das meinen Klienten immer wieder: Muskeln wachsen nicht im Training, sondern in der Erholung danach. Während du schläfst, schüttet dein Körper Wachstumshormone aus und repariert die kleinen Schäden, die das Training in den Muskelfasern hinterlassen hat. Wer schlechter schläft, baut schlechter Muskeln auf."
+      },
+      {
+        "type": "p",
+        "text": "Sieben bis neun Stunden Schlaf pro Nacht sind keine Luxus-Empfehlung, sondern eine Grundlage. Wenn dein Alltag in Köln stressig ist, Schichtarbeit, Familie, langer Pendelweg, dann lohnt es sich, konkret zu schauen, wo du Schlaf zurückgewinnen kannst. Manchmal ist das wichtiger als eine weitere Trainingseinheit."
+      },
+      {
+        "type": "p",
+        "text": "Auch Stress beeinflusst deinen Körper direkt. Chronischer Stress erhöht den Cortisolspiegel, und ein dauerhaft erhöhter Cortisolspiegel erschwert den Muskelaufbau und fördert die Fettspeicherung, besonders am Bauch. Du kannst das nicht komplett vermeiden, aber du kannst gegensteuern: Spazierengehen im Stadtgarten, kurze Atemübungen oder einfach mal das Handy weglegen."
+      },
+      {
+        "type": "h2",
+        "text": "Wie du deinen Fortschritt realistisch misst"
+      },
+      {
+        "type": "p",
+        "text": "Hier ist eine wichtige Warnung: Die Waage lügt nicht, aber sie erzählt auch nicht die ganze Wahrheit. Wenn du gleichzeitig Fett abbaust und Muskeln aufbaust, kann dein Gewicht auf der Waage wochenlang gleich bleiben, obwohl sich dein Körper stark verändert. Das ist kein Misserfolg, das ist Body Recomposition in Aktion."
+      },
+      {
+        "type": "p",
+        "text": "Bessere Messgrößen sind Körperumfänge, Fotos im Abstand von vier Wochen, wie deine Kleidung sitzt und wie sich deine Kraft im Training entwickelt. Wenn du mehr Gewicht hebst als vor einem Monat und deine Hosen lockerer sitzen, läuft es gut. Lass dich nicht von einer stagnierenden Zahl auf der Waage entmutigen."
+      },
+      {
+        "type": "p",
+        "text": "Ich empfehle, einmal pro Woche zur gleichen Tageszeit zu wiegen und den Durchschnitt über vier Wochen zu vergleichen. So filtert man tägliche Schwankungen durch Wasserhaushalt und Darminhalt heraus und sieht den echten Trend."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Body Recomposition ist kein Märchen. Als Anfänger hast du gerade jetzt die besten Voraussetzungen, gleichzeitig Fett abzubauen und Muskeln aufzubauen. Du brauchst dafür kein kompliziertes System, sondern einen klaren Plan, konsequentes Krafttraining und ausreichend Protein. Wenn du nicht weißt, wo du anfangen sollst oder du bisherige Versuche frustiert haben, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret sinnvoll ist. Schreib mir über angelocoach.com."
+      }
+    ]
   }
 ];
 
