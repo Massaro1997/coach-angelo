@@ -13414,6 +13414,145 @@ export const blogPosts: BlogPost[] = [
         "text": "Krafttraining ab 40 ist kein Experiment. Es ist eine der besten Entscheidungen, die du für deinen Körper und deinen Kopf treffen kannst. Was du brauchst, ist ein sauberer Einstieg, ein realistischer Plan und die Geduld, ihn durchzuziehen. Wenn du dir unsicher bist, wo du anfangen sollst, oder wenn du möchtest, dass jemand mit dir zusammen schaut, was für dich persönlich Sinn ergibt: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, keine Verpflichtung. Einfach ein ehrliches Gespräch darüber, was du brauchst. Melde dich gerne über angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "muskelaufbau-ab-40-mann-trainingsplan-tipps",
+    "title": "Muskelaufbau ab 40: Der realistische Plan für Männer mit echtem Alltag",
+    "metaTitle": "Muskelaufbau ab 40: Trainingsplan für Männer",
+    "metaDescription": "Muskelaufbau ab 40 als Mann ist möglich, wenn du clever trainierst. Angelo zeigt dir, was wirklich funktioniert, ohne Knieprobleme oder Erschöpfung.",
+    "date": "2026-06-17",
+    "readMinutes": 4,
+    "excerpt": "Ab 40 tickt dein Körper anders. Trotzdem kannst du Muskeln aufbauen, stark werden und gut aussehen. Hier steht, wie das konkret geht.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du bist über 40, willst wieder in Form kommen, aber das Training von früher funktioniert irgendwie nicht mehr so wie damals. Der Rücken meldet sich, die Energie fehlt am Abend, und drei Tage nach dem Workout tut noch alles weh. Das kenne ich aus meiner täglichen Arbeit als Personal Trainer hier in Köln. Der Körper hat sich verändert. Das Training muss sich also auch verändern."
+      },
+      {
+        "type": "h2",
+        "text": "Warum dein Körper ab 40 anders reagiert"
+      },
+      {
+        "type": "p",
+        "text": "Der Testosteronspiegel sinkt bei Männern ab dem späten dritten Lebensjahrzehnt kontinuierlich. Das ist kein Drama, aber es bedeutet: Muskeln wachsen langsamer, und Fett setzt sich schneller an, besonders am Bauch. Gleichzeitig braucht das Bindegewebe, also Sehnen und Gelenke, deutlich länger, um sich an neue Belastungen zu gewöhnen."
+      },
+      {
+        "type": "p",
+        "text": "Viele Männer machen hier den klassischen Fehler: Sie trainieren wie mit 25, wundern sich über Schmerzen, und hören dann ganz auf. Das ist schade, weil der Muskelaufbau ab 40 absolut möglich ist. Dein Körper braucht nur andere Signale, mehr Pausen und einen smarten Plan statt blindem Volumen."
+      },
+      {
+        "type": "h2",
+        "text": "Wie oft und wie lange du wirklich trainieren solltest"
+      },
+      {
+        "type": "p",
+        "text": "Drei bis vier Einheiten pro Woche sind für die meisten Männer ab 40 der Sweet Spot. Mehr bringt selten mehr, oft bringt es sogar weniger, weil die Regeneration nicht mitkommt. Eine Einheit sollte zwischen 45 und 60 Minuten dauern. Konzentration statt Marathon."
+      },
+      {
+        "type": "p",
+        "text": "Ich empfehle meinen Klienten in Köln ein klassisches Upper-Lower-Split-Modell oder ein Dreier-Ganzkörperprogramm. Beide Varianten erlauben genug Frequenz, damit jede Muskelgruppe zweimal pro Woche trainiert wird, und trotzdem bleibt zwischen den Einheiten genug Zeit zum Erholen. Der Donnerstag als kompletter Ruhetag in der Mitte der Woche ist übrigens oft der entscheidende Unterschied."
+      },
+      {
+        "type": "h2",
+        "text": "Die richtigen Übungen: Was wirklich zählt"
+      },
+      {
+        "type": "p",
+        "text": "Grundübungen bleiben König. Kniebeuge, Kreuzheben, Bankdrücken, Rudern, Schulterdrücken. Diese Bewegungen trainieren viele Muskeln gleichzeitig und sind zeiteffizient. Ab 40 ist Technik aber wichtiger als Gewicht. Lieber fünf Kilo weniger und saubere Wiederholungen."
+      },
+      {
+        "type": "p",
+        "text": "Isolation hat auch ihren Platz, zum Beispiel für Bizeps oder die Rotatorenmanschette. Gerade ältere Gelenke profitieren davon, wenn du die kleinen Stabilisatoren gezielt kräftigst. Was du dagegen weglassen kannst: Übungen, die bei dir persönlich regelmäßig Schmerzen auslösen. Schmerz ist kein Zeichen von Fortschritt, er ist ein Signal."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Kniebeuge: Kniebeugen mit Stange oder Goblet Squat",
+          "Zug: Klimmzüge, Rudern mit Langhantel oder Kabelzug",
+          "Drücken: Bankdrücken, Schulterdrücken sitzend",
+          "Scharnier: Kreuzheben, Romanian Deadlift",
+          "Core: Plank-Varianten, Pallof Press"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Regeneration ist kein Bonus, sie ist Training"
+      },
+      {
+        "type": "p",
+        "text": "Hier liegt der größte Unterschied zu deinen Zwanzigern. Damals konntest du am Freitag durchfeiern, Samstag trainieren und Sonntag wieder fit sein. Das funktioniert heute nicht mehr so. Der Muskel wächst in der Pause, nicht während der Einheit. Wenn du die Pausen streichst, streichst du den Fortschritt."
+      },
+      {
+        "type": "p",
+        "text": "Sieben bis acht Stunden Schlaf sind für Muskelaufbau ab 40 kein Luxus, sondern ein Trainingstool. Schlechter Schlaf erhöht nachweislich Cortisol, bremst die Muskelproteinsynthese und macht dich im Alltag träge. Dazu kommen aktive Erholung, Spaziergänge, leichtes Stretching oder Schwimmen. Das klingt nicht sexy, macht aber den Unterschied."
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung: Protein zuerst, alles andere danach"
+      },
+      {
+        "type": "p",
+        "text": "Ohne ausreichend Protein passiert kein Muskelaufbau, egal wie gut dein Training ist. Als Richtwert gilt ungefähr 1,6 bis 2 Gramm Protein pro Kilogramm Körpergewicht täglich. Das sind bei 85 Kilo also rund 135 bis 170 Gramm. Klingt viel, ist mit etwas Planung gut erreichbar."
+      },
+      {
+        "type": "p",
+        "text": "Hühnchen, Eier, Quark, Hülsenfrüchte, Fisch: Das sind deine Verbündeten. Ein Proteinshake nach dem Training ist praktisch, aber kein Muss. Wer genug über die Mahlzeiten abdeckt, braucht keine Supplemente. Was viele unterschätzen: ausreichend Kalorien insgesamt. Wer dauerhaft in einem Kaloriendefizit trainiert, baut kaum Muskeln auf, egal wie viel Protein er isst."
+      },
+      {
+        "type": "p",
+        "text": "Kein übertriebener Diätdruck. Ab 40 geht es nicht um den absoluten Sixpack in sechs Wochen, sondern um einen nachhaltigen Körper, der auch mit 55 noch gut funktioniert. Iss echte Lebensmittel, achte auf Protein, trink genug Wasser. Der Rest ergibt sich."
+      },
+      {
+        "type": "h2",
+        "text": "Alltag und Training kombinieren: Konkret und ohne Stress"
+      },
+      {
+        "type": "p",
+        "text": "Du hast Job, Familie, vielleicht Pendeln. Das Training muss in dein Leben passen, nicht andersrum. Deswegen sind feste Trainingstage besser als spontane Sessions. Montagabend, Mittwochmorgen, Freitagabend zum Beispiel. Wer es in den Kalender trägt, macht es auch."
+      },
+      {
+        "type": "p",
+        "text": "Kurze Einheiten schlagen gar keine Einheiten immer. Eine 45-Minuten-Session mit Fokus ist besser als eine zweistündige Runde, bei der du die Hälfte der Zeit am Handy bist. Ich sage meinen Klienten in Köln oft: Wer dreimal pro Woche 45 Minuten ernsthaft arbeitet, wird in sechs Monaten kaum wiederzuerkennen sein."
+      },
+      {
+        "type": "p",
+        "text": "Kleine Gewohnheiten drumherum helfen ebenfalls. Treppen statt Aufzug, Mittagsspaziergang, zehn Minuten Mobilität am Morgen. Das ersetzt kein Training, aber es hält dich aktiv und schützt die Gelenke langfristig."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler, die Männer ab 40 machen"
+      },
+      {
+        "type": "p",
+        "text": "Zu viel zu schnell ist der Klassiker. Der erste Motivationsschub nach dem Jahresanfang führt zu fünf Trainingstagen in der ersten Woche, und zwei Wochen später ist alles wieder eingeschlafen, weil der Körper rebelliert. Starte mit weniger, als du denkst zu brauchen, und steigere langsam."
+      },
+      {
+        "type": "p",
+        "text": "Gleichzeitig sehe ich Männer, die seit Jahren dasselbe Gewicht heben und sich wundern, warum sich nichts verändert. Progressive Überladung bleibt das wichtigste Prinzip: Du musst deinen Körper regelmäßig fordern, damit er sich anpasst. Das kann mehr Gewicht sein, mehr Wiederholungen, kürzere Pausen oder mehr Kontrolle bei der Bewegung."
+      },
+      {
+        "type": "p",
+        "text": "Und dann ist da noch der Vergleich mit Social Media. Bodybuilder mit 22 Jahren und freiem Tag für Training und Erholung sind keine realistische Referenz für einen Familienvater in Köln mit 44. Vergleich dich mit dir selbst von vor drei Monaten. Das ist die einzige Metrik, die zählt."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Zu viel Volumen von Anfang an",
+          "Keine progressiven Steigerungen eingebaut",
+          "Schlaf und Erholung vernachlässigt",
+          "Zu wenig Protein über den Tag verteilt",
+          "Schmerzsignale ignoriert statt Technik anzupassen"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Muskelaufbau ab 40 ist kein Wunschdenken, er ist eine Frage der richtigen Herangehensweise. Du brauchst keinen Extremplan, kein Fünf-Tage-Split und keine teuren Supplemente. Du brauchst Konstanz, eine saubere Technik, genug Protein und echten Respekt vor der Erholung. Das klingt unspektakulär, weil es unspektakulär ist, und genau deshalb funktioniert es. Wenn du nicht weißt, wo du anfangen sollst, oder wenn bisherige Versuche nicht geklappt haben, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was zu dir und deinem Alltag passt. Kein Verkaufsdruck, kein Standardprogramm. Einfach ein ehrliches Gespräch."
+      }
+    ]
   }
 ];
 
