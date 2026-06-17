@@ -12455,6 +12455,124 @@ export const blogPosts: BlogPost[] = [
         "text": "Bauchmuskeltraining am Schreibtisch ist kein Ersatz für ein vollständiges Training, aber es ist besser als nichts, und es funktioniert. Fang mit einer Übung an, mach sie dreimal täglich, und beobachte, was passiert. Wenn du merkst, dass du mehr willst, meld dich gerne bei mir. Das kostenlose Erstgespräch unter angelocoach.com ist unverbindlich und dauert keine halbe Stunde. Wir schauen gemeinsam, was für dich wirklich sinnvoll ist."
       }
     ]
+  },
+  {
+    "slug": "rueckenschmerzen-dehnen-morgens-routine",
+    "title": "Rückenschmerzen morgens dehnen: Die 5-Minuten-Routine, die Büroangestellte wirklich brauchen",
+    "metaTitle": "Rückenschmerzen morgens? 5-Min-Dehnroutine für Büros",
+    "metaDescription": "Steif und schmerzhaft in den Tag? Diese 5-Minuten-Dehnroutine hilft Büroangestellten gegen Rückenschmerzen morgens, direkt am Boden oder auf der Matte.",
+    "date": "2026-06-17",
+    "readMinutes": 4,
+    "excerpt": "Jeder Morgen dasselbe: steifer Rücken, ziehendes Gefühl, kaum beweglich. Diese kurze Dehnroutine löst genau das, bevor du überhaupt den Laptop aufklappst.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du kennst das: Der Wecker klingelt, du stehst auf und schon der erste Schritt fühlt sich an wie siebzig. Der Rücken zieht, die Hüfte klemmt, der Nacken dreht sich kaum. Für Büroangestellte ist das kein Ausnahmetag, sondern Alltag. Ich bin Angelo, Personal Trainer in Köln, und ich zeige dir, wie du mit fünf Minuten morgens diesen Teufelskreis zumindest deutlich abschwächst."
+      },
+      {
+        "type": "h2",
+        "text": "Warum der Rücken morgens überhaupt so steif ist"
+      },
+      {
+        "type": "p",
+        "text": "Nachts liegt der Körper stundenlang in derselben Position. Die Bandscheiben saugen Flüssigkeit auf und quellen leicht auf, die kleinen Wirbelgelenke kühlen aus, die Muskulatur rund um die Lendenwirbelsäule verliert ihre Betriebstemperatur. Das ist kein Defekt, das ist normale Physiologie. Das Problem fängt erst an, wenn man direkt von der Schlafstellung in den Bürostuhl wechselt, ohne dazwischen irgendetwas zu mobilisieren."
+      },
+      {
+        "type": "p",
+        "text": "Wer acht Stunden liegt und dann acht Stunden sitzt, zwingt seinen Rücken in einen Dauerzustand, den kein Körper auf Dauer mag. Die hüftbeugenden Muskeln verkürzen, der untere Rücken übernimmt Arbeit, die er nicht übernehmen sollte, und die Schultern wandern nach vorne. Genau deswegen reichen fünf Minuten morgens nicht, um alles zu reparieren, aber sie reichen, um den Unterschied zwischen einem aushaltbaren und einem elenden Vormittag zu machen."
+      },
+      {
+        "type": "h2",
+        "text": "Bevor du anfängst: So bereitest du dich richtig vor"
+      },
+      {
+        "type": "p",
+        "text": "Du brauchst keine Yogamatte für dreihundert Euro. Eine einfache Gymnastikmatte oder sogar ein fester Teppich reichen völlig. Leg sie schon am Abend vorher hin, direkt neben dem Bett. Das klingt banal, ist aber entscheidend: Wenn du morgens erst suchen und vorbereiten musst, machst du es nicht. So simpel ist das."
+      },
+      {
+        "type": "p",
+        "text": "Trag etwas Bequemes, trink vorher ein Glas Wasser und stell dir einen zweiten Alarm, der dir sagt, wann die fünf Minuten um sind. Kein Bildschirm, kein Podcast, keine Ablenkung. Diese fünf Minuten gehören dir und deinem Rücken, sonst nichts. Ich sage das jedem meiner Klienten hier in Köln und es ist immer dieselbe Reaktion: Wer das einmal eine Woche durchzieht, kommt von alleine zurück."
+      },
+      {
+        "type": "h2",
+        "text": "Die 5-Minuten-Dehnroutine Schritt für Schritt"
+      },
+      {
+        "type": "p",
+        "text": "Leg dich auf den Rücken. Ziehe beide Knie zur Brust und halte sie mit den Händen. Atme tief ein, und beim Ausatmen drückst du die Knie sanft näher an den Körper. Dreißig Sekunden. Das entlastet die Lendenwirbelsäule sofort, weil du den Druck aus den kleinen Wirbelgelenken nimmst. Klingt simpel. Ist es auch, aber es wirkt."
+      },
+      {
+        "type": "p",
+        "text": "Danach: Knie zur Brust gelassen, jetzt rollst du beide Knie gemeinsam langsam zur rechten Seite, beide Schultern bleiben flach auf dem Boden. Dreißig Sekunden links, dreißig Sekunden rechts. Das ist die liegende Rotation, und sie öffnet die Brustwirbelsäule auf eine Art, die du nach einer Nacht im Bett fast körperlich hören kannst. Anschließend kommt der Hüftbeuger-Stretch: Einen Fuß auf dem Boden abstellen, das andere Bein nach hinten strecken, Hüfte nach vorne und unten schieben. Sechzig Sekunden pro Seite. Der Hüftbeuger ist bei Büroangestellten fast immer der wahre Schuldige hinter dem Ziehen im unteren Rücken."
+      },
+      {
+        "type": "p",
+        "text": "Zuletzt: Katze-Kuh. Auf allen Vieren, abwechselnd Rücken runden und senken, dabei ruhig atmen. Zehn Wiederholungen, langsam. Diese Bewegung schmiert die Wirbelgelenke durch Synovialflüssigkeit, ohne dass du dabei irgendeinen Druck aufbaust. Nach dieser Sequenz stehst du auf. Der Rücken fühlt sich anders an. Nicht magisch geheilt, aber bewohnbar."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Knie zur Brust: 30 Sekunden",
+          "Liegende Rotation: je 30 Sekunden pro Seite",
+          "Hüftbeuger-Stretch: je 60 Sekunden pro Seite",
+          "Katze-Kuh: 10 langsame Wiederholungen",
+          "Gesamtzeit: ca. 5 Minuten"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Worauf du beim Dehnen wirklich achten musst"
+      },
+      {
+        "type": "p",
+        "text": "Kein Wippen, kein Zähne zusammenbeißen, kein Schmerz durch die er. Das ist der häufigste Fehler, den ich sehe: Leute dehnen sich so aggressiv, als wären sie im Wettbewerb mit sich selbst. Der Muskel spannt dagegen, wenn er zu schnell gezogen wird. Du willst ihn überreden, nicht zwingen. Halte jede Position ruhig, atme gleichmäßig und warte, bis du spürst, wie der Zug nachlässt."
+      },
+      {
+        "type": "p",
+        "text": "Wenn eine Seite deutlich steifer ist als die andere, verbringe dort einfach etwas mehr Zeit. Das ist keine Schwäche, das ist Information. Der Körper ist selten symmetrisch, besonders wenn man regelmäßig auf einer Seite schläft oder die Maus immer mit derselben Hand benutzt. Nimm dir diese Asymmetrien zur Kenntnis, ohne sie zu erzwingen."
+      },
+      {
+        "type": "h2",
+        "text": "Was passiert, wenn du die Routine weglässt"
+      },
+      {
+        "type": "p",
+        "text": "Ein verpasster Morgen ist kein Drama. Zwei, drei Wochen Pause sind es schon. Der Körper lernt schnell, aber er vergisst auch schnell. Wer die Routine konsequent durchzieht, merkt nach einigen Wochen, dass die Morgensteifheit kürzer wird und die Schmerzspitzen am Vormittag seltener auftreten. Wer aufhört, merkt das Gegenteil, meistens leider schneller."
+      },
+      {
+        "type": "p",
+        "text": "Das hier ist kein Versprechen, dass diese Routine all deine Rückenschmerzen heilt. Bei akuten oder chronischen Beschwerden gehört immer ein Arzt oder Physiotherapeut ins Boot, das ist keine Meinung sondern klare Empfehlung. Aber als tägliche Prävention und als erste Maßnahme gegen das morgendliche Ziehen ist diese Fünf-Minuten-Einheit eine der wirkungsvollsten Dinge, die du ohne Aufwand in deinen Alltag integrieren kannst."
+      },
+      {
+        "type": "h2",
+        "text": "Wie du die Routine langfristig in deinen Alltag bringst"
+      },
+      {
+        "type": "p",
+        "text": "Koppel die Routine an etwas, das du sowieso jeden Morgen tust. Kaffee kochen dauert ungefähr fünf Minuten. Statt auf den Wasserkocher zu starren, liegst du auf der Matte. Das nennt sich Habit Stacking und funktioniert besser als jede Willenskraft-Strategie. Ich nutze das selbst so, und ich habe es zig Mal in der Praxis mit Klienten erprobt."
+      },
+      {
+        "type": "p",
+        "text": "Nach etwa vier Wochen täglicher Praxis brauchst du den Wecker-Reminder kaum noch. Die Routine ist dann so automatisch wie Zähneputzen. Wenn du merkst, dass du Variationen brauchst oder die Übungen nicht mehr ausreichen, weil sich die Beschwerden verlagert haben oder stärker geworden sind, dann ist es Zeit, tiefer zu gehen und individuell zu schauen, was dein Rücken wirklich braucht."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Matte abends schon hinlegen",
+          "Routine an Kaffee oder Zähneputzen koppeln",
+          "Timer stellen, damit du nicht auf die Uhr schaust",
+          "Bei Schmerzverstärkung sofort Arzt oder Physio aufsuchen"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Rückenschmerzen morgens sind keine Unvermeidlichkeit. Sie sind meistens ein Signal, dass der Körper nach Stunden der Bewegungslosigkeit ein bisschen Aufmerksamkeit braucht, bevor er wieder funktionieren soll. Diese fünf Minuten sind kein Wundermittel, aber sie sind der ehrlichste Start in einen besseren Morgen, den du ohne Equipment, ohne Fitnessstudio und ohne viel Zeit hinbekommst. Wenn du spürst, dass du mehr brauchst, ob wegen anhaltender Schmerzen, fehlender Fortschritte oder einfach weil du wissen willst, was für deinen Rücken wirklich passt, dann können wir das gemeinsam anschauen. Meld dich einfach für ein kostenloses Erstgespräch auf angelocoach.com, unverbindlich, kein Druck, aber vielleicht genau das, was dir bis jetzt gefehlt hat."
+      }
+    ]
   }
 ];
 
