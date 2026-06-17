@@ -13274,6 +13274,146 @@ export const blogPosts: BlogPost[] = [
         "text": "Eine Fitness-Routine aufzubauen als Berufstätiger ist kein Willenskraftprojekt, es ist ein Designprojekt. Du gestaltest deinen Alltag so, dass Sport die einfachere Wahl wird. Das braucht am Anfang etwas Planung und ein paar Wochen Geduld. Danach läuft es fast von allein. Wenn du dir dabei Unterstützung wünschst, biete ich als Personal Trainer in Köln ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was in deinen konkreten Alltag passt. Kein Verkaufsgespräch, keine Verpflichtung, einfach 30 Minuten mit einem klaren Plan am Ende. Du findest mich auf angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "krafttraining-ab-40-anfaenger-trainingsplan",
+    "title": "Krafttraining ab 40: Der Trainingsplan für Einsteiger, der wirklich funktioniert",
+    "metaTitle": "Krafttraining ab 40: Trainingsplan für Einsteiger",
+    "metaDescription": "Krafttraining ab 40 als Einsteiger starten? Angelo zeigt dir einen realistischen Trainingsplan, der in deinen Alltag passt, ohne Übertreibung, ohne Verletzungen.",
+    "date": "2026-06-17",
+    "readMinutes": 4,
+    "excerpt": "Du bist über 40 und willst endlich mit Krafttraining anfangen? Dieser Guide zeigt dir, wie ein realistischer Einstieg aussieht, der hält, was er verspricht.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Mit 40 anfangen, Gewichte zu heben? Ja, genau jetzt. Viele denken, der Zug sei abgefahren, aber das stimmt schlicht nicht. Der Körper ab 40 braucht einen anderen Einstieg als mit 22, das ist wahr. Er ist aber nicht schlechter, er ist nur anders. Wer das versteht und seinen Trainingsplan danach ausrichtet, wird Ergebnisse sehen, die ihn selbst überraschen."
+      },
+      {
+        "type": "h2",
+        "text": "Warum ab 40 der richtige Zeitpunkt für Krafttraining ist"
+      },
+      {
+        "type": "p",
+        "text": "Ab etwa Mitte dreißig verliert der Körper ohne gezielten Reiz nach und nach Muskelmasse. Das klingt dramatisch, ist aber kein Schicksal. Krafttraining ist das direkteste Gegenmittel, das du hast. Kein Supplement, keine Diät und kein Ausdauertraining setzt diesen Prozess so effektiv außer Kraft wie regelmäßiges Heben."
+      },
+      {
+        "type": "p",
+        "text": "Was viele nicht wissen: Der Körper ab 40 ist oft motivierter als der mit 20. Du weißt, warum du trainierst. Du hast keine Zeit zu verschwenden. Das ist ein echter Vorteil, weil konsequentes Training auf Dauer immer schlägt, was einmal intensiv und dann nie wieder passiert."
+      },
+      {
+        "type": "p",
+        "text": "Ich sehe das in Köln immer wieder, wenn Klienten zum ersten Mal ins Training kommen. Die über 40-Jährigen machen selten Dummheiten aus Ungeduld. Sie hören zu, setzen um und bleiben dran. Das ist genau die Basis, auf der Ergebnisse entstehen."
+      },
+      {
+        "type": "h2",
+        "text": "Was du als Einsteiger ab 40 wirklich brauchst"
+      },
+      {
+        "type": "p",
+        "text": "Du brauchst keinen Split-Plan mit sechs Trainingstagen. Du brauchst keine teuren Geräte und kein Fitnessstudio mit Sauna und Pool. Was du brauchst, ist ein Ganzkörperplan, der zwei bis dreimal pro Woche läuft, auf Grundübungen aufbaut und dir genug Erholung lässt."
+      },
+      {
+        "type": "p",
+        "text": "Erholung ist das Schlüsselwort. Ab 40 regeneriert das Nervensystem langsamer. Das bedeutet nicht, dass du weniger erreichen kannst. Es bedeutet, dass du zwischen den Einheiten mindestens einen Tag Pause einplanst, idealerweise zwei. Wer das ignoriert, trainiert sich früher oder später in eine Erschöpfung, die Wochen kostet."
+      },
+      {
+        "type": "p",
+        "text": "Gleichzeitig: Lass dich nicht von Vergleichen bremsen. Was ein 25-Jähriger im ersten Monat hebt, ist für deinen Start irrelevant. Dein Körper braucht vier bis acht Wochen, um die Bewegungen neurologisch zu lernen, bevor die eigentlichen Kraftzuwächse sichtbar werden. Diese Phase musst du einfach durchlaufen."
+      },
+      {
+        "type": "h2",
+        "text": "Der Trainingsplan für Einsteiger ab 40: Aufbau und Übungen"
+      },
+      {
+        "type": "p",
+        "text": "Der Plan läuft dreimal pro Woche, zum Beispiel Montag, Mittwoch, Freitag. Jede Einheit beginnt mit fünf bis acht Minuten mobilisieren, nicht stretchen, sondern aktiv bewegen. Schulterkreisen, Hüftrotationen, Goblet-Squat als Aufwärmübung. Das kostet wenig Zeit und verhindert viele Probleme."
+      },
+      {
+        "type": "p",
+        "text": "Der Kern jeder Einheit besteht aus vier bis fünf Grundübungen. Kniebeuge oder Goblet-Squat, Kreuzheben in einer vereinfachten Variante, horizontales Drücken wie Liegestütze oder Bankdrücken, horizontales Ziehen wie Rudern mit der Langhantel oder Kurzhantel, und eine Rumpfübung. Das war es. Kein Bizeps-Curl als erstes, keine Isolation bevor die Grundmuster sitzen."
+      },
+      {
+        "type": "p",
+        "text": "Sätze und Wiederholungen: Starte mit zwei bis drei Sätzen pro Übung und acht bis zwölf Wiederholungen. Das Gewicht wählst du so, dass die letzten zwei Wiederholungen fordern, aber die Technik sauber bleibt. Saubere Technik schützt deine Knie, deinen Rücken und deine Schultern, die nach 40 empfindlicher auf Fehler reagieren als vorher."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Goblet-Squat oder Kniebeuge: 3 Sätze, 10 Wdh.",
+          "Rumänisches Kreuzheben: 3 Sätze, 10 Wdh.",
+          "Bankdrücken oder Liegestütz: 3 Sätze, 8-12 Wdh.",
+          "Kurzhantel-Rudern: 3 Sätze, 10 Wdh. je Seite",
+          "Plank oder Dead Bug: 3 Sätze, 20-30 Sekunden"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Progression: Wie du den Plan über Wochen weiterentwickelst"
+      },
+      {
+        "type": "p",
+        "text": "Der häufigste Fehler beim Einstieg ist, zu früh zu viel Gewicht zu nehmen. Starte leichter als du denkst, dass du musst. Nach zwei Wochen, wenn die Bewegungen flüssig werden, erhöhst du das Gewicht um kleine Schritte. Bei der Langhantel reichen oft 2,5 Kilogramm mehr, um die nächste Anpassung auszulösen."
+      },
+      {
+        "type": "p",
+        "text": "Progression bedeutet nicht zwingend immer mehr Gewicht. Sie kann auch heißen: eine Wiederholung mehr pro Satz, eine kürzere Pause zwischen den Sätzen, oder eine technisch anspruchsvollere Variante der Übung. All das zählt als Fortschritt. Dein Körper reagiert auf jeden dieser Reize."
+      },
+      {
+        "type": "p",
+        "text": "Nach acht bis zwölf Wochen machst du eine Woche mit deutlich reduziertem Volumen. Das nennt sich Deload, und es ist kein Zeichen von Schwäche. Es gibt deinem Nervensystem und deinen Gelenken Zeit, das aufzuholen, was du aufgebaut hast. Danach kommst du stärker zurück. Das ist kein Mythos, das ist Physiologie."
+      },
+      {
+        "type": "h2",
+        "text": "Ernährung im Überblick: Was du ab 40 wirklich brauchst"
+      },
+      {
+        "type": "p",
+        "text": "Du musst keine Diät machen. Du musst nicht jeden Makro tracken. Was du tun solltest: ausreichend Protein essen. Für jemanden, der Krafttraining betreibt, werden häufig Werte zwischen 1,6 und 2,2 Gramm Protein pro Kilogramm Körpergewicht diskutiert. Ob es genau diese Menge braucht, hängt von vielen Faktoren ab. Fang damit an, bei jeder Hauptmahlzeit eine gute Proteinquelle zu haben."
+      },
+      {
+        "type": "p",
+        "text": "Magerquark, Eier, Hühnchen, Fisch, Hülsenfrüchte: Das sind keine aufregenden Empfehlungen, aber sie funktionieren. Ab 40 nutzt der Körper Protein für den Muskelaufbau etwas weniger effizient als früher, also lohnt es sich, hier bewusst zu sein. Kein Supplement ersetzt gutes Essen."
+      },
+      {
+        "type": "p",
+        "text": "Schlaf ist keine Ernährungsfrage, aber er gehört in diesen Abschnitt, weil er den gleichen Einfluss hat. Wer dauerhaft schlecht schläft, trainiert gegen einen unsichtbaren Widerstand. Das Muskelwachstum passiert nicht im Training, es passiert in der Erholung. Sieben bis acht Stunden sind kein Luxus, sondern Teil des Plans."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler, die Einsteiger ab 40 ausbremsen"
+      },
+      {
+        "type": "p",
+        "text": "Zu früh zu viel: Das ist der Klassiker. Der erste Trainingsmonat fühlt sich leicht an, man hebt mehr, man trainiert öfter. Und dann kommt der Einbruch. Entweder eine Überlastungsverletzung oder ein mentales Loch, weil die Ergebnisse ausbleiben. Strukturierter Aufbau ist kein Kompromiss, er ist der schnellste Weg."
+      },
+      {
+        "type": "p",
+        "text": "Der andere Fehler ist Ungeduld bei sichtbaren Veränderungen. Der Körper zeigt Ergebnisse erst nach einigen Wochen nach außen, obwohl innen schon viel passiert. Nerven lernen neue Bewegungsmuster, Sehnen und Bänder werden belastbarer, Haltung verbessert sich. Das sieht man nicht sofort im Spiegel, aber man spürt es im Alltag."
+      },
+      {
+        "type": "p",
+        "text": "Kein Plan zu haben ist ebenfalls ein Fehler. Einfach ins Gym gehen und schauen, was man macht, funktioniert kurz, dann fehlt die Orientierung. Ein klarer Trainingsplan mit definierten Übungen, Sätzen und Progression gibt dir etwas, worauf du aufbauen kannst. Und wenn du nicht weißt, wo anfangen, dann ist genau das der Moment, um dir Unterstützung zu holen."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Zu schwere Gewichte in den ersten Wochen",
+          "Zu wenig Pause zwischen den Einheiten",
+          "Keine saubere Technik vor Gewichtssteigerung",
+          "Ernährung komplett ignorieren",
+          "Ergebnisse nach zwei Wochen erwarten",
+          "Keinen festen Plan, nur spontanes Training"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Krafttraining ab 40 ist kein Experiment. Es ist eine der besten Entscheidungen, die du für deinen Körper und deinen Kopf treffen kannst. Was du brauchst, ist ein sauberer Einstieg, ein realistischer Plan und die Geduld, ihn durchzuziehen. Wenn du dir unsicher bist, wo du anfangen sollst, oder wenn du möchtest, dass jemand mit dir zusammen schaut, was für dich persönlich Sinn ergibt: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, keine Verpflichtung. Einfach ein ehrliches Gespräch darüber, was du brauchst. Melde dich gerne über angelocoach.com."
+      }
+    ]
   }
 ];
 
