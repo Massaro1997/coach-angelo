@@ -12313,6 +12313,148 @@ export const blogPosts: BlogPost[] = [
         "text": "Abends Sport treiben und dabei abnehmen ist als Berufstätiger absolut machbar. Es braucht keinen perfekten Zeitplan, sondern einen realistischen. Drei Einheiten pro Woche, sinnvolles Essen rund ums Training, und genug Schlaf. Das ist der Plan. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du die letzten Versuche alleine nicht weitergebracht haben, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was in deinem Alltag wirklich funktioniert. Kein Druck, keine Verkaufsshow, nur ein ehrliches Gespräch über deinen nächsten Schritt."
       }
     ]
+  },
+  {
+    "slug": "bauchmuskeltraining-schreibtisch-buero",
+    "title": "Bauchmuskeltraining am Schreibtisch: 5 Übungen für zwischendurch im Büro",
+    "metaTitle": "Bauchmuskeltraining am Schreibtisch: 5 Übungen",
+    "metaDescription": "5 effektive Core-Übungen direkt am Bürostuhl. Kein Equipment, kein Aufstehen. Angelo, PT aus Köln, zeigt dir, wie Bauchtraining im Büro wirklich funktioniert.",
+    "date": "2026-06-17",
+    "readMinutes": 4,
+    "excerpt": "Kein Platz, keine Zeit, kein Equipment. Diese 5 Core-Übungen trainierst du direkt am Schreibtisch, ohne aufzustehen, und spürst den Unterschied schon nach wenigen Tagen.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du sitzt acht Stunden am Tag, der Rücken zieht, der Bauch hängt nach vorne. Klingt vertraut. Das Gute daran: du brauchst weder eine Yogamatte noch einen freien Nachmittag, um dagegen anzugehen. Ich zeige dir fünf Übungen, die du direkt auf deinem Bürostuhl machen kannst, konkret, ohne Fachchinesisch, und mit sofortigem Effekt auf Spannung und Haltung."
+      },
+      {
+        "type": "h2",
+        "text": "Warum dein Core im Büro leidet und was du dagegen tun kannst"
+      },
+      {
+        "type": "p",
+        "text": "Langes Sitzen schaltet die tiefe Bauchmuskulatur regelrecht ab. Der Körper lernt: ich werde getragen, ich muss nichts tun. Das Problem dabei ist, dass genau diese tiefen Muskeln deinen Rücken stabilisieren. Wenn sie schlafen, übernehmen andere Strukturen die Arbeit, und das merkst du abends als Verspannung im unteren Rücken oder als dumpfes Ziehen in der Lendenwirbelsäule."
+      },
+      {
+        "type": "p",
+        "text": "Der klassische Fehler ist, dass man denkt, man müsse ins Fitnessstudio, um das zu korrigieren. Nein. Gezielte Aktivierungsübungen am Stuhl reichen, um die Verbindung zwischen Gehirn und Muskel wieder herzustellen. Es geht nicht um Erschöpfung, sondern um Bewusstsein und Ansteuerung. Kleine Reize, regelmäßig gesetzt, verändern mehr als ein einmaliges hartes Training pro Woche."
+      },
+      {
+        "type": "h2",
+        "text": "So sitzt du richtig, bevor du anfängst"
+      },
+      {
+        "type": "p",
+        "text": "Bevor wir zu den Übungen kommen, eine kurze Sache zur Ausgangshaltung. Setz dich auf die Vorderkante deines Stuhls, beide Füße flach auf dem Boden, Knie ungefähr in einem rechten Winkel. Die Hände legst du locker auf die Oberschenkel. Hör auf, dich an die Lehne zu lehnen. Das klingt nach nichts, aktiviert aber allein schon die Rumpfmuskulatur."
+      },
+      {
+        "type": "p",
+        "text": "Diese Position ist die Basis für alle folgenden Übungen. Sie funktioniert in jedem Bürostuhl, egal ob du in einem Großraumbüro in Köln sitzt oder im Homeoffice. Niemand sieht, dass du gerade trainierst. Das ist einer der echten Vorteile dieser Methode."
+      },
+      {
+        "type": "h2",
+        "text": "Die 5 Bauchübungen direkt am Schreibtisch"
+      },
+      {
+        "type": "p",
+        "text": "Hier sind die fünf Übungen, die ich meinen Klienten empfehle, wenn sie tagsüber keinen Trainingsblock einbauen können. Jede dauert zwischen dreißig Sekunden und zwei Minuten. Du kannst sie einzeln machen oder als kurze Sequenz hintereinander."
+      },
+      {
+        "type": "p",
+        "text": "Übung 1: Statische Bauchspannung. Atme aus, ziehe dabei den Bauchnabel Richtung Wirbelsäule und halte die Spannung zehn Sekunden, dann locker lassen. Das aktiviert den Transversus abdominis, also den tiefsten Teil der Bauchmuskulatur. Drei Wiederholungen reichen für den Einstieg."
+      },
+      {
+        "type": "p",
+        "text": "Übung 2: Beckenkippung im Sitzen. Kippe dein Becken bewusst nach vorne, lass dann den Rücken leicht rund werden, und komm wieder in eine neutrale Position. Langsam, kontrolliert, ohne Schwung. Diese Bewegung macht die Verbindung zwischen Bauch und unterem Rücken spürbar. Zehn Wiederholungen, ruhig atmen dabei."
+      },
+      {
+        "type": "p",
+        "text": "Übung 3: Knie heben. Hebe ein Knie langsam ein paar Zentimeter vom Stuhl ab und halte drei bis fünf Sekunden, dann wechseln. Der Hüftbeuger arbeitet hier zwar mit, aber wenn du gleichzeitig die Bauchspannung hältst, trainierst du den unteren Bauchbereich spürbar. Acht Wiederholungen pro Seite."
+      },
+      {
+        "type": "p",
+        "text": "Übung 4: Seitliche Spannung. Drücke mit der Innenseite deiner rechten Hand gegen dein rechtes Knie, während das Knie dagegen drückt. Beide Kräfte heben sich auf, es passiert keine sichtbare Bewegung. Halte zehn Sekunden, dann links. Das aktiviert die seitliche Bauchmuskulatur, die oft komplett ignoriert wird."
+      },
+      {
+        "type": "p",
+        "text": "Übung 5: Atemübung mit Core-Fokus. Atme vier Sekunden tief in den Bauch ein, dann vier Sekunden langsam aus, und beim Ausatmen aktivierst du bewusst die Bauchspannung aus Übung 1. Diese Kombination ist keine Entspannungsübung, sie trainiert die Koordination zwischen Zwerchfell und tiefer Bauchmuskulatur. Fünf Atemzüge genügen."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Statische Bauchspannung: 3x 10 Sekunden halten",
+          "Beckenkippung: 10 langsame Wiederholungen",
+          "Knie heben: 8 Wiederholungen pro Seite",
+          "Seitliche Spannung: 3x 10 Sekunden pro Seite",
+          "Atemübung mit Core-Fokus: 5 kontrollierte Atemzüge"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wie oft solltest du diese Übungen machen"
+      },
+      {
+        "type": "p",
+        "text": "Die ehrliche Antwort lautet: Lieber dreimal täglich zwei Minuten als einmal am Tag zwanzig Minuten. Dein Nervensystem lernt durch Wiederholung, nicht durch Dauer. Verknüpfe die Übungen mit Momenten, die sowieso passieren: vor dem ersten Kaffee, nach jedem Videocall, bevor du in die Mittagspause gehst."
+      },
+      {
+        "type": "p",
+        "text": "Du wirst am Anfang keine sichtbaren Veränderungen merken. Das ist normal. Was du merken wirst, ist eine bessere Körperwahrnehmung nach ein bis zwei Wochen. Du sitzt aufrechter, ohne bewusst daran zu denken. Dein Rücken zieht weniger am Abend. Das sind die ersten Zeichen, dass die Muskulatur anfängt, ihre Arbeit wieder zu tun."
+      },
+      {
+        "type": "h2",
+        "text": "Was diese Übungen nicht ersetzen können"
+      },
+      {
+        "type": "p",
+        "text": "Schreibtischübungen sind ein Werkzeug, kein vollständiges Training. Sie halten dich im Alltag funktionsfähig und bauen einer Verschlechterung vor. Wenn du aber echten Muskelaufbau, eine stabilere Körpermitte oder konkrete Haltungskorrektur willst, brauchst du mehr Struktur."
+      },
+      {
+        "type": "p",
+        "text": "Ein gezielter Trainingsplan, der deine Schwachstellen kennt, wirkt deutlich schneller als isolierte Einzelübungen. Ich sehe das bei meinen Klienten aus Köln regelmäßig: Wer seinen Core nach einem echten Plan trainiert, merkt den Unterschied in der Alltagsbelastung, beim Tragen, beim Stehen, beim Sitzen unter Druck in langen Meetings."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler beim Bauchtraining im Sitzen"
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer eins ist Luft anhalten. Viele Menschen pressen beim Halten der Spannung und vergessen zu atmen. Das erhöht den inneren Druck unnötig und macht die Übung weniger effektiv. Atme durch alle Übungen hindurch, gleichmäßig und ohne Hektik."
+      },
+      {
+        "type": "p",
+        "text": "Fehler Nummer zwei ist zu viel auf einmal wollen. Zwanzig Knieheben hintereinander bringen weniger als acht saubere Wiederholungen mit voller Körperwahrnehmung. Qualität schlägt Quantität hier deutlicher als in fast jeder anderen Trainingsform. Verlangsame die Bewegung, fühle nach, was passiert."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Luft anhalten statt gleichmäßig atmen",
+          "Zu viele Wiederholungen statt sauberer Ausführung",
+          "Auf die Stuhllehne lehnen während der Übung",
+          "Einmal pro Woche trainieren und Ergebnis erwarten"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Schreibtischtraining als Teil einer größeren Strategie"
+      },
+      {
+        "type": "p",
+        "text": "Diese fünf Übungen sind ein guter Anfang. Aber ein guter Anfang sollte zu etwas führen. Wer seinen Körper nachhaltig verändern will, braucht irgendwann eine Struktur, die über den Bürostuhl hinausgeht. Mobility, Krafttraining, Alltagsbelastung richtig dosieren, das gehört zusammen."
+      },
+      {
+        "type": "p",
+        "text": "Ich arbeite in Köln mit Berufstätigen, die wenig Zeit haben und trotzdem echte Ergebnisse wollen. Kein Gym-Bro-Ansatz, kein Programm von der Stange. Konkrete Pläne, die in dein Leben passen. Wenn du neugierig bist, wie das für dich aussehen könnte, dann ist das kostenlose Erstgespräch bei mir dafür genau der richtige erste Schritt."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Bauchmuskeltraining am Schreibtisch ist kein Ersatz für ein vollständiges Training, aber es ist besser als nichts, und es funktioniert. Fang mit einer Übung an, mach sie dreimal täglich, und beobachte, was passiert. Wenn du merkst, dass du mehr willst, meld dich gerne bei mir. Das kostenlose Erstgespräch unter angelocoach.com ist unverbindlich und dauert keine halbe Stunde. Wir schauen gemeinsam, was für dich wirklich sinnvoll ist."
+      }
+    ]
   }
 ];
 
