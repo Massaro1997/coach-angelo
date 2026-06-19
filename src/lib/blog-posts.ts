@@ -16238,6 +16238,135 @@ export const blogPosts: BlogPost[] = [
         "text": "Du hast jetzt die wichtigsten Punkte, um einen Online Fitness Coach zu finden, der wirklich zu dir passt. Keine Magie, keine Garantien, aber ein klarer Rahmen. Wenn du dir unsicher bist, ob mein Ansatz zu deinen Zielen passt, lade ich dich zu einem kostenlosen Erstgespräch ein. Kein Druck, keine Verkaufstaktiken. Nur ein ehrliches Gespräch über das, was du brauchst. Du findest mich unter angelocoach.com."
       }
     ]
+  },
+  {
+    "slug": "muskelaufbau-wie-viel-protein-pro-tag",
+    "title": "Muskelaufbau: Wie viel Protein pro Tag brauchst du wirklich?",
+    "metaTitle": "Wie viel Protein für Muskelaufbau? Menge für Anfänger",
+    "metaDescription": "Wie viel Protein pro Tag für Muskelaufbau? Angelo erklärt die genaue Gramm-Menge pro Körpergewicht mit einfachen Alltagsbeispielen für Einsteiger.",
+    "date": "2026-06-19",
+    "readMinutes": 4,
+    "excerpt": "Zu wenig Protein bremst deinen Muskelaufbau, zu viel bringt nichts extra. Angelo zeigt dir die konkrete Menge pro Kilogramm Körpergewicht.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Du trainierst, du willst Muskeln aufbauen, und irgendwer hat dir gesagt, du musst jetzt Protein essen bis zum Abwinken. Stimmt so nicht ganz. Die Frage ist nicht, ob du Protein brauchst, das brauchst du definitiv. Die Frage ist: wie viel genau, und woher bekommst du es ohne komplizierte Berechnungen und ohne jeden Tag Hähnchenbrust zu essen?"
+      },
+      {
+        "type": "h2",
+        "text": "Warum Protein für den Muskelaufbau so entscheidend ist"
+      },
+      {
+        "type": "p",
+        "text": "Wenn du trainierst, entstehen in deinen Muskelfasern kleine Risse. Klingt schlimmer als es ist. Genau dieser Prozess ist der Startschuss für Muskelwachstum, und dein Körper braucht Protein, um diese Risse zu reparieren und die Muskeln dabei etwas dicker aufzubauen. Ohne ausreichend Eiweiß läuft dieser Reparaturprozess auf Sparflamme."
+      },
+      {
+        "type": "p",
+        "text": "Protein liefert die Aminosäuren, die dein Körper als Baumaterial benutzt. Du kannst noch so hart trainieren, wenn das Material fehlt, passiert wenig. Das ist keine Theorie, das merken meine Klienten hier in Köln regelmäßig selbst, wenn sie ihre Proteinzufuhr von 60 Gramm auf 140 Gramm erhöhen und plötzlich nach einigen Wochen spürbare Veränderungen sehen."
+      },
+      {
+        "type": "h2",
+        "text": "Die konkrete Gramm-Empfehlung pro Kilogramm Körpergewicht"
+      },
+      {
+        "type": "p",
+        "text": "Als Faustregel gilt für Anfänger im Krafttraining: 1,6 bis 2,0 Gramm Protein pro Kilogramm Körpergewicht täglich. Das ist der Bereich, in dem du deinen Muskelaufbau tatsächlich unterstützt, ohne dass du mehr Protein verarbeitest als dein Körper sinnvoll nutzen kann. Höhere Mengen bringen keinen zusätzlichen Vorteil beim Muskelaufbau, sie werden einfach als Energie verbrannt."
+      },
+      {
+        "type": "p",
+        "text": "Hier ein paar konkrete Beispiele aus meiner täglichen Arbeit. Du wiegst 70 Kilogramm, dann brauchst du 112 bis 140 Gramm Protein täglich. Du wiegst 90 Kilogramm, dann sind es 144 bis 180 Gramm. Diese Zahlen klingen viel, lassen sich aber auf fünf Mahlzeiten gut verteilen, ohne dass du jeden Bissen abwiegen musst."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "60 kg Körpergewicht: ca. 96 bis 120 g Protein täglich",
+          "70 kg Körpergewicht: ca. 112 bis 140 g Protein täglich",
+          "80 kg Körpergewicht: ca. 128 bis 160 g Protein täglich",
+          "90 kg Körpergewicht: ca. 144 bis 180 g Protein täglich",
+          "100 kg Körpergewicht: ca. 160 bis 200 g Protein täglich"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Alltagsbeispiele: So sieht deine Proteinzufuhr konkret aus"
+      },
+      {
+        "type": "p",
+        "text": "Nehmen wir Lars, 35 Jahre alt, 78 Kilogramm, Bürojob, trainiert dreimal pro Woche. Er braucht ungefähr 125 bis 155 Gramm Protein am Tag. Frühstück mit drei Eiern und 200 Gramm Magerquark liefert schon gut 40 Gramm. Mittagessen mit 150 Gramm Lachs und Gemüse bringt weitere 35 Gramm. Nachmittags ein Glas Hüttenkäse, abends 200 Gramm Hähnchenbrust oder Linsen und er ist nah dran."
+      },
+      {
+        "type": "p",
+        "text": "Der Trick liegt im Verteilen. Nicht 80 Gramm auf einmal abends, sondern gleichmäßig über den Tag. Dein Körper kann pro Mahlzeit nur eine begrenzte Menge Protein für den Muskelaufbau verwerten, ungefähr 30 bis 40 Gramm laut aktueller Erkenntnisse. Was darüber hinausgeht, nutzt er als Energiequelle. Vier bis fünf proteinreiche Mahlzeiten täglich ist also smarter als zwei Riesenportion."
+      },
+      {
+        "type": "h2",
+        "text": "Pflanzlich oder tierisch: Was ist besser für Muskelaufbau?"
+      },
+      {
+        "type": "p",
+        "text": "Tierische Proteinquellen wie Eier, Quark, Hüttenkäse, Fisch und Fleisch haben eine hohe biologische Wertigkeit. Das bedeutet, dein Körper kann das Eiweiß daraus besonders gut verwerten. Das macht sie effizient, aber nicht zwingend notwendig, wenn du pflanzlich essen willst."
+      },
+      {
+        "type": "p",
+        "text": "Pflanzliche Quellen wie Linsen, Kichererbsen, Tofu, Tempeh, Edamame und Seitan liefern ebenfalls ordentlich Protein, aber meistens nicht alle essentiellen Aminosäuren in einem einzigen Lebensmittel. Die Lösung ist simpel: kombinieren. Reis mit Bohnen, Vollkornbrot mit Hummus, Linsensuppe mit Joghurt. So deckst du dein Aminosäurenprofil auch komplett pflanzlich ab."
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler bei der Proteinzufuhr als Anfänger"
+      },
+      {
+        "type": "p",
+        "text": "Der größte Fehler ist, Protein nur rund ums Training zu denken. Viele Anfänger trinken nach dem Sport ihren Shake und glauben, damit sei es getan. Aber die Gesamtmenge über den ganzen Tag zählt. Ein einzelner Shake mit 30 Gramm Protein ändert wenig, wenn du sonst kaum Eiweiß isst."
+      },
+      {
+        "type": "p",
+        "text": "Ein anderer Klassiker: Zu viel auf Supplements setzen und normale Lebensmittel vergessen. Proteinpulver ist praktisch, kein Muss. Magerquark zum Beispiel kostet wenig, enthält 13 Gramm Protein pro 100 Gramm und ist im Supermarkt an jeder Ecke in Köln oder anderswo zu finden. Essen kommt immer zuerst, Pulver ist nur Ergänzung falls nötig."
+      },
+      {
+        "type": "p",
+        "text": "Dazu kommt noch das Timing-Missverständnis. Klar ist es sinnvoll, nach dem Training Protein zu essen, das sogenannte anabole Fenster ist aber wesentlich größer als früher gedacht, mehrere Stunden, nicht 20 Minuten. Du musst nicht hektisch deinen Shake runterkippen, bevor du geduscht hast."
+      },
+      {
+        "type": "h2",
+        "text": "Protein tracken: Muss das sein oder reicht es ohne App?"
+      },
+      {
+        "type": "p",
+        "text": "Am Anfang lohnt es sich, zwei bis drei Wochen lang seine Ernährung zu tracken. Nicht für immer, nur um ein Gefühl dafür zu kriegen, was du eigentlich isst. Die meisten Anfänger, die mir sagen, sie essen schon genug Protein, kommen bei genauem Hinsehen auf 70 bis 80 Gramm täglich. Das ist für einen aktiven Erwachsenen schlicht zu wenig für echten Muskelaufbau."
+      },
+      {
+        "type": "p",
+        "text": "Eine App wie Cronometer oder MyFitnessPal hilft dabei, die eigene Ernährung einmal realistisch zu sehen. Nach ein paar Wochen weißt du intuitiv, was wie viel Protein bringt, und kannst das Tracking wieder sein lassen. Das Ziel ist, ein Gefühl zu entwickeln, kein lebenslanges Abwiegen jedes Grammkörners."
+      },
+      {
+        "type": "p",
+        "text": "Wenn dir das Tracken zu aufwendig ist, nutze die Daumenregel: Bei jeder Hauptmahlzeit eine ordentliche Proteinquelle. Morgens Eier oder Quark, mittags Hülsenfrüchte oder Fisch, abends Fleisch oder Tofu. So kommst du als 75 Kilogramm schwerer Mensch ziemlich nah an die empfohlenen 120 bis 150 Gramm täglich."
+      },
+      {
+        "type": "h2",
+        "text": "Proteinbedarf bei wenig Zeit und Alltagsstress"
+      },
+      {
+        "type": "p",
+        "text": "Berufstätige Anfänger haben oft das Problem, dass Zeit fehlt. Kein Meal Prep, kein ausgewogenes Mittagessen, abends erschöpft. Ich kenne das von meinen Klienten in Köln zu gut. Die Lösung liegt nicht in perfekten Mahlzeiten, sondern in einfachen Proteinhacks für unterwegs."
+      },
+      {
+        "type": "p",
+        "text": "Griechischer Joghurt im Glas für zwischendurch. Ein paar hart gekochte Eier, die du am Abend vorher machst. Eine Dose Thunfisch mit Vollkornbrot in zehn Minuten. Hüttenkäse mit Früchten als Snack. Diese Sachen brauchen keine Kochausbildung und keine freie Stunde in der Küche. Sie summieren sich aber schnell auf 50 bis 60 Gramm Protein, die du sonst einfach nicht essen würdest."
+      },
+      {
+        "type": "p",
+        "text": "Wenn du mal einen Tag nicht auf deine Menge kommst, ist das kein Drama. Muskelaufbau ist ein Wochenprojekt, kein Tagesprojekt. Wichtig ist der Durchschnitt über mehrere Tage, nicht die perfekte Tagesleistung."
+      },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
+      {
+        "type": "p",
+        "text": "Muskelaufbau ist kein Geheimnis, aber er braucht Struktur. Die richtige Proteinmenge ist ein zentraler Baustein, und du hast jetzt die konkreten Zahlen und Beispiele dafür. Wenn du dir nicht sicher bist, ob deine Ernährung und dein Training wirklich zusammenpassen, lass uns das zusammen anschauen. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Alltag unter die Lupe nehmen und einen konkreten Plan entwickeln. Schreib mir einfach auf angelocoach.com."
+      }
+    ]
   }
 ];
 
