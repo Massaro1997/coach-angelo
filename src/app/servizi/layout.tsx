@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/servizi`,
     title: "Servizi | Coach Angelo",
     description: "Personal Training 1-a-1, Online Coaching e schede di allenamento personalizzate.",
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image"],
   },
 };
 

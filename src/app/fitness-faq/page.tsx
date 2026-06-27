@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/fitness-faq`,
     title: "Fitness FAQ | Coach Angelo",
     description: "Ehrliche Antworten auf die häufigsten Fitness-Fragen: Abnehmen, Muskelaufbau, Ernährung und Training.",
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image"],
   },
 };
 

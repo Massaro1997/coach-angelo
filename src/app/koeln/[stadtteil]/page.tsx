@@ -30,7 +30,7 @@ export async function generateMetadata({
       url,
       title: `Personal Trainer in Köln-${st.name}`,
       description: `Personal Training und Online Coaching in Köln-${st.name}. WABBA Athlet, kostenlose Erstberatung.`,
-      images: ["/og-image.jpg"],
+      images: ["/opengraph-image"],
     },
   };
 }

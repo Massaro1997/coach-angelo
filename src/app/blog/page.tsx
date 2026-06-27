@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/blog`,
     title: "Fitness Blog Köln | Coach Angelo",
     description: "Ehrliche Antworten zu Training, Abnehmen und Muskelaufbau in Köln. WABBA International Athlet.",
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image"],
   },
 };
 

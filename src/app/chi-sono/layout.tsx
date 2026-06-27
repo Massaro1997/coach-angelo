@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/chi-sono`,
     title: "Chi Sono | Coach Angelo",
     description: "Angelo Magliarisi, Personal Trainer a Colonia e atleta WABBA International.",
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image"],
   },
 };
 

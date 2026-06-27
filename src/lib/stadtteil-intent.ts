@@ -106,8 +106,23 @@ export function buildContent(st: Stadtteil, intent: Intent): IntentContent {
     outdoorBody = `${st.name} ist dicht bebaut und liegt abseits der großen Parks. Für ${st.name} setze ich auf Studio-Krafttraining plus Online-Steuerung des Plans.`;
   }
 
+  // Frase unica per Stadtteil: dati reali del quartiere interpolati nel corpo intent,
+  // così ogni pagina ha contenuto che varia davvero (anti near-duplicate).
+  const intentLocal =
+    ownSpots.length > 0
+      ? `In ${st.name} läuft das konkret so: die Kraftarbeit im Studio, die Outdoor-Anteile an Orten wie ${ownSpots[0]}${ownSpots.length > 1 ? ` und ${ownSpots[1]}` : ""}, je nach Tagesform.`
+      : nbSpots.length > 0
+        ? `${st.name} selbst hat keine eigene Trainingsfläche, also kombiniere ich Studio-Krafttraining mit Conditioning-Einheiten in ${nbSpots[0].name} (${nbSpots[0].spots[0]}), nur ein paar Minuten entfernt.`
+        : `${st.name} ist dicht bebaut und parkarm, deshalb steuere ich hier alles über Studio-Krafttraining plus Plan per App, ohne Zeitverlust für Anfahrten zu Grünflächen.`;
+
+  const denseHint =
+    d > 10000
+      ? `Bei ${de(d)} Einwohnern pro Quadratkilometer ist ${st.name} eng getaktet, kurze Wege zum Termin zählen, deshalb halte ich die Slots in ${st.name} flexibel.`
+      : `Mit ${de(d)} Einwohnern pro Quadratkilometer hat ${st.name} mehr Luft als die Innenstadt, das nutze ich für ruhigere Trainingsfenster unter der Woche.`;
+
   const intentBody =
-    `Was ${intent.label} in ${st.name} angeht: ${intent.hook} ` +
+    `Was ${intent.label} in ${st.name} (Bezirk ${st.bezirk}, ${de(st.einwohner)} Einwohner) angeht: ${intent.hook} ` +
+    `${intentLocal} ${denseHint} ` +
     `Egal ob du an der Grenze zu ${nb[0]?.name ?? "einem Nachbarstadtteil"} wohnst oder mitten in ${st.name}, der Plan wird auf deine Ausgangslage gebaut.`;
 
   const slug = `${intent.key}-koeln-${st.slug}`;

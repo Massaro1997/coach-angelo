@@ -30,7 +30,7 @@ export async function generateMetadata({
       description: post.metaDescription,
       publishedTime: post.date,
       authors: ["Angelo Magliarisi"],
-      images: ["/og-image.jpg"],
+      images: ["/opengraph-image"],
     },
   };
 }
@@ -61,7 +61,7 @@ export default async function BlogPostPage({
         description: post.metaDescription,
         datePublished: post.date,
         dateModified: post.date,
-        image: `${siteUrl}/og-image.jpg`,
+        image: `${siteUrl}/opengraph-image`,
         mainEntityOfPage: { "@type": "WebPage", "@id": url },
         author: {
           "@type": "Person",

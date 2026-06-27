@@ -38,7 +38,7 @@ export async function generateMetadata({
       url: c.url,
       title: c.h1,
       description: c.metaDescription,
-      images: ["/og-image.jpg"],
+      images: ["/opengraph-image"],
     },
   };
 }

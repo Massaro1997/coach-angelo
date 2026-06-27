@@ -29,7 +29,7 @@ export async function generateMetadata({
       url,
       title: f.question,
       description: f.shortAnswer.slice(0, 155),
-      images: ["/og-image.jpg"],
+      images: ["/opengraph-image"],
     },
   };
 }

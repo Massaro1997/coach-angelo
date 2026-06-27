@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/testimonianze`,
     title: "Testimonianze | Coach Angelo",
     description: "Risultati reali dei clienti di Coach Angelo, Personal Trainer a Colonia.",
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image"],
   },
 };
 

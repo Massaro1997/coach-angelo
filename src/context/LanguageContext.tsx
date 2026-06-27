@@ -20,6 +20,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.services': 'Servizi',
     'nav.about': 'Chi Sono',
     'nav.testimonials': 'Testimonianze',
+    'nav.koeln': 'Köln',
     'nav.contact': 'Contatti',
 
     // Home
@@ -154,6 +155,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.services': 'Leistungen',
     'nav.about': 'Über Mich',
     'nav.testimonials': 'Bewertungen',
+    'nav.koeln': 'Köln',
     'nav.contact': 'Kontakt',
 
     // Home

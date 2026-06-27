@@ -30,7 +30,7 @@ export async function generateMetadata({
       url,
       title: `${it.label} in Köln`,
       description: `${it.metaIntent} in Köln, in allen 86 Stadtteilen. WABBA Athlet, kostenlose Erstberatung.`,
-      images: ["/og-image.jpg"],
+      images: ["/opengraph-image"],
     },
   };
 }

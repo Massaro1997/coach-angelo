@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/personal-trainer-koeln`,
     title: "Personal Trainer Köln | Coach Angelo",
     description: "1-zu-1 Training, Online Coaching und individuelle Trainingspläne in Köln. WABBA International Athlet.",
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image"],
   },
 };
 

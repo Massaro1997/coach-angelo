@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/contatti`,
     title: "Contatti | Coach Angelo",
     description: "Prenota la tua consulenza gratuita con Coach Angelo, Personal Trainer a Colonia.",
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image"],
   },
 };
 
