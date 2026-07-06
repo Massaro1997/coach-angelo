@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     default: "Coach Angelo | Personal Trainer Köln",
     template: "%s | Coach Angelo",
   },
-  description: "Personal Trainer in Köln. WABBA International Athlet. Personal Training 1-zu-1, Online Coaching und individuelle Trainingspläne. Kostenlose Erstberatung.",
+  description: "Personal Trainer in Köln. WABBA Athlet. Personal Training 1-zu-1, Online Coaching und Trainingspläne. Kostenlose Erstberatung.",
   keywords: [
     "personal trainer Köln",
     "fitness coach Köln",
@@ -140,6 +140,13 @@ const jsonLd = {
       },
       geo: { "@type": "GeoCoordinates", latitude: 50.9375, longitude: 6.9603 },
       areaServed: { "@type": "City", name: "Köln" },
+      // Stesso valore mostrato in homepage ("4,9/5 · 100+ clienti")
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        bestRating: "5",
+        reviewCount: "100",
+      },
     },
   ],
 };
@@ -150,7 +157,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="it">
+    <html lang="de">
       <head>
         <script
           type="application/ld+json"

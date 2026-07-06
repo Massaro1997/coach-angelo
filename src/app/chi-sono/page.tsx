@@ -24,9 +24,9 @@ export default function ChiSono() {
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
         </div>
         <div className="px-6 -mt-8 relative z-10 pb-4">
-          <h1 className="text-5xl font-black text-ink uppercase leading-[0.9] mb-4">
+          <p className="text-5xl font-black text-ink uppercase leading-[0.9] mb-4">
             Angelo<br /><span className="text-accent">Magliarisi</span>
-          </h1>
+          </p>
           <p className="text-lg text-ink/80 font-medium">
             {de
               ? "Aus Sizilien. Seit 10 Jahren in Köln. Auf der Bühne und an deiner Seite."

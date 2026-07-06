@@ -120,9 +120,9 @@ export default function Servizi() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <p className="text-accent uppercase tracking-[0.2em] text-xs font-semibold mb-4">{t.discountBadge}</p>
-            <h2 className="text-3xl md:text-4xl font-black text-ink uppercase mb-4">
+            <h1 className="text-3xl md:text-4xl font-black text-ink uppercase mb-4">
               {t.readyPlans} <span className="text-accent">{t.readyPlansHighlight}</span>
-            </h2>
+            </h1>
             <p className="text-lg text-ink/60 max-w-2xl">{t.readyPlansDesc}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
