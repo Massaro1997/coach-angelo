@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { resend, NOTIFY_EMAILS, FROM_EMAIL } from "@/lib/resend";
+import { gmailTransport, GMAIL_FROM } from "@/lib/gmail";
 import { contactNotificationEmail, contactConfirmationEmail } from "@/lib/email-templates";
 
 export async function POST(request: NextRequest) {
@@ -42,9 +43,9 @@ export async function POST(request: NextRequest) {
       ? `${message}\n---\nSorgente: ${sourceParts.join(" | ")}`
       : message;
 
-    // Invia email di notifica al proprietario con template professionale
-    await resend.emails.send({
-      from: FROM_EMAIL,
+    // Notifica interna via Gmail SMTP (ufficio.massaro, come Orchestra)
+    await gmailTransport.sendMail({
+      from: GMAIL_FROM,
       to: NOTIFY_EMAILS,
       subject: `🔔 Nuovo contatto da ${name}`,
       html: contactNotificationEmail({
