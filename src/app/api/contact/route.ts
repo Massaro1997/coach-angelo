@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { resend, OWNER_EMAIL, FROM_EMAIL } from "@/lib/resend";
+import { resend, NOTIFY_EMAILS, FROM_EMAIL } from "@/lib/resend";
 import { contactNotificationEmail, contactConfirmationEmail } from "@/lib/email-templates";
 
 export async function POST(request: NextRequest) {
@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
     // Invia email di notifica al proprietario con template professionale
     await resend.emails.send({
       from: FROM_EMAIL,
-      to: OWNER_EMAIL,
+      to: NOTIFY_EMAILS,
       subject: `🔔 Nuovo contatto da ${name}`,
       html: contactNotificationEmail({
         name,

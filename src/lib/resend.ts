@@ -5,5 +5,8 @@ export const resend = new Resend(process.env.RESEND_API_KEY);
 // Email del proprietario per ricevere notifiche
 export const OWNER_EMAIL = "angelocoach74@gmail.com";
 
+// Destinatari notifiche nuovi lead (Angelo + Calogero)
+export const NOTIFY_EMAILS = [OWNER_EMAIL, "massarocalogero1997@gmail.com"];
+
 // Email mittente (dominio verificato su Resend)
 export const FROM_EMAIL = "Coach Angelo <info@angelocoach.com>";
