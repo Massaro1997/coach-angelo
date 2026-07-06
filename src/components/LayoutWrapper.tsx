@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CartSidebar from "@/components/CartSidebar";
 import CookieBanner from "@/components/CookieBanner";
+import AttributionTracker from "@/components/AttributionTracker";
 import { CartProvider } from "@/context/CartContext";
 import { LanguageProvider } from "@/context/LanguageContext";
 
@@ -25,6 +26,7 @@ export default function LayoutWrapper({
   return (
     <LanguageProvider>
       <CartProvider>
+        <AttributionTracker />
         <Header />
         <main>{children}</main>
         <Footer />

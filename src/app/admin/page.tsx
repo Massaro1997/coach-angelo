@@ -11,6 +11,35 @@ interface Contact {
   message: string;
   createdAt: string;
   read: boolean;
+  referrer: string | null;
+  landingPage: string | null;
+  utmSource: string | null;
+  utmMedium: string | null;
+  utmCampaign: string | null;
+}
+
+// Etichetta sorgente leggibile da referrer/utm
+function sourceLabel(c: Contact): { label: string; color: string } | null {
+  if (c.utmSource) {
+    return { label: `${c.utmSource}${c.utmMedium ? ` / ${c.utmMedium}` : ""}`, color: "bg-purple-500/20 text-purple-300" };
+  }
+  if (c.referrer) {
+    try {
+      const host = new URL(c.referrer).hostname.replace(/^www\./, "");
+      if (host.includes("google")) return { label: "Google", color: "bg-blue-500/20 text-blue-300" };
+      if (host.includes("instagram")) return { label: "Instagram", color: "bg-pink-500/20 text-pink-300" };
+      if (host.includes("tiktok")) return { label: "TikTok", color: "bg-teal-500/20 text-teal-300" };
+      if (host.includes("facebook")) return { label: "Facebook", color: "bg-blue-500/20 text-blue-300" };
+      if (host.includes("bing")) return { label: "Bing", color: "bg-cyan-500/20 text-cyan-300" };
+      return { label: host, color: "bg-neutral-600/40 text-white/70" };
+    } catch {
+      return { label: c.referrer, color: "bg-neutral-600/40 text-white/70" };
+    }
+  }
+  if (c.landingPage) {
+    return { label: "Diretto / sconosciuto", color: "bg-neutral-600/40 text-white/60" };
+  }
+  return null;
 }
 
 interface OrderItem {
@@ -249,6 +278,29 @@ export default function AdminPage() {
                       </p>
                     )}
                   </div>
+                  {(() => {
+                    const src = sourceLabel(contact);
+                    if (!src && !contact.landingPage) return null;
+                    return (
+                      <div className="flex flex-wrap items-center gap-2 mb-4 text-xs">
+                        {src && (
+                          <span className={`px-2.5 py-1 rounded-full font-semibold ${src.color}`}>
+                            {src.label}
+                          </span>
+                        )}
+                        {contact.landingPage && (
+                          <span className="text-white/40">
+                            Landing: <span className="text-white/60">{contact.landingPage}</span>
+                          </span>
+                        )}
+                        {contact.utmCampaign && (
+                          <span className="text-white/40">
+                            Campagna: <span className="text-white/60">{contact.utmCampaign}</span>
+                          </span>
+                        )}
+                      </div>
+                    );
+                  })()}
                   <div className="bg-neutral-700/50 rounded-lg p-4">
                     <p className="text-white/80 whitespace-pre-wrap">{contact.message}</p>
                   </div>

@@ -6,7 +6,7 @@ import { contactNotificationEmail, contactConfirmationEmail } from "@/lib/email-
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, phone, service, message } = body;
+    const { name, email, phone, service, message, referrer, landingPage, utmSource, utmMedium, utmCampaign } = body;
 
     // Validazione base
     if (!name || !email || !message) {
@@ -24,8 +24,23 @@ export async function POST(request: NextRequest) {
         phone: phone || null,
         service: service || null,
         message,
+        referrer: referrer || null,
+        landingPage: landingPage || null,
+        utmSource: utmSource || null,
+        utmMedium: utmMedium || null,
+        utmCampaign: utmCampaign || null,
       },
     });
+
+    // Riga sorgente nella mail di notifica
+    const sourceParts = [
+      referrer ? `Referrer: ${referrer}` : null,
+      landingPage ? `Landing: ${landingPage}` : null,
+      utmSource ? `UTM: ${utmSource}${utmMedium ? ` / ${utmMedium}` : ""}${utmCampaign ? ` / ${utmCampaign}` : ""}` : null,
+    ].filter(Boolean);
+    const messageWithSource = sourceParts.length
+      ? `${message}\n---\nSorgente: ${sourceParts.join(" | ")}`
+      : message;
 
     // Invia email di notifica al proprietario con template professionale
     await resend.emails.send({
@@ -37,7 +52,7 @@ export async function POST(request: NextRequest) {
         email,
         phone,
         service,
-        message,
+        message: messageWithSource,
       }),
     });
 

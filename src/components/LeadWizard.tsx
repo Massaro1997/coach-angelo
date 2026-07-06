@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useLanguage } from "@/context/LanguageContext";
+import { getAttribution } from "@/lib/attribution";
 
 type WizardAnswers = {
   goal: string;
@@ -176,6 +177,7 @@ export default function LeadWizard({ bare = false }: { bare?: boolean }) {
           phone: contact.phone,
           service: answers.service,
           message,
+          ...getAttribution(),
         }),
       });
 

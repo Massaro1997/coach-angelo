@@ -20,6 +20,13 @@ model Contact {
   message   String
   createdAt DateTime @default(now())
   read      Boolean  @default(false)
+
+  // Attribuzione sorgente (prima visita della sessione)
+  referrer    String?
+  landingPage String?
+  utmSource   String?
+  utmMedium   String?
+  utmCampaign String?
 }
 
 // Modello per gli ordini dal checkout
