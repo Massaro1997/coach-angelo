@@ -22,14 +22,14 @@ export async function generateMetadata({
   const stats = bezirkStats(b);
   const url = `${siteUrl}/personal-trainer-koeln/${b.slug}`;
   return {
-    title: `Personal Trainer Köln-${b.name} | Coach Angelo`,
+    title: `Personal Trainer Bezirk Köln-${b.name}`,
     description: `Personal Training und Online Coaching im Bezirk Köln-${b.name} (${stats.count} Stadtteile, ${stats.einwohner.toLocaleString("de-DE")} Einwohner). WABBA Athlet, kostenlose Erstberatung.`,
     alternates: { canonical: url },
     openGraph: {
       type: "website",
       locale: "de_DE",
       url,
-      title: `Personal Trainer in Köln-${b.name}`,
+      title: `Personal Trainer im Bezirk Köln-${b.name}`,
       description: `Personal Training und Online Coaching im Bezirk Köln-${b.name}. WABBA Athlet, kostenlose Erstberatung.`,
       images: ["/opengraph-image"],
     },
@@ -87,7 +87,7 @@ export default async function BezirkPage({
             / Stadtbezirk
           </p>
           <h1 className="text-4xl sm:text-5xl font-black text-ink uppercase mb-6">
-            Personal Trainer in <span className="text-accent">Köln-{b.name}</span>
+            Personal Trainer im Bezirk <span className="text-accent">Köln-{b.name}</span>
           </h1>
           <div className="space-y-4 text-lg text-ink/70 leading-relaxed max-w-prose">
             {b.intro.map((p, i) => (

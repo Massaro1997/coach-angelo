@@ -21,7 +21,7 @@ export async function generateMetadata({
   if (!st) return {};
   const url = `${siteUrl}/koeln/${st.slug}`;
   return {
-    title: `Personal Trainer Köln-${st.name} | Coach Angelo`,
+    title: `Personal Trainer Köln-${st.name}`,
     description: `Personal Training, Abnehmen, Muskelaufbau und Online Coaching in Köln-${st.name} (${st.bezirk}, ${st.einwohner.toLocaleString("de-DE")} Einwohner). WABBA Athlet, kostenlose Erstberatung.`,
     alternates: { canonical: url },
     openGraph: {

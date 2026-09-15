@@ -5,7 +5,7 @@ import { fitnessFaqs, faqCategories, faqsByCategory } from "@/lib/fitness-faq";
 const siteUrl = "https://www.angelocoach.com";
 
 export const metadata: Metadata = {
-  title: "Fitness FAQ | Antworten zu Abnehmen, Muskelaufbau & Training",
+  title: "Fitness FAQ: Abnehmen, Muskelaufbau, Training",
   description:
     "Ehrliche Antworten auf die häufigsten Fitness-Fragen: Abnehmen, Muskelaufbau, Ernährung und Training. Von Angelo Magliarisi, Personal Trainer in Köln und WABBA Athlet.",
   alternates: { canonical: `${siteUrl}/fitness-faq` },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
     url: `${siteUrl}/fitness-faq`,
-    title: "Fitness FAQ | Coach Angelo",
+    title: "Fitness FAQ",
     description: "Ehrliche Antworten auf die häufigsten Fitness-Fragen: Abnehmen, Muskelaufbau, Ernährung und Training.",
     images: ["/opengraph-image"],
   },

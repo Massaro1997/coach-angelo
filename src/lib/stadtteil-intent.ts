@@ -166,7 +166,9 @@ export function buildContent(st: Stadtteil, intent: Intent): IntentContent {
     slug,
     url,
     h1,
-    metaTitle: `${intent.label} in Köln-${st.name} | Coach Angelo`,
+    // 'Krafttraining statt EMS' sfora i 60 char sui nomi doppi (Bocklemünd/Mengenich):
+    // nel title uso la forma breve, H1 e contenuto restano invariati.
+    metaTitle: `${intent.key === "ems-alternative" ? "EMS-Alternative" : intent.label} in Köln-${st.name}`,
     metaDescription: `${intent.metaIntent} in Köln-${st.name} (${st.bezirk}, ${de(st.einwohner)} Einwohner). WABBA Athlet, kostenlose Erstberatung, Antwort in 24h.`,
     intro,
     paragraphs: [

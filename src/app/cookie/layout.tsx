@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 const siteUrl = "https://www.angelocoach.com";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy | Coach Angelo",
+  title: "Cookie Policy",
   description: "Informativa sui cookie utilizzati da angelocoach.com.",
   alternates: { canonical: `${siteUrl}/cookie` },
 };

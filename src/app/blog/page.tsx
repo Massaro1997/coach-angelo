@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { blogPosts } from "@/lib/blog-posts";
+import { allPosts } from "@/lib/blog-posts";
 
 const siteUrl = "https://www.angelocoach.com";
 
 export const metadata: Metadata = {
-  title: "Fitness Blog Köln | Coach Angelo",
+  title: "Fitness Blog Köln",
   description:
     "Ehrliche Antworten zu Training, Abnehmen und Muskelaufbau in Köln. Geschrieben von Angelo Magliarisi, Personal Trainer und WABBA International Athlet.",
   alternates: { canonical: `${siteUrl}/blog` },
@@ -38,7 +38,7 @@ export default function BlogIndex() {
       <section className="pb-20 sm:pb-28 bg-background">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="border-t border-line">
-            {blogPosts.map((post) => (
+            {allPosts.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}

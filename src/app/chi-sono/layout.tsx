@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 const siteUrl = "https://www.angelocoach.com";
 
 export const metadata: Metadata = {
-  title: "Chi Sono | Coach Angelo",
+  title: "Chi Sono",
   description:
     "Angelo Magliarisi, Personal Trainer a Colonia e atleta WABBA International. Storia, metodo e approccio all'allenamento personalizzato.",
   alternates: { canonical: `${siteUrl}/chi-sono` },

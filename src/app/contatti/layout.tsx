@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 const siteUrl = "https://www.angelocoach.com";
 
 export const metadata: Metadata = {
-  title: "Contatti | Coach Angelo",
+  title: "Contatti",
   description:
     "Prenota la tua consulenza gratuita con Coach Angelo, Personal Trainer a Colonia. Rispondo entro 24 ore.",
   alternates: { canonical: `${siteUrl}/contatti` },

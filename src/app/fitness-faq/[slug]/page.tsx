@@ -20,7 +20,7 @@ export async function generateMetadata({
   if (!f) return {};
   const url = `${siteUrl}/fitness-faq/${f.slug}`;
   return {
-    title: `${f.question} | Coach Angelo`,
+    title: f.question,
     description: f.shortAnswer.slice(0, 155),
     alternates: { canonical: url },
     openGraph: {

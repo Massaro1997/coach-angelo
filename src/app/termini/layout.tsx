@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 const siteUrl = "https://www.angelocoach.com";
 
 export const metadata: Metadata = {
-  title: "Termini e Condizioni | Coach Angelo",
+  title: "Termini e Condizioni",
   description: "Termini e condizioni di utilizzo dei servizi di Coach Angelo, Personal Trainer a Colonia.",
   alternates: { canonical: `${siteUrl}/termini` },
 };

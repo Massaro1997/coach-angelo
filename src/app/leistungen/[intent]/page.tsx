@@ -21,7 +21,7 @@ export async function generateMetadata({
   if (!it) return {};
   const url = `${siteUrl}/leistungen/${it.key}`;
   return {
-    title: `${it.label} in Köln | Coach Angelo`,
+    title: `${it.label} in Köln`,
     description: `${it.metaIntent} in Köln, in allen 86 Stadtteilen. WABBA International Athlet, kostenlose Erstberatung, Antwort in 24h.`,
     alternates: { canonical: url },
     openGraph: {

@@ -101,7 +101,7 @@ export function buildStadtteilContent(st: Stadtteil): StadtteilContent {
 
   return {
     h1: `Personal Trainer in Köln-${st.name}`,
-    metaTitle: `Personal Trainer Köln-${st.name} | Coach Angelo`,
+    metaTitle: `Personal Trainer Köln-${st.name}`,
     metaDescription: `Personal Training und Online Coaching in Köln-${st.name} (${st.bezirk}). WABBA Athlet, kostenlose Erstberatung, Antwort in 24h. Abnehmen, Muskelaufbau, Wettkampf.`,
     intro: introParts.join(" "),
     trainingTitle:
