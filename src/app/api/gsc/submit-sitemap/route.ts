@@ -1,10 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { requireAdmin } from '@/lib/admin-auth';
 import { submitSitemap } from '@/lib/gsc-client';
 
 export const dynamic = 'force-dynamic';
 
 // Submitta la sitemap principale. Opzionale: ?url= per una specifica.
 export async function POST(req: NextRequest) {
+  // Dati Search Console e quota Indexing API: solo admin autenticato.
+  const denied = await requireAdmin();
+  if (denied) return denied;
+
   try {
     const { searchParams } = new URL(req.url);
     const single = searchParams.get('url');

@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import AdminGate, { adminLogout } from "@/components/AdminGate";
+import Conversioni from "@/components/admin/Conversioni";
 
 interface Contact {
   id: string;
@@ -68,38 +70,20 @@ interface Order {
 }
 
 export default function AdminPage() {
-  const [activeTab, setActiveTab] = useState<"contacts" | "orders">("contacts");
+  return (
+    <AdminGate>
+      <AdminDashboard />
+    </AdminGate>
+  );
+}
+
+function AdminDashboard() {
+  const [activeTab, setActiveTab] = useState<"conversioni" | "contacts" | "orders">("conversioni");
   const [contacts, setContacts] = useState<Contact[]>([]);
   const [orders, setOrders] = useState<Order[]>([]);
   const [loading, setLoading] = useState(true);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
-
-  // Password semplice per protezione base
-  const ADMIN_PASSWORD = "angelo2024";
-
-  const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (password === ADMIN_PASSWORD) {
-      setIsAuthenticated(true);
-      setError("");
-      localStorage.setItem("admin_auth", "true");
-    } else {
-      setError("Password errata");
-    }
-  };
 
   useEffect(() => {
-    // Check if already authenticated
-    if (localStorage.getItem("admin_auth") === "true") {
-      setIsAuthenticated(true);
-    }
-  }, []);
-
-  useEffect(() => {
-    if (!isAuthenticated) return;
-
     const fetchData = async () => {
       setLoading(true);
       try {
@@ -125,7 +109,7 @@ export default function AdminPage() {
     };
 
     fetchData();
-  }, [isAuthenticated]);
+  }, []);
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleString("it-IT", {
@@ -137,46 +121,6 @@ export default function AdminPage() {
     });
   };
 
-  const handleLogout = () => {
-    setIsAuthenticated(false);
-    localStorage.removeItem("admin_auth");
-  };
-
-  if (!isAuthenticated) {
-    return (
-      <div className="min-h-screen bg-neutral-900 pt-32 pb-20 flex items-center justify-center">
-        <div className="bg-neutral-800 rounded-2xl p-8 w-full max-w-md">
-          <h1 className="text-2xl font-bold text-white mb-6 text-center">
-            Admin Login
-          </h1>
-          <form onSubmit={handleLogin} className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium text-white/80 mb-2">
-                Password
-              </label>
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                className="w-full px-4 py-3 rounded-lg bg-neutral-700 border border-neutral-600 text-white focus:ring-2 focus:ring-gold focus:border-transparent outline-none"
-                placeholder="Inserisci password"
-              />
-            </div>
-            {error && (
-              <p className="text-red-400 text-sm">{error}</p>
-            )}
-            <button
-              type="submit"
-              className="w-full bg-gold text-white px-6 py-3 rounded-full font-semibold"
-            >
-              Accedi
-            </button>
-          </form>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div className="min-h-screen bg-neutral-900 pt-24 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -187,34 +131,31 @@ export default function AdminPage() {
               Admin Dashboard
             </span>
           </h1>
-          <button
-            onClick={handleLogout}
-            className="text-white/60 hover:text-white text-sm"
-          >
-            Logout
-          </button>
-        </div>
-
-        {/* Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <div className="bg-neutral-800 rounded-xl p-6">
-            <h3 className="text-white/60 text-sm mb-2">Contatti Totali</h3>
-            <p className="text-3xl font-bold text-white">{contacts.length}</p>
-          </div>
-          <div className="bg-neutral-800 rounded-xl p-6">
-            <h3 className="text-white/60 text-sm mb-2">Ordini Totali</h3>
-            <p className="text-3xl font-bold text-white">{orders.length}</p>
-          </div>
-          <div className="bg-neutral-800 rounded-xl p-6">
-            <h3 className="text-white/60 text-sm mb-2">Fatturato Totale</h3>
-            <p className="text-3xl font-bold text-gold">
-              €{orders.reduce((sum, order) => sum + order.totalPrice, 0).toFixed(2)}
-            </p>
+          <div className="flex items-center gap-4">
+            <a href="/admin/gsc" className="text-white/60 hover:text-white text-sm">
+              Search Console
+            </a>
+            <button
+              onClick={() => adminLogout()}
+              className="text-white/60 hover:text-white text-sm"
+            >
+              Logout
+            </button>
           </div>
         </div>
 
         {/* Tabs */}
-        <div className="flex gap-4 mb-6">
+        <div className="flex flex-wrap gap-4 mb-6">
+          <button
+            onClick={() => setActiveTab("conversioni")}
+            className={`px-6 py-3 rounded-full font-semibold transition-all ${
+              activeTab === "conversioni"
+                ? "bg-gold text-white"
+                : "bg-neutral-800 text-white/60 hover:text-white"
+            }`}
+          >
+            Conversioni
+          </button>
           <button
             onClick={() => setActiveTab("contacts")}
             className={`px-6 py-3 rounded-full font-semibold transition-all ${
@@ -238,7 +179,9 @@ export default function AdminPage() {
         </div>
 
         {/* Content */}
-        {loading ? (
+        {activeTab === "conversioni" ? (
+          <Conversioni />
+        ) : loading ? (
           <div className="text-center py-12">
             <div className="w-12 h-12 border-4 border-gold border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
             <p className="text-white/60">Caricamento...</p>

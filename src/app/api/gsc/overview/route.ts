@@ -2,6 +2,7 @@
 // GET /api/gsc/overview
 
 import { NextResponse } from 'next/server';
+import { requireAdmin } from '@/lib/admin-auth';
 import { listSitemaps, searchAnalytics, GSC_PROPERTY } from '@/lib/gsc-client';
 
 export const dynamic = 'force-dynamic';
@@ -13,6 +14,10 @@ function daysAgo(n: number): string {
 }
 
 export async function GET() {
+  // Dati Search Console e quota Indexing API: solo admin autenticato.
+  const denied = await requireAdmin();
+  if (denied) return denied;
+
   try {
     const endDate = daysAgo(3); // GSC delay 2-3 giorni
     const startDate7 = daysAgo(10);

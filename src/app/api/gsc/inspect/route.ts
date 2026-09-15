@@ -2,11 +2,16 @@
 // GET /api/gsc/inspect?url=https://www.angelocoach.com/some-page
 
 import { NextResponse } from 'next/server';
+import { requireAdmin } from '@/lib/admin-auth';
 import { inspectUrl } from '@/lib/gsc-client';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(req: Request) {
+  // Dati Search Console e quota Indexing API: solo admin autenticato.
+  const denied = await requireAdmin();
+  if (denied) return denied;
+
   const { searchParams } = new URL(req.url);
   const url = searchParams.get('url');
   if (!url) {

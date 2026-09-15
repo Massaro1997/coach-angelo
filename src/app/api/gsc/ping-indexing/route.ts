@@ -4,11 +4,16 @@
 // GET /api/gsc/ping-indexing?url=https://...
 
 import { NextResponse } from 'next/server';
+import { requireAdmin } from '@/lib/admin-auth';
 import { pingIndexing } from '@/lib/gsc-client';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(req: Request) {
+  // Dati Search Console e quota Indexing API: solo admin autenticato.
+  const denied = await requireAdmin();
+  if (denied) return denied;
+
   const { searchParams } = new URL(req.url);
   const url = searchParams.get('url');
   if (!url) return NextResponse.json({ error: 'Missing ?url=' }, { status: 400 });
@@ -21,6 +26,10 @@ export async function GET(req: Request) {
 }
 
 export async function POST(req: Request) {
+  // Dati Search Console e quota Indexing API: solo admin autenticato.
+  const denied = await requireAdmin();
+  if (denied) return denied;
+
   try {
     const body = await req.json();
     const urls: string[] = body.urls || [];

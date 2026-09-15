@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { requireAdmin } from "@/lib/admin-auth";
 
 // POST: salva un documento (contratto o Rechnung) nell'archivio
 export async function POST(request: NextRequest) {
@@ -32,6 +33,10 @@ export async function POST(request: NextRequest) {
 
 // GET: lista documenti archiviati
 export async function GET() {
+  // Questa rotta espone dati personali: solo admin autenticato.
+  const denied = await requireAdmin();
+  if (denied) return denied;
+
   try {
     const docs = await prisma.document.findMany({ orderBy: { createdAt: "desc" } });
     return NextResponse.json(docs);
