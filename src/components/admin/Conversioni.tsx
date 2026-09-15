@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { MousePointerClick, Inbox, TrendingUp, Euro } from "lucide-react";
+import { Card, Stat, Barre, Sparkbars, EmptyState, cx } from "./ui";
 
 interface Voce { nome: string; n: number }
 interface PaginaGsc { path: string; clic: number; impressioni: number; posizione: number; lead: number }
 
-interface Dati {
+export interface DatiConversioni {
   periodo: { giorni: number; da: string; a: string };
   lead: {
     totale: number;
@@ -31,66 +33,64 @@ interface Dati {
 const PERIODI = [7, 28, 90, 365];
 
 function Delta({ ora, prima }: { ora: number; prima: number }) {
-  if (prima === 0 && ora === 0) return <span className="text-white/40">=</span>;
-  if (prima === 0) return <span className="text-emerald-400">nuovo</span>;
+  if (prima === 0 && ora === 0) return <span className="text-neutral-400">nessuna variazione</span>;
+  if (prima === 0) return <span className="text-green-600 font-semibold">nuovi</span>;
   const pct = Math.round(((ora - prima) / prima) * 100);
   const su = pct >= 0;
   return (
-    <span className={su ? "text-emerald-400" : "text-red-400"}>
-      {su ? "▲" : "▼"} {Math.abs(pct)}%
+    <span className={cx("font-semibold", su ? "text-green-600" : "text-red-500")}>
+      {su ? "▲" : "▼"} {Math.abs(pct)}% <span className="font-normal text-neutral-400">vs prec.</span>
     </span>
   );
 }
 
-function Tessera({ titolo, valore, sotto }: { titolo: string; valore: string; sotto?: React.ReactNode }) {
+function Tabella({
+  righe,
+  colonna,
+  tono,
+}: {
+  righe: PaginaGsc[];
+  colonna: "lead" | "posizione";
+  tono: "green" | "amber";
+}) {
   return (
-    <div className="bg-neutral-800 rounded-xl p-5 border border-white/5">
-      <p className="text-xs uppercase tracking-wider text-white/45 mb-2">{titolo}</p>
-      <p className="text-3xl font-bold text-white tabular-nums">{valore}</p>
-      {sotto && <p className="text-sm mt-1">{sotto}</p>}
-    </div>
+    <table className="w-full text-xs">
+      <thead>
+        <tr className="border-b border-black/[0.07] text-[10px] uppercase tracking-wider text-neutral-400">
+          <th className="pb-2 text-left font-bold">Pagina</th>
+          <th className="pb-2 text-right font-bold">Clic</th>
+          <th className="pb-2 text-right font-bold">{colonna === "lead" ? "Lead" : "Pos."}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {righe.map((p) => (
+          <tr key={p.path} className="border-b border-black/[0.04] last:border-0">
+            <td className="max-w-[240px] truncate py-2 text-neutral-700" title={p.path}>
+              {p.path}
+            </td>
+            <td className="py-2 text-right tabular-nums text-neutral-500">{p.clic}</td>
+            <td
+              className={cx(
+                "py-2 text-right font-bold tabular-nums",
+                tono === "green" ? "text-green-600" : "text-amber-600"
+              )}
+            >
+              {colonna === "lead" ? p.lead : p.posizione}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
   );
 }
 
-/** Barre orizzontali: leggibili senza libreria di grafici. */
-function Barre({ voci, vuoto }: { voci: Voce[]; vuoto: string }) {
-  if (!voci.length) return <p className="text-white/40 text-sm">{vuoto}</p>;
-  const max = Math.max(...voci.map((v) => v.n), 1);
-  return (
-    <div className="space-y-2">
-      {voci.map((v) => (
-        <div key={v.nome} className="flex items-center gap-3">
-          <span className="text-sm text-white/70 w-44 shrink-0 truncate" title={v.nome}>{v.nome}</span>
-          <div className="flex-1 h-5 bg-neutral-700/40 rounded overflow-hidden">
-            <div className="h-full bg-emerald-500/70 rounded" style={{ width: `${(v.n / max) * 100}%` }} />
-          </div>
-          <span className="text-sm text-white font-semibold tabular-nums w-10 text-right">{v.n}</span>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function Andamento({ punti }: { punti: { giorno: string; n: number }[] }) {
-  if (!punti.length) return null;
-  const max = Math.max(...punti.map((p) => p.n), 1);
-  return (
-    <div className="flex items-end gap-[2px] h-24">
-      {punti.map((p) => (
-        <div
-          key={p.giorno}
-          title={`${p.giorno}: ${p.n} lead`}
-          className="flex-1 bg-emerald-500/60 hover:bg-emerald-400 rounded-sm transition-colors min-h-[2px]"
-          style={{ height: `${(p.n / max) * 100}%` }}
-        />
-      ))}
-    </div>
-  );
-}
-
-export default function Conversioni() {
+export default function Conversioni({
+  onDati,
+}: {
+  onDati?: (d: DatiConversioni) => void;
+}) {
   const [giorni, setGiorni] = useState(28);
-  const [dati, setDati] = useState<Dati | null>(null);
+  const [dati, setDati] = useState<DatiConversioni | null>(null);
   const [caricando, setCaricando] = useState(true);
   const [errore, setErrore] = useState("");
 
@@ -99,170 +99,149 @@ export default function Conversioni() {
     setErrore("");
     fetch(`/api/admin/conversioni?giorni=${giorni}`)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error("Errore " + r.status))))
-      .then(setDati)
+      .then((d: DatiConversioni) => {
+        setDati(d);
+        onDati?.(d);
+      })
       .catch((e) => setErrore(e.message))
       .finally(() => setCaricando(false));
+    // onDati e' una callback stabile del padre: non entra fra le dipendenze
+    // per non rilanciare la fetch a ogni render.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [giorni]);
 
-  if (caricando && !dati) return <p className="text-white/50 py-10">Carico i dati...</p>;
-  if (errore) return <p className="text-red-400 py-10">{errore}</p>;
+  if (caricando && !dati) return <p className="py-10 text-sm text-neutral-400">Carico i dati…</p>;
+  if (errore) return <p className="py-10 text-sm text-red-500">{errore}</p>;
   if (!dati) return null;
 
   const { lead, ordini, gsc } = dati;
-
-  // Pagine che portano traffico ma non convertono: dove intervenire.
-  const daSistemare = gsc.ok
-    ? gsc.pagine.filter((p) => p.clic >= 5 && p.lead === 0).slice(0, 12)
-    : [];
-  // Pagine che convertono davvero.
+  const daSistemare = gsc.ok ? gsc.pagine.filter((p) => p.clic >= 5 && p.lead === 0).slice(0, 12) : [];
   const cheConvertono = gsc.ok
     ? gsc.pagine.filter((p) => p.lead > 0).sort((a, b) => b.lead - a.lead).slice(0, 12)
     : [];
 
   return (
-    <div className="space-y-8">
-      <div className="flex flex-wrap items-center gap-2">
+    <div className="space-y-4 sm:space-y-5">
+      <div className="flex flex-wrap items-center gap-1.5">
         {PERIODI.map((g) => (
           <button
             key={g}
             onClick={() => setGiorni(g)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-              giorni === g ? "bg-white text-neutral-900" : "bg-neutral-800 text-white/70 hover:bg-neutral-700"
-            }`}
+            className={cx(
+              "px-3 py-1.5 text-[11px] font-bold uppercase tracking-wide transition-all",
+              giorni === g
+                ? "bg-neutral-900 text-white"
+                : "border border-black/10 bg-white text-neutral-500 hover:border-black/30"
+            )}
           >
             {g === 365 ? "12 mesi" : `${g} giorni`}
           </button>
         ))}
-        {caricando && <span className="text-white/40 text-sm ml-2">aggiorno...</span>}
+        {caricando && <span className="ml-1 text-[11px] text-neutral-400">aggiorno…</span>}
       </div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <Tessera
-          titolo="Lead"
-          valore={String(lead.totale)}
-          sotto={<><Delta ora={lead.totale} prima={lead.precedente} /> <span className="text-white/40">vs periodo prec.</span></>}
+      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+        <Stat
+          label="Lead"
+          value={lead.totale}
+          tone="brand"
+          icon={<Inbox className="h-4 w-4" />}
+          sub={<Delta ora={lead.totale} prima={lead.precedente} />}
         />
-        <Tessera
-          titolo="Da leggere"
-          valore={String(lead.daLeggere)}
-          sotto={lead.daLeggere > 0 ? <span className="text-amber-400">richiedono risposta</span> : <span className="text-white/40">tutto letto</span>}
+        <Stat
+          label="Da leggere"
+          value={lead.daLeggere}
+          tone={lead.daLeggere > 0 ? "red" : "green"}
+          sub={lead.daLeggere > 0 ? "richiedono risposta" : "tutto letto"}
         />
-        <Tessera
-          titolo="Clic da Google"
-          valore={gsc.ok ? String(gsc.clic) : "—"}
-          sotto={gsc.ok
-            ? <span className="text-white/40">pos. media {gsc.posizioneMedia}</span>
-            : <span className="text-amber-400">Search Console non collegata</span>}
+        <Stat
+          label="Clic da Google"
+          value={gsc.ok ? gsc.clic : "—"}
+          tone="blue"
+          icon={<MousePointerClick className="h-4 w-4" />}
+          sub={gsc.ok ? `posizione media ${gsc.posizioneMedia}` : "Search Console scollegata"}
         />
-        <Tessera
-          titolo="Fatturato"
-          valore={`${ordini.fatturato.toLocaleString("it-IT", { minimumFractionDigits: 2 })} €`}
-          sotto={<span className="text-white/40">{ordini.pagati} ordini pagati su {ordini.totale}</span>}
+        <Stat
+          label="Fatturato"
+          value={`${ordini.fatturato.toLocaleString("it-IT", { minimumFractionDigits: 2 })} €`}
+          tone="green"
+          icon={<Euro className="h-4 w-4" />}
+          sub={`${ordini.pagati} ordini pagati su ${ordini.totale}`}
         />
       </div>
 
       {gsc.ok && gsc.clic > 0 && (
-        <div className="bg-neutral-800 rounded-xl p-5 border border-white/5">
-          <p className="text-xs uppercase tracking-wider text-white/45 mb-1">Da clic a lead</p>
-          <p className="text-white/70 text-sm">
-            <span className="text-2xl font-bold text-white tabular-nums">
+        <Card title="Da clic a contatto">
+          <p className="text-sm text-neutral-600">
+            <span className="text-2xl font-bold tabular-nums text-neutral-900">
               {((lead.totale / gsc.clic) * 100).toFixed(1)}%
             </span>{" "}
-            dei clic da Google e&apos; diventato un contatto ({lead.totale} su {gsc.clic}).
+            dei clic da Google è diventato un contatto ({lead.totale} su {gsc.clic}).
           </p>
+        </Card>
+      )}
+
+      {!gsc.ok && (
+        <div className="border border-amber-500/40 bg-amber-50 p-4">
+          <p className="text-sm font-bold text-amber-800">Search Console non collegata</p>
+          <p className="mt-1 text-xs text-amber-700">{gsc.errore}</p>
+          <p className="mt-2 text-xs text-amber-600">
+            Lead e ordini qui sotto sono comunque reali: mancano solo i dati di ricerca.
+          </p>
+        </div>
+      )}
+
+      <Card title="Lead al giorno" subtitle={`${dati.periodo.da} → ${dati.periodo.a}`}>
+        <Sparkbars
+          punti={lead.perGiorno.map((p) => ({ label: p.giorno, n: p.n }))}
+          etichetta={(p) => `${p.label}: ${p.n} lead`}
+        />
+      </Card>
+
+      <div className="grid gap-4 lg:grid-cols-2">
+        <Card title="Da dove arrivano">
+          <Barre voci={lead.perCanale} vuoto="Nessun lead nel periodo." />
+        </Card>
+        <Card title="Che tipo di pagina li porta">
+          <Barre voci={lead.perFamiglia} vuoto="Nessuna pagina di atterraggio registrata." />
+        </Card>
+        <Card title="Servizio richiesto">
+          <Barre voci={lead.perServizio} vuoto="Nessun lead nel periodo." />
+        </Card>
+        <Card title="Pagine di atterraggio">
+          <Barre voci={lead.perPagina.slice(0, 10)} vuoto="Nessuna pagina registrata." />
+        </Card>
+      </div>
+
+      {gsc.ok && (
+        <div className="grid gap-4 lg:grid-cols-2">
+          <Card title="Pagine che convertono" subtitle="Traffico da Google diventato contatto">
+            {cheConvertono.length ? (
+              <Tabella righe={cheConvertono} colonna="lead" tono="green" />
+            ) : (
+              <EmptyState titolo="Nessuna pagina ha ancora prodotto lead tracciati." />
+            )}
+          </Card>
+          <Card title="Traffico che non converte" subtitle="Almeno 5 clic e nessun contatto">
+            {daSistemare.length ? (
+              <Tabella righe={daSistemare} colonna="posizione" tono="amber" />
+            ) : (
+              <EmptyState titolo="Nessuna pagina con traffico sprecato." />
+            )}
+          </Card>
         </div>
       )}
 
       {!gsc.ok && (
-        <div className="bg-amber-500/10 border border-amber-500/30 rounded-xl p-4">
-          <p className="text-amber-300 font-medium text-sm mb-1">Search Console non collegata</p>
-          <p className="text-amber-200/70 text-sm">{gsc.errore}</p>
-          <p className="text-amber-200/50 text-sm mt-2">
-            I lead e gli ordini qui sotto sono comunque reali: mancano solo i dati di ricerca.
-          </p>
-        </div>
-      )}
-
-      <div className="bg-neutral-800 rounded-xl p-5 border border-white/5">
-        <p className="text-sm font-semibold text-white mb-4">Lead al giorno</p>
-        <Andamento punti={lead.perGiorno} />
-      </div>
-
-      <div className="grid lg:grid-cols-2 gap-6">
-        <div className="bg-neutral-800 rounded-xl p-5 border border-white/5">
-          <p className="text-sm font-semibold text-white mb-4">Da dove arrivano</p>
-          <Barre voci={lead.perCanale} vuoto="Nessun lead nel periodo." />
-        </div>
-        <div className="bg-neutral-800 rounded-xl p-5 border border-white/5">
-          <p className="text-sm font-semibold text-white mb-4">Che tipo di pagina li porta</p>
-          <Barre voci={lead.perFamiglia} vuoto="Nessuna pagina di atterraggio registrata." />
-        </div>
-        <div className="bg-neutral-800 rounded-xl p-5 border border-white/5">
-          <p className="text-sm font-semibold text-white mb-4">Servizio richiesto</p>
-          <Barre voci={lead.perServizio} vuoto="Nessun lead nel periodo." />
-        </div>
-        <div className="bg-neutral-800 rounded-xl p-5 border border-white/5">
-          <p className="text-sm font-semibold text-white mb-4">Pagine di atterraggio</p>
-          <Barre voci={lead.perPagina.slice(0, 10)} vuoto="Nessuna pagina registrata." />
-        </div>
-      </div>
-
-      {gsc.ok && (
-        <div className="grid lg:grid-cols-2 gap-6">
-          <div className="bg-neutral-800 rounded-xl p-5 border border-white/5">
-            <p className="text-sm font-semibold text-white mb-1">Pagine che convertono</p>
-            <p className="text-xs text-white/40 mb-4">Traffico da Google che e&apos; diventato contatto.</p>
-            {cheConvertono.length ? (
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="text-white/40 text-xs uppercase">
-                    <th className="text-left font-medium pb-2">Pagina</th>
-                    <th className="text-right font-medium pb-2">Clic</th>
-                    <th className="text-right font-medium pb-2">Lead</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {cheConvertono.map((p) => (
-                    <tr key={p.path} className="border-t border-white/5">
-                      <td className="py-2 text-white/80 truncate max-w-[240px]" title={p.path}>{p.path}</td>
-                      <td className="py-2 text-right text-white/60 tabular-nums">{p.clic}</td>
-                      <td className="py-2 text-right text-emerald-400 font-semibold tabular-nums">{p.lead}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            ) : (
-              <p className="text-white/40 text-sm">Nessuna pagina ha ancora prodotto lead tracciati.</p>
-            )}
+        <Card title="Prossimo passo">
+          <div className="flex items-start gap-3">
+            <TrendingUp className="mt-0.5 h-4 w-4 shrink-0 text-neutral-300" />
+            <p className="text-xs leading-relaxed text-neutral-500">
+              Con Search Console collegata compaiono anche le pagine che portano traffico
+              senza convertire: è lì che conviene intervenire per primo.
+            </p>
           </div>
-
-          <div className="bg-neutral-800 rounded-xl p-5 border border-white/5">
-            <p className="text-sm font-semibold text-white mb-1">Traffico che non converte</p>
-            <p className="text-xs text-white/40 mb-4">Almeno 5 clic e nessun contatto: qui conviene intervenire.</p>
-            {daSistemare.length ? (
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="text-white/40 text-xs uppercase">
-                    <th className="text-left font-medium pb-2">Pagina</th>
-                    <th className="text-right font-medium pb-2">Clic</th>
-                    <th className="text-right font-medium pb-2">Pos.</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {daSistemare.map((p) => (
-                    <tr key={p.path} className="border-t border-white/5">
-                      <td className="py-2 text-white/80 truncate max-w-[240px]" title={p.path}>{p.path}</td>
-                      <td className="py-2 text-right text-amber-400 tabular-nums">{p.clic}</td>
-                      <td className="py-2 text-right text-white/60 tabular-nums">{p.posizione}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            ) : (
-              <p className="text-white/40 text-sm">Nessuna pagina con traffico sprecato.</p>
-            )}
-          </div>
-        </div>
+        </Card>
       )}
     </div>
   );

@@ -19,7 +19,11 @@ export default function LayoutWrapper({
   // Pagine senza Header/Footer/Cart/Cookie (per stampa)
   const isPrintPage = pathname === "/bewerbung" || pathname === "/lebenslauf";
 
-  if (isPrintPage) {
+  // Il gestionale e' una web app a schermo intero: niente navbar del sito,
+  // niente footer, niente carrello ne' banner cookie. Ha la sua shell.
+  const isAdmin = pathname?.startsWith("/admin") ?? false;
+
+  if (isPrintPage || isAdmin) {
     return <>{children}</>;
   }
 

@@ -1,14 +1,19 @@
 "use client";
 
-import AdminGate from "@/components/AdminGate";
-import GSCDashboard from "./GSCDashboard";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
-// L'auth e' in AdminGate: cookie HttpOnly firmato lato server, la password non
-// sta piu' nel bundle JS. Le rotte /api/gsc/* ricontrollano comunque il cookie.
+// La dashboard Search Console ora vive dentro il gestionale, scheda "SEO".
+// Questa rotta resta solo per i vecchi segnalibri e rimanda li'.
 export default function GSCAdminPage() {
+  const router = useRouter();
+  useEffect(() => {
+    router.replace("/admin");
+  }, [router]);
+
   return (
-    <AdminGate>
-      <GSCDashboard />
-    </AdminGate>
+    <div className="flex min-h-screen items-center justify-center bg-[#f4f4f5]">
+      <p className="text-sm text-neutral-400">Ti porto al gestionale…</p>
+    </div>
   );
 }
