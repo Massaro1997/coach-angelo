@@ -4,6 +4,7 @@ import { useState } from "react";
 import {
   LayoutDashboard,
   Inbox,
+  FileSignature,
   Receipt,
   TrendingUp,
   Menu,
@@ -18,11 +19,12 @@ import { adminLogout } from "@/components/AdminGate";
 // barra laterale scura fissa a 256px, topbar sticky scura, corpo su #f4f4f5.
 // Navbar e footer del sito pubblico sono esclusi da LayoutWrapper.
 
-export type Vista = "conversioni" | "lead" | "ordini" | "seo";
+export type Vista = "conversioni" | "lead" | "preventivi" | "ordini" | "seo";
 
 const NAV: { key: Vista; label: string; icon: typeof LayoutDashboard }[] = [
   { key: "conversioni", label: "Conversioni", icon: LayoutDashboard },
   { key: "lead", label: "Lead", icon: Inbox },
+  { key: "preventivi", label: "Preventivi", icon: FileSignature },
   { key: "ordini", label: "Ordini", icon: Receipt },
   { key: "seo", label: "SEO", icon: TrendingUp },
 ];
@@ -50,9 +52,8 @@ export function Shell({
         )}
       >
         <div className="flex items-center gap-2.5 border-b border-white/10 px-5 py-4">
-          <div className="flex h-7 w-7 items-center justify-center bg-gold text-sm font-black text-white">
-            A
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/Favicon.png" alt="" className="h-7 w-7 shrink-0 object-contain" />
           <div>
             <p className="text-base font-bold leading-none">Coach Angelo</p>
             <p className="mt-0.5 text-[9px] uppercase tracking-[0.22em] text-white/40">

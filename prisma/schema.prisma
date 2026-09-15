@@ -66,3 +66,107 @@ model Document {
   rechnungData Json?
   createdAt   DateTime @default(now())
 }
+
+/// Preventivo contrattuale, stessa impostazione di DirezioneX: proposta e
+/// contratto sono lo stesso documento. Firmato vale come accordo, e da li'
+/// parte il ciclo acconto -> lavoro -> saldo.
+///
+/// Rispetto a DirezioneX mancano di proposito i campi della rete vendita
+/// (collaboratori, commissioni, segnalazioni): qui vende solo Angelo.
+model Preventivo {
+  id             String    @id @default(cuid())
+  numero         String    @unique // P-2026-001
+  token          String    @unique // link pubblico di firma, 32 hex
+
+  // --- committente ---
+  clienteNome    String
+  clienteEmail   String?
+  clienteTelefono String?
+  clienteIndirizzo String?
+  // Partita IVA / Steuernummer: serve se il cliente fattura come azienda
+  clientePiva    String?
+
+  // --- documento ---
+  oggetto        String?   // titolo del lavoro, in testa al documento
+  premesse       String?   // testo introduttivo
+  // [{descrizione, prezzo, quantita}]. Uno sconto e' una riga con prezzo
+  // negativo: il totale resta la somma delle righe e si vede da dove viene.
+  items          Json
+  totale         Float
+  // una tantum | mensile. I pacchetti coaching di Angelo sono quasi tutti
+  // mensili (150 €/mese per 3, 6 o 12 mesi).
+  periodicita    String    @default("una tantum")
+  mesi           Int       @default(1) // durata per i pacchetti mensili
+  importoNota    String?   // es. "IVA non esposta, § 19 UStG"
+  articoli       Json?     // clausole [{titolo, testo}]
+  lingua         String    @default("de") // de | it
+
+  // --- stato del documento ---
+  // inviato | firmato | scaduto | sostituito
+  stato          String    @default("inviato")
+  sostituitoDa   String?
+  validoFino     DateTime?
+  inviatoAt      DateTime?
+  inviatoA       String?
+
+  // --- firma del cliente ---
+  firma          Bytes?    // png della firma disegnata
+  firmatoNome    String?
+  firmatoAt      DateTime?
+
+  // --- soldi ---
+  // Come in DirezioneX: la firma da sola non perfeziona. Il preventivo passa
+  // a "firmato" quando il primo incasso risulta pagato.
+  accontoPerc    Int       @default(50)
+  accontoIncassato Float   @default(0)
+  accontoIncassatoAt DateTime?
+
+  // --- lavoro ---
+  lavoro         String    @default("da iniziare") // da iniziare | in corso | consegnato | concluso
+  lavoroNote     String?
+  dataInizio     DateTime?
+  dataFine       DateTime?
+
+  pagamenti      Pagamento[]
+
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@index([stato])
+}
+
+/// Richiesta di pagamento con link pubblico. Una riga per rata: l'acconto,
+/// il saldo, oppure un canone mensile (una riga per mese).
+model Pagamento {
+  id           String     @id @default(cuid())
+  token        String     @unique // link pubblico /pagamento/<token>
+
+  preventivoId String?
+  preventivo   Preventivo? @relation(fields: [preventivoId], references: [id], onDelete: SetNull)
+  documento    String?    // numero del preventivo, anche se la riga resta orfana
+
+  descrizione  String     // cosa sta pagando il cliente, in chiaro
+  clienteNome  String
+  clienteEmail String?
+
+  importo      Float
+  valuta       String     @default("EUR")
+  // unica | acconto | rata | saldo | abbonamento
+  tipo         String     @default("unica")
+  rataNumero   Int?
+  rateTotali   Int?
+  scadenza     DateTime?
+
+  // aperto | in corso | pagato | annullato
+  stato        String     @default("aperto")
+  provider     String?    // stripe | bonifico
+  metodo       String?    // carta | sepa | bonifico | abbonamento
+  providerRef  String?    // id sessione/subscription lato Stripe
+  pagatoAt     DateTime?
+  note         String?
+
+  createdAt    DateTime   @default(now())
+
+  @@index([stato])
+  @@index([documento])
+}

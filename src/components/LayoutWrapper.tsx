@@ -21,9 +21,15 @@ export default function LayoutWrapper({
 
   // Il gestionale e' una web app a schermo intero: niente navbar del sito,
   // niente footer, niente carrello ne' banner cookie. Ha la sua shell.
-  const isAdmin = pathname?.startsWith("/admin") ?? false;
+  // Stessa cosa per preventivo e pagamento: sono documenti che il cliente
+  // apre da un link, non pagine da navigare.
+  const isAppPage =
+    pathname?.startsWith("/admin") ||
+    pathname?.startsWith("/preventivo/") ||
+    pathname?.startsWith("/pagamento/") ||
+    false;
 
-  if (isPrintPage || isAdmin) {
+  if (isPrintPage || isAppPage) {
     return <>{children}</>;
   }
 

@@ -5,6 +5,7 @@ import AdminGate from "@/components/AdminGate";
 import { Shell, type Vista } from "@/components/admin/Shell";
 import Conversioni, { type DatiConversioni } from "@/components/admin/Conversioni";
 import LeadView from "@/components/admin/LeadView";
+import PreventiviView from "@/components/admin/PreventiviView";
 import OrdiniView from "@/components/admin/OrdiniView";
 import GSCDashboard from "./gsc/GSCDashboard";
 
@@ -33,6 +34,7 @@ function Gestionale() {
         />
       </div>
       {vista === "lead" && <LeadView />}
+      {vista === "preventivi" && <PreventiviView />}
       {vista === "ordini" && <OrdiniView />}
       {vista === "seo" && <GSCDashboard />}
     </Shell>
