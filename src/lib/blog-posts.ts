@@ -1,5 +1,6 @@
 // Blog DE — articoli scritti a mano, stile diretto e umano. Keyword transazionali Köln.
 // type: "p" paragrafo, "h2" sottotitolo, "ul" lista
+import { trendPosts } from "./blog-posts-trends";
 
 export interface BlogBlock {
   type: "p" | "h2" | "ul";
@@ -22,7 +23,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "was-kostet-personal-trainer-koeln",
     title: "Was kostet ein Personal Trainer in Köln wirklich?",
-    metaTitle: "Personal Trainer Köln Kosten 2026: ehrliche Preise",
+    metaTitle: "Personal Trainer Köln: Kosten 2026",
     metaDescription:
       "Was kostet ein Personal Trainer in Köln? Ehrliche Zahlen: 50€ bis 150€ pro Stunde, Online Coaching ab 150€/Monat. Plus: woran du erkennst, ob sich das Geld lohnt.",
     date: "2026-06-11",
@@ -73,7 +74,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "endlich-abnehmen-5-fehler",
     title: "Du willst endlich abnehmen? Diese 5 Fehler halten dich fest",
-    metaTitle: "Endlich abnehmen: 5 Fehler, die dich seit Jahren festhalten",
+    metaTitle: "Endlich abnehmen: die 5 größten Fehler",
     metaDescription:
       "Diäten gemacht, Gewicht wieder drauf? Diese 5 Fehler sehe ich bei fast jedem Kunden in Köln. Und so kommst du raus, ohne Crash-Diät und ohne dich zu hassen.",
     date: "2026-06-11",
@@ -120,7 +121,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "muskelaufbau-anfaenger-koeln",
     title: "Muskelaufbau für Anfänger: Was wirklich funktioniert",
-    metaTitle: "Muskelaufbau für Anfänger: der ehrliche Plan ohne Bro-Science",
+    metaTitle: "Muskelaufbau für Anfänger: der Plan",
     metaDescription:
       "Muskelaufbau als Anfänger: 3 Einheiten pro Woche, Grundübungen, Progression und genug Essen. Was wirklich funktioniert, erklärt von einem WABBA Wettkampfathleten aus Köln.",
     date: "2026-06-11",
@@ -162,7 +163,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "online-coaching-oder-personal-training",
     title: "Online Coaching oder Personal Training: Was passt zu dir?",
-    metaTitle: "Online Coaching vs Personal Training: der ehrliche Vergleich",
+    metaTitle: "Online Coaching vs Personal Training",
     metaDescription:
       "Online Coaching ab 150€/Monat oder Personal Training für 50€/Stunde? Der ehrliche Vergleich: Kosten, Betreuung, Ergebnisse. Und für wen das Hybrid-Modell ideal ist.",
     date: "2026-06-11",
@@ -17314,6 +17315,11 @@ export const blogPosts: BlogPost[] = [
   }
 ];
 
+// Tutti gli articoli (scritti a mano + trend 2026), più recenti prima
+export const allPosts: BlogPost[] = [...blogPosts, ...trendPosts].sort((a, b) =>
+  b.date.localeCompare(a.date)
+);
+
 export function getPost(slug: string): BlogPost | undefined {
-  return blogPosts.find((p) => p.slug === slug);
+  return allPosts.find((p) => p.slug === slug);
 }

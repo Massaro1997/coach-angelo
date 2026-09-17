@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 import { bezirke } from '@/lib/bezirk-content'
-import { blogPosts } from '@/lib/blog-posts'
+import { allPosts } from '@/lib/blog-posts'
 import { stadtteile } from '@/lib/koeln-stadtteile'
 import { intents, allStadtteilIntentParams } from '@/lib/stadtteil-intent'
 import { fitnessFaqs } from '@/lib/fitness-faq'
@@ -62,7 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // Blog
-  const blogPages: MetadataRoute.Sitemap = blogPosts.map((p) => ({
+  const blogPages: MetadataRoute.Sitemap = allPosts.map((p) => ({
     url: `${siteUrl}/blog/${p.slug}`,
     lastModified: new Date(p.date),
     changeFrequency: 'monthly' as const,

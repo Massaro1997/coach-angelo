@@ -155,3 +155,30 @@ html {
     transform: translateY(0);
   }
 }
+
+/* Skin chiara per LeadWizard dentro card bianca (sezione #inizia home).
+   Rimappa i token: testo scuro, input chiari. I bottoni opzione e il submit
+   restano NERI (richiesta cliente) con testo bianco. */
+.wizard-light {
+  --background: #121214; /* bg dei bottoni opzione = nero */
+  --foreground: #17171a; /* testo generale scuro su card bianca */
+  --elevated: #eceaef;   /* input e chip icona chiari */
+  --line: rgba(23, 23, 26, 0.14);
+}
+.wizard-light .grid > button {
+  background: #121214 !important;
+  border-color: rgba(250, 250, 250, 0.08);
+}
+.wizard-light .grid > button [class*="text-ink"] {
+  color: #fafafa;
+}
+.wizard-light .grid > button [class*="text-ink/50"] {
+  color: rgba(250, 250, 250, 0.6);
+}
+.wizard-light .grid > button [class*="bg-elevated"] {
+  background: #26262b;
+}
+.wizard-light button[type="submit"] {
+  background: #121214 !important;
+  color: #fafafa;
+}

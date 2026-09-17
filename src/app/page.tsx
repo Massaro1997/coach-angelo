@@ -319,19 +319,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Wizard Section — full width, no card */}
-      <section id="inizia" className="py-20 sm:py-28 bg-surface border-t border-line">
+      {/* Wizard Section — banda nera, card nera, bottoni neri */}
+      <section id="inizia" className="py-20 sm:py-28" style={{ background: '#0b0b0d' }}>
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <span className="inline-block bg-gold text-white text-xs font-bold uppercase tracking-[0.15em] px-3 py-1.5 rounded-sm mb-5">
+            <p className="text-gold text-xs font-semibold uppercase tracking-[0.2em] mb-4">
               {language === 'de' ? '100% kostenlos · 60 Sekunden' : '100% gratis · 60 secondi'}
-            </span>
-            <h2 className="text-4xl md:text-5xl font-black text-ink uppercase">
-              {language === 'de' ? 'STARTE' : 'INIZIA'} <span className="text-accent">{language === 'de' ? 'JETZT' : 'ORA'}</span>
+            </p>
+            <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight text-white">
+              {language === 'de' ? 'STARTE' : 'INIZIA'}{' '}
+              <span className="text-gold">{language === 'de' ? 'JETZT' : 'ORA'}</span>
             </h2>
           </div>
 
-          <LeadWizard bare />
+          <div className="rounded-lg border border-line p-6 sm:p-10" style={{ background: '#121214' }}>
+            <LeadWizard bare />
+          </div>
         </div>
       </section>
 

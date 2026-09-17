@@ -25,7 +25,6 @@ export default function Header() {
     { href: "/chi-sono", labelKey: "nav.about" },
     { href: "/servizi", labelKey: "nav.services" },
     { href: "/testimonianze", labelKey: "nav.testimonials" },
-    { href: "/personal-trainer-koeln", labelKey: "nav.koeln" },
     { href: "/contatti", labelKey: "nav.contact" },
   ];
 

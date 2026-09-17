@@ -1,12 +1,29 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { blogPosts, getPost } from "@/lib/blog-posts";
+import { allPosts, getPost } from "@/lib/blog-posts";
 
 const siteUrl = "https://www.angelocoach.com";
 
+// Correlati per tema: overlap di token nello slug, fallback sui più recenti.
+// Deterministico a build time, distribuisce link interni su tutti gli articoli.
+const STOP = new Set(["koeln", "tipps", "guide", "erfahrungen", "uebungen", "was", "wie", "und", "oder", "ohne", "mit", "fuer", "der", "die", "das", "dem", "nach", "ab"]);
+function relatedPosts(slug: string, count = 8) {
+  const tokens = new Set(slug.split("-").filter((t) => t.length > 3 && !STOP.has(t)));
+  return allPosts
+    .filter((p) => p.slug !== slug)
+    .map((p, i) => {
+      let score = 0;
+      for (const t of p.slug.split("-")) if (tokens.has(t)) score += 2;
+      return { p, score, i };
+    })
+    .sort((a, b) => b.score - a.score || a.i - b.i)
+    .slice(0, count)
+    .map((r) => r.p);
+}
+
 export function generateStaticParams() {
-  return blogPosts.map((p) => ({ slug: p.slug }));
+  return allPosts.map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({
@@ -148,8 +165,7 @@ export default async function BlogPostPage({
               Mehr lesen
             </h3>
             <ul className="space-y-3">
-              {blogPosts
-                .filter((p) => p.slug !== post.slug)
+              {relatedPosts(post.slug)
                 .map((p) => (
                   <li key={p.slug}>
                     <Link href={`/blog/${p.slug}`} className="text-ink/70 hover:text-gold transition-colors font-semibold">
