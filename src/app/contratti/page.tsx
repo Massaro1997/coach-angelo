@@ -6,6 +6,9 @@ import Link from "next/link";
 
 // Coach data - fixed
 const COACH = {
+  // FitPrimo e' il marchio; chi firma e incassa resta Angelo (ditta individuale)
+  marchio: "FitPrimo",
+  web: "www.fitprimo.de",
   name: "Angelo Magliarisi",
   address: "Köln, Deutschland",
   fullAddress: "Köln, Deutschland",
@@ -218,44 +221,44 @@ export default function ContrattiPage() {
           <div className="text-center mb-12">
             <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3">
               Documenti{" "}
-              <span className="bg-gradient-to-r from-pink-400 via-fuchsia-400 to-violet-500 bg-clip-text text-transparent">Coach Angelo</span>
+              <span className="text-[#ff2b3a]">FitPrimo</span>
             </h1>
             <p className="text-white/50">Scegli il documento da generare</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {/* Contratto compilato */}
             <button type="button" onClick={() => setView("contract-form")}
-              className="bg-neutral-800 hover:bg-neutral-750 border border-neutral-700 hover:border-fuchsia-500/50 rounded-2xl p-8 text-left transition-all group">
-              <div className="w-12 h-12 rounded-xl bg-fuchsia-500/20 flex items-center justify-center mb-5">
-                <svg className="w-6 h-6 text-fuchsia-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              className="bg-neutral-800 hover:bg-neutral-750 border border-neutral-700 hover:border-red-600/50 rounded-2xl p-8 text-left transition-all group">
+              <div className="w-12 h-12 rounded-xl bg-red-600/20 flex items-center justify-center mb-5">
+                <svg className="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-fuchsia-300 transition-colors">Contratto Compilato</h3>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-red-400 transition-colors">Contratto Compilato</h3>
               <p className="text-white/50 text-sm">Compila i dati del cliente e genera il contratto in PDF</p>
             </button>
 
             {/* Contratto vuoto */}
             <button type="button" onClick={() => setView("blank-preview")}
-              className="bg-neutral-800 hover:bg-neutral-750 border border-neutral-700 hover:border-violet-500/50 rounded-2xl p-8 text-left transition-all group">
-              <div className="w-12 h-12 rounded-xl bg-violet-500/20 flex items-center justify-center mb-5">
-                <svg className="w-6 h-6 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              className="bg-neutral-800 hover:bg-neutral-750 border border-neutral-700 hover:border-red-600/50 rounded-2xl p-8 text-left transition-all group">
+              <div className="w-12 h-12 rounded-xl bg-red-600/20 flex items-center justify-center mb-5">
+                <svg className="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-violet-300 transition-colors">Contratto Vuoto</h3>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-red-400 transition-colors">Contratto Vuoto</h3>
               <p className="text-white/50 text-sm">Scarica il contratto vuoto da compilare a mano</p>
             </button>
 
             {/* Rechnung */}
             <button type="button" onClick={() => setView("rechnung-form")}
-              className="bg-neutral-800 hover:bg-neutral-750 border border-neutral-700 hover:border-pink-500/50 rounded-2xl p-8 text-left transition-all group">
-              <div className="w-12 h-12 rounded-xl bg-pink-500/20 flex items-center justify-center mb-5">
-                <svg className="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              className="bg-neutral-800 hover:bg-neutral-750 border border-neutral-700 hover:border-red-600/50 rounded-2xl p-8 text-left transition-all group">
+              <div className="w-12 h-12 rounded-xl bg-red-600/20 flex items-center justify-center mb-5">
+                <svg className="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-pink-300 transition-colors">Rechnung</h3>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-red-400 transition-colors">Rechnung</h3>
               <p className="text-white/50 text-sm">Genera una fattura professionale in PDF</p>
             </button>
           </div>
@@ -263,7 +266,7 @@ export default function ContrattiPage() {
           {/* Archivio */}
           <div className="mt-8 text-center">
             <Link href="/contratti/archivio"
-              className="inline-flex items-center gap-2 text-white/60 hover:text-white border border-neutral-700 hover:border-fuchsia-500/50 rounded-full px-6 py-3 transition-all">
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white border border-neutral-700 hover:border-red-600/50 rounded-full px-6 py-3 transition-all">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
               <span className="font-semibold">Archivio documenti</span>
             </Link>
@@ -456,7 +459,7 @@ export default function ContrattiPage() {
         </button>
         {/* primary: direct PDF download */}
         <button type="button" onClick={() => downloadPDF(pdfName)} disabled={pdfLoading}
-          className="bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white px-6 py-2.5 rounded-full font-semibold hover:from-pink-400 hover:via-fuchsia-400 hover:to-violet-400 transition-all flex items-center gap-2 disabled:opacity-60">
+          className="bg-gradient-to-r from-red-600 via-red-600 to-red-600 text-white px-6 py-2.5 rounded-full font-semibold hover:from-red-500 hover:via-red-500 hover:to-red-500 transition-all flex items-center gap-2 disabled:opacity-60">
           {pdfLoading ? (
             <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" /><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" /></svg>
           ) : (
@@ -492,7 +495,7 @@ export default function ContrattiPage() {
           <div className="flex flex-col h-full overflow-hidden rounded-sm">
             {/* HEADER */}
             <div className="bg-neutral-800 flex items-center justify-between flex-shrink-0" style={{ padding: "14px 18mm" }}>
-              <Image src="/logo-bianco.png" alt="Coach Angelo" width={130} height={42} className="h-9 w-auto" unoptimized />
+              <Image src="/brand/fitprimo/fitprimo-logo-su-scuro.svg" alt="FitPrimo" width={564} height={100} className="h-8 w-auto" unoptimized />
               <div className="text-right">
                 <p className="text-white text-[13px] font-semibold tracking-wide uppercase">Coaching-Vertrag</p>
                 <p className="text-white/50 text-[10px] mt-0.5">{filled ? todayDE : blank} &mdash; {loc}</p>
@@ -505,9 +508,10 @@ export default function ContrattiPage() {
               <div className="grid grid-cols-2 gap-10 mb-6">
                 <div>
                   <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-1">Coach (Auftragnehmer)</p>
-                  <p className="font-bold text-[14px] text-black">{COACH.name}</p>
-                  <p className="text-neutral-500 mt-1.5 leading-relaxed">{COACH.address}<br/>E-Mail: {COACH.email}<br/>Tel.: {COACH.phone}</p>
-                  {COACH.taxId && <p className="text-neutral-500">USt-ID: {COACH.taxId}</p>}
+                  <p className="font-bold text-[14px] text-black">{COACH.marchio}</p>
+                  <p className="text-neutral-700 font-semibold">Inhaber: {COACH.name}</p>
+                  <p className="text-neutral-500 mt-1.5 leading-relaxed">{COACH.address}<br/>E-Mail: {COACH.email}<br/>Tel.: {COACH.phone}<br/>Web: {COACH.web}</p>
+                  {COACH.taxId && <p className="text-neutral-500">Steuernr.: {COACH.taxId}</p>}
                 </div>
                 <div>
                   <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-1">Kunde (Auftraggeber)</p>
@@ -621,7 +625,7 @@ export default function ContrattiPage() {
             </div>
 
             <div className="border-t border-neutral-200 flex items-center justify-between text-[9px] text-neutral-400 flex-shrink-0" style={{ padding: "10px 16mm" }}>
-              <span>{COACH.name} &mdash; Personal Training &amp; Fitness Coaching</span>
+              <span>{COACH.marchio} &middot; Personal Training &amp; Online Coaching &middot; {COACH.web}</span>
               <span>Seite 1 von 2</span>
             </div>
           </div>
@@ -632,7 +636,7 @@ export default function ContrattiPage() {
           style={{ fontFamily: "'Lato', 'Helvetica Neue', Arial, sans-serif", padding: "10px" }}>
           <div className="flex flex-col h-full overflow-hidden rounded-sm">
             <div className="bg-neutral-800 flex items-center justify-between flex-shrink-0" style={{ padding: "10px 16mm" }}>
-              <p className="text-white/80 text-[10.5px] font-semibold tracking-wide uppercase">Coaching-Vertrag &mdash; {COACH.name}</p>
+              <p className="text-white/80 text-[10.5px] font-semibold tracking-wide uppercase">Coaching-Vertrag &middot; {COACH.marchio}</p>
               <p className="text-white/50 text-[10.5px]">{filled ? todayDE : blank}</p>
             </div>
             <div className="h-[2px] flex-shrink-0" style={{ background: "linear-gradient(90deg, #ff2b3a, #e30613, #8f0209)" }} />
@@ -685,7 +689,7 @@ export default function ContrattiPage() {
                       <div className="border-b-2 border-neutral-300 h-7 mb-10" />
                     )}
                     <div className="border-b-2 border-neutral-800 w-full" />
-                    <p className="text-[10px] text-neutral-500 mt-2">{COACH.name} (Coach)</p>
+                    <p className="text-[10px] text-neutral-500 mt-2">{COACH.name} für {COACH.marchio} (Coach)</p>
                   </div>
                   <div>
                     <p className="text-neutral-400 text-[10.5px] mb-1">Ort, Datum</p>
@@ -702,7 +706,7 @@ export default function ContrattiPage() {
             </div>
 
             <div className="border-t border-neutral-200 flex items-center justify-between text-[9px] text-neutral-400 flex-shrink-0" style={{ padding: "10px 16mm" }}>
-              <span>{COACH.name} &mdash; {COACH.address} &mdash; {COACH.email}</span>
+              <span>{COACH.marchio} &middot; Inh. {COACH.name} &middot; {COACH.address} &middot; {COACH.email}</span>
               <span>Seite 2 von 2</span>
             </div>
           </div>
@@ -721,7 +725,7 @@ export default function ContrattiPage() {
         <div className="flex flex-col h-full overflow-hidden rounded-sm">
           {/* HEADER */}
           <div className="bg-neutral-800 flex items-center justify-between flex-shrink-0" style={{ padding: "18px 18mm" }}>
-            <Image src="/logo-bianco.png" alt="Coach Angelo" width={130} height={42} className="h-10 w-auto" unoptimized />
+            <Image src="/brand/fitprimo/fitprimo-logo-su-scuro.svg" alt="FitPrimo" width={564} height={100} className="h-9 w-auto" unoptimized />
             <div className="text-right">
               <p className="text-white text-[18px] font-light tracking-[3px] uppercase">Rechnung</p>
               <p className="text-white/60 text-[11px] mt-1">Nr. <strong className="text-white font-semibold">{data.rechnungNr}</strong></p>
@@ -735,7 +739,8 @@ export default function ContrattiPage() {
             <div className="grid grid-cols-3 gap-8 mb-8">
               <div>
                 <p className="text-[9px] uppercase tracking-[0.15em] text-neutral-400 font-bold mb-2 pb-1.5 border-b border-neutral-200">Von</p>
-                <p className="font-semibold text-[13px] text-black mb-1.5">{COACH.name}</p>
+                <p className="font-semibold text-[13px] text-black">{COACH.marchio}</p>
+                <p className="text-neutral-600 text-[11px] mb-1.5">Inh. {COACH.name}</p>
                 <p className="text-neutral-500 text-[11px]">{COACH.fullAddress}</p>
                 {COACH.taxId && <p className="text-neutral-400 text-[10px] mt-2">Steuernr.: {COACH.taxId}</p>}
               </div>
@@ -809,18 +814,18 @@ export default function ContrattiPage() {
 
             {/* Note */}
             {data.notes && (
-              <div className="border-l-3 bg-neutral-50 mb-6" style={{ padding: "14px 18px", borderLeft: "3px solid #1e3a5f" }}>
+              <div className="border-l-3 bg-neutral-50 mb-6" style={{ padding: "14px 18px", borderLeft: "3px solid #e30613" }}>
                 <p className="text-[11px] text-neutral-600 leading-relaxed">{data.notes}</p>
               </div>
             )}
-            <div className="border-l-3 bg-neutral-50" style={{ padding: "14px 18px", borderLeft: "3px solid #1e3a5f" }}>
+            <div className="border-l-3 bg-neutral-50" style={{ padding: "14px 18px", borderLeft: "3px solid #e30613" }}>
               <p className="text-[11px] text-neutral-800 font-semibold">Gemäß § 19 Abs. 1 UStG wird keine Umsatzsteuer berechnet.</p>
             </div>
           </div>
 
           {/* FOOTER */}
           <div className="border-t border-neutral-200 text-center flex-shrink-0" style={{ padding: "12px 16mm" }}>
-            <p className="text-[10px] text-neutral-400">{COACH.name} &middot; {COACH.fullAddress} &middot; {COACH.email}</p>
+            <p className="text-[10px] text-neutral-400">{COACH.marchio} &middot; Inh. {COACH.name} &middot; {COACH.fullAddress} &middot; {COACH.email} &middot; {COACH.web}</p>
           </div>
         </div>
       </div>
@@ -856,7 +861,7 @@ export default function ContrattiPage() {
           extraButton={
             <div className="flex items-center gap-2">
               <button type="button" onClick={generateRechnungFromContract}
-                className="border border-pink-500/50 text-pink-300 px-4 py-2 rounded-full text-sm font-semibold hover:bg-pink-500/10 transition-all flex items-center gap-2">
+                className="border border-red-600/50 text-red-400 px-4 py-2 rounded-full text-sm font-semibold hover:bg-red-600/10 transition-all flex items-center gap-2">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                 Rechnung
               </button>
@@ -986,7 +991,7 @@ export default function ContrattiPage() {
             </button>
             <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 text-center">
               Genera{" "}
-              <span className="bg-gradient-to-r from-pink-400 via-fuchsia-400 to-violet-500 bg-clip-text text-transparent">Contratto</span>
+              <span className="bg-gradient-to-r from-red-500 via-red-500 to-red-600 bg-clip-text text-transparent">Contratto</span>
             </h1>
             <p className="text-white/60 text-center">Compila i campi per generare un Coaching-Vertrag</p>
           </div>
@@ -995,7 +1000,7 @@ export default function ContrattiPage() {
             {/* Client */}
             <section className="bg-neutral-800 rounded-2xl p-6 sm:p-8">
               <h2 className="text-lg font-bold text-white mb-6 flex items-center gap-2">
-                <svg className="w-5 h-5 text-fuchsia-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
+                <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
                 Dati del Cliente
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -1012,15 +1017,15 @@ export default function ContrattiPage() {
             {/* Service */}
             <section className="bg-neutral-800 rounded-2xl p-6 sm:p-8">
               <h2 className="text-lg font-bold text-white mb-6 flex items-center gap-2">
-                <svg className="w-5 h-5 text-fuchsia-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                 Dettagli Servizio
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <SelectField label="Tipo di servizio" value={formData.serviceType} options={SERVICE_OPTIONS} onChange={(v) => updateField("serviceType", v)} />
                 <InputField label="Data inizio" type="date" value={formData.startDate} onChange={(v) => updateField("startDate", v)} />
                 <SelectField label="Come paga" value={formData.einmalMethod} options={EINMAL_OPTIONS} onChange={(v) => updateField("einmalMethod", v)} />
-                <div className="bg-fuchsia-500/10 border border-fuchsia-500/30 rounded-xl px-4 py-3 flex items-center">
-                  <p className="text-fuchsia-300 text-sm font-semibold">
+                <div className="bg-red-600/10 border border-red-600/30 rounded-xl px-4 py-3 flex items-center">
+                  <p className="text-red-400 text-sm font-semibold">
                     {isInstallment
                       ? `€${monthlyPriceStr}/mese × ${months} mesi = €${totalPriceStr}`
                       : `€${totalPriceStr} (${service.duration})`}
@@ -1032,7 +1037,7 @@ export default function ContrattiPage() {
                 <div className="sm:col-span-2">
                   <label className="block text-sm font-medium text-white/80 mb-2">Note aggiuntive</label>
                   <textarea value={formData.notes} onChange={(e) => updateField("notes", e.target.value)} rows={3}
-                    className="w-full px-4 py-3 rounded-xl bg-neutral-700 border border-neutral-600 text-white placeholder:text-white/30 focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent outline-none transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-xl bg-neutral-700 border border-neutral-600 text-white placeholder:text-white/30 focus:ring-2 focus:ring-red-600 focus:border-transparent outline-none transition-all resize-none"
                     placeholder="Condizioni particolari..." />
                 </div>
               </div>
@@ -1040,7 +1045,7 @@ export default function ContrattiPage() {
 
             <div className="text-center pt-4">
               <button type="button" onClick={() => setView("contract-preview")}
-                className="bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white px-10 py-4 rounded-full font-bold text-lg uppercase tracking-wider hover:from-pink-400 hover:via-fuchsia-400 hover:to-violet-400 transition-all shadow-lg hover:shadow-fuchsia-500/25 flex items-center gap-3 mx-auto">
+                className="bg-gradient-to-r from-red-600 via-red-600 to-red-600 text-white px-10 py-4 rounded-full font-bold text-lg uppercase tracking-wider hover:from-red-500 hover:via-red-500 hover:to-red-500 transition-all shadow-lg hover:shadow-red-600/25 flex items-center gap-3 mx-auto">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                 Genera Contratto
               </button>
@@ -1065,7 +1070,7 @@ export default function ContrattiPage() {
             </button>
             <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 text-center">
               Genera{" "}
-              <span className="bg-gradient-to-r from-pink-400 via-fuchsia-400 to-violet-500 bg-clip-text text-transparent">Rechnung</span>
+              <span className="bg-gradient-to-r from-red-500 via-red-500 to-red-600 bg-clip-text text-transparent">Rechnung</span>
             </h1>
             <p className="text-white/60 text-center">Compila i campi per generare una fattura</p>
           </div>
@@ -1074,7 +1079,7 @@ export default function ContrattiPage() {
             {/* Invoice info */}
             <section className="bg-neutral-800 rounded-2xl p-6 sm:p-8">
               <h2 className="text-lg font-bold text-white mb-6 flex items-center gap-2">
-                <svg className="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>
+                <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>
                 Dati Fattura
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -1087,7 +1092,7 @@ export default function ContrattiPage() {
             {/* Client */}
             <section className="bg-neutral-800 rounded-2xl p-6 sm:p-8">
               <h2 className="text-lg font-bold text-white mb-6 flex items-center gap-2">
-                <svg className="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
+                <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
                 Cliente
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -1100,7 +1105,7 @@ export default function ContrattiPage() {
             {/* Items */}
             <section className="bg-neutral-800 rounded-2xl p-6 sm:p-8">
               <h2 className="text-lg font-bold text-white mb-6 flex items-center gap-2">
-                <svg className="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>
+                <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>
                 Prestazioni
               </h2>
               {rechnungData.items.map((item, i) => (
@@ -1137,13 +1142,13 @@ export default function ContrattiPage() {
                 </div>
               ))}
               <button type="button" onClick={() => updateRechnung("items", [...rechnungData.items, { title: "", desc: "", qty: 1, price: 0 }])}
-                className="text-fuchsia-400 hover:text-fuchsia-300 text-sm font-semibold flex items-center gap-1.5 mt-2">
+                className="text-red-500 hover:text-red-400 text-sm font-semibold flex items-center gap-1.5 mt-2">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" /></svg>
                 Aggiungi prestazione
               </button>
               {rechnungTotal > 0 && (
                 <div className="mt-4 pt-4 border-t border-neutral-700 text-right">
-                  <span className="text-fuchsia-300 font-bold text-lg">Totale: €{rechnungTotal.toFixed(2)}</span>
+                  <span className="text-red-400 font-bold text-lg">Totale: €{rechnungTotal.toFixed(2)}</span>
                 </div>
               )}
             </section>
@@ -1152,13 +1157,13 @@ export default function ContrattiPage() {
             <section className="bg-neutral-800 rounded-2xl p-6 sm:p-8">
               <label className="block text-sm font-medium text-white/80 mb-2">Note aggiuntive</label>
               <textarea value={rechnungData.notes} onChange={(e) => updateRechnung("notes", e.target.value)} rows={2}
-                className="w-full px-4 py-3 rounded-xl bg-neutral-700 border border-neutral-600 text-white placeholder:text-white/30 focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent outline-none transition-all resize-none"
+                className="w-full px-4 py-3 rounded-xl bg-neutral-700 border border-neutral-600 text-white placeholder:text-white/30 focus:ring-2 focus:ring-red-600 focus:border-transparent outline-none transition-all resize-none"
                 placeholder="Note sulla fattura..." />
             </section>
 
             <div className="text-center pt-4">
               <button type="button" onClick={() => setView("rechnung-preview")}
-                className="bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white px-10 py-4 rounded-full font-bold text-lg uppercase tracking-wider hover:from-pink-400 hover:via-fuchsia-400 hover:to-violet-400 transition-all shadow-lg hover:shadow-fuchsia-500/25 flex items-center gap-3 mx-auto">
+                className="bg-gradient-to-r from-red-600 via-red-600 to-red-600 text-white px-10 py-4 rounded-full font-bold text-lg uppercase tracking-wider hover:from-red-500 hover:via-red-500 hover:to-red-500 transition-all shadow-lg hover:shadow-red-600/25 flex items-center gap-3 mx-auto">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                 Genera Rechnung
               </button>
@@ -1185,7 +1190,7 @@ function InputField({ label, value, onChange, type = "text", placeholder }: {
     <div>
       <label className="block text-sm font-medium text-white/80 mb-2">{label}</label>
       <input type={type} value={value} onChange={(e) => onChange(e.target.value)} placeholder={placeholder}
-        className="w-full px-4 py-3 rounded-xl bg-neutral-700 border border-neutral-600 text-white placeholder:text-white/30 focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent outline-none transition-all" />
+        className="w-full px-4 py-3 rounded-xl bg-neutral-700 border border-neutral-600 text-white placeholder:text-white/30 focus:ring-2 focus:ring-red-600 focus:border-transparent outline-none transition-all" />
     </div>
   );
 }
@@ -1197,7 +1202,7 @@ function SelectField({ label, value, options, onChange }: {
     <div>
       <label className="block text-sm font-medium text-white/80 mb-2">{label}</label>
       <select value={value} onChange={(e) => onChange(e.target.value)} aria-label={label}
-        className="w-full px-4 py-3 rounded-xl bg-neutral-700 border border-neutral-600 text-white focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent outline-none transition-all">
+        className="w-full px-4 py-3 rounded-xl bg-neutral-700 border border-neutral-600 text-white focus:ring-2 focus:ring-red-600 focus:border-transparent outline-none transition-all">
         {options.map((opt) => <option key={opt} value={opt}>{opt}</option>)}
       </select>
     </div>

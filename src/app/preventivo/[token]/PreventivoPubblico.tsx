@@ -250,10 +250,13 @@ export default function PreventivoPubblico({ token }: { token: string }) {
               </p>
             </div>
             <div className="text-right text-xs leading-relaxed text-neutral-500">
-              <p className="font-bold text-neutral-900">{COACH.name}</p>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={COACH.logo} alt={COACH.marchio} className="mb-2 ml-auto h-7 w-auto" />
+              <p className="font-bold text-neutral-900">Inh. {COACH.name}</p>
               <p>{COACH.address}</p>
               <p>{COACH.email}</p>
               <p>{COACH.phone}</p>
+              <p>{COACH.web}</p>
             </div>
           </header>
 

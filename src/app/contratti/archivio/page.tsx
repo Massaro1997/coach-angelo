@@ -72,7 +72,7 @@ export default function ArchivioPage() {
           </Link>
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 text-center">
             Archivio{" "}
-            <span className="bg-gradient-to-r from-pink-400 via-fuchsia-400 to-violet-500 bg-clip-text text-transparent">Documenti</span>
+            <span className="bg-gradient-to-r from-red-500 via-red-500 to-red-600 bg-clip-text text-transparent">Documenti</span>
           </h1>
           <p className="text-white/60 text-center">Tutti i contratti e le Rechnung generate</p>
         </div>
@@ -84,7 +84,7 @@ export default function ArchivioPage() {
               <button key={k} type="button" onClick={() => setFilter(k)}
                 className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${
                   filter === k
-                    ? "bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white"
+                    ? "bg-gradient-to-r from-red-600 via-red-600 to-red-600 text-white"
                     : "bg-neutral-800 text-white/60 hover:text-white border border-neutral-700"
                 }`}>
                 {label}
@@ -92,7 +92,7 @@ export default function ArchivioPage() {
             ))}
           </div>
           <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Cerca cliente..." aria-label="Cerca cliente"
-            className="flex-1 px-4 py-2 rounded-full bg-neutral-800 border border-neutral-700 text-white placeholder:text-white/30 focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent outline-none transition-all" />
+            className="flex-1 px-4 py-2 rounded-full bg-neutral-800 border border-neutral-700 text-white placeholder:text-white/30 focus:ring-2 focus:ring-red-600 focus:border-transparent outline-none transition-all" />
         </div>
 
         {loading && <p className="text-white/50 text-center py-12">Caricamento...</p>}
@@ -109,11 +109,11 @@ export default function ArchivioPage() {
           {filtered.map((d) => (
             <div key={d.id} className="bg-neutral-800 border border-neutral-700 rounded-2xl p-5 flex items-center justify-between gap-4 hover:border-neutral-600 transition-all">
               <div className="flex items-center gap-4 min-w-0">
-                <div className={`w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 ${d.type === "contract" ? "bg-fuchsia-500/20" : "bg-pink-500/20"}`}>
+                <div className={`w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 ${d.type === "contract" ? "bg-red-600/20" : "bg-red-600/20"}`}>
                   {d.type === "contract" ? (
-                    <svg className="w-5 h-5 text-fuchsia-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                    <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                   ) : (
-                    <svg className="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                    <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                   )}
                 </div>
                 <div className="min-w-0">
@@ -127,7 +127,7 @@ export default function ArchivioPage() {
               <div className="flex items-center gap-3 flex-shrink-0">
                 <span className="text-white font-bold hidden sm:block">€{d.total.toFixed(2)}</span>
                 <button type="button" onClick={() => reopen(d)}
-                  className="bg-gradient-to-r from-pink-500 via-fuchsia-500 to-violet-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:opacity-90 transition-all">
+                  className="bg-gradient-to-r from-red-600 via-red-600 to-red-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:opacity-90 transition-all">
                   Apri
                 </button>
                 <button type="button" aria-label="Elimina" onClick={() => remove(d.id)} className="text-white/30 hover:text-red-400 p-2 transition-colors">

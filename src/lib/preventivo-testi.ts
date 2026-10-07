@@ -3,6 +3,10 @@
 // tirarselo dentro una pagina pubblica porterebbe il client nel bundle.
 
 export const COACH = {
+  // Marchio in testata; la parte del contratto resta la persona (ditta individuale).
+  marchio: "FitPrimo",
+  web: "www.fitprimo.de",
+  logo: "/brand/fitprimo/fitprimo-logo-colore.svg",
   name: "Angelo Magliarisi",
   address: "Köln, Deutschland",
   email: "magliarisiangelo912@gmail.com",

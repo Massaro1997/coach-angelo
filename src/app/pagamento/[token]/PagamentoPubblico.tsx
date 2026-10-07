@@ -145,9 +145,9 @@ export default function PagamentoPubblico({ token }: { token: string }) {
         <section className="border border-black/10 bg-white p-6 sm:p-8">
           <div className="flex items-center gap-2.5 border-b border-black/10 pb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/Favicon.png" alt="" className="h-7 w-7 object-contain" />
+            <img src="/brand/fitprimo/fitprimo-simbolo-colore.svg" alt="" className="h-6 w-auto object-contain" />
             <div>
-              <p className="text-sm font-bold leading-none text-neutral-900">{COACH.name}</p>
+              <p className="text-sm font-bold leading-none text-neutral-900">{COACH.marchio}</p>
               <p className="mt-0.5 text-[10px] uppercase tracking-[0.18em] text-neutral-400">
                 {t.zahlung}
               </p>

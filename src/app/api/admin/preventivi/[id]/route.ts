@@ -66,8 +66,8 @@ export async function PATCH(
       from: GMAIL_FROM,
       to: p.clienteEmail,
       subject: de
-        ? `Dein Angebot ${p.numero} — Coach Angelo`
-        : `Il tuo preventivo ${p.numero} — Coach Angelo`,
+        ? `Dein Angebot ${p.numero} — FitPrimo`
+        : `Il tuo preventivo ${p.numero} — FitPrimo`,
       html: `
         <div style="font-family:system-ui,-apple-system,sans-serif;max-width:560px;color:#171717">
           <p>${de ? "Hallo" : "Ciao"} ${p.clienteNome},</p>
@@ -91,7 +91,7 @@ export async function PATCH(
                 : ""
             }
           </p>
-          <p style="font-size:13px;color:#666">Angelo Magliarisi — Coach Angelo</p>
+          <p style="font-size:13px;color:#666">Angelo Magliarisi · FitPrimo · www.fitprimo.de</p>
         </div>`,
     });
 
