@@ -49,8 +49,12 @@ export interface RataPiano {
  * Piano di pagamento alla firma.
  *
  * - una tantum: acconto (default 50%) + saldo alla consegna.
- * - mensile: una riga per mese. La prima e' dovuta alla firma, le altre
- *   scadono di mese in mese; e' il canone dei pacchetti coaching.
+ * - mensile: una riga per mese, tutte uguali. La prima si paga alla firma e
+ *   apre l'abbonamento Stripe, le altre le chiude il webhook a ogni addebito
+ *   automatico. Stripe addebita sempre lo stesso importo: per questo il
+ *   totale deve dividersi in mesi uguali (lo controlla la creazione).
+ * - mensile senza durata: una riga sola, abbonamento aperto; i mesi dopo
+ *   diventano righe nuove man mano che vengono addebitati.
  */
 export function pianoAllaFirma(p: {
   totale: number;
@@ -69,16 +73,24 @@ export function pianoAllaFirma(p: {
       return {
         tipo: "abbonamento" as const,
         descrizione: `${p.oggetto || "Coaching"} — Monat ${i + 1} von ${p.mesi}`,
-        // l'ultima rata assorbe l'arrotondamento, cosi' la somma torna esatta
-        importo:
-          i === p.mesi - 1
-            ? Math.round((p.totale - rata * (p.mesi - 1)) * 100) / 100
-            : rata,
+        importo: rata,
         rataNumero: i + 1,
         rateTotali: p.mesi,
         scadenza,
       };
     });
+  }
+
+  if (p.periodicita === "mensile") {
+    return [
+      {
+        tipo: "abbonamento",
+        descrizione: `${p.oggetto || "Coaching"} — monatlich`,
+        importo: p.totale,
+        rataNumero: 1,
+        scadenza: oggi,
+      },
+    ];
   }
 
   const perc = Math.min(Math.max(p.accontoPerc, 0), 100);
@@ -133,7 +145,7 @@ export const ARTICOLI_BASE = [
   {
     titolo: "Vergütung und Zahlung",
     testo:
-      "Die Vergütung ergibt sich aus diesem Angebot. Zahlungen erfolgen per Karte, SEPA-Lastschrift oder Überweisung auf das angegebene Konto.",
+      "Die Vergütung ergibt sich aus diesem Angebot. Bei Paketen mit monatlicher Zahlung ist der erste Monat bei Unterzeichnung fällig; die weiteren Monatsbeträge werden jeweils am gleichen Tag des Folgemonats automatisch über das bei der ersten Zahlung hinterlegte Zahlungsmittel eingezogen und enden automatisch mit Ablauf der vereinbarten Laufzeit. Einmalzahlungen erfolgen per Karte, einer anderen angebotenen Zahlungsart oder per Überweisung auf das angegebene Konto.",
   },
   {
     titolo: "Laufzeit",

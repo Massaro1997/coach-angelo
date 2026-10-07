@@ -287,6 +287,7 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
     setOggetto(v.label);
     setPeriodicita(v.periodicita);
     setMesi(v.mesi);
+    if (v.accontoPerc != null) setAccontoPerc(v.accontoPerc);
     setItems([
       {
         descrizione: `${v.label} — ${v.descrizione}`,
@@ -493,8 +494,12 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
 
         <p className="text-[11px] text-neutral-400">
           {periodicita === "mensile"
-            ? `Alla firma si creano ${mesi} rate da ${eur(Math.round((totale / Math.max(mesi, 1)) * 100) / 100)}, una al mese.`
-            : `Alla firma si creano due rate: acconto ${accontoPerc}% e saldo.`}
+            ? mesi > 1
+              ? `Il cliente firma e paga il primo mese (${eur(Math.round((totale / mesi) * 100) / 100)}); gli altri ${mesi - 1} li addebita Stripe in automatico, poi l'abbonamento si chiude da solo.`
+              : `Il cliente firma e paga il primo mese; poi addebito automatico ogni mese finché non si disdice su Stripe.`
+            : accontoPerc >= 100
+              ? "Pagamento unico alla firma."
+              : `Alla firma si creano due rate: acconto ${accontoPerc}% e saldo.`}
         </p>
 
         {errore && <p className="text-sm text-red-500">{errore}</p>}

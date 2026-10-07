@@ -29,7 +29,7 @@ const T = {
     rata: "Rate",
     von: "von",
     faellig: "Fällig am",
-    paga: "Mit Karte bezahlen",
+    paga: "Jetzt bezahlen",
     attesa: "Einen Moment…",
     pagato: "Bezahlt am",
     grazie: "Danke, die Zahlung ist eingegangen.",
@@ -37,13 +37,20 @@ const T = {
     bonifico: "Oder per Überweisung",
     torna: "Zum Angebot",
     nonAttivo: "Kartenzahlung ist noch nicht aktiv. Bitte per Überweisung zahlen.",
+    pagaMese: "Ersten Monat bezahlen",
+    abbo: (n: number | null) =>
+      n
+        ? `Heute zahlst du den ersten Monat. Die weiteren ${n - 1} Monate werden automatisch abgebucht, danach endet das Paket von selbst.`
+        : "Heute zahlst du den ersten Monat. Danach wird der Betrag jeden Monat automatisch abgebucht.",
+    automatico: "Dieser Monat wird automatisch abgebucht. Du musst nichts tun.",
+    conferma: "Zahlung wird bestätigt…",
   },
   it: {
     zahlung: "Pagamento",
     rata: "Rata",
     von: "di",
     faellig: "Scade il",
-    paga: "Paga con carta",
+    paga: "Paga ora",
     attesa: "Un attimo…",
     pagato: "Pagato il",
     grazie: "Grazie, il pagamento è arrivato.",
@@ -51,6 +58,13 @@ const T = {
     bonifico: "Oppure con bonifico",
     torna: "Torna al preventivo",
     nonAttivo: "Il pagamento con carta non è ancora attivo. Usa il bonifico.",
+    pagaMese: "Paga il primo mese",
+    abbo: (n: number | null) =>
+      n
+        ? `Oggi paghi il primo mese. Gli altri ${n - 1} mesi vengono addebitati in automatico, poi il pacchetto finisce da solo.`
+        : "Oggi paghi il primo mese. Poi l'importo viene addebitato in automatico ogni mese.",
+    automatico: "Questo mese viene addebitato in automatico. Non devi fare niente.",
+    conferma: "Stiamo confermando il pagamento…",
   },
 };
 
@@ -72,6 +86,22 @@ export default function PagamentoPubblico({ token }: { token: string }) {
       .then(setD)
       .catch((e) => setErrore(e.message));
   }, [token, esito]);
+
+  // Tornato dalla cassa: la conferma puo' arrivare qualche secondo dopo.
+  // Si ricontrolla per un minuto, poi basta ricaricare.
+  const inAttesa = esito === "ok" && d != null && d.stato !== "pagato";
+  useEffect(() => {
+    if (!inAttesa) return;
+    let giri = 0;
+    const id = setInterval(() => {
+      if (++giri > 15) return clearInterval(id);
+      fetch(`/api/pagamento/${token}`)
+        .then((r) => (r.ok ? r.json() : null))
+        .then((j) => j && setD(j))
+        .catch(() => {});
+    }, 4000);
+    return () => clearInterval(id);
+  }, [inAttesa, token]);
 
   async function paga() {
     setInvio(true);
@@ -105,6 +135,9 @@ export default function PagamentoPubblico({ token }: { token: string }) {
   const t = T[d.lingua === "it" ? "it" : "de"];
   const loc = d.lingua === "it" ? "it-IT" : "de-DE";
   const pagato = d.stato === "pagato";
+  const abbonamento = d.tipo === "abbonamento";
+  // mesi dopo il primo: li addebita Stripe, dal link non si pagano
+  const automatico = abbonamento && (d.rataNumero ?? 1) > 1;
 
   return (
     <main className="flex min-h-screen items-center justify-center bg-[#f4f4f5] px-4 py-10">
@@ -147,8 +180,20 @@ export default function PagamentoPubblico({ token }: { token: string }) {
                 </p>
               )}
             </div>
+          ) : automatico ? (
+            <p className="mt-5 border border-black/10 bg-neutral-50 p-4 text-center text-sm text-neutral-600">
+              {t.automatico}
+            </p>
+          ) : esito === "ok" ? (
+            // il webhook puo' arrivare qualche secondo dopo il ritorno da Stripe
+            <p className="mt-5 border border-green-600/30 bg-green-50 p-4 text-center text-sm text-green-800">
+              {t.conferma}
+            </p>
           ) : (
             <>
+              {abbonamento && (
+                <p className="mt-4 text-xs leading-relaxed text-neutral-500">{t.abbo(d.rateTotali)}</p>
+              )}
               {esito === "annullato" && (
                 <p className="mt-4 border border-amber-500/40 bg-amber-50 p-3 text-xs text-amber-800">
                   {t.annullato}
@@ -160,10 +205,11 @@ export default function PagamentoPubblico({ token }: { token: string }) {
                 disabled={invio}
                 className="mt-5 w-full bg-neutral-900 py-3.5 text-sm font-bold text-white disabled:opacity-50"
               >
-                {invio ? t.attesa : t.paga}
+                {invio ? t.attesa : abbonamento ? t.pagaMese : t.paga}
               </button>
 
-              <div className="mt-6 border-t border-black/10 pt-4">
+              {/* l'abbonamento vuole la carta: col bonifico i mesi dopo non partirebbero */}
+              {!abbonamento && <div className="mt-6 border-t border-black/10 pt-4">
                 <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-400">
                   {t.bonifico}
                 </p>
@@ -183,7 +229,7 @@ export default function PagamentoPubblico({ token }: { token: string }) {
                     </div>
                   )}
                 </dl>
-              </div>
+              </div>}
             </>
           )}
         </section>

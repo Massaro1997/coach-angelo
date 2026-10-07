@@ -6,10 +6,14 @@
 
 import { NextRequest, NextResponse } from "next/server";
 import type Stripe from "stripe";
-import { getStripe, registraIncasso } from "@/lib/stripe";
-import { gmailTransport, GMAIL_FROM } from "@/lib/gmail";
-import { NOTIFY_EMAILS } from "@/lib/resend";
-import { eur } from "@/lib/preventivo";
+import {
+  getStripe,
+  registraIncasso,
+  avviaAbbonamento,
+  rinnovoAbbonamento,
+  abbonamentoDi,
+} from "@/lib/stripe";
+import { avvisaIncasso, avvisaAddebitoFallito } from "@/lib/avvisi-incasso";
 
 export const dynamic = "force-dynamic";
 
@@ -37,35 +41,45 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  if (evento.type === "checkout.session.completed") {
+  // Un checkout pagato con un metodo lento (bonifico, SEPA) arriva come
+  // "completed" ma non ancora pagato: lo chiude async_payment_succeeded.
+  if (
+    evento.type === "checkout.session.completed" ||
+    evento.type === "checkout.session.async_payment_succeeded"
+  ) {
     const sess = evento.data.object as Stripe.Checkout.Session;
     const pagamentoId = sess.metadata?.pagamentoId;
-    if (pagamentoId) {
-      const pag = await registraIncasso({
-        pagamentoId,
-        providerRef: sess.id,
-        metodo: sess.payment_method_types?.[0] === "sepa_debit" ? "sepa" : "carta",
-      });
+    if (pagamentoId && sess.payment_status !== "unpaid") {
+      const pag =
+        sess.mode === "subscription"
+          ? await avviaAbbonamento(sess)
+          : await registraIncasso({
+              pagamentoId,
+              providerRef: sess.id,
+              metodo: sess.payment_method_types?.[0] === "sepa_debit" ? "sepa" : "carta",
+            });
+      if (pag) await avvisaIncasso(pag);
+    }
+  }
 
-      if (pag) {
-        try {
-          await gmailTransport.sendMail({
-            from: GMAIL_FROM,
-            to: NOTIFY_EMAILS,
-            subject: `💰 Incassati ${eur(pag.importo)} — ${pag.documento || pag.descrizione}`,
-            html: `
-              <div style="font-family:system-ui,sans-serif">
-                <p>Pagamento ricevuto da <strong>${pag.clienteNome}</strong>.</p>
-                <p>${pag.descrizione}</p>
-                <p>Importo: <strong>${eur(pag.importo)}</strong></p>
-              </div>`,
-          });
-        } catch {
-          // l'incasso e' registrato comunque
-        }
-      }
+  // Mesi successivi di un pacchetto: Stripe addebita da solo.
+  if (evento.type === "invoice.paid") {
+    const pag = await rinnovoAbbonamento(evento.data.object as Stripe.Invoice);
+    if (pag) await avvisaIncasso(pag);
+  }
+
+  // Addebito del mese rifiutato: Stripe riprova da solo, ma Angelo lo deve
+  // sapere subito per sentire il cliente.
+  if (evento.type === "invoice.payment_failed") {
+    const inv = evento.data.object as Stripe.Invoice;
+    if (abbonamentoDi(inv)) {
+      await avvisaAddebitoFallito(
+        inv.customer_name || inv.customer_email || "cliente",
+        (inv.amount_due || 0) / 100
+      );
     }
   }
 
   return NextResponse.json({ received: true });
 }
+

@@ -2,7 +2,9 @@
 
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { sessioneRata } from "@/lib/stripe";
+import { getStripe, sessioneRata, confermaStripe } from "@/lib/stripe";
+import { paypalAttivo, sessionePaypal, sincronizzaPaypal } from "@/lib/paypal";
+import { avvisaIncasso } from "@/lib/avvisi-incasso";
 
 export const dynamic = "force-dynamic";
 
@@ -15,6 +17,24 @@ export async function GET(
   const { token } = await params;
   if (!TOKEN_OK.test(token)) {
     return NextResponse.json({ error: "Link non valido" }, { status: 400 });
+  }
+
+  // Ritorno dalla cassa: l'esito si chiede a PayPal o a Stripe, non al browser.
+  const riga = await prisma.pagamento.findUnique({
+    where: { token },
+    select: { id: true, stato: true, provider: true },
+  });
+  if (riga?.stato === "in corso") {
+    try {
+      if (riga.provider === "paypal") {
+        for (const f of await sincronizzaPaypal(riga.id)) await avvisaIncasso(f);
+      } else if (riga.provider === "stripe") {
+        const f = await confermaStripe(riga.id);
+        if (f) await avvisaIncasso(f);
+      }
+    } catch {
+      // cassa lenta o giu': la pagina resta "in conferma", riprova al prossimo giro
+    }
   }
 
   const p = await prisma.pagamento.findUnique({
@@ -62,10 +82,22 @@ export async function POST(
   if (p.stato === "annullato") {
     return NextResponse.json({ error: "Questa richiesta e' stata annullata" }, { status: 409 });
   }
+  // I mesi dopo il primo li addebita Stripe dall'abbonamento: pagarli dal
+  // link aprirebbe un secondo abbonamento.
+  if (p.tipo === "abbonamento" && (p.rataNumero ?? 1) > 1) {
+    return NextResponse.json({ error: "Questa rata viene addebitata in automatico" }, { status: 409 });
+  }
 
+  // Stripe se ha le chiavi, altrimenti il conto PayPal gia' attivo sul sito.
   try {
-    const sess = await sessioneRata(p.id);
-    return NextResponse.json({ url: sess.url });
+    if (getStripe()) {
+      const sess = await sessioneRata(p.id);
+      return NextResponse.json({ url: sess.url });
+    }
+    if (paypalAttivo()) {
+      return NextResponse.json({ url: await sessionePaypal(p.id) });
+    }
+    throw new Error("Stripe non configurato");
   } catch (e) {
     const msg = (e as Error).message;
     return NextResponse.json(

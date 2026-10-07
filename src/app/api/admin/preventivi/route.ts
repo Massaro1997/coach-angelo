@@ -69,6 +69,17 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Serve almeno una voce" }, { status: 400 });
   }
 
+  // L'abbonamento Stripe addebita lo stesso importo ogni mese: un totale che
+  // non si divide in mesi uguali farebbe incassare qualche centesimo di piu'
+  // o di meno di quanto firmato.
+  const mesiOk = Math.max(1, Number(body.mesi) || 1);
+  if (body.periodicita === "mensile" && mesiOk > 1 && Math.round(totaleVoci(items) * 100) % mesiOk !== 0) {
+    return NextResponse.json(
+      { error: `Il totale non si divide in ${mesiOk} rate uguali: scegli un importo mensile tondo` },
+      { status: 400 }
+    );
+  }
+
   const validoGiorni = body.validoGiorni ?? 14;
   const validoFino = new Date();
   validoFino.setDate(validoFino.getDate() + validoGiorni);

@@ -185,7 +185,22 @@ export default function PreventivoPubblico({ token }: { token: string }) {
       });
       const j = await res.json();
       if (!res.ok) throw new Error(j.error || "Errore");
-      setFatto({ token: j.pagamento?.token || "" });
+      const pagTok: string = j.pagamento?.token || "";
+      // Come in DirezioneX: firmato si va dritti alla cassa. Se il checkout
+      // non parte (Stripe non attivo) resta il pulsante verso /pagamento.
+      if (pagTok) {
+        try {
+          const r = await fetch(`/api/pagamento/${pagTok}`, { method: "POST" });
+          const c = await r.json();
+          if (r.ok && c.url) {
+            window.location.href = c.url;
+            return;
+          }
+        } catch {
+          // si ripiega sul pulsante
+        }
+      }
+      setFatto({ token: pagTok });
     } catch (e) {
       setErrore((e as Error).message);
     } finally {
