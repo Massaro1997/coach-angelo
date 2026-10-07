@@ -305,11 +305,14 @@ export default function Home() {
               <div aria-hidden className="fp-forma -right-4 top-0 h-56 w-36 bg-gold/[0.16] sm:-right-10" />
               <div aria-hidden className="fp-forma -left-6 bottom-2 h-56 w-36 border-2 border-gold/25 sm:-left-12" />
               <div className="relative z-10 aspect-[3/2] overflow-hidden rounded-[10px] shadow-[0_10px_40px_rgba(227,6,19,0.12)]">
+                {/* 07/10: via la foto in tre (la trainer bionda non esiste),
+                    resta Angelo con una cliente. Foto campione, da sostituire
+                    con una vera. */}
                 <Image
-                  src="/images/squadra/trio-v3.jpg"
+                  src="/images/squadra/angelo-cliente-v1.jpg"
                   alt={de
-                    ? 'Zwei Personal Trainer und eine Kundin nach dem Training im Studio'
-                    : 'Due personal trainer e una cliente dopo un allenamento in palestra'}
+                    ? 'Personal Trainer Angelo mit einer Kundin nach dem Training im Studio'
+                    : 'Il personal trainer Angelo con una cliente dopo un allenamento in palestra'}
                   fill
                   sizes="(max-width: 1024px) 100vw, 620px"
                   className="object-cover"
