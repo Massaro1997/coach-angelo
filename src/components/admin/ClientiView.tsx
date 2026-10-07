@@ -211,7 +211,10 @@ function RigaCliente({
       >
         <div className="min-w-0">
           <p className="truncate text-sm font-bold text-neutral-900">{c.nome}</p>
-          <p className="truncate text-[12px] text-neutral-500">{c.pacchetto}</p>
+          <p className="truncate text-[12px] text-neutral-500">
+            {c.pacchetto}
+            {c.lead && <span className="text-neutral-400"> · lead da {c.lead.canale}</span>}
+          </p>
         </div>
 
         <div>
@@ -316,8 +319,51 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
   const campo = "w-full border border-black/15 bg-white px-2.5 py-1.5 text-sm outline-none focus:border-neutral-900";
   const modificabile = c.fonte === "preventivo";
 
+  const l = c.lead;
+  const giorniAlContratto =
+    l && (c.firmatoAt || c.inizio)
+      ? Math.max(0, Math.round((new Date(c.firmatoAt || c.inizio!).getTime() - new Date(l.data).getTime()) / 86400000))
+      : null;
+
   return (
-    <div className="grid gap-5 border-t border-black/[0.07] px-5 pb-6 pt-5 lg:grid-cols-3">
+    <div className="border-t border-black/[0.07]">
+      {/* da dove arriva: il contatto lasciato sul sito */}
+      <div className="flex flex-wrap items-start gap-x-6 gap-y-3 border-b border-black/[0.07] bg-white px-5 py-4">
+        {l ? (
+          <>
+            <div className="min-w-[220px]">
+              <p className="text-sm font-bold text-neutral-900">
+                Lead del {giorno(l.data)} da {l.canale}
+              </p>
+              <p className="mt-0.5 text-[12px] text-neutral-500">
+                {l.pagina ? `Ha scritto dalla pagina ${l.pagina === "/" ? "principale" : l.pagina}` : "Modulo del sito"}
+                {giorniAlContratto != null && `, contratto dopo ${giorniAlContratto} ${giorniAlContratto === 1 ? "giorno" : "giorni"}`}
+              </p>
+            </div>
+            {l.risposte.length > 0 && (
+              <dl className="flex flex-wrap gap-1.5">
+                {l.risposte.map(([k, v]) => (
+                  <div key={k} className="border border-black/10 bg-[#f7f7f8] px-2 py-1 text-[11px]">
+                    <dt className="inline text-neutral-400">{k}: </dt>
+                    <dd className="inline font-semibold text-neutral-800">{v}</dd>
+                  </div>
+                ))}
+              </dl>
+            )}
+            {l.nota && (
+              <p className="w-full border-l-2 border-gold/60 pl-3 text-[12px] italic leading-relaxed text-neutral-600">
+                “{l.nota}”
+              </p>
+            )}
+          </>
+        ) : (
+          <p className="text-[12px] text-neutral-400">
+            Nessun lead del sito con la stessa email o lo stesso telefono: arrivato per passaparola, social o di persona.
+          </p>
+        )}
+      </div>
+
+    <div className="grid gap-5 px-5 pb-6 pt-5 lg:grid-cols-3">
       {/* dati personali */}
       <section>
         <div className="mb-3 flex items-center justify-between">
@@ -470,6 +516,7 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
           <p className="whitespace-pre-line text-[12px] leading-relaxed text-neutral-600">{c.note || "—"}</p>
         )}
       </section>
+    </div>
     </div>
   );
 }

@@ -25,6 +25,18 @@ export interface RataCliente {
   pagatoAt: string | null;
 }
 
+/** Il contatto dal sito da cui e' nato il cliente. */
+export interface LeadCliente {
+  id: string;
+  data: string;
+  canale: string;
+  pagina: string | null;
+  servizio: string | null;
+  /** risposte del wizard, "Obiettivo: Abnehmen" -> ["Obiettivo", "Abnehmen"] */
+  risposte: [string, string][];
+  nota: string | null;
+}
+
 export interface Cliente {
   id: string;
   fonte: "preventivo" | "contratto";
@@ -51,6 +63,7 @@ export interface Cliente {
   note: string | null;
   /** contratto firmato ma primo pagamento non arrivato */
   inAttesa: boolean;
+  lead: LeadCliente | null;
   /** solo contratti vecchi: per riaprirli nel generatore /contratti */
   snapshot: { contractData: unknown; rechnungData: unknown } | null;
 }
@@ -68,13 +81,14 @@ export async function GET() {
   const denied = await requireAdmin();
   if (denied) return denied;
 
-  const [preventivi, documenti] = await Promise.all([
+  const [preventivi, documenti, contatti] = await Promise.all([
     prisma.preventivo.findMany({
       where: { firmatoAt: { not: null } },
       include: { pagamenti: { orderBy: [{ rataNumero: "asc" }, { createdAt: "asc" }] } },
       orderBy: { firmatoAt: "desc" },
     }),
     prisma.document.findMany({ where: { type: "contract" }, orderBy: { createdAt: "desc" } }),
+    prisma.contact.findMany({ orderBy: { createdAt: "asc" } }),
   ]);
 
   const clienti: Cliente[] = preventivi.map((p) => {
@@ -113,6 +127,7 @@ export async function GET() {
         })),
       note: p.lavoroNote,
       inAttesa: p.stato !== "firmato",
+      lead: null,
       snapshot: null,
     };
   });
@@ -151,9 +166,70 @@ export async function GET() {
       rate: [],
       note: c.notes || null,
       inAttesa: false,
+      lead: null,
       snapshot: { contractData: d.contractData, rechnungData: d.rechnungData },
     });
   }
 
+  // Il lead si riconosce dall'email o dalle ultime 9 cifre del telefono:
+  // il wizard salva il numero come lo scrive il cliente (+49, 0049, 0151...).
+  const cifre = (t?: string | null) => (t || "").replace(/\D/g, "").slice(-9);
+  for (const c of clienti) {
+    const email = c.email?.trim().toLowerCase();
+    const tel = cifre(c.telefono);
+    const l = contatti.find(
+      (x) =>
+        (email && x.email.trim().toLowerCase() === email) ||
+        (tel.length === 9 && cifre(x.phone) === tel)
+    );
+    if (l) c.lead = leadDa(l);
+  }
+
   return NextResponse.json(clienti);
+}
+
+/** Da dove arriva il contatto, in una parola: stessa regola della scheda Lead. */
+function canale(c: { utmSource: string | null; utmMedium: string | null; referrer: string | null }) {
+  if (c.utmSource) return `${c.utmSource}${c.utmMedium ? ` / ${c.utmMedium}` : ""}`;
+  if (!c.referrer) return "Diretto";
+  try {
+    const h = new URL(c.referrer).hostname.replace(/^www\./, "");
+    if (h.includes("angelocoach.com") || h.includes("fitprimo.de")) return "Diretto";
+    if (h.includes("google")) return "Google";
+    if (h.includes("chatgpt") || h.includes("openai")) return "ChatGPT";
+    if (h.includes("instagram")) return "Instagram";
+    if (h.includes("tiktok")) return "TikTok";
+    if (h.includes("facebook")) return "Facebook";
+    return h;
+  } catch {
+    return "Sconosciuto";
+  }
+}
+
+function leadDa(l: {
+  id: string;
+  createdAt: Date;
+  service: string | null;
+  message: string;
+  landingPage: string | null;
+  referrer: string | null;
+  utmSource: string | null;
+  utmMedium: string | null;
+}): LeadCliente {
+  const [corpo, coda = ""] = l.message.split(/\r?\n-{3,}\r?\n/);
+  const risposte: [string, string][] = [];
+  for (const riga of corpo.split(/\r?\n/)) {
+    const m = riga.match(/^([^:\[]{2,40}):\s*(.+)$/);
+    if (m) risposte.push([m[1].trim(), m[2].trim()]);
+  }
+  const nota = coda.replace(/^Note:\s*/i, "").trim() || (risposte.length ? null : l.message.trim());
+  return {
+    id: l.id,
+    data: l.createdAt.toISOString(),
+    canale: canale(l),
+    pagina: l.landingPage ? l.landingPage.split("?")[0] || "/" : null,
+    servizio: l.service,
+    risposte,
+    nota,
+  };
 }
