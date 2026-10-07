@@ -22,11 +22,10 @@ export const metadata: Metadata = {
 export default function BlogIndex() {
   return (
     <>
-      <section className="pt-32 sm:pt-40 pb-12 sm:pb-16 bg-background">
+      <section className="fp-hero pt-32 sm:pt-40 pb-12 sm:pb-16">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <p className="text-accent uppercase tracking-[0.2em] text-xs font-semibold mb-5">Blog</p>
-          <h1 className="text-4xl sm:text-5xl font-black text-ink uppercase mb-6">
-            Ehrliche Antworten zu <span className="text-accent">Training & Ernährung</span>
+          <h1 className="text-4xl sm:text-5xl fp-titolo text-ink mb-6">
+            Ehrliche Antworten zu <span className="text-gold">Training & Ernährung</span>
           </h1>
           <p className="text-lg text-ink/60 max-w-prose">
             Kein Bro-Science, keine Wundermittel. Was ich hier schreibe, wende ich selbst als

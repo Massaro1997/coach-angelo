@@ -498,7 +498,7 @@ export default function ContrattiPage() {
                 <p className="text-white/50 text-[10px] mt-0.5">{filled ? todayDE : blank} &mdash; {loc}</p>
               </div>
             </div>
-            <div className="h-[3px] flex-shrink-0" style={{ background: "linear-gradient(90deg, #ec4899, #a855f7, #6366f1)" }} />
+            <div className="h-[3px] flex-shrink-0" style={{ background: "linear-gradient(90deg, #ff2b3a, #e30613, #8f0209)" }} />
 
             <div className="flex-1 text-[11.5px] leading-[1.6] text-neutral-600" style={{ padding: "28px 18mm 16px" }}>
               <Heading>§1 Vertragsparteien</Heading>
@@ -635,7 +635,7 @@ export default function ContrattiPage() {
               <p className="text-white/80 text-[10.5px] font-semibold tracking-wide uppercase">Coaching-Vertrag &mdash; {COACH.name}</p>
               <p className="text-white/50 text-[10.5px]">{filled ? todayDE : blank}</p>
             </div>
-            <div className="h-[2px] flex-shrink-0" style={{ background: "linear-gradient(90deg, #ec4899, #a855f7, #6366f1)" }} />
+            <div className="h-[2px] flex-shrink-0" style={{ background: "linear-gradient(90deg, #ff2b3a, #e30613, #8f0209)" }} />
 
             <div className="flex-1 text-[11.5px] leading-[1.6] text-neutral-600" style={{ padding: "28px 18mm 16px" }}>
               <Heading>§8 Vertraulichkeit</Heading>
@@ -727,7 +727,7 @@ export default function ContrattiPage() {
               <p className="text-white/60 text-[11px] mt-1">Nr. <strong className="text-white font-semibold">{data.rechnungNr}</strong></p>
             </div>
           </div>
-          <div className="h-[3px] flex-shrink-0" style={{ background: "linear-gradient(90deg, #ec4899, #a855f7, #6366f1)" }} />
+          <div className="h-[3px] flex-shrink-0" style={{ background: "linear-gradient(90deg, #ff2b3a, #e30613, #8f0209)" }} />
 
           {/* BODY */}
           <div className="flex-1 text-[12px] leading-[1.5] text-neutral-700" style={{ padding: "28px 18mm 16px" }}>

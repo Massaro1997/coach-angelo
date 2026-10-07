@@ -3,57 +3,43 @@
 import { useLanguage } from "@/context/LanguageContext";
 import LeadWizard from "@/components/LeadWizard";
 
+/*
+  Kontakt / Contatti, tema FITPRIMO (04/10/2026).
+
+  Titolo al centro e sotto le cinque domande, larghe quanto la pagina: la
+  stessa veste del wizard in home, che Calogero ha approvato. Via il
+  cartellino "100% kostenlos · 60 Sekunden" e l'elenco delle tre garanzie:
+  nell'hero li ha fatti togliere, e il sottotitolo dice gia' che la consulenza
+  e' gratuita e che la risposta arriva in 24 ore.
+  La pagina di prima sta in brand/sito-prima-del-rebranding/pagine-interne/.
+*/
 export default function Contatti() {
   const { language } = useLanguage();
   const de = language === "de";
 
-  const t = {
-    heroTitle: de ? "Starte deine Veränderung" : "Inizia il tuo cambiamento",
-    heroSubtitle: de
-      ? "Beantworte 5 kurze Fragen und erhalte deine kostenlose Erstberatung. Antwort innerhalb von 24 Stunden."
-      : "Rispondi a 5 domande veloci e ricevi la tua consulenza gratuita. Risposta entro 24 ore.",
-    trust1: de ? "Kostenlose Erstberatung" : "Prima consulenza gratuita",
-    trust2: de ? "Antwort innerhalb 24h" : "Risposta entro 24 ore",
-    trust3: de ? "WABBA International Athlet" : "Atleta WABBA International",
-  };
-
   return (
-    <>
-      {/* Hero + Wizard inline */}
-      <section className="pt-32 sm:pt-40 pb-20 sm:pb-28 bg-background">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-            {/* Colonna testo */}
-            <div className="lg:col-span-5 lg:sticky lg:top-32">
-              <span className="inline-block bg-gold text-white text-xs font-bold uppercase tracking-[0.15em] px-3 py-1.5 rounded-sm mb-5">
-                {de ? '100% kostenlos · 60 Sekunden' : '100% gratis · 60 secondi'}
-              </span>
-              <h1 className="text-4xl sm:text-5xl font-black text-ink uppercase mb-5 leading-[1.0]">
-                {t.heroTitle}
-              </h1>
-              <p className="text-lg text-ink/60 leading-relaxed mb-8 max-w-md">
-                {t.heroSubtitle}
-              </p>
-              <ul className="space-y-3 text-ink/70">
-                {[t.trust1, t.trust2, t.trust3].map((item) => (
-                  <li key={item} className="flex items-center gap-3">
-                    <svg className="w-5 h-5 text-gold flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-                    </svg>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+    <section className="fp-hero relative overflow-hidden pb-20 pt-32 sm:pb-28 lg:pt-44">
+      <div aria-hidden className="fp-forma -left-10 top-32 hidden h-48 w-36 bg-gold/[0.07] lg:block" />
+      <div aria-hidden className="fp-forma right-[7%] top-36 hidden h-20 w-28 bg-ink/[0.04] lg:block" />
 
-            {/* Colonna wizard inline (no card wrapper) */}
-            <div className="lg:col-span-7">
-              <LeadWizard bare />
-            </div>
-          </div>
+      <div className="relative mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div className="mx-auto mb-12 max-w-3xl text-center lg:mb-16">
+          <h1 className="fp-titolo text-[clamp(36px,9.5vw,54px)] text-ink lg:text-[clamp(46px,4.4vw,64px)]">
+            {de ? (
+              <>Starte deine <span className="whitespace-nowrap text-gold">Veränderung</span></>
+            ) : (
+              <>Inizia il tuo <span className="whitespace-nowrap text-gold">cambiamento</span></>
+            )}
+          </h1>
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-ink/65">
+            {de
+              ? "Beantworte 5 kurze Fragen und erhalte deine kostenlose Erstberatung. Antwort innerhalb von 24 Stunden."
+              : "Rispondi a 5 domande veloci e ricevi la tua consulenza gratuita. Risposta entro 24 ore."}
+          </p>
         </div>
-      </section>
 
-    </>
+        <LeadWizard bare largo />
+      </div>
+    </section>
   );
 }

@@ -30,7 +30,7 @@ export default function OpengraphImage() {
             fontSize: 30,
             letterSpacing: 6,
             textTransform: "uppercase",
-            color: "#e879f9",
+            color: "#e30613",
             fontWeight: 700,
             marginBottom: 24,
           }}
@@ -66,7 +66,7 @@ export default function OpengraphImage() {
             width: 320,
             borderRadius: 999,
             background:
-              "linear-gradient(135deg, #ec4899 0%, #d946ef 50%, #8b5cf6 100%)",
+              "linear-gradient(135deg, #ff2b3a 0%, #e30613 50%, #b3040f 100%)",
           }}
         />
       </div>

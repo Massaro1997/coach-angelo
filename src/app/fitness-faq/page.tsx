@@ -22,11 +22,10 @@ export const metadata: Metadata = {
 export default function FitnessFaqIndex() {
   return (
     <>
-      <section className="pt-32 sm:pt-40 pb-12 sm:pb-16 bg-background">
+      <section className="fp-hero pt-32 sm:pt-40 pb-12 sm:pb-16">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <p className="text-accent uppercase tracking-[0.2em] text-xs font-semibold mb-5">Fitness FAQ</p>
-          <h1 className="text-4xl sm:text-5xl font-black text-ink uppercase mb-6 leading-tight">
-            Deine Fragen, <span className="text-accent">ehrlich beantwortet</span>
+          <h1 className="text-4xl sm:text-5xl fp-titolo text-ink mb-6">
+            Deine Fragen, <span className="text-gold">ehrlich beantwortet</span>
           </h1>
           <p className="text-lg text-ink/70 max-w-prose">
             Abnehmen, Muskelaufbau, Ernährung, Training: Hier findest du klare Antworten auf die
@@ -42,15 +41,15 @@ export default function FitnessFaqIndex() {
         return (
           <section key={cat.key} className="py-12 sm:py-16 bg-background border-t border-line">
             <div className="max-w-4xl mx-auto px-6 lg:px-8">
-              <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-8">
-                <span className="text-accent">{cat.label}</span>
+              <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-8">
+                <span className="text-gold">{cat.label}</span>
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {items.map((f) => (
                   <Link
                     key={f.slug}
                     href={`/fitness-faq/${f.slug}`}
-                    className="group flex items-center justify-between bg-surface border border-line rounded-lg px-5 py-4 hover:border-gold-deep transition-colors"
+                    className="fp-scheda group flex items-center justify-between px-5 py-4 transition-transform duration-300 hover:-translate-y-0.5"
                   >
                     <span className="text-ink/80 font-medium leading-snug pr-3">{f.question}</span>
                     <span className="text-gold font-bold text-lg group-hover:translate-x-1 transition-transform flex-shrink-0">→</span>
@@ -64,15 +63,15 @@ export default function FitnessFaqIndex() {
 
       <section className="py-16 sm:py-20 bg-surface border-t border-line">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-4">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-4">
             Deine Frage ist nicht dabei?
           </h2>
           <p className="text-lg text-ink/70 mb-8 max-w-2xl mx-auto">
             Stell sie mir direkt. In der kostenlosen Erstberatung gehen wir deine Situation durch,
             ganz konkret, ohne Verkaufsdruck.
           </p>
-          <Link href="/contatti" className="inline-flex items-center bg-gold text-white px-8 py-4 font-bold uppercase tracking-wider rounded-md">
-            Kostenlose Beratung <span className="ml-2">→</span>
+          <Link href="/contatti" className="fp-btn">
+            Kostenlose Beratung <span aria-hidden>→</span>
           </Link>
         </div>
       </section>

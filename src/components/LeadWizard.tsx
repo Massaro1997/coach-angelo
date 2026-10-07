@@ -1,6 +1,24 @@
 "use client";
 
 import { useState } from "react";
+import {
+  CircleCheck,
+  ClipboardList,
+  Clock12,
+  Clock3,
+  Clock9,
+  Dumbbell,
+  Flame,
+  Handshake,
+  MessageCircle,
+  Scale,
+  Smartphone,
+  Sprout,
+  Target,
+  TrendingUp,
+  Trophy,
+} from "lucide-react";
+import IconBadge from "@/components/IconBadge";
 import { useLanguage } from "@/context/LanguageContext";
 import { getAttribution } from "@/lib/attribution";
 
@@ -12,7 +30,23 @@ type WizardAnswers = {
   budget: string;
 };
 
-export default function LeadWizard({ bare = false }: { bare?: boolean }) {
+/**
+ * largo: la veste del tema FITPRIMO (03/10/2026). Le risposte non sono pillole
+ * dentro una scheda ma tessere grandi a tutta larghezza, con l'icona grande
+ * sopra il testo.
+ * compatto: per la landing del QR (/start, 06/10/2026), aperta dal telefono.
+ * Sotto i 640 px le risposte diventano righe basse con l'icona a sinistra,
+ * cosi' le prime stanno nel primo schermo; da sm in su resta uguale a largo.
+ */
+export default function LeadWizard({
+  bare = false,
+  largo = false,
+  compatto = false,
+}: {
+  bare?: boolean;
+  largo?: boolean;
+  compatto?: boolean;
+}) {
   const { language } = useLanguage();
   const de = language === "de";
 
@@ -38,57 +72,57 @@ export default function LeadWizard({ bare = false }: { bare?: boolean }) {
     q1: de ? "Was ist dein Ziel?" : "Qual è il tuo obiettivo?",
     q1opts: de
       ? [
-          { value: "abnehmen", icon: "🔥", label: "Abnehmen", desc: "Fett verlieren, Form zurück" },
-          { value: "muskelaufbau", icon: "💪", label: "Muskelaufbau", desc: "Masse und Kraft aufbauen" },
-          { value: "rekomposition", icon: "⚖️", label: "Body Recomposition", desc: "Fett runter, Muskeln rauf" },
-          { value: "wettkampf", icon: "🏆", label: "Wettkampf", desc: "Bühne, WABBA, Athletik" },
+          { value: "abnehmen", icon: Flame, label: "Abnehmen", desc: "Fett verlieren, Form zurück" },
+          { value: "muskelaufbau", icon: Dumbbell, label: "Muskelaufbau", desc: "Masse und Kraft aufbauen" },
+          { value: "rekomposition", icon: Scale, label: "Body Recomposition", desc: "Fett runter, Muskeln rauf" },
+          { value: "wettkampf", icon: Trophy, label: "Wettkampf", desc: "Bühne, WABBA, Athletik" },
         ]
       : [
-          { value: "dimagrire", icon: "🔥", label: "Dimagrire", desc: "Perdere grasso, tornare in forma" },
-          { value: "massa", icon: "💪", label: "Massa muscolare", desc: "Costruire muscoli e forza" },
-          { value: "ricomposizione", icon: "⚖️", label: "Ricomposizione", desc: "Giù il grasso, su i muscoli" },
-          { value: "gara", icon: "🏆", label: "Preparazione gara", desc: "Palco, WABBA, performance" },
+          { value: "dimagrire", icon: Flame, label: "Dimagrire", desc: "Perdere grasso, tornare in forma" },
+          { value: "massa", icon: Dumbbell, label: "Massa muscolare", desc: "Costruire muscoli e forza" },
+          { value: "ricomposizione", icon: Scale, label: "Ricomposizione", desc: "Giù il grasso, su i muscoli" },
+          { value: "gara", icon: Trophy, label: "Preparazione gara", desc: "Palco, WABBA, performance" },
         ],
 
     q2: de ? "Wie viel Erfahrung hast du?" : "Quanta esperienza hai?",
     q2opts: de
       ? [
-          { value: "anfaenger", icon: "🌱", label: "Anfänger", desc: "Ich starte bei null oder fast" },
-          { value: "fortgeschritten", icon: "📈", label: "Fortgeschritten", desc: "1-3 Jahre Training" },
-          { value: "profi", icon: "🎯", label: "Sehr erfahren", desc: "Training ist mein Lifestyle" },
+          { value: "anfaenger", icon: Sprout, label: "Anfänger", desc: "Ich starte bei null oder fast" },
+          { value: "fortgeschritten", icon: TrendingUp, label: "Fortgeschritten", desc: "1-3 Jahre Training" },
+          { value: "profi", icon: Target, label: "Sehr erfahren", desc: "Training ist mein Lifestyle" },
         ]
       : [
-          { value: "principiante", icon: "🌱", label: "Principiante", desc: "Parto da zero o quasi" },
-          { value: "intermedio", icon: "📈", label: "Intermedio", desc: "1-3 anni di allenamento" },
-          { value: "avanzato", icon: "🎯", label: "Avanzato", desc: "Allenarsi è il mio lifestyle" },
+          { value: "principiante", icon: Sprout, label: "Principiante", desc: "Parto da zero o quasi" },
+          { value: "intermedio", icon: TrendingUp, label: "Intermedio", desc: "1-3 anni di allenamento" },
+          { value: "avanzato", icon: Target, label: "Avanzato", desc: "Allenarsi è il mio lifestyle" },
         ],
 
     q3: de ? "Wie oft pro Woche kannst du trainieren?" : "Quante volte a settimana puoi allenarti?",
     q3opts: de
       ? [
-          { value: "1-2", icon: "🕐", label: "1-2 Mal", desc: "Wenig Zeit, maximale Effizienz" },
-          { value: "3-4", icon: "🕒", label: "3-4 Mal", desc: "Konstantes Engagement" },
-          { value: "5+", icon: "🕔", label: "5+ Mal", desc: "Volle Hingabe" },
+          { value: "1-2", icon: Clock3, label: "1-2 Mal", desc: "Wenig Zeit, maximale Effizienz" },
+          { value: "3-4", icon: Clock9, label: "3-4 Mal", desc: "Konstantes Engagement" },
+          { value: "5+", icon: Clock12, label: "5+ Mal", desc: "Volle Hingabe" },
         ]
       : [
-          { value: "1-2", icon: "🕐", label: "1-2 volte", desc: "Poco tempo, massima efficienza" },
-          { value: "3-4", icon: "🕒", label: "3-4 volte", desc: "Impegno costante" },
-          { value: "5+", icon: "🕔", label: "5+ volte", desc: "Dedizione totale" },
+          { value: "1-2", icon: Clock3, label: "1-2 volte", desc: "Poco tempo, massima efficienza" },
+          { value: "3-4", icon: Clock9, label: "3-4 volte", desc: "Impegno costante" },
+          { value: "5+", icon: Clock12, label: "5+ volte", desc: "Dedizione totale" },
         ],
 
     q4: de ? "Welche Betreuung passt zu dir?" : "Che percorso ti interessa?",
     q4opts: de
       ? [
-          { value: "personal-training", icon: "🏋️", label: "Personal Training in Köln", desc: "1-zu-1 im Studio" },
-          { value: "online-coaching", icon: "📱", label: "Online Coaching", desc: "Plan + Ernährung + Check-ins" },
-          { value: "trainingsplan", icon: "📋", label: "Individueller Trainingsplan", desc: "Maßgeschneidertes Programm" },
-          { value: "beratung", icon: "💬", label: "Ich weiß es noch nicht", desc: "Angelo soll mich beraten" },
+          { value: "personal-training", icon: Dumbbell, label: "Personal Training in Köln", desc: "1-zu-1 im Studio" },
+          { value: "online-coaching", icon: Smartphone, label: "Online Coaching", desc: "Plan + Ernährung + Check-ins" },
+          { value: "trainingsplan", icon: ClipboardList, label: "Individueller Trainingsplan", desc: "Maßgeschneidertes Programm" },
+          { value: "beratung", icon: MessageCircle, label: "Ich weiß es noch nicht", desc: "Angelo soll mich beraten" },
         ]
       : [
-          { value: "personal-training", icon: "🏋️", label: "Personal Training a Colonia", desc: "1-to-1 in palestra" },
-          { value: "online-coaching", icon: "📱", label: "Coaching Online", desc: "Scheda + alimentazione + check" },
-          { value: "trainingsplan", icon: "📋", label: "Scheda personalizzata", desc: "Programma su misura" },
-          { value: "beratung", icon: "💬", label: "Non lo so ancora", desc: "Fatti consigliare da Angelo" },
+          { value: "personal-training", icon: Dumbbell, label: "Personal Training a Colonia", desc: "1-to-1 in palestra" },
+          { value: "online-coaching", icon: Smartphone, label: "Coaching Online", desc: "Scheda + alimentazione + check" },
+          { value: "trainingsplan", icon: ClipboardList, label: "Scheda personalizzata", desc: "Programma su misura" },
+          { value: "beratung", icon: MessageCircle, label: "Non lo so ancora", desc: "Fatti consigliare da Angelo" },
         ],
 
     q5: de
@@ -96,12 +130,12 @@ export default function LeadWizard({ bare = false }: { bare?: boolean }) {
       : "Un percorso seguito parte da circa 150€/mese. Pronto a investire su di te?",
     q5opts: de
       ? [
-          { value: "ja", icon: "✅", label: "Ja, ich bin bereit", desc: "Ich will ernsthafte Ergebnisse" },
-          { value: "beratung-zuerst", icon: "🤝", label: "Erst die kostenlose Beratung", desc: "Ich möchte zuerst sprechen" },
+          { value: "ja", icon: CircleCheck, label: "Ja, ich bin bereit", desc: "Ich will ernsthafte Ergebnisse" },
+          { value: "beratung-zuerst", icon: Handshake, label: "Erst die kostenlose Beratung", desc: "Ich möchte zuerst sprechen" },
         ]
       : [
-          { value: "si", icon: "✅", label: "Sì, sono pronto", desc: "Voglio risultati seri" },
-          { value: "prima-consulenza", icon: "🤝", label: "Prima la consulenza gratuita", desc: "Preferisco prima parlarne" },
+          { value: "si", icon: CircleCheck, label: "Sì, sono pronto", desc: "Voglio risultati seri" },
+          { value: "prima-consulenza", icon: Handshake, label: "Prima la consulenza gratuita", desc: "Preferisco prima parlarne" },
         ],
 
     contactTitle: de ? "Fast geschafft. Wohin darf ich dir antworten?" : "Ci siamo quasi. Dove posso risponderti?",
@@ -206,74 +240,82 @@ export default function LeadWizard({ bare = false }: { bare?: boolean }) {
         </div>
       ) : (
         <>
-          {/* Step indicator: pallini numerati */}
-          <div className="mb-8">
-            <div className="flex items-center justify-between mb-4">
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                {Array.from({ length: totalSteps }).map((_, i) => (
-                  <div
-                    key={i}
-                    className={`h-2 rounded-full transition-all duration-300 ${
-                      i < step ? "w-2 bg-gold" : i === step ? "w-8 bg-gold" : "w-2 bg-elevated"
-                    }`}
-                  />
-                ))}
-              </div>
-              {step > 0 && (
-                <button
-                  type="button"
-                  onClick={() => setStep((s) => Math.max(0, s - 1))}
-                  className="text-xs uppercase tracking-wider text-ink/50 hover:text-ink transition-colors font-semibold"
-                >
-                  ← {t.back}
-                </button>
-              )}
-            </div>
-            <span className="text-xs uppercase tracking-[0.2em] text-gold font-semibold">
-              {step < questions.length
-                ? `${t.stepLabel} ${step + 1} ${t.of} ${questions.length}`
-                : t.lastStep}
-            </span>
-          </div>
-
           {currentQuestion ? (
             <div key={currentQuestion.key} className="fade-in">
-              <h3 className="text-2xl sm:text-3xl font-black text-ink mb-8 leading-snug">
+              <h3
+                className={
+                  largo
+                    ? `fp-titolo text-center text-ink sm:mb-10 sm:text-4xl lg:text-5xl ${compatto ? "mb-5 text-[26px]" : "mb-8 text-3xl"}`
+                    : "mb-5 text-2xl font-black leading-snug text-ink sm:mb-6 sm:text-3xl"
+                }
+              >
                 {currentQuestion.title}
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {/*
+                Le risposte sono pillole in fila, non riquadri (22.09.2026).
+                A card occupavano due colonne alte 200 px e sembravano un
+                blocco appoggiato sotto l'hero; in fila stanno su una o due
+                righe, si leggono in un colpo e la scelta resta un gesto solo.
+              */}
+              <div
+                className={
+                  largo
+                    ? `grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] ${compatto ? "grid-cols-1 gap-2.5" : "grid-cols-2 gap-3"}`
+                    : "grid grid-flow-row auto-rows-auto grid-cols-1 gap-2.5 sm:flex sm:flex-wrap sm:gap-3"
+                }
+              >
                 {currentQuestion.options.map((opt) => {
                   const selected = answers[currentQuestion.key] === opt.value;
+                  if (largo) {
+                    return (
+                      <button
+                        key={opt.value}
+                        type="button"
+                        onClick={() => selectOption(currentQuestion.key, opt.value)}
+                        className={`group flex items-center rounded-2xl border-2 bg-white transition-all duration-200 sm:flex-col sm:gap-5 sm:px-5 sm:py-9 sm:text-center ${
+                          compatto ? "flex-row gap-4 px-4 py-3 text-left" : "flex-col gap-4 px-3 py-6 text-center"
+                        } ${
+                          selected
+                            ? "border-gold shadow-[0_24px_50px_-26px_rgba(227,6,19,0.55)]"
+                            : "border-line hover:-translate-y-1 hover:border-gold hover:shadow-[0_24px_50px_-28px_rgba(18,18,20,0.35)]"
+                        }`}
+                      >
+                        <IconBadge
+                          come={opt.icon}
+                          misura="lg"
+                          attivo={selected}
+                          className={`sm:!h-24 sm:!w-24 sm:[&>svg]:!h-12 sm:[&>svg]:!w-12 ${
+                            compatto ? "!h-12 !w-12 shrink-0 [&>svg]:!h-6 [&>svg]:!w-6" : "!h-[72px] !w-[72px] [&>svg]:!h-9 [&>svg]:!w-9"
+                          }`}
+                        />
+                        <span className={`font-black leading-tight text-ink sm:text-xl ${compatto ? "text-[17px]" : "text-[15px]"}`}>{opt.label}</span>
+                        {opt.desc && (
+                          <span className="hidden text-sm leading-snug text-ink/55 sm:block">{opt.desc}</span>
+                        )}
+                      </button>
+                    );
+                  }
                   return (
                     <button
                       key={opt.value}
                       type="button"
                       onClick={() => selectOption(currentQuestion.key, opt.value)}
-                      className={`group relative flex flex-col items-start text-left p-7 sm:p-8 rounded-2xl border-2 min-h-[180px] sm:min-h-[200px] transition-all ${
+                      title={opt.desc}
+                      className={`group inline-flex items-center gap-3 rounded-full border-2 px-4 py-3 text-left transition-all sm:px-5 ${
                         selected
-                          ? "border-gold bg-elevated shadow-lg"
-                          : "border-line bg-background hover:border-gold-deep hover:bg-elevated/60 hover:-translate-y-1 hover:shadow-md"
+                          ? "border-gold bg-elevated"
+                          : "border-line bg-background hover:border-gold-deep hover:bg-elevated/60"
                       }`}
                     >
-                      <span className={`flex items-center justify-center w-16 h-16 rounded-xl text-3xl mb-4 transition-colors ${selected ? 'bg-gold' : 'bg-elevated group-hover:bg-elevated'}`}>
-                        {opt.icon}
-                      </span>
-                      <span className="block font-black text-ink text-xl sm:text-2xl leading-tight mb-1.5">{opt.label}</span>
-                      <span className="block text-base text-ink/50">{opt.desc}</span>
-                      {selected && (
-                        <span className="absolute top-5 right-5 text-gold">
-                          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                          </svg>
-                        </span>
-                      )}
+                      <IconBadge come={opt.icon} misura="sm" attivo={selected} />
+                      <span className="font-black leading-tight text-ink text-[16px] sm:text-[17px]">{opt.label}</span>
                     </button>
                   );
                 })}
               </div>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="fade-in space-y-5">
+            <form onSubmit={handleSubmit} className={`fade-in space-y-5 ${largo ? "mx-auto max-w-2xl" : ""}`}>
               <h3 className="text-xl sm:text-2xl font-black text-ink mb-2 leading-snug">
                 {t.contactTitle}
               </h3>
@@ -350,6 +392,42 @@ export default function LeadWizard({ bare = false }: { bare?: boolean }) {
               <p className="text-xs text-ink/40 text-center">{t.privacyNote}</p>
             </form>
           )}
+
+          {/*
+            Contatore e pallini stanno SOTTO le risposte (Calogero, 22.09.2026):
+            sopra rubavano la prima riga alla domanda, che e' la cosa da leggere
+            per prima. Qui dicono a che punto sei dopo che hai gia' scelto.
+          */}
+          <div
+            className={`flex items-center justify-between gap-4 ${
+              largo ? "mx-auto mt-9 max-w-2xl" : "mt-7 border-t border-line pt-5"
+            }`}
+          >
+            <div className="flex items-center gap-1.5 sm:gap-2">
+              {Array.from({ length: totalSteps }).map((_, i) => (
+                <div
+                  key={i}
+                  className={`h-2 rounded-full transition-all duration-300 ${
+                    i < step ? "w-2 bg-gold" : i === step ? "w-8 bg-gold" : "w-2 bg-elevated"
+                  }`}
+                />
+              ))}
+              <span className="ml-2 text-xs font-semibold uppercase tracking-[0.18em] text-ink/45">
+                {step < questions.length
+                  ? `${t.stepLabel} ${step + 1} ${t.of} ${questions.length}`
+                  : t.lastStep}
+              </span>
+            </div>
+            {step > 0 && (
+              <button
+                type="button"
+                onClick={() => setStep((s) => Math.max(0, s - 1))}
+                className="text-xs font-semibold uppercase tracking-wider text-ink/50 transition-colors hover:text-ink"
+              >
+                ← {t.back}
+              </button>
+            )}
+          </div>
         </>
       )}
     </div>

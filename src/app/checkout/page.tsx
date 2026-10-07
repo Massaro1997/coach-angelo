@@ -153,13 +153,13 @@ export default function Checkout() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <h1 className="text-3xl font-black text-ink uppercase mb-4">{t.paymentComplete}</h1>
+            <h1 className="text-3xl fp-titolo text-ink mb-4">{t.paymentComplete}</h1>
             <p className="text-ink/70 mb-8">
               {t.thankYou}
             </p>
             <Link
               href="/"
-              className="bg-gold text-white px-8 py-4 rounded-md font-bold uppercase tracking-wider hover:bg-gold-soft transition-colors inline-block"
+              className="fp-btn"
             >
               {t.backToHome}
             </Link>
@@ -177,13 +177,13 @@ export default function Checkout() {
             <svg className="w-20 h-20 mx-auto text-ink/30 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
             </svg>
-            <h1 className="text-3xl font-black text-ink uppercase mb-4">{t.emptyCart}</h1>
+            <h1 className="text-3xl fp-titolo text-ink mb-4">{t.emptyCart}</h1>
             <p className="text-ink/70 mb-8">
               {t.emptyCartDesc}
             </p>
             <Link
               href="/servizi"
-              className="bg-gold text-white px-8 py-4 rounded-md font-bold uppercase tracking-wider hover:bg-gold-soft transition-colors inline-block"
+              className="fp-btn"
             >
               {t.discoverServices}
             </Link>
@@ -196,14 +196,14 @@ export default function Checkout() {
   return (
     <div className="min-h-screen bg-background pt-32 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl md:text-4xl font-black text-ink uppercase mb-8 text-center">
+        <h1 className="text-3xl md:text-4xl fp-titolo text-ink mb-8 text-center">
           {t.checkoutTitle}
         </h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Form */}
           <div className="bg-surface border border-line rounded-lg p-8">
-            <h2 className="text-xl font-black text-ink uppercase mb-6">{t.billingTitle}</h2>
+            <h2 className="text-xl fp-titolo text-ink mb-6">{t.billingTitle}</h2>
             <div className="space-y-6">
               <div className="grid grid-cols-2 gap-4">
                 <div>
@@ -294,9 +294,9 @@ export default function Checkout() {
                     name="acceptTerms"
                     checked={formData.acceptTerms}
                     onChange={handleChange}
-                    className="mt-1 w-5 h-5 rounded border-line bg-elevated accent-[#c9a45c]"
+                    className="mt-1 w-5 h-5 rounded border-line bg-elevated accent-[#e30613]"
                   />
-                  <span className="text-sm text-white/70">
+                  <span className="text-sm text-ink/70">
                     {t.acceptTerms1}
                     <Link href="/termini" className="text-gold hover:text-gold-soft">
                       {t.acceptTermsLink}
@@ -311,9 +311,9 @@ export default function Checkout() {
                     name="acceptPrivacy"
                     checked={formData.acceptPrivacy}
                     onChange={handleChange}
-                    className="mt-1 w-5 h-5 rounded border-line bg-elevated accent-[#c9a45c]"
+                    className="mt-1 w-5 h-5 rounded border-line bg-elevated accent-[#e30613]"
                   />
-                  <span className="text-sm text-white/70">
+                  <span className="text-sm text-ink/70">
                     {t.acceptPrivacy1}
                     <Link href="/privacy" className="text-gold hover:text-gold-soft">
                       {t.acceptPrivacyLink}
@@ -330,7 +330,7 @@ export default function Checkout() {
           {/* Order Summary */}
           <div>
             <div className="bg-surface border border-line rounded-lg p-8 sticky top-32">
-              <h2 className="text-xl font-black text-ink uppercase mb-6">{t.orderSummary}</h2>
+              <h2 className="text-xl fp-titolo text-ink mb-6">{t.orderSummary}</h2>
 
               <div className="space-y-4 mb-6">
                 {items.map((item) => (

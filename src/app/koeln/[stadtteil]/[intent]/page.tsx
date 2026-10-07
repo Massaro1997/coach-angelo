@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getStadtteil } from "@/lib/koeln-stadtteile";
 import {
@@ -92,21 +91,21 @@ export default async function StadtteilIntentPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* Hero */}
-      <section className="pt-32 sm:pt-40 pb-10 sm:pb-14 bg-background">
+      <section className="fp-hero pt-32 sm:pt-40 pb-10 sm:pb-14">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <p className="text-accent uppercase tracking-[0.2em] text-xs font-semibold mb-5">
-            <Link href="/personal-trainer-koeln" className="hover:text-gold-soft">Personal Trainer Köln</Link>
+          <p className="mb-5 text-sm font-medium text-ink/50">
+            <Link href="/personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Personal Trainer Köln</Link>
             {" / "}
-            <Link href={`/leistungen/${it.key}`} className="hover:text-gold-soft">{it.label}</Link>
+            <Link href={`/leistungen/${it.key}`} className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">{it.label}</Link>
             {" / "}{st.name}
           </p>
-          <h1 className="text-4xl sm:text-5xl font-black text-ink uppercase mb-6 leading-tight">
-            {it.label} in <span className="text-accent">Köln-{st.name}</span>
+          <h1 className="text-4xl sm:text-5xl fp-titolo text-ink mb-6">
+            {it.label} in <span className="text-gold">Köln-{st.name}</span>
           </h1>
           <p className="text-lg text-ink/70 leading-relaxed max-w-prose">{c.intro}</p>
           <div className="mt-8">
-            <Link href="/contatti" className="inline-flex items-center bg-gold text-white px-8 py-4 font-bold uppercase tracking-wider rounded-md">
-              Kostenlose Beratung <span className="ml-2">→</span>
+            <Link href="/contatti" className="fp-btn">
+              Kostenlose Beratung <span aria-hidden>→</span>
             </Link>
           </div>
         </div>
@@ -136,7 +135,7 @@ export default async function StadtteilIntentPage({
         <div className="max-w-4xl mx-auto px-6 lg:px-8 space-y-12">
           {c.paragraphs.map((p) => (
             <div key={p.title}>
-              <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-4">{p.title}</h2>
+              <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-4">{p.title}</h2>
               <p className="text-ink/70 leading-relaxed max-w-prose">{p.body}</p>
             </div>
           ))}
@@ -146,7 +145,7 @@ export default async function StadtteilIntentPage({
       {/* FAQ */}
       <section className="py-16 sm:py-20 bg-surface border-y border-line">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-10">Häufige Fragen</h2>
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-10">Häufige Fragen</h2>
           <div className="space-y-8">
             {c.faq.map((f) => (
               <div key={f.q}>
@@ -163,10 +162,10 @@ export default async function StadtteilIntentPage({
         <div className="max-w-4xl mx-auto px-6 lg:px-8 space-y-10">
           {neighbors.length > 0 && (
             <div>
-              <h2 className="text-xl font-black text-ink uppercase mb-5">{it.label} in der Nähe</h2>
+              <h2 className="text-xl fp-titolo text-ink mb-5">{it.label} in der Nähe</h2>
               <div className="flex flex-wrap gap-3">
                 {neighbors.map((n) => (
-                  <Link key={n.href} href={n.href} className="border border-line rounded-md px-4 py-2 text-sm text-ink/80 hover:border-gold-deep hover:text-gold transition-colors">
+                  <Link key={n.href} href={n.href} className="rounded-md border border-line bg-white px-4 py-2 text-sm text-ink/80 hover:border-gold-deep hover:text-gold transition-colors">
                     {it.label} Köln-{n.name}
                   </Link>
                 ))}
@@ -174,10 +173,10 @@ export default async function StadtteilIntentPage({
             </div>
           )}
           <div>
-            <h2 className="text-xl font-black text-ink uppercase mb-5">Weitere Leistungen in {st.name}</h2>
+            <h2 className="text-xl fp-titolo text-ink mb-5">Weitere Leistungen in {st.name}</h2>
             <div className="flex flex-wrap gap-3">
               {otherIntents.map((oi) => (
-                <Link key={oi.key} href={`/koeln/${st.slug}/${oi.key}`} className="border border-line rounded-md px-4 py-2 text-sm text-ink/80 hover:border-gold-deep hover:text-gold transition-colors">
+                <Link key={oi.key} href={`/koeln/${st.slug}/${oi.key}`} className="rounded-md border border-line bg-white px-4 py-2 text-sm text-ink/80 hover:border-gold-deep hover:text-gold transition-colors">
                   {oi.label}
                 </Link>
               ))}
@@ -186,19 +185,6 @@ export default async function StadtteilIntentPage({
           <div className="flex flex-wrap gap-3 pt-2">
             <Link href={`/koeln/${st.slug}`} className="text-gold font-bold text-sm uppercase tracking-wider hover:text-gold-soft">← Alle Leistungen in {st.name}</Link>
           </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="relative py-24 border-t border-line">
-        <Image src="/hero bassa.png" alt={`${it.label} in Köln-${st.name}`} fill className="object-cover object-bottom" />
-        <div className="absolute inset-0 bg-background/75" />
-        <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-black text-ink uppercase mb-4">{it.label} in {st.name} starten</h2>
-          <p className="text-lg text-ink/70 mb-8 max-w-2xl mx-auto">5 kurze Fragen, kostenlose Erstberatung, Antwort in 24 Stunden.</p>
-          <Link href="/contatti" className="inline-flex items-center bg-gold text-white px-10 py-5 font-bold uppercase tracking-wider rounded-md text-lg">
-            Jetzt starten <span className="ml-2">→</span>
-          </Link>
         </div>
       </section>
     </>

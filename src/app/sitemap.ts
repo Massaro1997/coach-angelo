@@ -14,7 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: siteUrl, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
     { url: `${siteUrl}/chi-sono`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${siteUrl}/servizi`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${siteUrl}/testimonianze`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${siteUrl}/contatti`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${siteUrl}/personal-trainer-koeln`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${siteUrl}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },

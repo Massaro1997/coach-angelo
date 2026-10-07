@@ -19,6 +19,14 @@ const nextConfig: NextConfig = {
         destination: 'https://www.angelocoach.com/:path*',
         permanent: true,
       },
+      // 04/10/2026: la pagina delle testimonianze non c'e' piu', recensioni e
+      // trasformazioni stanno in fondo a ogni pagina. L'indirizzo vecchio e'
+      // indicizzato, quindi porta alla home invece di dare 404.
+      {
+        source: '/testimonianze',
+        destination: '/',
+        permanent: true,
+      },
     ];
   },
 };

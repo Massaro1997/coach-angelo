@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Archivo } from "next/font/google";
+import { Archivo, Kanit } from "next/font/google";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 
@@ -7,6 +7,15 @@ const archivo = Archivo({
   weight: ["400", "500", "600", "700", "800", "900"],
   variable: "--font-archivo",
   subsets: ["latin"],
+});
+
+// Il carattere dei titoli: lo stesso della scritta del logo FITPRIMO.
+const kanit = Kanit({
+  weight: ["600", "700"],
+  style: ["italic"],
+  variable: "--font-kanit",
+  subsets: ["latin"],
+  display: "swap",
 });
 
 const siteUrl = "https://www.angelocoach.com";
@@ -74,8 +83,8 @@ export const metadata: Metadata = {
 
 // Schema.org JSON-LD
 const sameAs = [
-  "https://www.instagram.com/angelo_fitnesscoach",
-  "https://www.tiktok.com/@angelo.fitnesscoach",
+  "https://www.instagram.com/am_fitprimo",
+  "https://www.tiktok.com/@am_fitprimo",
 ];
 
 const jsonLd = {
@@ -164,7 +173,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${archivo.variable} font-sans antialiased`}>
+      <body className={`${archivo.variable} ${kanit.variable} font-sans antialiased`}>
         <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>

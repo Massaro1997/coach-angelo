@@ -103,8 +103,8 @@ export default async function BlogPostPage({
       />
       <article className="pt-32 sm:pt-40 pb-20 bg-background">
         <div className="max-w-3xl mx-auto px-6 lg:px-8">
-          <p className="text-accent uppercase tracking-[0.2em] text-xs font-semibold mb-5">
-            <Link href="/blog" className="hover:text-gold-soft">Blog</Link> ·{" "}
+          <p className="mb-5 text-sm font-medium text-ink/50">
+            <Link href="/blog" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Blog</Link> ·{" "}
             {new Date(post.date).toLocaleDateString("de-DE")} · {post.readMinutes} Min.
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-ink mb-10 leading-tight">
@@ -115,7 +115,7 @@ export default async function BlogPostPage({
             {post.blocks.map((block, i) => {
               if (block.type === "h2") {
                 return (
-                  <h2 key={i} className="text-2xl font-black text-ink uppercase pt-6">
+                  <h2 key={i} className="text-2xl fp-titolo text-ink pt-6">
                     {block.text}
                   </h2>
                 );
@@ -143,8 +143,8 @@ export default async function BlogPostPage({
           </div>
 
           {/* CTA */}
-          <div className="mt-14 border border-gold-deep rounded-lg p-8 bg-surface">
-            <h3 className="text-xl font-black text-ink uppercase mb-3">
+          <div className="fp-scheda mt-14 p-8">
+            <h3 className="text-xl fp-titolo text-ink mb-3">
               Kostenlose Erstberatung
             </h3>
             <p className="text-ink/60 mb-6 max-w-prose">
@@ -153,15 +153,15 @@ export default async function BlogPostPage({
             </p>
             <Link
               href="/contatti"
-              className="inline-flex items-center bg-gold text-white px-8 py-4 font-bold uppercase tracking-wider rounded-md"
+              className="fp-btn"
             >
-              Jetzt anfragen <span className="ml-2">→</span>
+              Jetzt anfragen <span aria-hidden>→</span>
             </Link>
           </div>
 
           {/* Altri articoli */}
           <div className="mt-14">
-            <h3 className="text-accent uppercase tracking-[0.2em] text-xs font-semibold mb-5">
+            <h3 className="fp-titolo mb-5 text-xl text-ink">
               Mehr lesen
             </h3>
             <ul className="space-y-3">

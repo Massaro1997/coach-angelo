@@ -576,7 +576,7 @@ function TimeSeriesChart({
               maxImpr
             )}
             fill="none"
-            stroke="#e879f9"
+            stroke="#e30613"
             strokeWidth="0.7"
             vectorEffect="non-scaling-stroke"
           />

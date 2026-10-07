@@ -59,56 +59,56 @@ export default function Termini() {
   return (
     <div className="min-h-screen bg-background pt-32 pb-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl md:text-4xl font-black text-ink uppercase mb-8">
+        <h1 className="text-3xl md:text-4xl fp-titolo text-ink mb-8">
           {t.title1}<span className="text-gold">{t.title2}</span>
         </h1>
 
-        <div className="prose prose-invert prose-lg max-w-none">
-          <p className="text-white/70 mb-6">{t.lastUpdate}: {new Date().toLocaleDateString(language === 'de' ? "de-DE" : "it-IT")}</p>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-ink/70 mb-6">{t.lastUpdate}: {new Date().toLocaleDateString(language === 'de' ? "de-DE" : "it-IT")}</p>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s1Title}</h2>
-            <p className="text-white/70 mb-4">{t.s1Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s1Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s1Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s2Title}</h2>
-            <p className="text-white/70 mb-4">{t.s2Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s2Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s2Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s3Title}</h2>
-            <p className="text-white/70 mb-4">{t.s3Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s3Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s3Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s4Title}</h2>
-            <p className="text-white/70 mb-4">{t.s4Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s4Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s4Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s5Title}</h2>
-            <p className="text-white/70 mb-4">{t.s5Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s5Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s5Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s6Title}</h2>
-            <p className="text-white/70 mb-4">{t.s6Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s6Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s6Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s7Title}</h2>
-            <p className="text-white/70 mb-4">{t.s7Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s7Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s7Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s8Title}</h2>
-            <p className="text-white/70 mb-4">{t.s8Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s8Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s8Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s9Title}</h2>
-            <p className="text-white/70 mb-4">
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s9Title}</h2>
+            <p className="text-ink/70 mb-4">
               {t.s9Text}<br />
               Email: magliarisiangelo912@gmail.com
             </p>

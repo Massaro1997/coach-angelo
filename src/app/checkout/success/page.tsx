@@ -51,7 +51,7 @@ function SuccessContent() {
           </svg>
         </div>
 
-        <h1 className="text-3xl md:text-4xl font-black text-ink uppercase mb-4">
+        <h1 className="text-3xl md:text-4xl fp-titolo text-ink mb-4">
           {t.paymentTitle1}<span className="text-gold">{t.paymentTitle2}</span>
         </h1>
 
@@ -60,7 +60,7 @@ function SuccessContent() {
         </p>
 
         <div className="bg-surface border border-line rounded-lg p-8 mb-8 text-left">
-          <h2 className="text-xl font-black text-ink uppercase mb-4">{t.nextSteps}</h2>
+          <h2 className="text-xl fp-titolo text-ink mb-4">{t.nextSteps}</h2>
           <ul className="space-y-4 text-ink/70">
             {[t.step1, t.step2, t.step3].map((step, idx) => (
               <li key={idx} className="flex items-start gap-3">
@@ -73,7 +73,7 @@ function SuccessContent() {
 
         <Link
           href="/"
-          className="inline-block bg-gold text-white px-8 py-4 rounded-md font-bold uppercase tracking-wider hover:bg-gold-soft transition-colors"
+          className="fp-btn"
         >
           {t.backToHome}
         </Link>

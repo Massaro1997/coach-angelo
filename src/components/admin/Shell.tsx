@@ -7,6 +7,10 @@ import {
   FileSignature,
   Receipt,
   TrendingUp,
+  ListChecks,
+  Palette,
+  SwatchBook,
+  Shirt,
   Menu,
   X,
   LogOut,
@@ -19,7 +23,16 @@ import { adminLogout } from "@/components/AdminGate";
 // barra laterale scura fissa a 256px, topbar sticky scura, corpo su #f4f4f5.
 // Navbar e footer del sito pubblico sono esclusi da LayoutWrapper.
 
-export type Vista = "conversioni" | "lead" | "preventivi" | "ordini" | "seo";
+export type Vista =
+  | "conversioni"
+  | "lead"
+  | "preventivi"
+  | "ordini"
+  | "seo"
+  | "scaletta"
+  | "marchio"
+  | "brand"
+  | "merchandising";
 
 const NAV: { key: Vista; label: string; icon: typeof LayoutDashboard }[] = [
   { key: "conversioni", label: "Conversioni", icon: LayoutDashboard },
@@ -27,7 +40,15 @@ const NAV: { key: Vista; label: string; icon: typeof LayoutDashboard }[] = [
   { key: "preventivi", label: "Preventivi", icon: FileSignature },
   { key: "ordini", label: "Ordini", icon: Receipt },
   { key: "seo", label: "SEO", icon: TrendingUp },
+  // rebranding 2026
+  { key: "scaletta", label: "Scaletta", icon: ListChecks },
+  { key: "marchio", label: "Marchio", icon: Palette },
+  { key: "brand", label: "Brand sheet", icon: SwatchBook },
+  { key: "merchandising", label: "Merchandising", icon: Shirt },
 ];
+
+/** Le viste valide, per aprire l'admin gia' sulla scheda giusta (/admin#scaletta). */
+export const VISTE: Vista[] = NAV.map((n) => n.key);
 
 export function Shell({
   vista,

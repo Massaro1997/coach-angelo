@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { stadtteile } from "@/lib/koeln-stadtteile";
 import { bezirke } from "@/lib/bezirk-content";
 import { intents } from "@/lib/stadtteil-intent";
@@ -28,13 +27,10 @@ export default function PersonalTrainerKoeln() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-32 sm:pt-40 pb-12 sm:pb-16 bg-background">
+      <section className="fp-hero pt-32 sm:pt-40 pb-12 sm:pb-16">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <p className="text-accent uppercase tracking-[0.2em] text-xs font-semibold mb-5">
-            Köln · Alle 9 Stadtbezirke
-          </p>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-ink uppercase mb-6">
-            Personal Trainer <span className="text-accent">Köln</span>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl fp-titolo text-ink mb-6">
+            Personal Trainer <span className="text-gold">Köln</span>
           </h1>
           <div className="space-y-4 text-lg text-ink/70 leading-relaxed max-w-prose">
             <p>
@@ -55,9 +51,9 @@ export default function PersonalTrainerKoeln() {
           <div className="mt-8">
             <Link
               href="/contatti"
-              className="inline-flex items-center bg-gold text-white px-8 py-4 font-bold uppercase tracking-wider rounded-md"
+              className="fp-btn"
             >
-              Kostenlose Beratung anfragen <span className="ml-2">→</span>
+              Kostenlose Beratung anfragen <span aria-hidden>→</span>
             </Link>
           </div>
         </div>
@@ -66,8 +62,8 @@ export default function PersonalTrainerKoeln() {
       {/* Leistungen (category-intent) */}
       <section className="py-16 sm:py-20 bg-background border-t border-line">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-4">
-            Womit ich dir <span className="text-accent">helfe</span>
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-4">
+            Womit ich dir <span className="text-gold">helfe</span>
           </h2>
           <p className="text-ink/60 max-w-prose mb-10">
             Acht Schwerpunkte, in allen Stadtteilen Kölns. Klick dich rein für die Details zu deinem Ziel.
@@ -77,9 +73,9 @@ export default function PersonalTrainerKoeln() {
               <Link
                 key={it.key}
                 href={`/leistungen/${it.key}`}
-                className="group bg-surface border border-line rounded-lg p-6 hover:border-gold-deep transition-colors"
+                className="fp-scheda group block p-6 transition-transform duration-300 hover:-translate-y-1"
               >
-                <h3 className="font-black text-ink uppercase text-sm mb-1 leading-tight">{it.label}</h3>
+                <h3 className="fp-titolo text-ink text-lg mb-1">{it.label}</h3>
                 {it.price && <p className="text-gold text-xs font-bold">{it.price}</p>}
                 <span className="inline-block mt-3 text-gold text-sm group-hover:translate-x-1 transition-transform">→</span>
               </Link>
@@ -91,8 +87,8 @@ export default function PersonalTrainerKoeln() {
       {/* Stadtteile nach Bezirk */}
       <section className="py-16 sm:py-20 bg-surface border-y border-line">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-4">
-            Personal Training in deinem <span className="text-accent">Stadtbezirk</span>
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-4">
+            Personal Training in deinem <span className="text-gold">Stadtbezirk</span>
           </h2>
           <p className="text-ink/60 max-w-prose mb-12">
             Wähle deinen Bezirk für Infos zu Training, Outdoor-Spots und Betreuung in deiner Nähe.
@@ -121,7 +117,7 @@ export default function PersonalTrainerKoeln() {
       {/* Warum Angelo */}
       <section className="py-16 sm:py-20 bg-background">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-10">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-10">
             Warum mit mir trainieren?
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
@@ -140,8 +136,8 @@ export default function PersonalTrainerKoeln() {
               },
             ].map((item, idx) => (
               <div key={item.title}>
-                <div className="text-4xl font-black text-gold/40 mb-3">0{idx + 1}</div>
-                <h3 className="font-black text-ink uppercase mb-2">{item.title}</h3>
+                <div className="fp-titolo text-4xl text-gold/40 mb-3">0{idx + 1}</div>
+                <h3 className="fp-titolo text-ink mb-2">{item.title}</h3>
                 <p className="text-ink/60 text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
@@ -149,43 +145,17 @@ export default function PersonalTrainerKoeln() {
           <div className="mt-12 flex flex-wrap gap-4">
             <Link
               href="/servizi"
-              className="inline-flex items-center border border-line text-ink px-6 py-3 font-bold uppercase tracking-wider rounded-md hover:bg-elevated transition-colors"
+              className="fp-btn-linea"
             >
               Alle Leistungen
             </Link>
             <Link
-              href="/testimonianze"
-              className="inline-flex items-center border border-line text-ink px-6 py-3 font-bold uppercase tracking-wider rounded-md hover:bg-elevated transition-colors"
-            >
-              Ergebnisse ansehen
-            </Link>
-            <Link
               href="/blog"
-              className="inline-flex items-center border border-line text-ink px-6 py-3 font-bold uppercase tracking-wider rounded-md hover:bg-elevated transition-colors"
+              className="fp-btn-linea"
             >
               Fitness Blog
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="relative py-24 border-t border-line">
-        <Image src="/hero bassa.png" alt="Coach Angelo, Personal Trainer Köln" fill className="object-cover object-bottom" />
-        <div className="absolute inset-0 bg-background/75" />
-        <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-black text-ink uppercase mb-4">
-            Bereit für echte Ergebnisse?
-          </h2>
-          <p className="text-lg text-ink/70 mb-8 max-w-2xl mx-auto">
-            5 kurze Fragen, kostenlose Erstberatung, Antwort innerhalb von 24 Stunden.
-          </p>
-          <Link
-            href="/contatti"
-            className="inline-flex items-center bg-gold text-white px-10 py-5 font-bold uppercase tracking-wider rounded-md text-lg"
-          >
-            Jetzt starten <span className="ml-2">→</span>
-          </Link>
         </div>
       </section>
     </>

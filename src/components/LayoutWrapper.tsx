@@ -8,6 +8,10 @@ import CookieBanner from "@/components/CookieBanner";
 import AttributionTracker from "@/components/AttributionTracker";
 import { CartProvider } from "@/context/CartContext";
 import { LanguageProvider } from "@/context/LanguageContext";
+import Recensioni from "@/components/Recensioni";
+import Trasformazioni from "@/components/Trasformazioni";
+import ChiamataAngelo from "@/components/ChiamataAngelo";
+import { chiusuraPagina, temaChiaro } from "@/lib/chiusura-pagina";
 
 export default function LayoutWrapper({
   children,
@@ -33,12 +37,25 @@ export default function LayoutWrapper({
     return <>{children}</>;
   }
 
+  // Trasformazioni, recensioni e chiamata in fondo a ogni pagina: vedi
+  // chiusura-pagina.ts.
+  const chiusura = chiusuraPagina(pathname);
+  // Dal 04/10 tutte le pagine del sito sono nel tema chiaro: la classe .fp sta
+  // qui, una volta sola. Le pagine scritte con i token (bg-background,
+  // text-ink...) diventano chiare senza toccarle.
+  const chiaro = temaChiaro(pathname);
+
   return (
     <LanguageProvider>
       <CartProvider>
         <AttributionTracker />
         <Header />
-        <main>{children}</main>
+        <main className={chiaro ? "fp" : undefined}>
+          {children}
+          {chiusura?.trasformazioni && <Trasformazioni fondo="grigio" />}
+          {chiusura && <Recensioni />}
+          {chiusura?.chiamata && <ChiamataAngelo />}
+        </main>
         <Footer />
         <CartSidebar />
         <CookieBanner />

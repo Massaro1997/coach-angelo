@@ -96,38 +96,38 @@ export default function Cookie() {
   return (
     <div className="min-h-screen bg-background pt-32 pb-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl md:text-4xl font-black text-ink uppercase mb-8">
+        <h1 className="text-3xl md:text-4xl fp-titolo text-ink mb-8">
           {t.title}<span className="text-gold">{t.titleHighlight}</span>
         </h1>
 
-        <div className="prose prose-invert prose-lg max-w-none">
-          <p className="text-white/70 mb-6">{t.lastUpdate}: {new Date().toLocaleDateString(language === 'de' ? "de-DE" : "it-IT")}</p>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-ink/70 mb-6">{t.lastUpdate}: {new Date().toLocaleDateString(language === 'de' ? "de-DE" : "it-IT")}</p>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s1Title}</h2>
-            <p className="text-white/70 mb-4">{t.s1Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s1Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s1Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s2Title}</h2>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s2Title}</h2>
 
-            <h3 className="text-lg font-semibold text-white mb-2">{t.s2a}</h3>
-            <p className="text-white/70 mb-4">{t.s2aText}</p>
-            <ul className="list-disc list-inside text-white/70 mb-4 space-y-2">
+            <h3 className="text-lg font-semibold text-ink mb-2">{t.s2a}</h3>
+            <p className="text-ink/70 mb-4">{t.s2aText}</p>
+            <ul className="list-disc list-inside text-ink/70 mb-4 space-y-2">
               {t.s2aItems.map((item, i) => <li key={i}>{item}</li>)}
             </ul>
 
-            <h3 className="text-lg font-semibold text-white mb-2">{t.s2b}</h3>
-            <p className="text-white/70 mb-4">{t.s2bText}</p>
+            <h3 className="text-lg font-semibold text-ink mb-2">{t.s2b}</h3>
+            <p className="text-ink/70 mb-4">{t.s2bText}</p>
 
-            <h3 className="text-lg font-semibold text-white mb-2">{t.s2c}</h3>
-            <p className="text-white/70 mb-4">{t.s2cText}</p>
+            <h3 className="text-lg font-semibold text-ink mb-2">{t.s2c}</h3>
+            <p className="text-ink/70 mb-4">{t.s2cText}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s3Title}</h2>
-            <p className="text-white/70 mb-4">{t.s3Text}</p>
-            <ul className="list-disc list-inside text-white/70 mb-4 space-y-2">
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s3Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s3Text}</p>
+            <ul className="list-disc list-inside text-ink/70 mb-4 space-y-2">
               {t.s3Items.map((item, i) => (
                 <li key={i}><strong>{item.strong}</strong> {item.text}</li>
               ))}
@@ -135,30 +135,30 @@ export default function Cookie() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s4Title}</h2>
-            <p className="text-white/70 mb-4">{t.s4Text1}</p>
-            <p className="text-white/70 mb-4">{t.s4Text2}</p>
-            <ul className="list-disc list-inside text-white/70 mb-4 space-y-2">
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s4Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s4Text1}</p>
+            <p className="text-ink/70 mb-4">{t.s4Text2}</p>
+            <ul className="list-disc list-inside text-ink/70 mb-4 space-y-2">
               {t.s4Items.map((item, i) => <li key={i}>{item}</li>)}
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s5Title}</h2>
-            <p className="text-white/70 mb-4">{t.s5Text}</p>
-            <ul className="list-disc list-inside text-white/70 mb-4 space-y-2">
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s5Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s5Text}</p>
+            <ul className="list-disc list-inside text-ink/70 mb-4 space-y-2">
               {t.s5Items.map((item, i) => <li key={i}>{item}</li>)}
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s6Title}</h2>
-            <p className="text-white/70 mb-4">{t.s6Text}</p>
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s6Title}</h2>
+            <p className="text-ink/70 mb-4">{t.s6Text}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-4">{t.s7Title}</h2>
-            <p className="text-white/70 mb-4">
+            <h2 className="text-xl font-bold text-ink mb-4">{t.s7Title}</h2>
+            <p className="text-ink/70 mb-4">
               {t.s7Text}<br />
               Email: magliarisiangelo912@gmail.com
             </p>

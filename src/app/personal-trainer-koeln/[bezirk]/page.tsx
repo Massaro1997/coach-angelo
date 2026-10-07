@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { bezirke, getBezirk, bezirkStadtteile, bezirkStats } from "@/lib/bezirk-content";
 import { density } from "@/lib/koeln-stadtteile";
@@ -78,16 +77,16 @@ export default async function BezirkPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       {/* Hero */}
-      <section className="pt-32 sm:pt-40 pb-10 sm:pb-14 bg-background">
+      <section className="fp-hero pt-32 sm:pt-40 pb-10 sm:pb-14">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <p className="text-accent uppercase tracking-[0.2em] text-xs font-semibold mb-5">
-            <Link href="/personal-trainer-koeln" className="hover:text-gold-soft">
+          <p className="mb-5 text-sm font-medium text-ink/50">
+            <Link href="/personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
               Personal Trainer Köln
             </Link>{" "}
             / Stadtbezirk
           </p>
-          <h1 className="text-4xl sm:text-5xl font-black text-ink uppercase mb-6">
-            Personal Trainer im Bezirk <span className="text-accent">Köln-{b.name}</span>
+          <h1 className="text-4xl sm:text-5xl fp-titolo text-ink mb-6">
+            Personal Trainer im Bezirk <span className="text-gold">Köln-{b.name}</span>
           </h1>
           <div className="space-y-4 text-lg text-ink/70 leading-relaxed max-w-prose">
             {b.intro.map((p, i) => (
@@ -97,9 +96,9 @@ export default async function BezirkPage({
           <div className="mt-8">
             <Link
               href="/contatti"
-              className="inline-flex items-center bg-gold text-white px-8 py-4 font-bold uppercase tracking-wider rounded-md"
+              className="fp-btn"
             >
-              Kostenlose Beratung anfragen <span className="ml-2">→</span>
+              Kostenlose Beratung anfragen <span aria-hidden>→</span>
             </Link>
           </div>
         </div>
@@ -129,14 +128,14 @@ export default async function BezirkPage({
       {/* Outdoor */}
       <section className="py-16 sm:py-20 bg-background">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-6">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-6">
             Outdoor-Training in {b.name}
           </h2>
           <p className="text-ink/70 leading-relaxed max-w-prose mb-6">{b.outdoorIntro}</p>
           {stats.spots.length > 0 && (
             <div className="flex flex-wrap gap-3">
               {stats.spots.map((spot) => (
-                <span key={spot} className="border border-line rounded-md px-4 py-2 text-sm text-ink/80">
+                <span key={spot} className="rounded-md border border-line bg-white px-4 py-2 text-sm text-ink/80">
                   {spot}
                 </span>
               ))}
@@ -148,7 +147,7 @@ export default async function BezirkPage({
       {/* Tabella Stadtteile */}
       <section className="py-16 sm:py-20 bg-surface border-y border-line">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-4">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-4">
             Alle Stadtteile im Bezirk {b.name}
           </h2>
           <p className="text-ink/60 max-w-prose mb-10">
@@ -183,7 +182,7 @@ export default async function BezirkPage({
       {/* Angebot */}
       <section className="py-16 sm:py-20 bg-background">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-10">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-10">
             Mein Angebot in {b.name}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -192,8 +191,8 @@ export default async function BezirkPage({
               { title: "Online Coaching", price: "ab 150€/Monat", desc: "Plan, Ernährung, wöchentliche Check-ins" },
               { title: "Trainingsplan", price: "ab 25€", desc: "Individuell oder fertig als PDF" },
             ].map((s) => (
-              <div key={s.title} className="border border-line rounded-lg p-5 bg-surface">
-                <h3 className="font-black text-ink uppercase text-sm mb-1">{s.title}</h3>
+              <div key={s.title} className="fp-scheda p-6">
+                <h3 className="fp-titolo text-ink text-lg mb-1">{s.title}</h3>
                 <p className="text-gold font-bold mb-2">{s.price}</p>
                 <p className="text-ink/60 text-sm">{s.desc}</p>
               </div>
@@ -205,7 +204,7 @@ export default async function BezirkPage({
       {/* FAQ */}
       <section className="py-16 sm:py-20 bg-surface border-y border-line">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-ink uppercase mb-10">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-10">
             Häufige Fragen aus {b.name}
           </h2>
           <div className="space-y-8">
@@ -222,44 +221,24 @@ export default async function BezirkPage({
       {/* Andere Bezirke */}
       <section className="py-16 sm:py-20 bg-background">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl font-black text-ink uppercase mb-6">Andere Stadtbezirke</h2>
+          <h2 className="text-2xl fp-titolo text-ink mb-6">Andere Stadtbezirke</h2>
           <div className="flex flex-wrap gap-3">
             {otherBezirke.map((o) => (
               <Link
                 key={o.slug}
                 href={`/personal-trainer-koeln/${o.slug}`}
-                className="border border-line rounded-md px-4 py-2 text-sm text-ink/80 hover:border-gold-deep hover:text-gold transition-colors"
+                className="rounded-md border border-line bg-white px-4 py-2 text-sm text-ink/80 hover:border-gold-deep hover:text-gold transition-colors"
               >
                 Köln-{o.name}
               </Link>
             ))}
             <Link
               href="/personal-trainer-koeln"
-              className="border border-gold-deep rounded-md px-4 py-2 text-sm text-gold hover:bg-elevated transition-colors"
+              className="rounded-md border border-gold/40 bg-white px-4 py-2 text-sm font-semibold text-gold transition-colors hover:border-gold"
             >
               Übersicht →
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="relative py-24 border-t border-line">
-        <Image src="/hero bassa.png" alt={`Coach Angelo, Personal Trainer Köln-${b.name}`} fill className="object-cover object-bottom" />
-        <div className="absolute inset-0 bg-background/75" />
-        <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-black text-ink uppercase mb-4">
-            Bereit für Veränderung in {b.name}?
-          </h2>
-          <p className="text-lg text-ink/70 mb-8 max-w-2xl mx-auto">
-            5 kurze Fragen, kostenlose Erstberatung, Antwort innerhalb von 24 Stunden.
-          </p>
-          <Link
-            href="/contatti"
-            className="inline-flex items-center bg-gold text-white px-10 py-5 font-bold uppercase tracking-wider rounded-md text-lg"
-          >
-            Jetzt starten <span className="ml-2">→</span>
-          </Link>
         </div>
       </section>
     </>

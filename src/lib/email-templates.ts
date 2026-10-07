@@ -14,8 +14,8 @@ const styles = {
     color: #ffffff;
   `,
   header: `
-    background: linear-gradient(135deg, #ec4899 0%, #d946ef 50%, #8b5cf6 100%);
-    border-bottom: 2px solid #d946ef;
+    background: linear-gradient(135deg, #ff2b3a 0%, #e30613 50%, #b3040f 100%);
+    border-bottom: 2px solid #e30613;
     padding: 30px;
     text-align: center;
   `,
@@ -31,7 +31,7 @@ const styles = {
   `,
   button: `
     display: inline-block;
-    background: linear-gradient(135deg, #ec4899 0%, #d946ef 50%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #ff2b3a 0%, #e30613 50%, #b3040f 100%);
     color: #ffffff;
     padding: 14px 28px;
     text-decoration: none;
@@ -41,8 +41,8 @@ const styles = {
   `,
   badge: `
     display: inline-block;
-    background-color: rgba(217, 70, 239, 0.15);
-    color: #d946ef;
+    background-color: rgba(227, 6, 19, 0.15);
+    color: #e30613;
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 12px;
@@ -104,7 +104,7 @@ export function contactNotificationEmail(data: {
                 <td style="padding: 10px 0; border-bottom: 1px solid #333;">
                   <span style="color: #888; font-size: 12px;">EMAIL</span>
                   <div style="margin-top: 4px;">
-                    <a href="mailto:${data.email}" style="color: #d946ef; font-size: 15px; text-decoration: none;">${data.email}</a>
+                    <a href="mailto:${data.email}" style="color: #e30613; font-size: 15px; text-decoration: none;">${data.email}</a>
                   </div>
                 </td>
               </tr>
@@ -113,7 +113,7 @@ export function contactNotificationEmail(data: {
                 <td style="padding: 10px 0; border-bottom: 1px solid #333;">
                   <span style="color: #888; font-size: 12px;">TELEFONO</span>
                   <div style="margin-top: 4px;">
-                    <a href="tel:${data.phone}" style="color: #d946ef; font-size: 15px; text-decoration: none;">${data.phone}</a>
+                    <a href="tel:${data.phone}" style="color: #e30613; font-size: 15px; text-decoration: none;">${data.phone}</a>
                   </div>
                 </td>
               </tr>
@@ -187,7 +187,7 @@ export function orderNotificationEmail(data: {
         <td style="padding: 12px 0; border-bottom: 1px solid #333; text-align: center; color: #888;">
           x${item.quantity}
         </td>
-        <td style="padding: 12px 0; border-bottom: 1px solid #333; text-align: right; color: #d946ef;">
+        <td style="padding: 12px 0; border-bottom: 1px solid #333; text-align: right; color: #e30613;">
           ${(item.price * item.quantity).toFixed(2)} EUR
         </td>
       </tr>
@@ -219,14 +219,14 @@ export function orderNotificationEmail(data: {
             <h2 style="color: #ffffff; font-size: 22px; margin: 10px 0 0 0;">
               Hai ricevuto un nuovo ordine
             </h2>
-            <p style="color: #d946ef; font-size: 28px; font-weight: bold; margin: 10px 0 0 0;">
+            <p style="color: #e30613; font-size: 28px; font-weight: bold; margin: 10px 0 0 0;">
               ${data.totalPrice.toFixed(2)} EUR
             </p>
           </div>
 
           <!-- Customer Info -->
           <div style="background-color: #171717; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
-            <h3 style="color: #d946ef; font-size: 13px; text-transform: uppercase; margin: 0 0 15px 0;">
+            <h3 style="color: #e30613; font-size: 13px; text-transform: uppercase; margin: 0 0 15px 0;">
               Dati Cliente
             </h3>
             <table style="width: 100%; border-collapse: collapse;">
@@ -236,12 +236,12 @@ export function orderNotificationEmail(data: {
               </tr>
               <tr>
                 <td style="padding: 6px 0; color: #888;">Email:</td>
-                <td style="padding: 6px 0;"><a href="mailto:${data.email}" style="color: #d946ef; text-decoration: none;">${data.email}</a></td>
+                <td style="padding: 6px 0;"><a href="mailto:${data.email}" style="color: #e30613; text-decoration: none;">${data.email}</a></td>
               </tr>
               ${data.phone ? `
               <tr>
                 <td style="padding: 6px 0; color: #888;">Telefono:</td>
-                <td style="padding: 6px 0;"><a href="tel:${data.phone}" style="color: #d946ef; text-decoration: none;">${data.phone}</a></td>
+                <td style="padding: 6px 0;"><a href="tel:${data.phone}" style="color: #e30613; text-decoration: none;">${data.phone}</a></td>
               </tr>
               ` : ""}
               ${data.address ? `
@@ -255,7 +255,7 @@ export function orderNotificationEmail(data: {
 
           <!-- Order Items -->
           <div style="background-color: #171717; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
-            <h3 style="color: #d946ef; font-size: 13px; text-transform: uppercase; margin: 0 0 15px 0;">
+            <h3 style="color: #e30613; font-size: 13px; text-transform: uppercase; margin: 0 0 15px 0;">
               Prodotti
             </h3>
             <table style="width: 100%; border-collapse: collapse;">
@@ -264,7 +264,7 @@ export function orderNotificationEmail(data: {
                 <td colspan="2" style="padding: 15px 0 0 0; color: #ffffff; font-weight: bold;">
                   TOTALE
                 </td>
-                <td style="padding: 15px 0 0 0; text-align: right; color: #d946ef; font-weight: bold; font-size: 18px;">
+                <td style="padding: 15px 0 0 0; text-align: right; color: #e30613; font-weight: bold; font-size: 18px;">
                   ${data.totalPrice.toFixed(2)} EUR
                 </td>
               </tr>
@@ -315,7 +315,7 @@ export function orderConfirmationEmail(data: {
         <td style="padding: 10px 0; border-bottom: 1px solid #333; text-align: center; color: #888;">
           x${item.quantity}
         </td>
-        <td style="padding: 10px 0; border-bottom: 1px solid #333; text-align: right; color: #d946ef;">
+        <td style="padding: 10px 0; border-bottom: 1px solid #333; text-align: right; color: #e30613;">
           ${(item.price * item.quantity).toFixed(2)} EUR
         </td>
       </tr>
@@ -353,7 +353,7 @@ export function orderConfirmationEmail(data: {
 
           <!-- Order Summary -->
           <div style="background-color: #171717; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
-            <h3 style="color: #d946ef; font-size: 13px; text-transform: uppercase; margin: 0 0 15px 0;">
+            <h3 style="color: #e30613; font-size: 13px; text-transform: uppercase; margin: 0 0 15px 0;">
               Riepilogo Ordine
             </h3>
             <table style="width: 100%; border-collapse: collapse;">
@@ -362,7 +362,7 @@ export function orderConfirmationEmail(data: {
                 <td colspan="2" style="padding: 15px 0 0 0; color: #ffffff; font-weight: bold;">
                   TOTALE
                 </td>
-                <td style="padding: 15px 0 0 0; text-align: right; color: #d946ef; font-weight: bold; font-size: 18px;">
+                <td style="padding: 15px 0 0 0; text-align: right; color: #e30613; font-weight: bold; font-size: 18px;">
                   ${data.totalPrice.toFixed(2)} EUR
                 </td>
               </tr>
@@ -385,13 +385,13 @@ export function orderConfirmationEmail(data: {
               Hai domande? Contattami!
             </h3>
             <p style="margin: 8px 0; font-size: 14px;">
-              <a href="mailto:info@angelocoach.com" style="color: #d946ef; text-decoration: none;">
+              <a href="mailto:info@angelocoach.com" style="color: #e30613; text-decoration: none;">
                 Email: info@angelocoach.com
               </a>
             </p>
             <p style="margin: 8px 0; font-size: 14px;">
-              <a href="https://instagram.com/angelo_fitnesscoach" style="color: #d946ef; text-decoration: none;">
-                Instagram: @angelo_fitnesscoach
+              <a href="https://instagram.com/am_fitprimo" style="color: #e30613; text-decoration: none;">
+                Instagram: @am_fitprimo
               </a>
             </p>
           </div>
@@ -452,7 +452,7 @@ export function schedaProntaEmail(data: {
 
           <!-- Scheda Info -->
           <div style="background-color: #171717; border-radius: 12px; padding: 20px; margin-bottom: 20px; text-align: center;">
-            <div style="display: inline-block; background-color: rgba(217, 70, 239, 0.15); color: #d946ef; padding: 6px 14px; border-radius: 20px; font-size: 12px; text-transform: uppercase; margin-bottom: 15px;">
+            <div style="display: inline-block; background-color: rgba(227, 6, 19, 0.15); color: #e30613; padding: 6px 14px; border-radius: 20px; font-size: 12px; text-transform: uppercase; margin-bottom: 15px;">
               ${data.schedaLevel}
             </div>
             <h3 style="color: #ffffff; font-size: 20px; margin: 0 0 10px 0;">
@@ -482,7 +482,7 @@ export function schedaProntaEmail(data: {
               Hai domande sulla scheda?
             </h3>
             <p style="margin: 8px 0; font-size: 14px;">
-              <a href="mailto:info@angelocoach.com" style="color: #d946ef; text-decoration: none;">
+              <a href="mailto:info@angelocoach.com" style="color: #e30613; text-decoration: none;">
                 Email: info@angelocoach.com
               </a>
             </p>
@@ -539,7 +539,7 @@ export function contactConfirmationEmail(data: {
         <div style="${styles.content}">
           <!-- Success Message -->
           <div style="text-align: center; margin-bottom: 25px;">
-            <div style="color: #d946ef; font-size: 48px; margin-bottom: 15px;">&#9993;</div>
+            <div style="color: #e30613; font-size: 48px; margin-bottom: 15px;">&#9993;</div>
             <h2 style="color: #ffffff; font-size: 24px; margin: 0 0 8px 0;">
               Ciao, ${data.name}!
             </h2>
@@ -552,8 +552,8 @@ export function contactConfirmationEmail(data: {
           <div style="background-color: #171717; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
             <p style="color: #e5e5e5; line-height: 1.7; margin: 0; font-size: 15px;">
               Grazie per avermi contattato!<br><br>
-              ${data.service ? `Hai richiesto informazioni su: <strong style="color: #d946ef;">${serviceLabels[data.service] || data.service}</strong><br><br>` : ""}
-              Ti rispondero entro <strong style="color: #d946ef;">24 ore</strong>.
+              ${data.service ? `Hai richiesto informazioni su: <strong style="color: #e30613;">${serviceLabels[data.service] || data.service}</strong><br><br>` : ""}
+              Ti rispondero entro <strong style="color: #e30613;">24 ore</strong>.
             </p>
           </div>
 
@@ -573,8 +573,8 @@ export function contactConfirmationEmail(data: {
               Nel frattempo seguimi
             </h3>
             <p style="margin: 8px 0; font-size: 14px;">
-              <a href="https://instagram.com/angelo_fitnesscoach" style="color: #d946ef; text-decoration: none;">
-                Instagram: @angelo_fitnesscoach
+              <a href="https://instagram.com/am_fitprimo" style="color: #e30613; text-decoration: none;">
+                Instagram: @am_fitprimo
               </a>
             </p>
           </div>

@@ -2,7 +2,11 @@
 
 import { useState } from "react";
 import AdminGate from "@/components/AdminGate";
-import { Shell, type Vista } from "@/components/admin/Shell";
+import { Shell, VISTE, type Vista } from "@/components/admin/Shell";
+import ScalettaView from "@/components/admin/ScalettaView";
+import MarchioView from "@/components/admin/MarchioView";
+import BrandSheetView from "@/components/admin/BrandSheetView";
+import MerchandisingView from "@/components/admin/MerchandisingView";
 import Conversioni, { type DatiConversioni } from "@/components/admin/Conversioni";
 import LeadView from "@/components/admin/LeadView";
 import PreventiviView from "@/components/admin/PreventiviView";
@@ -18,7 +22,16 @@ export default function AdminPage() {
 }
 
 function Gestionale() {
-  const [vista, setVista] = useState<Vista>("conversioni");
+  // Gestionale si monta solo nel browser, dopo il controllo di AdminGate:
+  // leggere l'ancora qui non crea differenze con il rendering lato server.
+  const [vista, setVistaStato] = useState<Vista>(() => {
+    const h = window.location.hash.slice(1) as Vista;
+    return VISTE.includes(h) ? h : "conversioni";
+  });
+  const setVista = (v: Vista) => {
+    setVistaStato(v);
+    history.replaceState(null, "", `#${v}`);
+  };
   // I conteggi del menu arrivano dalla vista Conversioni, che li carica
   // comunque: cosi' il badge "da leggere" c'e' senza una seconda chiamata.
   const [conteggi, setConteggi] = useState<Partial<Record<Vista, number>>>({});
@@ -37,6 +50,10 @@ function Gestionale() {
       {vista === "preventivi" && <PreventiviView />}
       {vista === "ordini" && <OrdiniView />}
       {vista === "seo" && <GSCDashboard />}
+      {vista === "scaletta" && <ScalettaView onMarchio={() => setVista("marchio")} />}
+      {vista === "marchio" && <MarchioView />}
+      {vista === "brand" && <BrandSheetView />}
+      {vista === "merchandising" && <MerchandisingView />}
     </Shell>
   );
 }
