@@ -12,7 +12,7 @@ import {
   type Lingua,
   type LogoMerch,
 } from "@/lib/merchandising";
-import { Card, Badge, cx } from "./ui";
+import { Card, cx } from "./ui";
 
 // Merchandising (fase 3 della scaletta): la brochure a tre ante e il
 // biglietto da visita, piu' i file di partenza per magliette e il resto.
@@ -132,42 +132,6 @@ export default function MerchandisingView() {
         </div>
       </Card>
 
-      <Card
-        title="Prima di mandare in stampa"
-        action={<Badge tone="amber">Da controllare</Badge>}
-      >
-        <ul className="list-disc space-y-1.5 pl-4 text-xs leading-relaxed text-neutral-700">
-          <li>
-            <span className="font-bold">Il nome.</span> FITPRIME è un marchio registrato in Europa
-            per servizi fitness, quasi uguale a FITPRIMO. Prima di stampare serve il parere di un
-            avvocato di marchi. Cambiare nome nei file è un comando solo.
-          </li>
-          <li>
-            <span className="font-bold">Il dominio va collegato.</span> Su carta ora ci sono{" "}
-            <span className="font-mono">www.fitprimo.de</span> e{" "}
-            <span className="font-mono">info@fitprimo.de</span>, e il codice QR porta a{" "}
-            <span className="font-mono">fitprimo.de/contatti</span>. Il 04/10 però fitprimo.de
-            era solo parcheggiato su Hostinger: chi lo apre vede una pagina vuota, non il sito.
-            Prima di stampare va collegato al sito, e va provato che la mail riceve. I contatti
-            stanno in <span className="font-mono">brand/stampa/contatti.json</span>.
-          </li>
-          <li>
-            <span className="font-bold">Il telefono.</span> Sul biglietto e sulla brochure non c&apos;è:
-            sul sito non compare e non è stato inventato. Si scrive nello stesso file e la riga
-            compare da sola.
-          </li>
-          <li>
-            <span className="font-bold">I numeri.</span> &quot;100+ trasformazioni&quot; e &quot;4,9
-            su 5&quot; sono quelli del sito. Su carta li deve confermare Angelo.
-          </li>
-          <li>
-            <span className="font-bold">I prezzi.</span> 450, 850 e 1.500 € per 3, 6 e 12 mesi, 50 €
-            l&apos;ora, 25 € le schede: gli stessi della pagina Leistungen. Se cambiano lì, cambiano
-            anche qui.
-          </li>
-        </ul>
-      </Card>
-
       <Card title="Template merchandising" subtitle="Come si stampa e quale file mandare al fornitore">
         <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
           {OGGETTI.map((o) => (
@@ -243,29 +207,6 @@ export default function MerchandisingView() {
             </button>
           ))}
         </div>
-      </Card>
-
-      <Card title="I file e come si rifanno">
-        <ul className="list-disc space-y-1 pl-4 text-xs leading-relaxed text-neutral-600">
-          <li>
-            Sorgenti: <span className="font-mono">brand/stampa/brochure.html</span> e{" "}
-            <span className="font-mono">biglietto.html</span>. Il tedesco è nel testo,
-            l&apos;italiano negli attributi <span className="font-mono">data-it</span>.
-          </li>
-          <li>
-            Dopo una modifica: <span className="font-mono">node scripts/esporta-stampa.mjs</span>.
-            Rifà PDF e PNG e aggiorna queste anteprime. Sito, mail, telefono e codice QR stanno in{" "}
-            <span className="font-mono">brand/stampa/contatti.json</span>.
-          </li>
-          <li>
-            Brochure: foglio 303 x 216 mm con 3 mm di abbondanza, ante da 97, 100 e 100 mm.
-            Biglietto: 91 x 61 mm con l&apos;abbondanza. I PDF sono vettoriali.
-          </li>
-          <li>
-            Dentro ci sono solo persone e foto vere: Angelo è la sua foto di gara. Le figure
-            d&apos;esempio del sito (la trainer, il nutrizionista) non sono state usate.
-          </li>
-        </ul>
       </Card>
 
       {zoom && (

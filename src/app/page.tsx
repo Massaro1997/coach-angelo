@@ -305,14 +305,13 @@ export default function Home() {
               <div aria-hidden className="fp-forma -right-4 top-0 h-56 w-36 bg-gold/[0.16] sm:-right-10" />
               <div aria-hidden className="fp-forma -left-6 bottom-2 h-56 w-36 border-2 border-gold/25 sm:-left-12" />
               <div className="relative z-10 aspect-[3/2] overflow-hidden rounded-[10px] shadow-[0_10px_40px_rgba(227,6,19,0.12)]">
-                {/* 07/10: via la foto in tre (la trainer bionda non esiste),
-                    resta Angelo con una cliente. Foto campione, da sostituire
-                    con una vera. */}
+                {/* 07/10, Calogero: qui una foto campione SENZA persone (niente
+                    trainer o clienti generati). La sala pronta per l'allenamento. */}
                 <Image
-                  src="/images/squadra/angelo-cliente-v1.jpg"
+                  src="/images/services/seduta-chiaro-2.jpg"
                   alt={de
-                    ? 'Personal Trainer Angelo mit einer Kundin nach dem Training im Studio'
-                    : 'Il personal trainer Angelo con una cliente dopo un allenamento in palestra'}
+                    ? 'Heller Trainingsraum mit Matten, Kettlebell und Hantelbank'
+                    : 'Sala di allenamento luminosa con tappetini, kettlebell e panca'}
                   fill
                   sizes="(max-width: 1024px) 100vw, 620px"
                   className="object-cover"

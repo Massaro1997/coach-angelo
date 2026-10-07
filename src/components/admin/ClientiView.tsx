@@ -15,6 +15,8 @@ import {
   Phone,
   MessageCircle,
   FileSignature,
+  FileDown,
+  Upload,
   Pencil,
   Check,
   X,
@@ -46,6 +48,52 @@ function statoDi(c: Cliente, ora: number): Stato {
   if (ritardo) return { chiave: "ritardo", label: "pagamento in ritardo", tone: "red" };
   if (c.inizio && new Date(c.inizio).getTime() > ora) return { chiave: "futuro", label: `parte il ${breve(c.inizio)}`, tone: "blue" };
   return { chiave: "attivo", label: "attivo", tone: "green" };
+}
+
+/**
+ * Commissione DirezioneX, solo per i clienti arrivati online, cioe' con un
+ * lead del sito (Google, ChatGPT, social, diretto: qualunque canale online).
+ * I clienti che Angelo trova da solo non pagano commissione.
+ * - Coaching a mesi: 50 € per ogni mese di contratto (Calogero, 07/10/2026).
+ *   Totale = 50 € x mesi; maturata = 50 € x mesi gia' iniziati.
+ * - Personal Training a ore: 20% di quanto pagato (contratto di cooperazione,
+ *   deciso il 03/10/2026).
+ * - Schede pronte: niente.
+ */
+const COMMISSIONE_MESE = 50;
+const QUOTA_ORE = 0.2;
+
+interface Commissione {
+  regola: string;
+  totale: number | null;
+  maturata: number;
+  mesi: number | null;
+}
+
+function commissione(c: Cliente, ora: number): Commissione | null {
+  if (!c.lead) return null;
+  const p = c.pacchetto.toLowerCase();
+  if (p.includes("trainingsplan") || p.includes("scheda")) return null;
+  if (p.includes("personal training") && !c.mensile) {
+    const t = Math.round(c.totale * QUOTA_ORE * 100) / 100;
+    const pagato = c.incassato ?? (c.fonte === "contratto" ? c.totale : 0);
+    return { regola: "20% delle ore", totale: t, maturata: Math.round(pagato * QUOTA_ORE * 100) / 100, mesi: null };
+  }
+  const mesi = c.fine ? c.mesi : null; // senza fine: canone aperto
+  let iniziati = 0;
+  if (c.inizio && !c.inAttesa) {
+    const d = new Date(c.inizio);
+    while (d.getTime() <= ora && (mesi == null || iniziati < mesi)) {
+      iniziati++;
+      d.setMonth(d.getMonth() + 1);
+    }
+  }
+  return {
+    regola: "50 € al mese",
+    totale: mesi != null ? mesi * COMMISSIONE_MESE : null,
+    maturata: iniziati * COMMISSIONE_MESE,
+    mesi,
+  };
 }
 
 /** Prossimo addebito: la prima rata non pagata, oppure (canone aperto) il prossimo mese. */
@@ -103,16 +151,44 @@ export default function ClientiView() {
   const inScadenza = conStato.filter(
     ({ c, s }) => s.chiave !== "concluso" && c.fine && new Date(c.fine).getTime() <= fra30
   ).length;
+  const comm = conStato.reduce(
+    (t, { c }) => {
+      const k = commissione(c, ora);
+      return k ? { maturata: t.maturata + k.maturata, totale: t.totale + (k.totale ?? k.maturata), n: t.n + 1 } : t;
+    },
+    { maturata: 0, totale: 0, n: 0 }
+  );
+
+  // Fatturato = quanto vale ogni contratto firmato, per intero (regola di
+  // Calogero: un contratto vale quello che c'e' scritto sopra). Un canone
+  // senza fine pesa per quanto incassato finora.
+  const fatt = conStato.reduce(
+    (t, { c }) =>
+      c.inAttesa
+        ? t
+        : {
+            valore: t.valore + (c.mensile && !c.fine ? c.incassato ?? 0 : c.totale),
+            incassato: t.incassato + (c.incassato ?? 0),
+          },
+    { valore: 0, incassato: 0 }
+  );
 
   if (caricando) return <p className="py-10 text-sm text-neutral-400">Carico i clienti…</p>;
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 2xl:grid-cols-6">
+        <Stat label="Fatturato contratti" value={eur(fatt.valore)} sub={`incassati ${eur(fatt.incassato)}, da incassare ${eur(Math.max(0, fatt.valore - fatt.incassato))}`} tone="ink" />
         <Stat label="Clienti attivi" value={attivi} tone="green" />
         <Stat label="Da sistemare" value={daSistemare} sub="non pagato o in ritardo" tone={daSistemare ? "red" : "ink"} onClick={() => setFiltro("pagare")} />
-        <Stat label="In arrivo 30 giorni" value={eur(inArrivo)} sub="addebiti automatici" tone="brand" />
+        <Stat label="In arrivo 30 giorni" value={eur(inArrivo)} sub="rate in scadenza" tone="brand" />
         <Stat label="Finiscono entro 30 giorni" value={inScadenza} sub="da sentire per il rinnovo" tone="amber" />
+        <Stat
+          label="Commissioni DirezioneX"
+          value={eur(comm.maturata)}
+          sub={`maturate finora, ${eur(comm.totale)} in tutto · ${comm.n} ${comm.n === 1 ? "cliente" : "clienti"} dall'online`}
+          tone="ink"
+        />
       </div>
 
       {errore && <p className="border border-red-500/30 bg-red-50 p-3 text-sm text-red-600">{errore}</p>}
@@ -264,14 +340,14 @@ function RigaCliente({
         <ChevronDown className={cx("hidden h-4 w-4 text-neutral-400 transition-transform lg:block", aperto && "rotate-180")} />
       </button>
 
-      {aperto && <Dettaglio c={c} onCambiato={onCambiato} />}
+      {aperto && <Dettaglio c={c} ora={ora} onCambiato={onCambiato} />}
     </div>
   );
 }
 
 /* -------------------------------------------------------------- dettaglio */
 
-function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
+function Dettaglio({ c, ora, onCambiato }: { c: Cliente; ora: number; onCambiato: () => void }) {
   const [firma, setFirma] = useState<string | null>(null);
   const [modifica, setModifica] = useState(false);
   const [dati, setDati] = useState({
@@ -283,6 +359,32 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
   const [note, setNote] = useState(c.note || "");
   const [salvo, setSalvo] = useState(false);
   const [msg, setMsg] = useState("");
+  const [carico, setCarico] = useState(false);
+
+  async function segnaPagata(id: string) {
+    if (!confirm("Segno questa rata come pagata (bonifico)?")) return;
+    setSalvo(true);
+    const r = await fetch(`/api/admin/pagamenti/${id}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ azione: "pagato", metodo: "bonifico" }),
+    });
+    setSalvo(false);
+    if (r.ok) onCambiato();
+    else setMsg((await r.json().catch(() => ({}))).error || "Non salvato, riprova.");
+  }
+
+  async function caricaPdf(file?: File) {
+    if (!file) return;
+    setCarico(true);
+    setMsg("");
+    const fd = new FormData();
+    fd.append("file", file);
+    const r = await fetch(`/api/admin/documenti/${c.rifId}/pdf`, { method: "POST", body: fd });
+    setCarico(false);
+    if (r.ok) onCambiato();
+    else setMsg((await r.json().catch(() => ({}))).error || "PDF non caricato.");
+  }
 
   useEffect(() => {
     if (c.fonte !== "preventivo") return;
@@ -320,6 +422,7 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
   const modificabile = c.fonte === "preventivo";
 
   const l = c.lead;
+  const k = commissione(c, ora);
   const giorniAlContratto =
     l && (c.firmatoAt || c.inizio)
       ? Math.max(0, Math.round((new Date(c.firmatoAt || c.inizio!).getTime() - new Date(l.data).getTime()) / 86400000))
@@ -443,6 +546,17 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
             </Riga>
           )}
           {c.numero && <Riga label="Numero">{c.numero}</Riga>}
+          <Riga label="DirezioneX">
+            {k
+              ? k.mesi != null && k.totale != null
+                ? `${eur(COMMISSIONE_MESE)} × ${k.mesi} mesi = ${eur(k.totale)} (maturati ${eur(k.maturata)})`
+                : k.regola === "20% delle ore"
+                  ? `20% delle ore = ${eur(k.totale ?? 0)} (maturati ${eur(k.maturata)})`
+                  : `${eur(COMMISSIONE_MESE)} al mese, maturati ${eur(k.maturata)}`
+              : c.lead
+                ? "nessuna commissione sulle schede pronte"
+                : "nessuna commissione: cliente trovato da Angelo"}
+          </Riga>
         </dl>
         {firma && (
           // eslint-disable-next-line @next/next/no-img-element
@@ -459,8 +573,28 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
             </button>
           ) : null}
           {c.fonte === "contratto" && (
+            <div className="mt-2 flex flex-wrap items-center gap-2">
+              {c.pdfNome && (
+                <a
+                  href={`/api/admin/documenti/${c.rifId}/pdf`}
+                  target="_blank"
+                  rel="noopener"
+                  className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-3 py-2 text-[12px] font-semibold text-neutral-800 hover:border-black/30"
+                >
+                  <FileDown className="h-3.5 w-3.5" /> PDF firmato
+                </a>
+              )}
+              <label className="inline-flex cursor-pointer items-center gap-1.5 text-[12px] font-semibold text-neutral-500 hover:text-neutral-900">
+                <Upload className="h-3.5 w-3.5" />
+                {carico ? "Carico…" : c.pdfNome ? "Sostituisci PDF" : "Carica il PDF firmato"}
+                <input type="file" accept="application/pdf" className="hidden" disabled={carico} onChange={(e) => caricaPdf(e.target.files?.[0])} />
+              </label>
+            </div>
+          )}
+          {c.fonte === "contratto" && (
             <p className="mt-2 text-[11px] leading-snug text-neutral-400">
-              Contratto del vecchio generatore: firmato su carta, senza firma digitale.
+              Contratto del vecchio generatore, firmato su carta.
+              {c.pdfNome ? ` Copia salvata: ${c.pdfNome}.` : ""}
             </p>
           )}
         </div>
@@ -472,13 +606,23 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
         {c.rate.length ? (
           <ul className="divide-y divide-black/[0.06] border border-black/10 bg-white text-sm">
             {c.rate.map((r) => (
-              <li key={r.id} className="flex items-center gap-3 px-3 py-2">
+              <li key={r.id} className="flex flex-wrap items-center gap-x-3 gap-y-1 whitespace-nowrap px-3 py-2">
                 <span className={cx("h-2 w-2 shrink-0 rounded-full", r.stato === "pagato" ? "bg-green-600" : "bg-black/20")} />
                 <span className="text-neutral-600">{r.numero ? `Mese ${r.numero}` : "Rata"}</span>
                 <span className="ml-auto tabular-nums font-semibold text-neutral-900">{eur(r.importo)}</span>
-                <span className="w-24 text-right text-[11px] text-neutral-500">
+                <span className="text-right text-[11px] text-neutral-500">
                   {r.stato === "pagato" ? `pagata ${breve(r.pagatoAt)}` : r.scadenza ? `il ${breve(r.scadenza)}` : r.stato}
                 </span>
+                {r.stato !== "pagato" && (
+                  <button
+                    onClick={() => segnaPagata(r.id)}
+                    disabled={salvo}
+                    title="Pagata con bonifico o in contanti"
+                    className="shrink-0 border border-green-600/40 px-2 py-0.5 text-[11px] font-semibold text-green-700 hover:bg-green-50 disabled:opacity-50"
+                  >
+                    Segna pagata
+                  </button>
+                )}
               </li>
             ))}
           </ul>

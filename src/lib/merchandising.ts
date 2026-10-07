@@ -13,6 +13,8 @@ export type Lingua = "de" | "it";
 export type FileScaricabile = { label: string; href: string };
 
 const S = "/brand/stampa";
+/** dal 07/10: la brochure buona e' quella con Angelo a braccia incrociate in copertina */
+const B = "/brand/stampa/prova-studio";
 
 export const BROCHURE = {
   /** 303 x 216 mm con l'abbondanza */
@@ -21,18 +23,18 @@ export const BROCHURE = {
     {
       titolo: "Esterno",
       nota: "Da sinistra: anta che si infila, retro, copertina",
-      src: `${S}/brochure-esterno-${l}.jpg`,
+      src: `${B}/brochure-esterno-${l}.jpg`,
     },
     {
       titolo: "Interno",
       nota: "Da sinistra: come funziona, cosa ricevi, prezzi e chiamata",
-      src: `${S}/brochure-interno-${l}.jpg`,
+      src: `${B}/brochure-interno-${l}.jpg`,
     },
   ],
   file: (l: Lingua): FileScaricabile[] => [
-    { label: "PDF per la stampa", href: `${S}/brochure-fitprimo-${l}.pdf` },
-    { label: "Esterno PNG 300 dpi", href: `${S}/png/brochure-esterno-${l}.png` },
-    { label: "Interno PNG 300 dpi", href: `${S}/png/brochure-interno-${l}.png` },
+    { label: "PDF per la stampa", href: `${B}/brochure-fitprimo-prova-studio-${l}.pdf` },
+    { label: "Esterno PNG 300 dpi", href: `${B}/brochure-esterno-${l}.png` },
+    { label: "Interno PNG 300 dpi", href: `${B}/brochure-interno-${l}.png` },
   ],
   /** l'ordine dei pannelli come li legge chi apre la brochure */
   imbuto: [

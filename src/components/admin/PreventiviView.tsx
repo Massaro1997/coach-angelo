@@ -276,14 +276,16 @@ interface Pacchetto {
   rate?: string; // chiave LISTINO a rate
   subito?: string; // chiave LISTINO tutto subito
   consigliato?: boolean;
+  /** prezzo all'ora: nel preventivo si sceglie quante ore */
+  aOre?: boolean;
 }
 
 const PACCHETTI: Pacchetto[] = [
   { id: "c3", titolo: "Coaching 3 mesi", nota: "Obiettivo a breve", rate: "coaching-3" },
   { id: "c6", titolo: "Coaching 6 mesi", nota: "Il più scelto", rate: "coaching-6", subito: "coaching-6-einmal", consigliato: true },
   { id: "c12", titolo: "Coaching 12 mesi", nota: "Trasformazione completa", rate: "coaching-12", subito: "coaching-12-einmal" },
-  { id: "pt", titolo: "Personal Training 1-zu-1", nota: "Ogni mese, finché non disdice", rate: "pt-1to1" },
-  { id: "plan", titolo: "Scheda di allenamento", nota: "Una volta sola", subito: "trainingsplan" },
+  { id: "pt", titolo: "Personal Training 1-zu-1", nota: "In studio a Colonia, a ore", subito: "pt-1to1", aOre: true },
+  { id: "plan", titolo: "Scheda pronta", nota: "PDF, una volta sola", subito: "trainingsplan" },
   { id: "custom", titolo: "Su misura", nota: "Voci e prezzi a mano" },
 ];
 
@@ -297,6 +299,7 @@ const totaleVoce = (key?: string) => {
 function FormNuovo({ onFatto }: { onFatto: () => void }) {
   const [pacchetto, setPacchetto] = useState<string>("c6");
   const [pagamento, setPagamento] = useState<Pagamento>("rate");
+  const [ore, setOre] = useState(10);
 
   const [clienteNome, setClienteNome] = useState("");
   const [clienteEmail, setClienteEmail] = useState("");
@@ -340,7 +343,7 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
           ? [{
               descrizione: `${voce.label} — ${voce.descrizione}`,
               prezzo: voce.prezzo,
-              quantita: voce.periodicita === "mensile" ? voce.mesi : 1,
+              quantita: voce.periodicita === "mensile" ? voce.mesi : pac.aOre ? ore : 1,
             }]
           : [],
       };
@@ -481,7 +484,12 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
                       <p className="mt-3 text-2xl font-bold text-neutral-300">—</p>
                     ) : (
                       <p className="mt-3 text-2xl font-bold tabular-nums text-neutral-900">
-                        {vr && vr.mesi <= 1 && vr.periodicita === "mensile" ? (
+                        {p.aOre ? (
+                          <>
+                            {eur(tot)}
+                            <span className="text-sm font-semibold text-neutral-400"> /ora</span>
+                          </>
+                        ) : vr && vr.mesi <= 1 && vr.periodicita === "mensile" ? (
                           <>
                             {eur(vr.prezzo)}
                             <span className="text-sm font-semibold text-neutral-400"> /mese</span>
@@ -511,7 +519,32 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
                 <span className="mr-2 inline-flex h-5 w-5 items-center justify-center bg-neutral-900 text-[11px] text-white">2</span>
                 Come paga
               </h3>
-              {haScelta ? (
+              {pac.aOre ? (
+                <div className="flex flex-wrap items-center gap-3">
+                  <div className="flex items-stretch border border-black/15 bg-white">
+                    <button onClick={() => setOre(Math.max(1, ore - 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora in meno">−</button>
+                    <input
+                      value={ore}
+                      onChange={(e) => setOre(Math.max(1, Math.min(200, Number(e.target.value) || 1)))}
+                      type="number"
+                      min={1}
+                      className="w-16 border-x border-black/15 py-2 text-center text-sm font-bold outline-none"
+                      aria-label="Ore"
+                    />
+                    <button onClick={() => setOre(ore + 1)} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora in più">+</button>
+                  </div>
+                  <span className="text-sm text-neutral-600">
+                    ore × {eur(voce?.prezzo || 0)} = <span className="font-bold text-neutral-900">{eur(totale)}</span>, pagate alla firma
+                  </span>
+                  <div className="flex gap-1.5">
+                    {[5, 10, 20].map((n) => (
+                      <button key={n} onClick={() => setOre(n)} className={cx("border px-2.5 py-1 text-[11px] font-semibold", ore === n ? "border-neutral-900 bg-neutral-900 text-white" : "border-black/15 bg-white text-neutral-600")}>
+                        {n} ore
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ) : haScelta ? (
                 <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                   {(["rate", "subito"] as const).map((m) => {
                     const v = voceListino(m === "rate" ? pac.rate : pac.subito)!;

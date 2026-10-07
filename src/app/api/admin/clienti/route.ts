@@ -66,6 +66,8 @@ export interface Cliente {
   lead: LeadCliente | null;
   /** solo contratti vecchi: per riaprirli nel generatore /contratti */
   snapshot: { contractData: unknown; rechnungData: unknown } | null;
+  /** solo contratti vecchi: PDF firmato salvato nel database */
+  pdfNome: string | null;
 }
 
 const piuMesi = (d: Date, m: number) => {
@@ -87,9 +89,37 @@ export async function GET() {
       include: { pagamenti: { orderBy: [{ rataNumero: "asc" }, { createdAt: "asc" }] } },
       orderBy: { firmatoAt: "desc" },
     }),
-    prisma.document.findMany({ where: { type: "contract" }, orderBy: { createdAt: "desc" } }),
+    // il PDF (bytea) resta fuori dall'elenco: si scarica a parte
+    prisma.document.findMany({
+      where: { type: "contract" },
+      orderBy: { createdAt: "desc" },
+      select: {
+        id: true,
+        clientName: true,
+        serviceType: true,
+        rechnungNr: true,
+        total: true,
+        contractData: true,
+        rechnungData: true,
+        pdfNome: true,
+      },
+    }),
     prisma.contact.findMany({ orderBy: { createdAt: "asc" } }),
   ]);
+
+  // Rate dei contratti vecchi, segnate a mano (bonifico): documento = "doc:<id>"
+  const rateDoc = await prisma.pagamento.findMany({
+    where: { documento: { startsWith: "doc:" }, stato: { not: "annullato" } },
+    orderBy: [{ rataNumero: "asc" }, { createdAt: "asc" }],
+  });
+  const comeRata = (r: (typeof rateDoc)[number]): RataCliente => ({
+    id: r.id,
+    numero: r.rataNumero,
+    importo: r.importo,
+    stato: r.stato,
+    scadenza: r.scadenza?.toISOString() ?? null,
+    pagatoAt: r.pagatoAt?.toISOString() ?? null,
+  });
 
   const clienti: Cliente[] = preventivi.map((p) => {
     const inizio = p.dataInizio ?? p.accontoIncassatoAt ?? null;
@@ -129,16 +159,30 @@ export async function GET() {
       inAttesa: p.stato !== "firmato",
       lead: null,
       snapshot: null,
+      pdfNome: null,
     };
   });
+
+  // Copie dello stesso contratto: si tiene la piu' recente, ma rate e PDF
+  // si raccolgono da tutte le copie (possono stare su una qualunque).
+  const chiaveDoc = (d: (typeof documenti)[number]) => {
+    const c = (d.contractData || {}) as Record<string, string>;
+    return `${(c.clientName || d.clientName || "").trim().toLowerCase()}|${d.serviceType}|${c.startDate || ""}`;
+  };
+  const gruppi = new Map<string, typeof documenti>();
+  for (const d of documenti) gruppi.set(chiaveDoc(d), [...(gruppi.get(chiaveDoc(d)) || []), d]);
 
   const visti = new Set<string>();
   for (const d of documenti) {
     const c = (d.contractData || {}) as Record<string, string>;
     const nome = (c.clientName || d.clientName || "").trim();
-    const chiave = `${nome.toLowerCase()}|${d.serviceType}|${c.startDate || ""}`;
+    const chiave = chiaveDoc(d);
     if (visti.has(chiave)) continue;
     visti.add(chiave);
+    const copie = gruppi.get(chiave) || [d];
+    const ids = new Set(copie.map((x) => `doc:${x.id}`));
+    const rate = rateDoc.filter((r) => r.documento && ids.has(r.documento)).map(comeRata);
+    const conPdf = copie.find((x) => x.pdfNome);
 
     const mesi = mesiDa(d.serviceType || c.serviceType);
     const inizio = c.startDate ? new Date(c.startDate) : null;
@@ -162,13 +206,18 @@ export async function GET() {
       firmatoAt: null,
       firmatoNome: null,
       token: null,
-      incassato: null,
-      rate: [],
+      incassato: rate.length
+        ? Math.round(rate.filter((r) => r.stato === "pagato").reduce((s, r) => s + r.importo, 0) * 100) / 100
+        : null,
+      rate,
       note: c.notes || null,
       inAttesa: false,
       lead: null,
       snapshot: { contractData: d.contractData, rechnungData: d.rechnungData },
+      pdfNome: conPdf?.pdfNome ?? null,
     });
+    // il PDF si scarica dalla copia che ce l'ha
+    if (conPdf && conPdf.id !== d.id) clienti[clienti.length - 1].rifId = conPdf.id;
   }
 
   // Il lead si riconosce dall'email o dalle ultime 9 cifre del telefono:

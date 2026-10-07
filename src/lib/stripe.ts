@@ -36,7 +36,7 @@ export async function registraIncasso(opts: {
   pagamentoId: string;
   providerRef?: string | null;
   metodo?: string | null;
-  provider?: "stripe" | "paypal";
+  provider?: "stripe" | "paypal" | "manuale";
 }) {
   const pag = await prisma.pagamento.findUnique({
     where: { id: opts.pagamentoId },

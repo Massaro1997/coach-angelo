@@ -27,6 +27,17 @@ model Contact {
   utmSource   String?
   utmMedium   String?
   utmCampaign String?
+
+  // Lavorazione del lead (dal 07/10/2026): a che punto e', se e' buono,
+  // perche' e' andato perso, appunti. "read" resta per compatibilita'.
+  // stato: nuovo | contattato | appuntamento | cliente | perso
+  stato        String    @default("nuovo")
+  // qualita: buono | medio | scarso | spam
+  qualita      String?
+  motivo       String?
+  note         String?
+  contattatoAt DateTime?
+  aggiornatoAt DateTime?
 }
 
 // Modello per gli ordini dal checkout
@@ -64,6 +75,11 @@ model Document {
   // Snapshot completo per ri-aprire/stampare il documento
   contractData Json?
   rechnungData Json?
+  // PDF del contratto firmato (su carta, poi scansionato o stampato), per
+  // averlo sempre a portata di mano dalla scheda Clienti. Dal 07/10/2026.
+  pdf         Bytes?
+  pdfNome     String?
+  pdfCaricatoAt DateTime?
   createdAt   DateTime @default(now())
 }
 

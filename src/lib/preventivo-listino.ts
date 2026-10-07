@@ -79,21 +79,24 @@ export const LISTINO: VoceListino[] = [
     accontoPerc: 100,
     descrizione: COACHING,
   },
+  // Volantino: "Personal Training 1-zu-1: 50 € pro Stunde", "Fertige
+  // Trainingspläne: 25 €". Le ore si moltiplicano nel preventivo (quantita).
   {
     key: "pt-1to1",
     label: "Personal Training 1-zu-1",
-    prezzo: 150,
-    mesi: 1,
-    periodicita: "mensile",
-    descrizione: "Training im Studio, Technik-Korrektur, Plan mit Progression. Monatlich, bis auf Widerruf.",
-  },
-  {
-    key: "trainingsplan",
-    label: "Individueller Trainingsplan",
-    prezzo: 150,
+    prezzo: 50,
     mesi: 1,
     periodicita: "una tantum",
     accontoPerc: 100,
-    descrizione: "Einmaliger Trainingsplan, auf dich abgestimmt.",
+    descrizione: "Training im Studio in Köln, Technik, Tempo und Motivation. Preis pro Stunde.",
+  },
+  {
+    key: "trainingsplan",
+    label: "Fertiger Trainingsplan",
+    prezzo: 25,
+    mesi: 1,
+    periodicita: "una tantum",
+    accontoPerc: 100,
+    descrizione: "Als PDF, sofort startklar. Für Anfänger, Fortgeschrittene und Profis.",
   },
 ];
