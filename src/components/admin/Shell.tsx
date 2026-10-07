@@ -7,9 +7,7 @@ import {
   FileSignature,
   Receipt,
   TrendingUp,
-  ListChecks,
-  Palette,
-  SwatchBook,
+  Users,
   Shirt,
   Menu,
   X,
@@ -25,29 +23,26 @@ import { adminLogout } from "@/components/AdminGate";
 
 export type Vista =
   | "conversioni"
+  | "clienti"
   | "lead"
   | "preventivi"
   | "ordini"
   | "seo"
-  | "scaletta"
-  | "marchio"
-  | "brand"
   | "merchandising";
 
 const NAV: { key: Vista; label: string; icon: typeof LayoutDashboard }[] = [
   { key: "conversioni", label: "Conversioni", icon: LayoutDashboard },
-  { key: "lead", label: "Lead", icon: Inbox },
+  { key: "clienti", label: "Clienti", icon: Users },
   { key: "preventivi", label: "Preventivi", icon: FileSignature },
+  { key: "lead", label: "Lead", icon: Inbox },
   { key: "ordini", label: "Ordini", icon: Receipt },
   { key: "seo", label: "SEO", icon: TrendingUp },
-  // rebranding 2026
-  { key: "scaletta", label: "Scaletta", icon: ListChecks },
-  { key: "marchio", label: "Marchio", icon: Palette },
-  { key: "brand", label: "Brand sheet", icon: SwatchBook },
+  // Scaletta, Marchio e Brand sheet tolte il 07/10: sono lavoro di Calogero
+  // sul rebranding, ad Angelo non servono. I componenti restano nel repo.
   { key: "merchandising", label: "Merchandising", icon: Shirt },
 ];
 
-/** Le viste valide, per aprire l'admin gia' sulla scheda giusta (/admin#scaletta). */
+/** Le viste valide, per aprire l'admin gia' sulla scheda giusta (/admin#clienti). */
 export const VISTE: Vista[] = NAV.map((n) => n.key);
 
 export function Shell({
@@ -74,9 +69,9 @@ export function Shell({
       >
         <div className="flex items-center gap-2.5 border-b border-white/10 px-5 py-4">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/Favicon.png" alt="" className="h-7 w-7 shrink-0 object-contain" />
+          <img src="/brand/fitprimo/fitprimo-simbolo-colore.svg" alt="" className="h-6 w-auto shrink-0 object-contain" />
           <div>
-            <p className="text-base font-bold leading-none">Coach Angelo</p>
+            <p className="text-base font-bold leading-none">FitPrimo</p>
             <p className="mt-0.5 text-[9px] uppercase tracking-[0.22em] text-white/40">
               Gestionale
             </p>
@@ -169,7 +164,7 @@ export function Shell({
           <p className="text-sm font-bold text-white">
             {NAV.find((n) => n.key === vista)?.label}
           </p>
-          <span className="ml-auto text-[11px] text-white/40">angelocoach.com</span>
+          <span className="ml-auto text-[11px] text-white/40">fitprimo.de</span>
         </header>
 
         <main className="p-4 sm:p-6">{children}</main>

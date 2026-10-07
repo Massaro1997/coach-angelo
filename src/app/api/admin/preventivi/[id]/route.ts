@@ -112,6 +112,11 @@ export async function PATCH(
     if (body.lavoro === "consegnato") data.dataFine = new Date();
   }
   if (typeof body.lavoroNote === "string") data.lavoroNote = body.lavoroNote;
+  // dati del cliente, dalla scheda Clienti
+  for (const k of ["clienteEmail", "clienteTelefono", "clienteIndirizzo", "clientePiva"] as const) {
+    const v = (body as Record<string, unknown>)[k];
+    if (typeof v === "string") data[k] = v.trim() || null;
+  }
 
   if (!Object.keys(data).length) {
     return NextResponse.json({ error: "Niente da aggiornare" }, { status: 400 });

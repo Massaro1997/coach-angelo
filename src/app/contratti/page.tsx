@@ -12,9 +12,9 @@ const COACH = {
   email: "magliarisiangelo912@gmail.com",
   phone: "+49 176 93193043",
   taxId: "224/5190/4079",
-  bankName: "N26 Bank",
-  bankIban: "DE61 1001 1001 2627 6180 39",
-  bankBic: "NTSBDEB1XXX",
+  bankName: "Revolut",
+  bankIban: "DE02 1001 0178 0592 8925 62",
+  bankBic: "REVODEB2XXX",
 };
 
 // ============ TYPES ============

@@ -3,9 +3,7 @@
 import { useState } from "react";
 import AdminGate from "@/components/AdminGate";
 import { Shell, VISTE, type Vista } from "@/components/admin/Shell";
-import ScalettaView from "@/components/admin/ScalettaView";
-import MarchioView from "@/components/admin/MarchioView";
-import BrandSheetView from "@/components/admin/BrandSheetView";
+import ClientiView from "@/components/admin/ClientiView";
 import MerchandisingView from "@/components/admin/MerchandisingView";
 import Conversioni, { type DatiConversioni } from "@/components/admin/Conversioni";
 import LeadView from "@/components/admin/LeadView";
@@ -46,13 +44,11 @@ function Gestionale() {
           }
         />
       </div>
+      {vista === "clienti" && <ClientiView />}
       {vista === "lead" && <LeadView />}
       {vista === "preventivi" && <PreventiviView />}
       {vista === "ordini" && <OrdiniView />}
       {vista === "seo" && <GSCDashboard />}
-      {vista === "scaletta" && <ScalettaView onMarchio={() => setVista("marchio")} />}
-      {vista === "marchio" && <MarchioView />}
-      {vista === "brand" && <BrandSheetView />}
       {vista === "merchandising" && <MerchandisingView />}
     </Shell>
   );
