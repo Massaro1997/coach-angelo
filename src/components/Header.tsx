@@ -41,6 +41,14 @@ export default function Header() {
   ];
 
   const ctaText = language === 'de' ? 'Kostenlose Beratung' : 'Consulenza Gratuita';
+  // Accesso al gestionale (Calogero, 07/10): discreto, non e' per i clienti.
+  const areaPrivata = language === 'de' ? 'Interner Bereich' : 'Area privata';
+  const lucchetto = (
+    <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+      <rect x="5" y="11" width="14" height="10" rx="1.5" strokeWidth={2} />
+      <path d="M8 11V8a4 4 0 0 1 8 0v3" strokeWidth={2} strokeLinecap="round" />
+    </svg>
+  );
 
   // Selettore della lingua: una pillola a due posizioni, quella attiva piena.
   // Prima erano due sigle separate da una barra, che non sembravano un comando.
@@ -107,6 +115,14 @@ export default function Header() {
           </div>
 
           <div className="hidden lg:flex items-center gap-5">
+            <Link
+              href="/admin"
+              rel="nofollow"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-ink/55 transition-colors hover:text-gold"
+            >
+              {lucchetto}
+              {areaPrivata}
+            </Link>
             {lingue}
             {/* bordo e testo rossi (Calogero, 04/10); al passaggio si riempie */}
             <Link
@@ -156,6 +172,15 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 {ctaText} →
+              </Link>
+              <Link
+                href="/admin"
+                rel="nofollow"
+                className="mt-4 flex items-center justify-center gap-1.5 text-sm font-semibold text-ink/55"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {lucchetto}
+                {areaPrivata}
               </Link>
             </div>
           </div>
