@@ -1,5 +1,6 @@
 "use client";
 
+import { useId } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
@@ -39,11 +40,16 @@ import Trasformazioni from "@/components/Trasformazioni";
 // sviluppo, per giudicare l'impaginazione: in produzione sarebbero
 // collaboratori inventati. Quando ci sono persone, nomi e foto veri (per
 // Angelo: una foto vera o il suo ok a questa), si mette a true.
-// 13/10: la seconda figura e' una persona vera (la sua foto rifatta dal
-// modello, vedi la scheda). Il nutrizionista resta inventato e a lei manca il
-// nome: per questo e' ancora false.
-const SQUADRA_PRONTA = false;
+// 13/10: la seconda figura e' una persona vera, Natalie (la sua foto rifatta
+// dal modello, vedi la scheda). La sera la fascia si accende anche online
+// (Calogero: "manca la sezione team", "che e' successo alla sezione team"):
+// ci vanno le persone vere, Angelo e Natalie. Il nutrizionista "Jonas" e'
+// ancora una figura inventata con un nome di comodo: si vede solo in sviluppo
+// (ESEMPI_SQUADRA), perche' online sarebbe un collaboratore che non esiste.
+// Quando c'e' la terza persona vera gli si toglie "esempio".
+const SQUADRA_PRONTA = true;
 const mostraSquadra = SQUADRA_PRONTA || process.env.NODE_ENV !== "production";
+const ESEMPI_SQUADRA = process.env.NODE_ENV !== "production";
 
 function Stelle({ className = "h-4 w-4" }: { className?: string }) {
   return (
@@ -73,6 +79,35 @@ function Sottolineata({ children }: { children: React.ReactNode }) {
         />
       </svg>
     </span>
+  );
+}
+
+/** Il taglio fra due fasce di colore diverso (Calogero, 13/10: "tra una
+ *  sezione e l'altra dividi con un divisore figo, non qualcosa in piu', un
+ *  effetto bello e sportivo in linea con il sito"). E' la pendenza del fondo
+ *  dell'hero: il colore della fascia di sopra scende di sbieco in quella di
+ *  sotto, e lungo il bordo corrono due righe da pista, una rossa e una
+ *  sottile, che sfumano. Va dentro una sezione "relative", in cima; da una
+ *  fascia all'altra si specchia, cosi' la pagina fa lo zig-zag. */
+function Taglio({ sopra, specchiato = false }: { sopra: "bianco" | "grigio"; specchiato?: boolean }) {
+  const sfumatura = "taglio" + useId().replace(/[^a-zA-Z0-9]/g, "");
+  return (
+    <svg
+      viewBox="0 0 1440 100"
+      preserveAspectRatio="none"
+      aria-hidden
+      className={`pointer-events-none absolute inset-x-0 top-0 block h-9 w-full sm:h-14 lg:h-[72px] ${specchiato ? "-scale-x-100" : ""}`}
+    >
+      <defs>
+        <linearGradient id={sfumatura} x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stopColor="#e30613" />
+          <stop offset="0.62" stopColor="#e30613" stopOpacity="0" />
+        </linearGradient>
+      </defs>
+      <path d="M0 0 H1440 V8 L0 70 Z" fill={sopra === "bianco" ? "#ffffff" : "#f4f4f5"} />
+      <path d="M0 70 L1440 8 V17 L0 80 Z" fill={`url(#${sfumatura})`} />
+      <path d="M0 87 L1440 25 V28 L0 90 Z" fill={`url(#${sfumatura})`} opacity="0.4" />
+    </svg>
   );
 }
 
@@ -176,6 +211,40 @@ export default function Home() {
       </span>
     </span>
   );
+
+  // Chi sta accanto ad Angelo nella fascia della squadra.
+  const altriSquadra = [
+    {
+      // 13/10: la prima persona vera dopo Angelo, al posto della trainer
+      // bionda inventata (trainer.png): "metterla al centro tra i 3". Il
+      // ritratto e' la sua foto rifatta dal modello con la maglia FitPrimo e
+      // scontornata (scripts/genera-squadra.mjs, "collaboratrice"). "Lei fa
+      // l'alimentazione, tipo dietologa": Ernährungsberaterin, che in
+      // Germania non e' un titolo protetto (Diätassistentin e Diätologin lo
+      // sono). "Piu' vicino, che arrivi a mezzo busto": la figura e' piu'
+      // alta della scheda, che la taglia sotto le braccia come Angelo.
+      src: "/images/squadra/collaboratrice.png",
+      w: 606,
+      misura: 'top-[8%] h-[138%]',
+      nome: 'Natalie',
+      ruolo: de ? 'Ernährungsberaterin' : 'Consulente nutrizionale',
+      alt: de ? 'Natalie, Ernährungsberaterin bei FitPrimo' : 'Natalie, consulente nutrizionale di FitPrimo',
+    },
+    {
+      src: "/images/squadra/ernaehrung.png",
+      w: 488,
+      misura: 'top-[8%] h-[136%]',
+      // 13/10: "da lui anche metti un nome". La figura resta inventata e il
+      // nome pure, messo solo per vedere la scheda completa: non e' una
+      // persona vera, quindi online non va (vedi ESEMPI_SQUADRA).
+      nome: 'Jonas',
+      ruolo: de ? 'Ernährung' : 'Alimentazione',
+      alt: de ? 'Beispielbild' : "Figura d'esempio",
+      esempio: true,
+    },
+  ].filter((p) => !p.esempio || ESEMPI_SQUADRA);
+  // Con una persona sola accanto ad Angelo le due schede sono grandi uguali.
+  const unaSola = altriSquadra.length === 1;
 
   return (
     <div className="fp overflow-x-clip">
@@ -325,6 +394,7 @@ export default function Home() {
           cliente non esiste e Angelo e' ricostruito dalle sue foto. Da
           sostituire con una foto vera appena c'e'. */}
       <section className="relative overflow-hidden bg-surface py-20 sm:py-28">
+        <Taglio sopra="bianco" />
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-20">
             {/* sul telefono al centro, come l'hero; l'elenco resta un blocco
@@ -404,6 +474,7 @@ export default function Home() {
       {/* --------------------------------------------------------------- servizi
           Schede bianche: foto sopra, testo sotto. */}
       <section className="relative bg-white py-20 sm:py-28">
+        <Taglio sopra="grigio" specchiato />
         <div aria-hidden className="fp-forma -right-10 top-16 hidden h-48 w-36 bg-gold/[0.06] lg:block" />
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mb-14 text-center">
@@ -466,20 +537,29 @@ export default function Home() {
 
       {/* -------------------------------------------------------------- risultati
           Le foto prima e dopo: lo stesso blocco che chiude le altre pagine. */}
-      <Trasformazioni fondo="grigio" />
+      <div className="relative">
+        <Trasformazioni fondo="grigio" />
+        <Taglio sopra="bianco" />
+      </div>
 
       {/* ---------------------------------------------------------------- squadra
           "Meet Our Trainers" di Trainex: la scheda grande del titolare a
           sinistra, il titolo in alto a destra e sotto due schede piu'
           piccole, la seconda un po' piu' in basso. Nelle schede le persone
           sono scontornate, a braccia conserte, su un fondo appena colorato
-          con i blocchi inclinati. Si vede solo in sviluppo: vedi
-          SQUADRA_PRONTA in cima al file. */}
+          con i blocchi inclinati. Online ci sono solo le persone vere:
+          vedi SQUADRA_PRONTA ed ESEMPI_SQUADRA in cima al file. */}
       {mostraSquadra && (
         <section className="relative bg-white py-20 sm:py-28">
+          <Taglio sopra="grigio" specchiato />
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            {/* sul telefono il titolo viene prima delle schede, non dopo
+                quella di Angelo */}
+            <h2 className="fp-titolo mb-10 text-center text-4xl text-ink md:text-5xl lg:hidden">
+              {de ? <>Dein <span className="text-gold">Trainerteam</span></> : <>La tua <span className="text-gold">squadra</span></>}
+            </h2>
             <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-8">
-              <figure className="lg:col-span-5">
+              <figure className={unaSola ? 'lg:col-span-6' : 'lg:col-span-5'}>
                 <div className="relative h-[460px] overflow-hidden rounded-2xl bg-[#fdf1f2] lg:h-[580px]">
                   <div aria-hidden className="fp-forma -left-6 top-10 h-44 w-32 bg-gold/[0.09]" />
                   <div aria-hidden className="fp-forma -right-8 bottom-14 h-56 w-40 border border-gold/20" />
@@ -528,51 +608,18 @@ export default function Home() {
                 </figcaption>
               </figure>
 
-              <div className="lg:col-span-7">
-                <div className="mb-10 text-center lg:mb-12 lg:text-right">
+              <div className={unaSola ? 'lg:col-span-6' : 'lg:col-span-7'}>
+                <div className="mb-10 hidden lg:mb-12 lg:block lg:text-right">
                   <h2 className="fp-titolo text-4xl text-ink md:text-5xl">
                     {de ? <>Dein <span className="text-gold">Trainerteam</span></> : <>La tua <span className="text-gold">squadra</span></>}
                   </h2>
                   {/* Il cartellino "Solo in bozza" Calogero l'ha fatto togliere
-                      (04/10). La fascia resta comunque spenta in produzione:
-                      lo decide SQUADRA_PRONTA, non una scritta. */}
+                      (04/10). */}
                 </div>
-                <div className="grid grid-cols-2 gap-5 sm:gap-7">
-                  {[
-                    {
-                      // 13/10: la prima persona vera dopo Angelo, al posto della
-                      // trainer bionda inventata (trainer.png): "metterla al
-                      // centro tra i 3". Il ritratto e' la sua foto rifatta dal
-                      // modello con la maglia FitPrimo e scontornata
-                      // (scripts/genera-squadra.mjs, "collaboratrice"). Il nome
-                      // manca ancora. "Lei fa l'alimentazione, tipo dietologa":
-                      // Ernährungsberaterin, che in Germania non e' un titolo
-                      // protetto (Diätassistentin e Diätologin lo sono).
-                      // "Piu' vicino, che arrivi a mezzo busto": la figura e'
-                      // piu' alta della scheda, che la taglia sotto le braccia
-                      // come Angelo. La testa viene piu' grande di quella del
-                      // nutrizionista.
-                      src: "/images/squadra/collaboratrice.png",
-                      w: 606,
-                      misura: 'top-[8%] h-[138%]',
-                      nome: 'Natalie',
-                      ruolo: de ? 'Ernährungsberaterin' : 'Consulente nutrizionale',
-                      alt: de ? 'Natalie, Ernährungsberaterin bei FitPrimo' : 'Natalie, consulente nutrizionale di FitPrimo',
-                    },
-                    {
-                      src: "/images/squadra/ernaehrung.png",
-                      w: 488,
-                      misura: 'top-[8%] h-[136%]',
-                      // 13/10: "da lui anche metti un nome". La figura resta
-                      // inventata e il nome pure, messo solo per vedere la
-                      // scheda completa: non e' una persona vera.
-                      nome: 'Jonas',
-                      ruolo: de ? 'Ernährung' : 'Alimentazione',
-                      alt: de ? 'Beispielbild' : "Figura d'esempio",
-                    },
-                  ].map((p, i) => (
+                <div className={unaSola ? '' : 'grid grid-cols-2 gap-5 sm:gap-7'}>
+                  {altriSquadra.map((p, i) => (
                     <figure key={p.src} className={i === 1 ? 'lg:mt-9' : ''}>
-                      <div className="relative h-[270px] overflow-hidden rounded-2xl bg-[#fdf1f2] sm:h-[360px]">
+                      <div className={`relative overflow-hidden rounded-2xl bg-[#fdf1f2] ${unaSola ? 'h-[420px] lg:h-[468px]' : 'h-[270px] sm:h-[360px]'}`}>
                         <div aria-hidden className="fp-forma -left-5 top-8 h-28 w-20 bg-gold/[0.09]" />
                         <div aria-hidden className="fp-forma -right-6 bottom-10 h-36 w-24 border border-gold/20" />
                         <Image
@@ -580,7 +627,7 @@ export default function Home() {
                           alt={p.alt}
                           width={p.w}
                           height={1300}
-                          sizes="(max-width: 1024px) 45vw, 240px"
+                          sizes={unaSola ? '(max-width: 1024px) 90vw, 340px' : '(max-width: 1024px) 45vw, 240px'}
                           className={`absolute left-1/2 w-auto max-w-none -translate-x-1/2 ${p.misura}`}
                         />
                       </div>
