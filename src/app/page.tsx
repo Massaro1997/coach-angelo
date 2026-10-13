@@ -577,7 +577,10 @@ export default function Home() {
                     width={1000}
                     height={1484}
                     sizes="(max-width: 1024px) 90vw, 470px"
-                    className="absolute left-1/2 top-[7%] h-auto w-[92%] max-w-none -translate-x-1/2"
+                    // Il tetto a 440 px tiene la figura alla misura che aveva nella
+                    // scheda stretta: in quella larga (due schede uguali) cresceva
+                    // con la scheda e veniva "troppo ravvicinata" (13/10).
+                    className="absolute left-1/2 top-[7%] h-auto w-[92%] max-w-[440px] -translate-x-1/2"
                   />
                   {/* i suoi profili veri, come i tondi nelle schede di Trainex */}
                   <div className="absolute right-4 top-4 flex flex-col gap-2.5">
