@@ -1,13 +1,15 @@
 """
-Le quattro icone della prima domanda del wizard ("Was ist dein Ziel?").
+Le icone delle risposte del wizard: sedici, quattro per foglio.
 
 Calogero, 13/10/2026: "al posto di queste 4 icone fatte in svg crei 4 icone
-fatte bene con nano banana pro in stile con il design del sito". Sono uscite
-tutte e quattro in un foglio solo (brand/icone-wizard/foglio.png, 2x2 su
-bianco), cosi' hanno la stessa luce e gli stessi materiali: qui il foglio si
-taglia in quattro e il bianco diventa trasparente.
+fatte bene con nano banana pro in stile con il design del sito", e poi "le
+icone le dovevi fare per tutto il wizard". Ogni foglio (brand/icone-wizard/,
+2x2 su bianco) esce da una generazione sola, cosi' le quattro icone hanno la
+stessa luce e gli stessi materiali; i tre fogli venuti dopo hanno avuto il
+primo come riferimento. Qui i fogli si tagliano in quattro e il bianco diventa
+trasparente.
 
-Il testo dato al modello (nano_banana_pro su Higgsfield, 1:1, 2K):
+Il testo del primo foglio (nano_banana_pro su Higgsfield, 1:1, 2K):
 
     A set of four matching 3D icons arranged in a clean 2 by 2 grid on a plain
     pure white background. Each icon is centred in its own quadrant with wide
@@ -30,27 +32,46 @@ Il testo dato al modello (nano_banana_pro su Higgsfield, 1:1, 2K):
     chrome highlights, for competition. Clean, modern, minimal and high-end.
     No people, no hands, no scenery, no photographic background, no watermark.
 
+Gli altri tre: "four new 3D icons ... in exactly the same style as the four
+icons in the reference image", poi le quattro cose da disegnare.
+  livello    un germoglio in un vaso nero, un grafico a barre che sale con la
+             freccia, un bersaglio con la freccia al centro, un bollo rosso
+             con la spunta bianca (che va alla domanda "sei pronto?")
+  frequenza  lo stesso calendario tre volte, con due, quattro e sei pallini
+             rossi, e una stretta di mano rossa e nera (anche lei per "sei
+             pronto?": prima la consulenza)
+  percorso   un kettlebell, un telefono con un grafico rosso, una scheda con
+             tre spunte, un fumetto rosso con il punto di domanda
+
 Il bianco non si toglie con rembg (si mangerebbe le catenelle della bilancia):
 si parte dai bordi e si svuota tutto il chiaro senza colore che ci e'
 attaccato. L'ombra sotto l'oggetto resta, come nero trasparente. Su una
 tessera bianca il risultato e' identico al foglio.
 
-    python scripts/taglia-icone-wizard.py
+    python scripts/taglia-icone-wizard.py              tutti i fogli
+    python scripts/taglia-icone-wizard.py foglio-livello
 
 Esce: public/images/wizard/<nome>.png (512 px)
 """
 import os
+import sys
 
 import numpy as np
 from PIL import Image
 from scipy import ndimage
 
-FOGLIO = "brand/icone-wizard/foglio.png"
+SORGENTI = "brand/icone-wizard"
 USCITA = "public/images/wizard"
 LATO = 512
 MARGINE = 0.06  # aria intorno all'oggetto, sul lato
-# nell'ordine del foglio: in alto a sinistra, in alto a destra, in basso...
-NOMI = ["fiamma", "manubri", "bilancia", "coppa"]
+# foglio -> i nomi nell'ordine del foglio: in alto a sinistra, in alto a
+# destra, in basso a sinistra, in basso a destra
+FOGLI = {
+    "foglio": ["fiamma", "manubri", "bilancia", "coppa"],
+    "foglio-livello": ["germoglio", "grafico", "bersaglio", "spunta"],
+    "foglio-frequenza": ["calendario-2", "calendario-4", "calendario-6", "stretta"],
+    "foglio-percorso": ["kettlebell", "telefono", "scheda", "domanda"],
+}
 
 
 def taglia(quadro: Image.Image, nome: str) -> None:
@@ -82,12 +103,25 @@ def taglia(quadro: Image.Image, nome: str) -> None:
     print(f"{nome}: {LATO}x{LATO}, {kb} KB, scatola {scatola}")
 
 
+# Il calendario di mezzo e' uscito con cinque pallini invece di quattro: si
+# copre un pallino con la casella vuota che gli sta accanto.
+# foglio -> (centro della casella da copiare, centro di quella da coprire, lato)
+RITOCCHI = {
+    "foglio-frequenza": ((1708, 661), (1562, 669), 150),
+}
+
+
 def main() -> None:
-    foglio = Image.open(FOGLIO)
-    l, a = foglio.size[0] // 2, foglio.size[1] // 2
-    for i, nome in enumerate(NOMI):
-        x, y = (i % 2) * l, (i // 2) * a
-        taglia(foglio.crop((x, y, x + l, y + a)), nome)
+    for nome_foglio in sys.argv[1:] or list(FOGLI):
+        foglio = Image.open(f"{SORGENTI}/{nome_foglio}.png").convert("RGB")
+        if nome_foglio in RITOCCHI:
+            (xs, ys), (xd, yd), lato = RITOCCHI[nome_foglio]
+            m = lato // 2
+            foglio.paste(foglio.crop((xs - m, ys - m, xs + m, ys + m)), (xd - m, yd - m))
+        l, a = foglio.size[0] // 2, foglio.size[1] // 2
+        for i, nome in enumerate(FOGLI[nome_foglio]):
+            x, y = (i % 2) * l, (i // 2) * a
+            taglia(foglio.crop((x, y, x + l, y + a)), nome)
 
 
 if __name__ == "__main__":

@@ -1,3 +1,5 @@
 # Originali e prove delle immagini (centinaia di MB, comprese le foto di
 # partenza delle persone): alla build non servono, nel sito va solo public/.
-brand
+# La barra davanti serve: "brand" da solo toglie anche public/brand, dove
+# stanno i loghi del sito (successo il 13/10/2026: logo a 404 in produzione).
+/brand

@@ -23,20 +23,49 @@ import IconBadge from "@/components/IconBadge";
 import { useLanguage } from "@/context/LanguageContext";
 import { getAttribution } from "@/lib/attribution";
 
-// Le quattro risposte della prima domanda non hanno piu' l'icona lucide nel
-// cerchio ma un disegno fatto dal modello (Calogero, 13/10/2026: "al posto di
-// queste 4 icone fatte in svg crei 4 icone fatte bene con nano banana pro in
-// stile con il design del sito"; si rifanno con scripts/taglia-icone-wizard.py).
-// Vale per le tessere grandi; le altre domande restano con IconBadge.
-const DISEGNI_OBIETTIVO: Record<string, string> = {
-  abnehmen: "/images/wizard/fiamma.png",
-  dimagrire: "/images/wizard/fiamma.png",
-  muskelaufbau: "/images/wizard/manubri.png",
-  massa: "/images/wizard/manubri.png",
-  rekomposition: "/images/wizard/bilancia.png",
-  ricomposizione: "/images/wizard/bilancia.png",
-  wettkampf: "/images/wizard/coppa.png",
-  gara: "/images/wizard/coppa.png",
+// Le risposte non hanno piu' l'icona lucide nel cerchio ma un disegno fatto dal
+// modello (Calogero, 13/10/2026: "al posto di queste 4 icone fatte in svg crei
+// 4 icone fatte bene con nano banana pro in stile con il design del sito", e
+// poi "le icone le dovevi fare per tutto il wizard"). Sono sedici, una per
+// risposta di ogni domanda; si rifanno con scripts/taglia-icone-wizard.py.
+// Vale per le tessere grandi: le pillole restano con IconBadge.
+const W = "/images/wizard/";
+const DISEGNI: Record<string, Record<string, string>> = {
+  goal: {
+    abnehmen: W + "fiamma.png",
+    dimagrire: W + "fiamma.png",
+    muskelaufbau: W + "manubri.png",
+    massa: W + "manubri.png",
+    rekomposition: W + "bilancia.png",
+    ricomposizione: W + "bilancia.png",
+    wettkampf: W + "coppa.png",
+    gara: W + "coppa.png",
+  },
+  level: {
+    anfaenger: W + "germoglio.png",
+    principiante: W + "germoglio.png",
+    fortgeschritten: W + "grafico.png",
+    intermedio: W + "grafico.png",
+    profi: W + "bersaglio.png",
+    avanzato: W + "bersaglio.png",
+  },
+  frequency: {
+    "1-2": W + "calendario-2.png",
+    "3-4": W + "calendario-4.png",
+    "5+": W + "calendario-6.png",
+  },
+  service: {
+    "personal-training": W + "kettlebell.png",
+    "online-coaching": W + "telefono.png",
+    trainingsplan: W + "scheda.png",
+    beratung: W + "domanda.png",
+  },
+  budget: {
+    ja: W + "spunta.png",
+    si: W + "spunta.png",
+    "beratung-zuerst": W + "stretta.png",
+    "prima-consulenza": W + "stretta.png",
+  },
 };
 
 type WizardAnswers = {
@@ -283,7 +312,7 @@ export default function LeadWizard({
               >
                 {currentQuestion.options.map((opt) => {
                   const selected = answers[currentQuestion.key] === opt.value;
-                  const disegno = currentQuestion.key === "goal" ? DISEGNI_OBIETTIVO[opt.value] : undefined;
+                  const disegno = DISEGNI[currentQuestion.key]?.[opt.value];
                   if (largo) {
                     return (
                       <button
