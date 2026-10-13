@@ -41,11 +41,9 @@ export default function Trasformazioni({ fondo = "grigio" }: { fondo?: "bianco" 
               <>I risultati <span className="text-gold">parlano</span></>
             )}
           </h2>
-          <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-ink/65">
-            {de
-              ? "Konkrete Ergebnisse, die meine Kunden mit Engagement und Hingabe erzielt haben."
-              : "Risultati concreti ottenuti dai miei clienti con impegno e dedizione."}
-          </p>
+          {/* Il sottotitolo ("Konkrete Ergebnisse, die meine Kunden mit
+              Engagement und Hingabe erzielt haben.") Calogero l'ha fatto
+              togliere il 13/10: basta il titolo. */}
         </div>
 
         <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
