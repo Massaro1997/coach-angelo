@@ -29,6 +29,7 @@ USCITA = "public/images/squadra"
 MISURE = {
     "angelo": ("altezza", 1300),
     "trainer": ("altezza", 1300),
+    "collaboratrice": ("altezza", 1300),
     "ernaehrung": ("altezza", 1300),
     "manubrio": ("larghezza", 700),
 }

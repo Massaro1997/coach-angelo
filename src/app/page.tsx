@@ -39,6 +39,9 @@ import Trasformazioni from "@/components/Trasformazioni";
 // sviluppo, per giudicare l'impaginazione: in produzione sarebbero
 // collaboratori inventati. Quando ci sono persone, nomi e foto veri (per
 // Angelo: una foto vera o il suo ok a questa), si mette a true.
+// 13/10: la seconda figura e' una persona vera (la sua foto rifatta dal
+// modello, vedi la scheda). Il nutrizionista resta inventato e a lei manca il
+// nome: per questo e' ancora false.
 const SQUADRA_PRONTA = false;
 const mostraSquadra = SQUADRA_PRONTA || process.env.NODE_ENV !== "production";
 
@@ -147,6 +150,33 @@ export default function Home() {
   const featuredLabel = de ? '★ Bestseller' : '★ Il più richiesto';
   const allServicesCta = de ? 'Alle Leistungen' : 'Tutti i Servizi';
 
+  // I due cartellini dell'hero: solo numeri che Angelo ha confermato. Stanno
+  // in due posti, sulla foto da sm in su e sotto il titolo sul telefono.
+  const cartellinoClienti = (
+    <>
+      <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-gold/10 text-gold">
+        <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+          <circle cx="9" cy="7" r="4" />
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+        </svg>
+      </span>
+      <span className="leading-tight">
+        <span className="fp-titolo block text-xl text-ink">100+</span>
+        <span className="block text-xs text-ink/60">{de ? 'Transformationen' : 'trasformazioni'}</span>
+      </span>
+    </>
+  );
+  const cartellinoStelle = (
+    <span className="leading-tight">
+      <Stelle />
+      <span className="mt-1 block text-xs text-ink/60">
+        <span className="font-extrabold text-ink">4,9</span> {de ? 'von 5' : 'su 5'}
+      </span>
+    </span>
+  );
+
   return (
     <div className="fp overflow-x-clip">
       {/* ------------------------------------------------------------------ hero
@@ -157,50 +187,53 @@ export default function Home() {
         <div aria-hidden className="fp-forma -left-10 top-28 hidden h-56 w-40 bg-gold/[0.07] lg:block" />
         <div aria-hidden className="fp-forma right-[6%] top-24 hidden h-20 w-28 bg-ink/[0.04] lg:block" />
 
-        <div className="mx-auto grid max-w-7xl items-center gap-2 px-5 sm:px-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-10 lg:px-8">
+        <div className="mx-auto grid max-w-7xl items-center gap-2 px-5 sm:px-6 lg:grid-cols-[minmax(0,1.12fr)_minmax(0,1fr)] lg:gap-10 lg:px-8">
           <div className="order-2 lg:order-1">
-            <div className="relative mx-auto h-[clamp(340px,56vh,520px)] max-w-[520px] lg:h-[clamp(480px,74vh,680px)]">
-              {/* le due forme inclinate dietro Angelo */}
-              <div aria-hidden className="fp-forma bottom-0 left-[12%] h-[78%] w-[52%] bg-gradient-to-br from-[#ff2b3a] to-[#c1000f] opacity-90" />
-              <div aria-hidden className="fp-forma bottom-[14%] left-[46%] h-[56%] w-[40%] bg-ink/[0.07]" />
+            {/* La foto e' larga, due mezzi busti affiancati: la scatola ha la
+                sua forma, un po' piu' alta, cosi' sopra le teste resta l'aria
+                per le due forme inclinate. */}
+            <div className="relative mx-auto aspect-[1.2] w-full max-w-[560px] lg:max-w-[640px]">
+              {/* le due forme inclinate dietro di loro */}
+              <div aria-hidden className="fp-forma bottom-0 left-[13%] h-[78%] w-[40%] bg-gradient-to-br from-[#ff2b3a] to-[#c1000f] opacity-90" />
+              <div aria-hidden className="fp-forma bottom-0 left-[55%] h-[62%] w-[40%] bg-ink/[0.07]" />
+              {/* 13/10: non piu' la foto da gara (hero-angelo.png) ma Angelo con
+                  la maglia FitPrimo accanto a una cliente, "in stile pulito
+                  senza sfondo", "piu' da marketing, piu' colorata": a sinistra
+                  lei in turchese che mostra il bicipite, a destra lui a
+                  braccia conserte. Le foto fatte tutte dal modello gli
+                  ridisegnavano la faccia ("cerca sempre di migliorare la
+                  faccia di Angelo prendendo la foto a braccia incrociate come
+                  esempio", "a fuoco e dettagliata"). Questa e' montata
+                  (scripts/componi-hero.py): lui e' la sua foto da studio
+                  cosi' com'e', solo lei e' generata, e non esiste. */}
               <Image
-                src="/images/Foto Angelo/hero-angelo.png"
+                src="/images/hero/coppia.png"
                 alt={de
-                  ? 'Angelo Magliarisi, Personal Trainer und WABBA International Athlet in Köln'
-                  : 'Angelo Magliarisi, personal trainer e atleta WABBA International a Colonia'}
+                  ? 'Personal Trainer Angelo Magliarisi von FitPrimo mit einer Frau, die stolz ihren Bizeps zeigt'
+                  : 'Il personal trainer Angelo Magliarisi di FitPrimo con una donna che mostra fiera il bicipite'}
                 fill
                 priority
-                sizes="(max-width: 1024px) 90vw, 46vw"
+                quality={90}
+                sizes="(max-width: 1024px) 92vw, 640px"
                 className="object-contain object-bottom"
               />
 
-              {/* cartellini: solo numeri che Angelo ha confermato */}
-              <div className="fp-scheda absolute left-0 top-[16%] flex items-center gap-3 px-4 py-3 sm:left-[-2%]">
-                <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-gold/10 text-gold">
-                  <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
-                </span>
-                <span className="leading-tight">
-                  <span className="fp-titolo block text-xl text-ink">100+</span>
-                  <span className="block text-xs text-ink/60">{de ? 'Transformationen' : 'trasformazioni'}</span>
-                </span>
+              {/* I cartellini galleggiano a sinistra, dove la foto e' vuota:
+                  sopra il pugno di lei e sotto il suo braccio. Sul telefono
+                  non ci stanno senza coprire qualcuno: li' sono in fila sotto
+                  il titolo. */}
+              <div className="fp-scheda absolute left-[-3%] top-[3%] hidden items-center gap-3 px-4 py-3 sm:flex">
+                {cartellinoStelle}
               </div>
-              <div className="fp-scheda absolute bottom-[12%] right-0 flex items-center gap-3 px-4 py-3 sm:right-[-2%]">
-                <span className="leading-tight">
-                  <Stelle />
-                  <span className="mt-1 block text-xs text-ink/60">
-                    <span className="font-extrabold text-ink">4,9</span> {de ? 'von 5' : 'su 5'}
-                  </span>
-                </span>
+              <div className="fp-scheda absolute bottom-[8%] left-[-8%] hidden items-center gap-3 px-4 py-3 sm:flex">
+                {cartellinoClienti}
               </div>
             </div>
           </div>
 
-          <div className="order-1 pb-6 pt-8 lg:order-2 lg:pb-24 lg:pt-10">
+          {/* Sul telefono tutto al centro (Calogero, 13/10: "nella versione
+              mobile fai tutto piu' al centro"); da computer a sinistra. */}
+          <div className="order-1 pb-6 pt-8 text-center lg:order-2 lg:pb-24 lg:pt-10 lg:text-left">
             <h1 className="fp-titolo text-[clamp(34px,9vw,52px)] !leading-[1.2] text-ink lg:text-[clamp(44px,4.6vw,68px)]">
               {heroHeadline1}{' '}
               <Sottolineata>{heroHeadlineHighlight}</Sottolineata>
@@ -209,20 +242,49 @@ export default function Home() {
             </h1>
 
             {/* Una riga per prestazione e citta': al titolo mancano entrambe. */}
-            <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-ink/70 lg:text-lg">
+            <p className="mx-auto mt-6 max-w-xl text-[17px] leading-relaxed text-ink/70 lg:mx-0 lg:text-lg">
               {de
                 ? 'Online Coaching und Personal Training in Köln.'
                 : 'Coaching online e personal training a Colonia.'}
             </p>
 
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <a href="#inizia" className="fp-btn">
-                {de ? 'Kostenlose Beratung' : 'Consulenza gratuita'} <span aria-hidden>→</span>
-              </a>
-              <Link href="/servizi" className="fp-btn-linea">
-                {allServicesCta}
-              </Link>
+            <div className="mt-6 flex justify-center gap-3 sm:hidden">
+              <div className="fp-scheda flex items-center gap-3 px-3.5 py-2.5 text-left">{cartellinoClienti}</div>
+              <div className="fp-scheda flex items-center gap-3 px-3.5 py-2.5 text-left">{cartellinoStelle}</div>
             </div>
+
+            {/* I due pulsanti ("Kostenlose Beratung", "Alle Leistungen") non ci
+                sono piu' (Calogero, 13/10): dall'hero si deve arrivare al
+                wizard qui sotto. Al loro posto l'invito e una freccia
+                disegnata a mano che punta in basso, verso le domande: quattro
+                piu' i contatti. Tutto il blocco porta li'. Solo da computer
+                ("nel mobile non ci deve essere"): sul telefono sotto il titolo
+                viene la foto, e la freccia punterebbe li'. */}
+            <a href="#inizia" className="group mt-10 hidden items-start gap-5 lg:inline-flex">
+              <span>
+                <span className="fp-titolo block text-[28px] text-ink">
+                  {de ? <>Sag mir dein <span className="text-gold">Ziel</span></> : <>Dimmi il tuo <span className="text-gold">obiettivo</span></>}
+                </span>
+                <span className="mt-2 block max-w-[15rem] text-base leading-snug text-ink/65">
+                  {de
+                    ? 'In 5 kurzen Schritten zu deiner kostenlosen Beratung.'
+                    : 'In 5 passaggi veloci alla tua consulenza gratuita.'}
+                </span>
+              </span>
+              <svg
+                viewBox="0 0 110 120"
+                className="-ml-2 mt-2 h-[114px] w-[105px] shrink-0 text-gold transition-transform duration-300 group-hover:-translate-x-1 group-hover:translate-y-1"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={4}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden
+              >
+                <path d="M98 8 C 108 30, 100 52, 80 58 C 62 63, 56 44, 70 40 C 86 36, 96 62, 80 80 C 70 91, 54 98, 38 110" />
+                <path d="M55 108 L38 110 L44 94" />
+              </svg>
+            </a>
           </div>
         </div>
 
@@ -265,7 +327,9 @@ export default function Home() {
       <section className="relative overflow-hidden bg-surface py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-20">
-            <div>
+            {/* sul telefono al centro, come l'hero; l'elenco resta un blocco
+                allineato a sinistra, messo in mezzo */}
+            <div className="text-center lg:text-left">
               <h2 className="fp-titolo mb-7 text-4xl text-ink md:text-5xl">
                 {de ? (
                   <>Du schaffst das. <span className="whitespace-nowrap text-gold">Wir helfen dir.</span></>
@@ -273,13 +337,13 @@ export default function Home() {
                   <>Ce la fai. <span className="whitespace-nowrap text-gold">Ti aiutiamo noi.</span></>
                 )}
               </h2>
-              <p className="max-w-lg text-xl leading-relaxed text-ink/75">
+              <p className="mx-auto max-w-lg text-xl leading-relaxed text-ink/75 lg:mx-0">
                 {de
                   ? 'Du bist nicht faul. Dir hat nur der richtige Plan gefehlt. Und jemand, der an deiner Seite bleibt.'
                   : 'Non sei pigro. Ti è mancato solo il piano giusto. E qualcuno che ti resti accanto.'}
               </p>
 
-              <ul className="mt-8 grid max-w-xl grid-cols-1 gap-x-8 gap-y-4 font-semibold text-ink sm:grid-cols-2">
+              <ul className="mx-auto mt-8 grid w-fit grid-cols-1 gap-x-8 gap-y-4 text-left font-semibold text-ink sm:w-auto sm:max-w-xl sm:grid-cols-2 lg:mx-0">
                 {(de
                   ? ['Plan nach Maß', 'Ernährung, die passt', 'Wöchentliche Check-ins', 'In Köln oder online']
                   : ['Piano su misura', 'Alimentazione seguita', 'Check settimanali', 'A Colonia o online']
@@ -305,13 +369,18 @@ export default function Home() {
               <div aria-hidden className="fp-forma -right-4 top-0 h-56 w-36 bg-gold/[0.16] sm:-right-10" />
               <div aria-hidden className="fp-forma -left-6 bottom-2 h-56 w-36 border-2 border-gold/25 sm:-left-12" />
               <div className="relative z-10 aspect-[3/2] overflow-hidden rounded-[10px] shadow-[0_10px_40px_rgba(227,6,19,0.12)]">
-                {/* 07/10, Calogero: qui una foto campione SENZA persone (niente
-                    trainer o clienti generati). La sala pronta per l'allenamento. */}
+                {/* Dal 07/10 qui c'era una foto campione senza persone
+                    (seduta-chiaro-2.jpg). 13/10, Calogero: "un'altra foto dove
+                    c'e' Angelo e Natalie, in una situazione tipo palestra, che
+                    stanno allenando qualcuno", "e la metti qua". E' fatta dal
+                    modello (scripts/genera-hero.mjs, scena "palestra") dai
+                    loro ritratti: la cliente non esiste, e loro due la devono
+                    vedere prima che vada online. */}
                 <Image
-                  src="/images/services/seduta-chiaro-2.jpg"
+                  src="/images/squadra/angelo-natalie-palestra.jpg"
                   alt={de
-                    ? 'Heller Trainingsraum mit Matten, Kettlebell und Hantelbank'
-                    : 'Sala di allenamento luminosa con tappetini, kettlebell e panca'}
+                    ? 'Angelo und Natalie von FitPrimo betreuen eine Frau beim Training mit Kurzhanteln'
+                    : 'Angelo e Natalie di FitPrimo seguono una donna che si allena con i manubri'}
                   fill
                   sizes="(max-width: 1024px) 100vw, 620px"
                   className="object-cover"
@@ -453,13 +522,14 @@ export default function Home() {
                   </div>
                 </div>
                 <figcaption className="mt-5 text-center">
-                  <span className="fp-titolo block text-2xl text-ink">Angelo Magliarisi</span>
-                  <span className="mt-1 block text-ink/60">{de ? 'Gründer und Personal Trainer' : 'Fondatore e personal trainer'}</span>
+                  {/* 13/10: "da lui lascia solo il nome", come Natalie */}
+                  <span className="fp-titolo block text-2xl text-ink">Angelo</span>
+                  <span className="mt-1 block text-ink/60">{de ? 'Personal Trainer' : 'Personal trainer'}</span>
                 </figcaption>
               </figure>
 
               <div className="lg:col-span-7">
-                <div className="mb-10 lg:mb-12 lg:text-right">
+                <div className="mb-10 text-center lg:mb-12 lg:text-right">
                   <h2 className="fp-titolo text-4xl text-ink md:text-5xl">
                     {de ? <>Dein <span className="text-gold">Trainerteam</span></> : <>La tua <span className="text-gold">squadra</span></>}
                   </h2>
@@ -470,16 +540,35 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-5 sm:gap-7">
                   {[
                     {
-                      src: "/images/squadra/trainer.png",
-                      w: 613,
-                      misura: 'top-[8%] h-[98%]',
-                      ruolo: de ? 'Personal Trainerin' : 'Personal trainer',
+                      // 13/10: la prima persona vera dopo Angelo, al posto della
+                      // trainer bionda inventata (trainer.png): "metterla al
+                      // centro tra i 3". Il ritratto e' la sua foto rifatta dal
+                      // modello con la maglia FitPrimo e scontornata
+                      // (scripts/genera-squadra.mjs, "collaboratrice"). Il nome
+                      // manca ancora. "Lei fa l'alimentazione, tipo dietologa":
+                      // Ernährungsberaterin, che in Germania non e' un titolo
+                      // protetto (Diätassistentin e Diätologin lo sono).
+                      // "Piu' vicino, che arrivi a mezzo busto": la figura e'
+                      // piu' alta della scheda, che la taglia sotto le braccia
+                      // come Angelo. La testa viene piu' grande di quella del
+                      // nutrizionista.
+                      src: "/images/squadra/collaboratrice.png",
+                      w: 606,
+                      misura: 'top-[8%] h-[138%]',
+                      nome: 'Natalie',
+                      ruolo: de ? 'Ernährungsberaterin' : 'Consulente nutrizionale',
+                      alt: de ? 'Natalie, Ernährungsberaterin bei FitPrimo' : 'Natalie, consulente nutrizionale di FitPrimo',
                     },
                     {
                       src: "/images/squadra/ernaehrung.png",
                       w: 488,
                       misura: 'top-[8%] h-[136%]',
+                      // 13/10: "da lui anche metti un nome". La figura resta
+                      // inventata e il nome pure, messo solo per vedere la
+                      // scheda completa: non e' una persona vera.
+                      nome: 'Jonas',
                       ruolo: de ? 'Ernährung' : 'Alimentazione',
+                      alt: de ? 'Beispielbild' : "Figura d'esempio",
                     },
                   ].map((p, i) => (
                     <figure key={p.src} className={i === 1 ? 'lg:mt-9' : ''}>
@@ -488,7 +577,7 @@ export default function Home() {
                         <div aria-hidden className="fp-forma -right-6 bottom-10 h-36 w-24 border border-gold/20" />
                         <Image
                           src={p.src}
-                          alt={de ? 'Beispielbild' : "Figura d'esempio"}
+                          alt={p.alt}
                           width={p.w}
                           height={1300}
                           sizes="(max-width: 1024px) 45vw, 240px"
@@ -496,8 +585,8 @@ export default function Home() {
                         />
                       </div>
                       <figcaption className="mt-5 text-center">
-                        {/* niente nome: sono figure d'esempio, il nome arriva con la persona vera */}
-                        <span className="fp-titolo block text-xl text-ink">{p.ruolo}</span>
+                        <span className="fp-titolo block text-xl text-ink">{p.nome}</span>
+                        <span className="mt-1 block text-ink/60">{p.ruolo}</span>
                       </figcaption>
                     </figure>
                   ))}

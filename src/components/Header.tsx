@@ -12,7 +12,7 @@ import { useLanguage } from "@/context/LanguageContext";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const { language, setLanguage, t } = useLanguage();
+  const { language, t } = useLanguage();
   // Chiesto da Calogero il 03/10: sulla home, finche' si e' sopra l'hero, la
   // barra e' trasparente e il fondo dell'hero le passa sotto. Appena si
   // scorre torna bianca. Sulle pagine interne resta sempre bianca: sono ancora
@@ -50,29 +50,9 @@ export default function Header() {
     </svg>
   );
 
-  // Selettore della lingua: una pillola a due posizioni, quella attiva piena.
-  // Prima erano due sigle separate da una barra, che non sembravano un comando.
-  const lingue = (
-    <div
-      role="group"
-      aria-label={language === 'de' ? 'Sprache' : 'Lingua'}
-      className="inline-flex items-center rounded-full border border-ink/15 bg-white/70 p-0.5"
-    >
-      {(['de', 'it'] as const).map((l) => (
-        <button
-          key={l}
-          type="button"
-          onClick={() => setLanguage(l)}
-          aria-pressed={language === l}
-          className={`min-h-8 rounded-full px-3 text-xs font-bold uppercase tracking-wider transition-colors ${
-            language === l ? 'bg-[#121214] text-white' : 'text-ink/55 hover:text-ink'
-          }`}
-        >
-          {l}
-        </button>
-      ))}
-    </div>
-  );
+  // Il selettore DE/IT non c'e' piu' (Calogero, 13/10): "il sito e' in tedesco
+  // e basta". La lingua la tiene ferma LanguageContext; i testi italiani nelle
+  // pagine restano, ma non si raggiungono.
 
   // Il carrello non sta piu' nella barra (Calogero, 04/10): il sito e' tornato
   // a raccogliere contatti, non a vendere dal carrello. Il carrello in se'
@@ -123,7 +103,6 @@ export default function Header() {
               {lucchetto}
               {areaPrivata}
             </Link>
-            {lingue}
             {/* bordo e testo rossi (Calogero, 04/10); al passaggio si riempie */}
             <Link
               href="/contatti"
@@ -134,7 +113,6 @@ export default function Header() {
           </div>
 
           <div className="lg:hidden flex items-center gap-2">
-            {lingue}
             <button
               type="button"
               className="p-2"

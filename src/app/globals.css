@@ -337,7 +337,10 @@ html {
 .fp-sotto svg {
   position: absolute;
   left: 0;
-  bottom: -0.14em;
+  /* Kanit ha 0,4 em di spazio sotto la linea di base: con un valore negativo
+     il tratto finiva addosso alla riga dopo ("troppo bassa, non cade sotto
+     neuer Körper", 13/10). Cosi' sta a 0,15 em dalle lettere. */
+  bottom: 0.14em;
   width: 100%;
   height: 0.16em;
   overflow: visible;

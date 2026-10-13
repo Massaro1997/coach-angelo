@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import {
   CircleCheck,
   ClipboardList,
@@ -21,6 +22,22 @@ import {
 import IconBadge from "@/components/IconBadge";
 import { useLanguage } from "@/context/LanguageContext";
 import { getAttribution } from "@/lib/attribution";
+
+// Le quattro risposte della prima domanda non hanno piu' l'icona lucide nel
+// cerchio ma un disegno fatto dal modello (Calogero, 13/10/2026: "al posto di
+// queste 4 icone fatte in svg crei 4 icone fatte bene con nano banana pro in
+// stile con il design del sito"; si rifanno con scripts/taglia-icone-wizard.py).
+// Vale per le tessere grandi; le altre domande restano con IconBadge.
+const DISEGNI_OBIETTIVO: Record<string, string> = {
+  abnehmen: "/images/wizard/fiamma.png",
+  dimagrire: "/images/wizard/fiamma.png",
+  muskelaufbau: "/images/wizard/manubri.png",
+  massa: "/images/wizard/manubri.png",
+  rekomposition: "/images/wizard/bilancia.png",
+  ricomposizione: "/images/wizard/bilancia.png",
+  wettkampf: "/images/wizard/coppa.png",
+  gara: "/images/wizard/coppa.png",
+};
 
 type WizardAnswers = {
   goal: string;
@@ -266,6 +283,7 @@ export default function LeadWizard({
               >
                 {currentQuestion.options.map((opt) => {
                   const selected = answers[currentQuestion.key] === opt.value;
+                  const disegno = currentQuestion.key === "goal" ? DISEGNI_OBIETTIVO[opt.value] : undefined;
                   if (largo) {
                     return (
                       <button
@@ -280,14 +298,28 @@ export default function LeadWizard({
                             : "border-line hover:-translate-y-1 hover:border-gold hover:shadow-[0_24px_50px_-28px_rgba(18,18,20,0.35)]"
                         }`}
                       >
-                        <IconBadge
-                          come={opt.icon}
-                          misura="lg"
-                          attivo={selected}
-                          className={`sm:!h-24 sm:!w-24 sm:[&>svg]:!h-12 sm:[&>svg]:!w-12 ${
-                            compatto ? "!h-12 !w-12 shrink-0 [&>svg]:!h-6 [&>svg]:!w-6" : "!h-[72px] !w-[72px] [&>svg]:!h-9 [&>svg]:!w-9"
-                          }`}
-                        />
+                        {disegno ? (
+                          <Image
+                            src={disegno}
+                            alt=""
+                            aria-hidden
+                            width={512}
+                            height={512}
+                            sizes="(max-width: 640px) 90px, 120px"
+                            className={`h-auto shrink-0 transition-transform duration-200 group-hover:scale-105 sm:w-[116px] ${
+                              compatto ? "w-14" : "w-[84px]"
+                            } ${selected ? "scale-105" : ""}`}
+                          />
+                        ) : (
+                          <IconBadge
+                            come={opt.icon}
+                            misura="lg"
+                            attivo={selected}
+                            className={`sm:!h-24 sm:!w-24 sm:[&>svg]:!h-12 sm:[&>svg]:!w-12 ${
+                              compatto ? "!h-12 !w-12 shrink-0 [&>svg]:!h-6 [&>svg]:!w-6" : "!h-[72px] !w-[72px] [&>svg]:!h-9 [&>svg]:!w-9"
+                            }`}
+                          />
+                        )}
                         <span className={`font-black leading-tight text-ink sm:text-xl ${compatto ? "text-[17px]" : "text-[15px]"}`}>{opt.label}</span>
                         {opt.desc && (
                           <span className="hidden text-sm leading-snug text-ink/55 sm:block">{opt.desc}</span>
@@ -399,7 +431,10 @@ export default function LeadWizard({
             per prima. Qui dicono a che punto sei dopo che hai gia' scelto.
           */}
           <div
-            className={`flex items-center justify-between gap-4 ${
+            className={`flex items-center gap-4 ${
+              // sul telefono, finche' non c'e' il tasto Indietro, sta al centro
+              step === 0 ? "justify-center sm:justify-between" : "justify-between"
+            } ${
               largo ? "mx-auto mt-9 max-w-2xl" : "mt-7 border-t border-line pt-5"
             }`}
           >

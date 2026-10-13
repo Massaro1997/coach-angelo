@@ -2,8 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function CookieBanner() {
+  // Era scritto solo in italiano, su un sito che e' in tedesco (13/10/2026).
+  const { language } = useLanguage();
+  const de = language === "de";
   const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
@@ -30,9 +34,11 @@ export default function CookieBanner() {
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="text-ink/80 text-sm text-center sm:text-left">
           <p>
-            Questo sito utilizza cookie per migliorare la tua esperienza di navigazione.{" "}
+            {de
+              ? "Diese Website verwendet Cookies, um dein Nutzungserlebnis zu verbessern."
+              : "Questo sito utilizza cookie per migliorare la tua esperienza di navigazione."}{" "}
             <Link href="/cookie" className="text-gold hover:text-gold-soft underline">
-              Scopri di più
+              {de ? "Mehr erfahren" : "Scopri di più"}
             </Link>
           </p>
         </div>
@@ -42,14 +48,14 @@ export default function CookieBanner() {
             onClick={declineCookies}
             className="px-5 py-2 text-sm font-medium text-ink/70 hover:text-ink border border-line rounded-md transition-colors"
           >
-            Rifiuta
+            {de ? "Ablehnen" : "Rifiuta"}
           </button>
           <button
             type="button"
             onClick={acceptCookies}
             className="px-5 py-2 text-sm font-medium text-white bg-gold hover:bg-gold-soft rounded-md transition-colors"
           >
-            Accetta
+            {de ? "Akzeptieren" : "Accetta"}
           </button>
         </div>
       </div>

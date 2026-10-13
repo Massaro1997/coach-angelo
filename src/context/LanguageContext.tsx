@@ -1,6 +1,6 @@
 'use client'
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react'
+import { createContext, useContext, useState, ReactNode } from 'react'
 
 type Language = 'it' | 'de'
 
@@ -287,15 +287,10 @@ const translations: Record<Language, Record<string, string>> = {
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
+  // Il sito e' solo in tedesco (Calogero, 13/10/2026): il selettore nella
+  // barra non c'e' piu', quindi la lingua salvata nel browser non si legge,
+  // altrimenti chi aveva scelto l'italiano ci resterebbe senza poter tornare.
   const [language, setLanguageState] = useState<Language>('de')
-
-  useEffect(() => {
-    // Carica la lingua salvata dal localStorage
-    const savedLanguage = localStorage.getItem('language') as Language
-    if (savedLanguage && (savedLanguage === 'it' || savedLanguage === 'de')) {
-      setLanguageState(savedLanguage)
-    }
-  }, [])
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang)

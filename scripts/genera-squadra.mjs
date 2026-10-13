@@ -44,7 +44,7 @@ mkdirSync(outWeb, { recursive: true });
 
 function token() {
   if (process.env.REPLICATE_API_TOKEN) return process.env.REPLICATE_API_TOKEN;
-  const f = join(root, "..", "..", "Progetti in Corso", "DirezioneX", "direzionex-site", ".env.local");
+  const f = join(root, "..", "DirezioneX", "direzionex-site", ".env.local");
   const riga = readFileSync(f, "utf8").split(/\r?\n/).find((r) => r.startsWith("REPLICATE_API_TOKEN="));
   if (!riga) throw new Error("REPLICATE_API_TOKEN non trovato");
   return riga.slice("REPLICATE_API_TOKEN=".length).trim().replace(/^["']|["']$/g, "");
@@ -89,6 +89,22 @@ const FIGURE = {
   trainer: {
     rif: [],
     prompt: `Studio portrait of a female personal trainer, about 29 years old: long blonde hair tied back in a high ponytail, blue eyes, fair skin with light natural make-up, fit athletic toned build with defined shoulders and arms. She wears a fitted plain black crew-neck athletic T-shirt with no print, no logo and no text on it, and black training leggings. ${scena("She", "her")}`,
+  },
+  // La prima persona vera della squadra dopo Angelo. Calogero, 13/10/2026:
+  // "rifarla con nano banana pro e mettere sia la maglia che lo sfondo
+  // tagliato e metterla al centro tra i 3". Come la foto profilo di Angelo
+  // (genera-foto-profilo.mjs) non e' una figura inventata: e' un ritocco della
+  // sua foto vera (brand/squadra/sorgenti/collaboratrice.jpeg: flash, muro di
+  // marmo, maglia nera a maniche lunghe). Il modello lascia lei identica e
+  // cambia fondo, luce e maglia, con il logo piccolo sul petto. Nella scheda
+  // prende il posto della trainer bionda inventata.
+  // Il 13/10 Replicate era senza credito (402): la foto e' uscita da
+  // nano_banana_pro su Higgsfield con questo stesso prompt. Il primo giro
+  // (collaboratrice-v1.png) aveva gli occhi scuri: "gli occhi lei li ha piu'
+  // verdi/blu", ritoccati li' partendo dalla v1, tutto il resto uguale.
+  collaboratrice: {
+    rif: ["brand/squadra/sorgenti/collaboratrice.jpeg", LOGO],
+    prompt: `Recreate the woman from the first reference image as a professional studio photoshoot portrait. She must be exactly the same real person, instantly recognisable: the same face shape, the same eyes, eyebrows, nose, lips and teeth, the same long straight blonde hair worn loose with a centre parting and a long curtain fringe falling to both sides of her face, the same tanned skin, the same make-up with long lashes and red lipstick, the same slim athletic build. Do not beautify, slim, age or change her face. The reference photo was taken with a direct flash that turned her eyes red: her real eyes are green-blue, a light natural blue-green, so render them that colour, and do not copy the harsh flash shine on her skin. Same pose and expression as in the reference: standing facing the camera with her arms crossed over her chest, shoulders square, relaxed confident posture, the same friendly open smile, looking straight into the lens. Instead of the long-sleeved top she wears a fitted, clean, premium black crew-neck short-sleeved athletic T-shirt without wrinkles, and black training leggings. Add the logo from the second image as a small print on the T-shirt, on the wearer's left side of the chest (the right side of the picture), over the heart, above the crossed arms and fully visible, not covered by her hair, about 8 centimetres wide, like a small printed company logo on a staff shirt: the slanted red AM monogram followed by the word FITPRIMO, with FIT in white and PRIMO in red, reproduced exactly with the same letter shapes and proportions, spelled correctly, following the curve and the folds of the fabric. No other print, no other text, no logo in the centre of the chest. Framing: vertical portrait from the top of the head down to mid-thigh, the whole head and both elbows fully inside the frame, centered, with some empty space above the head and at both sides. Background: replace the marble wall, the towel and the socket with a plain seamless light grey studio backdrop, evenly lit, completely empty, no props, no floor line. Soft frontal studio lighting, sharp focus on the eyes, photorealistic commercial studio portrait, natural matte skin texture with pores, realistic hands with five fingers, no CGI look, no watermark, no other text anywhere.`,
   },
   ernaehrung: {
     rif: [],

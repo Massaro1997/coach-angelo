@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
+    // 90 serve alla foto dell'hero: a 75 le facce escono impastate.
+    qualities: [75, 90],
     remotePatterns: [
       {
         protocol: 'https',
