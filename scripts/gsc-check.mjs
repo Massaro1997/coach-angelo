@@ -9,7 +9,10 @@ for (const line of fs.readFileSync(`${ROOT}/.env.local`, 'utf8').split('\n')) {
 const oauth2 = new google.auth.OAuth2(env.GOOGLE_OAUTH_CLIENT_ID, env.GOOGLE_OAUTH_CLIENT_SECRET);
 oauth2.setCredentials({ refresh_token: env.GSC_REFRESH_TOKEN });
 const wm = google.webmasters({ version: 'v3', auth: oauth2 });
-const property = env.GSC_PROPERTY;
+// Proprietà da leggere: argomento oppure GSC_PROPERTY. Dal 18/10/2026 il sito sta su
+// fitprimo.de: lo storico resta in sc-domain:angelocoach.com, il nuovo in sc-domain:fitprimo.de.
+const property = process.argv[2] || env.GSC_PROPERTY;
+console.log('Proprietà:', property);
 const today = new Date();
 const fmt = d => d.toISOString().slice(0, 10);
 const end = fmt(new Date(today - 2 * 864e5));
@@ -28,7 +31,7 @@ console.log('\n=== TOP 15 QUERY ===');
 for (const r of q.data.rows || []) console.log(`${r.clicks}c ${r.impressions}i pos${r.position.toFixed(1)} | ${r.keys[0]}`);
 const p = await wm.searchanalytics.query({ siteUrl: property, requestBody: { startDate: s28, endDate: end, dimensions: ['page'], rowLimit: 15 } });
 console.log('\n=== TOP 15 PAGINE ===');
-for (const r of p.data.rows || []) console.log(`${r.clicks}c ${r.impressions}i pos${r.position.toFixed(1)} | ${r.keys[0].replace('https://www.angelocoach.com','')}`);
+for (const r of p.data.rows || []) console.log(`${r.clicks}c ${r.impressions}i pos${r.position.toFixed(1)} | ${r.keys[0].replace(/^https:\/\/www\.(angelocoach\.com|fitprimo\.de)/,'')}`);
 try {
   const st = await wm.sitemaps.list({ siteUrl: property });
   console.log('\n=== SITEMAP ===');
