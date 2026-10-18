@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "Informativa sulla privacy e trattamento dei dati personali di angelocoach.com.",
+  description: "Informativa sulla privacy e trattamento dei dati personali di fitprimo.de.",
   alternates: { canonical: `${siteUrl}/privacy` },
 };
 

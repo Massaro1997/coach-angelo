@@ -4,7 +4,7 @@ import { stadtteile } from "@/lib/koeln-stadtteile";
 import { bezirke } from "@/lib/bezirk-content";
 import { intents } from "@/lib/stadtteil-intent";
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
   title: "Personal Trainer Köln - WABBA Athlet",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
     url: `${siteUrl}/personal-trainer-koeln`,
-    title: "Personal Trainer Köln | Coach Angelo",
+    title: "Personal Trainer Köln | FitPrimo",
     description: "1-zu-1 Training, Online Coaching und individuelle Trainingspläne in Köln. WABBA International Athlet.",
     images: ["/opengraph-image"],
   },

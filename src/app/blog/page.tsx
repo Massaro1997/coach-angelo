@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { allPosts } from "@/lib/blog-posts";
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
   title: "Fitness Blog Köln",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
     url: `${siteUrl}/blog`,
-    title: "Fitness Blog Köln | Coach Angelo",
+    title: "Fitness Blog Köln | FitPrimo",
     description: "Ehrliche Antworten zu Training, Abnehmen und Muskelaufbau in Köln. WABBA International Athlet.",
     images: ["/opengraph-image"],
   },

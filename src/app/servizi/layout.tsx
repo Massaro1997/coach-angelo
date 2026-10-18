@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
   title: "Servizi",
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: `${siteUrl}/servizi`,
-    title: "Servizi | Coach Angelo",
+    title: "Servizi | FitPrimo",
     description: "Personal Training 1-a-1, Online Coaching e schede di allenamento personalizzate.",
     images: ["/opengraph-image"],
   },

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { fitnessFaqs, faqCategories, faqsByCategory } from "@/lib/fitness-faq";
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
   title: "Fitness FAQ: Abnehmen, Muskelaufbau, Training",

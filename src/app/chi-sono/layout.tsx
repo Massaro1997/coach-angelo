@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
   title: "Chi Sono",
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "profile",
     url: `${siteUrl}/chi-sono`,
-    title: "Chi Sono | Coach Angelo",
+    title: "Chi Sono | FitPrimo",
     description: "Angelo Magliarisi, Personal Trainer a Colonia e atleta WABBA International.",
     images: ["/opengraph-image"],
   },

@@ -23,7 +23,7 @@ export function getStripe(): Stripe | null {
   return _stripe;
 }
 
-export const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.angelocoach.com";
+export const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.fitprimo.de";
 
 /**
  * Registra l'incasso di una rata e fa avanzare il preventivo.

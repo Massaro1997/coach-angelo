@@ -190,7 +190,7 @@ export default function Footer() {
 
           {/* Riga in fondo: diritti, pagine legali, firma */}
           <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-7 text-sm text-white/45 lg:flex-row">
-            <p>&copy; {new Date().getFullYear()} Coach Angelo. {rightsText}</p>
+            <p>&copy; {new Date().getFullYear()} FitPrimo. {rightsText}</p>
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
               <Link href="/termini" className="transition-colors hover:text-white">{termsLink}</Link>
               <Link href="/privacy" className="transition-colors hover:text-white">{privacyLink}</Link>

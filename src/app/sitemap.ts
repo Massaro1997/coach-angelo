@@ -5,7 +5,7 @@ import { stadtteile } from '@/lib/koeln-stadtteile'
 import { intents, allStadtteilIntentParams } from '@/lib/stadtteil-intent'
 import { fitnessFaqs } from '@/lib/fitness-faq'
 
-const siteUrl = "https://www.angelocoach.com"
+const siteUrl = "https://www.fitprimo.de"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()

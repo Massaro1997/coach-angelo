@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { fitnessFaqs, getFaq, faqCategories } from "@/lib/fitness-faq";
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 export function generateStaticParams() {
   return fitnessFaqs.map((f) => ({ slug: f.slug }));

@@ -1,7 +1,7 @@
 // Template email ispirati al design del sito Coach Angelo
 // Ottimizzati per evitare spam filters
 
-const BASE_URL = "https://angelocoach.com";
+const BASE_URL = "https://www.fitprimo.de";
 const LOGO_URL = `${BASE_URL}/logo-bianco.png`;
 
 // Stili comuni - semplificati per evitare spam

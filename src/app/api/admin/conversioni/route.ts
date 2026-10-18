@@ -10,14 +10,15 @@ import { searchAnalytics } from "@/lib/gsc-client";
 
 export const dynamic = "force-dynamic";
 
-const SITE = "https://www.angelocoach.com";
+const SITE = "https://www.fitprimo.de";
 
 /** Normalizza una URL a path, cosi' GSC e landingPage sono confrontabili. */
 function toPath(u: string | null): string | null {
   if (!u) return null;
   try {
     const url = u.startsWith("http") ? new URL(u) : new URL(u, SITE);
-    if (url.hostname && !url.hostname.includes("angelocoach.com")) return null;
+    // Dal 18/10/2026 il sito sta su fitprimo.de; i lead vecchi hanno angelocoach.com.
+    if (url.hostname && !/(angelocoach\.com|fitprimo\.de)$/.test(url.hostname)) return null;
     return url.pathname.replace(/\/+$/, "") || "/";
   } catch {
     return u.startsWith("/") ? u.replace(/\/+$/, "") || "/" : null;
@@ -30,7 +31,7 @@ function channel(c: { utmSource: string | null; utmMedium: string | null; referr
   if (!c.referrer) return "Diretto";
   try {
     const h = new URL(c.referrer).hostname.replace(/^www\./, "");
-    if (h.includes("angelocoach.com")) return "Diretto";
+    if (h.includes("angelocoach.com") || h.includes("fitprimo.de")) return "Diretto";
     if (h.includes("google")) return "Google";
     if (h.includes("bing")) return "Bing";
     if (h.includes("instagram")) return "Instagram";

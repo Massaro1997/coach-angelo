@@ -11,15 +11,18 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // SEO FIX 2026-06-23: apex -> www con 308 PERMANENTE (era 302 temporaneo da Vercel
-  // -> Google non consolidava l'indicizzazione, sito fermo). Niente loop: matcha solo apex nudo.
   async redirects() {
     return [
+      // 18/10/2026: il sito passa da angelocoach.com a www.fitprimo.de. Ogni pagina
+      // del dominio vecchio (con e senza www) va con 301 sulla stessa pagina del
+      // nuovo, query comprese: serve al "Cambio di indirizzo" di Search Console.
+      // /api resta fuori: webhook Stripe/PayPal e moduli gia' aperti possono
+      // puntare ancora al dominio vecchio, e un redirect su una POST li romperebbe.
       {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'angelocoach.com' }],
-        destination: 'https://www.angelocoach.com/:path*',
-        permanent: true,
+        source: '/:path((?!api/).*)',
+        has: [{ type: 'host', value: '(?:www\\.)?angelocoach\\.com' }],
+        destination: 'https://www.fitprimo.de/:path',
+        statusCode: 301,
       },
       // 04/10/2026: la pagina delle testimonianze non c'e' piu', recensioni e
       // trasformazioni stanno in fondo a ogni pagina. L'indirizzo vecchio e'

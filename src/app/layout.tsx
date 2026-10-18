@@ -18,13 +18,15 @@ const kanit = Kanit({
   display: "swap",
 });
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  // Dal 18/10/2026 il marchio e' FitPrimo su www.fitprimo.de; "Coach Angelo" resta
+  // nel default perche' la gente cerca ancora "coach angelo" / "angelo coach".
   title: {
-    default: "Coach Angelo | Personal Trainer Köln",
-    template: "%s | Coach Angelo",
+    default: "Personal Trainer Köln | FitPrimo mit Coach Angelo",
+    template: "%s | FitPrimo",
   },
   description: "Personal Trainer in Köln. WABBA Athlet. Personal Training 1-zu-1, Online Coaching und Trainingspläne. Kostenlose Erstberatung.",
   keywords: [
@@ -37,8 +39,8 @@ export const metadata: Metadata = {
     "personal trainer italiano Germania",
     "WABBA",
   ],
-  authors: [{ name: "Coach Angelo" }],
-  creator: "Coach Angelo",
+  authors: [{ name: "Angelo Magliarisi" }],
+  creator: "FitPrimo",
   alternates: {
     canonical: siteUrl,
   },
@@ -47,22 +49,22 @@ export const metadata: Metadata = {
     locale: "de_DE",
     alternateLocale: "it_IT",
     url: siteUrl,
-    siteName: "Coach Angelo - Personal Trainer",
-    title: "Coach Angelo | Personal Trainer in Germania",
-    description: "Trasforma il tuo corpo con allenamenti personalizzati. Personal Trainer italiano in Germania.",
+    siteName: "FitPrimo",
+    title: "FitPrimo | Personal Trainer Köln",
+    description: "Personal Training 1-zu-1, Online Coaching und Trainingspläne in Köln. Kostenlose Erstberatung.",
     images: [
       {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Coach Angelo - Personal Trainer",
+        alt: "FitPrimo, Personal Trainer Köln",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Coach Angelo | Personal Trainer",
-    description: "Personal Trainer italiano in Germania. Allenamenti personalizzati per risultati concreti.",
+    title: "FitPrimo | Personal Trainer Köln",
+    description: "Personal Training 1-zu-1, Online Coaching und Trainingspläne in Köln. Kostenlose Erstberatung.",
     images: ["/opengraph-image"],
   },
   robots: {
@@ -132,7 +134,8 @@ const jsonLd = {
     {
       "@type": ["LocalBusiness", "SportsActivityLocation"],
       "@id": `${siteUrl}/#business`,
-      name: "Coach Angelo — Personal Trainer Köln",
+      name: "FitPrimo",
+      alternateName: ["Coach Angelo", "Angelo Coach"],
       description: "Personal Training, Online Coaching und individuelle Trainingspläne in Köln. WABBA International Athlet, kostenlose Erstberatung.",
       url: siteUrl,
       image: `${siteUrl}/opengraph-image`,

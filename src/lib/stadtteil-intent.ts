@@ -4,7 +4,7 @@
 
 import { stadtteile, Stadtteil, density, getStadtteil } from "./koeln-stadtteile";
 
-export const siteUrl = "https://www.angelocoach.com";
+export const siteUrl = "https://www.fitprimo.de";
 
 export interface Intent {
   key: string;

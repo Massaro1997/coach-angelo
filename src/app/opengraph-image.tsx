@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 // Dynamic Open Graph image (1200x630) generated at build/request time.
 // Replaces the missing static /og-image.jpg.
 export const runtime = "edge";
-export const alt = "Coach Angelo, Personal Trainer Köln";
+export const alt = "FitPrimo, Personal Trainer Köln";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -35,7 +35,7 @@ export default function OpengraphImage() {
             marginBottom: 24,
           }}
         >
-          Coach Angelo
+          FitPrimo
         </div>
         <div
           style={{

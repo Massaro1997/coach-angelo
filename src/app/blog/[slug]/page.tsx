@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allPosts, getPost } from "@/lib/blog-posts";
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 // Correlati per tema: overlap di token nello slug, fallback sui più recenti.
 // Deterministico a build time, distribuisce link interni su tutti gli articoli.
@@ -88,7 +88,7 @@ export default async function BlogPostPage({
         },
         publisher: {
           "@type": "Organization",
-          name: "Coach Angelo",
+          name: "FitPrimo",
           logo: { "@type": "ImageObject", url: `${siteUrl}/logo.png` },
         },
       },

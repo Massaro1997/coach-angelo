@@ -2,15 +2,23 @@
 // Flow OAuth loopback: apre browser, tu clicchi consenso, token catturato
 // in automatico e scritto in .env.local.
 //
-// Uso:  node scripts/get-refresh-token.mjs <CLIENT_ID> <CLIENT_SECRET>
+// Uso:  node scripts/get-refresh-token.mjs [<CLIENT_ID> <CLIENT_SECRET>]
+// Senza argomenti li prende da .env.local (GOOGLE_OAUTH_CLIENT_ID / _SECRET).
 
 import { createServer } from "node:http";
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, openSync, ftruncateSync, writeSync, closeSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { exec } from "node:child_process";
 
-const [CLIENT_ID, CLIENT_SECRET] = process.argv.slice(2);
+const envPath = join(dirname(fileURLToPath(import.meta.url)), "..", ".env.local");
+const daEnv = (k) => {
+  if (!existsSync(envPath)) return undefined;
+  const m = readFileSync(envPath, "utf8").match(new RegExp(`^${k}=(.*)$`, "m"));
+  return m ? m[1].trim().replace(/^["']|["']$/g, "") : undefined;
+};
+const CLIENT_ID = process.argv[2] || daEnv("GOOGLE_OAUTH_CLIENT_ID");
+const CLIENT_SECRET = process.argv[3] || daEnv("GOOGLE_OAUTH_CLIENT_SECRET");
 if (!CLIENT_ID || !CLIENT_SECRET) {
   console.error("Uso: node scripts/get-refresh-token.mjs <CLIENT_ID> <CLIENT_SECRET>");
   process.exit(1);
@@ -21,6 +29,8 @@ const REDIRECT = `http://localhost:${PORT}`;
 const SCOPES = [
   "https://www.googleapis.com/auth/indexing",
   "https://www.googleapis.com/auth/webmasters",
+  // per verificare un dominio nuovo in Search Console via DNS (fitprimo.de, 18/10/2026)
+  "https://www.googleapis.com/auth/siteverification",
 ].join(" ");
 
 const authUrl =
@@ -59,7 +69,6 @@ const server = createServer(async (req, res) => {
   }
 
   // scrive/aggiorna .env.local
-  const envPath = join(dirname(fileURLToPath(import.meta.url)), "..", ".env.local");
   let env = existsSync(envPath) ? readFileSync(envPath, "utf8") : "";
   const set = (k, v) => {
     const re = new RegExp(`^${k}=.*$`, "m");
@@ -68,7 +77,12 @@ const server = createServer(async (req, res) => {
   set("GOOGLE_OAUTH_CLIENT_ID", CLIENT_ID);
   set("GOOGLE_OAUTH_CLIENT_SECRET", CLIENT_SECRET);
   set("GSC_REFRESH_TOKEN", tok.refresh_token);
-  writeFileSync(envPath, env);
+  // .env.local e' nascosto su Windows: writeFileSync ('w') fallisce con EPERM,
+  // 'r+' funziona. Quindi apro, svuoto e scrivo a mano.
+  const fd = openSync(envPath, existsSync(envPath) ? "r+" : "w");
+  ftruncateSync(fd, 0);
+  writeSync(fd, env, 0);
+  closeSync(fd);
 
   res.setHeader("Content-Type", "text/html; charset=utf-8");
   res.end("<h2>Fatto. Token salvato in .env.local — puoi chiudere questa scheda.</h2>");
@@ -80,5 +94,6 @@ const server = createServer(async (req, res) => {
 server.listen(PORT, () => {
   console.log("Apro il browser per il consenso Google...");
   console.log("Se non si apre, vai qui:\n" + authUrl + "\n");
-  exec(`start "" "${authUrl.replace(/&/g, "^&")}"`);
+  // Tra virgolette cmd non vuole ^ davanti a &: con ^& Google risponde "400".
+  exec(`start "" "${authUrl}"`);
 });

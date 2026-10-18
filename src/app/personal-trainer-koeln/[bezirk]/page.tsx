@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { bezirke, getBezirk, bezirkStadtteile, bezirkStats } from "@/lib/bezirk-content";
 import { density } from "@/lib/koeln-stadtteile";
 
-const siteUrl = "https://www.angelocoach.com";
+const siteUrl = "https://www.fitprimo.de";
 
 export function generateStaticParams() {
   return bezirke.map((b) => ({ bezirk: b.slug }));

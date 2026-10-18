@@ -328,7 +328,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du musst deinen Job nicht kündigen, um fit zu werden. Du brauchst einen Plan, der zu deinem Leben in Köln passt, nicht umgekehrt. Wenn du wissen willst, wie das konkret für dich aussieht, lade ich dich zu einem kostenlosen Erstgespräch ein. Wir schauen uns zusammen an, wo du stehst, was du willst und wie wir das realistisch umsetzen. Kein Druck, kein Verkaufsgespräch, einfach ein offenes Gespräch unter zwei Menschen. Schreib mir auf angelocoach.com."
+        "text": "Du musst deinen Job nicht kündigen, um fit zu werden. Du brauchst einen Plan, der zu deinem Leben in Köln passt, nicht umgekehrt. Wenn du wissen willst, wie das konkret für dich aussieht, lade ich dich zu einem kostenlosen Erstgespräch ein. Wir schauen uns zusammen an, wo du stehst, was du willst und wie wir das realistisch umsetzen. Kein Druck, kein Verkaufsgespräch, einfach ein offenes Gespräch unter zwei Menschen. Schreib mir auf fitprimo.de."
       }
     ]
   },
@@ -451,7 +451,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen durch Büroarbeit sind kein Schicksal, das du einfach hinnehmen musst. Mit den richtigen Übungen, etwas Konsequenz und kleinen Veränderungen im Arbeitsalltag kannst du sehr viel erreichen, ohne dein Leben umzukrempeln. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du dir unsicher bist, ob du die Übungen korrekt ausführst: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, einfach ein ehrlicher Austausch darüber, was dir wirklich hilft. Meld dich gerne über angelocoach.com."
+        "text": "Rückenschmerzen durch Büroarbeit sind kein Schicksal, das du einfach hinnehmen musst. Mit den richtigen Übungen, etwas Konsequenz und kleinen Veränderungen im Arbeitsalltag kannst du sehr viel erreichen, ohne dein Leben umzukrempeln. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du dir unsicher bist, ob du die Übungen korrekt ausführst: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, einfach ein ehrlicher Austausch darüber, was dir wirklich hilft. Meld dich gerne über fitprimo.de."
       }
     ]
   },
@@ -606,7 +606,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Abnehmen ohne Diät in Köln ist keine Utopie. Es ist das Ergebnis von strukturiertem Training, bewusstem Essen und einem Alltag, der deine Ziele unterstützt statt ihnen im Weg zu stehen. Wenn du weißt, wie es geht, aber nicht weißt, wo du anfangen sollst, kann ein Gespräch helfen. Ich biete ein kostenloses Erstgespräch an, kein Verkaufsgespräch, sondern eine ehrliche Bestandsaufnahme. Meld dich gerne auf angelocoach.com."
+        "text": "Abnehmen ohne Diät in Köln ist keine Utopie. Es ist das Ergebnis von strukturiertem Training, bewusstem Essen und einem Alltag, der deine Ziele unterstützt statt ihnen im Weg zu stehen. Wenn du weißt, wie es geht, aber nicht weißt, wo du anfangen sollst, kann ein Gespräch helfen. Ich biete ein kostenloses Erstgespräch an, kein Verkaufsgespräch, sondern eine ehrliche Bestandsaufnahme. Meld dich gerne auf fitprimo.de."
       }
     ]
   },
@@ -890,7 +890,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Training ab 40 ist kein Kampf gegen den Körper. Es ist eine Zusammenarbeit mit ihm. Wer versteht, was sich verändert hat, und sein Training entsprechend anpasst, kann in seinen 40ern echte Stärke aufbauen, funktional, nachhaltig und ohne ständige Verletzungen. Wenn du nicht weißt, wo du anfangen sollst, oder dein aktuelles Training nicht mehr die Ergebnisse bringt, die du dir wünschst, dann meld dich einfach. Im kostenlosen Erstgespräch schauen wir gemeinsam, was für dich persönlich wirklich Sinn ergibt. Kein Pitch, kein Druck, nur ein ehrliches Gespräch. Du findest mich unter https://www.angelocoach.com."
+        "text": "Training ab 40 ist kein Kampf gegen den Körper. Es ist eine Zusammenarbeit mit ihm. Wer versteht, was sich verändert hat, und sein Training entsprechend anpasst, kann in seinen 40ern echte Stärke aufbauen, funktional, nachhaltig und ohne ständige Verletzungen. Wenn du nicht weißt, wo du anfangen sollst, oder dein aktuelles Training nicht mehr die Ergebnisse bringt, die du dir wünschst, dann meld dich einfach. Im kostenlosen Erstgespräch schauen wir gemeinsam, was für dich persönlich wirklich Sinn ergibt. Kein Pitch, kein Druck, nur ein ehrliches Gespräch. Du findest mich unter https://www.fitprimo.de."
       }
     ]
   },
@@ -1024,7 +1024,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückentraining zuhause ohne Geräte ist keine Notlösung. Es ist für viele Berufstätige die realistischste und effektivste Möglichkeit, dem Bürorücken entgegenzuwirken. Die sechs Übungen in diesem Artikel reichen für den Einstieg völlig aus. Wenn du jedoch merkst, dass du nicht weißt, wie du die Bewegungen korrekt ausführst, oder wenn du mit einem konkreten Plan starten willst, der zu deinem Alltag passt, dann lass uns darüber reden. Beim kostenlosen Erstgespräch auf angelocoach.com schauen wir gemeinsam, was für dich der sinnvollste nächste Schritt ist, ohne Druck und ohne Verpflichtung."
+        "text": "Rückentraining zuhause ohne Geräte ist keine Notlösung. Es ist für viele Berufstätige die realistischste und effektivste Möglichkeit, dem Bürorücken entgegenzuwirken. Die sechs Übungen in diesem Artikel reichen für den Einstieg völlig aus. Wenn du jedoch merkst, dass du nicht weißt, wie du die Bewegungen korrekt ausführst, oder wenn du mit einem konkreten Plan starten willst, der zu deinem Alltag passt, dann lass uns darüber reden. Beim kostenlosen Erstgespräch auf fitprimo.de schauen wir gemeinsam, was für dich der sinnvollste nächste Schritt ist, ohne Druck und ohne Verpflichtung."
       }
     ]
   },
@@ -1179,7 +1179,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Gesund abnehmen ohne Hunger ist kein Trick und kein Geheimnis. Es ist das Ergebnis von ein paar klaren Entscheidungen, die du konsequent, aber ohne Druck umsetzt. Mehr Protein, sättigende Lebensmittel, ein moderates Defizit und ein bisschen Struktur im Alltag. Das reicht. Wenn du weißt, dass du Unterstützung brauchst, sei es beim Einstieg, beim Trainingsplan oder einfach um endlich mal einen Plan zu haben, der zu dir passt, melde dich gerne bei mir. Das erste Gespräch ist kostenlos, unverbindlich und auf Deutsch. Schreib mir einfach über angelocoach.com."
+        "text": "Gesund abnehmen ohne Hunger ist kein Trick und kein Geheimnis. Es ist das Ergebnis von ein paar klaren Entscheidungen, die du konsequent, aber ohne Druck umsetzt. Mehr Protein, sättigende Lebensmittel, ein moderates Defizit und ein bisschen Struktur im Alltag. Das reicht. Wenn du weißt, dass du Unterstützung brauchst, sei es beim Einstieg, beim Trainingsplan oder einfach um endlich mal einen Plan zu haben, der zu dir passt, melde dich gerne bei mir. Das erste Gespräch ist kostenlos, unverbindlich und auf Deutsch. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -1321,7 +1321,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Abnehmen im Alltag ist keine Frage der perfekten Diät. Es ist eine Frage der richtigen Gewohnheiten, die zu deinem Leben passen. Wenn du wissen willst, wie das konkret für dich aussehen kann, buch dir jetzt ein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsgespräch, kein Druck. Einfach dreissig Minuten, in denen wir schauen, was für dich funktioniert."
+        "text": "Abnehmen im Alltag ist keine Frage der perfekten Diät. Es ist eine Frage der richtigen Gewohnheiten, die zu deinem Leben passen. Wenn du wissen willst, wie das konkret für dich aussehen kann, buch dir jetzt ein kostenloses Erstgespräch auf fitprimo.de. Kein Verkaufsgespräch, kein Druck. Einfach dreissig Minuten, in denen wir schauen, was für dich funktioniert."
       }
     ]
   },
@@ -1472,7 +1472,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du musst nicht ins Fitnessstudio, um anzufangen. Aber du musst ehrlich mit dir sein, was du isst, wie du schläfst und welche Gewohnheiten dich bremsen. Ich arbeite in Köln mit Berufstätigen, die genau diesen Alltag kennen: wenig Zeit, viel Stress, echte Ziele. Wenn du wissen willst, wo du konkret ansetzen kannst, komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, keine Verpflichtung. Nur ein ehrlicher Blick auf deine Situation. Meld dich unter angelocoach.com."
+        "text": "Du musst nicht ins Fitnessstudio, um anzufangen. Aber du musst ehrlich mit dir sein, was du isst, wie du schläfst und welche Gewohnheiten dich bremsen. Ich arbeite in Köln mit Berufstätigen, die genau diesen Alltag kennen: wenig Zeit, viel Stress, echte Ziele. Wenn du wissen willst, wo du konkret ansetzen kannst, komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, keine Verpflichtung. Nur ein ehrlicher Blick auf deine Situation. Meld dich unter fitprimo.de."
       }
     ]
   },
@@ -1609,7 +1609,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Proteinreiche Lebensmittel für den Muskelaufbau müssen nicht kompliziert sein. Ein klarer Einkaufsplan, drei solide Mahlzeiten pro Tag und ein bisschen Vorbereitung reichen für den Anfang. Wenn du in Köln lebst und wissen willst, wie du Ernährung und Training konkret auf dein Leben zuschneidest, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos und ohne Verpflichtung. Schreib mir einfach über angelocoach.com."
+        "text": "Proteinreiche Lebensmittel für den Muskelaufbau müssen nicht kompliziert sein. Ein klarer Einkaufsplan, drei solide Mahlzeiten pro Tag und ein bisschen Vorbereitung reichen für den Anfang. Wenn du in Köln lebst und wissen willst, wie du Ernährung und Training konkret auf dein Leben zuschneidest, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos und ohne Verpflichtung. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -1764,7 +1764,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein Muskelaufbau Ernährungsplan muss nicht kompliziert sein. Feste Mahlzeiten, ausreichend Protein, genug Energie aus Kohlenhydraten und Fetten, das ist das Gerüst. Der Rest kommt mit der Zeit. Wenn du dir nicht sicher bist, wo du anfangen sollst, oder wenn du merkst, dass du trotz Bemühungen keine Fortschritte machst, dann lass uns kurz reden. Ich biete ein kostenloses Erstgespräch an, damit wir gemeinsam schauen, was für dich konkret Sinn macht. Kein Verkaufsgespräch, keine Verpflichtung. Einfach ein ehrlicher Austausch. Meld dich unter angelocoach.com."
+        "text": "Ein Muskelaufbau Ernährungsplan muss nicht kompliziert sein. Feste Mahlzeiten, ausreichend Protein, genug Energie aus Kohlenhydraten und Fetten, das ist das Gerüst. Der Rest kommt mit der Zeit. Wenn du dir nicht sicher bist, wo du anfangen sollst, oder wenn du merkst, dass du trotz Bemühungen keine Fortschritte machst, dann lass uns kurz reden. Ich biete ein kostenloses Erstgespräch an, damit wir gemeinsam schauen, was für dich konkret Sinn macht. Kein Verkaufsgespräch, keine Verpflichtung. Einfach ein ehrlicher Austausch. Meld dich unter fitprimo.de."
       }
     ]
   },
@@ -2029,7 +2029,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Mit 40 anzufangen ist nicht zu spät. Es ist, ehrlich gesagt, einer der besten Zeitpunkte überhaupt, weil du weißt was du willst, weißt was dir nicht passt, und den Willen mitbringst, der bei vielen Zwanzigjährigen noch fehlt. Wenn du wissen möchtest, wie ein Plan aussieht der zu deinem Alltag in Köln passt, buch dir ein kostenloses Erstgespräch auf angelocoach.com. Kein Druck, kein Verkaufsgespräch, nur ein ehrlicher Austausch darüber, wo du stehst und wo du hinwillst."
+        "text": "Mit 40 anzufangen ist nicht zu spät. Es ist, ehrlich gesagt, einer der besten Zeitpunkte überhaupt, weil du weißt was du willst, weißt was dir nicht passt, und den Willen mitbringst, der bei vielen Zwanzigjährigen noch fehlt. Wenn du wissen möchtest, wie ein Plan aussieht der zu deinem Alltag in Köln passt, buch dir ein kostenloses Erstgespräch auf fitprimo.de. Kein Druck, kein Verkaufsgespräch, nur ein ehrlicher Austausch darüber, wo du stehst und wo du hinwillst."
       }
     ]
   },
@@ -2159,7 +2159,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die Wechseljahre sind kein Grund zum Pausieren, sie sind ein Grund zum Starten. Krafttraining schützt deine Knochen, stabilisiert deinen Stoffwechsel und gibt dir ein Körpergefühl zurück, das viele Frauen in dieser Phase verloren geglaubt haben. Du brauchst kein perfektes Programm und keine teure Ausrüstung. Du brauchst einen klaren Einstieg und jemanden, der dir zeigt, wie es geht. Wenn du in Köln bist und wissen willst, was für dich persönlich sinnvoll ist, dann meld dich für ein kostenloses Erstgespräch. Kein Verkaufsgespräch, kein Druck. Nur ein ehrlicher Austausch darüber, wo du stehst und was dir wirklich hilft. Schreib mir einfach über angelocoach.com."
+        "text": "Die Wechseljahre sind kein Grund zum Pausieren, sie sind ein Grund zum Starten. Krafttraining schützt deine Knochen, stabilisiert deinen Stoffwechsel und gibt dir ein Körpergefühl zurück, das viele Frauen in dieser Phase verloren geglaubt haben. Du brauchst kein perfektes Programm und keine teure Ausrüstung. Du brauchst einen klaren Einstieg und jemanden, der dir zeigt, wie es geht. Wenn du in Köln bist und wissen willst, was für dich persönlich sinnvoll ist, dann meld dich für ein kostenloses Erstgespräch. Kein Verkaufsgespräch, kein Druck. Nur ein ehrlicher Austausch darüber, wo du stehst und was dir wirklich hilft. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -2289,7 +2289,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fitness Motivation morgens ist kein Charakterzug, den man hat oder nicht hat. Sie ist das Ergebnis kleiner, konkreter Entscheidungen, die du bewusst triffst, meistens schon am Vorabend. Wenn du immer wieder das Gefühl hast, dass du weißt, was du tun solltest, aber nicht weißt, wie du es in deinen Alltag bekommst, dann lass uns darüber reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, welcher Ansatz zu dir, deinem Job und deinem Leben in Köln passt. Kein Verkaufsgespräch, keine Verpflichtung, nur ein ehrliches Gespräch. Du findest das Angebot direkt auf angelocoach.com."
+        "text": "Fitness Motivation morgens ist kein Charakterzug, den man hat oder nicht hat. Sie ist das Ergebnis kleiner, konkreter Entscheidungen, die du bewusst triffst, meistens schon am Vorabend. Wenn du immer wieder das Gefühl hast, dass du weißt, was du tun solltest, aber nicht weißt, wie du es in deinen Alltag bekommst, dann lass uns darüber reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, welcher Ansatz zu dir, deinem Job und deinem Leben in Köln passt. Kein Verkaufsgespräch, keine Verpflichtung, nur ein ehrliches Gespräch. Du findest das Angebot direkt auf fitprimo.de."
       }
     ]
   },
@@ -2414,7 +2414,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fitness-Motivation ist kein Gefühl, das du hast oder nicht hast. Sie ist ein System, das du baust. Mit den richtigen Gewohnheiten, einer realistischen Struktur und dem Wissen, dass Rückschläge dazugehören, kannst du dauerhaft dranzubleiben, ohne dich jeden Tag aufs Neue motivieren zu müssen. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du merkst, dass du immer wieder an denselben Stellen hängenbleibst, dann rede einfach mit mir. Das kostenlose Erstgespräch ist unverbindlich und zeigt dir, was für dich persönlich Sinn macht. Schreib mir auf angelocoach.com."
+        "text": "Fitness-Motivation ist kein Gefühl, das du hast oder nicht hast. Sie ist ein System, das du baust. Mit den richtigen Gewohnheiten, einer realistischen Struktur und dem Wissen, dass Rückschläge dazugehören, kannst du dauerhaft dranzubleiben, ohne dich jeden Tag aufs Neue motivieren zu müssen. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du merkst, dass du immer wieder an denselben Stellen hängenbleibst, dann rede einfach mit mir. Das kostenlose Erstgespräch ist unverbindlich und zeigt dir, was für dich persönlich Sinn macht. Schreib mir auf fitprimo.de."
       }
     ]
   },
@@ -2686,7 +2686,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen durch Büroarbeit sind lösbar. Nicht mit Schmerztabletten, nicht mit einer neuen Sitzgelegenheit, sondern mit einem gezielten Trainingsplan, der zu deinem Alltag passt. Wenn du nicht weißt, wo du anfangen sollst oder einfach sicher gehen möchtest, dass du von Anfang an richtig trainierst: Ich biete dir ein kostenloses Erstgespräch an. Keine Verpflichtung, kein Verkaufsgespräch. Nur ein ehrliches Gespräch darüber, was dir wirklich helfen kann. Melde dich gerne über angelocoach.com."
+        "text": "Rückenschmerzen durch Büroarbeit sind lösbar. Nicht mit Schmerztabletten, nicht mit einer neuen Sitzgelegenheit, sondern mit einem gezielten Trainingsplan, der zu deinem Alltag passt. Wenn du nicht weißt, wo du anfangen sollst oder einfach sicher gehen möchtest, dass du von Anfang an richtig trainierst: Ich biete dir ein kostenloses Erstgespräch an. Keine Verpflichtung, kein Verkaufsgespräch. Nur ein ehrliches Gespräch darüber, was dir wirklich helfen kann. Melde dich gerne über fitprimo.de."
       }
     ]
   },
@@ -2822,7 +2822,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelaufbau zuhause ohne Geräte ist keine Notlösung. Es ist ein legitimer, effektiver Weg, besonders für Einsteiger, die erst lernen müssen, ihren Körper zu bewegen und zu spüren. Nimm die Grundübungen ernst, bleib bei einem Plan, iss genug Protein und schlaf ausreichend. Der Rest kommt mit der Zeit. Wenn du magst, können wir in einem kostenlosen Erstgespräch schauen, wie ein auf dich zugeschnittener Plan aussehen könnte, ohne Verpflichtung, aber mit konkreten Antworten. Schreib mir einfach über angelocoach.com."
+        "text": "Muskelaufbau zuhause ohne Geräte ist keine Notlösung. Es ist ein legitimer, effektiver Weg, besonders für Einsteiger, die erst lernen müssen, ihren Körper zu bewegen und zu spüren. Nimm die Grundübungen ernst, bleib bei einem Plan, iss genug Protein und schlaf ausreichend. Der Rest kommt mit der Zeit. Wenn du magst, können wir in einem kostenlosen Erstgespräch schauen, wie ein auf dich zugeschnittener Plan aussehen könnte, ohne Verpflichtung, aber mit konkreten Antworten. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -3076,7 +3076,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Kalorien zählen oder intuitiv essen, das ist keine Glaubensfrage. Es ist eine pragmatische Entscheidung, die zu dir und deinem Alltag passen muss. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon verschiedenes probiert hast und trotzdem nicht weiterkommst, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam herausfinden, was für dich konkret Sinn macht. Ohne Verkaufsdruck, ohne Standardprogramm. Einfach ein ehrliches Gespräch. Meld dich auf angelocoach.com."
+        "text": "Kalorien zählen oder intuitiv essen, das ist keine Glaubensfrage. Es ist eine pragmatische Entscheidung, die zu dir und deinem Alltag passen muss. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon verschiedenes probiert hast und trotzdem nicht weiterkommst, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam herausfinden, was für dich konkret Sinn macht. Ohne Verkaufsdruck, ohne Standardprogramm. Einfach ein ehrliches Gespräch. Meld dich auf fitprimo.de."
       }
     ]
   },
@@ -3193,7 +3193,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du das Gefühl hast, dass du alles versuchst und trotzdem nicht weiterkommst, dann könnte ein frischer, externer Blick genau das sein, was du brauchst. Ich biete dir ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, wo bei dir der Hebel sitzt. Kein Standardprogramm, kein Druck, einfach ein ehrliches Gespräch darüber, was wirklich funktioniert. Schreib mir unter angelocoach.com."
+        "text": "Wenn du das Gefühl hast, dass du alles versuchst und trotzdem nicht weiterkommst, dann könnte ein frischer, externer Blick genau das sein, was du brauchst. Ich biete dir ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, wo bei dir der Hebel sitzt. Kein Standardprogramm, kein Druck, einfach ein ehrliches Gespräch darüber, was wirklich funktioniert. Schreib mir unter fitprimo.de."
       }
     ]
   },
@@ -3338,7 +3338,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Stoffwechsel anregen ab 40 ist keine Frage von Willenskraft oder magischen Supplements. Es ist eine Frage der richtigen Hebel: Krafttraining, ausreichend Protein, guter Schlaf und Bewegung im Alltag. Du musst nicht alles auf einmal umsetzen. Fang mit einem Punkt an, mach ihn zur Gewohnheit, dann kommt der nächste. Wenn du wissen willst, wie ein konkreter Plan für dich persönlich aussieht, hol dir einfach ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, keine Verpflichtung. Einfach 30 Minuten, um zu schauen, wo du stehst und was sinnvoll ist. Meld dich unter angelocoach.com."
+        "text": "Stoffwechsel anregen ab 40 ist keine Frage von Willenskraft oder magischen Supplements. Es ist eine Frage der richtigen Hebel: Krafttraining, ausreichend Protein, guter Schlaf und Bewegung im Alltag. Du musst nicht alles auf einmal umsetzen. Fang mit einem Punkt an, mach ihn zur Gewohnheit, dann kommt der nächste. Wenn du wissen willst, wie ein konkreter Plan für dich persönlich aussieht, hol dir einfach ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, keine Verpflichtung. Einfach 30 Minuten, um zu schauen, wo du stehst und was sinnvoll ist. Meld dich unter fitprimo.de."
       }
     ]
   },
@@ -3456,7 +3456,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du brauchst keinen perfekten Plan. Du brauchst einen guten Plan, den du wirklich durchziehst. Diese Morgenroutine ist ein konkreter erster Schritt. Wenn du wissen willst, was speziell für deinen Rücken und deine Situation sinnvoll ist, dann lade ich dich herzlich ein: Komm zu einem kostenlosen Erstgespräch bei mir in Köln. Wir schauen uns gemeinsam an, wo du stehst und was dir wirklich weiterhilft. Melde dich einfach über angelocoach.com."
+        "text": "Du brauchst keinen perfekten Plan. Du brauchst einen guten Plan, den du wirklich durchziehst. Diese Morgenroutine ist ein konkreter erster Schritt. Wenn du wissen willst, was speziell für deinen Rücken und deine Situation sinnvoll ist, dann lade ich dich herzlich ein: Komm zu einem kostenlosen Erstgespräch bei mir in Köln. Wir schauen uns gemeinsam an, wo du stehst und was dir wirklich weiterhilft. Melde dich einfach über fitprimo.de."
       }
     ]
   },
@@ -3719,7 +3719,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Online Fitness Coaching kann richtig gut funktionieren, wenn du weißt, worauf du achtest, und wenn du den richtigen Coach findest. Es ist kein Wundermittel, aber es ist ein starkes Werkzeug für Menschen, die Struktur, klare Kommunikation und einen Plan brauchen, der wirklich zu ihrem Alltag passt. Wenn du neugierig bist, wie das für dich konkret aussehen könnte, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, ohne Verkaufsdruck, ohne vorgefertigte Antworten. Einfach ein ehrliches Gespräch über deine Ziele. Du findest mich unter angelocoach.com."
+        "text": "Online Fitness Coaching kann richtig gut funktionieren, wenn du weißt, worauf du achtest, und wenn du den richtigen Coach findest. Es ist kein Wundermittel, aber es ist ein starkes Werkzeug für Menschen, die Struktur, klare Kommunikation und einen Plan brauchen, der wirklich zu ihrem Alltag passt. Wenn du neugierig bist, wie das für dich konkret aussehen könnte, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, ohne Verkaufsdruck, ohne vorgefertigte Antworten. Einfach ein ehrliches Gespräch über deine Ziele. Du findest mich unter fitprimo.de."
       }
     ]
   },
@@ -3848,7 +3848,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ab 40 ist nicht der Moment um kürzer zu treten. Es ist der Moment um klüger zu trainieren. Mit dem richtigen Coach an deiner Seite nutzt du die körperlichen Veränderungen als Information, nicht als Ausrede. Wenn du wissen willst, wie das konkret für dich aussehen kann, vereinbare jetzt dein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsgespräch, kein Druck. Nur ein ehrliches Gespräch darüber, was möglich ist."
+        "text": "Ab 40 ist nicht der Moment um kürzer zu treten. Es ist der Moment um klüger zu trainieren. Mit dem richtigen Coach an deiner Seite nutzt du die körperlichen Veränderungen als Information, nicht als Ausrede. Wenn du wissen willst, wie das konkret für dich aussehen kann, vereinbare jetzt dein kostenloses Erstgespräch auf fitprimo.de. Kein Verkaufsgespräch, kein Druck. Nur ein ehrliches Gespräch darüber, was möglich ist."
       }
     ]
   },
@@ -4000,7 +4000,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du hast jetzt alles, was du brauchst, um morgen anzufangen. Keine Ausreden, kein Equipment nötig, nur du und dein Wohnzimmer. Wenn du einen individuellen Plan willst, der genau zu deinem Alltag, deinen Zielen und deinem aktuellen Fitnessstand passt, dann komm in mein kostenloses Erstgespräch. Kein Verkaufsgespräch, kein Druck: Wir schauen gemeinsam, was für dich Sinn macht. Meld dich einfach auf angelocoach.com."
+        "text": "Du hast jetzt alles, was du brauchst, um morgen anzufangen. Keine Ausreden, kein Equipment nötig, nur du und dein Wohnzimmer. Wenn du einen individuellen Plan willst, der genau zu deinem Alltag, deinen Zielen und deinem aktuellen Fitnessstand passt, dann komm in mein kostenloses Erstgespräch. Kein Verkaufsgespräch, kein Druck: Wir schauen gemeinsam, was für dich Sinn macht. Meld dich einfach auf fitprimo.de."
       }
     ]
   },
@@ -4134,7 +4134,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Krafttraining zuhause funktioniert. Es braucht keine teuren Geräte, kein Studio und keine komplizierte Theorie. Es braucht einen Plan, den du wirklich befolgst, und den Willen, dich Woche für Woche ein bisschen mehr zu fordern. Wenn du unsicher bist, wo du anfangen sollst, oder wenn du nach einigen Wochen merkst, dass du nicht weiterkommst, bin ich für dich da. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Ausgangspunkt besprechen und schauen, was wirklich zu dir und deinem Alltag passt. Meld dich einfach über angelocoach.com."
+        "text": "Krafttraining zuhause funktioniert. Es braucht keine teuren Geräte, kein Studio und keine komplizierte Theorie. Es braucht einen Plan, den du wirklich befolgst, und den Willen, dich Woche für Woche ein bisschen mehr zu fordern. Wenn du unsicher bist, wo du anfangen sollst, oder wenn du nach einigen Wochen merkst, dass du nicht weiterkommst, bin ich für dich da. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Ausgangspunkt besprechen und schauen, was wirklich zu dir und deinem Alltag passt. Meld dich einfach über fitprimo.de."
       }
     ]
   },
@@ -4437,7 +4437,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Intermittierendes Fasten zum Abnehmen funktioniert, wenn du es richtig angehst und an deinen Alltag anpasst. Es ist kein Trend, der nach drei Wochen wieder weg ist, sondern eine Methode, die viele meiner Klienten dauerhaft umsetzen. Aber, und das ist entscheidend, es ist nur ein Werkzeug. Was du isst, wie du trainierst und wie du mit Stress umgehst, macht den großen Unterschied. Wenn du wissen willst, ob Intervallfasten zu deinem Leben in Köln oder Umgebung passt und wie du es konkret umsetzt, dann buche dir ein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsdruck, einfach ein ehrliches Gespräch über das, was für dich wirklich funktioniert."
+        "text": "Intermittierendes Fasten zum Abnehmen funktioniert, wenn du es richtig angehst und an deinen Alltag anpasst. Es ist kein Trend, der nach drei Wochen wieder weg ist, sondern eine Methode, die viele meiner Klienten dauerhaft umsetzen. Aber, und das ist entscheidend, es ist nur ein Werkzeug. Was du isst, wie du trainierst und wie du mit Stress umgehst, macht den großen Unterschied. Wenn du wissen willst, ob Intervallfasten zu deinem Leben in Köln oder Umgebung passt und wie du es konkret umsetzt, dann buche dir ein kostenloses Erstgespräch auf fitprimo.de. Kein Verkaufsdruck, einfach ein ehrliches Gespräch über das, was für dich wirklich funktioniert."
       }
     ]
   },
@@ -4574,7 +4574,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein guter Trainingsplan für Anfänger muss nicht kompliziert sein. Drei Tage, Grundübungen, saubere Technik, regelmäßige kleine Steigerungen und ausreichend Erholung: Das ist dein Rezept für die ersten Monate. Wenn du trotzdem das Gefühl hast, dass du mit einer persönlichen Begleitung schneller und sicherer ans Ziel kommst, dann nutz mein kostenloses Erstgespräch. Wir schauen uns gemeinsam an, wo du gerade stehst und was dein Körper wirklich braucht. Kein Verkaufsgespräch, keine Verpflichtungen, einfach ein offenes Gespräch unter Menschen. Meld dich auf angelocoach.com."
+        "text": "Ein guter Trainingsplan für Anfänger muss nicht kompliziert sein. Drei Tage, Grundübungen, saubere Technik, regelmäßige kleine Steigerungen und ausreichend Erholung: Das ist dein Rezept für die ersten Monate. Wenn du trotzdem das Gefühl hast, dass du mit einer persönlichen Begleitung schneller und sicherer ans Ziel kommst, dann nutz mein kostenloses Erstgespräch. Wir schauen uns gemeinsam an, wo du gerade stehst und was dein Körper wirklich braucht. Kein Verkaufsgespräch, keine Verpflichtungen, einfach ein offenes Gespräch unter Menschen. Meld dich auf fitprimo.de."
       }
     ]
   },
@@ -4729,7 +4729,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelaufbau als Frau ist kein Hexenwerk. Du brauchst einen strukturierten Plan, ausreichend Protein, Geduld und die Bereitschaft, dich wirklich zu fordern. Fang lieber heute mit einem einfachen Plan an als nächsten Monat mit dem perfekten. Wenn du wissen willst, wie ein Plan aussieht, der genau zu deinem Körper, deinem Alltag und deinen Zielen passt, dann buche dein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsdruck, keine Verpflichtung. Nur ein ehrliches Gespräch über das, was für dich Sinn macht."
+        "text": "Muskelaufbau als Frau ist kein Hexenwerk. Du brauchst einen strukturierten Plan, ausreichend Protein, Geduld und die Bereitschaft, dich wirklich zu fordern. Fang lieber heute mit einem einfachen Plan an als nächsten Monat mit dem perfekten. Wenn du wissen willst, wie ein Plan aussieht, der genau zu deinem Körper, deinem Alltag und deinen Zielen passt, dann buche dein kostenloses Erstgespräch auf fitprimo.de. Kein Verkaufsdruck, keine Verpflichtung. Nur ein ehrliches Gespräch über das, was für dich Sinn macht."
       }
     ]
   },
@@ -5000,7 +5000,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Abnehmen mit einem Personal Trainer ist keine Zauberformel, aber es ist einer der direktesten Wege, wenn du weißt, was du reinvestierst, und bereit bist, mitzumachen. Ich arbeite in Köln mit Menschen, die genau da stehen, wo du vielleicht gerade stehst: motiviert, aber unsicher, wo anfangen. Wenn du herausfinden möchtest, ob das für dich passt, dann lade ich dich ein zu einem kostenlosen Erstgespräch bei Angelo Coach. Kein Verkaufsgespräch, kein Druck. Nur ein ehrlicher Austausch darüber, was du brauchst und was ich dir bieten kann. Schreib mir einfach über angelocoach.com."
+        "text": "Abnehmen mit einem Personal Trainer ist keine Zauberformel, aber es ist einer der direktesten Wege, wenn du weißt, was du reinvestierst, und bereit bist, mitzumachen. Ich arbeite in Köln mit Menschen, die genau da stehen, wo du vielleicht gerade stehst: motiviert, aber unsicher, wo anfangen. Wenn du herausfinden möchtest, ob das für dich passt, dann lade ich dich ein zu einem kostenlosen Erstgespräch bei Angelo Coach. Kein Verkaufsgespräch, kein Druck. Nur ein ehrlicher Austausch darüber, was du brauchst und was ich dir bieten kann. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -5139,7 +5139,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die Entscheidung zwischen Online Coaching und Personal Training ist keine Frage des Budgets allein. Sie hängt davon ab, wo du gerade stehst, wie dein Alltag aussieht, und was dich wirklich antreibt. Wenn du unsicher bist, welche Option für dich passt, reden wir einfach darüber. Ich biete ein kostenloses Erstgespräch an, ohne Druck und ohne versteckte Agenda. Meld dich auf angelocoach.com, und wir schauen gemeinsam, was für dich Sinn macht."
+        "text": "Die Entscheidung zwischen Online Coaching und Personal Training ist keine Frage des Budgets allein. Sie hängt davon ab, wo du gerade stehst, wie dein Alltag aussieht, und was dich wirklich antreibt. Wenn du unsicher bist, welche Option für dich passt, reden wir einfach darüber. Ich biete ein kostenloses Erstgespräch an, ohne Druck und ohne versteckte Agenda. Meld dich auf fitprimo.de, und wir schauen gemeinsam, was für dich Sinn macht."
       }
     ]
   },
@@ -5294,7 +5294,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Gesunde Snacks zum Abnehmen müssen weder teuer noch kompliziert sein. Sie müssen einfach passen. Zu deinem Tag, zu deinem Hunger, zu deinem Alltag in Köln und drumherum. Wenn du merkst, dass du immer wieder in die gleichen Fallen tappst oder einfach nicht weißt, wie du das alles zusammenbringen sollst, dann lass uns reden. Ein kostenloses Erstgespräch mit mir bei Angelo Coach dauert nicht lange, aber es gibt dir konkrete Antworten, keine allgemeinen Tipps. Melde dich gerne unter angelocoach.com."
+        "text": "Gesunde Snacks zum Abnehmen müssen weder teuer noch kompliziert sein. Sie müssen einfach passen. Zu deinem Tag, zu deinem Hunger, zu deinem Alltag in Köln und drumherum. Wenn du merkst, dass du immer wieder in die gleichen Fallen tappst oder einfach nicht weißt, wie du das alles zusammenbringen sollst, dann lass uns reden. Ein kostenloses Erstgespräch mit mir bei Angelo Coach dauert nicht lange, aber es gibt dir konkrete Antworten, keine allgemeinen Tipps. Melde dich gerne unter fitprimo.de."
       }
     ]
   },
@@ -5587,7 +5587,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zwölf Wochen Krafttraining verändern deinen Körper, deine Energie und deine Haltung. Das ist kein leeres Versprechen, das ist das, was ich täglich in meiner Arbeit als Personal Trainer in Köln beobachte. Wenn du wissen willst, wo du anfängst und was konkret für dich möglich ist, lade ich dich herzlich zu einem kostenlosen Erstgespräch ein. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung, was in deiner Situation realistisch machbar ist. Schreib mir über angelocoach.com."
+        "text": "Zwölf Wochen Krafttraining verändern deinen Körper, deine Energie und deine Haltung. Das ist kein leeres Versprechen, das ist das, was ich täglich in meiner Arbeit als Personal Trainer in Köln beobachte. Wenn du wissen willst, wo du anfängst und was konkret für dich möglich ist, lade ich dich herzlich zu einem kostenlosen Erstgespräch ein. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung, was in deiner Situation realistisch machbar ist. Schreib mir über fitprimo.de."
       }
     ]
   },
@@ -5717,7 +5717,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelaufbau braucht keine Wunder, keine teuren Supplements und kein fünfmal-die-Woche-Training. Er braucht Geduld, einen klaren Plan und jemanden, der dir sagt, was in deinem konkreten Fall Sinn ergibt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon ein paar Wochen trainierst und das Gefühl hast, es läuft nicht richtig, dann lass uns kurz reden. Ein kostenloses Erstgespräch mit mir gibt dir Klarheit darüber, was dein nächster sinnvoller Schritt ist. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung. Du findest das Formular auf angelocoach.com."
+        "text": "Muskelaufbau braucht keine Wunder, keine teuren Supplements und kein fünfmal-die-Woche-Training. Er braucht Geduld, einen klaren Plan und jemanden, der dir sagt, was in deinem konkreten Fall Sinn ergibt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon ein paar Wochen trainierst und das Gefühl hast, es läuft nicht richtig, dann lass uns kurz reden. Ein kostenloses Erstgespräch mit mir gibt dir Klarheit darüber, was dein nächster sinnvoller Schritt ist. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung. Du findest das Formular auf fitprimo.de."
       }
     ]
   },
@@ -5854,7 +5854,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen durch langes Bürositzen sind kein Schicksal. Sie sind ein Signal, das dein Körper sendet, weil bestimmte Muskeln ihre Arbeit nicht mehr machen. Dehnen kann das Signal kurz dämpfen, aber gezieltes Krafttraining behebt die Ursache. Wenn du nicht sicher bist, wo du anfangen sollst, oder wenn du dich fragst, ob dein aktuelles Training wirklich das Richtige ist: Schreib mir. Ein kostenloses Erstgespräch auf angelocoach.com gibt dir in dreißig Minuten mehr Klarheit als monatelanges Ausprobieren auf eigene Faust."
+        "text": "Rückenschmerzen durch langes Bürositzen sind kein Schicksal. Sie sind ein Signal, das dein Körper sendet, weil bestimmte Muskeln ihre Arbeit nicht mehr machen. Dehnen kann das Signal kurz dämpfen, aber gezieltes Krafttraining behebt die Ursache. Wenn du nicht sicher bist, wo du anfangen sollst, oder wenn du dich fragst, ob dein aktuelles Training wirklich das Richtige ist: Schreib mir. Ein kostenloses Erstgespräch auf fitprimo.de gibt dir in dreißig Minuten mehr Klarheit als monatelanges Ausprobieren auf eigene Faust."
       }
     ]
   },
@@ -6421,7 +6421,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Online Coaching ist kein schlechteres Training, es ist ein anderes Format mit eigenen Stärken und klaren Grenzen. Wer selbstständig arbeitet, kommunikationsbereit ist und grundlegende Bewegungserfahrung mitbringt, kann damit sehr weit kommen. Wer Unterstützung braucht, um den ersten Schritt zu machen, oder körperliche Einschränkungen hat, ist erst einmal besser mit persönlicher Begleitung aufgehoben. Wenn du dir nicht sicher bist, welches Format zu dir passt, dann lass uns kurz darüber reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam herausfinden, was für dich wirklich Sinn macht, ohne Verkaufsblabla, versprochen. Schreib mir einfach über angelocoach.com."
+        "text": "Online Coaching ist kein schlechteres Training, es ist ein anderes Format mit eigenen Stärken und klaren Grenzen. Wer selbstständig arbeitet, kommunikationsbereit ist und grundlegende Bewegungserfahrung mitbringt, kann damit sehr weit kommen. Wer Unterstützung braucht, um den ersten Schritt zu machen, oder körperliche Einschränkungen hat, ist erst einmal besser mit persönlicher Begleitung aufgehoben. Wenn du dir nicht sicher bist, welches Format zu dir passt, dann lass uns kurz darüber reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam herausfinden, was für dich wirklich Sinn macht, ohne Verkaufsblabla, versprochen. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -6845,7 +6845,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Krafttraining für Frauen ist in Berlin und Köln gleich zugänglich, wenn du weißt, wo du anfangen sollst. Technik vor Gewicht, Struktur vor Improvisation, Erholung vor Übertraining. Das sind keine neuen Weisheiten, aber sie funktionieren. Wenn du gerade überlegst, wie dein Einstieg konkret aussehen kann, rede einfach mit mir. Ein kostenloses Erstgespräch bei Angelo Coach hilft dir, einen Plan zu finden, der wirklich zu dir passt, ohne Druck und ohne Verpflichtung. Schreib mir auf angelocoach.com."
+        "text": "Krafttraining für Frauen ist in Berlin und Köln gleich zugänglich, wenn du weißt, wo du anfangen sollst. Technik vor Gewicht, Struktur vor Improvisation, Erholung vor Übertraining. Das sind keine neuen Weisheiten, aber sie funktionieren. Wenn du gerade überlegst, wie dein Einstieg konkret aussehen kann, rede einfach mit mir. Ein kostenloses Erstgespräch bei Angelo Coach hilft dir, einen Plan zu finden, der wirklich zu dir passt, ohne Druck und ohne Verpflichtung. Schreib mir auf fitprimo.de."
       }
     ]
   },
@@ -6995,7 +6995,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zucker reduzieren und dabei abnehmen ist kein Projekt für Perfektionisten. Es ist ein Prozess, der mit kleinen, konkreten Schritten beginnt und sich über Wochen aufbaut. Du musst nicht alles auf einmal richtig machen. Wenn du weißt, wo der Zucker wirklich steckt, und anfängst, ihn Stück für Stück zu ersetzen statt zu verbieten, wirst du merken, dass sich dein Körper und dein Wohlgefühl verändern. Als Personal Trainer in Köln begleite ich genau diesen Prozess: individuell, alltagstauglich, ohne unrealistische Versprechen. Wenn du wissen möchtest, wo du konkret ansetzen kannst, dann komm einfach zu einem kostenlosen Erstgespräch bei mir. Kein Verkaufsdruck, kein Standardprogramm, nur ein ehrliches Gespräch darüber, was bei dir funktionieren kann. Meld dich gerne über angelocoach.com."
+        "text": "Zucker reduzieren und dabei abnehmen ist kein Projekt für Perfektionisten. Es ist ein Prozess, der mit kleinen, konkreten Schritten beginnt und sich über Wochen aufbaut. Du musst nicht alles auf einmal richtig machen. Wenn du weißt, wo der Zucker wirklich steckt, und anfängst, ihn Stück für Stück zu ersetzen statt zu verbieten, wirst du merken, dass sich dein Körper und dein Wohlgefühl verändern. Als Personal Trainer in Köln begleite ich genau diesen Prozess: individuell, alltagstauglich, ohne unrealistische Versprechen. Wenn du wissen möchtest, wo du konkret ansetzen kannst, dann komm einfach zu einem kostenlosen Erstgespräch bei mir. Kein Verkaufsdruck, kein Standardprogramm, nur ein ehrliches Gespräch darüber, was bei dir funktionieren kann. Meld dich gerne über fitprimo.de."
       }
     ]
   },
@@ -7123,7 +7123,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Vegetarischer Muskelaufbau ist kein Experiment, sondern eine durchdachte Strategie, die mit den richtigen Lebensmitteln und etwas Struktur im Alltag sehr gut funktioniert. Wenn du nicht sicher bist, wo du anfangen sollst, oder wenn du das Gefühl hast, dass du trotz Training keine Fortschritte machst, dann komm einfach auf mich zu. Ich biete ein kostenloses Erstgespräch an, bei dem wir gemeinsam schauen, was bei dir konkret fehlt und wie du es angehen kannst. Schau auf angelocoach.com vorbei und schreib mir."
+        "text": "Vegetarischer Muskelaufbau ist kein Experiment, sondern eine durchdachte Strategie, die mit den richtigen Lebensmitteln und etwas Struktur im Alltag sehr gut funktioniert. Wenn du nicht sicher bist, wo du anfangen sollst, oder wenn du das Gefühl hast, dass du trotz Training keine Fortschritte machst, dann komm einfach auf mich zu. Ich biete ein kostenloses Erstgespräch an, bei dem wir gemeinsam schauen, was bei dir konkret fehlt und wie du es angehen kannst. Schau auf fitprimo.de vorbei und schreib mir."
       }
     ]
   },
@@ -7247,7 +7247,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Nach einer Trainingspause wieder anzufangen ist kein Sprint. Es ist eine bewusste Entscheidung, die du jeden Tag neu triffst, bis sie zur Gewohnheit wird. Fang klein an, bleib konsequent, und sei ehrlich mit dir, was gerade realistisch ist. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du einfach jemanden brauchst, der dich durch die ersten Wochen begleitet: Ich biete dir ein kostenloses Erstgespräch an. Kein Druck, keine Verpflichtung. Nur ein offenes Gespräch darüber, wo du stehst und wie du wieder in Bewegung kommst. Schreib mir einfach über angelocoach.com."
+        "text": "Nach einer Trainingspause wieder anzufangen ist kein Sprint. Es ist eine bewusste Entscheidung, die du jeden Tag neu triffst, bis sie zur Gewohnheit wird. Fang klein an, bleib konsequent, und sei ehrlich mit dir, was gerade realistisch ist. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du einfach jemanden brauchst, der dich durch die ersten Wochen begleitet: Ich biete dir ein kostenloses Erstgespräch an. Kein Druck, keine Verpflichtung. Nur ein offenes Gespräch darüber, wo du stehst und wie du wieder in Bewegung kommst. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -7392,7 +7392,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein guter Trainingsplan für Frauen ab 40 zuhause muss nicht kompliziert sein. Er muss zu dir passen, machbar sein und Spaß machen, zumindest ein bisschen. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du sichergehen willst, dass du die Übungen wirklich richtig ausführst, dann meld dich gerne bei mir. Ich biete ein kostenloses Erstgespräch an, kein Verkaufsgespräch, einfach 20 Minuten, in denen wir schauen, was für dich der sinnvollste nächste Schritt ist. Du findest mich unter angelocoach.com."
+        "text": "Ein guter Trainingsplan für Frauen ab 40 zuhause muss nicht kompliziert sein. Er muss zu dir passen, machbar sein und Spaß machen, zumindest ein bisschen. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du sichergehen willst, dass du die Übungen wirklich richtig ausführst, dann meld dich gerne bei mir. Ich biete ein kostenloses Erstgespräch an, kein Verkaufsgespräch, einfach 20 Minuten, in denen wir schauen, was für dich der sinnvollste nächste Schritt ist. Du findest mich unter fitprimo.de."
       }
     ]
   },
@@ -7510,7 +7510,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Schlaf ist kein Bonus zu deinem Training. Er ist ein Kernteil davon. Wenn du endlich Fortschritte machen willst, die auch dauerhaft bleiben, dann schauen wir uns gemeinsam an, wie dein Training, deine Ernährung und deine Regeneration zusammenpassen. Als Personal Trainer in Köln biete ich ein kostenloses Erstgespräch an, ganz ohne Verpflichtung. Schreib mir einfach über angelocoach.com, dann finden wir gemeinsam heraus, was wirklich bei dir bremst."
+        "text": "Schlaf ist kein Bonus zu deinem Training. Er ist ein Kernteil davon. Wenn du endlich Fortschritte machen willst, die auch dauerhaft bleiben, dann schauen wir uns gemeinsam an, wie dein Training, deine Ernährung und deine Regeneration zusammenpassen. Als Personal Trainer in Köln biete ich ein kostenloses Erstgespräch an, ganz ohne Verpflichtung. Schreib mir einfach über fitprimo.de, dann finden wir gemeinsam heraus, was wirklich bei dir bremst."
       }
     ]
   },
@@ -7647,7 +7647,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zehn Minuten in der Mittagspause können mehr bewirken als du denkst, wenn du sie konsequent nutzt. Diese fünf Übungen sind dein Einstieg. Wenn du merkst, dass du mehr Struktur brauchst oder nicht sicher bist, ob du die Übungen richtig ausführst, dann lade ich dich gerne zu einem kostenlosen Erstgespräch ein. Wir schauen gemeinsam, wo dein Rücken gerade steht und was realistisch für dich drin ist. Kein Verkaufsgespräch, nur ein ehrlicher Blick auf deine Situation. Du findest mich auf angelocoach.com."
+        "text": "Zehn Minuten in der Mittagspause können mehr bewirken als du denkst, wenn du sie konsequent nutzt. Diese fünf Übungen sind dein Einstieg. Wenn du merkst, dass du mehr Struktur brauchst oder nicht sicher bist, ob du die Übungen richtig ausführst, dann lade ich dich gerne zu einem kostenlosen Erstgespräch ein. Wir schauen gemeinsam, wo dein Rücken gerade steht und was realistisch für dich drin ist. Kein Verkaufsgespräch, nur ein ehrlicher Blick auf deine Situation. Du findest mich auf fitprimo.de."
       }
     ]
   },
@@ -7793,7 +7793,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Protein Shakes selber machen ist keine Kunst. Es braucht ein bisschen Planung und den Willen, mal etwas auszuprobieren. Wenn du merkst, dass du trotz Shake und Training nicht die Ergebnisse bekommst, die du willst, liegt es meistens an der Gesamtstrategie, nicht am Rezept. Genau dafür bin ich da. Wenn du wissen willst, wie du Ernährung und Training in deinen Kölner Alltag integrierst, ohne dein Leben komplett umzustellen, dann buch dir ein kostenloses Erstgespräch auf angelocoach.com. Kein Druck, kein Verkaufsgespräch, nur ein ehrliches Gespräch darüber, was für dich funktioniert."
+        "text": "Protein Shakes selber machen ist keine Kunst. Es braucht ein bisschen Planung und den Willen, mal etwas auszuprobieren. Wenn du merkst, dass du trotz Shake und Training nicht die Ergebnisse bekommst, die du willst, liegt es meistens an der Gesamtstrategie, nicht am Rezept. Genau dafür bin ich da. Wenn du wissen willst, wie du Ernährung und Training in deinen Kölner Alltag integrierst, ohne dein Leben komplett umzustellen, dann buch dir ein kostenloses Erstgespräch auf fitprimo.de. Kein Druck, kein Verkaufsgespräch, nur ein ehrliches Gespräch darüber, was für dich funktioniert."
       }
     ]
   },
@@ -8067,7 +8067,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen sind kein Schicksal. Sie sind meistens die Folge von zu wenig Bewegung, falsch eingesetzter Muskulatur und einem Alltag, der den Körper systematisch schwächt. Krafttraining dreht diesen Prozess um. Es braucht Zeit, Kontinuität und am Anfang eine klare Anleitung. Wenn du bereit bist, den ersten Schritt zu machen, komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, kein Druck. Wir schauen gemeinsam, was bei dir funktioniert. Meld dich einfach über angelocoach.com."
+        "text": "Rückenschmerzen sind kein Schicksal. Sie sind meistens die Folge von zu wenig Bewegung, falsch eingesetzter Muskulatur und einem Alltag, der den Körper systematisch schwächt. Krafttraining dreht diesen Prozess um. Es braucht Zeit, Kontinuität und am Anfang eine klare Anleitung. Wenn du bereit bist, den ersten Schritt zu machen, komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, kein Druck. Wir schauen gemeinsam, was bei dir funktioniert. Meld dich einfach über fitprimo.de."
       }
     ]
   },
@@ -8221,7 +8221,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Gewohnheiten aufbauen braucht keinen perfekten Plan und keine unbegrenzte Willenskraft. Es braucht einen guten Einstieg, einen klaren Anker im Alltag und jemanden, der dir zeigt, wo genau du anfangen sollst. Wenn du nicht weißt, wo das bei dir ist, lass uns kurz reden. Das kostenlose Erstgespräch mit mir bei Angelo Coach ist genau dafür da: kein Verkaufsgespräch, kein Druck, einfach eine ehrliche Einschätzung, was bei dir funktioniert. Meld dich unter angelocoach.com."
+        "text": "Gewohnheiten aufbauen braucht keinen perfekten Plan und keine unbegrenzte Willenskraft. Es braucht einen guten Einstieg, einen klaren Anker im Alltag und jemanden, der dir zeigt, wo genau du anfangen sollst. Wenn du nicht weißt, wo das bei dir ist, lass uns kurz reden. Das kostenlose Erstgespräch mit mir bei Angelo Coach ist genau dafür da: kein Verkaufsgespräch, kein Druck, einfach eine ehrliche Einschätzung, was bei dir funktioniert. Meld dich unter fitprimo.de."
       }
     ]
   },
@@ -8667,7 +8667,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein Motivationstief im Sport ist kein Endpunkt, sondern ein Hinweis, dass irgendetwas nicht stimmt, das Programm, die Erwartungen oder die fehlende Verbindung zum eigenen Alltag. Mit den richtigen Anpassungen kommst du wieder rein, und das schneller als du denkst. Wenn du dir nicht sicher bist, wo du anfangen sollst, komm in ein unverbindliches Erstgespräch mit mir. Keine Verpflichtung, kein Verkaufsgespräch, einfach ein ehrliches Gespräch darüber, was bei dir gerade nicht funktioniert und was helfen könnte. Du findest mich unter angelocoach.com."
+        "text": "Ein Motivationstief im Sport ist kein Endpunkt, sondern ein Hinweis, dass irgendetwas nicht stimmt, das Programm, die Erwartungen oder die fehlende Verbindung zum eigenen Alltag. Mit den richtigen Anpassungen kommst du wieder rein, und das schneller als du denkst. Wenn du dir nicht sicher bist, wo du anfangen sollst, komm in ein unverbindliches Erstgespräch mit mir. Keine Verpflichtung, kein Verkaufsgespräch, einfach ein ehrliches Gespräch darüber, was bei dir gerade nicht funktioniert und was helfen könnte. Du findest mich unter fitprimo.de."
       }
     ]
   },
@@ -8800,7 +8800,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wassereinlagerungen sind ärgerlich, aber sie sind kein Zeichen, dass dein Körper versagt oder deine Ernährung falsch ist. Meistens steckt eine Kombination aus zu viel Salz, zu wenig Bewegung, Stress und schlechtem Schlaf dahinter. Das lässt sich ändern, Schritt für Schritt, ohne radikale Verbotslisten. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du das Gefühl hast, dass du trotz allem nicht vom Fleck kommst, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, ohne Druck, ohne Verkaufsgespräch. Schreib mir einfach über angelocoach.com."
+        "text": "Wassereinlagerungen sind ärgerlich, aber sie sind kein Zeichen, dass dein Körper versagt oder deine Ernährung falsch ist. Meistens steckt eine Kombination aus zu viel Salz, zu wenig Bewegung, Stress und schlechtem Schlaf dahinter. Das lässt sich ändern, Schritt für Schritt, ohne radikale Verbotslisten. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du das Gefühl hast, dass du trotz allem nicht vom Fleck kommst, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, ohne Druck, ohne Verkaufsgespräch. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -8933,7 +8933,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Motivation ist schön, wenn sie da ist. Aber sie ist kein Fundament. Gewohnheiten sind es. Fang klein an, bau einen Trigger ein, halt die Mini-Habits durch auch in der schlechtesten Woche, und schreib dein Training in den Kalender wie einen Termin, den du nicht absagst. Wenn du weißt, dass du dabei Unterstützung brauchst, um den richtigen Einstieg zu finden, stehe ich dir gerne zur Seite. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, welche Gewohnheiten und Strukturen wirklich zu deinem Alltag passen. Melde dich einfach auf angelocoach.com."
+        "text": "Motivation ist schön, wenn sie da ist. Aber sie ist kein Fundament. Gewohnheiten sind es. Fang klein an, bau einen Trigger ein, halt die Mini-Habits durch auch in der schlechtesten Woche, und schreib dein Training in den Kalender wie einen Termin, den du nicht absagst. Wenn du weißt, dass du dabei Unterstützung brauchst, um den richtigen Einstieg zu finden, stehe ich dir gerne zur Seite. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, welche Gewohnheiten und Strukturen wirklich zu deinem Alltag passen. Melde dich einfach auf fitprimo.de."
       }
     ]
   },
@@ -9370,7 +9370,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Der Neustart nach einer langen Pause ist kein Kraftakt, er ist eine Entscheidung. Und dann eine Gewohnheit. Wenn du nicht weißt, wo du anfangen sollst oder du beim letzten Mal immer wieder gescheitert bist, dann kann ein erstes Gespräch viel klarer machen, was für dich konkret funktioniert. Ich biete dir ein kostenloses Erstgespräch an, kein Verkaufsgespräch, sondern eine ehrliche Einschätzung deiner Situation und erste konkrete Schritte. Meld dich einfach auf angelocoach.com."
+        "text": "Der Neustart nach einer langen Pause ist kein Kraftakt, er ist eine Entscheidung. Und dann eine Gewohnheit. Wenn du nicht weißt, wo du anfangen sollst oder du beim letzten Mal immer wieder gescheitert bist, dann kann ein erstes Gespräch viel klarer machen, was für dich konkret funktioniert. Ich biete dir ein kostenloses Erstgespräch an, kein Verkaufsgespräch, sondern eine ehrliche Einschätzung deiner Situation und erste konkrete Schritte. Meld dich einfach auf fitprimo.de."
       }
     ]
   },
@@ -9520,7 +9520,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du siehst: Abnehmen ohne Sport ist kein Mythos, sondern eine Frage der richtigen Strategie. Protein, echte Lebensmittel, ein bewusstes Kaloriendefizit und ein paar schlaue Alltagsgewohnheiten bringen dich weiter als jede Crash-Diät. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du das bisher alleine versucht hast und nicht vom Fleck kommst, dann lass uns kurz reden. Ich biete dir ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret funktioniert. Kein Verkaufsgespräch, kein Druck. Einfach ein ehrlicher Austausch. Schreib mir unter angelocoach.com."
+        "text": "Du siehst: Abnehmen ohne Sport ist kein Mythos, sondern eine Frage der richtigen Strategie. Protein, echte Lebensmittel, ein bewusstes Kaloriendefizit und ein paar schlaue Alltagsgewohnheiten bringen dich weiter als jede Crash-Diät. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du das bisher alleine versucht hast und nicht vom Fleck kommst, dann lass uns kurz reden. Ich biete dir ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret funktioniert. Kein Verkaufsgespräch, kein Druck. Einfach ein ehrlicher Austausch. Schreib mir unter fitprimo.de."
       }
     ]
   },
@@ -9665,7 +9665,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Online Coaching ist kein Ersatz für Motivation, die du selbst mitbringen musst. Aber es gibt dir die Struktur, das Wissen und die Begleitung, die du brauchst, um wirklich voranzukommen. Wenn du wissen willst, ob es für dich passt, lade ich dich zu einem kostenlosen Erstgespräch ein. Kein Druck, keine Verpflichtung, nur ein ehrliches Gespräch darüber, wo du stehst und was möglich ist. Schreib mir einfach über angelocoach.com."
+        "text": "Online Coaching ist kein Ersatz für Motivation, die du selbst mitbringen musst. Aber es gibt dir die Struktur, das Wissen und die Begleitung, die du brauchst, um wirklich voranzukommen. Wenn du wissen willst, ob es für dich passt, lade ich dich zu einem kostenlosen Erstgespräch ein. Kein Druck, keine Verpflichtung, nur ein ehrliches Gespräch darüber, wo du stehst und was möglich ist. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -9791,7 +9791,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelaufbau und Schlaf gehören untrennbar zusammen. Du kannst das beste Training der Welt haben, aber ohne ausreichend Regeneration läufst du auf der Stelle. Fang heute Nacht an: Handy weg, Zimmer kühlen, feste Schlafzeit setzen. Kleine Änderungen, echter Unterschied. Wenn du wissen willst, wie dein Training und deine Regeneration zusammenpassen und wo genau bei dir der Hebel liegt, dann buch dir ein kostenloses Erstgespräch mit mir unter angelocoach.com. Ich schaue mir deinen Alltag an und sage dir konkret, was du ändern kannst."
+        "text": "Muskelaufbau und Schlaf gehören untrennbar zusammen. Du kannst das beste Training der Welt haben, aber ohne ausreichend Regeneration läufst du auf der Stelle. Fang heute Nacht an: Handy weg, Zimmer kühlen, feste Schlafzeit setzen. Kleine Änderungen, echter Unterschied. Wenn du wissen willst, wie dein Training und deine Regeneration zusammenpassen und wo genau bei dir der Hebel liegt, dann buch dir ein kostenloses Erstgespräch mit mir unter fitprimo.de. Ich schaue mir deinen Alltag an und sage dir konkret, was du ändern kannst."
       }
     ]
   },
@@ -9938,7 +9938,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenübungen im Büro müssen nicht spektakulär sein, um zu wirken. Diese sieben Übungen kosten dich täglich weniger als zehn Minuten und du kannst sie alle direkt am Schreibtisch machen, ohne Ausrüstung, ohne Umziehen. Wenn du merkst, dass die Schmerzen trotzdem bleiben oder du einen individuellen Plan brauchst, der zu deinem Alltag passt: Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was bei dir genau sinnvoll ist. Melde dich einfach über angelocoach.com."
+        "text": "Rückenübungen im Büro müssen nicht spektakulär sein, um zu wirken. Diese sieben Übungen kosten dich täglich weniger als zehn Minuten und du kannst sie alle direkt am Schreibtisch machen, ohne Ausrüstung, ohne Umziehen. Wenn du merkst, dass die Schmerzen trotzdem bleiben oder du einen individuellen Plan brauchst, der zu deinem Alltag passt: Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was bei dir genau sinnvoll ist. Melde dich einfach über fitprimo.de."
       }
     ]
   },
@@ -10073,7 +10073,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Kohlenhydrate abends meiden kann ein hilfreicher Schritt beim Abnehmen sein, wenn es zu deinem Alltag und deinen Gewohnheiten passt. Der entscheidende Hebel ist und bleibt deine Gesamtbilanz über den Tag. Wenn du wissen willst, welche Ernährungsstrategie wirklich zu dir passt, zu deinem Körper, deinem Job und deinem Leben in Köln oder Umgebung, dann lade ich dich herzlich zu einem kostenlosen Erstgespräch ein. Gemeinsam schauen wir uns an, was für dich konkret funktioniert, ohne komplizierte Regeln und ohne Verbote, die nach zwei Wochen sowieso keiner mehr einhält. Schreib mir einfach über angelocoach.com."
+        "text": "Kohlenhydrate abends meiden kann ein hilfreicher Schritt beim Abnehmen sein, wenn es zu deinem Alltag und deinen Gewohnheiten passt. Der entscheidende Hebel ist und bleibt deine Gesamtbilanz über den Tag. Wenn du wissen willst, welche Ernährungsstrategie wirklich zu dir passt, zu deinem Körper, deinem Job und deinem Leben in Köln oder Umgebung, dann lade ich dich herzlich zu einem kostenlosen Erstgespräch ein. Gemeinsam schauen wir uns an, was für dich konkret funktioniert, ohne komplizierte Regeln und ohne Verbote, die nach zwei Wochen sowieso keiner mehr einhält. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -10219,7 +10219,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du merkst, dass du alleine nicht weiterkommst, oder wenn du einfach wissen willst, wo du gerade stehst und wie ich dir gezielt helfen kann, dann meld dich für ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck. Nur ein ehrliches Gespräch darüber, was für dich wirklich funktioniert. Du erreichst mich direkt über angelocoach.com."
+        "text": "Wenn du merkst, dass du alleine nicht weiterkommst, oder wenn du einfach wissen willst, wo du gerade stehst und wie ich dir gezielt helfen kann, dann meld dich für ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck. Nur ein ehrliches Gespräch darüber, was für dich wirklich funktioniert. Du erreichst mich direkt über fitprimo.de."
       }
     ]
   },
@@ -10354,7 +10354,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Intervallfasten ist kein Sprint und kein Selbstversuch im stillen Kämmerlein, der besonders gut funktionieren muss. Es ist eine Methode, die dann greift, wenn sie zu deinem Leben passt und nicht gegen es kämpft. Wenn du unsicher bist, wie du den Plan auf deinen Alltag, deine Arbeitszeiten oder dein Training anpassen kannst, rede einfach mit mir. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret sinnvoll ist. Kein Verkaufsgespräch, kein Druck, einfach ein ehrlicher Austausch. Schreib mir gerne über angelocoach.com."
+        "text": "Intervallfasten ist kein Sprint und kein Selbstversuch im stillen Kämmerlein, der besonders gut funktionieren muss. Es ist eine Methode, die dann greift, wenn sie zu deinem Leben passt und nicht gegen es kämpft. Wenn du unsicher bist, wie du den Plan auf deinen Alltag, deine Arbeitszeiten oder dein Training anpassen kannst, rede einfach mit mir. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret sinnvoll ist. Kein Verkaufsgespräch, kein Druck, einfach ein ehrlicher Austausch. Schreib mir gerne über fitprimo.de."
       }
     ]
   },
@@ -10495,7 +10495,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Proteinreiches Frühstück zum Abnehmen muss nicht kompliziert sein. Es muss zu dir passen. Sieben Minuten Rührei, ein Becher Quark, Overnight Oats aus dem Kühlschrank. Du hast keine Ausrede mehr. Wenn du wissen willst, wie ich das zusammen mit einem Training- und Ernährungsplan für deinen Alltag in Köln konkret umsetze, meld dich für ein kostenloses Erstgespräch auf angelocoach.com. Kein Druck, kein Verkaufsgespräch. Nur ein ehrliches Gespräch darüber, was wirklich funktioniert."
+        "text": "Proteinreiches Frühstück zum Abnehmen muss nicht kompliziert sein. Es muss zu dir passen. Sieben Minuten Rührei, ein Becher Quark, Overnight Oats aus dem Kühlschrank. Du hast keine Ausrede mehr. Wenn du wissen willst, wie ich das zusammen mit einem Training- und Ernährungsplan für deinen Alltag in Köln konkret umsetze, meld dich für ein kostenloses Erstgespräch auf fitprimo.de. Kein Druck, kein Verkaufsgespräch. Nur ein ehrliches Gespräch darüber, was wirklich funktioniert."
       }
     ]
   },
@@ -10630,7 +10630,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein Cheat Day beim Abnehmen ist weder magisches Werkzeug noch automatische Sabotage. Er kann dir helfen, wenn du ihn bewusst einsetzt und eine solide Basis drumherum hast. Er schadet dir, wenn er aus Impuls entsteht oder eine Struktur ersetzen soll, die noch gar nicht da ist. Was für dich funktioniert, hängt von deinem Alltag, deiner Psychologie und deinen Zielen ab. Genau darüber rede ich im kostenlosen Erstgespräch gerne mit dir. Meld dich einfach auf angelocoach.com, ganz unverbindlich."
+        "text": "Ein Cheat Day beim Abnehmen ist weder magisches Werkzeug noch automatische Sabotage. Er kann dir helfen, wenn du ihn bewusst einsetzt und eine solide Basis drumherum hast. Er schadet dir, wenn er aus Impuls entsteht oder eine Struktur ersetzen soll, die noch gar nicht da ist. Was für dich funktioniert, hängt von deinem Alltag, deiner Psychologie und deinen Zielen ab. Genau darüber rede ich im kostenlosen Erstgespräch gerne mit dir. Meld dich einfach auf fitprimo.de, ganz unverbindlich."
       }
     ]
   },
@@ -10736,7 +10736,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen durch langes Sitzen sind kein Schicksal. Sie sind das Ergebnis von Mustern, die du ändern kannst, mit den richtigen Übungen, der richtigen Frequenz und einem Plan, der zu deinem Alltag passt. Wenn du wissen willst, wo bei dir konkret der Schuh drückt, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich Sinn macht. Kein Verkaufsgespräch, keine Verpflichtung, nur eine ehrliche Einschätzung. Du findest mich unter angelocoach.com."
+        "text": "Rückenschmerzen durch langes Sitzen sind kein Schicksal. Sie sind das Ergebnis von Mustern, die du ändern kannst, mit den richtigen Übungen, der richtigen Frequenz und einem Plan, der zu deinem Alltag passt. Wenn du wissen willst, wo bei dir konkret der Schuh drückt, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich Sinn macht. Kein Verkaufsgespräch, keine Verpflichtung, nur eine ehrliche Einschätzung. Du findest mich unter fitprimo.de."
       }
     ]
   },
@@ -10858,7 +10858,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelaufbau als Anfänger ist kein Geheimnis. Es geht um Konsequenz bei wenigen, klar definierten Dingen: Grundübungen mit sauberer Technik, ausreichend Protein, genug Schlaf und ein Trainingsplan, der zu deinem Alltag passt. Kein Wirrwarr, kein Overloading, kein blinder Aktionismus. Wenn du dir nicht sicher bist, wo du anfangen sollst, oder einfach wissen willst, ob dein bisheriger Ansatz Sinn macht, dann komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, einfach ein ehrlicher Blick auf deine Situation. Meld dich gerne über angelocoach.com."
+        "text": "Muskelaufbau als Anfänger ist kein Geheimnis. Es geht um Konsequenz bei wenigen, klar definierten Dingen: Grundübungen mit sauberer Technik, ausreichend Protein, genug Schlaf und ein Trainingsplan, der zu deinem Alltag passt. Kein Wirrwarr, kein Overloading, kein blinder Aktionismus. Wenn du dir nicht sicher bist, wo du anfangen sollst, oder einfach wissen willst, ob dein bisheriger Ansatz Sinn macht, dann komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, einfach ein ehrlicher Blick auf deine Situation. Meld dich gerne über fitprimo.de."
       }
     ]
   },
@@ -10987,7 +10987,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Abends essen und trotzdem abnehmen, das ist kein Widerspruch. Es ist schlicht eine Frage der Gesamtbilanz und eines alltagstauglichen Plans. Wenn du merkst, dass du mit den Abendmahlzeiten nicht weiterkommst oder nicht weißt, wie du dein Kalorienbudget sinnvoll aufteilst, dann lass uns darüber reden. Ich biete ein kostenloses Erstgespräch an, in dem wir schauen, was für deinen Alltag wirklich funktioniert. Kein Standard-Plan, keine Diät aus dem Internet, sondern etwas, das zu dir passt. Meld dich gerne über angelocoach.com."
+        "text": "Abends essen und trotzdem abnehmen, das ist kein Widerspruch. Es ist schlicht eine Frage der Gesamtbilanz und eines alltagstauglichen Plans. Wenn du merkst, dass du mit den Abendmahlzeiten nicht weiterkommst oder nicht weißt, wie du dein Kalorienbudget sinnvoll aufteilst, dann lass uns darüber reden. Ich biete ein kostenloses Erstgespräch an, in dem wir schauen, was für deinen Alltag wirklich funktioniert. Kein Standard-Plan, keine Diät aus dem Internet, sondern etwas, das zu dir passt. Meld dich gerne über fitprimo.de."
       }
     ]
   },
@@ -11133,7 +11133,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Krafttraining ist kein kompliziertes Thema, wenn du weißt, wo du anfangen sollst. Zwei Einheiten pro Woche, die richtigen Grundübungen, saubere Technik und ein bisschen Geduld, mehr braucht es am Anfang nicht. Wenn du in Köln bist und dir eine Einheit wünschst, bei der jemand draufschaut und ehrliches Feedback gibt, dann melde dich für ein kostenloses Erstgespräch auf angelocoach.com. Kein Verkaufsdruck, kein Standardprogramm, nur ein ehrliches Gespräch darüber, was für dich passt."
+        "text": "Krafttraining ist kein kompliziertes Thema, wenn du weißt, wo du anfangen sollst. Zwei Einheiten pro Woche, die richtigen Grundübungen, saubere Technik und ein bisschen Geduld, mehr braucht es am Anfang nicht. Wenn du in Köln bist und dir eine Einheit wünschst, bei der jemand draufschaut und ehrliches Feedback gibt, dann melde dich für ein kostenloses Erstgespräch auf fitprimo.de. Kein Verkaufsdruck, kein Standardprogramm, nur ein ehrliches Gespräch darüber, was für dich passt."
       }
     ]
   },
@@ -11397,7 +11397,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zwei bis drei Mal pro Woche, Ganzkörper, konsequent über Monate: das ist die Formel, die ich immer wieder sehe, und die wirklich funktioniert. Kein Geheimwissen, kein Schnellprogramm. Wenn du unsicher bist, wie du starten sollst oder ob dein aktueller Plan passt, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Start gemeinsam planen. Ohne Druck, ohne Verkaufspitch. Einfach ein ehrliches Gespräch unter Erwachsenen. Du findest mich auf angelocoach.com."
+        "text": "Zwei bis drei Mal pro Woche, Ganzkörper, konsequent über Monate: das ist die Formel, die ich immer wieder sehe, und die wirklich funktioniert. Kein Geheimwissen, kein Schnellprogramm. Wenn du unsicher bist, wie du starten sollst oder ob dein aktueller Plan passt, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Start gemeinsam planen. Ohne Druck, ohne Verkaufspitch. Einfach ein ehrliches Gespräch unter Erwachsenen. Du findest mich auf fitprimo.de."
       }
     ]
   },
@@ -11659,7 +11659,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Den inneren Schweinehund überwinden bedeutet nicht, jeden Tag topfit und hochmotiviert aufzuwachen. Es bedeutet, ein System zu bauen, das auch dann noch funktioniert, wenn die Motivation weg ist. Diese sieben Strategien sind keine Theorie, sie kommen aus der täglichen Arbeit mit Berufstätigen, die genau dein Problem kennen. Wenn du wissen willst, welche davon zu deinem Alltag passt, dann meld dich gerne für ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach ein ehrliches Gespräch darüber, wo du stehst und wie du weiterkommst. Du findest mich unter angelocoach.com."
+        "text": "Den inneren Schweinehund überwinden bedeutet nicht, jeden Tag topfit und hochmotiviert aufzuwachen. Es bedeutet, ein System zu bauen, das auch dann noch funktioniert, wenn die Motivation weg ist. Diese sieben Strategien sind keine Theorie, sie kommen aus der täglichen Arbeit mit Berufstätigen, die genau dein Problem kennen. Wenn du wissen willst, welche davon zu deinem Alltag passt, dann meld dich gerne für ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach ein ehrliches Gespräch darüber, wo du stehst und wie du weiterkommst. Du findest mich unter fitprimo.de."
       }
     ]
   },
@@ -11810,7 +11810,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du möchtest wissen, was für deinen spezifischen Alltag, dein Ziel und deinen Körper wirklich Sinn ergibt? Dann lass uns das gemeinsam anschauen. Ich biete ein kostenloses Erstgespräch an, in dem wir ohne Verkaufsdruck schauen, wo du gerade stehst und was du wirklich brauchst. Keine Standardrezepte, keine Supplement-Empfehlungen auf Verdacht. Nur ein ehrliches Gespräch. Schreib mir einfach über angelocoach.com."
+        "text": "Du möchtest wissen, was für deinen spezifischen Alltag, dein Ziel und deinen Körper wirklich Sinn ergibt? Dann lass uns das gemeinsam anschauen. Ich biete ein kostenloses Erstgespräch an, in dem wir ohne Verkaufsdruck schauen, wo du gerade stehst und was du wirklich brauchst. Keine Standardrezepte, keine Supplement-Empfehlungen auf Verdacht. Nur ein ehrliches Gespräch. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -11924,7 +11924,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach 20 Minuten, in denen wir schauen, was dir wirklich helfen kann. Du findest das Formular direkt auf angelocoach.com."
+        "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach 20 Minuten, in denen wir schauen, was dir wirklich helfen kann. Du findest das Formular direkt auf fitprimo.de."
       }
     ]
   },
@@ -12069,7 +12069,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückentraining beim Sitzen im Büro ist keine Zauberei und kein großes Zeitinvestment. Es braucht Konsequenz und das Bewusstsein, dass du deinem Körper täglich etwas zurückgeben musst, das der Schreibtisch ihm nimmt. Wenn du merkst, dass du alleine nicht weiterkommst, oder wenn du ein strukturiertes Programm willst, das zu deinem Leben in Köln passt, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos, unverbindlich, und wir schauen gemeinsam, was für dich wirklich sinnvoll ist. Du findest mich unter angelocoach.com."
+        "text": "Rückentraining beim Sitzen im Büro ist keine Zauberei und kein großes Zeitinvestment. Es braucht Konsequenz und das Bewusstsein, dass du deinem Körper täglich etwas zurückgeben musst, das der Schreibtisch ihm nimmt. Wenn du merkst, dass du alleine nicht weiterkommst, oder wenn du ein strukturiertes Programm willst, das zu deinem Leben in Köln passt, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos, unverbindlich, und wir schauen gemeinsam, was für dich wirklich sinnvoll ist. Du findest mich unter fitprimo.de."
       }
     ]
   },
@@ -12194,7 +12194,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen im Schreibtischjob sind kein Schicksal, das du einfach akzeptieren musst. Mit fünf Minuten Routine in der Pause kannst du anfangen, deinen Rücken jeden Tag ein bisschen besser zu versorgen. Wenn du wissen willst, was darüber hinaus für dich persönlich sinnvoll ist, buch dir einfach ein kostenloses Erstgespräch mit mir auf angelocoach.com. Wir schauen uns zusammen an, wo dein Rücken steht und was dir wirklich hilft."
+        "text": "Rückenschmerzen im Schreibtischjob sind kein Schicksal, das du einfach akzeptieren musst. Mit fünf Minuten Routine in der Pause kannst du anfangen, deinen Rücken jeden Tag ein bisschen besser zu versorgen. Wenn du wissen willst, was darüber hinaus für dich persönlich sinnvoll ist, buch dir einfach ein kostenloses Erstgespräch mit mir auf fitprimo.de. Wir schauen uns zusammen an, wo dein Rücken steht und was dir wirklich hilft."
       }
     ]
   },
@@ -12453,7 +12453,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Bauchmuskeltraining am Schreibtisch ist kein Ersatz für ein vollständiges Training, aber es ist besser als nichts, und es funktioniert. Fang mit einer Übung an, mach sie dreimal täglich, und beobachte, was passiert. Wenn du merkst, dass du mehr willst, meld dich gerne bei mir. Das kostenlose Erstgespräch unter angelocoach.com ist unverbindlich und dauert keine halbe Stunde. Wir schauen gemeinsam, was für dich wirklich sinnvoll ist."
+        "text": "Bauchmuskeltraining am Schreibtisch ist kein Ersatz für ein vollständiges Training, aber es ist besser als nichts, und es funktioniert. Fang mit einer Übung an, mach sie dreimal täglich, und beobachte, was passiert. Wenn du merkst, dass du mehr willst, meld dich gerne bei mir. Das kostenlose Erstgespräch unter fitprimo.de ist unverbindlich und dauert keine halbe Stunde. Wir schauen gemeinsam, was für dich wirklich sinnvoll ist."
       }
     ]
   },
@@ -12571,7 +12571,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen morgens sind keine Unvermeidlichkeit. Sie sind meistens ein Signal, dass der Körper nach Stunden der Bewegungslosigkeit ein bisschen Aufmerksamkeit braucht, bevor er wieder funktionieren soll. Diese fünf Minuten sind kein Wundermittel, aber sie sind der ehrlichste Start in einen besseren Morgen, den du ohne Equipment, ohne Fitnessstudio und ohne viel Zeit hinbekommst. Wenn du spürst, dass du mehr brauchst, ob wegen anhaltender Schmerzen, fehlender Fortschritte oder einfach weil du wissen willst, was für deinen Rücken wirklich passt, dann können wir das gemeinsam anschauen. Meld dich einfach für ein kostenloses Erstgespräch auf angelocoach.com, unverbindlich, kein Druck, aber vielleicht genau das, was dir bis jetzt gefehlt hat."
+        "text": "Rückenschmerzen morgens sind keine Unvermeidlichkeit. Sie sind meistens ein Signal, dass der Körper nach Stunden der Bewegungslosigkeit ein bisschen Aufmerksamkeit braucht, bevor er wieder funktionieren soll. Diese fünf Minuten sind kein Wundermittel, aber sie sind der ehrlichste Start in einen besseren Morgen, den du ohne Equipment, ohne Fitnessstudio und ohne viel Zeit hinbekommst. Wenn du spürst, dass du mehr brauchst, ob wegen anhaltender Schmerzen, fehlender Fortschritte oder einfach weil du wissen willst, was für deinen Rücken wirklich passt, dann können wir das gemeinsam anschauen. Meld dich einfach für ein kostenloses Erstgespräch auf fitprimo.de, unverbindlich, kein Druck, aber vielleicht genau das, was dir bis jetzt gefehlt hat."
       }
     ]
   },
@@ -12709,7 +12709,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen vorzubeugen ist kein einmaliges Projekt, sondern eine Summe aus kleinen Entscheidungen jeden Tag. Bewegung einbauen, den Arbeitsplatz einrichten, den Rumpf stärken: Das klingt nach viel, aber die meisten dieser Tipps lassen sich in wenigen Wochen zur Gewohnheit machen. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du ein gezieltes Training willst, das wirklich zu deinem Alltag passt, dann komm auf mich zu. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich Sinn macht. Kein Verkaufsdruck, einfach ein ehrliches Gespräch. Schreib mir auf angelocoach.com."
+        "text": "Rückenschmerzen vorzubeugen ist kein einmaliges Projekt, sondern eine Summe aus kleinen Entscheidungen jeden Tag. Bewegung einbauen, den Arbeitsplatz einrichten, den Rumpf stärken: Das klingt nach viel, aber die meisten dieser Tipps lassen sich in wenigen Wochen zur Gewohnheit machen. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du ein gezieltes Training willst, das wirklich zu deinem Alltag passt, dann komm auf mich zu. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich Sinn macht. Kein Verkaufsdruck, einfach ein ehrliches Gespräch. Schreib mir auf fitprimo.de."
       }
     ]
   },
@@ -12994,7 +12994,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die ersten Wochen im Training sind kein Sprint, sie sind das Fundament. Alles, was du jetzt aufbaust, trägt dich später. Mikro-Gewohnheiten, konkrete Ziele, ein fester Termin im Kalender: Das sind keine Tricks, das ist echte Strategie. Wenn du merkst, dass du Unterstützung brauchst, jemanden der mit dir plant, der erklärt und motiviert, dann melde dich gerne. Ich biete ein kostenloses Erstgespräch an, ohne Verkaufsdruck, einfach um zu schauen, was für dich wirklich passt. Den Link findest du auf angelocoach.com."
+        "text": "Die ersten Wochen im Training sind kein Sprint, sie sind das Fundament. Alles, was du jetzt aufbaust, trägt dich später. Mikro-Gewohnheiten, konkrete Ziele, ein fester Termin im Kalender: Das sind keine Tricks, das ist echte Strategie. Wenn du merkst, dass du Unterstützung brauchst, jemanden der mit dir plant, der erklärt und motiviert, dann melde dich gerne. Ich biete ein kostenloses Erstgespräch an, ohne Verkaufsdruck, einfach um zu schauen, was für dich wirklich passt. Den Link findest du auf fitprimo.de."
       }
     ]
   },
@@ -13272,7 +13272,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Eine Fitness-Routine aufzubauen als Berufstätiger ist kein Willenskraftprojekt, es ist ein Designprojekt. Du gestaltest deinen Alltag so, dass Sport die einfachere Wahl wird. Das braucht am Anfang etwas Planung und ein paar Wochen Geduld. Danach läuft es fast von allein. Wenn du dir dabei Unterstützung wünschst, biete ich als Personal Trainer in Köln ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was in deinen konkreten Alltag passt. Kein Verkaufsgespräch, keine Verpflichtung, einfach 30 Minuten mit einem klaren Plan am Ende. Du findest mich auf angelocoach.com."
+        "text": "Eine Fitness-Routine aufzubauen als Berufstätiger ist kein Willenskraftprojekt, es ist ein Designprojekt. Du gestaltest deinen Alltag so, dass Sport die einfachere Wahl wird. Das braucht am Anfang etwas Planung und ein paar Wochen Geduld. Danach läuft es fast von allein. Wenn du dir dabei Unterstützung wünschst, biete ich als Personal Trainer in Köln ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was in deinen konkreten Alltag passt. Kein Verkaufsgespräch, keine Verpflichtung, einfach 30 Minuten mit einem klaren Plan am Ende. Du findest mich auf fitprimo.de."
       }
     ]
   },
@@ -13412,7 +13412,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Krafttraining ab 40 ist kein Experiment. Es ist eine der besten Entscheidungen, die du für deinen Körper und deinen Kopf treffen kannst. Was du brauchst, ist ein sauberer Einstieg, ein realistischer Plan und die Geduld, ihn durchzuziehen. Wenn du dir unsicher bist, wo du anfangen sollst, oder wenn du möchtest, dass jemand mit dir zusammen schaut, was für dich persönlich Sinn ergibt: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, keine Verpflichtung. Einfach ein ehrliches Gespräch darüber, was du brauchst. Melde dich gerne über angelocoach.com."
+        "text": "Krafttraining ab 40 ist kein Experiment. Es ist eine der besten Entscheidungen, die du für deinen Körper und deinen Kopf treffen kannst. Was du brauchst, ist ein sauberer Einstieg, ein realistischer Plan und die Geduld, ihn durchzuziehen. Wenn du dir unsicher bist, wo du anfangen sollst, oder wenn du möchtest, dass jemand mit dir zusammen schaut, was für dich persönlich Sinn ergibt: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, keine Verpflichtung. Einfach ein ehrliches Gespräch darüber, was du brauchst. Melde dich gerne über fitprimo.de."
       }
     ]
   },
@@ -13692,7 +13692,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Body Recomposition ist kein Märchen. Als Anfänger hast du gerade jetzt die besten Voraussetzungen, gleichzeitig Fett abzubauen und Muskeln aufzubauen. Du brauchst dafür kein kompliziertes System, sondern einen klaren Plan, konsequentes Krafttraining und ausreichend Protein. Wenn du nicht weißt, wo du anfangen sollst oder du bisherige Versuche frustiert haben, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret sinnvoll ist. Schreib mir über angelocoach.com."
+        "text": "Body Recomposition ist kein Märchen. Als Anfänger hast du gerade jetzt die besten Voraussetzungen, gleichzeitig Fett abzubauen und Muskeln aufzubauen. Du brauchst dafür kein kompliziertes System, sondern einen klaren Plan, konsequentes Krafttraining und ausreichend Protein. Wenn du nicht weißt, wo du anfangen sollst oder du bisherige Versuche frustiert haben, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret sinnvoll ist. Schreib mir über fitprimo.de."
       }
     ]
   },
@@ -13989,7 +13989,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fitnessziele setzen und wirklich erreichen ist kein Geheimnis, aber es braucht einen konkreten Plan, realistische Erwartungen und die Bereitschaft, auch in schwierigen Wochen nicht alles hinzuschmeißen. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du das Gefühl hast, immer wieder an denselben Stellen zu scheitern, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, wo du gerade stehst und welcher Plan wirklich zu dir und deinem Alltag passt. Kein Druck, kein Verkaufsgespräch. Einfach ein ehrliches Gespräch über deine Ziele. Meld dich gerne auf angelocoach.com."
+        "text": "Fitnessziele setzen und wirklich erreichen ist kein Geheimnis, aber es braucht einen konkreten Plan, realistische Erwartungen und die Bereitschaft, auch in schwierigen Wochen nicht alles hinzuschmeißen. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du das Gefühl hast, immer wieder an denselben Stellen zu scheitern, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, wo du gerade stehst und welcher Plan wirklich zu dir und deinem Alltag passt. Kein Druck, kein Verkaufsgespräch. Einfach ein ehrliches Gespräch über deine Ziele. Meld dich gerne auf fitprimo.de."
       }
     ]
   },
@@ -14126,7 +14126,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du unsicher bist, ob ein Coaching-Angebot wirklich zu dir passt, ist das schon eine wichtige Information. Dieses Gefühl ernst zu nehmen kostet nichts. Ich biete dir ein kostenloses Erstgespräch an, ohne Druck, ohne Paket am Ende, nur ein offenes Gespräch über deine Situation und wie ich dir dabei helfen kann. Wenn es passt, reden wir weiter. Wenn nicht, trennst du dich zumindest mit konkreten Anhaltspunkten für deine weitere Suche. Buch dir deinen Termin auf angelocoach.com."
+        "text": "Wenn du unsicher bist, ob ein Coaching-Angebot wirklich zu dir passt, ist das schon eine wichtige Information. Dieses Gefühl ernst zu nehmen kostet nichts. Ich biete dir ein kostenloses Erstgespräch an, ohne Druck, ohne Paket am Ende, nur ein offenes Gespräch über deine Situation und wie ich dir dabei helfen kann. Wenn es passt, reden wir weiter. Wenn nicht, trennst du dich zumindest mit konkreten Anhaltspunkten für deine weitere Suche. Buch dir deinen Termin auf fitprimo.de."
       }
     ]
   },
@@ -14263,7 +14263,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Morgendliche Rückenschmerzen und Steifheit sind lösbar, auch wenn du täglich am Schreibtisch sitzt. Der Körper braucht kein Mitleid, er braucht das richtige Signal zum richtigen Zeitpunkt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du das Ganze lieber mit jemandem angehen möchtest, der dir genau auf deinen Körper und deinen Alltag zugeschnittene Übungen zeigt: Ich biete ein kostenloses Erstgespräch an. Kein Druck, kein Verkaufsgespräch, nur ein ehrliches Gespräch darüber, was dir wirklich hilft. Meld dich einfach über angelocoach.com."
+        "text": "Morgendliche Rückenschmerzen und Steifheit sind lösbar, auch wenn du täglich am Schreibtisch sitzt. Der Körper braucht kein Mitleid, er braucht das richtige Signal zum richtigen Zeitpunkt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du das Ganze lieber mit jemandem angehen möchtest, der dir genau auf deinen Körper und deinen Alltag zugeschnittene Übungen zeigt: Ich biete ein kostenloses Erstgespräch an. Kein Druck, kein Verkaufsgespräch, nur ein ehrliches Gespräch darüber, was dir wirklich hilft. Meld dich einfach über fitprimo.de."
       }
     ]
   },
@@ -14416,7 +14416,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Abnehmen ohne Jojo-Effekt ist kein Geheimnis und kein Wunder. Es ist das Ergebnis einer Methode, die zu deinem Leben passt, nicht zu einem Idealplan, der auf Papier gut aussieht. Ich arbeite in Köln mit Berufstätigen, die genau das wollen: echte, dauerhafte Ergebnisse ohne Radikalkuren. Wenn du wissen willst, wie ein realistischer Plan für dich aussehen könnte, buch dir einfach ein kostenloses Erstgespräch auf angelocoach.com. Unverbindlich, konkret, ohne Verkaufsdruck."
+        "text": "Abnehmen ohne Jojo-Effekt ist kein Geheimnis und kein Wunder. Es ist das Ergebnis einer Methode, die zu deinem Leben passt, nicht zu einem Idealplan, der auf Papier gut aussieht. Ich arbeite in Köln mit Berufstätigen, die genau das wollen: echte, dauerhafte Ergebnisse ohne Radikalkuren. Wenn du wissen willst, wie ein realistischer Plan für dich aussehen könnte, buch dir einfach ein kostenloses Erstgespräch auf fitprimo.de. Unverbindlich, konkret, ohne Verkaufsdruck."
       }
     ]
   },
@@ -14561,7 +14561,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du siehst: Gesund essen unterwegs ist machbar, auch mit vollem Kalender, Dienstreisen und Kantinenessen. Es braucht keine perfekte Ernährung, sondern ein paar smarte Gewohnheiten, die zu deinem echten Leben passen. Wenn du weißt, wo du gerade stehst und was dir konkret fehlt, können wir gemeinsam einen Plan entwickeln, der hält. Meld dich gerne für ein kostenloses Erstgespräch auf angelocoach.com, ganz unverbindlich, einfach um zu schauen, wie ich dir helfen kann."
+        "text": "Du siehst: Gesund essen unterwegs ist machbar, auch mit vollem Kalender, Dienstreisen und Kantinenessen. Es braucht keine perfekte Ernährung, sondern ein paar smarte Gewohnheiten, die zu deinem echten Leben passen. Wenn du weißt, wo du gerade stehst und was dir konkret fehlt, können wir gemeinsam einen Plan entwickeln, der hält. Meld dich gerne für ein kostenloses Erstgespräch auf fitprimo.de, ganz unverbindlich, einfach um zu schauen, wie ich dir helfen kann."
       }
     ]
   },
@@ -14712,7 +14712,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen schnell loswerden ist möglich, aber dauerhaft frei davon zu bleiben braucht einen Plan. Hausmittel und Wärme helfen dir über den akuten Tag hinweg. Dehnübungen geben dir kurzfristig Erleichterung. Aber wer seinen Rücken wirklich verändern will, kommt um gezieltes Kräftigen nicht herum. Wenn du nicht weißt, wo du anfangen sollst, ist ein erstes Gespräch der einfachste Schritt. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret sinnvoll ist. Kein Verkaufsgespräch, kein Druck. Nur ein ehrlicher Blick auf deine Situation. Meld dich gerne auf angelocoach.com."
+        "text": "Rückenschmerzen schnell loswerden ist möglich, aber dauerhaft frei davon zu bleiben braucht einen Plan. Hausmittel und Wärme helfen dir über den akuten Tag hinweg. Dehnübungen geben dir kurzfristig Erleichterung. Aber wer seinen Rücken wirklich verändern will, kommt um gezieltes Kräftigen nicht herum. Wenn du nicht weißt, wo du anfangen sollst, ist ein erstes Gespräch der einfachste Schritt. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was für dich konkret sinnvoll ist. Kein Verkaufsgespräch, kein Druck. Nur ein ehrlicher Blick auf deine Situation. Meld dich gerne auf fitprimo.de."
       }
     ]
   },
@@ -14862,7 +14862,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen im unteren Rücken sind kein Schicksal, das du hinnehmen musst. Mit einem strukturierten Plan, der Kraft und Mobilität verbindet, und ein paar Anpassungen im Alltag, kannst du echte Veränderungen spüren, und zwar innerhalb von vier Wochen. Wenn du lieber nicht alleine anfangen willst, biete ich ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, wo bei dir der größte Hebel liegt. Schreib mir einfach über angelocoach.com."
+        "text": "Rückenschmerzen im unteren Rücken sind kein Schicksal, das du hinnehmen musst. Mit einem strukturierten Plan, der Kraft und Mobilität verbindet, und ein paar Anpassungen im Alltag, kannst du echte Veränderungen spüren, und zwar innerhalb von vier Wochen. Wenn du lieber nicht alleine anfangen willst, biete ich ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, wo bei dir der größte Hebel liegt. Schreib mir einfach über fitprimo.de."
       }
     ]
   },
@@ -15014,7 +15014,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen im Büro sind kein Schicksal. Sie sind das Ergebnis von vermeidbaren Fehlern, die du Schritt für Schritt korrigieren kannst. Fang mit deiner Sitzposition an, baue Bewegungspausen ein, und starte mit einem gezielten Trainingsplan. Wenn du nicht weißt, wo du anfangen sollst, bin ich da. Meld dich für ein kostenloses Erstgespräch auf angelocoach.com, und wir schauen gemeinsam, was in deinem konkreten Alltag wirklich hilft."
+        "text": "Rückenschmerzen im Büro sind kein Schicksal. Sie sind das Ergebnis von vermeidbaren Fehlern, die du Schritt für Schritt korrigieren kannst. Fang mit deiner Sitzposition an, baue Bewegungspausen ein, und starte mit einem gezielten Trainingsplan. Wenn du nicht weißt, wo du anfangen sollst, bin ich da. Meld dich für ein kostenloses Erstgespräch auf fitprimo.de, und wir schauen gemeinsam, was in deinem konkreten Alltag wirklich hilft."
       }
     ]
   },
@@ -15159,7 +15159,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen im Büro und im Home Office entstehen aus unterschiedlichen Gründen, und deswegen brauchen sie auch unterschiedliche Antworten. Was sie gemeinsam haben: Sie verschwinden nicht von selbst, und eine Wärmflasche löst das Problem auf Dauer nicht. Wenn du in Köln wohnst und endlich herausfinden willst, was dein Rücken wirklich braucht, dann melde dich gerne für ein kostenloses Erstgespräch bei mir. Wir schauen gemeinsam auf deine Situation und ich zeige dir, welche Schritte als nächstes sinnvoll sind. Kein Verkaufsgespräch, kein Druck, nur ein ehrliches Gespräch unter Erwachsenen. Du findest mich unter angelocoach.com."
+        "text": "Rückenschmerzen im Büro und im Home Office entstehen aus unterschiedlichen Gründen, und deswegen brauchen sie auch unterschiedliche Antworten. Was sie gemeinsam haben: Sie verschwinden nicht von selbst, und eine Wärmflasche löst das Problem auf Dauer nicht. Wenn du in Köln wohnst und endlich herausfinden willst, was dein Rücken wirklich braucht, dann melde dich gerne für ein kostenloses Erstgespräch bei mir. Wir schauen gemeinsam auf deine Situation und ich zeige dir, welche Schritte als nächstes sinnvoll sind. Kein Verkaufsgespräch, kein Druck, nur ein ehrliches Gespräch unter Erwachsenen. Du findest mich unter fitprimo.de."
       }
     ]
   },
@@ -15432,7 +15432,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Keine Lust auf Training ist normal. Wirklich. Das macht dich nicht schwach, das macht dich menschlich. Was den Unterschied macht, ist nicht, ob du die Motivation hast, sondern ob du Strategien kennst, die auch ohne sie funktionieren. Fang klein an, gestalte deine Umgebung klug, und bau Gewohnheiten statt auf Willenskraft zu vertrauen. Wenn du nicht weißt, wie du das konkret für deinen Alltag aufbauen kannst, dann lass uns kurz reden. Ich biete ein kostenloses Erstgespräch an, unverbindlich, ohne Verkaufsdruck, einfach um zu schauen, was für dich passt. Du findest mich unter angelocoach.com."
+        "text": "Keine Lust auf Training ist normal. Wirklich. Das macht dich nicht schwach, das macht dich menschlich. Was den Unterschied macht, ist nicht, ob du die Motivation hast, sondern ob du Strategien kennst, die auch ohne sie funktionieren. Fang klein an, gestalte deine Umgebung klug, und bau Gewohnheiten statt auf Willenskraft zu vertrauen. Wenn du nicht weißt, wie du das konkret für deinen Alltag aufbauen kannst, dann lass uns kurz reden. Ich biete ein kostenloses Erstgespräch an, unverbindlich, ohne Verkaufsdruck, einfach um zu schauen, was für dich passt. Du findest mich unter fitprimo.de."
       }
     ]
   },
@@ -15695,7 +15695,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Training ab 40 ist kein Kampf gegen deinen Körper. Es ist eine Zusammenarbeit mit ihm, mit anderen Regeln als mit 25, aber durchaus mit beeindruckenden Ergebnissen. Wenn du weißt, warum dein Körper so reagiert wie er tut, und wenn du dein Training und deine Ernährung darauf ausrichtest, dann funktioniert das. Nicht irgendwann, sondern jetzt. Wenn du wissen willst, wo du konkret anfangen sollst, buch dir gerne ein kostenloses Erstgespräch auf angelocoach.com. Wir schauen uns gemeinsam an, was für dich Sinn macht."
+        "text": "Training ab 40 ist kein Kampf gegen deinen Körper. Es ist eine Zusammenarbeit mit ihm, mit anderen Regeln als mit 25, aber durchaus mit beeindruckenden Ergebnissen. Wenn du weißt, warum dein Körper so reagiert wie er tut, und wenn du dein Training und deine Ernährung darauf ausrichtest, dann funktioniert das. Nicht irgendwann, sondern jetzt. Wenn du wissen willst, wo du konkret anfangen sollst, buch dir gerne ein kostenloses Erstgespräch auf fitprimo.de. Wir schauen uns gemeinsam an, was für dich Sinn macht."
       }
     ]
   },
@@ -16236,7 +16236,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du hast jetzt die wichtigsten Punkte, um einen Online Fitness Coach zu finden, der wirklich zu dir passt. Keine Magie, keine Garantien, aber ein klarer Rahmen. Wenn du dir unsicher bist, ob mein Ansatz zu deinen Zielen passt, lade ich dich zu einem kostenlosen Erstgespräch ein. Kein Druck, keine Verkaufstaktiken. Nur ein ehrliches Gespräch über das, was du brauchst. Du findest mich unter angelocoach.com."
+        "text": "Du hast jetzt die wichtigsten Punkte, um einen Online Fitness Coach zu finden, der wirklich zu dir passt. Keine Magie, keine Garantien, aber ein klarer Rahmen. Wenn du dir unsicher bist, ob mein Ansatz zu deinen Zielen passt, lade ich dich zu einem kostenlosen Erstgespräch ein. Kein Druck, keine Verkaufstaktiken. Nur ein ehrliches Gespräch über das, was du brauchst. Du findest mich unter fitprimo.de."
       }
     ]
   },
@@ -16365,7 +16365,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelaufbau ist kein Geheimnis, aber er braucht Struktur. Die richtige Proteinmenge ist ein zentraler Baustein, und du hast jetzt die konkreten Zahlen und Beispiele dafür. Wenn du dir nicht sicher bist, ob deine Ernährung und dein Training wirklich zusammenpassen, lass uns das zusammen anschauen. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Alltag unter die Lupe nehmen und einen konkreten Plan entwickeln. Schreib mir einfach auf angelocoach.com."
+        "text": "Muskelaufbau ist kein Geheimnis, aber er braucht Struktur. Die richtige Proteinmenge ist ein zentraler Baustein, und du hast jetzt die konkreten Zahlen und Beispiele dafür. Wenn du dir nicht sicher bist, ob deine Ernährung und dein Training wirklich zusammenpassen, lass uns das zusammen anschauen. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Alltag unter die Lupe nehmen und einen konkreten Plan entwickeln. Schreib mir einfach auf fitprimo.de."
       }
     ]
   },
@@ -16491,7 +16491,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Kohlenhydrate sind kein Feind. Sie sind ein Werkzeug, und wie jedes Werkzeug kommt es darauf an, wie du es einsetzt. Wenn du weißt, wie viele du brauchst und welche Qualität sinnvoll ist, kannst du abnehmen, ohne dein Leben zur Diät zu machen. Wenn du dir nicht sicher bist, wo du bei dir persönlich anfangen sollst, rede einfach mit mir. Im kostenlosen Erstgespräch schauen wir gemeinsam auf deinen Alltag und ich zeige dir, was für dich konkret umsetzbar ist. Kein Verkaufsgespräch, kein Druck, einfach ein ehrlicher Austausch. Meld dich unter angelocoach.com."
+        "text": "Kohlenhydrate sind kein Feind. Sie sind ein Werkzeug, und wie jedes Werkzeug kommt es darauf an, wie du es einsetzt. Wenn du weißt, wie viele du brauchst und welche Qualität sinnvoll ist, kannst du abnehmen, ohne dein Leben zur Diät zu machen. Wenn du dir nicht sicher bist, wo du bei dir persönlich anfangen sollst, rede einfach mit mir. Im kostenlosen Erstgespräch schauen wir gemeinsam auf deinen Alltag und ich zeige dir, was für dich konkret umsetzbar ist. Kein Verkaufsgespräch, kein Druck, einfach ein ehrlicher Austausch. Meld dich unter fitprimo.de."
       }
     ]
   },
@@ -16624,7 +16624,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fett verbrennen durch Ernährung ist kein Geheimnis und kein Hochleistungssport. Es sind smarte, alltagstaugliche Entscheidungen, Mahlzeit für Mahlzeit. Wenn du weißt, wo du anfangen sollst und wie du das auf dein Leben in Köln anpasst, wird es überraschend unkompliziert. Wenn du dir nicht sicher bist, wo bei dir der größte Hebel liegt, komm einfach ins kostenlose Erstgespräch. Kein Druck, keine Verpflichtung. Wir schauen gemeinsam, was wirklich zu dir passt: angelocoach.com."
+        "text": "Fett verbrennen durch Ernährung ist kein Geheimnis und kein Hochleistungssport. Es sind smarte, alltagstaugliche Entscheidungen, Mahlzeit für Mahlzeit. Wenn du weißt, wo du anfangen sollst und wie du das auf dein Leben in Köln anpasst, wird es überraschend unkompliziert. Wenn du dir nicht sicher bist, wo bei dir der größte Hebel liegt, komm einfach ins kostenlose Erstgespräch. Kein Druck, keine Verpflichtung. Wir schauen gemeinsam, was wirklich zu dir passt: fitprimo.de."
       }
     ]
   },
@@ -16898,7 +16898,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen durch Bewegungsmangel sind lösbar. Nicht mit dem perfekten Ergonomiestuhl, nicht mit Schmerzmitteln, und auch nicht mit einer einzigen Massagesitzung. Was funktioniert, ist ein Plan, der zu deinem Leben passt: ein paar gezielte Übungen, mehr Bewegungsvielfalt im Alltag, und die Bereitschaft, das konsequent durchzuhalten. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du dir nicht sicher bist, ob deine Schmerzen spezifische Ursachen haben, dann lass uns das gemeinsam anschauen. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Rücken, deine Routine und deine Ziele unter die Lupe nehmen. Kein Kaufdruck, kein Standardprogramm. Nur ein ehrliches Gespräch darüber, was du wirklich brauchst. Du findest mich auf angelocoach.com."
+        "text": "Rückenschmerzen durch Bewegungsmangel sind lösbar. Nicht mit dem perfekten Ergonomiestuhl, nicht mit Schmerzmitteln, und auch nicht mit einer einzigen Massagesitzung. Was funktioniert, ist ein Plan, der zu deinem Leben passt: ein paar gezielte Übungen, mehr Bewegungsvielfalt im Alltag, und die Bereitschaft, das konsequent durchzuhalten. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du dir nicht sicher bist, ob deine Schmerzen spezifische Ursachen haben, dann lass uns das gemeinsam anschauen. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Rücken, deine Routine und deine Ziele unter die Lupe nehmen. Kein Kaufdruck, kein Standardprogramm. Nur ein ehrliches Gespräch darüber, was du wirklich brauchst. Du findest mich auf fitprimo.de."
       }
     ]
   },
@@ -17023,7 +17023,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein gutes Frühstück kostet dich morgens fünf Minuten und spart dir mittags eine schlechte Entscheidung. Das ist im Grunde alles. Wenn du merkst, dass du weißt, was du tun solltest, aber trotzdem nicht weiterkommst, dann liegt das meistens nicht am Frühstück allein, sondern daran, dass du keinen klaren Plan für deinen Alltag als Berufstätiger hast. Genau dabei helfe ich dir. Buch dir ein kostenloses Erstgespräch auf angelocoach.com, kein Verkaufsgespräch, kein Druck, nur ein ehrliches Gespräch darüber, wo du gerade stehst und was realistisch möglich ist."
+        "text": "Ein gutes Frühstück kostet dich morgens fünf Minuten und spart dir mittags eine schlechte Entscheidung. Das ist im Grunde alles. Wenn du merkst, dass du weißt, was du tun solltest, aber trotzdem nicht weiterkommst, dann liegt das meistens nicht am Frühstück allein, sondern daran, dass du keinen klaren Plan für deinen Alltag als Berufstätiger hast. Genau dabei helfe ich dir. Buch dir ein kostenloses Erstgespräch auf fitprimo.de, kein Verkaufsgespräch, kein Druck, nur ein ehrliches Gespräch darüber, wo du gerade stehst und was realistisch möglich ist."
       }
     ]
   },
@@ -17163,7 +17163,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Langfristig dranbleiben ohne Personal Trainer ist kein Willenskraftproblem. Es ist ein Systemfrage. Mit klaren Gewohnheiten, ehrlichen Zielen und einem simplen Selbstkontrollsystem schaffst du eine Sportpraxis, die zu deinem Alltag passt und nicht dagegen kämpft. Wenn du das Fundament legen oder nach einer Pause neu starten willst, biete ich dir ein kostenloses Erstgespräch an. Kein Druck, keine Verpflichtung: Schreib mir einfach über angelocoach.com und wir schauen gemeinsam, was für dich Sinn macht."
+        "text": "Langfristig dranbleiben ohne Personal Trainer ist kein Willenskraftproblem. Es ist ein Systemfrage. Mit klaren Gewohnheiten, ehrlichen Zielen und einem simplen Selbstkontrollsystem schaffst du eine Sportpraxis, die zu deinem Alltag passt und nicht dagegen kämpft. Wenn du das Fundament legen oder nach einer Pause neu starten willst, biete ich dir ein kostenloses Erstgespräch an. Kein Druck, keine Verpflichtung: Schreib mir einfach über fitprimo.de und wir schauen gemeinsam, was für dich Sinn macht."
       }
     ]
   },
@@ -17309,7 +17309,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelkater ist kein Beweis, dass du es übertrieben hast. Er ist meistens ein Zeichen, dass dein Körper gerade lernt. Wer versteht, was dahintersteckt, kann entspannter damit umgehen und bleibt langfristig dran. Wenn du dir unsicher bist, wo du anfangen sollst, welche Gewichte passen, oder wie ein realistischer Plan für dich aussieht: Ich biete ein kostenloses Erstgespräch an. Kein Druck, kein Verkaufsgespräch. Nur ein ehrliches Gespräch darüber, was für dich wirklich Sinn macht. Melde dich gern unter angelocoach.com."
+        "text": "Muskelkater ist kein Beweis, dass du es übertrieben hast. Er ist meistens ein Zeichen, dass dein Körper gerade lernt. Wer versteht, was dahintersteckt, kann entspannter damit umgehen und bleibt langfristig dran. Wenn du dir unsicher bist, wo du anfangen sollst, welche Gewichte passen, oder wie ein realistischer Plan für dich aussieht: Ich biete ein kostenloses Erstgespräch an. Kein Druck, kein Verkaufsgespräch. Nur ein ehrliches Gespräch darüber, was für dich wirklich Sinn macht. Melde dich gern unter fitprimo.de."
       }
     ]
   }
