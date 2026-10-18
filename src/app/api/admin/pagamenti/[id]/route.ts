@@ -39,7 +39,7 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
       return NextResponse.json({ error: "Questa rata è stata pagata online: si annulla dalla cassa" }, { status: 409 });
     }
     if (r.preventivoId) {
-      return NextResponse.json({ error: "Rata di un preventivo: correggila dalla scheda Preventivi" }, { status: 409 });
+      return NextResponse.json({ error: "Rata di un contratto: correggila dalla scheda Contratti" }, { status: 409 });
     }
     await prisma.pagamento.update({ where: { id }, data: { stato: "aperto", pagatoAt: null } });
     return NextResponse.json({ ok: true });

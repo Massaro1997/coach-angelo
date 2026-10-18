@@ -7,7 +7,7 @@ import ClientiView from "@/components/admin/ClientiView";
 import MerchandisingView from "@/components/admin/MerchandisingView";
 import Conversioni, { type DatiConversioni } from "@/components/admin/Conversioni";
 import LeadView from "@/components/admin/LeadView";
-import PreventiviView from "@/components/admin/PreventiviView";
+import PreventiviView, { type BozzaContratto } from "@/components/admin/PreventiviView";
 import OrdiniView from "@/components/admin/OrdiniView";
 import GSCDashboard from "./gsc/GSCDashboard";
 
@@ -33,6 +33,8 @@ function Gestionale() {
   // I conteggi del menu arrivano dalla vista Conversioni, che li carica
   // comunque: cosi' il badge "da leggere" c'e' senza una seconda chiamata.
   const [conteggi, setConteggi] = useState<Partial<Record<Vista, number>>>({});
+  // "Crea contratto" su un lead: porta i suoi dati nel modulo della scheda Contratti
+  const [bozza, setBozza] = useState<BozzaContratto | null>(null);
 
   return (
     <Shell vista={vista} setVista={setVista} conteggi={conteggi}>
@@ -45,8 +47,16 @@ function Gestionale() {
         />
       </div>
       {vista === "clienti" && <ClientiView />}
-      {vista === "lead" && <LeadView />}
-      {vista === "preventivi" && <PreventiviView />}
+      {vista === "lead" && (
+        <LeadView
+          onCreaContratto={(b) => {
+            setBozza(b);
+            setVista("preventivi");
+            window.scrollTo({ top: 0 });
+          }}
+        />
+      )}
+      {vista === "preventivi" && <PreventiviView bozza={bozza} onBozzaUsata={() => setBozza(null)} />}
       {vista === "ordini" && <OrdiniView />}
       {vista === "seo" && <GSCDashboard />}
       {vista === "merchandising" && <MerchandisingView />}

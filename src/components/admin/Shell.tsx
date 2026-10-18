@@ -33,7 +33,7 @@ export type Vista =
 const NAV: { key: Vista; label: string; icon: typeof LayoutDashboard }[] = [
   { key: "conversioni", label: "Conversioni", icon: LayoutDashboard },
   { key: "clienti", label: "Clienti", icon: Users },
-  { key: "preventivi", label: "Preventivi", icon: FileSignature },
+  { key: "preventivi", label: "Contratti", icon: FileSignature },
   { key: "lead", label: "Lead", icon: Inbox },
   { key: "ordini", label: "Ordini", icon: Receipt },
   { key: "seo", label: "SEO", icon: TrendingUp },
@@ -167,7 +167,7 @@ export function Shell({
           <span className="ml-auto text-[11px] text-white/40">fitprimo.de</span>
         </header>
 
-        <main className="p-4 sm:p-6">{children}</main>
+        <main className="p-4 text-neutral-900 sm:p-6">{children}</main>
       </div>
     </div>
   );

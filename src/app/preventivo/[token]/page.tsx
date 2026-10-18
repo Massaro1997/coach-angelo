@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PreventivoPubblico from "./PreventivoPubblico";
 
 export const metadata: Metadata = {
-  title: "Angebot",
+  title: "Vertrag",
   robots: { index: false, follow: false },
 };
 

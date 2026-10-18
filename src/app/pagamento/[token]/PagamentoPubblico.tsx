@@ -35,7 +35,7 @@ const T = {
     grazie: "Danke, die Zahlung ist eingegangen.",
     annullato: "Zahlung abgebrochen. Du kannst es erneut versuchen.",
     bonifico: "Oder per Überweisung",
-    torna: "Zum Angebot",
+    torna: "Zum Vertrag",
     nonAttivo: "Kartenzahlung ist noch nicht aktiv. Bitte per Überweisung zahlen.",
     pagaMese: "Ersten Monat bezahlen",
     abbo: (n: number | null) =>
@@ -56,7 +56,7 @@ const T = {
     grazie: "Grazie, il pagamento è arrivato.",
     annullato: "Pagamento annullato. Puoi riprovare.",
     bonifico: "Oppure con bonifico",
-    torna: "Torna al preventivo",
+    torna: "Torna al contratto",
     nonAttivo: "Il pagamento con carta non è ancora attivo. Usa il bonifico.",
     pagaMese: "Paga il primo mese",
     abbo: (n: number | null) =>

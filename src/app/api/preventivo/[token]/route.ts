@@ -117,18 +117,31 @@ export async function POST(
 
   const p = await prisma.preventivo.findUnique({ where: { token } });
   if (!p) return NextResponse.json({ error: "Non trovato" }, { status: 404 });
+  // il cliente legge questi errori: nella lingua del suo contratto
+  const de = p.lingua === "de";
   if (p.firmatoAt) {
-    return NextResponse.json({ error: "Questo preventivo risulta gia' firmato" }, { status: 409 });
+    return NextResponse.json(
+      { error: de ? "Dieser Vertrag ist bereits unterschrieben." : "Questo contratto risulta gia' firmato" },
+      { status: 409 }
+    );
   }
   if (p.stato === "sostituito") {
     return NextResponse.json(
-      { error: "Questo preventivo e' stato sostituito da una versione piu' recente" },
+      {
+        error: de
+          ? "Dieser Vertrag wurde durch eine neuere Fassung ersetzt."
+          : "Questo contratto e' stato sostituito da una versione piu' recente",
+      },
       { status: 409 }
     );
   }
   if (p.validoFino && p.validoFino < new Date()) {
     return NextResponse.json(
-      { error: "Questo preventivo e' scaduto. Chiedi una nuova proposta." },
+      {
+        error: de
+          ? "Dieser Vertrag ist abgelaufen. Bitte fordere einen neuen an."
+          : "Questo contratto e' scaduto. Chiedine uno nuovo.",
+      },
       { status: 409 }
     );
   }
@@ -178,7 +191,7 @@ export async function POST(
     select: { token: true, importo: true, descrizione: true },
   });
 
-  // Avviso ad Angelo: un preventivo firmato va visto subito.
+  // Avviso ad Angelo: un contratto firmato va visto subito.
   try {
     await gmailTransport.sendMail({
       from: GMAIL_FROM,
@@ -186,7 +199,7 @@ export async function POST(
       subject: `✍️ ${p.numero} firmato da ${nome}`,
       html: `
         <div style="font-family:system-ui,sans-serif">
-          <p><strong>${nome}</strong> ha firmato il preventivo <strong>${p.numero}</strong>.</p>
+          <p><strong>${nome}</strong> ha firmato il contratto <strong>${p.numero}</strong>.</p>
           <p>Cliente: ${p.clienteNome}${p.clienteEmail ? ` — ${p.clienteEmail}` : ""}</p>
           <p>Totale: <strong>${eur(p.totale)}</strong></p>
           <p>${prima ? `Prima rata da incassare: ${eur(prima.importo)}` : "Nessuna rata generata."}</p>

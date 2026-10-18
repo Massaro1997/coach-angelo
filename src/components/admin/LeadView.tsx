@@ -7,8 +7,9 @@
 // risulta cliente da solo.
 
 import { useEffect, useMemo, useState } from "react";
-import { Mail, Phone, Inbox, MessageCircle, Search, ChevronDown } from "lucide-react";
-import { Card, Badge, EmptyState, Stat, cx } from "./ui";
+import { Mail, Phone, Inbox, MessageCircle, Search, ChevronDown, FileSignature } from "lucide-react";
+import { Card, Badge, Btn, EmptyState, Stat, cx } from "./ui";
+import type { BozzaContratto } from "./PreventiviView";
 
 export interface Contatto {
   id: string;
@@ -85,7 +86,20 @@ function leggiMessaggio(m: string): { risposte: [string, string][]; nota: string
   return { risposte, nota };
 }
 
-export default function LeadView() {
+/** Dal lead al modulo del contratto: chi e', in che lingua ha compilato, cosa ha scelto nel wizard. */
+function bozzaDaLead(c: Contatto): BozzaContratto {
+  const pacchetto =
+    c.service === "personal-training" ? "pt" : c.service === "trainingsplan" ? "plan" : "c6";
+  return {
+    nome: c.name.trim(),
+    email: c.email.trim(),
+    telefono: (c.phone || "").trim(),
+    lingua: /Wizard IT\]/.test(c.message) ? "it" : "de",
+    pacchetto,
+  };
+}
+
+export default function LeadView({ onCreaContratto }: { onCreaContratto?: (b: BozzaContratto) => void } = {}) {
   const [contatti, setContatti] = useState<Contatto[]>([]);
   const [clientiLead, setClientiLead] = useState<Set<string>>(new Set());
   const [caricando, setCaricando] = useState(true);
@@ -198,6 +212,7 @@ export default function LeadView() {
               aperto={aperto === c.id}
               onApri={() => setAperto(aperto === c.id ? null : c.id)}
               salva={(p) => salva(c.id, p)}
+              onCreaContratto={onCreaContratto && (() => onCreaContratto(bozzaDaLead(c)))}
             />
           ))}
         </div>
@@ -213,6 +228,7 @@ function RigaLead({
   aperto,
   onApri,
   salva,
+  onCreaContratto,
 }: {
   c: Contatto;
   stato: Stato;
@@ -220,6 +236,7 @@ function RigaLead({
   aperto: boolean;
   onApri: () => void;
   salva: (p: Partial<Contatto>) => void;
+  onCreaContratto?: () => void;
 }) {
   const ch = canale(c);
   const st = STATI.find((s) => s.k === stato)!;
@@ -290,6 +307,17 @@ function RigaLead({
 
           {/* lavorazione */}
           <div className="space-y-4">
+            {onCreaContratto && (
+              <div>
+                <Btn variant="brand" className="w-full py-3" onClick={onCreaContratto}>
+                  <FileSignature className="h-4 w-4" />
+                  Crea contratto
+                </Btn>
+                <p className="mt-1 text-[11px] text-neutral-400">
+                  Nome, email e telefono sono già dentro: scegli il pacchetto e mandalo da firmare e pagare.
+                </p>
+              </div>
+            )}
             <div>
               <p className="mb-1.5 text-xs font-semibold text-neutral-600">A che punto è</p>
               <div className="grid grid-cols-5 border border-black/15 bg-white">

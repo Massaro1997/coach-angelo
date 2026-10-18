@@ -56,7 +56,7 @@ export async function PATCH(
   if (body.azione === "invia") {
     if (!p.clienteEmail) {
       return NextResponse.json(
-        { error: "Il preventivo non ha un'email del cliente" },
+        { error: "Il contratto non ha un'email del cliente" },
         { status: 400 }
       );
     }
@@ -66,26 +66,26 @@ export async function PATCH(
       from: GMAIL_FROM,
       to: p.clienteEmail,
       subject: de
-        ? `Dein Angebot ${p.numero} — FitPrimo`
-        : `Il tuo preventivo ${p.numero} — FitPrimo`,
+        ? `Dein Vertrag ${p.numero} — FitPrimo`
+        : `Il tuo contratto ${p.numero} — FitPrimo`,
       html: `
         <div style="font-family:system-ui,-apple-system,sans-serif;max-width:560px;color:#171717">
           <p>${de ? "Hallo" : "Ciao"} ${p.clienteNome},</p>
           <p>${
             de
-              ? "hier ist dein persönliches Angebot. Du kannst es online lesen und direkt unterschreiben:"
-              : "ecco il tuo preventivo. Puoi leggerlo online e firmarlo direttamente:"
+              ? "hier ist dein Vertrag. Du kannst ihn online lesen, direkt unterschreiben und gleich die erste Zahlung erledigen:"
+              : "ecco il tuo contratto. Puoi leggerlo online, firmarlo e fare subito il primo pagamento:"
           }</p>
           <p style="margin:24px 0">
             <a href="${link}" style="background:#0d0d0d;color:#fff;padding:12px 22px;text-decoration:none;font-weight:600">
-              ${de ? "Angebot ansehen" : "Apri il preventivo"}
+              ${de ? "Vertrag ansehen" : "Apri il contratto"}
             </a>
           </p>
           <p style="font-size:13px;color:#666">
             ${de ? "Gesamtbetrag" : "Totale"}: <strong>${eur(p.totale)}</strong><br>
             ${
               p.validoFino
-                ? `${de ? "Gültig bis" : "Valido fino al"}: ${p.validoFino.toLocaleDateString(
+                ? `${de ? "Zu unterschreiben bis" : "Da firmare entro il"}: ${p.validoFino.toLocaleDateString(
                     de ? "de-DE" : "it-IT"
                   )}`
                 : ""
@@ -142,7 +142,7 @@ export async function DELETE(
   // Un documento firmato e' un accordo: non si cancella, si sostituisce.
   if (p.stato === "firmato") {
     return NextResponse.json(
-      { error: "Un preventivo firmato non si elimina. Segnalo come sostituito." },
+      { error: "Un contratto firmato non si elimina. Segnalo come sostituito." },
       { status: 409 }
     );
   }

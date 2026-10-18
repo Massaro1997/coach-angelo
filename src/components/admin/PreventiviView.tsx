@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { FileSignature, Plus, Link2, Send, Trash2, Check, X } from "lucide-react";
+import { FileSignature, Plus, Link2, Send, Trash2, Check, X, Mail, MessageCircle } from "lucide-react";
 import { Card, Stat, Badge, Btn, EmptyState, cx } from "./ui";
 import { LISTINO, type VocePreventivo } from "@/lib/preventivo-listino";
 
@@ -24,6 +24,8 @@ interface Preventivo {
   token: string;
   clienteNome: string;
   clienteEmail: string | null;
+  clienteTelefono: string | null;
+  lingua: string;
   oggetto: string | null;
   totale: number;
   periodicita: string;
@@ -46,6 +48,50 @@ const eur = (n: number) =>
 const data = (s: string | null) =>
   s ? new Date(s).toLocaleDateString("it-IT", { day: "2-digit", month: "2-digit", year: "numeric" }) : "—";
 
+/** Dati di partenza per un contratto aperto da un lead (bottone "Crea contratto"). */
+export interface BozzaContratto {
+  nome: string;
+  email: string;
+  telefono: string;
+  lingua: "de" | "it";
+  pacchetto: string;
+}
+
+/** Numero per wa.me: solo cifre con il prefisso; i numeri tedeschi con lo 0 davanti prendono il 49. */
+function numeroWa(tel: string | null | undefined): string {
+  const t = (tel || "").replace(/[^\d+]/g, "");
+  if (t.startsWith("+")) return t.slice(1);
+  if (t.startsWith("00")) return t.slice(2);
+  if (t.startsWith("0")) return "49" + t.slice(1);
+  return t;
+}
+
+/** Il messaggio gia' scritto per il cliente, nella lingua del documento. */
+function messaggioCliente(lingua: string, nome: string, numero: string, link: string) {
+  const vorname = nome.trim().split(/\s+/)[0] || "";
+  if (lingua === "it") {
+    return {
+      oggetto: `Il tuo contratto ${numero} — FitPrimo`,
+      testo: `Ciao ${vorname},\n\necco il tuo contratto FitPrimo. Puoi leggerlo online, firmarlo dal telefono e fare subito il primo pagamento:\n\n${link}\n\nPer qualsiasi domanda scrivimi pure.\n\nA presto\nAngelo Magliarisi\nFitPrimo · www.fitprimo.de`,
+      whatsapp: `Ciao ${vorname}, ecco il tuo contratto FitPrimo. Puoi leggerlo, firmarlo dal telefono e fare subito il primo pagamento:\n${link}\n\nA presto, Angelo`,
+    };
+  }
+  return {
+    oggetto: `Dein Vertrag ${numero} — FitPrimo`,
+    testo: `Hallo ${vorname},\n\nhier ist dein Vertrag mit FitPrimo. Du kannst ihn online lesen, direkt am Handy unterschreiben und gleich die erste Zahlung erledigen:\n\n${link}\n\nBei Fragen melde dich einfach.\n\nViele Grüße\nAngelo Magliarisi\nFitPrimo · www.fitprimo.de`,
+    whatsapp: `Hallo ${vorname}, hier ist dein Vertrag mit FitPrimo. Du kannst ihn online lesen, am Handy unterschreiben und gleich die erste Zahlung erledigen:\n${link}\n\nViele Grüße, Angelo`,
+  };
+}
+
+const linkWhatsapp = (tel: string | null | undefined, testo: string) => {
+  const n = numeroWa(tel);
+  // senza numero WhatsApp chiede a chi mandarlo
+  return `https://wa.me/${n}?text=${encodeURIComponent(testo)}`;
+};
+
+const linkEmail = (email: string, oggetto: string, testo: string) =>
+  `mailto:${email}?subject=${encodeURIComponent(oggetto)}&body=${encodeURIComponent(testo)}`;
+
 function tonoStato(p: Preventivo): { label: string; tone: string } {
   if (p.stato === "firmato") return { label: "firmato", tone: "green" };
   if (p.stato === "sostituito") return { label: "sostituito", tone: "neutral" };
@@ -56,11 +102,24 @@ function tonoStato(p: Preventivo): { label: string; tone: string } {
   return { label: "bozza", tone: "outline" };
 }
 
-export default function PreventiviView() {
+export default function PreventiviView({
+  bozza,
+  onBozzaUsata,
+}: {
+  bozza?: BozzaContratto | null;
+  onBozzaUsata?: () => void;
+} = {}) {
   const [lista, setLista] = useState<Preventivo[]>([]);
   const [caricando, setCaricando] = useState(true);
-  const [nuovo, setNuovo] = useState(false);
+  // arrivando da un lead il modulo e' gia' aperto e compilato
+  const [iniziale] = useState(bozza || null);
+  const [nuovo, setNuovo] = useState(Boolean(bozza));
   const [msg, setMsg] = useState("");
+
+  useEffect(() => {
+    if (bozza) onBozzaUsata?.();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const carica = () => {
     setCaricando(true);
@@ -85,15 +144,15 @@ export default function PreventiviView() {
   }
 
   async function elimina(id: string, numero: string) {
-    if (!confirm(`Eliminare il preventivo ${numero}? L'operazione non si annulla.`)) return;
+    if (!confirm(`Eliminare il contratto ${numero}? L'operazione non si annulla.`)) return;
     const res = await fetch(`/api/admin/preventivi/${id}`, { method: "DELETE" });
     const j = await res.json().catch(() => ({}));
     if (!res.ok) setMsg(j.error || "Errore");
     else carica();
   }
 
-  if (caricando && !lista.length) {
-    return <p className="py-10 text-sm text-neutral-400">Carico i preventivi…</p>;
+  if (caricando && !lista.length && !nuovo) {
+    return <p className="py-10 text-sm text-neutral-400">Carico i contratti…</p>;
   }
 
   const firmati = lista.filter((p) => p.stato === "firmato");
@@ -104,7 +163,7 @@ export default function PreventiviView() {
   return (
     <div className="space-y-4">
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
-        <Stat label="Preventivi" value={lista.length} tone="ink" />
+        <Stat label="Contratti" value={lista.length} tone="ink" />
         <Stat label="In attesa" value={inAttesa.length} tone="amber" />
         <Stat label="Incassato" value={eur(incassato)} tone="green" />
         <Stat label="Da incassare" value={eur(daIncassare)} tone="brand" />
@@ -115,12 +174,13 @@ export default function PreventiviView() {
       <div className="flex items-center justify-between">
         <Btn variant="ink" onClick={() => setNuovo((v) => !v)}>
           {nuovo ? <X className="h-3.5 w-3.5" /> : <Plus className="h-3.5 w-3.5" />}
-          {nuovo ? "Annulla" : "Nuovo preventivo"}
+          {nuovo ? "Annulla" : "Nuovo contratto"}
         </Btn>
       </div>
 
       {nuovo && (
         <FormNuovo
+          iniziale={iniziale}
           onFatto={() => {
             setNuovo(false);
             carica();
@@ -132,7 +192,7 @@ export default function PreventiviView() {
         nuovo ? null : (
         <Card>
           <EmptyState
-            titolo="Nessun preventivo."
+            titolo="Nessun contratto."
             testo="Crea il primo: il cliente lo firma dal telefono e paga la prima rata."
             icon={<FileSignature className="h-8 w-8" />}
           />
@@ -143,6 +203,7 @@ export default function PreventiviView() {
           {lista.map((p) => {
             const st = tonoStato(p);
             const link = `${typeof window !== "undefined" ? window.location.origin : ""}/preventivo/${p.token}`;
+            const m = messaggioCliente(p.lingua, p.clienteNome, p.numero, link);
             return (
               <Card key={p.id} bodyClassName="p-4">
                 <div className="flex flex-wrap items-start gap-3">
@@ -223,6 +284,26 @@ export default function PreventiviView() {
                   >
                     Apri
                   </a>
+                  {!p.firmatoAt && (
+                    <a
+                      href={linkWhatsapp(p.clienteTelefono, m.whatsapp)}
+                      target="_blank"
+                      rel="noopener"
+                      className="inline-flex items-center gap-1.5 bg-[#25D366] px-2.5 py-1.5 text-[11px] font-semibold text-white hover:opacity-90"
+                    >
+                      <MessageCircle className="h-3 w-3" />
+                      WhatsApp
+                    </a>
+                  )}
+                  {p.clienteEmail && !p.firmatoAt && (
+                    <a
+                      href={linkEmail(p.clienteEmail, m.oggetto, m.testo)}
+                      className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-2.5 py-1.5 text-[11px] font-semibold text-neutral-700 hover:border-black/30"
+                    >
+                      <Mail className="h-3 w-3" />
+                      Email già scritta
+                    </a>
+                  )}
                   {p.clienteEmail && !p.firmatoAt && (
                     <Btn size="sm" variant="ink" onClick={() => azione(p.id, { azione: "invia" })}>
                       <Send className="h-3 w-3" />
@@ -264,7 +345,7 @@ export default function PreventiviView() {
 
 /* ------------------------------------------------------------ form nuovo
    Percorso in tre passi (pacchetto, come paga, cliente) con il riepilogo
-   sempre a destra: chi crea il preventivo vede subito cosa paga il cliente
+   sempre a destra: chi crea il contratto vede subito cosa paga il cliente
    oggi e cosa dopo. Prezzi e rate vengono dal listino (= volantino). */
 
 type Pagamento = "rate" | "subito";
@@ -276,7 +357,7 @@ interface Pacchetto {
   rate?: string; // chiave LISTINO a rate
   subito?: string; // chiave LISTINO tutto subito
   consigliato?: boolean;
-  /** prezzo all'ora: nel preventivo si sceglie quante ore */
+  /** prezzo all'ora: nel contratto si sceglie quante ore */
   aOre?: boolean;
 }
 
@@ -296,15 +377,17 @@ const totaleVoce = (key?: string) => {
   return Math.round(v.prezzo * (v.periodicita === "mensile" ? v.mesi : 1) * 100) / 100;
 };
 
-function FormNuovo({ onFatto }: { onFatto: () => void }) {
-  const [pacchetto, setPacchetto] = useState<string>("c6");
+function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: BozzaContratto | null }) {
+  const [pacchetto, setPacchetto] = useState<string>(
+    iniziale && PACCHETTI.some((p) => p.id === iniziale.pacchetto) ? iniziale.pacchetto : "c6"
+  );
   const [pagamento, setPagamento] = useState<Pagamento>("rate");
   const [ore, setOre] = useState(10);
 
-  const [clienteNome, setClienteNome] = useState("");
-  const [clienteEmail, setClienteEmail] = useState("");
-  const [clienteTelefono, setClienteTelefono] = useState("");
-  const [lingua, setLingua] = useState<"de" | "it">("de");
+  const [clienteNome, setClienteNome] = useState(iniziale?.nome || "");
+  const [clienteEmail, setClienteEmail] = useState(iniziale?.email || "");
+  const [clienteTelefono, setClienteTelefono] = useState(iniziale?.telefono || "");
+  const [lingua, setLingua] = useState<"de" | "it">(iniziale?.lingua || "de");
   const [premesse, setPremesse] = useState("");
   const [conNota, setConNota] = useState(false);
 
@@ -382,7 +465,7 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
           body: JSON.stringify({ azione: "invia" }),
         });
         inviato = r.ok;
-        if (!r.ok) setErrore("Preventivo creato, ma la mail non è partita: copia il link e mandalo tu.");
+        if (!r.ok) setErrore("Contratto creato, ma la mail non è partita: copia il link e mandalo tu.");
       }
       setCreato({ id: j.id, numero: j.numero, token: j.token, inviato });
     } catch (e) {
@@ -398,6 +481,7 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
   /* ------------------------------------------------ fatto: il link pronto */
   if (creato) {
     const link = `${window.location.origin}/preventivo/${creato.token}`;
+    const m = messaggioCliente(lingua, clienteNome, creato.numero, link);
     return (
       <Card>
         <div className="mx-auto max-w-xl py-6 text-center">
@@ -420,16 +504,23 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
           {errore && <p className="mt-3 text-sm text-red-500">{errore}</p>}
           <div className="mt-4 flex flex-wrap justify-center gap-2">
             <a
-              href={`https://wa.me/${clienteTelefono.replace(/[^\d]/g, "")}?text=${encodeURIComponent(link)}`}
+              href={linkWhatsapp(clienteTelefono, m.whatsapp)}
               target="_blank"
               rel="noopener"
-              className={cx(
-                "inline-flex items-center gap-1.5 bg-[#25D366] px-4 py-2 text-[13px] font-semibold text-white hover:opacity-90",
-                !clienteTelefono.replace(/[^\d]/g, "") && "pointer-events-none opacity-40"
-              )}
+              className="inline-flex items-center gap-1.5 bg-[#25D366] px-4 py-2 text-[13px] font-semibold text-white hover:opacity-90"
             >
+              <MessageCircle className="h-3.5 w-3.5" />
               Manda su WhatsApp
             </a>
+            {emailOk && (
+              <a
+                href={linkEmail(clienteEmail.trim(), m.oggetto, m.testo)}
+                className="inline-flex items-center gap-1.5 bg-neutral-900 px-4 py-2 text-[13px] font-semibold text-white hover:bg-neutral-800"
+              >
+                <Mail className="h-3.5 w-3.5" />
+                Apri l&apos;email già scritta
+              </a>
+            )}
             <a
               href={`/preventivo/${creato.token}`}
               target="_blank"
@@ -447,7 +538,14 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
 
   /* ---------------------------------------------------------------- form */
   return (
-    <Card title="Nuovo preventivo" subtitle="Il cliente lo firma dal telefono e paga subito la prima parte.">
+    <Card
+      title={iniziale ? `Nuovo contratto per ${iniziale.nome}` : "Nuovo contratto"}
+      subtitle={
+        iniziale
+          ? "Dati del lead già inseriti: scegli il pacchetto."
+          : "Il cliente lo firma dal telefono e paga subito la prima parte."
+      }
+    >
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="space-y-7">
           {/* 1. pacchetto */}
@@ -595,7 +693,7 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
                 Voci e pagamento
               </h3>
               <label className="block">
-                <span className="text-xs font-semibold text-neutral-600">Titolo del preventivo</span>
+                <span className="text-xs font-semibold text-neutral-600">Titolo del contratto</span>
                 <input value={oggetto} onChange={(e) => setOggetto(e.target.value)} placeholder="es. Coaching Hochzeit 4 Monate" className={campo} />
               </label>
               <div className="space-y-2">
@@ -742,7 +840,7 @@ function FormNuovo({ onFatto }: { onFatto: () => void }) {
         {/* riepilogo */}
         <aside className="lg:sticky lg:top-4 lg:self-start">
           <div className="border border-black/10 bg-[#f7f7f8] p-5">
-            <p className="text-sm font-bold text-neutral-900">{doc.oggetto || "Preventivo"}</p>
+            <p className="text-sm font-bold text-neutral-900">{doc.oggetto || "Contratto"}</p>
             <p className="mt-0.5 text-[12px] text-neutral-500">{clienteNome.trim() || "Cliente da inserire"}</p>
 
             <dl className="mt-5 space-y-3 text-sm">

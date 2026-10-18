@@ -130,7 +130,7 @@ export const ARTICOLI_BASE = [
   {
     titolo: "Gegenstand des Vertrags",
     testo:
-      "Der Trainer erbringt die im Angebot aufgeführten Leistungen. Trainingspläne und Ernährungsempfehlungen sind individuell und nicht zur Weitergabe an Dritte bestimmt.",
+      "Der Trainer erbringt die in diesem Vertrag aufgeführten Leistungen. Trainingspläne und Ernährungsempfehlungen sind individuell und nicht zur Weitergabe an Dritte bestimmt.",
   },
   {
     titolo: "Gesundheit und Eigenverantwortung",
@@ -145,7 +145,7 @@ export const ARTICOLI_BASE = [
   {
     titolo: "Vergütung und Zahlung",
     testo:
-      "Die Vergütung ergibt sich aus diesem Angebot. Bei Paketen mit monatlicher Zahlung ist der erste Monat bei Unterzeichnung fällig; die weiteren Monatsbeträge werden jeweils am gleichen Tag des Folgemonats automatisch über das bei der ersten Zahlung hinterlegte Zahlungsmittel eingezogen und enden automatisch mit Ablauf der vereinbarten Laufzeit. Einmalzahlungen erfolgen per Karte, einer anderen angebotenen Zahlungsart oder per Überweisung auf das angegebene Konto.",
+      "Die Vergütung ergibt sich aus diesem Vertrag. Bei Paketen mit monatlicher Zahlung ist der erste Monat bei Unterzeichnung fällig; die weiteren Monatsbeträge werden jeweils am gleichen Tag des Folgemonats automatisch über das bei der ersten Zahlung hinterlegte Zahlungsmittel eingezogen und enden automatisch mit Ablauf der vereinbarten Laufzeit. Einmalzahlungen erfolgen per Karte, einer anderen angebotenen Zahlungsart oder per Überweisung auf das angegebene Konto.",
   },
   {
     titolo: "Laufzeit",

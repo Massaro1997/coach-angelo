@@ -225,7 +225,7 @@ export default function ClientiView() {
         <Card>
           <EmptyState
             titolo={lista.length ? "Nessun cliente con questo filtro." : "Ancora nessun cliente."}
-            testo={lista.length ? "Prova con Tutti." : "Quando un cliente firma un preventivo e paga, compare qui."}
+            testo={lista.length ? "Prova con Tutti." : "Quando un cliente firma un contratto e paga, compare qui."}
             icon={<Users className="h-8 w-8" />}
           />
         </Card>

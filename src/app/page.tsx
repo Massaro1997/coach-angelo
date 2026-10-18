@@ -223,9 +223,16 @@ export default function Home() {
       // Germania non e' un titolo protetto (Diätassistentin e Diätologin lo
       // sono). "Piu' vicino, che arrivi a mezzo busto": la figura e' piu'
       // alta della scheda, che la taglia sotto le braccia come Angelo.
-      src: "/images/squadra/collaboratrice.png",
-      w: 606,
-      misura: 'top-[8%] h-[138%]',
+      // 16/10: non piu' il ritratto rifatto dal modello ma la sua foto vera
+      // ("rimetti la sua originale solo con sfondo tolto e cambiagli la
+      // maglia, non cambiare nulla di lei"): faccia e capelli sono i suoi
+      // pixel, solo maglietta e avambracci sono generati
+      // (scripts/componi-natalie-maglia.py). La foto arriva ai fianchi, piu'
+      // corta della figura di prima: con h-[98%] la testa resta della stessa
+      // grandezza.
+      src: "/images/squadra/collaboratrice-vera.png",
+      w: 884,
+      misura: 'top-[8%] h-[98%]',
       nome: 'Natalie',
       ruolo: de ? 'Ernährungsberaterin' : 'Consulente nutrizionale',
       alt: de ? 'Natalie, Ernährungsberaterin bei FitPrimo' : 'Natalie, consulente nutrizionale di FitPrimo',
@@ -258,43 +265,39 @@ export default function Home() {
 
         <div className="mx-auto grid max-w-7xl items-center gap-2 px-5 sm:px-6 lg:grid-cols-[minmax(0,1.12fr)_minmax(0,1fr)] lg:gap-10 lg:px-8">
           <div className="order-2 lg:order-1">
-            {/* La foto e' larga, due mezzi busti affiancati: la scatola ha la
-                sua forma, un po' piu' alta, cosi' sopra le teste resta l'aria
-                per le due forme inclinate. */}
-            <div className="relative mx-auto aspect-[1.2] w-full max-w-[560px] lg:max-w-[640px]">
-              {/* le due forme inclinate dietro di loro */}
-              <div aria-hidden className="fp-forma bottom-0 left-[13%] h-[78%] w-[40%] bg-gradient-to-br from-[#ff2b3a] to-[#c1000f] opacity-90" />
-              <div aria-hidden className="fp-forma bottom-0 left-[55%] h-[62%] w-[40%] bg-ink/[0.07]" />
-              {/* 13/10: non piu' la foto da gara (hero-angelo.png) ma Angelo con
-                  la maglia FitPrimo accanto a una cliente, "in stile pulito
-                  senza sfondo", "piu' da marketing, piu' colorata": a sinistra
-                  lei in turchese che mostra il bicipite, a destra lui a
-                  braccia conserte. Le foto fatte tutte dal modello gli
-                  ridisegnavano la faccia ("cerca sempre di migliorare la
-                  faccia di Angelo prendendo la foto a braccia incrociate come
-                  esempio", "a fuoco e dettagliata"). Questa e' montata
-                  (scripts/componi-hero.py): lui e' la sua foto da studio
-                  cosi' com'e', solo lei e' generata, e non esiste. */}
+            {/* Angelo da solo, a mezzo busto al centro: la scatola e' un po'
+                piu' larga di lui, cosi' ai lati resta il posto per i
+                cartellini. */}
+            <div className="relative mx-auto aspect-[1.1] w-full max-w-[540px] lg:max-w-[620px]">
+              {/* le due forme inclinate dietro di lui */}
+              <div aria-hidden className="fp-forma bottom-0 left-[24%] h-[80%] w-[50%] bg-gradient-to-br from-[#ff2b3a] to-[#c1000f] opacity-90" />
+              <div aria-hidden className="fp-forma bottom-0 left-[62%] h-[56%] w-[32%] bg-ink/[0.07]" />
+              {/* 16/10: non piu' Angelo accanto alla cliente (coppia.png) ma lui
+                  da solo con la cartellina del Trainingsplan ("mettine una
+                  diversa di lui ad esempio da solo mentre che ha un taccuino
+                  in mano", "pero' non cambiare la sua faccia"). Il corpo con
+                  la cartellina e' generato, la testa e' la sua foto da studio
+                  rimessa sopra (scripts/componi-hero-cartellina.py). */}
               <Image
-                src="/images/hero/coppia.png"
+                src="/images/hero/angelo-cartellina.png"
                 alt={de
-                  ? 'Personal Trainer Angelo Magliarisi von FitPrimo mit einer Frau, die stolz ihren Bizeps zeigt'
-                  : 'Il personal trainer Angelo Magliarisi di FitPrimo con una donna che mostra fiera il bicipite'}
+                  ? 'Personal Trainer Angelo Magliarisi von FitPrimo mit seinem Trainingsplan in der Hand'
+                  : 'Il personal trainer Angelo Magliarisi di FitPrimo con il piano di allenamento in mano'}
                 fill
                 priority
                 quality={90}
-                sizes="(max-width: 1024px) 92vw, 640px"
+                sizes="(max-width: 1024px) 92vw, 620px"
                 className="object-contain object-bottom"
               />
 
-              {/* I cartellini galleggiano a sinistra, dove la foto e' vuota:
-                  sopra il pugno di lei e sotto il suo braccio. Sul telefono
-                  non ci stanno senza coprire qualcuno: li' sono in fila sotto
-                  il titolo. */}
-              <div className="fp-scheda absolute left-[-3%] top-[3%] hidden items-center gap-3 px-4 py-3 sm:flex">
+              {/* I cartellini galleggiano ai lati, dove la foto e' vuota: le
+                  stelle in alto a sinistra accanto alla testa, i clienti in
+                  basso a destra sotto il gomito. Sul telefono non ci stanno
+                  senza coprirlo: li' sono in fila sotto il titolo. */}
+              <div className="fp-scheda absolute left-[-2%] top-[12%] hidden items-center gap-3 px-4 py-3 sm:flex">
                 {cartellinoStelle}
               </div>
-              <div className="fp-scheda absolute bottom-[8%] left-[-8%] hidden items-center gap-3 px-4 py-3 sm:flex">
+              <div className="fp-scheda absolute bottom-[6%] right-[-6%] hidden items-center gap-3 px-4 py-3 sm:flex">
                 {cartellinoClienti}
               </div>
             </div>
