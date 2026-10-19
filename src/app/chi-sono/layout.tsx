@@ -3,15 +3,15 @@ import type { Metadata } from "next";
 const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
-  title: "Chi Sono",
+  title: "Angelo Magliarisi: Personal Trainer in Köln",
   description:
-    "Angelo Magliarisi, Personal Trainer a Colonia e atleta WABBA International. Storia, metodo e approccio all'allenamento personalizzato.",
+    "Angelo Magliarisi ist Personal Trainer in Köln und Wettkampfathlet im WABBA International Verband. Sein Weg, seine Methode, sein Training.",
   alternates: { canonical: `${siteUrl}/chi-sono` },
   openGraph: {
     type: "profile",
     url: `${siteUrl}/chi-sono`,
-    title: "Chi Sono | FitPrimo",
-    description: "Angelo Magliarisi, Personal Trainer a Colonia e atleta WABBA International.",
+    title: "Angelo Magliarisi: Personal Trainer in Köln | FitPrimo",
+    description: "Personal Trainer in Köln und Wettkampfathlet im WABBA International Verband.",
     images: ["/opengraph-image"],
   },
 };

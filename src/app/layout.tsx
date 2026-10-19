@@ -117,16 +117,16 @@ const jsonLd = {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Personal Training in Presenza",
-            description: "Allenamenti personalizzati one-to-one",
+            name: "Personal Training 1-zu-1",
+            description: "Individuelles 1-zu-1 Training in Köln, im Studio, draußen oder zu Hause",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Coaching Online",
-            description: "Programmi di allenamento online personalizzati",
+            name: "Online Coaching",
+            description: "Individueller Trainingsplan mit Online-Betreuung und wöchentlichen Check-ins",
           },
         },
       ],

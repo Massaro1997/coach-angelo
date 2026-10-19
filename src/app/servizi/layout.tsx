@@ -3,15 +3,15 @@ import type { Metadata } from "next";
 const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
-  title: "Servizi",
+  title: "Leistungen & Preise: Personal Training Köln",
   description:
-    "Personal Training 1-a-1, Online Coaching e schede di allenamento personalizzate. Scopri i pacchetti di Coach Angelo, Personal Trainer a Colonia.",
+    "Personal Training 1-zu-1 für 50€ pro Stunde, Online Coaching ab 150€ im Monat, Trainingspläne als PDF ab 25€. Kostenlose Erstberatung in Köln.",
   alternates: { canonical: `${siteUrl}/servizi` },
   openGraph: {
     type: "website",
     url: `${siteUrl}/servizi`,
-    title: "Servizi | FitPrimo",
-    description: "Personal Training 1-a-1, Online Coaching e schede di allenamento personalizzate.",
+    title: "Leistungen & Preise: Personal Training Köln | FitPrimo",
+    description: "Personal Training 1-zu-1 für 50€/Stunde, Online Coaching ab 150€/Monat, Trainingspläne ab 25€.",
     images: ["/opengraph-image"],
   },
 };
