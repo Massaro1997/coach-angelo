@@ -3,9 +3,11 @@
 import { trendPosts } from "./blog-posts-trends";
 
 export interface BlogBlock {
-  type: "p" | "h2" | "ul";
+  type: "p" | "h2" | "ul" | "table";
   text?: string;
   items?: string[];
+  headers?: string[];
+  rows?: string[][];
 }
 
 export interface BlogPost {
@@ -23,17 +25,29 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "was-kostet-personal-trainer-koeln",
     title: "Was kostet ein Personal Trainer in Köln wirklich?",
-    metaTitle: "Personal Trainer Köln: Kosten 2026",
+    metaTitle: "Was kostet ein Personal Trainer in Köln? 2026",
     metaDescription:
-      "Was kostet ein Personal Trainer in Köln? Ehrliche Zahlen: 50€ bis 150€ pro Stunde, Online Coaching ab 150€/Monat. Plus: woran du erkennst, ob sich das Geld lohnt.",
-    date: "2026-06-11",
-    readMinutes: 6,
+      "Eine Stunde Personal Training kostet in Köln 50€ bis 150€. Bei FitPrimo: 50€ pro Stunde, Online Coaching ab 150€ im Monat. Alle Preise ehrlich aufgeschlüsselt.",
+    date: "2026-10-19",
+    readMinutes: 7,
     excerpt:
       "Zwischen 50€ und 150€ pro Stunde liegt in Köln fast alles. Hier steht, was hinter den Preisen steckt und woran du erkennst, ob sich dein Geld lohnt.",
     blocks: [
       {
         type: "p",
-        text: "Kurze Antwort: In Köln zahlst du für eine Personal Training Stunde zwischen 50€ und 150€. Boutique-Studios in der Innenstadt nehmen 100€ bis 150€, freie Trainer in Premium-Clubs 80€ bis 120€, und Trainer ohne eigenes Studio wie ich liegen bei 50€ bis 80€. Online Coaching mit Plan, Ernährung und wöchentlichen Check-ins kostet in Köln meist zwischen 150€ und 400€ im Monat.",
+        text: "Eine Personal Training Stunde kostet in Köln zwischen 50€ und 150€. Bei mir kostet die 1-zu-1 Stunde 50€, Online Coaching gibt es ab 150€ im Monat, die Erstberatung ist kostenlos. Boutique-Studios in der Innenstadt nehmen 100€ bis 150€, freie Trainer in Premium-Clubs 80€ bis 120€, und Trainer ohne eigenes Studio wie ich liegen bei 50€ bis 80€. Online Coaching mit Plan, Ernährung und wöchentlichen Check-ins kostet in Köln meist zwischen 150€ und 400€ im Monat.",
+      },
+      {
+        type: "table",
+        headers: ["Angebot", "Preis in Köln"],
+        rows: [
+          ["Boutique-Studio in der Innenstadt", "100€ bis 150€ pro Stunde"],
+          ["Freier Trainer im Premium-Club", "80€ bis 120€ pro Stunde"],
+          ["Trainer ohne eigenes Studio", "50€ bis 80€ pro Stunde"],
+          ["FitPrimo 1-zu-1 (Studio, draußen oder zu Hause)", "50€ pro Stunde"],
+          ["FitPrimo Online Coaching", "ab 150€ im Monat"],
+          ["FitPrimo Erstberatung", "kostenlos"],
+        ],
       },
       { type: "h2", text: "Warum die Preise so weit auseinander liegen" },
       {
@@ -63,6 +77,21 @@ export const blogPosts: BlogPost[] = [
           "Er gibt dir einen Plan, den du verstehst. Wenn du nach vier Wochen nicht erklären kannst, warum du was trainierst, läuft etwas falsch.",
           "Das Erstgespräch ist kostenlos. Wer dafür Geld nimmt, verkauft Beratung statt Ergebnisse.",
         ],
+      },
+      { type: "h2", text: "Was kostet ein Personal Trainer für zuhause?" },
+      {
+        type: "p",
+        text: "Für Hausbesuche kommt bei vielen Trainern ein Aufschlag auf den Stundenpreis. Bei mir nicht: Die 1-zu-1 Stunde kostet 50€, egal ob im Studio, draußen oder bei dir zu Hause in Köln.",
+      },
+      { type: "h2", text: "Wird Personal Training von der Krankenkasse bezahlt?" },
+      {
+        type: "p",
+        text: "In der Regel nein. Krankenkassen bezuschussen zertifizierte Präventionskurse, klassisches 1-zu-1 Personal Training gehört normalerweise nicht dazu. Verlass dich nicht auf vage Zusagen: Frag vorher direkt bei deiner Kasse nach. Ich verspreche dir an dieser Stelle nichts, was ich nicht halten kann.",
+      },
+      { type: "h2", text: "Ist ein Personal Trainer steuerlich absetzbar?" },
+      {
+        type: "p",
+        text: "Für Privatpersonen meistens nicht, Training zählt als private Lebensführung. Einzelfälle gibt es, etwa wenn das Training ärztlich verordnet ist. Das klärst du am besten mit deinem Steuerberater, nicht mit deinem Trainer.",
       },
       { type: "h2", text: "Mein Angebot in Köln, schwarz auf weiß" },
       {

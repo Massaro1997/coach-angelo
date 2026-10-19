@@ -120,6 +120,30 @@ export default async function BlogPostPage({
                   </h2>
                 );
               }
+              if (block.type === "table") {
+                return (
+                  <div key={i} className="overflow-x-auto">
+                    <table className="w-full text-left text-ink/70">
+                      <thead>
+                        <tr className="border-b border-ink/20">
+                          {block.headers?.map((h, j) => (
+                            <th key={j} className="py-3 pr-4 font-black text-ink">{h}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {block.rows?.map((row, j) => (
+                          <tr key={j} className="border-b border-ink/10">
+                            {row.map((cell, k) => (
+                              <td key={k} className="py-3 pr-4 leading-relaxed">{cell}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                );
+              }
               if (block.type === "ul") {
                 return (
                   <ul key={i} className="space-y-3">
