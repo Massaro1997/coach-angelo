@@ -7,60 +7,130 @@ import { intents } from "@/lib/stadtteil-intent";
 const siteUrl = "https://www.fitprimo.de";
 
 export const metadata: Metadata = {
-  title: "Personal Trainer Köln - WABBA Athlet",
+  title: "Personal Trainer Köln: 1-zu-1 für 50€/Stunde",
   description:
-    "Personal Trainer in Köln: 1-zu-1 Training (50€/Std), Online Coaching ab 150€/Monat, individuelle Trainingspläne. WABBA International Athlet. Kostenlose Erstberatung, Antwort in 24h.",
+    "Personal Training in Köln mit Angelo Magliarisi: 1-zu-1 Stunde für 50€, Online Coaching ab 150€/Monat. Im Studio, draußen oder zu Hause. Kostenlose Erstberatung.",
   alternates: { canonical: `${siteUrl}/personal-trainer-koeln` },
   openGraph: {
     type: "website",
     locale: "de_DE",
     url: `${siteUrl}/personal-trainer-koeln`,
     title: "Personal Trainer Köln | FitPrimo",
-    description: "1-zu-1 Training, Online Coaching und individuelle Trainingspläne in Köln. WABBA International Athlet.",
+    description: "1-zu-1 Training für 50€ pro Stunde, Online Coaching ab 150€ im Monat. Im Studio, draußen oder bei dir zu Hause.",
     images: ["/opengraph-image"],
   },
 };
 
+const faq = [
+  {
+    q: "Wie viel kostet ein Personal Trainer in Köln?",
+    a: "In Köln liegt die Stunde je nach Anbieter zwischen 50€ und 150€. Bei mir kostet die 1-zu-1 Stunde 50€, Online Coaching gibt es ab 150€ im Monat. Die Erstberatung ist kostenlos.",
+  },
+  {
+    q: "Wird Personal Training von der Krankenkasse bezahlt?",
+    a: "In der Regel nicht. Personal Training ist eine Privatleistung. Einige Kassen bezuschussen zertifizierte Präventionskurse, das klassische 1-zu-1 Training fällt aber normalerweise nicht darunter. Verbindliche Auskunft gibt dir nur deine Krankenkasse.",
+  },
+  {
+    q: "Wie sinnvoll ist ein Personal Trainer?",
+    a: "Sinnvoll ist er dann, wenn du ein klares Ziel hast und alleine nicht weiterkommst: Technik, die nicht sitzt, ein Plan, der nicht zu deinem Alltag passt, oder Training ohne sichtbaren Fortschritt. Ein guter Trainer verkürzt den Weg, weil er Fehler sofort korrigiert. Ob es für dich passt, klären wir in der kostenlosen Erstberatung.",
+  },
+  {
+    q: "Wo findet das Training statt?",
+    a: "Wo es für dich passt: im Studio, draußen oder bei dir zu Hause. Ich betreue Kunden in allen Kölner Stadtteilen, von Rodenkirchen bis Nippes, von Ehrenfeld bis Porz.",
+  },
+  {
+    q: "Wie läuft die kostenlose Erstberatung ab?",
+    a: "Du schreibst mir über das Kontaktformular, ich melde mich innerhalb von 24 Stunden. Wir sprechen 30 bis 45 Minuten über dein Ziel, deinen Alltag und deinen Startpunkt. Danach entscheidest du in Ruhe. Die Beratung verpflichtet dich zu nichts.",
+  },
+];
+
 export default function PersonalTrainerKoeln() {
-  const totalEinwohner = stadtteile.reduce((s, st) => s + st.einwohner, 0);
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
       {/* Hero */}
       <section className="fp-hero pt-32 sm:pt-40 pb-12 sm:pb-16">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl fp-titolo text-ink mb-6">
             Personal Trainer <span className="text-gold">Köln</span>
           </h1>
-          <div className="space-y-4 text-lg text-ink/70 leading-relaxed max-w-prose">
-            <p>
-              Ich bin Angelo Magliarisi, Personal Trainer in Köln und Wettkampfathlet im WABBA
-              International Verband. Ich betreue Kunden aus allen 86 Kölner Stadtteilen, von der
-              Innenstadt bis Porz, von Chorweiler bis Rodenkirchen. Insgesamt leben über{" "}
-              {Math.round(totalEinwohner / 100000) / 10} Millionen Menschen in Köln, und die meisten
-              Fitnessstudios sind voll mit Leuten, die seit Jahren dasselbe trainieren und sich nicht
-              verändern. Genau da setze ich an.
-            </p>
-            <p>
-              Mein Angebot ist bewusst einfach: Personal Training 1-zu-1 im Studio für 50€ pro
-              Stunde, Online Coaching mit individuellem Trainingsplan, Ernährungsberatung und
-              wöchentlichen Check-ins ab 150€ im Monat, oder fertige Trainingspläne als PDF ab 25€.
-              Die Erstberatung ist kostenlos und unverbindlich.
-            </p>
-          </div>
-          <div className="mt-8">
-            <Link
-              href="/contatti"
-              className="fp-btn"
-            >
-              Kostenlose Beratung anfragen <span aria-hidden>→</span>
+          <p className="text-lg text-ink/70 leading-relaxed max-w-prose">
+            Personal Training in Köln mit Angelo Magliarisi: 1-zu-1 Training für 50€ pro Stunde,
+            Online Coaching ab 150€ im Monat. Trainiert wird im Studio, draußen oder bei dir zu
+            Hause, in allen 86 Kölner Stadtteilen.
+          </p>
+          <div className="mt-6">
+            <Link href="/contatti" className="fp-btn">
+              Kostenlose Erstberatung anfragen <span aria-hidden>→</span>
             </Link>
+          </div>
+          <p className="mt-4 text-sm text-ink/50">Unverbindlich. Antwort innerhalb von 24 Stunden.</p>
+          <div className="mt-10 space-y-4 text-lg text-ink/70 leading-relaxed max-w-prose">
+            <p>
+              Ich bin Wettkampfathlet im WABBA International Verband. Die meisten Fitnessstudios
+              sind voll mit Leuten, die seit Jahren dasselbe trainieren und sich nicht verändern.
+              Genau da setze ich an: mit einem Plan, der zu deinem Ziel und deinem Alltag passt,
+              und mit Technik, die in jeder Einheit korrigiert wird.
+            </p>
           </div>
         </div>
       </section>
 
+      {/* Preise */}
+      <section className="py-16 sm:py-20 bg-surface border-y border-line">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-4">
+            Das kostet dein <span className="text-gold">Training</span>
+          </h2>
+          <p className="text-ink/60 max-w-prose mb-10">
+            In Köln kostet eine Personal Training Stunde je nach Anbieter zwischen 50€ und 150€.
+            Ich liege am unteren Ende, weil ich kein teures Boutique-Studio in der Innenstadt
+            bezahle. Du zahlst für die Betreuung, nicht für die Adresse.
+          </p>
+          <div className="space-y-6 max-w-prose">
+            <div className="border-b border-line pb-6">
+              <h3 className="font-black text-ink mb-2">Personal Training 1-zu-1: 50€ pro Stunde</h3>
+              <p className="text-ink/70 leading-relaxed">
+                Training mit mir im Studio, draußen oder bei dir zu Hause. Technik, Plan und
+                Korrektur in jeder Einheit.
+              </p>
+            </div>
+            <div className="border-b border-line pb-6">
+              <h3 className="font-black text-ink mb-2">Online Coaching: ab 150€ im Monat</h3>
+              <p className="text-ink/70 leading-relaxed">
+                Individueller Trainingsplan, Ernährungsberatung und wöchentliche Check-ins.
+                Betreuung an 30 Tagen im Monat statt an ein paar Stunden.
+              </p>
+            </div>
+            <div className="border-b border-line pb-6">
+              <h3 className="font-black text-ink mb-2">Trainingspläne als PDF: ab 25€</h3>
+              <p className="text-ink/70 leading-relaxed">
+                Wenn du erstmal alleine starten willst, mit einem Plan, der auf dein Ziel passt.
+              </p>
+            </div>
+          </div>
+          <p className="mt-8 text-ink/60 max-w-prose">
+            Alle Zahlen und Vergleiche stehen im Artikel{" "}
+            <Link href="/blog/was-kostet-personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+              Was kostet ein Personal Trainer in Köln?
+            </Link>
+          </p>
+        </div>
+      </section>
+
       {/* Leistungen (category-intent) */}
-      <section className="py-16 sm:py-20 bg-background border-t border-line">
+      <section className="py-16 sm:py-20 bg-background">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-4">
             Womit ich dir <span className="text-gold">helfe</span>
@@ -142,18 +212,45 @@ export default function PersonalTrainerKoeln() {
               </div>
             ))}
           </div>
+          <div className="mt-14 max-w-prose">
+            <h2 className="fp-titolo text-2xl sm:text-3xl text-ink mb-4">
+              Training und Ernährung aus <span className="text-gold">einer Hand</span>
+            </h2>
+            <p className="text-ink/70 leading-relaxed">
+              Hinter FitPrimo stehen zwei Menschen. Ich kümmere mich um dein Training: Kraftaufbau,
+              Technik, Plan. Natalie ist Ernährungsberaterin mit Schwerpunkt Sport- und
+              Fitnessernährung und kümmert sich um den Ernährungsteil im Online Coaching. Jeder
+              macht das, was er am besten kann.
+            </p>
+          </div>
           <div className="mt-12 flex flex-wrap gap-4">
-            <Link
-              href="/servizi"
-              className="fp-btn-linea"
-            >
+            <Link href="/servizi" className="fp-btn-linea">
               Alle Leistungen
             </Link>
-            <Link
-              href="/blog"
-              className="fp-btn-linea"
-            >
+            <Link href="/blog" className="fp-btn-linea">
               Fitness Blog
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 sm:py-20 bg-surface border-t border-line">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-8">
+            Häufige Fragen zu Personal Training in Köln
+          </h2>
+          <div className="space-y-6">
+            {faq.map((f) => (
+              <div key={f.q} className="border-b border-line pb-6">
+                <h3 className="font-black text-ink mb-2">{f.q}</h3>
+                <p className="text-ink/70 leading-relaxed">{f.a}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-10">
+            <Link href="/contatti" className="fp-btn">
+              Kostenlose Erstberatung anfragen <span aria-hidden>→</span>
             </Link>
           </div>
         </div>
