@@ -22,6 +22,26 @@ function relatedPosts(slug: string, count = 8) {
     .map((r) => r.p);
 }
 
+// Riga d'offerta del box finale, scelta dal tema dello slug. Prezzi veri già
+// pubblicati su /servizi e nell'articolo costi. Hyrox riceve il testo generico:
+// Angelo non prepara per Hyrox.
+function ctaLead(slug: string): string {
+  const generic =
+    "Du willst trainieren mit einem Plan, der zu deinem Alltag passt? Angelo trainiert dich 1-zu-1 in Köln: 50 € pro Stunde, im Studio, draußen oder bei dir zu Hause. Online Coaching gibt es ab 150 € im Monat.";
+  if (/hyrox/.test(slug)) return generic;
+  if (/frauen|ab-50|wechseljahre/.test(slug))
+    return "Du willst stärker werden, ohne dich an Geräten durchzuraten? Angelo trainiert dich 1-zu-1 in Köln: 50 € pro Stunde, im Studio, draußen oder bei dir zu Hause. Online Coaching gibt es ab 150 € im Monat.";
+  if (/muskelaufbau|ab-40|mann|testosteron|bierbauch/.test(slug))
+    return "Du willst Muskeln aufbauen, ohne deine Gelenke zu verheizen? Angelo trainiert dich 1-zu-1 in Köln: 50 € pro Stunde, im Studio, draußen oder bei dir zu Hause. Online Coaching gibt es ab 150 € im Monat.";
+  if (/abnehm|abnehmen|gewicht|grundumsatz|kalorien/.test(slug))
+    return "Du willst abnehmen und das Ergebnis diesmal halten? Angelo trainiert dich 1-zu-1 in Köln, Natalie berät dich bei der Ernährung. 50 € pro Stunde, Online Coaching ab 150 € im Monat.";
+  if (/schmerz|ruecken|knie|schulter|nacken|faszien|mobility|beweglichkeit/.test(slug))
+    return "Du willst trainieren, ohne dass es wehtut? Angelo baut dein Training 1-zu-1 um deine Baustellen herum auf: 50 € pro Stunde in Köln, im Studio, draußen oder bei dir zu Hause.";
+  if (/lauf|joggen|zone-2|marathon|ausdauer/.test(slug))
+    return "Du willst ausdauernder werden und verletzungsfrei bleiben? Angelo kombiniert dein Lauftraining mit Krafttraining, 1-zu-1 in Köln: 50 € pro Stunde. Online Coaching gibt es ab 150 € im Monat.";
+  return generic;
+}
+
 export function generateStaticParams() {
   return allPosts.map((p) => ({ slug: p.slug }));
 }
@@ -169,18 +189,29 @@ export default async function BlogPostPage({
           {/* CTA */}
           <div className="fp-scheda mt-14 p-8">
             <h3 className="text-xl fp-titolo text-ink mb-3">
-              Kostenlose Erstberatung
+              Trainier mit Plan statt auf gut Glück
             </h3>
+            <p className="text-ink/60 mb-4 max-w-prose">
+              {ctaLead(post.slug)}
+            </p>
             <p className="text-ink/60 mb-6 max-w-prose">
-              5 kurze Fragen, ehrliche Einschätzung, Antwort innerhalb von 24 Stunden. Kein
-              Verkaufsgespräch, versprochen.
+              Die Erstberatung ist kostenlos: 5 kurze Fragen, ehrliche Einschätzung, Antwort
+              innerhalb von 24 Stunden. Kein Verkaufsgespräch, versprochen.
             </p>
             <Link
               href="/contatti"
               className="fp-btn"
             >
-              Jetzt anfragen <span aria-hidden>→</span>
+              Kostenlose Erstberatung anfragen <span aria-hidden>→</span>
             </Link>
+            <p className="mt-5 text-sm">
+              <Link
+                href="/personal-trainer-koeln"
+                className="font-semibold text-ink/70 underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold"
+              >
+                Personal Training in Köln: Leistungen, Preise und Stadtteile
+              </Link>
+            </p>
           </div>
 
           {/* Altri articoli */}
