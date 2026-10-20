@@ -220,7 +220,10 @@ export default function PersonalTrainerKoeln() {
               Hinter FitPrimo stehen zwei Menschen. Ich kümmere mich um dein Training: Kraftaufbau,
               Technik, Plan. Natalie ist Ernährungsberaterin mit Schwerpunkt Sport- und
               Fitnessernährung und kümmert sich um den Ernährungsteil im Online Coaching. Jeder
-              macht das, was er am besten kann.
+              macht das, was er am besten kann. Wie sie arbeitet, steht auf der Seite{" "}
+              <Link href="/leistungen/ernaehrungsberatung" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Ernährungsberatung in Köln
+              </Link>.
             </p>
           </div>
           <div className="mt-12 flex flex-wrap gap-4">
