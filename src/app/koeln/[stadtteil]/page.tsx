@@ -79,6 +79,15 @@ export default async function StadtteilHub({
           <h1 className="text-4xl sm:text-5xl fp-titolo text-ink mb-6">
             Personal Trainer in <span className="text-gold">Köln-{st.name}</span>
           </h1>
+          <p className="text-lg text-ink/80 leading-relaxed max-w-prose">
+            Personal Training in Köln-{st.name} mit Angelo Magliarisi: 1-zu-1 für 50€ pro Stunde,
+            im Studio, draußen oder bei dir zu Hause. Online Coaching ab 150€ im Monat.
+          </p>
+          <div className="mt-6 mb-10">
+            <Link href="/contatti" className="fp-btn">
+              Kostenlose Erstberatung anfragen <span aria-hidden>→</span>
+            </Link>
+          </div>
           <div className="space-y-4 text-lg text-ink/70 leading-relaxed max-w-prose">
             {c.intro.split(/(?<=\.)\s+(?=[A-ZÄÖÜ])/).reduce<string[][]>((acc, sentence, i) => {
               const group = Math.floor(i / 2);
@@ -135,7 +144,7 @@ export default async function StadtteilHub({
           <div className="flex flex-wrap gap-3">
             {neighbors.map((n) => (
               <Link key={n.slug} href={`/koeln/${n.slug}`} className="rounded-md border border-line bg-white px-4 py-2 text-sm text-ink/80 hover:border-gold-deep hover:text-gold transition-colors">
-                Köln-{n.name}
+                Personal Trainer Köln-{n.name}
               </Link>
             ))}
             <Link href="/personal-trainer-koeln" className="rounded-md border border-gold/40 bg-white px-4 py-2 text-sm font-semibold text-gold transition-colors hover:border-gold">
