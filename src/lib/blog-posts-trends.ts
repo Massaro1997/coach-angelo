@@ -2438,7 +2438,7 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "abnehmspritze-kosten-monatlich-vergleich",
     "title": "Was kostet die Abnehmspritze monatlich? Der ehrliche Kostenvergleich mit den Alternativen",
-    "metaTitle": "Abnehmspritze Kosten pro Monat: Vergleich mit Alternativen",
+    "metaTitle": "Was kostet die Abnehmspritze im Monat?",
     "metaDescription": "170 bis 350 Euro pro Monat für die Abnehmspritze: Was bekommst du dafür und was kosten die Alternativen? Trainer Angelo aus Köln rechnet nach.",
     "date": "2026-06-16",
     "readMinutes": 7,
@@ -3478,8 +3478,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "hyrox-uebungen-erklaert-technik",
     "title": "Hyrox Übungen erklärt: Alle 8 Stationen mit Technik und Fehlern",
-    "metaTitle": "Hyrox Übungen: Alle 8 Stationen erklärt",
-    "metaDescription": "Alle 8 Hyrox Übungen im Detail: Technik, Gewichte und die typischen Fehler an jeder Station. Erklärt von einem Coach, der sie täglich sieht.",
+    "metaTitle": "Hyrox Übungen: Reihenfolge, Technik und Fehler",
+    "metaDescription": "Alle 8 Hyrox Stationen in der richtigen Reihenfolge, mit der Technik, die zählt, und den typischen Fehlern an jeder Station. Von einem Coach, der sie täglich sieht.",
     "date": "2026-06-27",
     "readMinutes": 8,
     "excerpt": "SkiErg, Sled, Burpees, Wall Balls: Die acht Hyrox Stationen im Detail, mit den Fehlern, die ich als Trainer an jeder einzelnen immer wieder korrigiere.",
@@ -4117,8 +4117,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "hyrox-ohne-gym-trainieren",
     "title": "Hyrox ohne Gym: So trainierst du draußen und zu Hause",
-    "metaTitle": "Hyrox ohne Gym trainieren: So klappt es",
-    "metaDescription": "Hyrox ohne Gym vorbereiten: Ersatzübungen für alle 8 Stationen, Outdoor-Spots in Köln und eine Beispielwoche. Ehrlich, was geht und was nicht.",
+    "metaTitle": "Hyrox Training ohne Gym: draußen und zuhause",
+    "metaDescription": "Alle 8 Hyrox Stationen ohne Studio ersetzen: Übungen, Outdoor-Spots in Köln und eine Beispielwoche. Ehrlich, was draußen geht und wo die Grenzen liegen.",
     "date": "2026-06-29",
     "readMinutes": 6,
     "excerpt": "Kein Studio, kein Problem? Fast. Mit Sandsack, Park und Plan deckst du rund 80 Prozent der Hyrox-Vorbereitung ab. Hier steht, wie, und wo die Grenzen liegen.",
@@ -8276,8 +8276,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "laufstrecken-koeln-beste",
     "title": "Laufstrecken in Köln: Meine 5 besten Routen mit Kilometerangaben",
-    "metaTitle": "Laufstrecke Köln: 5 beste Routen mit km-Angabe",
-    "metaDescription": "Die besten Laufstrecken in Köln mit Kilometerangaben: Rheinufer, Decksteiner Weiher, Grüngürtel und Stadtwald, sortiert nach Level. Vom Trainer empfohlen.",
+    "metaTitle": "Laufstrecken Köln: die 5 besten Routen mit km",
+    "metaDescription": "Rheinufer, Decksteiner Weiher, Grüngürtel, Stadtwald, Rheinpark: fünf Laufstrecken in Köln mit Kilometerangaben, Untergrund und ehrlicher Trainer-Einschätzung.",
     "date": "2026-07-10",
     "readMinutes": 6,
     "excerpt": "Vom flachen Rheinufer bis zur klassischen Runde am Decksteiner Weiher: Diese fünf Kölner Laufstrecken decken jedes Level ab, mit ehrlichen Kilometerangaben und Untergrund-Infos.",
