@@ -10,6 +10,16 @@ export function generateStaticParams() {
 }
 export const dynamicParams = false;
 
+// Meta su misura dove Search Console mostra ricerche diverse dal template:
+// Rodenkirchen viene cercato con "coaching köln rodenkirchen" e "personal training rodenkirchen".
+const metaOverrides: Record<string, { title: string; description: string }> = {
+  rodenkirchen: {
+    title: "Personal Training & Coaching Köln-Rodenkirchen",
+    description:
+      "Coaching und 1-zu-1 Personal Training in Köln-Rodenkirchen: 50 € pro Stunde, am Rheinufer, im Studio oder bei dir zuhause. Kostenlose Erstberatung.",
+  },
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -19,16 +29,17 @@ export async function generateMetadata({
   const st = getStadtteil(stadtteil);
   if (!st) return {};
   const url = `${siteUrl}/koeln/${st.slug}`;
+  const ov = metaOverrides[st.slug];
   return {
-    title: `Personal Trainer Köln-${st.name}`,
-    description: `Personal Training, Abnehmen, Muskelaufbau und Online Coaching in Köln-${st.name} (${st.bezirk}, ${st.einwohner.toLocaleString("de-DE")} Einwohner). WABBA Athlet, kostenlose Erstberatung.`,
+    title: ov?.title ?? `Personal Trainer Köln-${st.name}`,
+    description: ov?.description ?? `Personal Training, Abnehmen, Muskelaufbau und Online Coaching in Köln-${st.name} (${st.bezirk}, ${st.einwohner.toLocaleString("de-DE")} Einwohner). WABBA Athlet, kostenlose Erstberatung.`,
     alternates: { canonical: url },
     openGraph: {
       type: "website",
       locale: "de_DE",
       url,
-      title: `Personal Trainer in Köln-${st.name}`,
-      description: `Personal Training und Online Coaching in Köln-${st.name}. WABBA Athlet, kostenlose Erstberatung.`,
+      title: ov?.title ?? `Personal Trainer in Köln-${st.name}`,
+      description: ov?.description ?? `Personal Training und Online Coaching in Köln-${st.name}. WABBA Athlet, kostenlose Erstberatung.`,
       images: ["/opengraph-image"],
     },
   };
