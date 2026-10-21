@@ -6797,9 +6797,9 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "testosteron-krafttraining-mann-ab-40",
     "title": "Krafttraining und Testosteron ab 40: Was in deinem Körper wirklich passiert",
-    "metaTitle": "Testosteron und Krafttraining ab 40 im Check",
-    "metaDescription": "Wie Krafttraining dein Testosteron ab 40 beeinflusst: akute Effekte, langfristige Wirkung, das richtige Training. Ehrlich erklärt, ohne Booster-Märchen.",
-    "date": "2026-07-07",
+    "metaTitle": "Testosteron ab 40: Krafttraining und Coaching",
+    "metaDescription": "Wie Krafttraining dein Testosteron ab 40 beeinflusst, ehrlich und ohne Booster-Märchen. Plus: was 1-zu-1 Coaching kostet, in Köln oder online.",
+    "date": "2026-10-21",
     "readMinutes": 6,
     "excerpt": "Hebt Krafttraining dein Testosteron? Ja, aber anders als die Fitness-Industrie es dir verkauft. Was ab 40 im Körper passiert und wie du trainieren solltest.",
     "blocks": [
@@ -6868,6 +6868,18 @@ export const trendPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Ich bin hier ehrlich mit dir: Wenn dein Testosteron aus medizinischen Gründen deutlich zu niedrig ist, wird kein Trainingsplan der Welt das allein beheben. Symptome wie anhaltende Erschöpfung, Libidoverlust oder Muskelschwund trotz Training gehören abgeklärt. Lass beim Urologen oder Endokrinologen ein Blutbild machen, am besten morgens, wenn die Werte am höchsten sind. Ob eine Therapie nötig ist, entscheidet dein Arzt mit dir, nicht dein Trainer. Meine Aufgabe beginnt danach: das Training so zu gestalten, dass dein Körper das Beste aus seiner Situation macht."
+      },
+      {
+        "type": "h2",
+        "text": "1-zu-1 Coaching für dein Testosteron: was es kostet und was es bringt"
+      },
+      {
+        "type": "p",
+        "text": "Wenn du nach einem Coaching rund um dein Testosteron suchst, sag ich dir vorher ehrlich, was du bei mir bekommst und was nicht. Kein Hormon-Protokoll, keine Booster, keine versprochenen Laborwerte. Stattdessen arbeiten wir an den drei Hebeln aus diesem Artikel: ein Krafttraining, das zu deinen Gelenken und deinem Kalender passt, eine Ernährung, die Bauchfett abbaut statt Muskeln, und ein Alltag, in dem Schlaf und Erholung wieder Platz haben. Das sind die Stellschrauben, die du selbst in der Hand hast, und genau dabei begleite ich dich."
+      },
+      {
+        "type": "p",
+        "text": "Die Kosten sind transparent: 1-zu-1 Personal Training in Köln kostet 50 Euro pro Stunde, im Studio, draußen oder bei dir zuhause. Wenn du nicht in Köln wohnst oder lieber eigenständig trainierst, gibt es das Online Coaching ab 150 Euro im Monat, mit Plan, Ernährungsbegleitung und wöchentlichem Check-in. Davor steht immer ein kostenloses Erstgespräch, damit wir beide wissen, ob es passt."
       },
       {
         "type": "p",
