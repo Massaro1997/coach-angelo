@@ -4178,6 +4178,10 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Krafttraining für Frauen ab 50 heißt zwei bis drei Einheiten pro Woche à 45 bis 60 Minuten, Grundübungen wie Kniebeuge, Rudern und Kreuzheben, dazu 1,5 bis 1,8 Gramm Protein pro Kilo Körpergewicht und mehr Erholung zwischen den Einheiten als früher. Den kompletten Plan findest du in diesem Artikel."
+      },
+      {
+        "type": "p",
         "text": "Du bist über 50, willst endlich anfangen oder wieder einsteigen, und fragst dich: Was funktioniert jetzt noch für meinen Körper? Gute Frage. Denn der Plan, der mit 30 super lief, passt jetzt nicht mehr eins zu eins. Als Personal Trainer in Köln begleite ich regelmäßig Frauen genau in dieser Lebensphase, und ich sage dir: Mit dem richtigen Ansatz ist jetzt mehr möglich, als du denkst."
       },
       {
