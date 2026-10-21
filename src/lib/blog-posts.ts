@@ -13448,12 +13448,16 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "muskelaufbau-ab-40-mann-trainingsplan-tipps",
     "title": "Muskelaufbau ab 40: Der realistische Plan für Männer mit echtem Alltag",
-    "metaTitle": "Muskelaufbau ab 40: Trainingsplan für Männer",
-    "metaDescription": "Muskelaufbau ab 40 als Mann ist möglich, wenn du clever trainierst. Angelo zeigt dir, was wirklich funktioniert, ohne Knieprobleme oder Erschöpfung.",
-    "date": "2026-06-17",
+    "metaTitle": "Muskelaufbau ab 40: Plan vom Personal Trainer",
+    "metaDescription": "Wie Männer ab 40 Muskeln aufbauen: Trainingsplan mit 3 bis 4 Einheiten pro Woche, Grundübungen, Protein und Regeneration. Vom Personal Trainer aus Köln.",
+    "date": "2026-10-21",
     "readMinutes": 4,
     "excerpt": "Ab 40 tickt dein Körper anders. Trotzdem kannst du Muskeln aufbauen, stark werden und gut aussehen. Hier steht, wie das konkret geht.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: Muskelaufbau ab 40 funktioniert. Drei bis vier Einheiten pro Woche à 45 bis 60 Minuten, Grundübungen mit sauberer Technik, 1,6 bis 2 Gramm Protein pro Kilo Körpergewicht und mehr Erholung als mit 25. Wie das konkret aussieht, steht in diesem Plan."
+      },
       {
         "type": "p",
         "text": "Du bist über 40, willst wieder in Form kommen, aber das Training von früher funktioniert irgendwie nicht mehr so wie damals. Der Rücken meldet sich, die Energie fehlt am Abend, und drei Tage nach dem Workout tut noch alles weh. Das kenne ich aus meiner täglichen Arbeit als Personal Trainer hier in Köln. Der Körper hat sich verändert. Das Training muss sich also auch verändern."
@@ -13573,6 +13577,18 @@ export const blogPosts: BlogPost[] = [
           "Zu wenig Protein über den Tag verteilt",
           "Schmerzsignale ignoriert statt Technik anzupassen"
         ]
+      },
+      {
+        "type": "h2",
+        "text": "Personal Trainer für Männer ab 40: wann er sich lohnt"
+      },
+      {
+        "type": "p",
+        "text": "Am meisten bringt ein Personal Trainer ab 40 beim Einstieg oder Wiedereinstieg: saubere Technik von der ersten Einheit an, ein Plan, der zu Kalender und Gelenken passt, und jemand, der die Steigerung dosiert, bevor Schulter oder Rücken dazwischenfunken. Das ist schneller und sicherer, als sich allein durchzuprobieren."
+      },
+      {
+        "type": "p",
+        "text": "Das Ziel ist dabei nicht, dass du dauerhaft einen Trainer brauchst. Du sollst verstehen, was du tust, und irgendwann selbstständig weitertrainieren können. Ob das 1-zu-1-Training in Köln oder das Online Coaching besser zu dir passt, klären wir im kostenlosen Erstgespräch."
       },
       {
         "type": "h2",
