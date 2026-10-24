@@ -32,6 +32,25 @@ const nextConfig: NextConfig = {
         destination: '/',
         permanent: true,
       },
+      // 24/10/2026: indirizzi che Google mostra ancora e che davano 404. Lo slug
+      // del blog vecchio aveva "lusttrotzdem" attaccato; il confronto fra
+      // quartieri non esiste piu', la pagina piu' vicina e' quella del quartiere.
+      // /datenschutz e' l'indirizzo che un tedesco scrive a mano.
+      {
+        source: '/blog/training-motivation-keine-lusttrotzdem-sport',
+        destination: '/blog/training-motivation-keine-lust-trotzdem-sport',
+        permanent: true,
+      },
+      {
+        source: '/koeln-vergleich/braunsfeld-vs-ehrenfeld/online-coaching',
+        destination: '/koeln/braunsfeld/online-coaching',
+        permanent: true,
+      },
+      {
+        source: '/datenschutz',
+        destination: '/privacy',
+        permanent: true,
+      },
     ];
   },
 };
