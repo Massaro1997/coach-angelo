@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { FileSignature, Plus, Link2, Send, Trash2, Check, X, Mail, MessageCircle } from "lucide-react";
 import { Card, Stat, Badge, Btn, EmptyState, cx } from "./ui";
-import { LISTINO, type VocePreventivo } from "@/lib/preventivo-listino";
+import { LISTINO, ORE_MESE, PREZZO_ORA, vociOre, voceAOre, type VocePreventivo } from "@/lib/preventivo-listino";
 
 interface Rata {
   id: string;
@@ -40,6 +40,7 @@ interface Preventivo {
   createdAt: string;
   pagamenti: Rata[];
   haFirma: boolean;
+  items?: VocePreventivo[];
 }
 
 const eur = (n: number) =>
@@ -238,7 +239,7 @@ export default function PreventiviView({
                                 : "border border-black/10 bg-[#f4f4f5] text-neutral-500"
                             )}
                           >
-                            {r.rataNumero ? `${r.rataNumero}/${r.rateTotali} ` : ""}
+                            {r.rataNumero && r.rateTotali ? `${r.rataNumero}/${r.rateTotali} ` : ""}
                             {eur(r.importo)}
                             {r.stato === "pagato" && " ✓"}
                           </span>
@@ -249,8 +250,23 @@ export default function PreventiviView({
 
                   <div className="shrink-0 text-right">
                     <p className="text-sm font-bold tabular-nums text-neutral-900">
-                      {eur(p.totale)}
+                      {(() => {
+                        const v = voceAOre(p.items);
+                        if (v && !v.oreFisse && !p.firmatoAt) return "4–20 ore, sceglie lei";
+                        return p.periodicita === "mensile" && p.mesi <= 1 ? `${eur(p.totale)}/mese` : eur(p.totale);
+                      })()}
                     </p>
+                    {(() => {
+                      const v = voceAOre(p.items);
+                      const b = p.items?.find((x) => x.modulo === "bonus");
+                      if (!v) return null;
+                      return (
+                        <p className="text-[10px] text-neutral-400">
+                          {p.firmatoAt || v.oreFisse ? `${v.quantita} ore pagate` : `${eur(PREZZO_ORA)}/ora`}
+                          {b && ` + ${b.quantita} regalate`}
+                        </p>
+                      );
+                    })()}
                     {p.periodicita === "mensile" && p.mesi > 1 && (
                       <p className="text-[10px] text-neutral-400">
                         {eur(Math.round((p.totale / p.mesi) * 100) / 100)}/mese × {p.mesi}
@@ -359,13 +375,16 @@ interface Pacchetto {
   consigliato?: boolean;
   /** prezzo all'ora: nel contratto si sceglie quante ore */
   aOre?: boolean;
+  /** a ore al mese, abbonamento: ore pagate + ore regalate */
+  oreMese?: boolean;
 }
 
 const PACCHETTI: Pacchetto[] = [
   { id: "c3", titolo: "Coaching 3 mesi", nota: "Obiettivo a breve", rate: "coaching-3" },
   { id: "c6", titolo: "Coaching 6 mesi", nota: "Il più scelto", rate: "coaching-6", subito: "coaching-6-einmal", consigliato: true },
   { id: "c12", titolo: "Coaching 12 mesi", nota: "Trasformazione completa", rate: "coaching-12", subito: "coaching-12-einmal" },
-  { id: "pt", titolo: "Personal Training 1-zu-1", nota: "In studio a Colonia, a ore", subito: "pt-1to1", aOre: true },
+  { id: "ore", titolo: "Personal Training a ore", nota: "4–20 ore al mese, si paga ogni mese", oreMese: true, consigliato: true },
+  { id: "pt", titolo: "Personal Training 1-zu-1", nota: "Ore pagate tutte alla firma", subito: "pt-1to1", aOre: true },
   { id: "plan", titolo: "Scheda pronta", nota: "PDF, una volta sola", subito: "trainingsplan" },
   { id: "custom", titolo: "Su misura", nota: "Voci e prezzi a mano" },
 ];
@@ -383,6 +402,10 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
   );
   const [pagamento, setPagamento] = useState<Pagamento>("rate");
   const [ore, setOre] = useState(10);
+  // contratto a ore al mese: 0 = le sceglie la cliente nel contratto
+  const [oreFisse, setOreFisse] = useState(0);
+  const [bonusOre, setBonusOre] = useState(0);
+  const [bonusOgniMese, setBonusOgniMese] = useState(true);
 
   const [clienteNome, setClienteNome] = useState(iniziale?.nome || "");
   const [clienteEmail, setClienteEmail] = useState(iniziale?.email || "");
@@ -409,7 +432,15 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
   const voce = voceListino(chiave);
 
   // quello che finisce nel documento
-  const doc = suMisura
+  const doc = pac.oreMese
+    ? {
+        oggetto: "Personal Training 1-zu-1 — Stundenpaket",
+        periodicita: "mensile",
+        mesi: 1,
+        accontoPerc: 100,
+        items: vociOre({ oreFisse, bonusOre, bonusOgniMese }),
+      }
+    : suMisura
     ? {
         oggetto,
         periodicita,
@@ -453,6 +484,7 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
           lingua,
           premesse: conNota ? premesse : "",
           ...doc,
+          ...(pac.oreMese ? { aOre: { oreFisse, bonusOre, bonusOgniMese } } : {}),
         }),
       });
       const j = await res.json();
@@ -582,7 +614,12 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                       <p className="mt-3 text-2xl font-bold text-neutral-300">—</p>
                     ) : (
                       <p className="mt-3 text-2xl font-bold tabular-nums text-neutral-900">
-                        {p.aOre ? (
+                        {p.oreMese ? (
+                          <>
+                            {eur(PREZZO_ORA)}
+                            <span className="text-sm font-semibold text-neutral-400"> /ora</span>
+                          </>
+                        ) : p.aOre ? (
                           <>
                             {eur(tot)}
                             <span className="text-sm font-semibold text-neutral-400"> /ora</span>
@@ -617,7 +654,61 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                 <span className="mr-2 inline-flex h-5 w-5 items-center justify-center bg-neutral-900 text-[11px] text-white">2</span>
                 Come paga
               </h3>
-              {pac.aOre ? (
+              {pac.oreMese ? (
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-xs font-semibold text-neutral-600">Ore pagate al mese ({eur(PREZZO_ORA)} l&apos;ora)</p>
+                    <div className="mt-2 flex flex-wrap gap-1.5">
+                      <button
+                        onClick={() => setOreFisse(0)}
+                        className={cx("border px-3 py-1.5 text-[12px] font-semibold", oreFisse === 0 ? "border-neutral-900 bg-neutral-900 text-white" : "border-black/15 bg-white text-neutral-600")}
+                      >
+                        Sceglie lei (4–20)
+                      </button>
+                      {ORE_MESE.map((n) => (
+                        <button
+                          key={n}
+                          onClick={() => setOreFisse(n)}
+                          className={cx("border px-2.5 py-1.5 text-[12px] font-semibold tabular-nums", oreFisse === n ? "border-neutral-900 bg-neutral-900 text-white" : "border-black/15 bg-white text-neutral-600")}
+                        >
+                          {n}
+                        </button>
+                      ))}
+                    </div>
+                    <p className="mt-1.5 text-[11px] text-neutral-500">
+                      {oreFisse
+                        ? `${oreFisse} ore × ${eur(PREZZO_ORA)} = ${eur(oreFisse * PREZZO_ORA)} al mese. Nel contratto sono già segnate, la cliente non le cambia.`
+                        : "Nel contratto la cliente mette la X su quante ore vuole: da 4 a 20 al mese."}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold text-neutral-600">Ore regalate (contate a parte, 0 €)</p>
+                    <div className="mt-2 flex flex-wrap items-center gap-3">
+                      <div className="flex items-stretch border border-black/15 bg-white">
+                        <button onClick={() => setBonusOre(Math.max(0, bonusOre - 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora regalata in meno">−</button>
+                        <span className="w-12 border-x border-black/15 py-2 text-center text-sm font-bold tabular-nums">{bonusOre}</span>
+                        <button onClick={() => setBonusOre(Math.min(20, bonusOre + 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora regalata in più">+</button>
+                      </div>
+                      {bonusOre > 0 && (
+                        <div className="flex border border-black/15">
+                          {([true, false] as const).map((v) => (
+                            <button
+                              key={String(v)}
+                              onClick={() => setBonusOgniMese(v)}
+                              className={cx("px-3 py-1.5 text-[12px] font-semibold", bonusOgniMese === v ? "bg-neutral-900 text-white" : "bg-white text-neutral-600")}
+                            >
+                              {v ? "Ogni mese" : "Solo il primo mese"}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                    <p className="mt-1.5 text-[11px] text-neutral-500">
+                      Se il prezzo le sembra tanto: nel contratto c&apos;è una riga a parte «Bonusstunden geschenkt», gratis. La prima visita è sempre gratis.
+                    </p>
+                  </div>
+                </div>
+              ) : pac.aOre ? (
                 <div className="flex flex-wrap items-center gap-3">
                   <div className="flex items-stretch border border-black/15 bg-white">
                     <button onClick={() => setOre(Math.max(1, ore - 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora in meno">−</button>
@@ -846,7 +937,11 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
             <dl className="mt-5 space-y-3 text-sm">
               <div className="flex items-baseline justify-between gap-3">
                 <dt className="text-neutral-600">Paga alla firma</dt>
-                <dd className="text-xl font-bold tabular-nums text-neutral-900">{eur(oggi)}</dd>
+                <dd className="text-xl font-bold tabular-nums text-neutral-900">
+                  {pac.oreMese && !oreFisse
+                    ? `${eur(ORE_MESE[0] * PREZZO_ORA)}–${eur(ORE_MESE[ORE_MESE.length - 1] * PREZZO_ORA)}`
+                    : eur(oggi)}
+                </dd>
               </div>
               {mensile && doc.mesi > 1 && (
                 <div className="flex items-baseline justify-between gap-3">
@@ -870,8 +965,18 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
               )}
               <div className="flex items-baseline justify-between gap-3 border-t border-black/10 pt-3">
                 <dt className="font-semibold text-neutral-900">Totale contratto</dt>
-                <dd className="font-bold tabular-nums text-neutral-900">{mensile && doc.mesi <= 1 ? `${eur(totale)}/mese` : eur(totale)}</dd>
+                <dd className="font-bold tabular-nums text-neutral-900">
+                  {pac.oreMese && !oreFisse ? "secondo le ore scelte" : mensile && doc.mesi <= 1 ? `${eur(totale)}/mese` : eur(totale)}
+                </dd>
               </div>
+              {pac.oreMese && bonusOre > 0 && (
+                <div className="flex items-baseline justify-between gap-3">
+                  <dt className="text-neutral-600">Ore regalate</dt>
+                  <dd className="text-right font-semibold text-neutral-900">
+                    +{bonusOre} {bonusOgniMese ? "ogni mese" : "il primo mese"}
+                  </dd>
+                </div>
+              )}
             </dl>
 
             <p className="mt-4 text-[11px] leading-relaxed text-neutral-500">

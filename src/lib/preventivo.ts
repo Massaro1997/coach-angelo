@@ -11,6 +11,7 @@ import { prisma } from "@/lib/prisma";
 export { COACH } from "./preventivo-testi";
 export { LISTINO, type VoceListino, type VocePreventivo } from "./preventivo-listino";
 import type { VocePreventivo } from "./preventivo-listino";
+import { COACH } from "./preventivo-testi";
 
 export const eur = (n: number) =>
   `${n.toLocaleString("de-DE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} €`;
@@ -122,6 +123,58 @@ export function pianoAllaFirma(p: {
       rataNumero: 2,
       rateTotali: 2,
     },
+  ];
+}
+
+/**
+ * Clausole del contratto a ore (Personal Training, 50 € l'ora, abbonamento
+ * mensile senza durata). Il paragrafo sulle ore regalate c'e' solo se Angelo
+ * ne ha messe.
+ */
+export function articoliOre(conBonus: boolean) {
+  const base = (titolo: string) => ARTICOLI_BASE.find((a) => a.titolo === titolo)!;
+  return [
+    {
+      titolo: "Gegenstand des Vertrags",
+      testo:
+        "Der Trainer erbringt Personal Training 1-zu-1 in Köln, im Studio oder outdoor; der genaue Ort wird abgesprochen. Der Kunde wählt in diesem Vertrag ein monatliches Stundenkontingent. Eine Stunde entspricht 60 Minuten Training. Trainingspläne und Empfehlungen sind individuell und nicht zur Weitergabe an Dritte bestimmt.",
+    },
+    {
+      titolo: "Erstes Treffen kostenlos",
+      testo:
+        "Das erste Treffen (Kennenlernen, Check-up und Probetraining) ist kostenlos und wird nicht auf das Stundenkontingent angerechnet.",
+    },
+    {
+      titolo: "Vergütung und Zahlung",
+      testo:
+        "Jede gebuchte Stunde kostet 50 €. Der Monatsbetrag ergibt sich aus den gebuchten Stunden mal 50 € (z. B. 8 Stunden = 400 €). Der erste Monat ist bei Unterzeichnung fällig; danach wird der Monatsbetrag jeweils am gleichen Tag des Folgemonats automatisch über das bei der ersten Zahlung hinterlegte Zahlungsmittel eingezogen.",
+    },
+    ...(conBonus
+      ? [
+          {
+            titolo: "Bonusstunden",
+            testo:
+              "Vom Trainer geschenkte Bonusstunden sind kostenlos und werden getrennt vom gebuchten Stundenkontingent geführt. Sie werden weder in Geld ausgezahlt noch erstattet und entfallen mit Ende des Vertrags.",
+          },
+        ]
+      : []),
+    {
+      titolo: "Stundenkontingent",
+      testo:
+        "Die Termine werden gemeinsam vereinbart. Nicht genutzte Stunden können in den Folgemonat übertragen werden und verfallen danach. Der Stundenumfang kann jeweils zum nächsten Abrechnungsmonat geändert werden.",
+    },
+    base("Termine und Absagen"),
+    {
+      titolo: "Laufzeit und Kündigung",
+      testo:
+        "Der Vertrag beginnt mit der Unterzeichnung und läuft auf unbestimmte Zeit. Beide Seiten können jederzeit zum Ende des laufenden Abrechnungsmonats kündigen; eine Nachricht per E-Mail oder WhatsApp genügt. Das Recht zur außerordentlichen Kündigung aus wichtigem Grund bleibt unberührt.",
+    },
+    base("Gesundheit und Eigenverantwortung"),
+    {
+      titolo: "Widerrufsrecht",
+      testo: `Der Kunde kann diesen Vertrag binnen 14 Tagen ab Vertragsabschluss ohne Angabe von Gründen widerrufen. Dafür genügt eine eindeutige Erklärung an ${COACH.name} (${COACH.email}, ${COACH.phone}), z. B. per E-Mail oder WhatsApp. Im Fall des Widerrufs werden alle Zahlungen unverzüglich, spätestens binnen 14 Tagen, über dasselbe Zahlungsmittel erstattet. Hat der Kunde verlangt, dass das Training schon während der Widerrufsfrist beginnt, zahlt er für die bis zum Widerruf erbrachten Stunden einen anteiligen Betrag.`,
+    },
+    base("Datenschutz"),
   ];
 }
 

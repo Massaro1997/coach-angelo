@@ -7,11 +7,13 @@ import { prisma } from "@/lib/prisma";
 import { requireAdmin } from "@/lib/admin-auth";
 import {
   ARTICOLI_BASE,
+  articoliOre,
   nuovoToken,
   prossimoNumero,
   totaleVoci,
   type VocePreventivo,
 } from "@/lib/preventivo";
+import { vociOre } from "@/lib/preventivo-listino";
 
 export const dynamic = "force-dynamic";
 
@@ -54,11 +56,30 @@ export async function POST(req: NextRequest) {
     lingua?: string;
     validoGiorni?: number;
     articoli?: { titolo: string; testo: string }[];
+    // Contratto a ore: oreFisse le decide Angelo (senza, sceglie il cliente
+    // fra 4 e 20); bonusOre sono regalate e stanno su una riga a parte.
+    aOre?: { oreFisse?: number; bonusOre?: number; bonusOgniMese?: boolean };
   };
   try {
     body = await req.json();
   } catch {
     return NextResponse.json({ error: "Richiesta non valida" }, { status: 400 });
+  }
+
+  if (body.aOre) {
+    const oreFisse = Number(body.aOre.oreFisse) || 0;
+    const bonusOre = Number(body.aOre.bonusOre) || 0;
+    if (oreFisse < 0 || oreFisse > 40 || bonusOre < 0 || bonusOre > 20) {
+      return NextResponse.json({ error: "Ore fuori misura (pagate fino a 40, regalate fino a 20)" }, { status: 400 });
+    }
+    // Il contratto a ore e' un abbonamento mensile senza durata: prezzi,
+    // voci e clausole li decide il server, non il modulo.
+    body.items = vociOre({ oreFisse, bonusOre, bonusOgniMese: body.aOre.bonusOgniMese !== false });
+    body.periodicita = "mensile";
+    body.mesi = 1;
+    body.accontoPerc = 100;
+    body.oggetto = body.oggetto?.trim() || "Personal Training 1-zu-1 — Stundenpaket";
+    body.articoli = articoliOre(bonusOre > 0);
   }
 
   const items = (body.items || []).filter((v) => v?.descrizione?.trim());

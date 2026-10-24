@@ -89,7 +89,7 @@ function leggiMessaggio(m: string): { risposte: [string, string][]; nota: string
 /** Dal lead al modulo del contratto: chi e', in che lingua ha compilato, cosa ha scelto nel wizard. */
 function bozzaDaLead(c: Contatto): BozzaContratto {
   const pacchetto =
-    c.service === "personal-training" ? "pt" : c.service === "trainingsplan" ? "plan" : "c6";
+    c.service === "personal-training" ? "ore" : c.service === "trainingsplan" ? "plan" : "c6";
   return {
     nome: c.name.trim(),
     email: c.email.trim(),

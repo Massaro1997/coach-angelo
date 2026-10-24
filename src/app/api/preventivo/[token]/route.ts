@@ -10,11 +10,34 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { gmailTransport, GMAIL_FROM } from "@/lib/gmail";
 import { NOTIFY_EMAILS } from "@/lib/resend";
-import { nuovoToken, pianoAllaFirma, eur } from "@/lib/preventivo";
+import { nuovoToken, pianoAllaFirma, eur, totaleVoci } from "@/lib/preventivo";
+import {
+  ORE_MESE,
+  OPZIONI_ORE,
+  descrizioneOre,
+  voceAOre,
+  type ScelteOre,
+  type VocePreventivo,
+} from "@/lib/preventivo-listino";
 
 export const dynamic = "force-dynamic";
 
 const TOKEN_OK = /^[a-f0-9]{32}$/i;
+
+/** Le crocette del contratto a ore, per la mail ad Angelo. */
+function righeScelte(s: ScelteOre, items: VocePreventivo[]) {
+  const bonus = items.find((v) => v.modulo === "bonus");
+  const riga = (k: string, v: string[]) => `<li>${k}: ${v.length ? v.join(", ") : "—"}</li>`;
+  return `<ul>
+    <li>Ore pagate: <strong>${s.ore} al mese</strong></li>
+    ${bonus ? `<li>Ore regalate: ${bonus.quantita} (${bonus.descrizione.replace(/^.*— /, "")})</li>` : ""}
+    ${riga("Obiettivi", s.ziele)}
+    ${riga("Giorni", s.tage)}
+    ${riga("Orari", s.zeiten)}
+    ${riga("Dove", s.orte)}
+    <li>Inizio subito (prima dei 14 giorni di recesso): ${s.sofortBeginn ? "sì" : "no"}</li>
+  </ul>`;
+}
 
 /** Vista pubblica: mai la firma grezza, mai i campi interni. */
 function pubblico(p: {
@@ -100,7 +123,7 @@ export async function POST(
     return NextResponse.json({ error: "Link non valido" }, { status: 400 });
   }
 
-  let body: { nome?: string; firma?: string };
+  let body: { nome?: string; firma?: string; scelte?: Partial<ScelteOre> };
   try {
     body = await req.json();
   } catch {
@@ -146,6 +169,45 @@ export async function POST(
     );
   }
 
+  // Contratto a ore: le ore e le crocette arrivano con la firma. Voci e
+  // totale si ricalcolano qui dalla scelta, mai da un prezzo del browser.
+  const voceOre = voceAOre(p.items);
+  let ricalcolo: { items: VocePreventivo[]; totale: number; oggetto: string; scelte: ScelteOre } | null = null;
+  if (voceOre) {
+    const s = body.scelte || {};
+    const ore = voceOre.oreFisse ?? Number(s.ore);
+    if (!voceOre.oreFisse && !(voceOre.ore?.length ? voceOre.ore : ORE_MESE).includes(ore)) {
+      return NextResponse.json(
+        { error: de ? "Bitte wähle, wie viele Stunden pro Monat du buchst." : "Scegli quante ore al mese." },
+        { status: 400 }
+      );
+    }
+    if (!s.gesundheit || !s.bedingungen) {
+      return NextResponse.json(
+        { error: de ? "Bitte die beiden Pflichtfelder ankreuzen." : "Spunta le due conferme obbligatorie." },
+        { status: 400 }
+      );
+    }
+    // solo valori del modulo: il resto si scarta
+    const tieni = (ammessi: readonly string[], v: unknown) =>
+      Array.isArray(v) ? ammessi.filter((x) => v.includes(x)) : [];
+    const scelte: ScelteOre = {
+      ore,
+      ziele: tieni(OPZIONI_ORE.ziele, s.ziele),
+      tage: tieni(OPZIONI_ORE.tage, s.tage),
+      zeiten: tieni(OPZIONI_ORE.zeiten, s.zeiten),
+      orte: tieni(OPZIONI_ORE.orte, s.orte),
+      gesundheit: true,
+      bedingungen: true,
+      sofortBeginn: !!s.sofortBeginn,
+      am: new Date().toISOString(),
+    };
+    const items = (p.items as unknown as VocePreventivo[]).map((v) =>
+      v.modulo === "ore" ? { ...v, descrizione: descrizioneOre(ore), quantita: ore, scelte } : v
+    );
+    ricalcolo = { items, totale: totaleVoci(items), oggetto: descrizioneOre(ore), scelte };
+  }
+
   const png = Buffer.from(body.firma.split(",")[1], "base64");
   // Una firma disegnata sta in poche decine di KB: oltre, e' un'immagine
   // caricata a mano e non la accettiamo.
@@ -155,18 +217,27 @@ export async function POST(
 
   await prisma.preventivo.update({
     where: { id: p.id },
-    data: { firma: png, firmatoNome: nome, firmatoAt: new Date() },
+    data: {
+      firma: png,
+      firmatoNome: nome,
+      firmatoAt: new Date(),
+      ...(ricalcolo
+        ? { items: ricalcolo.items as unknown as object, totale: ricalcolo.totale, oggetto: ricalcolo.oggetto }
+        : {}),
+    },
   });
+  const totale = ricalcolo?.totale ?? p.totale;
+  const oggetto = ricalcolo?.oggetto ?? p.oggetto;
 
   // Piano rate: si crea alla firma, cosi' il cliente trova subito da pagare.
   const gia = await prisma.pagamento.count({ where: { preventivoId: p.id } });
   if (gia === 0) {
     const piano = pianoAllaFirma({
-      totale: p.totale,
+      totale,
       periodicita: p.periodicita,
       mesi: p.mesi,
       accontoPerc: p.accontoPerc,
-      oggetto: p.oggetto,
+      oggetto,
     });
     await prisma.pagamento.createMany({
       data: piano.map((r) => ({
@@ -201,7 +272,8 @@ export async function POST(
         <div style="font-family:system-ui,sans-serif">
           <p><strong>${nome}</strong> ha firmato il contratto <strong>${p.numero}</strong>.</p>
           <p>Cliente: ${p.clienteNome}${p.clienteEmail ? ` — ${p.clienteEmail}` : ""}</p>
-          <p>Totale: <strong>${eur(p.totale)}</strong></p>
+          <p>Totale: <strong>${eur(totale)}</strong>${p.periodicita === "mensile" && p.mesi <= 1 ? " al mese" : ""}</p>
+          ${ricalcolo ? righeScelte(ricalcolo.scelte, ricalcolo.items) : ""}
           <p>${prima ? `Prima rata da incassare: ${eur(prima.importo)}` : "Nessuna rata generata."}</p>
           <p style="color:#666;font-size:13px">
             Il contratto si perfeziona quando la prima rata risulta pagata.

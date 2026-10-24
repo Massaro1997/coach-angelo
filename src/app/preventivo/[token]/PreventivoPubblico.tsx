@@ -2,8 +2,10 @@
 
 import { useEffect, useRef, useState } from "react";
 import { COACH } from "@/lib/preventivo-testi";
+import { descrizioneOre, voceAOre, type VocePreventivo } from "@/lib/preventivo-listino";
+import { Angaben, SceltaOre, Spunta, scelteVuote, type BozzaScelte } from "./ModuloOre";
 
-interface Voce { descrizione: string; prezzo: number; quantita: number }
+type Voce = VocePreventivo;
 interface Articolo { titolo: string; testo: string }
 
 interface Dati {
@@ -56,6 +58,20 @@ const T = {
     grazie: "Danke! Dein Vertrag ist unterschrieben.",
     prossimo: "Nächster Schritt: erste Rate bezahlen.",
     invio: "Wird gesendet…",
+    gratis: "gratis",
+    monatsbetrag: "Monatsbetrag",
+    kuendbar: "monatlich, jederzeit zum Monatsende kündbar",
+    waehle: "Bitte oben die Stunden wählen",
+    bestaetigung: "Bestätigungen",
+    gesundheit: "Ich bin gesundheitlich in der Lage zu trainieren und habe bestehende Beschwerden vorab mitgeteilt.",
+    accetto: "Ich habe die Vertragsbedingungen und das Widerrufsrecht gelesen und bin einverstanden.",
+    sofort: "Ich möchte, dass das Training schon vor Ablauf der 14-tägigen Widerrufsfrist beginnt.",
+    pflicht: "Pflichtfeld",
+    freiwillig: "freiwillig",
+    errOre: "Bitte wähle, wie viele Stunden pro Monat du buchst.",
+    errPflicht: "Bitte die beiden Pflichtfelder ankreuzen.",
+    pdf: "Als PDF speichern",
+    ortDatum: "Ort, Datum",
   },
   it: {
     angebot: "Contratto",
@@ -80,6 +96,20 @@ const T = {
     grazie: "Grazie! Il contratto è firmato.",
     prossimo: "Prossimo passo: pagare la prima rata.",
     invio: "Invio…",
+    gratis: "gratis",
+    monatsbetrag: "Importo mensile",
+    kuendbar: "al mese, disdetta in ogni momento a fine mese",
+    waehle: "Scegli prima le ore",
+    bestaetigung: "Conferme",
+    gesundheit: "Sono in condizione di allenarmi e ho comunicato prima eventuali problemi di salute.",
+    accetto: "Ho letto le condizioni del contratto e il diritto di recesso e le accetto.",
+    sofort: "Voglio iniziare l'allenamento prima della fine dei 14 giorni di recesso.",
+    pflicht: "obbligatorio",
+    freiwillig: "facoltativo",
+    errOre: "Scegli quante ore al mese.",
+    errPflicht: "Spunta le due conferme obbligatorie.",
+    pdf: "Salva come PDF",
+    ortDatum: "Luogo, data",
   },
 };
 
@@ -89,6 +119,8 @@ export default function PreventivoPubblico({ token }: { token: string }) {
   const [nome, setNome] = useState("");
   const [invio, setInvio] = useState(false);
   const [fatto, setFatto] = useState<{ token: string } | null>(null);
+  // contratto a ore: ore scelte e crocette
+  const [sc, setSc] = useState<BozzaScelte>(scelteVuote());
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const disegna = useRef(false);
@@ -101,7 +133,11 @@ export default function PreventivoPubblico({ token }: { token: string }) {
         if (!r.ok) throw new Error(j.error || "Errore");
         return j;
       })
-      .then(setD)
+      .then((j: Dati) => {
+        setD(j);
+        const v = voceAOre(j.items);
+        if (v) setSc(v.scelte ? { ...scelteVuote(), ...v.scelte } : scelteVuote(v.oreFisse ?? 0));
+      })
       .catch((e) => setErrore(e.message));
   }, [token]);
 
@@ -173,6 +209,11 @@ export default function PreventivoPubblico({ token }: { token: string }) {
       setErrore(d.lingua === "de" ? "Bitte unterschreiben." : "Disegna la firma.");
       return;
     }
+    const tt = T[d.lingua === "it" ? "it" : "de"];
+    if (voceAOre(d.items)) {
+      if (!sc.ore) return setErrore(tt.errOre);
+      if (!sc.gesundheit || !sc.bedingungen) return setErrore(tt.errPflicht);
+    }
     setInvio(true);
     try {
       const res = await fetch(`/api/preventivo/${token}`, {
@@ -181,6 +222,7 @@ export default function PreventivoPubblico({ token }: { token: string }) {
         body: JSON.stringify({
           nome: nome.trim(),
           firma: canvasRef.current!.toDataURL("image/png"),
+          ...(voceAOre(d.items) ? { scelte: sc } : {}),
         }),
       });
       const j = await res.json();
@@ -231,11 +273,29 @@ export default function PreventivoPubblico({ token }: { token: string }) {
   const giaFirmato = !!d.firmatoAt;
   const bloccato = d.scaduto || d.stato === "sostituito";
 
+  // Contratto a ore: fino alla firma ore e totale seguono la scelta sul
+  // telefono; dopo, valgono quelli salvati dal server.
+  const vOre = voceAOre(d.items);
+  const vBonus = (d.items || []).find((v) => v.modulo === "bonus") ?? null;
+  const oreOra = vOre ? (giaFirmato ? vOre.quantita : sc.ore) : 0;
+  const totaleVista = vOre && !giaFirmato ? oreOra * vOre.prezzo : d.totale;
+  const sola = giaFirmato || bloccato || !!fatto;
+
   return (
-    <main className="min-h-screen bg-[#f4f4f5] px-4 py-8 sm:py-12">
-      <div className="mx-auto max-w-3xl space-y-4">
+    <main className="min-h-screen bg-[#f4f4f5] px-4 py-8 sm:py-12 print:min-h-0 print:bg-white print:p-0">
+      <style>{`@page { size: A4; margin: 14mm; } @media print { * { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }`}</style>
+      <div className="mx-auto max-w-3xl space-y-4 print:max-w-none">
+        <div className="flex justify-end print:hidden">
+          <button
+            type="button"
+            onClick={() => window.print()}
+            className="text-xs font-semibold text-neutral-500 underline-offset-2 hover:text-neutral-900 hover:underline"
+          >
+            {t.pdf}
+          </button>
+        </div>
         {/* ------------------------------------------------- il documento */}
-        <article className="border border-black/10 bg-white p-6 sm:p-10">
+        <article className="border border-black/10 bg-white p-6 sm:p-10 print:border-0 print:p-0">
           <header className="flex flex-wrap items-start justify-between gap-4 border-b border-black/10 pb-6">
             <div>
               <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-neutral-400">
@@ -294,28 +354,42 @@ export default function PreventivoPubblico({ token }: { token: string }) {
                 </tr>
               </thead>
               <tbody>
-                {(d.items || []).map((v, i) => (
-                  <tr key={i} className="border-b border-black/[0.06]">
-                    <td className="py-2.5 pr-3 text-neutral-700">{v.descrizione}</td>
-                    <td className="py-2.5 text-right tabular-nums text-neutral-500">
-                      {v.quantita || 1}
-                    </td>
-                    <td className="py-2.5 text-right tabular-nums text-neutral-900">
-                      {eur(v.prezzo * (v.quantita || 1))}
-                    </td>
-                  </tr>
-                ))}
+                {(d.items || []).map((v, i) => {
+                  const ore = v.modulo === "ore";
+                  const q = ore ? oreOra : v.quantita || 1;
+                  return (
+                    <tr key={i} className="border-b border-black/[0.06]">
+                      <td className="py-2.5 pr-3 text-neutral-700">
+                        {ore && oreOra ? descrizioneOre(oreOra) : v.descrizione}
+                        {ore && <span className="block text-[11px] text-neutral-400">{eur(v.prezzo)} pro Stunde</span>}
+                      </td>
+                      <td className="py-2.5 text-right tabular-nums text-neutral-500">{q || "—"}</td>
+                      <td className="py-2.5 text-right tabular-nums text-neutral-900">
+                        {v.prezzo === 0 ? (
+                          <span className="font-semibold">{t.gratis}</span>
+                        ) : ore && !q ? (
+                          "—"
+                        ) : (
+                          eur(v.prezzo * q)
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
 
             <div className="mt-4 flex items-baseline justify-end gap-3 border-t-2 border-neutral-900 pt-3">
               <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-400">
-                {t.gesamt}
+                {vOre ? t.monatsbetrag : t.gesamt}
               </span>
               <span className="text-2xl font-bold tabular-nums text-neutral-900">
-                {eur(d.totale)}
+                {vOre && !oreOra ? "—" : eur(totaleVista)}
               </span>
             </div>
+            {vOre && (
+              <p className="mt-1 text-right text-xs text-neutral-500">{oreOra ? t.kuendbar : t.waehle}</p>
+            )}
             {mensile && (
               <p className="mt-1 text-right text-xs text-neutral-500">
                 {eur(Math.round((d.totale / d.mesi) * 100) / 100)} {t.monatlich} × {d.mesi}
@@ -325,6 +399,13 @@ export default function PreventivoPubblico({ token }: { token: string }) {
               <p className="mt-1 text-right text-xs text-neutral-400">{d.importoNota}</p>
             )}
           </section>
+
+          {vOre && (
+            <>
+              <SceltaOre voce={vOre} bonus={vBonus} sc={sc} setSc={setSc} sola={sola} lingua={d.lingua} />
+              <Angaben sc={sc} setSc={setSc} sola={sola} lingua={d.lingua} />
+            </>
+          )}
 
           {/* clausole */}
           {d.articoli && d.articoli.length > 0 && (
@@ -345,11 +426,42 @@ export default function PreventivoPubblico({ token }: { token: string }) {
               </ol>
             </section>
           )}
+
+          {vOre && (
+            <section className="mt-8 border-t border-black/10 pt-6 break-inside-avoid">
+              <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-400">
+                {t.bestaetigung}
+              </p>
+              <div className="mt-3 space-y-3 text-sm text-neutral-700">
+                {([
+                  ["gesundheit", t.gesundheit, t.pflicht],
+                  ["bedingungen", t.accetto, t.pflicht],
+                  ["sofortBeginn", t.sofort, t.freiwillig],
+                ] as const).map(([k, testo, nota]) => (
+                  <Spunta key={k} on={sc[k]} onClick={() => setSc({ ...sc, [k]: !sc[k] })} sola={sola}>
+                    {testo} <span className="text-[11px] text-neutral-400">({nota})</span>
+                  </Spunta>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* firma su carta: si vede solo nel PDF di un contratto non ancora firmato */}
+          {!giaFirmato && !fatto && (
+            <section className="mt-10 hidden grid-cols-2 gap-10 print:grid">
+              {[t.ortDatum, t.unterschrift].map((l) => (
+                <div key={l}>
+                  <div className="h-12 border-b border-neutral-900" />
+                  <p className="mt-1 text-[11px] text-neutral-500">{l}</p>
+                </div>
+              ))}
+            </section>
+          )}
         </article>
 
         {/* ---------------------------------------------------- la firma */}
         {fatto ? (
-          <div className="border border-green-600/30 bg-green-50 p-6 text-center">
+          <div className="border border-green-600/30 bg-green-50 p-6 text-center print:hidden">
             <p className="font-bold text-green-800">{t.grazie}</p>
             {fatto.token && (
               <>
@@ -364,7 +476,7 @@ export default function PreventivoPubblico({ token }: { token: string }) {
             )}
           </div>
         ) : giaFirmato ? (
-          <div className="border border-black/10 bg-white p-6 text-center">
+          <div className="border border-black/10 bg-white p-6 text-center print:hidden">
             <p className="text-sm text-neutral-600">
               {t.firmato} {new Date(d.firmatoAt!).toLocaleDateString(loc)} — {d.firmatoNome}
             </p>
@@ -378,13 +490,13 @@ export default function PreventivoPubblico({ token }: { token: string }) {
             )}
           </div>
         ) : bloccato ? (
-          <div className="border border-amber-500/40 bg-amber-50 p-6 text-center">
+          <div className="border border-amber-500/40 bg-amber-50 p-6 text-center print:hidden">
             <p className="text-sm font-semibold text-amber-800">
               {d.scaduto ? t.scaduto : t.sostituito}
             </p>
           </div>
         ) : (
-          <section className="border border-black/10 bg-white p-6 sm:p-8">
+          <section className="border border-black/10 bg-white p-6 sm:p-8 print:hidden">
             <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-400">
               {t.unterschrift}
             </p>

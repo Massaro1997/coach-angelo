@@ -18,7 +18,96 @@ export interface VocePreventivo {
   descrizione: string;
   prezzo: number;
   quantita: number;
+  /**
+   * Solo contratto a ore. Sta dentro la voce perche' items e' gia' JSON:
+   * nessuna colonna nuova nel database.
+   * - "ore": le ore pagate. Il cliente sceglie fra `ore`, oppure Angelo le
+   *   fissa con `oreFisse`. Alla firma `quantita` diventa le ore scelte e le
+   *   crocette restano in `scelte`.
+   * - "bonus": ore regalate da Angelo, riga a parte a 0 €.
+   * - "gratis": la prima visita, riga a parte a 0 €.
+   */
+  modulo?: "ore" | "bonus" | "gratis";
+  ore?: number[];
+  oreFisse?: number;
+  scelte?: ScelteOre;
 }
+
+/* ------------------------------------------------- contratto a ore (PT) */
+
+/** Ore al mese fra cui sceglie il cliente: da 4 a 20, di due in due. */
+export const ORE_MESE = [4, 6, 8, 10, 12, 14, 16, 18, 20];
+/** Prezzo del volantino: "Personal Training 1-zu-1: 50 € pro Stunde". */
+export const PREZZO_ORA = 50;
+
+/** Crocette del contratto a ore. Valori fissi: il server scarta il resto. */
+export const OPZIONI_ORE = {
+  ziele: ["Muskelaufbau", "Abnehmen", "Fitness & Ausdauer", "Rücken & Haltung", "Beweglichkeit"],
+  tage: ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"],
+  zeiten: ["Morgens (6–10 Uhr)", "Mittags (10–14 Uhr)", "Nachmittags (14–18 Uhr)", "Abends (18–21 Uhr)"],
+  orte: ["Im Studio in Köln", "Outdoor in Köln"],
+} as const;
+
+export interface ScelteOre {
+  ore: number;
+  ziele: string[];
+  tage: string[];
+  zeiten: string[];
+  orte: string[];
+  /** in salute, eventuali problemi gia' detti ad Angelo */
+  gesundheit: boolean;
+  /** ha letto e accetta le condizioni */
+  bedingungen: boolean;
+  /** vuole iniziare prima della fine dei 14 giorni di recesso */
+  sofortBeginn: boolean;
+  /** quando ha messo le crocette (= firma) */
+  am?: string;
+}
+
+/** Circa quante volte a settimana, per aiutare a scegliere. */
+export const allaSettimana = (ore: number) => {
+  const v = Math.round((ore / 4.33) * 2) / 2;
+  return v <= 1 ? "ca. 1× pro Woche" : `ca. ${String(v).replace(".", ",")}× pro Woche`;
+};
+
+export const descrizioneOre = (ore?: number) =>
+  ore
+    ? `Personal Training 1-zu-1 — ${ore} Stunden pro Monat`
+    : "Personal Training 1-zu-1 — Stunden pro Monat nach Wahl";
+
+export const descrizioneBonus = (ore: number, ogniMese: boolean) =>
+  `Bonusstunden geschenkt — ${ore} ${ore === 1 ? "Stunde" : "Stunden"} ${ogniMese ? "pro Monat" : "im ersten Monat"}`;
+
+export const DESCRIZIONE_GRATIS = "Erstes Treffen: Kennenlernen, Check-up und Probetraining";
+
+/**
+ * Voci del contratto a ore.
+ * oreFisse: le decide Angelo (il cliente non sceglie); senza, sceglie il
+ * cliente fra 4 e 20 e fino alla firma la voce vale il minimo.
+ */
+export function vociOre(o: { oreFisse?: number; bonusOre?: number; bonusOgniMese?: boolean }): VocePreventivo[] {
+  const fisse = o.oreFisse && o.oreFisse > 0 ? Math.round(o.oreFisse) : undefined;
+  const voci: VocePreventivo[] = [
+    {
+      descrizione: descrizioneOre(fisse),
+      prezzo: PREZZO_ORA,
+      quantita: fisse ?? ORE_MESE[0],
+      modulo: "ore",
+      ore: ORE_MESE,
+      ...(fisse ? { oreFisse: fisse } : {}),
+    },
+  ];
+  const bonus = Math.max(0, Math.round(o.bonusOre || 0));
+  if (bonus > 0) {
+    voci.push({ descrizione: descrizioneBonus(bonus, o.bonusOgniMese !== false), prezzo: 0, quantita: bonus, modulo: "bonus" });
+  }
+  voci.push({ descrizione: DESCRIZIONE_GRATIS, prezzo: 0, quantita: 1, modulo: "gratis" });
+  return voci;
+}
+
+/** La voce delle ore pagate, se il contratto e' a ore. */
+export const voceAOre = (items: unknown): VocePreventivo | null =>
+  Array.isArray(items) ? (items as VocePreventivo[]).find((v) => v?.modulo === "ore") ?? null : null;
 
 const COACHING = "Individueller Trainingsplan, Ernährungsplan, wöchentliche Check-ins, WhatsApp-Support.";
 
