@@ -129,7 +129,7 @@ export default function PreventivoPubblico({ token }: { token: string }) {
   }
 
   // Contratto a ore: prima si compila, poi esce il foglio da firmare.
-  if (voceAOre(d.items)) return <ContrattoOre d={d} token={token} />;
+  if (voceAOre(d.items)) return <ContrattoOre d={d} token={token} onAggiorna={setD} />;
 
   const t = T[d.lingua === "it" ? "it" : "de"];
   const loc = d.lingua === "it" ? "it-IT" : "de-DE";

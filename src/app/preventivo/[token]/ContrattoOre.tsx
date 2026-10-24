@@ -1,14 +1,17 @@
 "use client";
 
-// Contratto a ore in due passi, chiunque lo compili (la cliente da sola o
-// Angelo dal suo telefono con lei davanti):
-//   1. Angaben: dati della cliente, ore, crocette, conferme.
-//   2. Vertrag: il foglio gia' compilato, come il PDF. Resta solo da
-//      firmare col dito e pagare.
-// Fino alla firma la bozza sta nel browser, cosi' un ricarico non la perde.
+// Contratto a ore in due passi:
+//   1. Angaben: di solito li compila Angelo per la cliente (dati, ore,
+//      crocette). Solo lui, entrato nell'admin, vede le ore regalate; con
+//      "Salva" il contratto resta pronto sul server.
+//   2. Vertrag: il foglio gia' compilato, come il PDF. La cliente spunta le
+//      conferme, firma col dito e paga. Un contratto preparato da Angelo si
+//      apre direttamente qui e la cliente non ne cambia i dati.
+// Se la cliente apre il link prima, compila lei il passo 1 (senza ore
+// regalate). Fino alla firma la bozza sta nel browser.
 
 import { useEffect, useState } from "react";
-import { ArrowLeft, Gift } from "lucide-react";
+import { ArrowLeft, Gift, Link2 } from "lucide-react";
 import { COACH } from "@/lib/preventivo-testi";
 import {
   OPZIONI_ORE,
@@ -27,7 +30,7 @@ const T = {
     titolo: "Personal Training Vertrag",
     passo1: "Angaben",
     passo2: "Unterschreiben & bezahlen",
-    intro: "Bitte alles ausfüllen. Danach siehst du den fertigen Vertrag und musst nur noch unterschreiben und bezahlen.",
+    intro: "Bitte alles ausfüllen. Danach erscheint der fertige Vertrag: Bestätigungen ankreuzen, unterschreiben, bezahlen.",
     persona: "Persönliche Daten",
     nome: "Vor- und Nachname",
     strasse: "Straße und Hausnummer",
@@ -41,11 +44,10 @@ const T = {
     accetto: "Ich habe die Vertragsbedingungen und das Widerrufsrecht gelesen und bin einverstanden.",
     sofort: "Ich möchte, dass das Training schon vor Ablauf der 14-tägigen Widerrufsfrist beginnt.",
     pflicht: "Pflichtfeld",
-    leggi: "Vertragsbedingungen lesen",
-    chiudi: "Bedingungen schließen",
     avanti: "Weiter: fertigen Vertrag ansehen",
     errOre: "Bitte wähle, wie viele Stunden pro Monat du buchst.",
     errPflicht: "Bitte die beiden Pflichtfelder bei den Bestätigungen ankreuzen.",
+    vorDerUnterschrift: "Bitte vor der Unterschrift ankreuzen",
     modifica: "Angaben ändern",
     pdf: "Als PDF speichern",
     vom: "vom",
@@ -94,7 +96,7 @@ const T = {
     titolo: "Contratto Personal Training",
     passo1: "Dati",
     passo2: "Firma e paga",
-    intro: "Compila tutto. Poi vedi il contratto pronto e devi solo firmare e pagare.",
+    intro: "Compila tutto. Poi esce il contratto pronto: spunta le conferme, firma e paga.",
     persona: "Dati personali",
     nome: "Nome e cognome",
     strasse: "Via e numero civico",
@@ -108,11 +110,10 @@ const T = {
     accetto: "Ho letto le condizioni del contratto e il diritto di recesso e le accetto.",
     sofort: "Voglio iniziare l'allenamento prima della fine dei 14 giorni di recesso.",
     pflicht: "obbligatorio",
-    leggi: "Leggi le condizioni",
-    chiudi: "Chiudi le condizioni",
     avanti: "Avanti: vedi il contratto pronto",
     errOre: "Scegli quante ore al mese.",
     errPflicht: "Spunta le due conferme obbligatorie.",
+    vorDerUnterschrift: "Da spuntare prima di firmare",
     modifica: "Modifica i dati",
     pdf: "Salva come PDF",
     vom: "del",
@@ -176,7 +177,15 @@ const dataDa = (iso: string, loc: string) => {
 
 interface Bozza { persona: PersonaOre; sc: BozzaScelte }
 
-export default function ContrattoOre({ d, token }: { d: Dati; token: string }) {
+export default function ContrattoOre({
+  d,
+  token,
+  onAggiorna,
+}: {
+  d: Dati;
+  token: string;
+  onAggiorna: (d: Dati) => void;
+}) {
   const de = d.lingua !== "it";
   const t = T[de ? "de" : "it"];
   const loc = de ? "de-DE" : "it-IT";
@@ -185,12 +194,16 @@ export default function ContrattoOre({ d, token }: { d: Dati; token: string }) {
   const giaFirmato = !!d.firmatoAt;
   const bloccato = d.scaduto || d.stato === "sostituito";
   const chiaveBozza = `fp-vertrag-${token}`;
+  // Angelo entrato nell'admin su questo telefono
+  const admin = !!d.admin;
+  // preparato da Angelo: la cliente vede solo il foglio
+  const preparato = !!vOre.preparato;
 
   // La bozza si legge qui, all'avvio dello stato: con un effetto il
   // salvataggio (che parte anche lui al montaggio) la sovrascriverebbe prima.
   // La pagina si disegna solo nel browser, dopo il fetch: window c'e'.
   const [bozza] = useState<Partial<Bozza>>(() => {
-    if (giaFirmato) return {};
+    if (giaFirmato || preparato) return {};
     try {
       return (JSON.parse(localStorage.getItem(chiaveBozza) || "{}") as Partial<Bozza>) || {};
     } catch {
@@ -211,8 +224,16 @@ export default function ContrattoOre({ d, token }: { d: Dati; token: string }) {
     // ore fissate da Angelo: valgono sempre quelle
     return vOre.oreFisse ? { ...base, ore: vOre.oreFisse } : base;
   });
-  const [passo, setPasso] = useState<"angaben" | "vertrag">(giaFirmato || bloccato ? "vertrag" : "angaben");
-  const [leggi, setLeggi] = useState(false);
+  const [passo, setPasso] = useState<"angaben" | "vertrag">(
+    giaFirmato || bloccato || preparato ? "vertrag" : "angaben"
+  );
+  // ore regalate: le decide solo Angelo (il server rifiuta chi non e' admin)
+  const [bonus, setBonus] = useState(() => ({
+    ore: vBonus?.quantita ?? 0,
+    ogniMese: !vBonus?.descrizione.includes("ersten Monat"),
+  }));
+  const [salvo, setSalvo] = useState(false);
+  const [copiato, setCopiato] = useState(false);
   const [errore, setErrore] = useState("");
   const [invio, setInvio] = useState(false);
   const [fatto, setFatto] = useState<{ token: string } | null>(null);
@@ -220,38 +241,67 @@ export default function ContrattoOre({ d, token }: { d: Dati; token: string }) {
 
   // bozza nel browser: si riprende dopo un ricarico, sparisce con la firma
   useEffect(() => {
-    if (giaFirmato || fatto) return;
+    if (giaFirmato || fatto || preparato) return;
     try {
       localStorage.setItem(chiaveBozza, JSON.stringify({ persona, sc } satisfies Bozza));
     } catch {
       // storage pieno o bloccato: la bozza vive solo in pagina
     }
-  }, [persona, sc, giaFirmato, fatto, chiaveBozza]);
+  }, [persona, sc, giaFirmato, fatto, preparato, chiaveBozza]);
 
   const ore = giaFirmato ? vOre.quantita : sc.ore;
   const mensile = ore * vOre.prezzo;
   const imposta = (k: keyof PersonaOre) => (e: React.ChangeEvent<HTMLInputElement>) =>
     setPersona({ ...persona, [k]: e.target.value });
 
+  /** Passo 1: dati e ore. Le conferme si spuntano sul foglio. */
   function controlla(): string | null {
     const e = erroreArPersona(persona, de);
     if (e) return e;
     if (!sc.ore) return t.errOre;
-    if (!sc.gesundheit || !sc.bedingungen) return t.errPflicht;
     return null;
   }
 
-  function avanti() {
+  async function avanti() {
     const e = controlla();
     setErrore(e || "");
     if (e) return;
+    if (admin) {
+      // Angelo: si salva sul server, cosi' la cliente trova il foglio pronto
+      // anche dal suo telefono
+      setSalvo(true);
+      try {
+        const res = await fetch(`/api/preventivo/${token}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ cliente: persona, scelte: sc, bonus }),
+        });
+        const j = await res.json();
+        if (!res.ok) throw new Error(j.error || "Errore");
+        try {
+          localStorage.removeItem(chiaveBozza);
+        } catch {
+          // niente da togliere
+        }
+        onAggiorna(j);
+      } catch (err) {
+        setErrore((err as Error).message);
+        return;
+      } finally {
+        setSalvo(false);
+      }
+    }
     setPasso("vertrag");
     window.scrollTo({ top: 0 });
   }
 
   async function firmaEPaga() {
     setErrore("");
-    const e = controlla();
+    if (!sc.gesundheit || !sc.bedingungen) {
+      setErrore(t.errPflicht);
+      return;
+    }
+    const e = preparato ? null : controlla();
     if (e) {
       setErrore(e);
       return;
@@ -356,40 +406,25 @@ export default function ContrattoOre({ d, token }: { d: Dati; token: string }) {
               </div>
             </div>
 
-            <SceltaOre voce={vOre} bonus={vBonus} sc={sc} setSc={setSc} sola={false} lingua={d.lingua} />
+            {admin && (
+              <p className="mt-4 border-l-4 border-neutral-900 bg-[#f4f4f5] px-3 py-2 text-[13px] text-neutral-700">
+                <strong>Modalità Angelo:</strong> compili tu per la cliente. Le ore regalate le vedi solo tu. Con
+                «Salva» il contratto resta pronto: lei spunta le conferme, firma e paga.
+              </p>
+            )}
+            <SceltaOre voce={vOre} bonus={admin ? null : vBonus} sc={sc} setSc={setSc} sola={false} lingua={d.lingua} />
             <Angaben sc={sc} setSc={setSc} sola={false} lingua={d.lingua} />
 
-            {/* conferme */}
-            <div className="mt-8 border-t border-black/10 pt-6">
-              <p className={titoletto}>{t.bestaetigung}</p>
-              <div className="mt-3 space-y-3 text-sm text-neutral-700">
-                <Spunta on={sc.gesundheit} onClick={() => setSc({ ...sc, gesundheit: !sc.gesundheit })}>
-                  {t.gesundheit} <span className="text-[11px] text-neutral-400">({t.pflicht})</span>
-                </Spunta>
-                <Spunta on={sc.bedingungen} onClick={() => setSc({ ...sc, bedingungen: !sc.bedingungen })}>
-                  {t.accetto} <span className="text-[11px] text-neutral-400">({t.pflicht})</span>
-                </Spunta>
-                <button
-                  type="button"
-                  onClick={() => setLeggi((v) => !v)}
-                  className="ml-[30px] text-xs font-semibold text-neutral-500 underline underline-offset-2 hover:text-neutral-900"
-                >
-                  {leggi ? t.chiudi : t.leggi}
-                </button>
-                {leggi && <Clausole d={d} />}
-                <Spunta on={sc.sofortBeginn} onClick={() => setSc({ ...sc, sofortBeginn: !sc.sofortBeginn })}>
-                  {t.sofort} <span className="text-[11px] text-neutral-400">({t.freiwillig})</span>
-                </Spunta>
-              </div>
-            </div>
+            {admin && <OreRegalate bonus={bonus} setBonus={setBonus} />}
 
             {errore && <p className="mt-6 text-sm font-semibold text-red-600">{errore}</p>}
             <button
               type="button"
               onClick={avanti}
-              className="mt-6 w-full bg-neutral-900 py-4 text-sm font-bold text-white hover:bg-neutral-800"
+              disabled={salvo}
+              className="mt-6 w-full bg-neutral-900 py-4 text-sm font-bold text-white hover:bg-neutral-800 disabled:opacity-50"
             >
-              {t.avanti}
+              {salvo ? t.invio : admin ? "Salva e prepara il foglio da firmare" : t.avanti}
               {sc.ore > 0 && <span className="font-semibold text-white/60"> · {eur(mensile)} / Monat</span>}
             </button>
           </section>
@@ -407,18 +442,19 @@ export default function ContrattoOre({ d, token }: { d: Dati; token: string }) {
     { titolo: t.orte, valori: OPZIONI_ORE.orte, scelti: sc.orte },
   ];
   const conferme = [
-    { on: sc.gesundheit, testo: t.gesundheit },
-    { on: sc.bedingungen, testo: t.accetto },
-    { on: sc.sofortBeginn, testo: t.sofort },
-  ];
+    { k: "gesundheit", testo: t.gesundheit, nota: t.pflicht },
+    { k: "bedingungen", testo: t.accetto, nota: t.pflicht },
+    { k: "sofortBeginn", testo: t.sofort, nota: t.freiwillig },
+  ] as const;
   const puoFirmare = !giaFirmato && !bloccato && !fatto;
+  const link = typeof window !== "undefined" ? `${window.location.origin}/preventivo/${token}` : "";
 
   return (
     <main className="min-h-screen bg-[#e9e9eb] px-3 py-6 sm:px-4 sm:py-10 print:min-h-0 print:bg-white print:p-0">
       <style>{STAMPA_A4}</style>
       <div className="mx-auto max-w-[794px] space-y-4 print:max-w-none">
         <div className="flex flex-wrap items-center justify-between gap-3 print:hidden">
-          {puoFirmare ? (
+          {puoFirmare && (!preparato || admin) ? (
             <button
               type="button"
               onClick={() => {
@@ -442,6 +478,26 @@ export default function ContrattoOre({ d, token }: { d: Dati; token: string }) {
             {t.pdf}
           </button>
         </div>
+
+        {admin && preparato && puoFirmare && (
+          <div className="flex flex-wrap items-center gap-3 border border-green-600/30 bg-green-50 px-4 py-3 text-[13px] text-green-900 print:hidden">
+            <p className="min-w-0 flex-1">
+              <strong>Contratto pronto e salvato.</strong> Dai il telefono alla cliente: spunta le conferme, firma e paga.
+              Oppure mandale il link: vede solo questo foglio.
+            </p>
+            <button
+              type="button"
+              onClick={() => {
+                navigator.clipboard?.writeText(link);
+                setCopiato(true);
+              }}
+              className="inline-flex items-center gap-1.5 bg-neutral-900 px-3 py-2 text-[12px] font-semibold text-white"
+            >
+              <Link2 className="h-3.5 w-3.5" />
+              {copiato ? "Copiato" : "Copia link"}
+            </button>
+          </div>
+        )}
 
         {/* ------------------------------------------------- il foglio */}
         <article className="bg-white px-5 py-7 text-neutral-800 shadow-[0_12px_40px_rgba(0,0,0,0.10)] sm:px-12 sm:py-12 print:p-0 print:shadow-none">
@@ -579,23 +635,25 @@ export default function ContrattoOre({ d, token }: { d: Dati; token: string }) {
             </dl>
           </section>
 
-          {/* conferme */}
-          <section className="mt-5 break-inside-avoid border-t border-black/10 pt-4">
-            <p className={titoletto}>{t.bestaetigung}</p>
-            <div className="mt-2 space-y-1.5 text-[12px]">
-              {conferme.map((c) => (
-                <p key={c.testo} className="flex items-start gap-2">
-                  <Casella on={c.on} />
-                  <span className="pt-px">{c.testo}</span>
-                </p>
-              ))}
-            </div>
-          </section>
-
           {/* clausole */}
           <section className="mt-5 border-t border-black/10 pt-4">
             <p className={titoletto}>{t.bedingungen}</p>
             <Clausole d={d} />
+          </section>
+
+          {/* conferme: le spunta la cliente, poi firma */}
+          <section className="mt-6 break-inside-avoid border-2 border-neutral-900 p-4 print:border print:p-3">
+            <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-900">
+              {t.bestaetigung}
+              {puoFirmare && <span className="normal-case tracking-normal text-neutral-500"> · {t.vorDerUnterschrift}</span>}
+            </p>
+            <div className="mt-3 space-y-2.5 text-[13px] text-neutral-800">
+              {conferme.map((c) => (
+                <Spunta key={c.k} on={sc[c.k]} onClick={() => setSc({ ...sc, [c.k]: !sc[c.k] })} sola={!puoFirmare}>
+                  {c.testo} <span className="text-[11px] text-neutral-400">({c.nota})</span>
+                </Spunta>
+              ))}
+            </div>
           </section>
 
           {/* firma */}
@@ -678,6 +736,82 @@ export default function ContrattoOre({ d, token }: { d: Dati; token: string }) {
         </div>
       </div>
     </main>
+  );
+}
+
+/** Solo per Angelo: se regalare ore, quante, ogni mese o solo il primo. */
+function OreRegalate({
+  bonus,
+  setBonus,
+}: {
+  bonus: { ore: number; ogniMese: boolean };
+  setBonus: (b: { ore: number; ogniMese: boolean }) => void;
+}) {
+  const scelta = "px-3.5 py-2 text-[13px] font-semibold";
+  const si = bonus.ore > 0;
+  return (
+    <div className="mt-8 border-2 border-dashed border-neutral-900/40 bg-[#fafafa] p-4">
+      <p className="flex items-center gap-2 text-sm font-bold text-neutral-900">
+        <Gift className="h-4 w-4" />
+        Regali ore? <span className="text-[11px] font-normal text-neutral-500">(lo vedi solo tu)</span>
+      </p>
+      <div className="mt-3 flex flex-wrap items-center gap-3">
+        <div className="flex border border-black/15 bg-white">
+          {[false, true].map((v) => (
+            <button
+              key={String(v)}
+              type="button"
+              onClick={() => setBonus({ ...bonus, ore: v ? Math.max(bonus.ore, 1) : 0 })}
+              className={`${scelta} ${si === v ? "bg-neutral-900 text-white" : "text-neutral-600"}`}
+            >
+              {v ? "Sì" : "No"}
+            </button>
+          ))}
+        </div>
+        {si && (
+          <>
+            <div className="flex items-stretch border border-black/15 bg-white">
+              <button
+                type="button"
+                onClick={() => setBonus({ ...bonus, ore: Math.max(1, bonus.ore - 1) })}
+                className="px-3.5 text-lg font-bold text-neutral-600"
+                aria-label="Un'ora regalata in meno"
+              >
+                −
+              </button>
+              <span className="w-14 border-x border-black/15 py-2 text-center text-sm font-bold tabular-nums">
+                {bonus.ore} {bonus.ore === 1 ? "ora" : "ore"}
+              </span>
+              <button
+                type="button"
+                onClick={() => setBonus({ ...bonus, ore: Math.min(20, bonus.ore + 1) })}
+                className="px-3.5 text-lg font-bold text-neutral-600"
+                aria-label="Un'ora regalata in più"
+              >
+                +
+              </button>
+            </div>
+            <div className="flex border border-black/15 bg-white">
+              {[true, false].map((v) => (
+                <button
+                  key={String(v)}
+                  type="button"
+                  onClick={() => setBonus({ ...bonus, ogniMese: v })}
+                  className={`${scelta} ${bonus.ogniMese === v ? "bg-neutral-900 text-white" : "text-neutral-600"}`}
+                >
+                  {v ? "Ogni mese" : "Solo il primo mese"}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
+      </div>
+      <p className="mt-2 text-[12px] text-neutral-500">
+        {si
+          ? `Sul contratto: «+ ${bonus.ore} Bonusstunden ${bonus.ogniMese ? "pro Monat" : "im ersten Monat"}», gratis, su una riga a parte.`
+          : "Nessuna ora regalata: sul contratto solo le ore pagate e la prima visita gratis."}
+      </p>
+    </div>
   );
 }
 

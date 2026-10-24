@@ -1,4 +1,5 @@
-// Preventivo pubblico via token: lettura e firma del cliente.
+// Preventivo pubblico via token: lettura, preparazione (solo Angelo, per il
+// contratto a ore) e firma del cliente.
 //
 // Come in DirezioneX, la firma da sola non perfeziona il contratto: il cliente
 // disegna la firma e viene portato al pagamento della prima rata. Il
@@ -10,10 +11,12 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { gmailTransport, GMAIL_FROM } from "@/lib/gmail";
 import { NOTIFY_EMAILS } from "@/lib/resend";
-import { nuovoToken, pianoAllaFirma, eur, totaleVoci } from "@/lib/preventivo";
+import { isAdmin } from "@/lib/admin-auth";
+import { articoliOre, nuovoToken, pianoAllaFirma, eur, totaleVoci } from "@/lib/preventivo";
 import {
   ORE_MESE,
   OPZIONI_ORE,
+  descrizioneBonus,
   descrizioneOre,
   erroreArPersona,
   type PersonaOre,
@@ -29,6 +32,24 @@ const TOKEN_OK = /^[a-f0-9]{32}$/i;
 /** Testo scritto dal cliente dentro l'HTML della mail. */
 const esc = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+/** Crocette del modulo a ore: solo i valori ammessi, il resto si scarta. */
+const tieni = (ammessi: readonly string[], v: unknown) =>
+  Array.isArray(v) ? ammessi.filter((x) => v.includes(x)) : [];
+const crocette = (s: Partial<ScelteOre>) => ({
+  ziele: tieni(OPZIONI_ORE.ziele, s.ziele),
+  tage: tieni(OPZIONI_ORE.tage, s.tage),
+  zeiten: tieni(OPZIONI_ORE.zeiten, s.zeiten),
+  orte: tieni(OPZIONI_ORE.orte, s.orte),
+});
+
+/** Dati della cliente gia' controllati da erroreArPersona. */
+const clienteDa = (c: Partial<PersonaOre>) => ({
+  clienteNome: c.nome!.trim().slice(0, 120),
+  clienteIndirizzo: `${c.strasse!.trim()}, ${c.plzOrt!.trim()}`.slice(0, 200),
+  clienteTelefono: c.telefono!.trim().slice(0, 40),
+  clienteEmail: c.email!.trim().slice(0, 160),
+});
 
 /** Le crocette del contratto a ore, per la mail ad Angelo. */
 function righeScelte(s: ScelteOre, items: VocePreventivo[]) {
@@ -120,7 +141,101 @@ export async function GET(
     ...pubblico(p),
     // se c'e' una rata aperta, il cliente ritrova il link al pagamento
     pagamento: p.pagamenti[0] ?? null,
+    // Angelo loggato nell'admin su questo telefono: vede anche le ore regalate
+    admin: await isAdmin(),
   });
+}
+
+/**
+ * Angelo prepara il contratto a ore per la cliente: dati, ore, crocette e
+ * ore regalate. Serve la sessione admin: dallo stesso link la cliente non
+ * deve potersi regalare ore. Da qui la cliente vede solo il foglio pronto:
+ * spunta le conferme, firma e paga.
+ */
+export async function PUT(
+  req: NextRequest,
+  { params }: { params: Promise<{ token: string }> }
+) {
+  if (!(await isAdmin())) {
+    return NextResponse.json({ error: "Solo Angelo, entrato nell'admin, può preparare il contratto" }, { status: 401 });
+  }
+  const { token } = await params;
+  if (!TOKEN_OK.test(token)) {
+    return NextResponse.json({ error: "Link non valido" }, { status: 400 });
+  }
+
+  let body: { cliente?: Partial<PersonaOre>; scelte?: Partial<ScelteOre>; bonus?: { ore?: number; ogniMese?: boolean } };
+  try {
+    body = await req.json();
+  } catch {
+    return NextResponse.json({ error: "Richiesta non valida" }, { status: 400 });
+  }
+
+  const p = await prisma.preventivo.findUnique({ where: { token } });
+  if (!p) return NextResponse.json({ error: "Non trovato" }, { status: 404 });
+  if (p.firmatoAt) return NextResponse.json({ error: "Contratto già firmato: non si cambia più" }, { status: 409 });
+  if (p.stato === "sostituito") return NextResponse.json({ error: "Contratto sostituito" }, { status: 409 });
+  const voce = voceAOre(p.items);
+  if (!voce) return NextResponse.json({ error: "Non è un contratto a ore" }, { status: 400 });
+
+  const c = body.cliente || {};
+  const errC = erroreArPersona(c, p.lingua === "de");
+  if (errC) return NextResponse.json({ error: errC }, { status: 400 });
+  const s = body.scelte || {};
+  const ore = Math.round(Number(s.ore));
+  if (!(ore >= 1 && ore <= 40)) {
+    return NextResponse.json({ error: "Ore pagate: da 1 a 40 al mese" }, { status: 400 });
+  }
+  const bonusOre = Math.round(Number(body.bonus?.ore) || 0);
+  if (bonusOre < 0 || bonusOre > 20) {
+    return NextResponse.json({ error: "Ore regalate: da 0 a 20" }, { status: 400 });
+  }
+  const ogniMese = body.bonus?.ogniMese !== false;
+
+  // Le conferme restano vuote: le spunta la cliente prima di firmare.
+  const scelte: ScelteOre = {
+    ore,
+    ...crocette(s),
+    gesundheit: false,
+    bedingungen: false,
+    sofortBeginn: false,
+    ...(c.geburtsdatum?.trim() ? { geburtsdatum: c.geburtsdatum.trim() } : {}),
+  };
+  const nellaLista = (voce.ore?.length ? voce.ore : ORE_MESE).includes(ore);
+  const { oreFisse, ...resto } = voce;
+  const items: VocePreventivo[] = [
+    {
+      ...resto,
+      descrizione: descrizioneOre(ore),
+      quantita: ore,
+      scelte,
+      preparato: new Date().toISOString(),
+      // fuori lista (es. 5 ore) o gia' fissate: sul foglio c'e' solo quella
+      ...(oreFisse || !nellaLista ? { oreFisse: ore } : {}),
+    },
+    ...(bonusOre > 0
+      ? [{ descrizione: descrizioneBonus(bonusOre, ogniMese), prezzo: 0, quantita: bonusOre, modulo: "bonus" as const }]
+      : []),
+    ...(p.items as unknown as VocePreventivo[]).filter((v) => v.modulo !== "ore" && v.modulo !== "bonus"),
+  ];
+
+  // preparato oggi: la cliente ha di nuovo 14 giorni per firmare
+  const validoFino = new Date();
+  validoFino.setDate(validoFino.getDate() + 14);
+
+  const agg = await prisma.preventivo.update({
+    where: { id: p.id },
+    data: {
+      items: items as unknown as object,
+      totale: totaleVoci(items),
+      oggetto: descrizioneOre(ore),
+      articoli: articoliOre(bonusOre > 0) as unknown as object,
+      validoFino: p.validoFino && p.validoFino > validoFino ? p.validoFino : validoFino,
+      ...clienteDa(c),
+    },
+  });
+
+  return NextResponse.json({ ...pubblico(agg), pagamento: null, admin: true });
 }
 
 /** Firma del cliente. */
@@ -190,54 +305,55 @@ export async function POST(
     cliente: { clienteNome: string; clienteIndirizzo: string; clienteTelefono: string; clienteEmail: string };
   } | null = null;
   if (voceOre) {
-    // i dati della cliente si compilano prima del foglio: arrivano qui
-    const c = body.cliente || {};
-    const errC = erroreArPersona(c, de);
-    if (errC) return NextResponse.json({ error: errC }, { status: 400 });
+    // le conferme le spunta sempre la cliente, prima di firmare
     const s = body.scelte || {};
-    const ore = voceOre.oreFisse ?? Number(s.ore);
-    if (!voceOre.oreFisse && !(voceOre.ore?.length ? voceOre.ore : ORE_MESE).includes(ore)) {
-      return NextResponse.json(
-        { error: de ? "Bitte wähle, wie viele Stunden pro Monat du buchst." : "Scegli quante ore al mese." },
-        { status: 400 }
-      );
-    }
     if (!s.gesundheit || !s.bedingungen) {
       return NextResponse.json(
         { error: de ? "Bitte die beiden Pflichtfelder ankreuzen." : "Spunta le due conferme obbligatorie." },
         { status: 400 }
       );
     }
-    // solo valori del modulo: il resto si scarta
-    const tieni = (ammessi: readonly string[], v: unknown) =>
-      Array.isArray(v) ? ammessi.filter((x) => v.includes(x)) : [];
+
+    let base: Pick<ScelteOre, "ore" | "ziele" | "tage" | "zeiten" | "orte" | "geburtsdatum">;
+    let cliente: { clienteNome: string; clienteIndirizzo: string; clienteTelefono: string; clienteEmail: string };
+    if (voceOre.preparato && voceOre.scelte) {
+      // preparato da Angelo: dati, ore e crocette sono quelli salvati, il
+      // browser della cliente non li cambia
+      const { ore, ziele, tage, zeiten, orte, geburtsdatum } = voceOre.scelte;
+      base = { ore, ziele, tage, zeiten, orte, geburtsdatum };
+      cliente = {
+        clienteNome: p.clienteNome,
+        clienteIndirizzo: p.clienteIndirizzo || "",
+        clienteTelefono: p.clienteTelefono || "",
+        clienteEmail: p.clienteEmail || "",
+      };
+    } else {
+      // compilato dalla cliente: i dati arrivano con la firma
+      const c = body.cliente || {};
+      const errC = erroreArPersona(c, de);
+      if (errC) return NextResponse.json({ error: errC }, { status: 400 });
+      const ore = voceOre.oreFisse ?? Number(s.ore);
+      if (!voceOre.oreFisse && !(voceOre.ore?.length ? voceOre.ore : ORE_MESE).includes(ore)) {
+        return NextResponse.json(
+          { error: de ? "Bitte wähle, wie viele Stunden pro Monat du buchst." : "Scegli quante ore al mese." },
+          { status: 400 }
+        );
+      }
+      base = { ore, ...crocette(s), ...(c.geburtsdatum?.trim() ? { geburtsdatum: c.geburtsdatum.trim() } : {}) };
+      cliente = clienteDa(c);
+    }
+
     const scelte: ScelteOre = {
-      ore,
-      ziele: tieni(OPZIONI_ORE.ziele, s.ziele),
-      tage: tieni(OPZIONI_ORE.tage, s.tage),
-      zeiten: tieni(OPZIONI_ORE.zeiten, s.zeiten),
-      orte: tieni(OPZIONI_ORE.orte, s.orte),
+      ...base,
       gesundheit: true,
       bedingungen: true,
       sofortBeginn: !!s.sofortBeginn,
-      ...(c.geburtsdatum?.trim() ? { geburtsdatum: c.geburtsdatum.trim() } : {}),
       am: new Date().toISOString(),
     };
     const items = (p.items as unknown as VocePreventivo[]).map((v) =>
-      v.modulo === "ore" ? { ...v, descrizione: descrizioneOre(ore), quantita: ore, scelte } : v
+      v.modulo === "ore" ? { ...v, descrizione: descrizioneOre(base.ore), quantita: base.ore, scelte } : v
     );
-    ricalcolo = {
-      items,
-      totale: totaleVoci(items),
-      oggetto: descrizioneOre(ore),
-      scelte,
-      cliente: {
-        clienteNome: c.nome!.trim().slice(0, 120),
-        clienteIndirizzo: `${c.strasse!.trim()}, ${c.plzOrt!.trim()}`.slice(0, 200),
-        clienteTelefono: c.telefono!.trim().slice(0, 40),
-        clienteEmail: c.email!.trim().slice(0, 160),
-      },
-    };
+    ricalcolo = { items, totale: totaleVoci(items), oggetto: descrizioneOre(base.ore), scelte, cliente };
   }
 
   const png = Buffer.from(body.firma.split(",")[1], "base64");

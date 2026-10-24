@@ -252,7 +252,7 @@ export default function PreventiviView({
                     <p className="text-sm font-bold tabular-nums text-neutral-900">
                       {(() => {
                         const v = voceAOre(p.items);
-                        if (v && !v.oreFisse && !p.firmatoAt) return "4–20 ore, sceglie lei";
+                        if (v && !v.oreFisse && !v.preparato && !p.firmatoAt) return "4–20 ore, sceglie lei";
                         return p.periodicita === "mensile" && p.mesi <= 1 ? `${eur(p.totale)}/mese` : eur(p.totale);
                       })()}
                     </p>
@@ -262,8 +262,9 @@ export default function PreventiviView({
                       if (!v) return null;
                       return (
                         <p className="text-[10px] text-neutral-400">
-                          {p.firmatoAt || v.oreFisse ? `${v.quantita} ore pagate` : `${eur(PREZZO_ORA)}/ora`}
+                          {p.firmatoAt || v.oreFisse || v.preparato ? `${v.quantita} ore pagate` : `${eur(PREZZO_ORA)}/ora`}
                           {b && ` + ${b.quantita} regalate`}
+                          {v.preparato && !p.firmatoAt && " · pronto da firmare"}
                         </p>
                       );
                     })()}
@@ -525,7 +526,7 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
             {creato.inviato
               ? `Mandato a ${clienteEmail}. Quando firma e paga lo vedi qui sotto.`
               : pac.oreMese
-              ? "Mandale il link, oppure aprilo tu con lei: si compila, esce il contratto pronto, firma e paga."
+              ? "Compilalo tu (dati, ore, ore regalate) e salva: poi lei spunta le conferme, firma e paga, dal tuo telefono o col link."
               : "Manda il link al cliente, anche su WhatsApp: firma dal telefono e paga subito."}
           </p>
           <div className="mt-5 flex items-stretch">
@@ -561,7 +562,7 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
               rel="noopener"
               className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-4 py-2 text-[13px] font-semibold text-neutral-700 hover:border-black/30"
             >
-              {pac.oreMese ? "Compilalo tu con lei" : "Guarda come lo vede il cliente"}
+              {pac.oreMese ? "Compila tu il contratto" : "Guarda come lo vede il cliente"}
             </a>
             <Btn variant="outline" onClick={onFatto}>Chiudi</Btn>
           </div>

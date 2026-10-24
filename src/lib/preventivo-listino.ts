@@ -31,6 +31,8 @@ export interface VocePreventivo {
   ore?: number[];
   oreFisse?: number;
   scelte?: ScelteOre;
+  /** quando Angelo l'ha preparato: da li' la cliente spunta, firma e paga */
+  preparato?: string;
 }
 
 /* ------------------------------------------------- contratto a ore (PT) */

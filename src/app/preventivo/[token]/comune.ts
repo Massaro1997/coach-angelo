@@ -28,6 +28,8 @@ export interface Dati {
   createdAt: string;
   scaduto: boolean;
   pagamento: { token: string; importo: number; descrizione: string } | null;
+  /** chi guarda e' Angelo, entrato nell'admin */
+  admin?: boolean;
 }
 
 export const eur = (n: number) =>
