@@ -172,7 +172,7 @@ export function articoliOre(conBonus: boolean) {
     base("Gesundheit und Eigenverantwortung"),
     {
       titolo: "Widerrufsrecht",
-      testo: `Der Kunde kann diesen Vertrag binnen 14 Tagen ab Vertragsabschluss ohne Angabe von Gründen widerrufen. Dafür genügt eine eindeutige Erklärung an ${COACH.name} (${COACH.email}, ${COACH.phone}), z. B. per E-Mail oder WhatsApp. Im Fall des Widerrufs werden alle Zahlungen unverzüglich, spätestens binnen 14 Tagen, über dasselbe Zahlungsmittel erstattet. Hat der Kunde verlangt, dass das Training schon während der Widerrufsfrist beginnt, zahlt er für die bis zum Widerruf erbrachten Stunden einen anteiligen Betrag.`,
+      testo: `Der Kunde kann diesen Vertrag binnen 14 Tagen ab Vertragsabschluss ohne Angabe von Gründen widerrufen. Dafür genügt eine eindeutige Erklärung an ${COACH.name}, ${COACH.address} (${COACH.email}, ${COACH.phone}), z. B. per E-Mail oder WhatsApp. Im Fall des Widerrufs werden alle Zahlungen unverzüglich, spätestens binnen 14 Tagen, über dasselbe Zahlungsmittel erstattet. Hat der Kunde verlangt, dass das Training schon während der Widerrufsfrist beginnt, zahlt er für die bis zum Widerruf erbrachten Stunden einen anteiligen Betrag.`,
     },
     base("Datenschutz"),
   ];

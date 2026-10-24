@@ -15,6 +15,8 @@ import {
   ORE_MESE,
   OPZIONI_ORE,
   descrizioneOre,
+  erroreArPersona,
+  type PersonaOre,
   voceAOre,
   type ScelteOre,
   type VocePreventivo,
@@ -23,6 +25,10 @@ import {
 export const dynamic = "force-dynamic";
 
 const TOKEN_OK = /^[a-f0-9]{32}$/i;
+
+/** Testo scritto dal cliente dentro l'HTML della mail. */
+const esc = (s: string) =>
+  s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 /** Le crocette del contratto a ore, per la mail ad Angelo. */
 function righeScelte(s: ScelteOre, items: VocePreventivo[]) {
@@ -44,6 +50,7 @@ function pubblico(p: {
   numero: string;
   clienteNome: string;
   clienteEmail: string | null;
+  clienteTelefono: string | null;
   clienteIndirizzo: string | null;
   clientePiva: string | null;
   oggetto: string | null;
@@ -64,6 +71,9 @@ function pubblico(p: {
   return {
     numero: p.numero,
     clienteNome: p.clienteNome,
+    // la pagina a ore li mette gia' nei campi da compilare
+    clienteEmail: p.clienteEmail,
+    clienteTelefono: p.clienteTelefono,
     clienteIndirizzo: p.clienteIndirizzo,
     clientePiva: p.clientePiva,
     oggetto: p.oggetto,
@@ -123,7 +133,7 @@ export async function POST(
     return NextResponse.json({ error: "Link non valido" }, { status: 400 });
   }
 
-  let body: { nome?: string; firma?: string; scelte?: Partial<ScelteOre> };
+  let body: { nome?: string; firma?: string; scelte?: Partial<ScelteOre>; cliente?: Partial<PersonaOre> };
   try {
     body = await req.json();
   } catch {
@@ -172,8 +182,18 @@ export async function POST(
   // Contratto a ore: le ore e le crocette arrivano con la firma. Voci e
   // totale si ricalcolano qui dalla scelta, mai da un prezzo del browser.
   const voceOre = voceAOre(p.items);
-  let ricalcolo: { items: VocePreventivo[]; totale: number; oggetto: string; scelte: ScelteOre } | null = null;
+  let ricalcolo: {
+    items: VocePreventivo[];
+    totale: number;
+    oggetto: string;
+    scelte: ScelteOre;
+    cliente: { clienteNome: string; clienteIndirizzo: string; clienteTelefono: string; clienteEmail: string };
+  } | null = null;
   if (voceOre) {
+    // i dati della cliente si compilano prima del foglio: arrivano qui
+    const c = body.cliente || {};
+    const errC = erroreArPersona(c, de);
+    if (errC) return NextResponse.json({ error: errC }, { status: 400 });
     const s = body.scelte || {};
     const ore = voceOre.oreFisse ?? Number(s.ore);
     if (!voceOre.oreFisse && !(voceOre.ore?.length ? voceOre.ore : ORE_MESE).includes(ore)) {
@@ -200,12 +220,24 @@ export async function POST(
       gesundheit: true,
       bedingungen: true,
       sofortBeginn: !!s.sofortBeginn,
+      ...(c.geburtsdatum?.trim() ? { geburtsdatum: c.geburtsdatum.trim() } : {}),
       am: new Date().toISOString(),
     };
     const items = (p.items as unknown as VocePreventivo[]).map((v) =>
       v.modulo === "ore" ? { ...v, descrizione: descrizioneOre(ore), quantita: ore, scelte } : v
     );
-    ricalcolo = { items, totale: totaleVoci(items), oggetto: descrizioneOre(ore), scelte };
+    ricalcolo = {
+      items,
+      totale: totaleVoci(items),
+      oggetto: descrizioneOre(ore),
+      scelte,
+      cliente: {
+        clienteNome: c.nome!.trim().slice(0, 120),
+        clienteIndirizzo: `${c.strasse!.trim()}, ${c.plzOrt!.trim()}`.slice(0, 200),
+        clienteTelefono: c.telefono!.trim().slice(0, 40),
+        clienteEmail: c.email!.trim().slice(0, 160),
+      },
+    };
   }
 
   const png = Buffer.from(body.firma.split(",")[1], "base64");
@@ -222,12 +254,19 @@ export async function POST(
       firmatoNome: nome,
       firmatoAt: new Date(),
       ...(ricalcolo
-        ? { items: ricalcolo.items as unknown as object, totale: ricalcolo.totale, oggetto: ricalcolo.oggetto }
+        ? {
+            items: ricalcolo.items as unknown as object,
+            totale: ricalcolo.totale,
+            oggetto: ricalcolo.oggetto,
+            ...ricalcolo.cliente,
+          }
         : {}),
     },
   });
   const totale = ricalcolo?.totale ?? p.totale;
   const oggetto = ricalcolo?.oggetto ?? p.oggetto;
+  const clienteNome = ricalcolo?.cliente.clienteNome ?? p.clienteNome;
+  const clienteEmail = ricalcolo?.cliente.clienteEmail ?? p.clienteEmail;
 
   // Piano rate: si crea alla firma, cosi' il cliente trova subito da pagare.
   const gia = await prisma.pagamento.count({ where: { preventivoId: p.id } });
@@ -245,8 +284,8 @@ export async function POST(
         preventivoId: p.id,
         documento: p.numero,
         descrizione: r.descrizione,
-        clienteNome: p.clienteNome,
-        clienteEmail: p.clienteEmail,
+        clienteNome,
+        clienteEmail,
         importo: r.importo,
         tipo: r.tipo,
         rataNumero: r.rataNumero ?? null,
@@ -270,8 +309,9 @@ export async function POST(
       subject: `✍️ ${p.numero} firmato da ${nome}`,
       html: `
         <div style="font-family:system-ui,sans-serif">
-          <p><strong>${nome}</strong> ha firmato il contratto <strong>${p.numero}</strong>.</p>
-          <p>Cliente: ${p.clienteNome}${p.clienteEmail ? ` — ${p.clienteEmail}` : ""}</p>
+          <p><strong>${esc(nome)}</strong> ha firmato il contratto <strong>${p.numero}</strong>.</p>
+          <p>Cliente: ${esc(clienteNome)}${clienteEmail ? ` — ${esc(clienteEmail)}` : ""}</p>
+          ${ricalcolo ? `<p>${esc(ricalcolo.cliente.clienteIndirizzo)} · ${esc(ricalcolo.cliente.clienteTelefono)}${ricalcolo.scelte.geburtsdatum ? ` · nata/o il ${esc(ricalcolo.scelte.geburtsdatum)}` : ""}</p>` : ""}
           <p>Totale: <strong>${eur(totale)}</strong>${p.periodicita === "mensile" && p.mesi <= 1 ? " al mese" : ""}</p>
           ${ricalcolo ? righeScelte(ricalcolo.scelte, ricalcolo.items) : ""}
           <p>${prima ? `Prima rata da incassare: ${eur(prima.importo)}` : "Nessuna rata generata."}</p>

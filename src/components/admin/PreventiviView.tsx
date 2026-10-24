@@ -524,6 +524,8 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
           <p className="mt-1 text-sm text-neutral-500">
             {creato.inviato
               ? `Mandato a ${clienteEmail}. Quando firma e paga lo vedi qui sotto.`
+              : pac.oreMese
+              ? "Mandale il link, oppure aprilo tu con lei: si compila, esce il contratto pronto, firma e paga."
               : "Manda il link al cliente, anche su WhatsApp: firma dal telefono e paga subito."}
           </p>
           <div className="mt-5 flex items-stretch">
@@ -559,7 +561,7 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
               rel="noopener"
               className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-4 py-2 text-[13px] font-semibold text-neutral-700 hover:border-black/30"
             >
-              Guarda come lo vede il cliente
+              {pac.oreMese ? "Compilalo tu con lei" : "Guarda come lo vede il cliente"}
             </a>
             <Btn variant="outline" onClick={onFatto}>Chiudi</Btn>
           </div>

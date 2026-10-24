@@ -60,8 +60,38 @@ export interface ScelteOre {
   bedingungen: boolean;
   /** vuole iniziare prima della fine dei 14 giorni di recesso */
   sofortBeginn: boolean;
+  /** data di nascita, facoltativa (AAAA-MM-GG) */
+  geburtsdatum?: string;
   /** quando ha messo le crocette (= firma) */
   am?: string;
+}
+
+/** Dati della cliente compilati prima del foglio da firmare. */
+export interface PersonaOre {
+  nome: string;
+  strasse: string;
+  plzOrt: string;
+  geburtsdatum: string;
+  telefono: string;
+  email: string;
+}
+
+export const EMAIL_OK = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+/** Primo campo che manca o non va, null se e' tutto a posto. */
+export function erroreArPersona(c: Partial<PersonaOre>, de: boolean): string | null {
+  if ((c.nome || "").trim().length < 3) return de ? "Bitte Vor- und Nachname eintragen." : "Inserisci nome e cognome.";
+  if ((c.strasse || "").trim().length < 3) return de ? "Bitte Straße und Hausnummer eintragen." : "Inserisci via e numero civico.";
+  if ((c.plzOrt || "").trim().length < 4) return de ? "Bitte PLZ und Ort eintragen." : "Inserisci CAP e città.";
+  if ((c.telefono || "").replace(/[^\d]/g, "").length < 6) return de ? "Bitte Telefonnummer eintragen." : "Inserisci il telefono.";
+  if (!EMAIL_OK.test((c.email || "").trim())) return de ? "Bitte eine gültige E-Mail eintragen." : "Inserisci un'email valida.";
+  const g = (c.geburtsdatum || "").trim();
+  if (g) {
+    const anno = Number(g.slice(0, 4));
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(g) || anno < 1900 || anno > new Date().getFullYear())
+      return de ? "Bitte das Geburtsdatum prüfen." : "Controlla la data di nascita.";
+  }
+  return null;
 }
 
 /** Circa quante volte a settimana, per aiutare a scegliere. */

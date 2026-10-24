@@ -8,7 +8,8 @@ export const COACH = {
   web: "www.fitprimo.de",
   logo: "/brand/fitprimo/fitprimo-logo-colore.svg",
   name: "Angelo Magliarisi",
-  address: "Köln, Deutschland",
+  // indirizzo dell'Impressum, confermato da Calogero il 24/10/2026
+  address: "Freiheitsring 1, 50226 Frechen",
   email: "magliarisiangelo912@gmail.com",
   phone: "+49 176 93193043",
   taxId: "224/5190/4079",
