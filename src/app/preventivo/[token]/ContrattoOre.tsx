@@ -152,8 +152,8 @@ const T = {
     prossimo: "Prossimo passo: pagare il primo mese.",
     scaduto: "Questo contratto è scaduto. Chiedine uno nuovo.",
     sostituito: "Questo contratto è stato sostituito da una versione più recente.",
-    bonusMese: "ore regalate al mese",
-    bonusPrimo: "ore regalate il primo mese",
+    bonusMese: "ore gratis al mese",
+    bonusPrimo: "ore gratis il primo mese",
     bonusNota: "gratis, contate a parte",
     primoGratis: "Primo incontro gratis: conoscenza, check-up e allenamento di prova",
   },
@@ -408,7 +408,7 @@ export default function ContrattoOre({
 
             {admin && (
               <p className="mt-4 border-l-4 border-neutral-900 bg-[#f4f4f5] px-3 py-2 text-[13px] text-neutral-700">
-                <strong>Modalità Angelo:</strong> compili tu per la cliente. Le ore regalate le vedi solo tu. Con
+                <strong>Modalità Angelo:</strong> compili tu per la cliente. Le ore gratis le vedi solo tu. Con
                 «Salva» il contratto resta pronto: lei spunta le conferme, firma e paga.
               </p>
             )}
@@ -753,7 +753,7 @@ function OreRegalate({
     <div className="mt-8 border-2 border-dashed border-neutral-900/40 bg-[#fafafa] p-4">
       <p className="flex items-center gap-2 text-sm font-bold text-neutral-900">
         <Gift className="h-4 w-4" />
-        Regali ore? <span className="text-[11px] font-normal text-neutral-500">(lo vedi solo tu)</span>
+        Ore gratis: <span className="text-[11px] font-normal text-neutral-500">(lo vedi solo tu)</span>
       </p>
       <div className="mt-3 flex flex-wrap items-center gap-3">
         <div className="flex border border-black/15 bg-white">
@@ -775,7 +775,7 @@ function OreRegalate({
                 type="button"
                 onClick={() => setBonus({ ...bonus, ore: Math.max(1, bonus.ore - 1) })}
                 className="px-3.5 text-lg font-bold text-neutral-600"
-                aria-label="Un'ora regalata in meno"
+                aria-label="Un'ora gratis in meno"
               >
                 −
               </button>
@@ -786,7 +786,7 @@ function OreRegalate({
                 type="button"
                 onClick={() => setBonus({ ...bonus, ore: Math.min(20, bonus.ore + 1) })}
                 className="px-3.5 text-lg font-bold text-neutral-600"
-                aria-label="Un'ora regalata in più"
+                aria-label="Un'ora gratis in più"
               >
                 +
               </button>
@@ -809,7 +809,7 @@ function OreRegalate({
       <p className="mt-2 text-[12px] text-neutral-500">
         {si
           ? `Sul contratto: «+ ${bonus.ore} Bonusstunden ${bonus.ogniMese ? "pro Monat" : "im ersten Monat"}», gratis, su una riga a parte.`
-          : "Nessuna ora regalata: sul contratto solo le ore pagate e la prima visita gratis."}
+          : "Nessuna ora gratis: sul contratto solo le ore pagate e la prima visita gratis."}
       </p>
     </div>
   );

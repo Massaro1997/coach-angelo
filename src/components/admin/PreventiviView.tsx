@@ -263,7 +263,7 @@ export default function PreventiviView({
                       return (
                         <p className="text-[10px] text-neutral-400">
                           {p.firmatoAt || v.oreFisse || v.preparato ? `${v.quantita} ore pagate` : `${eur(PREZZO_ORA)}/ora`}
-                          {b && ` + ${b.quantita} regalate`}
+                          {b && ` + ${b.quantita} gratis`}
                           {v.preparato && !p.firmatoAt && " · pronto da firmare"}
                         </p>
                       );
@@ -526,7 +526,7 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
             {creato.inviato
               ? `Mandato a ${clienteEmail}. Quando firma e paga lo vedi qui sotto.`
               : pac.oreMese
-              ? "Compilalo tu (dati, ore, ore regalate) e salva: poi lei spunta le conferme, firma e paga, dal tuo telefono o col link."
+              ? "Compilalo tu (dati, ore, ore gratis) e salva: poi lei spunta le conferme, firma e paga, dal tuo telefono o col link."
               : "Manda il link al cliente, anche su WhatsApp: firma dal telefono e paga subito."}
           </p>
           <div className="mt-5 flex items-stretch">
@@ -685,12 +685,12 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                     </p>
                   </div>
                   <div>
-                    <p className="text-xs font-semibold text-neutral-600">Ore regalate (contate a parte, 0 €)</p>
+                    <p className="text-xs font-semibold text-neutral-600">Ore gratis: (contate a parte, 0 €)</p>
                     <div className="mt-2 flex flex-wrap items-center gap-3">
                       <div className="flex items-stretch border border-black/15 bg-white">
-                        <button onClick={() => setBonusOre(Math.max(0, bonusOre - 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora regalata in meno">−</button>
+                        <button onClick={() => setBonusOre(Math.max(0, bonusOre - 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora gratis in meno">−</button>
                         <span className="w-12 border-x border-black/15 py-2 text-center text-sm font-bold tabular-nums">{bonusOre}</span>
-                        <button onClick={() => setBonusOre(Math.min(20, bonusOre + 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora regalata in più">+</button>
+                        <button onClick={() => setBonusOre(Math.min(20, bonusOre + 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora gratis in più">+</button>
                       </div>
                       {bonusOre > 0 && (
                         <div className="flex border border-black/15">
@@ -974,7 +974,7 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
               </div>
               {pac.oreMese && bonusOre > 0 && (
                 <div className="flex items-baseline justify-between gap-3">
-                  <dt className="text-neutral-600">Ore regalate</dt>
+                  <dt className="text-neutral-600">Ore gratis</dt>
                   <dd className="text-right font-semibold text-neutral-900">
                     +{bonusOre} {bonusOgniMese ? "ogni mese" : "il primo mese"}
                   </dd>

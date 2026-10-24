@@ -57,7 +57,7 @@ function righeScelte(s: ScelteOre, items: VocePreventivo[]) {
   const riga = (k: string, v: string[]) => `<li>${k}: ${v.length ? v.join(", ") : "—"}</li>`;
   return `<ul>
     <li>Ore pagate: <strong>${s.ore} al mese</strong></li>
-    ${bonus ? `<li>Ore regalate: ${bonus.quantita} (${bonus.descrizione.replace(/^.*— /, "")})</li>` : ""}
+    ${bonus ? `<li>Ore gratis: ${bonus.quantita} (${bonus.descrizione.replace(/^.*— /, "")})</li>` : ""}
     ${riga("Obiettivi", s.ziele)}
     ${riga("Giorni", s.tage)}
     ${riga("Orari", s.zeiten)}
@@ -188,7 +188,7 @@ export async function PUT(
   }
   const bonusOre = Math.round(Number(body.bonus?.ore) || 0);
   if (bonusOre < 0 || bonusOre > 20) {
-    return NextResponse.json({ error: "Ore regalate: da 0 a 20" }, { status: 400 });
+    return NextResponse.json({ error: "Ore gratis: da 0 a 20" }, { status: 400 });
   }
   const ogniMese = body.bonus?.ogniMese !== false;
 
