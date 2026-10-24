@@ -138,7 +138,7 @@ export default function PreventivoPubblico({ token }: { token: string }) {
   const bloccato = d.scaduto || d.stato === "sostituito";
 
   return (
-    <main className="min-h-screen bg-[#f4f4f5] px-4 py-8 sm:py-12 print:min-h-0 print:bg-white print:p-0">
+    <main className="min-h-screen bg-[#f4f4f5] px-4 py-8 text-neutral-900 sm:py-12 print:min-h-0 print:bg-white print:p-0">
       <style>{STAMPA_A4}</style>
       <div className="mx-auto max-w-3xl space-y-4 print:max-w-none">
         <div className="flex justify-end print:hidden">

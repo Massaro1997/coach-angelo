@@ -159,7 +159,7 @@ const T = {
   },
 };
 
-const titoletto = "text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-400";
+const titoletto = "text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-500";
 const campo =
   "mt-1 w-full border border-black/15 bg-white px-3 py-2.5 text-[15px] outline-none transition-colors focus:border-neutral-900";
 
@@ -348,7 +348,7 @@ export default function ContrattoOre({
             >
               {i + 1}
             </span>
-            <span className={attivo ? "text-neutral-900" : "text-neutral-400"}>{l}</span>
+            <span className={attivo ? "text-neutral-900" : "text-neutral-500"}>{l}</span>
           </li>
         );
       })}
@@ -358,7 +358,7 @@ export default function ContrattoOre({
   /* ============================================================ passo 1 */
   if (passo === "angaben") {
     return (
-      <main className="min-h-screen bg-[#f4f4f5] px-4 py-8 sm:py-12">
+      <main className="min-h-screen bg-[#f4f4f5] px-4 py-8 text-neutral-900 sm:py-12">
         <div className="mx-auto max-w-2xl space-y-4">
           <header className="flex flex-wrap items-center justify-between gap-3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -391,7 +391,7 @@ export default function ContrattoOre({
                 </label>
                 <label className="block">
                   <span className="text-xs font-semibold text-neutral-600">
-                    {t.geburt} <span className="font-normal text-neutral-400">({t.freiwillig})</span>
+                    {t.geburt} <span className="font-normal text-neutral-500">({t.freiwillig})</span>
                   </span>
                   <input value={persona.geburtsdatum} onChange={imposta("geburtsdatum")} type="date" autoComplete="bday" className={campo} />
                 </label>
@@ -450,7 +450,7 @@ export default function ContrattoOre({
   const link = typeof window !== "undefined" ? `${window.location.origin}/preventivo/${token}` : "";
 
   return (
-    <main className="min-h-screen bg-[#e9e9eb] px-3 py-6 sm:px-4 sm:py-10 print:min-h-0 print:bg-white print:p-0">
+    <main className="min-h-screen bg-[#e9e9eb] px-3 py-6 text-neutral-900 sm:px-4 sm:py-10 print:min-h-0 print:bg-white print:p-0">
       <style>{STAMPA_A4}</style>
       <div className="mx-auto max-w-[794px] space-y-4 print:max-w-none">
         <div className="flex flex-wrap items-center justify-between gap-3 print:hidden">
@@ -566,7 +566,7 @@ export default function ContrattoOre({
           <section className="mt-5 break-inside-avoid">
             <table className="w-full text-[13px]">
               <thead>
-                <tr className="border-b border-black/15 text-[10px] uppercase tracking-wider text-neutral-400">
+                <tr className="border-b border-black/15 text-[10px] uppercase tracking-wider text-neutral-500">
                   <th className="pb-2 text-left font-bold">{t.leistungen}</th>
                   <th className="pb-2 text-right font-bold">{t.menge}</th>
                   <th className="pb-2 text-right font-bold">{t.preis}</th>
@@ -580,7 +580,7 @@ export default function ContrattoOre({
                       <td className="py-2 pr-3">
                         {aOre ? descrizioneOre(ore) : v.descrizione}
                         {aOre && (
-                          <span className="block text-[11px] text-neutral-400">
+                          <span className="block text-[11px] text-neutral-500">
                             {eur(v.prezzo)} {t.proStunde}
                           </span>
                         )}
@@ -599,7 +599,7 @@ export default function ContrattoOre({
               <span className="text-xl font-bold tabular-nums text-neutral-900">{eur(mensile)}</span>
             </div>
             <p className="text-right text-[11px] text-neutral-500">{t.kuendbar}</p>
-            <p className="text-right text-[11px] text-neutral-400">{t.ust}</p>
+            <p className="text-right text-[11px] text-neutral-500">{t.ust}</p>
             {vBonus && (
               <p className="mt-2 flex items-center gap-1.5 text-[12px] text-neutral-600">
                 <Gift className="h-3.5 w-3.5 text-neutral-900" />
@@ -650,7 +650,7 @@ export default function ContrattoOre({
             <div className="mt-3 space-y-2.5 text-[13px] text-neutral-800">
               {conferme.map((c) => (
                 <Spunta key={c.k} on={sc[c.k]} onClick={() => setSc({ ...sc, [c.k]: !sc[c.k] })} sola={!puoFirmare}>
-                  {c.testo} <span className="text-[11px] text-neutral-400">({c.nota})</span>
+                  {c.testo} <span className="text-[11px] text-neutral-500">({c.nota})</span>
                 </Spunta>
               ))}
             </div>
@@ -674,7 +674,7 @@ export default function ContrattoOre({
                   <div className="flex items-center justify-between print:hidden">
                     <span className="text-[11px] font-semibold text-neutral-500">{t.firmaQui}</span>
                     {puoFirmare && (
-                      <button type="button" onClick={firma.pulisci} className="text-[11px] font-semibold text-neutral-400 hover:text-neutral-700">
+                      <button type="button" onClick={firma.pulisci} className="text-[11px] font-semibold text-neutral-500 hover:text-neutral-700">
                         {t.cancella}
                       </button>
                     )}

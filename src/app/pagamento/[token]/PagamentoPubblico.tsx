@@ -140,7 +140,7 @@ export default function PagamentoPubblico({ token }: { token: string }) {
   const automatico = abbonamento && (d.rataNumero ?? 1) > 1;
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-[#f4f4f5] px-4 py-10">
+    <main className="flex min-h-screen items-center justify-center bg-[#f4f4f5] px-4 py-10 text-neutral-900">
       <div className="w-full max-w-md space-y-4">
         <section className="border border-black/10 bg-white p-6 sm:p-8">
           <div className="flex items-center gap-2.5 border-b border-black/10 pb-4">

@@ -109,7 +109,7 @@ const T = {
   },
 };
 
-const titoletto = "text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-400";
+const titoletto = "text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-500";
 
 /** Selettore delle ore + ore regalate + prima visita gratis. */
 export function SceltaOre({
@@ -172,7 +172,7 @@ export function SceltaOre({
                     <span className="block text-xs font-semibold tabular-nums text-neutral-700">
                       {eur0(n * voce.prezzo)}
                     </span>
-                    <span className="block text-[10px] leading-tight text-neutral-400 sm:text-[11px]">
+                    <span className="block text-[10px] leading-tight text-neutral-500 sm:text-[11px]">
                       {allaSettimana(n)}
                     </span>
                   </span>
@@ -230,7 +230,7 @@ export function Angaben({
   return (
     <section className="mt-8 border-t border-black/10 pt-6 break-inside-avoid">
       <p className={titoletto}>
-        {t.angaben} <span className="normal-case tracking-normal text-neutral-400">· {t.mehrfach}</span>
+        {t.angaben} <span className="normal-case tracking-normal text-neutral-500">· {t.mehrfach}</span>
       </p>
       <div className="mt-3 space-y-5">
         {gruppi.map((g) => (
