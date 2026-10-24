@@ -65,6 +65,7 @@ export default function Footer() {
   const termsLink = language === 'de' ? 'AGB' : 'Termini e Condizioni';
   const privacyLink = language === 'de' ? 'Datenschutz' : 'Privacy Policy';
   const cookieLink = language === 'de' ? 'Cookie-Richtlinie' : 'Cookie Policy';
+  const impressumLink = language === 'de' ? 'Impressum' : 'Note legali';
   const rightsText = language === 'de' ? 'Alle Rechte vorbehalten.' : 'Tutti i diritti riservati.';
   const madeBy = language === 'de' ? 'Website erstellt von' : 'Sito realizzato da';
 
@@ -195,6 +196,7 @@ export default function Footer() {
               <Link href="/termini" className="transition-colors hover:text-white">{termsLink}</Link>
               <Link href="/privacy" className="transition-colors hover:text-white">{privacyLink}</Link>
               <Link href="/cookie" className="transition-colors hover:text-white">{cookieLink}</Link>
+              <Link href="/impressum" className="transition-colors hover:text-white">{impressumLink}</Link>
             </div>
             <p>
               {madeBy}{" "}

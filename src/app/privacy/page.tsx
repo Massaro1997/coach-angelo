@@ -12,8 +12,8 @@ export default function Privacy() {
 
     s1Title: language === 'de' ? '1. Verantwortlicher' : '1. Titolare del Trattamento',
     s1Text: language === 'de'
-      ? 'Der Verantwortliche für die Datenverarbeitung ist Coach Angelo mit Sitz in Köln, Deutschland.'
-      : 'Il titolare del trattamento dei dati è Coach Angelo, con sede a Colonia, Germania.',
+      ? 'Verantwortlich für die Datenverarbeitung ist Angelo Magliarisi (FitPrimo), Freiheitsring 1, 50226 Frechen, Deutschland. Telefon: +49 176 93193043.'
+      : 'Il titolare del trattamento dei dati è Angelo Magliarisi (FitPrimo), Freiheitsring 1, 50226 Frechen, Germania. Telefono: +49 176 93193043.',
 
     s2Title: language === 'de' ? '2. Erhobene Daten' : '2. Dati Raccolti',
     s2Intro: language === 'de' ? 'Wir erheben folgende personenbezogene Daten:' : 'Raccogliamo i seguenti dati personali:',
