@@ -93,6 +93,10 @@ export default async function StadtteilHub({
           <p className="text-lg text-ink/80 leading-relaxed max-w-prose">
             Personal Training in Köln-{st.name} mit Angelo Magliarisi: 1-zu-1 für 50€ pro Stunde,
             im Studio, draußen oder bei dir zu Hause. Online Coaching ab 150€ im Monat.
+            Mehr zu den Preisen:{" "}
+            <Link href="/blog/was-kostet-personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+              Was kostet ein Personal Trainer in Köln?
+            </Link>
           </p>
           <div className="mt-6 mb-10">
             <Link href="/contatti" className="fp-btn">
