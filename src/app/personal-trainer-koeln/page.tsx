@@ -226,6 +226,23 @@ export default function PersonalTrainerKoeln() {
               </Link>.
             </p>
           </div>
+          <div className="mt-10 max-w-prose">
+            <p className="text-ink/70 leading-relaxed">
+              Wie das in der Praxis aussieht, zeigt der Blog. Lies zum Beispiel{" "}
+              <Link href="/blog/krafttraining-frauen-ab-50-trainingsplan" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Krafttraining für Frauen ab 50
+              </Link>
+              ,{" "}
+              <Link href="/blog/muskelaufbau-ab-40-mann-trainingsplan-tipps" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Muskelaufbau ab 40
+              </Link>{" "}
+              oder{" "}
+              <Link href="/blog/testosteron-krafttraining-mann-ab-40" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Testosteron und Krafttraining ab 40
+              </Link>
+              .
+            </p>
+          </div>
           <div className="mt-12 flex flex-wrap gap-4">
             <Link href="/servizi" className="fp-btn-linea">
               Alle Leistungen
