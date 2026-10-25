@@ -152,13 +152,10 @@ const jsonLd = {
       },
       geo: { "@type": "GeoCoordinates", latitude: 50.9375, longitude: 6.9603 },
       areaServed: { "@type": "City", name: "Köln" },
-      // Stesso valore mostrato in homepage ("4,9/5 · 100+ clienti")
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "4.9",
-        bestRating: "5",
-        reviewCount: "100",
-      },
+      // 25/10/2026: aggregateRating tolto. Le 100 recensioni non stanno su
+      // nessuna scheda verificabile (Google Business non c'e' ancora): un voto
+      // dichiarato senza recensioni vere rischia un'azione manuale. Si rimette
+      // quando ci sono recensioni pubbliche da collegare.
     },
   ],
 };

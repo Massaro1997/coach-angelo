@@ -51,6 +51,14 @@ const nextConfig: NextConfig = {
         destination: '/privacy',
         permanent: true,
       },
+      // 25/10/2026: due pagine sui prezzi a Colonia. Google ha tenuto la FAQ e
+      // lasciato fuori l'articolo, che sul dominio vecchio era la pagina piu'
+      // vista. La FAQ si unisce all'articolo.
+      {
+        source: '/fitness-faq/was-kostet-personal-trainer-koeln',
+        destination: '/blog/was-kostet-personal-trainer-koeln',
+        permanent: true,
+      },
     ];
   },
 };

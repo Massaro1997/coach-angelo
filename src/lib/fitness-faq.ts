@@ -609,29 +609,7 @@ export const fitnessFaqs: FaqItem[] = [
         text: "Wer schon Erfahrung hat, sauber trainiert und sich selbst gut motiviert, braucht keinen Trainer dauerhaft. Manchmal reicht eine Standortbestimmung oder ein fertiger Plan als Starthilfe. Ehrlich gesagt: nicht jeder braucht 1-zu-1-Betreuung.",
       },
     ],
-    relatedSlugs: ["was-kostet-personal-trainer-koeln", "wie-laeuft-online-coaching-ab", "fitnessstudio-anfaenger-tipps"],
-  },
-  {
-    slug: "was-kostet-personal-trainer-koeln",
-    category: "personal-training",
-    question: "Was kostet ein Personal Trainer in Köln?",
-    shortAnswer:
-      "In Köln liegt eine Personal-Training-Stunde meist zwischen 50 und 150 Euro. Online Coaching mit Plan, Ernährung und wöchentlichen Check-ins beginnt bei rund 150 Euro im Monat. Die große Spanne erklärt sich vor allem über die Studiomiete.",
-    body: [
-      {
-        h2: "Warum die Preise so weit auseinandergehen",
-        text: "Der größte Kostentreiber ist nicht der Trainer, sondern die Miete des Studios. Eine Boutique-Adresse in der Innenstadt schlägt sich im Stundenpreis nieder. Du zahlst dann oft für die Lage, nicht für besseres Coaching.",
-      },
-      {
-        h2: "Stunde oder Paket",
-        text: "Zweimal pro Woche eine Stunde für 100 Euro sind 800 Euro im Monat, das halten die wenigsten lange durch. Deshalb fahren viele besser mit einem Hybrid-Modell: Online-Betreuung als Basis plus einzelne Stunden für die Technik.",
-      },
-      {
-        h2: "Mein Angebot in Köln",
-        text: "Bei mir kostet die 1-zu-1-Stunde 50 Euro, Online Coaching beginnt bei 150 Euro im Monat, fertige Trainingspläne gibt es ab 25 Euro. Die Erstberatung ist kostenlos und unverbindlich, da schauen wir gemeinsam, was für dich Sinn ergibt.",
-      },
-    ],
-    relatedSlugs: ["personal-trainer-oder-alleine", "wie-laeuft-online-coaching-ab", "online-coaching-oder-vor-ort"],
+    relatedSlugs: ["online-coaching-oder-vor-ort", "wie-laeuft-online-coaching-ab", "fitnessstudio-anfaenger-tipps"],
   },
   {
     slug: "wie-laeuft-online-coaching-ab",
@@ -653,7 +631,7 @@ export const fitnessFaqs: FaqItem[] = [
         text: "Online Coaching ist ideal für alle mit vollem Terminkalender oder ohne Studio in der Nähe, und für die, die ihre Technik schon halbwegs beherrschen. Wer ganz am Anfang steht, kombiniert es oft mit ein paar Stunden vor Ort.",
       },
     ],
-    relatedSlugs: ["online-coaching-oder-vor-ort", "was-kostet-personal-trainer-koeln", "personal-trainer-oder-alleine"],
+    relatedSlugs: ["online-coaching-oder-vor-ort", "fitnessstudio-anfaenger-tipps", "personal-trainer-oder-alleine"],
   },
   {
     slug: "online-coaching-oder-vor-ort",
@@ -675,7 +653,7 @@ export const fitnessFaqs: FaqItem[] = [
         text: "Ergebnisse brauchen Monate. Wer nur in Einzelstunden denkt, verliert den roten Faden. Online-Betreuung begleitet dich an jedem Tag des Monats, nicht nur in der gebuchten Stunde. In der kostenlosen Erstberatung rechnen wir dein Setup konkret durch.",
       },
     ],
-    relatedSlugs: ["wie-laeuft-online-coaching-ab", "was-kostet-personal-trainer-koeln", "personal-trainer-oder-alleine"],
+    relatedSlugs: ["wie-laeuft-online-coaching-ab", "fitnessstudio-anfaenger-tipps", "personal-trainer-oder-alleine"],
   },
 ];
 
