@@ -5479,6 +5479,10 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Nach einem Monat Krafttraining spürst du vor allem mehr Kraft und Energie, im Spiegel siehst du noch wenig. Nach acht Wochen sitzt die Kleidung anders und erste Konturen zeigen sich. Nach zwölf Wochen sehen auch andere den Unterschied: mehr Definition, mehr Kraft, ein stabilerer Rücken. Voraussetzung sind drei Einheiten pro Woche, genug Protein und Schlaf."
+      },
+      {
+        "type": "p",
         "text": "Du hast Vorher-Nachher-Fotos gesehen und fragst dich, ob das echt ist. Gute Frage. Ich bin Angelo, Personal Trainer in Köln, und ich arbeite täglich mit Frauen, die genau das wissen wollen: Was passiert wirklich, wenn ich anfange, mit Gewichten zu trainieren? Keine Filter, keine Hochglanzversprechen. Nur das, was ich in meiner Praxis immer wieder beobachte."
       },
       {
