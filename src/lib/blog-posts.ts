@@ -13760,6 +13760,10 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Rückenschmerzen vom vielen Sitzen wirst du los, indem du die Muskulatur stärkst, die deine Wirbelsäule stabilisiert. Drei bis vier Grundübungen wie Hip Hinge, Kniebeuge, Rudern und Plank reichen, zwei- bis dreimal pro Woche mit sauberer Technik. Nach zwei bis drei Wochen spürst du mehr Stabilität, nach etwa drei Monaten ist der Rücken für die meisten kein Dauerthema mehr. Dehnen allein löst das Problem nicht. Strahlen die Schmerzen mit Taubheit ins Bein aus, geh zuerst zum Arzt."
+      },
+      {
+        "type": "p",
         "text": "Du sitzt acht Stunden am Schreibtisch, dein unterer Rücken meldet sich täglich. Vielleicht hast du schon Physiotherapie gemacht, Wärmeauflagen benutzt oder einfach gehofft, es wird besser. Wird es meistens nicht. Der Grund: Die Muskulatur, die deinen Rücken stabilisieren soll, ist schlicht zu schwach. Krafttraining ist hier nicht das Problem, sondern die Lösung, wenn man weiß, wie man es richtig angeht."
       },
       {
