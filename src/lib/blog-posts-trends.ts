@@ -2446,6 +2446,10 @@ export const trendPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Die Abnehmspritze kostet als Selbstzahler meist 170 bis 350 Euro im Monat für das Medikament allein. Rechnet man ärztliche Begleitung, höheren Eiweißbedarf und neue Kleidung ehrlich mit, landest du bei 220 bis 400 Euro monatlich, über die typische Behandlungsdauer von 12 bis 18 Monaten also grob 2600 bis 7000 Euro. Zum Vergleich: Online Coaching plus Fitnessstudio liegt bei 125 bis 330 Euro im Monat. Wie sich diese Zahlen zusammensetzen und welcher Weg sich wann lohnt, rechne ich hier im Detail vor."
+      },
+      {
+        "type": "p",
         "text": "Neulich hat mir ein Klient seine Abrechnung gezeigt: 289 Euro für einen Monat Abnehmspritze in der mittleren Dosierung, dazu die Privatrezept-Gebühr und alle paar Wochen ein Arzttermin. Er meinte trocken: Angelo, das ist teurer als mein Auto im Monat. Er hat trotzdem weitergemacht, aus guten Gründen, aber die Zahl hat ihn beschäftigt. Und weil ich diese Gespräche ständig führe, schreibe ich die Zahlen hier mal auf. Nicht als Arzt, sondern als Trainer, dessen Klienten diese Rechnungen real bezahlen."
       },
       {
