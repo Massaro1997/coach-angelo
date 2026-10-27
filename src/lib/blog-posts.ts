@@ -16688,15 +16688,19 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "selbstdisziplin-aufbauen-sport",
     "title": "Selbstdisziplin aufbauen: So trainierst du auch ohne Motivation",
-    "metaTitle": "Selbstdisziplin aufbauen: Training ohne Motivation",
-    "metaDescription": "Selbstdisziplin aufbauen im Sport: Angelo, Personal Trainer in Köln, zeigt dir ein konkretes System für Berufstätige. Kein Motivations-Gerede, nur Methode.",
-    "date": "2026-06-19",
+    "metaTitle": "Selbstdisziplin aufbauen: Coach & System in Köln",
+    "metaDescription": "Selbstdisziplin aufbauen mit System: feste Termine, niedrige Hürden, klare Anker. Oder Coach in Köln buchen: 1-zu-1 für 50 € pro Stunde, Erstberatung kostenlos.",
+    "date": "2026-10-27",
     "readMinutes": 5,
     "excerpt": "Motivation kommt und geht. Selbstdisziplin bleibt. Angelo zeigt dir, wie Berufstätige in Köln ein stabiles Trainingssystem aufbauen, das unabhängig von Stimmung funktioniert.",
     "blocks": [
       {
         "type": "p",
-        "text": "Montag, 19 Uhr. Du bist müde, der Arbeitstag war lang, und das letzte, worauf du Lust hast, ist das Fitnessstudio. Kennst du das? Genau hier liegt das Problem mit Motivation: Sie ist unzuverlässig. Selbstdisziplin aufbauen bedeutet, ein System zu schaffen, das dich auch dann zum Training bringt, wenn du innerlich auf der Couch bleiben willst. Das ist kein Hexenwerk, das ist Methode."
+        "text": "Die kurze Antwort: Selbstdisziplin baust du nicht mit Willenskraft auf, sondern mit einem System. Zwei bis drei feste Trainingstermine pro Woche im Kalender, eine Einstiegshürde so niedrig, dass du fast nicht Nein sagen kannst, ein fester Anker im Alltag und nach einem Ausfall sofort das nächste Training. Wer die Struktur nicht alleine aufbauen will, bucht sie sich von außen: ein Personal Trainer liefert den festen Termin, bis die eigene Routine trägt. Wie beides geht, steht hier."
+      },
+      {
+        "type": "p",
+        "text": "Montag, 19 Uhr. Du bist müde, der Arbeitstag war lang, und das letzte, worauf du Lust hast, ist das Fitnessstudio. Genau hier liegt das Problem mit Motivation: Sie ist unzuverlässig. Selbstdisziplin aufbauen bedeutet, ein System zu schaffen, das dich auch dann zum Training bringt, wenn du innerlich auf der Couch bleiben willst. Das ist kein Hexenwerk, das ist Methode."
       },
       {
         "type": "h2",
@@ -16815,7 +16819,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Warum ein Personal Trainer diesen Prozess beschleunigt"
+        "text": "Selbstdisziplin-Coach buchen: was es kostet und wie es abläuft"
       },
       {
         "type": "p",
@@ -16828,6 +16832,10 @@ export const blogPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Ich arbeite mit Berufstätigen in Köln, die wenig Zeit haben und konkrete Ergebnisse wollen. Kein Bro-Fitness, keine leeren Versprechen. Nur ein System, das zu deinem Alltag passt, und jemand, der sicherstellt, dass du es auch wirklich durchziehst."
+      },
+      {
+        "type": "p",
+        "text": "Konkret läuft das so: Wir starten mit einer kostenlosen Erstberatung, in der wir deinen Alltag, deine Zeiten und dein Ziel durchgehen. Danach trainierst du 1-zu-1 mit mir in Köln, im Studio, draußen oder bei dir zuhause, für 50 Euro pro Stunde. Wer lieber mit Wochenplan und Check-ins arbeitet, nimmt das Online Coaching ab 150 Euro im Monat. Beides liefert dasselbe: einen festen Termin, der steht, und jemanden, der nachfragt, wenn du ihn verschieben willst."
       },
       {
         "type": "h2",
