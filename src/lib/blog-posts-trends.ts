@@ -1297,6 +1297,10 @@ export const trendPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Ja, du kannst auch mit deutlichem Übergewicht joggen lernen, nur nicht am ersten Tag. Der gelenkschonende Weg führt über drei Phasen: zuerst vier bis acht Wochen zügiges Gehen (30 bis 45 Minuten, vier Mal pro Woche), parallel zwei kurze Krafteinheiten für Oberschenkel, Gesäß und Waden, danach Geh-Lauf-Intervalle mit nur 30 Sekunden lockerem Traben und 2 Minuten Gehen, die du Woche für Woche verlängerst, solange du schmerzfrei bleibst. Gelenke und Sehnen passen sich an Belastung an. Das Problem ist nie das Laufen an sich, sondern zu viel Belastung zu früh. Wie jede Phase genau aussieht und woran du merkst, dass du bereit für die nächste bist, liest du hier."
+      },
+      {
+        "type": "p",
         "text": "Vor zwei Jahren stand ein Mann bei mir im Erstgespräch, 118 Kilo, Anfang 40, und sagte: Ich will endlich laufen können, aber jeder sagt mir, das macht meine Knie kaputt. Heute läuft er zweimal pro Woche 40 Minuten am Stück, schmerzfrei. Der Weg dorthin hat neun Monate gedauert und lief völlig anders, als die meisten es sich vorstellen. Genau diesen Weg beschreibe ich dir hier, weil die üblichen Anfängerpläne für Menschen mit Übergewicht schlicht nicht gemacht sind."
       },
       {
