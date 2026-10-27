@@ -485,6 +485,10 @@ export const trendPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Deine Zone 2 liegt bei etwa 60 bis 70 Prozent deiner maximalen Herzfrequenz. Die HFmax schätzt du mit der Tanaka-Formel: 208 minus 0,7 mal Alter. Mit 40 Jahren ergibt das eine HFmax von 180 und eine Zone 2 von 108 bis 126 Schlägen pro Minute. Genauer rechnet die Karvonen-Formel, weil sie deinen Ruhepuls einbezieht: im selben Beispiel mit Ruhepuls 60 liegt Zone 2 bei 132 bis 144 Schlägen. Prüfe das Ergebnis immer mit dem Talk-Test: Kannst du bei der Belastung flüssig in ganzen Sätzen sprechen, bist du richtig. Wie du Schritt für Schritt rechnest und welche Fehler du dir sparst, steht hier."
+      },
+      {
+        "type": "p",
         "text": "Letzte Woche stand eine Klientin mit ihrer neuen Sportuhr vor mir und war komplett verwirrt. Die Uhr sagte Zone 3, ihre Fitness-App sagte Zone 2, und ein YouTube-Video hatte ihr eine dritte Zahl genannt. Willkommen im Zonen-Chaos. Das Problem: Jeder Hersteller rechnet anders, und die meisten Formeln arbeiten mit Schätzwerten. Damit du nicht mehr rätst, sondern weißt, gehen wir das Thema heute sauber durch."
       },
       {
