@@ -6,8 +6,9 @@ import { intents, getIntent, siteUrl } from "@/lib/stadtteil-intent";
 import { bezirke } from "@/lib/bezirk-content";
 
 export function generateStaticParams() {
-  // ernaehrungsberatung ha una route statica dedicata (pagina forte con Natalie)
-  return intents.filter((it) => it.key !== "ernaehrungsberatung").map((it) => ({ intent: it.key }));
+  // ernaehrungsberatung e athletiktraining hanno una route statica dedicata (pagine forti a livello città)
+  const statiche = ["ernaehrungsberatung", "athletiktraining"];
+  return intents.filter((it) => !statiche.includes(it.key)).map((it) => ({ intent: it.key }));
 }
 export const dynamicParams = false;
 
