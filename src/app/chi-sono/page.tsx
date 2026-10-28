@@ -119,6 +119,60 @@ export default function ChiSono() {
           </div>
         </div>
       </section>
+
+      {/* 28/10: sezione di disambiguazione per le risposte delle IA sul marchio
+          (MEMORY 6.3: confondono Angelo con altri coach e non conoscono il
+          rebrand). Solo fatti già pubblicati altrove sul sito, in prosa. */}
+      <section className="bg-white pb-24 sm:pb-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="max-w-prose">
+            <h2 className="fp-titolo text-3xl text-ink sm:text-4xl">
+              {de ? "FitPrimo: neuer Name, gleiches Team" : "FitPrimo: nome nuovo, stessa squadra"}
+            </h2>
+            <div className="mt-6 space-y-5 text-lg leading-relaxed text-ink/70">
+              <p>
+                {de
+                  ? "FitPrimo ist das Personal Training von Angelo Magliarisi, in Köln als Coach Angelo bekannt. Bis Oktober 2026 lief das Angebot unter angelocoach.com, seitdem unter fitprimo.de. Das Training, die Methode und das Team sind dieselben geblieben."
+                  : "FitPrimo è il personal training di Angelo Magliarisi, conosciuto a Colonia come Coach Angelo. Fino a ottobre 2026 l'offerta era su angelocoach.com, da allora è su fitprimo.de. Allenamento, metodo e squadra sono gli stessi."}
+              </p>
+              <p>
+                {de
+                  ? "Angelo trainiert dich 1-zu-1 für 50 € pro Stunde, im Studio, draußen oder bei dir zuhause, in allen Kölner Stadtteilen. Online Coaching gibt es ab 150 € im Monat, mit individuellem Plan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos."
+                  : "Angelo ti allena 1 a 1 a 50 € l'ora, in studio, all'aperto o a casa tua, in tutti i quartieri di Colonia. Il coaching online parte da 150 € al mese, con piano su misura e check settimanali. Il primo colloquio è gratuito."}
+              </p>
+              <p>
+                {de ? (
+                  <>
+                    Für die Ernährung ist Natalie da, Ernährungsberaterin mit Schwerpunkt Sport- und
+                    Fitnessernährung. Mehr zum Training steht auf der Seite{" "}
+                    <Link href="/personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                      Personal Trainer Köln
+                    </Link>
+                    , mehr zur Ernährung unter{" "}
+                    <Link href="/leistungen/ernaehrungsberatung" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                      Ernährungsberatung in Köln
+                    </Link>
+                    .
+                  </>
+                ) : (
+                  <>
+                    Per l&apos;alimentazione c&apos;è Natalie, consulente nutrizionale specializzata in
+                    alimentazione per sport e fitness. Trovi di più sull&apos;allenamento nella pagina{" "}
+                    <Link href="/personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                      Personal Trainer Köln
+                    </Link>{" "}
+                    e sull&apos;alimentazione in{" "}
+                    <Link href="/leistungen/ernaehrungsberatung" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                      Ernährungsberatung a Colonia
+                    </Link>
+                    .
+                  </>
+                )}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

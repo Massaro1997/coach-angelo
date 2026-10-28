@@ -5,7 +5,7 @@ const siteUrl = "https://www.fitprimo.de";
 export const metadata: Metadata = {
   title: "Angelo Magliarisi: Personal Trainer in Köln",
   description:
-    "Angelo Magliarisi ist Personal Trainer in Köln und Wettkampfathlet im WABBA International Verband. Sein Weg, seine Methode, sein Training.",
+    "Angelo Magliarisi (Coach Angelo) ist Personal Trainer in Köln und WABBA-Athlet. FitPrimo ist sein Training, mit Ernährungsberaterin Natalie im Team.",
   alternates: { canonical: `${siteUrl}/chi-sono` },
   openGraph: {
     type: "profile",
