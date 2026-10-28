@@ -42,6 +42,26 @@ function ctaLead(slug: string): string {
   return generic;
 }
 
+// Link testuale del box finale: la pagina di servizio che risponde al tema
+// dell'articolo. Prima il tema Ernährung (vince su abnehmen negli slug misti),
+// poi abnehmen; tutto il resto resta sul pilastro di Colonia.
+function ctaTarget(slug: string): { href: string; label: string } {
+  if (/ernaehrung|protein|eiweiss|lebensmittel|snack|fasten|zucker|mahlzeiten|kreatin|koffein/.test(slug))
+    return {
+      href: "/leistungen/ernaehrungsberatung",
+      label: "Ernährungsberatung in Köln: Plan statt Diät, mit Natalie",
+    };
+  if (/abnehm|gewicht|bauchfett|bierbauch|grundumsatz|stoffwechsel|diaet|uebergewicht/.test(slug))
+    return {
+      href: "/leistungen/abnehmen",
+      label: "Abnehmen in Köln: Personal Training und Ernährungsberatung",
+    };
+  return {
+    href: "/personal-trainer-koeln",
+    label: "Personal Training in Köln: Leistungen, Preise und Stadtteile",
+  };
+}
+
 export function generateStaticParams() {
   return allPosts.map((p) => ({ slug: p.slug }));
 }
@@ -206,10 +226,10 @@ export default async function BlogPostPage({
             </Link>
             <p className="mt-5 text-sm">
               <Link
-                href="/personal-trainer-koeln"
+                href={ctaTarget(post.slug).href}
                 className="font-semibold text-ink/70 underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold"
               >
-                Personal Training in Köln: Leistungen, Preise und Stadtteile
+                {ctaTarget(post.slug).label}
               </Link>
             </p>
           </div>
