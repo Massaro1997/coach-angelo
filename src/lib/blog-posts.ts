@@ -3629,12 +3629,16 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "online-fitness-coaching-erfahrungen",
     "title": "Online Fitness Coaching Erfahrungen: Mein ungeschönter Blick auf das, was wirklich passiert",
-    "metaTitle": "Online Fitness Coaching Erfahrungen: Was wirklich zählt",
-    "metaDescription": "Ehrliche Erfahrungen mit Online Fitness Coaching: Was funktioniert, was nicht und für wen es sich lohnt. Kein Hochglanz, nur die Wahrheit.",
+    "metaTitle": "Ist Online Fitness Coaching effektiv? Erfahrungen",
+    "metaDescription": "Ja, wenn der Coach wirklich betreut: Wochenplan, Check-ins, Videoanalyse. Ehrliche Erfahrungen vom Personal Trainer aus Köln. Online Coaching ab 150 € im Monat.",
     "date": "2026-06-14",
     "readMinutes": 5,
     "excerpt": "Online Fitness Coaching boomt, aber hält es was es verspricht? Ich zeige dir, was Klienten wirklich erleben, was schiefläuft und für wen es sich lohnt.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: Ja, Online Fitness Coaching ist effektiv, wenn zwei Dinge stimmen. Der Coach betreut dich wirklich, mit individuellem Plan, wöchentlichen Check-ins und Videoanalyse deiner Technik. Und du lieferst deine Updates konsequent, denn ohne Rückmeldung kann niemand deinen Plan anpassen. Bei FitPrimo kostet Online Coaching ab 150 Euro im Monat, das Erstgespräch ist kostenlos. Woran du gute Anbieter erkennst und was oft schiefläuft, steht hier."
+      },
       {
         "type": "p",
         "text": "Ich bekomme diese Frage fast jede Woche: Lohnt sich Online Fitness Coaching überhaupt? Oder zahlt man am Ende für PDFs und Schweigen? Als Personal Trainer in Köln arbeite ich seit Jahren sowohl vor Ort als auch online. Ich kenne beide Seiten. Und ich sage dir jetzt genau, was du von Online Coaching erwarten kannst, was oft schiefläuft und worauf du achten musst, bevor du Geld ausgibst."
@@ -3744,11 +3748,23 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Online Coaching bei FitPrimo: Ablauf und Preis"
+      },
+      {
+        "type": "p",
+        "text": "So läuft es bei mir: Wir starten mit einer kostenlosen Erstberatung. Dort gehen wir deine Ziele, deinen Alltag und deine Trainingserfahrung durch, ehrlich und ohne Verkaufsdruck. Danach bekommst du einen Wochenplan, der zu deinem Leben passt, wöchentliche Check-ins und Videoanalyse deiner Hauptübungen. Das Online Coaching kostet ab 150 Euro im Monat, ohne versteckte Zusatzkosten."
+      },
+      {
+        "type": "p",
+        "text": "Wer in Köln wohnt, kann beides kombinieren: 1-zu-1 Personal Training im Studio, draußen oder bei dir zuhause für 50 Euro pro Stunde, und zwischen den Terminen die Struktur des Online Coachings. Gerade am Anfang, wenn die Technik sitzen muss, ist diese Mischung oft der schnellste Weg."
+      },
+      {
+        "type": "h2",
         "text": "Fazit"
       },
       {
         "type": "p",
-        "text": "Online Fitness Coaching kann richtig gut funktionieren, wenn du weißt, worauf du achtest, und wenn du den richtigen Coach findest. Es ist kein Wundermittel, aber es ist ein starkes Werkzeug für Menschen, die Struktur, klare Kommunikation und einen Plan brauchen, der wirklich zu ihrem Alltag passt. Wenn du neugierig bist, wie das für dich konkret aussehen könnte, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, ohne Verkaufsdruck, ohne vorgefertigte Antworten. Einfach ein ehrliches Gespräch über deine Ziele. Du findest mich unter fitprimo.de."
+        "text": "Online Fitness Coaching kann richtig gut funktionieren, wenn du weißt, worauf du achtest, und wenn du den richtigen Coach findest. Es ist kein Wundermittel, aber es ist ein starkes Werkzeug für Menschen, die Struktur, klare Kommunikation und einen Plan brauchen, der wirklich zu ihrem Alltag passt. Wenn du neugierig bist, wie das für dich konkret aussehen könnte, dann meld dich für ein kostenloses Erstgespräch. Kein Verkaufsdruck, keine vorgefertigten Antworten. Wir schauen gemeinsam, was zu deinen Zielen passt."
       }
     ]
   },
