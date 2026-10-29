@@ -364,12 +364,16 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "rueckenschmerzen-bueroarbeit-uebungen",
     "title": "Rückenschmerzen durch Büroarbeit: 7 Übungen, die wirklich helfen",
-    "metaTitle": "Rückenschmerzen Büroarbeit: 7 Übungen die helfen",
-    "metaDescription": "Rückenschmerzen durch Büroarbeit? Personal Trainer Angelo aus Köln zeigt 7 alltagstaugliche Übungen, die du sofort am Schreibtisch oder zuhause umsetzen kannst.",
+    "metaTitle": "Rückenschmerzen durch Büroarbeit: Übungen und Training",
+    "metaDescription": "Rückenschmerzen durch Büroarbeit: 7 Übungen für zuhause und fürs Büro, etwa 20 Minuten, erste Besserung nach 2 bis 3 Wochen. Und wann gezieltes Krafttraining den Rücken dauerhaft stabilisiert.",
     "date": "2026-06-12",
     "readMinutes": 4,
     "excerpt": "Schreibtisch, steifer Rücken, und kein Ende in Sicht? Personal Trainer Angelo aus Köln erklärt, welche 7 Übungen Büroangestellten wirklich Linderung bringen.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: Gegen Rückenschmerzen durch Büroarbeit helfen regelmäßige Mobilisations- und Stabilisationsübungen, drei bis vier Mal pro Woche etwa zwanzig Minuten. Die sieben wichtigsten stehen in diesem Artikel, von der Hüftbeuger-Dehnung bis zum Dead Bug. Erste Besserung spürst du meist nach zwei bis drei Wochen. Dauerhaft stabil wird der Rücken aber erst durch gezieltes Krafttraining, das genau die Muskeln aufbaut, die beim vielen Sitzen schwach werden."
+      },
       {
         "type": "p",
         "text": "Du sitzt acht Stunden am Schreibtisch, der untere Rücken zieht, die Schultern sind hochgezogen, und abends auf der Couch ist es auch nicht besser. Das kennen sehr viele Berufstätige in Köln und anderswo. Die gute Nachricht: Du brauchst kein Fitnessstudio und keine teure Ausstattung, um diesen Kreislauf zu durchbrechen. Diese sieben Übungen kannst du in deinen Alltag einbauen, ohne dafür extra Zeit zu opfern."
@@ -480,7 +484,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen durch Büroarbeit sind kein Schicksal, das du einfach hinnehmen musst. Mit den richtigen Übungen, etwas Konsequenz und kleinen Veränderungen im Arbeitsalltag kannst du sehr viel erreichen, ohne dein Leben umzukrempeln. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du dir unsicher bist, ob du die Übungen korrekt ausführst: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, einfach ein ehrlicher Austausch darüber, was dir wirklich hilft. Meld dich gerne über fitprimo.de."
+        "text": "Rückenschmerzen durch Büroarbeit sind kein Schicksal, das du einfach hinnehmen musst. Mit den richtigen Übungen, etwas Konsequenz und kleinen Veränderungen im Arbeitsalltag kannst du sehr viel erreichen, ohne dein Leben umzukrempeln. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du dir unsicher bist, ob du die Übungen korrekt ausführst: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, einfach ein ehrlicher Austausch darüber, was dir wirklich hilft. Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
       }
     ]
   },
