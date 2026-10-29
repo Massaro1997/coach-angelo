@@ -49,6 +49,9 @@ export default function Footer() {
     { href: "/servizi", label: "Personal Training" },
     { href: "/servizi#percorso", label: "Coaching-Pakete" },
     { href: "/personal-trainer-koeln", label: "Personal Trainer Köln" },
+    { href: "/leistungen/ernaehrungsberatung", label: "Ernährungsberatung Köln" },
+    { href: "/leistungen/abnehmen", label: "Abnehmen in Köln" },
+    { href: "/leistungen/athletiktraining", label: "Athletiktraining Köln" },
     { href: "/fitness-faq", label: "Fitness FAQ" },
     { href: "/blog", label: "Fitness Blog" },
   ] : [
