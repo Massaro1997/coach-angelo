@@ -5659,6 +5659,10 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: In den ersten zwei bis vier Wochen wirst du vor allem stärker, weil dein Nervensystem die Muskeln besser ansteuert. Nach vier bis acht Wochen spürst du erste Veränderungen, die Kleidung sitzt anders. Nach etwa drei Monaten ist der Muskelaufbau auch für andere sichtbar, und nach sechs Monaten steht eine deutliche Veränderung, wenn Ernährung und Schlaf mitgespielt haben. Warum das so ist und woran du erkennst, dass du auf Kurs bist, liest du hier."
+      },
+      {
+        "type": "p",
         "text": "Du fängst mit dem Training an, gibst alles, und nach zwei Wochen fragst du dich: Passiert da überhaupt etwas? Diese Frage kenne ich aus hunderten Erstgesprächen hier in Köln. Die ehrliche Antwort: Ja, es passiert etwas. Aber nicht immer dort, wo du es zuerst siehst. Muskelaufbau braucht Zeit, und wer das von Anfang an versteht, hört nicht nach dem ersten Monat auf."
       },
       {
@@ -5774,7 +5778,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelaufbau braucht keine Wunder, keine teuren Supplements und kein fünfmal-die-Woche-Training. Er braucht Geduld, einen klaren Plan und jemanden, der dir sagt, was in deinem konkreten Fall Sinn ergibt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon ein paar Wochen trainierst und das Gefühl hast, es läuft nicht richtig, dann lass uns kurz reden. Ein kostenloses Erstgespräch mit mir gibt dir Klarheit darüber, was dein nächster sinnvoller Schritt ist. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung. Du findest das Formular auf fitprimo.de."
+        "text": "Muskelaufbau braucht keine Wunder, keine teuren Supplements und kein fünfmal-die-Woche-Training. Er braucht Geduld, einen klaren Plan und jemanden, der dir sagt, was in deinem konkreten Fall Sinn ergibt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon ein paar Wochen trainierst und das Gefühl hast, es läuft nicht richtig, dann lass uns kurz reden. Ein kostenloses Erstgespräch mit mir gibt dir Klarheit darüber, was dein nächster sinnvoller Schritt ist. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung. Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
       }
     ]
   },
