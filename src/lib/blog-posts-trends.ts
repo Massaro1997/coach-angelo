@@ -936,6 +936,10 @@ export const trendPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Unter der Abnehmspritze brauchst du 1,5 bis 2 Gramm Eiweiß pro Kilo Körpergewicht am Tag, bei 80 Kilo also 120 bis 160 Gramm. Verteil das auf vier bis fünf Mahlzeiten oder Snacks mit je 25 bis 35 Gramm und iss bei jeder Mahlzeit zuerst die Eiweißquelle. Reicht der Appetit nicht, ist ein Proteinshake eine sinnvolle Krücke. Dazu gehört Krafttraining, damit dein Körper beim Abnehmen Muskeln behält, statt sie abzubauen. Warum das so wichtig ist und wie du es im Alltag schaffst, liest du hier."
+      },
+      {
+        "type": "p",
         "text": "Vor ein paar Monaten hat mir eine Klientin ihr Ernährungstagebuch gezeigt. Sie war seit vier Monaten unter einer GLP-1 Behandlung, hatte gut abgenommen und war stolz. Zu Recht. Aber als ich die Zahlen sah, bin ich fast vom Stuhl gefallen: 38 Gramm Eiweiß am Tag. Bei 78 Kilo Körpergewicht. Das ist weniger als die Hälfte von dem, was sie mindestens bräuchte. Kein Wunder, dass sie sich im Training schlapp fühlte und die Waage zwar weniger anzeigte, ihr Körper aber weicher wirkte statt straffer."
       },
       {
