@@ -167,7 +167,11 @@ export default async function BezirkPage({
               <tbody>
                 {sts.map((st) => (
                   <tr key={st.slug} className="border-b border-line/50">
-                    <td className="py-3 pr-4 font-bold text-ink">{st.name}</td>
+                    <td className="py-3 pr-4 font-bold text-ink">
+                      <Link href={`/koeln/${st.slug}`} className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                        {st.name}
+                      </Link>
+                    </td>
                     <td className="py-3 pr-4 text-ink/70">{st.einwohner.toLocaleString("de-DE")}</td>
                     <td className="py-3 pr-4 text-ink/70">{density(st).toLocaleString("de-DE")}</td>
                     <td className="py-3 text-ink/60">{st.spots.length ? st.spots.join(", ") : "–"}</td>

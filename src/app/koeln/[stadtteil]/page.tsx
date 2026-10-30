@@ -11,12 +11,18 @@ export function generateStaticParams() {
 export const dynamicParams = false;
 
 // Meta su misura dove Search Console mostra ricerche diverse dal template:
-// Rodenkirchen viene cercato con "coaching köln rodenkirchen" e "personal training rodenkirchen".
+// Rodenkirchen viene cercato con "coaching köln rodenkirchen" e "personal training rodenkirchen",
+// Ehrenfeld con "personal trainer köln ehrenfeld" e "coaching köln ehrenfeld".
 const metaOverrides: Record<string, { title: string; description: string }> = {
   rodenkirchen: {
     title: "Personal Training & Coaching Köln-Rodenkirchen",
     description:
       "Coaching und 1-zu-1 Personal Training in Köln-Rodenkirchen: 50 € pro Stunde, am Rheinufer, im Studio oder bei dir zuhause. Kostenlose Erstberatung.",
+  },
+  ehrenfeld: {
+    title: "Personal Trainer & Coaching Köln-Ehrenfeld",
+    description:
+      "1-zu-1 Personal Training und Coaching in Köln-Ehrenfeld: 50 € pro Stunde, im Studio, im Inneren Grüngürtel oder bei dir zuhause. Kostenlose Erstberatung.",
   },
 };
 

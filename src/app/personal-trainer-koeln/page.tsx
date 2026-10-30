@@ -172,7 +172,7 @@ export default function PersonalTrainerKoeln() {
                     href={`/personal-trainer-koeln/${b.slug}`}
                     className="block text-gold font-black uppercase tracking-wider text-sm mb-3 border-b border-line pb-2 hover:text-gold-soft transition-colors"
                   >
-                    Personal Trainer Köln-{b.name} →
+                    Bezirk Köln-{b.name} →
                   </Link>
                   <p className="text-ink/50 text-sm leading-relaxed">
                     {sts.map((st) => st.name).join(" · ")}
