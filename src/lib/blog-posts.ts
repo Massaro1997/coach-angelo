@@ -12387,6 +12387,10 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Bauchmuskeltraining am Schreibtisch funktioniert mit fünf Übungen direkt auf dem Bürostuhl: statische Bauchspannung, Beckenkippung im Sitzen, Knie heben, seitliche Spannung und eine Atemübung mit Core-Fokus. Jede dauert 30 Sekunden bis 2 Minuten, du brauchst kein Equipment und musst nicht aufstehen. Wichtiger als die Dauer ist die Häufigkeit: lieber dreimal täglich zwei Minuten als einmal lang. Nach ein bis zwei Wochen sitzt du spürbar aufrechter."
+      },
+      {
+        "type": "p",
         "text": "Du sitzt acht Stunden am Tag, der Rücken zieht, der Bauch hängt nach vorne. Klingt vertraut. Das Gute daran: du brauchst weder eine Yogamatte noch einen freien Nachmittag, um dagegen anzugehen. Ich zeige dir fünf Übungen, die du direkt auf deinem Bürostuhl machen kannst, konkret, ohne Fachchinesisch, und mit sofortigem Effekt auf Spannung und Haltung."
       },
       {
@@ -12514,7 +12518,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Bauchmuskeltraining am Schreibtisch ist kein Ersatz für ein vollständiges Training, aber es ist besser als nichts, und es funktioniert. Fang mit einer Übung an, mach sie dreimal täglich, und beobachte, was passiert. Wenn du merkst, dass du mehr willst, meld dich gerne bei mir. Das kostenlose Erstgespräch unter fitprimo.de ist unverbindlich und dauert keine halbe Stunde. Wir schauen gemeinsam, was für dich wirklich sinnvoll ist."
+        "text": "Bauchmuskeltraining am Schreibtisch ist kein Ersatz für ein vollständiges Training, aber es ist besser als nichts, und es funktioniert. Fang mit einer Übung an, mach sie dreimal täglich, und beobachte, was passiert. Wenn du merkst, dass du mehr willst, schauen wir gemeinsam, was für dich wirklich sinnvoll ist: Das kostenlose Erstgespräch ist unverbindlich und dauert keine halbe Stunde. Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
       }
     ]
   },
