@@ -11878,12 +11878,16 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "rueckenubungen-morgens-aufwachen",
     "title": "Rückenübungen morgens nach dem Aufwachen: 5 Minuten gegen Verspannungen vor dem Bürotag",
-    "metaTitle": "5 Min Rückenübungen nach dem Aufwachen | AngeloCoach",
+    "metaTitle": "Rückenübungen morgens: 5 Minuten im Bett und auf der Matte",
     "metaDescription": "Rückenübungen morgens nach dem Aufwachen: einfache Routine im Bett oder auf der Matte gegen Verspannungen vor dem Bürotag. Konkrete Tipps von Personal Trainer Angelo.",
     "date": "2026-06-17",
     "readMinutes": 4,
     "excerpt": "Morgens steif aufwachen und direkt ins Büro? Mit diesen einfachen Rückenübungen aktivierst du deinen Rücken in 5 Minuten, noch bevor der erste Kaffee fertig ist.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: Sechs einfache Übungen reichen, drei davon noch im Bett (Knie zur Brust, lumbale Rotation, Beckenkippung) und drei danach auf der Matte oder im Stehen (Cat-Cow, Child's Pose, Vorwärtsbeuge). Zusammen dauern sie rund fünf Minuten, brauchen kein Gerät und lösen die morgendliche Steifigkeit, bevor der Bürotag beginnt. Wie jede Übung genau geht, steht hier im Artikel."
+      },
       {
         "type": "p",
         "text": "Du kennst das: Wecker klingelt, du richtest dich auf und dein Rücken meldet sich sofort. Steif, schwer, manchmal mit einem dumpfen Ziehen. Bevor du dann acht Stunden auf dem Bürostuhl sitzt, macht es einen riesigen Unterschied, ob du deinen Rücken vorher kurz aktivierst oder nicht. Diese Morgenroutine ist für genau dich gemacht, kein Fitnessstudio, keine Ausrede."
@@ -11985,7 +11989,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach 20 Minuten, in denen wir schauen, was dir wirklich helfen kann. Du findest das Formular direkt auf fitprimo.de."
+        "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach 30 bis 45 Minuten, in denen wir schauen, was dir wirklich helfen kann. Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
       }
     ]
   },
