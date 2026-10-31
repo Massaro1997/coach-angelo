@@ -4981,7 +4981,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Der schlimmste Fehler, den ich bei Männern ab 40 sehe: radikale Diäten ohne Krafttraining. Wer nur hungert, verliert neben Fett auch ordentlich Muskelmasse, also genau das Gewebe, das den Verbrauch hochhält. Nach der Diät kommt das Gewicht zurück, aber als Fett, nicht als Muskel. Nach drei solchen Runden hast du dir deinen Stoffwechsel tatsächlich selbst nach unten saniert. Moderates Defizit plus schweres Training plus viel Protein, das ist die einzige Reihenfolge, die langfristig aufgeht."
+        "text": "Der schlimmste Fehler, den ich bei Männern ab 40 sehe: radikale Diäten ohne Krafttraining. Wer nur hungert, verliert neben Fett auch ordentlich Muskelmasse, also genau das Gewebe, das den Verbrauch hochhält. Nach der Diät kommt das Gewicht zurück, aber als Fett, nicht als Muskel. Nach drei solchen Runden hast du dir deinen Stoffwechsel tatsächlich selbst nach unten saniert. Moderates Defizit plus schweres Training plus viel Protein, das ist die einzige Reihenfolge, die langfristig aufgeht. Wie dieses Training konkret aussieht, habe ich im [Trainingsplan für Muskelaufbau ab 40](/blog/muskelaufbau-ab-40-mann-trainingsplan-tipps) Schritt für Schritt aufgeschrieben."
       },
       {
         "type": "h2",
@@ -6829,7 +6829,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Nach einer intensiven Einheit mit Kniebeugen oder Kreuzheben steigt dein Testosteron messbar an. Das haben Studien vielfach gezeigt, besonders bei Übungen, die viel Muskelmasse gleichzeitig fordern. Das Problem: Dieser Peak ist nach spätestens einer Stunde wieder weg. Die Forschung der letzten 15 Jahre ist ziemlich eindeutig, dass diese kurzen Spitzen nicht der Grund sind, warum du Muskeln aufbaust. Muskelaufbau entsteht durch mechanische Spannung im Muskel selbst, nicht durch den Hormoncocktail danach."
+        "text": "Nach einer intensiven Einheit mit Kniebeugen oder Kreuzheben steigt dein Testosteron messbar an. Das haben Studien vielfach gezeigt, besonders bei Übungen, die viel Muskelmasse gleichzeitig fordern. Das Problem: Dieser Peak ist nach spätestens einer Stunde wieder weg. Die Forschung der letzten 15 Jahre ist ziemlich eindeutig, dass diese kurzen Spitzen nicht der Grund sind, warum du Muskeln aufbaust. Muskelaufbau entsteht durch mechanische Spannung im Muskel selbst, nicht durch den Hormoncocktail danach. Wie ein Training aussieht, das genau darauf setzt, steht im [Trainingsplan für Muskelaufbau ab 40](/blog/muskelaufbau-ab-40-mann-trainingsplan-tipps)."
       },
       {
         "type": "p",
@@ -7675,7 +7675,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Hier scheitern die meisten Männer, und zwar nicht an Faulheit, sondern an Übermotivation. Du warst früher sportlich, dein Kopf erinnert sich an den Körper von damals, und dann trainierst du in Woche eins wie 1995. Das Problem: Muskeln passen sich in Wochen an, Sehnen, Bänder und Gelenke brauchen Monate. Die typische Wiedereinsteiger-Verletzung passiert nicht am ersten Tag, sondern in Woche drei bis sechs, wenn die Muskulatur schon kann, was die Sehnen noch nicht können."
+        "text": "Hier scheitern die meisten Männer, und zwar nicht an Faulheit, sondern an Übermotivation. Du warst früher sportlich, dein Kopf erinnert sich an den Körper von damals, und dann trainierst du in Woche eins wie 1995. Das Problem: Muskeln passen sich in Wochen an, Sehnen, Bänder und Gelenke brauchen Monate. Die typische Wiedereinsteiger-Verletzung passiert nicht am ersten Tag, sondern in Woche drei bis sechs, wenn die Muskulatur schon kann, was die Sehnen noch nicht können. Einen [Trainingsplan für Muskelaufbau ab 40](/blog/muskelaufbau-ab-40-mann-trainingsplan-tipps), der Sehnen und Gelenken genau diese Zeit gibt, habe ich in einem eigenen Artikel beschrieben."
       },
       {
         "type": "p",
