@@ -187,7 +187,7 @@ export default function Footer() {
                 </Link>
               ))}
               <Link href="/personal-trainer-koeln" className="text-sm font-semibold text-[#ff2b3a] transition-colors hover:text-white">
-                {language === 'de' ? 'Alle 86 Stadtteile →' : 'Tutti gli 86 quartieri →'}
+                {language === 'de' ? 'Personal Trainer Köln – alle 86 Stadtteile →' : 'Personal Trainer Köln – tutti gli 86 quartieri →'}
               </Link>
             </div>
           </details>

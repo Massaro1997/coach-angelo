@@ -315,9 +315,11 @@ export default function Home() {
 
             {/* Una riga per prestazione e citta': al titolo mancano entrambe. */}
             <p className="mx-auto mt-6 max-w-xl text-[17px] leading-relaxed text-ink/70 lg:mx-0 lg:text-lg">
-              {de
-                ? 'Online Coaching und Personal Training in Köln.'
-                : 'Coaching online e personal training a Colonia.'}
+              {de ? (
+                <>Online Coaching und <Link href="/personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Personal Training in Köln</Link>.</>
+              ) : (
+                <>Coaching online e <Link href="/personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">personal training a Colonia</Link>.</>
+              )}
             </p>
 
             <div className="mt-6 flex justify-center gap-3 sm:hidden">
