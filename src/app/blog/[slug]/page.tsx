@@ -5,6 +5,29 @@ import { allPosts, getPost } from "@/lib/blog-posts";
 
 const siteUrl = "https://www.fitprimo.de";
 
+// I paragrafi possono contenere link interni nella forma [testo](/percorso).
+// Solo percorsi interni: tutto il resto resta testo com'è.
+function renderText(text: string) {
+  const parts = text.split(/\[([^\]]+)\]\((\/[^)\s]+)\)/g);
+  if (parts.length === 1) return text;
+  const out: React.ReactNode[] = [];
+  for (let i = 0; i < parts.length; i += 3) {
+    if (parts[i]) out.push(parts[i]);
+    if (parts[i + 1] && parts[i + 2]) {
+      out.push(
+        <Link
+          key={i}
+          href={parts[i + 2]}
+          className="font-semibold text-ink/80 underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold"
+        >
+          {parts[i + 1]}
+        </Link>
+      );
+    }
+  }
+  return out;
+}
+
 // Correlati per tema: overlap di token nello slug, fallback sui più recenti.
 // Deterministico a build time, distribuisce link interni su tutti gli articoli.
 const STOP = new Set(["koeln", "tipps", "guide", "erfahrungen", "uebungen", "was", "wie", "und", "oder", "ohne", "mit", "fuer", "der", "die", "das", "dem", "nach", "ab"]);
@@ -200,7 +223,7 @@ export default async function BlogPostPage({
               }
               return (
                 <p key={i} className="text-ink/70 leading-relaxed text-lg">
-                  {block.text}
+                  {renderText(block.text ?? "")}
                 </p>
               );
             })}

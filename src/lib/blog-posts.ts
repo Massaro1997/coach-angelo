@@ -4334,7 +4334,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Erfolge sind nicht nur die Zahl auf der Waage. Wie fühlen sich Treppen an? Wie ist deine Körperhaltung? Schläfst du besser? Hast du weniger Rückenschmerzen? Diese Veränderungen kommen oft früher als sichtbare Muskelzuwächse, und sie zeigen dir, dass etwas passiert. Achte auf sie."
+        "text": "Erfolge sind nicht nur die Zahl auf der Waage. Wie fühlen sich Treppen an? Wie ist deine Körperhaltung? Schläfst du besser? Hast du weniger Rückenschmerzen? Diese Veränderungen kommen oft früher als sichtbare Muskelzuwächse, und sie zeigen dir, dass etwas passiert. Achte auf sie. Welche [Vorher-Nachher-Veränderungen nach 12 Wochen Krafttraining](/blog/krafttraining-frauen-vorher-nachher) realistisch sind, habe ich in einem eigenen Artikel beschrieben."
       },
       {
         "type": "h2",
@@ -5579,7 +5579,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Mythos Nummer drei: Ab einem gewissen Alter bringt Krafttraining nichts mehr. Ich trainiere Frauen in Köln, die mit Mitte vierzig oder fünfzig angefangen haben und deren Körper sich signifikant verändert hat. Der Muskelaufbau geht etwas langsamer vonstatten, aber er funktioniert. Wer wartet, bis er jung genug ist, wartet ewig."
+        "text": "Mythos Nummer drei: Ab einem gewissen Alter bringt Krafttraining nichts mehr. Ich trainiere Frauen in Köln, die mit Mitte vierzig oder fünfzig angefangen haben und deren Körper sich signifikant verändert hat. Der Muskelaufbau geht etwas langsamer vonstatten, aber er funktioniert. Wie ein [Trainingsplan für Frauen ab 50](/blog/krafttraining-frauen-ab-50-trainingsplan) konkret aussieht, habe ich Schritt für Schritt aufgeschrieben. Wer wartet, bis er jung genug ist, wartet ewig."
       },
       {
         "type": "ul",
@@ -17394,7 +17394,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zwei bis drei Krafttrainings pro Woche sind ein realistischer Einstieg. Nicht weil mehr nicht möglich wäre, sondern weil dein Körper zwischen den Einheiten Zeit braucht, um sich anzupassen. Gerade in den ersten vier bis sechs Wochen reagiert dein gesamtes Bewegungssystem, also Muskeln, Sehnen, Gelenke, auf neue Reize. Pause gehört zum Plan."
+        "text": "Zwei bis drei Krafttrainings pro Woche sind ein realistischer Einstieg. Nicht weil mehr nicht möglich wäre, sondern weil dein Körper zwischen den Einheiten Zeit braucht, um sich anzupassen. Gerade in den ersten vier bis sechs Wochen reagiert dein gesamtes Bewegungssystem, also Muskeln, Sehnen, Gelenke, auf neue Reize. Pause gehört zum Plan. Wenn du über 50 bist, findest du im [Trainingsplan für Frauen ab 50](/blog/krafttraining-frauen-ab-50-trainingsplan) einen kompletten Einstieg, der genau das berücksichtigt."
       },
       {
         "type": "p",
