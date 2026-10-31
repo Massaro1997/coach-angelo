@@ -17275,6 +17275,10 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Muskelkater nach dem Krafttraining ist bei Anfängerinnen normal und meist harmlos. Er setzt 12 bis 48 Stunden nach dem Training ein und klingt nach zwei bis drei Tagen ab. Trainieren darfst du trotzdem, nur nicht denselben Muskel innerhalb von 48 Stunden. Aufpassen musst du bei scharfem, einseitigem Schmerz oder wenn es nach vier bis fünf Tagen nicht besser wird: Das ist kein Muskelkater mehr. Was dahintersteckt und wie du dranbleibst, liest du hier."
+      },
+      {
+        "type": "p",
         "text": "Du hast dein erstes Krafttraining hinter dir, und jetzt kannst du kaum die Treppe runter. Herzlichen Glückwunsch, das kennst du jetzt also auch. Muskelkater gehört zum Einstieg dazu, keine Frage. Aber es gibt einen Unterschied zwischen 'das macht Sinn' und 'da stimmt etwas nicht'. Den Unterschied erkläre ich dir hier."
       },
       {
@@ -17303,7 +17307,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Aufpassen musst du, wenn der Schmerz scharf und stechend ist, wenn er nur auf einer Seite sitzt, oder wenn er direkt im Training oder unmittelbar danach auftritt. Das sind keine Muskelkaterschmerzen mehr. Das können Zehnungen, Bänderreizungen oder Überbelastungen sein, die du ernst nehmen solltest."
+        "text": "Aufpassen musst du, wenn der Schmerz scharf und stechend ist, wenn er nur auf einer Seite sitzt, oder wenn er direkt im Training oder unmittelbar danach auftritt. Das sind keine Muskelkaterschmerzen mehr. Das können Zerrungen, Bänderreizungen oder Überbelastungen sein, die du ernst nehmen solltest."
       },
       {
         "type": "p",
@@ -17311,7 +17315,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Typische Muskeln, die am Anfang am meisten wehтun"
+        "text": "Typische Muskeln, die am Anfang am meisten wehtun"
       },
       {
         "type": "p",
@@ -17406,7 +17410,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelkater ist kein Beweis, dass du es übertrieben hast. Er ist meistens ein Zeichen, dass dein Körper gerade lernt. Wer versteht, was dahintersteckt, kann entspannter damit umgehen und bleibt langfristig dran. Wenn du dir unsicher bist, wo du anfangen sollst, welche Gewichte passen, oder wie ein realistischer Plan für dich aussieht: Ich biete ein kostenloses Erstgespräch an. Kein Druck, kein Verkaufsgespräch. Nur ein ehrliches Gespräch darüber, was für dich wirklich Sinn macht. Melde dich gern unter fitprimo.de."
+        "text": "Muskelkater ist kein Beweis, dass du es übertrieben hast. Er ist meistens ein Zeichen, dass dein Körper gerade lernt. Wer versteht, was dahintersteckt, kann entspannter damit umgehen und bleibt langfristig dran. Wenn du dir unsicher bist, wo du anfangen sollst, welche Gewichte passen, oder wie ein realistischer Plan für dich aussieht: Die Erstberatung bei mir ist kostenlos. Kein Druck, kein Verkaufsgespräch. Nur ein ehrliches Gespräch darüber, was für dich wirklich Sinn macht. Du fragst sie direkt hier unten an, ich antworte innerhalb von 24 Stunden."
       }
     ]
   }
