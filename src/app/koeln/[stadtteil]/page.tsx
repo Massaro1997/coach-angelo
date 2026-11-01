@@ -12,7 +12,8 @@ export const dynamicParams = false;
 
 // Meta su misura dove Search Console mostra ricerche diverse dal template:
 // Rodenkirchen viene cercato con "coaching köln rodenkirchen" e "personal training rodenkirchen",
-// Ehrenfeld con "personal trainer köln ehrenfeld" e "coaching köln ehrenfeld".
+// Ehrenfeld con "personal trainer köln ehrenfeld" e "coaching köln ehrenfeld",
+// Sülz con "personal training köln sülz" e "personal trainer köln sülz".
 const metaOverrides: Record<string, { title: string; description: string }> = {
   rodenkirchen: {
     title: "Personal Training & Coaching Köln-Rodenkirchen",
@@ -23,6 +24,11 @@ const metaOverrides: Record<string, { title: string; description: string }> = {
     title: "Personal Trainer & Coaching Köln-Ehrenfeld",
     description:
       "1-zu-1 Personal Training und Coaching in Köln-Ehrenfeld: 50 € pro Stunde, im Studio, im Inneren Grüngürtel oder bei dir zuhause. Kostenlose Erstberatung.",
+  },
+  suelz: {
+    title: "Personal Training & Personal Trainer Köln-Sülz",
+    description:
+      "1-zu-1 Personal Training in Köln-Sülz: 50 € pro Stunde, im Beethovenpark, am Decksteiner Weiher, im Studio oder bei dir zuhause. Kostenlose Erstberatung.",
   },
 };
 
