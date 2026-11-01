@@ -154,6 +154,11 @@ export default async function StadtteilIntentPage({
               </div>
             ))}
           </div>
+          <div className="mt-10">
+            <Link href="/contatti" className="fp-btn">
+              Kostenlose Erstberatung anfragen <span aria-hidden>→</span>
+            </Link>
+          </div>
         </div>
       </section>
 
