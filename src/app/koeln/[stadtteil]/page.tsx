@@ -14,7 +14,9 @@ export const dynamicParams = false;
 // Rodenkirchen viene cercato con "coaching köln rodenkirchen" e "personal training rodenkirchen",
 // Ehrenfeld con "personal trainer köln ehrenfeld" e "coaching köln ehrenfeld",
 // Sülz con "personal training köln sülz" e "personal trainer köln sülz",
-// Nippes con "personal trainer köln nippes" e "ernährungsberatung köln nippes".
+// Nippes con "personal trainer köln nippes" e "ernährungsberatung köln nippes",
+// Lindenthal con "personal trainer köln lindenthal" e "ernährungsberatung köln lindenthal"
+// (e il meta Lindenthal-specifico disambigua la pagina da "personal training köln sülz").
 const metaOverrides: Record<string, { title: string; description: string }> = {
   rodenkirchen: {
     title: "Personal Training & Coaching Köln-Rodenkirchen",
@@ -35,6 +37,11 @@ const metaOverrides: Record<string, { title: string; description: string }> = {
     title: "Personal Trainer & Ernährungsberatung Köln-Nippes",
     description:
       "1-zu-1 Personal Training in Köln-Nippes: 50 € pro Stunde, im Nippeser Tälchen, im Studio oder bei dir zuhause. Dazu Ernährungsberatung mit Natalie. Kostenlose Erstberatung.",
+  },
+  lindenthal: {
+    title: "Personal Trainer & Ernährungsberatung Köln-Lindenthal",
+    description:
+      "1-zu-1 Personal Training in Köln-Lindenthal: 50 € pro Stunde, im Stadtwald, am Aachener Weiher, im Studio oder bei dir zuhause. Dazu Ernährungsberatung mit Natalie. Kostenlose Erstberatung.",
   },
 };
 
