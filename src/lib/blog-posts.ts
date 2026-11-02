@@ -3756,7 +3756,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "So läuft es bei mir: Wir starten mit einer kostenlosen Erstberatung. Dort gehen wir deine Ziele, deinen Alltag und deine Trainingserfahrung durch, ehrlich und ohne Verkaufsdruck. Danach bekommst du einen Wochenplan, der zu deinem Leben passt, wöchentliche Check-ins und Videoanalyse deiner Hauptübungen. Das Online Coaching kostet ab 150 Euro im Monat, ohne versteckte Zusatzkosten."
+        "text": "So läuft es bei mir: Wir starten mit einer kostenlosen Erstberatung. Dort gehen wir deine Ziele, deinen Alltag und deine Trainingserfahrung durch, ehrlich und ohne Verkaufsdruck. Danach bekommst du einen Wochenplan, der zu deinem Leben passt, wöchentliche Check-ins und Videoanalyse deiner Hauptübungen. Das Online Coaching kostet ab 150 Euro im Monat, ohne versteckte Zusatzkosten. Wie das im Vergleich zum Training vor Ort aussieht, liest du im Überblick [Was kostet ein Personal Trainer in Köln?](/blog/was-kostet-personal-trainer-koeln)"
       },
       {
         "type": "p",
@@ -4342,7 +4342,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Krafttraining ab 50 ist kein Kampf gegen den Körper, es ist die klügste Zusammenarbeit mit ihm. Du brauchst keinen perfekten Plan, du brauchst einen, der zu deinem Leben passt und den du wirklich umsetzt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon Versuche hinter dir hast, die nicht funktioniert haben, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam anschauen, was für dich konkret Sinn macht. Kein Verkaufsgespräch, kein Druck, nur ein ehrliches Gespräch über deinen Start."
+        "text": "Krafttraining ab 50 ist kein Kampf gegen den Körper, es ist die klügste Zusammenarbeit mit ihm. Du brauchst keinen perfekten Plan, du brauchst einen, der zu deinem Leben passt und den du wirklich umsetzt. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du schon Versuche hinter dir hast, die nicht funktioniert haben, dann lass uns reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam anschauen, was für dich konkret Sinn macht. Kein Verkaufsgespräch, kein Druck, nur ein ehrliches Gespräch über deinen Start. Und wenn du vorher wissen willst, was Personal Training kostet: [Was kostet ein Personal Trainer in Köln?](/blog/was-kostet-personal-trainer-koeln)"
       }
     ]
   },
@@ -13628,7 +13628,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Das Ziel ist dabei nicht, dass du dauerhaft einen Trainer brauchst. Du sollst verstehen, was du tust, und irgendwann selbstständig weitertrainieren können. Ob das 1-zu-1-Training in Köln oder das Online Coaching besser zu dir passt, klären wir im kostenlosen Erstgespräch."
+        "text": "Das Ziel ist dabei nicht, dass du dauerhaft einen Trainer brauchst. Du sollst verstehen, was du tust, und irgendwann selbstständig weitertrainieren können. Ob das 1-zu-1-Training in Köln oder das Online Coaching besser zu dir passt, klären wir im kostenlosen Erstgespräch. Die Preise dafür stehen transparent im Artikel [Was kostet ein Personal Trainer in Köln?](/blog/was-kostet-personal-trainer-koeln)"
       },
       {
         "type": "h2",
