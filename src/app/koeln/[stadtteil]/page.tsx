@@ -13,7 +13,8 @@ export const dynamicParams = false;
 // Meta su misura dove Search Console mostra ricerche diverse dal template:
 // Rodenkirchen viene cercato con "coaching köln rodenkirchen" e "personal training rodenkirchen",
 // Ehrenfeld con "personal trainer köln ehrenfeld" e "coaching köln ehrenfeld",
-// Sülz con "personal training köln sülz" e "personal trainer köln sülz".
+// Sülz con "personal training köln sülz" e "personal trainer köln sülz",
+// Nippes con "personal trainer köln nippes" e "ernährungsberatung köln nippes".
 const metaOverrides: Record<string, { title: string; description: string }> = {
   rodenkirchen: {
     title: "Personal Training & Coaching Köln-Rodenkirchen",
@@ -29,6 +30,11 @@ const metaOverrides: Record<string, { title: string; description: string }> = {
     title: "Personal Training & Personal Trainer Köln-Sülz",
     description:
       "1-zu-1 Personal Training in Köln-Sülz: 50 € pro Stunde, im Beethovenpark, am Decksteiner Weiher, im Studio oder bei dir zuhause. Kostenlose Erstberatung.",
+  },
+  nippes: {
+    title: "Personal Trainer & Ernährungsberatung Köln-Nippes",
+    description:
+      "1-zu-1 Personal Training in Köln-Nippes: 50 € pro Stunde, im Nippeser Tälchen, im Studio oder bei dir zuhause. Dazu Ernährungsberatung mit Natalie. Kostenlose Erstberatung.",
   },
 };
 
