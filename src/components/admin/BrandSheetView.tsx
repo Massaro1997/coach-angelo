@@ -1,7 +1,7 @@
 "use client";
 
 import { useId, useState } from "react";
-import { Kanit } from "next/font/google";
+import localFont from "next/font/local";
 import { Card, Badge } from "./ui";
 import { SIMBOLI, ROSSO, ROSSO_CHIARO, ROSSO_SCURO } from "./marchio-simboli";
 import { SCRITTE, SPAZIO } from "./marchio-scritte";
@@ -11,7 +11,8 @@ import { SCRITTE, SPAZIO } from "./marchio-scritte";
 // I file veri stanno in brand/logo/fitprimo, le foto d'esempio in
 // public/brand/fitprimo (generate da scripts/genera-mockup-brand.mjs).
 
-const kanit = Kanit({ weight: ["700"], style: ["italic"], subsets: ["latin"], display: "swap" });
+// Font in locale come in layout.tsx (02/11/2026: next/font/google rompeva la build).
+const kanit = localFont({ src: "../../app/fonts/kanit-700-italic-latin.woff2", weight: "700", style: "italic", display: "swap" });
 
 const NERO = "#121214";
 const GRIGIO = "#f4f4f5";

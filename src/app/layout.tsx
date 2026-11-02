@@ -1,20 +1,25 @@
 import type { Metadata } from "next";
-import { Archivo, Kanit } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 
-const archivo = Archivo({
-  weight: ["400", "500", "600", "700", "800", "900"],
+// Font in locale (latin da Google Fonts) dal 02/11/2026: Google ha iniziato a dare
+// a Vercel URL /l/font?kit=... che next/font/google con Turbopack non regge
+// ("next/font/google queries have exactly one entry") e ogni build falliva.
+const archivo = localFont({
+  src: "./fonts/archivo-latin.woff2",
+  weight: "400 900",
   variable: "--font-archivo",
-  subsets: ["latin"],
+  display: "swap",
 });
 
 // Il carattere dei titoli: lo stesso della scritta del logo FITPRIMO.
-const kanit = Kanit({
-  weight: ["600", "700"],
-  style: ["italic"],
+const kanit = localFont({
+  src: [
+    { path: "./fonts/kanit-600-italic-latin.woff2", weight: "600", style: "italic" },
+    { path: "./fonts/kanit-700-italic-latin.woff2", weight: "700", style: "italic" },
+  ],
   variable: "--font-kanit",
-  subsets: ["latin"],
   display: "swap",
 });
 
