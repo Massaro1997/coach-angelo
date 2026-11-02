@@ -1,6 +1,9 @@
 // Porta GSC_REFRESH_TOKEN da .env.local su Vercel (Production) e ripubblica
 // la produzione attuale con `vercel redeploy`: stesso codice gia' online,
 // variabili nuove. Non pubblica il lavoro non committato della cartella.
+// Porta anche GOOGLE_OAUTH_CLIENT_ID/_SECRET: il token vale solo col client
+// che l'ha creato. Il 02/11/2026 Vercel aveva ancora il client condiviso
+// fast-risarcimenti e Google rispondeva "unauthorized_client".
 //
 // Uso:  node scripts/aggiorna-token-vercel.mjs
 // (dopo `node scripts/get-refresh-token.mjs`)
@@ -53,8 +56,10 @@ const vercel = (args, input) => {
   }
 };
 
-console.log("\nAggiorno GSC_REFRESH_TOKEN su Vercel (Production)...");
-vercel(["env", "add", "GSC_REFRESH_TOKEN", "production", "--force"], token);
+for (const k of ["GOOGLE_OAUTH_CLIENT_ID", "GOOGLE_OAUTH_CLIENT_SECRET", "GSC_REFRESH_TOKEN"]) {
+  console.log(`\nAggiorno ${k} su Vercel (Production)...`);
+  vercel(["env", "add", k, "production", "--force"], leggi(k));
+}
 
 console.log("\nRipubblico la produzione attuale con il token nuovo...");
 vercel(["redeploy", "www.angelocoach.com", "--target", "production"]);
