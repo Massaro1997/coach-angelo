@@ -16,7 +16,9 @@ export const dynamicParams = false;
 // Sülz con "personal training köln sülz" e "personal trainer köln sülz",
 // Nippes con "personal trainer köln nippes" e "ernährungsberatung köln nippes",
 // Lindenthal con "personal trainer köln lindenthal" e "ernährungsberatung köln lindenthal"
-// (e il meta Lindenthal-specifico disambigua la pagina da "personal training köln sülz").
+// (e il meta Lindenthal-specifico disambigua la pagina da "personal training köln sülz"),
+// Junkersdorf prende impressioni da ricerche generiche ("personal coach köln", "fitnesstrainer köln")
+// ed è l'unico quartiere che ha già portato una richiesta di contatto: prezzo e offerta in description.
 const metaOverrides: Record<string, { title: string; description: string }> = {
   rodenkirchen: {
     title: "Personal Training & Coaching Köln-Rodenkirchen",
@@ -42,6 +44,11 @@ const metaOverrides: Record<string, { title: string; description: string }> = {
     title: "Personal Trainer & Ernährungsberatung Köln-Lindenthal",
     description:
       "1-zu-1 Personal Training in Köln-Lindenthal: 50 € pro Stunde, im Stadtwald, am Aachener Weiher, im Studio oder bei dir zuhause. Dazu Ernährungsberatung mit Natalie. Kostenlose Erstberatung.",
+  },
+  junkersdorf: {
+    title: "Personal Trainer & Ernährungsberatung Köln-Junkersdorf",
+    description:
+      "1-zu-1 Personal Training in Köln-Junkersdorf: 50 € pro Stunde, im Äußeren Grüngürtel, im Studio oder bei dir zuhause. Dazu Ernährungsberatung mit Natalie. Kostenlose Erstberatung.",
   },
 };
 
