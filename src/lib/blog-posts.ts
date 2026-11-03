@@ -5644,7 +5644,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zwölf Wochen Krafttraining verändern deinen Körper, deine Energie und deine Haltung. Das ist kein leeres Versprechen, das ist das, was ich täglich in meiner Arbeit als Personal Trainer in Köln beobachte. Wenn du wissen willst, wo du anfängst und was konkret für dich möglich ist, lade ich dich herzlich zu einem kostenlosen Erstgespräch ein. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung, was in deiner Situation realistisch machbar ist. Schreib mir über fitprimo.de."
+        "text": "Zwölf Wochen Krafttraining verändern deinen Körper, deine Energie und deine Haltung. Das ist kein leeres Versprechen, das ist das, was ich täglich in meiner Arbeit als Personal Trainer in Köln beobachte. Wenn du wissen willst, wo du anfängst und was konkret für dich möglich ist, lade ich dich herzlich zu einem kostenlosen Erstgespräch ein. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung, was in deiner Situation realistisch machbar ist. Den Termin dafür findest du direkt unter diesem Artikel."
       }
     ]
   },
