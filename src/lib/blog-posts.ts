@@ -9726,7 +9726,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Online Coaching ist kein Ersatz für Motivation, die du selbst mitbringen musst. Aber es gibt dir die Struktur, das Wissen und die Begleitung, die du brauchst, um wirklich voranzukommen. Wenn du wissen willst, ob es für dich passt, lade ich dich zu einem kostenlosen Erstgespräch ein. Kein Druck, keine Verpflichtung, nur ein ehrliches Gespräch darüber, wo du stehst und was möglich ist. Schreib mir einfach über fitprimo.de."
+        "text": "Online Coaching ist kein Ersatz für Motivation, die du selbst mitbringen musst. Aber es gibt dir die Struktur, das Wissen und die Begleitung, die du brauchst, um wirklich voranzukommen. Wenn du wissen willst, ob es für dich passt, lade ich dich zu einem kostenlosen Erstgespräch ein. Kein Druck, keine Verpflichtung, nur ein ehrliches Gespräch darüber, wo du stehst und was möglich ist. Das Erstgespräch buchst du direkt unter diesem Artikel."
       }
     ]
   },
