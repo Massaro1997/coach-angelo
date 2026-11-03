@@ -5192,7 +5192,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die Entscheidung zwischen Online Coaching und Personal Training ist keine Frage des Budgets allein. Sie hängt davon ab, wo du gerade stehst, wie dein Alltag aussieht, und was dich wirklich antreibt. Wenn du unsicher bist, welche Option für dich passt, reden wir einfach darüber. Ich biete ein kostenloses Erstgespräch an, ohne Druck und ohne versteckte Agenda. Meld dich auf fitprimo.de, und wir schauen gemeinsam, was für dich Sinn macht."
+        "text": "Die Entscheidung zwischen Online Coaching und Personal Training ist keine Frage des Budgets allein. Sie hängt davon ab, wo du gerade stehst, wie dein Alltag aussieht, und was dich wirklich antreibt. Wenn du unsicher bist, welche Option für dich passt, reden wir einfach darüber. Ich biete ein kostenloses Erstgespräch an, ohne Druck und ohne versteckte Agenda. Den Termin findest du direkt unter diesem Artikel, und wir schauen gemeinsam, was für dich Sinn macht."
       }
     ]
   },
