@@ -4190,8 +4190,8 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "krafttraining-frauen-ab-50-trainingsplan",
     "title": "Krafttraining ab 50: Der Trainingsplan für Frauen, der wirklich funktioniert",
-    "metaTitle": "Krafttraining ab 50: Trainingsplan für Frauen",
-    "metaDescription": "Krafttraining für Frauen ab 50: Personal Trainer Angelo aus Köln zeigt dir einen alltagstauglichen Trainingsplan für Muskelaufbau, Knochen und Hormone.",
+    "metaTitle": "Krafttraining für Frauen ab 50: der Trainingsplan",
+    "metaDescription": "Der komplette Trainingsplan für Frauen ab 50: Übungen, Sätze und Wochenstruktur für zuhause oder Studio, dazu Protein und Erholung. Von Coach Angelo aus Köln.",
     "date": "2026-06-14",
     "readMinutes": 5,
     "excerpt": "Frauen ab 50 brauchen keinen Anfängerplan von der Stange. Personal Trainer Angelo aus Köln erklärt, wie Krafttraining jetzt wirklich aussehen muss.",
