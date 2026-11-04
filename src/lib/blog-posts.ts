@@ -58,6 +58,22 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "Ich arbeite anders: Krafttraining im Studio, Planung und Ernährung digital. Dadurch kann ich die Stunde für 50€ anbieten, ohne an der Betreuung zu sparen. Mein Geld verdiene ich nicht mit der Adresse, sondern mit deinen Ergebnissen. Die sprechen sich rum.",
       },
+      { type: "h2", text: "Was kostet ein Personal Trainer pro Monat?" },
+      {
+        type: "p",
+        text: "Bei zwei Einheiten pro Woche liegst du in Köln zwischen 400€ und 1.200€ im Monat, je nach Stundenpreis. Bei mir sind es 400€: acht Stunden mal 50€. Wer einmal pro Woche trainiert, halbiert das. Am wenigsten kostet die Betreuung im Monat beim Online Coaching, weil keine Einzelstunden anfallen: bei mir ab 150€, in Köln meist zwischen 150€ und 400€.",
+      },
+      {
+        type: "table",
+        headers: ["Modell", "Kosten pro Monat in Köln"],
+        rows: [
+          ["1 Einheit pro Woche (4 Stunden)", "200€ bis 600€"],
+          ["2 Einheiten pro Woche (8 Stunden)", "400€ bis 1.200€"],
+          ["Online Coaching (Plan, Ernährung, Check-ins)", "150€ bis 400€"],
+          ["FitPrimo: 2 Einheiten pro Woche", "400€"],
+          ["FitPrimo: Online Coaching", "ab 150€ im Monat"],
+        ],
+      },
       { type: "h2", text: "Stunde buchen oder Coaching-Paket?" },
       {
         type: "p",
