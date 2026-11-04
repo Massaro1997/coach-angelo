@@ -18,7 +18,9 @@ export const dynamicParams = false;
 // Lindenthal con "personal trainer köln lindenthal" e "ernährungsberatung köln lindenthal"
 // (e il meta Lindenthal-specifico disambigua la pagina da "personal training köln sülz"),
 // Junkersdorf prende impressioni da ricerche generiche ("personal coach köln", "fitnesstrainer köln")
-// ed è l'unico quartiere che ha già portato una richiesta di contatto: prezzo e offerta in description.
+// ed è l'unico quartiere che ha già portato una richiesta di contatto: prezzo e offerta in description,
+// Altstadt-Süd viene cercato con "coach köln südstadt" (il nome colloquiale del quartiere):
+// senza "Südstadt" e "Coach" nello snippet chi cerca non ritrova la sua parola.
 const metaOverrides: Record<string, { title: string; description: string }> = {
   rodenkirchen: {
     title: "Personal Training & Coaching Köln-Rodenkirchen",
@@ -49,6 +51,11 @@ const metaOverrides: Record<string, { title: string; description: string }> = {
     title: "Personal Trainer & Ernährungsberatung Köln-Junkersdorf",
     description:
       "1-zu-1 Personal Training in Köln-Junkersdorf: 50 € pro Stunde, im Äußeren Grüngürtel, im Studio oder bei dir zuhause. Dazu Ernährungsberatung mit Natalie. Kostenlose Erstberatung.",
+  },
+  "altstadt-sued": {
+    title: "Personal Trainer & Coach in der Kölner Südstadt",
+    description:
+      "1-zu-1 Personal Training in der Kölner Südstadt (Altstadt-Süd): 50 € pro Stunde, am Rheinufer, im Studio oder bei dir zuhause. Kostenlose Erstberatung.",
   },
 };
 
