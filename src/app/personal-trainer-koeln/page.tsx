@@ -232,11 +232,11 @@ export default function PersonalTrainerKoeln() {
               <Link href="/blog/krafttraining-frauen-ab-50-trainingsplan" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
                 Krafttraining für Frauen ab 50
               </Link>
-              ,{" "}
+              , wann sich ein{" "}
               <Link href="/blog/muskelaufbau-ab-40-mann-trainingsplan-tipps" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
-                Muskelaufbau ab 40
+                Personal Trainer für Männer ab 40
               </Link>{" "}
-              oder{" "}
+              lohnt, oder{" "}
               <Link href="/blog/testosteron-krafttraining-mann-ab-40" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
                 Testosteron und Krafttraining ab 40
               </Link>

@@ -13636,7 +13636,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelaufbau ab 40 ist kein Wunschdenken, er ist eine Frage der richtigen Herangehensweise. Du brauchst keinen Extremplan, kein Fünf-Tage-Split und keine teuren Supplemente. Du brauchst Konstanz, eine saubere Technik, genug Protein und echten Respekt vor der Erholung. Das klingt unspektakulär, weil es unspektakulär ist, und genau deshalb funktioniert es. Wenn du nicht weißt, wo du anfangen sollst, oder wenn bisherige Versuche nicht geklappt haben, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was zu dir und deinem Alltag passt. Kein Verkaufsdruck, kein Standardprogramm. Einfach ein ehrliches Gespräch."
+        "text": "Muskelaufbau ab 40 ist kein Wunschdenken, er ist eine Frage der richtigen Herangehensweise. Du brauchst keinen Extremplan, kein Fünf-Tage-Split und keine teuren Supplemente. Du brauchst Konstanz, eine saubere Technik, genug Protein und echten Respekt vor der Erholung. Das klingt unspektakulär, weil es unspektakulär ist, und genau deshalb funktioniert es. Wenn du nicht weißt, wo du anfangen sollst, oder wenn bisherige Versuche nicht geklappt haben, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was zu dir und deinem Alltag passt. Kein Verkaufsdruck, kein Standardprogramm. Das Erstgespräch buchst du direkt unter diesem Artikel."
       }
     ]
   },

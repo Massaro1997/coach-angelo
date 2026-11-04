@@ -7632,7 +7632,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ich habe in Köln mit genug Männern zwischen 40 und 60 gearbeitet, um dir eines zu sagen: Die, die scheitern, scheitern nie am Wissen. Sie scheitern an einem Plan, der zu ihrem echten Leben nicht passt. Geschäftsessen, Schichtdienst, Kinder, Vereinsabend mit Kölsch. Ein guter Plan rechnet das ein, statt es zu ignorieren."
+        "text": "Ich habe in Köln mit genug Männern zwischen 40 und 60 gearbeitet, um dir eines zu sagen: Die, die scheitern, scheitern nie am Wissen. Sie scheitern an einem Plan, der zu ihrem echten Leben nicht passt. Geschäftsessen, Schichtdienst, Kinder, Vereinsabend mit Kölsch. Ein guter Plan rechnet das ein, statt es zu ignorieren. Wann sich ein [Personal Trainer für Männer ab 40](/blog/muskelaufbau-ab-40-mann-trainingsplan-tipps) lohnt und wie so ein Plan aussieht, habe ich in einem eigenen Artikel aufgeschrieben."
       },
       {
         "type": "h2",
