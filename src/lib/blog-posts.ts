@@ -112,7 +112,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Mein Angebot in Köln, schwarz auf weiß" },
       {
         type: "p",
-        text: "Personal Training 1-zu-1: 50€ pro Stunde. Online Coaching: ab 150€ im Monat mit individuellem Trainingsplan, Ernährungsberatung und Check-ins jede Woche. Fertige Trainingspläne als PDF ab 25€, wenn du erstmal alleine starten willst. Die Erstberatung kostet nichts, dauert ehrlich gerechnet 30 bis 45 Minuten und verpflichtet dich zu gar nichts.",
+        text: "Personal Training 1-zu-1: 50€ pro Stunde. Online Coaching: ab 150€ im Monat mit individuellem Trainingsplan, Ernährungsberatung und Check-ins jede Woche. Fertige Trainingspläne als PDF ab 25€, wenn du erstmal alleine starten willst. Die Erstberatung kostet nichts, dauert ehrlich gerechnet 30 bis 45 Minuten und verpflichtet dich zu gar nichts. Alle Leistungen, der Ablauf und die Stadtteile stehen auf der Seite [Personal Trainer Köln](/personal-trainer-koeln).",
       },
     ],
   },
@@ -8444,7 +8444,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Personal Training in Köln ist eine Investition, keine Ausgabe. Wenn du weißt, was im Preis steckt, was extra kostet und wie du dein Budget einteilst, bekommst du deutlich mehr als eine Sportstunde. Du bekommst einen Plan, Verantwortlichkeit und jemanden, der mitdenkt. Wenn du wissen willst, was das für dich konkret bedeutet, und welches Setup zu deinen Zielen und deinem Alltag passt, dann meld dich gerne für ein kostenloses Erstgespräch bei mir. Kein Druck, keine Verkaufsshow, nur ein ehrliches Gespräch darüber, was für dich sinnvoll ist."
+        "text": "Personal Training in Köln ist eine Investition, keine Ausgabe. Wenn du weißt, was im Preis steckt, was extra kostet und wie du dein Budget einteilst, bekommst du deutlich mehr als eine Sportstunde. Du bekommst einen Plan, Verantwortlichkeit und jemanden, der mitdenkt. Wenn du wissen willst, was das für dich konkret bedeutet, und welches Setup zu deinen Zielen und deinem Alltag passt, dann meld dich gerne für ein kostenloses Erstgespräch bei mir. Kein Druck, keine Verkaufsshow, nur ein ehrliches Gespräch darüber, was für dich sinnvoll ist. Was ich selbst anbiete, mit Preisen und allen Stadtteilen, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln)."
       }
     ]
   },

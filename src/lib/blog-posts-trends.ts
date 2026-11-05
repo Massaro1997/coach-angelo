@@ -3329,7 +3329,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du herausfinden willst, welcher Weg für dich der richtige ist, komm einfach auf ein kostenloses Erstgespräch vorbei. Ich sage dir ehrlich, ob und wie viel Begleitung du wirklich brauchst, und wenn die Antwort lautet, dass dir ein Studio-Abo und drei gute Tipps reichen, dann sage ich dir auch das. Versprochen."
+        "text": "Wenn du herausfinden willst, welcher Weg für dich der richtige ist, komm einfach auf ein kostenloses Erstgespräch vorbei. Ich sage dir ehrlich, ob und wie viel Begleitung du wirklich brauchst, und wenn die Antwort lautet, dass dir ein Studio-Abo und drei gute Tipps reichen, dann sage ich dir auch das. Versprochen. Wie ich arbeite und was es kostet, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln)."
       }
     ]
   },
