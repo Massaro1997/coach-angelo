@@ -7793,7 +7793,7 @@ export const trendPosts: BlogPost[] = [
     "slug": "grundumsatz-erhoehen-methoden",
     "title": "Grundumsatz erhöhen: Was deinen Stoffwechsel wirklich antreibt",
     "metaTitle": "Grundumsatz erhöhen: Das funktioniert wirklich",
-    "metaDescription": "Grundumsatz erhöhen ohne Detox-Märchen: Muskelmasse, NEAT und Protein sind die echten Hebel. Mit konkreten Zahlen, was wie viel bringt.",
+    "metaDescription": "Grundumsatz steigern ohne Detox-Märchen: Muskelmasse, NEAT und Protein sind die echten Hebel. Mit konkreten Zahlen, was wie viel bringt.",
     "date": "2026-07-09",
     "readMinutes": 6,
     "excerpt": "Deinen Grundumsatz erhöhst du über Muskelmasse, Alltagsbewegung und ausreichend Essen. Ingwer-Shots und Stoffwechsel-Tees kannst du dir sparen. Hier stehen die Zahlen dazu.",
@@ -7849,7 +7849,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Die realistische Gesamtrechnung"
+        "text": "Grundumsatz steigern: die realistische Gesamtrechnung"
       },
       {
         "type": "p",
@@ -8275,7 +8275,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Grund 4 ist tückisch: Wer trainiert und weniger isst, bewegt sich unbewusst im Alltag weniger. Der Körper spart Energie, du nimmst öfter den Aufzug, zappelst weniger, sitzt mehr. Dieser Effekt kann mehrere hundert Kilokalorien am Tag ausmachen und frisst dein Defizit lautlos auf. Gegenmittel: ein Schrittziel, 8000 bis 10.000 pro Tag, getrackt mit dem Handy. Grund 5 ist Wasser: Neues Training, Muskelkater, Stress und salziges Essen lassen dich kurzfristig ein bis zwei Kilo Wasser speichern, das den Fettverlust auf der Waage komplett maskieren kann. Deshalb zählt niemals ein einzelner Waagenwert, sondern nur der Wochendurchschnitt über mindestens drei bis vier Wochen."
+        "text": "Grund 4 ist tückisch: Wer trainiert und weniger isst, bewegt sich unbewusst im Alltag weniger. Der Körper spart Energie, du nimmst öfter den Aufzug, zappelst weniger, sitzt mehr. Dieser Effekt kann mehrere hundert Kilokalorien am Tag ausmachen und frisst dein Defizit lautlos auf. Gegenmittel: ein Schrittziel, 8000 bis 10.000 pro Tag, getrackt mit dem Handy. Grund 5 ist Wasser: Neues Training, Muskelkater, Stress und salziges Essen lassen dich kurzfristig ein bis zwei Kilo Wasser speichern, das den Fettverlust auf der Waage komplett maskieren kann. Deshalb zählt niemals ein einzelner Waagenwert, sondern nur der Wochendurchschnitt über mindestens drei bis vier Wochen. Welche Hebel deinen Verbrauch dauerhaft anheben, steht im Artikel [Grundumsatz erhöhen](/blog/grundumsatz-erhoehen-methoden)."
       },
       {
         "type": "h2",
