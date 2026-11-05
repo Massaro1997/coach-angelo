@@ -5508,7 +5508,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "krafttraining-frauen-vorher-nachher",
     "title": "Krafttraining Frauen Vorher-Nachher: Was in 12 Wochen wirklich passiert",
     "metaTitle": "Krafttraining Frauen: Vorher-Nachher in 12 Wochen",
-    "metaDescription": "Was passiert wirklich, wenn Frauen 12 Wochen Krafttraining machen? Angelo erklärt realistische Veränderungen, Mythen und konkrete Ergebnisse.",
+    "metaDescription": "Was verändert Krafttraining bei Frauen wirklich? Realistische Vorher-Nachher-Ergebnisse nach 1 Monat, 12 Wochen, 6 Monaten und einem Jahr. Ohne Mythen.",
     "date": "2026-06-14",
     "readMinutes": 5,
     "excerpt": "Kein Wunder, keine Magie. Hier erfährst du, welche Veränderungen Frauen durch Krafttraining in 12 Wochen realistisch erwarten können und welche Mythen endlich aufhören müssen.",
@@ -5535,7 +5535,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Was in den ersten vier Wochen passiert"
+        "text": "Der erste Monat: was nach vier Wochen wirklich passiert"
       },
       {
         "type": "p",
@@ -5580,6 +5580,22 @@ export const blogPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Das Schönste an zwölf Wochen Krafttraining ist nicht unbedingt das, was du siehst. Es ist das, was du kannst. Schwerer heben. Länger stehen. Rücken nicht mehr weh. Das sind Vorher-Nachher-Momente, die kein Foto einfängt, aber die im Alltag jeden Tag zählen."
+      },
+      {
+        "type": "h2",
+        "text": "Sechs Monate und ein Jahr: so geht es weiter"
+      },
+      {
+        "type": "p",
+        "text": "Nach sechs Monaten ist Krafttraining keine Phase mehr, sondern Teil deines Lebens. Die Veränderungen aus den ersten zwölf Wochen vertiefen sich: Die Schultern wirken definierter, die Beine und der Po straffer, die Haltung aufrechter. Viele Frauen heben jetzt Gewichte, die sie am Anfang für unmöglich gehalten hätten. Und weil mehr Muskelmasse auch in Ruhe mehr Energie verbraucht, fällt es leichter, das Gewicht zu halten, ohne jede Kalorie zu zählen."
+      },
+      {
+        "type": "p",
+        "text": "Nach einem Jahr ist der Unterschied auf Fotos unübersehbar, auch ohne perfektes Licht. Der Körper hat sichtbar Muskulatur aufgebaut und Fett verloren, selbst wenn die Waage kaum etwas anderes anzeigt als am Anfang. Genau deshalb sind Vorher-Nachher-Fotos nach einem Jahr ehrlicher als nach vier Wochen: Da steckt keine Beleuchtung dahinter, sondern Arbeit."
+      },
+      {
+        "type": "p",
+        "text": "Der Weg dorthin ist allerdings nicht linear. Irgendwo zwischen Monat drei und sechs kommt bei fast allen ein Plateau: Die schnellen Anfangserfolge sind aufgebraucht, und der Plan muss angepasst werden, mehr Gewicht, andere Übungen, neue Reize. Das ist der Punkt, an dem viele alleine aufgeben und an dem ein guter Plan oder ein Trainer den Unterschied macht."
       },
       {
         "type": "h2",
