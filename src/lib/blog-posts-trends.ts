@@ -3572,7 +3572,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Der Gesamtfehler über allen einzelnen Stationen: Sie werden fast immer frisch trainiert. Im Rennen kommst du aber nie frisch an eine Station, sondern immer mit einem Kilometer Laufen in den Beinen. Deshalb baue ich in meinen Plänen ab der Mitte der Vorbereitung grundsätzlich Kombinationen ein: erst 800 bis 1000 Meter laufen, dann die Station. Das verändert alles, von der Atmung bis zur Technik."
+        "text": "Der Gesamtfehler über allen einzelnen Stationen: Sie werden fast immer frisch trainiert. Im Rennen kommst du aber nie frisch an eine Station, sondern immer mit einem Kilometer Laufen in den Beinen. Deshalb baue ich in meinen Plänen ab der Mitte der Vorbereitung grundsätzlich Kombinationen ein: erst 800 bis 1000 Meter laufen, dann die Station. Das verändert alles, von der Atmung bis zur Technik. Und falls du kein Studio hast: Wie du [Hyrox ohne Gym zuhause und draußen trainierst](/blog/hyrox-ohne-gym-trainieren), steht in einem eigenen Artikel."
       },
       {
         "type": "p",
