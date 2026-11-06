@@ -12497,7 +12497,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die ehrliche Antwort lautet: Lieber dreimal täglich zwei Minuten als einmal am Tag zwanzig Minuten. Dein Nervensystem lernt durch Wiederholung, nicht durch Dauer. Verknüpfe die Übungen mit Momenten, die sowieso passieren: vor dem ersten Kaffee, nach jedem Videocall, bevor du in die Mittagspause gehst."
+        "text": "Die ehrliche Antwort lautet: Lieber dreimal täglich zwei Minuten als einmal am Tag zwanzig Minuten. Dein Nervensystem lernt durch Wiederholung, nicht durch Dauer. Verknüpfe die Übungen mit Momenten, die sowieso passieren: vor dem ersten Kaffee, nach jedem Videocall, bevor du in die Mittagspause gehst. Und wenn du schon vor dem ersten Kaffee etwas für deinen Rücken tun willst: ein paar [Rückenübungen morgens nach dem Aufwachen](/blog/rueckenubungen-morgens-aufwachen) dauern fünf Minuten, bevor du dich überhaupt an den Schreibtisch setzt."
       },
       {
         "type": "p",
@@ -13836,7 +13836,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Langes Sitzen verkürzt die Hüftbeuger und schwächt gleichzeitig Gesäß, tiefe Bauchmuskulatur und die paravertebrale Muskulatur entlang der Wirbelsäule. Das klingt technisch, bedeutet aber ganz konkret: Dein Körper verliert die Fähigkeit, die Wirbelsäule im Alltag aktiv zu schützen. Jede Bewegung, jedes Heben, jedes Stehen überträgt dann Kräfte direkt auf Gelenke und Bandscheiben statt auf gut trainierte Muskeln."
+        "text": "Langes Sitzen verkürzt die Hüftbeuger und schwächt gleichzeitig Gesäß, tiefe Bauchmuskulatur und die paravertebrale Muskulatur entlang der Wirbelsäule. Das klingt technisch, bedeutet aber ganz konkret: Dein Körper verliert die Fähigkeit, die Wirbelsäule im Alltag aktiv zu schützen. Jede Bewegung, jedes Heben, jedes Stehen überträgt dann Kräfte direkt auf Gelenke und Bandscheiben statt auf gut trainierte Muskeln. Typisch ist auch die Steifigkeit direkt nach dem Aufstehen: Dagegen helfen schon fünf Minuten [Rückenübungen morgens im Bett](/blog/rueckenubungen-morgens-aufwachen), bevor der Bürotag beginnt."
       },
       {
         "type": "p",
