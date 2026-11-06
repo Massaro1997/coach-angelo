@@ -4053,7 +4053,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die schlechte Nachricht zuerst, weil ich dich nicht anlügen will: Nichts ersetzt den Schlitten zu 100 Prozent. Die gute: Du kommst mit Ersatzübungen auf 80 bis 90 Prozent, und das reicht für ein solides erstes Rennen. Am nächsten dran ist das Schieben eines Autos auf einem leeren Parkplatz mit einem Partner am Lenkrad, gefolgt vom schweren Reifenziehen am Gurt. Im Gym funktioniert die Kombination aus schwerer Beinpresse, tiefem Kabelrudern und anschließenden Bergsprints als Baukasten, der dieselben Systeme trifft."
+        "text": "Die schlechte Nachricht zuerst, weil ich dich nicht anlügen will: Nichts ersetzt den Schlitten zu 100 Prozent. Die gute: Du kommst mit Ersatzübungen auf 80 bis 90 Prozent, und das reicht für ein solides erstes Rennen. Am nächsten dran ist das Schieben eines Autos auf einem leeren Parkplatz mit einem Partner am Lenkrad, gefolgt vom schweren Reifenziehen am Gurt. Im Gym funktioniert die Kombination aus schwerer Beinpresse, tiefem Kabelrudern und anschließenden Bergsprints als Baukasten, der dieselben Systeme trifft. Wie du [Hyrox ohne Gym zuhause und draußen trainierst](/blog/hyrox-ohne-gym-trainieren), mit Ersatz für alle acht Stationen, habe ich in einem eigenen Artikel beschrieben."
       },
       {
         "type": "p",

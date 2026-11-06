@@ -12306,7 +12306,7 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
-        "text": "Du kommst um 19 Uhr nach Hause, bist müde, aber du willst endlich etwas verändern. Genau da stecken die meisten Berufstätigen fest: zwischen dem Wunsch abzunehmen und dem Gefühl, keine Energie mehr zu haben. Ich bin Angelo, Personal Trainer in Köln, und ich begleite täglich Menschen mit Vollzeitjob auf genau diesem Weg. Es geht, aber nicht mit blindem Durchhalten, sondern mit dem richtigen Plan."
+        "text": "Du kommst um 19 Uhr nach Hause, bist müde, aber du willst endlich etwas verändern. Genau da stecken die meisten Berufstätigen fest: zwischen dem Wunsch abzunehmen und dem Gefühl, keine Energie mehr zu haben. Ich bin Angelo, Personal Trainer in Köln, und ich begleite täglich Menschen mit Vollzeitjob auf genau diesem Weg. Es geht, aber nicht mit blindem Durchhalten, sondern mit dem richtigen Plan. Und falls dich vor allem die Erschöpfung bremst: Warum du dich [zu müde für Sport nach der Arbeit](/blog/feierabend-training-energie) fühlst und was wirklich dagegen hilft, habe ich in einem eigenen Artikel erklärt."
       },
       {
         "type": "h2",
