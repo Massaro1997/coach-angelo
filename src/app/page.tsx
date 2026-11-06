@@ -51,18 +51,6 @@ const SQUADRA_PRONTA = true;
 const mostraSquadra = SQUADRA_PRONTA || process.env.NODE_ENV !== "production";
 const ESEMPI_SQUADRA = process.env.NODE_ENV !== "production";
 
-function Stelle({ className = "h-4 w-4" }: { className?: string }) {
-  return (
-    <span className="flex gap-0.5 text-gold" aria-hidden>
-      {[1, 2, 3, 4, 5].map((n) => (
-        <svg key={n} viewBox="0 0 24 24" className={className} fill="currentColor">
-          <path d="M12 2.5l2.9 6.1 6.6.9-4.8 4.6 1.2 6.6L12 17.6 6.1 20.7l1.2-6.6L2.5 9.5l6.6-.9z" />
-        </svg>
-      ))}
-    </span>
-  );
-}
-
 /** La parola in rosso del titolo, con il tratto fine sotto. */
 function Sottolineata({ children }: { children: React.ReactNode }) {
   return (
@@ -185,8 +173,12 @@ export default function Home() {
   const featuredLabel = de ? '★ Bestseller' : '★ Il più richiesto';
   const allServicesCta = de ? 'Alle Leistungen' : 'Tutti i Servizi';
 
-  // I due cartellini dell'hero: solo numeri che Angelo ha confermato. Stanno
-  // in due posti, sulla foto da sm in su e sotto il titolo sul telefono.
+  // Il cartellino dell'hero: solo numeri che Angelo ha confermato. Sta in due
+  // posti, sulla foto da sm in su e sotto il titolo sul telefono.
+  // 06/11/2026: il secondo cartellino, le stelle con "4,9 von 5", non c'e'
+  // piu'. Nessun profilo pubblico (Google o altro) ha recensioni da cui venga
+  // quel voto: un voto che non si puo' verificare e' pubblicita' ingannevole
+  // (§ 5 UWG). Torna quando c'e' una scheda con recensioni vere da collegare.
   const cartellinoClienti = (
     <>
       <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-gold/10 text-gold">
@@ -202,14 +194,6 @@ export default function Home() {
         <span className="block text-xs text-ink/60">{de ? 'Transformationen' : 'trasformazioni'}</span>
       </span>
     </>
-  );
-  const cartellinoStelle = (
-    <span className="leading-tight">
-      <Stelle />
-      <span className="mt-1 block text-xs text-ink/60">
-        <span className="font-extrabold text-ink">4,9</span> {de ? 'von 5' : 'su 5'}
-      </span>
-    </span>
   );
 
   // Chi sta accanto ad Angelo nella fascia della squadra.
@@ -290,13 +274,10 @@ export default function Home() {
                 className="object-contain object-bottom"
               />
 
-              {/* I cartellini galleggiano ai lati, dove la foto e' vuota: le
-                  stelle in alto a sinistra accanto alla testa, i clienti in
-                  basso a destra sotto il gomito. Sul telefono non ci stanno
-                  senza coprirlo: li' sono in fila sotto il titolo. */}
-              <div className="fp-scheda absolute left-[-2%] top-[12%] hidden items-center gap-3 px-4 py-3 sm:flex">
-                {cartellinoStelle}
-              </div>
+              {/* Il cartellino galleggia dove la foto e' vuota: i clienti in
+                  basso a destra sotto il gomito (le stelle in alto a sinistra
+                  sono tolte, vedi cartellinoClienti). Sul telefono non ci sta
+                  senza coprirlo: li' e' sotto il titolo. */}
               <div className="fp-scheda absolute bottom-[6%] right-[-6%] hidden items-center gap-3 px-4 py-3 sm:flex">
                 {cartellinoClienti}
               </div>
@@ -332,7 +313,6 @@ export default function Home() {
 
             <div className="mt-6 flex justify-center gap-3 sm:hidden">
               <div className="fp-scheda flex items-center gap-3 px-3.5 py-2.5 text-left">{cartellinoClienti}</div>
-              <div className="fp-scheda flex items-center gap-3 px-3.5 py-2.5 text-left">{cartellinoStelle}</div>
             </div>
 
             {/* I due pulsanti ("Kostenlose Beratung", "Alle Leistungen") non ci
@@ -660,8 +640,9 @@ export default function Home() {
         </section>
       )}
 
-      {/* Le recensioni non stanno piu' in questa pagina: le mette LayoutWrapper
-          in fondo a ogni pagina del sito (src/lib/chiusura-pagina.ts). */}
+      {/* Le recensioni non stanno in questa pagina: le metteva LayoutWrapper
+          in fondo a ogni pagina, e dal 06/11/2026 sono spente (testi
+          d'esempio, non recensioni vere: vedi LayoutWrapper.tsx). */}
 
       {/* Tolte il 04/10 su richiesta di Calogero: la fascia dell'offerta
           "Das Coach Angelo Versprechen" e la chiusura "Bereit für

@@ -8,7 +8,6 @@ import CookieBanner from "@/components/CookieBanner";
 import AttributionTracker from "@/components/AttributionTracker";
 import { CartProvider } from "@/context/CartContext";
 import { LanguageProvider } from "@/context/LanguageContext";
-import Recensioni from "@/components/Recensioni";
 import Trasformazioni from "@/components/Trasformazioni";
 import ChiamataAngelo from "@/components/ChiamataAngelo";
 import WhatsAppPill from "@/components/WhatsAppPill";
@@ -38,8 +37,12 @@ export default function LayoutWrapper({
     return <>{children}</>;
   }
 
-  // Trasformazioni, recensioni e chiamata in fondo a ogni pagina: vedi
-  // chiusura-pagina.ts.
+  // Trasformazioni e chiamata in fondo a ogni pagina: vedi chiusura-pagina.ts.
+  // Le recensioni (Recensioni.tsx) non si mostrano piu' dal 06/11/2026: erano i
+  // testi d'esempio del primo commit (clienti a Francoforte, Stoccarda,
+  // Duesseldorf), non recensioni vere e verificabili. Pubblicarle e' pratica
+  // ingannevole (§ 5 UWG). Il componente resta: si rimette qui quando ci sono
+  // recensioni vere, con un profilo pubblico (Google) da collegare.
   const chiusura = chiusuraPagina(pathname);
   // Dal 04/10 tutte le pagine del sito sono nel tema chiaro: la classe .fp sta
   // qui, una volta sola. Le pagine scritte con i token (bg-background,
@@ -54,7 +57,6 @@ export default function LayoutWrapper({
         <main className={chiaro ? "fp" : undefined}>
           {children}
           {chiusura?.trasformazioni && <Trasformazioni fondo="grigio" />}
-          {chiusura && <Recensioni />}
           {chiusura?.chiamata && <ChiamataAngelo />}
         </main>
         <Footer />

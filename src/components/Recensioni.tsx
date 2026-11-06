@@ -1,5 +1,16 @@
 "use client";
 
+/*
+  SPENTO dal 06/11/2026: LayoutWrapper non lo mostra piu'. I testi qui sotto
+  sono quelli d'esempio del primo commit (15/03/2026), con clienti a
+  Francoforte, Stoccarda e Duesseldorf: non recensioni vere e verificabili.
+  Mostrarle come recensioni di clienti e' pratica commerciale ingannevole
+  (§ 5 UWG, e § 5b comma 3 per le recensioni). Il componente resta per quando
+  ci sono recensioni vere: si sostituiscono DE/IT con i testi dei clienti (con
+  il loro consenso, meglio se collegati a una scheda pubblica come Google) e
+  si rimette <Recensioni /> in LayoutWrapper.
+*/
+
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";

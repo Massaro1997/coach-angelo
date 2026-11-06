@@ -9,6 +9,10 @@
   L'ordine e' quello di Trainex: la fascia che resta ferma (le trasformazioni,
   o l'ultima della pagina), le recensioni che le salgono sopra, la chiamata
   con Angelo, il pie' di pagina.
+
+  06/11/2026: le recensioni sono spente (erano testi d'esempio, vedi
+  LayoutWrapper.tsx). Restano trasformazioni e chiamata; dove qui sotto si
+  dice "solo le recensioni", oggi in fondo non viene niente.
 */
 
 export type Chiusura = {
