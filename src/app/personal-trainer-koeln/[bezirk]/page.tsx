@@ -92,6 +92,15 @@ export default async function BezirkPage({
             {b.intro.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
+            {b.umland && (
+              <p>
+                {b.umland.before}
+                <Link href={b.umland.href} className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                  {b.umland.linkName}
+                </Link>
+                {b.umland.after}
+              </p>
+            )}
           </div>
           <div className="mt-8">
             <Link

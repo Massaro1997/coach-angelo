@@ -4,6 +4,7 @@ import { allPosts } from '@/lib/blog-posts'
 import { stadtteile } from '@/lib/koeln-stadtteile'
 import { intents, allStadtteilIntentParams } from '@/lib/stadtteil-intent'
 import { fitnessFaqs } from '@/lib/fitness-faq'
+import { umlandOrte } from '@/lib/umland'
 
 const siteUrl = "https://www.fitprimo.de"
 
@@ -60,6 +61,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
+  // Comuni del Kölner Umland (Zone confermate, PIANO_PRODUZIONE.md)
+  const umlandPages: MetadataRoute.Sitemap = umlandOrte.map((o) => ({
+    url: `${siteUrl}/personal-trainer-${o.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
   // Blog
   const blogPages: MetadataRoute.Sitemap = allPosts.map((p) => ({
     url: `${siteUrl}/blog/${p.slug}`,
@@ -74,6 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryPages,
     ...stadtteilHubs,
     ...spokePages,
+    ...umlandPages,
     ...faqPages,
     ...blogPages,
   ]

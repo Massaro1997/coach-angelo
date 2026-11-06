@@ -181,6 +181,22 @@ export default function PersonalTrainerKoeln() {
               );
             })}
           </div>
+          <div className="mt-12 max-w-prose">
+            <h3 className="fp-titolo text-2xl text-ink mb-3">
+              Auch im Kölner <span className="text-gold">Umland</span>
+            </h3>
+            <p className="text-ink/60 leading-relaxed">
+              An der Stadtgrenze hört das Training nicht auf. In{" "}
+              <Link href="/personal-trainer-frechen" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Frechen
+              </Link>{" "}
+              wohne ich selbst, und auch in{" "}
+              <Link href="/personal-trainer-leverkusen" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Leverkusen
+              </Link>{" "}
+              trainiere ich 1-zu-1 bei dir zu Hause oder draußen.
+            </p>
+          </div>
         </div>
       </section>
 

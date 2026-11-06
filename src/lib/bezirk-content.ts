@@ -9,6 +9,8 @@ export interface Bezirk {
   intro: string[]; // paragrafi unici, scritti a mano
   outdoorIntro: string;
   faq: { q: string; a: string }[];
+  // Frase facoltativa verso un comune confinante del Kölner Umland (pagina /personal-trainer-<comune>)
+  umland?: { before: string; linkName: string; href: string; after: string };
 }
 
 export const bezirke: Bezirk[] = [
@@ -61,6 +63,12 @@ export const bezirke: Bezirk[] = [
     ],
     outdoorIntro:
       "Beethovenpark, Stadtwald, Decksteiner Weiher, Jahnwiesen am RheinEnergieStadion: Lindenthal ist das grüne Trainingsrevier Kölns.",
+    umland: {
+      before: "Westlich von Weiden, Lövenich und Junkersdorf geht es direkt weiter: als ",
+      linkName: "Personal Trainer in Frechen",
+      href: "/personal-trainer-frechen",
+      after: " trainiere ich auch hinter der Stadtgrenze, bei dir zu Hause oder draußen.",
+    },
     faq: [
       {
         q: "Ich bin Student/in an der Uni Köln. Gibt es günstigere Optionen?",
@@ -181,6 +189,12 @@ export const bezirke: Bezirk[] = [
     ],
     outdoorIntro:
       "Dünnwalder Wald, Schlosspark Stammheim, Dellbrücker Heide, Rheinufer Mülheim: grüner wird rechtsrheinisch nicht.",
+    umland: {
+      before: "Hinter Flittard und Dünnwald beginnt Leverkusen, und auch dort trainiere ich: als ",
+      linkName: "Personal Trainer in Leverkusen",
+      href: "/personal-trainer-leverkusen",
+      after: " komme ich zu dir nach Hause oder in den Neulandpark am Rhein.",
+    },
     faq: [
       {
         q: "Ich will Muskeln aufbauen, habe aber nur ein kleines Budget. Optionen?",
