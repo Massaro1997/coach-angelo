@@ -382,7 +382,7 @@ export const trendPosts: BlogPost[] = [
     "metaDescription": "Hyrox in Köln steht an? Ich zeige dir, wo du in Köln trainierst, wie du die Vorbereitung planst und welche Fehler du dir sparen kannst. Vom Trainer vor Ort.",
     "date": "2026-05-07",
     "readMinutes": 7,
-    "excerpt": "Hyrox in Köln ist längst kein Nischenevent mehr, die Startplätze sind schneller weg als Konzertkarten. Ich trainiere seit über 20 Jahren Menschen in dieser Stadt und begleite regelmäßig Kunden zu ihrem ersten Rennen. Hier bekommst du meinen ehrlichen Fahrplan für die Vorbereitung, inklusive der besten Trainingsspots in Köln.",
+    "excerpt": "Hyrox in Köln ist längst kein Nischenevent mehr, die Startplätze sind schneller weg als Konzertkarten. Ich trainiere seit über 20 Jahren Menschen in dieser Stadt. Hier bekommst du einen ehrlichen Fahrplan für die Vorbereitung, inklusive der besten Trainingsspots in Köln.",
     "blocks": [
       {
         "type": "p",
@@ -398,11 +398,11 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Meine Faustregel: zwölf Wochen, wenn du schon regelmäßig trainierst, sechzehn Wochen, wenn du praktisch bei null startest. Weniger als acht Wochen halte ich für riskant, außer du bringst bereits eine solide Lauf- und Kraftbasis mit. Ich habe Kunden erlebt, die sich mit sechs Wochen Vorlauf durchgequält haben. Es ging irgendwie, aber Spaß sieht anders aus, und das Verletzungsrisiko steigt in so einem Crashprogramm deutlich."
+        "text": "Meine Faustregel: zwölf Wochen, wenn du schon regelmäßig trainierst, sechzehn Wochen, wenn du praktisch bei null startest. Weniger als acht Wochen halte ich für riskant, außer du bringst bereits eine solide Lauf- und Kraftbasis mit. Mit sechs Wochen Vorlauf kommt man meistens irgendwie durch, aber Spaß sieht anders aus, und das Verletzungsrisiko steigt in so einem Crashprogramm deutlich."
       },
       {
         "type": "p",
-        "text": "Plane drei bis vier Einheiten pro Woche ein. Mehr brauchst du als Einsteiger nicht, und mit Vollzeitjob ist mehr auch selten realistisch. Wichtiger als Volumen ist Konstanz: Zwölf Wochen mit je drei Einheiten schlagen vier Wochen mit je sechs Einheiten und anschließendem Motivationsloch um Längen. Das sehe ich bei meinen Kunden immer wieder, die Fleißigen gewinnen gegen die Euphorischen."
+        "text": "Plane drei bis vier Einheiten pro Woche ein. Mehr brauchst du als Einsteiger nicht, und mit Vollzeitjob ist mehr auch selten realistisch. Wichtiger als Volumen ist Konstanz: Zwölf Wochen mit je drei Einheiten schlagen vier Wochen mit je sechs Einheiten und anschließendem Motivationsloch um Längen. Das gilt für jedes Training: Die Fleißigen gewinnen gegen die Euphorischen."
       },
       {
         "type": "h2",
@@ -432,7 +432,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Alle drei bis vier Wochen solltest du eine halbe Simulation machen: vier Laufrunden plus vier Stationen, so nah am Original wie möglich. Meine Kundin Nadine, 34, Projektmanagerin aus Nippes, hat vor ihrem ersten Hyrox in Köln zwei komplette Simulationen absolviert. Ihr Kommentar nach dem Rennen: Der Wettkampf fühlte sich an wie die dritte Simulation, nur mit Publikum. Genau diesen Zustand willst du erreichen, keine Überraschungen mehr, nur noch Ausführung."
+        "text": "Alle drei bis vier Wochen solltest du eine halbe Simulation machen: vier Laufrunden plus vier Stationen, so nah am Original wie möglich. Zwei komplette Simulationen vor dem ersten Rennen sind ein gutes Ziel. Dann fühlt sich der Wettkampf an wie die dritte Simulation, nur mit Publikum. Genau diesen Zustand willst du erreichen: keine Überraschungen mehr, nur noch Ausführung."
       },
       {
         "type": "h2",
@@ -448,7 +448,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Diese Fehler sehe ich in der Vorbereitung immer wieder"
+        "text": "Typische Fehler in der Vorbereitung"
       },
       {
         "type": "ul",
@@ -470,7 +470,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du unsicher bist, wie du die Vorbereitung neben Job und Familie strukturieren sollst, meld dich einfach bei mir. In einem kostenlosen Erstgespräch schauen wir uns deinen Alltag, dein aktuelles Level und dein Wettkampfdatum an, und ich sage dir ehrlich, was in der verbleibenden Zeit realistisch ist. Ich begleite seit Jahren Menschen in Köln zu ihrem ersten Hyrox, und die meisten sind überrascht, wie planbar das Ganze wird, sobald ein klarer Fahrplan steht."
+        "text": "Ein Hinweis in eigener Sache: Eine spezielle Hyrox-Vorbereitung biete ich nicht an. Ich trainiere in Köln Kraft und Kondition im 1-zu-1 Personal Training, und eine solide Basis aus beidem hilft dir auch bei Hyrox. Wenn du daran arbeiten willst, ist ein kostenloses Erstgespräch der erste Schritt."
       }
     ]
   },
@@ -1025,11 +1025,11 @@ export const trendPosts: BlogPost[] = [
     "metaDescription": "Dein erster Hyrox? Ich erzähle dir, wie der Wettkampftag wirklich abläuft, welche Fehler fast alle Einsteiger machen und wie du sie ganz einfach vermeidest.",
     "date": "2026-05-19",
     "readMinutes": 6,
-    "excerpt": "Der erste Hyrox ist ein Erlebnis, das dich verändert, im Guten wie im Schmerzhaften. Ich habe inzwischen viele Kunden zu ihrem ersten Rennen begleitet und stand selbst oft genug in der Startbox. Hier bekommst du das ungeschönte Bild: was dich wirklich erwartet und welche Fehler du dir sparen kannst.",
+    "excerpt": "Der erste Hyrox ist ein Erlebnis, das dich verändert, im Guten wie im Schmerzhaften. Hier bekommst du das ungeschönte Bild: was dich wirklich erwartet und welche Fehler du dir sparen kannst.",
     "blocks": [
       {
         "type": "p",
-        "text": "Dein erster Hyrox steht an und du hast keine Ahnung, was dich wirklich erwartet? Willkommen im Club, so ging es jedem meiner Kunden vor dem ersten Rennen. Die Instagram Highlights zeigen dir strahlende Finisher mit Medaille. Was sie nicht zeigen: die Warteschlange am Bag Drop, den Puls von 175 nach dem ersten Kilometer und die Wall Balls, wenn nichts mehr geht. Genau darüber reden wir jetzt."
+        "text": "Dein erster Hyrox steht an und du hast keine Ahnung, was dich wirklich erwartet? Willkommen im Club, so geht es fast allen vor dem ersten Rennen. Die Instagram Highlights zeigen dir strahlende Finisher mit Medaille. Was sie nicht zeigen: die Warteschlange am Bag Drop, den Puls von 175 nach dem ersten Kilometer und die Wall Balls, wenn nichts mehr geht. Genau darüber reden wir jetzt."
       },
       {
         "type": "p",
@@ -1053,7 +1053,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Mein Kunde Jan, 41, ambitionierter Läufer aus Lindenthal, wollte bei seinem ersten Hyrox unter 1:30 bleiben. Der erste Kilometer: 40 Sekunden schneller als geplant, dank Adrenalin und Hallenatmosphäre. Nach dem Sled Push war der Puls im roten Bereich, bei den Burpee Broad Jumps kam der Einbruch, und die letzten drei Runden ist er mehr gegangen als gelaufen. Am Ende standen 1:41 auf der Uhr und eine wichtige Lektion im Kopf."
+        "text": "Ein typischer Verlauf: Ein ambitionierter Läufer will beim ersten Hyrox unter 1:30 bleiben. Der erste Kilometer: 40 Sekunden schneller als geplant, dank Adrenalin und Hallenatmosphäre. Nach dem Sled Push ist der Puls im roten Bereich, bei den Burpee Broad Jumps kommt der Einbruch, und die letzten drei Runden werden mehr gegangen als gelaufen. Am Ende steht eine deutlich schlechtere Zeit auf der Uhr und eine wichtige Lektion im Kopf."
       },
       {
         "type": "p",
@@ -1090,7 +1090,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Am Wettkampftag gilt die älteste Regel des Ausdauersports: nichts Neues. Frühstücke drei Stunden vor dem Start das, was du immer isst. Wenn du länger als 90 Minuten unterwegs sein wirst, kann ein Gel zur Hälfte sinnvoll sein, aber teste es vorher im Training. Bei den Schuhen brauchst du Grip für den Schlitten, keine weich gedämpften Marathonschuhe. Und Handschuhe? Meiner Erfahrung nach überflüssig, sie kosten dir Gefühl am Griff."
+        "text": "Am Wettkampftag gilt die älteste Regel des Ausdauersports: nichts Neues. Frühstücke drei Stunden vor dem Start das, was du immer isst. Wenn du länger als 90 Minuten unterwegs sein wirst, kann ein Gel zur Hälfte sinnvoll sein, aber teste es vorher im Training. Bei den Schuhen brauchst du Grip für den Schlitten, keine weich gedämpften Marathonschuhe. Und Handschuhe? Meist überflüssig, sie kosten dir Gefühl am Griff."
       },
       {
         "type": "h2",
@@ -1098,15 +1098,15 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die meisten Einsteiger finishen zwischen 1:30 und 1:50, und das ist völlig in Ordnung. Mein Vorschlag für dein erstes Rennen: Ziel Nummer eins ist Ankommen, Ziel Nummer zwei ist gleichmäßiges Tempo über alle acht Runden. Die Jagd nach der Zeit kommt beim zweiten Start. Meine Kundin Steffi lief ihr erstes Rennen in 1:52, ihr zweites drei Monate später in 1:38, mit praktisch demselben Fitnesslevel. Der Unterschied war reine Erfahrung: Pacing, Roxzone, Nerven."
+        "text": "Die meisten Einsteiger finishen zwischen 1:30 und 1:50, und das ist völlig in Ordnung. Mein Vorschlag für dein erstes Rennen: Ziel Nummer eins ist Ankommen, Ziel Nummer zwei ist gleichmäßiges Tempo über alle acht Runden. Die Jagd nach der Zeit kommt beim zweiten Start. Beim zweiten Rennen sind oft etliche Minuten weniger drin, mit praktisch demselben Fitnesslevel. Der Unterschied ist reine Erfahrung: Pacing, Roxzone, Nerven."
       },
       {
         "type": "p",
-        "text": "Und noch etwas, das gern vergessen wird: Genieß den Tag. Die Stimmung in der Halle, die Anfeuerung von wildfremden Menschen, der Moment auf den letzten 100 Metern vor der Ziellinie, das erlebst du beim ersten Mal nur einmal. Ich habe erwachsene Männer im Ziel weinen sehen, und ich meine das als Kompliment."
+        "text": "Und noch etwas, das gern vergessen wird: Genieß den Tag. Die Stimmung in der Halle, die Anfeuerung von wildfremden Menschen, der Moment auf den letzten 100 Metern vor der Ziellinie, das erlebst du beim ersten Mal nur einmal. Im Ziel fließen nicht selten Tränen, und das ist als Kompliment gemeint."
       },
       {
         "type": "p",
-        "text": "Falls du gerade für deinen ersten Hyrox trainierst und dir bei Pacing, Stationstraining oder der letzten Vorbereitungsphase unsicher bist, komm gern auf mich zu. Im kostenlosen Erstgespräch schauen wir gemeinsam auf deinen Stand, und ich gebe dir eine ehrliche Einschätzung plus konkrete nächste Schritte. Nach über 20 Jahren als Trainer in Köln erkenne ich ziemlich schnell, wo bei dir die einfachsten Minuten zu holen sind."
+        "text": "Ein Hinweis in eigener Sache: Ein spezielles Hyrox-Coaching biete ich nicht an. In Köln trainiere ich Kraft und Kondition im 1-zu-1 Personal Training, und eine solide Grundlage aus beidem macht auch deinen ersten Wettkampf leichter. Wenn du daran arbeiten willst, melde dich gern für ein kostenloses Erstgespräch."
       }
     ]
   },
@@ -1746,11 +1746,11 @@ export const trendPosts: BlogPost[] = [
     "metaDescription": "Mehr laufen oder mehr Kraft? Ich zeige dir, wie du beides für Hyrox ausbalancierst, mit klarem Wochengerüst und ehrlichen Tipps aus über 20 Jahren Training.",
     "date": "2026-06-02",
     "readMinutes": 7,
-    "excerpt": "Soll ich mehr laufen oder mehr Kraft trainieren? Diese Frage höre ich von jedem, der sich auf Hyrox vorbereitet. Die Antwort ist unbequem: Es kommt auf dich an. Ich zeige dir, wie du dein persönliches Verhältnis findest und warum die wichtigste Fähigkeit genau dazwischen liegt.",
+    "excerpt": "Soll ich mehr laufen oder mehr Kraft trainieren? Diese Frage stellt sich fast jeder, der sich auf Hyrox vorbereitet. Die Antwort ist unbequem: Es kommt auf dich an. Ich zeige dir, wie du dein persönliches Verhältnis findest und warum die wichtigste Fähigkeit genau dazwischen liegt.",
     "blocks": [
       {
         "type": "p",
-        "text": "Wenn ich für jede Frage nach dem perfekten Verhältnis von Kraft und Ausdauer für Hyrox einen Euro bekommen hätte, könnte ich mir eine eigene Sled Bahn in den Garten stellen. Die kurze Antwort: Es gibt kein universelles Verhältnis. Die lange Antwort: Es gibt ein sehr gutes Grundgerüst, das du an deine Stärken und Schwächen anpasst. Genau das bauen wir jetzt zusammen."
+        "text": "Die Frage nach dem perfekten Verhältnis von Kraft und Ausdauer gehört zu den häufigsten rund um Hyrox. Die kurze Antwort: Es gibt kein universelles Verhältnis. Die lange Antwort: Es gibt ein sehr gutes Grundgerüst, das du an deine Stärken und Schwächen anpasst. Genau das bauen wir jetzt zusammen."
       },
       {
         "type": "p",
@@ -1778,11 +1778,11 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Mein Grundgerüst: 60 zu 40 als Startpunkt"
+        "text": "Ein Grundgerüst: 60 zu 40 als Startpunkt"
       },
       {
         "type": "p",
-        "text": "Für die meisten Berufstätigen, die ich in Köln trainiere, hat sich ein Verhältnis von etwa 60 Prozent Ausdauer zu 40 Prozent Kraft bewährt, verteilt auf vier Einheiten pro Woche. Das ist kein Dogma, sondern ein Startpunkt, den wir nach vier Wochen anhand deiner Fortschritte justieren. So sieht die Woche konkret aus:"
+        "text": "Für die meisten Berufstätigen ist ein Verhältnis von etwa 60 Prozent Ausdauer zu 40 Prozent Kraft ein guter Startpunkt, verteilt auf vier Einheiten pro Woche. Das ist kein Dogma: Nach vier Wochen justierst du anhand deiner Fortschritte nach. So sieht die Woche konkret aus:"
       },
       {
         "type": "ul",
@@ -1799,7 +1799,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Thomas, Marathonläufer aus Sülz, lief zehn Kilometer unter 42 Minuten und dachte, Hyrox wird ein besserer Trainingslauf. Beim ersten Sled Push hat es ihn komplett zerlegt, danach war sein berühmter Laufschritt nur noch Erinnerung. Wir haben sein Verhältnis auf 50 zu 50 gedreht, mit zwei schweren Krafteinheiten pro Woche und viel Schlitten, Lunges und Carries. Sechs Monate später lief er dasselbe Rennen 14 Minuten schneller, obwohl er weniger Kilometer trainiert hatte."
+        "text": "Ein typisches Beispiel: Wer zehn Kilometer unter 42 Minuten läuft, hält Hyrox leicht für einen besseren Trainingslauf. Beim ersten Sled Push kommt dann die Überraschung, danach ist der schöne Laufschritt nur noch Erinnerung. Für diesen Typ heißt die Antwort: das Verhältnis auf 50 zu 50 drehen, mit zwei schweren Krafteinheiten pro Woche und viel Schlitten, Lunges und Carries, auch wenn dafür ein paar Laufkilometer wegfallen."
       },
       {
         "type": "p",
@@ -1819,15 +1819,15 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Drei einfache Marker aus meiner Praxis: Erstens, deine Laufrunden in der Simulation werden über die Distanz nicht mehr als 15 bis 20 Sekunden langsamer. Zweitens, du kommst nach den Stationen innerhalb von 200 Metern zurück in deinen Laufrhythmus. Drittens, deine Griffkraft hält Farmers Carry und Sled Pull durch, ohne dass die Unterarme zumachen. Wenn einer dieser Punkte kippt, weißt du genau, wo du im nächsten Vierwochenblock nachlegen musst."
+        "text": "Drei einfache Marker: Erstens, deine Laufrunden in der Simulation werden über die Distanz nicht mehr als 15 bis 20 Sekunden langsamer. Zweitens, du kommst nach den Stationen innerhalb von 200 Metern zurück in deinen Laufrhythmus. Drittens, deine Griffkraft hält Farmers Carry und Sled Pull durch, ohne dass die Unterarme zumachen. Wenn einer dieser Punkte kippt, weißt du genau, wo du im nächsten Vierwochenblock nachlegen musst."
       },
       {
         "type": "p",
-        "text": "Vergiss also die Suche nach der einen perfekten Formel. Starte mit 60 zu 40, beobachte dich vier Wochen, justiere ehrlich an deiner Schwäche. Das klingt weniger sexy als ein Geheimplan aus dem Internet, aber es ist das, was bei meinen Kunden seit Jahren funktioniert, vom Anfänger bis zum ambitionierten Altersklassen Athleten."
+        "text": "Vergiss also die Suche nach der einen perfekten Formel. Starte mit 60 zu 40, beobachte dich vier Wochen, justiere ehrlich an deiner Schwäche. Das klingt weniger sexy als ein Geheimplan aus dem Internet, aber so findest du ein Verhältnis, das zu dir passt, egal ob Anfänger oder ambitionierter Altersklassen Athlet."
       },
       {
         "type": "p",
-        "text": "Wenn du nicht sicher bist, ob du eher der Läufer oder der Kraftsportler Typ bist und wie deine Woche konkret aussehen sollte, lass uns das gemeinsam anschauen. In einem kostenlosen Erstgespräch analysieren wir dein Ausgangsniveau und deine Zeitfenster, und du bekommst von mir eine klare Empfehlung für dein persönliches Verhältnis. Das erspart dir Monate an Herumprobieren, und genau dafür bin ich als Trainer da."
+        "text": "Ein Hinweis in eigener Sache: Ein spezielles Hyrox-Coaching biete ich nicht an. Ich trainiere in Köln Kraft und Kondition im 1-zu-1 Personal Training, und diese Grundlage brauchst du für Hyrox genauso wie für den Alltag. Wenn du daran arbeiten willst, melde dich gern für ein kostenloses Erstgespräch."
       }
     ]
   },

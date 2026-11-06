@@ -51,6 +51,14 @@ const nextConfig: NextConfig = {
         destination: '/privacy',
         permanent: true,
       },
+      // 06/11/2026: /kontakt dava 404, ed e' l'indirizzo che un tedesco scrive
+      // a mano (come /datenschutz). /kontakt/ con la barra lo porta qui Next
+      // da solo, togliendo la barra finale.
+      {
+        source: '/kontakt',
+        destination: '/contatti',
+        permanent: true,
+      },
       // 25/10/2026: due pagine sui prezzi a Colonia. Google ha tenuto la FAQ e
       // lasciato fuori l'articolo, che sul dominio vecchio era la pagina piu'
       // vista. La FAQ si unisce all'articolo.
