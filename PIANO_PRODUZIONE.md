@@ -40,4 +40,13 @@ In coda dopo le prime pagine quartiere×servizio. Candidate da GSC («Le persone
 
 ## 3. Zone confermate (comuni fuori Colonia, SOLO scritti da Calogero)
 
-(vuota: finché Calogero non scrive qui i comuni, non si fa nessuna pagina fuori Colonia)
+Confermate da Calogero il 06/11/2026 («i comuni intorno a Colonia falli tutti»). Angelo lavora 1-zu-1 anche in questi comuni (a casa del cliente o all'aperto); l'online coaching vale ovunque.
+
+- Rhein-Erft-Kreis: Frechen · Hürth · Pulheim · Brühl · Wesseling · Kerpen · Bergheim · Erftstadt
+- Rheinisch-Bergischer Kreis: Bergisch Gladbach · Rösrath · Overath · Odenthal · Burscheid · Leichlingen
+- Leverkusen
+- Rhein-Kreis Neuss: Dormagen
+- Kreis Mettmann: Langenfeld · Monheim am Rhein
+- Rhein-Sieg-Kreis: Troisdorf · Niederkassel · Lohmar
+
+Regole: UNA pagina per comune, indirizzo `/personal-trainer-<comune>` (minuscolo, umlaut traslitterati: `huerth`, `bruehl`, `roesrath`, `monheim-am-rhein`), come `/personal-trainer-koeln`. Niente comune × servizio. Ordine: Frechen per primo (Angelo vive lì), poi per volume di ricerca (DataForSEO `personal trainer <comune>`), poi gli altri. Fatti veri e verificabili del comune (parchi, percorsi, impianti, distanza da Colonia), prezzo come su `/servizi`; la trasferta non si inventa: «Anfahrt klären wir im kostenlosen Erstgespräch». Ogni pagina linkata da `/personal-trainer-koeln` (blocco «Auch im Kölner Umland», da creare alla prima pagina) e dalle pagine dei comuni vicini, e messa in sitemap.
