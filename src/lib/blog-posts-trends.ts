@@ -4181,7 +4181,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ich trainiere mit Kunden regelmäßig draußen, und Köln ist dafür besser als sein Ruf. Der Stadtwald in Lindenthal ist mein Standard: weiche Wege für lange Läufe, Wiesen für Burpees und Lunges, genug Ruhe, um mit Sandsack nicht schief angeschaut zu werden. Der Innere Grüngürtel funktioniert für alle, die zentraler wohnen, mit dem Aachener Weiher als Runde. Und die Treppen am Rheinboulevard in Deutz sind ein kostenloses Intervall-Setup: Treppensprints ersetzen einen Teil dessen, was sonst der Sled an Puls erzeugt, mit Blick auf den Dom als Bonus."
+        "text": "Ich trainiere mit Kunden regelmäßig draußen, und Köln ist dafür besser als sein Ruf. Der Stadtwald in Lindenthal ist mein Standard: weiche Wege für lange Läufe, Wiesen für Burpees und Lunges, genug Ruhe, um mit Sandsack nicht schief angeschaut zu werden. Der Innere Grüngürtel funktioniert für alle, die zentraler wohnen, mit dem Aachener Weiher als Runde. Und die Treppen am Rheinboulevard in Deutz sind ein kostenloses Intervall-Setup: Treppensprints ersetzen einen Teil dessen, was sonst der Sled an Puls erzeugt, mit Blick auf den Dom als Bonus. Dieselben Spots nutze ich auch für mein [Athletiktraining in Köln](/leistungen/athletiktraining), wenn es im 1-zu-1 um Schnelligkeit, Sprungkraft und Stabilität für deinen Sport geht."
       },
       {
         "type": "p",
@@ -8358,7 +8358,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Er hat nichts mit der Strecke zu tun: zu schnell laufen. Ich sehe es jede Woche am Weiher und am Rheinufer, rote Köpfe, hörbare Atmung, Kampfmodus ab Kilometer eins. Wer so läuft, verbindet Laufen mit Leiden und hört nach vier Wochen wieder auf, oder das Knie meldet sich vorher. Die Regel für 80 Prozent deiner Läufe: Du musst dich nebenbei unterhalten können, in ganzen Sätzen. Fühlt sich am Anfang lächerlich langsam an, ist aber exakt das Tempo, in dem dein Körper Ausdauer aufbaut und Sehnen und Gelenke sich an die Belastung gewöhnen. Schnelligkeit kommt später, über gezielte Intervalle, nicht über tägliches Wettrennen gegen dich selbst."
+        "text": "Er hat nichts mit der Strecke zu tun: zu schnell laufen. Ich sehe es jede Woche am Weiher und am Rheinufer, rote Köpfe, hörbare Atmung, Kampfmodus ab Kilometer eins. Wer so läuft, verbindet Laufen mit Leiden und hört nach vier Wochen wieder auf, oder das Knie meldet sich vorher. Die Regel für 80 Prozent deiner Läufe: Du musst dich nebenbei unterhalten können, in ganzen Sätzen. Fühlt sich am Anfang lächerlich langsam an, ist aber exakt das Tempo, in dem dein Körper Ausdauer aufbaut und Sehnen und Gelenke sich an die Belastung gewöhnen. Schnelligkeit kommt später, über gezielte Intervalle, nicht über tägliches Wettrennen gegen dich selbst. Und wer gezielt an Antritt, Sprungkraft und Stabilität arbeiten will, findet im [Athletiktraining in Köln](/leistungen/athletiktraining) genau dafür den Rahmen: Sprints, Plyometrie und Krafttraining, abgestimmt auf dein Laufen."
       },
       {
         "type": "p",
