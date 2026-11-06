@@ -11,6 +11,7 @@ import { LanguageProvider } from "@/context/LanguageContext";
 import Recensioni from "@/components/Recensioni";
 import Trasformazioni from "@/components/Trasformazioni";
 import ChiamataAngelo from "@/components/ChiamataAngelo";
+import WhatsAppPill from "@/components/WhatsAppPill";
 import { chiusuraPagina, temaChiaro } from "@/lib/chiusura-pagina";
 
 export default function LayoutWrapper({
@@ -57,6 +58,7 @@ export default function LayoutWrapper({
           {chiusura?.chiamata && <ChiamataAngelo />}
         </main>
         <Footer />
+        <WhatsAppPill />
         <CartSidebar />
         <CookieBanner />
       </CartProvider>

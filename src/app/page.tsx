@@ -322,6 +322,14 @@ export default function Home() {
               )}
             </p>
 
+            {/* 06/11/2026: sotto i 1024 px nel primo schermo non c'era nessun
+                invito (la freccia verso il wizard qui sotto c'e' solo da
+                computer). Il pulsante fa la stessa cosa della freccia: scende
+                al wizard (#inizia), non apre un'altra pagina. */}
+            <a href="#inizia" className="fp-btn mt-7 lg:hidden">
+              {de ? 'Kostenlose Erstberatung' : 'Consulenza gratuita'} <span aria-hidden>→</span>
+            </a>
+
             <div className="mt-6 flex justify-center gap-3 sm:hidden">
               <div className="fp-scheda flex items-center gap-3 px-3.5 py-2.5 text-left">{cartellinoClienti}</div>
               <div className="fp-scheda flex items-center gap-3 px-3.5 py-2.5 text-left">{cartellinoStelle}</div>

@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import Image from "next/image";
 import {
+  Apple,
   CircleCheck,
   ClipboardList,
   Clock12,
@@ -58,6 +59,9 @@ const DISEGNI: Record<string, Record<string, string>> = {
     "personal-training": W + "kettlebell.png",
     "online-coaching": W + "telefono.png",
     trainingsplan: W + "scheda.png",
+    // 06/11/2026: un disegno suo (mela, piatto) non c'e' ancora; la bilancia
+    // e' quella della ricomposizione, si sostituisce rifacendo le icone.
+    ernaehrungsberatung: W + "bilancia.png",
     beratung: W + "domanda.png",
   },
   budget: {
@@ -67,6 +71,17 @@ const DISEGNI: Record<string, Record<string, string>> = {
     "prima-consulenza": W + "stretta.png",
   },
 };
+
+/*
+  Il percorso si puo' scegliere gia' dal link: /contatti?leistung=ernaehrungsberatung
+  (la pagina /leistungen/ernaehrungsberatung, 06/11/2026). La risposta arriva
+  gia' evidenziata alla domanda 4; si va avanti cliccandola come le altre.
+  Letto con useSyncExternalStore: sul server non c'e' indirizzo (""), nel
+  browser si rilegge a ogni render, quindi anche dopo una navigazione interna.
+*/
+const nessunAscolto = () => () => {};
+const leggiLeistung = () => new URLSearchParams(window.location.search).get("leistung") || "";
+const leistungSulServer = () => "";
 
 type WizardAnswers = {
   goal: string;
@@ -162,12 +177,17 @@ export default function LeadWizard({
           { value: "personal-training", icon: Dumbbell, label: "Personal Training in Köln", desc: "1-zu-1 im Studio" },
           { value: "online-coaching", icon: Smartphone, label: "Online Coaching", desc: "Plan + Ernährung + Check-ins" },
           { value: "trainingsplan", icon: ClipboardList, label: "Individueller Trainingsplan", desc: "Maßgeschneidertes Programm" },
+          // 06/11/2026: la consulenza di Natalie. Il valore e' lo slug della
+          // pagina /leistungen/ernaehrungsberatung; nel gestionale "Crea
+          // contratto" lo tratta come gli altri percorsi seguiti (pacchetto c6).
+          { value: "ernaehrungsberatung", icon: Apple, label: "Ernährungsberatung mit Natalie", desc: "Ernährungsplan passend zu deinem Training" },
           { value: "beratung", icon: MessageCircle, label: "Ich weiß es noch nicht", desc: "Angelo soll mich beraten" },
         ]
       : [
           { value: "personal-training", icon: Dumbbell, label: "Personal Training a Colonia", desc: "1-to-1 in palestra" },
           { value: "online-coaching", icon: Smartphone, label: "Coaching Online", desc: "Scheda + alimentazione + check" },
           { value: "trainingsplan", icon: ClipboardList, label: "Scheda personalizzata", desc: "Programma su misura" },
+          { value: "ernaehrungsberatung", icon: Apple, label: "Consulenza alimentare con Natalie", desc: "Piano alimentare adatto al tuo allenamento" },
           { value: "beratung", icon: MessageCircle, label: "Non lo so ancora", desc: "Fatti consigliare da Angelo" },
         ],
 
@@ -187,15 +207,17 @@ export default function LeadWizard({
     contactTitle: de ? "Fast geschafft. Wohin darf ich dir antworten?" : "Ci siamo quasi. Dove posso risponderti?",
     labelName: de ? "Vollständiger Name *" : "Nome completo *",
     labelEmail: "Email *",
-    labelPhone: de ? "Telefon *" : "Telefono *",
+    // 06/11/2026: il telefono non e' piu' obbligatorio, l'email si'. Chi non
+    // voleva lasciare il numero si fermava all'ultimo passo.
+    labelPhone: de ? "Telefon (optional)" : "Telefono (facoltativo)",
     labelNote: de ? "Willst du mir noch etwas sagen? (optional)" : "Vuoi dirmi altro? (opzionale)",
     placeholderName: de ? "Dein Name" : "Il tuo nome",
     placeholderEmail: de ? "deine@email.de" : "la.tua@email.com",
     placeholderPhone: "+49 ...",
     placeholderNote: de ? "Verletzungen, Zeitplan, Fragen..." : "Infortuni, orari, domande...",
     phoneHint: de
-      ? "Für die kostenlose Erstberatung ruft Angelo dich an oder schreibt dir."
-      : "Per la consulenza gratuita Angelo ti chiama o ti scrive.",
+      ? "Mit Nummer kann Angelo dich für die kostenlose Erstberatung direkt anrufen oder dir schreiben."
+      : "Con il numero Angelo ti può chiamare o scrivere direttamente per la consulenza gratuita.",
 
     submitButton: de ? "Kostenlose Beratung anfragen" : "Richiedi la consulenza gratuita",
     submitting: de ? "Wird gesendet..." : "Invio in corso...",
@@ -219,6 +241,9 @@ export default function LeadWizard({
   ];
 
   const totalSteps = questions.length + 1;
+
+  const leistungDaLink = useSyncExternalStore(nessunAscolto, leggiLeistung, leistungSulServer);
+  const percorsoProposto = t.q4opts.some((o) => o.value === leistungDaLink) ? leistungDaLink : "";
 
   const selectOption = (key: keyof WizardAnswers, value: string) => {
     setAnswers((prev) => ({ ...prev, [key]: value }));
@@ -306,12 +331,22 @@ export default function LeadWizard({
               <div
                 className={
                   largo
-                    ? `grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] ${compatto ? "grid-cols-1 gap-2.5" : "grid-cols-2 gap-3"}`
+                    ? // con un numero dispari di risposte l'ultima prende tutta la
+                      // riga finche' la griglia ha due colonne (06/11/2026: la
+                      // domanda 4 ne ha cinque), cosi' non resta una tessera sola
+                      // a meta' riga
+                      `grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] lg:[&>*:last-child:nth-child(odd)]:col-span-1 ${
+                        compatto
+                          ? "grid-cols-1 gap-2.5 sm:[&>*:last-child:nth-child(odd)]:col-span-2"
+                          : "grid-cols-2 gap-3 [&>*:last-child:nth-child(odd)]:col-span-2"
+                      }`
                     : "grid grid-flow-row auto-rows-auto grid-cols-1 gap-2.5 sm:flex sm:flex-wrap sm:gap-3"
                 }
               >
                 {currentQuestion.options.map((opt) => {
-                  const selected = answers[currentQuestion.key] === opt.value;
+                  const selected =
+                    answers[currentQuestion.key] === opt.value ||
+                    (currentQuestion.key === "service" && !answers.service && opt.value === percorsoProposto);
                   const disegno = DISEGNI[currentQuestion.key]?.[opt.value];
                   if (largo) {
                     return (
@@ -422,7 +457,7 @@ export default function LeadWizard({
                 <input
                   type="tel"
                   id="lw-phone"
-                  required
+                  autoComplete="tel"
                   value={contact.phone}
                   onChange={(e) => setContact({ ...contact, phone: e.target.value })}
                   className="w-full px-4 py-3 rounded-md bg-elevated border border-line text-ink placeholder-ink/30 focus:border-gold outline-none transition-colors"

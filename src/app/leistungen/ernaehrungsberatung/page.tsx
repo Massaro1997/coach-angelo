@@ -101,7 +101,7 @@ export default function ErnaehrungsberatungKoeln() {
             Wochenplan und Einkaufsliste, die du wirklich durchhältst.
           </p>
           <div className="mt-6">
-            <Link href="/contatti" className="fp-btn">
+            <Link href="/contatti?leistung=ernaehrungsberatung" className="fp-btn">
               Kostenlose Erstberatung anfragen <span aria-hidden>→</span>
             </Link>
           </div>
@@ -169,7 +169,7 @@ export default function ErnaehrungsberatungKoeln() {
             </p>
           </div>
           <div className="mt-8">
-            <Link href="/contatti" className="fp-btn">
+            <Link href="/contatti?leistung=ernaehrungsberatung" className="fp-btn">
               Kostenlose Erstberatung anfragen <span aria-hidden>→</span>
             </Link>
           </div>

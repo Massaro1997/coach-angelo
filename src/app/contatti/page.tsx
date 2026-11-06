@@ -2,6 +2,8 @@
 
 import { useLanguage } from "@/context/LanguageContext";
 import LeadWizard from "@/components/LeadWizard";
+import { IconaTelefono, IconaWhatsApp } from "@/components/IconeContatto";
+import { TELEFONO, TELEFONO_HREF, WHATSAPP_HREF } from "@/lib/contatto";
 
 /*
   Kontakt / Contatti, tema FITPRIMO (04/10/2026).
@@ -12,6 +14,10 @@ import LeadWizard from "@/components/LeadWizard";
   nell'hero li ha fatti togliere, e il sottotitolo dice gia' che la consulenza
   e' gratuita e che la risposta arriva in 24 ore.
   La pagina di prima sta in brand/sito-prima-del-rebranding/pagine-interne/.
+
+  06/11/2026: sotto il sottotitolo una riga per chi preferisce chiamare o
+  scrivere subito ad Angelo. Collegamenti di testo, non pulsanti: il pulsante
+  WhatsApp e' uno solo in tutto il sito (la pillola in basso a destra).
 */
 export default function Contatti() {
   const { language } = useLanguage();
@@ -35,6 +41,17 @@ export default function Contatti() {
             {de
               ? "Beantworte 5 kurze Fragen und erhalte deine kostenlose Erstberatung. Antwort innerhalb von 24 Stunden."
               : "Rispondi a 5 domande veloci e ricevi la tua consulenza gratuita. Risposta entro 24 ore."}
+          </p>
+          <p className="mx-auto mt-4 flex max-w-2xl flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[15px] text-ink/60">
+            <span>{de ? "Lieber direkt?" : "Preferisci subito?"}</span>
+            <a href={TELEFONO_HREF} className="inline-flex items-center gap-1.5 font-semibold text-ink underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+              <IconaTelefono className="h-4 w-4 text-gold" />
+              {TELEFONO}
+            </a>
+            <a href={WHATSAPP_HREF} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 font-semibold text-ink underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+              <IconaWhatsApp className="h-4 w-4 text-[#25D366]" />
+              WhatsApp
+            </a>
           </p>
         </div>
 

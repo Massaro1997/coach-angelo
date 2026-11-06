@@ -5,6 +5,8 @@ import { usePathname } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
 import { stadtteile } from "@/lib/koeln-stadtteile";
 import { chiusuraPagina, temaChiaro } from "@/lib/chiusura-pagina";
+import { TELEFONO, TELEFONO_HREF, WHATSAPP_HREF } from "@/lib/contatto";
+import { IconaTelefono, IconaWhatsApp } from "@/components/IconeContatto";
 
 export default function Footer() {
   const { language } = useLanguage();
@@ -162,6 +164,19 @@ export default function Footer() {
                 <li className="flex items-start justify-center gap-3 md:justify-start">
                   <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#ff2b3a]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                   <a href="mailto:magliarisiangelo912@gmail.com" className="break-all transition-colors hover:text-white">magliarisiangelo912@gmail.com</a>
+                </li>
+                {/* Telefono e WhatsApp di Angelo (06/11/2026): righe di testo come
+                    l'email, non pulsanti. Il pulsante WhatsApp e' uno solo, la
+                    pillola in basso a destra. */}
+                <li className="flex items-start justify-center gap-3 md:justify-start">
+                  <IconaTelefono className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#ff2b3a]" />
+                  <a href={TELEFONO_HREF} className="transition-colors hover:text-white">{TELEFONO}</a>
+                </li>
+                <li className="flex items-start justify-center gap-3 md:justify-start">
+                  <IconaWhatsApp className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#ff2b3a]" />
+                  <a href={WHATSAPP_HREF} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">
+                    {language === 'de' ? 'WhatsApp schreiben' : 'Scrivi su WhatsApp'}
+                  </a>
                 </li>
               </ul>
               <Link href="/contatti" className="fp-btn">
