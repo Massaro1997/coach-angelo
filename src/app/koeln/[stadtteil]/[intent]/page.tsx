@@ -10,6 +10,7 @@ import {
   allStadtteilIntentParams,
   siteUrl,
 } from "@/lib/stadtteil-intent";
+import { getIntentCustom } from "@/lib/stadtteil-intent-custom";
 
 export function generateStaticParams() {
   return allStadtteilIntentParams();
@@ -27,16 +28,17 @@ export async function generateMetadata({
   const it = getIntent(intent);
   if (!st || !it) return {};
   const c = buildContent(st, it);
+  const description = getIntentCustom(stadtteil, intent)?.metaDescription ?? c.metaDescription;
   return {
     title: c.metaTitle,
-    description: c.metaDescription,
+    description,
     alternates: { canonical: c.url },
     openGraph: {
       type: "website",
       locale: "de_DE",
       url: c.url,
       title: c.h1,
-      description: c.metaDescription,
+      description,
       images: ["/opengraph-image"],
     },
   };
@@ -53,6 +55,10 @@ export default async function StadtteilIntentPage({
   if (!st || !it) notFound();
 
   const c = buildContent(st, it);
+  const custom = getIntentCustom(stadtteil, intent);
+  const intro = custom?.answer ?? c.intro;
+  const paragraphs = custom?.sections ?? c.paragraphs;
+  const faq = custom?.faq ?? c.faq;
   const neighbors = neighborIntentLinks(st, it);
   const otherIntents = intents.filter((i) => i.key !== it.key);
 
@@ -81,7 +87,7 @@ export default async function StadtteilIntentPage({
       },
       {
         "@type": "FAQPage",
-        mainEntity: c.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+        mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
       },
     ],
   };
@@ -102,7 +108,7 @@ export default async function StadtteilIntentPage({
           <h1 className="text-4xl sm:text-5xl fp-titolo text-ink mb-6">
             {it.label} in <span className="text-gold">Köln-{st.name}</span>
           </h1>
-          <p className="text-lg text-ink/70 leading-relaxed max-w-prose">{c.intro}</p>
+          <p className="text-lg text-ink/70 leading-relaxed max-w-prose">{intro}</p>
           <div className="mt-8">
             <Link href="/contatti" className="fp-btn">
               Kostenlose Beratung <span aria-hidden>→</span>
@@ -133,7 +139,7 @@ export default async function StadtteilIntentPage({
       {/* Body paragraphs */}
       <section className="py-16 sm:py-20 bg-background">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 space-y-12">
-          {c.paragraphs.map((p) => (
+          {paragraphs.map((p) => (
             <div key={p.title}>
               <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-4">{p.title}</h2>
               <p className="text-ink/70 leading-relaxed max-w-prose">{p.body}</p>
@@ -147,7 +153,7 @@ export default async function StadtteilIntentPage({
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-10">Häufige Fragen</h2>
           <div className="space-y-8">
-            {c.faq.map((f) => (
+            {faq.map((f) => (
               <div key={f.q}>
                 <h3 className="font-bold text-ink text-lg mb-2">{f.q}</h3>
                 <p className="text-ink/60 leading-relaxed max-w-prose">{f.a}</p>
