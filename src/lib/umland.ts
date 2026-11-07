@@ -71,6 +71,8 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
       { name: "Personal Trainer Kerpen", href: "/personal-trainer-kerpen" },
+      { name: "Personal Trainer Hürth", href: "/personal-trainer-huerth" },
+      { name: "Personal Trainer Pulheim", href: "/personal-trainer-pulheim" },
     ],
   },
   {
@@ -349,6 +351,119 @@ export const umlandOrte: UmlandOrt[] = [
     links: [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
+      { name: "Personal Trainer Pulheim", href: "/personal-trainer-pulheim" },
+    ],
+  },
+  {
+    slug: "huerth",
+    name: "Hürth",
+    kreis: "Rhein-Erft-Kreis",
+    metaTitle: "Personal Trainer Hürth: 1-zu-1 bei dir vor Ort",
+    metaDescription:
+      "Personal Training in Hürth: 1-zu-1 zu Hause oder draußen, am Otto-Maigler-See oder in den Villewäldern. 50€/Std, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Hürth, direkt vor der Kölner Stadtgrenze: ich komme zu dir, und trainiert wird zu Hause, im Garten oder draußen, am Otto-Maigler-See oder in den Villewäldern. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Keine Stadt im Umland liegt näher an Köln",
+        body: "Hürth beginnt dort, wo Köln aufhört: aus Efferen bist du mit der Linie 18 schneller an der Uni als mancher Kölner, und genau deshalb trainieren viele Hürther bisher in der Großstadt. Den Weg kannst du dir sparen. Rund 60.000 Menschen leben hier, verteilt auf Stadtteile von Efferen und Hermülheim bis Gleuel und Fischenich, und ich komme mit dem Material dorthin, wo du wohnst. Die Stunde beginnt an deiner Haustür, nicht an einer Studiotheke.",
+      },
+      {
+        title: "Otto-Maigler-See und die Villewälder: zwei Reviere, ein Plan",
+        body: "Der Otto-Maigler-See ist das bekannteste Stück Hürther Freizeitgelände, und die Runde um den See ist eine der angenehmsten Laufstrecken im Kölner Südwesten: flach, frei, mit Wasser als Taktgeber. Dahinter steigen die Villewälder an, mit weichen Waldwegen zwischen den Seen der Ville, gut für lange Grundlagenläufe und Einheiten, bei denen der Kopf mittrainiert. Kraft und Technik bauen wir zu Hause oder im Studio in Köln auf, je nachdem, was dein Ziel verlangt.",
+      },
+      {
+        title: "Schichten in Knapsack, Vorlesungen in Köln: Termine, die sich anpassen",
+        body: "Hürth hat mit dem Chemiepark Knapsack einen der großen Arbeitgeber der Region, und Wechselschicht ist für viele hier normal. Andere pendeln täglich zur Arbeit oder in die Hörsäle nach Köln. Beides verträgt keinen Plan, der jede Woche denselben Abendtermin verlangt. Meine Termine wandern deshalb mit: früher Vormittag, Tagesrand, auch mal das Wochenende. Und in Wochen ohne gemeinsames Fenster hält das Online Coaching den Faden, mit Plan per App und kurzem Check-in.",
+      },
+      {
+        title: "Was es kostet und wie du anfängst",
+        body: "Die Preise sind dieselben wie in Köln: 50€ für die 1-zu-1 Stunde, Online Coaching ab 150€ im Monat, inklusive Ernährungssteuerung durch Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Am Anfang steht ein kostenloses Erstgespräch über Ziel, Alltag und Trainingsort; auch die Anfahrt nach Hürth klären wir dort, von Frechen aus, wo ich wohne, ist es ein kurzer Weg. Danach entscheidest du ohne Druck.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Hürth?",
+        a: "50€ für die 1-zu-1 Stunde, Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos, und dort klären wir auch die Anfahrt, die Wege von Frechen nach Hürth sind kurz.",
+      },
+      {
+        q: "Wo trainieren wir in Hürth?",
+        a: "Bei dir zu Hause oder im Garten mit mitgebrachtem Material, draußen am Otto-Maigler-See oder in den Villewäldern. Wer schweres Langhanteltraining will, kombiniert das mit Terminen im Studio in Köln.",
+      },
+      {
+        q: "Kommst du in alle Hürther Stadtteile?",
+        a: "Ja, von Efferen und Hermülheim über Alt-Hürth, Gleuel und Kendenich bis Fischenich, Berrenrath und Stotzheim. Sag mir im Erstgespräch, wo du wohnst, dann planen wir Ort und Termine dazu.",
+      },
+      {
+        q: "Ich arbeite Schicht im Chemiepark Knapsack. Wie läuft das?",
+        a: "Die Termine wandern mit deinem Schichtplan, auch in den Vormittag. Dein Trainingsplan hat bewegliche Tage, und für volle Wochen gibt es kurze Einheiten, die du allein durchziehst, mit Rückmeldung per App.",
+      },
+      {
+        q: "Ich trainiere bisher in Köln. Warum wechseln?",
+        a: "Musst du nicht, du kannst kombinieren: Krafttermine im Kölner Studio, der Rest vor deiner Haustür am See oder im Wald. Der Plan bleibt einer, nur der Ort wechselt mit deiner Woche.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
+      { name: "Personal Trainer Kerpen", href: "/personal-trainer-kerpen" },
+    ],
+  },
+  {
+    slug: "pulheim",
+    name: "Pulheim",
+    kreis: "Rhein-Erft-Kreis",
+    metaTitle: "Personal Trainer Pulheim: 1-zu-1 bei dir vor Ort",
+    metaDescription:
+      "Personal Training in Pulheim: 1-zu-1 zu Hause oder draußen, im Abteipark Brauweiler oder auf den Feldwegen der Börde. 50€/Std, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Du suchst einen Personal Trainer in Pulheim? Ich trainiere dich 1-zu-1 bei dir zu Hause, im Garten oder draußen, vom Abteipark Brauweiler bis zu den Feldwegen der Börde. Die Stunde kostet 50€, das Erstgespräch ist kostenlos und unverbindlich.",
+    sections: [
+      {
+        title: "Zwölf Ortsteile, ein Training, das zu dir kommt",
+        body: "Rund 56.000 Menschen leben in Pulheim, aber kaum jemand wohnt „in Pulheim“: man wohnt in Brauweiler, Stommeln, Sinnersdorf, Geyen oder einem der anderen Ortsteile, die eher Dörfer geblieben sind als Vororte. Ein Training, das an einem festen Studio hängt, passt nicht zu dieser Struktur. Meines hängt an deiner Adresse: ich bringe das Material mit, und trainiert wird in deiner Wohnung, im Garten oder draußen vor dem Ort.",
+      },
+      {
+        title: "Abteipark Brauweiler, Börde, Chorbusch",
+        body: "Das schönste Trainingsrevier Pulheims liegt an der tausend Jahre alten Abtei Brauweiler: der Park an der romanischen Abteikirche gibt Intervallen und Zirkeln einen Rahmen, den kein Gerätepark hat. Um die Ortsteile herum liegt die Börde mit ihren flachen, geraden Feldwegen, ideal für Tempoläufe, bei denen das Tempo konstant bleibt und vergleichbar wird. Und am Nordrand, hinter Sinnersdorf und Stommelerbusch, beginnt der Chorbusch, wenn du weiche Waldwege für lange Läufe willst.",
+      },
+      {
+        title: "Pendeln nach Köln, trainieren vor der Haustür",
+        body: "Von den Bahnhöfen Pulheim und Stommeln fährst du ohne Umstieg nach Köln, und genau so leben hier viele: arbeiten in der Stadt, wohnen im Grünen. Das Training gehört auf die Wohnseite dieses Lebens. Ich lege die Einheiten an deinen Tagesrand, früh bevor der Zug fährt oder abends nach der Rückfahrt, und zwischen den Terminen hält der Plan per App dich auf Kurs, mit kurzen Einheiten, die du allein schaffst.",
+      },
+      {
+        title: "Kosten, Ablauf, erster Schritt",
+        body: "Eine 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, wöchentlichen Check-ins und Ernährungssteuerung durch Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, beginnt bei 150€ im Monat. Der Einstieg ist ein kostenloses, unverbindliches Erstgespräch: Ziel, Woche, Trainingsort, und auch die Anfahrt nach Pulheim klären wir dort. Danach hast du eine ehrliche Einschätzung, was in welcher Zeit realistisch ist.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Pulheim?",
+        a: "Die 1-zu-1 Stunde kostet bei mir 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, dort klären wir auch die Anfahrt zu dir nach Pulheim.",
+      },
+      {
+        q: "Wo trainieren wir in Pulheim?",
+        a: "Bei dir zu Hause oder im Garten mit mitgebrachtem Material, draußen im Abteipark Brauweiler, auf den Feldwegen der Börde oder im Chorbusch am Nordrand. Was passt, hängt von Ziel und Ortsteil ab.",
+      },
+      {
+        q: "Kommst du auch nach Stommeln, Sinnersdorf oder Geyen?",
+        a: "Ja, das Angebot gilt in allen Pulheimer Ortsteilen, von Brauweiler und Dansweiler über Sinthern und Geyen bis Stommeln, Sinnersdorf und Manstedten. Den Treffpunkt legen wir im Erstgespräch fest.",
+      },
+      {
+        q: "Ich pendle jeden Tag nach Köln. Wann soll ich trainieren?",
+        a: "Vor oder nach dem Zug, vor deiner Haustür. Viele legen eine feste Einheit in den frühen Abend und halten den Rest der Woche mit kurzen Plänen per App. Wer mag, nimmt zusätzlich Termine im Kölner Studio.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Wo fangen wir an?",
+        a: "Mit dem kostenlosen Erstgespräch und einer ehrlichen Bestandsaufnahme. Der Einstieg wird an deinen Stand angepasst, du brauchst weder Geräte noch Vorerfahrung, nur regelmäßige Termine.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
+      { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
     ],
   },
 ];

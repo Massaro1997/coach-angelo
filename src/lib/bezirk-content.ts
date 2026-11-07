@@ -43,6 +43,12 @@ export const bezirke: Bezirk[] = [
     ],
     outdoorIntro:
       "Rheinufer Rodenkirchen, Forstbotanischer Garten, Friedenswald, Vorgebirgspark: der Kölner Süden trainiert draußen.",
+    umland: {
+      before: "Südwestlich von Rondorf und Meschenich liegt Hürth direkt an der Stadtgrenze: als ",
+      linkName: "Personal Trainer in Hürth",
+      href: "/personal-trainer-huerth",
+      after: " trainiere ich auch dort, bei dir zu Hause oder am Otto-Maigler-See.",
+    },
     faq: [
       {
         q: "Bietest du Personal Training direkt in Rodenkirchen an?",
@@ -89,6 +95,12 @@ export const bezirke: Bezirk[] = [
     ],
     outdoorIntro:
       "Blücherpark, Innerer Grüngürtel, Äußerer Grüngürtel bei Bickendorf: Ehrenfeld hat mehr Grün, als sein Ruf vermuten lässt.",
+    umland: {
+      before: "Nordwestlich der Stadtgrenze, hinter Bocklemünd und Widdersdorf, beginnt Pulheim: als ",
+      linkName: "Personal Trainer in Pulheim",
+      href: "/personal-trainer-pulheim",
+      after: " trainiere ich auch dort, bei dir zu Hause oder im Abteipark Brauweiler.",
+    },
     faq: [
       {
         q: "Ich trainiere schon lange, komme aber nicht weiter. Kannst du helfen?",
