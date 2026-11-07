@@ -14,10 +14,10 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 6 | /koeln/rath-heumar/athletiktraining | 0 | 48 | 43,7 | FATTA (giro 6, 06/11) |
 | 7 | /koeln/muelheim/abnehmen | 0 | 47 | 22,5 | FATTA (giro 6, 06/11) |
 | 8 | /koeln/ensen/athletiktraining | 0 | 42 | 30,6 | FATTA (giro 6, 06/11) |
-| 9 | /koeln/lind/personal-training | 0 | 41 | 49,0 | in coda |
-| 10 | /koeln/suerth/personal-training | 0 | 39 | 36,3 | in coda |
-| 11 | /koeln/rondorf/personal-training | 0 | 38 | 38,8 | in coda |
-| 12 | /koeln/ehrenfeld/athletiktraining | 1 | 37 | 36,7 | in coda |
+| 9 | /koeln/lind/personal-training | 0 | 41 | 49,0 | FATTA (giro 7, 07/11) |
+| 10 | /koeln/suerth/personal-training | 0 | 39 | 36,3 | FATTA (giro 7, 07/11) |
+| 11 | /koeln/rondorf/personal-training | 0 | 38 | 38,8 | FATTA (giro 7, 07/11) |
+| 12 | /koeln/ehrenfeld/athletiktraining | 1 | 37 | 36,7 | FATTA (giro 7, 07/11) |
 | 13 | /koeln/dellbrueck/athletiktraining | 0 | 37 | 53,6 | in coda |
 | 14 | /koeln/suerth/ernaehrungsberatung | 0 | 36 | 34,0 | in coda |
 | 15 | /koeln/eil/athletiktraining | 0 | 33 | 56,6 | in coda |
@@ -43,12 +43,12 @@ In coda dopo le prime pagine quartiere×servizio. Candidate da GSC («Le persone
 Confermate da Calogero il 06/11/2026 («i comuni intorno a Colonia falli tutti»). Angelo lavora 1-zu-1 anche in questi comuni (a casa del cliente o all'aperto); l'online coaching vale ovunque.
 
 - Rhein-Erft-Kreis: **Frechen FATTA (giro 6, 06/11)** · Hürth · Pulheim · Brühl · Wesseling · Kerpen · Bergheim · Erftstadt
-- Rheinisch-Bergischer Kreis: Bergisch Gladbach · Rösrath · Overath · Odenthal · Burscheid · Leichlingen
+- Rheinisch-Bergischer Kreis: **Bergisch Gladbach FATTA (giro 7, 07/11)** · Rösrath · Overath · Odenthal · Burscheid · Leichlingen
 - **Leverkusen FATTA (giro 6, 06/11)**
 - Rhein-Kreis Neuss: Dormagen
 - Kreis Mettmann: Langenfeld · Monheim am Rhein
-- Rhein-Sieg-Kreis: Troisdorf · Niederkassel · Lohmar
+- Rhein-Sieg-Kreis: **Troisdorf FATTA (giro 7, 07/11)** · Niederkassel · Lohmar
 
-Meccanismo (creato al giro 6, 06/11): dati e testi in `src/lib/umland.ts` (una voce per comune, tutto il testo è lì), render condiviso in `src/components/UmlandSeite.tsx`, route sottile in `src/app/personal-trainer-<comune>/page.tsx`, sitemap automatica da `umlandOrte`. Per un comune nuovo: voce in umland.ts + route di 25 righe + link in entrata da 2 pagine indicizzate (blocco Umland su /personal-trainer-koeln e/o campo `umland` del bezirk confinante in `bezirk-content.ts`). Nota ordine: DataForSEO senza credenziali in `.env.local` (06/11), quindi dopo Frechen l'ordine segue la popolazione come proxy del volume: Leverkusen (~163k, fatta) → Bergisch Gladbach (~111k) → Troisdorf (~75k) → Kerpen (~66k) → Hürth (~62k) → Pulheim (~56k) → Brühl (~47k) → Dormagen (~65k, Rhein-Kreis Neuss) si intreccia per volume; se le credenziali arrivano, si torna ai volumi veri.
+Meccanismo (creato al giro 6, 06/11): dati e testi in `src/lib/umland.ts` (una voce per comune, tutto il testo è lì), render condiviso in `src/components/UmlandSeite.tsx`, route sottile in `src/app/personal-trainer-<comune>/page.tsx`, sitemap automatica da `umlandOrte`. Per un comune nuovo: voce in umland.ts + route di 25 righe + link in entrata da 2 pagine indicizzate (blocco Umland su /personal-trainer-koeln e/o campo `umland` del bezirk confinante in `bezirk-content.ts`). Nota ordine: DataForSEO senza credenziali in `.env.local` (06/11), quindi dopo Frechen l'ordine segue la popolazione come proxy del volume: Leverkusen (~163k, fatta) → Bergisch Gladbach (~111k, fatta) → Troisdorf (~75k, fatta) → Kerpen (~66k) → Dormagen (~65k) → Hürth (~62k) → Pulheim (~56k) → Brühl (~47k) → Bergheim (~62k, da intrecciare) e poi gli altri; se le credenziali arrivano, si torna ai volumi veri.
 
 Regole: UNA pagina per comune, indirizzo `/personal-trainer-<comune>` (minuscolo, umlaut traslitterati: `huerth`, `bruehl`, `roesrath`, `monheim-am-rhein`), come `/personal-trainer-koeln`. Niente comune × servizio. Ordine: Frechen per primo (Angelo vive lì), poi per volume di ricerca (DataForSEO `personal trainer <comune>`), poi gli altri. Fatti veri e verificabili del comune (parchi, percorsi, impianti, distanza da Colonia), prezzo come su `/servizi`; la trasferta non si inventa: «Anfahrt klären wir im kostenlosen Erstgespräch». Ogni pagina linkata da `/personal-trainer-koeln` (blocco «Auch im Kölner Umland», da creare alla prima pagina) e dalle pagine dei comuni vicini, e messa in sitemap.
