@@ -702,6 +702,100 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "wahn/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Wahn, dem Stadtteil, der der Wahner Heide ihren Namen gibt: Stabilität und Ausdauer auf den Heidewegen im Osten, Tempoläufe auf den flachen Wegen Richtung Zündorfer Groov im Westen, Kraft im Studio. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Wahn: Heidewege für Stabilität, flache Strecken Richtung Groov für Tempo, Kraft im Studio. Termine passend zur S12/S19. 50€/Std.",
+    sections: [
+      {
+        title: "Der Stadtteil, der der Heide den Namen gibt",
+        body: "Wahn ist kompakt: 7.263 Einwohner auf 2,25 km², ein Ortskern mit kurzen Wegen, und gleich zwei Trainingsreviere in Laufweite. Das Warm-up beginnt deshalb an deiner Haustür. Richtung Osten bist du über Wahnheide in wenigen Laufminuten am Rand der Wahner Heide, die nach genau diesem Stadtteil benannt ist. Richtung Westen öffnet sich die flache Rheinebene über Zündorf bis zur Groov. Kaum ein Kölner Veedel hat beides so nah beieinander.",
+      },
+      {
+        title: "Zwei Richtungen, zwei Trainingsreize",
+        body: "Diesen Kontrast nutze ich im Plan. Auf den unebenen Heidewegen arbeiten Fuß, Knie und Hüfte bei jedem Schritt mit: dort trainieren wir Kraftausdauer, Stabilität und Antritte, bei denen der Untergrund Teil der Übung ist. Auf den flachen, geraden Wegen Richtung Zündorf und Groov laufen wir Tempoeinheiten und Intervalle, bei denen die Bedingungen gleich bleiben und sich deine Zeiten ehrlich vergleichen lassen. Sprungkraft und Maximalkraft kommen aus dem Studio, mit Hantel und Messwerten.",
+      },
+      {
+        title: "Termine, die zur S-Bahn passen",
+        body: "Vom Bahnhof Porz-Wahn pendelt halb Wahn mit der S12 oder S19 nach Köln und zurück. Deshalb liegen die Einheiten hier selten um 18 Uhr in der Stadt, sondern am Tagesrand vor Ort: früh, bevor die Bahn fährt, oder abends nach der Rückfahrt, Treffpunkt im Veedel, etwa am Schloss Wahn, das viele nur als Kulisse kennen, obwohl es die Theatersammlung der Uni Köln beherbergt. Für volle Wochen gibt es kurze Programme, die du allein durchziehst, mit Rückmeldung per App.",
+      },
+      {
+        title: "So startest du in Wahn",
+        body: "Am Anfang steht das kostenlose Erstgespräch, danach der Eingangstest: Sprint, Sprung, Rumpf. Daraus baue ich den Plan, meist zwei geführte Einheiten pro Woche, eine draußen, eine im Studio. Nach vier bis sechs Wochen wird nachgemessen, und der Plan ändert sich, wenn die Zahlen es verlangen. Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App und wöchentlichen Check-ins beginnt bei 150€ im Monat.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Wahn?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Wo genau trainieren wir in Wahn?",
+        a: "Stabilität und Ausdauer auf den Wegen der Wahner Heide östlich des Ortskerns, Tempoläufe auf den flachen Strecken Richtung Zündorf und Groov, Kraft im Studio. Treffpunkt und Mix legen wir nach deinem Ziel fest.",
+      },
+      {
+        q: "Ich pendle mit der S-Bahn nach Köln. Wann trainieren wir?",
+        a: "Vor oder nach deiner Fahrt, direkt in Wahn. Viele legen eine Einheit in den frühen Morgen und eine in den Abend nach der Rückfahrt vom Bahnhof Porz-Wahn. Der Plan passt sich deiner Woche an.",
+      },
+      {
+        q: "Brauche ich Vereins- oder Wettkampferfahrung?",
+        a: "Nein. Der Eingangstest legt dein Niveau fest, nicht dein Lebenslauf. Athletiktraining lohnt sich für Läufer, Vereinssportler und alle, die schneller und belastbarer werden wollen.",
+      },
+      {
+        q: "Was passiert bei schlechtem Wetter?",
+        a: "Die Heide funktioniert fast das ganze Jahr, bei Dauerregen verlagern wir die Einheit ins Studio oder zu dir nach Hause. Ausfallen muss ein Termin deswegen nicht.",
+      },
+    ],
+  },
+
+  "nippes/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Nippes heißt bei uns: Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, baut deinen Plan um das, was du im Veedel ohnehin einkaufst, vom Wochenmarkt am Wilhelmplatz bis zur Neusser Straße. Sie ist im Online Coaching ab 150€ im Monat enthalten, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Nippes mit Natalie: Kalorien- und Eiweißziel, Wochenplan rund um Markt am Wilhelmplatz und Neusser Straße, abgestimmt aufs Training.",
+    sections: [
+      {
+        title: "In Nippes scheitert es nicht am Einkaufen",
+        body: "36.913 Menschen leben in Nippes auf knapp drei Quadratkilometern, und kaum ein Veedel macht gutes Essen leichter: der Wochenmarkt am Wilhelmplatz an sechs Tagen die Woche, dazu die Neusser Straße mit allem, was fehlt. Woran es scheitert, ist selten das Angebot, sondern die Entscheidung am Abend, wenn der Tag lang war. Genau da setzt Natalie an: ein Wochenplan mit Einkaufsliste, die zum Markt passt, damit die Entscheidung schon getroffen ist, bevor der Hunger sie trifft.",
+      },
+      {
+        title: "Zahlen statt Diät-Trends",
+        body: "Natalie arbeitet nicht mit Verbotslisten, sondern mit einem Kalorienziel und einer Eiweiß-, Kohlenhydrat- und Fettverteilung, die zu deinem Training und deinem Ziel passt, ob Abnehmen oder Muskelaufbau. Kontrolliert wird über den Wochenschnitt auf der Waage und über Umfänge, nicht über einzelne Tage. Alle paar Wochen schaut sie auf die Zahlen und stellt nach. So verschwindet das Auf und Ab der Versuche, und an seine Stelle tritt ein Trend, den du sehen kannst.",
+      },
+      {
+        title: "Das Veedel isst mit, und das ist eingeplant",
+        body: "Nippes ist kein Veedel, in dem man sechs Wochen lang nur aus der Tupperdose isst. Der Kaffee mit Gebäck auf der Neusser Straße, das Essen mit Freunden, das Eis mit den Kindern im Nippeser Tälchen: all das bleibt. Es wird nur eingeplant statt wegignoriert, mit einem Budget, das in dein Kalorienziel passt. Pläne, die das echte Leben aussperren, halten zwei Wochen. Pläne, die es einrechnen, halten Monate, und nur die verändern etwas.",
+      },
+      {
+        title: "Online-Beratung, die in dichte Wochen passt",
+        body: "Die Ernährungsberatung läuft komplett online: Analyse im Video-Gespräch, Plan und Anpassungen per App, wöchentlicher Check-in. Für Berufspendler und Familien in Nippes ist das meist der Unterschied zwischen Anfangen und Aufschieben, weil kein Praxistermin quer durch die Stadt nötig ist. Enthalten ist sie im Online Coaching ab 150€ im Monat, zusammen mit dem Trainingsplan von mir. Der erste Schritt ist ein kostenloses Erstgespräch mit uns beiden.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Nippes?",
+        a: "Sie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan per App und wöchentlichen Check-ins. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Wer berät mich bei FitPrimo?",
+        a: "Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Sie übernimmt die Ernährungsseite, ich als Trainer die Trainingsseite, und beide Pläne greifen ineinander.",
+      },
+      {
+        q: "Muss ich für die Beratung irgendwo hinfahren?",
+        a: "Nein, alles läuft online per Video und App. Das Einkaufen bleibt bei dir im Veedel, viele nutzen dafür einfach den Wochenmarkt am Wilhelmplatz mit der Einkaufsliste aus dem Plan.",
+      },
+      {
+        q: "Ich koche wenig und esse oft unterwegs. Funktioniert das trotzdem?",
+        a: "Ja. Der Plan wird um deinen Alltag gebaut, nicht umgekehrt: einfache Gerichte, klare Alternativen für unterwegs und ein Eiweißziel, das sich auch ohne Kochmarathon erreichen lässt.",
+      },
+      {
+        q: "Beratet ihr auch bei Unverträglichkeiten oder Erkrankungen?",
+        a: "Nein. Natalies Bereich ist Sport- und Fitnessernährung für gesunde Erwachsene. Medizinische Ernährungsfragen gehören in ärztliche Hände, das sagen wir dir im Erstgespräch offen.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
