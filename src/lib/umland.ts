@@ -70,6 +70,7 @@ export const umlandOrte: UmlandOrt[] = [
     links: [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
+      { name: "Personal Trainer Kerpen", href: "/personal-trainer-kerpen" },
     ],
   },
   {
@@ -126,6 +127,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
+      { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
     ],
   },
   {
@@ -237,6 +239,116 @@ export const umlandOrte: UmlandOrt[] = [
     links: [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
+    ],
+  },
+  {
+    slug: "kerpen",
+    name: "Kerpen",
+    kreis: "Rhein-Erft-Kreis",
+    metaTitle: "Personal Trainer Kerpen: 1-zu-1 bei dir vor Ort",
+    metaDescription:
+      "Personal Training in Kerpen: 1-zu-1 zu Hause oder draußen, an der Erft, am Boisdorfer See oder im Schlosspark Türnich. 50€/Std, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Du suchst einen Personal Trainer in Kerpen? Ich trainiere dich 1-zu-1 bei dir zu Hause oder draußen, an der Erft, am Boisdorfer See oder im Schlosspark Türnich. Die Stunde kostet 50€, das Erstgespräch ist kostenlos und unverbindlich.",
+    sections: [
+      {
+        title: "Die größte Stadt im Rhein-Erft-Kreis trainiert vor der eigenen Haustür",
+        body: "Kerpen hat rund 66.000 Einwohner und ist damit die bevölkerungsreichste Stadt des Rhein-Erft-Kreises, verteilt auf Stadtteile, die fast eigene Orte sind: Sindorf, Horrem, Buir, Brüggen, Türnich, Blatzheim. Genau deshalb funktioniert hier kein Training, das an einem festen Studio hängt. Ich komme dorthin, wo du wohnst, mit dem Material im Kofferraum, und wir trainieren in deiner Wohnung, im Garten oder draußen im Grünen. Von Frechen aus, wo ich wohne, bin ich über die A4 schnell in jedem Kerpener Stadtteil.",
+      },
+      {
+        title: "Erftaue, Boisdorfer See, Schlosspark Türnich",
+        body: "Fürs Training draußen hat Kerpen mehr zu bieten, als viele denken. Entlang der Erft laufen flache, ruhige Wege durch die Aue, gut für Grundlagenausdauer und Tempoläufe ohne Ampeln. Am Boisdorfer See zwischen Türnich und Balkhausen bauen wir Zirkel am Wasser, und der Schlosspark Türnich gibt Intervallen einen Rahmen, den kein Studio hat. Wer es waldiger mag: das Naturschutzgebiet Kerpener Bruch und Parrig liegt direkt am Stadtrand.",
+      },
+      {
+        title: "Für Pendler zwischen Köln und Aachen gebaut",
+        body: "Mit den Bahnhöfen Horrem, Sindorf und Buir sitzt halb Kerpen morgens im Zug Richtung Köln oder Aachen. Abends noch in ein Kölner Studio zu fahren, scheitert nicht am Willen, sondern am Fahrplan. Darum lege ich die Einheiten an deinen Tagesrand: früh, bevor der Zug fährt, oder abends vor deiner Haustür. Der Rest der Woche läuft über kurze Pläne, die du allein schaffst, mit Rückmeldung per App.",
+      },
+      {
+        title: "Was es kostet und wie es anfängt",
+        body: "Eine 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, wöchentlichen Check-ins und Ernährungssteuerung durch Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, beginnt bei 150€ im Monat. Der erste Schritt ist ein kostenloses Erstgespräch über Ziel, Alltag und Trainingsort; auch die Anfahrt nach Kerpen klären wir dort. In der Stadt, in der Michael Schumacher das Fahren gelernt hat, muss niemand beim Training raten: wir messen, was sich bewegt, und steuern nach.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Kerpen?",
+        a: "Bei mir 50€ für die 1-zu-1 Stunde, Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos, die Anfahrt klären wir dort — von Frechen aus sind die Wege nach Kerpen kurz.",
+      },
+      {
+        q: "Wo trainieren wir in Kerpen?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material oder draußen: an der Erft, am Boisdorfer See oder im Schlosspark Türnich. Was passt, hängt von deinem Ziel und deinem Stadtteil ab.",
+      },
+      {
+        q: "Kommst du auch nach Sindorf, Horrem oder Buir?",
+        a: "Ja, das Angebot gilt in allen Kerpener Stadtteilen, von Sindorf und Horrem über Brüggen und Türnich bis Buir und Blatzheim. Sag mir im Erstgespräch, wo du wohnst.",
+      },
+      {
+        q: "Ich pendle nach Köln. Kann ich dort weitertrainieren?",
+        a: "Ja. Viele kombinieren Einheiten in Kerpen mit Terminen im Studio in Köln, zum Beispiel nach der Arbeit, bevor es zurück in den Zug geht. Plan und Betreuung bleiben dieselben.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Wo fangen wir an?",
+        a: "Mit einer ehrlichen Bestandsaufnahme im Erstgespräch und einem Einstieg, der zu deinem Stand passt. Du brauchst keine Geräte und keine Vorerfahrung, nur regelmäßige Termine.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
+    ],
+  },
+  {
+    slug: "dormagen",
+    name: "Dormagen",
+    kreis: "Rhein-Kreis Neuss",
+    metaTitle: "Personal Trainer Dormagen: 1-zu-1 vor Ort",
+    metaDescription:
+      "Personal Training in Dormagen: 1-zu-1 zu Hause oder draußen, am Rheinufer bei Zons oder im Knechtstedener Wald. 50€/Std, Online Coaching ab 150€/Monat.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Dormagen, ohne Fahrt nach Köln, Neuss oder Düsseldorf: ich komme zu dir, und trainiert wird zu Hause oder draußen, am Rheinufer bei Zons oder im Knechtstedener Wald. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Zwischen Köln und Neuss, aber ohne eigenes Training? Das lässt sich ändern",
+        body: "Rund 65.000 Menschen leben in Dormagen, direkt hinter der Kölner Stadtgrenze bei Worringen. Wer hier Personal Training sucht, wird meist in die Großstädte verwiesen, dabei liegt das Trainingsgelände vor Ort. Ich trainiere dich dort, wo dein Tag stattfindet: in deiner Wohnung, im Garten oder draußen, von Rheinfeld und Zons über Nievenheim und Hackenbroich bis Delhoven und Straberg.",
+      },
+      {
+        title: "Rheinufer bei Zons und der Knechtstedener Wald",
+        body: "Die mittelalterliche Zollfeste Zons ist das bekannteste Stück Dormagen, und die Rheinwiesen davor sind ein ernstzunehmendes Trainingsgelände: flache Uferwege für Tempoläufe, Platz für Zirkel, Wind als Gratis-Widerstand. Auf der anderen Seite der Stadt liegt der Knechtstedener Wald rund um das romanische Kloster Knechtsteden, mit ruhigen, weichen Wegen für lange Läufe. Dazwischen der Tannenbusch bei Delhoven, wenn du kürzere Runden willst. Drei Reviere, ein Plan.",
+      },
+      {
+        title: "Schichtdienst im Chempark? Der Plan rechnet damit",
+        body: "Dormagen ist Chempark-Stadt, und Wechselschicht ist hier Alltag, kein Sonderfall. Ein Trainingsplan, der jede Woche denselben Dienstagabend verlangt, bricht daran. Meiner nicht: Termine wandern mit deinem Schichtrhythmus, auch in den Vormittag, und in Wochen ohne gemeinsames Fenster hält das Online Coaching den Faden, mit Plan per App und kurzem Check-in. Pendler nehmen die S11, die Dormagen direkt mit Köln und Neuss verbindet, und trainieren vor oder nach der Fahrt.",
+      },
+      {
+        title: "Preise und der erste Schritt",
+        body: "Es gelten dieselben Preise wie in Köln: 50€ für die 1-zu-1 Stunde, Online Coaching ab 150€ im Monat, inklusive Ernährungssteuerung durch Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Am Anfang steht ein kostenloses, unverbindliches Erstgespräch: Ziel, Alltag, Trainingsort und die Anfahrt nach Dormagen klären wir dort. Danach entscheidest du in Ruhe, ob es passt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Dormagen?",
+        a: "50€ für die 1-zu-1 Stunde, Online Coaching ab 150€ im Monat. Das Erstgespräch kostet nichts, und dort klären wir auch die Anfahrt zu dir nach Dormagen.",
+      },
+      {
+        q: "Wo trainieren wir in Dormagen?",
+        a: "Bei dir zu Hause, im Garten oder draußen: an den Rheinwiesen bei Zons, im Knechtstedener Wald oder im Tannenbusch bei Delhoven. Das Material bringe ich mit.",
+      },
+      {
+        q: "Ich arbeite Wechselschicht im Chempark. Geht das?",
+        a: "Ja, das ist in Dormagen eher die Regel als die Ausnahme. Die Termine wandern mit deinem Schichtplan, und für unregelmäßige Wochen gibt es kurze Einheiten, die du allein durchziehst.",
+      },
+      {
+        q: "Deckst du alle Dormagener Stadtteile ab?",
+        a: "Ja, von Zons und Stürzelberg am Rhein über Rheinfeld und die Innenstadt bis Nievenheim, Hackenbroich, Delhoven, Straberg und Gohr. Den Treffpunkt legen wir im Erstgespräch fest.",
+      },
+      {
+        q: "Geht auch reines Online Coaching von Dormagen aus?",
+        a: "Ja, vollständig: Trainingsplan per App, wöchentliche Video-Check-ins, Ernährungssteuerung, ab 150€ im Monat. Einzelne 1-zu-1 Stunden kannst du jederzeit dazunehmen.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
     ],
   },
 ];

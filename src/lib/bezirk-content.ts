@@ -129,6 +129,12 @@ export const bezirke: Bezirk[] = [
     ],
     outdoorIntro:
       "Fühlinger See mit Regattastrecke, Rheinufer Worringen, Chorbusch: der Norden hat Platz ohne Ende.",
+    umland: {
+      before: "Direkt hinter Worringen fängt die nächste Stadt an: als ",
+      linkName: "Personal Trainer in Dormagen",
+      href: "/personal-trainer-dormagen",
+      after: " trainiere ich auch dort, von Zons bis Nievenheim, zu Hause oder am Rhein.",
+    },
     faq: [
       {
         q: "Gibt es Personal Training direkt am Fühlinger See?",
