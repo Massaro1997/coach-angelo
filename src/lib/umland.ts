@@ -296,6 +296,7 @@ export const umlandOrte: UmlandOrt[] = [
     links: [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
+      { name: "Personal Trainer Bergheim", href: "/personal-trainer-bergheim" },
     ],
   },
   {
@@ -408,6 +409,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
       { name: "Personal Trainer Kerpen", href: "/personal-trainer-kerpen" },
+      { name: "Personal Trainer Brühl", href: "/personal-trainer-bruehl" },
     ],
   },
   {
@@ -464,6 +466,121 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
       { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
+      { name: "Personal Trainer Bergheim", href: "/personal-trainer-bergheim" },
+    ],
+  },
+  {
+    slug: "bruehl",
+    name: "Brühl",
+    kreis: "Rhein-Erft-Kreis",
+    metaTitle: "Personal Trainer Brühl: 1-zu-1 zwischen Schloss und Ville",
+    metaDescription:
+      "Personal Training in Brühl: bei dir zu Hause, im Schlosspark oder an den Ville-Seen. 1-zu-1 Stunde 50€, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Brühl, ohne erst nach Köln oder Bonn zu fahren: ich trainiere dich bei dir zu Hause, im Brühler Schlosspark oder an den Ville-Seen. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Zwischen Schlosspark und Ville-Seen",
+        body: "Brühl hat zwei Trainingsreviere, um die es jede Großstadt beneidet. Mitten in der Stadt liegt der Park der Schlösser Augustusburg und Falkenlust, seit 1984 UNESCO-Welterbe: breite Alleen und ebene Wege, auf denen sich Läufe und Zirkel sauber takten lassen. Und westlich beginnen die Villewälder mit den Seen, die aus den alten Braunkohlegruben entstanden sind, allen voran Heider Bergsee und Bleibtreusee. Die Runden dort sind flach, gut zu dosieren und auch im Winter begehbar. Beides erreichst du aus fast jedem Brühler Viertel in wenigen Minuten.",
+      },
+      {
+        title: "Zu Hause, am See oder im Studio",
+        body: "Den Trainingsort legen wir nach deinem Ziel fest, nicht umgekehrt. Für das Training zu Hause bringe ich Kurzhanteln, Widerstandsbänder und das übrige Material mit, ein freies Stück Boden genügt. Draußen arbeiten wir im Schlosspark oder an den Seen an Ausdauer, Kraftausdauer und Beweglichkeit. Und wer schwere Grundübungen an der Langhantel will, kombiniert das mit Terminen im Kölner Studio: mit der Linie 18 oder der Bahn ab Brühler Bahnhof bist du schnell dort.",
+      },
+      {
+        title: "Die Preise, klar und ohne Kleingedrucktes",
+        body: "Eine 1-zu-1 Stunde kostet 50€, egal ob bei dir zu Hause, draußen oder im Studio. Das Online Coaching mit Trainingsplan per App, Ernährungssteuerung und wöchentlichen Check-ins gibt es ab 150€ im Monat. Gestartet wird immer mit einem kostenlosen Erstgespräch: dort klären wir Ziel, Trainingsort, Termine und auch die Anfahrt. Du entscheidest danach in Ruhe, ohne Abo-Falle.",
+      },
+      {
+        title: "Für wen das in Brühl gedacht ist",
+        body: "Viele Brühler pendeln nach Köln oder Bonn und wollen den Sport nicht auch noch hinter einen Bahnhof legen. Andere arbeiten im Schichtbetrieb, etwa in Gastronomie und Freizeitpark im Süden der Stadt, und brauchen Termine, die nicht um 18 Uhr beginnen müssen. Für beide baue ich den Plan um die echte Woche herum. Das Angebot gilt im ganzen Stadtgebiet, von Vochem und Kierberg über Pingsdorf und Heide bis Badorf und Schwadorf.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Brühl?",
+        a: "Die 1-zu-1 Stunde kostet bei mir 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos und unverbindlich, dort klären wir auch die Anfahrt nach Brühl.",
+      },
+      {
+        q: "Kommst du zu mir nach Hause nach Brühl?",
+        a: "Ja. Ich bringe das komplette Trainingsmaterial mit, du brauchst keine Geräte. Wohnzimmer, Garage oder Garten reichen für ein vollständiges Krafttraining.",
+      },
+      {
+        q: "Wo trainieren wir draußen in Brühl?",
+        a: "Am liebsten im Schlosspark von Augustusburg oder an den Ville-Seen, etwa am Heider Bergsee oder Bleibtreusee. Flache Wege, klare Runden, wenig Verkehr: ideal für Ausdauer und Zirkeltraining.",
+      },
+      {
+        q: "Kann ich auch an Geräten trainieren?",
+        a: "Ja, dann verbinden wir das Training mit Terminen im Studio in Köln. Mit der Linie 18 oder der Bahn ab Brühl ist das gut machbar. Viele kombinieren: Kraft im Studio, der Rest vor Ort.",
+      },
+      {
+        q: "Gilt das Angebot in allen Brühler Stadtteilen?",
+        a: "Ja, von Vochem über Kierberg und Pingsdorf bis Badorf, Schwadorf und Heide. Sag mir im Erstgespräch, wo du wohnst, dann planen wir Ort und Termine passend.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Hürth", href: "/personal-trainer-huerth" },
+      { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
+      { name: "Personal Trainer Bergheim", href: "/personal-trainer-bergheim" },
+    ],
+  },
+  {
+    slug: "bergheim",
+    name: "Bergheim",
+    kreis: "Rhein-Erft-Kreis",
+    metaTitle: "Personal Trainer Bergheim: Training an der Erft",
+    metaDescription:
+      "Personal Training in Bergheim: bei dir zu Hause, in der Erftaue oder an der Glessener Höhe. 1-zu-1 Stunde 50€, Online ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in der Kreisstadt des Rhein-Erft-Kreises: ich komme zu dir nach Hause oder wir trainieren draußen, in der Erftaue oder an der Glessener Höhe. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Die Kreisstadt trainiert an der Erft",
+        body: "Rund 61.000 Menschen leben in Bergheim, und mitten durch die Stadt fließt die Erft. Für das Training ist das ein Geschenk: die Wege in der Erftaue sind flach, ruhig und führen vom Zentrum mit seinem mittelalterlichen Aachener Tor bis hinaus nach Paffendorf, wo das Wasserschloss im Park steht. Hier laufen wir Grundlagen und Intervalle mit gleichbleibenden Bedingungen, dazwischen kommen Kraftblöcke mit dem eigenen Körpergewicht. Wer mag, hängt die Strecke am Erft-Radweg beliebig weit hinten dran.",
+      },
+      {
+        title: "Ein Berg aus dem Tagebau, direkt vor der Tür",
+        body: "Im Osten der Stadt, bei Glessen, liegt die Glessener Höhe: gut 200 Meter hoch, aufgeschüttet aus dem Abraum des Braunkohletagebaus, heute bewaldet und voller Wege mit echter Steigung. Für Bergheimer ist das der nächste richtige Trainingsberg. Bergauf-Intervalle dort ersetzen eine komplette Tempoeinheit und bauen eine Beinkraft auf, die man im Flachen nicht bekommt. Wir nutzen die Höhe gezielt in Blöcken, nicht jede Woche, damit die Belastung planbar bleibt.",
+      },
+      {
+        title: "Termine für Schichtdienst und Pendler",
+        body: "Bergheim lebt mit der Energie: das Kraftwerk Niederaußem steht im Stadtgebiet, und viele arbeiten dort oder im Umfeld in Wechselschicht. Ein Trainingsplan, der nur den Feierabend kennt, hält das nicht aus. Deshalb lege ich Einheiten auch in den Vormittag oder frühen Nachmittag und baue den Plan um deinen Schichtrhythmus. Pendler, die mit der Erft-Bahn nach Köln fahren, trainieren vor Ort statt in der Stadt: das spart die zweite Fahrt und macht die Termine verlässlich.",
+      },
+      {
+        title: "Kosten und erster Schritt",
+        body: "Die 1-zu-1 Stunde kostet 50€. Wer lieber mit Plan per App, Ernährungssteuerung und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat, das in Bergheim genauso funktioniert wie überall. Am Anfang steht ein kostenloses, unverbindliches Erstgespräch über Ziel, Woche und Trainingsort, dort klären wir auch die Anfahrt. Danach folgt der Technik-Check und die ersten Einheiten zeigen, ob es passt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Bergheim?",
+        a: "50€ pro 1-zu-1 Stunde, Online Coaching ab 150€ im Monat, Erstgespräch kostenlos. Die Anfahrt nach Bergheim besprechen wir im Erstgespräch.",
+      },
+      {
+        q: "Trainierst du bei mir zu Hause in Bergheim?",
+        a: "Ja, das ist hier der häufigste Fall. Ich bringe Kurzhanteln, Bänder und das übrige Material mit. Ein paar freie Quadratmeter reichen für ein komplettes Programm.",
+      },
+      {
+        q: "Wo trainieren wir draußen?",
+        a: "In der Erftaue für flache Läufe und Zirkel, an der Glessener Höhe für Bergauf-Intervalle und Beinkraft. Beides liegt im Stadtgebiet und ist schnell erreichbar.",
+      },
+      {
+        q: "Ich arbeite im Schichtdienst. Bekommen wir das hin?",
+        a: "Ja. Termine lege ich auch in den Vormittag oder Nachmittag, und der Plan rechnet mit wechselnden Wochen. Eine Spätschicht wirft dann nicht gleich den ganzen Monat um.",
+      },
+      {
+        q: "Gilt das Angebot in allen Stadtteilen von Bergheim?",
+        a: "Ja, von Quadrath-Ichendorf über Zieverich und Paffendorf bis Niederaußem und Glessen. Im Erstgespräch planen wir Trainingsort und Termine passend zu deinem Wohnort.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Kerpen", href: "/personal-trainer-kerpen" },
+      { name: "Personal Trainer Pulheim", href: "/personal-trainer-pulheim" },
+      { name: "Personal Trainer Brühl", href: "/personal-trainer-bruehl" },
     ],
   },
 ];
