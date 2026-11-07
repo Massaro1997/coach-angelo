@@ -796,6 +796,186 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "nippes/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Nippes steht bei mir auf drei Beinen: Krafttraining, damit die Muskeln bleiben, ein Kalorienziel, das Natalie als Ernährungsberaterin mit dir festlegt, und Alltagsbewegung im Veedel. Die 1-zu-1 Stunde kostet 50€, das Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Nippes: Krafttraining plus Ernährungsplan von Natalie, realistisches Tempo, Training im Nippeser Tälchen oder bei dir zu Hause. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Abnehmen heißt nicht hungern, sondern rechnen",
+        body: "Wer abnehmen will, braucht ein moderates Kaloriendefizit, genug Eiweiß und Geduld, mehr nicht. Crash-Diäten nehmen dir in Nippes niemand ab, spätestens beim dritten Geburtstagskuchen im Kollegenkreis kippen sie. Deshalb arbeite ich mit einem Defizit, das du durchhalten kannst, und messe den Fortschritt am Wochenschnitt auf der Waage, nicht an einzelnen Tagen. Ein halbes Kilo pro Woche ist ein gutes, haltbares Tempo. Alles, was deutlich schneller verspricht, kostet meist Muskeln und kommt zurück.",
+      },
+      {
+        title: "Krafttraining schützt, was du behalten willst",
+        body: "Ohne Krafttraining verlierst du beim Abnehmen nicht nur Fett, sondern auch Muskulatur, und genau die hält deinen Verbrauch oben. Zwei Einheiten pro Woche reichen: bei dir zu Hause mit dem Material, das ich mitbringe, im Studio an der Hantel oder draußen im Nippeser Tälchen mit dem eigenen Körpergewicht. Der Plan folgt deiner Woche, nicht umgekehrt, und wird alle paar Wochen an die Zahlen angepasst, die du tatsächlich lieferst.",
+      },
+      {
+        title: "Das Veedel ist dein Schrittzähler",
+        body: "Nippes ist dicht gebaut, und das ist beim Abnehmen ein Vorteil: Bäcker, Schule, Bahn, fast alles liegt in Gehweite. Wer die täglichen Wege zu Fuß macht und abends eine Runde durchs Nippeser Tälchen oder den Johannes-Giesberts-Park dranhängt, verbrennt Woche für Woche spürbar Energie, ohne dass es sich nach Sport anfühlt. Diese Alltagsschritte sind im Plan fest eingebaut, weil sie das Defizit tragen, wenn mal eine Trainingseinheit ausfällt.",
+      },
+      {
+        title: "Die Ernährungsseite übernimmt Natalie",
+        body: "Beim Essen musst du in Nippes nichts erfinden, nur entscheiden. Natalie, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, legt mit dir Kalorienziel und Eiweißmenge fest und baut daraus einen Wochenplan, der zu deinem Alltag passt, Kaffee im Veedel inklusive. Sie ist im Online Coaching ab 150€ im Monat enthalten. Medizinische Ernährungsfragen gehören nicht zu ihrem Bereich, das sagen wir dir im kostenlosen Erstgespräch offen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wie schnell kann ich in Köln-Nippes abnehmen?",
+        a: "Realistisch sind etwa ein halbes Kilo pro Woche im Schnitt. Das klingt unspektakulär, summiert sich aber in drei Monaten auf fünf bis sechs Kilo, die bleiben, weil Muskeln und Alltag mitspielen.",
+      },
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Nippes?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Trainingsplan, Natalies Ernährungssteuerung und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich ein Fitnessstudio?",
+        a: "Nein. Krafttraining funktioniert auch zu Hause mit Kurzhanteln und Bändern, die ich mitbringe, oder draußen im Tälchen. Wer gern an Geräte will, kombiniert Termine im Studio dazu.",
+      },
+      {
+        q: "Reicht Joggen allein zum Abnehmen?",
+        a: "Joggen verbrennt Kalorien, schützt aber die Muskulatur kaum. Die Kombination wirkt: Krafttraining für den Erhalt, Schritte und Läufe für den Verbrauch, Ernährung für das Defizit.",
+      },
+      {
+        q: "Muss ich auf Essen im Veedel verzichten?",
+        a: "Nein. Natalie plant das echte Leben ein, vom Marktbesuch bis zum Essen mit Freunden. Ein Plan, der Verbote stapelt, hält zwei Wochen; einer mit Budget hält Monate.",
+      },
+    ],
+  },
+
+  "bocklemuend-mengenich/personal-training": {
+    answer:
+      "Personal Training in Köln-Bocklemünd/Mengenich: ich komme zu dir nach Hause oder wir trainieren draußen auf den Feldwegen Richtung Widdersdorf. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos und unverbindlich.",
+    metaDescription:
+      "Personal Training in Köln-Bocklemünd/Mengenich: 1-zu-1 bei dir zu Hause oder draußen am Feldrand, Termine passend zu Linie 3 und 4. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Zwei Ortsteile, ein kurzer Weg zum Training",
+        body: "Bocklemünd/Mengenich ist das einzige Kölner Veedel mit Doppelnamen: zwei alte Ortskerne, dazwischen die Siedlungen der Nachkriegszeit, zusammen 10.629 Einwohner auf knapp fünf Quadratkilometern am Westrand des Bezirks Ehrenfeld. Ein Fitnessangebot vor Ort gibt es kaum, also drehe ich die Richtung um: das Training kommt zu dir. Kurzhanteln, Widerstandsbänder und das übrige Material bringe ich mit, ein freies Stück Wohnzimmer, Keller oder Garten reicht für ein vollständiges Programm.",
+      },
+      {
+        title: "Hinter der letzten Häuserreihe beginnt das Feld",
+        body: "Der größte Trainingsvorteil des Veedels liegt direkt am Ortsrand: Richtung Widdersdorf öffnet sich die Feldflur mit ruhigen, flachen Wegen, auf denen wir Läufe, Intervalle und Zirkel mit dem eigenen Körpergewicht aufbauen, ohne Ampeln und ohne Publikum. Für viele ist genau das der Unterschied: kein Studio, in dem man sich beobachtet fühlt, sondern frische Luft und ein Programm, das nur für dich geschrieben ist.",
+      },
+      {
+        title: "Termine, die zu Linie 3 und 4 passen",
+        body: "Mit dem Görlinger-Zentrum und Bocklemünd enden hier gleich zwei Stadtbahnlinien, entsprechend viele im Veedel pendeln täglich stadteinwärts. Nach Feierabend plus Rückfahrt noch einmal loszufahren, ist der Punkt, an dem die meisten Vorsätze reißen. Deshalb liegt das Training vor deiner Haustür und richtet sich nach deiner Woche, auch früh morgens oder am Vormittag. Die WDR-Studios im Veedel kennen ohnehin keine Bürozeiten: wer in Produktion oder Technik arbeitet, bekommt Termine im Schichtrhythmus.",
+      },
+      {
+        title: "Was es kostet und wie du startest",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, Ernährungssteuerung durch Natalie und wöchentlichen Check-ins beginnt bei 150€ im Monat. Der Einstieg ist immer ein kostenloses Erstgespräch über Ziel, Alltag und Trainingsort. Danach folgt ein Technik-Check, und nach den ersten Wochen schauen wir gemeinsam auf die Zahlen: Gewicht, Kraftwerte, Umfänge. Was sich nicht bewegt, wird im Plan geändert.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Bocklemünd/Mengenich?",
+        a: "50€ pro 1-zu-1 Stunde, Online Coaching ab 150€ im Monat, Erstgespräch kostenlos. Geräte brauchst du keine, das Material bringe ich mit.",
+      },
+      {
+        q: "Wo trainieren wir im Veedel?",
+        a: "Meistens bei dir zu Hause oder auf den Feldwegen Richtung Widdersdorf. Wer schweres Langhanteltraining will, nimmt Termine im Studio dazu, gut erreichbar über Linie 3 oder 4.",
+      },
+      {
+        q: "Ich habe noch nie mit einem Trainer gearbeitet. Wie läuft der Anfang?",
+        a: "Mit einem kostenlosen Erstgespräch und einem Technik-Check. Du brauchst keine Vorerfahrung, der Plan startet auf deinem Stand und wächst mit dir mit.",
+      },
+      {
+        q: "Geht Training auch im Schichtdienst?",
+        a: "Ja. Termine lege ich auch in Vormittag oder frühen Nachmittag, und der Plan rechnet mit wechselnden Wochen, damit eine Spätschicht nicht den Monat kippt.",
+      },
+    ],
+  },
+
+  "suerth/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Sürth heißt gezieltes Krafttraining für Rumpf, Hüfte und Rücken, bei dir zu Hause oder im Studio, plus tägliches Gehen am Wasser. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos. Bei akuten Schmerzen gehört der erste Weg zum Arzt, nicht zu mir.",
+    metaDescription:
+      "Rückentraining in Köln-Sürth: Kraft für Rumpf und Rücken statt nur Dehnen, zu Hause oder im Studio, Gehen am Rhein als Baustein. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Der Rücken meldet sich selten beim Sport, meist am Schreibtisch",
+        body: "Die typische Sürther Rücken-Geschichte beginnt nicht an der Hantel, sondern im Sitzen: morgens Bahn oder Auto, acht Stunden Büro, abends Sofa. Kein einzelner Tag davon ist schlimm, aber die Summe macht den Rücken schwach und empfindlich. Die Antwort ist nicht mehr Schonung, sondern mehr Belastbarkeit: ein Rücken, der regelmäßig hebt, zieht und trägt, steckt auch lange Sitztage weg. Genau diese Belastbarkeit bauen wir Schritt für Schritt auf.",
+      },
+      {
+        title: "Heben, Ziehen, Tragen: das Programm",
+        body: "Im Zentrum stehen die Bewegungen, die ein Rücken im Leben braucht: Hüftbeugen und Hebe-Varianten für die rückseitige Kette, Zugübungen für den oberen Rücken, Rumpfarbeit gegen das Einknicken und Trageübungen, die alles verbinden. Die Last steigt langsam und kontrolliert, von Bändern und Kurzhanteln zu Hause bis zur Langhantel im Studio, wenn du so weit bist. Reines Dehnen und Massagerollen fühlen sich gut an, verändern aber wenig: stärker werden schon.",
+      },
+      {
+        title: "Das Wasser liegt vor der Tür, nutz es",
+        body: "Zwischen den Einheiten braucht ein Rücken vor allem Bewegung mit niedriger Last, und dafür hat Sürth den Rhein. Eine halbe Stunde zügiges Gehen am Ufer, als fester Abendtermin statt als gelegentlicher Vorsatz, hält die Strukturen locker und den Kopf frei. Im Plan steht das als eigener Baustein neben den zwei Kraftterminen pro Woche, nicht als Deko. Wer mag, macht daraus mit der Zeit lockere Läufe.",
+      },
+      {
+        title: "Ehrlich vorweg: Training ersetzt keinen Arzt",
+        body: "Ich arbeite mit Menschen, deren Rücken unspezifisch zwickt oder schlicht zu schwach geworden ist, nicht mit akuten Krankheitsbildern. Bei starken, ausstrahlenden oder plötzlichen Schmerzen klärst du das zuerst ärztlich ab; mit einer Freigabe steige ich danach gern ein. Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App beginnt bei 150€ im Monat, und am Anfang steht immer das kostenlose Erstgespräch über deine Vorgeschichte und dein Ziel.",
+      },
+    ],
+    faq: [
+      {
+        q: "Hilft Krafttraining wirklich gegen Rückenschmerzen?",
+        a: "Bei unspezifischen Beschwerden ist ein stärkerer, belastbarer Rücken der Weg mit der besten Erfolgsbilanz. Ein Heilversprechen gebe ich dir nicht, und akute Schmerzen gehören zuerst zum Arzt.",
+      },
+      {
+        q: "Was kostet Rückentraining in Köln-Sürth?",
+        a: "50€ pro 1-zu-1 Stunde, Online Coaching ab 150€ im Monat, Erstgespräch kostenlos. Material für das Training zu Hause bringe ich mit.",
+      },
+      {
+        q: "Ich hatte einen Bandscheibenvorfall. Kann ich trainieren?",
+        a: "Nur mit ärztlicher Freigabe. Danach bauen wir langsam und kontrolliert auf, mit Übungen, die zu deinem Befund passen, und ohne Ehrgeiz an der falschen Stelle.",
+      },
+      {
+        q: "Wie lange dauert es, bis ich etwas merke?",
+        a: "Viele spüren nach vier bis sechs Wochen, dass Sitzen und Heben leichter fallen. Messbar wird es über Kraftwerte und darüber, wie oft sich der Rücken überhaupt noch meldet.",
+      },
+      {
+        q: "Muss ich dafür ins Studio?",
+        a: "Nein. Der Einstieg funktioniert zu Hause mit Bändern und Kurzhanteln. Das Studio lohnt sich später, wenn schwerere Zug- und Hebeübungen dran sind.",
+      },
+    ],
+  },
+
+  "lind/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Lind: Antritte und Tempoläufe auf den geraden Feldwegen Richtung Libur, Stabilität auf den weichen Pfaden am Heiderand, Kraft und Sprungkraft im Studio. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Lind: Tempo auf den Feldwegen Richtung Libur, Stabilität am Rand der Wahner Heide, Kraft im Studio. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Ein Dorf mit freier Bahn",
+        body: "Lind hat sich seinen dörflichen Zuschnitt bewahrt: ruhige Straßen, kaum Durchgangsverkehr, und nach wenigen Minuten zu Fuß stehst du im Offenen. Für Athletiktraining ist das Gold wert, denn das Aufwärmen beginnt an deiner Haustür statt auf einem Parkplatz. Südlich des Ortes liegt die freie Feldflur Richtung Libur, östlich die Heide: zwei Untergründe mit völlig verschiedenen Reizen, beide ohne Anfahrt erreichbar.",
+      },
+      {
+        title: "Die Feldwege Richtung Libur sind deine Laufbahn",
+        body: "Zwischen Lind und Libur ziehen sich gerade, flache Wirtschaftswege durch die Felder. Dort arbeiten wir an Tempo: Antritte zwischen 20 und 60 Metern, Steigerungsläufe, Intervalle mit sauber gemessenen Abschnitten. Weil die Strecke eben bleibt und sich nichts in den Weg stellt, sind deine Zeiten von Woche zu Woche vergleichbar. Der offene Wind über den Feldern ist dabei kein Störfaktor, sondern ein ehrlicher Widerstand, der sich nicht wegdiskutieren lässt.",
+      },
+      {
+        title: "Weicher Boden für die Füße, Hanteln für den Rest",
+        body: "Am östlichen Ortsrand übernimmt die Wahner Heide den zweiten Part: Auf nachgiebigem, unebenem Boden arbeiten Fußgelenke, Knie und Hüfte bei jedem Schritt mit, dort trainieren wir Lauf-ABC, Richtungswechsel und Kraftausdauer. Was draußen nicht wächst, holen wir im Studio: Maximalkraft und Sprungkraft an der Langhantel, mit Werten, die wir notieren und vergleichen. Alle vier bis sechs Wochen steht ein Re-Test, und der Plan folgt den Ergebnissen, nicht der Gewohnheit.",
+      },
+      {
+        title: "Für wen sich das in Lind lohnt",
+        body: "Die typischen Anfragen kommen von Vereinssportlern aus Porz und dem Umland, die im Fußball, Handball oder Tennis den Unterschied in Antritt und Stabilität suchen, von Läufern mit Zeitzielen und von Wiedereinsteigern, die es diesmal strukturiert angehen wollen. Ein Wettkampfkalender ist keine Voraussetzung. Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App beginnt bei 150€ im Monat, und los geht es mit dem kostenlosen Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Lind?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir in Lind?",
+        a: "Tempo und Antritte auf den Feldwegen Richtung Libur, Stabilität und Lauf-ABC am Rand der Wahner Heide, Kraft und Sprungkraft im Studio. Die Mischung richtet sich nach deinem Ziel.",
+      },
+      {
+        q: "Ich spiele im Verein. Ersetzt das mein Mannschaftstraining?",
+        a: "Nein, es ergänzt es. Das Mannschaftstraining übt den Sport, das Athletiktraining baut die körperliche Basis: Antritt, Sprungkraft, Stabilität, Belastbarkeit gegen Verletzungen.",
+      },
+      {
+        q: "Wie merke ich, dass es wirkt?",
+        a: "An Zahlen: Sprintzeiten auf vermessener Strecke, Sprunghöhe, Kraftwerte. Alle vier bis sechs Wochen wird nachgemessen, und der Plan ändert sich, wenn die Werte stehen bleiben.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
