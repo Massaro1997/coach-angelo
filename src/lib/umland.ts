@@ -125,6 +125,118 @@ export const umlandOrte: UmlandOrt[] = [
     links: [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
+      { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
+    ],
+  },
+  {
+    slug: "bergisch-gladbach",
+    name: "Bergisch Gladbach",
+    kreis: "Rheinisch-Bergischer Kreis",
+    metaTitle: "Personal Trainer Bergisch Gladbach: 1-zu-1 vor Ort",
+    metaDescription:
+      "Personal Training in Bergisch Gladbach: 1-zu-1 bei dir zu Hause oder draußen im Königsforst und Strundetal. 50€/Std, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Du suchst einen Personal Trainer in Bergisch Gladbach? Ich trainiere dich 1-zu-1 bei dir zu Hause, im Garten oder draußen, vom Königsforst bis zum Strundetal. Die Stunde kostet 50€, das Erstgespräch ist kostenlos und unverbindlich.",
+    sections: [
+      {
+        title: "Training dort, wo das Bergische anfängt",
+        body: "Bergisch Gladbach ist mit rund 111.000 Einwohnern die größte Stadt des Rheinisch-Bergischen Kreises, und sie hat etwas, das Köln fehlt: Höhenmeter. Die Hügel Richtung Herkenrath und Moitzfeld machen aus jedem Lauf ein ehrliches Ausdauertraining, ohne dass du dir Steigungen künstlich bauen musst. Ich plane deine Einheiten so, dass das Gelände für dich arbeitet: bergauf für Kraftausdauer und Tempo, flach im Tal für Technik und lockere Kilometer.",
+      },
+      {
+        title: "Königsforst, Strundetal, Saaler Mühle",
+        body: "Für das Training draußen ist die Auswahl groß. Im Süden liegt der Königsforst mit breiten, ruhigen Waldwegen zwischen Bensberg und Refrath. Durch die Stadt zieht sich das Strundetal mit seinem Wanderweg entlang des Bachs, gut für Läufe mit leichtem Profil. Und an der Saaler Mühle in Bensberg trainieren wir rund um den See, mit Platz für Zirkel und Intervalle. Wenn du lieber drinnen bleibst, komme ich mit dem Material zu dir nach Hause.",
+      },
+      {
+        title: "Für Pendler gebaut",
+        body: "Viele aus Bergisch Gladbach arbeiten in Köln und sitzen morgens in der S11 oder auf der A4. Nach dem Arbeitstag noch in ein Kölner Studio zu fahren hält kaum jemand durch, und genau daran scheitern die meisten Trainingspläne. Darum drehe ich es um: das Training findet vor deiner Haustür statt, zu Zeiten, die zu deinem Tag passen, früh bevor du pendelst oder abends, wenn du zurück bist. Den Plan dazwischen hältst du mit kurzen Einheiten, die du allein schaffst.",
+      },
+      {
+        title: "Kosten und erster Schritt",
+        body: "Eine 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Trainingsplan per App, wöchentlichen Check-ins und Ernährungssteuerung durch Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, beginnt bei 150€ im Monat. Am Anfang steht ein kostenloses Erstgespräch: wir sprechen über dein Ziel, deinen Alltag und den Trainingsort, und auch die Anfahrt klären wir dort. Du entscheidest danach ohne Druck.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Bergisch Gladbach?",
+        a: "Die 1-zu-1 Stunde kostet bei mir 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, dort klären wir auch die Anfahrt nach Bergisch Gladbach.",
+      },
+      {
+        q: "Wo trainieren wir in Bergisch Gladbach?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material oder draußen: im Königsforst, im Strundetal oder an der Saaler Mühle in Bensberg. Was passt, hängt von deinem Ziel und deinem Wohnort ab.",
+      },
+      {
+        q: "Betreust du auch Bensberg, Refrath und Schildgen?",
+        a: "Ja, das Angebot gilt im ganzen Stadtgebiet, von Schildgen und Paffrath über Gronau und Hand bis Bensberg, Refrath und Herkenrath. Sag mir im Erstgespräch, wo du wohnst.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Ist das ein Problem?",
+        a: "Nein, das ist der häufigste Fall. Wir starten mit einer Bestandsaufnahme und bauen die Belastung langsam auf. Du musst für den Einstieg nichts können und nichts besitzen, das Material bringe ich mit.",
+      },
+      {
+        q: "Geht auch Training im Studio?",
+        a: "Ja. Wer schweres Langhanteltraining will, kombiniert Einheiten vor Ort mit Terminen im Studio in Köln. Über die A4 oder mit der S11 bist du aus Bergisch Gladbach schnell dort.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
+      { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
+    ],
+  },
+  {
+    slug: "troisdorf",
+    name: "Troisdorf",
+    kreis: "Rhein-Sieg-Kreis",
+    metaTitle: "Personal Trainer Troisdorf: 1-zu-1 bei dir vor Ort",
+    metaDescription:
+      "Personal Training in Troisdorf: 1-zu-1 zu Hause oder draußen, in der Wahner Heide oder an der Sieg. 50€/Std, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Troisdorf, ohne Fahrt nach Köln oder Bonn: ich komme zu dir und wir trainieren zu Hause oder draußen, in der Wahner Heide oder an der Sieg. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Die größte Stadt im Rhein-Sieg-Kreis, ohne eigenes Personal-Training-Angebot? Nicht mehr",
+        body: "Rund 75.000 Menschen leben in Troisdorf, zwischen Köln und Bonn, und wer hier individuelles Training sucht, landet schnell bei Studios in einer der beiden Großstädte. Dabei liegt das beste Trainingsgelände direkt vor der Tür. Ich trainiere dich dort, wo dein Alltag stattfindet: in deiner Wohnung, im Garten oder draußen im Grünen, von Spich bis Bergheim, von Sieglar bis Altenrath.",
+      },
+      {
+        title: "Wahner Heide und Siegaue als Trainingsgelände",
+        body: "Die Wahner Heide am Westrand von Troisdorf gehört zu den artenreichsten Naturschutzgebieten in Nordrhein-Westfalen, und ihre sandigen Wege sind ein unterschätztes Trainingsgerät: weicher Boden, der Fußgelenke und Hüfte mehr fordert als Asphalt. Am Portal Burg Wissem starten wir direkt hinein. Flacher und schneller läuft es sich in der Siegaue, auf den Wegen am Fluss Richtung Bergheim und zur Siegmündung in den Rhein. Beides zusammen deckt alles ab, von Grundlagenausdauer bis Intervalle.",
+      },
+      {
+        title: "Zwischen zwei Städten, aber mit festem Termin",
+        body: "Troisdorf ist Pendlerstadt in beide Richtungen, mit der S-Bahn bist du schnell in Köln oder Bonn. Das Problem ist selten die Motivation, sondern der Kalender: Schichten, Dienstreisen, Familie. Deshalb arbeite ich mit festen, aber verschiebbaren Terminen und einem Plan, der Ausfälle einkalkuliert, statt an ihnen zu zerbrechen. In vollen Wochen übernimmt das Online Coaching: Plan per App, kurzer Check-in, weiter geht es.",
+      },
+      {
+        title: "Was es kostet und wie du startest",
+        body: "Die Preise sind dieselben wie in Köln: 50€ für die 1-zu-1 Stunde, Online Coaching ab 150€ im Monat, inklusive Ernährungssteuerung durch Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Der Einstieg ist immer ein kostenloses, unverbindliches Erstgespräch. Dort klären wir Ziel, Trainingsort und die Anfahrt nach Troisdorf, und du bekommst eine ehrliche Einschätzung, was in welcher Zeit realistisch ist.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Troisdorf?",
+        a: "50€ für die 1-zu-1 Stunde, Online Coaching ab 150€ im Monat. Das Erstgespräch kostet nichts, und dort klären wir auch die Anfahrt zu dir nach Troisdorf.",
+      },
+      {
+        q: "Wo trainieren wir in Troisdorf?",
+        a: "Bei dir zu Hause, im Garten oder draußen: in der Wahner Heide ab Portal Burg Wissem oder in der Siegaue Richtung Bergheim. Das Material bringe ich mit.",
+      },
+      {
+        q: "Deckst du alle Troisdorfer Stadtteile ab?",
+        a: "Ja, von Troisdorf-Mitte über Spich, Sieglar und Oberlar bis Bergheim, Eschmar und Altenrath. Wo wir uns treffen, legen wir im Erstgespräch fest.",
+      },
+      {
+        q: "Ich pendle nach Köln. Kann ich auch dort trainieren?",
+        a: "Ja. Viele kombinieren Einheiten in Troisdorf mit Terminen im Studio in Köln, zum Beispiel direkt nach der Arbeit. Der Plan bleibt derselbe, nur der Ort wechselt.",
+      },
+      {
+        q: "Funktioniert das auch nur online?",
+        a: "Ja, komplett ortsunabhängig: Trainingsplan per App, wöchentliche Video-Check-ins, Ernährungssteuerung. Ab 150€ im Monat, und du kannst jederzeit einzelne 1-zu-1 Stunden dazunehmen.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
     ],
   },
 ];

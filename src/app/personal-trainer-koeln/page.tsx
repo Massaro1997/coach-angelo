@@ -193,6 +193,14 @@ export default function PersonalTrainerKoeln() {
               wohne ich selbst, und auch in{" "}
               <Link href="/personal-trainer-leverkusen" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
                 Leverkusen
+              </Link>
+              ,{" "}
+              <Link href="/personal-trainer-bergisch-gladbach" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Bergisch Gladbach
+              </Link>{" "}
+              und{" "}
+              <Link href="/personal-trainer-troisdorf" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Troisdorf
               </Link>{" "}
               trainiere ich 1-zu-1 bei dir zu Hause oder draußen.
             </p>

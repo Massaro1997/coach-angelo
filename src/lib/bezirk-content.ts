@@ -149,6 +149,12 @@ export const bezirke: Bezirk[] = [
     ],
     outdoorIntro:
       "Wahner Heide, Groov Zündorf, Rheinufer von Poll bis Langel: Porz trainiert am Wasser und in der Heide.",
+    umland: {
+      before: "Auf der anderen Seite der Wahner Heide geht es weiter: als ",
+      linkName: "Personal Trainer in Troisdorf",
+      href: "/personal-trainer-troisdorf",
+      after: " trainiere ich auch die größte Stadt des Rhein-Sieg-Kreises, zu Hause oder draußen an der Sieg.",
+    },
     faq: [
       {
         q: "Funktioniert dein Coaching im Schichtdienst?",
@@ -169,6 +175,12 @@ export const bezirke: Bezirk[] = [
     ],
     outdoorIntro:
       "Königsforst, Merheimer Heide, Bürgerpark Kalk: der Osten hat Wald, Wiese und Platz zum Arbeiten.",
+    umland: {
+      before: "Durch den Königsforst hindurch liegt die nächste Stadt: als ",
+      linkName: "Personal Trainer in Bergisch Gladbach",
+      href: "/personal-trainer-bergisch-gladbach",
+      after: " komme ich auch dorthin, von Refrath bis Schildgen.",
+    },
     faq: [
       {
         q: "Ich bin absoluter Anfänger und traue mich nicht ins Studio. Was tun?",
