@@ -132,6 +132,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Monheim am Rhein", href: "/personal-trainer-monheim-am-rhein" },
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
       { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
+      { name: "Personal Trainer Leichlingen", href: "/personal-trainer-leichlingen" },
     ],
   },
   {
@@ -246,6 +247,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
       { name: "Personal Trainer Niederkassel", href: "/personal-trainer-niederkassel" },
       { name: "Personal Trainer Rösrath", href: "/personal-trainer-roesrath" },
+      { name: "Personal Trainer Lohmar", href: "/personal-trainer-lohmar" },
     ],
   },
   {
@@ -647,6 +649,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Monheim am Rhein", href: "/personal-trainer-monheim-am-rhein" },
       { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
+      { name: "Personal Trainer Leichlingen", href: "/personal-trainer-leichlingen" },
     ],
   },
   {
@@ -932,6 +935,121 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
       { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
       { name: "Personal Trainer Köln-Rath/Heumar", href: "/koeln/rath-heumar" },
+      { name: "Personal Trainer Lohmar", href: "/personal-trainer-lohmar" },
+    ],
+  },
+  {
+    slug: "lohmar",
+    name: "Lohmar",
+    kreis: "Rhein-Sieg-Kreis",
+    metaTitle: "Personal Trainer Lohmar: 1-zu-1 im Aggertal",
+    metaDescription:
+      "Personal Training in Lohmar: 1-zu-1 bei dir zu Hause, draußen an der Agger oder im Lohmarer Wald. 50€/Std, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Lohmar heißt bei mir: Ich komme zu dir, vom Hauptort bis Wahlscheid, mit Kurzhanteln und Bändern für die Kraftarbeit, und für alles andere nutzen wir die Wege an der Agger und den Lohmarer Wald. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Eine Stadt zwischen Fluss und Wald",
+        body: "Rund 30.000 Menschen leben in Lohmar, verteilt auf viele Ortsteile zwischen Agger und Höhenrücken. Genau diese Lage macht das Training einfach: Der Aggertalradweg bietet flache, gut messbare Strecken für Intervalle und Grundlagenläufe, der Lohmarer Wald im Westen Steigungen und weiche Böden für Kraftausdauer und Bergauf-Antritte. Du musst für keinen Trainingsreiz in die Stadt fahren, beides liegt vor deiner Haustür.",
+      },
+      {
+        title: "Kein Bahnhof, kein Problem",
+        body: "Lohmar hat keinen eigenen Bahnanschluss, gependelt wird mit dem Auto über die A3 nach Köln oder mit dem Bus nach Siegburg zum Zug. Wer abends von dort zurückkommt, fährt an jedem Fitnessstudio der Stadt vorbei und steigt zu Hause aus. Deshalb drehe ich es um: Das Training findet dort statt, wo dein Tag endet. Ich bringe das Material mit, ein paar Quadratmeter im Wohnzimmer, in der Garage oder im Garten reichen für eine vollständige Krafteinheit.",
+      },
+      {
+        title: "Von Birk bis Scheiderhöhe: das ganze Stadtgebiet",
+        body: "Lohmar ist weitläufig, und ich plane die Termine so, dass sie für deinen Ortsteil funktionieren, ob Hauptort, Donrath, Birk, Scheiderhöhe oder Wahlscheid oben im Aggertal. Wer zusätzlich schwer an der Langhantel arbeiten will, kombiniert die Einheiten vor Ort mit dem Studio in Köln. Viele machen das einmal pro Woche und trainieren den Rest zu Hause oder draußen.",
+      },
+      {
+        title: "Was es kostet und wie es anfängt",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, Ernährungssteuerung durch Natalie und wöchentlichem Check-in beginnt bei 150€ im Monat. Am Anfang steht ein kostenloses Erstgespräch: Ziel, Ausgangslage, Trainingsort, und auch die Anfahrt nach Lohmar klären wir dort. Danach entscheidest du ohne Druck, ob wir zusammenarbeiten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Lohmar?",
+        a: "Bei mir kostet die 1-zu-1 Stunde 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, die Anfahrt klären wir dort.",
+      },
+      {
+        q: "Wo trainieren wir in Lohmar?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, draußen an der Agger oder im Lohmarer Wald. Für schweres Gerätetraining steht das Studio in Köln bereit, viele kombinieren beides.",
+      },
+      {
+        q: "Kommst du auch nach Wahlscheid oder Birk?",
+        a: "Ja, das Angebot gilt im ganzen Stadtgebiet, von Donrath über Birk und Scheiderhöhe bis Wahlscheid. Sag im Erstgespräch, wo du wohnst, dann planen wir Termine und Trainingsort passend.",
+      },
+      {
+        q: "Ich pendle jeden Tag nach Köln. Wann soll ich trainieren?",
+        a: "Vor der Arbeit, am frühen Abend direkt nach der Rückfahrt oder am Wochenende. Zwei feste Termine pro Woche reichen, wenn sie geplant sind. Das Online Coaching überbrückt Wochen, in denen kein Termin passt.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Geht das trotzdem?",
+        a: "Ja. Wir starten mit einem Check von Beweglichkeit, Kraft und Belastbarkeit und bauen von dort auf. Gesteigert wird erst, wenn die Technik sitzt, nicht nach Kalender.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
+      { name: "Personal Trainer Rösrath", href: "/personal-trainer-roesrath" },
+      { name: "Personal Trainer Niederkassel", href: "/personal-trainer-niederkassel" },
+    ],
+  },
+  {
+    slug: "leichlingen",
+    name: "Leichlingen",
+    kreis: "Rheinisch-Bergischer Kreis",
+    metaTitle: "Personal Trainer Leichlingen: 1-zu-1 an der Wupper",
+    metaDescription:
+      "Personal Training in Leichlingen: 1-zu-1 bei dir zu Hause oder draußen an der Wupper und in Witzhelden. 50€/Std, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in der Blütenstadt Leichlingen: Ich trainiere dich 1-zu-1 bei dir zu Hause, an der Wupper mitten im Ort oder auf den Höhenwegen rund um Witzhelden. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Die Wupper fließt mitten durchs Trainingsgebiet",
+        body: "Leichlingen nennt sich Blütenstadt, und wer hier wohnt, kennt den Grund: Obstwiesen, die Wupper mitten im Ort, ringsum das Bergische Land. Fürs Training heißt das kurze Wege zu sehr unterschiedlichem Gelände. Die Uferwege an der Wupper sind flach und gut für Intervalle und Technikläufe, die Hänge Richtung Witzhelden liefern Steigungen, die jede Kraftausdauer-Einheit ersetzen. Rund 28.000 Menschen wohnen hier, und kaum einer braucht mehr als ein paar Minuten bis zur nächsten Laufstrecke.",
+      },
+      {
+        title: "Unten im Tal, oben auf der Höhe: ich komme zu dir",
+        body: "Zwischen dem Zentrum an der Wupper und Witzhelden oben auf dem Höhenrücken liegen gut hundert Höhenmeter. Fürs Training spielt das keine Rolle: Ich komme mit Kurzhanteln, Bändern und Plan zu dir, egal ob du unten in der Stadt oder oben im Dorf wohnst. Ein Wohnzimmer, eine Garage oder der Garten reichen für eine vollständige Krafteinheit. Wer schwer an der Langhantel arbeiten will, fährt mit der RB 48 oder über die A3 zum Studio nach Köln.",
+      },
+      {
+        title: "Training für Pendler nach Köln, Leverkusen und Solingen",
+        body: "Leichlingen liegt zwischen drei Arbeitsmärkten: Viele pendeln nach Köln oder Leverkusen, andere nach Solingen. Der Tag ist durch Fahrzeiten zerschnitten, und der Sport fällt als Erstes raus. Deshalb baue ich das Training in die Lücken, die dein Kalender wirklich hat: früh vor der Bahn, direkt nach der Rückfahrt oder am Wochenende. Zwei feste Termine pro Woche, dokumentierte Gewichte, messbare Schritte. Das Online Coaching hält die Wochen zusammen, in denen nichts anderes passt.",
+      },
+      {
+        title: "Kosten, Ablauf, erster Schritt",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App, Ernährungssteuerung durch Natalie und wöchentlichem Check-in beginnt bei 150€ im Monat. Los geht es mit einem kostenlosen Erstgespräch über Ziel, Alltag und Trainingsort, dort klären wir auch die Anfahrt nach Leichlingen. Danach entscheidest du in Ruhe.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Leichlingen?",
+        a: "Die 1-zu-1 Stunde kostet bei mir 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, die Anfahrt klären wir dort.",
+      },
+      {
+        q: "Trainierst du auch in Witzhelden?",
+        a: "Ja, das ganze Stadtgebiet, vom Zentrum an der Wupper bis Witzhelden auf der Höhe. Ich bringe das Material mit, du brauchst keine eigenen Geräte.",
+      },
+      {
+        q: "Wo trainieren wir draußen in Leichlingen?",
+        a: "An den Uferwegen der Wupper für flache Läufe und Intervalle, an den Steigungen Richtung Witzhelden für Bergauf-Arbeit. Den Mix lege ich nach deinem Ziel und der Jahreszeit fest.",
+      },
+      {
+        q: "Ich pendle mit der RB 48 nach Köln. Lässt sich das kombinieren?",
+        a: "Ja. Manche Kunden trainieren direkt nach der Rückfahrt zu Hause, andere steigen einmal pro Woche in Köln aus und trainieren mit mir im Studio, bevor es weiter nach Hause geht.",
+      },
+      {
+        q: "Für wen ist das Training gedacht?",
+        a: "Für Berufstätige mit vollen Wochen, Eltern, die den Sport in den Familienalltag schieben müssen, und Wiedereinsteiger, die nach Jahren Pause sauber aufbauen wollen. Das Niveau legt der Check am Anfang fest.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
+      { name: "Personal Trainer Langenfeld", href: "/personal-trainer-langenfeld" },
+      { name: "Personal Trainer Monheim am Rhein", href: "/personal-trainer-monheim-am-rhein" },
     ],
   },
 ];
