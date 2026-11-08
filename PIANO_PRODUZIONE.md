@@ -36,8 +36,20 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 28 | /koeln/poll/personal-training | 0 | 22 | 32,2 | FATTA (giro 12, 08/11) |
 | 29 | /koeln/deutz/ernaehrungsberatung | 1 | 21 | 8,9 | FATTA (giro 12, 08/11) |
 | 30 | /koeln/muelheim/ernaehrungsberatung | 1 | 21 | 53,8 | FATTA (giro 12, 08/11) |
+| 31 | /koeln/braunsfeld/personal-training | 3 | 20 | 22,9 | FATTA (giro 13, 08/11) |
+| 32 | /koeln/neubrueck/rueckentraining | 0 | 19 | 13,1 | FATTA (giro 13, 08/11) |
+| 33 | /koeln/ehrenfeld/ernaehrungsberatung | 0 | 18 | 10,6 | in coda |
+| 34 | /koeln/suerth/abnehmen | 0 | 18 | 16,6 | in coda |
+| 35 | /koeln/deutz/rueckentraining | 0 | 17 | 8,2 | in coda (pos già buona: rafforzare, non stravolgere) |
+| 36 | /koeln/merheim/abnehmen | 0 | 17 | 12,4 | in coda |
+| 37 | /koeln/muelheim/muskelaufbau | 0 | 17 | 30,5 | in coda |
+| 38 | /koeln/suelz/athletiktraining | 0 | 17 | 45,9 | in coda |
+| 39 | /koeln/lind/ernaehrungsberatung | 0 | 17 | 75,3 | in coda |
+| 40 | /koeln/vogelsang/athletiktraining | 0 | 17 | 63,9 | in coda |
+| 41 | /koeln/heimersdorf/muskelaufbau | 0 | 16 | 9,1 | in coda (pos già buona: rafforzare) |
+| 42 | /koeln/suerth/athletiktraining | 0 | 16 | 34,5 | in coda |
 
-Prossime della coda (dal riaggiornamento GSC da fare al giro 13 con la query a 90gg sulle due proprietà): le pagine intent successive per impressioni dopo le prime 30, tutte lavorate.
+Righe 31-42 entrate l'8/11/2026 (giro 13) col riaggiornamento GSC (query page 90gg, somma due proprietà; 338 pagine intent con almeno 1 impressione).
 
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
 
