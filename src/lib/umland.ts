@@ -188,6 +188,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
       { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
+      { name: "Personal Trainer Rösrath", href: "/personal-trainer-roesrath" },
     ],
   },
   {
@@ -244,6 +245,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
       { name: "Personal Trainer Niederkassel", href: "/personal-trainer-niederkassel" },
+      { name: "Personal Trainer Rösrath", href: "/personal-trainer-roesrath" },
     ],
   },
   {
@@ -529,6 +531,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Hürth", href: "/personal-trainer-huerth" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
       { name: "Personal Trainer Bergheim", href: "/personal-trainer-bergheim" },
+      { name: "Personal Trainer Wesseling", href: "/personal-trainer-wesseling" },
     ],
   },
   {
@@ -815,6 +818,120 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
       { name: "Personal Trainer Köln-Porz", href: "/koeln/porz" },
+    ],
+  },
+  {
+    slug: "wesseling",
+    name: "Wesseling",
+    kreis: "Rhein-Erft-Kreis",
+    metaTitle: "Personal Trainer Wesseling: 1-zu-1 am Rhein",
+    metaDescription:
+      "Personal Training in Wesseling: 1-zu-1 bei dir zu Hause oder am Rheinufer, Termine auch für Schichtarbeiter. 50€/Std, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Wesseling läuft bei mir dort, wo du wohnst: bei dir zu Hause mit mitgebrachtem Material oder draußen am Rheinufer. Termine gibt es auch vormittags, was in einer Schichtstadt wie Wesseling oft den Unterschied macht. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Eine Stadt, die nicht im Feierabendtakt lebt",
+        body: "Rund 36.000 Menschen leben in Wesseling, und ein großer Teil davon arbeitet in den Werken entlang des Rheins im Wechselschichtbetrieb. Ein Trainingsplan, der nur Dienstag und Donnerstag um 18 Uhr kennt, scheitert hier an der Realität. Deshalb plane ich mit dir um deinen Schichtplan herum: Frühschicht-Wochen trainieren nachmittags, Nachtschicht-Wochen bekommen kürzere Einheiten mit mehr Erholung. Der Plan folgt deinem Dienstplan, nicht umgekehrt.",
+      },
+      {
+        title: "Das Rheinufer als Trainingsstrecke",
+        body: "Wesseling liegt direkt am Strom, und die Uferwege zwischen Urfeld und der Stadtmitte sind flach und gut zu laufen: ideal für Intervalle, zügige Geherholungen zwischen Kraftsätzen und Technikarbeit beim Laufen. Wer es grüner mag, weicht auf die Wege am Entenfang zwischen Berzdorf und Keldenich aus. Für schweres Langhanteltraining fährst du mit der Linie 16 ins Studio nach Köln, die Bahn hält viermal im Stadtgebiet.",
+      },
+      {
+        title: "Training zu Hause, in Berzdorf genauso wie in Urfeld",
+        body: "Der Normalfall in Wesseling ist das Training bei dir: Ich bringe Kurzhanteln, Widerstandsbänder und das übrige Material mit, ein paar freie Quadratmeter reichen. Das gilt für alle vier Stadtteile, Wesseling-Mitte, Berzdorf, Keldenich und Urfeld. So fällt die Fahrt ins Fitnessstudio weg, die nach einer Zwölf-Stunden-Schicht ohnehin niemand mehr antritt.",
+      },
+      {
+        title: "Kosten und erster Schritt",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App und wöchentlichen Check-ins beginnt bei 150€ im Monat. Für die Ernährung arbeitet Natalie mit, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, was gerade bei Schichtarbeit viel ausmacht. Am Anfang steht ein kostenloses Erstgespräch: Ziel, Alltag, Trainingsort, Anfahrt. Danach entscheidest du.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Wesseling?",
+        a: "Die 1-zu-1 Stunde kostet bei mir 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, dort klären wir auch die Anfahrt nach Wesseling.",
+      },
+      {
+        q: "Ich arbeite Wechselschicht. Wie soll da regelmäßiges Training gehen?",
+        a: "Indem der Plan um den Schichtplan gebaut wird. Wir legen die Termine wochenweise fest, und in Nachtschicht-Wochen reduziere ich Umfang und Intensität, statt Einheiten ausfallen zu lassen. So bleibt der Faden über Monate erhalten.",
+      },
+      {
+        q: "Wo trainieren wir in Wesseling?",
+        a: "Meist bei dir zu Hause mit mitgebrachtem Material oder draußen am Rheinufer. Wer zusätzlich an die Langhantel will, kombiniert das mit dem Studio in Köln, mit der Linie 16 direkt erreichbar.",
+      },
+      {
+        q: "Gilt das Angebot auch in Berzdorf, Keldenich und Urfeld?",
+        a: "Ja, im ganzen Stadtgebiet. Sag mir im Erstgespräch, wo du wohnst, dann legen wir Trainingsort und Termine danach fest.",
+      },
+      {
+        q: "Hilfst du auch bei der Ernährung?",
+        a: "Ja. Den Ernährungsteil übernimmt Natalie, Ernährungsberaterin für Sport- und Fitnessernährung. Bei Schichtarbeit planen wir die Mahlzeiten über die 24 Stunden deines Dienstes, nicht über den Kalendertag.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Brühl", href: "/personal-trainer-bruehl" },
+      { name: "Personal Trainer Niederkassel", href: "/personal-trainer-niederkassel" },
+      { name: "Personal Trainer Köln-Sürth", href: "/koeln/suerth" },
+    ],
+  },
+  {
+    slug: "roesrath",
+    name: "Rösrath",
+    kreis: "Rheinisch-Bergischer Kreis",
+    metaTitle: "Personal Trainer Rösrath: 1-zu-1 am Königsforst",
+    metaDescription:
+      "Personal Training in Rösrath: 1-zu-1 bei dir zu Hause oder draußen im Königsforst und Sülztal. 50€/Std, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Rösrath nutzt, was die Stadt ohnehin vor der Tür hat: den Königsforst für Läufe und Outdoor-Einheiten, das Sülztal für ruhige Strecken, dein Wohnzimmer für die Kraftarbeit mit mitgebrachtem Material. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Wohnen am Wald, trainieren im Wald",
+        body: "Knapp 30.000 Menschen leben in Rösrath, viele genau deshalb: Der Königsforst beginnt an der Stadtgrenze, die Wahner Heide liegt im Süden. Wer hier wohnt, hat Trainingsgelände, für das Kölner quer durch die Stadt fahren. Die breiten, flachen Forstwege im Königsforst sind perfekt für Intervalle und lange Grundlagenläufe, die Sülzwiesen bei Hoffnungsthal für Zirkel mit dem eigenen Körpergewicht. Ich lege die Einheiten dorthin, wo du sie allein fortsetzen kannst.",
+      },
+      {
+        title: "Von Hoffnungsthal bis Forsbach: ich komme zu dir",
+        body: "Rösrath zieht sich durchs Sülztal, und nicht jeder wohnt nah am Zentrum. Deshalb komme ich für die Einheiten zu dir, nach Hoffnungsthal, Forsbach, Kleineichen oder in den Hauptort, mit Kurzhanteln, Bändern und allem, was eine vollständige Krafteinheit braucht. Wer zusätzlich schwer an der Langhantel arbeiten will, nimmt die RB 25 nach Köln und trainiert mit mir im Studio, die Bahn hält dreimal im Stadtgebiet.",
+      },
+      {
+        title: "Für Pendler gebaut",
+        body: "Viele Rösrather arbeiten in Köln und sitzen morgens und abends in der RB 25 oder auf der A3. Nach dem Arbeitstag noch ein Fitnessstudio in der Stadt anzusteuern, hält kaum jemand durch. Das Training vor der eigenen Haustür dreht das um: kein zusätzlicher Weg, feste Termine, und an vollen Tagen ersetzt eine kurze geführte Einheit im Wald die ausgefallene Studiostunde. Das Online Coaching hält die Wochen zusammen, in denen gar kein Termin passt.",
+      },
+      {
+        title: "Was es kostet",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App, Ernährungssteuerung durch Natalie und wöchentlichem Check-in beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos und unverbindlich: Dort schauen wir auf dein Ziel, deinen Alltag und den passenden Trainingsort, und auch die Anfahrt nach Rösrath klären wir da. Mehr musst du vorher nicht entscheiden.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Rösrath?",
+        a: "Bei mir kostet die 1-zu-1 Stunde 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, die Anfahrt klären wir dort.",
+      },
+      {
+        q: "Wo trainieren wir in Rösrath?",
+        a: "Draußen im Königsforst oder an der Sülz, bei dir zu Hause mit mitgebrachtem Material, oder beides im Wechsel. Für schweres Gerätetraining kombinieren viele die Einheiten vor Ort mit dem Studio in Köln.",
+      },
+      {
+        q: "Ist Training im Wald nicht nur Joggen?",
+        a: "Nein. Die Forstwege nutze ich für Intervalle und Tempoarbeit, Bänke, Steigungen und das eigene Körpergewicht für Kraft und Stabilität. Mit Bändern und Kurzhanteln wird daraus eine vollständige Einheit, die du nach ein paar Wochen auch allein durchziehen kannst.",
+      },
+      {
+        q: "Betreust du auch Hoffnungsthal, Forsbach und Kleineichen?",
+        a: "Ja, das ganze Stadtgebiet. Sag im Erstgespräch, wo du wohnst, dann planen wir Trainingsort und Termine passend, vom Sülztal bis zum Waldrand in Forsbach.",
+      },
+      {
+        q: "Ich bin lange raus aus dem Sport. Wo fangen wir an?",
+        a: "Mit einem Check am Anfang: Beweglichkeit, Kraft, Belastbarkeit. Danach starten wir dort, wo du wirklich stehst, meist mit zwei ruhigen Einheiten pro Woche. Gesteigert wird erst, wenn die Grundlagen sitzen.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
+      { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
+      { name: "Personal Trainer Köln-Rath/Heumar", href: "/koeln/rath-heumar" },
     ],
   },
 ];
