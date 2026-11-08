@@ -1164,6 +1164,194 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "holweide/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Holweide heißt bei uns: Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, plant dein Essen so, dass es auch Spät- und Nachtdienste übersteht, komplett online. Sie ist im Online Coaching ab 150€ im Monat enthalten, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Holweide mit Natalie: Essensplan, der Spät- und Nachtdienste übersteht, Eiweißziel über 24 Stunden statt pro Tag. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel, in dem viele essen müssen, wann der Dienstplan es erlaubt",
+        body: "In Holweide leben 21.001 Menschen, und mit dem Krankenhaus Holweide steht einer der großen Arbeitgeber des Kölner Ostens mitten im Veedel. Wer in Pflege, Praxis oder Rettungsdienst arbeitet, kennt das Problem jeder klassischen Ernährungsberatung: der Plan geht von drei Mahlzeiten am Tag aus, der Dienstplan nicht. Natalie baut deshalb andersherum: erst dein echter Wochenrhythmus mit Früh-, Spät- und Nachtdiensten, dann die Mahlzeiten, die hineinpassen.",
+      },
+      {
+        title: "In der Nachtschicht zählt nicht der Tag, sondern die 24 Stunden",
+        body: "Nach einer Nacht im Dienst ist der Montag kein Montag mehr, und genau da scheitern Apps und Standardpläne. Natalie rechnet Kalorien- und Eiweißziel über 24 Stunden statt über den Kalendertag: eine warme Hauptmahlzeit vor dem Dienst, etwas Planbares für die Pause um drei Uhr nachts, und nach dem Schlafen kein schlechtes Gewissen, sondern die nächste normale Mahlzeit. So entsteht ein Wochenschnitt, der stimmt, auch wenn kein Tag dem anderen gleicht.",
+      },
+      {
+        title: "Essen, das den Kühlschrank am Automaten ersetzt",
+        body: "Nachts um drei gewinnt sonst immer der Automat im Flur. Der Plan hält dagegen, mit Mahlzeiten, die sich am Vortag in zehn Minuten vorbereiten lassen und kalt oder aufgewärmt funktionieren. Dazu kommt ein Eiweißziel, das du ohne Kochmarathon erreichst, und eine Einkaufsliste für die Woche, damit zu Hause da ist, was der Plan braucht. Verbote gibt es keine: auch das Stück Kuchen im Pausenraum ist eingeplant statt verdrängt.",
+      },
+      {
+        title: "Online-Beratung, Training nach Wunsch dazu",
+        body: "Die Beratung läuft per Video und App, du brauchst also keinen Praxistermin, der sich mit dem Dienstplan beißt. Enthalten ist sie im Online Coaching ab 150€ im Monat, zusammen mit meinem Trainingsplan und wöchentlichen Check-ins. Wer in Holweide zusätzlich 1-zu-1 trainieren will, nimmt Stunden zu 50€ dazu, zu Hause oder draußen, etwa in der angrenzenden Merheimer Heide. Der Einstieg ist ein kostenloses Erstgespräch mit Natalie und mir.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Holweide?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit Trainingsplan per App und wöchentlichen Check-ins. Für das Erstgespräch zahlst du nichts.",
+      },
+      {
+        q: "Ich arbeite in Wechselschicht am Krankenhaus. Funktioniert ein Ernährungsplan überhaupt?",
+        a: "Ja, wenn er dafür gebaut ist. Natalie plant über 24 Stunden statt über den Kalendertag und legt die Mahlzeiten um deine Dienste. Gemessen wird am Wochenschnitt, nicht am einzelnen Tag.",
+      },
+      {
+        q: "Wer macht die Beratung?",
+        a: "Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Sie betreut die Ernährungsseite, ich das Training, und beide Pläne greifen ineinander.",
+      },
+      {
+        q: "Muss ich dafür irgendwo hinfahren?",
+        a: "Nein, die Beratung läuft komplett online per Video und App. Gerade bei wechselnden Diensten ist das der Punkt, der sie durchhaltbar macht.",
+      },
+      {
+        q: "Hilft Natalie auch bei medizinischen Ernährungsthemen?",
+        a: "Nein. Ihr Bereich ist Sport- und Fitnessernährung für gesunde Erwachsene. Alles Medizinische gehört in ärztliche Hände, und das sagen wir dir im Erstgespräch offen.",
+      },
+    ],
+  },
+
+  "poll/personal-training": {
+    answer:
+      "Personal Training in Köln-Poll: 1-zu-1 bei dir zu Hause in Alt-Poll, draußen auf den Poller Wiesen oder im Studio, mit Plan und festen Terminen. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Poll: 1-zu-1 zu Hause, auf den Poller Wiesen oder im Studio, Termine die zur Pendlerwoche passen. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Poll ist näher an deinem Feierabend als jedes Studio",
+        body: "11.184 Menschen leben in Poll, viele davon arbeiten gleich nebenan in Deutz oder auf der anderen Rheinseite in der Innenstadt. Auf dem Papier ist der Weg ins Fitnessstudio kurz, in der Praxis kommt er nach Büro, Bahn und Einkauf trotzdem selten noch zustande. Deshalb drehe ich die Richtung um: das Training wartet bei dir in Poll, wenn du nach Hause kommst. Fester Termin, Material bringe ich mit, und nach 60 Minuten ist der Abend wieder deiner.",
+      },
+      {
+        title: "Wiesen, Rheinufer, Wohnzimmer: drei Orte, ein Plan",
+        body: "Mit den Poller Wiesen liegt eine der größten freien Flächen Kölns direkt vor deiner Tür: dort machen wir Technik-Arbeit, Zirkel und die Ausdauerbausteine, mit Blick auf den Dom statt auf einen Bildschirm. Das Rheinufer Richtung Südbrücke liefert die flache Laufstrecke dazu. Und an nassen Tagen reicht dein Wohnzimmer: Kurzhanteln, Bänder und Übungsauswahl passen sich dem Platz an, die Progression läuft weiter wie geplant.",
+      },
+      {
+        title: "Krafttraining als Fundament, dein Ziel als Richtung",
+        body: "Ob du abnehmen willst, Muskeln aufbauen oder nach Jahren Schreibtisch einfach wieder belastbar werden: wir starten mit einem Technik-Check der Grundmuster, Kniebeuge, Heben, Drücken, Ziehen. Danach stehen meist zwei Einheiten pro Woche mit sauberer Steigerung über Last, Wiederholungen und Tempo. Jede Einheit wird notiert. Alle vier bis sechs Wochen vergleichen wir Kraftwerte, Umfänge und Wochengewicht, und der Plan wird an das angepasst, was die Zahlen sagen.",
+      },
+      {
+        title: "Was es kostet und wie es anfängt",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, Ernährungssteuerung durch Natalie und wöchentlichen Check-ins beginnt bei 150€ im Monat. Viele in Poll kombinieren beides: zwei betreute Einheiten im Monat, dazwischen der Plan aus der App. Den Anfang macht ein kostenloses Erstgespräch über Ziel, Woche und Trainingsort, telefonisch oder per Video. Danach entscheidest du, ob es passt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Poll?",
+        a: "50€ für die 1-zu-1 Stunde, Online Coaching ab 150€ im Monat. Das Erstgespräch kostet nichts und verpflichtet zu nichts.",
+      },
+      {
+        q: "Wo trainieren wir in Poll?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, draußen auf den Poller Wiesen und am Rheinufer, oder im Studio, wenn du an die Langhantel willst. Den Mix legen wir nach deinem Ziel fest.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Ist 1-zu-1 nicht zu viel?",
+        a: "Im Gegenteil, genau dafür ist es da: die Last beginnt dort, wo du heute stehst, und steigt erst, wenn die Technik sitzt. Niemand schaut zu, niemand wartet aufs Gerät.",
+      },
+      {
+        q: "Wie viele Einheiten pro Woche brauche ich?",
+        a: "Zwei geführte Einheiten reichen für sichtbaren Fortschritt, wenn sie geplant sind. Für die Tage dazwischen bekommst du kurze Programme von 15 bis 20 Minuten ohne Geräte.",
+      },
+      {
+        q: "Geht auch Ernährungsberatung dazu?",
+        a: "Ja. Im Online Coaching übernimmt Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, die Ernährungsseite: Kalorienziel, Wochenplan und Check-ins, komplett online.",
+      },
+    ],
+  },
+
+  "deutz/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Deutz heißt bei uns: Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, bringt Struktur in Bürotage zwischen Messe, Bahnhof und Mittagsimbiss, komplett online. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Deutz mit Natalie: klare Regeln für Kantine, Mittagsimbiss und Bürotage, Kalorien- und Eiweißziel aufs Training abgestimmt. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In Deutz wird mittags entschieden, nicht abends",
+        body: "Deutz ist mit Messe, Bahnhof und den Büros rund um den Rheinboulevard einer der großen Arbeitsorte der Stadt, und genau das prägt das Essverhalten: gefrühstückt wird schnell, die Hauptentscheidung fällt mittags zwischen Kantine, Imbiss und Bäcker. Standardpläne mit frisch gekochtem Mittagessen gehen daran vorbei. Natalie setzt deshalb genau dort an, wo dein Tag wirklich stattfindet: mit klaren, einfachen Regeln für das Essen unterwegs statt mit Rezepten, die ein Homeoffice voraussetzen.",
+      },
+      {
+        title: "Kantine und Imbiss sind kein Problem, fehlende Regeln sind eins",
+        body: "Du musst in Deutz nicht mit der Tupperdose zur Arbeit, damit ein Plan funktioniert. Natalie gibt dir für die üblichen Optionen feste Entscheidungsregeln an die Hand: welche Kombination in der Kantine dein Eiweißziel trifft, was beim Bäcker die bessere Wahl ist, wie ein Messetag mit Catering nicht automatisch zum Ausnahmetag wird. Die Regeln sind bewusst wenige, dafür überall anwendbar, auch in Wochen voller Termine.",
+      },
+      {
+        title: "Ein Ziel in Zahlen, kontrolliert im Wochenschnitt",
+        body: "Am Anfang stehen dein Kalorienziel und die Eiweißmenge, abgestimmt auf Training und Ziel, ob Abnehmen oder Muskelaufbau. Danach zählt der Trend: Gewicht im Wochenschnitt, Umfänge, alle paar Wochen der Blick auf die Zahlen und die Anpassung. Ein einzelnes Geschäftsessen kippt dabei nichts, es ist eingerechnet. Was verschwindet, ist das Pendeln zwischen strenger Woche und verlorenem Wochenende, das die meisten Versuche in Bürovierteln scheitern lässt.",
+      },
+      {
+        title: "Beratung per Video, Bewegung direkt vor der Tür",
+        body: "Die Beratung läuft online, per Video-Gespräch und App, und passt damit auch in eine Mittagspause im Büro. Sie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit meinem Trainingsplan und wöchentlichen Check-ins. Wer das Training 1-zu-1 dazunehmen will, hat in Deutz kurze Wege: Einheiten im Rheinpark, am Rheinboulevard oder bei dir zu Hause, die Stunde zu 50€. Der erste Schritt ist ein kostenloses Erstgespräch mit uns beiden.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Deutz?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich esse mittags fast immer auswärts. Lässt sich damit arbeiten?",
+        a: "Ja, das ist in Deutz der Normalfall. Natalie baut den Plan um Kantine, Imbiss und Bäcker herum, mit festen Entscheidungsregeln statt Kochpflicht.",
+      },
+      {
+        q: "Wer berät mich?",
+        a: "Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Training und Ernährung kommen so aus einer Hand: sie steuert das Essen, ich das Training.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Die ersten zwei Wochen zeigen meist Bewegung auf der Waage, belastbar wird der Trend nach vier bis sechs Wochen im Wochenschnitt. Dann wird nachjustiert, nicht vorher.",
+      },
+      {
+        q: "Macht ihr auch Ernährungstherapie bei Erkrankungen?",
+        a: "Nein. Natalies Schwerpunkt ist Sport- und Fitnessernährung für gesunde Erwachsene. Medizinische Fragen gehören in ärztliche Hände, das sagen wir im Erstgespräch klar.",
+      },
+    ],
+  },
+
+  "muelheim/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Mülheim heißt bei uns: Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, baut dir einen Plan, in den auch der Abend auf der Keupstraße hineinpasst, komplett online. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Mülheim mit Natalie: Plan mit Budget für Keupstraße und Familienessen, Eiweißziel aufs Training abgestimmt, online. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Mülheim isst gut, und das soll so bleiben",
+        body: "43.296 Menschen leben in Mülheim, und kaum ein Veedel hat mehr Esskultur auf der Straße: die Keupstraße mit ihren Restaurants und Bäckereien, die Lokale rund um den Wiener Platz, dazu Familientische, an denen niemand nach Kalorien fragt. Eine Beratung, die hier mit Verbotslisten anrückt, verliert in der ersten Woche. Natalie arbeitet deshalb mit einem Budget statt mit Verboten: das Essen im Veedel bleibt, es bekommt nur einen festen Platz im Wochenplan.",
+      },
+      {
+        title: "Auswärts essen mit Plan statt mit schlechtem Gewissen",
+        body: "Der Kern ist ein Kalorien- und Eiweißziel, das zu deinem Training passt, und eine einfache Logik für den Restauranttisch: Eiweiß zuerst, Beilagen nach Ziel, und der Rest der Woche fängt den Abend auf. So übersteht der Plan ein Essen auf der Keupstraße genauso wie das Familienfest am Sonntag. Gemessen wird am Wochenschnitt auf der Waage und an den Umfängen, nicht am einzelnen Tag, und alle paar Wochen stellt Natalie anhand der Zahlen nach.",
+      },
+      {
+        title: "Gekocht wird einmal, nicht doppelt",
+        body: "Viele Anfragen aus Mülheim kommen aus Haushalten, in denen mehrere Generationen oder Geschmäcker am selben Tisch sitzen. Das zweite Kochen nur für den eigenen Plan hält niemand durch, also plant Natalie andersherum: ein Gericht für alle, deine Portion und deine Eiweißquelle angepasst, dazu eine Einkaufsliste, die zum Wochenmarkt am Wiener Platz genauso passt wie zum Supermarkt. Entschieden wird beim Planen, nicht abends vor dem offenen Kühlschrank.",
+      },
+      {
+        title: "Online-Beratung, Training auf Wunsch dazu",
+        body: "Die Beratung läuft per Video und App und ist Teil des Online Coachings ab 150€ im Monat, zusammen mit meinem Trainingsplan und wöchentlichen Check-ins. Wer auf der Schäl Sick auch 1-zu-1 trainieren will, nimmt Stunden zu 50€ dazu: zu Hause, im Studio oder draußen am Rheinufer in Mülheim. Der Einstieg ist ein kostenloses Erstgespräch, in dem du Natalie und mich kennenlernst und wir deinen Alltag durchgehen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Mülheim?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit Trainingsplan per App und wöchentlichen Check-ins. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Muss ich auf das Essen auf der Keupstraße verzichten?",
+        a: "Nein. Der Plan arbeitet mit einem Budget: das Essen im Veedel ist eingeplant, nicht verboten. Entscheidend ist der Wochenschnitt, nicht der einzelne Abend.",
+      },
+      {
+        q: "Wer macht die Beratung bei FitPrimo?",
+        a: "Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Sie steuert die Ernährung, ich als Trainer das Training, abgestimmt aufeinander.",
+      },
+      {
+        q: "Ich koche für die ganze Familie. Brauche ich einen Extraplan?",
+        a: "Nein, das wäre der Fehler. Natalie plant ein Gericht für alle und passt nur deine Portion und deine Eiweißquelle an. So hält der Plan auch nach Wochen noch.",
+      },
+      {
+        q: "Behandelt ihr auch Unverträglichkeiten oder Diabetes?",
+        a: "Nein. Natalies Bereich ist Sport- und Fitnessernährung für gesunde Erwachsene. Medizinische Ernährungsfragen gehören in ärztliche Betreuung, das sagen wir dir offen.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
