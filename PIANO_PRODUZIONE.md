@@ -32,10 +32,12 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 24 | /koeln/bayenthal/rueckentraining | 0 | 24 | 43,8 | FATTA (giro 11, 08/11) |
 | 25 | /koeln/widdersdorf/athletiktraining | 0 | 24 | 49,8 | FATTA (giro 11, 08/11) |
 | 26 | /koeln/porz/ernaehrungsberatung | 0 | 26 | 9,8 | FATTA (giro 11, 08/11; entrata in coda l'8/11 col riaggiornamento GSC) |
-| 27 | /koeln/holweide/ernaehrungsberatung | 0 | 22 | 52,0 | in coda |
-| 28 | /koeln/poll/personal-training | 0 | 22 | 32,2 | in coda |
-| 29 | /koeln/deutz/ernaehrungsberatung | 1 | 21 | 8,9 | in coda |
-| 30 | /koeln/muelheim/ernaehrungsberatung | 1 | 21 | 53,8 | in coda |
+| 27 | /koeln/holweide/ernaehrungsberatung | 0 | 22 | 52,0 | FATTA (giro 12, 08/11) |
+| 28 | /koeln/poll/personal-training | 0 | 22 | 32,2 | FATTA (giro 12, 08/11) |
+| 29 | /koeln/deutz/ernaehrungsberatung | 1 | 21 | 8,9 | FATTA (giro 12, 08/11) |
+| 30 | /koeln/muelheim/ernaehrungsberatung | 1 | 21 | 53,8 | FATTA (giro 12, 08/11) |
+
+Prossime della coda (dal riaggiornamento GSC da fare al giro 13 con la query a 90gg sulle due proprietà): le pagine intent successive per impressioni dopo le prime 30, tutte lavorate.
 
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
 
@@ -51,8 +53,8 @@ Confermate da Calogero il 06/11/2026 («i comuni intorno a Colonia falli tutti»
 - Rheinisch-Bergischer Kreis: **Bergisch Gladbach FATTA (giro 7, 07/11)** · Rösrath · Overath · Odenthal · Burscheid · Leichlingen
 - **Leverkusen FATTA (giro 6, 06/11)**
 - Rhein-Kreis Neuss: **Dormagen FATTA (giro 8, 07/11)**
-- Kreis Mettmann: **Langenfeld FATTA (giro 11, 08/11)** · Monheim am Rhein
-- Rhein-Sieg-Kreis: **Troisdorf FATTA (giro 7, 07/11)** · Niederkassel · Lohmar
+- Kreis Mettmann: **Langenfeld FATTA (giro 11, 08/11)** · **Monheim am Rhein FATTA (giro 12, 08/11)**
+- Rhein-Sieg-Kreis: **Troisdorf FATTA (giro 7, 07/11)** · **Niederkassel FATTA (giro 12, 08/11)** · Lohmar
 
 Meccanismo (creato al giro 6, 06/11): dati e testi in `src/lib/umland.ts` (una voce per comune, tutto il testo è lì), render condiviso in `src/components/UmlandSeite.tsx`, route sottile in `src/app/personal-trainer-<comune>/page.tsx`, sitemap automatica da `umlandOrte`. Per un comune nuovo: voce in umland.ts + route di 25 righe + link in entrata da 2 pagine indicizzate (blocco Umland su /personal-trainer-koeln e/o campo `umland` del bezirk confinante in `bezirk-content.ts`). Nota ordine: DataForSEO senza credenziali in `.env.local` (06/11), quindi dopo Frechen l'ordine segue la popolazione come proxy del volume: Leverkusen (~163k, fatta) → Bergisch Gladbach (~111k, fatta) → Troisdorf (~75k, fatta) → Kerpen (~66k, fatta) → Dormagen (~65k, fatta) → Hürth (~60k, fatta) → Pulheim (~56k, fatta) → Brühl (~47k, fatta) → Bergheim (~62k, fatta) → Langenfeld (~59k, fatta) → Erftstadt (~49k, fatta) → Monheim am Rhein (~41k) → Niederkassel (~38k) → Wesseling (~36k) → Rösrath (~33k) → Overath (~27k) → Lohmar (~30k) → Leichlingen (~28k) → Burscheid (~19k) → Odenthal (~15k); se le credenziali arrivano, si torna ai volumi veri.
 
