@@ -1352,6 +1352,99 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "braunsfeld/personal-training": {
+    answer:
+      "Personal Training in Köln-Braunsfeld, geplant um deinen Arbeitstag: 1-zu-1 Einheiten vor oder nach dem Büro, bei dir zu Hause, im Studio oder draußen Richtung Stadtwald. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Braunsfeld: 1-zu-1 vor oder nach der Arbeit, zu Hause, im Studio oder am Stadtwald. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Viertel, das arbeitet und wohnt",
+        body: "Braunsfeld hat zwei Gesichter: 12.362 Menschen wohnen hier auf 1,69 km², und tagsüber kommen die Beschäftigten aus den Büros rund um den TechnologiePark an der Eupener Straße dazu. Für beide Gruppen scheitert Training selten am Willen, sondern am Übergang: zwischen Feierabend und Abendessen ist kein Platz für eine Fahrt quer durch die Stadt. Deshalb lege ich die Einheiten dorthin, wo dein Tag ohnehin stattfindet, an die Wohnung oder ans Büro, als festen Termin mit Puffer statt als guten Vorsatz.",
+      },
+      {
+        title: "Stadtwald vor der Tür, Langhantel im Studio",
+        body: "Wenige Minuten südlich von Braunsfeld beginnt der Stadtwald, mit dem Lindenthaler Tierpark und Wegen, die lang genug für richtige Laufeinheiten sind. Dorthin verlege ich im Sommer Intervalle, Technikarbeit und Zirkel mit dem eigenen Körpergewicht. Die Kraftarbeit läuft drinnen: bei dir zu Hause mit mitgebrachten Kurzhanteln und Bändern oder im Studio an der Langhantel. Über die Aachener Straße mit der Linie 1 bist du schnell unterwegs, auch ohne Auto.",
+      },
+      {
+        title: "Dein Plan rechnet mit vollen Wochen",
+        body: "Die typische Braunsfelder Anfrage kommt von Berufstätigen zwischen 35 und 55: Verantwortung im Job, wenig Zeit, oft Jahre seit dem letzten regelmäßigen Sport. Dafür baue ich Pläne, die mit zwei geführten Stunden pro Woche auskommen und Dienstreisen überleben: kurze Ersatzeinheiten für das Hotelzimmer, klare Prioritäten, welche Einheit in einer vollen Woche zuerst fällt und welche nie. Fortschritt wird gemessen, an Kraftwerten und Wiederholungen, nicht am Gefühl nach einem guten Tag.",
+      },
+      {
+        title: "Kosten und Einstieg in Braunsfeld",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App und wöchentlichem Check-in beginnt bei 150€ im Monat; für die Ernährung arbeitet Natalie mit, Ernährungsberaterin für Sport- und Fitnessernährung. Der Einstieg ist ein kostenloses Erstgespräch, gern in deiner Mittagspause: Ziel, Zeitbudget, Trainingsort. Danach entscheidest du ohne Druck.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Braunsfeld?",
+        a: "50€ pro 1-zu-1 Stunde, Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Kannst du vor der Arbeit trainieren?",
+        a: "Ja. Frühtermine ab 6:30 Uhr sind in Braunsfeld gefragt und machbar, bei dir zu Hause oder draußen. Nach 60 Minuten sitzt du geduscht am Schreibtisch.",
+      },
+      {
+        q: "Wo trainieren wir in Braunsfeld?",
+        a: "Je nach Ziel: Kraft bei dir zu Hause oder im Studio, Ausdauer und Zirkel im Stadtwald ein paar Minuten südlich. Viele kombinieren beides in einer Woche.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Bin ich hier richtig?",
+        a: "Genau dafür ist 1-zu-1 Training da. Wir starten mit einem Check von Beweglichkeit und Kraft und bauen von dort auf, ohne Vergleich mit anderen und ohne Studio-Publikum.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche?",
+        a: "Für die meisten Ziele ja, wenn sie geplant sind und du dich zwischen den Terminen etwas bewegst. Mehr Volumen bauen wir erst ein, wenn zwei Einheiten stabil im Kalender stehen.",
+      },
+    ],
+  },
+
+  "neubrueck/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Neubrück: zweimal pro Woche Kraftaufbau für Rumpf, Hüfte und hintere Kette, bei dir zu Hause in der Siedlung, dazu der Königsforst direkt vor der Tür für den Bewegungsausgleich. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos. Akute oder ausstrahlende Schmerzen klärt zuerst ein Arzt.",
+    metaDescription:
+      "Rückentraining in Köln-Neubrück: Kraft für Rumpf und hintere Kette, Training zu Hause, Ausgleich im Königsforst nebenan. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Neubrück sitzt im Auto und im Büro",
+        body: "Neubrück ist als Siedlung der 1960er Jahre geplant worden: 8.342 Menschen auf gut einem Quadratkilometer, viel Grün zwischen den Wohnzeilen, und fast alles Weitere liegt außerhalb. Wer hier wohnt, pendelt, oft mit dem Auto über die A3 oder die Olpener Straße, und verbringt den Tag sitzend. Autositz plus Bürostuhl plus Sofa ergibt zehn bis zwölf Stunden in derselben gebeugten Haltung, und der untere Rücken ist meist die Stelle, die zuerst protestiert.",
+      },
+      {
+        title: "Die Hüfte trainieren, nicht nur den Rücken",
+        body: "Bei Vielsitzern aus dem Autopendel-Alltag arbeite ich stärker an Hüfte und hinterer Kette als am Rücken selbst: verkürzte Hüftbeuger und schwaches Gesäß zwingen die Lendenwirbelsäule in Arbeit, für die sie nicht gebaut ist. Im Training heißt das Hüftstrecken unter Last, Beinrückseite kräftigen, Rumpf gegen Rotation stabilisieren. Das geht vollständig bei dir zu Hause, mit Material, das ich mitbringe, ein freier Platz im Wohnzimmer reicht.",
+      },
+      {
+        title: "Der Königsforst ist dein Ausgleichsprogramm",
+        body: "Neubrück hat einen Vorteil, den kaum ein Kölner Veedel bietet: Am östlichen Rand beginnt der Königsforst, einer der größten Wälder der Stadt, mit breiten, ebenen Wegen auf weichem Boden. Zwischen den beiden Krafteinheiten gehört er fest in deinen Plan, zügiges Gehen, 30 bis 40 Minuten, bei jedem Wetter. Diese einfache, regelmäßige Bewegung nimmt dem Sitztag mehr Druck vom Rücken als jede einzelne Übung, und du musst dafür nicht einmal die Straße überqueren.",
+      },
+      {
+        title: "Ablauf, Grenzen, Kosten",
+        body: "Vor dem ersten Training steht ein kostenloses Gespräch über Vorgeschichte, Alltag und Ziel. Plötzliche, heftige oder ins Bein ausstrahlende Schmerzen gehören zuerst zum Arzt; mit Freigabe trainieren wir danach gezielt weiter und wählen die Übungen nach Befund. Die 1-zu-1 Stunde kostet 50€, die Begleitung per App mit Plan und wöchentlichem Check-in beginnt bei 150€ im Monat. Die meisten spüren nach einigen Wochen, dass der Arbeitstag weniger nachhängt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Neubrück?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Online-Begleitung mit Plan per App ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich dafür in ein Studio fahren?",
+        a: "Nein. In Neubrück trainiere ich fast alle Kunden zu Hause, das Material bringe ich mit. Wer später mehr Last will, kann Einheiten im Studio in Köln ergänzen, muss aber nicht.",
+      },
+      {
+        q: "Ich sitze täglich über eine Stunde im Auto. Was bringt Training dagegen?",
+        a: "Viel, wenn es die richtigen Stellen trifft: Hüftbeuger lang, Gesäß und Beinrückseite stark, Rumpf stabil. Dazu regelmäßiges zügiges Gehen im Königsforst. Die Kombination entlastet die Lendenwirbelsäule spürbar.",
+      },
+      {
+        q: "Reicht Spazierengehen im Königsforst nicht aus?",
+        a: "Gehen ist der beste Ausgleich, baut aber keine Kraft auf. Ein Rücken, der lange Sitztage wegstecken soll, braucht beides: zwei Krafteinheiten pro Woche und dazwischen die Bewegung im Wald.",
+      },
+      {
+        q: "Wie schnell lassen die Beschwerden nach?",
+        a: "Unspezifische Beschwerden vom Sitzen bessern sich oft innerhalb von vier bis acht Wochen regelmäßigen Trainings. Ein Versprechen gibt es nicht; gemessen wird der Fortschritt über Kraftwerte und darüber, wie sich lange Tage anfühlen.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
