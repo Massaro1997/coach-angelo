@@ -229,10 +229,18 @@ export default function PersonalTrainerKoeln() {
               ,{" "}
               <Link href="/personal-trainer-langenfeld" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
                 Langenfeld
-              </Link>{" "}
-              und{" "}
+              </Link>
+              ,{" "}
               <Link href="/personal-trainer-erftstadt" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
                 Erftstadt
+              </Link>
+              ,{" "}
+              <Link href="/personal-trainer-monheim-am-rhein" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Monheim am Rhein
+              </Link>{" "}
+              und{" "}
+              <Link href="/personal-trainer-niederkassel" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                Niederkassel
               </Link>{" "}
               trainiere ich 1-zu-1 bei dir zu Hause oder draußen.
             </p>

@@ -129,6 +129,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
       { name: "Personal Trainer Langenfeld", href: "/personal-trainer-langenfeld" },
+      { name: "Personal Trainer Monheim am Rhein", href: "/personal-trainer-monheim-am-rhein" },
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
       { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
     ],
@@ -242,6 +243,7 @@ export const umlandOrte: UmlandOrt[] = [
     links: [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
+      { name: "Personal Trainer Niederkassel", href: "/personal-trainer-niederkassel" },
     ],
   },
   {
@@ -639,6 +641,7 @@ export const umlandOrte: UmlandOrt[] = [
     links: [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
+      { name: "Personal Trainer Monheim am Rhein", href: "/personal-trainer-monheim-am-rhein" },
       { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
     ],
@@ -699,6 +702,119 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Kerpen", href: "/personal-trainer-kerpen" },
       { name: "Personal Trainer Brühl", href: "/personal-trainer-bruehl" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
+    ],
+  },
+  {
+    slug: "monheim-am-rhein",
+    name: "Monheim am Rhein",
+    kreis: "Kreis Mettmann",
+    metaTitle: "Personal Trainer Monheim am Rhein: 1-zu-1",
+    metaDescription:
+      "Personal Training in Monheim am Rhein: 1-zu-1 bei dir zu Hause oder draußen auf den Deichwegen am Rheinbogen, in Monheim und Baumberg. 50€/Std, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Monheim am Rhein hat keinen eigenen Bahnhof, und genau deshalb kommt bei mir das Training zu dir: 1-zu-1 bei dir zu Hause oder draußen auf den Deichwegen am Rheinbogen, in Monheim genauso wie in Baumberg. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Ohne Bahnhof ist der Heimweg die beste Trainingsadresse",
+        body: "Gut 40.000 Menschen leben in Monheim am Rhein, aber wer von hier zum Sport pendeln will, braucht erst den Bus oder das Auto: eine eigene Bahnstation gibt es nicht, die nächste S-Bahn hält im Nachbarort. Für ein Fitnessstudio in Düsseldorf oder Köln kommt also immer eine Fahrt obendrauf, und diese Fahrt ist der Punkt, an dem die meisten Vorsätze enden. Ich lasse sie weg: Termin bei dir, Material im Kofferraum, und der Abend gehört trotzdem noch dir.",
+      },
+      {
+        title: "Der Rheinbogen ist dein Ausdauerrevier",
+        body: "Monheim liegt in einer weiten Schleife des Rheins, und am Deich entlang laufen flache, asphaltierte Wege mit freiem Blick über den Strom, von der Altstadt bis hinauf nach Baumberg. Dort trainieren wir Intervalle und ruhige Grundlagenläufe, ohne Ampeln und ohne Slalom. Für Kraftzirkel mit dem eigenen Körpergewicht reichen die Wiesen am Deichfuß, und wenn das Wetter nicht mitspielt, verlegen wir dieselbe Einheit in dein Wohnzimmer.",
+      },
+      {
+        title: "Kraft zuerst, gemessen statt geschätzt",
+        body: "Egal ob dein Ziel Abnehmen, Muskelaufbau oder einfach Belastbarkeit im Alltag ist: die Basis ist Krafttraining mit sauberer Technik. Wir beginnen mit einem Technik-Check, danach stehen meist zwei Einheiten pro Woche mit klarer Progression über Last, Wiederholungen und Tempo. Jede Einheit wird notiert, alle vier bis sechs Wochen vergleichen wir Kraftwerte, Umfänge und Wochengewicht. Wer an die Langhantel will, kombiniert die Termine zu Hause mit dem Studio in Köln, über die A59 ist das machbar.",
+      },
+      {
+        title: "Preise und erster Schritt in Monheim",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, Ernährungssteuerung durch Natalie und wöchentlichen Check-ins beginnt bei 150€ im Monat. Den Anfang macht ein kostenloses Erstgespräch über Ziel, Woche und Trainingsort; dort klären wir auch die Anfahrt zu dir, ob du am Rheinufer in der Altstadt wohnst oder oben in Baumberg. Danach entscheidest du ohne Druck, ob es passt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Monheim am Rhein?",
+        a: "50€ für die 1-zu-1 Stunde, Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos, die Anfahrt nach Monheim klären wir dort.",
+      },
+      {
+        q: "Trainierst du auch in Baumberg?",
+        a: "Ja, das Angebot gilt im ganzen Stadtgebiet, in Baumberg genauso wie rund um die Monheimer Altstadt. Trainiert wird bei dir zu Hause, im Garten oder draußen am Rheindeich.",
+      },
+      {
+        q: "Wo trainieren wir draußen in Monheim?",
+        a: "Meist auf den Deichwegen am Rheinbogen: flach, gerade und das ganze Jahr begehbar. Läufe und Intervalle finden dort statt, die Kraftübungen auf den Wiesen daneben oder bei dir zu Hause.",
+      },
+      {
+        q: "Ich habe keine Geräte zu Hause. Reicht das trotzdem?",
+        a: "Ja. Kurzhanteln, Widerstandsbänder und das übrige Material bringe ich mit, ein paar freie Quadratmeter genügen. Wer später schwerer trainieren will, nimmt Einheiten im Kölner Studio dazu.",
+      },
+      {
+        q: "Geht auch reines Online Coaching von Monheim aus?",
+        a: "Ja, komplett: Trainingsplan per App, wöchentliche Video-Check-ins und die Ernährungsberatung durch Natalie laufen ortsunabhängig, ab 150€ im Monat.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Langenfeld", href: "/personal-trainer-langenfeld" },
+      { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
+      { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
+    ],
+  },
+  {
+    slug: "niederkassel",
+    name: "Niederkassel",
+    kreis: "Rhein-Sieg-Kreis",
+    metaTitle: "Personal Trainer Niederkassel: 1-zu-1 bei dir",
+    metaDescription:
+      "Personal Training in Niederkassel: 1-zu-1 zu Hause in Mondorf, Rheidt, Lülsdorf, Ranzel und den anderen Ortsteilen, draußen am Rheindamm. 50€/Std, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Niederkassel liegt am Rhein genau zwischen Köln und Bonn, und für gutes Training musst du in keine der beiden Städte fahren: ich komme zu dir, nach Mondorf, Rheidt, Lülsdorf, Ranzel oder in jeden anderen Ortsteil. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Zwischen zwei Großstädten, aber ohne deren Studios",
+        body: "Rund 38.000 Menschen leben in Niederkassel, verteilt auf eine Kette von Rheinorten zwischen Köln und Bonn: Mondorf und Rheidt im Süden, dann Niederkassel selbst, Lülsdorf, Ranzel und Uckendorf. Einen Bahnanschluss hat die Stadt nicht, die Kölner Stadtbahn endet in Zündorf direkt an der Grenze. Wer hier wohnt, hat sich an Wege mit dem Auto gewöhnt, aber beim Training lohnt sich das Umdenken: die Einheit bei dir zu Hause kostet dich keine einzige Fahrt, und genau deshalb findet sie auch nach einem langen Arbeitstag noch statt.",
+      },
+      {
+        title: "Der Rheindamm liefert Kilometer, die Sieg das Panorama",
+        body: "Für die Einheiten draußen hat Niederkassel eine der längsten geraden Trainingsstrecken der Region: den Dammweg am Rhein, der die Ortsteile von Mondorf bis Lülsdorf verbindet, flach, asphaltiert und ohne Querverkehr. Hier laufen wir Intervalle und lockere Grundlagenkilometer. Im Süden, bei Mondorf, mündet die Sieg in den Rhein, und die ruhigen Wege rund um die Mündung sind gut für lange Einheiten am Wochenende. Kraftzirkel bauen wir auf den Wiesen am Damm oder direkt in deinem Garten auf.",
+      },
+      {
+        title: "Ein Plan, der zur Pendlerwoche passt",
+        body: "Viele Niederkasseler arbeiten in Köln oder Bonn und sind werktags kaum vor dem frühen Abend zu Hause. Der Trainingsplan rechnet damit: meist zwei feste 1-zu-1 Einheiten pro Woche, dazu kurze Programme von 15 bis 20 Minuten für die Tage dazwischen, die ohne Geräte funktionieren. Gestartet wird mit einem Technik-Check, danach läuft die Progression über Last, Wiederholungen und Tempo, und alle vier bis sechs Wochen zeigen die notierten Zahlen, ob der Plan liefert. Wenn nicht, wird er geändert.",
+      },
+      {
+        title: "Kosten, Ernährung und der Einstieg",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App und wöchentlichen Check-ins beginnt bei 150€ im Monat. Die Ernährungsseite übernimmt dabei Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, komplett online. Der erste Schritt ist ein kostenloses Erstgespräch: Ziel, Woche, Trainingsort, und auch die Anfahrt in deinen Ortsteil klären wir dort. Danach entscheidest du in Ruhe.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Niederkassel?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, dort besprechen wir auch die Anfahrt.",
+      },
+      {
+        q: "In welchen Ortsteilen von Niederkassel trainierst du?",
+        a: "In allen: Mondorf, Rheidt, Niederkassel, Lülsdorf, Ranzel, Uckendorf und Stockem. Trainiert wird bei dir zu Hause, im Garten oder draußen am Rheindamm.",
+      },
+      {
+        q: "Wo laufen wir draußen?",
+        a: "Meist auf dem Dammweg am Rhein zwischen Mondorf und Lülsdorf: flach, gerade und frei von Querverkehr. Für lange, ruhige Einheiten nehmen wir die Wege an der Siegmündung bei Mondorf dazu.",
+      },
+      {
+        q: "Ich pendle nach Bonn, nicht nach Köln. Spielt das eine Rolle?",
+        a: "Nein. Das Training findet bei dir in Niederkassel statt, dein Arbeitsweg zählt nur für die Terminwahl. Viele legen die Einheiten auf den frühen Abend oder den Samstagvormittag.",
+      },
+      {
+        q: "Brauche ich eigene Geräte?",
+        a: "Nein. Kurzhanteln, Bänder und das übrige Material bringe ich mit. Wer irgendwann an die Langhantel will, kombiniert die Termine vor Ort mit dem Studio in Köln.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
+      { name: "Personal Trainer Köln-Porz", href: "/koeln/porz" },
     ],
   },
 ];
