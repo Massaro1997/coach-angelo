@@ -1445,6 +1445,194 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "ehrenfeld/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Ehrenfeld heißt bei uns: Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, baut dir einen Plan für Tage ohne festen Rhythmus, vom späten Frühstück im Café bis zum Abend auf der Venloer Straße, komplett online. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Ehrenfeld mit Natalie: Pläne für unregelmäßige Tage, auch vegetarisch oder vegan, komplett online. Ab 150€/Monat im Coaching, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel ohne Kantinenrhythmus",
+        body: "In Ehrenfeld leben 38.405 Menschen auf 3,71 km², und auffällig viele davon arbeiten ohne feste Essenszeiten: Selbstständige, Schichtler, Leute im Homeoffice zwischen Küche und Schreibtisch. Der Tag startet mit Kaffee, die erste richtige Mahlzeit kommt irgendwann nachmittags, abends wird es dann viel. Genau dieses Muster ist der häufigste Grund, warum das Gewicht steht oder das Training nichts bringt. Natalie plant nicht gegen deinen Tag, sondern mit ihm: wenige feste Ankerpunkte, der Rest flexibel.",
+      },
+      {
+        title: "Venloer Straße inklusive",
+        body: "Zwischen Ehrenfeldgürtel und Innerer Kanalstraße reiht sich eine Küche an die andere, und niemand zieht hierher, um jeden Abend Reis mit Brokkoli zu essen. Deshalb arbeitet Natalie mit einem Wochenbudget statt mit Verboten: Die Abende im Veedel sind eingeplant, davor und danach gleicht der Plan aus. Du lernst, Gerichte grob einzuschätzen, statt jede Zutat zu wiegen. Das hält länger als jede Diät, weil es dein Leben nicht umbaut, sondern ordnet.",
+      },
+      {
+        title: "Vegetarisch und vegan mit genug Eiweiß",
+        body: "Kaum ein Kölner Veedel isst so oft fleischfrei wie Ehrenfeld. Das ist fürs Abnehmen kein Problem, fürs Training schon eher: Ohne Plan landet man vegetarisch schnell bei zu wenig Eiweiß, und der Muskel hat im Defizit nichts zu verteidigen. Natalie rechnet deinen Eiweiß-Zielwert aus und zeigt dir, wie du ihn mit Hülsenfrüchten, Milchprodukten oder komplett pflanzlich erreichst. Keine Pulver-Pflicht, aber ehrliche Zahlen.",
+      },
+      {
+        title: "Beratung online, Training im Grüngürtel dazu",
+        body: "Die Beratung läuft per Video und App: Anamnese, Wochenplan, dann kurze Check-ins, in denen Natalie nachsteuert. Wer Bewegung dazunehmen will, kombiniert sie mit Training bei mir, im Studio oder draußen im Inneren Grüngürtel, der direkt am Veedel liegt. Das Online Coaching ab 150€ im Monat enthält beides: Trainingsplan von mir, Ernährungssteuerung von Natalie. Das Erstgespräch kostet nichts.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Ehrenfeld?",
+        a: "Die Beratung durch Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit dem Trainingsplan. Das Erstgespräch ist kostenlos und klärt, ob das Format zu dir passt.",
+      },
+      {
+        q: "Funktioniert der Plan auch vegetarisch oder vegan?",
+        a: "Ja. Natalie hat den Schwerpunkt Sport- und Fitnessernährung und plant fleischfreie Ernährung regelmäßig. Wichtig ist der Eiweiß-Zielwert, und der lässt sich auch rein pflanzlich erreichen.",
+      },
+      {
+        q: "Ich esse oft auswärts. Macht das die Beratung sinnlos?",
+        a: "Nein, es macht sie nötig. Der Plan arbeitet mit einem Wochenbudget: Abende im Veedel sind eingeplant, die Tage drumherum gleichen aus. Verzicht auf dein soziales Leben ist keine Strategie, die hält.",
+      },
+      {
+        q: "Muss ich dafür irgendwo hinkommen?",
+        a: "Nein, die Beratung läuft komplett online per Video und App. Wenn du Training dazunehmen willst, trainieren wir im Studio oder draußen, zum Beispiel im Inneren Grüngürtel.",
+      },
+      {
+        q: "Stellt Natalie Diagnosen oder behandelt Unverträglichkeiten?",
+        a: "Nein. Medizinische Fragen gehören zum Arzt. Natalie arbeitet an Sport- und Alltagsernährung: Kalorien, Makros, Wochenstruktur und ein Plan, den du durchhalten kannst.",
+      },
+    ],
+  },
+
+  "suerth/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Sürth plane ich über den Wochenschnitt: ein Kalorienziel, das Familienessen und Pendeltage übersteht, zwei Krafteinheiten pro Woche bei dir zu Hause oder im Studio, feste Geh-Kilometer am Rheinufer. Realistisch ist ein halbes bis ein Kilo Fett pro Woche. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Sürth: Kalorienziel im Wochenschnitt, Krafttraining zu Hause oder im Studio, feste Kilometer am Rheinufer. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Woran Abnehmen in Sürth wirklich scheitert",
+        body: "Sürth ist ein Familien- und Pendlerstadtteil: 11.033 Einwohner, viele Häuser mit Garten, morgens die Linie 16 oder die A555 in die Stadt. Das Problem ist selten fehlendes Wissen, sondern der Tagesablauf. Mittags isst man unterwegs oder in der Kantine, abends sitzt die Familie am Tisch, und am Wochenende kommen Besuch und Ausflüge dazu. Ein Plan, der jeden Tag gleich aussieht, zerbricht daran in zwei Wochen. Deshalb rechne ich dein Defizit über die Woche, nicht über den einzelnen Tag.",
+      },
+      {
+        title: "Der Rheinuferweg ist dein Grundumsatz-Hebel",
+        body: "Zwischen Rodenkirchen und der Godorfer Grenze liegt ein langes, flaches Stück Rheinufer, und es ist der unterschätzte Teil jedes Abnehmplans in Sürth. Nicht als Sport, sondern als Sockel: feste Kilometer, die jede Woche stehen, bei jedem Wetter. Diese Alltagsbewegung verbrennt übers Jahr mehr als jede einzelne Trainingseinheit und kostet keine Willenskraft, sobald sie Gewohnheit ist. Im Plan steht sie deshalb genauso verbindlich wie das Krafttraining.",
+      },
+      {
+        title: "Krafttraining, damit nur Fett verschwindet",
+        body: "Wer nur weniger isst, verliert Muskeln mit, und genau die halten den Verbrauch hoch. Deshalb gehören zwei Krafteinheiten pro Woche in den Plan: bei dir zu Hause mit mitgebrachtem Material oder im Studio an der Langhantel. Gewichte und Wiederholungen werden notiert, alle vier Wochen schauen wir auf Waage, Umfänge und Kraftwerte zusammen. Sinkt das Gewicht bei stabilen Kraftwerten, verschwindet Fett und nicht Muskel. Das ist der ganze Trick, und er ist messbar.",
+      },
+      {
+        title: "Essen plant Natalie mit dir, wenn du willst",
+        body: "Für die Ernährungsseite arbeite ich mit Natalie, unserer Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Sie legt dein Kalorienziel fest und baut den Familientisch ein, statt dich davon auszuschließen: gleiche Gerichte, angepasste Portionen. Die Beratung läuft online und ist im Online Coaching ab 150€ im Monat enthalten. Wer nur trainieren will, bekommt von mir die Leitplanken, ohne eigenen Ernährungsplan.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Sürth?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan und Ernährungssteuerung durch Natalie beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie viel kann ich realistisch abnehmen?",
+        a: "Ein halbes bis ein Kilo Fett pro Woche ist bei sauberem Defizit realistisch, am Anfang durch Wasser oft mehr. Wer dir deutlich mehr verspricht, redet über Muskel- und Wasserverlust.",
+      },
+      {
+        q: "Muss ich dafür ins Fitnessstudio?",
+        a: "Nein. Die Krafteinheiten gehen bei dir zu Hause mit mitgebrachtem Material. Wer schwerer trainieren will, kombiniert das mit dem Studio in Köln, viele machen eine Einheit dort und eine daheim.",
+      },
+      {
+        q: "Abends isst die ganze Familie zusammen. Passt das in den Plan?",
+        a: "Ja, das ist sogar die Grundlage. Natalie plant das Abendessen als festen Bestandteil und steuert über Portionen und den Rest des Tages. Getrennt kochen hält niemand durch.",
+      },
+      {
+        q: "Zählt Spazierengehen am Rhein wirklich?",
+        a: "Ja, mehr als die meisten denken. Feste Wochenkilometer am Rheinufer erhöhen deinen Verbrauch zuverlässig und ohne Erschöpfung. Abnehmen entscheidet sich im Alltag, das Training schützt dabei die Muskeln.",
+      },
+    ],
+  },
+
+  "deutz/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Deutz heißt gezielte Kraftarbeit gegen den Bildschirm-Tag: Nacken, Schulterblätter und Rumpf, zweimal pro Woche im Studio oder als kompakte Einheit nahe deinem Büro, dazu Rheinpark und Rheinboulevard für den täglichen Ausgleich. Die Stunde kostet 50€, das Erstgespräch ist kostenlos. Akute Schmerzen klärt zuerst ein Arzt.",
+    metaDescription:
+      "Rückentraining in Köln-Deutz: Kraft für Nacken, Schulterblätter und Rumpf gegen lange Bürotage, Ausgleich im Rheinpark. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Deutz arbeitet im Sitzen",
+        body: "Zwischen Messe, Bahnhof und den Bürotürmen am Rheinufer verbringen jeden Tag Zehntausende acht Stunden am Bildschirm, dazu kommen die 15.644, die in Deutz wohnen und oft genauso sitzen: erst im Zug, dann im Büro. Das typische Ergebnis kenne ich aus den Erstgesprächen: verspannter Nacken, Ziehen zwischen den Schulterblättern, ein unterer Rücken, der sich nach langen Tagen steif anfühlt. Das ist in den meisten Fällen kein Schaden, sondern fehlende Kraft an den richtigen Stellen. Und die lässt sich aufbauen.",
+      },
+      {
+        title: "Oben anfangen: Nacken und Schulterblätter",
+        body: "Bildschirmarbeit zieht den Kopf nach vorn und die Schultern nach oben. Deshalb beginnt das Programm in Deutz meist oben: Rudervarianten, Face Pulls, kontrollierte Überkopf-Arbeit, dazu Übungen, die die Schulterblätter wieder führen lernen. Der Rumpf kommt in jeder Einheit dazu, denn ein stabiler Rumpf nimmt dem Nacken Arbeit ab. Gedehnt wird ergänzend, aber Dehnen allein hält keinen Acht-Stunden-Tag aus, das schafft nur Kraft.",
+      },
+      {
+        title: "Training, das in einen Messetag passt",
+        body: "Wer in Deutz arbeitet, hat zwischen Terminen selten 90 Minuten übrig. Deshalb plane ich hier kompakte Einheiten: 60 Minuten von Tür zu Tür, mittags oder direkt nach Feierabend, im Studio oder draußen. Für den Ausgleich zwischen den Einheiten liegt das Beste direkt vor der Tür: der Rheinpark für zügige Runden, die Treppen am Rheinboulevard für kurze Belastungen, die den Kreislauf hochziehen, ohne Sportzeug zu brauchen. Zehn Minuten am Tag verändern lange Sitzwochen spürbar.",
+      },
+      {
+        title: "Grenzen, Ablauf, Kosten",
+        body: "Bei akuten, ausstrahlenden oder nächtlichen Schmerzen gehört der erste Weg zum Arzt, nicht zu mir. Trainiert wird, was ärztlich unbedenklich ist. Wir starten mit einem Check von Haltung, Beweglichkeit und Kraft, dann stehen zwei Einheiten pro Woche mit dokumentierten Gewichten. Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Deutz?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos und klärt, welcher Einstieg für deinen Rücken passt.",
+      },
+      {
+        q: "Hilft Krafttraining überhaupt gegen Nackenverspannungen?",
+        a: "Bei Verspannungen durch Bildschirmarbeit ja: Kräftigung von oberem Rücken und Schulterblatt-Muskulatur reduziert die Dauerspannung im Nacken. Massagen lindern kurzfristig, Kraft verändert die Ursache.",
+      },
+      {
+        q: "Ich arbeite an der Messe und habe nur die Mittagspause. Reicht das?",
+        a: "Ja, wenn der Ablauf steht: 60 Minuten von Tür zu Tür, zwei Mal pro Woche. Dazu kommen kurze tägliche Ausgleichsminuten, zum Beispiel eine zügige Runde durch den Rheinpark.",
+      },
+      {
+        q: "Soll ich mit Schmerzen trainieren?",
+        a: "Nein. Akute, ausstrahlende oder nachts auftretende Schmerzen klärt zuerst ein Arzt. Danach bauen wir auf, was freigegeben ist. Unspezifische Steifheit nach Sitztagen ist dagegen genau das, wofür das Training da ist.",
+      },
+      {
+        q: "Wie lange dauert es, bis sich etwas verbessert?",
+        a: "Die meisten spüren nach vier bis acht Wochen regelmäßigen Trainings den Unterschied an langen Bürotagen. Gemessen wird trotzdem: Kraftwerte und Haltung sagen mehr als das Tagesgefühl.",
+      },
+    ],
+  },
+
+  "merheim/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Merheim baue ich auf drei Dinge: ein Kalorienziel, das auch Schichtwochen übersteht, zwei Krafteinheiten pro Woche bei dir zu Hause oder im Studio, und die Merheimer Heide vor der Tür als tägliche Bewegungsfläche. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Merheim: Kalorienziel auch für Schichtdienst, Krafttraining zu Hause, tägliche Runden in der Merheimer Heide. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die Merheimer Heide ist dein wichtigstes Abnehm-Gerät",
+        body: "Merheim hat 11.354 Einwohner und direkt am Stadtteil eine der größten freien Grünflächen des Kölner Ostens: die Merheimer Heide. Fürs Abnehmen ist das Gold wert, denn der größte Teil deines Kalorienverbrauchs entsteht nicht im Training, sondern in der Alltagsbewegung. Eine feste Runde durch die Heide, vier bis fünf Mal pro Woche, hebt deinen Verbrauch zuverlässiger als jede zusätzliche Schwitzeinheit. Im Plan bekommt sie deshalb einen festen Platz, mit Kilometern statt guter Vorsätze.",
+      },
+      {
+        title: "Ein Plan, der mit dem Dienstplan lebt",
+        body: "Mit den Kliniken der Stadt Köln steht in Merheim einer der großen Arbeitgeber des Rechtsrheinischen, und viele Anfragen von hier kommen aus Pflege und Klinikbetrieb: Wechselschichten, Essen zu wechselnden Zeiten, Schlaf, der mal reicht und mal nicht. Ein starrer Diätplan scheitert daran sofort. Deshalb bekommt jede Woche ein Kalorienbudget statt fester Mahlzeiten-Uhrzeiten, und die Trainingstermine wandern mit dem Dienstplan. Abnehmen funktioniert auch in Schichten, es braucht nur eine Struktur, die sich mitbewegt.",
+      },
+      {
+        title: "Muskeln behalten, Fett verlieren",
+        body: "Im Kaloriendefizit entscheidet das Krafttraining darüber, was dein Körper abbaut. Ohne Widerstand verschwinden Muskeln mit, und mit ihnen sinkt der Verbrauch, der Jojo ist dann eingebaut. Zwei Einheiten pro Woche reichen: bei dir zu Hause mit mitgebrachten Kurzhanteln und Bändern oder im Studio an der Langhantel. Ich dokumentiere Gewichte und Wiederholungen und kontrolliere alle vier Wochen Waage, Umfänge und Kraftwerte. So siehst du, dass die richtige Masse verschwindet.",
+      },
+      {
+        title: "Zahlen von Natalie, wenn du die Ernährung mitlösen willst",
+        body: "Dein Kalorienziel und die Eiweißmenge legt auf Wunsch Natalie fest, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Sie plant online, per Video und App, und steuert in kurzen Check-ins nach, wenn das Gewicht stehen bleibt. Im Online Coaching ab 150€ im Monat sind Trainingsplan und Ernährungssteuerung zusammen enthalten. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Merheim?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan und Ernährungssteuerung durch Natalie beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite im Schichtdienst an der Klinik. Funktioniert das trotzdem?",
+        a: "Ja. Der Plan arbeitet mit einem Wochenbudget an Kalorien statt mit festen Essenszeiten, und die Trainingstermine lege ich um deinen Dienstplan. Viele meiner Kunden aus Merheim arbeiten in Schichten.",
+      },
+      {
+        q: "Wie schnell nehme ich ab?",
+        a: "Realistisch sind ein halbes bis ein Kilo Fett pro Woche, in der ersten Zeit durch Wasser oft mehr. Schnellere Versprechen gehen auf Kosten von Muskeln, und das rächt sich nach der Diät.",
+      },
+      {
+        q: "Reichen Runden in der Merheimer Heide nicht aus?",
+        a: "Gehen hebt den Verbrauch und ist der wichtigste Alltagsbaustein, aber es schützt die Muskeln im Defizit nicht. Erst die Kombination aus Defizit, Gehen und zwei Krafteinheiten pro Woche nimmt gezielt Fett ab.",
+      },
+      {
+        q: "Muss ich für das Training irgendwo hinfahren?",
+        a: "Nein. Ich komme mit dem Material zu dir nach Merheim, trainiert wird im Wohnzimmer, im Hof oder draußen an der Heide. Wer schwerer trainieren will, nimmt das Studio in Köln dazu.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
