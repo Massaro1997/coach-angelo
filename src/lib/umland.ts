@@ -128,6 +128,7 @@ export const umlandOrte: UmlandOrt[] = [
     links: [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
+      { name: "Personal Trainer Langenfeld", href: "/personal-trainer-langenfeld" },
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
       { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
     ],
@@ -297,6 +298,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
       { name: "Personal Trainer Bergheim", href: "/personal-trainer-bergheim" },
+      { name: "Personal Trainer Erftstadt", href: "/personal-trainer-erftstadt" },
     ],
   },
   {
@@ -410,6 +412,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
       { name: "Personal Trainer Kerpen", href: "/personal-trainer-kerpen" },
       { name: "Personal Trainer Brühl", href: "/personal-trainer-bruehl" },
+      { name: "Personal Trainer Erftstadt", href: "/personal-trainer-erftstadt" },
     ],
   },
   {
@@ -581,6 +584,121 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Kerpen", href: "/personal-trainer-kerpen" },
       { name: "Personal Trainer Pulheim", href: "/personal-trainer-pulheim" },
       { name: "Personal Trainer Brühl", href: "/personal-trainer-bruehl" },
+    ],
+  },
+  {
+    slug: "langenfeld",
+    name: "Langenfeld",
+    kreis: "Kreis Mettmann",
+    metaTitle: "Personal Trainer Langenfeld: 1-zu-1 bei dir",
+    metaDescription:
+      "Personal Training in Langenfeld (Rheinland): 1-zu-1 bei dir zu Hause oder draußen, etwa im Freizeitpark Langfort. 50€/Std, Online ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Langenfeld liegt zwischen Köln und Düsseldorf, und genau deshalb trainieren wir hier vor Ort: 1-zu-1 bei dir zu Hause, im Garten oder draußen im Grünen, statt nach Feierabend noch einmal in eine der beiden Städte zu fahren. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Die Stadt zwischen den Städten hat ein Pendlerproblem",
+        body: "Rund 59.000 Menschen leben in Langenfeld, und ein großer Teil davon fährt morgens mit der S6 oder über die Autobahn nach Köln oder Düsseldorf. Wer dann abends für den Sport wieder in die Bahn steigt, hört meistens nach ein paar Wochen auf. Mein Ansatz dreht das um: das Training kommt zu dir. Du sparst die dritte Fahrt des Tages, und der Termin steht fest in deinem Kalender, nicht hinter dem Berufsverkehr.",
+      },
+      {
+        title: "Langfort, Further Moor und der eigene Garten",
+        body: "Für die Einheiten draußen hat Langenfeld mehr zu bieten, als man von außen denkt. Der Freizeitpark Langfort ist eine große, offene Anlage mit festen Wegen, gut für Zirkel, Lauftechnik und Intervalle. Richtung Reusrath liegt das Further Moor mit ruhigen, flachen Pfaden für die langen, lockeren Einheiten. Und oft reicht schon der eigene Garten oder das Wohnzimmer: Kurzhanteln, Bänder und den Rest bringe ich mit.",
+      },
+      {
+        title: "Krafttraining mit System, nicht mit Geräten von der Stange",
+        body: "Mein Kern ist sauberes Krafttraining: Kniebeuge-, Hebe- und Zugmuster, von leicht bis schwer, mit Technik-Korrektur in jeder Einheit. Das funktioniert zu Hause besser, als die meisten erwarten, weil die Übungsauswahl zum Material passt und die Progression über Wiederholungen, Tempo und Last läuft. Wer irgendwann an die Langhantel will, kombiniert die Einheiten vor Ort mit dem Studio in Köln. Gemessen wird in beiden Fällen: Kraftwerte, Umfänge, Wochengewicht.",
+      },
+      {
+        title: "Ablauf und Kosten in Langenfeld",
+        body: "Der Einstieg ist ein kostenloses Erstgespräch über Ziel, Woche und Trainingsort, telefonisch oder per Video. Dort klären wir auch die Anfahrt zu dir. Danach starten wir mit einem Technik-Check und meist zwei Einheiten pro Woche. Die 1-zu-1 Stunde kostet 50€; das Online Coaching mit Trainingsplan per App, Ernährungssteuerung durch Natalie und wöchentlichen Check-ins beginnt bei 150€ im Monat und läuft von Richrath bis Wiescheid gleich gut.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Langenfeld?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos, dort besprechen wir auch die Anfahrt nach Langenfeld.",
+      },
+      {
+        q: "In welchen Stadtteilen von Langenfeld trainierst du?",
+        a: "In allen: Richrath, Immigrath, Reusrath, Berghausen und Wiescheid. Trainiert wird bei dir zu Hause, im Garten oder draußen, zum Beispiel im Freizeitpark Langfort.",
+      },
+      {
+        q: "Ich pendle nach Düsseldorf, nicht nach Köln. Macht das einen Unterschied?",
+        a: "Nein. Das Training findet in Langenfeld statt, dein Arbeitsweg spielt nur für die Terminwahl eine Rolle. Viele legen die Einheiten auf den frühen Abend direkt nach der Rückfahrt oder auf den Samstagvormittag.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Nein. Ich bringe Kurzhanteln, Widerstandsbänder und das übrige Material mit. Ein paar freie Quadratmeter reichen, um vollständig zu trainieren.",
+      },
+      {
+        q: "Geht auch reines Online Coaching von Langenfeld aus?",
+        a: "Ja. Trainingsplan per App, wöchentliche Video-Check-ins und die Ernährungsberatung durch Natalie funktionieren ortsunabhängig, ab 150€ im Monat. Einzelne 1-zu-1 Stunden lassen sich jederzeit dazunehmen.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
+      { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
+      { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
+    ],
+  },
+  {
+    slug: "erftstadt",
+    name: "Erftstadt",
+    kreis: "Rhein-Erft-Kreis",
+    metaTitle: "Personal Trainer Erftstadt: Training vor Ort",
+    metaDescription:
+      "Personal Training in Erftstadt: 1-zu-1 zu Hause in allen Ortsteilen, draußen am Liblarer See oder in den Villewäldern. 50€/Std, Online ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Erftstadt ist eine Stadt aus vielen Dörfern, und fast jeder Weg braucht hier das Auto. Das Training nicht: ich komme zu dir, nach Lechenich, Liblar oder in jeden anderen Ortsteil, oder wir trainieren draußen am Liblarer See. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Eine Stadt aus Dörfern braucht Training ohne Anfahrt",
+        body: "Rund 50.000 Menschen leben in Erftstadt, aber nicht in einer Stadt, sondern verteilt auf über ein Dutzend Ortsteile zwischen Erft und Ville: Lechenich mit seinem historischen Marktplatz, Liblar mit dem Bahnhof, dazu Gymnich, Friesheim, Erp, Kierdorf und die kleineren Dörfer. Fitnessangebote bündeln sich in den größten Orten, und wer in Erp oder Herrig wohnt, fährt für jedes Training. Genau das lasse ich weg: die Einheit findet bei dir statt, mit Material, das ich mitbringe.",
+      },
+      {
+        title: "Liblarer See und Villewälder als Trainingsgelände",
+        body: "Am Ostrand von Erftstadt beginnen die Villewälder, und mittendrin liegt der Liblarer See. Die Wege dort sind flach, schattig und wenig befahren: gut für lockere Läufe als Grundlage, für Intervalle, wenn das Tempo dran ist, und für Zirkel mit dem eigenen Körpergewicht am Wasser. Im Sommer verlegen viele Kunden fast alles hierher, im Winter wandert der Schwerpunkt zurück ins Wohnzimmer. Der Plan bleibt derselbe, nur der Ort wechselt mit der Jahreszeit.",
+      },
+      {
+        title: "Was wir trainieren, hängt vom Ziel ab, nicht vom Ort",
+        body: "Abnehmen, Muskelaufbau, wieder fit werden nach Jahren Pause: der Plan startet mit einer ehrlichen Bestandsaufnahme und einem Technik-Check. Danach stehen meist zwei feste Einheiten pro Woche, Kraft zuerst, Ausdauer dosiert dazu. Jede Übung wird mit Last und Wiederholungen notiert, alle vier Wochen vergleichen wir die Zahlen. Wer die Ernährung mitsteuern will, bekommt Natalie dazu, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung.",
+      },
+      {
+        title: "Kosten, Anfahrt und der erste Schritt",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App und wöchentlichen Check-ins beginnt bei 150€ im Monat. Erftstadt liegt über die A1 und A61 gut erreichbar am Südwestrand des Kölner Raums; wie die Anfahrt konkret läuft, klären wir im kostenlosen Erstgespräch, genauso wie Trainingsort und Termine. Wer in Liblar wohnt und lieber ins Kölner Studio kommt, nimmt den Zug ab Bahnhof Erftstadt und ist schnell in der Stadt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Erftstadt?",
+        a: "50€ pro 1-zu-1 Stunde, Online Coaching ab 150€ im Monat, Erstgespräch kostenlos. Die Anfahrt in deinen Ortsteil besprechen wir im Erstgespräch.",
+      },
+      {
+        q: "Kommst du auch in die kleineren Ortsteile?",
+        a: "Ja, das Angebot gilt in ganz Erftstadt: von Lechenich und Liblar über Gymnich, Friesheim und Erp bis in die kleineren Dörfer wie Herrig oder Niederberg.",
+      },
+      {
+        q: "Wo trainieren wir draußen in Erftstadt?",
+        a: "Am liebsten an den Wegen rund um den Liblarer See und in den Villewäldern: flach, ruhig und das ganze Jahr nutzbar. Alternativ reicht der eigene Garten für ein komplettes Programm.",
+      },
+      {
+        q: "Ich war seit Jahren nicht mehr im Training. Wo fangen wir an?",
+        a: "Mit einem Technik-Check und leichten Grundübungen, nicht mit einem Härtetest. Die Last steigt erst, wenn die Bewegung sitzt. Genau dafür ist das 1-zu-1 da.",
+      },
+      {
+        q: "Gibt es auch Ernährungsberatung dazu?",
+        a: "Ja. Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, übernimmt im Online Coaching die Ernährungsseite: Kalorienziel, Wochenplan und Check-ins, komplett online.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Hürth", href: "/personal-trainer-huerth" },
+      { name: "Personal Trainer Kerpen", href: "/personal-trainer-kerpen" },
+      { name: "Personal Trainer Brühl", href: "/personal-trainer-bruehl" },
+      { name: "Personal Trainer Frechen", href: "/personal-trainer-frechen" },
     ],
   },
 ];
