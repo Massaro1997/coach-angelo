@@ -976,6 +976,194 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "porz/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Porz läuft bei uns über Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung: ein Essensplan, der auch mit Schichtdienst und wechselnden Zeiten funktioniert, komplett online betreut. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Porz mit Natalie: Essensplan für Schichtdienst und Büroalltag, Kalorien- und Eiweißziel statt Diät, online betreut. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Porz isst zu anderen Zeiten als der Rest von Köln",
+        body: "Wer in Porz wohnt, arbeitet überdurchschnittlich oft im Schichtbetrieb: der Flughafen Köln/Bonn liegt im Bezirk, dazu Logistik und Industrie rundherum. Frühschicht, Spätschicht, Nachtschicht, und jede Woche sieht anders aus. Die üblichen Ernährungsregeln mit festem Frühstück und Abendessen um sieben scheitern daran zuverlässig. Natalie plant deshalb nicht nach Uhrzeit, sondern nach deinem Dienstplan: Hauptmahlzeiten um die Schicht herum, eine klare Lösung für die Kantine und für die Stunden dazwischen.",
+      },
+      {
+        title: "Ein Ziel in Zahlen, egal wie die Woche liegt",
+        body: "Der Kern bleibt in jeder Schicht gleich: ein Kalorienziel und genug Eiweiß, verteilt auf die Mahlzeiten, die dein Tag tatsächlich hergibt. Ob das drei große oder fünf kleine sind, ist zweitrangig; entscheidend ist der Wochenschnitt auf der Waage, nicht der einzelne Tag. Natalie schaut in den Check-ins auf genau diese Zahlen und stellt nach, wenn der Trend steht. So überlebt der Plan auch eine Woche Nachtschicht, in der sonst jede Diät kippt.",
+      },
+      {
+        title: "Eingekauft wird im Veedel, geplant wird vorher",
+        body: "Die Zutatenfrage löst Porz selbst: der Wochenmarkt auf dem Friedrich-Ebert-Platz, die Geschäfte rund um die Fußgängerzone, dazu die großen Märkte am Rand. Was fehlt, ist selten das Angebot, sondern ein Plan, der vor dem Einkauf steht. Natalie gibt dir eine Wochenliste, die zu deinen Schichten passt, mit Gerichten, die sich vorkochen und mitnehmen lassen. Die Dose für die Pause ist in Porz kein Diät-Trick, sondern die realistischste Form von Ernährungssteuerung.",
+      },
+      {
+        title: "Beratung per Video, Training nach Wunsch dazu",
+        body: "Die Beratung findet online statt: Analysegespräch per Video, Plan und Anpassungen in der App, wöchentlicher Check-in. Gerade mit Schichtplan ist das der Punkt, an dem es praktisch wird, weil kein fester Praxistermin in deine wechselnden Wochen passen muss. Enthalten ist die Ernährungsberatung im Online Coaching ab 150€ im Monat, zusammen mit meinem Trainingsplan. Wer in Porz zusätzlich 1-zu-1 trainieren will, etwa am Rheinufer, nimmt Stunden zu 50€ dazu.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Porz?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit Trainingsplan und wöchentlichen Check-ins. Für das Erstgespräch zahlst du nichts.",
+      },
+      {
+        q: "Funktioniert der Plan auch mit Wechselschicht am Flughafen?",
+        a: "Ja, das ist in Porz der häufigste Fall. Natalie baut den Plan um deinen Dienstplan, mit Mahlzeiten, die zur Schicht passen, und Alternativen für Kantine und Nachtdienst.",
+      },
+      {
+        q: "Wer macht die Beratung bei FitPrimo?",
+        a: "Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Sie betreut die Ernährungsseite, ich das Training, und beide Pläne sind aufeinander abgestimmt.",
+      },
+      {
+        q: "Muss ich kochen können?",
+        a: "Nein. Der Plan setzt auf einfache Gerichte, die sich vorbereiten und mitnehmen lassen. Wer gar nicht kocht, bekommt Lösungen für Kantine, Bäcker und unterwegs, mit klarem Eiweißziel.",
+      },
+      {
+        q: "Beratet ihr auch bei Erkrankungen oder Unverträglichkeiten?",
+        a: "Nein. Natalies Bereich ist Sport- und Fitnessernährung für gesunde Erwachsene. Medizinische Ernährungsfragen gehören in ärztliche Hände, das sagen wir dir im Erstgespräch offen.",
+      },
+    ],
+  },
+
+  "brueck/personal-training": {
+    answer:
+      "Personal Training in Köln-Brück heißt: 1-zu-1 bei dir zu Hause oder am Königsforst, der direkt am Veedel beginnt, mit festem Plan und Technik-Korrektur in jeder Einheit. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "1-zu-1 Personal Training in Köln-Brück: zu Hause mit mitgebrachtem Material oder am Königsforst, fester Plan, messbare Schritte. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Brück hat den Wald, dir fehlt nur der Plan",
+        body: "Brück gehört zu den grünsten Ecken im rechtsrheinischen Köln: 10.234 Einwohner auf 7,5 km², und ein großer Teil davon ist Königsforst. Viele hier gehen längst laufen oder spazieren, und trotzdem verändert sich wenig, weil Bewegung allein kein Training ist. Genau da setze ich an: ein Plan mit Richtung, Kraftübungen, die aufeinander aufbauen, und jemand, der Woche für Woche kontrolliert, ob du auf Kurs bist.",
+      },
+      {
+        title: "Zu Hause trainieren, im Wald draußen sein",
+        body: "Die Kraftarbeit findet meist bei dir statt: Brück ist ein Veedel der Einfamilienhäuser und Gärten, und ein paar Quadratmeter reichen, weil ich Kurzhanteln, Bänder und das übrige Material mitbringe. Für Ausdauer und die Einheiten an der frischen Luft gehen wir an den Waldrand: die breiten Wege des Königsforsts ab Mauspfad sind flach genug für Intervalle und lang genug für jede Grundlagenausdauer. Studio in der Stadt? Nur wenn du es willst, nötig ist es nicht.",
+      },
+      {
+        title: "Zwei Termine pro Woche, dokumentiert statt gefühlt",
+        body: "Nach dem kostenlosen Erstgespräch starten wir mit einem Technik-Check und legen zwei feste Einheiten pro Woche. Jede Übung wird mit Gewicht und Wiederholungen notiert, alle vier Wochen vergleichen wir: Kraftwerte, Umfänge, Gewicht im Wochenschnitt. Für die Tage dazwischen bekommst du kurze Aufgaben, oft eine halbe Stunde zügiges Gehen im Wald, die in Brück niemandem schwerfällt. Wenn die Zahlen stehen bleiben, ändere ich den Plan, nicht die Ausrede.",
+      },
+      {
+        title: "Für Pendler mit der Linie 1 gemacht",
+        body: "Brück hängt mit der Stadtbahn-Linie 1 direkt an der Innenstadt, und viele pendeln jeden Tag hinein. Abends dann noch einmal in ein Studio in der Stadt zu fahren, ist der Punkt, an dem die meisten Vorsätze reißen. Das Training vor der eigenen Haustür dreht die Logik um: der Termin wartet zu Hause auf dich, nicht am anderen Ende der Bahnlinie. Auch Randzeiten sind machbar, früh vor der Arbeit oder am Samstagmorgen, bevor das Familienprogramm startet.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Brück?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App ab 150€ im Monat. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Wo genau trainieren wir in Brück?",
+        a: "Meist bei dir zu Hause oder im Garten, mit Material, das ich mitbringe. Für Läufe und Outdoor-Einheiten nutzen wir den Königsforst, der direkt am Veedel beginnt.",
+      },
+      {
+        q: "Ich jogge schon im Königsforst. Was bringt mir ein Trainer zusätzlich?",
+        a: "Struktur und Kraft. Laufen hält fit, verändert aber weder Haltung noch Muskulatur spürbar. Mit zwei geführten Krafteinheiten pro Woche wird aus deinem Waldlauf ein komplettes Programm.",
+      },
+      {
+        q: "Geht Training auch früh morgens oder am Wochenende?",
+        a: "Ja. Gerade für Pendler lege ich Einheiten in den frühen Morgen oder auf den Samstagvormittag. Den Rhythmus legen wir im Erstgespräch fest.",
+      },
+      {
+        q: "Brauche ich Geräte oder eine Studiomitgliedschaft?",
+        a: "Nein. Ich bringe alles mit, was das Training zu Hause braucht. Wer später schwer an der Langhantel arbeiten will, kann Einheiten im Studio in Köln dazunehmen.",
+      },
+    ],
+  },
+
+  "bayenthal/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Bayenthal: zweimal pro Woche gezielte Kraftarbeit für Rumpf und oberen Rücken, bei dir zu Hause oder im Studio, dazu das Rheinufer Süd für den täglichen Ausgleich. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos. Akute Schmerzen klärt zuerst ein Arzt.",
+    metaDescription:
+      "Rückentraining in Köln-Bayenthal: gezielte Kraft für Rumpf und oberen Rücken statt Schonhaltung, zu Hause oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Kurze Wege, viel Sitzen: das Bayenthal-Muster",
+        body: "Bayenthal ist klein und dicht: 11.161 Menschen auf 1,28 km², die Innenstadt ist mit der Bahn ein Katzensprung, Büro, Bäcker und Supermarkt liegen oft in Gehweite. Bequem, aber der Körper zahlt dafür: wer sich kaum noch weit bewegen muss, sitzt am Ende fast den ganzen Tag, und das erste, was sich meldet, ist der Rücken. Zwischen Schulterblättern beim Arbeiten, unten im Kreuz nach dem Aufstehen. Das ist selten ein Schaden, meist schlicht fehlende Kraft, und genau die lässt sich aufbauen.",
+      },
+      {
+        title: "Aufrichten und ziehen, nicht nur dehnen",
+        body: "Ein Schreibtischtag zieht Schultern und Blick nach vorn; das Training muss die Gegenrichtung stärken. Deshalb besteht der Kern aus Zugübungen in allen Winkeln, Arbeit für die Schulterblattmuskulatur und Rumpfübungen, die das Becken stabil halten. Dehnen und Rollen dürfen dazu, tragen aber nicht allein: ein Muskel, der zu schwach ist, bleibt auch gedehnt zu schwach. Wir starten mit Bändern und Kurzhanteln bei dir zu Hause, und wenn mehr Last sinnvoll wird, geht es ins Studio.",
+      },
+      {
+        title: "Das Rheinufer Süd ist dein zweites Trainingsgerät",
+        body: "Zwischen den beiden Krafteinheiten braucht der Rücken vor allem eines: regelmäßige, leichte Bewegung. Bayenthal hat dafür das Rheinufer Süd direkt vor der Tür, flach, beleuchtet und zu jeder Jahreszeit begehbar. Im Plan steht das als fester Baustein mit Zeitangabe, nicht als guter Vorsatz: zügig gehen, Arme mitnehmen, zwanzig bis dreißig Minuten. Wer das vier Mal pro Woche schafft, nimmt dem Sitztag einen großen Teil seiner Wirkung.",
+      },
+      {
+        title: "Erst die Abklärung, dann der Aufbau",
+        body: "Ich trainiere Menschen, deren Rücken auf zu viel Sitzen und zu wenig Kraft reagiert. Plötzliche, heftige oder ausstrahlende Schmerzen gehören zuerst in ärztliche Abklärung; danach steige ich mit Freigabe ein und richte die Übungsauswahl am Befund aus. Der Einstieg ist ein kostenloses Erstgespräch über Vorgeschichte, Alltag und Ziel. Die 1-zu-1 Stunde kostet 50€, Online-Begleitung mit Plan per App gibt es ab 150€ im Monat.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Bayenthal?",
+        a: "50€ pro 1-zu-1 Stunde, Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos. Material für zu Hause bringe ich mit.",
+      },
+      {
+        q: "Mein Rücken schmerzt vor allem beim Sitzen im Büro. Hilft Training da überhaupt?",
+        a: "Meist ja: unspezifische Beschwerden vom Sitzen reagieren gut auf mehr Kraft im Rumpf und oberen Rücken plus regelmäßige Bewegung. Ein Heilversprechen gibt es nicht, eine klare Erfolgsbilanz schon.",
+      },
+      {
+        q: "Wie schnell merke ich einen Unterschied?",
+        a: "Die meisten spüren nach vier bis sechs Wochen, dass lange Sitztage weniger nachhängen. Gemessen wird zusätzlich über Kraftwerte, damit der Fortschritt nicht vom Tagesgefühl abhängt.",
+      },
+      {
+        q: "Trainieren wir in Bayenthal draußen?",
+        a: "Die Kraftarbeit läuft drinnen, zu Hause oder im Studio. Das Rheinufer Süd nutzen wir für den Bewegungsbaustein zwischen den Einheiten, als festen Termin im Plan.",
+      },
+      {
+        q: "Ich hatte schon einmal einen Bandscheibenvorfall. Kann ich mitmachen?",
+        a: "Mit ärztlicher Freigabe ja. Dann bauen wir langsam auf, mit Übungen, die zu deinem Befund passen, und steigern die Last erst, wenn die Bewegung sicher sitzt.",
+      },
+    ],
+  },
+
+  "widdersdorf/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Widdersdorf nutzt, was das Veedel hat: flache, gerade Wirtschaftswege in alle Richtungen für Sprints und Tempoläufe, dazu Kraft und Sprungkraft im Studio. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Widdersdorf: Sprints und Tempoläufe auf den Feldwegen rund ums Veedel, Kraft und Sprungkraft im Studio. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Ein junges Veedel mit Platz nach allen Seiten",
+        body: "Widdersdorf ist durch das Neubaugebiet im Süden auf 12.398 Einwohner gewachsen und gehört heute zu den jüngsten Ecken des Kölner Westens: viele Familien, viele Vereinssportler, viele, die nach Feierabend noch etwas aus sich herausholen wollen. Das Gelände spielt mit. Hinter der letzten Häuserreihe beginnen offene Felder, und die Wege dorthin sind eben, asphaltiert oder fest geschottert, ohne Ampel und ohne Gegenverkehr aus Lieferwagen.",
+      },
+      {
+        title: "Schnelligkeit entsteht auf freier Strecke",
+        body: "Für Antritt und Tempo brauchst du Strecke, auf der niemand bremst, und davon hat Widdersdorf reichlich: die Wirtschaftswege Richtung Lövenich, Esch und Bocklemünd laufen schnurgerade durch die Felder. Dort arbeiten wir mit markierten Abschnitten, Sprints über 30 bis 80 Meter, fliegenden Läufen und Tempowechseln. Zwischen altem Ortskern und Neubaugebiet lassen sich Runden kombinieren, die genau zur geplanten Einheit passen, von kurz und hart bis lang und ruhig.",
+      },
+      {
+        title: "Kraft und Sprungkraft kommen aus dem Studio",
+        body: "Draußen wird schnell, drinnen wird stark: Maximalkraft und Sprungkraft baue ich mit Hantelarbeit und Sprungprogression im Studio auf, sauber dosiert und mit Technik-Korrektur in jeder Einheit. Beides zusammen ergibt die Mischung, die im Verein den Unterschied macht, beim Fußball genauso wie beim Tennis oder Laufen. Getestet wird regelmäßig: Sprintzeit auf vermessener Strecke, Sprunghöhe, Kraftwerte. Der Plan folgt den Zahlen, nicht dem Bauchgefühl.",
+      },
+      {
+        title: "Training, das in den Familienkalender passt",
+        body: "Wer in Widdersdorf wohnt, organisiert meist mehr als nur sich selbst: Kinder, Verein, Pendelweg, das Veedel hängt ohne Stadtbahn am Bus und am Auto. Deshalb biete ich Zeitfenster an, die in so einen Kalender passen: früh am Morgen, am Vormittag, wenn das Haus leer ist, oder am Samstag. Und wenn eine Woche komplett kippt, gibt es eine kurze Einheit für dich allein, damit der Faden nicht reißt. Zwei geführte Termine pro Woche reichen für messbaren Fortschritt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Widdersdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Online-Begleitung mit Plan per App ab 150€ im Monat. Das Erstgespräch kostet nichts und klärt Ziel und Startniveau.",
+      },
+      {
+        q: "Wo trainieren wir in Widdersdorf?",
+        a: "Schnelligkeit und Ausdauer auf den Feldwegen rund ums Veedel, Richtung Lövenich, Esch oder Bocklemünd. Kraft und Sprungkraft im Studio, den Treffpunkt legen wir nach deinem Wohnort fest.",
+      },
+      {
+        q: "Ich spiele im Verein. Ersetzt das Athletiktraining mein Mannschaftstraining?",
+        a: "Nein, es ergänzt es: Antritt, Sprungkraft und Stabilität, die im Mannschaftstraining zu kurz kommen. Die Einheiten plane ich um deine Spiel- und Trainingstage herum.",
+      },
+      {
+        q: "Für welches Alter ist das geeignet?",
+        a: "Für Erwachsene jedes Trainingsstands. Der Technik-Check am Anfang legt das Niveau fest, die Übungen werden daran angepasst, nicht umgekehrt.",
+      },
+      {
+        q: "Was passiert im Winter, wenn die Feldwege nass sind?",
+        a: "Dann verschiebt sich der Schwerpunkt ins Studio: mehr Kraft- und Sprungarbeit, kürzere Tempoeinheiten draußen auf festen Wegen. Der Plan rechnet die Jahreszeit von Anfang an ein.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
