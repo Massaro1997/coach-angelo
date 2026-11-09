@@ -42,10 +42,10 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 34 | /koeln/suerth/abnehmen | 0 | 18 | 16,6 | FATTA (giro 14, 08/11) |
 | 35 | /koeln/deutz/rueckentraining | 0 | 17 | 8,2 | FATTA (giro 14, 08/11; pos già buona, rafforzata senza stravolgere) |
 | 36 | /koeln/merheim/abnehmen | 0 | 17 | 12,4 | FATTA (giro 14, 08/11) |
-| 37 | /koeln/muelheim/muskelaufbau | 0 | 17 | 30,5 | in coda |
-| 38 | /koeln/suelz/athletiktraining | 0 | 17 | 45,9 | in coda |
-| 39 | /koeln/lind/ernaehrungsberatung | 0 | 17 | 75,3 | in coda |
-| 40 | /koeln/vogelsang/athletiktraining | 0 | 17 | 63,9 | in coda |
+| 37 | /koeln/muelheim/muskelaufbau | 0 | 17 | 30,5 | FATTA (giro 15, 09/11) |
+| 38 | /koeln/suelz/athletiktraining | 0 | 17 | 45,9 | FATTA (giro 15, 09/11) |
+| 39 | /koeln/lind/ernaehrungsberatung | 0 | 17 | 75,3 | FATTA (giro 15, 09/11) |
+| 40 | /koeln/vogelsang/athletiktraining | 0 | 17 | 63,9 | FATTA (giro 15, 09/11) |
 | 41 | /koeln/heimersdorf/muskelaufbau | 0 | 16 | 9,1 | in coda (pos già buona: rafforzare) |
 | 42 | /koeln/suerth/athletiktraining | 0 | 16 | 34,5 | in coda |
 
@@ -62,7 +62,7 @@ In coda dopo le prime pagine quartiere×servizio. Candidate da GSC («Le persone
 Confermate da Calogero il 06/11/2026 («i comuni intorno a Colonia falli tutti»). Angelo lavora 1-zu-1 anche in questi comuni (a casa del cliente o all'aperto); l'online coaching vale ovunque.
 
 - Rhein-Erft-Kreis: **Frechen FATTA (giro 6, 06/11)** · **Hürth FATTA (giro 9, 07/11)** · **Pulheim FATTA (giro 9, 07/11)** · **Brühl FATTA (giro 10, 07/11)** · **Wesseling FATTA (giro 13, 08/11)** · **Kerpen FATTA (giro 8, 07/11)** · **Bergheim FATTA (giro 10, 07/11)** · **Erftstadt FATTA (giro 11, 08/11)**
-- Rheinisch-Bergischer Kreis: **Bergisch Gladbach FATTA (giro 7, 07/11)** · **Rösrath FATTA (giro 13, 08/11)** · Overath · Odenthal · Burscheid · **Leichlingen FATTA (giro 14, 08/11)**
+- Rheinisch-Bergischer Kreis: **Bergisch Gladbach FATTA (giro 7, 07/11)** · **Rösrath FATTA (giro 13, 08/11)** · **Overath FATTA (giro 15, 09/11)** · Odenthal · **Burscheid FATTA (giro 15, 09/11)** · **Leichlingen FATTA (giro 14, 08/11)**
 - **Leverkusen FATTA (giro 6, 06/11)**
 - Rhein-Kreis Neuss: **Dormagen FATTA (giro 8, 07/11)**
 - Kreis Mettmann: **Langenfeld FATTA (giro 11, 08/11)** · **Monheim am Rhein FATTA (giro 12, 08/11)**
