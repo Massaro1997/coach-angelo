@@ -192,6 +192,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
       { name: "Personal Trainer Rösrath", href: "/personal-trainer-roesrath" },
       { name: "Personal Trainer Overath", href: "/personal-trainer-overath" },
+      { name: "Personal Trainer Odenthal", href: "/personal-trainer-odenthal" },
     ],
   },
   {
@@ -1167,6 +1168,64 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
       { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
       { name: "Personal Trainer Leichlingen", href: "/personal-trainer-leichlingen" },
+      { name: "Personal Trainer Odenthal", href: "/personal-trainer-odenthal" },
+    ],
+  },
+  {
+    slug: "odenthal",
+    name: "Odenthal",
+    kreis: "Rheinisch-Bergischer Kreis",
+    metaTitle: "Personal Trainer Odenthal: 1-zu-1 vor Ort",
+    metaDescription:
+      "Personal Training in Odenthal: 1-zu-1 bei dir zu Hause, draußen im Dhünntal bei Altenberg oder im Studio in Köln. 50€/Std, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Odenthal heißt: Ich komme zu dir, vom Zentrum über Blecher bis Eikamp, mit Material und Plan. Draußen trainieren wir im Dhünntal bei Altenberg, die Hügel des Bergischen übernehmen die Kraftausdauer. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Das Dhünntal bei Altenberg ist dein Trainingsrevier",
+        body: "Rund um den Altenberger Dom ziehen sich Wald- und Wanderwege durch das Tal der Dhünn, und genau dort liegt der Reiz für dein Training: Im Talgrund laufen wir ruhige Grundlagen-Einheiten und Technik, an den Hängen ringsum holen wir uns die Kraftausdauer, die das Bergische gratis liefert. Bergauf gehen oder laufen ist einer der ehrlichsten Trainingsreize überhaupt, und du hast ihn in Odenthal direkt vor der Haustür statt auf einer Studiotreppe.",
+      },
+      {
+        title: "Ich komme in alle Ortsteile, nicht nur ins Zentrum",
+        body: "Odenthal hat rund 15.000 Einwohner, die sich auf viele Ortschaften verteilen: Zentrum, Blecher, Voiswinkel, Eikamp, Altenberg und die Höfe dazwischen. Ein eigenes Studio gibt es im Ort nicht an jeder Ecke, und der Weg nach Köln ist für eine Trainingsstunde zu weit. Deshalb komme ich mit Kurzhanteln, Bändern und Plan zu dir nach Hause. Ein paar freie Quadratmeter reichen für eine vollständige Krafteinheit, im Sommer wandert das Training oft in den Garten.",
+      },
+      {
+        title: "Training, das neben dem Pendeln bestehen bleibt",
+        body: "Gependelt wird aus Odenthal meist mit dem Auto nach Leverkusen und Köln oder über Bergisch Gladbach mit der S-Bahn. Abends danach noch einmal losfahren, um zu trainieren, scheitert erfahrungsgemäß nach drei Wochen. Bei mir fällt dieser zweite Weg weg: Der Termin steht bei dir zu Hause, früh bevor du fährst oder abends nach der Rückkehr. Jede Einheit wird dokumentiert, alle vier Wochen schauen wir auf Gewichte, Wiederholungen und Zeiten und stellen den Plan nach.",
+      },
+      {
+        title: "Was es kostet und wie du startest",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, Ernährungssteuerung durch Natalie und wöchentlichem Check-in beginnt bei 150€ im Monat. Der erste Schritt ist ein kostenloses Erstgespräch über Ziel, Alltag und Trainingsort, dort klären wir auch die Anfahrt nach Odenthal. Wer schweres Langhanteltraining will, kombiniert die Termine zu Hause mit dem Studio in Köln.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Odenthal?",
+        a: "Bei mir kostet die 1-zu-1 Stunde 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, die Anfahrt klären wir dort.",
+      },
+      {
+        q: "Wo trainieren wir in Odenthal?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material oder draußen im Dhünntal rund um Altenberg. Die Hügel der Umgebung nutzen wir gezielt für Kraftausdauer, der Talgrund bleibt für ruhige Einheiten.",
+      },
+      {
+        q: "Kommst du auch nach Blecher, Voiswinkel oder Eikamp?",
+        a: "Ja, ins ganze Gemeindegebiet. Sag mir im Erstgespräch, wo du wohnst, dann planen wir Trainingsort und Termine passend dazu, oft beginnt die Einheit direkt an deiner Haustür.",
+      },
+      {
+        q: "Ist das hügelige Gelände nicht zu anstrengend für den Einstieg?",
+        a: "Nein, das Tempo bestimmt der Plan. Am Anfang steht ein Check von Kraft und Belastbarkeit, dann starten wir im Talgrund mit ruhigen Einheiten. Die Hänge kommen erst dazu, wenn die Basis steht.",
+      },
+      {
+        q: "Was ist, wenn ich an Geräten trainieren will?",
+        a: "Dann kombinieren wir die Termine zu Hause mit dem Studio in Köln. Viele machen die Kraftarbeit mit Kurzhanteln und Bändern vor Ort und fahren nur für schwere Langhantel-Einheiten in die Stadt.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
+      { name: "Personal Trainer Burscheid", href: "/personal-trainer-burscheid" },
+      { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
     ],
   },
 ];
