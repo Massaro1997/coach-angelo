@@ -1633,6 +1633,186 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "muelheim/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Mülheim nach Wettkampf-Prinzipien: Grundübungen an der Langhantel, dokumentierte Steigerung von Woche zu Woche und ein Eiweiß-Zielwert fürs Essen. Zwei Einheiten pro Woche reichen, eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau mit Personal Trainer in Köln-Mülheim: Langhantel-Grundübungen, dokumentierte Progression, Eiweiß-Zielwert. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Muskelaufbau ist ein Projekt über Monate",
+        body: "Sichtbare Muskulatur entsteht nicht in vier Wochen, sondern über eine Aufbauphase von sechs bis zwölf Monaten. Ich sage das im Erstgespräch so deutlich, weil die meisten Abbrüche nicht an der Motivation scheitern, sondern an falschen Erwartungen. Als Wettkampfathlet im WABBA-Verband baue ich deinen Plan so, wie ich meine eigenen Aufbauphasen plane: wenige Grundübungen, saubere Technik, Gewichte, die nach Protokoll steigen. Was nicht notiert ist, ist nicht passiert.",
+      },
+      {
+        title: "Training, das an deinem Mülheimer Tag andockt",
+        body: "Mülheim ist mit über 43.000 Einwohnern das größte Veedel Kölns, und ein wachsender Teil davon arbeitet rund um das Carlswerk an der Schanzenstraße, zwischen Agenturen, Werkstätten und Bühnen. Für den Muskelaufbau ist das ein Vorteil: Die Krafteinheiten liegen im Studio, und ich lege die Termine an den Rand deines Arbeitstags, früh vor dem ersten Termin oder direkt nach Feierabend. Zwei feste Slots pro Woche, die so geplant sind, dass sie auch in vollen Wochen stehen bleiben.",
+      },
+      {
+        title: "Ohne Essen wächst nichts: der Eiweiß-Zielwert",
+        body: "Muskeln entstehen aus Reiz plus Material. Das Material heißt Eiweiß, und dein Zielwert hängt an deinem Körpergewicht, nicht an Gefühl oder Shakes. Ein leichter Kalorienüberschuss gehört dazu, die alte Masse-Logik mit Pizza und Pommes nicht: Was du in einer schlampigen Aufbauphase an Fett ansammelst, musst du später wieder abtrainieren. Wer beim Essen Struktur will, bekommt sie von Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung.",
+      },
+      {
+        title: "Woran du merkst, dass es funktioniert",
+        body: "Nicht am Spiegel nach zwei Wochen, sondern an den Zahlen: mehr Gewicht auf der Langhantel bei gleicher Technik, mehr Wiederholungen bei gleichem Gewicht, wachsende Umfänge an Arm, Brust und Bein. Ich messe alle vier Wochen nach und passe den Plan an, wenn eine Zahl stehen bleibt. So trainierst du nie monatelang an einem Plateau vorbei, das man mit einer Umstellung in zwei Wochen lösen kann.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Coaching in Köln-Mülheim?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Trainingsplan per App, Eiweiß-Zielwert und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie lange dauert es, bis man Muskelaufbau sieht?",
+        a: "Kraftwerte steigen ab der ersten Woche, sichtbare Veränderungen brauchen bei sauberem Training und passendem Essen meist drei bis vier Monate. Nach sechs bis zwölf Monaten sprechen wir über eine andere Statur, nicht über Details.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche für Muskelaufbau?",
+        a: "Ja, wenn sie geplant sind. Zwei Ganzkörper-Einheiten mit Grundübungen und dokumentierter Steigerung schlagen vier planlose Studiobesuche. Mehr Volumen bauen wir erst ein, wenn dein Fortschritt es verlangt.",
+      },
+      {
+        q: "Brauche ich dafür ein Fitnessstudio in Mülheim?",
+        a: "Die schweren Langhantel-Einheiten laufen im Studio im Rahmen deiner Stunde. Ergänzende Einheiten mit Kurzhanteln und Bändern sind bei dir zu Hause möglich, viele kombinieren beides.",
+      },
+      {
+        q: "Funktioniert Muskelaufbau auch ab 40?",
+        a: "Ja. Der Aufbau läuft etwas langsamer und die Regeneration braucht mehr Beachtung, deshalb zählen Technik und Planung ab 40 doppelt. Genau dafür ist ein geführtes Programm da.",
+      },
+    ],
+  },
+
+  "suelz/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Sülz nutzt den Äußeren Grüngürtel direkt vor der Tür: Sprints und Richtungswechsel auf den Wiesen des Beethovenparks, lange Intervalle auf der flachen Runde am Decksteiner Weiher, Kraft und Sprungkraft im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Sülz: Sprints im Beethovenpark, Intervalle am Decksteiner Weiher, Kraft im Studio. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Dicht bebautes Veedel, offenes Gelände daneben",
+        body: "In Sülz leben 36.851 Menschen auf gut fünf Quadratkilometern, eng bebaut bis an die Sülzburgstraße. Aber am westlichen Rand kippt das Veedel direkt in den Äußeren Grüngürtel: Beethovenpark, dahinter die Wiesen und Wege Richtung Decksteiner Weiher. Für Athletiktraining ist diese Kombination ideal, weil das Aufwärmen auf dem Weg dorthin passiert und du keine Anfahrt brauchst, die den Termin frisst.",
+      },
+      {
+        title: "Beethovenpark und Decksteiner Weiher: zwei verschiedene Reize",
+        body: "Die großen Wiesen im Beethovenpark nehmen wir für alles Kurze und Explosive: Antritte über 20 bis 60 Meter, Richtungswechsel, Sprungserien auf weichem Boden. Die Runde am Decksteiner Weiher ist flach und bei Kölner Läufern seit Jahrzehnten etabliert, dort laufen wir längere Intervalle und Testläufe unter gleichbleibenden Bedingungen. Zwei Orte, keine zehn Minuten auseinander, die zusammen fast das komplette Ausdauer- und Schnelligkeitsprogramm abdecken.",
+      },
+      {
+        title: "Vom Technik-Check zum Plan in Zahlen",
+        body: "Am Anfang steht ein Check von Sprinttechnik, Sprungkraft und Rumpfstabilität. Daraus entsteht ein Plan mit zwei Einheiten pro Woche: eine draußen im Grüngürtel, eine im Studio für Kraft und Plyometrie. Alle vier bis sechs Wochen wird nachgemessen, Sprintzeit und Sprunghöhe schwarz auf weiß. Bewegt sich eine Zahl nicht, ändere ich den Plan und nicht die Ausrede.",
+      },
+      {
+        title: "Wer in Sülz dafür anfragt",
+        body: "Sülz ist jung und sportlich: Studierende und Mitarbeiter der nahen Uni, Läuferinnen, die ihre Weiher-Runde schneller laufen wollen, Vereinsspieler aus Fußball, Handball und Tennis, die im Winter an Schnelligkeit und Stabilität arbeiten. Athletiktraining braucht keinen Wettkampfkalender, nur ein Ziel: schneller, stabiler, belastbarer werden. Das Einstiegsniveau legt der Check fest.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Sülz?",
+        a: "50€ pro 1-zu-1 Stunde, Online Coaching mit Plan und Video-Check-ins ab 150€ im Monat. Das Erstgespräch ist kostenlos und klärt, welches Format zu deinem Ziel passt.",
+      },
+      {
+        q: "Wo genau trainieren wir in Sülz?",
+        a: "Im Beethovenpark für Sprints, Sprünge und Richtungswechsel, auf der Runde am Decksteiner Weiher für Intervalle und Testläufe, im Studio für Kraft. Treffpunkt ist meist am Parkrand, das Warm-up beginnt zu Fuß.",
+      },
+      {
+        q: "Ich laufe schon regelmäßig. Was bringt mir Athletiktraining?",
+        a: "Tempo entsteht nicht nur über Kilometer. Sprungkraft, Rumpfstabilität und Sprinttechnik machen dich effizienter, und genau die fehlen den meisten Läufern. Viele laufen nach acht bis zwölf Wochen dieselbe Runde spürbar schneller.",
+      },
+      {
+        q: "Ist das auch ohne Vereinssport sinnvoll?",
+        a: "Ja. Schnelligkeit, Stabilität und Belastbarkeit helfen im Alltag genauso wie im Sport. Die Übungen werden an dein Niveau angepasst, der Check am Anfang legt den Startpunkt fest.",
+      },
+    ],
+  },
+
+  "lind/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Lind läuft bei uns komplett online: Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, plant deine Woche um den einen großen Einkauf herum, der im Dorf nun mal die Regel ist. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung für Köln-Lind mit Natalie: Wochenplan um den großen Einkauf, Vorrat statt Spontankauf, Eiweißziel aufs Training abgestimmt. Online, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Im Dorf entscheidet der Einkauf, nicht die Disziplin",
+        body: "Lind ist mit 3.691 Einwohnern eines der kleinsten Veedel von Porz, und wer hier wohnt, kauft nicht spontan um die Ecke ein, sondern plant: einmal groß, mit dem Auto, meist Richtung Porz oder Wahn. Für die Ernährung ist das keine Schwäche, sondern ein Hebel. Ein Kühlschrank, der nach Plan gefüllt wurde, trifft die Abendentscheidung von Dienstag schon am Samstag. Natalie baut deine Woche genau um diesen Rhythmus herum, statt einen Großstadtplan über ein Dorf zu legen.",
+      },
+      {
+        title: "Eine Einkaufsliste pro Woche, ein Vorrat, der trägt",
+        body: "Der Kern der Beratung ist konkret: ein Kalorien- und Eiweißziel, das zu deinem Training passt, eine Einkaufsliste für den Wochenkauf und ein Vorrat aus Tiefkühlgemüse, Hülsenfrüchten und Eiweißquellen, der auch dann noch eine gute Mahlzeit hergibt, wenn der Plan der Woche längst gerissen ist. Gemessen wird am Wochenschnitt, nicht am einzelnen Tag, und nachjustiert wird alle paar Wochen anhand deiner Zahlen.",
+      },
+      {
+        title: "Mahlzeiten, die das Pendeln überleben",
+        body: "Von Lind aus wird gependelt, viele arbeiten am nahen Flughafen Köln/Bonn oder fahren über die A59 in die Stadt. Die kritischen Kalorien eines Pendlertags stecken selten im Mittagessen, sondern in dem, was unterwegs dazukommt: Tankstelle, Bäckertüte, Automat. Natalie plant deshalb Mahlzeiten, die sich vorbereiten und mitnehmen lassen, und setzt feste Essenszeiten, die zu deinen Arbeitszeiten passen, nicht zu einem Lehrbuch.",
+      },
+      {
+        title: "Beratung am Bildschirm, Bewegung in der Heide",
+        body: "Die Beratung läuft per Video, ohne Fahrt: Erstgespräch, Plan, dann regelmäßige Check-ins, bei denen Natalie anhand von Gewichtsverlauf und Umfängen nachsteuert. Wer Bewegung dazulegen will, hat in Lind die Wahner Heide am Ortsrand für feste Spaziergänge oder kombiniert die Beratung mit Training bei mir, zu Hause oder draußen. Pflicht ist das nicht: Die Ernährungsberatung steht auch allein.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Lind?",
+        a: "Sie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Wie läuft die Beratung ab, wenn alles online ist?",
+        a: "Erstgespräch per Video, danach bekommst du Wochenplan und Einkaufsliste. In den Check-ins schaut Natalie auf Gewichtsverlauf, Umfänge und deine Rückmeldungen und passt den Plan an. Du brauchst nur Handy oder Laptop.",
+      },
+      {
+        q: "Muss ich jede Mahlzeit abwiegen und tracken?",
+        a: "Nein. Am Anfang helfen zwei, drei Wochen Tracking, um ein Gefühl für Portionen zu bekommen. Danach arbeitet der Plan mit Baukasten-Mahlzeiten und Portionslogik, die ohne Waage im Alltag funktioniert.",
+      },
+      {
+        q: "Funktioniert der Plan auch vegetarisch?",
+        a: "Ja. Der Eiweiß-Zielwert bleibt derselbe, die Quellen ändern sich: Eier, Milchprodukte, Hülsenfrüchte, Tofu. Natalie plant das von Anfang an so ein, statt ein Fleischrezept zu halbieren.",
+      },
+      {
+        q: "Kann ich Beratung und Training kombinieren?",
+        a: "Ja. Viele kombinieren die Online-Beratung mit 1-zu-1 Training für 50€ pro Stunde, in Lind meist bei dir zu Hause oder draußen am Heiderand. Was sinnvoll ist, klären wir im kostenlosen Erstgespräch.",
+      },
+    ],
+  },
+
+  "vogelsang/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Vogelsang hat kurze Wege: Antritte und Sprungserien auf den Wiesen des Äußeren Grüngürtels am Veedelsrand, lange Intervalle Richtung Jahnwiesen am Sportpark Müngersdorf, Kraft im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Vogelsang: Sprints im Äußeren Grüngürtel, Intervalle an den Jahnwiesen beim Sportpark Müngersdorf, Kraft im Studio. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Ein ruhiges Veedel mit Sportgelände nebenan",
+        body: "Vogelsang ist mit 8.336 Einwohnern auf 3,64 km² eines der ruhigeren Veedel im Bezirk Ehrenfeld: viel Wohnbebauung, wenig Durchgangsverkehr, und am Rand beginnt der Äußere Grüngürtel. Was Vogelsang besonders macht, ist die Nachbarschaft nach Süden: hinter Müngersdorf liegt der Sportpark Müngersdorf, das größte zusammenhängende Sportgelände der Stadt. Du wohnst also in Laufweite von Flächen, für die andere Kölner quer durch die Stadt fahren.",
+      },
+      {
+        title: "Grüngürtel für das Kurze, Jahnwiesen für das Lange",
+        body: "Die Wiesen und Wege des Äußeren Grüngürtels direkt am Veedel nutze ich für Antritte, Steigerungsläufe und Sprungserien auf weichem Boden. Für längere Intervalle laufen wir Richtung Jahnwiesen am Sportpark Müngersdorf: offene, flache Rasenflächen mit genug Platz, um Abschnitte sauber zu messen und Woche für Woche zu vergleichen. Beides erreichst du aus Vogelsang ohne Auto, das Aufwärmen passiert auf dem Weg.",
+      },
+      {
+        title: "Schnelligkeit und Sprungkraft brauchen auch Kraft",
+        body: "Draußen entsteht Tempo, im Studio entsteht die Basis dafür: Beinkraft an der Langhantel, Plyometrie mit sauberer Landetechnik, Rumpfarbeit gegen das Einknicken im Antritt. Der Plan hat zwei Einheiten pro Woche, eine draußen, eine drinnen, und alle vier bis sechs Wochen einen Testtag mit Sprintzeit und Sprunghöhe. Trainiert wird nach diesen Zahlen, nicht nach Gefühl.",
+      },
+      {
+        title: "Für Vereinsspieler und Wiedereinsteiger",
+        body: "Typische Anfragen aus Vogelsang und Umgebung: Fußballer und Handballerinnen aus den Vereinen im Kölner Westen, die explosiver werden wollen, Läufer mit dem Ziel einer schnelleren Runde, und Leute, die nach Jahren Pause wieder belastbar werden möchten. Das Niveau ist egal, der Technik-Check am Anfang legt den Startpunkt fest, gesteigert wird erst, wenn die Bewegung sitzt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Vogelsang?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App und Video-Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo trainieren wir in Vogelsang?",
+        a: "Im Äußeren Grüngürtel direkt am Veedel für Sprints und Sprünge, an den Jahnwiesen beim Sportpark Müngersdorf für längere Intervalle, im Studio für Kraft und Plyometrie.",
+      },
+      {
+        q: "Brauche ich Vorerfahrung für Athletiktraining?",
+        a: "Nein. Der Technik-Check am Anfang zeigt, wo du stehst, und die Übungen werden darauf angepasst. Gerade Einsteiger profitieren schnell von besserer Stabilität und Körperspannung.",
+      },
+      {
+        q: "Wie schnell sehe ich Fortschritte?",
+        a: "Sprintzeit und Sprunghöhe messen wir alle vier bis sechs Wochen. Die meisten sehen nach zwei Messungen, also nach acht bis zwölf Wochen, einen klaren Unterschied in den Zahlen.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
