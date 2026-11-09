@@ -133,6 +133,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
       { name: "Personal Trainer Dormagen", href: "/personal-trainer-dormagen" },
       { name: "Personal Trainer Leichlingen", href: "/personal-trainer-leichlingen" },
+      { name: "Personal Trainer Burscheid", href: "/personal-trainer-burscheid" },
     ],
   },
   {
@@ -190,6 +191,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
       { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
       { name: "Personal Trainer Rösrath", href: "/personal-trainer-roesrath" },
+      { name: "Personal Trainer Overath", href: "/personal-trainer-overath" },
     ],
   },
   {
@@ -936,6 +938,7 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Troisdorf", href: "/personal-trainer-troisdorf" },
       { name: "Personal Trainer Köln-Rath/Heumar", href: "/koeln/rath-heumar" },
       { name: "Personal Trainer Lohmar", href: "/personal-trainer-lohmar" },
+      { name: "Personal Trainer Overath", href: "/personal-trainer-overath" },
     ],
   },
   {
@@ -1050,6 +1053,120 @@ export const umlandOrte: UmlandOrt[] = [
       { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
       { name: "Personal Trainer Langenfeld", href: "/personal-trainer-langenfeld" },
       { name: "Personal Trainer Monheim am Rhein", href: "/personal-trainer-monheim-am-rhein" },
+      { name: "Personal Trainer Burscheid", href: "/personal-trainer-burscheid" },
+    ],
+  },
+  {
+    slug: "overath",
+    name: "Overath",
+    kreis: "Rheinisch-Bergischer Kreis",
+    metaTitle: "Personal Trainer Overath: 1-zu-1 im Bergischen",
+    metaDescription:
+      "Personal Training in Overath: 1-zu-1 bei dir zu Hause, im Aggertal oder an den Hängen Richtung Marialinden. 50€/Std, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Overath heißt: Das Bergische Land ist dein Trainingsgerät. Flache Grundlagen im Aggertal, Kraftausdauer an den Hängen Richtung Marialinden, die Krafteinheit bei dir zu Hause mit mitgebrachtem Material. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Das Auf und Ab ist hier der Trainingsplan",
+        body: "Rund 27.000 Menschen leben in Overath, verteilt auf Ortschaften zwischen Aggertal und Höhenzügen: unten am Fluss der Hauptort, Vilkerath und Steinenbrück, oben Marialinden auf dem Rücken. Dieses Profil nehme ich ins Training: ruhige, flache Abschnitte an der Agger für Grundlagen und Technik, die Steigungen hinauf zu den Höhendörfern für Kraftausdauer und Antritte bergauf. Was Flachland-Kölner im Studio simulieren müssen, liegt hier vor deiner Tür.",
+      },
+      {
+        title: "Vom Hauptort bis Immekeppel: ich komme zu dir",
+        body: "Overath ist weitläufig, und genau deshalb bringe ich das Training dorthin, wo du wohnst, ob im Zentrum, in Untereschbach, Immekeppel, Vilkerath oder oben in Marialinden. Kurzhanteln, Widerstandsbänder und Plan habe ich dabei, ein freies Stück Wohnzimmer, Garage oder Garten reicht für eine vollständige Krafteinheit. Wer zusätzlich schwer an der Langhantel arbeiten will, kombiniert das mit dem Studio in Köln.",
+      },
+      {
+        title: "Mit der RB 25 oder über die A4: Training um das Pendeln herum",
+        body: "Viele Overather pendeln nach Köln, mit der RB 25 vom eigenen Bahnhof oder über die A4. Der Sport verliert gegen diese Fahrzeiten fast immer, wenn er einen zweiten Weg verlangt. Deshalb plane ich die Termine an die Ränder deines Tages: früh, bevor der Zug fährt, oder abends direkt nach der Rückkehr, ohne dass du noch einmal losfahren musst. Zwei feste Einheiten pro Woche, dokumentiert, mit messbaren Schritten.",
+      },
+      {
+        title: "Kosten und erster Schritt",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, Ernährungssteuerung durch Natalie und wöchentlichem Check-in beginnt bei 150€ im Monat. Den Anfang macht ein kostenloses Erstgespräch: Ziel, Ausgangslage, Trainingsort, und auch die Anfahrt nach Overath klären wir dort offen. Danach entscheidest du in Ruhe, ob wir zusammenarbeiten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Overath?",
+        a: "Die 1-zu-1 Stunde kostet bei mir 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, die Anfahrt klären wir dort.",
+      },
+      {
+        q: "Wo trainieren wir in Overath?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, draußen im Aggertal oder an den Steigungen Richtung Marialinden. Für schweres Langhanteltraining steht das Studio in Köln bereit.",
+      },
+      {
+        q: "Kommst du auch nach Marialinden oder Immekeppel?",
+        a: "Ja, das Angebot gilt im ganzen Stadtgebiet, von Steinenbrück über Untereschbach und Vilkerath bis zu den Höhendörfern. Sag im Erstgespräch, wo du wohnst, dann planen wir passend.",
+      },
+      {
+        q: "Ich bin keine Bergziege. Sind die Steigungen Pflicht?",
+        a: "Nein. Die Hänge sind ein Werkzeug, kein Programm. Wir starten dort, wo du stehst, oft mit flachen Einheiten an der Agger, und nehmen Steigungen erst dazu, wenn Technik und Grundlage sitzen.",
+      },
+      {
+        q: "Geht auch reines Online Coaching?",
+        a: "Ja. Trainingsplan per App, wöchentliche Video-Check-ins und Ernährungssteuerung funktionieren von überall, viele kombinieren das mit einzelnen 1-zu-1 Terminen vor Ort.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Rösrath", href: "/personal-trainer-roesrath" },
+      { name: "Personal Trainer Bergisch Gladbach", href: "/personal-trainer-bergisch-gladbach" },
+      { name: "Personal Trainer Lohmar", href: "/personal-trainer-lohmar" },
+    ],
+  },
+  {
+    slug: "burscheid",
+    name: "Burscheid",
+    kreis: "Rheinisch-Bergischer Kreis",
+    metaTitle: "Personal Trainer Burscheid: 1-zu-1 vor Ort",
+    metaDescription:
+      "Personal Training in Burscheid: 1-zu-1 bei dir zu Hause oder draußen auf der Balkantrasse. 50€/Std, Online Coaching ab 150€/Monat, Erstberatung kostenlos.",
+    h1Prefix: "Personal Trainer in",
+    answer:
+      "Personal Training in Burscheid nutzt die Balkantrasse als Laufbahn: Der alte Bahndamm ist flach, asphaltiert und frei von Autos, perfekt für messbare Intervalle mitten im Bergischen. Die Kraftarbeit kommt zu dir nach Hause. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    sections: [
+      {
+        title: "Die Balkantrasse ist Burscheids beste Trainingsfläche",
+        body: "Wo früher die Bahn von Opladen ins Bergische fuhr, läuft heute die Balkantrasse mitten durch Burscheid: ein asphaltierter, nahezu ebener Weg ohne Kreuzungsverkehr, im Winter wie im Sommer nutzbar. Für das Training ist das ein Geschenk, denn das Bergische hat sonst fast nur Auf und Ab. Auf der Trasse laufen wir Intervalle und Testabschnitte unter immer gleichen Bedingungen, und die Hügel ringsum nehmen wir gezielt dazu, wenn Kraftausdauer dran ist.",
+      },
+      {
+        title: "Zu Hause trainieren, zwischen Hilgen und dem Zentrum",
+        body: "Burscheid hat gut 18.000 Einwohner und kein großes Studio-Angebot vor Ort, gependelt wird über die A1 nach Leverkusen und Köln. Deshalb drehe ich den Weg um: Ich komme mit Kurzhanteln, Bändern und Plan zu dir, ins Zentrum genauso wie nach Hilgen oder in die Außenortschaften. Ein paar freie Quadratmeter reichen für eine vollständige Krafteinheit, und der Termin steht auch dann, wenn der Feierabend spät beginnt.",
+      },
+      {
+        title: "Zwei feste Einheiten, ein Plan, ehrliche Zahlen",
+        body: "Am Anfang steht ein Check von Beweglichkeit, Kraft und Belastbarkeit. Daraus wird ein Plan mit zwei festen Terminen pro Woche, bei dem jede Übung dokumentiert wird: Gewichte, Wiederholungen, Zeiten auf der Trasse. Alle vier Wochen schauen wir gemeinsam auf die Zahlen und stellen nach. So weißt du immer, ob sich etwas bewegt, statt es am Spiegel zu raten.",
+      },
+      {
+        title: "Was es kostet und wie du startest",
+        body: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, Ernährungssteuerung durch Natalie und wöchentlichem Check-in beginnt bei 150€ im Monat. Der erste Schritt ist ein kostenloses Erstgespräch über Ziel, Alltag und Trainingsort, dort klären wir auch die Anfahrt nach Burscheid. Entschieden wird danach, in Ruhe und ohne Druck.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Burscheid?",
+        a: "Bei mir kostet die 1-zu-1 Stunde 50€, das Online Coaching beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos, die Anfahrt klären wir dort.",
+      },
+      {
+        q: "Wo trainieren wir in Burscheid?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material oder draußen, vor allem auf der Balkantrasse für Läufe und Intervalle. Wer schwer an der Langhantel arbeiten will, kombiniert das mit dem Studio in Köln.",
+      },
+      {
+        q: "Trainierst du auch in Hilgen?",
+        a: "Ja, im ganzen Stadtgebiet, vom Zentrum über Hilgen bis in die kleineren Ortschaften. Die Balkantrasse verbindet die Ortsteile, oft beginnt die Einheit direkt an deiner Haustür.",
+      },
+      {
+        q: "Ich pendle über die A1. Wann soll das Training stattfinden?",
+        a: "Früh vor der Fahrt, abends nach der Rückkehr oder am Wochenende. Weil ich zu dir komme, fällt der zweite Weg weg, und genau daran scheitert sonst das meiste. Das Online Coaching überbrückt volle Wochen.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Wie steigen wir ein?",
+        a: "Mit einem Check am Anfang und zwei ruhigen Einheiten pro Woche. Gesteigert wird erst, wenn die Technik sitzt. Die flache Trasse ist dafür ein idealer Startpunkt, weil du Tempo und Strecke fein dosieren kannst.",
+      },
+    ],
+    links: [
+      { name: "Personal Trainer Köln", href: "/personal-trainer-koeln" },
+      { name: "Personal Trainer Leverkusen", href: "/personal-trainer-leverkusen" },
+      { name: "Personal Trainer Leichlingen", href: "/personal-trainer-leichlingen" },
     ],
   },
 ];
