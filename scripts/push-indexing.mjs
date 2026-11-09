@@ -46,13 +46,24 @@ function priority(url) {
 }
 
 async function main() {
-  const xml = await (await fetch(SITEMAP_URL)).text();
-  const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
-  urls.sort((a, b) => priority(a) - priority(b));
-  console.log(`Sitemap: ${urls.length} URL`);
+  // Modalità mirata (regola RankX: max 20 URL a giro, solo pagine cambiate davvero):
+  // node scripts/push-indexing.mjs https://www.fitprimo.de/pagina1 [url2 ...]
+  // Senza URL espliciti lo script svuota la coda della sitemap intera: NON usarlo
+  // così nei giri, spinge centinaia di URL e brucia la quota condivisa.
+  const explicit = args.filter((a) => a.startsWith("https://"));
+  let urls;
+  if (explicit.length > 0) {
+    urls = explicit.slice(0, 20);
+    console.log(`Push mirato: ${urls.length} URL`);
+  } else {
+    const xml = await (await fetch(SITEMAP_URL)).text();
+    urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+    urls.sort((a, b) => priority(a) - priority(b));
+    console.log(`Sitemap: ${urls.length} URL`);
+  }
 
   const state = existsSync(STATE_FILE) ? JSON.parse(readFileSync(STATE_FILE, "utf8")) : { pushed: {} };
-  const todo = urls.filter((u) => !state.pushed[u]);
+  const todo = explicit.length > 0 ? urls : urls.filter((u) => !state.pushed[u]);
   const batch = todo.slice(0, LIMIT);
   console.log(`Già pushati: ${urls.length - todo.length} · Da fare: ${todo.length} · Batch oggi: ${batch.length}${DRY ? " (DRY RUN)" : ""}`);
 
