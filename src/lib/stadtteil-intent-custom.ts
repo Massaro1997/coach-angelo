@@ -1813,6 +1813,241 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "heimersdorf/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Heimersdorf läuft über zwei geführte Krafteinheiten pro Woche: Grundübungen mit dokumentierter Steigerung, bei dir zu Hause mit mitgebrachtem Material oder im Studio, dazu ein Eiweiß-Zielwert fürs Essen. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau mit Personal Trainer in Köln-Heimersdorf: Grundübungen mit Protokoll, zu Hause oder im Studio, Eiweiß-Zielwert inklusive. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Krafttraining, das ins Reihenhaus passt",
+        body: "Heimersdorf ist ein ruhiges Veedel im Kölner Norden: 6.278 Einwohner auf 1,75 km², viele Reihenhäuser mit Garten, gewachsene Nachbarschaften. Ein großes Fitnessstudio musst du hier nicht suchen, und für den Muskelaufbau brauchst du es auch nicht zwingend. Ich komme mit Kurzhanteln, Bändern und Plan zu dir: Kniebeugen-Varianten, Rudern, Drücken, alles lässt sich im Wohnzimmer, im Keller oder im Garten sauber ausführen. Wer schwer an der Langhantel arbeiten will, kombiniert die Hausbesuche mit Einheiten im Studio, die Linie 15 hält direkt im Veedel.",
+      },
+      {
+        title: "Aufbau nach Protokoll, nicht nach Gefühl",
+        body: "Muskeln wachsen, wenn der Reiz von Woche zu Woche planbar steigt. Deshalb wird bei mir jede Einheit dokumentiert: Übung, Gewicht, Wiederholungen, Pausenzeit. Als Wettkampfathlet im WABBA-Verband plane ich deine Aufbauphase so, wie ich meine eigenen plane, über sechs bis zwölf Monate, mit wenigen Grundübungen und sauberer Technik. Alle vier Wochen vergleichen wir die Zahlen. Steht eine Übung still, wird der Plan umgestellt, bevor du Monate auf einem Plateau verlierst.",
+      },
+      {
+        title: "Essen fürs Wachstum, ohne den Familientisch umzubauen",
+        body: "Ohne Baumaterial kein Aufbau: dein Eiweiß-Zielwert hängt am Körpergewicht und muss auch an Tagen stehen, an denen abends das Familienessen auf dem Tisch steht. Genau dafür bekommst du von mir einfache Regeln statt Spezialgerichte, und wer mehr Struktur will, arbeitet mit Natalie, unserer Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ein leichter Kalorienüberschuss reicht; wer im Aufbau wahllos isst, trainiert das Fett später mühsam wieder ab.",
+      },
+      {
+        title: "Für wen das in Heimersdorf gedacht ist",
+        body: "Die typische Anfrage aus dem Kölner Norden kommt nicht vom 20-jährigen Studiogänger, sondern von Berufstätigen und Eltern ab 35, die nach Jahren wieder Muskulatur aufbauen wollen, oft mit dem Hinweis vom Arzt, etwas für Kraft und Knochen zu tun. Dafür ist das Format gebaut: zwei feste Termine pro Woche, die auch neben Pendelzeiten und Familienkalender stehen bleiben, und als Ausgleich die Runde am Fühlinger See, der nur ein Veedel weiter liegt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Heimersdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Trainingsplan per App, Eiweiß-Zielwert und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Kann man zu Hause wirklich Muskeln aufbauen?",
+        a: "Ja, wenn Widerstand und Steigerung stimmen. Mit Kurzhanteln, Bändern und dem eigenen Körpergewicht deckst du die ersten sechs bis zwölf Monate gut ab. Danach lohnt für manche Ziele die Kombination mit der Langhantel im Studio.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Kraftwerte steigen ab den ersten Wochen, sichtbare Veränderung braucht bei sauberem Training und passendem Essen meist drei bis vier Monate. Ich messe alle vier Wochen nach, damit du den Fortschritt an Zahlen siehst statt am Spiegelgefühl.",
+      },
+      {
+        q: "Funktioniert Muskelaufbau auch ab 40 oder 50?",
+        a: "Ja, gerade dann lohnt er sich: Muskulatur schützt Gelenke und Knochen. Der Aufbau läuft etwas langsamer, die Regeneration braucht mehr Platz im Plan, deshalb zählen Technik und Dosierung doppelt.",
+      },
+      {
+        q: "Wo trainieren wir in Heimersdorf?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, das ist hier der Normalfall. Alternativ im Studio, mit der Linie 15 oder dem Auto gut erreichbar. Viele kombinieren beides je nach Woche.",
+      },
+    ],
+  },
+
+  "suerth/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Sürth nutzt das flache Rheinufer als Messstrecke: Sprints und Intervalle auf dem Leinpfad Richtung Weiß, Technik und Rumpfarbeit auf den Wiesen am Wasser, Kraft und Sprungkraft im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Sürth: Sprints und Intervalle auf dem flachen Leinpfad am Rhein, Kraft und Sprungkraft im Studio, messbare Tests. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Der Leinpfad am Rhein ist deine Laufbahn",
+        body: "Sürth liegt direkt am Strom, und der Uferweg Richtung Weiß und Rodenkirchen ist flach, gerade und frei von Ampeln. Für Athletiktraining ist das entscheidend: Sprints über 30 bis 100 Meter und Tempointervalle lassen sich hier unter gleichbleibenden Bedingungen laufen, also kann ich deine Zeiten von Monat zu Monat ehrlich vergleichen. Der Wind vom Rhein kommt als Trainingsreiz dazu, Tempoarbeit gegen Gegenwind baut eine Basis auf, die auf dem Laufband nicht entsteht.",
+      },
+      {
+        title: "Schnelligkeit draußen, Kraft im Studio",
+        body: "Dein Plan hat zwei Bausteine. Draußen am Wasser arbeiten wir an Sprinttechnik, Tempo und Richtungswechseln auf den Wiesen am Ufer. Im Studio kommen Langhantel-Kraft und Sprungkraft dazu, denn wer schneller werden will, braucht Beine, die Kraft in den Boden bringen. Alle vier bis sechs Wochen stehen Tests an: Sprintzeit, Sprunghöhe, Rumpfstabilität. Trainiert wird nach diesen Zahlen, nicht nach Gefühl.",
+      },
+      {
+        title: "Für Vereinssportler und ambitionierte Läufer im Kölner Süden",
+        body: "Typische Anfragen aus Sürth und den Nachbarveedeln kommen von Fußballern und Tennisspielern aus den Vereinen des Südens, die in ihrem Sport explosiver werden wollen, und von Läufern, die seit Jahren dieselbe Runde in derselben Zeit laufen. Athletiktraining setzt genau da an: ein Technik-Check am Anfang zeigt, wo der Hebel liegt, oft bei Sprungkraft und Rumpf, nicht bei mehr Kilometern.",
+      },
+      {
+        title: "Termine, die den Pendlertag überleben",
+        body: "Sürth hat gut 11.000 Einwohner, und viele davon fahren morgens mit der Linie 16 oder über die Rheinuferstraße in die Stadt. Deshalb lege ich Einheiten an den Rand des Tages: früh am Wasser, bevor die Bahn fährt, oder abends als Feierabend-Einheit ab deiner Haustür. Das Aufwärmen beginnt auf dem Weg zum Ufer, nach 60 Minuten bist du zurück.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Sürth?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Plan per App und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir in Sürth?",
+        a: "Sprints und Intervalle auf dem flachen Leinpfad am Rhein Richtung Weiß, Technik und Rumpf auf den Uferwiesen, Kraft und Sprungkraft im Studio. Den Mix lege ich nach Ziel und Jahreszeit fest.",
+      },
+      {
+        q: "Ich bin kein Wettkampfsportler. Passt Athletiktraining trotzdem?",
+        a: "Ja. Athletiktraining heißt schneller, stabiler und belastbarer werden, das hilft im Verein, beim Laufen und im Alltag. Dein Einstiegsniveau bestimmt der Technik-Check am Anfang, nicht ein Wettkampfkalender.",
+      },
+      {
+        q: "Wie oft pro Woche ist sinnvoll?",
+        a: "Zwei geführte Einheiten pro Woche reichen, eine für Schnelligkeit draußen, eine für Kraft. Dazu bekommst du kurze Hausaufgaben von 15 bis 20 Minuten für die Tage dazwischen.",
+      },
+      {
+        q: "Was passiert bei Regen?",
+        a: "Techniktraining und Intervalle gehen bei fast jedem Wetter, der Leinpfad ist asphaltiert. Bei echtem Unwetter tauschen wir die Einheit gegen Kraft im Studio, der Plan läuft ohne Lücke weiter.",
+      },
+    ],
+  },
+
+  "deutz/personal-training": {
+    answer:
+      "Personal Training in Köln-Deutz heißt bei mir: 1-zu-1 mit Plan und dokumentierter Steigerung, die Einheit startet an deinem Büro oder deiner Wohnung, trainiert wird im Rheinpark, bei dir zu Hause oder im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Deutz: 1-zu-1 mit Plan und Progression, im Rheinpark, zu Hause oder im Studio, Termine früh, mittags und abends. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Training von Tür zu Tür, zwischen Bahnhof, Messe und Rhein",
+        body: "Deutz ist ein Veedel der Wege: 15.644 Menschen wohnen hier, Zehntausende kommen täglich zu Messe, LANXESS Arena und in die Büros rund um den Bahnhof Deutz. Wer so einen Tag hat, scheitert selten am Willen, sondern am zweiten Weg nach Feierabend. Deshalb plane ich Einheiten von Tür zu Tür: Start an deinem Büro oder deiner Wohnung, das Warm-up passiert auf dem Weg in den Rheinpark, nach 60 Minuten bist du zurück. Auch eine lange Mittagspause reicht, wenn der Ablauf steht.",
+      },
+      {
+        title: "Der Rheinpark ist das Freiluftstudio von Deutz",
+        body: "Für die Einheiten draußen nutze ich den Rheinpark: weite Wiesen für Zirkel und Technik, flache Wege am Wasser für Intervalle, die Treppen am Rheinboulevard für Beine und Ausdauer. Die schwere Kraftarbeit an der Langhantel bleibt im Studio, ergänzende Einheiten mit Kurzhanteln und Bändern sind bei dir zu Hause möglich. Welcher Mix passt, hängt an deinem Ziel, nicht an einem festen Schema.",
+      },
+      {
+        title: "Ein Plan, der sich an Zahlen messen lässt",
+        body: "Am Anfang steht ein Check: Beweglichkeit, Kraft, Belastbarkeit, dazu dein Ziel in einem Satz. Daraus baue ich den Plan, meist zwei feste Einheiten pro Woche, und dokumentiere jede davon: Gewichte, Wiederholungen, Zeiten. Alle vier Wochen schauen wir gemeinsam auf die Entwicklung und stellen nach. Du weißt immer, ob sich etwas bewegt, statt es zu raten.",
+      },
+      {
+        title: "Wer in Deutz bei mir trainiert",
+        body: "Meist Berufstätige mit viel Sitzzeit und wenig Puffer im Kalender: das Ziel ist Kraft, ein gesunder Rücken oder einfach wieder Kondition für den Alltag. Dazu kommen Deutzer, die fürs Abnehmen eine Struktur suchen, und Wiedereinsteiger nach Jahren Pause. Das Erstgespräch ist kostenlos, dort legen wir Ziel, Trainingsort und Termine fest, und du entscheidest danach in Ruhe.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Deutz?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo trainieren wir in Deutz?",
+        a: "Im Rheinpark und am Rheinboulevard, bei dir zu Hause mit mitgebrachtem Material oder im Studio. Viele kombinieren: Kraft im Studio, der Rest draußen am Wasser.",
+      },
+      {
+        q: "Geht Training in der Mittagspause?",
+        a: "Ja, wenn dein Büro in Deutz liegt. 60 Minuten von Tür zu Tür sind machbar, weil Rheinpark und Boulevard direkt vor der Haustür liegen. Duschen klären wir je nach Standort im Erstgespräch.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Wie starten wir?",
+        a: "Mit dem Check am Anfang und zwei ruhigen Einheiten pro Woche. Gesteigert wird erst, wenn die Technik sitzt. Der Plan holt dich da ab, wo du stehst, nicht da, wo du vor zehn Jahren warst.",
+      },
+      {
+        q: "Trainierst du auch früh morgens oder spät abends?",
+        a: "Ja. Gerade in Deutz lege ich Termine an den Rand des Arbeitstags, früh vor dem ersten Termin oder nach Feierabend. Feste Slots halten den Plan auch in vollen Wochen am Leben.",
+      },
+    ],
+  },
+
+  "duennwald/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Dünnwald: zwei geführte Krafteinheiten pro Woche bei dir zu Hause oder im Studio, Grundübungen mit dokumentierter Steigerung, dazu ein Eiweiß-Zielwert fürs Essen und der Wald vor der Tür für die Erholung. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau mit Personal Trainer in Köln-Dünnwald: Grundübungen mit Protokoll zu Hause oder im Studio, Eiweiß-Zielwert, Regeneration im Wald. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Der Wald baut keine Muskeln, die Hantel schon",
+        body: "Dünnwald ist mit 10,84 km² eines der grünsten Veedel Kölns: Dünnwalder Wald, Wildpark, Höhenfelder See. Zum Spazieren und Laufen ist das ideal, aber Muskulatur entsteht nicht auf dem Waldweg, sondern unter Last. Deshalb drehe ich die Rollen klar: Der Aufbau passiert an Kurzhanteln, Bändern und Langhantel, mit Gewichten, die nach Protokoll steigen. Der Wald übernimmt den zweiten Job, der im Aufbau unterschätzt wird: lockere Bewegung an trainingsfreien Tagen, die die Regeneration beschleunigt.",
+      },
+      {
+        title: "Hausbesuch statt Anfahrt quer durch den Kölner Osten",
+        body: "Dünnwald liegt am Stadtrand Richtung Leverkusen, und wer hier wohnt, hat kein großes Studio um die Ecke. Also komme ich zu dir: Kurzhanteln, Bänder und Plan bringe ich mit, ein paar freie Quadratmeter im Wohnzimmer, Keller oder Garten reichen für eine vollständige Krafteinheit. Wer zusätzlich schwer an der Langhantel arbeiten will, kombiniert die Hausbesuche mit Studioterminen, viele Kunden wechseln je nach Woche.",
+      },
+      {
+        title: "Sechs bis zwölf Monate, geplant wie eine Wettkampfvorbereitung",
+        body: "Als Wettkampfathlet im WABBA-Verband plane ich deine Aufbauphase mit denselben Werkzeugen wie meine eigene: wenige Grundübungen, saubere Technik, jede Einheit dokumentiert. Alle vier Wochen werden Gewichte, Wiederholungen und Umfänge verglichen. Bleibt eine Zahl stehen, stelle ich den Plan um. Dazu gehört dein Eiweiß-Zielwert nach Körpergewicht und ein leichter Kalorienüberschuss; wer Struktur beim Essen will, arbeitet mit Natalie, unserer Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung.",
+      },
+      {
+        title: "Für wen das in Dünnwald passt",
+        body: "Hierher ziehen Familien und Menschen, die bewusst mehr Ruhe wollen als in Mülheim oder der Innenstadt. Entsprechend sehen die Anfragen aus: Berufstätige ab 35, die nach Jahren wieder Kraft aufbauen wollen, Eltern, die das Training in den Familienkalender schieben müssen, Männer und Frauen, denen der Arzt Krafttraining für Rücken und Knochen empfohlen hat. Zwei feste Termine pro Woche, die stehen bleiben, sind hier mehr wert als jeder Studiovertrag.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Dünnwald?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Trainingsplan per App, Eiweiß-Zielwert und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich eigene Geräte für das Training zu Hause?",
+        a: "Nein. Kurzhanteln, Bänder und alles Weitere bringe ich mit. Erst wenn dein Fortschritt schwerere Lasten verlangt, sprechen wir über Studio-Einheiten oder eine kleine Grundausstattung.",
+      },
+      {
+        q: "Wie lange dauert es, bis man etwas sieht?",
+        a: "Kraftwerte steigen ab der ersten Woche, sichtbare Veränderung braucht meist drei bis vier Monate. Eine ehrliche Aufbauphase läuft über sechs bis zwölf Monate, das sage ich im Erstgespräch so deutlich, weil falsche Erwartungen der häufigste Abbruchgrund sind.",
+      },
+      {
+        q: "Hilft Laufen im Dünnwalder Wald beim Muskelaufbau?",
+        a: "Direkt nicht, aber indirekt: lockere Runden an trainingsfreien Tagen fördern die Durchblutung und die Erholung. Zu viel Ausdauer bremst den Aufbau allerdings, deshalb wird auch das im Plan dosiert.",
+      },
+      {
+        q: "Funktioniert das auch ab 40 oder 50?",
+        a: "Ja, gerade dann. Muskulatur schützt Gelenke und Knochen und hält den Stoffwechsel hoch. Der Aufbau läuft langsamer als mit 25, deshalb zählen saubere Technik und ein Plan, der die Regeneration ernst nimmt.",
+      },
+    ],
+  },
+
+  "ehrenfeld/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Ehrenfeld plane ich über ein Wochenbudget statt Verbotslisten: zwei Krafteinheiten pro Woche, ein Kalorienziel, das Abende auf der Venloer Straße übersteht, und feste Geh-Kilometer im Inneren Grüngürtel. Realistisch ist ein halbes bis ein Kilo Fett pro Woche. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen mit Personal Trainer in Köln-Ehrenfeld: Kalorienbudget im Wochenschnitt, Krafttraining gegen Muskelverlust, Gehen im Grüngürtel. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Ein Defizit, das dein Ehrenfelder Leben übersteht",
+        body: "Ehrenfeld ist mit über 38.000 Einwohnern eines der dichtesten Veedel Kölns, und kaum irgendwo ist Essen so präsent: Cafés, Imbisse und Restaurants entlang der Venloer Straße, dazu Abende, die selten um 18 Uhr enden. Eine Diät, die das ignoriert, hält hier zwei Wochen. Deshalb rechne ich dein Kalorienziel im Wochenschnitt: Der Pizzaabend mit Freunden bleibt drin und wird von den anderen Tagen getragen. Entscheidend ist das Budget der Woche, nicht der perfekte Dienstag.",
+      },
+      {
+        title: "Krafttraining zuerst, damit das Gewicht aus dem Fett kommt",
+        body: "Wer nur weniger isst, verliert neben Fett auch Muskulatur, und mit ihr sinkt der Verbrauch, bis das Gewicht stagniert. Deshalb stehen bei mir zwei Krafteinheiten pro Woche im Zentrum: Grundübungen mit dokumentierter Steigerung, im Studio oder bei dir zu Hause mit mitgebrachtem Material. Die Muskulatur hält deinen Verbrauch hoch und sorgt dafür, dass am Ende ein strafferer Körper steht, nicht nur eine kleinere Zahl auf der Waage.",
+      },
+      {
+        title: "Der Innere Grüngürtel ist dein Alltagswerkzeug",
+        body: "Der dritte Baustein kostet nichts: Gehen. Direkt am Veedel liegt der Innere Grüngürtel, und feste Geh-Kilometer dort summieren sich über die Woche zu einem Verbrauch, den kein einzelnes Workout ersetzt. Viele meiner Kunden aus Ehrenfeld bauen das Gehen in den Arbeitsweg oder die Mittagspause ein, gerade wer im Homeoffice oder in den Büros und Ateliers rund um die Venloer Straße arbeitet, braucht diesen Gegenpol zum Sitzen.",
+      },
+      {
+        title: "Gemessen wird am Trend, nicht an der Tagesform",
+        body: "Die Waage schwankt mit Wasser, Salz und Schlaf, deshalb zählt bei mir der Wochentrend aus Gewicht, Umfängen und Fotos. Ein halbes bis ein Kilo Fett pro Woche ist das realistische Tempo; wer schneller verspricht, verkauft Wasserverlust. Alle vier Wochen schauen wir auf die Zahlen und stellen nach. Wer beim Essen mehr Struktur will, arbeitet zusätzlich mit Natalie, unserer Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Ehrenfeld?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan, Kalorienziel und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich auf Essengehen auf der Venloer Straße verzichten?",
+        a: "Nein. Das Kalorienziel ist als Wochenbudget gerechnet, Restaurantabende sind eingeplant. Du bekommst einfache Regeln für die Auswahl vor Ort statt einer Verbotsliste.",
+      },
+      {
+        q: "Wie schnell nehme ich realistisch ab?",
+        a: "Ein halbes bis ein Kilo Fett pro Woche, bei konsequentem Defizit. Alles darüber ist meist Wasser und kommt zurück. Nach drei Monaten sprechen wir über fünf bis zehn Kilo, je nach Ausgangslage.",
+      },
+      {
+        q: "Reicht Joggen im Grüngürtel nicht aus?",
+        a: "Ausdauer verbrennt Kalorien, schützt aber die Muskulatur nicht. Die Kombination wirkt: Krafttraining hält den Verbrauch hoch, Gehen und lockere Läufe im Grüngürtel vergrößern das Defizit, das Essen entscheidet den Rest.",
+      },
+      {
+        q: "Wo trainieren wir in Ehrenfeld?",
+        a: "Kraft im Studio oder bei dir zu Hause mit mitgebrachtem Material, Geh- und Ausdauereinheiten im Inneren Grüngürtel direkt am Veedel. Termine lege ich auch früh morgens oder spät abends.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
