@@ -2048,6 +2048,283 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "fuehlingen/personal-training": {
+    answer:
+      "Personal Training in Köln-Fühlingen heißt: Ich komme zu dir ins Dorf, mit Material und Plan, oder wir trainieren draußen am Fühlinger See. Kein Studio nötig, keine Anfahrt für dich. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Fühlingen: 1-zu-1 bei dir zu Hause oder am Fühlinger See, Material bringe ich mit. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Ein Dorf, dem das halbe Seeufer gehört",
+        body: "Fühlingen ist mit 2.193 Einwohnern eines der kleinsten Veedel Kölns, ein echter Dorfkern mit Reitställen und Feldern, und direkt daneben liegt der Fühlinger See. Was anderswo eine Anfahrt wert wäre, ist hier der tägliche Blick aus dem Fenster: Uferwege für Ausdauer und Zirkel, Wiesen für Übungen mit dem eigenen Körpergewicht, und im Sommer trainieren wir früh, bevor die Badegäste aus der ganzen Stadt kommen. Wer in Fühlingen wohnt, hat das Gelände, das andere suchen.",
+      },
+      {
+        title: "Das Training kommt zu dir, nicht umgekehrt",
+        body: "Ein Fitnessstudio gibt es im Veedel nicht, und zur nächsten Stadtbahn muss man erst aus dem Dorf heraus. Deshalb drehe ich den Weg um: Kurzhanteln, Bänder und alles Weitere liegen in meinem Kofferraum, trainiert wird in deinem Wohnzimmer, in der Garage oder im Garten. Eine Stunde bleibt so wirklich eine Stunde, ohne Fahrtzeit davor und danach. Wer schwere Langhantelarbeit will, nimmt Termine im Studio dazu.",
+      },
+      {
+        title: "Erst der Technik-Check, dann der Plan",
+        body: "Am Anfang steht ein kostenloses Erstgespräch über Ziel, Alltag und Gesundheit, danach ein Technik-Check: Wie bewegst du dich, wo sind Schwachstellen, was ist realistisch. Daraus entsteht dein Plan, meist zwei Einheiten pro Woche. Gemessen wird regelmäßig an Kraftwerten, Umfängen und Gewicht, und was sich nach ein paar Wochen nicht bewegt, fliegt aus dem Plan. Du sollst sehen, wofür du bezahlst.",
+      },
+      {
+        title: "Wer in Fühlingen bei mir trainiert",
+        body: "Die Anfragen aus dem Kölner Norden kommen von Berufstätigen, die nach dem Pendeltag keine dritte Fahrt mehr antreten wollen, von Eltern, deren Zeitfenster zwischen Schule und Abendessen liegt, und auch von Reitern: Wer regelmäßig im Sattel sitzt, merkt schnell, was Rumpfkraft und stabile Beine ausmachen. Das Niveau spielt keine Rolle, der Plan startet dort, wo du stehst.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Fühlingen?",
+        a: "50€ pro 1-zu-1 Stunde. Das Online Coaching mit Trainingsplan per App und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch kostet in beiden Fällen nichts.",
+      },
+      {
+        q: "Wo trainieren wir genau?",
+        a: "Bei dir zu Hause, im Garten oder draußen am Fühlinger See. Das Material bringe ich mit. Für schweres Langhanteltraining lassen sich Studio-Termine kombinieren.",
+      },
+      {
+        q: "Können wir das ganze Jahr draußen trainieren?",
+        a: "Ja, mit Anpassungen: Im Winter verlagern wir mehr in die Wohnung oder Garage, die Geh- und Laufanteile am See bleiben bei fast jedem Wetter machbar.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Ist das ein Problem?",
+        a: "Nein. Der Technik-Check am Anfang legt den Startpunkt fest, und der Plan steigt von dort aus. Die meisten meiner Kunden starten nach Jahren Pause, nicht aus dem Verein.",
+      },
+    ],
+  },
+
+  "rath-heumar/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Rath/Heumar: zwei geführte Krafteinheiten pro Woche nach Protokoll, auf Wunsch an deiner eigenen kleinen Trainingsecke in Garage oder Keller, die ich mit dir plane, dazu ein Eiweiß-Zielwert fürs Essen. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau mit Personal Trainer in Köln-Rath/Heumar: Protokoll statt Gefühl, eigene Trainingsecke in Garage oder Keller, Eiweiß-Zielwert. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Platz ist hier der unterschätzte Vorteil",
+        body: "Rath/Heumar gehört mit 12,91 km² zu den flächengrößten Veedeln Kölns: 11.833 Einwohner, viele Einfamilienhäuser mit Garage, Keller oder Garten. Für den Muskelaufbau ist das Gold wert, denn die beste Trainingslösung ist die, die dauerhaft dableibt. Statt jedes Mal Material zu schleppen, plane ich mit dir eine feste Ecke: zwei, drei Quadratmeter, eine durchdachte Grundausstattung, fertig. Bis sie steht, bringe ich alles mit, danach trainierst du an deinem eigenen Platz.",
+      },
+      {
+        title: "Kaufen mit Plan statt Keller voller Fehlkäufe",
+        body: "Die meisten Home-Gyms scheitern nicht am Willen, sondern am Einkauf: ein Heimtrainer hier, ein Bauchgerät da, nichts davon trägt eine echte Aufbauphase. Ich sage dir, was für dein Ziel wirklich nötig ist, in welcher Reihenfolge sich Anschaffungen lohnen und was du dir sparen kannst. Verstellbare Kurzhanteln und eine Bank decken die ersten Monate ab; ob sich später eine Langhantel lohnt, entscheiden deine Fortschritte, nicht der Katalog.",
+      },
+      {
+        title: "Jede Einheit steht im Protokoll",
+        body: "Muskeln wachsen über Steigerung, und Steigerung muss man nachweisen können. Deshalb wird bei mir jede Einheit notiert: Übung, Last, Wiederholungen. Alle vier Wochen vergleichen wir die Zahlen und messen Umfänge. Dazu kommt die Ernährungsseite: ein Eiweiß-Zielwert nach Körpergewicht und ein leichter Überschuss bei den Kalorien. Wer dort mehr Führung will, arbeitet mit Natalie, unserer Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung.",
+      },
+      {
+        title: "Der Königsforst übernimmt die Pausentage",
+        body: "Direkt am Veedel beginnt der Königsforst, und im Aufbau hat er eine klare Rolle: lockere Bewegung an den trainingsfreien Tagen, damit die Regeneration läuft, nicht mehr. Die schweren Reize passieren an der Hantel. Wer lieber auswärts trainiert, erreicht das Studio über die Linie 9, die in Rath/Heumar hält; viele kombinieren beides, Haustermine in vollen Wochen, Studio, wenn es der Kalender hergibt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Rath/Heumar?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan per App, Eiweiß-Zielwert und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Lohnt sich eine eigene Trainingsecke zu Hause?",
+        a: "Wenn du länger als ein paar Monate aufbauen willst, ja. Sie kostet einmal überschaubar Geld und spart danach jede Anfahrt. Welche Ausstattung sinnvoll ist, hängt vom Ziel ab und gehört ins Erstgespräch, bevor du etwas kaufst.",
+      },
+      {
+        q: "Wie lange dauert eine Aufbauphase?",
+        a: "Rechne in Monaten, nicht in Wochen: Kraft steigt ab den ersten Einheiten, sichtbare Veränderung braucht meist ein Vierteljahr, eine volle Aufbauphase deutlich länger. Dafür bleibt das Ergebnis.",
+      },
+      {
+        q: "Geht Muskelaufbau auch mit 45 oder 55 noch?",
+        a: "Ja, und er wird mit jedem Jahr wichtiger: Muskulatur stützt Gelenke, Knochen und Stoffwechsel. Der Plan nimmt die Regeneration dann ernster und steigert vorsichtiger, das ist der ganze Unterschied.",
+      },
+      {
+        q: "Zählt Joggen im Königsforst zum Aufbau?",
+        a: "Es unterstützt die Erholung, baut aber keine Muskulatur auf. Zu viel Ausdauer bremst sogar; deshalb bekommt sie im Plan eine feste, begrenzte Rolle.",
+      },
+    ],
+  },
+
+  "bocklemuend-mengenich/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Bocklemünd/Mengenich mit Natalie: ein Plan, der mit dem ganz normalen Einkauf im Veedel funktioniert, denn gutes Eiweiß muss nicht teuer sein. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Bocklemünd/Mengenich mit Natalie: Eiweiß zum Discounterpreis, einfache Gerichte, keine Pulver. Online, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Gut essen ist keine Preisfrage",
+        body: "Das hartnäckigste Gerücht über gesunde Ernährung ist, dass sie teuer sein muss. Stimmt nicht: Quark, Eier, Hülsenfrüchte, Haferflocken, Tiefkühlgemüse und Fisch aus der Dose gehören zu den günstigsten Lebensmitteln im Regal und tragen jeden Trainingsplan. Natalie rechnet in Eiweiß pro Euro statt in Superfoods, und genau so entsteht ein Plan, der am Monatsende nicht am Kontostand scheitert.",
+      },
+      {
+        title: "Die Zutaten gibt es im Görlinger-Zentrum",
+        body: "Ein Ernährungsplan taugt nur, wenn seine Zutaten dort liegen, wo du ohnehin einkaufst. Für Bocklemünd/Mengenich heißt das: Supermarkt und Discounter im und um das Görlinger-Zentrum, keine Spezialläden, keine Onlinebestellung mit Versandkosten. Natalie baut deine Woche aus einem überschaubaren Satz von Grundzutaten, die sich abwechselnd kombinieren lassen, damit aus derselben Einkaufsliste nicht jede Woche dasselbe Essen wird.",
+      },
+      {
+        title: "Keine Pulver, keine Abos, keine Wundermittel",
+        body: "Bevor Geld in Shakes oder Kapseln fließt, prüft Natalie, was dein Essen schon hergibt. In den meisten Fällen lässt sich der Eiweiß-Zielwert komplett über normale Lebensmittel erreichen, und das gesparte Geld wandert in besseres Essen statt in Dosen mit Etikett. Ergänzungen haben nur dann einen Platz, wenn eine echte Lücke bleibt, und auch dann die günstige Variante, nicht das Markenabo.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Alles passiert online: Erstgespräch per Video, dann bekommst du Kalorienziel, Eiweißwert und einen Wochenplan mit Einkaufsliste. In den Check-ins schaut Natalie auf den Gewichtstrend und deine Rückmeldungen und stellt nach. Wer Training dazunehmen will, bekommt es von mir, zu Hause im Veedel oder draußen am Ortsrand; nötig ist das nicht, die Beratung steht auch für sich.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Bocklemünd/Mengenich?",
+        a: "Sie ist Teil des Online Coachings ab 150€ im Monat, mit Plan, Einkaufsliste und wöchentlichen Check-ins. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Funktioniert der Plan mit kleinem Budget?",
+        a: "Ja, er ist dafür gebaut. Die Eiweißquellen kommen aus dem Discounter-Sortiment, und die Einkaufsliste bleibt bewusst kurz. Teurer wird es nur, wenn du es willst, nicht weil der Plan es verlangt.",
+      },
+      {
+        q: "Brauche ich Proteinpulver?",
+        a: "Meist nein. Erst wird geprüft, was über normales Essen geht; ein Shake ist höchstens eine bequeme Ergänzung für volle Tage, nie die Grundlage.",
+      },
+      {
+        q: "Koche ich dann für die Familie extra?",
+        a: "Nein. Die Gerichte sind so geplant, dass alle mitessen können und nur deine Portion und deine Eiweißquelle angepasst werden.",
+      },
+      {
+        q: "Behandelt Natalie auch Unverträglichkeiten oder Erkrankungen?",
+        a: "Nein, ihr Bereich ist Sport- und Fitnessernährung für gesunde Erwachsene. Medizinische Themen gehören zum Arzt, und genau das sagen wir dir im Erstgespräch auch.",
+      },
+    ],
+  },
+
+  "elsdorf/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Elsdorf läuft per Video mit Natalie, unserer Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung: Deine Gerichte bleiben auf dem Tisch, angepasst werden Mengen, Eiweiß und Timing. Teil des Online Coachings ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung für Köln-Elsdorf mit Natalie: deine Rezepte bleiben, Mengen und Eiweiß werden angepasst. Per Video, ohne Anfahrt. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Im kleinsten Veedel von Porz wird zu Hause gekocht",
+        body: "Elsdorf hat 1.726 Einwohner auf 1,77 km² und ist damit das kleinste Veedel des Bezirks Porz: keine Restaurantmeile, kein Imbiss an jeder Ecke. Gegessen wird, was zu Hause auf den Herd kommt, und genau da setzt Natalie an. Nicht die Verlockung unterwegs ist hier das Problem, sondern Portionen, Beilagen und das, was zwischen den Mahlzeiten nebenbei läuft. Das ist eine gute Ausgangslage, denn die eigene Küche lässt sich steuern.",
+      },
+      {
+        title: "Deine Rezepte bleiben, die Zahlen ändern sich",
+        body: "Natalie fängt nicht mit einem fremden Plan an, sondern mit deinen Gerichten: was du ohnehin kochst, was die Woche hergibt, was allen schmeckt. Daran werden Stellschrauben gedreht: mehr Eiweiß auf dem Teller, Beilagen in Mengen, die zum Ziel passen, eine Reihenfolge beim Essen, die satt macht. So entsteht kein zweites Leben in der Küche, sondern dein normales Essen in einer Version, die abnimmt oder aufbaut, je nachdem, was du erreichen willst.",
+      },
+      {
+        title: "Eine Liste pro Woche, eingekauft wird wie immer",
+        body: "Eingekauft wird von Elsdorf aus meist in Urbach, Zündorf oder Porz-Mitte, und dabei bleibt es. Aus den angepassten Gerichten entsteht eine Wochenliste, die zu deinem normalen Einkaufsweg passt; Sonderzutaten, die man nur einmal braucht und dann vergisst, haben darin keinen Platz. Gemessen wird am Gewichtstrend über die Woche, nicht an einzelnen Tagen, und nachgestellt wird in den Video-Check-ins.",
+      },
+      {
+        title: "Beratung ohne einen Kilometer Anfahrt",
+        body: "Von Elsdorf aus ist fast alles eine Fahrt, die Beratung nicht: Erstgespräch, Plan und Check-ins laufen per Video, du brauchst nur ein Handy. Wer zusätzlich trainieren will, kombiniert die Beratung mit 1-zu-1 Stunden bei dir zu Hause für 50€, viele machen erst die Ernährung zur Gewohnheit und nehmen das Training später dazu. Beides zusammen ist kein Muss, sondern eine Option.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Elsdorf?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, inklusive Wochenplan, Einkaufsliste und Check-ins. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Muss ich meine Küche komplett umstellen?",
+        a: "Nein, das ist der Kern des Ansatzes: Deine Gerichte bleiben, verändert werden Mengen, Eiweißanteil und Timing. Umstellen musst du Gewohnheiten, nicht den Speiseplan.",
+      },
+      {
+        q: "Geht das auch, wenn ich für Kinder mitkoche?",
+        a: "Ja. Es wird ein Essen für alle gekocht, nur deine Portion folgt den Zahlen. Kinderteller bleiben Kinderteller, da redet niemand rein.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Der Gewichtstrend zeigt nach zwei bis drei Wochen die Richtung. Haltbare Veränderung rechnet sich in Monaten, dafür bleibt sie, weil sich dein Alltag kaum verbiegen muss.",
+      },
+      {
+        q: "Hilft Natalie auch bei Krankheiten oder Allergien?",
+        a: "Nein. Ihr Schwerpunkt ist Sport- und Fitnessernährung für gesunde Erwachsene; medizinische Ernährungsfragen gehören in ärztliche Betreuung, das klären wir im Erstgespräch offen.",
+      },
+    ],
+  },
+
+  "longerich/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Longerich entscheidet sich meistens am Abend: Der Tag läuft diszipliniert, nach Pendelstrecke und Abendessen kippt der Plan auf dem Sofa. Deshalb baue ich dein Defizit um feste Abendroutinen, zwei Krafteinheiten pro Woche und ein Kalorienziel von Natalie. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen mit Personal Trainer in Köln-Longerich: feste Abendroutine statt Sofa-Falle, Krafttraining zu Hause, Kalorienziel von Natalie. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Die Abendfalle, nicht das Mittagessen",
+        body: "Longerich ist ein ruhiges Wohnveedel im Bezirk Nippes, 13.971 Einwohner, viele davon pendeln morgens mit der S11 oder der Linie 15 in die Stadt. In den Ernährungsprotokollen meiner Kunden aus solchen Veedeln steht das Problem fast nie beim Frühstück oder in der Kantine, sondern zwischen 20 und 23 Uhr: Chips, Süßes, das zweite Glas. Ein Plan, der das ignoriert und nur das Mittagessen optimiert, verliert jeden Abend wieder, was er tagsüber gewonnen hat.",
+      },
+      {
+        title: "Der Abend bekommt eine Struktur",
+        body: "Gegen die Abendfalle helfen keine Verbote, sondern Abläufe: ein Abendessen mit genug Eiweiß und Volumen, das wirklich satt macht, ein festes Budget für den Snack danach, eingeplant statt verheimlicht, und eine Runde zu Fuß nach dem Essen als stehender Termin. Zwanzig bis dreißig Minuten durchs Veedel reichen; entscheidend ist, dass die Runde zur Gewohnheit wird wie das Zähneputzen, nicht dass sie sportlich aussieht.",
+      },
+      {
+        title: "Zwei Krafteinheiten sichern die Muskulatur",
+        body: "Im Kaloriendefizit entscheidet das Krafttraining, woher das verlorene Gewicht kommt: Ohne Widerstand baut der Körper neben Fett auch Muskeln ab, und der Verbrauch sinkt mit. Zwei Einheiten pro Woche, bei dir zu Hause mit mitgebrachtem Material oder im Studio, halten die Muskulatur im Spiel. Für das Kalorienziel und die Eiweißmenge ist Natalie zuständig, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung.",
+      },
+      {
+        title: "Ohne dritte Fahrt am Tag",
+        body: "Wer nach Feierabend schon zweimal gesessen hat, Bahn und Schreibtisch, fährt ungern noch zu einem Studio. Deshalb findet das Training in Longerich bei dir statt, vor der Arbeit, am frühen Abend oder am Wochenende. Gemessen wird am Wochentrend von Gewicht und Umfängen, und alle paar Wochen stellen wir nach. Ein halbes bis ein Kilo pro Woche ist das Tempo, das bleibt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Longerich?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan, Kalorienziel von Natalie und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich abends ganz auf Snacks verzichten?",
+        a: "Nein. Ein Verbot hält zwei Wochen, ein Budget hält Monate: Der Abendsnack wird eingeplant und ins Kalorienziel eingerechnet, damit er den Tag nicht mehr kippen kann.",
+      },
+      {
+        q: "Wie viel kann ich realistisch abnehmen?",
+        a: "Ein halbes bis ein Kilo pro Woche im Trend. Schnellere Versprechen bedeuten fast immer Wasser- und Muskelverlust, und beides kommt zurück.",
+      },
+      {
+        q: "Brauche ich dafür ein Fitnessstudio?",
+        a: "Nein. Kurzhanteln und Bänder bringe ich zu dir mit, und die Abendrunde durchs Veedel kostet nichts. Studio-Termine lassen sich dazunehmen, wenn du gern an Geräten arbeitest.",
+      },
+      {
+        q: "Wann finden die Einheiten statt?",
+        a: "Passend zu deinen Pendelzeiten: früh vor der Arbeit, am frühen Abend oder am Wochenende. Der Termin richtet sich nach deiner Woche, nicht umgekehrt.",
+      },
+    ],
+  },
+
+  "marienburg/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Marienburg mit Natalie heißt: Regeln für Geschäftsessen, Einladungen und Reisetage statt Verbotslisten, damit dein Ziel auch eine volle Kalenderwoche übersteht. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung für Köln-Marienburg mit Natalie: klare Regeln für Geschäftsessen, Einladungen und Reisetage. Online, diskret, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Wenn die Hälfte der Mahlzeiten nicht aus deiner Küche kommt",
+        body: "Marienburg ist ein Veedel der Selbstständigen und Führungskräfte, und deren Ernährungsproblem sieht anders aus als im Lehrbuch: Geschäftsessen, Einladungen, Konferenztage, dazwischen Wochen, in denen kaum eine Mahlzeit zu Hause entsteht. Ein Plan, der auf selbst gekochten Gerichten beruht, scheitert an diesem Kalender. Natalie arbeitet deshalb mit Entscheidungsregeln für die Karte: Eiweiß als Anker des Tellers, Beilagen nach Ziel, eine klare Linie bei Brotkorb und Dessert, ohne dass es am Tisch jemand merkt.",
+      },
+      {
+        title: "Auch der Wein bekommt eine Zahl",
+        body: "Alkohol ist bei Geschäftsessen selten verhandelbar, aber er ist planbar. Statt eines Verbots, das beim ersten Kundentermin fällt, bekommt er ein Wochenbudget, das ins Kalorienziel eingerechnet ist. Dasselbe gilt für Reisetage: Hotelfrühstück, Bahnhof, Flughafen folgen immer denselben Mustern, und für jedes gibt es eine einfache Standardwahl, die du nicht jedes Mal neu überlegen musst. Je voller der Kalender, desto wertvoller werden solche Automatismen.",
+      },
+      {
+        title: "Diskret, per Video, am Trend gemessen",
+        body: "Die Beratung läuft komplett online: Erstgespräch per Video, dann Kalorienziel, Eiweißwert und Leitplanken für deine typischen Situationen. In den Check-ins schaut Natalie auf den Gewichtstrend über Wochen, nicht auf einzelne Tage, denn nach einem Abendessen mit Kunden lügt die Waage ohnehin. Nachgesteuert wird an den Regeln, nicht an deinem Terminkalender, der ist die feste Größe.",
+      },
+      {
+        title: "Südpark, Rheinufer und Training vor der Haustür",
+        body: "Bewegung hat in Marienburg kurze Wege: der Südpark mitten im Veedel, das Rheinufer am Rand, beides gut für feste Geh-Termine, die auch zwischen zwei Videocalls passen. Wer mehr will, kombiniert die Beratung mit 1-zu-1 Training für 50€ pro Stunde, bei dir zu Hause oder im Garten, viele Häuser hier haben den Platz dafür. Der Einstieg ist in jedem Fall ein kostenloses Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Marienburg?",
+        a: "Sie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Funktioniert das mit drei, vier Restaurantterminen pro Woche?",
+        a: "Ja, genau dafür ist der Ansatz gebaut. Du bekommst Entscheidungsregeln für die Karte statt eines starren Plans, und das Wochenziel verrechnet die Abende, statt an ihnen zu zerbrechen.",
+      },
+      {
+        q: "Muss ich auf Wein verzichten?",
+        a: "Nein. Alkohol bekommt ein festes Wochenbudget im Kalorienziel. Das ist ehrlicher als ein Verbot und hält auch einem Kundenessen stand.",
+      },
+      {
+        q: "Wie viel Zeit kostet mich die Beratung?",
+        a: "Wenig: ein Videotermin zum Start, danach kurze Check-ins und ein Protokoll, das in zwei, drei Minuten am Tag gepflegt ist. Der Plan arbeitet mit deinem Kalender, nicht dagegen.",
+      },
+      {
+        q: "Kann ich Beratung und Personal Training kombinieren?",
+        a: "Ja. Viele nehmen zur Online-Beratung 1-zu-1 Stunden zu Hause dazu, in Marienburg oft im eigenen Garten. Was sinnvoll ist, klären wir im kostenlosen Erstgespräch.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
