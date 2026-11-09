@@ -51,12 +51,20 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 43 | /koeln/deutz/personal-training | 1 | 15 | 5,4 | FATTA (giro 16, 09/11; pos già buona, rafforzata) |
 | 44 | /koeln/duennwald/muskelaufbau | 0 | 15 | 15,3 | FATTA (giro 16, 09/11) |
 | 45 | /koeln/ehrenfeld/abnehmen | 0 | 15 | 11,0 | FATTA (giro 16, 09/11) |
-| 46 | /koeln/fuehlingen/personal-training | 0 | 15 | 5,2 | in coda (pos già buona: rafforzare) |
-| 47 | /koeln/rath-heumar/muskelaufbau | 1 | 14 | 18,3 | in coda |
-| 48 | /koeln/bocklemuend-mengenich/ernaehrungsberatung | 0 | 14 | 43,5 | in coda |
-| 49 | /koeln/longerich/abnehmen | 0 | 14 | 13,9 | in coda |
+| 46 | /koeln/fuehlingen/personal-training | 0 | 15 | 5,2 | FATTA (giro 19, 09/11; pos già buona, rafforzata) |
+| 47 | /koeln/rath-heumar/muskelaufbau | 1 | 14 | 18,3 | FATTA (giro 19, 09/11) |
+| 48 | /koeln/bocklemuend-mengenich/ernaehrungsberatung | 0 | 14 | 43,5 | FATTA (giro 19, 09/11) |
+| 49 | /koeln/longerich/abnehmen | 0 | 14 | 13,9 | FATTA (giro 19, 09/11) |
+| 50 | /koeln/elsdorf/ernaehrungsberatung | 1 | 14 | 7,2 | FATTA (giro 19, 09/11; pos già buona, rafforzata) |
+| 51 | /koeln/marienburg/ernaehrungsberatung | 0 | 14 | 57,1 | FATTA (giro 19, 09/11) |
+| 52 | /koeln/widdersdorf/personal-training | 0 | 14 | 6,2 | in coda (pos già buona: rafforzare) |
+| 53 | /koeln/neuehrenfeld/personal-training | 0 | 14 | 92,7 | in coda |
+| 54 | /koeln/neustadt-nord/online-coaching | 0 | 13 | 19,4 | in coda |
+| 55 | /koeln/humboldt-gremberg/athletiktraining | 0 | 13 | 51,4 | in coda |
+| 56 | /koeln/worringen/personal-training | 0 | 13 | 8,4 | in coda (pos già buona: rafforzare) |
+| 57 | /koeln/loevenich/abnehmen | 0 | 12 | 18,3 | in coda |
 
-Righe 31-42 entrate l'8/11/2026 (giro 13) col riaggiornamento GSC (query page 90gg, somma due proprietà; 338 pagine intent con almeno 1 impressione). Righe 43-49 entrate il 9/11/2026 (giro 16) con lo stesso riaggiornamento (338 pagine con impressioni; esclusa elsdorf/ernaehrungsberatung già a pos 7,2 con 1 click e marienburg/ernaehrungsberatung 57,1 che resta dietro a neuehrenfeld/personal-training nella prossima tornata).
+Righe 31-42 entrate l'8/11/2026 (giro 13) col riaggiornamento GSC (query page 90gg, somma due proprietà; 338 pagine intent con almeno 1 impressione). Righe 43-49 entrate il 9/11/2026 (giro 16) con lo stesso riaggiornamento. Righe 50-57 entrate il 9/11/2026 (giro 19, stesso riaggiornamento, 338 pagine con impressioni): elsdorf e marienburg recuperate in coda e fatte nello stesso giro.
 
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
 
