@@ -50,52 +50,6 @@ function statoDi(c: Cliente, ora: number): Stato {
   return { chiave: "attivo", label: "attivo", tone: "green" };
 }
 
-/**
- * Commissione DirezioneX, solo per i clienti arrivati online, cioe' con un
- * lead del sito (Google, ChatGPT, social, diretto: qualunque canale online).
- * I clienti che Angelo trova da solo non pagano commissione.
- * - Coaching a mesi: 50 € per ogni mese di contratto (Calogero, 07/10/2026).
- *   Totale = 50 € x mesi; maturata = 50 € x mesi gia' iniziati.
- * - Personal Training a ore: 20% di quanto pagato (contratto di cooperazione,
- *   deciso il 03/10/2026).
- * - Schede pronte: niente.
- */
-const COMMISSIONE_MESE = 50;
-const QUOTA_ORE = 0.2;
-
-interface Commissione {
-  regola: string;
-  totale: number | null;
-  maturata: number;
-  mesi: number | null;
-}
-
-function commissione(c: Cliente, ora: number): Commissione | null {
-  if (!c.lead) return null;
-  const p = c.pacchetto.toLowerCase();
-  if (p.includes("trainingsplan") || p.includes("scheda")) return null;
-  if (p.includes("personal training") && !c.mensile) {
-    const t = Math.round(c.totale * QUOTA_ORE * 100) / 100;
-    const pagato = c.incassato ?? (c.fonte === "contratto" ? c.totale : 0);
-    return { regola: "20% delle ore", totale: t, maturata: Math.round(pagato * QUOTA_ORE * 100) / 100, mesi: null };
-  }
-  const mesi = c.fine ? c.mesi : null; // senza fine: canone aperto
-  let iniziati = 0;
-  if (c.inizio && !c.inAttesa) {
-    const d = new Date(c.inizio);
-    while (d.getTime() <= ora && (mesi == null || iniziati < mesi)) {
-      iniziati++;
-      d.setMonth(d.getMonth() + 1);
-    }
-  }
-  return {
-    regola: "50 € al mese",
-    totale: mesi != null ? mesi * COMMISSIONE_MESE : null,
-    maturata: iniziati * COMMISSIONE_MESE,
-    mesi,
-  };
-}
-
 /** Prossimo addebito: la prima rata non pagata, oppure (canone aperto) il prossimo mese. */
 function prossimo(c: Cliente, ora: number): { quando: string; importo: number } | null {
   const r = c.rate.find((x) => x.stato !== "pagato" && x.scadenza);
@@ -151,13 +105,6 @@ export default function ClientiView() {
   const inScadenza = conStato.filter(
     ({ c, s }) => s.chiave !== "concluso" && c.fine && new Date(c.fine).getTime() <= fra30
   ).length;
-  const comm = conStato.reduce(
-    (t, { c }) => {
-      const k = commissione(c, ora);
-      return k ? { maturata: t.maturata + k.maturata, totale: t.totale + (k.totale ?? k.maturata), n: t.n + 1 } : t;
-    },
-    { maturata: 0, totale: 0, n: 0 }
-  );
 
   // Fatturato = quanto vale ogni contratto firmato, per intero (regola di
   // Calogero: un contratto vale quello che c'e' scritto sopra). Un canone
@@ -177,18 +124,12 @@ export default function ClientiView() {
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 2xl:grid-cols-6">
+      <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 2xl:grid-cols-5">
         <Stat label="Fatturato contratti" value={eur(fatt.valore)} sub={`incassati ${eur(fatt.incassato)}, da incassare ${eur(Math.max(0, fatt.valore - fatt.incassato))}`} tone="ink" />
         <Stat label="Clienti attivi" value={attivi} tone="green" />
         <Stat label="Da sistemare" value={daSistemare} sub="non pagato o in ritardo" tone={daSistemare ? "red" : "ink"} onClick={() => setFiltro("pagare")} />
         <Stat label="In arrivo 30 giorni" value={eur(inArrivo)} sub="rate in scadenza" tone="brand" />
         <Stat label="Finiscono entro 30 giorni" value={inScadenza} sub="da sentire per il rinnovo" tone="amber" />
-        <Stat
-          label="Commissioni DirezioneX"
-          value={eur(comm.maturata)}
-          sub={`maturate finora, ${eur(comm.totale)} in tutto · ${comm.n} ${comm.n === 1 ? "cliente" : "clienti"} dall'online`}
-          tone="ink"
-        />
       </div>
 
       {errore && <p className="border border-red-500/30 bg-red-50 p-3 text-sm text-red-600">{errore}</p>}
@@ -340,14 +281,14 @@ function RigaCliente({
         <ChevronDown className={cx("hidden h-4 w-4 text-neutral-400 transition-transform lg:block", aperto && "rotate-180")} />
       </button>
 
-      {aperto && <Dettaglio c={c} ora={ora} onCambiato={onCambiato} />}
+      {aperto && <Dettaglio c={c} onCambiato={onCambiato} />}
     </div>
   );
 }
 
 /* -------------------------------------------------------------- dettaglio */
 
-function Dettaglio({ c, ora, onCambiato }: { c: Cliente; ora: number; onCambiato: () => void }) {
+function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
   const [firma, setFirma] = useState<string | null>(null);
   const [modifica, setModifica] = useState(false);
   const [dati, setDati] = useState({
@@ -422,7 +363,6 @@ function Dettaglio({ c, ora, onCambiato }: { c: Cliente; ora: number; onCambiato
   const modificabile = c.fonte === "preventivo";
 
   const l = c.lead;
-  const k = commissione(c, ora);
   const giorniAlContratto =
     l && (c.firmatoAt || c.inizio)
       ? Math.max(0, Math.round((new Date(c.firmatoAt || c.inizio!).getTime() - new Date(l.data).getTime()) / 86400000))
@@ -546,17 +486,6 @@ function Dettaglio({ c, ora, onCambiato }: { c: Cliente; ora: number; onCambiato
             </Riga>
           )}
           {c.numero && <Riga label="Numero">{c.numero}</Riga>}
-          <Riga label="DirezioneX">
-            {k
-              ? k.mesi != null && k.totale != null
-                ? `${eur(COMMISSIONE_MESE)} × ${k.mesi} mesi = ${eur(k.totale)} (maturati ${eur(k.maturata)})`
-                : k.regola === "20% delle ore"
-                  ? `20% delle ore = ${eur(k.totale ?? 0)} (maturati ${eur(k.maturata)})`
-                  : `${eur(COMMISSIONE_MESE)} al mese, maturati ${eur(k.maturata)}`
-              : c.lead
-                ? "nessuna commissione sulle schede pronte"
-                : "nessuna commissione: cliente trovato da Angelo"}
-          </Riga>
         </dl>
         {firma && (
           // eslint-disable-next-line @next/next/no-img-element

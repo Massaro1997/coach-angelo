@@ -4,6 +4,7 @@ import { useState } from "react";
 import AdminGate from "@/components/AdminGate";
 import { Shell, VISTE, type Vista } from "@/components/admin/Shell";
 import ClientiView from "@/components/admin/ClientiView";
+import CommissioniView from "@/components/admin/CommissioniView";
 import MerchandisingView from "@/components/admin/MerchandisingView";
 import Conversioni, { type DatiConversioni } from "@/components/admin/Conversioni";
 import LeadView from "@/components/admin/LeadView";
@@ -47,6 +48,7 @@ function Gestionale() {
         />
       </div>
       {vista === "clienti" && <ClientiView />}
+      {vista === "commissioni" && <CommissioniView />}
       {vista === "lead" && (
         <LeadView
           onCreaContratto={(b) => {
