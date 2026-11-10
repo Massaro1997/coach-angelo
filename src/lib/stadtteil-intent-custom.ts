@@ -2889,6 +2889,268 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "wahn/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Wahn macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz für Wahn: Regeln fürs Essen unterwegs, am Flughafen und in der Kantine, statt eines Plans, der nur am heimischen Herd funktioniert. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Wahn mit Natalie: Regeln für Kantine, Flughafen und Essen unterwegs statt starrem Plan, online betreut. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Essen, das auch unterwegs funktioniert",
+        body: "Wahn liegt direkt am Flughafen Köln/Bonn, viele hier arbeiten dort oder pendeln mit der S-Bahn in die Stadt. Das Essen passiert dann in der Kantine, am Terminal, an der Tankstelle oder abends spät zu Hause. Ein klassischer Wochenplan mit sieben gekochten Abendessen scheitert an so einem Alltag nach drei Tagen. Natalie dreht es deshalb um: Sie baut dir Entscheidungsregeln für genau die Orte, an denen du wirklich isst. Was nimmst du in der Kantine, wenn es drei Gerichte gibt? Was geht am Bäcker im Terminal, was nicht? Mit solchen Regeln bleibt das Kalorienziel auch in einer unplanbaren Woche stehen.",
+      },
+      {
+        title: "Die Wahner Heide ist dein Konto für Bewegung",
+        body: "Wahn gibt der Wahner Heide ihren Namen, und die liegt direkt vor der Tür. Für die Ernährungsberatung ist das mehr wert, als es klingt: Abnehmen steht und fällt mit dem Kalorienverbrauch im Alltag, nicht nur mit dem Training. Eine Stunde zügiges Gehen auf den Heidewegen, drei- bis viermal pro Woche, verschiebt dein Wochenbudget spürbar, ohne dass du dafür ein Studio brauchst. Natalie rechnet diese Bewegung in dein Kalorienziel ein, damit Essen und Alltag zusammenpassen statt gegeneinander zu laufen.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Am Anfang stehen ein Gespräch und ein ehrliches Protokoll: Was isst du wirklich, zu welchen Zeiten, an welchen Orten? Daraus baut Natalie dein Kalorien- und Eiweißziel und die ersten Regeln. Betreut wird komplett online, mit wöchentlichem Check-in: Gewichtstrend, Fotos vom Teller wenn du magst, und jede Woche eine konkrete Anpassung. Verbotslisten gibt es keine. Wer in Wahn wohnt und zusätzlich Training will, kombiniert die Beratung mit 1-zu-1 Einheiten bei Angelo, auch das klären wir im Erstgespräch.",
+      },
+      {
+        title: "Für wen das in Wahn passt",
+        body: "Typisch sind drei Situationen: Schichten und wechselnde Dienstzeiten rund um den Flughafen, Pendler mit langen Tagen und spätem Abendessen, und Eltern, bei denen das eigene Essen zwischen Familientisch und Resteteller untergeht. In allen drei Fällen ist das Problem selten das Wissen, sondern die Struktur. Genau die baut Natalie mit dir auf, in kleinen Schritten, die eine normale Woche in Wahn überleben.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Wahn?",
+        a: "Die Beratung durch Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Funktioniert das auch mit Schichtdienst am Flughafen?",
+        a: "Ja. Natalie plant nicht nach Uhrzeiten, sondern nach deinem Dienstplan: Mahlzeiten-Anker, die sich verschieben lassen, und Regeln für Kantine und Essen unterwegs. Der Plan folgt deiner Woche, nicht umgekehrt.",
+      },
+      {
+        q: "Muss ich kochen können oder Meal Prep machen?",
+        a: "Nein. Meal Prep hilft, ist aber keine Bedingung. Wichtiger sind gute Entscheidungen an den Orten, wo du sowieso isst. Wer gern vorkocht, bekommt passende Rezepte, wer nicht, bekommt Einkaufs- und Bestellregeln.",
+      },
+      {
+        q: "Gibt es Verbote oder eine Diätphase?",
+        a: "Nein. Du bekommst ein Kalorien- und ein Eiweißziel und lernst, beides mit normalem Essen zu treffen. Auch das Wochenende mit Familie oder der Abend im Biergarten sind eingeplant, nicht verboten.",
+      },
+      {
+        q: "Reicht Gehen in der Wahner Heide zum Abnehmen?",
+        a: "Gehen allein selten, aber es ist der unterschätzte Hebel: Es erhöht deinen Verbrauch, ohne Hunger zu machen. In Kombination mit dem Kalorienziel und zwei Krafteinheiten pro Woche wird daraus ein Plan, der hält.",
+      },
+    ],
+  },
+
+  "kalk/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Kalk nach Wettkampf-Prinzipien: Grundübungen, ein geführtes Protokoll und ein Eiweiß-Zielwert fürs Essen. Viele in Kalk trainieren schon, nur ohne System, genau da setze ich an. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau mit Personal Trainer in Köln-Kalk: System statt planlosem Studio-Training, Grundübungen mit Protokoll, Eiweiß-Zielwert. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Du trainierst schon, aber es wächst nichts",
+        body: "Kalk ist jung und dicht: fast 25.000 Menschen auf knapp drei Quadratkilometern, und rund um die Kalker Hauptstraße und die Arcaden gibt es mehr Fitnessstudios als in den meisten Kölner Veedeln. Die typische Anfrage aus Kalk kommt deshalb nicht vom Anfänger, sondern von jemandem, der seit ein, zwei Jahren trainiert und sich nicht mehr verändert. Die Ursache ist fast immer dieselbe: wechselnde Übungen, kein Protokoll, keine geplante Steigerung. Muskeln wachsen nicht von Abwechslung, sondern von messbar mehr Gewicht und Wiederholungen bei denselben Grundübungen über Monate.",
+      },
+      {
+        title: "Das Protokoll ist der Unterschied",
+        body: "Wir legen vier bis sechs Grundübungen fest: Kniebeuge, Kreuzheben, Bankdrücken, Rudern, Überkopfdrücken, je nach deinem Stand. Jede Einheit wird dokumentiert, jede Woche hat ein Ziel. Ich stelle deine Technik ein, damit die Steigerung aus den Muskeln kommt und nicht aus dem Schwung, und entscheide, wann mehr Gewicht dran ist und wann eine leichtere Woche. Trainieren kannst du mit mir im Studio oder, wenn du schon Mitglied bist, nach meinem Plan in deinem Studio in Kalk, mit Technik-Einheiten bei mir im Abstand von ein paar Wochen.",
+      },
+      {
+        title: "Ohne Eiweiß kein Aufbau",
+        body: "Der zweite Hebel steht nicht im Trainingsplan, sondern auf dem Teller. Für Muskelaufbau brauchst du einen festen Eiweiß-Zielwert pro Tag, als Faustregel 1,6 bis 2 Gramm pro Kilo Körpergewicht, und genug Kalorien drumherum. Den Wert rechnen wir im Erstgespräch aus, und du bekommst einfache Wege, ihn zu treffen: Einkaufsliste, Döner-und-Imbiss-Regeln für die Kalker Hauptstraße inklusive. Wer es genauer will, nimmt die Ernährungsbetreuung durch Natalie im Online Coaching dazu.",
+      },
+      {
+        title: "Was du in drei Monaten erwarten kannst",
+        body: "Als Einsteiger legst du in zwölf Wochen bei sauberer Ausführung deutlich an Kraft zu, die ersten sichtbaren Veränderungen folgen danach. Als Fortgeschrittener mit Stillstand ist der Effekt oft schneller sichtbar, weil das Protokoll die Lücken aufdeckt: meist zu wenig Progression bei den Grundübungen und zu wenig Eiweiß. Versprechen in Kilo Muskelmasse mache ich keine, Zahlen im Trainingsbuch bekommst du dafür jede Woche.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Kalk?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Wer schon im Studio trainiert und vor allem Plan und Kontrolle braucht, fährt mit dem Online Coaching ab 150€ im Monat oft besser: Plan per App, wöchentliche Check-ins, Technik-Feedback per Video. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich trainiere schon in einem Studio in Kalk. Lohnt sich das trotzdem?",
+        a: "Gerade dann. Du behältst dein Studio und deine Zeiten, von mir kommen Plan, Protokoll und Technik-Korrektur. Das ist der Teil, der bei den meisten fehlt und ohne den die Mitgliedschaft wenig bringt.",
+      },
+      {
+        q: "Wie oft muss ich für Muskelaufbau trainieren?",
+        a: "Zwei bis drei Krafteinheiten pro Woche reichen, wenn sie geplant sind. Mehr Tage bringen erst etwas, wenn Ausführung, Progression und Essen stimmen, und kosten vorher nur Erholung.",
+      },
+      {
+        q: "Brauche ich Supplemente?",
+        a: "Nötig ist keines. Ein Eiweißpulver kann helfen, den Tageswert zu treffen, wenn du mit normalem Essen nicht hinkommst, und Kreatin ist gut untersucht. Alles andere besprechen wir ehrlich im Erstgespräch, verkaufen will ich dir nichts.",
+      },
+    ],
+  },
+
+  "volkhoven-weiler/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Volkhoven/Weiler: zweimal pro Woche gezielter Kraftaufbau für Rumpf, Hüfte und hintere Kette, bei dir zu Hause mit mitgebrachtem Material, dazu Gehrunden am Fühlinger See als täglicher Ausgleich. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos. Akute Schmerzen klärt zuerst ein Arzt.",
+    metaDescription:
+      "Rückentraining in Köln-Volkhoven/Weiler: Kraft für Rumpf und hintere Kette, Training bei dir zu Hause, Ausgleich am Fühlinger See. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Auto, Schreibtisch, Auto: der Rücken im Kölner Norden",
+        body: "Volkhoven/Weiler ist ein Wohnstadtteil, in dem das Auto den Tag bestimmt: zur Arbeit gependelt, eingekauft, die Kinder gefahren. Dazu kommt bei vielen ein Schreibtischjob. Acht bis zehn Stunden Sitzen am Tag sind so schnell zusammen, und genau daher kommen die typischen Beschwerden: verspannter unterer Rücken, steife Hüfte, Nacken. Dagegen hilft auf Dauer kein Dehnen und keine Massage, sondern ein Rumpf und eine hintere Kette, die stark genug sind, das Sitzen wegzustecken.",
+      },
+      {
+        title: "Das Training kommt zu dir, nicht umgekehrt",
+        body: "Ein Studio gibt es in Volkhoven/Weiler nicht, und die Fahrt nach Chorweiler oder in die Stadt ist genau die Hürde, an der Vorsätze scheitern. Deshalb komme ich zu dir: Kurzhanteln, Widerstandsbänder und eine Matte bringe ich mit, mehr als ein freies Stück Wohnzimmer, Garage oder Garten braucht es nicht. Zweimal pro Woche 60 Minuten, feste Termine, und die Einheit beginnt in dem Moment, in dem es bei dir klingelt.",
+      },
+      {
+        title: "Welche Übungen deinen Rücken wirklich entlasten",
+        body: "Wir arbeiten mit Hüftstreckung und Rumpfspannung: rumänisches Kreuzheben mit Kurzhanteln, Hüftbrücken, Rudern am Band, Seitstütz, Tragen von Gewicht über Strecke. Dazu Mobilität für Brustwirbelsäule und Hüftbeuger, die beim Sitzen verkürzen. Alles beginnt leicht und wird dokumentiert gesteigert: ein Rücken wird nicht von vorsichtigen Bewegungen belastbar, sondern von planvoll wachsender Last. Nach sechs Wochen vergleichen wir: Spannung halten, Gewichte, und wie sich der Alltag anfühlt.",
+      },
+      {
+        title: "Der Fühlinger See als tägliche Medizin",
+        body: "Zwischen den Einheiten zählt, was du täglich tust. Volkhoven/Weiler grenzt direkt an den Fühlinger See: Die Wege dort sind flach, beleuchtet ist es rund um die Regattastrecke, und eine Runde um eines der Seebecken ist eine klare, wiederholbare Strecke. Dreißig bis vierzig Minuten zügiges Gehen an vier, fünf Tagen pro Woche halten Hüfte und Rücken in Bewegung und verstärken, was wir im Training aufbauen. Das ist deine Hausaufgabe, mehr nicht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Volkhoven/Weiler?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€, inklusive mitgebrachtem Material. Das Erstgespräch ist kostenlos und klärt, ob Training im Moment das Richtige ist.",
+      },
+      {
+        q: "Ich habe gerade akute Rückenschmerzen. Kann ich anfangen?",
+        a: "Bei akuten oder ausstrahlenden Schmerzen, Taubheit oder Kribbeln gehört der erste Weg zum Arzt. Training beginnt, wenn ernste Ursachen ausgeschlossen sind, dann aber gern früh: kontrollierte Bewegung hilft meist schneller als Schonung.",
+      },
+      {
+        q: "Reicht zweimal pro Woche wirklich?",
+        a: "Ja, wenn die Einheiten geplant sind und du zwischen den Terminen gehst statt nur zu sitzen. Zwei Krafteinheiten plus tägliche Gehrunden am See verändern in drei Monaten mehr als jedes tägliche Dehnprogramm.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Ich bringe Kurzhanteln, Bänder und Matte mit. Wenn du später eigenes Material anschaffen willst, berate ich dich ehrlich, nötig ist es für dieses Training nicht.",
+      },
+    ],
+  },
+
+  "buchforst/ems-alternative": {
+    answer:
+      "Die ehrliche EMS-Alternative in Köln-Buchforst ist echtes Krafttraining: zwei geführte Einheiten pro Woche, messbare Steigerung statt Stromreiz, ohne Jahresvertrag. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos, und ich sage dir darin auch, wenn EMS für dich doch passt.",
+    metaDescription:
+      "EMS-Alternative in Köln-Buchforst: echtes Krafttraining mit messbarer Steigerung statt 20 Minuten Stromreiz im Abo. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum 20 Minuten Strom nicht reichen",
+        body: "EMS wirbt mit 20 Minuten pro Woche, und genau das ist die Schwäche: Der Reiz kommt vom Strom, nicht von einer Bewegung, die schwerer wird. Kraft wächst, wenn du über Monate mehr Gewicht sauber bewegst, und das lässt sich nur steigern, wenn du wirklich etwas hebst, drückst und ziehst. Dazu lernt dein Körper bei echten Übungen das, was EMS nicht trainieren kann: Technik, Gleichgewicht, Beweglichkeit und ein Gefühl für Belastung. Das sind die Fähigkeiten, die im Alltag und beim Sport den Unterschied machen.",
+      },
+      {
+        title: "Rechne die Kosten ehrlich nach",
+        body: "EMS-Studios arbeiten fast immer mit Jahresverträgen, und aufs Jahr gerechnet landet man damit oft in derselben Größenordnung wie bei echtem Personal Training, nur mit Bindung. Bei mir gibt es kein Abo: Du zahlst die Stunde mit 50€ oder das Online Coaching ab 150€ im Monat, beides monatlich kündbar. In Buchforst selbst gibt es ohnehin kein EMS-Studio, die Anbieter sitzen in der Innenstadt und in den größeren Veedeln, du würdest also für jede Stromsitzung fahren. Mein Training kommt stattdessen zu dir.",
+      },
+      {
+        title: "So sieht das Training in Buchforst aus",
+        body: "Buchforst ist mit 0,83 Quadratkilometern der kompakteste Stadtteil im Bezirk Mülheim, bekannt für die denkmalgeschützten Siedlungen der Weißen Stadt und des Blauen Hofs aus den späten 1920er Jahren. Die Wohnungen dort sind durchdacht, aber nicht groß, deshalb plane ich das Training zweigleisig: Grundübungen mit mitgebrachtem Material bei dir zu Hause oder im Hof, die schweren Langhantel-Einheiten im Studio. Mit der eigenen S-Bahn-Station und der Nähe zu Mülheim und Kalk ist auch das Studio ohne Auto erreichbar.",
+      },
+      {
+        title: "Messbar statt gefühlt",
+        body: "Jede Einheit wird protokolliert: Übungen, Gewichte, Wiederholungen. Nach acht Wochen vergleichen wir Zahlen statt Eindrücke, und du siehst schwarz auf weiß, was sich bewegt hat. Genau diese Kontrolle fehlt beim Stromreiz, bei dem sich Intensität vor allem danach richtet, wie stark es kribbelt. Wenn du von EMS kommst, nehmen wir deine dort gewohnten 20 Minuten als Maßstab: Schon eine einzige geführte Krafteinheit pro Woche plus eine kurze Hausaufgabe schlägt sie auf Dauer deutlich.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Buchforst?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit. Wer selbstständig trainieren will, nimmt das Online Coaching ab 150€ im Monat mit Plan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ist EMS nicht wenigstens gut für den Einstieg?",
+        a: "Für den Einstieg ist Technik wichtiger als Intensität, und genau die lernt man am Stromgerät nicht. Wer mit leichten Grundübungen startet, baut dieselbe Anfangskraft auf und kann sie danach jahrelang steigern, ohne Studio-Abo.",
+      },
+      {
+        q: "Ich habe wenig Zeit. EMS verspricht 20 Minuten pro Woche.",
+        a: "Zeitmangel spricht für kurzes, geplantes Training, nicht für Strom: Zwei Einheiten à 45 bis 60 Minuten pro Woche reichen, auf Wunsch bei dir zu Hause in Buchforst, ohne Anfahrt. Das ist pro Woche kaum mehr Zeit als zwei EMS-Termine mit Umziehen und Fahrt.",
+      },
+      {
+        q: "Kann ich EMS und Krafttraining kombinieren?",
+        a: "Können ja, nötig ist es nicht. Wenn dir EMS Spaß macht, behalte es als Ergänzung. Die messbare Entwicklung von Kraft und Figur kommt aus den Grundübungen, deshalb würde ich Budget und Zeit zuerst dort investieren.",
+      },
+    ],
+  },
+
+  "klettenberg/personal-training": {
+    answer:
+      "Personal Training in Köln-Klettenberg: 1-zu-1 mit festen Terminen, draußen im Klettenbergpark und auf dem Grüngürtel oder im Studio, geplant um Gürtelbahn und Feierabend. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Klettenberg: 1-zu-1 im Klettenbergpark, auf dem Äußeren Grüngürtel oder im Studio. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Der Klettenbergpark ist ein Trainingsgerät",
+        body: "Der Klettenbergpark wurde ab 1905 in einer ehemaligen Kiesgrube angelegt, und genau das macht ihn fürs Training besonders: Er liegt tiefer als die Straßen drumherum und hat echte Hänge und Treppen, eine Seltenheit im flachen Köln. Wir nutzen das gezielt: Bergauf-Gehen und kurze Anstiege für Ausdauer und Beinkraft, Treppen für Schnelligkeit, die Wiesen am Weiher für Kraftübungen mit mitgebrachtem Material. Vom größten Teil Klettenbergs bist du in wenigen Minuten zu Fuß dort, das Warm-up ist der Weg.",
+      },
+      {
+        title: "Grüngürtel, Studio, Wohnzimmer: drei Orte, ein Plan",
+        body: "Klettenberg ist klein und dicht, gut 10.000 Menschen auf 1,8 Quadratkilometern Gründerzeit, und endet im Süden direkt am Äußeren Grüngürtel. Die langen, geraden Wege dort nehmen wir für Intervalle und Tempoarbeit. Für die schweren Grundübungen an der Langhantel gehen wir ins Studio, und wer gar nicht raus will, trainiert zu Hause: Kurzhanteln, Bänder und Matte bringe ich mit, ein freies Stück Altbauzimmer reicht. Welcher Mix passt, hängt von deinem Ziel ab und steht nach dem Erstgespräch fest.",
+      },
+      {
+        title: "Termine, die den Feierabend überleben",
+        body: "Viele Anfragen aus Klettenberg kommen von Berufstätigen, die über die Luxemburger Straße oder mit der Linie 18 pendeln und abends schon einen vollen Kalender haben. Deshalb arbeite ich mit festen Wochenterminen, auch früh ab 6:30 Uhr oder in der Mittagspause, und plane die Einheit von Tür zu Tür: 60 Minuten, Start an deiner Haustür oder am Parkeingang. Ein fester Termin mit einer Person, die auf dich wartet, hält erfahrungsgemäß länger als jeder Vorsatz.",
+      },
+      {
+        title: "So starten wir",
+        body: "Im kostenlosen Erstgespräch klären wir Ziel, Startpunkt und Ort: abnehmen, Kraft aufbauen, Rücken stabilisieren oder einfach wieder in Bewegung kommen. Danach bekommst du einen Plan mit zwei Einheiten pro Woche und kurzen Hausaufgaben dazwischen, oft nur eine Gehrunde durch den Grüngürtel. Alle vier bis sechs Wochen messen wir nach: Gewichte, Umfänge, wie sich der Alltag anfühlt. Was sich nicht bewegt, wird geändert.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Klettenberg?",
+        a: "Die 1-zu-1 Stunde kostet 50€, egal ob im Klettenbergpark, bei dir zu Hause oder im Studio. Wer lieber mit App-Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo trainieren wir im Winter?",
+        a: "Entweder im Studio oder bei dir zu Hause mit mitgebrachtem Material. Der Klettenbergpark bleibt auch im Winter nutzbar, für Geh- und Laufeinheiten ist kaltes Wetter kein Hindernis, nur die Kraftübungen wandern nach drinnen.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Ist das ein Problem?",
+        a: "Nein, das ist der Normalfall. Wir starten mit einem Technik- und Beweglichkeits-Check und bauen von dort auf. Die Hänge im Park lassen sich fein dosieren: erst zügig gehen, später laufen oder springen.",
+      },
+      {
+        q: "Trainierst du auch Paare oder zu zweit?",
+        a: "Ja, zu zweit funktioniert gut, wenn die Ziele zusammenpassen, und ihr teilt euch die Stunde. Ob das für euch sinnvoll ist, klären wir im kostenlosen Erstgespräch.",
+      },
+    ],
+  },
+
+  "westhoven/personal-training": {
+    answer:
+      "Personal Training in Köln-Westhoven: 1-zu-1 bei dir zu Hause oder am Rheinufer mit Blick auf die Rodenkirchener Brücke, Material und Plan bringe ich mit. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Westhoven: 1-zu-1 zu Hause oder am Rheinufer, Material bringe ich mit, Termine passend zur Linie 7. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Ruhiges Veedel, kurze Wege zum Wasser",
+        body: "Westhoven liegt rechtsrheinisch zwischen Poll und Ensen: knapp 5.700 Einwohner, viel Wohnlage, kein Fitnessstudio im Stadtteil. Dafür ist das Rheinufer von fast jeder Straße aus in wenigen Minuten erreichbar, mit dem Leinpfad flussauf Richtung Porz und flussab unter der Rodenkirchener Brücke durch Richtung Poller Wiesen. Diese Strecke ist flach, durchgehend und frei von Ampeln, ideal für Geh- und Laufeinheiten mit klaren, wiederholbaren Abschnitten. Das Krafttraining findet bei dir zu Hause statt, in Wohnzimmer, Garage oder Garten, das Material bringe ich mit.",
+      },
+      {
+        title: "Training, das zur Pendlerwoche passt",
+        body: "Wer in Westhoven wohnt, pendelt meist: mit der Linie 7 nach Deutz und in die Innenstadt oder mit dem Auto über die Autobahn. Der Abend ist dadurch oft das Nadelöhr. Deshalb lege ich Termine auch auf den frühen Morgen, bevor die Bahn fährt, oder auf den frühen Abend direkt nach deiner Rückfahrt, als festen Wochentermin. Die Einheit dauert 60 Minuten von Tür zu Tür, ohne eigene Anfahrt. So bleibt Training auch in Wochen stehen, in denen sonst alles wackelt.",
+      },
+      {
+        title: "Was wir in Westhoven konkret machen",
+        body: "Der Kern sind zwei Einheiten pro Woche: eine Krafteinheit mit Kurzhanteln, Bändern und Körpergewicht bei dir zu Hause, dokumentiert und von Woche zu Woche gesteigert, und eine Einheit draußen am Rhein für Ausdauer, Tempo und Beweglichkeit. Wer schwere Langhantel-Arbeit will, kombiniert das mit Studio-Terminen. Ziele aus Westhoven sind meist konkret: ein paar Kilo runter, der Rücken soll den Bürotag aushalten, wieder Kondition für Radtouren am Rhein. Der Plan richtet sich danach, nicht umgekehrt.",
+      },
+      {
+        title: "Messen statt hoffen",
+        body: "Am Anfang stehen das kostenlose Erstgespräch und eine ehrliche Bestandsaufnahme: Beweglichkeit, Kraft, Ausdauer, Alltag. Danach bekommst du deinen Plan und kurze Hausaufgaben für die Tage dazwischen, meist eine Gehrunde auf dem Leinpfad. Alle vier bis sechs Wochen wird nachgemessen: Gewichte im Protokoll, Umfänge, Gehtempo auf demselben Uferabschnitt. Der Rhein liefert dafür die konstante Strecke, die ein Laufband nie ersetzt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Westhoven?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und mitgebrachtem Material. Alternativ gibt es das Online Coaching ab 150€ im Monat mit Trainingsplan per App und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir in Westhoven?",
+        a: "Kraft bei dir zu Hause, in der Garage oder im Garten, Ausdauer und Tempo auf dem Leinpfad am Rheinufer zwischen Poller Wiesen und Porz. Im Winter oder bei Dauerregen verlagern wir alles nach drinnen oder ins Studio.",
+      },
+      {
+        q: "Ich habe keine Geräte zu Hause. Geht das trotzdem?",
+        a: "Ja. Kurzhanteln, Widerstandsbänder und Matte bringe ich zu jeder Einheit mit. Mehr als ein freies Stück Boden von zwei mal zwei Metern braucht es nicht.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Kraftwerte und Gehtempo bewegen sich bei zwei Einheiten pro Woche meist innerhalb der ersten sechs Wochen messbar, sichtbare Veränderungen folgen je nach Ziel und Essen danach. Versprochen wird nichts, gemessen alles.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
