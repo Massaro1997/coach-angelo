@@ -3151,6 +3151,96 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "vingst/personal-training": {
+    answer:
+      "Personal Training in Köln-Vingst braucht weder Studio noch Hobbyraum: Ich komme mit Kurzhanteln, Kettlebell und Bändern zu dir, ein freies Eck in der Wohnung reicht, und für Draußen-Einheiten liegt die Merheimer Heide gleich hinter der Stadtteilgrenze. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Vingst: 1-zu-1 in deiner Wohnung mit mitgebrachtem Material oder draußen an der Merheimer Heide. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Im dichtesten Veedel des Bezirks zählt jeder Quadratmeter",
+        body: "Vingst ist klein und voll: 12.711 Menschen auf 1,12 km², über 11.000 pro Quadratkilometer, mehr als in jedem anderen Stadtteil des Bezirks Kalk. Die meisten wohnen hier in Geschosswohnungen, und ein eigenes Zimmer fürs Training hat praktisch niemand. Mein Aufbau rechnet damit: Kurzhanteln, Kettlebell, Widerstandsbänder und eine Matte passen in zwei Taschen, die ich mitbringe. Zwei mal zwei Meter freier Boden genügen für eine komplette Krafteinheit, vom Aufwärmen bis zum letzten Satz.",
+      },
+      {
+        title: "Die Merheimer Heide als zweiter Trainingsraum",
+        body: "Hinter der östlichen Stadtteilgrenze, über Höhenberg und Ostheim, beginnt die Merheimer Heide: weite Wiesen und ruhige Wege, zu Fuß erreichbar statt mit Bahn und Tasche quer durch die Stadt. In den wärmeren Monaten verlege ich dorthin die Einheiten, die Platz brauchen: Lauf-ABC, Zirkel mit Körpergewicht und Bändern, längere Intervalle. So wechselt dein Training zwischen Wohnung und Wiese, ohne dass du je ein Studio betreten musst, außer du willst irgendwann schwer an die Langhantel, dann nehmen wir mein Studio dazu.",
+      },
+      {
+        title: "Gemessen wird, nicht geschätzt",
+        body: "Jede Einheit landet im Protokoll: Übungen, Gewichte, Wiederholungen, dazu alle vier Wochen Umfänge und, wenn du abnehmen willst, der Wochenschnitt auf der Waage. So sieht man schwarz auf weiß, ob der Plan arbeitet, und ich sehe früh, wo er klemmt. Steht eine Zahl zwei Kontrollen in Folge, wird nicht motiviert, sondern umgebaut: andere Übungsauswahl, anderes Volumen, andere Frequenz. Dein Einsatz ist zu wertvoll für einen Plan, der nur auf dem Papier gut aussieht.",
+      },
+      {
+        title: "Termine um Schicht und Pendelzeit herum",
+        body: "Viele Anfragen aus dem Kölner Osten kommen von Leuten, deren Tag nicht um 17 Uhr endet: Schichtdienst, Pendeln über die Linie 9 Richtung Deutz und Innenstadt, Familie am Abend. Deshalb lege ich Termine in Vingst auch auf den frühen Morgen, den Vormittag nach der Nachtschicht oder die Mittagszeit im Homeoffice. Der Rhythmus von zwei festen Einheiten pro Woche bleibt, die Uhrzeit richtet sich nach deinem Dienstplan, nicht umgekehrt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Vingst?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Anfahrt und Material sind enthalten. Wer lieber mit Plan und wöchentlichen Check-ins trainiert, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Meine Wohnung ist klein. Geht Training dort überhaupt?",
+        a: "Ja. Zwei mal zwei Meter freie Fläche reichen, die Geräte bringe ich mit. In Vingst trainiere ich überwiegend genau so, und für alles, was Platz braucht, gehen wir in die Merheimer Heide.",
+      },
+      {
+        q: "Wo in Vingst trainieren wir draußen?",
+        a: "In der Merheimer Heide, die direkt hinter Höhenberg und Ostheim beginnt: Wiesen für Zirkel und Sprints, ruhige Wege für Intervalle. Treffpunkt und Strecke legen wir im ersten Termin fest.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Kraftwerte bewegen sich meist in den ersten vier bis sechs Wochen, sichtbare Veränderungen brauchen länger und hängen vom Ziel ab. Versprochen wird nichts, gemessen alles: Protokoll, Umfänge und alle vier Wochen der Vergleich.",
+      },
+    ],
+  },
+
+  "duennwald/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Dünnwald macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung: Sie rechnet dein Kalorien- und Eiweißziel aus, baut den Wochenplan um einen großen Einkauf herum und steuert per Online-Check-in nach. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Dünnwald mit Natalie: echte Zahlen statt Gefühl, Wochenplan rund um den Großeinkauf, Online-Check-ins. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Wald vor der Tür verbrennt weniger, als er verspricht",
+        body: "Wer in Dünnwald wohnt, bewegt sich meist mehr als der Durchschnitt: Runden durch den Dünnwalder Wald, mit den Kindern in den Wildpark, im Sommer um den Höhenfelder See. Genau das führt in die typische Falle, dass sich der Tag nach viel Verbrauch anfühlt. Eine Stunde zügiges Gehen kostet aber nur grob 250 bis 350 Kilokalorien, ein belegtes Brötchen auf dem Rückweg holt das wieder rein. Natalie ersetzt dieses Gefühl durch Zahlen: dein tatsächlicher Verbrauch, dein Kalorienziel, deine Eiweißmenge. Erst damit wird aus viel Draußensein ein messbarer Vorteil.",
+      },
+      {
+        title: "Ein Wochenplan, der um den Großeinkauf herum gebaut ist",
+        body: "Am Stadtrand kauft man anders ein als in der Innenstadt: seltener, dafür groß, und was nicht im Haus ist, wird unter der Woche auch nicht schnell besorgt. Natalie nutzt das als Struktur statt als Hindernis. Aus dem Erstgespräch und ein paar Tagen Essprotokoll entsteht ein Wochenplan mit einer Einkaufsliste, die zu deinem Rhythmus passt: Grundzutaten, die mehrere Gerichte tragen, Vorrat, der ins Kalorienziel passt, und klare Prioritäten für die Tage, an denen der Plan wackelt. Verbotslisten gibt es keine, dafür ein Budget, in dem auch Kuchen am Sonntag Platz hat.",
+      },
+      {
+        title: "Online-Beratung spart dir den Weg quer durch die Stadt",
+        body: "Dünnwald liegt am nordöstlichen Rand Kölns, und ein Beratungstermin in der Innenstadt kostet schnell einen halben Abend. Deshalb läuft die Beratung bei Natalie komplett online: feste Video-Termine, dazwischen kurze Rückfragen per App, nachgesteuert wird nach dem Wochenschnitt auf der Waage, nicht nach Tagesschwankungen. Bleibt das Gewicht stehen, ändert sie konkret etwas an Ziel oder Plan, statt mehr Disziplin zu fordern.",
+      },
+      {
+        title: "Essen und Training aus einer Hand, wenn du willst",
+        body: "Ernährung wirkt am stärksten zusammen mit Krafttraining, denn nur so verschwindet im Defizit Fett statt Muskel. Wer beides angehen will, kombiniert die Beratung mit Training bei mir in Dünnwald: Ich komme mit Material zu dir nach Hause, der Wald übernimmt die Bewegung an den freien Tagen. Im Online Coaching ab 150€ im Monat sind Trainingsplan und Ernährungssteuerung zusammen enthalten, die 1-zu-1 Stunde vor Ort kostet 50€. Was für dich sinnvoll ist, klären wir im kostenlosen Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wer berät mich bei FitPrimo in Dünnwald?",
+        a: "Natalie, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Sie legt Kalorien- und Eiweißziel fest und steuert den Plan in festen Online-Check-ins nach.",
+      },
+      {
+        q: "Was kostet die Ernährungsberatung in Dünnwald?",
+        a: "Im Online Coaching ab 150€ im Monat ist die Ernährungssteuerung zusammen mit dem Trainingsplan enthalten. Ob dir eine reine Beratung reicht, klären wir im kostenlosen Erstgespräch.",
+      },
+      {
+        q: "Zählen meine Runden im Wildpark als Training?",
+        a: "Sie zählen als Alltagsbewegung und fließen in dein Kalorienziel ein, ersetzen aber kein Krafttraining. Die Kombination aus beidem entscheidet, ob du Fett verlierst oder nur Gewicht.",
+      },
+      {
+        q: "Muss ich dafür irgendwo hinfahren?",
+        a: "Nein. Die Beratung läuft per Video und App, die Termine passen auch in eine Mittagspause. Training vor Ort in Dünnwald kannst du jederzeit dazunehmen.",
+      },
+      {
+        q: "Bekomme ich einen starren Essensplan?",
+        a: "Nein. Du bekommst ein Kalorien- und Eiweißziel, einen Wochenplan rund um deinen Einkauf und Prioritäten für volle Tage. Was auf den Teller kommt, bleibt deine Küche.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {

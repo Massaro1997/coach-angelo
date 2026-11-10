@@ -75,8 +75,8 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 67 | /koeln/buchforst/ems-alternative | 0 | 9 | 9,3 | FATTA (giro 22, 10/11; prima voce ems-alternative; pos buona, rafforzata) |
 | 68 | /koeln/klettenberg/personal-training | 0 | 9 | 17,6 | FATTA (giro 22, 10/11) |
 | 69 | /koeln/westhoven/personal-training | 0 | 9 | 25,6 | FATTA (giro 22, 10/11) |
-| 70 | /koeln/vingst/personal-training | 1 | 9 | 3,4 | in coda (1 click, pos 3,4: rafforzare con molta prudenza) |
-| 71 | /koeln/duennwald/ernaehrungsberatung | 0 | 9 | 5,6 | in coda (pos già buona: rafforzare) |
+| 70 | /koeln/vingst/personal-training | 1 | 9 | 3,4 | FATTA (giro 23, 10/11; 1 click pos 3,4, rafforzata con molta prudenza) |
+| 71 | /koeln/duennwald/ernaehrungsberatung | 0 | 9 | 5,6 | FATTA (giro 23, 10/11; pos già buona, rafforzata) |
 | 72 | /koeln/fuehlingen/abnehmen | 0 | 9 | 6,8 | in coda (pos già buona: rafforzare) |
 | 73 | /koeln/heimersdorf/abnehmen | 0 | 9 | 7,2 | in coda (pos già buona: rafforzare) |
 | 74 | /koeln/finkenberg/personal-training | 0 | 9 | 7,1 | in coda (pos già buona: rafforzare) |
