@@ -3241,6 +3241,268 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "fuehlingen/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Fühlingen baue ich auf Strecken, die nicht lügen: Die Wege am Fühlinger See sind vermessen, deine Geh-Kilometer dort zählen exakt ins Kalorienziel. Dazu kommen zwei Krafteinheiten pro Woche bei dir im Haus. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Fühlingen: vermessene Runden am Fühlinger See statt geschätzter Schritte, Kaloriendefizit mit Muskelschutz, Krafttraining zu Hause. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Schätzen war gestern: hier sind die Kilometer vermessen",
+        body: "Die meisten Abnehmversuche scheitern an geschätzten Zahlen. Die Uhr zählt großzügig, der Kopf rundet auf, am Ende stimmt das Defizit nur auf dem Papier. Fühlingen hat dafür ein seltenes Gegenmittel direkt vor der Tür: Am Fühlinger See mit seinen sieben Becken ist die Regattastrecke vermessen, die Uferwege sind eben und immer gleich. Wenn deine Runde dort fest im Wochenplan steht, weiß ich genau, wie viel Bewegung wirklich stattgefunden hat, und rechne dein Essensbudget auf echte Zahlen statt auf Hoffnung.",
+      },
+      {
+        title: "Das Defizit kommt vom Essen, der See sichert den Kopf",
+        body: "Abgenommen wird in der Küche: Wir legen ein Kalorienziel fest, das zu deinem Alltag passt, mit einem Eiweiß-Anker pro Mahlzeit, damit der Hunger nicht regiert. Die festen See-Runden haben daneben zwei Aufgaben. Sie erhöhen deinen Verbrauch planbar, und sie geben der Woche eine Struktur, an der du auch nach einem schlechten Tag wieder andocken kannst. Wer im Sommer die Badegäste meiden will, geht morgens, der See gehört vor acht Uhr den Einheimischen.",
+      },
+      {
+        title: "Zwei Krafteinheiten schützen, was du behalten willst",
+        body: "Ohne Krafttraining verlierst du beim Abnehmen Muskeln mit, und genau die halten deinen Verbrauch hoch. Deshalb gehören zwei geführte Einheiten pro Woche in den Plan. Ein Studio gibt es im Dorf nicht, also bringe ich Hanteln, Bänder und Bank mit zu dir: Wohnzimmer, Garage oder Garten reichen für alles, was in einer Abnehmphase nötig ist. Gemessen wird alle vier Wochen an Umfängen und am Gewichtstrend, nicht an der Tagesform der Waage.",
+      },
+      {
+        title: "Für wen das in Fühlingen passt",
+        body: "Typisch für den äußersten Kölner Norden: Berufstätige mit Pendelstrecke, die abends keine dritte Fahrt zu einem Studio antreten wollen, und Leute, die schon viel spazieren gehen und sich wundern, warum sich nichts bewegt. Meist fehlt nicht die Bewegung, sondern das ehrliche Essensbudget dazu. Das Erstgespräch ist kostenlos, dort rechnen wir deinen Ausgangspunkt einmal sauber durch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Fühlingen?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Kalorienziel, Trainingsplan und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Reicht Gehen am Fühlinger See zum Abnehmen?",
+        a: "Gehen erhöht den Verbrauch, aber ohne Kaloriendefizit beim Essen nimmst du nicht ab. Die Kombination macht es: festes Essensbudget, vermessene Runden, zwei Krafteinheiten pro Woche.",
+      },
+      {
+        q: "Ich habe keine Geräte zu Hause. Geht das trotzdem?",
+        a: "Ja. Ich bringe das Material mit, verstellbare Kurzhanteln und Bänder decken eine komplette Abnehmphase ab. Du brauchst nur ein paar freie Quadratmeter.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Der Gewichtstrend zeigt nach drei bis vier Wochen eine klare Richtung, wenn Defizit und Training stehen. Realistisch sind 0,3 bis 0,7 Kilo pro Woche, je nach Ausgangspunkt.",
+      },
+      {
+        q: "Arbeitet ihr auch an der Ernährung mit?",
+        a: "Ja. Das Kalorienziel gehört zum Coaching. Wer mehr Tiefe will, arbeitet mit Natalie, unserer Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung.",
+      },
+    ],
+  },
+
+  "heimersdorf/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Heimersdorf scheitert selten am Willen, sondern an zu wenig Alltagsbewegung: In der ruhigen Siedlung sind alle Wege kurz. Ich baue deinen Grundverbrauch gezielt wieder auf, dazu ein Kalorienziel und zwei Krafteinheiten pro Woche. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Heimersdorf: Alltagsbewegung gezielt aufbauen, realistisches Kalorienziel, zwei Krafteinheiten pro Woche zu Hause. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Die Siedlung ist bequem, und genau das ist das Problem",
+        body: "Heimersdorf ist als Siedlung der sechziger Jahre geplant worden: 6.278 Menschen auf 1,75 Quadratkilometern, ruhige Wohnwege, alles Nötige nah beieinander. Zum Wohnen ist das ideal, für den Kalorienverbrauch nicht. Wer hier lebt und zur Arbeit pendelt, kommt oft auf erschreckend wenige Schritte am Tag, und ein niedriger Grundverbrauch frisst jedes Diätvorhaben von unten auf. Der erste Hebel ist deshalb nicht die nächste Diät, sondern dein Bewegungssockel.",
+      },
+      {
+        title: "Der Bewegungssockel wird geplant wie ein Termin",
+        body: "Wir legen feste Geh-Fenster in deinen Tag, die ohne Umziehen funktionieren: eine Runde durch die Siedlung am Morgen, der Weg zum Einkauf zu Fuß statt mit dem Auto, am Wochenende die längere Strecke zum Fühlinger See hinüber. Das klingt banal, macht aber über die Woche mehrere hundert Kalorien Unterschied, jeden Tag. Erst auf diesen Sockel setze ich das Kaloriendefizit, so bleibt es moderat und durchhaltbar statt radikal und kurz.",
+      },
+      {
+        title: "Krafttraining hält den Motor am Laufen",
+        body: "Zweimal pro Woche trainieren wir Kraft, bei dir zu Hause mit mitgebrachtem Material oder im Studio. In einer Abnehmphase entscheidet das Krafttraining, ob das verlorene Gewicht aus dem Fett kommt oder aus der Muskulatur, und Muskulatur ist genau der Motor, der deinen Verbrauch auch in Ruhe oben hält. Beim Essen bekommst du ein Kalorienziel mit Eiweiß-Anker, keine Verbotsliste: Der Familientopf am Abend bleibt, die Portion wird geplant.",
+      },
+      {
+        title: "Gemessen wird am Trend, nicht am Montagmorgen",
+        body: "Die Waage schwankt mit Wasser, Salz und Wochenende, deshalb zählt bei mir der Sieben-Tage-Trend und das Maßband. Alle vier Wochen setzen wir uns über die Zahlen: Geht der Trend runter, bleibt alles wie es ist. Stagniert er, justiere ich zuerst die Bewegung, dann das Essensbudget. So weißt du immer, warum etwas passiert, und musst nie raten, ob es noch funktioniert.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Heimersdorf?",
+        a: "50€ pro 1-zu-1 Stunde. Wer lieber mit App, Kalorienziel und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich sitze den ganzen Tag. Bringt mehr Gehen wirklich etwas?",
+        a: "Ja, und zwar mehr als die meisten denken. Der Unterschied zwischen 3.000 und 9.000 Schritten am Tag liegt bei mehreren hundert Kalorien, das ist oft das halbe Defizit.",
+      },
+      {
+        q: "Muss ich dafür in ein Studio fahren?",
+        a: "Nein. Ich komme mit dem Material zu dir nach Heimersdorf. Wer schweres Langhanteltraining möchte, kann Studio-Termine dazunehmen, nötig ist es fürs Abnehmen nicht.",
+      },
+      {
+        q: "Wie lange dauert es, bis ich etwas sehe?",
+        a: "Mit stehendem Bewegungssockel, Defizit und zwei Krafteinheiten zeigt der Gewichtstrend nach etwa einem Monat klar nach unten. Umfänge an Bauch und Hüfte reagieren oft zuerst.",
+      },
+    ],
+  },
+
+  "finkenberg/personal-training": {
+    answer:
+      "Personal Training in Köln-Finkenberg nutzt, was das kompakteste Veedel von Porz hergibt: viel Grün zwischen den Wohnhäusern für das Training direkt vor der Haustür, das Treppenhaus für Ausdauer bei schlechtem Wetter, Material bringe ich mit. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Finkenberg: Training im Grün zwischen den Wohnhäusern, Treppenhaus-Intervalle bei Regen, Material wird mitgebracht. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Das kompakteste Veedel von Porz hat kurze Wege zum Training",
+        body: "Finkenberg misst nur 0,64 Quadratkilometer, auf denen 6.870 Menschen wohnen, fast alles in den hohen Wohnhäusern der Siedlung aus den späten Sechzigern. Das heißt: Kein Punkt im Veedel ist weiter als ein paar Minuten zu Fuß entfernt, und zwischen den Häusern liegt deutlich mehr Grün, als der Ruf solcher Siedlungen vermuten lässt. Genau dort trainieren wir. Du kommst im Trainingszeug aus der Haustür, das Warm-up beginnt auf der Wiese vor dem Block, und nach einer Stunde bist du wieder oben.",
+      },
+      {
+        title: "Wenn es regnet, übernimmt das Treppenhaus",
+        body: "Die Wohnungen in Finkenberg sind selten groß genug für ein Heimstudio, aber die Häuser haben etwas Besseres: Treppenhäuser über viele Etagen. Treppenintervalle sind ehrliche Ausdauerarbeit für Beine, Gesäß und Kreislauf, und sie fallen nie wegen Wetter aus. Kraftübungen mit Kurzhanteln und Bändern passen danach in jedes Wohnzimmer, das Material trage ich hoch. So gibt es keine Saison, in der der Plan pausiert.",
+      },
+      {
+        title: "Erst das Ziel, dann der Plan, dann die Zahlen",
+        body: "Am Anfang steht das kostenlose Erstgespräch: Was willst du erreichen, was macht dein Körper mit, wie sieht deine Woche aus. Danach ein Technik-Check und ein Plan mit meist zwei Einheiten pro Woche. Jede Einheit wird dokumentiert, alle vier bis sechs Wochen vergleichen wir Kraftwerte, Umfänge und Gewichtstrend. Was sich nicht bewegt, wird geändert. Du bezahlst für Ergebnisse, nicht für Gesellschaft beim Schwitzen.",
+      },
+      {
+        title: "Termine, die zu Porzer Arbeitszeiten passen",
+        body: "Viele Anfragen aus Finkenberg und dem Rest von Porz kommen von Leuten mit frühen oder wechselnden Arbeitszeiten. Deshalb lege ich Termine ab 6:30 Uhr und auch in den frühen Nachmittag, nicht nur auf den Feierabend. Wer lieber auswärts trainiert: Die Stadtbahnlinie 7 hält direkt im Veedel, Studio-Termine lassen sich mit den Einheiten vor Ort kombinieren. Für längere Ausdauerblöcke weichen wir ins Grüne nach Gut Leidenhausen im Nachbarveedel Eil aus.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Finkenberg?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan per App und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch kostet in beiden Fällen nichts.",
+      },
+      {
+        q: "Wo genau trainieren wir in Finkenberg?",
+        a: "Auf den Grünflächen zwischen den Wohnhäusern, bei schlechtem Wetter im Treppenhaus und in deiner Wohnung. Das Material bringe ich mit. Studio-Termine sind über die Linie 7 gut kombinierbar.",
+      },
+      {
+        q: "Meine Wohnung ist klein. Reicht das für Krafttraining?",
+        a: "Ja. Für Kurzhanteln, Bänder und Körpergewichtsübungen reichen wenige freie Quadratmeter. Die platzhungrigen Anteile wie Ausdauer und Sprünge verlegen wir nach draußen oder ins Treppenhaus.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Wo fange ich an?",
+        a: "Beim kostenlosen Erstgespräch und dem Technik-Check danach. Der Plan startet auf deinem tatsächlichen Stand, nicht auf dem von früher, und steigt von dort kontrolliert.",
+      },
+    ],
+  },
+
+  "wahn/personal-training": {
+    answer:
+      "Personal Training in Köln-Wahn plane ich um deinen Schichtplan, nicht um einen festen Wochentag: Die Termine rotieren mit deiner Schichtwoche, trainiert wird bei dir zu Hause oder draußen am Rand der Wahner Heide. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Wahn: Termine, die mit deinem Schichtplan rotieren, Training zu Hause oder am Rand der Wahner Heide. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Der feste Trainingstag ist der Feind des Schichtplans",
+        body: "Wahn liegt ein paar Minuten vom Flughafen Köln/Bonn, und viele der 7.263 Menschen hier arbeiten dort oder im Umfeld: Frühschicht, Spätschicht, Nachtschicht, oft im wöchentlichen Wechsel. Das übliche Studio-Modell mit dem festen Dienstagstermin bricht an so einem Kalender nach drei Wochen zusammen. Deshalb drehe ich es um: Wir planen die Trainingswoche jeweils dann, wenn dein Schichtplan steht. Nach der Frühschicht am Nachmittag, vor der Spätschicht am Vormittag, in der Nachtschichtwoche kürzer und leichter.",
+      },
+      {
+        title: "Die Belastung folgt der Schicht, nicht nur dem Plan",
+        body: "Eine Nachtschichtwoche ist für den Körper nicht dieselbe Woche wie eine Frühschichtwoche, auch wenn der Kalender das behauptet. Schlafmangel senkt die Belastbarkeit, und wer dann stur sein schwerstes Programm durchzieht, sammelt Wehwehchen statt Fortschritt. Ich passe die Last an: schwere Einheiten in die erholten Wochen, Technik und moderates Volumen in die harten. Über Monate gerechnet kommst du so weiter als mit jedem starren Plan, weil keine Woche komplett ausfällt.",
+      },
+      {
+        title: "Trainiert wird vor Ort, ohne zusätzliche Fahrt",
+        body: "Nach einem Arbeitstag mit Anfahrt will kaum jemand noch eine dritte Strecke fahren. Also trainieren wir in Wahn: bei dir zu Hause mit mitgebrachten Hanteln und Bändern oder draußen, wo das Veedel an die Wahner Heide grenzt, mit festen Wegen für Aufwärmen und Ausdauerblöcke. Wer gezielt an die Langhantel will, kombiniert Termine im Studio dazu. Die S-Bahn hält in Porz-Wahn, auch das lässt sich in den Wochenplan einbauen.",
+      },
+      {
+        title: "Dokumentiert wird alles, versprochen wird nichts Falsches",
+        body: "Jede Einheit steht im Protokoll: Übung, Last, Wiederholungen, dazu alle vier bis sechs Wochen Umfänge und Kraftwerte im Vergleich. So siehst du schwarz auf weiß, ob das Modell mit den rotierenden Terminen bei dir trägt. Das Erstgespräch ist kostenlos und klärt Ziel, Gesundheit und deinen tatsächlichen Kalender. Mehr als zwei geführte Einheiten pro Woche brauchst du für den Anfang nicht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Wahn?",
+        a: "50€ pro 1-zu-1 Stunde, das Online Coaching mit Trainingsplan per App und wöchentlichen Check-ins ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite im Wechseldienst. Funktioniert regelmäßiges Training da überhaupt?",
+        a: "Ja, wenn die Termine mit dem Schichtplan rotieren statt gegen ihn. Wir planen wochenweise, sobald dein Dienstplan steht, und passen die Trainingslast an die Schichtart an.",
+      },
+      {
+        q: "Wo trainieren wir in Wahn?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material oder draußen am Rand der Wahner Heide. Studio-Termine für Langhanteltraining lassen sich dazunehmen.",
+      },
+      {
+        q: "Trainierst du auch früh morgens oder am Vormittag?",
+        a: "Ja. Termine lege ich ab 6:30 Uhr und über den ganzen Tag. Gerade vor einer Spätschicht ist der Vormittag oft das beste Fenster.",
+      },
+    ],
+  },
+
+  "altstadt-nord/rueckentraining": {
+    answer:
+      "Rückentraining in der Kölner Altstadt-Nord für beide Arbeitstage des Zentrums: den sitzenden am Bildschirm und den stehenden in Laden und Gastronomie. Zweimal pro Woche gezielte Kraftarbeit, auch als kompakte Einheit nahe deinem Arbeitsplatz. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln Altstadt-Nord: Kraftaufbau für Büro-Rücken und Steh-Rücken aus Handel und Gastronomie, Einheiten nahe dem Arbeitsplatz. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Das Zentrum hat zwei Sorten Rücken",
+        body: "In der Altstadt-Nord arbeiten täglich weit mehr Menschen, als die 18.617 Einwohner vermuten lassen, und ihre Rücken erzählen zwei verschiedene Geschichten. Die eine kommt vom Sitzen: acht Stunden Bildschirm, runde Schultern, steife Hüfte. Die andere kommt vom Stehen und Heben in Einzelhandel und Gastronomie rund um Hauptbahnhof, Breslauer Platz und die Ringe: müde Lendenwirbelsäule, einseitige Tragemuster, Schmerzen am Abend. Beide brauchen Kraft, aber nicht an denselben Stellen, und genau da setzt der Plan an.",
+      },
+      {
+        title: "Sitz-Rücken und Steh-Rücken trainieren verschieden",
+        body: "Beim Sitz-Rücken arbeiten wir vor allem gegen die Haltung: Zugübungen für den oberen Rücken, Hüftstreckung, Rumpfspannung. Beim Steh-Rücken geht es um Entlastung durch Kraft: eine belastbare hintere Kette, sauberes Hebemuster für Kisten und Tabletts, Gesäß und Beine, die dem unteren Rücken Arbeit abnehmen. Im kostenlosen Erstgespräch und beim Bewegungs-Check sortieren wir, welches Muster bei dir überwiegt. Die meisten im Zentrum haben eine Mischung aus beidem.",
+      },
+      {
+        title: "Die Einheit passt zwischen zwei Arbeitsblöcke",
+        body: "Wer im Zentrum arbeitet, hat selten Lust, nach Feierabend noch quer durch die Stadt zu fahren. Deshalb lege ich Einheiten dorthin, wo dein Tag ohnehin stattfindet: kompakte 45 bis 60 Minuten vor der Schicht, in der Mittagspause oder direkt danach, draußen in der Grünanlage am Theodor-Heuss-Ring, am Rheinufer oder bei dir zu Hause. Material bringe ich mit. Für die Tage dazwischen bekommst du ein kurzes Programm von zehn Minuten, das ohne Geräte in jede Frühstückspause passt.",
+      },
+      {
+        title: "Was das Training kann und was zum Arzt gehört",
+        body: "Krafttraining ist das wirksamste Mittel gegen den unspezifischen Rückenschmerz aus Alltag und Arbeit, und genau den trainieren wir. Ausstrahlende Schmerzen ins Bein, Taubheit oder ein frischer Bandscheibenvorfall gehören zuerst in ärztliche Abklärung, danach baue ich das Training auf dem Befund auf. Diese Grenze spreche ich im Erstgespräch offen an, denn ein Trainer, der Diagnosen stellt, ist keiner.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in der Altstadt-Nord?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Plan und wöchentlichen Check-ins beginnt bei 150€ im Monat, das Erstgespräch ist immer kostenlos.",
+      },
+      {
+        q: "Ich stehe den ganzen Tag im Laden. Hilft Krafttraining auch da?",
+        a: "Ja. Ein belastbarer unterer Rücken, kräftiges Gesäß und ein sauberes Hebemuster nehmen dem Steh-Tag die Spitzen. Die meisten spüren nach vier bis sechs Wochen einen klaren Unterschied am Abend.",
+      },
+      {
+        q: "Geht eine Einheit in der Mittagspause?",
+        a: "Ja, 45 Minuten reichen für eine vollwertige Rücken-Einheit. Wir trainieren in der Grünanlage am Theodor-Heuss-Ring, am Rheinufer oder bei dir, ohne lange Wege.",
+      },
+      {
+        q: "Ich hatte schon einmal einen Bandscheibenvorfall. Könnt ihr trotzdem trainieren?",
+        a: "Ja, nach ärztlicher Freigabe. Der Plan startet dann auf dem Befund, mit kontrollierten Progressionen statt Experimenten. Ohne Freigabe trainiere ich in so einem Fall nicht.",
+      },
+    ],
+  },
+
+  "bilderstoeckchen/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Bilderstöckchen für Rücken, die arbeiten: Handwerk, Lager, Pflege, Fahrdienst. Zweimal pro Woche Kraftaufbau gegen einseitiges Heben und Tragen, mit Terminen ab 6:30 Uhr vor der Frühschicht und dem Blücherpark für den Ausgleich. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Bilderstöckchen: Kraftaufbau für körperlich Arbeitende, sauberes Hebemuster, Termine ab 6:30 Uhr, Blücherpark als Ausgleich. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Hier schmerzt der Rücken nicht vom Sitzen",
+        body: "Bilderstöckchen ist ein Veedel, in dem viele der 15.516 Einwohner körperlich arbeiten: auf Baustellen, im Lager, in der Pflege, am Steuer. Dieser Rücken hat ein anderes Problem als der Bürorücken, der eine Etage weiter in den Ratgebern steht. Er bewegt sich den ganzen Tag, aber immer gleich: dieselbe Seite, die trägt, dieselbe gebückte Haltung, dieselben Hebewege. Die Lösung ist nicht Schonung, sondern Kraft an den Stellen, die der Job einseitig lässt.",
+      },
+      {
+        title: "Stark machen, was der Job vernachlässigt",
+        body: "Wer beruflich hebt, hat meist eine kräftige Vorderseite und eine vernachlässigte Rückseite. Im Training drehen wir das Verhältnis: Hüftstreckung und Gesäß als Fundament, der obere Rücken als Gegenspieler zur gebückten Arbeit, die seitliche Rumpfmuskulatur gegen das einseitige Tragen. Dazu schauen wir dein tatsächliches Hebemuster an, mit Lasten, wie sie im Job vorkommen, nicht mit Luftgewichten. Ziel ist, dass der Feierabendschmerz in ein paar Wochen nicht mehr der Normalzustand ist.",
+      },
+      {
+        title: "Termine vor der Frühschicht, Training ohne Umweg",
+        body: "Wer um sieben auf der Baustelle oder Station steht, trainiert nicht um 19 Uhr mit frischem Kopf. Deshalb beginnen meine Termine in Bilderstöckchen ab 6:30 Uhr, und auch der frühe Nachmittag nach der Frühschicht ist ein gutes Fenster. Trainiert wird bei dir zu Hause mit mitgebrachtem Material oder draußen am Blücherpark, der direkt am Veedel liegt. Für die trainingsfreien Tage reicht dort eine zügige Runde, damit der Rücken Bewegung ohne Last bekommt.",
+      },
+      {
+        title: "Erst prüfen, dann belasten",
+        body: "Am Anfang steht das kostenlose Erstgespräch mit Bewegungs-Check: Wie hebst du, wo zwickt es, was sagt die Vorgeschichte. Unspezifische Schmerzen aus Belastung und Einseitigkeit trainieren wir direkt weg, dokumentiert in jedem Termin. Bei Warnsignalen wie Ausstrahlung ins Bein oder Taubheit schicke ich dich zuerst zum Arzt und baue das Training danach auf dem Befund auf. So bleibt das Training ein Werkzeug und wird kein Risiko.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Bilderstöckchen?",
+        a: "50€ pro 1-zu-1 Stunde. Das Online Coaching mit Plan per App und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Ich arbeite körperlich. Ist Krafttraining dann nicht zu viel?",
+        a: "Nein, es ist das Gegenmittel. Der Job belastet einseitig, das Training gleicht gezielt aus und macht die vernachlässigten Muskeln belastbar. Volumen und Last plane ich um deine Arbeitswoche.",
+      },
+      {
+        q: "Wie früh kann ich trainieren?",
+        a: "Ab 6:30 Uhr. Viele meiner Kunden aus körperlichen Berufen trainieren vor der Frühschicht oder am frühen Nachmittag danach.",
+      },
+      {
+        q: "Brauche ich dafür ein Studio?",
+        a: "Nein. Ich bringe Hanteln, Bänder und Bank mit zu dir, und für Ausgleichsbewegung liegt der Blücherpark direkt vor der Tür. Studio-Termine lassen sich ergänzen, wenn du schwerer heben willst.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
