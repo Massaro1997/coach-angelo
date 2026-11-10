@@ -2607,6 +2607,288 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "altstadt-sued/personal-training": {
+    answer:
+      "Personal Training in der Kölner Südstadt heißt bei mir: 1-zu-1 Krafttraining mit Plan und Progression, draußen am Rheinufer zwischen Rheinauhafen und Südbrücke oder im Studio an der Langhantel. Zwei feste Termine pro Woche, eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln Altstadt-Süd: 1-zu-1 am Rheinufer zwischen Rheinauhafen und Südbrücke oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Im dichtesten Veedel der Stadt fehlt vor allem eins: Platz",
+        body: "Altstadt-Süd drängt 27.764 Menschen auf 2,36 km², fast zwölftausend pro Quadratkilometer. Die typische Wohnung zwischen Severinstraße und Ubierring ist Altbau, drei Zimmer, kein Keller, kein Platz für ein Rack. Genau deshalb funktioniert Personal Training hier anders als im Einfamilienhaus-Veedel: wir verlegen das Training dorthin, wo Platz ist. Das Rheinufer liegt von jedem Punkt des Veedels aus in Gehweite, und fürs schwere Krafttraining gibt es das Studio. Du brauchst keine Geräte und kein Auto, nur feste Termine.",
+      },
+      {
+        title: "Das Rheinufer ist dein Trainingsplatz, nicht nur deine Joggingstrecke",
+        body: "Zwischen Rheinauhafen und Südbrücke zieht sich ein langes, flaches Uferstück, das morgens und am frühen Vormittag erstaunlich leer ist. Dort arbeiten wir mit mitgebrachtem Material: Kettlebells, Bänder, Sprints, Treppen an der Promenade. Die Runde durch den Inneren Grüngürtel am Sachsenring nehmen wir für Ausdauerblöcke dazu. Wer in der Südstadt wohnt, hat kürzere Wege zu diesen Flächen als zu jedem Fitnessstudio mit Parkplatzsuche.",
+      },
+      {
+        title: "Ein Plan mit Zahlen, nicht nur mit guten Wochen",
+        body: "Wir starten mit einem Technik-Check und legen dann zwei feste Einheiten pro Woche. Jede Übung wird mit Gewicht und Wiederholungen notiert, alle vier Wochen vergleichen wir: Kraftwerte, Umfänge, auf Wunsch Gewicht. In der Südstadt kommen viele Anfragen von Leuten Mitte dreißig bis Mitte fünfzig, die jahrelang nur gelaufen sind oder gar nichts gemacht haben und jetzt merken, dass Kraft fehlt. Dafür ist der Einstieg mit Begleitung der kürzeste Weg: Technik zuerst, Last danach.",
+      },
+      {
+        title: "Südstadt-Alltag eingeplant, nicht wegtrainiert",
+        body: "Das Veedel lebt abends, vom Chlodwigplatz bis zur Severinstraße, und ein Plan, der Gastronomie und Wochenende verbietet, hält hier keine vier Wochen. Deshalb plane ich andersherum: zwei Krafteinheiten und ein Ausdauerblock stehen fest, der Rest des Lebens bleibt. Wenn du auch die Ernährung anfassen willst, legt Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, dir Kalorien- und Eiweißziele fest, die Abende im Veedel aushalten. Das klären wir im kostenlosen Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in der Altstadt-Süd?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Wer lieber mit App-Plan und wöchentlichen Video-Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir?",
+        a: "Draußen am Rheinufer zwischen Rheinauhafen und Südbrücke und im Inneren Grüngürtel, fürs schwere Krafttraining im Studio. Wenn deine Wohnung Platz hergibt, geht auch Training zu Hause mit mitgebrachtem Material.",
+      },
+      {
+        q: "Ich habe nie Krafttraining gemacht. Ist das ein Problem?",
+        a: "Nein, es ist der Normalfall. Wir fangen mit einem Technik-Check an und bauen die Grundübungen sauber auf. Das Tempo bestimmt dein Stand, nicht ein Standardplan.",
+      },
+      {
+        q: "Trainieren wir auch im Winter draußen?",
+        a: "Wenn du willst, ja: das Uferstück ist ganzjährig nutzbar und bei Kälte oft am leersten. Wer lieber drinnen bleibt, verlegt die Wintermonate komplett ins Studio. Beides ist im gleichen Plan abbildbar.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Kraftwerte bewegen sich bei zwei Einheiten pro Woche in den ersten vier bis sechs Wochen messbar. Sichtbare Veränderung am Körper braucht je nach Ziel zwei bis drei Monate. Beides steht bei uns dokumentiert im Log, nicht im Gefühl.",
+      },
+    ],
+  },
+
+  "muelheim/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Mülheim: Trainingsplan per App, wöchentliche Video-Check-ins und Ernährungssteuerung, ab 150€ im Monat. Trainiert wird, wo deine Woche es zulässt, im Studio deiner Wahl, zu Hause oder am Mülheimer Rheinufer. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Mülheim: Plan per App, Video-Check-ins, Ernährungssteuerung. Für Spät- und Wechselschichten gebaut. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Für Arbeitszeiten, die kein Kursplan abbildet",
+        body: "Mülheim ist mit 43.296 Einwohnern eines der größten Veedel der Stadt, und es arbeitet zu allen Uhrzeiten: im Carlswerk an der Schanzenstraße sitzen Firmen, deren Projekte selten um 17 Uhr enden, dazu kommen Gastronomie am Wiener Platz, Veranstaltungsbetrieb in E-Werk und Palladium, Logistik und Pflege. Feste wöchentliche Trainingstermine scheitern an solchen Wochen regelmäßig. Online Coaching dreht das um: der Plan steht in der App, du legst die Einheiten dorthin, wo deine Schicht oder dein Projekt sie zulässt, und die Kontrolle läuft über den wöchentlichen Check-in statt über eine feste Uhrzeit im Studio.",
+      },
+      {
+        title: "Plan in der App, Kontrolle im Video-Check-in",
+        body: "Du bekommst jede Übung mit Video und klaren Vorgaben für Gewicht und Wiederholungen, geschrieben auf die Ausstattung, die du wirklich hast: dein Studio, dein Homegym oder Körpergewicht plus Bänder. Einmal pro Woche sprechen wir 15 bis 20 Minuten per Video, der Termin wandert mit deiner Schicht. Dazwischen schickst du Technik-Videos oder Fragen und bekommst kurzfristig Antwort. Gesteuert wird nach deinem Trainingslog und dem Wochenschnitt auf der Waage, nicht nach Bauchgefühl.",
+      },
+      {
+        title: "Rheinufer und Stadtgarten als feste Cardio-Blöcke",
+        body: "Die Ausdauer kostet in Mülheim kein Laufband: am Rheinufer unter der Mülheimer Brücke liegt eine flache, lange Strecke, der Mülheimer Stadtgarten eine kurze Runde für lockere Tage. Beides schreibe ich mit Strecke und Tempo in den Plan, damit aus dem vagen Vorsatz ein abhakbarer Block wird. Wer lieber drinnen bleibt, bekommt die gleichen Blöcke aufs Gerät im Studio geschrieben. Entscheidend ist nicht wo, sondern dass es im Log steht.",
+      },
+      {
+        title: "Wenn online nicht reicht: 1-zu-1 vor Ort dazunehmen",
+        body: "Online Coaching trägt, sobald die Grundübungen sauber sitzen. Wackeln Kniebeuge oder Kreuzheben noch, starten wir ehrlicher mit ein paar 1-zu-1 Stunden, ich trainiere regelmäßig in Mülheim, und wechseln dann online. Auch dauerhaft gemischt funktioniert es: Plan und Check-ins online, einmal im Monat eine Technik-Stunde vor Ort für 50€. Was zu deiner Woche passt, klären wir im kostenlosen Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Mülheim?",
+        a: "Ab 150€ im Monat, mit Trainingsplan per App, wöchentlichem Video-Check-in, Ernährungssteuerung und Betreuung zwischen den Terminen. Einzelne 1-zu-1 Stunden vor Ort kosten 50€. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite in Wechselschicht. Funktioniert das?",
+        a: "Ja, dafür ist das Format gebaut. Die Einheiten haben keine feste Uhrzeit, der Check-in-Termin wandert mit dem Dienstplan, und der Plan hat Minimalvarianten für Wochen, in denen wenig geht.",
+      },
+      {
+        q: "Brauche ich ein Fitnessstudio?",
+        a: "Nein. Der Plan wird auf deine Möglichkeiten geschrieben, vom voll ausgestatteten Studio bis zu Körpergewicht und Bändern zu Hause. Fürs Cardio reichen Rheinufer und Stadtgarten vor der Tür.",
+      },
+      {
+        q: "Was unterscheidet das von einem Trainingsplan aus dem Internet?",
+        a: "Die Steuerung. Ein PDF bleibt gleich, egal was passiert. Hier wird jede Woche nach Log und Wochenschnitt nachjustiert, Technik wird per Video korrigiert, und wenn eine Schichtwoche alles umwirft, wird der Plan angepasst statt abgebrochen.",
+      },
+      {
+        q: "Kann ich online anfangen, obwohl ich Anfänger bin?",
+        a: "Meistens ist es ehrlicher, die Grundübungen zuerst in wenigen 1-zu-1 Stunden zu lernen, das geht auch bei dir in Mülheim. Danach funktioniert online sehr gut, weil die Technik-Basis steht.",
+      },
+    ],
+  },
+
+  "dellbrueck/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Dellbrück macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung: Kalorien- und Eiweißziele, ein Wochenplan, der Familientisch und Vereinstraining übersteht, kurze Check-ins zum Nachsteuern. Die Beratung läuft online, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Dellbrück mit Natalie: Sport- und Fitnessernährung, Wochenplan für Familie und Vereinstraining, Online-Check-ins. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Viel Bewegung, und das Gewicht steht trotzdem",
+        body: "Dellbrück ist ein sportliches Veedel: 21.954 Einwohner, die Dellbrücker Heide als Lauffläche vor der Tür, der Thielenbruch für lange Runden, dazu ein dichtes Vereinsleben. Genau deshalb klingen viele Anfragen von hier gleich: es wird zwei-, dreimal pro Woche trainiert, und auf der Waage passiert nichts. Die Antwort liegt fast nie im Training, sondern in der Energiebilanz drumherum. Natalie rechnet sie mit dir durch, mit echten Zahlen statt mit dem Gefühl, eigentlich ganz ordentlich zu essen.",
+      },
+      {
+        title: "Erst die Bestandsaufnahme, dann das Ziel",
+        body: "Am Anfang stehen ein ausführliches Gespräch und ein paar Tage Essprotokoll, so wie du wirklich isst, nicht wie du es dir vornimmst. Daraus legt Natalie Kalorienziel und Eiweißmenge fest, passend zu deinem Ziel: abnehmen, Muskeln aufbauen oder die Leistung im Verein stützen. Verbotslisten gibt es nicht. Es gibt eine Struktur aus Mahlzeiten, die zu deinem Tag passen, und klare Prioritäten, was zuerst zählt, wenn die Woche voll ist.",
+      },
+      {
+        title: "Ein Plan für den Tisch, an dem mehrere sitzen",
+        body: "Dellbrück ist ein Familienveedel, und ein Ernährungsplan, der ein eigenes Gericht nur für dich vorsieht, scheitert am Abendessen. Natalie plant deshalb mit dem Familientisch: gleiche Gerichte für alle, gesteuert wird über deine Portion und den Rest deines Tages. Auch Wochenende, Vereinsfest und Brauhaus bekommen einen Platz im Wochenbudget, statt es zu sprengen. Ein Plan, der das echte Leben einrechnet, hält Monate statt zwei Wochen.",
+      },
+      {
+        title: "Online-Beratung, Training dazu, wenn du willst",
+        body: "Die Beratung läuft per Video und App: feste Check-ins, dazwischen kurze Rückfragen, nachgesteuert wird nach dem Wochenschnitt auf der Waage. Wer Training und Ernährung zusammen angehen will, nimmt das Online Coaching ab 150€ im Monat, dort sind Trainingsplan und Ernährungssteuerung enthalten. Für Technik und Krafttraining vor Ort in Dellbrück gibt es die 1-zu-1 Stunde für 50€. Was sinnvoll ist, klären wir im kostenlosen Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wer macht die Ernährungsberatung bei FitPrimo?",
+        a: "Natalie, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Sie arbeitet eng mit dem Training zusammen, damit Essen und Plan zum selben Ziel führen.",
+      },
+      {
+        q: "Was kostet die Ernährungsberatung in Dellbrück?",
+        a: "Im Online Coaching ab 150€ im Monat ist die Ernährungssteuerung zusammen mit dem Trainingsplan enthalten. Das Erstgespräch ist kostenlos, dort klären wir auch, ob eine reine Beratung für dich reicht.",
+      },
+      {
+        q: "Ich laufe schon regelmäßig in der Heide. Warum nehme ich nicht ab?",
+        a: "Weil Laufen den Verbrauch weniger erhöht, als die meisten denken, und das Essen drumherum die Bilanz bestimmt. Mit einem realistischen Kalorienziel wird aus der Lauferei ein Hebel statt eines Alibis.",
+      },
+      {
+        q: "Muss ich für meine Familie und für mich getrennt kochen?",
+        a: "Nein. Natalie plant mit gemeinsamen Gerichten und steuert über deine Portionen und den Rest des Tages. Getrennte Töpfe hält niemand durch, und nötig sind sie nicht.",
+      },
+      {
+        q: "Läuft die Beratung vor Ort oder online?",
+        a: "Online, per Video und App, die Termine passen damit auch in eine Mittagspause. Training vor Ort in Dellbrück kannst du jederzeit dazunehmen.",
+      },
+    ],
+  },
+
+  "weiss/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Weiß funktioniert ohne Studio im Veedel: ein realistisches Kaloriendefizit, zwei Krafteinheiten pro Woche bei dir zu Hause mit mitgebrachtem Material und die Rheinbogen-Runde als fester Bewegungssockel. Realistisch sind ein bis zwei Kilo Fett pro Monat. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Weiß: Kaloriendefizit ohne Crash-Diät, Krafttraining zu Hause, feste Runden im Rheinbogen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Im Dorf am Rheinbogen gibt es kein Studio, und du brauchst auch keins",
+        body: "Weiß ist mit 5.923 Einwohnern eines der kleinsten Veedel im Kölner Süden, ein altes Dorf in der Rheinschleife zwischen Rodenkirchen und Sürth. Ein Fitnessstudio gibt es im Ort nicht, und genau daran scheitern hier viele Abnehmversuche: die Fahrt nach Rodenkirchen oder in die Stadt fällt als Erstes aus, wenn der Tag voll ist. Deshalb kommt das Training zu dir. Ich bringe Kurzhanteln, Kettlebells und Bänder mit, trainiert wird im Wohnzimmer, im Garten oder direkt am Rheinufer.",
+      },
+      {
+        title: "Die Rheinbogen-Runde ist dein täglicher Verbrauch",
+        body: "Der größte Teil des Kalorienverbrauchs entsteht nicht in der Trainingsstunde, sondern in der Bewegung dazwischen, und dafür ist Weiß besser ausgestattet als die halbe Innenstadt: der Leinpfad am Rheinufer ist flach, ruhig und führt in beide Richtungen aus dem Dorf, nach Sürth oder Richtung Rodenkirchen. Diese Runde bekommt im Plan feste Kilometer pro Woche, bei jedem Wetter. Im Sommer, wenn die Fähre nach Zündorf übersetzt, lässt sich die Runde aufs andere Ufer verlängern. Gewohnheit schlägt Willenskraft, deshalb steht die Runde im Plan wie ein Termin.",
+      },
+      {
+        title: "Defizit mit Muskelschutz statt Crash-Diät",
+        body: "Wer nur weniger isst, verliert Muskeln mit, und der Verbrauch sinkt gleich hinterher, das ist der eingebaute Jojo. Deshalb gehören zwei Krafteinheiten pro Woche fest in den Plan. Gewichte und Wiederholungen werden notiert, alle vier Wochen schauen wir gemeinsam auf Waage, Umfänge und Kraftwerte: sinkt das Gewicht bei stabiler Kraft, verschwindet Fett und nicht Muskel. Dein Kalorienziel rechnet auf Wunsch Natalie durch, unsere Ernährungsberaterin für Sport- und Fitnessernährung, mit Check-ins, wenn das Gewicht stehen bleibt.",
+      },
+      {
+        title: "Für wen das in Weiß gedacht ist",
+        body: "Typische Anfragen aus Weiß kommen von Leuten, die hier wegen Ruhe und Rhein wohnen und im Auto oder am Schreibtisch sitzen: Pendler über die Rheinuferstraße, Selbstständige im Homeoffice, Eltern, bei denen der eigene Sport seit Jahren hinten ansteht. Der Plan rechnet mit genau diesem Alltag: zwei feste Krafteinheiten, die Rheinrunde als Sockel, ein Kalorienbudget, das Wochenende und Besuch übersteht. Keine Verbote, keine Pulverkur, dafür Zahlen, die sich kontrollieren lassen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Weiß?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Das Online Coaching mit Trainingsplan und Ernährungssteuerung durch Natalie beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie viel kann ich realistisch abnehmen?",
+        a: "Ein bis zwei Kilo Fett pro Monat, am Anfang durch Wasser oft mehr. Das klingt unspektakulär, summiert sich aber in einem halben Jahr auf sechs bis zwölf Kilo, ohne Jojo.",
+      },
+      {
+        q: "Ich habe keine Geräte zu Hause. Reicht das trotzdem?",
+        a: "Ja. Ich bringe Kurzhanteln, Kettlebells und Bänder mit, das reicht für ein vollwertiges Krafttraining. Wer irgendwann schwerer trainieren will, nimmt das Studio in Köln dazu.",
+      },
+      {
+        q: "Reichen Spaziergänge am Rhein nicht aus?",
+        a: "Sie sind der wichtigste Alltagsbaustein, aber sie schützen die Muskeln im Defizit nicht. Erst Defizit, feste Kilometer und zwei Krafteinheiten zusammen sorgen dafür, dass gezielt Fett verschwindet.",
+      },
+      {
+        q: "Brauche ich einen strikten Ernährungsplan?",
+        a: "Nein, ein Kalorienbudget mit Eiweißziel reicht. Natalie legt es so, dass Familienessen und Wochenende hineinpassen. Pläne mit Verbotslisten halten in der Praxis keine vier Wochen.",
+      },
+    ],
+  },
+
+  "rodenkirchen/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Rodenkirchen mit Krafttraining statt Crash-Diät: ein realistisches Kaloriendefizit, zwei Einheiten pro Woche im Studio oder bei dir zu Hause und feste Runden am Rheinufer und im Forstbotanischen Garten. Realistisch sind ein bis zwei Kilo Fett pro Monat, ohne Jojo. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Rodenkirchen: Kaloriendefizit mit Muskelschutz, Krafttraining 1-zu-1, feste Runden am Rheinufer und im Forstbotanischen Garten. 50€/Std.",
+    sections: [
+      {
+        title: "Rodenkirchen hat die besten Abnehm-Strecken im Kölner Süden",
+        body: "Zwischen Rheinpromenade, Forstbotanischem Garten und Friedenswald liegt in Rodenkirchen ein zusammenhängendes Netz an Wegen, das die meisten nur vom Sonntagsspaziergang kennen. Im Abnehmplan wird daraus ein Werkzeug: feste Kilometer pro Woche, als Termin geplant statt als Vorsatz. Diese Alltagsbewegung hebt deinen Verbrauch zuverlässiger als jede zusätzliche Schwitzeinheit, weil sie keine Willenskraft kostet, sobald sie Gewohnheit ist. Die Promenade ist flach und beleuchtet, der Forstbotanische Garten liefert die ruhigere Runde für Wochenenden.",
+      },
+      {
+        title: "Das Defizit macht den Unterschied, das Krafttraining sichert ihn ab",
+        body: "Abgenommen wird im Kaloriendefizit, daran führt kein Weg vorbei. Aber was dein Körper im Defizit abbaut, entscheidet das Krafttraining: ohne Widerstand verschwinden Muskeln mit, der Verbrauch sinkt, und nach der Diät ist alles wieder da. Deshalb stehen zwei Krafteinheiten pro Woche im Plan, im Studio an der Langhantel oder bei dir zu Hause in Rodenkirchen mit mitgebrachtem Material. Gewichte und Wiederholungen werden dokumentiert, alle vier Wochen vergleichen wir Waage, Umfänge und Kraftwerte.",
+      },
+      {
+        title: "Essen, das zum Leben am Rhein passt",
+        body: "Rodenkirchen lebt draußen: die Promenade, die Biergärten am Wasser, Familienessen am Wochenende. Ein Abnehmplan, der das alles verbietet, hält zwei Wochen. Deshalb arbeitet dein Plan mit einem Wochenbudget an Kalorien statt mit täglichen Verboten, und das Abendessen am Rhein ist eingerechnet, nicht verboten. Dein Kalorienziel und die Eiweißmenge legt auf Wunsch Natalie fest, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, mit kurzen Online-Check-ins zum Nachsteuern.",
+      },
+      {
+        title: "Messbar in vier Wochen, nicht erst im nächsten Sommer",
+        body: "Du musst mir nicht glauben, dass der Plan funktioniert, du siehst es in den Zahlen. Nach vier Wochen stehen die ersten Vergleichswerte: Gewicht im Wochenschnitt, Umfänge, Kraftwerte. Sinkt das Gewicht bei stabiler Kraft, läuft es richtig. Steht es, wird nachjustiert, am Budget oder an der Bewegung, nicht mit mehr Härte. So kommen ein bis zwei Kilo Fett pro Monat zusammen, und sie bleiben weg, weil kein Jojo eingebaut ist.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Rodenkirchen?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Trainingsplan und Ernährungssteuerung durch Natalie beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie schnell nehme ich ab?",
+        a: "Realistisch ein bis zwei Kilo Fett pro Monat, am Anfang durch Wasser oft mehr. Schnellere Versprechen gehen auf Muskeln und Wasser, und das rächt sich nach der Diät.",
+      },
+      {
+        q: "Wo findet das Training statt?",
+        a: "Bei dir zu Hause in Rodenkirchen mit mitgebrachtem Material, draußen an Promenade und Forstbotanischem Garten oder im Studio an der Langhantel. Den Mix legen wir im kostenlosen Erstgespräch fest.",
+      },
+      {
+        q: "Muss ich auf die Abende am Rhein verzichten?",
+        a: "Nein. Der Plan rechnet mit einem Wochenbudget, und ein Abend im Biergarten ist darin eingeplant. Verbote funktionieren nicht, Budgets schon.",
+      },
+      {
+        q: "Reicht Joggen an der Promenade nicht zum Abnehmen?",
+        a: "Laufen erhöht den Verbrauch, aber ohne Defizit und ohne Krafttraining nimmst du damit kaum ab oder verlierst Muskeln mit. Die Kombination aus allen dreien macht den Unterschied, und sie ist messbar.",
+      },
+    ],
+  },
+
+  "merheim/personal-training": {
+    answer:
+      "Personal Training in Köln-Merheim heißt: 1-zu-1 Krafttraining mit Plan und Progression, bei dir zu Hause mit mitgebrachtem Material, draußen an der Merheimer Heide oder im Studio an der Langhantel. Zwei feste Termine pro Woche, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Merheim: 1-zu-1 Krafttraining zu Hause, an der Merheimer Heide oder im Studio. Plan mit Progression, 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Training, das in die ruhigen Straßen von Merheim kommt",
+        body: "Merheim ist mit 11.354 Einwohnern ein ruhiges Wohnveedel im Bezirk Kalk: viel Siedlung, viele Häuser mit Garten, die Stadtbahn-Linie 1 mitten durch. Ein eigenes Fitnessstudio sucht man im Veedel weitgehend vergeblich, und genau da setzt 1-zu-1 Training an: ich komme mit Kurzhanteln, Kettlebells und Bändern zu dir, trainiert wird im Wohnzimmer, in der Garage oder im Garten. Kein Anfahrtsweg, keine Wartezeit am Gerät, dafür eine volle Stunde Technik und Arbeit.",
+      },
+      {
+        title: "Die Merheimer Heide als zweiter Trainingsort",
+        body: "Direkt am Veedel liegt die Merheimer Heide, eine der größten freien Wiesenflächen im Kölner Osten. Für das Personal Training nutze ich sie anders als für reine Lauf-Einheiten: Ausfallschritte und Sprünge am Hang, Schlittenzieher-Ersatz mit Bändern, Tempopassagen als Abschluss der Krafteinheit. Draußen trainieren heißt hier nicht Bootcamp-Show, sondern die Übungen, die zu deinem Plan gehören, mit mehr Platz als in jedem Studio. Bei Dauerregen tauschen wir die Einheit gegen Wohnzimmer oder Studio, der Plan bleibt derselbe.",
+      },
+      {
+        title: "Progression steht im Log, nicht im Gefühl",
+        body: "Wir starten mit einem Technik-Check: Kniebeuge, Hüftstreckung, Rumpf. Danach stehen zwei Einheiten pro Woche mit klaren Vorgaben, und jede Übung wird mit Gewicht und Wiederholungen notiert. Alle vier bis sechs Wochen vergleichen wir die Werte. Wer aus Merheim anfragt, will meistens eines von dreien: wieder stark werden nach Jahren Pause, Rücken und Haltung gegen den Schreibtisch sichern oder gezielt Muskeln aufbauen. Für alle drei gilt derselbe Grundsatz: Technik zuerst, dann Last, und beides dokumentiert.",
+      },
+      {
+        title: "Termine, die zu Klinik- und Pendler-Zeiten passen",
+        body: "Mit dem Krankenhaus Merheim steht einer der großen Arbeitgeber des Rechtsrheinischen direkt im Veedel, und viele Nachbarn pendeln über die Linie 1 oder die A3 zur Arbeit. Deshalb lege ich Termine auch früh am Morgen oder am Nachmittag zwischen zwei Schichten, nicht nur in den klassischen Feierabend. Wer unregelmäßig arbeitet, kombiniert das 1-zu-1 Training mit dem Online Coaching ab 150€ im Monat: Plan in der App, Training vor Ort, wenn es passt. Was sinnvoll ist, klären wir im kostenlosen Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Merheim?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Das Online Coaching mit App-Plan und wöchentlichen Check-ins beginnt bei 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Nein. Ich bringe Kurzhanteln, Kettlebells und Bänder mit, das reicht für ein vollständiges Krafttraining. Wer schwerer an der Langhantel arbeiten will, nimmt das Studio dazu.",
+      },
+      {
+        q: "Wo trainieren wir in Merheim?",
+        a: "Bei dir zu Hause, draußen an der Merheimer Heide oder im Studio. Viele kombinieren: eine Einheit daheim, eine draußen oder im Studio. Den Mix legen wir nach deinem Ziel fest.",
+      },
+      {
+        q: "Ich arbeite im Schichtdienst an der Klinik. Bekommen wir feste Termine hin?",
+        a: "Ja. Die Termine wandern mit dem Dienstplan, auch früher Morgen oder Nachmittag ist möglich. Feste Routine entsteht über die Woche, nicht über die Uhrzeit.",
+      },
+      {
+        q: "Wie schnell merke ich Fortschritt?",
+        a: "Kraftwerte bewegen sich bei zwei Einheiten pro Woche in vier bis sechs Wochen messbar, Haltung und Alltag oft früher. Alles steht im Trainingslog, du siehst den Verlauf schwarz auf weiß.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
