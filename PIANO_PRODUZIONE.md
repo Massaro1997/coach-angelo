@@ -63,16 +63,24 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 55 | /koeln/humboldt-gremberg/athletiktraining | 0 | 13 | 51,4 | FATTA (giro 20, 10/11) |
 | 56 | /koeln/worringen/personal-training | 0 | 13 | 8,4 | FATTA (giro 20, 10/11; pos già buona, rafforzata) |
 | 57 | /koeln/loevenich/abnehmen | 0 | 12 | 18,3 | FATTA (giro 20, 10/11) |
-| 58 | /koeln/altstadt-sued/personal-training | 0 | 12 | 49,2 | in coda |
-| 59 | /koeln/muelheim/online-coaching | 0 | 12 | 20,8 | in coda |
-| 60 | /koeln/dellbrueck/ernaehrungsberatung | 0 | 11 | 8,3 | in coda (pos già buona: rafforzare) |
-| 61 | /koeln/weiss/abnehmen | 0 | 11 | 29,0 | in coda |
-| 62 | /koeln/rodenkirchen/abnehmen | 2 | 10 | 4,3 | in coda (2 click, pos 4,3: rafforzare con molta prudenza) |
-| 63 | /koeln/merheim/personal-training | 0 | 10 | 18,0 | in coda |
+| 58 | /koeln/altstadt-sued/personal-training | 0 | 12 | 49,2 | FATTA (giro 21, 10/11) |
+| 59 | /koeln/muelheim/online-coaching | 0 | 12 | 20,8 | FATTA (giro 21, 10/11; seconda voce online-coaching) |
+| 60 | /koeln/dellbrueck/ernaehrungsberatung | 0 | 11 | 8,3 | FATTA (giro 21, 10/11; pos già buona, rafforzata) |
+| 61 | /koeln/weiss/abnehmen | 0 | 11 | 29,0 | FATTA (giro 21, 10/11) |
+| 62 | /koeln/rodenkirchen/abnehmen | 2 | 10 | 4,3 | FATTA (giro 21, 10/11; 2 click pos 4,3, rafforzata con molta prudenza) |
+| 63 | /koeln/merheim/personal-training | 0 | 10 | 18,0 | FATTA (giro 21, 10/11) |
 | 64 | /koeln/wahn/ernaehrungsberatung | 0 | 10 | 6,9 | in coda (pos già buona: rafforzare) |
 | 65 | /koeln/kalk/muskelaufbau | 0 | 10 | 6,5 | in coda (pos già buona: rafforzare) |
+| 66 | /koeln/volkhoven-weiler/rueckentraining | 0 | 10 | 28,8 | in coda |
+| 67 | /koeln/buchforst/ems-alternative | 0 | 9 | 9,3 | in coda (prima voce ems-alternative; pos buona: rafforzare) |
+| 68 | /koeln/klettenberg/personal-training | 0 | 9 | 17,6 | in coda |
+| 69 | /koeln/westhoven/personal-training | 0 | 9 | 25,6 | in coda |
+| 70 | /koeln/vingst/personal-training | 1 | 9 | 3,4 | in coda (1 click, pos 3,4: rafforzare con molta prudenza) |
+| 71 | /koeln/duennwald/ernaehrungsberatung | 0 | 9 | 5,6 | in coda (pos già buona: rafforzare) |
+| 72 | /koeln/fuehlingen/abnehmen | 0 | 9 | 6,8 | in coda (pos già buona: rafforzare) |
+| 73 | /koeln/heimersdorf/abnehmen | 0 | 9 | 7,2 | in coda (pos già buona: rafforzare) |
 
-Righe 31-42 entrate l'8/11/2026 (giro 13) col riaggiornamento GSC (query page 90gg, somma due proprietà; 338 pagine intent con almeno 1 impressione). Righe 43-49 entrate il 9/11/2026 (giro 16) con lo stesso riaggiornamento. Righe 50-57 entrate il 9/11/2026 (giro 19, stesso riaggiornamento, 338 pagine con impressioni): elsdorf e marienburg recuperate in coda e fatte nello stesso giro. Righe 58-65 entrate il 10/11/2026 (giro 20, stesso riaggiornamento, 337 pagine con impressioni).
+Righe 31-42 entrate l'8/11/2026 (giro 13) col riaggiornamento GSC (query page 90gg, somma due proprietà; 338 pagine intent con almeno 1 impressione). Righe 43-49 entrate il 9/11/2026 (giro 16) con lo stesso riaggiornamento. Righe 50-57 entrate il 9/11/2026 (giro 19, stesso riaggiornamento, 338 pagine con impressioni): elsdorf e marienburg recuperate in coda e fatte nello stesso giro. Righe 58-65 entrate il 10/11/2026 (giro 20, stesso riaggiornamento, 337 pagine con impressioni). Righe 66-73 entrate il 10/11/2026 (giro 21, stesso riaggiornamento, 337 pagine con impressioni; nota: nel riaggiornamento del giro 21 rodenkirchen/abnehmen e wahn/ern sono scese sotto merheim/pt per impressioni, l'ordine della coda resta quello delle righe già assegnate).
 
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
 
