@@ -2325,6 +2325,288 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "widdersdorf/personal-training": {
+    answer:
+      "Personal Training in Köln-Widdersdorf heißt bei mir: 1-zu-1 Krafttraining mit Plan und Progression, auf Wunsch direkt bei dir zu Hause im Veedel. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Widdersdorf: 1-zu-1 Training mit Plan, zu Hause im Neubaugebiet oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Training kommt dorthin, wo dein Tag endet",
+        body: "Widdersdorf hängt ohne Stadtbahn am Bus und am Auto. Wer hier wohnt und in der Stadt arbeitet, hat abends schon zwei Fahrten hinter sich, und genau an der dritten scheitern die meisten Trainingsvorsätze. Deshalb drehe ich es um: ich komme nach Widdersdorf. Ein Wohnzimmer, eine Garage oder ein Stück Garten im Neubaugebiet reicht als Trainingsfläche völlig aus. Was an Ausrüstung fehlt, bringe ich mit.",
+      },
+      {
+        title: "Was eine Stunde bei dir zu Hause leistet",
+        body: "Der Ablauf ist derselbe wie im Studio: gezieltes Aufwärmen, dann Grundübungen mit Korrektur in jeder Wiederholung, zum Schluss der Teil, der zu deinem Ziel gehört, Rumpf, Ausdauer oder Beweglichkeit. Jede Einheit wird dokumentiert, Gewichte und Wiederholungen steigen nach Plan. Nach acht bis zwölf Wochen vergleichen wir die Zahlen vom Start. Wer lieber an Geräten trainiert, kombiniert Termine zu Hause mit Einheiten im Studio.",
+      },
+      {
+        title: "Zwischen Ortskern und Feldern ist Platz für den Rest",
+        body: "Für die Ausdauer-Bausteine müssen wir das Veedel nicht verlassen: hinter der letzten Häuserreihe beginnen flache, feste Wege durch die Felder, gut für zügige Geh- und Laufrunden als Ergänzung zum Krafttraining. Wer gezielt an Schnelligkeit und Sprungkraft arbeiten will, findet das im Athletiktraining, das ich in Widdersdorf separat anbiete. Im 1-zu-1 bleibt der Schwerpunkt auf Kraft, Haltung und einem Körper, der den Alltag leichter trägt.",
+      },
+      {
+        title: "Wer in Widdersdorf bei mir anfragt",
+        body: "Das Veedel ist durch Widdersdorf-Süd jung geworden: 12.398 Menschen, viele Familien, viele volle Kalender. Typische Anfragen kommen von Eltern, die nach Jahren wieder anfangen wollen, und von Pendlern, deren Feierabend zu spät für jedes Studio liegt. Ein fester Termin an der eigenen Haustür löst beides: keine Anfahrt, keine Ausrede, und wenn eine Woche kippt, verschieben wir statt zu streichen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Widdersdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€, auch bei dir zu Hause. Online Coaching mit Plan per App gibt es ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Brauche ich eigene Geräte für das Training zu Hause?",
+        a: "Nein. Kurzhanteln, Bänder und alles Weitere für den Anfang bringe ich mit. Erst wenn du langfristig schwerer trainieren willst, lohnt sich eigenes Equipment oder der Wechsel in den Studio-Rhythmus.",
+      },
+      {
+        q: "Wo findet das Training statt?",
+        a: "Bei dir zu Hause in Widdersdorf, auf den Wegen rund ums Veedel oder im Studio. Die Mischung legen wir im kostenlosen Erstgespräch fest, sie darf sich mit den Jahreszeiten ändern.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Kraftwerte bewegen sich bei zwei Einheiten pro Woche nach vier bis sechs Wochen messbar. Sichtbare Veränderung braucht acht bis zwölf Wochen, je nach Ausgangspunkt und Ziel. Ich verspreche keine Abkürzungen, nur einen Plan, der eingehalten werden kann.",
+      },
+      {
+        q: "Hilft mir jemand bei der Ernährung?",
+        a: "Ja. Wenn Abnehmen oder Muskelaufbau das Ziel ist, steigt Natalie als Ernährungsberaterin für Sport- und Fitnessernährung mit ein: Wochenplan, Einkaufsliste, kurze Check-ins.",
+      },
+    ],
+  },
+
+  "neuehrenfeld/personal-training": {
+    answer:
+      "Personal Training in Köln-Neuehrenfeld: 1-zu-1 Krafttraining mit Plan und Progression, Outdoor-Einheiten im Blücherpark, Krafttraining im Studio. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Neuehrenfeld: 1-zu-1 mit Plan, Outdoor im Blücherpark, Kraft im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Altbau-Wohnung statt Heimstudio? Kein Problem",
+        body: "Neuehrenfeld ist dicht bebaut: 23.626 Menschen auf 2,54 km², die meisten in Gründerzeit-Wohnungen rund um Lenauplatz und Nußbaumerstraße. Für Hanteltraining mit Nachbarn unter dir ist das nichts, und genau deshalb arbeite ich hier mit zwei Orten: dem Blücherpark für alles, was draußen besser geht, und dem Studio für das schwere Krafttraining mit der Langhantel.",
+      },
+      {
+        title: "Der Blücherpark ist deine Trainingsfläche",
+        body: "Am Nordrand des Veedels liegt der Blücherpark mit seinen langen, geraden Alleen und offenen Wiesen. Die Alleen nutze ich für Intervalle und Lauftechnik, die Wiesen für Zirkel mit dem eigenen Körpergewicht. Die Runde um den Kahnweiher ist immer gleich lang, dadurch taugt sie als feste Messstrecke: gleiche Runde, bessere Zeit, sichtbarer Fortschritt ohne Laborgefühl.",
+      },
+      {
+        title: "So baue ich dein 1-zu-1 auf",
+        body: "Am Anfang steht das kostenlose Erstgespräch: Ziel, Wochenstruktur, Verletzungshistorie. Danach ein Technik-Check und zwei feste Einheiten pro Woche. Gewichte und Umfänge steigen nach Plan, alle vier Wochen schauen wir gemeinsam auf die Zahlen. Wenn dein Ziel Abnehmen ist, kommt Natalie dazu, Ernährungsberaterin für Sport- und Fitnessernährung, mit Wochenplan und Einkaufsliste statt Verbotsliste.",
+      },
+      {
+        title: "Ruhiger als Ehrenfeld, kürzer zu Fuß",
+        body: "Neuehrenfeld ist die wohnlichere Schwester von Ehrenfeld: weniger Ausgehviertel, mehr Alltag, die Linie 5 quer durchs Veedel. Viele meiner Anfragen von hier kommen von Berufstätigen, die morgens vor der Arbeit trainieren wollen, bevor der Tag sie frisst. Dafür halte ich frühe Slots frei. Treffpunkt ist dann der Parkeingang oder deine Haustür, das Aufwärmen beginnt auf dem Weg.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Neuehrenfeld?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Online Coaching mit Trainingsplan per App startet bei 150€ im Monat. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Wo trainieren wir in Neuehrenfeld?",
+        a: "Draußen im Blücherpark, bei dir zu Hause, wenn der Platz reicht, und für das schwere Krafttraining im Studio. Die Aufteilung richtet sich nach deinem Ziel und der Jahreszeit.",
+      },
+      {
+        q: "Gibt es Termine vor der Arbeit?",
+        a: "Ja, frühe Termine gehören in Neuehrenfeld fest dazu. Eine Einheit im Blücherpark um sieben Uhr morgens ersetzt den Wecker besser als jeder Kaffee.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Ist das ein Problem?",
+        a: "Nein, das ist der Normalfall. Der Technik-Check am Anfang legt dein Startniveau fest, und die ersten Wochen bauen Grundlagen auf, bevor die Gewichte steigen. Niemand muss fit sein, um anzufangen.",
+      },
+      {
+        q: "Krafttraining oder Laufen, was bringt mehr?",
+        a: "Beides zusammen. Kraft schützt Gelenke und Muskulatur, Ausdauer trägt den Alltag. In Neuehrenfeld lässt sich das gut verbinden: Kraft im Studio, Läufe und Intervalle im Blücherpark, beides in einem Plan.",
+      },
+    ],
+  },
+
+  "neustadt-nord/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Neustadt-Nord: Trainingsplan per App, wöchentliche Video-Check-ins und Ernährungssteuerung, ab 150€ im Monat. Du trainierst, wo es in deine Woche passt, im eigenen Studio, im Stadtgarten oder unterwegs. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Neustadt-Nord: Plan per App, wöchentliche Video-Check-ins, Ernährungssteuerung. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum Online Coaching, mitten in Köln?",
+        body: "Neustadt-Nord ist das Veedel zwischen Mediapark, Belgischem Viertel und Ebertplatz: 28.604 Menschen auf 3,49 km², dazu Agenturen, Kanzleien und Medienhäuser. Wer hier arbeitet, hat selten das Problem, kein Fitnessstudio zu finden. Das Problem sind Wochen, die sich ständig ändern: Projektphasen, Dienstreisen, Abendtermine. Online Coaching löst genau das. Der Plan passt sich deiner Woche an, nicht umgekehrt, und die Kontrolle bleibt trotzdem da.",
+      },
+      {
+        title: "So funktioniert es konkret",
+        body: "Du bekommst deinen Trainingsplan in der App, mit Video zu jeder Übung und klaren Vorgaben für Gewichte und Wiederholungen. Einmal pro Woche sprechen wir im Video-Check-in: was lief, was nicht, was sich ändert. Zwischen den Terminen schickst du Fragen oder Technik-Videos, ich antworte kurzfristig. Angepasst wird nach Zahlen, nicht nach Gefühl: Trainingslog, Körpergewicht im Wochenschnitt, auf Wunsch Fotos.",
+      },
+      {
+        title: "Dein Veedel liefert die Ausdauer gratis",
+        body: "Für die Cardio-Bausteine brauchst du kein Laufband: der Innere Grüngürtel beginnt direkt am Veedel-Rand, der Stadtgarten liegt mittendrin. Beides baue ich als feste Blöcke in den Plan ein, mit Strecke und Tempo statt vagem Vorsatz. Das Krafttraining machst du in deinem Studio oder zu Hause, der Plan wird auf die Geräte geschrieben, die du wirklich zur Verfügung hast.",
+      },
+      {
+        title: "Online, 1-zu-1 oder beides",
+        body: "Online Coaching trägt, wenn die Technik-Grundlagen sitzen. Wenn Kniebeuge und Kreuzheben noch wackeln, ist es ehrlicher, mit ein paar 1-zu-1 Stunden im Studio zu starten und dann online weiterzumachen. Auch die Mischung funktioniert: Plan und Check-ins online, einmal im Monat eine Technik-Stunde vor Ort. Was für dich passt, klären wir im kostenlosen Erstgespräch, ohne Verkaufsdruck.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching?",
+        a: "Ab 150€ im Monat. Darin stecken der Trainingsplan per App, die wöchentlichen Video-Check-ins, die Ernährungssteuerung und die Betreuung zwischen den Terminen. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich ein Fitnessstudio?",
+        a: "Nein. Der Plan wird auf deine Möglichkeiten geschrieben: Studio, Homegym oder Körpergewicht plus Bänder. In Neustadt-Nord kommen Grüngürtel und Stadtgarten für die Ausdauer dazu.",
+      },
+      {
+        q: "Wie läuft der wöchentliche Check-in ab?",
+        a: "15 bis 20 Minuten per Video, zu einem festen Termin, der auch in eine Mittagspause passt. Wir gehen Trainingslog und Wochendaten durch und legen die nächste Woche fest. Fällt der Termin aus, wird er verschoben, nicht gestrichen.",
+      },
+      {
+        q: "Ich bin kompletter Anfänger. Ist Online Coaching das Richtige?",
+        a: "Ehrliche Antwort: meistens nicht sofort. Die Grundübungen sollten einmal unter Aufsicht sauber gelernt werden. Dafür reichen oft wenige 1-zu-1 Stunden, danach funktioniert online sehr gut.",
+      },
+      {
+        q: "Was passiert, wenn ich eine Woche gar keine Zeit habe?",
+        a: "Dann wird der Plan angepasst statt ignoriert: eine Minimalwoche mit zwei kurzen Einheiten hält den Stand, und der Check-in klärt, wie es weitergeht. Ein Plan, der nur in perfekten Wochen funktioniert, ist keiner.",
+      },
+    ],
+  },
+
+  "humboldt-gremberg/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Humboldt/Gremberg: Tempoarbeit im Gremberger Wäldchen, lange Intervalle auf den Poller Wiesen gleich nebenan, Kraft und Sprungkraft im Studio. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Humboldt/Gremberg: Tempoläufe im Gremberger Wäldchen, Intervalle auf den Poller Wiesen, Kraft im Studio. 50€/Std.",
+    sections: [
+      {
+        title: "Ein dichtes Veedel, zwei Trainingsflächen am Rand",
+        body: "Humboldt/Gremberg ist eng bebaut: 15.111 Menschen auf 2,82 km², dazwischen Gleise, Hauptstraßen und kaum Grün. Einen eigenen Park hat das Veedel nicht, aber zwei Flächen liegen direkt an der Grenze: südöstlich das Gremberger Wäldchen mit festen, schattigen Wegen, Richtung Rhein die Poller Wiesen. Beide erreichst du in wenigen Minuten, und beide decken zusammen alles ab, was Athletiktraining draußen braucht.",
+      },
+      {
+        title: "Tempo im Wäldchen, lange Intervalle am Rhein",
+        body: "Im Gremberger Wäldchen arbeiten wir an Tempoläufen und Lauftechnik: die Wege sind fest, eben und im Sommer angenehm schattig. Auf den Poller Wiesen ist Platz für das Großformat, fliegende Läufe, lange Intervalle und die regelmäßigen Testläufe auf immer derselben Strecke. So entsteht ein Außen-Programm mit zwei klaren Rollen, und keine Einheit hängt davon ab, dass irgendwo zufällig Platz frei ist.",
+      },
+      {
+        title: "Stark wirst du drinnen",
+        body: "Antritt und Sprunghöhe entscheiden sich an der Kraft, und die baue ich im Studio auf: Langhantel-Grundübungen, Sprungprogression, saubere Steigerung von Woche zu Woche. Gemessen wird in festen Abständen, Sprintzeit, Sprunghöhe, Kraftwerte, damit du siehst, was sich bewegt. Zwei Einheiten pro Woche, eine draußen und eine drinnen, sind der Rhythmus, der sich über Monate durchhalten lässt.",
+      },
+      {
+        title: "Für wen das hier passt",
+        body: "Das Veedel trägt den Namen der alten Humboldt-Maschinenbauwerke, und es ist bis heute eines, in dem gearbeitet wird: Schicht, Handwerk, Logistik. Viele Anfragen kommen von Hobbysportlern aus den rechtsrheinischen Vereinen, Fußball voran, die neben dem Mannschaftstraining an Schnelligkeit und Stabilität arbeiten wollen. Termine lege ich auch früh am Morgen oder am Nachmittag, nicht nur in die klassische Feierabendspitze.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Humboldt/Gremberg?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Online-Begleitung mit Plan per App ab 150€ im Monat. Das Erstgespräch ist kostenlos und klärt Ziel und Startniveau.",
+      },
+      {
+        q: "Wo genau trainieren wir?",
+        a: "Tempo und Technik im Gremberger Wäldchen, lange Intervalle und Tests auf den Poller Wiesen, Kraft und Sprungkraft im Studio. Den Treffpunkt legen wir nach deinem Wohnort fest.",
+      },
+      {
+        q: "Ich spiele Fußball im Verein. Passt das zusammen?",
+        a: "Ja, genau dafür ist es gedacht: Antritt, Sprungkraft und Stabilität ergänzen das Mannschaftstraining, ersetzen es aber nicht. Die Einheiten plane ich um Spiel- und Trainingstage herum.",
+      },
+      {
+        q: "Wie schnell werde ich schneller?",
+        a: "Erste messbare Veränderungen bei Sprintzeit und Sprunghöhe zeigen sich nach sechs bis acht Wochen, wenn zwei Einheiten pro Woche stehen. Versprochen wird nichts, gemessen wird alles.",
+      },
+      {
+        q: "Was ist bei Regen oder im Winter?",
+        a: "Die Wege im Gremberger Wäldchen sind fest und auch bei Nässe gut nutzbar. Wenn es draußen gar nicht geht, verschiebt sich der Schwerpunkt in die Kraft- und Sprungarbeit im Studio. Der Plan rechnet die Jahreszeit ein.",
+      },
+    ],
+  },
+
+  "worringen/personal-training": {
+    answer:
+      "Personal Training in Köln-Worringen: 1-zu-1 Krafttraining mit Plan und Progression, bei dir zu Hause oder draußen am Rheinufer, im nördlichsten Veedel der Stadt. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Worringen: 1-zu-1 zu Hause oder am Rheinufer, im nördlichsten Veedel Kölns. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das nördlichste Veedel Kölns trainiert zu Hause",
+        body: "Worringen ist weiter vom Kölner Zentrum entfernt als jeder andere Stadtteil, und es funktioniert wie ein eigenes Dorf: 10.365 Menschen auf 11,73 km², eigene Geschäfte, eigene Vereine, eigener Ortskern. Der Weg in ein Studio in der Stadt kostet schnell eine Stunde zusätzlich pro Einheit. Deshalb kommt bei mir das Training nach Worringen: zu dir nach Hause, in den Garten oder vor die Tür, mit allem Material, das für den Anfang nötig ist.",
+      },
+      {
+        title: "Rheinufer und Worringer Bruch liegen vor der Tür",
+        body: "Für die Einheiten draußen hat Worringen mehr zu bieten als die meisten Innenstadt-Veedel: die flachen Dammwege am Rheinufer sind gerade und frei, gut für Intervalle und zügige Läufe mit messbarer Strecke. Im Worringer Bruch, dem alten Rheinarm am Westrand, laufen ruhige Runden durchs Naturschutzgebiet, die ich gern für Grundlagenausdauer und aktive Erholung nutze. Beides erreichst du zu Fuß, ohne Auto und ohne Fahrplan.",
+      },
+      {
+        title: "So läuft das 1-zu-1 bei dir",
+        body: "Nach dem kostenlosen Erstgespräch starten wir mit einem Technik-Check, dann stehen feste Termine, meist zwei pro Woche. Kraftarbeit mit Korrektur in jeder Wiederholung, dokumentierte Progression, alle vier bis sechs Wochen der Blick auf die Zahlen. Wer zusätzlich an Geräten trainieren will, kombiniert die Haus-Termine mit Studio-Einheiten, die S-Bahn hält mit der S6 direkt im Veedel.",
+      },
+      {
+        title: "Termine, die mit Schichtplänen funktionieren",
+        body: "Direkt hinter der Stadtgrenze beginnt der Chempark Dormagen, und viele in Worringen arbeiten dort oder in den anderen Industriebetrieben entlang des Rheins, oft in Wechselschicht. Ein Trainingsplan, der nur den klassischen Feierabend kennt, scheitert an solchen Wochen. Meiner nicht: die Termine wandern mit dem Schichtplan, früh, vormittags oder am Wochenende, und der Plan rechnet die Nachtschichtwochen von Anfang an ein.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Worringen?",
+        a: "Die 1-zu-1 Stunde kostet 50€, auch bei dir zu Hause in Worringen. Online Coaching mit Plan per App gibt es ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Wo findet das Training statt?",
+        a: "Bei dir zu Hause, am Rheinufer, im Worringer Bruch oder im Studio in der Stadt. Die Mischung legen wir gemeinsam fest, je nach Ziel, Jahreszeit und deinem Wochenplan.",
+      },
+      {
+        q: "Ich arbeite in Wechselschicht. Geht das trotzdem?",
+        a: "Ja. Die Termine folgen deinem Schichtplan und werden Woche für Woche gelegt, nicht starr am selben Tag. Gerade dafür lohnt sich das 1-zu-1: der Plan passt sich an, statt zu zerbrechen.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Für den Anfang bringe ich Kurzhanteln, Bänder und das übrige Material mit. Später entscheiden wir gemeinsam, ob sich eigenes Equipment oder der Studio-Anteil lohnt.",
+      },
+      {
+        q: "Trainierst du auch Einsteiger über 50?",
+        a: "Ja, ein großer Teil meiner Kundschaft startet nach einer langen Pause oder zum ersten Mal. Der Technik-Check am Anfang legt das Niveau fest, gesteigert wird erst, wenn die Ausführung sitzt.",
+      },
+    ],
+  },
+
+  "loevenich/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Lövenich funktioniert über ein realistisches Kaloriendefizit, Krafttraining zum Schutz der Muskulatur und einen Plan, der zum Pendler-Alltag passt. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Lövenich: Kaloriendefizit mit Plan, Krafttraining zum Muskelschutz, Gehrunden auf den Feldwegen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Kurze Wege, und trotzdem sitzt der ganze Tag",
+        body: "Lövenich ist ein Pendler-Veedel: 9.167 Menschen, eigener S-Bahn-Halt, morgens in die Stadt, abends zurück. Der Tag sieht dann so aus: sitzen in der Bahn, sitzen im Büro, abends das Auto für die Erledigungen. Der Kalorienverbrauch ist niedriger, als die meisten glauben, und genau deshalb scheitern Diäten, die nur am Essen drehen. Abnehmen braucht hier beides: ein geplantes Defizit und Bewegung, die fest im Tag verankert ist.",
+      },
+      {
+        title: "Der Pendler-Tag bestimmt den Essensplan",
+        body: "Ein Plan, der verlangt, dass du mittags Tupperdosen ins Büro schleppst, hält zwei Wochen. Meiner nimmt den Tag, wie er ist: Frühstück zu Hause, Mittagessen unterwegs nach klaren Auswahlregeln, Abendessen gekocht, mit einem Eiweiß-Anker in jeder Mahlzeit. Natalie, Ernährungsberaterin für Sport- und Fitnessernährung, setzt das Defizit so an, dass es neben Job und Familie durchhaltbar bleibt, und prüft es in kurzen Check-ins.",
+      },
+      {
+        title: "Bewegung, die ohne Studio stattfindet",
+        body: "Hinter Lövenich beginnen die Feldwege Richtung Widdersdorf und Esch: flach und fest, aber ohne Beleuchtung, also legen wir sie im Winter aufs Wochenende und auf den hellen Feierabend. Zwei bis drei feste Gehrunden pro Woche heben den Verbrauch spürbar, dazu zählt der Fußweg zum S-Bahn-Halt jeden Tag mit. Das Krafttraining, ein bis zwei Einheiten pro Woche bei dir zu Hause oder im Studio, schützt die Muskulatur, damit das Defizit Fett abbaut und nicht Kraft.",
+      },
+      {
+        title: "Gemessen wird am Wochenschnitt, nicht am Montagmorgen",
+        body: "Die Waage lügt von Tag zu Tag, also arbeiten wir mit dem Wochenschnitt, dem Maßband und, wer mag, Fotos im festen Abstand. Ein bis zwei Kilo Fett pro Monat sind das ehrliche Tempo, alles darüber kostet Muskeln und rächt sich. Alle vier Wochen schauen wir auf die Zahlen und stellen nach: Kalorien, Gehpensum oder Training, je nachdem, wo es hakt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Lövenich?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Ernährungssteuerung gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos, danach entscheidest du.",
+      },
+      {
+        q: "Muss ich auf Brot, Pasta oder das Feierabendbier verzichten?",
+        a: "Nein. Verbote erzeugen Heißhunger und Abbrüche. Alles bekommt seinen Platz im Kalorienrahmen, auch das Bier, nur eben eingeplant statt obendrauf.",
+      },
+      {
+        q: "Reicht Spazierengehen zum Abnehmen?",
+        a: "Gehen hebt den Verbrauch und ist der unterschätzteste Baustein, aber ohne Krafttraining verlierst du im Defizit auch Muskulatur. Die Kombination aus beidem macht den Unterschied, nicht eines allein.",
+      },
+      {
+        q: "Wie schnell nehme ich ab?",
+        a: "Realistisch ein bis zwei Kilo Fett pro Monat. Das klingt langsam, summiert sich aber in einem halben Jahr auf sechs bis zwölf Kilo, ohne Jojo und ohne dass die Kraft einbricht.",
+      },
+      {
+        q: "Wo findet das Training statt?",
+        a: "Bei dir zu Hause in Lövenich, auf den Feldwegen rund ums Veedel oder im Studio. Den Mix legen wir im kostenlosen Erstgespräch fest.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
