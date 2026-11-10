@@ -69,18 +69,26 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 61 | /koeln/weiss/abnehmen | 0 | 11 | 29,0 | FATTA (giro 21, 10/11) |
 | 62 | /koeln/rodenkirchen/abnehmen | 2 | 10 | 4,3 | FATTA (giro 21, 10/11; 2 click pos 4,3, rafforzata con molta prudenza) |
 | 63 | /koeln/merheim/personal-training | 0 | 10 | 18,0 | FATTA (giro 21, 10/11) |
-| 64 | /koeln/wahn/ernaehrungsberatung | 0 | 10 | 6,9 | in coda (pos già buona: rafforzare) |
-| 65 | /koeln/kalk/muskelaufbau | 0 | 10 | 6,5 | in coda (pos già buona: rafforzare) |
-| 66 | /koeln/volkhoven-weiler/rueckentraining | 0 | 10 | 28,8 | in coda |
-| 67 | /koeln/buchforst/ems-alternative | 0 | 9 | 9,3 | in coda (prima voce ems-alternative; pos buona: rafforzare) |
-| 68 | /koeln/klettenberg/personal-training | 0 | 9 | 17,6 | in coda |
-| 69 | /koeln/westhoven/personal-training | 0 | 9 | 25,6 | in coda |
+| 64 | /koeln/wahn/ernaehrungsberatung | 0 | 10 | 6,9 | FATTA (giro 22, 10/11; pos già buona, rafforzata) |
+| 65 | /koeln/kalk/muskelaufbau | 0 | 10 | 6,5 | FATTA (giro 22, 10/11; pos già buona, rafforzata) |
+| 66 | /koeln/volkhoven-weiler/rueckentraining | 0 | 10 | 28,8 | FATTA (giro 22, 10/11) |
+| 67 | /koeln/buchforst/ems-alternative | 0 | 9 | 9,3 | FATTA (giro 22, 10/11; prima voce ems-alternative; pos buona, rafforzata) |
+| 68 | /koeln/klettenberg/personal-training | 0 | 9 | 17,6 | FATTA (giro 22, 10/11) |
+| 69 | /koeln/westhoven/personal-training | 0 | 9 | 25,6 | FATTA (giro 22, 10/11) |
 | 70 | /koeln/vingst/personal-training | 1 | 9 | 3,4 | in coda (1 click, pos 3,4: rafforzare con molta prudenza) |
 | 71 | /koeln/duennwald/ernaehrungsberatung | 0 | 9 | 5,6 | in coda (pos già buona: rafforzare) |
 | 72 | /koeln/fuehlingen/abnehmen | 0 | 9 | 6,8 | in coda (pos già buona: rafforzare) |
 | 73 | /koeln/heimersdorf/abnehmen | 0 | 9 | 7,2 | in coda (pos già buona: rafforzare) |
+| 74 | /koeln/finkenberg/personal-training | 0 | 9 | 7,1 | in coda (pos già buona: rafforzare) |
+| 75 | /koeln/wahn/personal-training | 0 | 9 | 21,6 | in coda |
+| 76 | /koeln/altstadt-nord/rueckentraining | 0 | 9 | 30,9 | in coda |
+| 77 | /koeln/bilderstoeckchen/rueckentraining | 0 | 9 | 9,8 | in coda (pos buona: rafforzare) |
+| 78 | /koeln/riehl/personal-training | 0 | 9 | 6,2 | in coda (pos già buona: rafforzare) |
+| 79 | /koeln/altstadt-sued/athletiktraining | 0 | 8 | 33,4 | in coda |
+| 80 | /koeln/hoehenberg/personal-training | 0 | 8 | 6,4 | in coda (pos già buona: rafforzare) |
+| 81 | /koeln/lindenthal/rueckentraining | 0 | 8 | 6,0 | in coda (pos già buona: rafforzare) |
 
-Righe 31-42 entrate l'8/11/2026 (giro 13) col riaggiornamento GSC (query page 90gg, somma due proprietà; 338 pagine intent con almeno 1 impressione). Righe 43-49 entrate il 9/11/2026 (giro 16) con lo stesso riaggiornamento. Righe 50-57 entrate il 9/11/2026 (giro 19, stesso riaggiornamento, 338 pagine con impressioni): elsdorf e marienburg recuperate in coda e fatte nello stesso giro. Righe 58-65 entrate il 10/11/2026 (giro 20, stesso riaggiornamento, 337 pagine con impressioni). Righe 66-73 entrate il 10/11/2026 (giro 21, stesso riaggiornamento, 337 pagine con impressioni; nota: nel riaggiornamento del giro 21 rodenkirchen/abnehmen e wahn/ern sono scese sotto merheim/pt per impressioni, l'ordine della coda resta quello delle righe già assegnate).
+Righe 31-42 entrate l'8/11/2026 (giro 13) col riaggiornamento GSC (query page 90gg, somma due proprietà; 338 pagine intent con almeno 1 impressione). Righe 43-49 entrate il 9/11/2026 (giro 16) con lo stesso riaggiornamento. Righe 50-57 entrate il 9/11/2026 (giro 19, stesso riaggiornamento, 338 pagine con impressioni): elsdorf e marienburg recuperate in coda e fatte nello stesso giro. Righe 58-65 entrate il 10/11/2026 (giro 20, stesso riaggiornamento, 337 pagine con impressioni). Righe 66-73 entrate il 10/11/2026 (giro 21, stesso riaggiornamento, 337 pagine con impressioni; nota: nel riaggiornamento del giro 21 rodenkirchen/abnehmen e wahn/ern sono scese sotto merheim/pt per impressioni, l'ordine della coda resta quello delle righe già assegnate). Righe 74-81 entrate il 10/11/2026 (giro 22, stesso riaggiornamento, 339 pagine con impressioni).
 
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
 
