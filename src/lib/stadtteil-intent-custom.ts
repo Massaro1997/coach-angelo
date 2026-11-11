@@ -4971,6 +4971,134 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "holweide/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Holweide plane ich um unregelmäßige Tage herum: ein Kalorienziel, das auch Schichtdienste übersteht, feste Gehrunden Richtung Thielenbruch und zwei Krafteinheiten pro Woche bei dir zu Hause. Natalie legt die Ernährung mit dir fest. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Holweide: Kalorienziel für unregelmäßige Tage und Schichtdienst, Gehrunden Richtung Thielenbruch, Kraft zu Hause. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Holweide lebt in Schichten, und Diätpläne tun das nicht",
+        body: "Mit dem Krankenhaus Holweide steht mitten im Veedel einer der großen Kölner Klinikstandorte, und ein Teil der 21.001 Holweider arbeitet dort oder in ähnlichen Rhythmen: Frühdienst, Spätdienst, Nachtdienst. Die üblichen Abnehmpläne mit fünf festen Mahlzeiten um feste Uhrzeiten scheitern an so einem Kalender zuverlässig. Deshalb beginnt mein Plan nicht mit Uhrzeiten, sondern mit einem Wochenbudget an Kalorien, das sich auf gute und chaotische Tage verteilen lässt.",
+      },
+      {
+        title: "Natalie baut die Ernährung um deinen Dienstplan",
+        body: "Ernährungsberaterin Natalie setzt mit dir ein realistisches Defizit auf und übersetzt es in Mahlzeiten, die zu deinen Tagen passen: etwas Vorbereitetes für die Nachtschicht statt Kantinenlücke, ein spätes, sattes Essen nach dem Spätdienst ohne schlechtes Gewissen, einfache Regeln für die freien Tage. Gemessen wird am Wochenmittel auf der Waage, nicht am einzelnen Morgen, denn nach Nachtdiensten lügt das Tagesgewicht ohnehin.",
+      },
+      {
+        title: "Die Gehrunden liegen vor der Tür, nicht hinter einer Anfahrt",
+        body: "Holweide grenzt an Dellbrück, und dahinter beginnt mit dem Thielenbruch eines der ruhigsten Waldgebiete im Kölner Rechtsrheinischen. Daraus bauen wir zwei feste Runden, 30 und 45 Minuten, die unabhängig von der Schicht funktionieren: morgens nach dem Nachtdienst zum Runterkommen, nachmittags vor dem Spätdienst. Diese Runden sind der stille Motor des Abnehmens, denn sie erhöhen deinen Verbrauch, ohne Willenskraft zu kosten wie ein Studiobesuch.",
+      },
+      {
+        title: "Zweimal Kraft pro Woche sichert, was du verlierst",
+        body: "Im Kaloriendefizit entscheidet Krafttraining darüber, ob das verlorene Gewicht aus Fett oder aus Muskulatur besteht. Ich komme dafür mit Material zu dir nach Hause, zwei Einheiten pro Woche à 45 bis 60 Minuten, auf Wunsch um deinen Dienstplan herum terminiert und Woche für Woche neu gelegt. Nach acht Wochen vergleichen wir Gewichtstrend, Umfänge und Kraftwerte mit dem Start und stellen den Plan auf die Zahlen ein.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Holweide?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Das Online Coaching mit Plan, Ernährungssteuerung und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite im Schichtdienst. Funktioniert das wirklich?",
+        a: "Ja, der Plan ist genau dafür gebaut: Kalorien als Wochenbudget statt fester Essenszeiten, Termine, die mit dem Dienstplan wandern, und Gehrunden, die zu jeder Tageszeit funktionieren. Gemessen wird am Wochentrend, nicht am einzelnen Tag.",
+      },
+      {
+        q: "Wie schnell nehme ich damit ab?",
+        a: "Geplant wird mit etwa 0,5 bis 1 Prozent Körpergewicht pro Woche, mehr verspreche ich nicht. Schnellere Diäten kosten Muskulatur und enden fast immer im Jojo. Nach acht Wochen zeigen Trend und Umfänge, ob das Tempo stimmt.",
+      },
+      {
+        q: "Muss ich dafür in ein Studio?",
+        a: "Nein. Kraft trainieren wir bei dir zu Hause mit mitgebrachtem Material, die Ausdauer kommt aus festen Gehrunden im Veedel und Richtung Thielenbruch. Einzelne Studio-Einheiten lassen sich dazulegen, nötig sind sie nicht.",
+      },
+    ],
+  },
+
+  "junkersdorf/personal-training": {
+    answer:
+      "Personal Training in Köln-Junkersdorf nutzt die beste Lage des Veedels: den Äußeren Grüngürtel vor der Haustür für die Außeneinheiten und dein Zuhause für die Kraftarbeit, geführt im 1-zu-1 mit gemessenem Fortschritt. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Junkersdorf: 1-zu-1 im Äußeren Grüngürtel oder bei dir zu Hause, Plan nach Messung statt Schema. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Junkersdorf liegt am grünen Rand, und genau da trainieren wir",
+        body: "Der Äußere Grüngürtel zieht sich direkt an Junkersdorf entlang, und gleich hinter der Stadtteilgrenze in Müngersdorf beginnt der Sportpark rund ums Stadion. Für ein Veedel mit 15.301 Einwohnern auf großzügigen 7,38 km² ist das ein seltener Luxus: ebene, breite Wege für Läufe und Intervalle, Wiesen für Technik- und Sprungarbeit, alles ohne Anfahrt. Wer hier wohnt und trotzdem quer durch die Stadt ins Studio fährt, verschenkt seine beste Trainingsfläche.",
+      },
+      {
+        title: "Draußen Ausdauer und Athletik, drinnen die Kraft",
+        body: "Mein Aufbau für Junkersdorf ist zweigeteilt: Im Grüngürtel laufen wir Intervalle auf immer derselben Strecke, damit die Zeiten vergleichbar bleiben, und arbeiten an Schnelligkeit und Stabilität auf dem Rasen. Die Kraftarbeit findet bei dir zu Hause statt, mit mitgebrachten Gewichten und Band, oder auf Wunsch im Studio an der Langhantel. Was wann dran ist, bestimmt dein Ziel, nicht das Wetter: Für jede Außeneinheit existiert eine gleichwertige Variante für drinnen.",
+      },
+      {
+        title: "Viele hier laufen schon. Ich mache daraus ein Training",
+        body: "Die häufigste Sorte Anfrage aus dem Kölner Westen: Es wird seit Jahren gejoggt, zwei- bis dreimal pro Woche dieselbe Runde im selben Tempo, und es verändert sich nichts mehr. Das ist kein Motivationsproblem, sondern ein Reizproblem. Ich ergänze das Laufen um gezielte Intervalle und vor allem um Kraft, denn ab Mitte dreißig entscheidet die Muskulatur über Tempo, Haltung und Gelenke. Nach acht Wochen vergleichen wir deine Zeiten, nicht dein Gefühl.",
+      },
+      {
+        title: "Feste Stunde, voller Fokus, keine Vertragsbindung",
+        body: "Die Stunde gehört dir: Technik wird korrigiert, Gewichte werden gestellt, der Plan wird nach jedem Block angepasst. Terminlich lege ich mich auf feste Slots fest, früh vor der Arbeit oder am Abend, denn Regelmäßigkeit schlägt jede perfekt geplante Einzelwoche. Es gibt kein Abo und keine Laufzeit: Du zahlst die Stunde mit 50€ oder das Online Coaching ab 150€ im Monat, beides monatlich beendbar.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Junkersdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Das Online Coaching mit Plan per App und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo findet das Training in Junkersdorf statt?",
+        a: "Im Äußeren Grüngürtel und Richtung Sportpark Müngersdorf für Ausdauer und Athletik, bei dir zu Hause für die Kraftarbeit. Bei schlechtem Wetter hat jede Außeneinheit eine gleichwertige Indoor-Variante.",
+      },
+      {
+        q: "Ich laufe schon regelmäßig. Was bringt mir ein Trainer zusätzlich?",
+        a: "Struktur und Reizwechsel: gezielte Intervalle statt immer derselben Runde und Krafttraining für Tempo, Haltung und Gelenke. Die meisten Läufer verbessern ihre Zeiten in den ersten acht Wochen messbar, weil erstmals ein Plan dahinter liegt.",
+      },
+      {
+        q: "Trainierst du in Junkersdorf auch früh morgens?",
+        a: "Ja. Gerade Pendler und Selbstständige legen die Einheit auf 6:30 oder 7 Uhr in den Grüngürtel und sind vor dem ersten Termin fertig. Feste frühe Slots halten erfahrungsgemäß am längsten.",
+      },
+    ],
+  },
+
+  "nippes/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Nippes ist Krafttraining mit echten Übungen statt Stromweste: geführt im 1-zu-1 bei dir zu Hause, mit steigender Last und ohne Jahresvertrag. In Nippes ist EMS zwar in Reichweite, der Unterschied liegt in der Methode. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Nippes: echtes Krafttraining im 1-zu-1 statt Stromweste, steigende Last statt Kribbeln, ohne Jahresvertrag. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In Nippes ist der Weg kein Argument, also reden wir über die Methode",
+        body: "Anders als in den Randveedeln ist EMS von Nippes aus gut erreichbar, in einem dicht besiedelten Veedel mit 36.913 Einwohnern gibt es Anbieter in Reichweite. Die Entscheidung fällt hier also nicht über die Anfahrt, sondern über die Frage, was im Körper passiert. Beim EMS hältst du statische Positionen, während Strom den Muskel reizt. Bei mir bewegst du Gewichte über den vollen Bewegungsumfang, und die Last wächst von Woche zu Woche. Nur das Zweite kann dein Körper in Technik, Haltung und Alltagskraft übersetzen.",
+      },
+      {
+        title: "Das 20-Minuten-Versprechen löst das falsche Problem",
+        body: "EMS verkauft Zeitersparnis, aber der Engpass bei vollen Wochen ist selten die reine Trainingszeit, sondern der Aufwand drumherum: Termin buchen, hinkommen, umziehen, zurück. Genau den streiche ich, indem ich mit Material zu dir in die Wohnung komme. Zwei Einheiten à 45 bis 60 Minuten an deiner Haustür kosten in Summe kaum mehr Alltagszeit als zwei EMS-Termine mit allem Drumherum, und sie bauen etwas auf, das bleibt.",
+      },
+      {
+        title: "Die Altbauwohnung reicht als Studio",
+        body: "Für wirksames Krafttraining braucht es weniger Platz, als die Gerätewelt suggeriert: zwei mal zwei Meter im Wohnzimmer, Kurzhanteln, ein Band, eine Matte. Damit sind Kniebeuge, Zug, Druck und Rumpfarbeit in allen Stufen abbildbar, vom Wiedereinstieg bis zu fordernden Varianten. Wer irgendwann schwer an die Langhantel will, legt einzelne Studio-Termine dazu. Der Kern des Fortschritts entsteht trotzdem in der Wohnung, weil dort die Hürde am kleinsten ist.",
+      },
+      {
+        title: "Ohne Bindung, mit Belegen",
+        body: "EMS-Studios arbeiten überwiegend mit Laufzeitverträgen, bei mir gibt es keine: Du zahlst die Stunde mit 50€ oder das Online Coaching ab 150€ im Monat, beides monatlich beendbar. Was du dafür bekommst, lässt sich prüfen: Nach acht Wochen stehen deine Anfangswerte neben den aktuellen, von der Kniebeuge bis zum Rumpf. Wenn die Zahlen stillstehen, ändere ich den Plan. Dieses Risiko trage ich, nicht ein Vertrag, der weiterläuft.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Nippes?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, ohne Laufzeit und inklusive Anfahrt und Material. Das Online Coaching gibt es ab 150€ im Monat, monatlich beendbar. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe EMS probiert und fand es anstrengend. Reicht das nicht als Reiz?",
+        a: "Anstrengung ist nicht dasselbe wie Fortschritt. Der Stromreiz fühlt sich intensiv an, aber er wächst nicht systematisch mit wie ein Gewicht, das jede Woche etwas schwerer wird. Für dauerhafte Veränderung braucht der Körper steigende, messbare Last.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse im Vergleich zu EMS?",
+        a: "In den ersten vier Wochen verbessert sich vor allem Technik und Ansteuerung, ab Woche sechs bis acht werden Kraftwerte und Haltung sichtbar. Versprochen wird nichts, gemessen alles: Deine Startwerte stehen im Protokoll und werden regelmäßig verglichen.",
+      },
+      {
+        q: "Passt das Training in eine Nippeser Altbauwohnung mit Nachbarn darunter?",
+        a: "Ja. Geplant wird ohne Sprünge und ohne fallende Gewichte: Kniebeugen, Zug- und Druckübungen, Rumpfarbeit auf der Matte. Das ist leiser als ein Heimtrainer und braucht nur wenige Quadratmeter.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
