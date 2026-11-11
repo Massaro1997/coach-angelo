@@ -3760,6 +3760,287 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "rath-heumar/personal-training": {
+    answer:
+      "Personal Training in Köln-Rath/Heumar kommt zu dir: 1-zu-1 Einheiten bei dir zu Hause oder im Garten, mit festen Terminen, die nicht am Stau vor dem Autobahnkreuz hängen. Ob Abnehmen, Kraft oder Rücken legt das kostenlose Erstgespräch fest. Die Stunde kostet 50€.",
+    metaDescription:
+      "Personal Training in Köln-Rath/Heumar: 1-zu-1 bei dir zu Hause oder im Garten, feste Termine ohne Anfahrtsstress, Königsforst vor der Tür. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Training wartet zu Hause, nicht hinter dem Kreuz",
+        body: "Rath/Heumar liegt am Autobahnkreuz Köln-Ost, und wer hier wohnt, pendelt oft mit dem Auto: morgens raus, abends im zähen Verkehr zurück. Ein Studiotermin um 19 Uhr auf der anderen Rheinseite verliert gegen so einen Tag regelmäßig. Deshalb drehe ich es um: Ich bin zum vereinbarten Termin bei dir, das Training beginnt in dem Moment, in dem du die Haustür aufmachst. Was wegfällt, ist genau der Teil, an dem gute Vorsätze in diesem Veedel scheitern, die zweite Fahrt des Tages.",
+      },
+      {
+        title: "Haus und Garten reichen völlig aus",
+        body: "Mit 11.833 Einwohnern auf 12,91 km² ist Rath/Heumar locker bebaut, viele wohnen im Einfamilien- oder Reihenhaus. Für das 1-zu-1 heißt das: Platz ist da. Im Wohnzimmer oder Hobbyraum arbeiten wir mit dem Material, das ich mitbringe, im Sommer wandert die Einheit in den Garten. Du brauchst nichts anzuschaffen und niemand schaut zu, was gerade beim Wiedereinstieg nach Jahren für viele der eigentliche Grund ist, es endlich anzugehen.",
+      },
+      {
+        title: "Ein Ziel, ein Plan, alle vier Wochen der Beweis",
+        body: "Am Anfang steht das Erstgespräch: was willst du erreichen, was macht dein Körper mit, wie sehen deine Wochen aus. Daraus wird ein Plan mit zwei festen Einheiten pro Woche, egal ob das Ziel weniger Gewicht, mehr Kraft oder ein belastbarer Rücken ist. Jede Einheit steht im Protokoll, alle vier Wochen vergleichen wir Zahlen und Umfänge. Bewegt sich nichts, ändere ich den Plan. Das ist der Unterschied zu einem Jahr Studiomitgliedschaft, das still ausläuft.",
+      },
+      {
+        title: "Der Königsforst spielt die Nebenrolle, nicht die Hauptrolle",
+        body: "Der Wald vor der Haustür ist das Pfund des Veedels, aber im Personal Training nutze ich ihn bewusst dosiert: lockere Geh- oder Laufeinheiten an den trainingsfreien Tagen, im Sommer einzelne Draußen-Termine am Waldrand. Die eigentliche Arbeit, saubere Kraftübungen mit Steigerung, passiert bei dir zu Hause unter Aufsicht. So ergänzen sich beide, statt dass das Spazierengehen das Training ersetzt und am Ende nichts messbar wird.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Rath/Heumar?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Anfahrt und Material sind enthalten. Online Coaching mit Plan per App und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Kurzhanteln, Kettlebell, Bänder und Matte bringe ich mit. Wenn du später eine eigene Grundausstattung willst, sage ich dir, was sich lohnt und was nicht, aber Voraussetzung ist es keine.",
+      },
+      {
+        q: "Ich pendle und bin oft erst spät zurück. Wann trainieren wir?",
+        a: "Termine lege ich auch früh am Morgen vor der Abfahrt oder später am Abend. Der Vorteil des Haustermins: es gibt keine zusätzliche Fahrt, also hält der Termin auch in vollen Wochen.",
+      },
+      {
+        q: "Für welche Ziele passt das 1-zu-1?",
+        a: "Abnehmen, Muskelaufbau, Rücken, allgemeine Fitness nach langer Pause. Das Erstgespräch klärt Ziel und Startpunkt, der Plan wird darauf geschrieben, nicht auf ein Schema.",
+      },
+      {
+        q: "Trainieren wir auch im Königsforst?",
+        a: "Ja, aber gezielt: lockere Ausdauer an freien Tagen und einzelne Einheiten am Waldrand im Sommer. Die Kraftarbeit bleibt bei dir zu Hause, weil sie Aufsicht und Steigerung braucht.",
+      },
+    ],
+  },
+
+  "humboldt-gremberg/personal-training": {
+    answer:
+      "Personal Training in Köln-Humboldt/Gremberg heißt bei mir: 1-zu-1 bei dir zu Hause oder im Gremberger Wäldchen, mit einem Plan, der zu einem Körper passt, der tagsüber schon arbeitet. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Humboldt/Gremberg: 1-zu-1 zu Hause oder im Gremberger Wäldchen, Ausgleich statt Zusatzlast für körperlich Arbeitende. 50€/Std.",
+    sections: [
+      {
+        title: "Training für Leute, deren Körper schon arbeitet",
+        body: "Humboldt/Gremberg trägt den Namen der alten Maschinenbauwerke, und bis heute wird hier viel mit den Händen gearbeitet: Handwerk, Logistik, Pflege, Schicht. Wer abends von so einem Tag kommt, braucht kein Programm, das einfach noch mehr Last draufpackt. Ich baue das Training als Ausgleich: die Muskeln stärken, die der Job vernachlässigt, Hüfte und Schultern beweglich halten, den Rücken belastbar machen statt müde. Das Ziel ist, dass du die Arbeit in zehn Jahren noch gut wegsteckst.",
+      },
+      {
+        title: "Dein Wohnzimmer oder das Wäldchen, beides ist nah",
+        body: "Einen eigenen Park hat das Veedel nicht, 15.111 Menschen wohnen hier auf 2,82 km² zwischen Gleisen und Hauptstraßen. Für das 1-zu-1 ist das kein Hindernis: Die Krafteinheiten machen wir in deiner Wohnung mit dem Material, das ich mitbringe, und für alles, was Platz und frische Luft braucht, liegt das Gremberger Wäldchen direkt an der südöstlichen Grenze. Der Fußweg dorthin ist das Aufwärmen, kein verlorener Termin-Anteil.",
+      },
+      {
+        title: "Erst schauen, was der Alltag schon verbraucht",
+        body: "Im Erstgespräch frage ich zuerst nach deinem Tag, nicht nach deinem Wunschgewicht. Wer acht Stunden hebt, trägt oder steht, hat andere schwache und andere überlastete Stellen als jemand am Schreibtisch, und der Plan muss das abbilden: weniger Volumen, gezieltere Übungen, mehr Arbeit an Haltung und Gegenbewegung. Gemessen wird trotzdem, Protokoll in jeder Einheit, alle vier Wochen der Vergleich. Auch Ausgleich muss nachweisbar wirken.",
+      },
+      {
+        title: "Termine, die den Dienstplan überleben",
+        body: "Feste Kurszeiten funktionieren mit Wechselschicht nicht, deshalb arbeite ich hier anders: zwei Einheiten pro Woche bleiben gesetzt, die Uhrzeit wandert mit deinem Dienstplan, auch früh morgens nach der Nacht oder am freien Vormittag. Wenn du lieber unter Leuten trainierst, nehmen wir mein Studio dazu, über die KVB von Kalk aus gut erreichbar. Entscheidend ist nicht der Ort, sondern dass der Rhythmus steht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Humboldt/Gremberg?",
+        a: "50€ pro 1-zu-1 Stunde, inklusive Anfahrt und Material. Online Coaching mit Plan per App gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite körperlich. Ist Krafttraining dann nicht zu viel?",
+        a: "Richtig dosiert ist es das Gegenteil: Arbeit belastet einseitig, Training gleicht gezielt aus. Der Plan nimmt deine Arbeitsbelastung mit auf und setzt weniger, dafür präzisere Reize.",
+      },
+      {
+        q: "Wo trainieren wir genau?",
+        a: "Kraft in deiner Wohnung mit mitgebrachtem Material, Bewegungs- und Ausdauerteile im Gremberger Wäldchen oder auf den Poller Wiesen Richtung Rhein. Den Treffpunkt legen wir nach deinem Wohnort fest.",
+      },
+      {
+        q: "Geht das auch mit Wechselschicht?",
+        a: "Ja. Die beiden Wochentermine bleiben fest, die Uhrzeit wandert mit dem Dienstplan. Das funktioniert nur im 1-zu-1, und genau deshalb fragen viele Schichtarbeiter hier an.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Wo fangen wir an?",
+        a: "Mit einem ruhigen Check im Erstgespräch: Beweglichkeit, Rumpf, Grundkraft. Danach starten wir auf deinem heutigen Stand. Die Steigerung kommt aus dem Protokoll, nicht aus Druck.",
+      },
+    ],
+  },
+
+  "seeberg/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Seeberg macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: gutes Essen ohne teure Spezialprodukte, ein Wochenplan rund um einen Einkauf, Portionen, die für die ganze Familie mitkochen. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Seeberg mit Natalie: Eiweiß ohne teure Produkte, ein Wochenplan um einen Einkauf, familientauglich, online betreut. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Gute Ernährung braucht kein Spezialregal",
+        body: "Die Fitnessbranche verkauft gern das Gefühl, gesundes Essen sei teuer: Proteinriegel, Shakes, fertige Bowls. Natalie räumt damit zuerst auf. Quark, Eier, Hülsenfrüchte, Haferflocken, TK-Gemüse und Hähnchen decken den Eiweißbedarf zuverlässiger als jedes Pulverregal, zu einem Bruchteil des Preises. Für Seeberg plant sie genau damit: ein Kalorien- und ein Eiweißziel, erreicht mit Zutaten aus dem normalen Supermarkt, ohne dass der Wocheneinkauf teurer wird als vorher.",
+      },
+      {
+        title: "Ein Plan, der mit der Siedlung rechnet",
+        body: "Seeberg ist kompakt: 11.094 Menschen auf 1,78 km², großgewachsene Wohnzeilen aus den Sechziger- und Siebzigerjahren, eingekauft wird meist einmal gründlich im Zentrum nebenan. Natalies Wochenplan ist um diesen einen Einkauf gebaut, mit einer Liste, die genau das enthält, was die Woche braucht. Spontane Zusatzkäufe, bei denen die meisten Pläne kippen, fallen damit fast weg. Was im Korb liegt, ist schon die Entscheidung.",
+      },
+      {
+        title: "Eine Küche, ein Topf, die ganze Familie",
+        body: "Kaum jemand in Seeberg kocht nur für sich. Deshalb gibt es bei Natalie keine Extra-Diätgerichte neben dem Familienessen: der Plan nutzt dieselben Mahlzeiten für alle und steuert über deine Portion und deinen Teller. Du wiegst nicht jede Zutat, du hältst Eckwerte ein, die sie mit dir festlegt. So bleibt das Abendessen ein gemeinsames, und dein Ziel läuft trotzdem mit, Woche für Woche im Online-Check-in nachgehalten.",
+      },
+      {
+        title: "Der Fühlinger See ist dein Bewegungskonto",
+        body: "Essen regelt das Gewicht, Bewegung hält den Stoffwechsel und den Kopf im Spiel. Direkt hinter Seeberg liegt der Fühlinger See mit flachen, vermessenen Wegen: ideal für zügiges Gehen oder lockeres Laufen, das Natalie als festen Block in die Woche schreibt. Wer zusätzlich Kraft aufbauen will, kombiniert die Beratung mit Training bei mir, 1-zu-1 vor Ort oder per Plan in der App. Beides zusammen verändert mehr als jede Diät allein.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Seeberg?",
+        a: "Sie ist Teil des Online Coachings ab 150€ im Monat: Kalorien- und Eiweißziel, Wochenplan mit Einkaufsliste und wöchentliche Check-ins mit Natalie. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich teure Produkte oder Shakes kaufen?",
+        a: "Nein. Der Plan ist bewusst auf normale Supermarkt-Zutaten gebaut: Quark, Eier, Hülsenfrüchte, TK-Gemüse. Ein Shake kann praktisch sein, nötig ist er nicht.",
+      },
+      {
+        q: "Funktioniert der Plan, wenn ich für die Familie koche?",
+        a: "Genau dafür ist er gemacht: ein Essen für alle, dein Ziel wird über Portion und Zusammensetzung deines Tellers gesteuert, nicht über ein separates Diätgericht.",
+      },
+      {
+        q: "Wie läuft die Beratung ab, wenn alles online ist?",
+        a: "Erstgespräch per Video, dann bekommst du Ziele und Wochenplan. Einmal pro Woche gibt es einen kurzen Check-in: Gewicht im Wochenschnitt, was funktioniert hat, was angepasst wird.",
+      },
+      {
+        q: "Hilft Abnehmen ohne Sport überhaupt?",
+        a: "Abnehmen entscheidet die Energiebilanz, also ja. Bewegung wie zügiges Gehen am Fühlinger See und etwas Krafttraining sorgen aber dafür, dass Muskeln bleiben und das Ergebnis hält.",
+      },
+    ],
+  },
+
+  "altstadt-nord/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Altstadt-Nord: Trainingsplan per App, wöchentliche Video-Check-ins und Ernährungssteuerung, ab 150€ im Monat. Der Plan reist mit, ob die Woche am Schreibtisch am Ring stattfindet oder im ICE ab Hauptbahnhof. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Altstadt-Nord: Plan per App, Video-Check-ins, Varianten für Hotelgym und Dienstreise. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Veedel mit dem Gleisanschluss",
+        body: "Altstadt-Nord ist das Veedel von Dom und Hauptbahnhof: 18.617 Einwohner auf 2,46 km², dazu Büros, Kanzleien und Hotels. Wer hier wohnt oder arbeitet, sitzt öfter im Zug als fast jeder andere Kölner, Messen, Mandanten, Projekte in anderen Städten. Genau an diesen Wochen sterben Studioverträge. Online Coaching ist dafür gebaut: der Plan liegt in der App und gilt überall, die Kontrolle läuft über den wöchentlichen Check-in, nicht über deine Anwesenheit an einem festen Ort.",
+      },
+      {
+        title: "Jede Übung mit Hotel-Variante",
+        body: "Der Unterschied zu einem starren Plan steckt in den Varianten: jede Krafteinheit gibt es in deiner Stammversion, fürs Studio oder die Wohnung, und in einer Fassung für das, was ein Hotelgym typischerweise hergibt, Kurzhanteln, Kabelzug, Laufband. Du meldest kurz, wie die Woche aussieht, und bekommst die passende Fassung. So zählt die Reisewoche als Trainingswoche, statt als Loch im Log, und die Steigerung läuft weiter.",
+      },
+      {
+        title: "Check-in, der in den Kalender passt",
+        body: "Einmal pro Woche sprechen wir 15 bis 20 Minuten per Video: Trainingslog, Gewicht im Wochenschnitt, die nächste Woche. Der Termin passt in eine Mittagspause oder in die Bahnfahrt und wird verschoben statt gestrichen, wenn etwas dazwischenkommt. Gesteuert wird nach Zahlen, nicht nach Vorsätzen, und auch das Essen unterwegs bekommt Regeln statt Verbote: was im Bordbistro geht, was beim Geschäftsessen, was im Hotelfrühstück.",
+      },
+      {
+        title: "Zu Hause liegt der Rhein vor der Tür",
+        body: "In den Wochen, die du in Köln bist, holt sich das Programm die Ausdauer draußen: das Rheinufer für Läufe mit Strecke und Tempo, die Grünanlage am Theodor-Heuss-Ring für kurze Runden am Morgen. Wer die Grundübungen noch nie unter Aufsicht gelernt hat, startet ehrlicher mit ein paar 1-zu-1 Stunden im Studio und wechselt dann online. Auch die Mischung funktioniert, Plan online, einmal im Monat eine Technik-Stunde vor Ort.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching?",
+        a: "Ab 150€ im Monat, mit Trainingsplan per App, wöchentlichem Video-Check-in, Ernährungssteuerung und Betreuung zwischen den Terminen. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich bin jede Woche in einer anderen Stadt. Funktioniert das wirklich?",
+        a: "Ja, das ist der Kernfall: jede Einheit hat eine Variante für Hotelgym oder Körpergewicht, der Check-in-Termin wandert mit deinem Kalender. Entscheidend ist das Log, nicht der Ort.",
+      },
+      {
+        q: "Brauche ich ein Fitnessstudio in der Innenstadt?",
+        a: "Nein. Der Plan wird auf das geschrieben, was du wirklich hast: Studio, Wohnung oder Hotelgym. Fürs Cardio reichen Rheinufer und Theodor-Heuss-Ring vor der Tür.",
+      },
+      {
+        q: "Wie wird das Essen auf Reisen gesteuert?",
+        a: "Mit Entscheidungsregeln statt Rezepten: Richtwerte für Restaurant, Hotelfrühstück und unterwegs, dazu ein Kalorien- und Eiweißziel. Der Wochenschnitt auf der Waage zeigt, ob es trägt.",
+      },
+      {
+        q: "Ich bin Anfänger. Kann ich direkt online starten?",
+        a: "Meist ist es ehrlicher, Kniebeuge und Kreuzheben erst in wenigen 1-zu-1 Stunden zu lernen und dann zu wechseln. Das klären wir im kostenlosen Erstgespräch ohne Verkaufsdruck.",
+      },
+    ],
+  },
+
+  "dellbrueck/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Dellbrück richtet sich an ein Ausdauer-Veedel: Viele hier laufen Heide und Thielenbruch rauf und runter, Kraft fehlt trotzdem. Zwei geführte Krafteinheiten pro Woche, die deinen Kilometern nichts wegnehmen, dazu ein Eiweiß-Zielwert. 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Dellbrück: zwei Krafteinheiten pro Woche neben dem Laufen, Interferenz sauber geplant, Eiweiß-Zielwert. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Viel Ausdauer, wenig Muskeln: das Dellbrücker Muster",
+        body: "Dellbrück bewegt sich: 21.954 Einwohner, die Dellbrücker Heide und der Thielenbruch als Laufflächen vor der Tür, dazu ein dichtes Vereinsleben. Die typische Anfrage von hier kommt deshalb nicht vom Sofa, sondern vom Läufer: ausdauernd, drahtig, aber die Arme bleiben dünn, die Haltung sackt, und beim Umzug fehlt schlicht Kraft. Das ist kein Talentproblem. Wer fast nur läuft, gibt dem Körper keinen Grund, Muskulatur zu bauen. Der Reiz fehlt, nicht die Veranlagung.",
+      },
+      {
+        title: "Kraft und Kilometer vertragen sich, wenn man plant",
+        body: "Die Sorge, Krafttraining mache langsam und steif, hält sich hartnäckig und stimmt nicht: zwei Krafteinheiten pro Woche verbessern bei Läufern sogar die Laufökonomie. Was es braucht, ist Reihenfolge und Abstand. Ich lege die Krafttage so, dass zwischen schwerem Beintraining und deinem langen Lauf genug Zeit liegt, und in Wochen mit Wettkampf oder Vereinsspiel wird die Kraft reduziert statt gestrichen. Deine Läufe durch Heide und Thielenbruch bleiben im Plan, sie bekommen nur Gesellschaft.",
+      },
+      {
+        title: "Grundübungen, Protokoll, Eiweiß: mehr System ist es nicht",
+        body: "Aufgebaut wird mit wenigen Grundübungen und sauberer Steigerung, jede Einheit steht im Protokoll, alle vier Wochen vergleichen wir Lasten und Umfänge. Dazu kommt die Stellschraube, die bei Ausdauersportlern am häufigsten klemmt: Essen. Wer viel läuft, verbrennt viel, und wer dann noch zu wenig Eiweiß isst, baut nichts auf. Du bekommst einen Eiweiß-Zielwert nach Körpergewicht und einen leichten Kalorienüberschuss, der die Kilometer einrechnet.",
+      },
+      {
+        title: "Zu Hause, im Studio oder beides",
+        body: "Trainiert wird, wo es für dich hält: bei dir zu Hause mit mitgebrachtem Material, in meinem Studio an der Langhantel oder gemischt. Dellbrück ist mit 9,95 km² weitläufig, viele wohnen im Haus mit Platz für eine kleine feste Trainingsecke, auch das lässt sich einrichten. Über die Linien 3 und 18 bist du beweglich, falls du lieber auswärts trainierst. Entscheidend ist der Rhythmus von zwei Einheiten pro Woche, nicht die Adresse.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Dellbrück?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Online Coaching mit Plan per App, Eiweiß-Zielwert und wöchentlichen Check-ins ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Macht Krafttraining mich als Läufer langsamer?",
+        a: "Nein, richtig geplant eher schneller: mehr Schrittkraft und eine stabilere Haltung verbessern die Laufökonomie. Wichtig ist der Abstand zwischen schwerem Beintraining und langen Läufen, und den plane ich.",
+      },
+      {
+        q: "Muss ich dafür weniger laufen?",
+        a: "Meist nicht. Zwei Krafteinheiten passen neben drei Laufeinheiten, nur die Reihenfolge in der Woche wird geordnet. In Aufbauphasen mit hohem Laufpensum wird die Kraft dosiert statt gestrichen.",
+      },
+      {
+        q: "Wie viel Eiweiß brauche ich wirklich?",
+        a: "Als Richtwert 1,6 bis 2 Gramm pro Kilo Körpergewicht am Tag, bei viel Ausdauer eher am oberen Rand. Den genauen Zielwert und wie du ihn im Alltag erreichst, legen wir im Erstgespräch fest.",
+      },
+      {
+        q: "Wie schnell sieht man Muskelaufbau?",
+        a: "Kraftwerte steigen ab den ersten Wochen, sichtbare Veränderung braucht etwa ein Vierteljahr, bei Ausdauersportlern mit Defizit auch länger. Gemessen wird alle vier Wochen, versprochen wird nichts.",
+      },
+    ],
+  },
+
+  "suelz/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Sülz: Trainingsplan per App, wöchentliche Video-Check-ins und Ernährungssteuerung, ab 150€ im Monat. Der Plan wird auf dein Studio und deine Woche geschrieben, ob Klausurphase, Praxisdienst oder Weiher-Runde. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Sülz: Plan per App für dein Studio und deine Woche, Video-Check-ins, Ernährungssteuerung. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In Sülz fehlt kein Studio, es fehlt die Regie",
+        body: "Sülz ist jung, dicht und sportlich: 36.851 Menschen auf gut fünf Quadratkilometern, die Uni nebenan, Fitnessstudios an fast jeder Ecke und die Läuferrunde am Decksteiner Weiher als Veedel-Klassiker. Die typische Anfrage von hier lautet nicht, wo kann ich trainieren, sondern: ich trainiere seit Jahren und verändere mich nicht. Online Coaching setzt genau da an. Du behältst dein Studio und deine Runde, neu sind Plan, Protokoll und jemand, der jede Woche draufschaut.",
+      },
+      {
+        title: "Der Plan wird auf deine Geräte geschrieben",
+        body: "Nach dem Erstgespräch sagst du mir, wo du trainierst, und der Plan wird auf genau diese Ausstattung gebaut, mit Video zu jeder Übung und klaren Vorgaben für Last und Wiederholungen. Kein Umrechnen, kein Improvisieren. Läufst du zusätzlich, bekommen Weiher-Runde oder Beethovenpark feste Blöcke mit Strecke und Tempo, damit Kraft und Laufen sich ergänzen statt zu kollidieren. Alles landet im Log, und das Log entscheidet über die nächste Woche.",
+      },
+      {
+        title: "Semester, Praxis, Projekt: der Rhythmus darf schwanken",
+        body: "Viele in Sülz leben in Phasen: Vorlesungszeit und Klausurenblock, Klinikdienst, Projektabgaben. Ein starrer Wochenplan verliert gegen solche Zyklen. Deshalb hat dein Plan Stufen, eine volle Woche, eine kurze Woche, eine Minimalwoche mit zwei Einheiten à 30 Minuten, und im Check-in legen wir fest, welche gilt. So übersteht das Training auch die Wochen, in denen früher alles ausgefallen wäre, und der Wiedereinstieg entfällt, weil du nie ganz raus warst.",
+      },
+      {
+        title: "Check-in per Video, Technik per Clip",
+        body: "Einmal pro Woche sprechen wir 15 bis 20 Minuten per Video: Log, Gewicht im Wochenschnitt, die nächste Woche. Zwischendrin schickst du Technik-Videos aus deinem Studio und bekommst kurzfristig Korrektur, so bleibt die Ausführung sauber, obwohl ich nicht danebenstehe. Wer Kniebeuge und Kreuzheben noch nie gelernt hat, startet ehrlicher mit wenigen 1-zu-1 Stunden bei mir und wechselt dann online. Das klärt das kostenlose Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching?",
+        a: "Ab 150€ im Monat: Trainingsplan per App, wöchentlicher Video-Check-in, Ernährungssteuerung und Betreuung zwischen den Terminen. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe schon ein Studio in Sülz. Passt der Plan dazu?",
+        a: "Ja, genau so herum läuft es: du nennst mir deine Geräte, der Plan wird darauf geschrieben. Wechselst du das Studio, wird er angepasst statt neu gekauft.",
+      },
+      {
+        q: "Funktioniert das im Studium mit Klausurphasen?",
+        a: "Dafür hat der Plan Stufen bis zur Minimalwoche mit zwei kurzen Einheiten. Im Check-in legen wir vorher fest, welche Woche gilt, damit die Klausurphase das Training verkleinert statt beendet.",
+      },
+      {
+        q: "Ich laufe die Runde am Decksteiner Weiher. Bleibt die im Plan?",
+        a: "Ja, sie bekommt Strecke und Tempo statt Gefühl und wird mit den Krafttagen so gelegt, dass sich beides ergänzt. Viele laufen die Runde nach ein paar Monaten messbar schneller.",
+      },
+      {
+        q: "Woher weißt du, ob meine Technik stimmt?",
+        a: "Über kurze Videos aus deinem Training, die du mir in der App schickst. Reicht das nicht, nehmen wir eine 1-zu-1 Technik-Stunde im Studio dazu, die kostet 50€.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
