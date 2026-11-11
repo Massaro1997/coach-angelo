@@ -4843,6 +4843,134 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
     ],
   },
 
+  "elsdorf/personal-training": {
+    answer:
+      "Personal Training in Köln-Elsdorf findet bei dir statt: in deinem Haus, im Garten oder auf den ruhigen Wegen Richtung Zündorf, denn ein Studio gibt es im kleinsten Porzer Ortsteil nicht. Feste 60 Minuten, Plan nach Messung, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Elsdorf: 1-zu-1 bei dir zu Hause oder im Garten, feste Termine ohne Anfahrt ins Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Im Dorf trainiert es sich besser als unterwegs",
+        body: "Elsdorf ist mit 1.726 Einwohnern auf 1,77 km² einer der kleinsten Stadtteile Kölns, ein Dorf am rechten Rand von Porz zwischen Urbach, Wahnheide und Zündorf. Ein Fitnessstudio gibt es hier nicht, und die meisten, die mir von hier schreiben, haben es lange mit Anfahrten versucht: nach Porz-Mitte, nach Rath oder über die Autobahn. Irgendwann kippt jede Routine, die mit 25 Minuten Fahrt beginnt. Deshalb drehe ich es um und bringe das Training zu dir, mit Hanteln, Bändern und allem, was die Einheit braucht.",
+      },
+      {
+        title: "Haus, Garten und die Wege ins Feld reichen völlig",
+        body: "Die typischen Elsdorfer Grundstücke geben mehr her als jede Studiofläche zur Stoßzeit: Im Wohnzimmer oder Garten stehen die Grundübungen mit mitgebrachtem Gewicht, und für Ausdauerblöcke nehmen wir die ruhigen Straßen und Feldwege Richtung Zündorf und zur Groov. Dort lässt sich dieselbe Runde Woche für Woche wiederholen, und nur wiederholbare Strecken machen Fortschritt messbar. Wer zusätzlich schwere Langhantel-Einheiten will, legt einzelne Termine ins Studio.",
+      },
+      {
+        title: "Ein kleiner Ort heißt: dein Plan ist wirklich deiner",
+        body: "In einem Stadtteil dieser Größe arbeite ich nicht mit Schema F. Am Anfang steht ein Check aus Beweglichkeit, Kraft und ein paar ehrlichen Fragen zu deinem Alltag: Pendelst du zur Arbeit, sitzt du im Homeoffice, was hat früher funktioniert? Daraus entsteht ein Plan mit zwei festen Einheiten pro Woche. Alle vier bis sechs Wochen wird nachgemessen, und wenn sich nichts bewegt, ändere ich den Plan, nicht die Ausrede.",
+      },
+      {
+        title: "Feste Termine schlagen gute Vorsätze",
+        body: "Gerade außerhalb des Zentrums entscheidet die Verbindlichkeit: Ein Termin, zu dem jemand vor deiner Tür steht, fällt nicht aus, weil es regnet oder der Tag lang war. Viele meiner Kunden aus dem Kölner Südosten trainieren früh morgens vor dem Pendeln oder am frühen Abend, wenn die Kinder versorgt sind. Beides lässt sich in Elsdorf planen, weil die Wege kurz sind, sobald das Training zu dir kommt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Elsdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Wer nach Plan selbst trainiert, nimmt das Online Coaching ab 150€ im Monat mit wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe keine Geräte zu Hause. Geht das trotzdem?",
+        a: "Ja. Ich bringe Kurzhanteln, Widerstandsbänder und was die Einheit sonst braucht mit. Für die ersten Monate reicht das vollständig, danach besprechen wir, ob sich eine kleine Grundausstattung für dich lohnt.",
+      },
+      {
+        q: "Trainierst du auch draußen in Elsdorf?",
+        a: "Ja, wenn Ziel und Wetter passen: Ausdauer- und Intervallblöcke auf den ruhigen Wegen Richtung Zündorf, Kraft im Haus oder Garten. Die Aufteilung richtet sich nach deinem Plan, nicht nach einem festen Muster.",
+      },
+      {
+        q: "Lohnt sich Personal Training auch für Einsteiger?",
+        a: "Gerade dann. Die ersten Wochen entscheiden über Technik und Gewohnheit, und beides lernt sich im 1-zu-1 schneller als allein. Viele starten mit zwei geführten Einheiten pro Woche und wechseln später auf eine plus Eigentraining.",
+      },
+    ],
+  },
+
+  "heimersdorf/personal-training": {
+    answer:
+      "Personal Training in Köln-Heimersdorf heißt 1-zu-1 bei dir zu Hause in der Siedlung, auf den autofreien Fußwegen zwischen den Wohnzeilen oder am Fühlinger See gleich nebenan. Zwei feste Einheiten pro Woche, Plan nach Messung, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Heimersdorf: Training zu Hause, auf den Fußwegen der Siedlung oder am Fühlinger See. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Heimersdorf hat, was ein Training braucht: Ruhe und kurze Wege",
+        body: "Zwischen Seeberg, Chorweiler und Pesch gelegen, ist Heimersdorf mit 6.278 Einwohnern eines der ruhigsten Veedel im Kölner Norden. Die Wohnzeilen sind durch Fußwege verbunden, auf denen kein Auto fährt, und genau dort lässt sich hervorragend arbeiten: Aufwärmen, Gehblöcke, Technikübungen mit dem eigenen Körpergewicht, direkt vor deiner Haustür. Für alles mit Gewicht komme ich mit Material zu dir in die Wohnung oder ins Reihenhaus.",
+      },
+      {
+        title: "Der Fühlinger See ist deine Außenstelle",
+        body: "Hinter Seeberg beginnt das Gelände am Fühlinger See, eine der größten zusammenhängenden Sport- und Erholungsflächen Kölns, von Heimersdorf aus in wenigen Minuten mit dem Rad erreichbar. Dorthin verlege ich die langen Einheiten: Intervalle auf den ebenen Wegen rund um die Seen, Ausdauerblöcke mit messbarer Runde. Im Veedel bleibt das kurze, häufige Training, am See das lange. Diese Mischung hält einen Plan über Monate am Leben.",
+      },
+      {
+        title: "Kein Studio nötig, keine Blicke, kein Abo",
+        body: "Viele Anfragen aus Chorweiler und Umgebung beginnen mit demselben Satz: Ich will erst in Form kommen, bevor ich mich in ein Studio stelle. Im 1-zu-1 entfällt dieses Problem komplett. Niemand schaut zu, kein Gerät ist besetzt, und du zahlst keine Grundgebühr für Monate, in denen du nicht hingehst. Du bezahlst die Stunde, in der trainiert wird, und bekommst dafür Technik, Korrektur und einen Plan, der zu deinem Kalender passt.",
+      },
+      {
+        title: "Gemessen wird, sonst ist es nur Bewegung",
+        body: "Am Anfang steht ein Eingangs-Check: Kraftwerte, Beweglichkeit, ein paar Umfänge, dazu deine Ziele in einem Satz. Danach trainieren wir zwei Mal pro Woche, und alle vier bis sechs Wochen vergleichen wir die Zahlen mit dem Start. So siehst du schwarz auf weiß, ob der Plan arbeitet. Tut er es nicht, wird er geändert. Diese Schleife ist der eigentliche Unterschied zum Training auf eigene Faust.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Heimersdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und mitgebrachtem Material. Das Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir in Heimersdorf?",
+        a: "Bei dir zu Hause, auf den autofreien Fußwegen der Siedlung oder am Fühlinger See für die langen Einheiten. Was wann dran ist, legt der Plan fest, nicht die Gewohnheit.",
+      },
+      {
+        q: "Ich war lange nicht mehr sportlich aktiv. Ist das ein Problem?",
+        a: "Nein, das ist der Normalfall. Wir starten mit einem Check und bauen von dort auf, mit Übungen, die zu deinem heutigen Stand passen. Steigerung kommt aus sauberer Technik, nicht aus Härte in der ersten Woche.",
+      },
+      {
+        q: "Geht Training auch zu zweit, etwa mit Partner oder Nachbarin?",
+        a: "Ja, zu zweit funktioniert gut, wenn die Ziele ähnlich sind. Die Stunde wird dann geteilt geplant, mit eigenen Gewichten und eigener Progression für beide. Sprich es im kostenlosen Erstgespräch an.",
+      },
+    ],
+  },
+
+  "hoehenhaus/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Höhenhaus ist geführtes Krafttraining ohne Stromweste und ohne Jahresvertrag: zwei Einheiten pro Woche bei dir zu Hause in der Gartensiedlung, protokollierte Gewichte statt Kribbeln als Maßstab. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Höhenhaus: geführtes Krafttraining zu Hause statt Stromweste im Abo, Fortschritt im Protokoll. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Für EMS musst du aus Höhenhaus rausfahren, fürs Training nicht",
+        body: "Höhenhaus ist ein Wohnveedel: 15.897 Menschen, viel Gartensiedlung, wenig Gewerbe. Wer hier eine EMS-Sitzung buchen will, fährt dafür in der Regel nach Mülheim oder in die Innenstadt, und aus den beworbenen 20 Minuten wird mit Fahrt und Umziehen schnell eine Stunde. Dieselbe Stunde kannst du komplett in Training investieren: Ich komme mit Material zu dir, und die Einheit beginnt an deiner Haustür statt an einer Studiotheke.",
+      },
+      {
+        title: "Strom ersetzt keine Bewegung, die schwerer wird",
+        body: "EMS reizt den Muskel elektrisch, während du statische Positionen hältst. Was dabei nicht passiert: Du bewegst kein steigendes Gewicht über volle Bewegungsumfänge. Kraft, die im Alltag trägt, entsteht aber genau daraus, aus Kniebeuge, Zug und Druck mit sauberer Technik und wachsender Last. Dazu kommt, was der Strom nicht lehren kann: Gleichgewicht, Koordination und das Gefühl dafür, wie viel dein Körper heute verträgt.",
+      },
+      {
+        title: "Die Gartensiedlung ist dein Trainingsraum",
+        body: "Die Siedlungshäuser mit Garten, die Höhenhaus prägen, sind für dieses Training ideal: Platz für Grundübungen mit Kurzhanteln und Band, im Sommer draußen, im Winter im Wohnzimmer. Für die Ausdauerbasis liegt der Dünnwalder Wald direkt hinter der Stadtteilgrenze, mit ebenen Wegen für feste Gehrunden oder lockere Läufe. Wer schwere Langhantel-Arbeit will, nimmt einzelne Studio-Termine dazu. Ein Abo braucht es für nichts davon.",
+      },
+      {
+        title: "Dein Fortschritt steht im Protokoll, nicht im Gefühl",
+        body: "Jede Einheit wird notiert: Übung, Gewicht, Wiederholungen, dazu alle paar Wochen ein paar Umfänge. Nach zwei Monaten vergleichen wir die Zahlen mit dem Start, und du siehst, was sich bewegt hat. Beim Stromtraining richtet sich die Intensität vor allem danach, wie stark es kribbelt, und genau deshalb bleibt der Fortschritt dort so schwer zu belegen. Messbarkeit ist kein Extra, sie ist der Grund, warum Training funktioniert.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Höhenhaus?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit und inklusive Anfahrt. Wer selbstständig trainieren will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "EMS verspricht Ergebnisse in 20 Minuten pro Woche. Was setzt du dagegen?",
+        a: "Zwei Einheiten à 45 bis 60 Minuten bei dir zu Hause, ohne Anfahrt. Rechnet man bei EMS Fahrt nach Mülheim und Umziehen dazu, ist der Zeitunterschied klein, der Unterschied im Ergebnis nach einem halben Jahr nicht.",
+      },
+      {
+        q: "Ich habe Rückenprobleme. Ist EMS da nicht schonender?",
+        a: "Schonung ist nicht das Ziel, Belastbarkeit ist es. Ein kontrolliert gesteigertes Krafttraining mit sauberer Technik baut genau die Stützmuskulatur auf, die der Rücken braucht. Bei akuten Beschwerden gehört vorher ein ärztlicher Blick dazu, dann passe ich den Plan an.",
+      },
+      {
+        q: "Kann ich mein EMS-Abo parallel weiterlaufen lassen?",
+        a: "Wenn es dir Spaß macht, spricht nichts dagegen. Die messbare Entwicklung kommt aus den Grundübungen mit steigender Last, deshalb würde ich Zeit und Budget zuerst dort einsetzen und das Abo beim nächsten Stichtag ehrlich prüfen.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
