@@ -4041,6 +4041,288 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "altstadt-nord/muskelaufbau": {
+    answer:
+      "Muskelaufbau in der Kölner Innenstadt scheitert selten am Willen, sondern am Abend: Überstunden, Termine, das Veedel voller Lokale. Deshalb verankere ich deine zwei Krafteinheiten am Morgen oder in der langen Mittagspause, nah an deinem Büro. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln Altstadt-Nord: zwei feste Krafteinheiten am Morgen oder mittags statt nach Feierabend, Eiweiß auch beim Essen auswärts. 50€/Std.",
+    sections: [
+      {
+        title: "Warum der Feierabend hier der falsche Trainingsplatz ist",
+        body: "Altstadt-Nord ist das Veedel von Hauptbahnhof, Ringbüros und Gastronomie: 18.617 Einwohner auf 2,46 km², dazu die vielen, die hier nur arbeiten. Wer seinen Muskelaufbau auf 18 Uhr legt, verliert ihn an genau diesen Kalender: ein Kundentermin, eine Einladung, ein Abend im Veedel, und die Woche hat wieder nur eine Einheit gesehen. Aufbau braucht aber Wiederholung über Monate. Also drehe ich die Logik um: deine Einheiten liegen dort, wo dir niemand etwas hineinlegt, morgens vor dem ersten Termin oder in einer verlängerten Mittagspause.",
+      },
+      {
+        title: "Zwei Einheiten, die niemand verschieben kann",
+        body: "Das Programm selbst ist unspektakulär und wirkt genau deshalb: Kniebeuge, Kreuzheben-Varianten, Drücken, Ziehen, in jeder Einheit protokolliert mit Gewicht und Wiederholungen. Gesteigert wird erst, wenn beides sauber steht. Vor der Arbeit reichen 60 Minuten inklusive Umziehen, wenn der Ablauf vorbereitet ist, und genau das ist mein Job: du kommst an, die Einheit steht, kein Suchen, kein Grübeln. Nach zwölf Wochen vergleichen wir die Protokolle, nicht den Spiegel zuerst.",
+      },
+      {
+        title: "Eiweiß, wenn du ständig auswärts isst",
+        body: "In der Innenstadt wird gegessen, wo gearbeitet wird: Kantine, Imbiss, Geschäftsessen. Die übliche Muskelaufbau-Regel, jede Mahlzeit selbst zu kochen, ist hier unrealistisch, also arbeiten wir mit dem Angebot. Du lernst, auf jeder Karte die Wahl mit 30 bis 40 Gramm Eiweiß zu finden, das Frühstück und den Abend zu Hause als sichere Bank zu setzen und den Rest gelassen zu nehmen. Für die Feinsteuerung ist Natalie da, unsere Ernährungsberaterin für Sport- und Fitnessernährung.",
+      },
+      {
+        title: "Für wen das gedacht ist",
+        body: "Für Leute, die zwischen Dom, Ring und Rhein arbeiten oder wohnen und seit Jahren sagen, dass sie eigentlich Muskeln aufbauen wollten. Alter und Einstiegsniveau sind zweitrangig, der Kalender ist das eigentliche Hindernis, und der lässt sich lösen. Im kostenlosen Erstgespräch schauen wir auf deine Woche und legen die zwei Fenster fest. Danach: 50€ pro 1-zu-1 Stunde oder Online Coaching ab 150€ im Monat, wenn du lieber mit Plan und Check-ins arbeitest.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln Altstadt-Nord?",
+        a: "50€ pro 1-zu-1 Stunde. Wer selbstständig trainieren will, nimmt das Online Coaching ab 150€ im Monat mit Plan per App und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche wirklich für Muskelaufbau?",
+        a: "Ja, wenn sie geplant sind und die Last dokumentiert steigt. Zwei konsequente Einheiten über sechs Monate schlagen vier chaotische Wochen, auf die drei Wochen Pause folgen.",
+      },
+      {
+        q: "Ich habe morgens nur 60 Minuten. Geht das?",
+        a: "Das ist genau das Format, mit dem ich in der Innenstadt arbeite. Die Einheit ist vorbereitet, aufgewärmt wird gezielt für die erste Übung, und die Protokollführung übernehme ich.",
+      },
+      {
+        q: "Muss ich dafür Mahlzeiten vorkochen?",
+        a: "Nein. Wir bauen den Eiweiß-Zielwert auf deinen Alltag mit Kantine und Restaurant. Selbst kochen hilft, ist aber keine Bedingung, sonst hält der Plan keine vier Wochen.",
+      },
+      {
+        q: "Wo trainieren wir in Altstadt-Nord?",
+        a: "Im Studio mit Langhantel und Maschinen. Draußen baut man Kondition auf, für Muskelaufbau braucht es steigende Last, und die liegt drinnen.",
+      },
+    ],
+  },
+
+  "immendorf/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Immendorf nutzt einen Vorteil, den das Dorf dir schenkt: hier gibt es keinen Snack an jeder Ecke, wer hier wohnt, kocht ohnehin selbst. Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, baut den Plan auf deine eigene Küche. Erstgespräch kostenlos, Beratung vor Ort oder per Video.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Immendorf mit Natalie: Plan auf Basis deiner eigenen Küche und deines Wocheneinkaufs, vor Ort oder per Video. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Kein Bäcker-Snack an jeder Ecke, und das ist dein Vorteil",
+        body: "Immendorf ist mit 2.121 Einwohnern eines der kleinsten Dörfer Kölns, ganz am südlichen Stadtrand. Was nach Nachteil klingt, ist für die Ernährung ein Geschenk: die spontane Currywurst, der Coffee-to-go mit Gebäck, das Mittagsangebot in der Fußgängerzone, all die kleinen Entscheidungen, die in der Innenstadt täglich gegen dich laufen, gibt es hier schlicht nicht. Gegessen wird, was zu Hause steht. Natalie setzt genau dort an: nicht bei Verboten, sondern bei dem, was du einkaufst und kochst.",
+      },
+      {
+        title: "Der Plan entsteht aus deinem Wocheneinkauf",
+        body: "Wer in Immendorf wohnt, fährt zum Einkaufen mit dem Auto und kauft für mehrere Tage. Das macht die Ernährung planbar wie kaum sonst irgendwo: was nicht im Kofferraum liegt, landet auch nicht abends auf dem Teller. Im ersten Monat schaut Natalie deshalb auf deinen Einkaufszettel statt auf Kalorientabellen. Mehr Eiweißquellen in den Wagen, die Abendroutine entschärfen, Portionen an dein Ziel anpassen, ob das Abnehmen ist oder Muskelaufbau. Du kochst weiter deine Gerichte, nur mit anderem Fundament.",
+      },
+      {
+        title: "Vor Ort im Kölner Süden oder per Video",
+        body: "Die Beratung läuft wahlweise bei dir zu Hause, kombiniert mit Training im Kölner Süden, oder komplett per Video, was für Pendler aus Immendorf oft die ehrlichere Lösung ist: kein zusätzlicher Termin mit Anfahrt, sondern 30 Minuten am Bildschirm, wenn die Küche ohnehin in Sichtweite ist. Dazwischen hält ein kurzer Check per App den Kurs. Natalie berät zu Sport- und Fitnessernährung; medizinische Ernährungstherapie, etwa bei diagnostizierten Erkrankungen, gehört in ärztliche Hände.",
+      },
+      {
+        title: "Essen und Bewegung gehören zusammen",
+        body: "Die meisten Anfragen aus dem Kölner Süden wollen beides: ein paar Kilo weniger und wieder Kraft. Deshalb arbeiten Natalie und ich im Tandem. Sie steuert die Ernährung, ich das Training, 1-zu-1 bei dir zu Hause für 50€ pro Stunde oder im Online Coaching ab 150€ im Monat. Die Felder rund um Immendorf sind flach und ruhig, zügiges Gehen dort ist der einfachste Einstieg in mehr Alltagsbewegung. Der erste Schritt ist ein kostenloses Erstgespräch über Ziel, Alltag und Küche.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Immendorf?",
+        a: "Das Erstgespräch ist kostenlos. Danach läuft die Beratung einzeln oder als Teil des Online Coachings ab 150€ im Monat, Training dazu kostet 50€ pro 1-zu-1 Stunde. Was zu deinem Ziel passt, klären wir im Erstgespräch.",
+      },
+      {
+        q: "Muss ich dafür neue Gerichte kochen lernen?",
+        a: "Nein. Natalie baut auf dem auf, was du ohnehin kochst, und verändert Zutaten, Mengen und Reihenfolge. Ein Plan aus fremden Rezepten hält erfahrungsgemäß keine drei Wochen.",
+      },
+      {
+        q: "Funktioniert die Beratung auch komplett online?",
+        a: "Ja, per Video und App-Check-ins. Gerade aus Immendorf heraus ist das oft praktischer als ein zusätzlicher Fahrtermin, die Qualität der Beratung ändert sich dadurch nicht.",
+      },
+      {
+        q: "Hilft Natalie auch beim Abnehmen?",
+        a: "Ja, Abnehmen über ein Kaloriendefizit mit genug Eiweiß ist der häufigste Auftrag. Keine Crash-Diät, sondern ein Tempo, das du neben Arbeit und Familie halten kannst.",
+      },
+      {
+        q: "Was ist, wenn ich eine Erkrankung wie Diabetes habe?",
+        a: "Dann gehört die Ernährungstherapie zuerst in ärztliche Betreuung. Natalie berät zu Sport- und Fitnessernährung und arbeitet nur im Rahmen, den dein Arzt freigibt.",
+      },
+    ],
+  },
+
+  "flittard/personal-training": {
+    answer:
+      "Personal Training in Köln-Flittard heißt bei mir: Termine, die mit deinem Schichtplan rotieren. Das Veedel liegt direkt an der Stadtgrenze zum Chempark Leverkusen, Früh-, Spät- und Nachtschicht sind hier Alltag. Trainiert wird bei dir zu Hause oder am Rheinufer Flittard, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Flittard: 1-zu-1 Termine, die mit deinem Schichtplan rotieren, Training zu Hause oder am Rheinufer Flittard. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Veedel an der Werksgrenze",
+        body: "Flittard ist der nördlichste rechtsrheinische Stadtteil Kölns, 8.133 Einwohner auf 7,7 km², und endet dort, wo der Chempark Leverkusen beginnt. Viele, die hier wohnen, arbeiten in Wechselschicht, im Werk oder drumherum, und genau daran scheitern die üblichen Fitnessangebote: ein fester Kurs am Dienstagabend nützt nichts, wenn du jede dritte Woche nachts arbeitest. Mein Kalender funktioniert anders. Wenn dein Schichtplan kommt, lege ich deine zwei Einheiten hinein, mal vormittags nach der Nacht ausgeschlafen, mal am frühen Nachmittag vor der Spätschicht.",
+      },
+      {
+        title: "Dein Wohnzimmer ist das Studio, der Rhein die Strecke",
+        body: "Ich bringe mit, was wir brauchen: Kurzhanteln, Bänder, bei Bedarf eine Klappbank. Für die Kraftarbeit reichen vier Quadratmeter im Wohnzimmer oder der Garage, und wer später an die Langhantel will, wechselt mit mir ins Studio. Für Ausdauer und Technik hat Flittard das Rheinufer direkt vor der Tür: flach, ruhig und lang genug für Geh-Intervalle und Läufe, ohne eine einzige Ampel. Im Winter und nach Nachtschichten bleibt alles drinnen planbar.",
+      },
+      {
+        title: "Training, das Schichtarbeit ernst nimmt",
+        body: "Wechselschicht verschiebt Schlaf und Appetit, das ignoriere ich nicht, sondern plane damit. Nach einer Nachtschichtwoche steht keine Rekordeinheit an, sondern Technik und moderate Last; in Frühschichtwochen, wenn der Nachmittag frei ist, wird progressiv gesteigert. Jede Einheit wird protokolliert, alle vier bis sechs Wochen vergleichen wir Kraftwerte. So entsteht Fortschritt trotz Rotation, nur eben in Wellen statt in einer geraden Linie, und genau das ist bei Schichtarbeit normal.",
+      },
+      {
+        title: "Der erste Schritt",
+        body: "Das Erstgespräch ist kostenlos und klärt Ziel, Schichtmodell und Trainingsort. Danach kostet die 1-zu-1 Stunde 50€; wer zwischen den Treffen selbstständig weitermachen will, ergänzt das Online Coaching ab 150€ im Monat mit Plan per App. Auch Stammheim und Dünnwald nebenan gehören zu meinem Gebiet, die Anfahrt innerhalb des Kölner Nordostens ist im Preis drin.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Flittard?",
+        a: "50€ pro 1-zu-1 Stunde, inklusive Anfahrt und Material. Das Erstgespräch ist kostenlos, Online Coaching als Ergänzung gibt es ab 150€ im Monat.",
+      },
+      {
+        q: "Ich arbeite Wechselschicht. Wie planen wir Termine?",
+        a: "Nach deinem Schichtplan: sobald er steht, lege ich die zwei Einheiten der Woche hinein. Die Uhrzeit darf jede Woche anders sein, nur die Zahl der Einheiten bleibt fest.",
+      },
+      {
+        q: "Trainieren wir bei mir zu Hause oder draußen?",
+        a: "Beides ist möglich. Kraft meist zu Hause oder im Studio, Ausdauer und Lauftechnik am Rheinufer Flittard. Den Mix legen wir nach Ziel und Jahreszeit fest.",
+      },
+      {
+        q: "Bin ich nach Nachtschichten überhaupt trainierbar?",
+        a: "Ja, mit angepasster Last. Nach Nachtwochen trainieren wir moderater, in Frühschichtwochen steigern wir. Das Protokoll sorgt dafür, dass es über Monate trotzdem vorwärtsgeht.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Kraftwerte bewegen sich meist nach vier bis sechs Wochen messbar, sichtbare Veränderung braucht je nach Ziel zwei bis drei Monate. Versprochen wird nur, was das Protokoll zeigt.",
+      },
+    ],
+  },
+
+  "dellbrueck/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Dellbrück ist für den Alltag gebaut, in dem der Abend der Familie gehört: dein Plan besteht aus Bausteinen von 30 bis 45 Minuten, früh morgens oder spät abends zu Hause, plus Läufen in der Dellbrücker Heide. Ab 150€ im Monat, Erstgespräch kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Dellbrück: Trainingsbausteine von 30-45 Minuten für Eltern, deren Abend der Familie gehört, Läufe in Heide und Thielenbruch. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Wenn der Abend nicht dir gehört",
+        body: "Dellbrück ist ein Familien-Veedel: 21.954 Einwohner, viele Häuser mit Garten, Vereine, Kinder. Das klassische Trainingsmodell, dreimal pro Woche um 19 Uhr ins Studio, verliert hier gegen Abendessen, Hausaufgaben und Zubettbringen, und zwar dauerhaft. Mein Online Coaching plant deshalb nicht gegen deine Familie, sondern um sie herum: die Einheiten sind 30 bis 45 Minuten kurz, brauchen kein Studio und liegen in den Fenstern, die dir wirklich gehören, meist vor dem Frühstück oder nachdem die Kinder schlafen.",
+      },
+      {
+        title: "Bausteine statt Termine",
+        body: "Du bekommst per App einen Wochenplan aus Bausteinen: zwei Krafteinheiten für Wohnzimmer, Keller oder Garten mit Kurzhanteln und Band, dazu ein Lauf- oder Gehbaustein. Fällt ein Fenster aus, weil ein Kind krank ist, verschiebst du den Baustein, statt die Woche abzuschreiben, der Plan rechnet mit Störungen. Jede erledigte Einheit landet mit Gewichten und Zeiten in der App, und einmal pro Woche schauen wir im Video-Check-in gemeinsam drauf: was lief, was nicht, was ändere ich.",
+      },
+      {
+        title: "Heide und Thielenbruch sind dein Ausdauerteil",
+        body: "Für die Laufbausteine hat Dellbrück zwei Gelände, um die dich halb Köln beneidet: die offene Dellbrücker Heide mit ihren Sandwegen und den Thielenbruch mit schattigen Waldwegen für den Sommer. Beide erreichst du aus dem Veedel zu Fuß oder mit dem Rad, die Anfahrtszeit, die sonst das Training frisst, fällt weg. Im Plan stehen konkrete Strecken und Zeiten, keine vagen Vorsätze, und wer lieber zügig geht statt läuft, startet genau damit.",
+      },
+      {
+        title: "Online, aber nicht anonym",
+        body: "Online Coaching heißt bei mir nicht Plan-PDF und Funkstille. Du schreibst mir in der App, wenn etwas zwickt oder nicht passt, und ich antworte, bevor sich Fehler einschleifen. Technik prüfe ich über kurze Videos deiner Übungen. Und weil Dellbrück in meinem Gebiet liegt, lässt sich jederzeit eine 1-zu-1 Stunde vor Ort für 50€ dazubuchen, etwa zum Start oder wenn eine Übung per Video nicht rund wird. Der Einstieg ist ein kostenloses Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Dellbrück?",
+        a: "Ab 150€ im Monat: Wochenplan per App, wöchentlicher Video-Check-in, Technik-Feedback über Übungsvideos. Einzelne 1-zu-1 Stunden vor Ort kosten 50€ dazu, das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Reichen 30 bis 45 Minuten pro Einheit für echte Fortschritte?",
+        a: "Ja, wenn die Einheit dicht geplant ist: wenige Übungen, sauber gesteigert, ohne Leerlauf. Drei solche Bausteine pro Woche schlagen jede gute Absicht von dreimal 90 Minuten, die nie stattfinden.",
+      },
+      {
+        q: "Welche Ausrüstung brauche ich zu Hause?",
+        a: "Für den Start reichen zwei Kurzhanteln und ein Widerstandsband, zusammen unter 100€. Was sinnvoll dazukommt, besprechen wir erst, wenn der Plan es wirklich braucht.",
+      },
+      {
+        q: "Was passiert, wenn eine Woche komplett ausfällt?",
+        a: "Dann passt der nächste Wochenplan die Last an, statt bei null anzufangen. Der Check-in bleibt auch in solchen Wochen, gerade dann entscheidet sich, ob das Training Bestand hat.",
+      },
+      {
+        q: "Ich laufe schon in der Heide. Was bringt mir das Coaching zusätzlich?",
+        a: "Struktur und Kraft: die meisten Dellbrücker Läufer trainieren Ausdauer im Überfluss und Kraft gar nicht. Zwei kurze Krafteinheiten machen dich stabiler und nehmen den Läufen nichts weg.",
+      },
+    ],
+  },
+
+  "duennwald/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Dünnwald löst das eigentliche Problem des Veedels: Im Stadtteil selbst gibt es kein großes Fitnessstudio, die Anfahrt frisst den Vorsatz auf. Stattdessen werden Dünnwalder Wald, Höhenfelder See und dein Wohnzimmer zum Trainingsgelände, gesteuert per App. Ab 150€ im Monat, Erstgespräch kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Dünnwald: Wald und Höhenfelder See als Trainingsgelände, Kraft zu Hause, Plan und Check-ins per App statt Anfahrt. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Am Stadtrand wohnt man grün, aber weit weg vom Studio",
+        body: "Dünnwald liegt am nordöstlichen Rand von Köln: 11.662 Einwohner auf 10,84 km², ein großer Teil davon Wald. Wer hier wohnt, hat sich bewusst für Ruhe entschieden und gegen kurze Wege, und das spürt jeder Trainingsvorsatz: zum nächsten großen Studio fährt man durchs halbe Rechtsrheinische, hin und zurück kostet das mehr Zeit als das Training selbst. Mein Online Coaching dreht das um: nicht du fährst zum Training, das Training kommt dorthin, wo du ohnehin bist.",
+      },
+      {
+        title: "Der Wald ersetzt das Cardiogerät",
+        body: "Kaum ein Kölner Veedel hat ein besseres Ausdauergelände direkt vor der Tür. Der Dünnwalder Wald bietet kilometerlange, weiche Wege für Läufe und Geh-Intervalle, am Wildpark vorbei Richtung Höhenfelder See wird daraus eine Runde mit Wasser und Abwechslung. In deinem Wochenplan stehen diese Strecken konkret drin, mit Dauer und Tempoangabe, im Sommer schattig im Wald, im Winter auf den offeneren Wegen am See. Ein Laufband wirst du nicht vermissen.",
+      },
+      {
+        title: "Kraft kommt aus dem Wohnzimmer",
+        body: "Ausdauer allein macht nicht belastbar, deshalb enthält jeder Wochenplan zwei Krafteinheiten für zu Hause: Kurzhanteln, Widerstandsband, das eigene Körpergewicht, mehr braucht der Anfang nicht. Jede Übung steht mit Video im Plan, deine Sätze und Gewichte trägst du in die App ein, und über kurze Clips prüfe ich deine Technik, bevor sich Fehler festsetzen. Wenn nach einigen Monaten mehr Last sinnvoll wird, besprechen wir, was sich für Keller oder Garage lohnt, nicht vorher.",
+      },
+      {
+        title: "Was das Coaching konkret enthält",
+        body: "Ab 150€ im Monat bekommst du den Wochenplan per App, einen festen Video-Check-in pro Woche und zwischendurch kurze Antworten, wenn etwas hakt. Alle vier bis sechs Wochen werten wir Kraftwerte und Laufzeiten aus und stellen den Plan neu. Wer zum Start lieber einmal gemeinsam trainiert, bucht eine 1-zu-1 Stunde für 50€ dazu, Dünnwald gehört zu meinem Gebiet im Kölner Nordosten. Der erste Schritt ist ein kostenloses Erstgespräch über Ziel und Woche.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Dünnwald?",
+        a: "Ab 150€ im Monat mit Wochenplan per App, Video-Check-in und Technik-Feedback. Eine 1-zu-1 Stunde vor Ort kostet 50€, das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe noch nie strukturiert trainiert. Ist Online Coaching dann das Richtige?",
+        a: "Ja, wenn der Einstieg begleitet ist: jede Übung hat ein Video, deine ersten Einheiten prüfe ich über kurze Clips, und zum Start lässt sich eine gemeinsame Stunde vor Ort dazunehmen.",
+      },
+      {
+        q: "Funktioniert das Training auch im Winter?",
+        a: "Ja. Die Kraftbausteine liegen ohnehin drinnen, und für draußen bekommst du Strecken und Zeiten, die zur Jahreszeit passen. Zügiges Gehen im Wald zählt als vollwertige Einheit, nicht als Ersatz.",
+      },
+      {
+        q: "Wie unterscheidet sich das von einer Fitness-App von der Stange?",
+        a: "Eine App von der Stange kennt weder deine Woche noch deine Technik. Hier schreibt ein Mensch deinen Plan, schaut deine Videos an und ändert den Kurs, wenn dein Alltag sich ändert.",
+      },
+      {
+        q: "Muss ich laufen können, um zu starten?",
+        a: "Nein. Viele starten mit Geh-Intervallen im Dünnwalder Wald und steigern erst nach Wochen in Laufabschnitte. Das Tempo setzt dein aktueller Stand, nicht der Plan.",
+      },
+    ],
+  },
+
+  "bayenthal/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Bayenthal nutzt zwei Geländeteile, die das Veedel direkt am Rhein hat: die lange, flache Gerade des Rheinufers Richtung Süden für Tempoläufe und die Rampen an der Südbrücke für Steigungssprints und Schnellkraft. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Bayenthal: Tempoläufe auf der flachen Rheinufer-Geraden, Steigungssprints an der Südbrücke, Fortschritt in Messwerten. 50€/Std.",
+    sections: [
+      {
+        title: "Klein, dicht, und alles in fünf Minuten erreichbar",
+        body: "Bayenthal ist mit 1,28 km² eines der kompaktesten Veedel im Kölner Süden, 11.161 Menschen wohnen hier. Für Athletiktraining ist diese Enge ein Vorteil: vom größten Teil des Veedels stehst du in wenigen Gehminuten am Rhein, und damit auf dem Trainingsgelände. Keine Anfahrt, kein Umziehen in der Umkleide, die Einheit beginnt an deiner Haustür mit dem Warm-up auf dem Weg zum Wasser und endet dort auch wieder. Sechzig Minuten reichen für ein komplettes Programm.",
+      },
+      {
+        title: "Die Gerade nach Süden ist deine Messstrecke",
+        body: "Vom Bayenthaler Ufer zieht sich der Rheinweg flach und ohne Querstraßen nach Süden Richtung Marienburg. Genau solche Abschnitte braucht Tempoarbeit: gleiche Strecke, gleiche Bedingungen, jede Woche. Wir markieren feste Abschnitte, laufen sie in Intervallen und notieren die Zeiten. Nach sechs Wochen vergleichst du nicht dein Gefühl, sondern Zahlen bei gleichem Puls. Wind vom Rhein gibt es gratis dazu, und auch das nutzen wir: mal als Widerstand, mal als Rückenwind für Überschall-Gefühl an schweren Tagen.",
+      },
+      {
+        title: "Die Südbrücke liefert die Steigung, die dem Süden fehlt",
+        body: "Das linksrheinische Köln ist flach, Sprungkraft und Beschleunigung brauchen aber Widerstand. In Bayenthal lösen das die Auffahrtsrampen der Südbrücke: kurz, knackig und steil genug für Steigungssprints über sechs bis zehn Sekunden, mit vollständiger Pause zurück im Gehen. Dazu kommen Sprünge und Stabilitätsarbeit auf den Wiesen am Ufer. Die Langhantel-Kraft bleibt im Studio, aber Schnelligkeit, Sprungkraft und Rumpf entstehen hier draußen, zehn Gehminuten von deiner Wohnung.",
+      },
+      {
+        title: "Für Vereinssportler und Wiedereinsteiger",
+        body: "Typische Anfragen aus dem Kölner Süden: Fußballer und Tennisspieler, die in ihrem Sport explosiver werden wollen, Läufer mit Zielzeit und Berufstätige, die nach Jahren Büro wieder belastbar werden möchten. Der Einstieg ist immer gleich: ein kostenloses Erstgespräch, dann ein Technik-Check mit Sprint, Sprung und Rumpftest, der das Startniveau festlegt. Danach kostet die 1-zu-1 Stunde 50€, alternativ läuft die Steuerung über das Online Coaching ab 150€ im Monat mit Plan per App.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Bayenthal?",
+        a: "50€ pro 1-zu-1 Stunde, das Erstgespräch ist kostenlos. Wer nach dem Startblock eigenständig weitertrainiert, nimmt das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Wo genau trainieren wir in Bayenthal?",
+        a: "Tempoläufe und Intervalle auf der flachen Rheinufer-Geraden Richtung Marienburg, Steigungssprints an den Rampen der Südbrücke, Sprünge und Rumpfarbeit auf den Uferwiesen. Kraft an der Langhantel läuft im Studio.",
+      },
+      {
+        q: "Bin ich für Athletiktraining fit genug?",
+        a: "Das Startniveau legt der Technik-Check fest, nicht ein Mindestmaß an Fitness. Steigungssprints lassen sich genauso als zügige Bergaufgänge dosieren, der Aufbau bleibt derselbe.",
+      },
+      {
+        q: "Trainieren wir auch im Winter draußen?",
+        a: "Ja, das Programm ist ganzjährig angelegt: kürzere Intervalle, längeres Warm-up, bei Glätte weicht die Einheit ins Studio aus. Ausfallen lassen wir Wochen deswegen nicht.",
+      },
+      {
+        q: "Wie schnell werde ich messbar schneller?",
+        a: "Bei zwei Einheiten pro Woche bewegen sich Sprintzeiten und Sprunghöhe meist nach vier bis sechs Wochen. Gemessen wird auf denselben Uferabschnitten, damit die Zahlen vergleichbar bleiben.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
