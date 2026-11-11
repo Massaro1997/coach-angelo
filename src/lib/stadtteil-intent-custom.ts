@@ -4323,6 +4323,139 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "kalk/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Kalk nutzt den Bürgerpark als Trainingsfeld: kurze Antritte, Richtungswechsel und Sprungserien auf kompaktem Raum, die Kraftarbeit läuft im Studio. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Kalk: Antritte, Richtungswechsel und Sprungkraft im Bürgerpark Kalk, Kraft im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Athletik braucht keine 400-Meter-Bahn",
+        body: "Kalk ist dicht bebaut: knapp 25.000 Menschen auf 2,97 km², dazwischen wenig freie Fläche. Für Athletiktraining ist das kein Hindernis, denn die Fähigkeiten, die im Sport und im Alltag zählen, entstehen auf kurzer Strecke: Antritte über 10 bis 30 Meter, Stopps, Richtungswechsel, Sprünge. Genau dafür reicht der Bürgerpark Kalk, der auf dem Gelände der früheren Chemischen Fabrik entstanden ist. Ein Rasenstück von 40 Metern ist hier mehr wert als eine Tartanbahn am anderen Ende der Stadt, zu der du nie fährst.",
+      },
+      {
+        title: "Schnelligkeit draußen, Kraft drinnen",
+        body: "Die Einheiten im Park bauen Antritt, Fußarbeit und Sprungkraft auf: Skippings, Steigerungsläufe, Sprungserien, dazwischen Rumpfarbeit. Hürden, Markierungen und Widerstandsband bringe ich mit. Was draußen nicht geht, schwere Kniebeugen und Zugübungen an der Langhantel, läuft im Studio als zweite Einheit der Woche. Beide Teile folgen demselben Plan, und alle vier bis sechs Wochen messe ich Sprintzeit und Sprunghöhe nach, auf derselben Strecke, damit die Zahlen vergleichbar sind.",
+      },
+      {
+        title: "Termine, die zu Kalker Arbeitszeiten passen",
+        body: "Wer in Kalk wohnt, arbeitet oft im Handel rund um die Kalker Hauptstraße, in der Pflege oder im Schichtbetrieb, und selten im Neun-bis-fünf-Takt. Deshalb lege ich Einheiten auch auf den Vormittag oder den frühen Nachmittag, wenn der Park leer ist und dein Dienstplan ein Loch hat. Zwei feste Stunden pro Woche reichen, wenn sie geplant sind; kurze Hausaufgaben für die Tage dazwischen bekommst du dazu.",
+      },
+      {
+        title: "Für wen das in Kalk gedacht ist",
+        body: "Für Fußballer und Kampfsportler aus den Vereinen des Kölner Ostens, die explosiver werden wollen. Für Läufer, denen auf den letzten Kilometern die Spannung wegbricht. Und für alle, die nach Jahren Pause wieder einsteigen und erst Stabilität brauchen, bevor Tempo dazukommt. Das Startniveau legt ein Technik-Check im kostenlosen Erstgespräch fest, nicht dein aktueller Fitnessstand.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Kalk?",
+        a: "50€ pro 1-zu-1 Stunde. Wer nach dem Start eigenständig weitertrainieren will, wechselt ins Online Coaching ab 150€ im Monat, mit Plan per App und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo trainieren wir in Kalk?",
+        a: "Antritte, Richtungswechsel und Sprünge im Bürgerpark Kalk, die Kraftarbeit an der Langhantel im Studio. Material für die Outdoor-Einheiten bringe ich mit.",
+      },
+      {
+        q: "Reicht der Bürgerpark für richtiges Athletiktraining?",
+        a: "Ja. Antritt, Beschleunigung und Richtungswechsel spielen sich auf 10 bis 40 Metern ab, mehr Fläche braucht kaum eine Übung. Nur lange Tempoläufe verlegen wir bei Bedarf an den Rhein, eine Station entfernt.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Ist das zu hart?",
+        a: "Nein. Der Technik-Check am Anfang legt fest, womit wir starten: aus Sprüngen werden erst Aufstiege, aus Sprints zügige Steigerungen. Die Struktur bleibt gleich, die Dosierung wächst mit dir.",
+      },
+    ],
+  },
+
+  "libur/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Libur, dem südlichsten Stadtteil der Stadt: Tempoläufe und Intervalle auf den Wirtschaftswegen rund ums Dorf, Sprung- und Rumpfarbeit auf der Wiese, Kraft im Studio oder mit mitgebrachtem Material bei dir. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Libur: Tempoläufe auf den Feldwegen rund ums Dorf, feste Messstrecken, Kraft im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ganz im Süden, ganz viel Platz",
+        body: "Libur ist der südlichste Stadtteil Kölns: 1.145 Einwohner auf 6,35 km², der Rest sind Felder. Die asphaltierten Wirtschaftswege zwischen den Äckern sind flach, gerade und fast autofrei, du kannst Intervalle laufen, ohne an einer Ampel abzubrechen oder Fußgängern auszuweichen. Aus den Wegen rund ums Dorf lassen sich Runden von einem bis mehreren Kilometern bauen, und weil die Strecken immer gleich bleiben, taugen sie als Messstrecke: gleicher Weg, gleiche Distanz, vergleichbare Zeit.",
+      },
+      {
+        title: "Der Wind läuft mit",
+        body: "Zwischen den Feldern gibt es keinen Windschatten. Was beim Sonntagslauf nervt, ist im Athletiktraining ein Werkzeug: Tempoabschnitte gegen den Wind bauen Kraftausdauer auf, die Abschnitte mit Rückenwind nutzen wir für Frequenz und Lauftechnik. Ich plane die Richtung der Intervalle nach dem Wetter, so wird aus derselben Runde jede Woche ein anderer Reiz.",
+      },
+      {
+        title: "Kraft und Sprungkraft: im Studio oder im Dorf",
+        body: "Maximalkraft an der Langhantel läuft im Studio, als zweite Einheit der Woche. Wer die Fahrt sparen will, trainiert zu Hause: für Sprungserien, Ausfallschritte und Zugübungen mit Band und Kurzhanteln reichen Garten oder Einfahrt, das Material bringe ich mit. Alle vier bis sechs Wochen stehen Tests an, Sprintzeit und Sprunghöhe, damit der Plan an Zahlen hängt und nicht am Gefühl.",
+      },
+      {
+        title: "Wer hier trainiert",
+        body: "Aus Libur und den Nachbardörfern Zündorf und Langel fragen vor allem Vereinssportler an, Fußball und Tennis, dazu Läufer, die für einen Zehner oder Halbmarathon eine Zielzeit haben. Die Anfahrt ins nächste Studio kostet von hier schnell eine halbe Stunde pro Richtung; zwei geführte Einheiten pro Woche vor Ort ersetzen sie. Der Einstieg ist ein kostenloses Erstgespräch mit Technik-Check.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Libur?",
+        a: "50€ pro 1-zu-1 Stunde, das Erstgespräch ist kostenlos. Für die eigenständige Variante gibt es das Online Coaching ab 150€ im Monat, mit Plan per App und Video-Check-ins.",
+      },
+      {
+        q: "Wo genau trainieren wir in Libur?",
+        a: "Tempoläufe und Intervalle auf den Wirtschaftswegen rund ums Dorf, Sprünge und Rumpfarbeit auf der Wiese oder bei dir im Garten, schwere Kraftarbeit im Studio. Hürden, Bänder und Kurzhanteln bringe ich mit.",
+      },
+      {
+        q: "Lohnt sich ein Trainer für ein Dorf wie Libur überhaupt?",
+        a: "Gerade hier: das nächste Studio liegt weit weg, und die Bedingungen vor Ort sind besser als in der Innenstadt. Flache, leere, immer gleiche Strecken sind genau das, was strukturiertes Lauftraining braucht.",
+      },
+      {
+        q: "Trainieren wir auch bei schlechtem Wetter?",
+        a: "Ja. Regen verschiebt nur die Inhalte: statt Tempoläufen stehen dann Kraft, Sprungtechnik oder Mobility unter Dach an. Der Wochenrhythmus von zwei Einheiten bleibt stehen.",
+      },
+    ],
+  },
+
+  "lind/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Lind funktioniert ohne Studio-Anfahrt: verstellbare Kurzhanteln, eine Bank und ein Band reichen für drei Monate dokumentierte Steigerung, ich komme dafür zu dir. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Lind: Training zu Hause mit wenig Gerät, dokumentierte Steigerung, Eiweiß-Zielwert. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Gerät ist nicht der Engpass",
+        body: "Von Lind aus kostet jedes Studio eine Fahrt, und genau daran sterben die meisten Aufbau-Pläne: nicht an der Übungsauswahl, sondern an der dritten Woche, in der die Fahrt zu oft ausfällt. Muskelaufbau braucht aber keinen Gerätepark. Er braucht Übungen, die schwerer werden können, und ein Protokoll, das das belegt. Mit verstellbaren Kurzhanteln bis 24 kg, einer Bank und einem Widerstandsband deckst du Beine, Rücken, Brust und Schultern ab, in deinem Keller, deiner Garage oder deinem Wohnzimmer.",
+      },
+      {
+        title: "Progression wird geplant, nicht gehofft",
+        body: "Jede Einheit steht im Protokoll: Übung, Gewicht, Wiederholungen. Gesteigert wird nach Plan, erst Wiederholungen, dann Gewicht, und wenn die Kurzhanteln für Kniebeugen und Rumänisches Kreuzheben zu leicht werden, wechseln die Übungen auf einbeinige Varianten, bevor neues Gerät nötig wird. Zwei geführte Einheiten pro Woche à 60 Minuten reichen; mehr Volumen bringt am Anfang nichts außer Muskelkater.",
+      },
+      {
+        title: "Essen im Dorf: der Eiweiß-Anker",
+        body: "Ohne Baumaterial wächst nichts: als Richtwert 1,6 bis 2 Gramm Eiweiß pro Kilo Körpergewicht am Tag, verteilt auf drei bis vier Mahlzeiten. In Lind wird meist zu Hause gekocht, das macht es leichter als in der Innenstadt, du brauchst nur einen Wochenvorrat, der den Zielwert trägt: Quark, Eier, Hülsenfrüchte, Fleisch oder Fisch nach Geschmack. Wenn du mehr Steuerung willst, baut Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, den Plan um deinen Einkauf herum.",
+      },
+      {
+        title: "Was nach drei Monaten da ist",
+        body: "Realistisch bei zwei Einheiten pro Woche: deutlich mehr Kraft in den Grundmustern, sichtbar mehr Spannung in Schultern, Rücken und Beinen, ein bis zwei Kilo Muskelmasse, je nach Ausgangslage und Alter. Was ich nicht verspreche: einen anderen Körper in vier Wochen. Die Zahlen im Protokoll zeigen dir vor dem Spiegel, dass es funktioniert. Der Einstieg ist ein kostenloses Erstgespräch bei dir vor Ort.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Lind?",
+        a: "50€ pro 1-zu-1 Stunde bei dir zu Hause. Wer nach den ersten Wochen eigenständig trainiert, wechselt ins Online Coaching ab 150€ im Monat mit Plan per App und wöchentlichem Check-in.",
+      },
+      {
+        q: "Brauche ich eigenes Equipment?",
+        a: "Für den Start nicht, ich bringe Kurzhanteln und Bänder mit. Wer dauerhaft zu Hause aufbauen will, investiert einmal in verstellbare Kurzhanteln und eine Bank, zusammen deutlich weniger als ein Jahr Studiobeitrag plus Fahrten.",
+      },
+      {
+        q: "Geht Muskelaufbau ohne Langhantel wirklich?",
+        a: "Ja, bis weit über das Anfängerniveau hinaus. Entscheidend ist, dass die Belastung planmäßig steigt, nicht womit. Einbeinige Kniebeugen mit 20-kg-Kurzhanteln sind für die meisten schwerer als eine halbvolle Langhantel.",
+      },
+      {
+        q: "Ich bin über 40, lohnt sich das noch?",
+        a: "Gerade dann. Der Aufbau läuft etwas langsamer, aber zuverlässig, und die Kraft hält, was im Alltag zählt. Viele Anfragen aus dem Kölner Süden kommen aus genau dieser Altersgruppe.",
+      },
+      {
+        q: "Hilft die Wahner Heide beim Muskelaufbau?",
+        a: "Als Ausgleich ja, als Baustein nein. Spazieren und Laufen halten dich beweglich und erholt, Muskeln baust du mit ansteigender Last auf. Die Heide ist bei uns Regenerationsfläche, nicht Trainingsgerät.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
