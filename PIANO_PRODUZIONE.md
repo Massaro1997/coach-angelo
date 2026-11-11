@@ -101,12 +101,12 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 93 | /koeln/dellbrueck/online-coaching | 0 | 7 | 21,9 | FATTA (giro 27, 11/11) |
 | 94 | /koeln/duennwald/online-coaching | 0 | 7 | 37,1 | FATTA (giro 27, 11/11) |
 | 95 | /koeln/bayenthal/athletiktraining | 0 | 7 | 59,9 | FATTA (giro 27, 11/11) |
-| 96 | /koeln/kalk/athletiktraining | 0 | 7 | 64,7 | in coda |
-| 97 | /koeln/libur/athletiktraining | 0 | 7 | 60,1 | in coda |
-| 98 | /koeln/lind/muskelaufbau | 0 | 7 | 27,3 | in coda |
-| 99 | /koeln/muelheim/athletiktraining | 0 | 7 | 42,4 | in coda |
-| 100 | /koeln/weiden/personal-training | 0 | 7 | 38,1 | in coda |
-| 101 | /koeln/weidenpesch/rueckentraining | 0 | 7 | 8,6 | in coda (pos buona: rafforzare) |
+| 96 | /koeln/kalk/athletiktraining | 0 | 7 | 64,7 | FATTA (giro 28, 11/11) |
+| 97 | /koeln/libur/athletiktraining | 0 | 7 | 60,1 | FATTA (giro 28, 11/11) |
+| 98 | /koeln/lind/muskelaufbau | 0 | 7 | 27,3 | FATTA (giro 28, 11/11) |
+| 99 | /koeln/muelheim/athletiktraining | 0 | 7 | 42,4 | FATTA (giro 28, 11/11) |
+| 100 | /koeln/weiden/personal-training | 0 | 7 | 38,1 | FATTA (giro 28, 11/11) |
+| 101 | /koeln/weidenpesch/rueckentraining | 0 | 7 | 8,6 | FATTA (giro 28, 11/11; pos buona, rafforzata) |
 | 102 | /koeln/zollstock/athletiktraining | 0 | 7 | 65,1 | in coda |
 | 103 | /koeln/nippes/online-coaching | 1 | 7 | 6,6 | in coda (1 click pos 6,6: rafforzare con molta prudenza) |
 | 104 | /koeln/esch-auweiler/abnehmen | 0 | 7 | 10,3 | in coda (pos buona: rafforzare) |
