@@ -5193,6 +5193,135 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "vogelsang/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Vogelsang braucht kein Studio an jeder Ecke: zwei geführte Krafteinheiten pro Woche mit Langhantel und Trainingsprotokoll, bei dir zu Hause oder im Studio, dazu ein Eiweißziel für den Alltag. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Vogelsang: 2 Krafteinheiten pro Woche mit Protokoll, zu Hause oder im Studio, Eiweißziel inklusive. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Wohnveedel ohne Fitnessmeile",
+        body: "Vogelsang ist mit 8.336 Einwohnern auf 3,64 km² fast reines Wohngebiet zwischen Bickendorf, Bocklemünd und Müngersdorf. Eine Studiomeile wie an der Venloer Straße gibt es hier nicht, und genau daran scheitern viele Muskelaufbau-Vorsätze: erst die Fahrt, dann das volle Studio, nach drei Wochen bleibt man zu Hause. Mein Ansatz dreht das um. Entweder ich komme mit dem nötigen Equipment zu dir nach Vogelsang, oder wir trainieren gemeinsam im Studio, dann aber mit festem Termin, der nicht verhandelbar ist.",
+      },
+      {
+        title: "Wenige Übungen, die sich lohnen müssen",
+        body: "Muskeln wachsen nicht durch Abwechslung, sondern durch Wiederholung mit steigender Last. Dein Plan besteht deshalb aus einer Handvoll Übungen: eine Kniebeuge-Variante, eine Hüftstreckung, Drücken und Ziehen in zwei Richtungen. Jede Einheit steht im Protokoll mit Gewicht und Wiederholungen, und die nächste Einheit baut darauf auf. Nach acht Wochen liest du den Fortschritt in Zahlen ab, nicht im Spiegelgefühl.",
+      },
+      {
+        title: "Gewachsen wird zwischen den Einheiten",
+        body: "Zwei Krafteinheiten pro Woche reichen für kontinuierlichen Aufbau, wenn die Tage dazwischen stimmen: genug Schlaf, genug Eiweiß, leichte Bewegung statt Komplettpause. Als Richtwert bekommst du ein Eiweißziel pro Tag und ein paar einfache Wege, es ohne Kochmarathon zu erreichen. Mehr Regeln braucht es am Anfang nicht, und alles Weitere besprechen wir, wenn die Grundlagen sitzen.",
+      },
+      {
+        title: "Wer aus Vogelsang anfragt",
+        body: "Die typische Anfrage aus Vogelsang kommt nicht von Bodybuildern, sondern von Leuten zwischen 30 und 55, die merken, dass Kraft und Form nachlassen: nach Jahren ohne Sport, nach einer Verletzungspause, oder weil der Hausarzt zu Krafttraining geraten hat. Der Einstieg ist immer gleich: kostenloses Erstgespräch, Technik-Check, dann ein Plan, der zu deinem Kalender passt und nicht umgekehrt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Vogelsang?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€. Wer selbstständig trainiert und nur Plan und Kontrolle will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch kostet in beiden Fällen nichts.",
+      },
+      {
+        q: "Kann ich in Vogelsang zu Hause Muskeln aufbauen?",
+        a: "Ja. Für die ersten Monate reichen Kurzhanteln, Langhantel und das eigene Körpergewicht, das Equipment bringe ich mit. Wer später schwerer trainieren will, wechselt für einzelne Einheiten ins Studio.",
+      },
+      {
+        q: "Wie lange dauert es, bis man Muskeln sieht?",
+        a: "Kraftwerte steigen ab den ersten Wochen messbar. Sichtbare Veränderungen brauchen je nach Ausgangspunkt zwei bis vier Monate konsequentes Training. Wer anderes verspricht, verkauft etwas.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche wirklich?",
+        a: "Für die meisten Berufstätigen ja, wenn beide Einheiten geplant sind und die Last regelmäßig steigt. Drei Einheiten bringen mehr, aber nur, wenn sie dauerhaft in deine Woche passen.",
+      },
+    ],
+  },
+
+  "vogelsang/personal-training": {
+    answer:
+      "Personal Training in Köln-Vogelsang heißt: das Training kommt zu dir, nach Hause, an den Rand des Äußeren Grüngürtels oder ins Studio, mit einem Plan, der an deinem Kalender gemessen wird. Die Stunde kostet 50€, das Erstgespräch mit Bewegungs-Check ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Vogelsang: 1-zu-1 Training zu Hause, draußen oder im Studio, Plan mit messbaren Zielen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Veedel, aus dem man für alles rausfährt",
+        body: "Vogelsang liegt am Westrand des Bezirks Ehrenfeld: ruhig, grün, gut zum Wohnen, aber für Einkäufe, Ausgehen und eben auch fürs Fitnessstudio fahren die meisten der 8.336 Einwohner raus aus dem Veedel. Beim Training lässt sich genau diese Fahrt streichen: ich komme zu dir, und die Stunde beginnt an deiner Haustür statt auf dem Parkplatz eines Studios. Bei zwei Einheiten pro Woche spart das schnell zwei Stunden Wegezeit, und gestrichene Wegezeit ist der Hauptgrund, warum Leute dranbleiben.",
+      },
+      {
+        title: "Erst der Check, dann der Plan",
+        body: "Jede Zusammenarbeit beginnt mit dem kostenlosen Erstgespräch samt Bewegungs-Check: Wie bewegst du dich, was sagt die Vorgeschichte, was ist das Ziel in einem Satz. Daraus entsteht ein Plan mit Zahlen, an denen wir uns messen lassen: Kraftwerte, Gewicht im Wochenschnitt, Ausdauerwerte, je nach Ziel. Alle vier bis sechs Wochen wird nachgemessen, und wenn sich nichts bewegt, ändere ich den Plan und nicht die Ausrede.",
+      },
+      {
+        title: "Wohnung, Wiese oder Studio, je nach Phase",
+        body: "Vogelsang grenzt direkt an den Äußeren Grüngürtel, und von Frühjahr bis Herbst nutzen wir das: Krafttraining mit dem eigenen Körpergewicht und Zusatzlast auf der Wiese, Ausdauerblöcke auf den Wegen Richtung Müngersdorf. Im Winter verlagert sich das Training in deine Wohnung oder ins Studio. Der Plan bleibt derselbe, nur der Ort wechselt, und du brauchst dafür keine eigene Ausrüstung.",
+      },
+      {
+        title: "Für wen Personal Training in Vogelsang gedacht ist",
+        body: "Für Berufstätige, die es allein nicht ins Training schaffen, für Eltern, die das Zeitfenster zwischen Kita und Abendessen nutzen wollen, und für alle, die nach Pause oder Verletzung einen kontrollierten Wiedereinstieg brauchen. Nicht gedacht ist es für Leute, die nur einen Anschreier suchen: Ich korrigiere Technik und steuere Belastung, motivieren muss das sichtbare Ergebnis.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Vogelsang?",
+        a: "50€ pro Stunde im 1-zu-1 Training, ohne Vertragslaufzeit. Das Erstgespräch mit Bewegungs-Check ist kostenlos, danach entscheidest du.",
+      },
+      {
+        q: "Wo findet das Training in Vogelsang statt?",
+        a: "Bei dir zu Hause, im Äußeren Grüngürtel direkt am Veedel oder im Studio. Den Ort legen wir nach Ziel, Jahreszeit und deinem Tagesablauf fest.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Ist das ein Problem?",
+        a: "Nein, das ist der Normalfall. Der Bewegungs-Check am Anfang legt den Startpunkt fest, und gesteigert wird erst, wenn die Technik sitzt. Niemand muss fit sein, um anzufangen.",
+      },
+      {
+        q: "Wie schnell merke ich etwas?",
+        a: "Die ersten Wochen verbessern Technik und Alltagsgefühl, nach vier bis sechs Wochen zeigen die Messwerte die Richtung. Versprochen wird kein Datum, gemessen wird jedes Mal.",
+      },
+    ],
+  },
+
+  "altstadt-nord/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für die Kölner Innenstadt: Natalie betreut als Ernährungsberaterin für Sport- und Fitnessernährung Menschen, deren Essen zwischen Terminen stattfindet, per Video und App, ohne Kochplan-Illusionen. Die Beratung ist Teil des Online Coachings ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln Altstadt-Nord mit Natalie: Sport- und Fitnessernährung für den Arbeitstag zwischen Terminen, per Video und App. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Trainiert wird im Zentrum viel, gegessen nebenbei",
+        body: "Altstadt-Nord ist das Veedel zwischen Dom, Hauptbahnhof und Ringen: 18.617 Einwohner, dazu jeden Tag die Belegschaften von Büros, Kanzleien und Hotels. Auffällig an den Anfragen von hier: trainiert wird längst, im Studio um die Ecke oder morgens an der Ringstrecke. Was fehlt, ist die Ernährungsseite, denn gegessen wird, was der Terminkalender übrig lässt: das Teilchen vom Bäcker im Gehen, mittags die schnelle Theke, abends spät und viel. Genau an diesem Muster setzt Natalie an.",
+      },
+      {
+        title: "Eiweiß zuerst, und zwar über den ganzen Tag",
+        body: "Für Trainingsfortschritt ist nicht nur die Eiweißmenge entscheidend, sondern ihre Verteilung, und die ist beim Innenstadt-Arbeitstag meist schief: morgens fast nichts, abends alles. Natalie legt mit dir ein Tagesziel fest und verteilt es auf die Fenster, die dein Kalender wirklich hat, mit konkreten Bestellungen für Bäcker, Kantine und Mittagstheke statt mit Rezepten, die eine Küche voraussetzen, die du um 13 Uhr nicht hast.",
+      },
+      {
+        title: "Beratung, die zwischen zwei Termine passt",
+        body: "Die Beratung läuft komplett online: Analysegespräch per Video, danach Plan und Anpassungen in der App und ein wöchentlicher Check-in von 15 bis 20 Minuten, der sich in eine Mittagspause legen lässt. Du musst nirgendwo hinfahren, nichts ausdrucken und kein Ernährungstagebuch von Hand führen. Fotos und kurze Notizen in der App reichen, den Rest wertet Natalie aus.",
+      },
+      {
+        title: "Was Natalie macht und was nicht",
+        body: "Natalie arbeitet mit gesunden Erwachsenen an Sport- und Fitnessernährung: Muskelaufbau, Gewichtsmanagement, Energie für Training und Arbeitstag. Sie behandelt keine Erkrankungen und ersetzt keine ärztliche Beratung. Wenn in deinem Fall medizinische Fragen offen sind, gehört die erste Station zum Arzt, und das sagt sie dir im Erstgespräch auch so.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in der Kölner Innenstadt?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Findet die Beratung vor Ort in Altstadt-Nord statt?",
+        a: "Nein, die Ernährungsberatung läuft per Video und App. Für Menschen mit vollem Kalender ist das der Punkt, an dem sie durchhalten: kein zusätzlicher Weg, kein fester Ort, Check-in aus dem Büro.",
+      },
+      {
+        q: "Ich esse fast immer auswärts. Funktioniert das trotzdem?",
+        a: "Ja, der Plan wird genau darauf gebaut. Natalie arbeitet mit Bestell-Logik für Kantine, Theke und Restaurant statt mit Kochrezepten. Selbst kochen hilft, ist aber keine Voraussetzung.",
+      },
+      {
+        q: "Brauche ich dafür ein Training bei FitPrimo?",
+        a: "Die Beratung ist Teil des Online Coachings, in dem Training und Ernährung zusammen geplant werden. Wenn du schon woanders trainierst, passt Natalie die Ernährungsseite an dein bestehendes Training an.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
