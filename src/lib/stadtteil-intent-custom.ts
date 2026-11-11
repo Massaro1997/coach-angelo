@@ -4585,6 +4585,135 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "zollstock/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Zollstock nutzt den Vorgebirgspark für Antritte, Richtungswechsel und Sprungkraft auf dem Rasen und den Äußeren Grüngürtel für Intervalle auf immer gleicher Strecke. Die Kraftarbeit kommt aus dem Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Zollstock: Antritte und Sprungkraft im Vorgebirgspark, Intervalle auf dem Äußeren Grüngürtel, Kraft im Studio. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Das Veedel des Südstadions ist voller Mannschaftssportler",
+        body: "In Zollstock leben 23.327 Menschen auf 5,03 km², und mitten im Veedel steht das Südstadion, die Heimat von Fortuna Köln. Entsprechend viele Anfragen aus dem Kölner Süden kommen von Leuten, die schon in einer Mannschaft spielen: Fußball, Handball, Hockey. Genau dort setzt Athletiktraining an. Im Mannschaftstraining wird Taktik und Spielform geübt, für Schnelligkeit, Sprungkraft und Stabilität bleibt selten Zeit. Diese Lücke fülle ich im 1-zu-1, abgestimmt auf deine Position und deine Schwachstelle.",
+      },
+      {
+        title: "Der Vorgebirgspark gibt dir Rasen mit geraden Kanten",
+        body: "Der Vorgebirgspark wurde von Gartendirektor Fritz Encke entworfen und 1914 eröffnet. Seine großen, rechteckig gefassten Wiesen sind fürs Athletiktraining ein Glücksfall: gerade Kanten zum Abmessen von Antritten über 10 bis 30 Meter, ebener Rasen für Richtungswechsel und Sprünge, der die Gelenke schont. Wir markieren feste Distanzen und arbeiten mit der Stoppuhr, damit jede Wiederholung vergleichbar ist.",
+      },
+      {
+        title: "Der Grüngürtel liefert die langen Reize",
+        body: "Für Tempoläufe und lange Intervalle wechseln wir auf den Äußeren Grüngürtel am Rand des Veedels: flache, durchgehende Wege ohne Ampeln, auf denen dieselbe Runde Woche für Woche gleich bleibt. So kann ich deine Zeiten ehrlich vergleichen. Alle vier bis sechs Wochen steht ein Testtag mit Sprintzeit, Sprunghöhe und einer Tempostrecke, und der Plan wird an den Zahlen ausgerichtet, nicht am Gefühl.",
+      },
+      {
+        title: "Saisonlogik statt Dauervollgas",
+        body: "Wer im Verein spielt, trainiert bei mir nach Kalender: In der Saison hält eine kurze, harte Einheit pro Woche Schnelligkeit und Stabilität, ohne die Beine fürs Wochenende zu leeren. In der Sommer- und Winterpause bauen wir auf, mit zwei Einheiten pro Woche und mehr Kraftarbeit im Studio. Wer ohne Verein kommt, bekommt denselben Aufbau ohne Spielplan, dafür mit eigenem Zielwert.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Zollstock?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Wer nach Plan selbst trainiert und wöchentliche Check-ins will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich spiele im Verein. Passt das neben das Mannschaftstraining?",
+        a: "Ja, dafür ist es gedacht. In der Saison reicht eine Einheit pro Woche, gelegt auf den Tag mit dem größten Abstand zum Spiel. Die Belastung stimme ich auf deinen Spielplan ab, damit du am Wochenende frische Beine hast.",
+      },
+      {
+        q: "Wo genau trainieren wir in Zollstock?",
+        a: "Antritte, Richtungswechsel und Sprünge im Vorgebirgspark, Tempoläufe und Intervalle auf dem Äußeren Grüngürtel, Kraft und Maximalkraft im Studio. Die Aufteilung richtet sich nach deinem Ziel und der Jahreszeit.",
+      },
+      {
+        q: "Brauche ich Vorerfahrung oder ein bestimmtes Niveau?",
+        a: "Nein. Am Anfang steht ein Technik-Check mit Sprint, Sprung und Rumpfstabilität. Der legt fest, wo wir starten, egal ob du Vereinsspieler bist oder nach Jahren wieder anfängst.",
+      },
+    ],
+  },
+
+  "nippes/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Nippes: Trainingsplan per App, wöchentliche Video-Check-ins und Ernährungssteuerung, ab 150€ im Monat. Jede Trainingswoche bekommst du in zwei Fassungen, eine für Tage zu Hause im Veedel und eine für Büro- und Studiotage, damit der Plan deine Woche mitmacht statt an ihr zu scheitern.",
+    metaDescription:
+      "Online Coaching in Köln-Nippes: Plan per App in zwei Fassungen für Zuhause- und Bürotage, Video-Check-ins, Cardio im Nippeser Tälchen. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Keine Woche in Nippes gleicht der anderen",
+        body: "Zwei Tage Homeoffice, drei im Büro, dazwischen Kita-Übergabe und samstags der Markt auf dem Wilhelmplatz: So sehen die Wochen aus, die mir Leute aus Nippes beschreiben. Ein Plan mit festen Studioterminen verliert gegen diesen Kalender. Deshalb plane ich nicht Termine, sondern Einheiten: Du bekommst pro Woche zwei bis drei Workouts, und die App zeigt dir für jedes an, wie es heute und hier geht.",
+      },
+      {
+        title: "Jede Einheit hat eine Zuhause-Fassung",
+        body: "Dieselbe Einheit existiert in zwei Versionen: eine für die Altbauwohnung mit Kurzhanteln, Band und eigenem Körpergewicht, eine für den Tag, an dem du an einem Studio vorbeikommst oder draußen trainieren willst. Beide folgen derselben Progression, du verlierst also nichts, wenn die Woche kippt. Welche Fassung du nimmst, entscheidest du am Tag selbst, nicht am Sonntag davor.",
+      },
+      {
+        title: "Das Nippeser Tälchen ist dein fester Cardio-Block",
+        body: "Für den Ausdauerteil brauchst du kein Gerät: Das Nippeser Tälchen und der Johannes-Giesberts-Park liegen im Veedel, beide eben und gut beleuchtet. Dein Plan enthält dort feste Blöcke aus zügigem Gehen oder Intervallen, 25 bis 40 Minuten, die in der App abgehakt und mitgezählt werden. So entsteht der Kalorienverbrauch im Alltag, nicht in einer dritten Trainingsfahrt.",
+      },
+      {
+        title: "Check-in per Video, Technik per Clip, Angelo vor Ort",
+        body: "Einmal pro Woche sprechen wir 20 Minuten per Video über Zahlen, Schlaf und die kommende Woche. Zwischendrin schickst du kurze Übungsclips, auf die ich mit Korrekturen antworte. Und weil ich in Köln arbeite, gibt es eine Abkürzung, die reine Online-Anbieter nicht haben: Wenn eine Übung hakt, legen wir eine 1-zu-1 Stunde (50€) in Nippes dazwischen und lösen es vor Ort.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Nippes?",
+        a: "Ab 150€ im Monat, monatlich kündbar: Trainingsplan per App in zwei Fassungen, wöchentlicher Video-Check-in, Ernährungssteuerung und Technik-Feedback auf deine Übungsclips. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Welche Ausrüstung brauche ich zu Hause?",
+        a: "Für den Start reichen ein Satz Kurzhanteln oder ein verstellbares Paar und ein Widerstandsband. Die Zuhause-Fassung jeder Einheit ist darauf geschrieben. Wenn du ein Studio-Abo hast, nutzt die zweite Fassung dessen Geräte.",
+      },
+      {
+        q: "Was passiert, wenn meine Woche komplett platzt?",
+        a: "Dann wird nicht nachgeholt, sondern umgebaut: Im Check-in kürzen wir die Woche auf das Minimum, das die Progression hält, meist zwei kurze Einheiten. Ein Plan, der nur in perfekten Wochen funktioniert, ist keiner.",
+      },
+      {
+        q: "Kann ich Online Coaching und Training vor Ort mischen?",
+        a: "Ja. Viele starten online und nehmen alle paar Wochen eine 1-zu-1 Stunde in Nippes für Technik dazu. Das Coaching bleibt die Basis, die Stunde wird einzeln mit 50€ gerechnet.",
+      },
+    ],
+  },
+
+  "esch-auweiler/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Esch/Auweiler plane ich gegen das Auto: Im Doppeldorf am Stadtrand wird fast jeder Weg gefahren, also bauen wir deinen Grundverbrauch mit festen Runden auf den Feldwegen zwischen Esch und Auweiler wieder auf, dazu zwei Krafteinheiten pro Woche bei dir zu Hause und ein Kalorienziel, das Natalie mit dir festlegt. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Esch/Auweiler: feste Runden auf den Feldwegen, zwei Krafteinheiten zu Hause, Kalorienziel mit Ernährungsberaterin Natalie. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Zwei Dörfer, viele Felder, fast alles mit dem Auto",
+        body: "Esch/Auweiler besteht aus zwei alten Ortskernen mit zusammen 6.964 Einwohnern auf 7,61 km², dazwischen und drumherum liegen Felder. Das Leben hier ist ruhig, aber es läuft über das Auto: Einkauf, Arbeit, Kinder bringen. Dabei verschwinden genau die Schritte, die in der Innenstadt nebenbei passieren. Wer hier abnehmen will, muss den Grundverbrauch nicht erhöhen, sondern erst einmal zurückholen.",
+      },
+      {
+        title: "Die Feldwege sind deine Verbrauchsrunden",
+        body: "Zwischen Esch und Auweiler und hinüber Richtung Pesch und Widdersdorf liegt ein Netz aus ebenen, ruhigen Feldwegen. Daraus bauen wir zwei feste Runden, eine für 30 und eine für 45 Minuten zügiges Gehen, die an definierten Tagen im Kalender stehen wie ein Termin. Weil die Strecken immer gleich sind, zählt jeder Kilometer verlässlich ins Wochenziel, und du siehst nach vier Wochen, was die Runden am Gewichtstrend ändern.",
+      },
+      {
+        title: "Zwei Krafteinheiten zu Hause halten die Muskeln im Defizit",
+        body: "Ein Fitnessstudio gibt es im Doppeldorf nicht, und für diesen Plan braucht es auch keins: Ich komme mit Material zu dir und wir trainieren zweimal pro Woche die großen Grundübungen. Im Kaloriendefizit entscheidet genau das darüber, ob das verlorene Gewicht aus dem Fett kommt oder aus der Muskulatur. Wer zusätzlich schwer heben will, nimmt einzelne Einheiten im Studio dazu.",
+      },
+      {
+        title: "Gegessen wird weiter zu Hause, nur gerechnet",
+        body: "Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, legt mit dir ein Kalorienziel fest, das Familienessen und Wochenende übersteht, realistisch für ein bis zwei Kilo Fett pro Monat. Bewertet wird der Verlauf über Wochen, nicht der einzelne Tag: Ein Geburtstag im Dorf wirft den Plan nicht um, er ist eingerechnet.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Esch/Auweiler?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€. Wer lieber mit App-Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Gibt es in Esch/Auweiler ein Studio für das Training?",
+        a: "Nein, im Stadtteil selbst nicht. Deshalb kommt das Training zu dir: zwei Krafteinheiten pro Woche zu Hause mit mitgebrachtem Material, die Geh-Runden direkt vor der Tür auf den Feldwegen. Studio-Einheiten sind möglich, aber nicht nötig.",
+      },
+      {
+        q: "Muss ich joggen, um abzunehmen?",
+        a: "Nein. Zügiges Gehen auf den festen Runden reicht als Basis völlig, es ist gelenkschonend und lässt sich auch an vollen Tagen durchziehen. Das Defizit kommt ohnehin vor allem vom Essen, die Runden sichern den Verbrauch ab.",
+      },
+      {
+        q: "Wie schnell nehme ich damit ab?",
+        a: "Realistisch sind ein bis zwei Kilo Fett pro Monat. Das klingt langsam, bleibt aber ohne Jojo-Effekt, weil Muskulatur und Essgewohnheiten erhalten bleiben. Nach vier Wochen siehst du den Trend auf der Waage und an den Zahlen der Runden.",
+      },
+    ],
+  },
+
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
