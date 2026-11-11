@@ -5322,6 +5322,135 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "bayenthal/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Bayenthal: Trainingsplan in der App, wöchentlicher Video-Check-in und ein Coach, der jede Einheit mitliest, egal ob du im Studio, in der Wohnung oder am Rhein trainierst. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Bayenthal: Plan in der App, wöchentlicher Video-Check-in, Technikkorrektur per Video. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Für alle, die längst trainieren, nur ohne Richtung",
+        body: "Die typische Online-Coaching-Anfrage aus Bayenthal kommt nicht von Anfängern. Das Veedel liegt nah an der Innenstadt, viele der 11.161 Bewohner haben eine Studio-Mitgliedschaft dort, wo sie arbeiten, und trainieren seit Jahren, nur eben ohne Plan: dieselben Geräte, dieselben Gewichte, dasselbe Ergebnis. Online Coaching setzt genau da an. Du behältst dein Studio und deine Zeiten, neu sind das Programm, die Progression und jemand, der kontrolliert, ob beides eingehalten wird.",
+      },
+      {
+        title: "Dein Training steht in der App, bevor du es machst",
+        body: "Jede Woche liegt der Plan fertig in der App: Übungen, Sätze, Zielgewichte, aufgebaut auf dem, was du in der Vorwoche eingetragen hast. Bei Übungen, die neu für dich sind, lädst du ein kurzes Video hoch und bekommst die Korrektur, bevor sich ein Fehler einschleift. So entsteht der Effekt eines Personal Trainings, nur zeitversetzt und zu einem Drittel der Kosten bei zwei Einheiten pro Woche.",
+      },
+      {
+        title: "Einmal pro Woche schauen wir auf die Zahlen",
+        body: "Im wöchentlichen Video-Check-in geht es um drei Dinge: was der Trainingslog zeigt, was die Woche sonst gemacht hat, und was im Plan der nächsten Woche anders wird. Kein Smalltalk-Termin, sondern eine Viertelstunde Steuerung. Wenn Dienstreise oder Krankheit dazwischenkommen, wird der Plan umgebaut statt ausgesetzt, denn verlorene Wochen sind das, was Fortschritt im Selbsttraining normalerweise frisst.",
+      },
+      {
+        title: "Was Bayenthal zum Plan beisteuert",
+        body: "Die Ausdauerblöcke des Programms brauchen kein Laufband: vom kompakten Veedel bist du in wenigen Minuten am Wasser, und die flachen Kilometer stromaufwärts wie stromabwärts eignen sich für ruhige Grundlagenläufe nach Puls oder Tempo. Die Läufe trägst du wie jede Krafteinheit in die App ein, damit die Belastung der ganzen Woche zusammenpasst und nicht Kraft- und Lauftage sich gegenseitig die Erholung stehlen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Bayenthal?",
+        a: "Ab 150€ im Monat, monatlich kündbar: Trainingsplan in der App, wöchentlicher Video-Check-in, Technikkorrektur per Video und Anpassungen, sooft die Woche es verlangt. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Worin unterscheidet sich das vom Personal Training vor Ort?",
+        a: "Beim Personal Training stehe ich neben dir und korrigiere in der Sekunde, beim Online Coaching kommt die Korrektur zeitversetzt per Video. Dafür trainierst du, wann und wo du willst, zu deutlich geringeren Monatskosten.",
+      },
+      {
+        q: "Brauche ich eine Studio-Mitgliedschaft?",
+        a: "Nein. Der Plan wird auf das gebaut, was du hast: Studio, Kurzhanteln in der Wohnung oder nur Körpergewicht und ein Rheinufer vor der Tür. Mit mehr Ausrüstung geht mehr, aber der Einstieg geht mit wenig.",
+      },
+      {
+        q: "Kann ich Online Coaching und 1-zu-1 Stunden kombinieren?",
+        a: "Ja, das ist in Bayenthal sogar häufig: Online Coaching als Grundgerüst und einzelne 1-zu-1 Stunden für 50€, wenn eine neue Übung sauber gelernt werden soll.",
+      },
+    ],
+  },
+
+  "bilderstoeckchen/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Bilderstöckchen für Menschen, die körperlich arbeiten: Natalie plant dein Essen um Frühschicht, Pausenfenster und echte Erschöpfung herum statt um einen Bürotag. Per Video und App, als Teil des Online Coachings ab 150€ im Monat, Erstgespräch kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Bilderstöckchen: Essen nach Schichtplan, Eiweiß für die Erholung nach körperlicher Arbeit. Mit Natalie, per Video und App. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Körperliche Arbeit ist kein Freifahrtschein",
+        body: "In Bilderstöckchen verdienen viele der 15.516 Einwohner ihr Geld mit den Händen, und daraus entsteht ein verbreiteter Irrtum: Wer den ganzen Tag schuftet, dürfe essen, was er will. Die Arbeit verbrennt viel, aber selten so viel, wie der Tag an Imbiss, süßen Pausen und Feierabendessen zurückbringt. Das Ergebnis sieht man oft erst mit 40: Gewicht rauf, Energie runter, obwohl der Job körperlich geblieben ist. Genau dieses Muster sortiert Natalie, ohne dir die Currywurst grundsätzlich zu verbieten.",
+      },
+      {
+        title: "Essen nach Schichtplan statt nach Lehrbuch",
+        body: "Ernährungsratgeber gehen von einem Tag aus, der um sieben beginnt und um 18 Uhr Feierabend macht. Eine Frühschicht sieht anders aus: Frühstück um fünf oder gar nicht, Pause um neun, die warme Mahlzeit irgendwann nach Schichtende. Natalie baut den Plan auf deine echten Zeiten: was vor der Schicht funktioniert, was in die Brotdose gehört, was abends auf den Tisch kommt, wenn die Familie mitisst. Der Plan muss zum Schichtzettel passen, nicht umgekehrt.",
+      },
+      {
+        title: "Eiweiß ist Erholung, nicht nur Sportlerfutter",
+        body: "Wer täglich hebt, trägt und steht, verschleißt Muskulatur wie ein Sportler im Training, isst aber selten wie einer. Zu wenig Eiweiß heißt dann: die Erholung über Nacht reicht nicht, und die Woche wird von Tag zu Tag zäher. Deshalb steht im Zentrum des Plans ein Eiweißziel mit alltagstauglichen Quellen vom Discounter, nicht mit Spezialprodukten. Das kostet kaum mehr, macht satt und nimmt dem Heißhunger am Abend die Grundlage.",
+      },
+      {
+        title: "Beratung ohne zusätzlichen Termin quer durch die Stadt",
+        body: "Nach acht Stunden Lager, Baustelle oder Station fährt niemand freiwillig noch zu einem Beratungstermin. Deshalb läuft die Ernährungsberatung per Video und App: das Analysegespräch legst du auf einen freien Nachmittag nach der Frühschicht, die wöchentlichen Check-ins dauern eine Viertelstunde und gehen vom Sofa aus. Zwischendrin reichen Fotos vom Teller in der App, Natalie sieht sie durch und sagt dir konkret, was sie ändern würde.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Bilderstöckchen?",
+        a: "Sie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch ist kostenlos, danach entscheidest du in Ruhe.",
+      },
+      {
+        q: "Funktioniert das auch bei Wechselschicht?",
+        a: "Ja. Der Plan hat dann zwei oder drei Varianten, eine pro Schichtlage, mit denselben Grundregeln. Das ist mehr Arbeit beim Erstellen, im Alltag aber einfacher als jede starre Diät.",
+      },
+      {
+        q: "Muss ich kochen lernen oder Mahlzeiten vorbereiten?",
+        a: "Nein. Vorkochen hilft, ist aber keine Bedingung. Natalie arbeitet mit dem, was dein Tag hergibt: Bäcker, Kantine, Imbiss, Discounter. Es geht um bessere Auswahl, nicht um ein zweites Leben in der Küche.",
+      },
+      {
+        q: "Ich will vor allem abnehmen. Bin ich hier richtig?",
+        a: "Ja, Gewichtsmanagement ist der häufigste Grund für Anfragen. Natalie setzt ein realistisches Kalorienziel und schützt mit dem Eiweißziel die Muskulatur, damit das verlorene Gewicht Fett ist und nicht Kraft.",
+      },
+    ],
+  },
+
+  "blumenberg/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Blumenberg: zwei feste Krafteinheiten pro Woche mit Protokoll, bei dir zu Hause in der Siedlung oder im Studio, dazu Eiweißziel und Nachmessen alle vier bis sechs Wochen. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Blumenberg: 2 geführte Krafteinheiten pro Woche mit Protokoll, zu Hause oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ganz im Norden, und das Training kommt trotzdem pünktlich",
+        body: "Blumenberg ist mit 5.147 Einwohnern eine der jüngsten Siedlungen Kölns, gebaut ab den späten Achtzigern am nördlichen Stadtrand zwischen Chorweiler und Worringen, mit eigener S-Bahn-Station an der S11. Wer hier wohnt, pendelt meist in die Innenstadt und kennt das Problem: Nach Arbeitsweg und Feierabendverkehr ist der Weg zu einem Studio die Hürde, an der das Vorhaben Muskelaufbau scheitert. Deshalb drehe ich es um und komme zu dir, mit allem, was für die ersten Monate an Ausrüstung nötig ist.",
+      },
+      {
+        title: "Aufbau braucht Last, nicht Geräteparks",
+        body: "Für stetigen Muskelaufbau reichen wenige Übungen, die immer schwerer werden: Kniebeugen und Ausfallschritte mit Zusatzgewicht, Kreuzheben-Varianten, Drücken und Rudern. Entscheidend ist nicht das Gerät, sondern das Protokoll: jede Einheit steht mit Gewicht und Wiederholungen im Log, und gesteigert wird nach Plan statt nach Tagesform. Wenn die Haushantel-Phase ausgereizt ist, verlegen wir einzelne Einheiten ins Studio und holen uns die schweren Grundübungen dazu.",
+      },
+      {
+        title: "Essen und Schlaf entscheiden die Hälfte",
+        body: "Das Training setzt den Reiz, wachsen muss der Körper selbst, und dafür braucht er Baumaterial und Ruhe. Du bekommst ein tägliches Eiweißziel mit einfachen Lösungen für Familientisch und Pendleralltag und die Regel, zwischen zwei Krafteinheiten mindestens einen Tag Luft zu lassen. Wer vier Mal pro Woche halbherzig trainiert, baut weniger auf als mit zwei harten, gut erholten Einheiten. Das klingt bequem, ist aber Physiologie.",
+      },
+      {
+        title: "Ehrliche Erwartungen für den Start",
+        body: "Die Kraftwerte steigen vom ersten Monat an, das zeigt jedes Protokoll. Sichtbare Veränderung an Schultern, Armen und Haltung braucht je nach Ausgangslage zwei bis vier Monate, bei Wiedereinsteigern oft schneller, weil der Körper sich erinnert. Im kostenlosen Erstgespräch schauen wir auf deinen Startpunkt und setzen ein Ziel, das in zwölf Wochen erreichbar ist, und dann wird gemessen statt gehofft.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Blumenberg?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ohne Laufzeitvertrag. Alternativ gibt es das Online Coaching ab 150€ im Monat mit Plan in der App und wöchentlichem Check-in. Das Erstgespräch ist immer kostenlos.",
+      },
+      {
+        q: "Geht Muskelaufbau zu Hause in Blumenberg überhaupt?",
+        a: "Ja, für die ersten Monate sehr gut: verstellbare Kurzhanteln, eine Langhantel und saubere Steigerung reichen weit. Erst wenn die Gewichte zu Hause nicht mehr ausreichen, lohnt sich das Studio für einzelne Einheiten.",
+      },
+      {
+        q: "Ich pendle täglich. Wann soll das Training stattfinden?",
+        a: "Die meisten Einheiten in Blumenberg lege ich früh vor der S-Bahn oder direkt nach Feierabend, damit kein zweiter Anlauf am Abend nötig ist. Der feste Termin ist Teil der Methode.",
+      },
+      {
+        q: "Bin ich mit über 40 zu alt, um noch Muskeln aufzubauen?",
+        a: "Nein. Der Aufbau geht langsamer als mit 25, aber er geht nachweislich in jedem Alter, und gerade ab 40 ist Krafttraining die beste Investition in Rücken, Stoffwechsel und Alltagskraft.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
