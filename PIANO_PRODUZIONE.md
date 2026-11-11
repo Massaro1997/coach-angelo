@@ -107,12 +107,12 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 99 | /koeln/muelheim/athletiktraining | 0 | 7 | 42,4 | FATTA (giro 28, 11/11) |
 | 100 | /koeln/weiden/personal-training | 0 | 7 | 38,1 | FATTA (giro 28, 11/11) |
 | 101 | /koeln/weidenpesch/rueckentraining | 0 | 7 | 8,6 | FATTA (giro 28, 11/11; pos buona, rafforzata) |
-| 102 | /koeln/zollstock/athletiktraining | 0 | 7 | 65,1 | in coda |
-| 103 | /koeln/nippes/online-coaching | 1 | 7 | 6,6 | in coda (1 click pos 6,6: rafforzare con molta prudenza) |
-| 104 | /koeln/esch-auweiler/abnehmen | 0 | 7 | 10,3 | in coda (pos buona: rafforzare) |
-| 105 | /koeln/altstadt-nord/abnehmen | 0 | 6 | 31,7 | in coda |
-| 106 | /koeln/altstadt-sued/abnehmen | 0 | 6 | 12,2 | in coda |
-| 107 | /koeln/bayenthal/ems-alternative | 0 | 6 | 54,7 | in coda |
+| 102 | /koeln/zollstock/athletiktraining | 0 | 7 | 65,1 | FATTA (giro 29, 11/11) |
+| 103 | /koeln/nippes/online-coaching | 1 | 7 | 6,6 | FATTA (giro 29, 11/11; 1 click pos 6,6, rafforzata con molta prudenza) |
+| 104 | /koeln/esch-auweiler/abnehmen | 0 | 7 | 10,3 | FATTA (giro 29, 11/11; pos buona, rafforzata) |
+| 105 | /koeln/altstadt-nord/abnehmen | 0 | 6 | 31,7 | FATTA (giro 29, 11/11) |
+| 106 | /koeln/altstadt-sued/abnehmen | 0 | 6 | 12,2 | FATTA (giro 29, 11/11; pos buona, rafforzata) |
+| 107 | /koeln/bayenthal/ems-alternative | 0 | 6 | 54,7 | FATTA (giro 29, 11/11) |
 | 108 | /koeln/elsdorf/personal-training | 0 | 6 | 11,7 | in coda (pos buona: rafforzare) |
 | 109 | /koeln/heimersdorf/personal-training | 0 | 6 | 8,8 | in coda (pos buona: rafforzare) |
 | 110 | /koeln/hoehenhaus/ems-alternative | 0 | 6 | 6,8 | in coda (pos buona: rafforzare) |
