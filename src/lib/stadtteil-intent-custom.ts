@@ -4714,6 +4714,135 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
     ],
   },
 
+  "altstadt-nord/abnehmen": {
+    answer:
+      "Abnehmen in der Kölner Innenstadt hat ein eigenes Muster: Schritte machst du hier genug, aber gegessen wird fast immer auswärts, und dort verliert jedes Defizit. Deshalb plane ich dein Kalorienziel um Kantine, Lokal und Geschäftsessen herum, mit zwei Krafteinheiten pro Woche als Muskelschutz. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Altstadt-Nord: Kalorienziel für Kantine und Gastro statt Verbotsliste, zwei Krafteinheiten ab Bürotür, Muskelschutz im Defizit. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Viele Schritte, trotzdem kein Defizit",
+        body: "Wer in Altstadt-Nord wohnt oder arbeitet, geht automatisch viel: 18.617 Menschen leben hier auf 2,46 km², dazu kommen täglich Zehntausende Pendler, und fast jeder Weg ist ein Fußweg. Trotzdem stagniert bei vielen das Gewicht. Der Grund: Diese Schritte sind längst dein Normalzustand, dein Körper hat sie eingepreist. Das Defizit entsteht im Zentrum nicht über noch mehr Bewegung, sondern über das, was mittags und abends auf den Tisch kommt.",
+      },
+      {
+        title: "Auswärts essen mit Plan statt Verbotsliste",
+        body: "Kantine, Mittagstisch, Geschäftsessen, nach Feierabend ein Lokal: In diesem Alltag scheitern Diätpläne, die auf selbst gekochte Mahlzeiten bauen. Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, legt mit dir stattdessen ein Tagesbudget und einfache Bestellregeln fest, die in jeder Karte funktionieren: Eiweißquelle zuerst, Beilage nach Budget, Getränke mitzählen. Du isst weiter dort, wo dein Tag stattfindet, nur nicht mehr blind.",
+      },
+      {
+        title: "Zwei Krafteinheiten, die an deiner Bürotür starten",
+        body: "Im Kaloriendefizit entscheidet Krafttraining darüber, ob Fett oder Muskel verschwindet. Deshalb stehen zwei Einheiten pro Woche fest im Kalender, und die Anfahrt ist hier kein Argument: Wir starten an deiner Büro- oder Wohnungstür, trainieren im Studio oder draußen am Rheinufer und sind nach 60 Minuten fertig. Auch eine lange Mittagspause reicht, wenn der Ablauf eingespielt ist.",
+      },
+      {
+        title: "Gemessen wird die Richtung, nicht der Morgen danach",
+        body: "Nach einem Geschäftsessen zeigt die Waage mehr an, das ist Wasser und kein Rückfall. Deshalb bewerten wir den Wochendurchschnitt und den Verlauf über vier Wochen: ein bis zwei Kilo Fett pro Monat sind das realistische Tempo. Dazu kommen Umfänge und die Zahlen aus dem Training, denn wenn die Kraft stabil bleibt, während das Gewicht sinkt, verlierst du das Richtige.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in der Kölner Innenstadt?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit App-Plan und wöchentlichen Check-ins ab 150€ im Monat. Die Ernährungsberatung mit Natalie wird im Erstgespräch dazugeplant, das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich esse mittags immer auswärts. Funktioniert das trotzdem?",
+        a: "Ja, der Plan ist genau darauf gebaut. Du bekommst ein Tagesbudget und Bestellregeln statt Rezepte. Verzicht auf das Auswärtsessen wäre ohnehin nicht haltbar, also rechnen wir es von Anfang an ein.",
+      },
+      {
+        q: "Reicht nicht einfach noch mehr Gehen?",
+        a: "In Altstadt-Nord selten. Die Schritte des Innenstadtalltags sind schon in deinem Verbrauch enthalten, mehr davon bringt wenig zusätzliches Defizit. Wirksam ist die Kombination aus Essensbudget und zwei Krafteinheiten pro Woche.",
+      },
+      {
+        q: "Wie trainieren wir, wenn ich kein Studio-Abo habe?",
+        a: "Dann trainieren wir draußen am Rheinufer oder bei dir zu Hause mit mitgebrachtem Material. Für die schweren Grundübungen gibt es die Option Studio, nötig für den Start ist sie nicht.",
+      },
+    ],
+  },
+
+  "altstadt-sued/abnehmen": {
+    answer:
+      "Abnehmen in der Kölner Südstadt funktioniert nur mit einem Plan, der das Veedel-Leben einrechnet: Zwei Abende pro Woche bleiben frei für Severinstraße und Chlodwigplatz und stehen trotzdem im Kalorienbudget, die übrigen Tage tragen das Defizit. Dazu zwei Krafteinheiten pro Woche am Rheinufer oder im Studio. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in der Kölner Südstadt: Wochenplan mit zwei eingeplanten freien Abenden, Kölsch wird gerechnet statt verboten, Krafttraining am Rheinufer. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Zwei freie Abende sind Teil des Plans, nicht sein Scheitern",
+        body: "Die Südstadt lebt abends, und ein Abnehmplan, der so tut, als wohntest du woanders, hält hier keine drei Wochen. Deshalb drehe ich es um: Zwei Abende pro Woche sind von vornherein frei, mit festem Kalorienrahmen statt schlechtem Gewissen. Die anderen fünf Tage tragen das Defizit. Ein Kölsch hat auf 0,2 Liter rund 100 Kilokalorien, das ist keine Katastrophe, sondern eine Zahl, und Zahlen kann man planen.",
+      },
+      {
+        title: "Krafttraining zwischen Rheinauhafen und Südbrücke",
+        body: "Damit das verlorene Gewicht aus dem Fett kommt und nicht aus der Muskulatur, stehen zwei Krafteinheiten pro Woche im Plan. In der Südstadt trainieren wir draußen am Rheinufer zwischen Rheinauhafen und Südbrücke mit mitgebrachtem Material oder im Studio, wenn du schwer heben willst. Die Einheiten dauern 60 Minuten und liegen bewusst nicht an deinen freien Abenden.",
+      },
+      {
+        title: "Grüngürtel und Rheinufer zählen in dein Wochenziel",
+        body: "Für den Verbrauch zwischen den Einheiten nutzt du, was die Südstadt ohnehin hat: die Runde über den Inneren Grüngürtel und das Rheinufer. Daraus machen wir zwei bis drei feste Geh-Blöcke pro Woche von 30 bis 40 Minuten, die in der App mitgezählt werden. Kein drittes Trainingsgerät, keine Anfahrt, nur eine Strecke, die du sowieso magst.",
+      },
+      {
+        title: "Natalie rechnet, du isst weiter im Veedel",
+        body: "Das Kalorienziel legt Natalie fest, unsere Ernährungsberaterin für Sport- und Fitnessernährung: realistisch für ein bis zwei Kilo Fett pro Monat, gerechnet als Wochenbudget, in dem die zwei freien Abende schon stecken. Bewertet wird der Verlauf über mehrere Wochen. Ein voller Samstag ist damit kein Rückfall, sondern eingeplant, und genau das macht den Plan haltbar.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in der Kölner Südstadt?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan und wöchentlichen Check-ins ab 150€ im Monat. Das Erstgespräch ist kostenlos und klärt, welche Mischung zu deinem Ziel passt.",
+      },
+      {
+        q: "Muss ich auf Kölsch und Essen gehen verzichten?",
+        a: "Nein. Zwei Abende pro Woche sind mit festem Rahmen eingeplant, inklusive Kölsch. Verbote funktionieren in der Südstadt nicht, Budgets schon. Entscheidend ist, dass die übrigen Tage das Defizit tragen.",
+      },
+      {
+        q: "Wo findet das Training statt, wenn meine Wohnung klein ist?",
+        a: "Draußen am Rheinufer zwischen Rheinauhafen und Südbrücke, ich bringe das Material mit. Alternativ im Studio. Die typische Südstadt-Altbauwohnung braucht für diesen Plan keinen Trainingsplatz.",
+      },
+      {
+        q: "Wann sehe ich erste Ergebnisse?",
+        a: "Auf der Waage nach etwa vier Wochen als klarer Trend, sichtbar an Umfängen und Kleidung meist nach acht bis zwölf Wochen. Ein bis zwei Kilo Fett pro Monat sind das Tempo, das ohne Jojo-Effekt bleibt.",
+      },
+    ],
+  },
+
+  "bayenthal/ems-alternative": {
+    answer:
+      "Die ehrliche EMS-Alternative in Köln-Bayenthal ist Krafttraining mit echter Bewegung: zwei geführte Einheiten pro Woche bei dir zu Hause, am Rheinufer Süd oder im Studio, mit Gewichten, die über Monate steigen, statt Strom, der nur kribbelt. Die Stunde kostet 50€, ohne Laufzeit, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Bayenthal: Krafttraining mit echter Bewegung statt Stromreiz, zu Hause oder am Rheinufer Süd, ohne Vertragslaufzeit. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Stromreiz lehrt dich keine einzige Bewegung",
+        body: "EMS lässt Muskeln anspannen, aber niemand lernt dabei, etwas zu heben. Im Alltag zählt genau das: der Wasserkasten in den dritten Stock, das Kind auf den Arm, die Gartenerde in den Kofferraum. Diese Bewegungen haben eine Technik, und die entsteht nur, wenn du sie unter Last übst, mit Rückmeldung bei jeder Wiederholung. Deshalb trainieren wir Heben, Drücken, Ziehen und Tragen als Bewegungen, nicht als Stromprogramm am stehenden Körper.",
+      },
+      {
+        title: "Das Veedel ist klein, dein Trainingsplatz nicht",
+        body: "Bayenthal misst 1,28 km², vom größten Teil des Veedels bist du in wenigen Minuten am Rheinufer Süd. Eine EMS-Sitzung findet dagegen immer im selben Raum am selben Gerät statt. Wir nutzen den Unterschied: Kraftarbeit bei dir zu Hause oder im Studio, dazu Einheiten draußen am Wasser, wo Ausdauer und Tragen gleich mittrainiert werden. Das Training wechselt mit der Jahreszeit, der Stromanzug kennt keine.",
+      },
+      {
+        title: "Nach zwölf Wochen vergleichen wir dein Protokoll",
+        body: "Beim EMS richtet sich die Intensität danach, wie stark es kribbelt, und das lässt sich weder notieren noch steigern. Bei mir steht jede Einheit im Protokoll: Übung, Gewicht, Wiederholungen. Nach zwölf Wochen liest du schwarz auf weiß, wie viel mehr du bewegst als am Anfang, typischerweise deutlich mehr, als ein Einsteiger erwartet. Diese Steigerung ist der Beweis, dass der Körper sich anpasst, und genau sie fehlt beim Reizstrom.",
+      },
+      {
+        title: "Keine Laufzeit, kein Abo, keine Anfahrt",
+        body: "EMS-Studios arbeiten fast immer mit längeren Vertragslaufzeiten. Bei mir zahlst du die geführte Stunde mit 50€ oder das Online Coaching ab 150€ im Monat, beides ohne Jahresbindung. In Bayenthal selbst kommt dazu, dass ich zu dir komme: kein Termin im Studioraum, kein Umziehen in fremden Kabinen. Wenn du nach dem Erstgespräch findest, dass EMS besser zu dir passt, sage ich dir das offen, dafür ist es da.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Bayenthal?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit. Selbstständig mit Plan und wöchentlichen Check-ins trainierst du im Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe nur zweimal 30 Minuten pro Woche. Reicht das?",
+        a: "Ja, wenn sie geplant sind. Zwei kompakte Einheiten mit Grundübungen schlagen auf Monate gerechnet jede 20-Minuten-Stromsitzung, weil die Last steigerbar ist. Ohne Anfahrt in Bayenthal bleiben die 30 Minuten auch wirklich Training.",
+      },
+      {
+        q: "Bringt EMS denn gar nichts?",
+        a: "Der Reiz ist real und als Ergänzung kann EMS seinen Platz haben. Was fehlt, sind Technik, Beweglichkeit und eine messbare Steigerung über Monate. Wer nur eine Sache macht, fährt mit echtem Krafttraining besser.",
+      },
+      {
+        q: "Wo trainieren wir in Bayenthal?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, draußen am Rheinufer Süd oder im Studio für die schweren Grundübungen. Die Mischung legen wir im kostenlosen Erstgespräch fest.",
+      },
+    ],
+  },
+
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
