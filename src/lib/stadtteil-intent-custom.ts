@@ -3503,6 +3503,263 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "riehl/personal-training": {
+    answer:
+      "Personal Training in Köln-Riehl: 1-zu-1 bei dir zu Hause oder draußen am flachen Rheinufer zwischen Zoobrücke und Niehl, mit einem Plan, der Kraft und Gleichgewicht gezielt aufbaut. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Riehl: Training zu Hause oder am Rheinufer Riehl, Kraftaufbau in jedem Alter, feste Termine. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel zwischen Rhein, Flora und Zoo",
+        body: "Riehl ist schmal geschnitten: 12.020 Menschen auf 2,39 km², eingerahmt vom Rheinufer auf der einen und der Flora mit dem Botanischen Garten auf der anderen Seite. Für dein Training heißt das: die Wege sind kurz. Vom größten Teil des Veedels bist du in wenigen Minuten zu Fuß am Wasser. Dort ist das Ufer flach und übersichtlich, ich kann Geh- und Laufintervalle sauber steuern und du musst für dein Training weder Auto noch Bahn nehmen.",
+      },
+      {
+        title: "Kraft ist die beste Vorsorge, nicht nur Bewegung",
+        body: "In Riehl fragen mich überdurchschnittlich oft Menschen an, die 55, 60 oder älter sind und merken, dass Spazierengehen allein nicht reicht. Die ehrliche Antwort: Muskelkraft und Gleichgewicht entscheiden darüber, wie selbstständig du in zehn Jahren bist, und beides lässt sich in jedem Alter trainieren. Wir arbeiten mit einfachen, sicheren Grundübungen, die Last steigt langsam und kontrolliert. Es geht nicht um Rekorde, sondern darum, dass Treppen, Einkäufe und das Aufstehen vom Boden leicht bleiben.",
+      },
+      {
+        title: "Training dort, wo du dich sicher fühlst",
+        body: "Viele meiner Einheiten in Riehl finden in der Wohnung statt: Ich bringe das nötige Material mit, mehr als ein freier Bereich von wenigen Quadratmetern ist nicht nötig. Wer lieber rausgeht, trainiert mit mir am Rheinufer oder auf den ruhigen Wegen Richtung Flora. Du bekommst feste, wiederkehrende Termine mit derselben Uhrzeit, denn ein Plan funktioniert nur, wenn er zur Woche passt und nicht jedes Mal neu verhandelt wird.",
+      },
+      {
+        title: "Was am Anfang steht",
+        body: "Im kostenlosen Erstgespräch schauen wir uns an, wo du stehst: Beweglichkeit, Kraft, Gleichgewicht, eventuelle Vorgaben vom Arzt. Daraus baue ich einen Plan mit ein bis zwei geführten Einheiten pro Woche und kurzen Übungen für die Tage dazwischen. Alle paar Wochen prüfen wir nach: Was früher schwer war, muss leichter geworden sein. Wenn nicht, ändere ich den Plan und nicht du deine Erwartungen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Riehl?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, bei dir zu Hause oder draußen im Veedel. Das Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Ich bin über 60 und lange raus. Geht das trotzdem?",
+        a: "Ja, gerade dann. Wir starten mit einem ruhigen Check und Übungen, die zu deinem heutigen Stand passen. Krafttraining wirkt in jedem Alter, die Steigerung ist nur behutsamer geplant.",
+      },
+      {
+        q: "Wo trainieren wir in Riehl?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material oder draußen am Rheinufer Riehl und auf den Wegen Richtung Flora. Was besser passt, legen wir im Erstgespräch fest.",
+      },
+      {
+        q: "Wie schnell merke ich etwas?",
+        a: "Die meisten spüren nach vier bis sechs Wochen einen klaren Unterschied bei Treppen und Alltagswegen. Gemessen wird trotzdem: Wiederholungen, Gewichte und Gleichgewichtstests sagen mehr als das Gefühl an einem einzelnen Tag.",
+      },
+    ],
+  },
+
+  "altstadt-sued/athletiktraining": {
+    answer:
+      "Athletiktraining in der Kölner Südstadt nutzt, was das Veedel schon hat: den Inneren Grüngürtel als messbare Runde für Intervalle und das Rheinufer am Rheinauhafen für Sprints und Schnellkraft. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln Altstadt-Süd: Intervalle im Inneren Grüngürtel, Sprints am Rheinauhafen, Feierabend-Einheiten mit Messwerten. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Grüngürtel ist deine Bahn, nicht nur deine Kulisse",
+        body: "Altstadt-Süd hat 27.764 Einwohner auf 2,36 km² und kaum freie Sportflächen, aber der Innere Grüngürtel zieht sich direkt am Veedel entlang. Das Entscheidende daran: die Abschnitte dort lassen sich wiederholen. Gleiche Strecke, gleiche Bedingungen, Woche für Woche. So werden aus Läufen Messwerte. Wenn dein 400-Meter-Abschnitt nach sechs Wochen bei gleichem Puls schneller ist, weißt du, dass das Training arbeitet und nicht nur müde macht.",
+      },
+      {
+        title: "Schnellkraft am Wasser statt im Gerätepark",
+        body: "Für Sprints, Richtungswechsel und Sprungkraft gehen wir ans Rheinufer rund um den Rheinauhafen: breite, ebene Flächen, dazu Rampen und Absätze für Antritte bergauf. Das ersetzt keinen Kraftraum, deshalb gehört eine Studio-Einheit mit Langhantel dazu, wenn dein Ziel mehr Grundkraft verlangt. Aber Explosivität, Tempo und saubere Mechanik entstehen draußen, wo Platz ist, und beides liegt in der Südstadt vor deiner Tür.",
+      },
+      {
+        title: "Nach Feierabend, wenn das Veedel voll wird",
+        body: "Die meisten Anfragen aus Altstadt-Süd kommen von Berufstätigen zwischen 25 und 45, die abends trainieren wollen, oft nach Jahren Vereinspause. Genau dafür plane ich: Einheiten ab 17 Uhr, Treffpunkt an deiner Haustür oder direkt am Grüngürtel, 60 Minuten inklusive Aufwärmen. Im Sommer weichen wir den vollsten Wiesen aus, im Winter verlegen wir die Kraftanteile nach drinnen. Der Plan folgt deinem Kalender, nicht umgekehrt.",
+      },
+      {
+        title: "Was Athletiktraining hier konkret bringt",
+        body: "Du wirst schneller und stabiler für deinen Sport, ob Fußball im Verein, Tennis oder die erste Laufserie. Und du wirst belastbarer im Alltag: Sprunggelenke, Knie und Rumpf halten mehr aus, wenn sie gezielt vorbereitet sind. Alle vier bis sechs Wochen stehen Tests an, Sprintzeit, Sprunghöhe, der Grüngürtel-Abschnitt. Danach entscheiden Zahlen, wie es weitergeht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in der Südstadt?",
+        a: "50€ pro 1-zu-1 Stunde. Wer zusätzlich einen Wochenplan mit Check-ins will, nimmt das Online Coaching ab 150€ im Monat dazu. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir in Altstadt-Süd?",
+        a: "Intervalle und Lauftechnik im Inneren Grüngürtel, Sprints und Sprungkraft am Rheinufer beim Rheinauhafen, Grundkraft bei Bedarf im Studio. Treffpunkt ist deine Haustür oder der Trainingsort.",
+      },
+      {
+        q: "Ich spiele nur hobbymäßig Fußball. Lohnt sich das?",
+        a: "Ja. Die meisten Verletzungen im Hobbysport passieren, weil Antritt und Stopp nie trainiert wurden. Zwei Einheiten pro Woche über drei Monate machen einen messbaren Unterschied in Tempo und Stabilität.",
+      },
+      {
+        q: "Was passiert bei Regen?",
+        a: "Trainiert wird trotzdem, nur anders: Kraft- und Technikanteile wandern nach drinnen, kurze intensive Außenblöcke bleiben. Ausfallen lasse ich Einheiten nicht, verschieben geht bis 24 Stunden vorher.",
+      },
+    ],
+  },
+
+  "hoehenberg/personal-training": {
+    answer:
+      "Personal Training in Köln-Höhenberg: 1-zu-1 bei dir zu Hause oder auf der Merheimer Heide am Westrand des Veedels, mit einem Plan, der dich wieder belastbar macht, für Sport, Schicht und Alltag. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Höhenberg: Training zu Hause oder auf der Merheimer Heide, wieder fit werden im Fußball-Veedel. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Im Veedel des Sportparks wird über Fitness nicht geredet, sondern gespielt",
+        body: "Höhenberg ist das Zuhause des Sportpark Höhenberg, hier spielt Viktoria Köln. Viele, die mich aus dem Veedel anfragen, haben selbst eine Fußball- oder Sportvergangenheit: früher Verein, dann Job, Familie, Pause. Der Körper erinnert sich an vieles, aber nicht an alles. Genau da setze ich an: Wir bauen erst die Basis wieder auf, Rumpf, Hüfte, Sprunggelenke, bevor es wieder schnell wird. Wer direkt wieder aufs Tempo von damals geht, holt sich die Zerrung, nicht die Form.",
+      },
+      {
+        title: "Die Heide beginnt, wo Höhenberg aufhört",
+        body: "Am östlichen Rand des Veedels liegt die Merheimer Heide, von den meisten Straßen Höhenbergs in wenigen Minuten erreichbar. Für dein Training ist sie der Platz für alles, was Raum braucht: Läufe, Intervalle, Übungen im Gehen und Springen. Die Kraftarbeit dagegen passiert dort, wo du wohnst. Ich bringe Material mit, ein paar freie Quadratmeter in der Wohnung reichen, auch in den Geschossbauten der Germaniasiedlung muss niemand erst einen Hobbyraum freiräumen.",
+      },
+      {
+        title: "Termine, die eine Schichtwoche überleben",
+        body: "Höhenberg arbeitet zu allen Uhrzeiten: Pflege, Handwerk, Logistik, Einzelhandel. Ein Trainingsplan, der nur den Dienstagabend kennt, scheitert hier in der zweiten Woche. Deshalb lege ich die Termine mit dir pro Woche neu, passend zur Schicht, und die Einheiten sind so gebaut, dass auch eine einzelne Stunde zählt. Dazu bekommst du zwei kurze Eigenprogramme von 15 bis 20 Minuten, die unabhängig von der Uhrzeit funktionieren.",
+      },
+      {
+        title: "Messbar besser in zwölf Wochen",
+        body: "Wir starten mit einem Check: Beweglichkeit, Grundkraft, Ausdauer. Danach trainierst du ein- bis zweimal pro Woche mit mir und einmal allein. Nach zwölf Wochen wird nachgemessen, mit denselben Tests wie am Anfang. Das Ziel formulierst du: wieder beim Betriebsturnier mitspielen, die Treppe zur Wohnung ohne Pause, zehn Kilo weniger auf der Waage. Mein Job ist, dass der Weg dahin in deine echte Woche passt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Höhenberg?",
+        a: "50€ pro 1-zu-1 Stunde, bei dir zu Hause oder auf der Merheimer Heide. Online Coaching mit Wochenplan gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Wo fangen wir an?",
+        a: "Mit einem ehrlichen Check statt mit Ehrgeiz. Die ersten Wochen gehören Rumpf, Gelenken und Technik. Erst wenn die Basis trägt, steigen Tempo und Last. So bleibt der Wiedereinstieg verletzungsfrei.",
+      },
+      {
+        q: "Brauche ich Geräte oder einen Studio-Vertrag?",
+        a: "Nein. Ich bringe das Material für das Training zu Hause mit. Ein Studio nehmen wir nur dazu, wenn dein Ziel schwere Langhantelarbeit verlangt, und auch das erst später.",
+      },
+      {
+        q: "Klappt das Training auch mit Wechselschicht?",
+        a: "Ja. Die Termine werden pro Woche gelegt, nicht als fester Wochentag. Frühschicht-Wochen trainieren nachmittags, Spätschicht-Wochen vormittags. Der Plan rechnet die Schicht ein, statt an ihr zu scheitern.",
+      },
+    ],
+  },
+
+  "lindenthal/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Lindenthal heißt gezieltes Krafttraining gegen die zwei häufigsten Rücken des Veedels: den vornübergebeugten aus Klinik und Praxis und den eingesunkenen vom Schreibtisch. 1-zu-1 bei dir zu Hause oder draußen am Stadtwald, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Lindenthal: Kraftaufbau gegen Schmerzen vom Stehen in Klinik und Praxis oder vom Schreibtisch. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Lindenthals Rücken arbeiten vornüber",
+        body: "Mit der Uniklinik und den vielen Praxen drumherum ist Lindenthal ein Veedel der Gesundheitsberufe, und deren Rücken leiden anders als der Büro-Rücken: stundenlanges Stehen, leicht vornübergebeugt am Bett, am Stuhl, am OP-Tisch, dazu Heben in ungünstigen Winkeln. Was dagegen hilft, ist nicht Schonung, sondern Kraft in der Gegenrichtung: Streckmuskulatur, Gesäß, hintere Schulter. Genau die trainieren wir, mit Zugübungen und Hüftstreckung, dosiert und steigerbar.",
+      },
+      {
+        title: "Der Schreibtisch-Rücken bekommt ein anderes Programm",
+        body: "Die zweite Gruppe in Lindenthal sitzt: Uni, Kanzleien, Homeoffice in der Altbauwohnung. Hier ist das Muster umgekehrt, die Hüfte verkürzt, der obere Rücken rundet ein, der Nacken übernimmt die Haltearbeit. Deshalb gibt es bei mir kein Einheitsprogramm gegen Rückenschmerzen. Im Erstgespräch schauen wir, welches Muster deines ist, und der Plan greift dort an. Zwei Menschen aus derselben Straße können bei mir zwei komplett verschiedene Pläne haben.",
+      },
+      {
+        title: "Der Stadtwald hilft, aber er trainiert nicht",
+        body: "Lindenthal hat mit dem Stadtwald und dem Aachener Weiher viel Platz zum Gehen, und Gehen tut einem gereizten Rücken gut: Durchblutung, Rhythmus, Stressabbau. Nur baut es keine Kraft auf. Die Kombination funktioniert so: zwei kurze Krafteinheiten pro Woche, die die Ursache angehen, plus deine Runden im Wald als aktive Erholung. Wer nur spaziert, verwaltet den Schmerz. Wer zusätzlich trainiert, wird ihn in den meisten Fällen los.",
+      },
+      {
+        title: "Klare Grenzen, klarer Ablauf",
+        body: "Rückentraining bei mir ist Training, keine Therapie. Bei Ausstrahlung ins Bein, Taubheit oder nach frischen Bandscheibenvorfällen gehört die erste Entscheidung zum Arzt, danach arbeite ich auf Wunsch mit dessen Vorgaben. Der Ablauf: Erstgespräch mit Bewegungs-Check, dann vier bis sechs Wochen Grundaufbau mit zwei Einheiten pro Woche, dann wird nachgemessen. Die meisten spüren in dieser Zeit den Unterschied beim Aufrichten, Stehen und Schlafen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Lindenthal?",
+        a: "50€ pro 1-zu-1 Stunde, bei dir zu Hause oder draußen am Stadtwald. Online Coaching mit Plan und Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite in der Pflege und stehe den ganzen Tag. Hilft Training da überhaupt?",
+        a: "Ja, gerade da. Stehen und Heben überlasten einen Rücken, der zu wenig Kraft in Streckern und Gesäß hat. Zwei gezielte Einheiten pro Woche bauen genau diese Kraft auf, die Beschwerden gehen in den meisten Fällen deutlich zurück.",
+      },
+      {
+        q: "Reichen die Rückenübungen aus dem Internet nicht?",
+        a: "Die Übungen sind selten das Problem, die Auswahl ist es. Ein Steh-Rücken braucht andere Schwerpunkte als ein Sitz-Rücken, und ohne saubere Ausführung reizt manche Übung mehr, als sie hilft. Genau das stelle ich im 1-zu-1 ein.",
+      },
+      {
+        q: "Wann sollte ich zuerst zum Arzt?",
+        a: "Bei Schmerzen, die ins Bein ausstrahlen, bei Taubheit oder Lähmungsgefühl, nach Unfällen und bei frischen Bandscheibenvorfällen. Mit ärztlichem Okay baue ich das Training danach entsprechend auf.",
+      },
+    ],
+  },
+
+  "longerich/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Longerich funktioniert auch mit Pendler-Kalender: zwei dichte Krafteinheiten pro Woche mit geplanter Steigerung schlagen vier halbherzige Studiobesuche. 1-zu-1 bei dir zu Hause oder im Studio, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Longerich: zwei effektive Krafteinheiten pro Woche für Pendler, Progression nach Zahlen, Eiweiß im Alltag. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Zwei Einheiten reichen, wenn sie zählen",
+        body: "Longerich ist ein Pendler-Veedel: S11 oder Linie 15 in die Stadt, abends zurück, dazwischen bleibt wenig. Die gute Nachricht für den Muskelaufbau: Mehr als zwei harte Krafteinheiten pro Woche braucht ein Einsteiger gar nicht, wenn Übungsauswahl und Steigerung stimmen. Was nicht funktioniert, ist das Gegenteil, viermal hin, Maschinenrunde ohne Plan, immer dieselben Gewichte. Muskeln wachsen von Steigerung, nicht von Anwesenheit.",
+      },
+      {
+        title: "Progression nach Zahlen: erst Wiederholungen, dann Gewicht",
+        body: "Bei mir trainierst du mit einem Log. Jede Übung hat eine Zielspanne, zum Beispiel 6 bis 10 Wiederholungen. Schaffst du die obere Grenze in allen Sätzen, steigt beim nächsten Mal das Gewicht, und du arbeitest dich wieder hoch. Dieses einfache System entscheidet über Erfolg oder Stillstand, und es ist genau das, was in Jahren unbegleiteten Trainings meist fehlt. Nach acht Wochen vergleichen wir die Zahlen vom Start, nicht den Blick in den Spiegel bei gutem Licht.",
+      },
+      {
+        title: "Ohne Essen wächst nichts",
+        body: "Der zweite Hebel ist Eiweiß: rund 1,6 bis 2 Gramm pro Kilo Körpergewicht am Tag, verteilt auf die Mahlzeiten. Für einen Pendlertag heißt das konkret: ein eiweißreiches Frühstück vor der S-Bahn, ein planbares Mittagessen, abends die größte Portion. Wenn du es genauer willst, rechnet Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, deinen Bedarf durch und baut ihn in deine echten Tage ein, nicht in einen Muster-Speiseplan.",
+      },
+      {
+        title: "Zuhause in Longerich oder im Studio",
+        body: "Beides geht. Für die ersten Monate reicht Training zu Hause völlig, ich bringe Kurzhanteln und Widerstandsmaterial mit, und Longerichs Wohnlagen haben fast überall den Platz dafür. Schwere Langhantelarbeit, Kniebeuge und Kreuzheben mit echter Last, verlegen wir später ins Studio, wenn dein Fortschritt sie verlangt. Die Reihenfolge ist bewusst so herum: erst Technik und Gewohnheit, dann Eisen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Longerich?",
+        a: "50€ pro 1-zu-1 Stunde, zu Hause oder im Studio. Online Coaching mit Trainingsplan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie lange dauert es, bis man Muskeln sieht?",
+        a: "Kraftzuwachs merkst du nach drei bis vier Wochen, sichtbare Veränderung braucht bei konsequentem Training und passendem Eiweiß meist drei Monate. Deshalb messen wir Umfänge und Gewichte, die zeigen den Fortschritt früher als der Spiegel.",
+      },
+      {
+        q: "Bin über 40, lohnt sich Muskelaufbau noch?",
+        a: "Mehr denn je. Ab etwa 40 verliert der Körper ohne Training schleichend Muskelmasse. Krafttraining dreht das um, auch bei spätem Einstieg. Die Pläne unterscheiden sich kaum, nur Aufwärmen und Steigerungstempo sind angepasst.",
+      },
+      {
+        q: "Muss ich dafür ins Fitnessstudio?",
+        a: "Nein. Die ersten Monate funktionieren komplett zu Hause mit mitgebrachtem Material. Ins Studio gehen wir erst, wenn du an Lasten arbeitest, die sich mit Kurzhanteln nicht mehr abbilden lassen.",
+      },
+    ],
+  },
+
+  "nippes/personal-training": {
+    answer:
+      "Personal Training in Köln-Nippes kommt dorthin, wo dein Tag sowieso stattfindet: zu dir nach Hause, ins Nippeser Tälchen oder in den Johannes-Giesberts-Park, als feste 60 Minuten zwischen Job, Kita und Wilhelmplatz. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Nippes: 1-zu-1 zu Hause, im Tälchen oder im Johannes-Giesberts-Park, feste Termine für volle Wochen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel, das zu Fuß lebt, und ein Training, das das nutzt",
+        body: "Nippes drängt 36.913 Menschen auf 2,98 km², und fast alles passiert hier ohne Auto: Markt auf dem Wilhelmplatz, Kita um die Ecke, Bahn an der Neusser Straße. Dein Training funktioniert genauso. Ich komme zu deiner Haustür, und trainiert wird in der Wohnung, im Nippeser Tälchen oder im Johannes-Giesberts-Park, je nachdem, was näher liegt und was der Plan gerade braucht. Kein Anfahrtsweg, kein Parkplatzsuchen, keine verlorene halbe Stunde vor und nach der Einheit.",
+      },
+      {
+        title: "Die 60 Minuten, die im Familienkalender halten",
+        body: "Die häufigste Anfrage aus Nippes kommt von Eltern zwischen 30 und 45: Der Sport ist seit dem ersten Kind weg, die Abende gehören der Familie, das Studio-Abo läuft ungenutzt. Meine Antwort ist ein fester Slot, der sich nach dem Familienplan richtet, morgens nach der Kita-Übergabe, mittags im Homeoffice-Fenster oder abends, wenn beide Eltern da sind. Eine Stunde, vorbereitet von mir, ohne dass du davor oder danach etwas organisieren musst.",
+      },
+      {
+        title: "Erst die Grundlagen, dann dein Ziel",
+        body: "Nach Jahren Pause starten wir nicht mit deinem alten Trainingsplan, sondern mit einem Check: Wie bewegen sich Hüfte und Schultern, wie stabil ist der Rumpf, wo steht die Ausdauer. Darauf baue ich die ersten sechs Wochen auf. Danach bekommt das Training deine Richtung: Kraft, Abnehmen, wieder schmerzfrei sitzen und tragen, oder einfach die Energie zurück, die zwischen Job und Kindern verloren ging. Gemessen wird regelmäßig, damit du den Fortschritt schwarz auf weiß siehst.",
+      },
+      {
+        title: "Wenn die Woche platzt, fängt der Plan das auf",
+        body: "Krankes Kind, Dienstreise, ausgefallene Betreuung: In Familienwochen ist nicht der Wille das Problem, sondern der Kalender. Deshalb bekommst du von mir neben den gemeinsamen Einheiten zwei kurze Programme für zu Hause, 15 bis 20 Minuten, machbar mit Kind im Nebenzimmer. Und ein Termin, der platzt, wird verschoben statt gestrichen. So überlebt das Training auch die Wochen, in denen sonst alles hinten runterfällt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Nippes?",
+        a: "50€ pro 1-zu-1 Stunde, bei dir zu Hause oder draußen im Veedel. Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo trainieren wir in Nippes?",
+        a: "In deiner Wohnung mit mitgebrachtem Material, im Nippeser Tälchen oder im Johannes-Giesberts-Park. Den Ort legen wir nach Wohnlage und Trainingsphase fest, der Treffpunkt ist immer deine Haustür.",
+      },
+      {
+        q: "Geht Training auch morgens vor der Arbeit?",
+        a: "Ja. Gerade in Nippes sind die frühen Slots gefragt, direkt nach der Kita-Übergabe oder vor dem ersten Termin im Homeoffice. Auch Mittagsfenster funktionieren, die Einheit ist auf 60 Minuten von Haustür zu Haustür gebaut.",
+      },
+      {
+        q: "Ich war seit Jahren nicht mehr im Training. Ist das ein Problem?",
+        a: "Nein, das ist der Normalfall. Der Einstieg beginnt mit einem ruhigen Check und Übungen auf deinem heutigen Stand. Die Steigerung kommt aus dem Plan, nicht aus dem Druck der ersten Woche.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
