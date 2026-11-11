@@ -121,14 +121,22 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 113 | /koeln/nippes/ems-alternative | 0 | 6 | 8,8 | FATTA (giro 30, 11/11; pos buona, rafforzata) |
 | 114 | /koeln/porz/rueckentraining | 0 | 6 | 11,8 | FATTA (giro 31, 11/11) |
 | 115 | /koeln/roggendorf-thenhoven/personal-training | 0 | 6 | 4,3 | FATTA (giro 31, 11/11) |
-| 116 | /koeln/vogelsang/muskelaufbau | 0 | 6 | 8,0 | in coda (pos buona: rafforzare) |
-| 117 | /koeln/vogelsang/personal-training | 0 | 6 | 21,2 | in coda |
-| 118 | /koeln/altstadt-nord/ernaehrungsberatung | 0 | 6 | 1,0 | in coda (pos 1: rafforzare con massima prudenza) |
-| 119 | /koeln/bayenthal/online-coaching | 0 | 6 | 6,3 | in coda (pos buona: rafforzare) |
-| 120 | /koeln/bilderstoeckchen/ernaehrungsberatung | 0 | 6 | 43,2 | in coda |
-| 121 | /koeln/blumenberg/muskelaufbau | 0 | 6 | 4,2 | in coda (pos ottima: rafforzare con molta prudenza) |
+| 116 | /koeln/vogelsang/muskelaufbau | 0 | 6 | 8,0 | FATTA (giro 32, 11/11) |
+| 117 | /koeln/vogelsang/personal-training | 0 | 6 | 21,2 | FATTA (giro 32, 11/11) |
+| 118 | /koeln/altstadt-nord/ernaehrungsberatung | 0 | 6 | 1,0 | FATTA (giro 32, 11/11) |
+| 119 | /koeln/bayenthal/online-coaching | 0 | 6 | 6,3 | FATTA (giro 32, 11/11) |
+| 120 | /koeln/bilderstoeckchen/ernaehrungsberatung | 0 | 6 | 43,2 | FATTA (giro 32, 11/11) |
+| 121 | /koeln/blumenberg/muskelaufbau | 0 | 6 | 4,2 | FATTA (giro 32, 11/11) |
+| 122 | /koeln/buchheim/muskelaufbau | 0 | 6 | 4,3 | in coda (pos ottima: rafforzare con molta prudenza) |
+| 123 | /koeln/dellbrueck/abnehmen | 0 | 6 | 9,7 | in coda (pos buona: rafforzare) |
+| 124 | /koeln/dellbrueck/ems-alternative | 0 | 6 | 15,2 | in coda |
+| 125 | /koeln/fuehlingen/ernaehrungsberatung | 0 | 6 | 11,0 | in coda |
+| 126 | /koeln/niehl/online-coaching | 0 | 6 | 11,0 | in coda |
+| 127 | /koeln/pesch/ems-alternative | 0 | 6 | 7,3 | in coda (pos buona: rafforzare) |
+| 128 | /koeln/pesch/rueckentraining | 0 | 6 | 6,7 | in coda (pos buona: rafforzare) |
+| 129 | /koeln/weidenpesch/abnehmen | 0 | 6 | 39,2 | in coda |
 
-Righe 31-42 entrate l'8/11/2026 (giro 13) col riaggiornamento GSC (query page 90gg, somma due proprietà; 338 pagine intent con almeno 1 impressione). Righe 43-49 entrate il 9/11/2026 (giro 16) con lo stesso riaggiornamento. Righe 50-57 entrate il 9/11/2026 (giro 19, stesso riaggiornamento, 338 pagine con impressioni): elsdorf e marienburg recuperate in coda e fatte nello stesso giro. Righe 58-65 entrate il 10/11/2026 (giro 20, stesso riaggiornamento, 337 pagine con impressioni). Righe 66-73 entrate il 10/11/2026 (giro 21, stesso riaggiornamento, 337 pagine con impressioni; nota: nel riaggiornamento del giro 21 rodenkirchen/abnehmen e wahn/ern sono scese sotto merheim/pt per impressioni, l'ordine della coda resta quello delle righe già assegnate). Righe 74-81 entrate il 10/11/2026 (giro 22, stesso riaggiornamento, 339 pagine con impressioni). Righe 82-89 entrate il 10/11/2026 (giro 24, stesso riaggiornamento, 339 pagine con impressioni). Righe 90-97 entrate l'11/11/2026 (giro 25, riaggiornamento GSC a 90gg, 338 pagine intent con impressioni). Righe 98-105 entrate l'11/11/2026 (giro 26, riaggiornamento GSC a 90gg, 338 pagine intent con impressioni). Righe 106-113 entrate l'11/11/2026 (giro 27, riaggiornamento GSC a 90gg, 338 pagine intent con impressioni). Righe 114-121 entrate l'11/11/2026 (giro 30, riaggiornamento GSC a 90gg, 340 pagine intent con impressioni; 227 candidate restanti non ancora in coda, tutte a 6 impressioni o meno).
+Righe 31-42 entrate l'8/11/2026 (giro 13) col riaggiornamento GSC (query page 90gg, somma due proprietà; 338 pagine intent con almeno 1 impressione). Righe 43-49 entrate il 9/11/2026 (giro 16) con lo stesso riaggiornamento. Righe 50-57 entrate il 9/11/2026 (giro 19, stesso riaggiornamento, 338 pagine con impressioni): elsdorf e marienburg recuperate in coda e fatte nello stesso giro. Righe 58-65 entrate il 10/11/2026 (giro 20, stesso riaggiornamento, 337 pagine con impressioni). Righe 66-73 entrate il 10/11/2026 (giro 21, stesso riaggiornamento, 337 pagine con impressioni; nota: nel riaggiornamento del giro 21 rodenkirchen/abnehmen e wahn/ern sono scese sotto merheim/pt per impressioni, l'ordine della coda resta quello delle righe già assegnate). Righe 74-81 entrate il 10/11/2026 (giro 22, stesso riaggiornamento, 339 pagine con impressioni). Righe 82-89 entrate il 10/11/2026 (giro 24, stesso riaggiornamento, 339 pagine con impressioni). Righe 90-97 entrate l'11/11/2026 (giro 25, riaggiornamento GSC a 90gg, 338 pagine intent con impressioni). Righe 98-105 entrate l'11/11/2026 (giro 26, riaggiornamento GSC a 90gg, 338 pagine intent con impressioni). Righe 106-113 entrate l'11/11/2026 (giro 27, riaggiornamento GSC a 90gg, 338 pagine intent con impressioni). Righe 114-121 entrate l'11/11/2026 (giro 30, riaggiornamento GSC a 90gg, 340 pagine intent con impressioni; 227 candidate restanti non ancora in coda, tutte a 6 impressioni o meno). Righe 122-129 entrate l'11/11/2026 (giro 32, riaggiornamento GSC a 90gg, 340 pagine intent con impressioni; 219 candidate restanti, tutte a 6 impressioni o meno).
 
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
 
