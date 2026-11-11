@@ -4456,6 +4456,135 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "muelheim/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Mülheim hat sein Gelände direkt am Wasser: Schnellkraft an den Rampen der Mülheimer Brücke und der Hafenbrücke, Tempoläufe auf der langen Ufergeraden, Tests alle vier bis sechs Wochen. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Mülheim: Rampensprints an Mülheimer Brücke und Hafenbrücke, Tempoläufe am Rheinufer, messbare Tests. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Rampen statt Berge: Schnellkraft am Brückenkopf",
+        body: "Mülheim ist flach, aber seine Brücken ersetzen den Hügel. Die Auffahrtsrampen der Mülheimer Brücke und der geschwungenen Hafenbrücke am Mülheimer Hafen sind gleichmäßig geneigt und genau lang genug für Steigungssprints: sechs bis zehn Sekunden Vollgas bergauf, gehend zurück, wieder hoch. Bergauf beschleunigen zwingt in die Streckung und baut Antritt auf, ohne die Achillessehne so zu reizen wie flache Vollsprints. Zwei Serien pro Woche verändern den ersten Schritt spürbar.",
+      },
+      {
+        title: "Die Ufergerade ist deine Messstrecke",
+        body: "Für Tempoläufe und Intervalle nutzen wir die lange, flache Gerade am Mülheimer Rheinufer. Sie ist frei von Ampeln und immer gleich, deshalb dienen feste Abschnitte dort als Teststrecke: alle vier bis sechs Wochen laufe ich mit dir dieselben Distanzen auf Zeit, dazu kommen Sprunghöhe und ein Rumpftest. Trainiert wird nach diesen Zahlen, nicht nach Gefühl, und du siehst schwarz auf weiß, ob der Plan arbeitet.",
+      },
+      {
+        title: "Kraft im Studio, Termine für die Schäl Sick",
+        body: "Die zweite Einheit der Woche gehört der Kraft: Kniebeugen, Zugübungen, Sprungkraftaufbau an der Langhantel im Studio. Beides plane ich rechtsrheinisch und zeitlich um deinen Tag herum, auch früh morgens oder am späten Abend, denn wer in Mülheim wohnt, hat selten Lust, für Sport noch einmal über den Rhein zu fahren. Zwischen den Terminen bleiben dir kurze Hausaufgaben von 15 bis 20 Minuten.",
+      },
+      {
+        title: "Für Vereinssportler und Wiedereinsteiger im Kölner Osten",
+        body: "Typische Anfragen aus Mülheim, Buchheim und Stammheim: Fußballer, die im Antritt verlieren, Läufer mit Zielzeit, Berufstätige, die nach Jahren wieder belastbar werden wollen. Das Niveau setzt der Technik-Check im kostenlosen Erstgespräch, von dort an wird gesteigert. Athletiktraining heißt hier nicht Leistungssport, sondern: schneller, stabiler, belastbarer werden, mit Zahlen als Beleg.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Mülheim?",
+        a: "50€ pro 1-zu-1 Stunde, das Erstgespräch ist kostenlos. Wer eigenständig weitertrainiert, nimmt das Online Coaching ab 150€ im Monat mit Plan per App und wöchentlichen Check-ins.",
+      },
+      {
+        q: "Wo genau trainieren wir in Mülheim?",
+        a: "Steigungssprints an den Rampen der Mülheimer Brücke und der Hafenbrücke, Tempoläufe und Tests auf der Ufergeraden, Kraft und Sprungkraftaufbau im Studio. Hürden, Markierungen und Bänder bringe ich mit.",
+      },
+      {
+        q: "Sind Rampensprints nicht zu hart für den Einstieg?",
+        a: "Die Rampe dosiert sich von selbst: aus Sprints werden zügige Bergaufgänge, aus zehn Sekunden werden sechs. Die Steigung schützt dabei sogar, weil sie das Tempo begrenzt und die Landung weicher macht als flaches Sprinten.",
+      },
+      {
+        q: "Wie schnell sehe ich messbare Fortschritte?",
+        a: "Bei zwei Einheiten pro Woche bewegen sich Sprintzeiten und Sprunghöhe meist nach vier bis sechs Wochen. Gemessen wird immer auf denselben Uferabschnitten, damit die Werte vergleichbar bleiben.",
+      },
+    ],
+  },
+
+  "weiden/personal-training": {
+    answer:
+      "Personal Training in Köln-Weiden ohne zweite Fahrt am Tag: zwei feste 1-zu-1 Termine pro Woche bei dir zu Hause oder draußen am Feldrand Richtung Widdersdorf, geplant um Linie 1 und S-Bahn herum. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "1-zu-1 Personal Training in Köln-Weiden: Termine bei dir zu Hause, geplant um Pendelzeiten, Outdoor am Feldrand. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Tag pendelt, das Training nicht",
+        body: "Weiden liegt am westlichen Stadtrand: 17.795 Einwohner, und ein großer Teil davon fährt morgens mit der Linie 1 oder ab Weiden West stadteinwärts. Wer abends zurückkommt, steigt nicht noch einmal in die Bahn, um zu trainieren, und genau daran scheitern die meisten Vorsätze. Deshalb drehe ich es um: das Training findet in Weiden statt, bei dir zu Hause, im Garten oder draußen am Ortsrand. Keine Anfahrt, keine Ausrede.",
+      },
+      {
+        title: "Was eine Stunde bei dir leistet",
+        body: "Kurzhanteln, Bänder und bei Bedarf eine Bank bringe ich mit, mehr braucht ein sauber geplanter Kraftaufbau nicht. Jede Übung wird technisch aufgebaut, jedes Gewicht notiert, gesteigert wird nach Protokoll. Für die Ausdauer- und Outdoor-Anteile nutzen wir die Feldwege zwischen Weiden und Widdersdorf: flach, ruhig, direkt vor der Tür. Alle vier Wochen schauen wir gemeinsam auf Kraftwerte, Gewicht und Umfänge.",
+      },
+      {
+        title: "Zwei feste Termine, die der Familienkalender übersteht",
+        body: "In Weiden fragen vor allem Berufstätige mit Familie an, Mitte dreißig bis Ende fünfzig. Der Kalender ist voll, also bekommen die zwei Wochentermine feste Plätze: früh, bevor das Haus wach ist, oder abends, wenn die Kinder versorgt sind. Fällt ein Termin aus, wird er in derselben Woche verschoben statt gestrichen. Diese Verlässlichkeit, nicht das perfekte Programm, entscheidet nach drei Monaten über das Ergebnis.",
+      },
+      {
+        title: "Ernährung dazu, wenn du mehr willst",
+        body: "Wenn Abnehmen oder Muskelaufbau das Ziel ist, reicht Training allein selten. Natalie, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, plant auf Wunsch deine Woche um den Großeinkauf herum, der im Kölner Westen meist am Samstag passiert. Beides zusammen, Training vor Ort und Ernährungssteuerung online, greift schneller als jede Diät allein. Der Einstieg ist in jedem Fall ein kostenloses Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Weiden?",
+        a: "50€ pro 1-zu-1 Stunde bei dir zu Hause oder draußen. Die Erstberatung ist kostenlos. Für die eigenständige Variante gibt es das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Brauche ich Geräte oder Platz zu Hause?",
+        a: "Nein. Ein paar Quadratmeter im Wohnzimmer oder Garten reichen, das Material bringe ich mit. Wer dauerhaft zu Hause trainieren will, bekommt eine kurze Einkaufsliste, die unter dem Preis eines Jahres Studiobeitrag bleibt.",
+      },
+      {
+        q: "Wann finden die Termine statt?",
+        a: "Dort, wo dein Pendeltag Platz lässt: früh morgens vor der Bahn oder abends nach der Rückfahrt. Die beiden Wochentermine stehen fest und werden bei Ausfall in derselben Woche nachgeholt.",
+      },
+      {
+        q: "Trainieren wir auch draußen?",
+        a: "Ja, auf den Feldwegen am Ortsrand Richtung Widdersdorf und Lövenich: Geh- und Laufintervalle, Zirkel mit dem eigenen Körpergewicht. Im Winter verschiebt sich der Mix nach drinnen, der Plan bleibt derselbe.",
+      },
+    ],
+  },
+
+  "weidenpesch/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Weidenpesch heißt gezielter Kraftaufbau in zwei Einheiten pro Woche, vor allem über Zugübungen. Die Runden durch den Weidenpescher Park und an der Rennbahn bleiben als Ausgleich, aber stark wird der Rücken unter Last. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Weidenpesch: Kraftaufbau mit Zugübungen in zwei Einheiten pro Woche, der Weidenpescher Park als Ausgleich. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Viel Bewegung, trotzdem Schmerzen: das Weidenpescher Muster",
+        body: "Weidenpesch ist zum Gehen gebaut: der Weidenpescher Park, die Wege rund um die Galopprennbahn, der Grünzug Richtung Niehl. Viele, die hier anfragen, bewegen sich längst jeden Tag und wundern sich, dass der Rücken trotzdem meldet. Die Erklärung ist unbequem, aber einfach: Gehen hält den Rücken geschmeidig und baut Stress ab, es macht ihn aber nicht stärker. Ein Rumpf, der acht Stunden Schreibtisch oder Schicht tragen soll, braucht Last, keine Schritte.",
+      },
+      {
+        title: "Zug schlägt Schonung",
+        body: "Der schmerzende Rücken ist meist der untrainierte, nicht der überlastete. Deshalb steht Ziehen im Zentrum: Rudern mit Kurzhantel und Band, Hüftstrecken, Rumänisches Kreuzheben in sauber gesteigerter Dosierung, dazu Rumpfarbeit gegen das Einsinken. Zwei Einheiten pro Woche à 60 Minuten, jedes Gewicht im Protokoll. Die meisten spüren nach vier bis sechs Wochen, dass langes Sitzen und Tragen aufhören, ein Thema zu sein.",
+      },
+      {
+        title: "Der Park bleibt im Plan, aber mit anderer Rolle",
+        body: "Deine Runde durch den Weidenpescher Park musst du nicht aufgeben, sie bekommt nur eine neue Aufgabe: aktive Erholung an den Tagen zwischen den Krafteinheiten, zwanzig bis vierzig Minuten zügiges Gehen, das die Muskulatur durchblutet und den Kopf leert. Trainiert wird bei dir zu Hause oder im Studio; für die Einheiten daheim bringe ich Hanteln und Bänder mit, ein paar Quadratmeter reichen.",
+      },
+      {
+        title: "Erst der Check, dann die Last",
+        body: "Vor der ersten Einheit steht ein Beweglichkeits- und Kraft-Check: Hüfte, Brustwirbelsäule, Rumpf. Danach weißt du, wo dein Rücken wirklich schwach ist, und der Plan setzt genau dort an. Klare Grenze: akute Schmerzen mit Ausstrahlung ins Bein, Taubheit oder nächtlicher Schmerz gehören zuerst zum Arzt. Trainiert wird, was belastbar ist, und das wächst von Woche zu Woche. Der Einstieg ist ein kostenloses Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Weidenpesch?",
+        a: "50€ pro 1-zu-1 Stunde, bei dir zu Hause oder im Studio. Das Erstgespräch mit Beweglichkeits-Check ist kostenlos. Eigenständige Steuerung gibt es im Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Ich gehe schon jeden Tag spazieren. Warum reicht das nicht?",
+        a: "Gehen entlastet und hält beweglich, aber es setzt keinen Kraftreiz. Ein Rücken wird stärker, wenn er gegen Widerstand zieht und streckt, und genau das trainieren wir zweimal pro Woche. Die Parkrunde bleibt als Erholung im Plan.",
+      },
+      {
+        q: "Mein Rücken schmerzt aktuell. Kann ich trotzdem anfangen?",
+        a: "Bei unspezifischem Schmerz ohne Warnsignale ist dosiertes Training meist genau das Richtige, der Check am Anfang legt die Startlast fest. Bei Ausstrahlung ins Bein, Taubheit oder Nachtschmerz gehst du zuerst zum Arzt, danach bauen wir auf dem Befund auf.",
+      },
+      {
+        q: "Trainieren wir im Weidenpescher Park?",
+        a: "Die Krafteinheiten laufen drinnen, bei dir zu Hause oder im Studio, weil saubere Zugübungen Gerät brauchen. Der Park übernimmt die Tage dazwischen: zügiges Gehen als aktive Erholung, bei Bedarf mit kurzen Mobility-Stopps.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
