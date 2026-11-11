@@ -119,8 +119,8 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 111 | /koeln/holweide/abnehmen | 0 | 6 | 53,8 | FATTA (giro 30, 11/11) |
 | 112 | /koeln/junkersdorf/personal-training | 0 | 6 | 8,0 | FATTA (giro 30, 11/11; pos buona e quartiere con 1 richiesta: rafforzata con molta prudenza) |
 | 113 | /koeln/nippes/ems-alternative | 0 | 6 | 8,8 | FATTA (giro 30, 11/11; pos buona, rafforzata) |
-| 114 | /koeln/porz/rueckentraining | 0 | 6 | 11,8 | in coda (pos buona: rafforzare) |
-| 115 | /koeln/roggendorf-thenhoven/personal-training | 0 | 6 | 4,3 | in coda (pos ottima: rafforzare con molta prudenza) |
+| 114 | /koeln/porz/rueckentraining | 0 | 6 | 11,8 | FATTA (giro 31, 11/11) |
+| 115 | /koeln/roggendorf-thenhoven/personal-training | 0 | 6 | 4,3 | FATTA (giro 31, 11/11) |
 | 116 | /koeln/vogelsang/muskelaufbau | 0 | 6 | 8,0 | in coda (pos buona: rafforzare) |
 | 117 | /koeln/vogelsang/personal-training | 0 | 6 | 21,2 | in coda |
 | 118 | /koeln/altstadt-nord/ernaehrungsberatung | 0 | 6 | 1,0 | in coda (pos 1: rafforzare con massima prudenza) |

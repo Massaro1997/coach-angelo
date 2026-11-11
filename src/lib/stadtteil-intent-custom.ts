@@ -5099,6 +5099,100 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "porz/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Porz heißt: gezielter Kraftaufbau für Rumpf und hintere Kette in zwei Einheiten pro Woche, bei dir zu Hause oder im Studio, dazu das Rheinufer Porz für den aktiven Ausgleich. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Porz: Kraft für Rumpf und hintere Kette, sauberes Heben statt Schonung, Ausgleich am Rheinufer. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In Porz meldet sich der Rücken oft trotz Bewegung",
+        body: "Porz ist das Zentrum des rechtsrheinischen Südens, 15.155 Menschen auf 3,12 km², und viele davon arbeiten körperlich: Lager, Handwerk, Pflege, Fahrdienste. Wer hier wegen Rückenschmerzen anfragt, sitzt selten den ganzen Tag. Das Problem ist ein anderes: Der Rücken trägt und hebt seit Jahren, aber ohne Ausgleich und ohne dass die Kraft planmäßig mitwächst. Die Lösung ist nicht Schonung, sondern ein Rumpf und eine hintere Kette, die stärker sind als das, was der Alltag von ihnen verlangt.",
+      },
+      {
+        title: "Heben lernen statt Heben vermeiden",
+        body: "Der Kern des Trainings sind die Bewegungen, die im Alltag wehtun, in sauberer Form und mit kontrollierter Steigerung: Kreuzheben-Varianten, Rudern, Tragen über Strecke. Du lernst, aus Hüfte und Beinen zu heben statt aus dem unteren Rücken, erst mit leichtem Gewicht, dann messbar schwerer. Nach ein paar Wochen merkst du das nicht im Studio, sondern beim Kasten Wasser und bei der Schicht. Eine klare Grenze gibt es: Bei akuten Schmerzen gehört der erste Weg zum Arzt, das Training beginnt erst, wenn Belastung freigegeben ist.",
+      },
+      {
+        title: "Zu Hause, im Studio, und das Rheinufer als Ausgleich",
+        body: "Die Krafteinheiten machen wir bei dir zu Hause, ich bringe Kurzhanteln, Bänder und das übrige Material mit, oder im Studio an der Langhantel. Für die Tage dazwischen hat Porz einen Vorteil, den viele unterschätzen: die flachen Wege am Rheinufer Porz. Zügiges Gehen dort ist der beste aktive Ausgleich für einen gereizten Rücken, kostet nichts und lässt sich auch nach einer Spätschicht noch unterbringen. Im Plan steht es als fester Baustein, nicht als netter Vorschlag.",
+      },
+      {
+        title: "So startest du in Porz",
+        body: "Am Anfang steht ein kostenloses Erstgespräch mit Beweglichkeits- und Kraftcheck: Wie bückst du dich, wie hebst du, wo zwickt es. Daraus entsteht ein Plan mit zwei geführten Einheiten pro Woche und kurzen Hausaufgaben von 10 bis 15 Minuten. Nach vier bis sechs Wochen vergleichen wir die Werte vom Anfang. Wenn sich Kraft und Beschwerden nicht bewegen, ändere ich den Plan, nicht die Ausrede.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Porz?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Wer lieber mit Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Hilft Rückentraining auch, wenn ich körperlich arbeite?",
+        a: "Gerade dann. Wer im Job hebt und trägt, braucht keinen geschonten Rücken, sondern einen, der mehr verträgt als die Schicht verlangt. Das Training macht genau diese Reserve planmäßig größer.",
+      },
+      {
+        q: "Ich habe gerade akute Rückenschmerzen. Kann ich trotzdem anfangen?",
+        a: "Nein, erst zum Arzt. Training ersetzt keine Diagnose. Sobald Belastung freigegeben ist, bauen wir die Kraft Schritt für Schritt wieder auf, das ist der Teil, den ich übernehme.",
+      },
+      {
+        q: "Wo trainieren wir in Porz?",
+        a: "Zu Hause mit mitgebrachtem Material oder im Studio. Das zügige Gehen am Rheinufer Porz kommt als Ausgleich an den trainingsfreien Tagen dazu.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche für den Rücken?",
+        a: "Ja, wenn sie geplant sind und die Hausaufgaben dazwischen stehen. Mehr Umfang bringt beim Rückentraining selten mehr, sauberere Steigerung dagegen fast immer.",
+      },
+    ],
+  },
+
+  "roggendorf-thenhoven/personal-training": {
+    answer:
+      "Personal Training in Roggendorf/Thenhoven heißt: 1-zu-1 Krafttraining bei dir zu Hause, ich bringe das Material mit, und für die Ausdauer liegt der Chorbusch direkt am Ortsrand. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Roggendorf/Thenhoven: 1-zu-1 bei dir zu Hause mit mitgebrachtem Material, Ausdauer im Chorbusch. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Zwei Dörfer, kein Studio, trotzdem volles Training",
+        body: "Roggendorf/Thenhoven ist einer der dünnsten besiedelten Stadtteile Kölns: 4.784 Menschen auf 13,76 km², zwei Ortsteile mit dörflichem Kern, ganz im Nordwesten der Stadt. Ein Fitnessstudio gibt es im Veedel nicht, jede Einheit anderswo beginnt mit einer Autofahrt. Deshalb drehe ich es um: Das Training kommt zu dir. Kurzhanteln, Bänder, Matte und was sonst nötig ist, bringe ich mit, und ein paar Quadratmeter in Wohnzimmer, Garage oder Garten reichen für sauberes Krafttraining mit Steigerung.",
+      },
+      {
+        title: "Der Chorbusch ist deine Ausdauerstrecke",
+        body: "Am Rand des Stadtteils beginnt der Chorbusch, eines der großen Waldgebiete im Kölner Nordwesten. Die Wege dort sind flach, ruhig und lang genug für alles von lockeren Grundlagenläufen bis zu Intervallen. Für die Einheiten draußen ist das ein besserer Trainingsort als jedes Laufband: messbare Strecken, weicher Boden, keine Wartezeit an Geräten. Wer lieber geht statt läuft, nutzt dieselben Wege für zügige Runden mit klarer Zeitvorgabe.",
+      },
+      {
+        title: "Ein Plan, der das Pendeln übersteht",
+        body: "Wer hier wohnt, arbeitet selten um die Ecke. Lange Arbeitstage plus Fahrtzeit sind der Normalfall, und genau daran scheitern die meisten Studio-Anläufe: Nach der Rückfahrt noch einmal losfahren passiert auf Dauer nicht. Das Heimtraining spart diese zweite Fahrt komplett. Zwei feste Termine pro Woche, früh morgens oder am Abend bei dir, dazu kurze Hausaufgaben für die Tage dazwischen. Alle vier bis sechs Wochen vergleichen wir die Zahlen vom Start, damit du siehst, dass sich etwas bewegt.",
+      },
+      {
+        title: "Für wen das in Roggendorf/Thenhoven passt",
+        body: "Die typischen Anfragen aus den Dörfern im Kölner Norden kommen von Wiedereinsteigern, von Eltern, die das Training um Familie und Arbeit herum legen müssen, und von Leuten ab 40, die Kraft aufbauen wollen, bevor der Rücken oder die Knie entscheiden. Ehrlich gesagt: Wer die Gerätevielfalt eines Großstudios will, wird mit Heimtraining nicht glücklich. Wer Ergebnisse will, braucht aber keine 50 Maschinen, sondern eine Handvoll Übungen, die Woche für Woche schwerer werden, und jemanden, der das kontrolliert.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Roggendorf/Thenhoven?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€. Das Online Coaching mit Trainingsplan per App und wöchentlichen Video-Check-ins gibt es ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Nein. Ich bringe Kurzhanteln, Bänder und das übrige Material mit. Ein paar freie Quadratmeter reichen, auch in der Garage oder im Garten.",
+      },
+      {
+        q: "Kommst du nach Roggendorf und nach Thenhoven?",
+        a: "Ja, in beide Ortsteile. Trainiert wird bei dir zu Hause oder draußen, zum Beispiel auf den Wegen im Chorbusch.",
+      },
+      {
+        q: "Geht auch reines Online Coaching?",
+        a: "Ja, ab 150€ im Monat: Plan in der App, wöchentlicher Video-Check-in, Anpassung nach deinen Werten. Das passt gut, wenn deine Wochen durch Pendeln oder Dienstreisen unplanbar sind.",
+      },
+      {
+        q: "Wie schnell sehe ich erste Ergebnisse?",
+        a: "Die ersten Wochen verbessern vor allem Technik und Ansteuerung, ab Woche vier bis sechs steigen die Gewichte messbar. Wir vergleichen regelmäßig mit deinen Startwerten, versprochen wird nichts, gemessen alles.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
