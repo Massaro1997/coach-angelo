@@ -6654,6 +6654,161 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "wahn/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Wahn ist für Wochen gebaut, die du nicht selbst bestimmst: Dein Plan reist mit, jede Einheit gibt es auch als Hotel-Fassung ohne Geräte, Check-ins laufen dann, wenn du Zeit hast. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Wahn: Plan, der Dienstreisen und wechselnde Wochen übersteht, jede Einheit auch ohne Geräte, Check-ins wann du kannst. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Dein Plan reist mit, statt zu Hause zu warten",
+        body: "Rund um Wahn arbeiten viele Menschen in Jobs, die den Kalender diktieren: der Flughafen Köln/Bonn liegt ein paar Minuten entfernt, die Luftwaffenkaserne direkt nebenan in Wahnheide. Dienstreise, Lehrgang, kurzfristige Planänderung, und der feste Studiotermin ist weg. Deshalb bekommst du von mir jede Trainingswoche doppelt: eine Fassung für zu Hause mit dem, was du da hast, und eine Hotel-Fassung, die in einem Zimmer mit drei Quadratmetern freier Fläche funktioniert. Du entscheidest morgens, welche dran ist. Die Woche zählt trotzdem.",
+      },
+      {
+        title: "Check-ins ohne festen Termin",
+        body: "Einmal pro Woche schauen wir gemeinsam auf deine Einheiten, dein Gewicht und dein Essen. Wenn ein Videotermin in deine Woche passt, machen wir einen. Wenn nicht, schickst du mir deine Rückmeldung, wenn du am Gate sitzt oder abends im Quartier bist, und bekommst meine Antwort als Audio zurück. Entscheidend ist nicht, wann wir sprechen, sondern dass jede Woche jemand deine Daten liest und den Plan anpasst, bevor sich Fehler einschleifen.",
+      },
+      {
+        title: "Wenn du da bist, nutzen wir die Wahner Heide",
+        body: "In den Wochen zu Hause baue ich dir Läufe und zügige Geh-Einheiten am Rand der Wahner Heide in den Plan, eines der größten Naturschutzgebiete im Kölner Süden, ein paar Minuten von der Haustür. So besteht dein Training nicht nur aus Zimmerübungen: Kraft drinnen, Ausdauer draußen, und in Reisewochen hält die Hotel-Fassung das Niveau, bis du zurück bist.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Wahn?",
+        a: "Ab 150€ im Monat. Enthalten sind dein Trainingsplan in der App, die wöchentliche Auswertung und die Ernährungssteuerung. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Funktioniert das Coaching auch bei Dienstreisen und Lehrgängen?",
+        a: "Ja, genau dafür ist es gebaut. Jede Einheit gibt es in einer Fassung ohne Geräte, die in einem Hotelzimmer funktioniert. Der Check-in läuft per Nachricht, wenn ein Videotermin nicht in die Woche passt.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Ich plane mit dem, was da ist. Zwei Kurzhanteln oder ein Widerstandsband erweitern die Auswahl, Pflicht sind sie nicht.",
+      },
+      {
+        q: "Kann ich später zu 1-zu-1 Training wechseln?",
+        a: "Ja. Viele starten online und buchen später einzelne Technikstunden dazu, bei dir zu Hause in Wahn oder draußen. Die 1-zu-1 Stunde kostet 50€.",
+      },
+    ],
+  },
+
+  "langel/personal-training": {
+    answer:
+      "Personal Training in Köln-Langel findet dort statt, wo du wohnst: bei dir zu Hause und auf den flachen Dammwegen am Rheinufer, die sich besser zum Trainieren eignen als manches Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Langel: 1-zu-1 bei dir zu Hause und auf den Dammwegen am Rheinufer, Plan nach Messung. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Rheindamm ist deine Messstrecke",
+        body: "Langel liegt am südlichen Rand von Köln direkt am Rhein, zwischen Zündorf und Libur. Die Dammwege am Ufer sind flach, gerade und fast immer frei, und genau das macht sie wertvoll: Auf einer Strecke, die sich nie ändert, kann ich deine Fortschritte sauber messen. Dieselbe Runde, alle vier Wochen, gleiche Bedingungen. Wenn deine Zeit sinkt oder dein Puls bei gleichem Tempo runtergeht, ist das ein echter Fortschritt und kein Gefühl.",
+      },
+      {
+        title: "Krafttraining in deinem Wohnzimmer, mit Plan",
+        body: "Auf 5,33 Quadratkilometern wohnen in Langel rund 3.600 Menschen, viel Dorf, viel Grün, kein Fitnessstudio. Für dein Krafttraining braucht es auch keins: Ich bringe Material mit und baue die Einheiten um deine Wohnung oder deinen Garten herum auf. Am Anfang steht eine Messung, Kraft, Beweglichkeit, Ausdauer, danach bekommst du einen Plan mit festen Steigerungen. Du siehst in jeder Einheit, welches Gewicht und wie viele Wiederholungen heute dran sind.",
+      },
+      {
+        title: "Ein Coach, der zu dir rausfährt",
+        body: "Wer in Langel wohnt, fährt für fast alles ein Stück: Arbeit, Einkauf, Verein. Dein Training muss da nicht auch noch auf die Liste. Ich komme zu dir, zu festen Terminen, die wir gemeinsam legen, morgens vor der Arbeit oder am frühen Abend. Die Stunde gehört dir allein, und der Weg dorthin kostet dich null Minuten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Langel?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt, Material und Plan. Das Erstgespräch ist kostenlos. Wer lieber mit App und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Wo trainieren wir in Langel?",
+        a: "Kraft bei dir zu Hause oder im Garten, Ausdauer und Intervalle auf den Dammwegen am Rheinufer. Bei Dauerregen verlegen wir die Einheit komplett nach drinnen, der Plan hat für beides eine Fassung.",
+      },
+      {
+        q: "Ich habe keine Geräte zu Hause. Geht das trotzdem?",
+        a: "Ja. Kurzhanteln, Widerstandsbänder und alles, was die Einheit braucht, bringe ich mit. Du brauchst nur ein paar Quadratmeter freie Fläche.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Nach vier Wochen messen wir zum ersten Mal nach, auf derselben Strecke und mit denselben Übungen wie am Anfang. Kraftwerte bewegen sich meist zuerst, Ausdauer und Gewicht folgen, wenn du zweimal pro Woche dabei bleibst.",
+      },
+    ],
+  },
+
+  "braunsfeld/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Braunsfeld mit Natalie, Ernährungsberaterin für Sport- und Fitnessernährung: Schluss mit dem Dauer-Snacken am Schreibtisch, stattdessen drei echte Mahlzeiten, die satt machen. Komplett online, enthalten im Online Coaching ab 150€ im Monat.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Braunsfeld mit Natalie: raus aus dem Dauer-Snacken am Schreibtisch, rein in drei Mahlzeiten, die tragen. Online, ab 150€/Monat.",
+    sections: [
+      {
+        title: "Das Problem heißt selten Abendessen, sondern 14 Uhr",
+        body: "Braunsfeld ist ein Büro-Veedel: Entlang der Aachener Straße und im Technologiepark sitzen Firmen, in denen der Tag am Schreibtisch stattfindet. Typisches Muster, das Natalie dort sieht: Frühstück fällt aus, mittags etwas Schnelles, ab 14 Uhr läuft der Snack-Automat, Kekse im Meeting, Riegel in der Schublade. Am Ende des Tages sind da 600 Kalorien, die nie wie Essen ausgesehen haben. Natalie dreht das um: drei Mahlzeiten mit genug Eiweiß, die so satt machen, dass der Griff zur Schublade gar nicht erst kommt.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Du fotografierst eine Woche lang dein Essen in der App, ohne etwas zu ändern. Dann baut Natalie mit dir im Videotermin den Tag um, und zwar in der Reihenfolge, die am meisten bringt: zuerst das Eiweiß in den Mahlzeiten, dann die Pausenstruktur, zuletzt die Snacks. Du musst nichts abwiegen und nichts Exotisches kochen. Die Pläne bestehen aus Zutaten, die du im Veedel in jedem Supermarkt bekommst.",
+      },
+      {
+        title: "Die Mittagspause wird Teil des Plans",
+        body: "Der Stadtwald beginnt direkt an der Südkante von Braunsfeld. Natalie und ich nutzen das: Eine zügige Runde von 20 Minuten nach dem Mittagessen senkt nachweislich das Nachmittagstief, das viele für Hunger halten. Wer mag, kombiniert die Beratung mit Training: als Online Coaching mit Plan in der App oder mit 1-zu-1 Stunden bei dir zu Hause oder im Stadtwald für 50€ pro Stunde.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Braunsfeld?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich dafür irgendwo hinfahren?",
+        a: "Nein. Die Beratung läuft komplett online, per Video und App. Das passt in eine Mittagspause im Büro genauso wie in einen Homeoffice-Tag.",
+      },
+      {
+        q: "Verbietet Natalie Snacks komplett?",
+        a: "Nein. Sie sorgt zuerst dafür, dass deine Mahlzeiten satt machen. Wenn das steht, verlieren die meisten Snacks von selbst ihren Reiz. Was bleibt, wird eingeplant statt verboten.",
+      },
+      {
+        q: "Ich esse mittags in der Kantine oder beim Bäcker. Funktioniert das trotzdem?",
+        a: "Ja. Natalie arbeitet mit dem, was es dort wirklich gibt, und gibt dir einfache Auswahlregeln an die Hand. Ein Plan, der nur mit Kochen zu Hause funktioniert, wäre für Bürotage wertlos.",
+      },
+    ],
+  },
+
+  "ostheim/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Ostheim baue ich in deinen Alltag ein, nicht neben ihn: Wege im Veedel zu Fuß statt mit der Bahn, zwei Krafteinheiten pro Woche bei dir zu Hause und ein Kalorienziel, das Natalie mit dir festlegt. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Ostheim: Alltagswege zu Fuß, zwei Krafteinheiten pro Woche zu Hause, Kalorienziel mit Natalie. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Deine Alltagswege verbrennen mehr als der Sport-Sonntag",
+        body: "Ostheim ist kompakt: knapp 14.000 Menschen auf 3,75 Quadratkilometern, Einkauf, Schule und Haltestelle liegen nah beieinander. Genau das nutzen wir. Wer seine Wege im Veedel zu Fuß geht, kommt ohne eine Minute Sport auf mehrere tausend Schritte am Tag, und diese Alltagsbewegung entscheidet beim Abnehmen mehr als die eine große Trainingseinheit am Wochenende. Ich schaue mit dir auf eine normale Woche und lege fest, welche Wege ab jetzt zu Fuß laufen. Das klingt banal und ist der Teil, der bei den meisten den Unterschied macht.",
+      },
+      {
+        title: "Zwei Krafteinheiten pro Woche, ohne Studio",
+        body: "Beim Abnehmen schützt Krafttraining deine Muskulatur, damit das Defizit Fett abbaut und nicht Muskeln. Wir trainieren bei dir zu Hause, ich bringe Material mit, 45 bis 60 Minuten, zweimal pro Woche. Eine Studio-Mitgliedschaft brauchst du dafür nicht, und du sparst dir die Fahrt quer durch den Bezirk. Für längere zügige Geh-Einheiten am Wochenende beginnt am Ostheimer Rand die Merheimer Heide.",
+      },
+      {
+        title: "Das Kalorienziel legt Natalie mit dir fest",
+        body: "Hungern führt in Jo-Jo, deshalb rechnet Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, dein Defizit so, dass du satt wirst und durchhältst. Realistisch sind ein halbes bis ein Kilo Fett pro Woche am Anfang, später etwas weniger. Jede Woche schauen wir auf Gewicht, Essen und Training zusammen und stellen nach, bevor der Fortschritt stehen bleibt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Ostheim?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Wer lieber mit App, Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie viel kann ich realistisch abnehmen?",
+        a: "Ein halbes bis ein Kilo Fett pro Woche am Anfang, wenn Kalorienziel, zwei Krafteinheiten und Alltagsschritte zusammenkommen. Schnellere Versprechen halten selten länger als vier Wochen.",
+      },
+      {
+        q: "Muss ich joggen?",
+        a: "Nein. Zügiges Gehen reicht für den Anfang völlig, auf deinen Alltagswegen und am Wochenende in der Merheimer Heide. Laufen bauen wir nur ein, wenn du es willst und deine Gelenke mitspielen.",
+      },
+      {
+        q: "Brauche ich eine Diät oder spezielle Lebensmittel?",
+        a: "Nein. Natalie plant mit normalen Lebensmitteln aus dem Supermarkt und baut dein Essen so um, dass das Defizit nebenbei entsteht. Verbotslisten und Ersatzprodukte kommen nicht vor.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
