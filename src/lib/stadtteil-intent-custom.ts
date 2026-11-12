@@ -5707,6 +5707,135 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "pesch/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Pesch ist bei mir Aufbau in Stufen: Nach einer Schmerz-Episode bekommt dein Rücken erst kontrollierte, dann steigende Last, bis du ihm wieder vertraust. Trainiert wird 1-zu-1 bei dir zu Hause in Pesch, eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Pesch: stufenweiser Kraftaufbau nach der Schmerz-Episode, 1-zu-1 bei dir zu Hause, mit Protokoll. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Nach dem Schreck kommt die Schonung, und die macht es schlimmer",
+        body: "Die häufigste Geschichte, die ich höre, geht so: Der Rücken hat einmal richtig zugemacht, seitdem wird vorsichtig gehoben, der Sport ruht, jede Bewegung wird abgewogen. Verständlich, aber genau diese Schonung hält das Problem am Leben. Ein Rücken, der nichts mehr tragen muss, wird schwächer, und ein schwächerer Rücken meldet sich schneller. Sobald ärztlich geklärt ist, dass nichts Strukturelles dagegen spricht, ist steigende Belastung der Weg zurück, nicht noch mehr Vorsicht.",
+      },
+      {
+        title: "Vertrauen wird trainiert wie Kraft: in Stufen",
+        body: "Wir fangen dort an, wo du dich sicher fühlst, oft mit Hüftbeugen ohne Gewicht, Zugübungen mit Band und kurzen Trageübungen. Dann wird es von Woche zu Woche ein Stück schwerer, und jeder Schritt steht im Protokoll. So siehst du schwarz auf weiß: Vor vier Wochen waren 8 Kilo Thema, heute sind es 16, und nichts ist passiert. Diese Belege nehmen dem Kopf die Angst, und der Kopf ist beim Rücken oft die halbe Baustelle.",
+      },
+      {
+        title: "Das Training kommt nach Pesch, mit allem, was es braucht",
+        body: "Pesch ist ein ruhiges Veedel mit knapp 7.800 Einwohnern, ein eigenes Studio gibt es hier nicht. Für dein Rückentraining brauchst du auch keins: Ich komme mit Bändern, Kurzhanteln und Gewichten zu dir, Wohnzimmer oder Garten reichen für den kompletten Aufbau. Zwei Einheiten pro Woche à 60 Minuten, dazu eine kurze Routine von zehn Minuten für die Tage dazwischen, die ohne Material funktioniert.",
+      },
+      {
+        title: "Was das Training leistet und wo der Arzt zuständig ist",
+        body: "Klare Grenze: Akute Schmerzen, Taubheit oder Ausstrahlung ins Bein gehören zuerst in ärztliche Abklärung, das ersetzt kein Training der Welt. Mein Teil beginnt danach: aus einem freigegebenen, aber verunsicherten Rücken wieder einen belastbaren machen. Im kostenlosen Erstgespräch gehen wir deine Vorgeschichte durch und legen fest, auf welcher Stufe wir einsteigen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Pesch?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt nach Pesch und Material. Das Erstgespräch ist kostenlos. Wer nach dem Aufbau selbstständig weitermachen will, kann ins Online Coaching ab 150€ im Monat wechseln.",
+      },
+      {
+        q: "Mein Rücken hat vor Monaten blockiert. Darf ich überhaupt wieder Gewichte heben?",
+        a: "Das klärt zuerst dein Arzt. Gibt er grünes Licht, ist Heben mit sauberer Technik und passender Last genau das Richtige: Die Muskulatur um die Wirbelsäule wird stärker und schützt sie bei allem, was der Alltag verlangt.",
+      },
+      {
+        q: "Wie lange dauert es, bis ich dem Rücken wieder vertraue?",
+        a: "Die meisten spüren nach vier bis sechs Wochen den Unterschied: Bewegungen, die sie vermieden haben, gehen wieder ohne Nachdenken. Der volle Aufbau auf alltagsfeste Kraft dauert eher drei bis sechs Monate, je nach Ausgangspunkt.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause in Pesch?",
+        a: "Nein. Bänder, Kurzhanteln und Zusatzgewichte bringe ich mit. Ein freier Platz von zwei mal zwei Metern reicht, im Sommer geht auch der Garten.",
+      },
+    ],
+  },
+
+  "weidenpesch/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Weidenpesch plane ich dort, wo dein Defizit wirklich entsteht: beim Wocheneinkauf. Dazu kommen zwei Krafteinheiten pro Woche und die Runde um Rennbahn und Weidenpescher Park als fester Bewegungsanteil. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Weidenpesch: Defizit, das beim Wocheneinkauf beginnt, zwei Krafteinheiten pro Woche, Gehrunden um Rennbahn und Park. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Defizit entsteht im Einkaufswagen, nicht am Esstisch",
+        body: "Abends um neun gewinnt immer das, was da ist. Deshalb setzen wir nicht bei der Willenskraft an, sondern eine Stufe früher: beim Wocheneinkauf. Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, baut mit dir einen Einkauf, der satt macht und trotzdem ins Kalorienziel passt, mit genug Eiweiß und mit Platz für die Dinge, die du nicht hergeben willst. Was nicht im Schrank liegt, musst du abends nicht wegdiskutieren.",
+      },
+      {
+        title: "Zwei Krafteinheiten entscheiden, woraus die Kilos bestehen",
+        body: "Wer nur weniger isst, verliert Muskeln gleich mit, und der Verbrauch sinkt. Deshalb gehören zwei Krafteinheiten pro Woche fest in den Plan: Grundübungen mit Hanteln und Bändern, bei dir zu Hause in Weidenpesch oder im Studio. Gewichte und Wiederholungen notiere ich mit. Solange die Kraftwerte halten oder steigen, kommt das verlorene Gewicht aus dem Fett, und genau das wollen wir.",
+      },
+      {
+        title: "Rennbahn und Park: deine Grundbewegung liegt vor der Tür",
+        body: "Weidenpesch hat, was vielen Veedeln fehlt: eine große, zusammenhängende Grünfläche direkt im Stadtteil. Die Runde am Weidenpescher Park entlang der Galopprennbahn ist eben, beleuchtet nah an der Neusser Straße und in einer halben bis dreiviertel Stunde gegangen. Drei bis vier dieser Runden pro Woche heben deinen Verbrauch spürbar, ohne dass du dafür joggen oder ein Studio buchen musst. Im Plan stehen sie als feste Bausteine, nicht als guter Vorsatz.",
+      },
+      {
+        title: "Gemessen wird, was zählt: Trend und Umfang",
+        body: "Die Waage springt mit Wasser und Tagesform, deshalb schauen wir auf den Wochenschnitt und auf den Bauchumfang. Ein halbes bis ein Kilo pro Woche nach unten ist das gesunde Tempo, alles darüber kostet meist Muskeln. Alle vier Wochen setzen wir uns über die Zahlen: Was hat funktioniert, wo hakt der Einkauf, was ändern wir. So bleibt der Plan deiner, statt ein Programm von der Stange zu sein.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Weidenpesch?",
+        a: "Die 1-zu-1 Trainingsstunde kostet 50€. Wenn Natalie die Ernährungsseite mit dir plant, besprechen wir den Umfang im kostenlosen Erstgespräch. Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat.",
+      },
+      {
+        q: "Muss ich für das Abnehmen joggen?",
+        a: "Nein. Das Defizit kommt aus dem Essen, die Gehrunden um Rennbahn und Park sichern den Verbrauch, das Krafttraining schützt die Muskulatur. Laufen kannst du später ergänzen, wenn du Lust darauf hast, nötig ist es nicht.",
+      },
+      {
+        q: "Wie schnell nehme ich realistisch ab?",
+        a: "Ein halbes bis ein Kilo pro Woche im Schnitt. Bei 8 bis 10 Kilo Ziel bist du also eher drei bis fünf Monate unterwegs. Das klingt langsam, hält aber, weil unterwegs keine Muskulatur verloren geht.",
+      },
+      {
+        q: "Was ist, wenn meine Familie normal weiteressen will?",
+        a: "Dann plant Natalie genau damit. Der Einkauf wird so gebaut, dass dieselben Gerichte auf dem Tisch stehen können und nur deine Portionen und Beilagen anders gewichtet sind. Ein zweiter Kochtopf ist keine Bedingung.",
+      },
+    ],
+  },
+
+  "ehrenfeld/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Ehrenfeld ist für Wochen gebaut, die nie gleich aussehen: Dein Trainingsplan in der App atmet mit, in Deadline-Wochen kürzer, in ruhigen Wochen mehr, dazu ein wöchentlicher Video-Check-in. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Ehrenfeld: Plan, der mit Projektphasen atmet, Video-Check-ins, Ernährungssteuerung. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ehrenfeld arbeitet in Wellen, dein Plan sollte das auch tun",
+        body: "In Ehrenfeld arbeiten auffällig viele Menschen selbstständig oder in Projekten: Agentur, Atelier, eigener Laden an der Venloer Straße. Der Kalender kennt dort keine gleichmäßigen Wochen, sondern Abgabephasen und Luft danach. Ein starrer Plan mit drei festen Terminen scheitert daran zuverlässig. Dein Online-Plan hat deshalb zwei Gänge: eine volle Woche mit drei Einheiten und eine Minimalwoche mit zwei kurzen, die auch eine Deadline übersteht. Du sagst mir, welche Woche ansteht, der Plan passt sich an.",
+      },
+      {
+        title: "Die Minimalwoche ist der eigentliche Trick",
+        body: "Fortschritt stirbt selten an zu wenig Ehrgeiz, sondern an Null-Wochen: Eine volle Woche fällt aus, dann noch eine, dann ist der Faden weg. Die Minimalwoche verhindert genau das. Zwei Einheiten à 30 Minuten, zu Hause oder im Studio deiner Wahl, halten Kraft und Gewohnheit am Leben. Nach der Abgabe schaltest du wieder hoch, ohne von vorn anzufangen. Über ein Jahr schlägt dieses Auf und Ab jede Vorsatz-Phase, die im Februar endet.",
+      },
+      {
+        title: "Check-in, wenn es bei dir passt, nicht um neun Uhr morgens",
+        body: "Einmal pro Woche schauen wir per Video auf deine Woche: Trainingslog, Gewichtstrend, wie die Einheiten sich angefühlt haben. Zwischendurch schickst du Technik-Videos direkt aus der App, ich antworte mit kurzen Korrekturen. Termine lege ich auch abends oder in die Mittagszeit, und wer in Ehrenfeld wohnt, kann den Check-in mit einer 1-zu-1 Stunde im Inneren Grüngürtel tauschen, wenn es mal wieder echtes Gegenüber braucht.",
+      },
+      {
+        title: "Essen in einem Veedel, das an jeder Ecke kocht",
+        body: "Zwischen Venloer Straße und Körnerstraße ist gutes Essen immer drei Minuten entfernt, und ein Ernährungsplan, der das ignoriert, hält keine zwei Wochen. Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, rechnet deine Auswärts-Abende in ein Wochenbudget ein, statt sie zu verbieten. Du bekommst einfache Regeln für die Bestellung und ein Eiweißziel pro Tag, der Rest bleibt dein Leben.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Ehrenfeld?",
+        a: "Ab 150€ im Monat: Trainingsplan in der App, wöchentlicher Video-Check-in, Technik-Feedback und Ernährungssteuerung. Das Erstgespräch ist kostenlos, 1-zu-1 Stunden vor Ort lassen sich für 50€ dazunehmen.",
+      },
+      {
+        q: "Brauche ich ein Fitnessstudio in Ehrenfeld?",
+        a: "Nein. Der Plan wird auf das geschrieben, was du hast: ein Studio deiner Wahl, Kurzhanteln zu Hause oder nur das eigene Körpergewicht plus Band. Beim Wechsel der Umgebung wird der Plan umgeschrieben, nicht dein Ziel.",
+      },
+      {
+        q: "Was passiert, wenn ich eine Woche komplett ausfalle?",
+        a: "Dann greift die Minimalwoche mit zwei kurzen Einheiten. Fällt auch die aus, starten wir die Folgewoche eine Stufe leichter und holen den Faden wieder auf. Der Plan rechnet mit deinem Kalender, nicht gegen ihn.",
+      },
+      {
+        q: "Wie unterscheidet sich das vom Training vor Ort?",
+        a: "Online steuere ich dich über Plan, Videos und Check-ins, trainieren tust du allein und flexibel. Vor Ort korrigiere ich jede Wiederholung direkt. Viele in Ehrenfeld kombinieren beides: online als Basis, eine 1-zu-1 Stunde, wenn eine neue Übung ansteht.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
