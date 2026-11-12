@@ -6221,6 +6221,263 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "vingst/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Vingst macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz für Vingst: klare Regeln für Büdchen, Imbiss und schnelles Essen unterwegs statt einer Verbotsliste, die im Veedel-Alltag nicht hält. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Vingst mit Natalie: Regeln für Imbiss und Alltag statt Verbote, Eiweißziel für deine eigene Küche. Online, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Plan, der das Veedel nicht ignoriert",
+        body: "Vingst ist dicht: 12.711 Menschen auf 1,12 Quadratkilometern, eines der am dichtesten besiedelten Veedel im rechtsrheinischen Köln. Essen ist hier immer in Reichweite, der Bäcker auf dem Weg zur Bahn, der Imbiss an der Ostheimer Straße, das Büdchen um die Ecke. Ein Ernährungsplan, der so tut, als gäbe es das alles nicht, hält zwei Wochen. Natalie plant deshalb andersherum: Sie legt fest, was unterwegs die bessere Wahl ist und wie oft sie drin ist, statt dir das Veedel zu verbieten.",
+      },
+      {
+        title: "Gekocht wird, was du kennst",
+        body: "Natalie rechnet zuerst dein Kalorien- und Eiweißziel aus. Dann legt sie es über die Gerichte, die bei dir ohnehin auf den Herd kommen, egal aus welcher Küche sie stammen. Verändert werden Mengen, Beilagen und die Eiweißquelle, nicht deine Essgewohnheiten als Ganzes. Das ist der Unterschied zwischen einem Plan, den du durchhältst, und einem, den du nach dem ersten Familienessen aufgibst.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Die Beratung läuft per Video und App: Erstgespräch mit Zielen und Essgewohnheiten, dann ein Wochenrahmen mit Eiweißmengen und Portionsregeln. Zwischen den Terminen schickst du Fotos deiner Mahlzeiten, Natalie antwortet kurz und konkret. Nachgesteuert wird alle zwei Wochen, nicht erst, wenn die Waage vier Wochen stillsteht.",
+      },
+      {
+        title: "Essen und Training greifen ineinander",
+        body: "Wer in Vingst auch trainieren will, bekommt beides aus einer Hand: Angelo übernimmt das Training, zu Hause oder draußen in der Merheimer Heide gleich hinter der Stadtteilgrenze, Natalie das Essen. Die beiden stimmen Eiweißziel und Trainingsplan aufeinander ab, damit nicht zwei Pläne gegeneinander arbeiten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Vingst?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, auf Wunsch kombiniert mit 1-zu-1 Training bei dir in Vingst für 50€ pro Stunde. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich auf Imbiss und Büdchen verzichten?",
+        a: "Nein. Verbote funktionieren in einem Veedel voller Gelegenheiten nicht lange. Du bekommst Regeln: was unterwegs die bessere Wahl ist, wie oft es passt und wie der Rest des Tages dann aussieht.",
+      },
+      {
+        q: "Brauche ich teure Spezialprodukte?",
+        a: "Nein. Der Plan baut auf deinem normalen Einkauf auf. Eiweiß lässt sich aus Eiern, Quark, Hülsenfrüchten und günstigen Fleisch- oder Fischsorten decken, Pulver ist eine Option, keine Pflicht.",
+      },
+      {
+        q: "Findet die Beratung vor Ort in Vingst statt?",
+        a: "Die Ernährungsberatung läuft komplett online per Video und App, das spart dir Wege und macht kurze Check-ins möglich. Das Training mit Angelo findet dagegen vor Ort statt, bei dir zu Hause oder draußen.",
+      },
+    ],
+  },
+
+  "dellbrueck/personal-training": {
+    answer:
+      "Personal Training in Köln-Dellbrück kommt zu dir: 1-zu-1 bei dir zu Hause, zwischen Thielenbruch und Dellbrücker Hauptstraße, oder früh morgens draußen in der Heide. Feste Termine, ein Plan für dein Ziel, eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Dellbrück: 1-zu-1 bei dir zu Hause oder in der Dellbrücker Heide, feste Termine neben Pendeln und Familie. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel wie eine Kleinstadt, Training ohne zweiten Weg",
+        body: "Dellbrück hat 21.954 Einwohner auf fast zehn Quadratkilometern, das ist eher Kleinstadt als Veedel. Wer hier wohnt, hat meist bewusst gewählt: Haus oder Wohnung mit Grün, S-Bahn ins Büro, Verein um die Ecke. Was fehlt, ist selten der Wille, sondern der zweite Weg am Tag. Deshalb komme ich zu dir, mit Kurzhanteln, Kettlebell und Bändern, von Alt-Dellbrück bis hoch zum Thielenbruch. Dein Training findet da statt, wo dein Abend sowieso ist.",
+      },
+      {
+        title: "Die Heide am Morgen gehört dir",
+        body: "Die Dellbrücker Heide ist um 7 Uhr fast leer. Wer vor der Arbeit trainieren will, bekommt dort Einheiten, für die andere quer durch die Stadt fahren: Sand und Wiesenwege für Läufe und Sprünge, Platz für alles, was mit dem eigenen Körpergewicht geht. Die Kraftarbeit mit Gewichten legen wir in deine Wohnung oder ins Studio, je nachdem, was dein Ziel verlangt.",
+      },
+      {
+        title: "Feste Termine schlagen gute Vorsätze",
+        body: "Viele Dellbrücker pendeln mit der S11 oder der Linie 3 und 18 ab Thielenbruch. Deshalb lege ich Termine an die Ränder des Tages: früh vor der Bahn, am frühen Abend danach oder am Wochenende. Zwei Einheiten pro Woche, 60 Minuten von Tür zu Tür, und sie finden statt, weil jemand vor der Tür steht. Das ist der halbe Unterschied zum Studiovertrag, der nur Geld abbucht.",
+      },
+      {
+        title: "Dein Ziel bestimmt den Plan",
+        body: "Abnehmen, Kraft aufbauen, nach Jahren wieder einsteigen oder fit bleiben für Garten, Kinder und Vereinssport: Am Anfang steht ein Check mit Kraftwerten und Beweglichkeit, daraus entsteht der Plan. Alle vier bis sechs Wochen wird nachgemessen. Wenn sich eine Zahl nicht bewegt, ändere ich den Plan, nicht die Ausrede.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Dellbrück?",
+        a: "50€ pro 1-zu-1 Stunde, Anfahrt und Material inklusive. Das Erstgespräch ist kostenlos. Wer nur Plan und wöchentliche Kontrolle will, nimmt das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Wo genau trainieren wir in Dellbrück?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, draußen in der Dellbrücker Heide oder am Thielenbruch, oder im Studio. Die Mischung richtet sich nach deinem Ziel und der Jahreszeit.",
+      },
+      {
+        q: "Geht Training auch früh vor der Arbeit?",
+        a: "Ja. Gerade in Dellbrück sind die frühen Termine gefragt, bevor die S11 Richtung Innenstadt fährt. Eine Einheit dauert 60 Minuten von Tür zu Tür, danach beginnt dein Tag wie sonst auch.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche?",
+        a: "Ja, wenn sie geplant sind und stattfinden. Dazu bekommst du kurze Aufgaben für die Tage dazwischen, meist 15 bis 20 Minuten. Mehr Volumen bringt erst dann etwas, wenn die Basis steht.",
+      },
+    ],
+  },
+
+  "riehl/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Riehl macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Fokus in Riehl: Essen, das Kraft und Muskeln auch jenseits der 50 erhält, mit klaren Eiweißmengen und Portionen für kleine Haushalte. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Riehl mit Natalie: Eiweiß und Portionen, die Muskeln ab 50 erhalten, geplant für kleine Haushalte. Online, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum Eiweiß mit den Jahren wichtiger wird",
+        body: "Ab der Lebensmitte baut der Körper Muskeln schneller ab, als er sie aufbaut, wenn zwei Dinge fehlen: Training und genug Eiweiß. Viele essen abends ein Brot und wundern sich, dass die Kraft nachlässt. Natalie legt deshalb zuerst die Eiweißmenge pro Tag fest und verteilt sie auf die Mahlzeiten, denn eine große Portion am Abend gleicht ein eiweißarmes Frühstück nicht aus. Das ist keine Diät, sondern Versorgung.",
+      },
+      {
+        title: "Portionen für ein und zwei Personen",
+        body: "Riehl ist ein Veedel der kleinen Haushalte, und die meisten Rezepte sind für vier geschrieben. Wer für eine oder zwei Personen kocht, kennt das Ergebnis: Reste, Verschwendung oder dreimal dasselbe. Natalie plant Gerichte, die in kleinen Mengen funktionieren oder sich gezielt für zwei Tage vorkochen lassen, mit einer Einkaufsliste, die am Ende der Woche aufgeht.",
+      },
+      {
+        title: "Bewegung hast du in Riehl vor der Tür",
+        body: "Zwischen Flora, Botanischem Garten und dem flachen Rheinufer Richtung Niehl lässt sich jeder Tag mit einem Spaziergang füllen, und das ist gut so. Nur entscheidet beim Gewicht und beim Muskelerhalt am Ende das Essen und die Kraftarbeit, nicht die Schrittzahl. Wer beides angehen will, kombiniert Natalies Beratung mit Krafttraining bei Angelo, zu Hause in Riehl oder draußen am Rhein.",
+      },
+      {
+        title: "So arbeitet Natalie",
+        body: "Erstgespräch per Video, dann ein Wochenrahmen mit Eiweißziel, Portionsregeln und deinen eigenen Gerichten als Basis. Über die App schickst du kurze Rückmeldungen, Natalie steuert alle zwei Wochen nach. Es gibt keinen Plan von der Stange und keine Lebensmittel, die du kaufen musst, weil sie gerade Mode sind.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Riehl?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat. Wer zusätzlich 1-zu-1 trainieren will, zahlt 50€ pro Stunde mit Angelo. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Ich bin über 60. Lohnt sich das noch?",
+        a: "Ja. Muskeln reagieren in jedem Alter auf Training und ausreichend Eiweiß, das ist gut belegt. Die Pläne werden an deinen Stand angepasst, nicht umgekehrt, und gesteigert wird langsam.",
+      },
+      {
+        q: "Ersetzt die Beratung eine medizinische Ernährungstherapie?",
+        a: "Nein. Natalie ist Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Bei Erkrankungen, die eine Ernährungstherapie verlangen, gehört die Behandlung in ärztliche Hände, und das sagen wir dir im Erstgespräch auch offen.",
+      },
+      {
+        q: "Muss ich dafür kochen können?",
+        a: "Es reichen einfache Gerichte mit wenigen Zutaten. Natalie baut den Plan auf dem auf, was du heute schon kochst, und ergänzt dort, wo Eiweiß oder Gemüse fehlen.",
+      },
+    ],
+  },
+
+  "poll/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Poll stößt mit Eigengewicht irgendwann an eine Decke: Neuer Muskel braucht steigende Last. Zwei geführte Krafteinheiten pro Woche mit Protokoll, bei dir zu Hause oder im Studio, und die Poller Wiesen bleiben für Ausdauer und Ausgleich. 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Poll: steigende Gewichte statt Eigengewichts-Plateau, zwei geführte Einheiten pro Woche mit Protokoll. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die Decke des Eigengewichts",
+        body: "Poll trainiert draußen: Läufer auf dem Rheinuferweg, Workouts auf den Poller Wiesen, Liegestütze und Klimmzüge im Grünen. Das baut am Anfang Muskeln auf, und dann hört es auf, weil die Last immer dieselbe bleibt. Der Körper passt sich nur an, was ihn fordert. Ab diesem Punkt braucht es Gewichte, die von Monat zu Monat steigen, und genau da setze ich an, ohne dir die Wiesen wegzunehmen.",
+      },
+      {
+        title: "Steigende Last, schwarz auf weiß",
+        body: "Zwei Krafteinheiten pro Woche, aufgebaut auf wenigen Grundübungen: Drücken, Ziehen, Kniebeuge, Hüftstreckung. Jede Einheit steht im Protokoll, jede Steigerung ist geplant statt gefühlt. Trainiert wird bei dir zu Hause in Poll mit mitgebrachten Kurzhanteln und Bändern oder im Studio an der Langhantel, wenn dein Ziel mehr Last verlangt.",
+      },
+      {
+        title: "Die Wiesen behalten ihren Platz",
+        body: "Ausdauer und Muskelaufbau schließen sich nicht aus, sie brauchen nur eine Reihenfolge. Deine Läufe am Rheinufer und die Einheiten auf den Poller Wiesen bleiben im Plan, sie rücken an die Tage zwischen den Krafteinheiten. So stören sie die Erholung nicht, von der der Muskel tatsächlich wächst.",
+      },
+      {
+        title: "Essen entscheidet mit",
+        body: "Ohne Baumaterial kein Aufbau: Zu jedem Plan gehört ein Eiweißziel pro Tag, abgestimmt auf dein Gewicht und dein Training. Wer es genauer will, nimmt die Ernährungsberatung mit Natalie dazu, unserer Ernährungsberaterin für Sport- und Fitnessernährung. Nachgemessen wird alle vier bis sechs Wochen: Gewichte, Umfänge, Wiederholungen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Poll?",
+        a: "50€ pro 1-zu-1 Stunde, inklusive Anfahrt und Material. Das Erstgespräch ist kostenlos. Für eigenständiges Training mit Plan und Kontrolle gibt es das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Reichen Kurzhanteln zu Hause für echten Muskelaufbau?",
+        a: "Für die ersten Monate ja, wenn sie verstellbar sind und die Steigerung geplant ist. Irgendwann verlangen Beine und Rücken mehr Last, dann wechseln wir für einzelne Übungen ins Studio.",
+      },
+      {
+        q: "Muss ich mit dem Laufen aufhören?",
+        a: "Nein. Deine Kilometer am Rheinufer bleiben, sie werden nur um die Krafteinheiten herum gelegt. Nur wer fünfmal pro Woche läuft und nie Kraft trainiert, baut keinen Muskel auf.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Messbar nach acht bis zwölf Wochen: mehr Gewicht bei gleicher Technik, veränderte Umfänge. Sichtbar dauert es länger und hängt am Essen. Versprechen, die schneller klingen, halten nicht.",
+      },
+    ],
+  },
+
+  "lindweiler/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Lindweiler macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: eine feste Rotation einfacher Gerichte, damit nicht jeden Abend neu entschieden werden muss, was auf den Tisch kommt. Komplett online, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Lindweiler mit Natalie: feste Gerichte-Rotation statt täglicher Entscheidung, Eiweißziel inklusive. Online, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Problem ist selten das Wissen, sondern der Abend",
+        body: "Lindweiler ist mit 3.549 Einwohnern eine der kleinsten Ecken im Kölner Norden, Restaurants und Lieferdienste sind hier nicht die Lösung, gekocht wird selbst. Genau daran scheitern die meisten guten Vorsätze: nicht am Wissen, sondern an der täglichen Frage, was es heute gibt. Wer müde von der Arbeit kommt, entscheidet sich für das Schnellste. Natalie nimmt dir diese Entscheidung ab, mit einer festen Rotation aus acht bis zehn einfachen Gerichten, die zu deinem Ziel passen.",
+      },
+      {
+        title: "Aus der Rotation wird die Einkaufsliste",
+        body: "Steht die Rotation, schreibt sich die Einkaufsliste von selbst: ein Wocheneinkauf, der aufgeht, statt dreimal pro Woche loszufahren, weil etwas fehlt. Die Gerichte sind so gewählt, dass Zutaten sich überschneiden und nichts in der Tonne landet. Angepasst wird die Rotation alle paar Wochen, damit sie nicht langweilt.",
+      },
+      {
+        title: "Mengen statt Verzicht",
+        body: "Auf die Rotation legt Natalie dein Kalorien- und Eiweißziel: dieselben Gerichte, aber mit Portionsregeln, die zu Abnehmen oder Muskelerhalt passen. Isst die Familie mit, wird nicht doppelt gekocht, nur anders geschöpft. Verbotslisten gibt es keine, die halten erfahrungsgemäß bis zum ersten Geburtstag im Bekanntenkreis.",
+      },
+      {
+        title: "Online heißt: kein Weg",
+        body: "Die Beratung läuft per Video und App, von Lindweiler aus musst du nirgendwo hinfahren. Kurze Check-ins alle zwei Wochen, Fotos statt Ernährungstagebuch, nachgesteuert wird, sobald eine Zahl stehen bleibt. Wer zusätzlich trainieren will, holt sich Angelo dazu: 1-zu-1 bei dir zu Hause, das Material bringt er mit.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Lindweiler?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, das Erstgespräch ist kostenlos. Training mit Angelo bei dir zu Hause kostet 50€ pro Stunde dazu.",
+      },
+      {
+        q: "Funktioniert die Rotation auch für eine Familie?",
+        a: "Ja, sie ist sogar dafür gedacht: Alle essen dieselben Gerichte, nur die Portionen unterscheiden sich. Niemand kocht zweimal, und dein Ziel bleibt trotzdem auf Kurs.",
+      },
+      {
+        q: "Wird das nicht eintönig?",
+        a: "Acht bis zehn Gerichte in Rotation sind mehr Abwechslung, als die meisten Haushalte real haben. Alle paar Wochen fliegt ein Gericht raus und ein neues kommt rein, nach deinem Geschmack.",
+      },
+      {
+        q: "Muss ich Kalorien zählen?",
+        a: "Nein. Die Rotation ist so gebaut, dass Portionsregeln reichen: Teller-Aufteilung, Eiweiß zuerst, feste Mengen bei den Beilagen. Gezählt wird nur, wenn du es ausdrücklich willst.",
+      },
+    ],
+  },
+
+  "mauenheim/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Mauenheim ist Krafttraining mit echter Bewegung bei dir zu Hause. Rechne ehrlich: 20 Minuten Strom plus Hin- und Rückweg zum Studio sind fast eine Stunde, nur ohne gelernte Technik und ohne steigende Gewichte. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Mauenheim: Krafttraining zu Hause statt 20 Minuten Strom plus Anfahrt. Echte Bewegung, steigende Last, kein Jahresvertrag. 50€/Std.",
+    sections: [
+      {
+        title: "Die 20-Minuten-Rechnung",
+        body: "EMS verkauft Zeitersparnis, und auf dem Papier stimmt sie: 20 Minuten pro Woche. Nur steht das Studio nicht in Mauenheim, sondern Richtung Nippes oder Innenstadt. Mit Umziehen, Hin- und Rückweg wird aus 20 Minuten Strom schnell eine Stunde Aufwand. Dieselbe Stunde bekommst du bei mir komplett als Training, denn ich komme zu dir: 60 Minuten von Tür zu Tür, in deiner Wohnung.",
+      },
+      {
+        title: "Strom reizt, Bewegung lehrt",
+        body: "Die Weste zieht Muskeln zusammen, aber sie bringt dir keine Bewegung bei. Eine saubere Kniebeuge, ein Kreuzheben mit geradem Rücken, ein kontrollierter Ausfallschritt: Das sind die Muster, die beim Tragen, Heben und Treppensteigen schützen, und sie entstehen nur durch Üben mit echter Last. Deshalb ist geführtes Krafttraining nicht die langsamere Variante von EMS, sondern eine andere Kategorie.",
+      },
+      {
+        title: "Klein, ruhig, ideal für Training zu Hause",
+        body: "Mauenheim ist mit 5.596 Einwohnern auf einem halben Quadratkilometer eines der kleinsten Veedel Kölns, eine ruhige Insel zwischen Nippes und Weidenpesch. Für das Training heißt das: kurze Wege für mich, keine für dich. Ich bringe Kurzhanteln, Kettlebell und Bänder mit, ein freies Eck in der Wohnung reicht. Für Einheiten draußen liegt der Weidenpescher Park direkt nebenan.",
+      },
+      {
+        title: "Fortschritt steht im Protokoll, nicht im Vertrag",
+        body: "Jede Einheit wird dokumentiert: Übungen, Gewichte, Wiederholungen. Über Monate steigt die Last, und genau daran erkennst du Fortschritt, nicht am Kribbeln nach der Einheit. Es gibt keinen Jahresvertrag und keine Mindestlaufzeit, du buchst Stunden, solange sie dir etwas bringen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Mauenheim?",
+        a: "50€ pro 1-zu-1 Stunde bei dir zu Hause, Anfahrt und Material inklusive, ohne Vertragsbindung. Das Erstgespräch ist kostenlos. Zum Vergleich: EMS-Studios liegen meist bei 80 bis 100€ im Monat mit Laufzeit.",
+      },
+      {
+        q: "Ist EMS bei wenig Zeit nicht trotzdem die bessere Wahl?",
+        a: "Wenn du die Anfahrt mitrechnest, schrumpft der Zeitvorteil auf wenige Minuten. Was bleibt, ist der Unterschied in der Sache: Strom setzt einen Reiz, Training baut Kraft und Technik auf, die im Alltag tragen. Im Erstgespräch sage ich dir ehrlich, ob EMS zu deinem Fall passt.",
+      },
+      {
+        q: "Brauche ich eigene Geräte?",
+        a: "Nein. Ich bringe verstellbare Kurzhanteln, Kettlebell und Bänder mit. Wenn dein Ziel irgendwann mehr Last verlangt, planen wir gemeinsam, was sich für zu Hause lohnt, oder wechseln für einzelne Übungen ins Studio.",
+      },
+      {
+        q: "Für wen ist echtes Krafttraining besser als EMS?",
+        a: "Für alle, die über Monate stärker werden, Haltung und Alltag verbessern oder nach Jahren wieder einsteigen wollen. Die Belastung lässt sich feiner steuern als ein Stromimpuls, und du lernst Bewegungen, die bleiben, auch wenn du mal pausierst.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
