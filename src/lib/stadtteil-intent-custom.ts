@@ -5836,6 +5836,135 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "stammheim/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Stammheim ist Krafttraining mit echter Last statt Stromweste, gerade wenn dir EMS als die schonende Lösung ab 50 verkauft wurde: Knochen und Gelenke werden von steigenden Gewichten stärker, nicht von Impulsen. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Stammheim: echtes Krafttraining statt Stromweste, auch und gerade ab 50. 1-zu-1 bei dir oder am Schlosspark, 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Wort 'gelenkschonend' führt dich in die falsche Richtung",
+        body: "EMS wird gern an Menschen verkauft, die sich für zu alt oder zu empfindlich fürs Gewichtstraining halten: 20 Minuten, kein Gewicht, klingt vernünftig. Nur wollen Knochen und Gelenke gar nicht geschont werden, sie wollen belastet werden. Knochen reagieren auf Zug und Druck, Sehnen und Knorpel auf wiederholte, dosierte Last. Genau die fehlt, wenn der Reiz aus der Weste kommt statt aus einer Bewegung mit Gewicht. Schonung ist für die Tage nach dem Training, nicht als Methode.",
+      },
+      {
+        title: "Dosiert heißt: an dich angepasst, nicht leicht",
+        body: "Der Einstieg richtet sich nach deinem Stand, nicht nach deinem Geburtsjahr. Wir beginnen mit Varianten, die deine Gelenke heute können, oft Kniebeugen zur Bank, Zugübungen mit Band, Tragen mit Kurzhanteln. Dann steigt die Last in kleinen Schritten, und jeder Schritt steht im Protokoll. Nach zwölf Wochen vergleichen wir: mehr Gewicht bei denselben Übungen, Treppen und Einkaufstaschen als Nebeneffekt leichter. Das ist der Unterschied, den eine Stromweste nicht liefert.",
+      },
+      {
+        title: "Stammheim hat kein EMS-Studio, und braucht auch keins",
+        body: "Für EMS müsstest du aus Stammheim ohnehin rausfahren, Richtung Mülheim oder weiter. Fürs Krafttraining nicht: Ich komme mit Material zu dir, und für Technikarbeit, Ausgleich und Geh-Einheiten liegt der Schlosspark Stammheim mit dem Rheinufer direkt vor der Tür. Zwei geführte Einheiten pro Woche à 60 Minuten reichen für einen sauberen Aufbau, ganz ohne Vertrag mit Laufzeit.",
+      },
+      {
+        title: "Wo EMS bleiben darf und was es nicht ersetzt",
+        body: "EMS kann einen Reiz setzen, wenn gar nichts anderes stattfindet, und manche mögen den kurzen Termin. Nur ersetzt es weder das Bewegungslernen noch die steigende Last, an der Kraft, Knochendichte und Alltagssicherheit hängen. Wenn du schon bei EMS warst und wissen willst, wo du stehst: Im kostenlosen Erstgespräch machen wir einen einfachen Kraft-Check, danach weißt du, womit wir arbeiten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Stammheim?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material, ohne Jahresvertrag. Zum Vergleich: EMS-Studios liegen meist bei 80 bis 120€ im Monat mit Laufzeit. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich bin über 50 und war lange nicht beim Sport. Ist Gewichtstraining nicht riskant?",
+        a: "Mit Begleitung ist es das Gegenteil: Der Einstieg wird an deine Gelenke angepasst und steigt langsam. Riskanter ist auf Dauer die fehlende Kraft, denn sie entscheidet über Stürze, Treppen und Selbstständigkeit. Bei Vorerkrankungen klären wir den Start mit deinem Arzt.",
+      },
+      {
+        q: "EMS verspricht Ergebnisse in 20 Minuten pro Woche. Warum reicht das nicht?",
+        a: "Weil der Körper auf Bewegung unter steigender Last umbaut, nicht auf Reizminuten. 20 Minuten Strom lassen sich nicht steigern wie ein Gewicht, und genau an der Steigerung hängt der Fortschritt. Zweimal 60 Minuten echte Arbeit pro Woche schlagen das zuverlässig.",
+      },
+      {
+        q: "Wo trainieren wir in Stammheim?",
+        a: "Meist bei dir zu Hause, Material bringe ich mit. Bei gutem Wetter verlegen wir Teile in den Schlosspark oder ans Rheinufer, fürs Hanteltraining mit mehr Gewicht gibt es die Studio-Option. Den Mix legen wir im Erstgespräch fest.",
+      },
+    ],
+  },
+
+  "bickendorf/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Bickendorf dreht den üblichen Ansatz um: Schnell wird, wer bremsen kann. Wir trainieren Abstoppen, Landen und Richtungswechsel auf den Wiesen des Äußeren Grüngürtels, die Kraft dahinter im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Bickendorf: Abbremsen, Landen, Richtungswechsel im Äußeren Grüngürtel, Kraft im Studio. Für Fußballer und Hobbysportler. 50€/Std.",
+    sections: [
+      {
+        title: "Die meisten Verletzungen passieren beim Bremsen, nicht beim Sprinten",
+        body: "Zerrung beim Abstoppen, Umknicken nach der Landung, Knieprobleme beim Richtungswechsel: Wer am Wochenende Fußball oder Tennis spielt, kennt mindestens eine dieser Geschichten. Der Antritt wird in jedem Training geübt, das Abbremsen fast nie, dabei wirken dort die größten Kräfte. Genau deshalb beginnt Athletiktraining bei mir mit der Frage, wie du stoppst und landest, nicht wie schnell du auf 30 Metern bist.",
+      },
+      {
+        title: "Der Äußere Grüngürtel ist das passende Übungsgelände",
+        body: "Am Westrand von Bickendorf, Richtung Vogelsang, liegt der Äußere Grüngürtel mit breiten, ebenen Rasenflächen. Rasen verzeiht beim Lernen von Landungen und Richtungswechseln mehr als Asphalt, und Platz für Übungsreihen über 10 bis 20 Meter ist immer da. Dort arbeiten wir an Abstopp-Serien, Sprüngen mit sauberer Landung und Wechseln unter Tempo. Von den meisten Ecken Bickendorfs bist du zu Fuß in zehn Minuten dort.",
+      },
+      {
+        title: "Bremsen braucht Kraft, und die holen wir im Studio",
+        body: "Abfangen ist Muskelarbeit: Beinachse, hintere Kette, Rumpf. Deshalb gehört zu den Außeneinheiten eine Studioeinheit mit Kniebeugen-Varianten, einbeinigen Übungen und Zugarbeit. Gewichte und Sprungwerte stehen im Protokoll, alle vier bis sechs Wochen wird gemessen: Sprunghöhe, Stopp-Qualität, Sprintzeit. Du siehst, ob das Training wirkt, bevor die Saison es zeigt.",
+      },
+      {
+        title: "Für wen das in Bickendorf gedacht ist",
+        body: "Für Amateurfußballer und Tennisspieler aus den Vereinen im Kölner Westen, die immer wieder an denselben kleinen Verletzungen hängen bleiben. Für Läufer, die stabiler werden wollen. Und für alle ab 40, die ihren Sport behalten wollen, ohne jedes Jahr eine Zwangspause zu schieben. Das Einstiegsniveau prüft der Technik-Check am Anfang, nicht dein Lebenslauf.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Bickendorf?",
+        a: "50€ pro 1-zu-1 Stunde, das Erstgespräch ist kostenlos. Wer nach dem Technik-Block eigenständig weitertrainieren will, bekommt das Online Coaching ab 150€ im Monat mit Plan und Video-Check-ins.",
+      },
+      {
+        q: "Ich spiele nur einmal pro Woche Fußball. Lohnt sich Athletiktraining trotzdem?",
+        a: "Gerade dann. Einmal Vollgas pro Woche ohne Vorbereitung ist das klassische Zerrungs-Rezept. Eine gezielte Einheit pro Woche plus kurze Hausaufgaben machen den Spieltag deutlich sicherer.",
+      },
+      {
+        q: "Wo genau trainieren wir in Bickendorf?",
+        a: "Draußen auf den Rasenflächen des Äußeren Grüngürtels zwischen Bickendorf und Vogelsang, die Kraftarbeit im Studio. Im Winter verschiebt sich der Mix nach drinnen, die Inhalte bleiben gleich.",
+      },
+      {
+        q: "Hilft das Training nach einer Verletzung?",
+        a: "Nach abgeschlossener Reha ja: Der Wiedereinstieg in Stopps, Sprünge und Richtungswechsel ist genau die Lücke zwischen Physiotherapie und Mannschaftstraining. Die Freigabe deines Arztes oder Physios ist dafür die Voraussetzung.",
+      },
+    ],
+  },
+
+  "loevenich/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Lövenich ist für Pendler gebaut: Dein Training beginnt an der Haustür, nicht nach einer zweiten Fahrt. Plan in der App für Wohnzimmer, Garten und Feldwege, Check-in per Video am Abend oder Wochenende. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Lövenich: Training ab Haustür statt zweiter Fahrt, App-Plan, Video-Check-ins, Ernährungssteuerung. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die zweite Fahrt des Tages killt jeden Trainingsplan",
+        body: "Lövenich lebt in vielen Fällen nach demselben Muster: morgens mit S-Bahn oder Auto in die Stadt, abends zurück, und dann soll noch einmal jemand freiwillig losfahren, Richtung Studio in Weiden oder Ehrenfeld. Nach ein paar Wochen gewinnt das Sofa, verständlicherweise. Das Online Coaching dreht die Logik um: Die Einheit wartet zu Hause, beginnt zwanzig Minuten nach dem Ausstieg und braucht keinen Parkplatz. Die Hürde zwischen Feierabend und Training ist eine Zimmertür.",
+      },
+      {
+        title: "Was in einem Lövenicher Haushalt an Plan möglich ist",
+        body: "Mehr, als die meisten denken. Mit zwei Kurzhanteln, einem Band und einer Tür reichen drei Einheiten à 40 Minuten für einen sauberen Kraftaufbau, und wer Garten oder Keller hat, kann mit wenig Zubehör über Jahre steigern. Jede Übung liegt als Video in der App, deine Gewichte und Sätze trägst du direkt ein, ich lese mit. Wenn Material fehlt, sage ich dir, welche zwei Anschaffungen wirklich etwas bringen, mehr braucht es selten.",
+      },
+      {
+        title: "Die Feldwege Richtung Widdersdorf sind dein Ausdauerteil",
+        body: "Am Rand von Lövenich beginnen die Feldwege Richtung Widdersdorf und Weiden: flach, ruhig, ohne Ampeln. Im Plan stehen sie als feste Geh- oder Laufblöcke, je nach Ziel zwei bis drei pro Woche. Das ist der Teil, den kein Studio dir abnimmt und der hier buchstäblich vor der Tür liegt. Fürs Protokoll zählt die Zeit in Bewegung, nicht das Tempo, gerade am Anfang.",
+      },
+      {
+        title: "Kontrolle läuft übers Wochenende, nicht über Bürozeiten",
+        body: "Einmal pro Woche sehen wir uns per Video, bei Pendlern meist am frühen Abend oder samstags: Trainingslog, Gewichtstrend, nächste Woche. Zwischendurch schickst du Technik-Videos aus der App und bekommst kurze Korrekturen zurück. Und wenn eine neue Übung ansteht oder die Technik hakt, nehme ich eine 1-zu-1 Stunde bei dir in Lövenich dazu, danach läuft es wieder online weiter.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Lövenich?",
+        a: "Ab 150€ im Monat: Trainingsplan in der App, wöchentlicher Video-Check-in, Technik-Feedback per Video und Ernährungssteuerung. Das Erstgespräch ist kostenlos. Einzelne 1-zu-1 Stunden vor Ort kosten 50€.",
+      },
+      {
+        q: "Ich habe kein Studio in Lövenich. Reicht Training zu Hause wirklich?",
+        a: "Für Kraftaufbau auf Alltagsniveau und deutlich darüber: ja. Entscheidend ist die Steigerung, nicht der Gerätepark. Der Plan wird auf dein Material geschrieben, und wenn du später doch ein Studio nimmst, schreibe ich ihn um.",
+      },
+      {
+        q: "Wann finden die Check-ins statt?",
+        a: "Dann, wenn dein Tag es hergibt: früher Abend nach der Rückfahrt oder am Wochenende. Der Termin steht fest wie eine Trainingseinheit, dauert aber nur 20 bis 30 Minuten.",
+      },
+      {
+        q: "Funktioniert das auch, wenn ich im Homeoffice arbeite?",
+        a: "Sogar besonders gut: Dann liegt die Einheit in der Mittagspause oder direkt nach Feierabend, und die Feldwege übernehmen die Rolle des Arbeitswegs, der sonst für Bewegung sorgt. Der Plan unterscheidet Büro- und Homeoffice-Tage, wenn du beides hast.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
