@@ -5579,6 +5579,134 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "fuehlingen/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Fühlingen macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Fokus hier: Essen, das lange Einheiten am Fühlinger See trägt, mit Kohlenhydraten um das Training herum und klaren Eiweißmengen für die Erholung. Komplett online, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung für Köln-Fühlingen mit Natalie: Essen für lange Einheiten am Fühlinger See, Energie ums Training, Eiweiß für die Erholung. Online, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Dorf, in dem auffällig viel trainiert wird",
+        body: "Fühlingen hat nur rund 2.200 Einwohner, aber mit dem Fühlinger See eine der meistgenutzten Ausdauer-Trainingsflächen Kölns direkt vor der Tür: Läufer und Radfahrer auf den vermessenen Wegen, Ruderer auf der Regattastrecke, Schwimmer im Freiwasser, dazu Triathlon-Wettkämpfe im Sommer. Wer hier wohnt und trainiert, hat selten ein Bewegungsproblem. Die häufigere Frage ist eine andere: Warum werde ich trotz der vielen Stunden nicht schneller, oder warum bleibt das Gewicht stehen?",
+      },
+      {
+        title: "Ausdauertraining verzeiht falsches Essen nicht",
+        body: "Lange Einheiten mit leerem Speicher fühlen sich diszipliniert an, bremsen aber genau die Anpassung, für die du trainierst. Natalie legt mit dir fest, wann Kohlenhydrate hingehören, nämlich gezielt vor und nach langen Einheiten statt gleichmäßig über den Tag verstreut, und wie viel Eiweiß deine Erholung tatsächlich braucht. Das Ergebnis ist kein Verzichtsplan, sondern eine Umverteilung: gleiche Lebensmittel, andere Zeitpunkte, spürbar mehr Energie in der zweiten Stunde.",
+      },
+      {
+        title: "Abnehmen neben dem Ausdauertraining, ohne einzubrechen",
+        body: "Viele am See trainieren auch, um Gewicht zu verlieren, und geraten in die klassische Falle: großes Defizit plus hohes Pensum, zwei Wochen läuft es, dann kommen Heißhunger, Infekt oder Leistungsknick. Natalie setzt das Defizit bewusst moderat an und legt es auf die richtigen Tage: an Ruhetagen weniger, um lange Einheiten herum normal. So verlierst du Fett, ohne dass die Form am See einbricht.",
+      },
+      {
+        title: "Online-Beratung passt zum Dorf am Stadtrand",
+        body: "Die Beratung läuft komplett online: Video-Termine, ein Plan, der zu deinem Training passt, kurze Check-ins zum Nachsteuern. Gerade in Fühlingen, wo jeder Termin in der Stadt eine Fahrt bedeutet, ist das der Punkt, an dem Beratung durchgehalten wird statt nach drei Wochen zu kippen. Wer zusätzlich Krafttraining will, kombiniert die Beratung mit 1-zu-1 Einheiten, für die ich zu dir komme.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Fühlingen?",
+        a: "Die Beratung durch Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich trainiere für einen Wettkampf am Fühlinger See. Hilft mir das?",
+        a: "Ja, genau dafür ist der Schwerpunkt Sport- und Fitnessernährung da: Energie für lange Einheiten, Essen an Belastungstagen, Eiweiß für die Erholung. Medizinische Ernährungstherapie bietet Natalie nicht an.",
+      },
+      {
+        q: "Muss ich dafür Kalorien zählen?",
+        a: "Am Anfang ja, zwei bis drei Wochen, damit ihr wisst, wo du stehst. Danach arbeitet Natalie mit Portionslogik und festen Mahlzeiten-Bausteinen, die ohne tägliches Tracken funktionieren.",
+      },
+      {
+        q: "Geht die Beratung auch ohne Ausdauersport?",
+        a: "Ja. Der Ablauf ist derselbe: Bestandsaufnahme, Ziel, Wochenplan, Check-ins. Der Sport bestimmt nur, wie das Essen verteilt wird, nicht ob die Beratung funktioniert.",
+      },
+    ],
+  },
+
+  "niehl/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Niehl ist für Schichtpläne gebaut: Trainingsplan in der App in einer Früh-, Spät- und Nachtschicht-Fassung, Check-ins per Video oder Sprachnachricht, wenn du wach bist. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching für Köln-Niehl: Trainingsplan, der mit deinem Schichtplan rotiert, Check-ins wann du wach bist. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Stadtteil, der im Schichttakt lebt",
+        body: "Niehl ist mit den Ford-Werken und dem Hafen einer der großen Industriestandorte Kölns, und das prägt auch, wer hier wohnt: Viele der rund 20.000 Niehler arbeiten im Wechsel von Früh-, Spät- und Nachtschicht. Für klassische Studio-Kurse oder feste Trainer-Termine ist so ein Rhythmus Gift, jede zweite Woche fällt alles aus. Online Coaching dreht das um: Nicht du passt dich einem Stundenplan an, der Plan rotiert mit deiner Schicht.",
+      },
+      {
+        title: "Drei Fassungen derselben Trainingswoche",
+        body: "Dein Plan liegt in der App in drei Fassungen: In der Frühschicht trainierst du am frühen Nachmittag, in der Spätschicht vormittags, in der Nachtschichtwoche stehen kürzere Einheiten mit reduzierter Last, weil der Schlaf dann die knappste Ressource ist und Rekorde in dieser Woche nichts verloren haben. Du wechselst die Fassung mit einem Tipp, die Übungen und die Steigerungslogik bleiben dieselben. So reißt die Kette nicht ab, egal was der Dienstplan macht.",
+      },
+      {
+        title: "Check-ins, wenn du wach bist, nicht wenn Büros offen haben",
+        body: "Einmal pro Woche schauen wir gemeinsam auf deine Zahlen: erledigte Einheiten, Gewichte, Schlaf, Gewicht. Das geht per Video, aber genauso per Sprachnachricht am freien Vormittag, wenn deine Woche gerade keine festen Termine verträgt. Ich lese jede protokollierte Einheit mit und passe den Plan an, bevor sich Probleme festsetzen, etwa wenn die Nachtschichtwochen dauerhaft zu schwer geplant sind.",
+      },
+      {
+        title: "Nordpark und Rheinufer für den Ausgleich",
+        body: "Fürs Krafttraining reicht deine Wohnung mit wenig Material, das wir am Anfang gemeinsam festlegen. Für den Ausdauerteil hat Niehl mehr, als viele denken: Der Nordpark ist weitläufig und auch unter der Woche ruhig, am Rhein Richtung Merkenich laufen flache, lange Wege. Die lockeren Einheiten dort sind bewusst ohne Uhr geplant, als Gegengewicht zu einem Alltag, der ohnehin durchgetaktet ist.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Niehl?",
+        a: "Ab 150€ im Monat, mit Trainingsplan in der App, Ernährungssteuerung und wöchentlichem Check-in. Keine Jahresbindung, das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite Wechselschicht. Funktioniert das wirklich?",
+        a: "Ja, der Plan ist genau dafür gebaut: drei Fassungen pro Woche, die Nachtschicht-Fassung bewusst leichter. Du sagst mir deinen Schichtrhythmus im Erstgespräch, danach rotiert der Plan automatisch mit.",
+      },
+      {
+        q: "Brauche ich ein Studio in der Nähe?",
+        a: "Nein. Die Pläne funktionieren mit Grundausstattung zu Hause, und den Ausdauerteil legen wir in den Nordpark oder ans Rheinufer. Wer ein Studio nutzen will, bekommt die Studio-Fassung derselben Einheiten.",
+      },
+      {
+        q: "Was passiert, wenn ich eine Woche komplett ausfalle?",
+        a: "Dann setzt der Plan nicht einfach fort, als wäre nichts gewesen: Ich passe die Folgewoche an, meist mit einer leichten Wiedereinstiegseinheit. Ausfälle sind im Schichtalltag normal und im System eingeplant.",
+      },
+    ],
+  },
+
+  "pesch/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Pesch ist geführtes Krafttraining, das zu dir nach Hause kommt: zwei Einheiten pro Woche mit echter Last und Protokoll, null Anfahrt, kein Jahresvertrag. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Pesch: echtes Krafttraining bei dir zu Hause statt 20 Minuten Strom plus Anfahrt. 50€/Std, ohne Vertrag, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Rechne die 20 Minuten ehrlich in Zeit um",
+        body: "Das EMS-Versprechen lautet: nur 20 Minuten pro Woche. Nur steht das Studio dafür nicht in Pesch. Von hier aus heißt das: hinfahren, umziehen, Weste anlegen, trainieren, duschen, zurückfahren. Aus 20 Minuten Strom wird schnell eine Stunde und mehr, Woche für Woche. Beim Training mit mir fällt genau dieser Posten weg: Ich komme mit dem Material zu dir, die Stunde beginnt an deiner Haustür und endet dort. Netto trainierst du länger und bist trotzdem nicht mehr Zeit los.",
+      },
+      {
+        title: "Die Stunde steckt voller Arbeit, nicht voller Strom",
+        body: "Der zweite Unterschied ist der Inhalt. EMS reizt viele Muskeln gleichzeitig im Stehen, aber niemand lernt dabei eine Kniebeuge, ein Kreuzheben oder einen sauberen Zug. Genau diese Bewegungen sind es, die Alltag und Rücken stärker machen, weil sie mit steigendem Gewicht trainierbar sind. In deinem Protokoll steht nach drei Monaten schwarz auf weiß, wie viel mehr du bewegst. Ein Kribbeln unter der Weste kann man nicht steigern, nur lauter drehen.",
+      },
+      {
+        title: "Training, das in Haus und Garten passt",
+        body: "Pesch ist ein ruhiges Wohnveedel mit knapp 7.800 Einwohnern, viel Einfamilien- und Reihenhausbestand und ohne eigene Studioszene. Für das Training ist das kein Nachteil: Wohnzimmer, Keller oder Garten reichen für den kompletten Plan. Ich bringe Kurzhanteln, Bänder und Zusatzlast mit. Im Sommer verlegen wir Einheiten nach draußen, die Felder Richtung Esch und Auweiler liegen für Geh- und Lauf-Hausaufgaben direkt vor der Tür.",
+      },
+      {
+        title: "Ohne Bindung, mit offenem Vergleich",
+        body: "EMS läuft fast immer über Jahresverträge. Bei mir zahlst du pro Stunde und hörst auf, wann du willst, auch das gehört zu einer ehrlichen Alternative. Und wenn im kostenlosen Erstgespräch herauskommt, dass für dich tatsächlich EMS sinnvoller wäre, etwa weil du nach ärztlicher Vorgabe vorerst keine normale Last bewegen sollst, sage ich dir das offen. In allen anderen Fällen gilt: Bewegung unter steigender Last schlägt Strom im Stand.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Pesch?",
+        a: "50€ pro geführter 1-zu-1 Stunde, ohne Vertragslaufzeit und ohne Anfahrtkosten für dich. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Gibt es in Pesch überhaupt ein EMS-Studio?",
+        a: "In Pesch selbst wirst du kaum fündig, die Anbieter sitzen Richtung Innenstadt und in den größeren Veedeln. Genau deshalb lohnt der Zeitvergleich: Training bei dir zu Hause spart die Fahrt komplett.",
+      },
+      {
+        q: "Ist echtes Krafttraining nicht anstrengender als EMS?",
+        a: "Anstrengend sind beide. Der Unterschied: Beim Krafttraining steuern wir die Last exakt und steigern sie planbar. Die Einheiten starten so leicht, wie dein Stand es verlangt, auch mit 50 oder 60 Jahren.",
+      },
+      {
+        q: "Was brauche ich an Ausrüstung zu Hause?",
+        a: "Nichts. Kurzhanteln, Widerstandsbänder und Zusatzgewichte bringe ich mit. Ein paar Quadratmeter freie Fläche im Wohnzimmer, Keller oder Garten reichen aus.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
