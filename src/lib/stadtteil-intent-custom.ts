@@ -5451,6 +5451,134 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "buchheim/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Buchheim auch für alle, die noch nie eine Langhantel angefasst haben: Wir starten mit Technik an leichten Gewichten, steigern nach Protokoll und legen ein Eiweißziel fest. Zwei Einheiten pro Woche, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Buchheim: Einstieg ohne Vorerfahrung, Technik vor Last, Protokoll und Eiweißziel. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Noch nie trainiert? Genau dafür ist das gebaut",
+        body: "Viele Anfragen zum Muskelaufbau beginnen mit demselben Satz: Ich war noch nie im Studio und traue mich da nicht rein. In Buchheim muss das niemanden aufhalten. Die ersten Wochen laufen bei dir zu Hause, mit Material, das ich mitbringe. Kniebeuge, Rudern, Drücken, alles erst mit leichtem Gewicht, bis die Bewegung sitzt. Wer mit sauberer Technik startet, steigert sich danach schneller und verletzungsfrei. Wer mit Ego-Gewichten startet, steht nach sechs Wochen beim Arzt statt an der Hantel.",
+      },
+      {
+        title: "Technik zuerst, dann wird gesteigert",
+        body: "Der Plan für die ersten drei Monate ist bewusst schlicht: fünf bis sechs Grundübungen, zwei Einheiten pro Woche, jede Einheit steht im Protokoll. Gesteigert wird erst, wenn eine Übung technisch sauber ist, dann aber konsequent, in kleinen Schritten von Woche zu Woche. Für dich heißt das: Du musst dir nichts merken und nichts ausdenken. Du siehst im Protokoll, was du letzte Woche geschafft hast und was diese Woche dran ist.",
+      },
+      {
+        title: "Essen gehört von Anfang an dazu",
+        body: "Ohne Baumaterial kein Aufbau: Als Einsteiger brauchst du vor allem genug Eiweiß, als Faustwert 1,6 bis 2 Gramm pro Kilo Körpergewicht am Tag. Das klingt nach mehr, als es ist, wenn man es auf drei Mahlzeiten verteilt. Du bekommst von mir einen konkreten Zielwert und ein paar einfache Buchheimer Alltagslösungen dafür, ohne Pulverzwang und ohne dass du anders kochen musst als bisher.",
+      },
+      {
+        title: "Buchheim liegt näher am Training, als viele denken",
+        body: "Buchheim ist mit rund 13.000 Einwohnern auf 2,86 km² ein dichtes Wohnveedel ohne eigene Studiolandschaft, aber mit kurzen Wegen: Mülheim liegt direkt nebenan, die Merheimer Heide beginnt gleich hinter der südlichen Stadtteilgrenze. Fürs Krafttraining brauchst du davon erstmal nichts, das findet in deiner Wohnung statt. Die Heide nehmen wir später dazu, wenn du an trainingsfreien Tagen Bewegung willst, die die Erholung unterstützt statt sie zu stören.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Buchheim?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€. Wer nach der Technikphase selbstständig weitertrainieren will, wechselt ins Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe null Erfahrung mit Gewichten. Ist das ein Problem?",
+        a: "Nein, es ist der Normalfall. Die ersten Einheiten laufen mit leichtem Gewicht und viel Technikarbeit. Niemand steht dabei und schaut zu: Wir trainieren bei dir zu Hause in Buchheim, bis du dich sicher fühlst.",
+      },
+      {
+        q: "Brauche ich dafür Geräte in der Wohnung?",
+        a: "Nein. Ich bringe Kurzhanteln, Widerstandsbänder und was sonst nötig ist mit. Erst wenn du nach einigen Monaten an schwerere Langhantelarbeit gehst, reden wir über Studio-Einheiten.",
+      },
+      {
+        q: "Wie lange dauert es, bis man etwas sieht?",
+        a: "Kraftzuwachs steht nach vier bis sechs Wochen messbar im Protokoll. Sichtbare Veränderung am Körper braucht als Einsteiger meist drei bis vier Monate, vorausgesetzt das Eiweißziel wird erreicht.",
+      },
+    ],
+  },
+
+  "dellbrueck/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Dellbrück geht auch ohne Laufen: zügige Geh-Runden auf den Sandwegen der Dellbrücker Heide, zwei Krafteinheiten pro Woche und ein Kalorienziel, das Natalie mit dir festlegt. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Dellbrück ohne Laufzwang: Geh-Runden in der Dellbrücker Heide, 2 Krafteinheiten pro Woche, klares Kalorienziel. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Du musst nicht laufen, um abzunehmen",
+        body: "Dellbrück ist ein Läuferveedel, und genau das entmutigt viele: Wer 20 oder 30 Kilo zu viel trägt, für den ist Joggen anfangs keine Hilfe, sondern eine Verletzungsquelle für Knie und Achillessehne. Die ehrliche Reihenfolge ist anders. Erst kommt das Kaloriendefizit aus dem Essen, dann Gehen als Grundverbrauch, dann Krafttraining als Muskelschutz. Laufen kommt irgendwann dazu, wenn Gewicht und Gelenke so weit sind, oder auch gar nicht. Abnehmen funktioniert auch komplett ohne.",
+      },
+      {
+        title: "Die Heide ist zum Gehen besser als zum Rennen",
+        body: "Die Dellbrücker Heide hat etwas, das kaum ein Kölner Park bietet: offene Sandflächen. Auf nachgiebigem Boden kostet jeder Schritt mehr Kraft als auf Asphalt, bei deutlich weniger Stoßbelastung für die Gelenke. Deine Runden dort sind also kein Spazierersatz, sondern ein planbarer Verbrauchsposten: drei bis vier feste Geh-Einheiten pro Woche, Dauer und Tempo steigen mit der Fitness. Wer lieber im Schatten geht, weicht auf die Waldwege Richtung Thielenbruch aus.",
+      },
+      {
+        title: "Zwei Krafteinheiten entscheiden, was du verlierst",
+        body: "Ohne Krafttraining verlierst du im Defizit Muskeln und Fett gemischt, und am Ende steht eine kleinere, aber weichere Version von dir. Deshalb gehören zwei geführte Krafteinheiten pro Woche fest in den Plan, bei dir zu Hause in Dellbrück oder im Studio. Dazu setzt Natalie, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, dein Kalorien- und Eiweißziel so, dass das Defizit wirkt, ohne dass du hungrig durch den Tag gehst.",
+      },
+      {
+        title: "Gemessen wird am Umfang, nicht an der Tageslaune der Waage",
+        body: "Die Waage schwankt mit Wasser, Salz und Zyklus, in den ersten Wochen oft gegen jede Logik. Deshalb messen wir alle zwei Wochen Bauchumfang und Gewicht im Wochenschnitt und entscheiden nach diesen Zahlen, nicht nach einem einzelnen Morgenwert. Bewegt sich vier Wochen nichts, ändern wir Essen oder Training. So weißt du jederzeit, ob der Plan arbeitet, statt es zu hoffen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Dellbrück?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Trainingsplan, Ernährungssteuerung durch Natalie und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich dafür joggen können?",
+        a: "Nein. Der Plan startet mit Geh-Runden in der Dellbrücker Heide und zwei Krafteinheiten pro Woche. Laufen nehmen wir nur dazu, wenn Gelenke und Gewicht es sinnvoll machen und du es willst.",
+      },
+      {
+        q: "Wie schnell nehme ich damit ab?",
+        a: "Realistisch sind 0,5 bis 1 Prozent des Körpergewichts pro Woche. Schneller heißt fast immer: mehr Muskelverlust und höhere Rückfallquote. Das Ziel ist ein Gewicht, das bleibt, nicht ein Crash-Ergebnis.",
+      },
+      {
+        q: "Wo findet das Krafttraining statt?",
+        a: "Bei dir zu Hause in Dellbrück mit Material, das ich mitbringe, oder im Studio. Für den Anfang reicht die Wohnung völlig, die Übungsauswahl passe ich an den Platz an.",
+      },
+    ],
+  },
+
+  "dellbrueck/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Dellbrück ist Krafttraining mit echter Last: zwei geführte Einheiten pro Woche, die auch deine Läufe in Heide und Thielenbruch schneller machen, ohne Stromweste und ohne Jahresvertrag. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Dellbrück: echtes Krafttraining statt Stromweste, mit Übertrag auf deine Läufe in der Heide. 50€/Std, ohne Vertrag, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Was der Stromreiz deinen Läufen nicht gibt",
+        body: "Viele, die in Dellbrück über EMS nachdenken, laufen bereits: Heide, Thielenbruch, Königsforst. Gesucht wird ein Kraftzusatz, der wenig Zeit kostet. Genau da liegt das Problem: EMS reizt Muskeln im Stand, ohne Bewegung gegen steigende Last. Was Läuferknie, Hüfte und Waden belastbarer macht, ist aber genau das: Kniebeugen, Ausfallschritte, Wadenheben mit Gewicht, über Monate gesteigert. Der Stromreiz kann einen Muskel ermüden. Eine Bewegung stärker machen kann er nicht.",
+      },
+      {
+        title: "Zwei Einheiten, die sich im Training draußen auszahlen",
+        body: "Der Plan ist auf Übertrag gebaut: eine Einheit für Beine und Rumpf, eine für den Oberkörper und die Haltung, beide mit Übungen, deren Gewicht im Protokoll von Woche zu Woche steigt. Nach acht bis zwölf Wochen merkst du es dort, wo es zählt: Die letzten Kilometer in der Heide werden stabiler, Anstiege im Königsforst kosten weniger, und das Hohlkreuz am Ende langer Läufe verschwindet.",
+      },
+      {
+        title: "Kein Studio-Umweg, kein Vertrag",
+        body: "Trainiert wird bei dir zu Hause in Dellbrück mit mitgebrachtem Material oder im Studio, wie es dir passt. Es gibt keine Mindestlaufzeit und kein Abo: Du zahlst 50€ pro Stunde, solange das Training dir etwas bringt. EMS-Anbieter arbeiten fast immer mit Jahresverträgen ab etwa 80 bis 100€ im Monat. Rechne beides auf zwölf Monate hoch und vergleiche, was du am Ende kannst: messbar mehr Gewicht auf der Stange oder eine abgelaufene Mitgliedschaft.",
+      },
+      {
+        title: "Wann EMS trotzdem eine Option ist",
+        body: "Es gibt Fälle, in denen EMS seinen Platz hat, etwa als ärztlich begleiteter Wiedereinstieg, wenn normale Last noch nicht möglich ist. Wenn das auf dich zutrifft, sage ich dir das im Erstgespräch offen, statt dir eine Stunde zu verkaufen. Für gesunde Freizeitsportler mit dem Ziel Kraft, Figur oder bessere Laufleistung bleibt die Antwort klar: echte Last schlägt Strom, weil nur sie Bewegungen trainiert.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Dellbrück?",
+        a: "50€ pro geführter Stunde, ohne Vertragslaufzeit. Zum Vergleich: EMS-Studios binden meist über Jahresverträge. Das Erstgespräch bei mir ist kostenlos, auch wenn dabei herauskommt, dass du mich nicht brauchst.",
+      },
+      {
+        q: "Ich laufe schon viel. Reicht EMS nicht als Ergänzung?",
+        a: "Fürs Laufen brauchst du Kraft in der Bewegung: Beinachse, Hüftstreckung, Rumpf unter Ermüdung. Das trainiert nur echte Last mit steigendem Gewicht. EMS reizt Muskeln im Stand und verbessert deine Laufökonomie nicht messbar.",
+      },
+      {
+        q: "Wie viel Zeit kostet das pro Woche wirklich?",
+        a: "Zwei Einheiten à 60 Minuten, bei dir zu Hause in Dellbrück ohne Anfahrt. Das ist mehr als die beworbenen 20 EMS-Minuten, aber mit Anfahrt zum EMS-Studio schrumpft der Unterschied, und das Ergebnis ist ein anderes.",
+      },
+      {
+        q: "Kann ich Krafttraining und meine Läufe am selben Tag machen?",
+        a: "Ja, wenn die Reihenfolge stimmt: erst Kraft, dann ein lockerer Lauf, oder beides mit einigen Stunden Abstand. Harte Tempoläufe und schwere Beineinheiten legen wir im Plan auf verschiedene Tage.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
