@@ -127,12 +127,12 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 119 | /koeln/bayenthal/online-coaching | 0 | 6 | 6,3 | FATTA (giro 32, 11/11) |
 | 120 | /koeln/bilderstoeckchen/ernaehrungsberatung | 0 | 6 | 43,2 | FATTA (giro 32, 11/11) |
 | 121 | /koeln/blumenberg/muskelaufbau | 0 | 6 | 4,2 | FATTA (giro 32, 11/11) |
-| 122 | /koeln/buchheim/muskelaufbau | 0 | 6 | 4,3 | in coda (pos ottima: rafforzare con molta prudenza) |
-| 123 | /koeln/dellbrueck/abnehmen | 0 | 6 | 9,7 | in coda (pos buona: rafforzare) |
-| 124 | /koeln/dellbrueck/ems-alternative | 0 | 6 | 15,2 | in coda |
-| 125 | /koeln/fuehlingen/ernaehrungsberatung | 0 | 6 | 11,0 | in coda |
-| 126 | /koeln/niehl/online-coaching | 0 | 6 | 11,0 | in coda |
-| 127 | /koeln/pesch/ems-alternative | 0 | 6 | 7,3 | in coda (pos buona: rafforzare) |
+| 122 | /koeln/buchheim/muskelaufbau | 0 | 6 | 4,3 | FATTA (giro 33, 12/11) |
+| 123 | /koeln/dellbrueck/abnehmen | 0 | 6 | 9,7 | FATTA (giro 33, 12/11) |
+| 124 | /koeln/dellbrueck/ems-alternative | 0 | 6 | 15,2 | FATTA (giro 33, 12/11) |
+| 125 | /koeln/fuehlingen/ernaehrungsberatung | 0 | 6 | 11,0 | FATTA (giro 33, 12/11) |
+| 126 | /koeln/niehl/online-coaching | 0 | 6 | 11,0 | FATTA (giro 33, 12/11) |
+| 127 | /koeln/pesch/ems-alternative | 0 | 6 | 7,3 | FATTA (giro 33, 12/11) |
 | 128 | /koeln/pesch/rueckentraining | 0 | 6 | 6,7 | in coda (pos buona: rafforzare) |
 | 129 | /koeln/weidenpesch/abnehmen | 0 | 6 | 39,2 | in coda |
 
