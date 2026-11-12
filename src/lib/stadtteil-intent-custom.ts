@@ -5965,6 +5965,134 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "blumenberg/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Blumenberg funktioniert bei mir über Sättigung statt Verbote: Eiweiß und Volumen zuerst auf den Teller, dazu feste Geh-Runden über die Felder Richtung Worringer Bruch und zwei Krafteinheiten pro Woche bei dir zu Hause. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Blumenberg: satt essen statt hungern, Geh-Runden über die Felder, zwei Krafteinheiten pro Woche zu Hause. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Satt werden ist die halbe Diät",
+        body: "Die meisten Abnehmversuche scheitern nicht an fehlender Disziplin, sondern am Hunger um 21 Uhr. Deshalb drehe ich die Reihenfolge um: Erst kommt das Eiweiß auf den Teller, dann Gemüse und Beilagen mit Volumen, und erst danach wird gerechnet. Wer satt ist, braucht keine Verbotsliste. Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, baut dir diese Teller-Logik aus Gerichten, die du ohnehin kochst. Verboten ist nichts, auch nicht das Eis mit den Kindern am Wochenende.",
+      },
+      {
+        title: "Die Felder hinter der Siedlung sind deine Verbrauchsstrecke",
+        body: "Blumenberg ist mit rund 5.100 Einwohnern eine überschaubare Siedlung am nördlichen Stadtrand, und genau dahinter beginnt offenes Land: Feldwege Richtung Worringen und zum Worringer Bruch, flach und ohne eine einzige Ampel. Dort legen wir deine Geh-Runden fest, 30 bis 45 Minuten, an festen Tagen. Das ist kein Sportprogramm, das ist dein Grundverbrauch, und er beginnt direkt an der Haustür statt hinter einer Anfahrt.",
+      },
+      {
+        title: "Zweimal Kraft pro Woche, damit das Gewicht aus Fett verschwindet",
+        body: "Ohne Krafttraining verlierst du im Defizit Muskeln mit, und der Körper verbraucht danach weniger als vorher. Deshalb gehören zwei geführte Krafteinheiten pro Woche in den Plan, bei dir zu Hause mit Material, das ich mitbringe, oder im Studio. Grundübungen, moderate Gewichte, saubere Steigerung. So bestimmen wir, woraus die verlorenen Kilos bestehen.",
+      },
+      {
+        title: "Kontrolle ohne Waagen-Drama",
+        body: "Gewogen wird täglich, bewertet wird wöchentlich: Zählen tut nur der Sieben-Tage-Schnitt, dazu Bauchumfang und zwei, drei Fotos im Monat. Einmal pro Woche schauen wir gemeinsam auf die Zahlen und stellen nach. Realistisch sind 0,3 bis 0,5 Kilo pro Woche, und zwar so, dass du den Weg mit Familie, Job und normalem Essen durchhältst.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Blumenberg?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Wer vor allem Plan und Kontrolle braucht, fährt mit dem Online Coaching ab 150€ im Monat oft besser: Ernährungsziel, Trainingsplan und wöchentlicher Check-in. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Muss ich dafür in ein Studio fahren?",
+        a: "Nein. Die Krafteinheiten machen wir bei dir zu Hause, das Material bringe ich mit. Die Geh-Runden liegen auf den Feldwegen hinter der Siedlung. Wer lieber im Studio trainiert, bekommt den Plan dafür.",
+      },
+      {
+        q: "Welche Lebensmittel muss ich streichen?",
+        a: "Keine. Wir arbeiten mit einem Kalorienrahmen und einer Teller-Reihenfolge, die satt macht: Eiweiß zuerst, dann Volumen. Was in den Rahmen passt, ist erlaubt. Verbote funktionieren nur bis zum ersten Geburtstag im Freundeskreis.",
+      },
+      {
+        q: "Wie schnell nehme ich damit ab?",
+        a: "Geplant sind 0,3 bis 0,5 Kilo pro Woche im Sieben-Tage-Schnitt. Das klingt unspektakulär, summiert sich aber in drei Monaten auf vier bis sechs Kilo, die nicht zurückkommen, weil die Muskulatur erhalten bleibt.",
+      },
+    ],
+  },
+
+  "urbach/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Urbach: zwei geführte Krafteinheiten pro Woche mit steigender Last und Protokoll, bei dir zu Hause oder im Studio. Wer körperlich arbeitet, trainiert bei mir anders als ein Büromensch, aber trainieren muss er trotzdem. 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Urbach: geplante Steigerung statt schwerer Arbeit, zwei Einheiten pro Woche zu Hause oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Den ganzen Tag auf den Beinen heißt nicht trainiert",
+        body: "Viele Anfragen aus dem Kölner Südosten klingen gleich: Ich arbeite doch körperlich, warum wachse ich nicht? Die Antwort ist unbequem: Arbeit belastet immer gleich, Muskelaufbau braucht steigende Last. Wer acht Stunden trägt, hebt und steht, hat abends einen müden Körper, aber keinen Wachstumsreiz. Genau da setzt das Training an: wenige, schwere Sätze mit geplanter Steigerung, die deine Arbeit nicht liefert.",
+      },
+      {
+        title: "Zwei Einheiten, die neben Job und Familie stehen bleiben",
+        body: "Urbach ist mit rund 13.000 Einwohnern auf gut zwei Quadratkilometern eines der dichter besiedelten Veedel im Bezirk Porz: Reihenhäuser, Familien, volle Tage. Deshalb plane ich zwei Einheiten pro Woche, nicht vier, und lege sie auf feste Slots, früh morgens oder nach Feierabend. Zu Hause reicht eine freie Ecke, das Material bringe ich mit. Wer ein Studio bevorzugt, bekommt den Plan dort umgesetzt.",
+      },
+      {
+        title: "Das Protokoll entscheidet, nicht das Gefühl",
+        body: "Jede Einheit steht im Trainingslog: Übung, Gewicht, Wiederholungen. Nach vier bis sechs Wochen vergleichen wir, und wenn die Zahlen nicht steigen, ändere ich den Plan, nicht du deine Motivation. Für müde Tage nach anstrengenden Schichten gibt es eine Kurzversion der Einheit, denn ausgefallenes Training ist der einzige echte Feind des Aufbaus.",
+      },
+      {
+        title: "Essen für Aufbau, ohne den Speiseplan umzuwerfen",
+        body: "Muskeln entstehen in der Küche mit: Als Zielwert rechnen wir mit etwa 1,6 bis 2 Gramm Eiweiß pro Kilo Körpergewicht am Tag. Das erreichst du mit normalen Gerichten, wenn die Reihenfolge stimmt. Wer es genauer will, holt sich Natalie dazu, unsere Ernährungsberaterin für Sport- und Fitnessernährung. Mehr als ein leichter Kalorienüberschuss ist nicht nötig, sonst baust du Fett statt Muskeln auf.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Urbach?",
+        a: "50€ pro 1-zu-1 Stunde, bei dir zu Hause oder im Studio. Für Selbsttrainierer gibt es das Online Coaching ab 150€ im Monat mit Plan, Technik-Videos und Wochen-Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite körperlich. Trainiere ich dann nicht genug?",
+        a: "Du belastest viel, aber ohne Steigerung, und oft einseitig. Das Training setzt gezielt die Reize, die deine Arbeit nicht liefert, und gleicht die einseitigen Muster aus. Zwei Einheiten pro Woche reichen dafür.",
+      },
+      {
+        q: "Brauche ich ein Fitnessstudio in der Nähe?",
+        a: "Nein. Für die ersten sechs bis zwölf Monate reichen Kurzhanteln, eine Bank und ein Band, und das bringe ich zu dir nach Urbach mit. Später kann ein Studio sinnvoll werden, wenn die Gewichte zu groß fürs Wohnzimmer werden.",
+      },
+      {
+        q: "Wie lange dauert es, bis man etwas sieht?",
+        a: "Kraftwerte steigen ab Woche drei bis vier, sichtbare Veränderung kommt je nach Ausgangslage nach acht bis zwölf Wochen. Ich zeige dir im Protokoll den Fortschritt, bevor der Spiegel ihn zeigt, denn genau in dieser Lücke geben die meisten auf.",
+      },
+    ],
+  },
+
+  "raderthal/personal-training": {
+    answer:
+      "Personal Training in Köln-Raderthal: 1-zu-1 bei dir zu Hause oder im Vorgebirgspark, der direkt im Veedel liegt. Kein Studio nötig, keine Anfahrt, volle Aufmerksamkeit. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Raderthal: Training zu Hause oder im Vorgebirgspark, 1-zu-1 mit Plan und Progression. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein kleines Veedel mit einem großen Park",
+        body: "Raderthal hat keine 5.000 Einwohner und kein einziges Fitnessstudio, dafür den Vorgebirgspark: weite Wiesen, alte Baumreihen, angelegt vor über hundert Jahren vom Kölner Gartendirektor Fritz Encke. Vormittags und am frühen Nachmittag ist der Park fast leer. Für Personal Training ist das die beste Fläche im Kölner Süden: Platz für Sprints, Stufen für Stützarbeit, Wiesen für alles mit Eigengewicht, und niemand schaut zu.",
+      },
+      {
+        title: "Dein Wohnzimmer ist die zweite Trainingsfläche",
+        body: "Die Kraftarbeit mit Zusatzgewicht verlegen wir zu dir nach Hause: Ich bringe Kurzhanteln, Bänder und eine Matte mit, eine freie Ecke genügt. Zwischen Militärring und Grüngürtel wohnt man in Raderthal ruhig, und genau so trainiert es sich auch: Tür auf, 60 Minuten, Tür zu, kein Umziehen in der Umkleide, kein Gerät blockiert. Bei gutem Wetter kombinieren wir beide Orte in einer Einheit.",
+      },
+      {
+        title: "Plan und Progression statt bunter Übungssammlung",
+        body: "Am Anfang steht ein Check: Beweglichkeit, Kraftwerte, Ziele, danach schreibe ich deinen Plan. Zwei Einheiten pro Woche, jede dokumentiert, alle vier bis sechs Wochen wird nachgemessen. Ob dein Ziel Abnehmen, Kraft oder einfach Belastbarkeit im Alltag ist: Du siehst in Zahlen, ob es vorangeht, und ich passe an, wenn nicht.",
+      },
+      {
+        title: "Für wen das in Raderthal passt",
+        body: "Typisch sind Berufstätige, die nach Feierabend keine Fahrt mehr durch die Stadt wollen, Eltern, die trainieren, während das Kind schläft, und Leute über 50, die wieder anfangen und sich dafür Begleitung wünschen. Das Einstiegsniveau spielt keine Rolle: Der Check am Anfang legt fest, wo wir starten, nicht dein letzter Studiobesuch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Raderthal?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Vertragsbindung. Das Erstgespräch ist kostenlos, dabei klären wir Ziel, Ort und Frequenz. Wer selbstständig mit Plan trainieren will, nimmt das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Wo trainieren wir im Winter?",
+        a: "Drinnen bei dir, mit mitgebrachtem Material. Der Vorgebirgspark bleibt bei trockenem Wetter auch im Winter nutzbar, für die kalten Wochen liegt der Schwerpunkt auf der Kraftarbeit in der Wohnung.",
+      },
+      {
+        q: "Ich war lange nicht mehr sportlich aktiv. Ist das ein Problem?",
+        a: "Nein, das ist der häufigste Fall. Wir starten mit einem Check und leichten Lasten, die Steigerung kommt in kleinen Schritten. Nach einer längeren Pause zählt der Wiedereinstieg ohne Verletzung mehr als jedes Tempo.",
+      },
+      {
+        q: "Wie schnell bekomme ich einen Termin?",
+        a: "In der Regel innerhalb einer Woche. Raderthal liegt für mich günstig zwischen Zollstock und Marienburg, deshalb sind auch Randzeiten am frühen Morgen oder späten Abend möglich. Schreib mir einfach über das Kontaktformular.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
