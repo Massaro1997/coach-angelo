@@ -186,3 +186,53 @@ model Pagamento {
   @@index([stato])
   @@index([documento])
 }
+
+/// App clienti (dal 12/11/2026). Il coach scrive allenamento e alimentazione
+/// giorno per giorno; il cliente apre /app, tocca il giorno e vede cosa fare.
+/// E' la prova dentro FitPrimo di un prodotto da rivendere in white label:
+/// `coach` dice di quale marchio e' il cliente (oggi solo "fitprimo"), cosi'
+/// piu' avanti non serve un ALTER TABLE per separare i coach.
+model AppCliente {
+  id            String        @id @default(cuid())
+  coach         String        @default("fitprimo")
+  nome          String
+  email         String?
+  telefono      String?
+  lingua        String        @default("de") // de | it
+  obiettivo     String?       // lo vede anche il cliente, in testa all'app
+  note          String?       // solo per il coach
+  // 8 cifre: si scrive nell'app installata (su iPhone non vede i cookie di Safari)
+  codice        String        @unique
+  // link d'accesso /app/entra/<token>, 32 hex, da mandare su WhatsApp
+  token         String        @unique
+  attivo        Boolean       @default(true)
+  ultimoAccesso DateTime?
+  giornate      AppGiornata[]
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  @@index([coach])
+}
+
+/// Un giorno del piano di un cliente. `data` e' il giorno di calendario a
+/// Colonia come testo (YYYY-MM-DD): niente fusi orari che spostano i giorni.
+model AppGiornata {
+  id            String     @id @default(cuid())
+  clienteId     String
+  cliente       AppCliente @relation(fields: [clienteId], references: [id], onDelete: Cascade)
+  data          String
+  riposo        Boolean    @default(false)
+  allenamento   Json?      // Allenamento in src/lib/app-coaching/tipi.ts
+  alimentazione Json?      // Alimentazione in src/lib/app-coaching/tipi.ts
+  notaCoach     String?
+  // --- risposta del cliente ---
+  fatto         Boolean    @default(false)
+  fattoAt       DateTime?
+  fatica        Int?       // 1-5
+  feedback      String?
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  @@unique([clienteId, data])
+  @@index([data])
+}

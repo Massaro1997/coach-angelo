@@ -8,6 +8,7 @@ import {
   Receipt,
   TrendingUp,
   Users,
+  Smartphone,
   Handshake,
   Shirt,
   Menu,
@@ -25,6 +26,7 @@ import { adminLogout } from "@/components/AdminGate";
 export type Vista =
   | "conversioni"
   | "clienti"
+  | "app"
   | "commissioni"
   | "lead"
   | "preventivi"
@@ -35,6 +37,7 @@ export type Vista =
 const NAV: { key: Vista; label: string; icon: typeof LayoutDashboard }[] = [
   { key: "conversioni", label: "Conversioni", icon: LayoutDashboard },
   { key: "clienti", label: "Clienti", icon: Users },
+  { key: "app", label: "App clienti", icon: Smartphone },
   { key: "commissioni", label: "DirezioneX", icon: Handshake },
   { key: "preventivi", label: "Contratti", icon: FileSignature },
   { key: "lead", label: "Lead", icon: Inbox },

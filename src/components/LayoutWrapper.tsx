@@ -31,6 +31,9 @@ export default function LayoutWrapper({
     pathname?.startsWith("/admin") ||
     pathname?.startsWith("/preventivo/") ||
     pathname?.startsWith("/pagamento/") ||
+    // App clienti (PWA): schermo intero, niente sito attorno
+    pathname === "/app" ||
+    pathname?.startsWith("/app/") ||
     false;
 
   if (isPrintPage || isAppPage) {
