@@ -6093,6 +6093,134 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "duennwald/personal-training": {
+    answer:
+      "Personal Training in Köln-Dünnwald macht aus deinen Runden durch den Dünnwalder Wald ein System: Tempoarbeit draußen, Kraft bei dir zu Hause, Fortschritt in Zahlen. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Dünnwald: Tempoarbeit im Wald, Krafttraining zu Hause, messbarer Fortschritt im 1-zu-1. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Du bewegst dich schon, aber ohne Reiz",
+        body: "Wer in Dünnwald wohnt, ist meist schon draußen: die Runde durch den Wald, der Weg am Wildpark vorbei, um den Höhenfelder See. Das ist mehr Grundbewegung, als die meisten Kölner haben, und trotzdem ändert sich am Körper oft nichts, weil die Belastung immer gleich bleibt. Personal Training heißt hier nicht, bei null anzufangen: Ich nehme die Wege, die du ohnehin gehst, und mache aus ihnen Einheiten mit Tempo, Intervallen und einem Ziel.",
+      },
+      {
+        title: "Der Wald für die Ausdauer, das Wohnzimmer für die Kraft",
+        body: "Dünnwald ist mit fast elf Quadratkilometern eines der grünsten Veedel im Kölner Osten, aber Bäume ersetzen keine Hanteln. Deshalb läuft der Plan zweigleisig: Intervalle und zügige Abschnitte auf den Waldwegen, Kraftarbeit mit mitgebrachten Kurzhanteln, Bank und Bändern bei dir zu Hause. Du brauchst kein Studio und keine Fahrt quer durch den Osten, der Plan steht auf dem, was vor deiner Tür und in deiner Wohnung liegt.",
+      },
+      {
+        title: "Gemessen wird, sonst ist es nur Spazierengehen mit Begleitung",
+        body: "Am Anfang steht ein Check: Kraftwerte, Beweglichkeit, eine Referenzstrecke im Wald mit Zeit. Alle vier bis sechs Wochen messen wir dieselben Dinge nach. So siehst du schwarz auf weiß, ob die Runde schneller, die Hantel schwerer und der Alltag leichter wird. Wenn eine Zahl stehen bleibt, ändere ich den Plan, dafür bezahlst du mich.",
+      },
+      {
+        title: "Termine, die am Stadtrand funktionieren",
+        body: "Viele Dünnwalder pendeln, nach Mülheim, in die Innenstadt oder nach Leverkusen, und abends soll das Training nicht noch eine Fahrt kosten. Deshalb komme ich zu dir: früh vor der Arbeit, am frühen Abend oder am Wochenende, 60 Minuten von Tür zu Tür. Zwei feste Einheiten pro Woche reichen, wenn sie geplant sind und stattfinden.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Dünnwald?",
+        a: "50€ pro 1-zu-1 Stunde, inklusive Anfahrt und Material. Das Erstgespräch ist kostenlos. Wer lieber eigenständig trainiert und nur Plan und Kontrolle will, nimmt das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Trainieren wir auch im Wald?",
+        a: "Ja, wenn es zu deinem Ziel passt: Intervalle, Tempoabschnitte und Übungen mit Eigengewicht auf den Waldwegen, die Kraftarbeit mit Gewichten machen wir bei dir zu Hause. Die Mischung lege ich nach Ziel und Jahreszeit fest.",
+      },
+      {
+        q: "Ich gehe schon jeden Tag spazieren. Was bringt mir Training zusätzlich?",
+        a: "Gehen hält gesund, verändert aber wenig, sobald der Körper sich daran gewöhnt hat. Fortschritt braucht steigende Belastung: mehr Tempo, mehr Last, neue Muster. Genau das setze ich auf deine bestehende Routine drauf, statt sie zu ersetzen.",
+      },
+      {
+        q: "Bin ich für Personal Training fit genug?",
+        a: "Die Frage stellt sich andersrum: Das Training wird auf deinen Stand gebaut, nicht du auf das Training. Der Check am Anfang legt das Niveau fest, und gesteigert wird erst, wenn die Technik sitzt.",
+      },
+    ],
+  },
+
+  "dellbrueck/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Dellbrück baut die Kraft auf, die dein Rücken am Wochenende braucht: Garten, Keller, Umbau, Kinder tragen. Zwei Einheiten pro Woche, bei dir zu Hause oder im Studio, dazu die Dellbrücker Heide als Ausgleich. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Dellbrück: Kraft für Garten, Haus und Alltag statt Schonung. Zwei Einheiten pro Woche, zu Hause oder im Studio. 50€/Std.",
+    sections: [
+      {
+        title: "Der Dellbrücker Rücken meldet sich am Wochenende",
+        body: "Dellbrück ist ein Veedel mit Haus und Garten: knapp 22.000 Einwohner auf fast zehn Quadratkilometern, viel davon mit eigenem Stück Grün. Genau das ist das Muster, das ich hier am häufigsten sehe: Unter der Woche sitzt der Rücken im Büro, am Samstag hebt er Pflanzsäcke, schleppt Kisten in den Keller oder trägt das Enkelkind, und am Montag streikt er. Nicht die Gartenarbeit ist das Problem, sondern der untrainierte Rücken, der sie unvorbereitet bekommt.",
+      },
+      {
+        title: "Wir trainieren das, was am Samstag gebraucht wird",
+        body: "Dein Programm besteht aus den Mustern, an denen der Rücken am Wochenende scheitert: Heben von Boden und Kiste, Tragen über Strecke, Aufrichten gegen Last. Zwei Einheiten pro Woche, zu Hause mit mitgebrachtem Material oder im Studio. Die Gewichte beginnen deutlich unter dem Pflanzsack und steigen planmäßig darüber hinaus, denn ein Rücken, der 40 Kilo kontrolliert bewegt, verzeiht die 20 unkontrollierten im Garten.",
+      },
+      {
+        title: "Heide und Thielenbruch sind dein Programm für die Tage dazwischen",
+        body: "An den trainingsfreien Tagen gehört Gehen in den Plan, und dafür ist Dellbrück privilegiert: die sandigen Wege der Dellbrücker Heide und die Waldwege Richtung Thielenbruch liegen direkt am Veedel. 30 Minuten zügiges Gehen halten die Strukturen versorgt, die das Krafttraining aufbaut. Schonung dagegen macht den Rücken schwächer und die nächste Episode wahrscheinlicher.",
+      },
+      {
+        title: "Was das Training kann und wo der Arzt zuständig ist",
+        body: "Rückentraining bei mir ist Kraftaufbau für einen belastbaren Rücken, keine Therapie. Akute Schmerzen mit Ausstrahlung, Taubheit oder nächtlichem Schmerz gehören zuerst zum Arzt. Danach, und bei dem üblichen unspezifischen Ziehen nach Belastung, ist gezieltes Krafttraining der am besten belegte Weg, damit es nicht chronisch wird. Im kostenlosen Erstgespräch klären wir, wo du stehst.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Dellbrück?",
+        a: "50€ pro 1-zu-1 Stunde, bei dir zu Hause mit mitgebrachtem Material oder im Studio. Das Erstgespräch ist kostenlos und klärt, ob Training der richtige nächste Schritt ist.",
+      },
+      {
+        q: "Mein Rücken tut nach der Gartenarbeit weh. Soll ich sie sein lassen?",
+        a: "Nein, im Gegenteil: Der Garten ist ein gutes Trainingsziel. Wir bauen die Hebe- und Tragekraft systematisch auf, bis das Wochenende im Garten unter deiner trainierten Belastung liegt statt darüber. Aufhören müsstest du nur mit dem unvorbereiteten Heben.",
+      },
+      {
+        q: "Reichen Übungen ohne Geräte?",
+        a: "Für den Anfang ja, auf Dauer nicht. Rumpfübungen mit Eigengewicht sind der Einstieg, aber ein Rücken wird belastbar, wenn er gegen steigende Last hebt, zieht und trägt. Dafür reichen Kurzhanteln und ein Band, die ich mitbringe.",
+      },
+      {
+        q: "Wie schnell wird es besser?",
+        a: "Die meisten spüren nach vier bis sechs Wochen den Unterschied im Alltag: Heben fühlt sich sicherer an, der Montag nach dem Gartentag bleibt ruhig. Belastbar im eigentlichen Sinn wird ein Rücken über drei bis sechs Monate konsequenten Trainings.",
+      },
+    ],
+  },
+
+  "widdersdorf/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Widdersdorf plane ich um den Familientisch herum: ein Abendessen für alle statt Extra-Diätessen, Portionen mit System von Natalie, dazu Geh-Runden über die Feldwege am Ortsrand und zwei Krafteinheiten pro Woche. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Widdersdorf: ein Essen für die ganze Familie statt Diät-Extrawurst, Feldweg-Runden, zwei Krafteinheiten pro Woche. 50€/Std.",
+    sections: [
+      {
+        title: "Die Extrawurst ist der Grund, warum Familiendiäten scheitern",
+        body: "Widdersdorf ist ein Familien-Veedel: Rund um den alten Ortskern ist mit Widdersdorf-Süd eines der größten Neubaugebiete Kölns entstanden, und an den meisten Esstischen sitzen Kinder. Wer hier abnehmen will, scheitert selten am Wissen, sondern an der Logistik: Zwei Gerichte kochen hält niemand durch. Deshalb bauen wir dein Defizit in das eine Essen ein, das ohnehin auf den Tisch kommt. Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, stellt die Portionen so zusammen, dass die Familie normal isst und du trotzdem im Ziel landest.",
+      },
+      {
+        title: "Die Feldwege am Ortsrand sind deine tägliche Runde",
+        body: "Hinter den neuen Straßenzügen hört Widdersdorf schnell auf und die Felder Richtung Lövenich und Bocklemünd fangen an: flache, ruhige Wege ohne Verkehr, mit Kinderwagen genauso machbar wie allein mit Kopfhörern. Dort liegt deine Grundbewegung, 30 bis 45 Minuten an festen Tagen. Das verbrennt nicht spektakulär viel, aber es verbrennt zuverlässig, und Zuverlässigkeit schlägt beim Abnehmen jede Intensität.",
+      },
+      {
+        title: "Zwei Krafteinheiten, wenn die Kinder im Bett sind",
+        body: "Im Kaloriendefizit entscheidet Krafttraining, ob du Fett verlierst oder Muskeln. Zwei Einheiten pro Woche reichen, und sie finden statt, wo du sie durchhältst: bei dir im Wohnzimmer, mit Material, das ich mitbringe, gern um 20 Uhr, wenn der Tag mit den Kindern durch ist. 45 Minuten genügen, wenn der Plan steht und niemand auf ein freies Gerät wartet.",
+      },
+      {
+        title: "Der Wochenschnitt zählt, nicht der Sonntagmorgen",
+        body: "Familienleben hat Geburtstage, Besuch und Pizza-Freitage, und ein Plan, der daran zerbricht, ist ein schlechter Plan. Gemessen wird deshalb am Sieben-Tage-Schnitt von Gewicht und Bauchumfang, nicht an einzelnen Tagen. Realistisch sind 0,3 bis 0,5 Kilo pro Woche. Einmal wöchentlich schauen wir auf die Zahlen, und wenn der Trend steht, stellen wir das Essen nach, nicht deinen Alltag.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Betreuung in Köln-Widdersdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€ inklusive Anfahrt und Material. Für die reine Plan- und Ernährungsbegleitung gibt es das Online Coaching ab 150€ im Monat mit wöchentlichem Check-in. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Muss die ganze Familie jetzt Diät essen?",
+        a: "Nein, das ist der Kern des Ansatzes: Es gibt ein Essen für alle. Dein Defizit entsteht über deine Portion und ihre Zusammensetzung, nicht über ein zweites Gericht. Die Kinder merken davon nichts.",
+      },
+      {
+        q: "Ich habe nach der Schwangerschaft zugenommen. Ist das Programm dafür geeignet?",
+        a: "Ja, das ist in Widdersdorf eine der häufigsten Ausgangslagen. Wir starten ruhig, mit Rumpf- und Grundkraft und einem moderaten Defizit. Nach Geburt oder Kaiserschnitt gilt: erst die Freigabe von Ärztin oder Hebamme, dann der Aufbau.",
+      },
+      {
+        q: "Wie viel kann ich in drei Monaten abnehmen?",
+        a: "Mit 0,3 bis 0,5 Kilo pro Woche sind es vier bis sechs Kilo, bei größerem Startgewicht auch mehr. Wichtiger als die Zahl: Durch die Krafteinheiten kommt der Verlust aus dem Fett, und der Familientisch-Ansatz sorgt dafür, dass er nach den drei Monaten nicht zurückkommt.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
