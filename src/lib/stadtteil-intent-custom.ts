@@ -6478,6 +6478,182 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "westhoven/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Westhoven mit Natalie, Ernährungsberaterin für Sport- und Fitnessernährung: Wir bauen deine zweite Tageshälfte um, denn die meisten Ernährungstage scheitern nicht am Mittag, sondern zwischen Feierabend und Couch. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Westhoven mit Natalie: Plan für die kritischen Stunden nach Feierabend, echtes Abendessen statt Snack-Kette. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Tag ist gut, der Abend kippt",
+        body: "Das Muster sehen wir in fast jeder Anamnese: Frühstück klein, Mittag vernünftig, und ab 18 Uhr läuft es aus dem Ruder. Erst der Hunger auf dem Heimweg, dann ein spätes Abendessen, danach noch etwas vor dem Fernseher. Am Morgen ist das schlechte Gewissen da, und das Spiel beginnt von vorn. Natalie setzt genau an dieser Stelle an. Nicht mit Verboten für den Abend, sondern mit einem Tag, der so verteilt ist, dass du um 18 Uhr nicht ausgehungert bist: mehr Eiweiß in der ersten Tageshälfte, eine geplante Zwischenmahlzeit am Nachmittag und ein Abendessen, das satt macht und trotzdem ins Ziel passt.",
+      },
+      {
+        title: "Geplant wird für Westhoven, nicht für ein Lehrbuch",
+        body: "Westhoven ist ein ruhiger Wohnstadtteil mit 5.715 Einwohnern, viele arbeiten tagsüber auswärts und kommen mit der Linie 7 oder über die Autobahn zurück. Der Plan muss also abends funktionieren, wenn die Energie fürs Kochen klein ist. Natalie arbeitet deshalb mit Gerichten, die in 20 Minuten stehen, mit einer Einkaufsliste für den Wochenstart und mit zwei vorbereiteten Reserve-Abendessen für die Tage, an denen es später wird. Du musst nichts dokumentieren, was länger dauert als das Essen selbst.",
+      },
+      {
+        title: "Essen und Training greifen ineinander",
+        body: "Die Beratung läuft komplett online: Erstgespräch per Video, danach feste Check-ins, zwischendurch kurze Rückfragen per Nachricht. Wer zusätzlich trainiert, bei mir am Rheinufer in Westhoven oder für sich allein, bekommt die Mahlzeiten um die Einheiten herum gelegt, damit Kraft und Erholung nicht am leeren Speicher scheitern. Nötig ist das Training für die Beratung aber nicht: Auch ohne Sport lässt sich mit der Abendstruktur allein viel bewegen.",
+      },
+      {
+        title: "Woran du nach vier Wochen merkst, dass es wirkt",
+        body: "Wir machen keine Versprechen auf der Waage für Woche eins. Was sich nach vier Wochen messbar ändern soll: Der Heißhunger am späten Nachmittag wird seltener, die Abende laufen öfter nach Plan als dagegen, und das Frühstück fällt dir leichter, weil der Vorabend nicht mehr zu schwer war. Erst wenn diese Struktur steht, drehen wir an Kalorien und Zielwerten. Umgekehrt funktioniert es nicht dauerhaft.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Westhoven?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Muss ich abends auf Kohlenhydrate verzichten?",
+        a: "Nein. Entscheidend ist die Tagesbilanz, nicht die Uhrzeit. Ein geplantes Abendessen mit Kohlenhydraten ist besser als ein verbotenes, das durch Snacks ersetzt wird. Natalie legt die Verteilung so, dass sie zu deinem Tag passt.",
+      },
+      {
+        q: "Läuft die Beratung vor Ort in Westhoven oder online?",
+        a: "Online, per Video und Nachricht. Das hat einen praktischen Grund: Die Entscheidungen fallen bei dir zu Hause, beim Einkaufen und am Abend, nicht in einem Beratungsraum. Dort setzt die Betreuung an.",
+      },
+      {
+        q: "Ist das eine medizinische Ernährungstherapie?",
+        a: "Nein. Natalie ist Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Bei diagnostizierten Erkrankungen, die eine Ernährungstherapie erfordern, gehört die Behandlung in ärztliche Hand. Das sagen wir im Erstgespräch offen.",
+      },
+    ],
+  },
+
+  "loevenich/personal-training": {
+    answer:
+      "Personal Training in Köln-Lövenich heißt: ein fester Termin mit einem Menschen statt eines guten Vorsatzes mit einem Studio. Ich komme zweimal pro Woche zu dir, Material und Plan bringe ich mit. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Lövenich: feste 1-zu-1 Termine bei dir zu Hause, Material wird mitgebracht, messbarer Fortschritt. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum der feste Termin gewinnt",
+        body: "Die meisten Trainingspläne scheitern nicht an der Übungsauswahl, sondern an der Verbindlichkeit. Ein Studio wartet nicht auf dich: Ob du kommst oder nicht, merkt niemand. Ein Termin mit mir ist anders. Ich stehe um 7 oder um 19 Uhr vor deiner Tür in Lövenich, und genau deshalb findet die Einheit statt, auch in Wochen, in denen du sie allein ausfallen lassen würdest. Nach drei Monaten ist nicht der Plan der Unterschied, sondern die Zahl der Einheiten, die wirklich stattgefunden haben.",
+      },
+      {
+        title: "Trainiert wird dort, wo du ohnehin bist",
+        body: "Lövenich ist mit 9.167 Einwohnern auf 3,57 km² ein überschaubares Veedel mit altem Dorfkern und vielen Häusern mit Garten oder Garage. Mehr braucht es nicht: Ich bringe verstellbare Kurzhanteln, Kettlebell und Bänder mit, Wohnzimmer oder Garten werden zur Trainingsfläche. Du sparst dir die Fahrt, die bei jedem Studiobesuch dazukäme, und investierst die Zeit in Aufwärmen und saubere Technik statt in den Weg.",
+      },
+      {
+        title: "So sieht der Einstieg aus",
+        body: "Im kostenlosen Erstgespräch klären wir Ziel, Gesundheitsstatus und Wochenrhythmus. Danach starten zwei geführte Einheiten pro Woche: Krafttraining mit Grundübungen, jede Einheit mit notierten Gewichten und Wiederholungen. Alle vier bis sechs Wochen vergleichen wir die Zahlen mit dem Start. Steigen sie nicht, ändere ich den Plan, nicht du deine Erwartung. Zwischen den Terminen bekommst du kurze Aufgaben von 15 bis 20 Minuten, mehr nicht.",
+      },
+      {
+        title: "Für wen das in Lövenich passt",
+        body: "Typisch sind drei Fälle: Berufstätige, deren Sport in den letzten Jahren still eingeschlafen ist. Eltern, die das Training nur halten können, wenn es nach Hause kommt. Und Wiedereinsteiger ab 40, die nach Pause oder Beschwerden einen kontrollierten Aufbau wollen statt eines Kaltstarts im Kursraum. Wer lieber mit App und wöchentlichem Video-Check-in arbeitet, findet auf der Seite zum Online Coaching für Lövenich das passende Format.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Lövenich?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit und ohne Paketzwang. Das Erstgespräch ist kostenlos. Wer Betreuung mit Plan und Check-ins per App bevorzugt, nimmt das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Brauche ich Geräte oder einen eigenen Raum?",
+        a: "Nein. Kurzhanteln, Kettlebell und Bänder bringe ich mit. Eine freie Fläche von wenigen Quadratmetern im Wohnzimmer, in der Garage oder im Garten reicht für ein vollständiges Krafttraining.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Die notierten Gewichte steigen bei konsequenten zwei Einheiten pro Woche meist schon im ersten Monat. Sichtbare Veränderungen brauchen länger und hängen auch am Essen. Ich nenne dir im Erstgespräch eine ehrliche Spanne für dein Ziel, keine Pauschale.",
+      },
+      {
+        q: "Was passiert, wenn ich einen Termin verschieben muss?",
+        a: "Wir legen die Termine um deine Woche, nicht umgekehrt, und verschieben rechtzeitig angekündigte Einheiten einfach. Der Rhythmus von zwei Einheiten pro Woche bleibt dabei das Ziel, weil er den Fortschritt trägt.",
+      },
+    ],
+  },
+
+  "marienburg/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Marienburg rechnet Effizienz richtig: nicht Minuten pro Woche, sondern Ergebnis pro Zeit. Zwei geführte Krafteinheiten bei dir zu Hause bauen Kraft auf, die bleibt, statt eines Reizes, der verpufft. Die Stunde kostet 50€, ohne Jahresvertrag, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Marienburg: Krafttraining privat bei dir zu Hause statt 20 Minuten Strom. Ergebnis pro Zeit statt Minuten pro Woche. 50€/Std, kein Jahresvertrag.",
+    sections: [
+      {
+        title: "Effizienz heißt Ergebnis pro Zeit",
+        body: "EMS wird über das Zeitargument verkauft: 20 Minuten pro Woche für Menschen mit vollem Kalender. Das klingt nach einer Rechnung für Marienburg, wo viele beruflich stark eingespannt sind. Aber Effizienz misst sich nicht an den eingesetzten Minuten, sondern an dem, was dabei herauskommt. Nach zwölf Wochen Stromreiz kannst du keine Bewegung besser als vorher. Nach zwölf Wochen geführtem Krafttraining hebst du nachweislich mehr, deine Haltung trägt den Schreibtischtag, und du hast Technik gelernt, die jedes spätere Training schneller macht. Das ist die Rendite, die zählt.",
+      },
+      {
+        title: "Privat bei dir statt im Studio am Schaufenster",
+        body: "EMS-Anbieter arbeiten in Ladenlokalen, oft mit Blick von der Straße. Wer das nicht will, muss es nicht wollen. Ich trainiere mit dir im 1-zu-1 bei dir zu Hause in Marienburg: Material bringe ich mit, eine freie Fläche im Haus oder im Garten genügt. Kein Umziehen vor fremden Leuten, kein Terminfenster eines Studios, kein Smalltalk. Nur die Stunde, dein Plan und notierte Gewichte, an denen wir den Fortschritt festmachen.",
+      },
+      {
+        title: "Südpark und Rheinufer gehören zum Plan",
+        body: "Marienburg hat mit dem Südpark und dem Rheinufer zwei Trainingsflächen, die kein Studio ersetzt. Die Krafteinheiten bleiben drinnen oder im Garten, aber Aufwärmprogramm, Geh- und Laufeinheiten und die Ausgleichsarbeit lege ich nach draußen, wenn du das magst. So entsteht ein Wochenaufbau, der nicht von einem Gerät abhängt: Kraft mit steigender Last, Ausdauer im Park, Beweglichkeit dort, wo Zeit ist.",
+      },
+      {
+        title: "Der nüchterne Vergleich",
+        body: "EMS läuft fast immer über Jahresverträge mit monatlicher Zahlung. Bei mir zahlst du 50€ pro Stunde, solange dir das Training etwas bringt, und kündigst nichts, wenn es nicht passt. Im kostenlosen Erstgespräch sage ich dir auch, wann EMS tatsächlich eine Option ist, etwa als Einstieg nach langer Pause unter Aufsicht. Für das Ziel, über Monate belastbarer und stärker zu werden, führt an echter, steigender Last kein Weg vorbei.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Marienburg?",
+        a: "50€ pro geführter 1-zu-1 Stunde, ohne Jahresvertrag und ohne Mindestlaufzeit. Das Erstgespräch ist kostenlos. Zum Vergleich: EMS-Studios binden fast immer über Verträge mit zwölf Monaten Laufzeit.",
+      },
+      {
+        q: "Ich habe wirklich wenig Zeit. Reichen zwei Stunden pro Woche?",
+        a: "Ja, wenn sie geplant sind. Zwei geführte Krafteinheiten pro Woche mit steigender Last sind der Standard, mit dem meine Kunden messbar stärker werden. Dazu kommen kurze Aufgaben von 15 bis 20 Minuten für die Tage dazwischen.",
+      },
+      {
+        q: "Ist EMS nicht schonender für den Rücken?",
+        a: "Der Rücken wird nicht durch Schonung stabil, sondern durch kontrolliert steigende Belastung der Muskulatur, die ihn hält. Genau das leistet geführtes Krafttraining mit sauberer Technik. Bei akuten Beschwerden klären wir vorher ärztlich ab, was erlaubt ist.",
+      },
+      {
+        q: "Muss ich dafür Geräte kaufen?",
+        a: "Nein. Verstellbare Kurzhanteln, Kettlebell und Bänder bringe ich zu jedem Termin mit. Erst wenn dein Kraftniveau mehr Last verlangt, besprechen wir, ob sich eine kleine Ausstattung für zu Hause lohnt.",
+      },
+    ],
+  },
+
+  "meschenich/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Meschenich braucht kein Supplement-Regal: Zwei geführte Krafteinheiten pro Woche mit steigender Last und Eiweiß aus dem normalen Supermarkt reichen für messbaren Aufbau. Ich komme dafür zu dir ins Veedel. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Meschenich: steigende Last statt Pulver, Eiweiß aus dem Supermarkt statt Supplement-Regal, Training bei dir zu Hause. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Muskeln entstehen an der Hantel, nicht im Shaker",
+        body: "Die Fitness-Industrie verkauft Muskelaufbau als Einkaufsliste: Proteinpulver, Kreatin, Booster, Riegel. Die Reihenfolge ist falsch. Muskeln wachsen, wenn die Belastung über Wochen steigt und genug Eiweiß im Essen steckt. Beides kostet kein Abo im Supplement-Shop. Bei mir beginnt der Aufbau mit Technik an Grundübungen und einem Protokoll, in dem jede Einheit mit Gewicht und Wiederholungen steht. Erst wenn das läuft, reden wir überhaupt über Pulver, und meistens stellt sich heraus: Es braucht keins.",
+      },
+      {
+        title: "Eiweiß aus dem Supermarkt, geplant mit Natalie",
+        body: "Dein Eiweißziel deckst du mit Dingen, die es in jedem Markt in Meschenich und Umgebung gibt: Quark, Eier, Hülsenfrüchte, Fisch aus der Dose, Geflügel. Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, rechnet dir den Tagesbedarf aus und verteilt ihn auf Mahlzeiten, die zu deinem Tag passen und das Haushaltsbudget nicht sprengen. Das ist oft der Punkt, an dem Muskelaufbau zum ersten Mal planbar wird: nicht mehr Motivation, sondern eine Einkaufsliste.",
+      },
+      {
+        title: "Training zu Hause im Kölner Süden",
+        body: "Meschenich ist der südlichste Stadtteil des Bezirks Rodenkirchen, 7.789 Einwohner, von Feldern Richtung Rondorf und Immendorf umgeben, und ein eigenes Fitnessstudio gibt es im Veedel nicht. Deshalb kommt das Training zu dir: Ich bringe verstellbare Kurzhanteln, Kettlebell und Bänder mit, trainiert wird in der Wohnung, im Hof oder im Garten. Mit diesem Material und einem Protokoll ist eine dokumentierte Steigerung über Monate möglich, ohne dass du für jede Einheit nach Rodenkirchen oder Brühl fahren musst.",
+      },
+      {
+        title: "Der Plan für die ersten zwölf Wochen",
+        body: "Wochen eins bis vier: Technik an leichten Gewichten, Kniebeuge, Drücken, Ziehen, Rumpf. Wochen fünf bis acht: Steigerung nach Protokoll, erst über Wiederholungen, dann über Last. Wochen neun bis zwölf: Nachmessen und Vergleich mit dem Start, bei Kraftwerten und Umfängen. Steigen die Zahlen nicht, liegt es fast immer an Schlaf, Eiweiß oder ausgefallenen Einheiten, und genau das schauen wir uns dann an, statt ein neues Wundermittel zu suchen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Meschenich?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit. Wer mit Plan, App und wöchentlichen Check-ins arbeiten will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Brauche ich Proteinpulver für den Muskelaufbau?",
+        a: "Nein. Pulver ist nur gepresste Bequemlichkeit: praktisch, wenn der Tag keine Zeit für eine Mahlzeit lässt, aber kein Muss. Wer sein Eiweißziel mit normalem Essen erreicht, baut genauso auf. Natalie zeigt dir, wie das rechnerisch aufgeht.",
+      },
+      {
+        q: "Geht Muskelaufbau ohne Fitnessstudio?",
+        a: "Ja, über Monate hinweg. Verstellbare Kurzhanteln, Kettlebell und Bänder decken alle Grundübungen ab, und ich bringe sie mit. Grenzen setzt erst ein fortgeschrittenes Kraftniveau, und dann planen wir gemeinsam den nächsten Schritt.",
+      },
+      {
+        q: "Wie lange dauert es, bis man etwas sieht?",
+        a: "Die Protokollwerte steigen meist ab dem ersten Monat, sichtbare Veränderungen brauchen bei konsequentem Training und passendem Essen in der Regel acht bis zwölf Wochen. Versprechen auf ein Datum gebe ich nicht, Messwerte alle vier bis sechs Wochen schon.",
+      },
+      {
+        q: "Ich habe nie trainiert. Ist das Programm trotzdem machbar?",
+        a: "Ja. Die ersten Wochen bestehen aus Technik an leichten Gewichten, das Einstiegsniveau bestimmt der Check am Anfang. Gesteigert wird erst, wenn die Bewegung sauber sitzt.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {

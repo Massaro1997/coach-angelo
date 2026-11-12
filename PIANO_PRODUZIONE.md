@@ -151,10 +151,10 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 143 | /koeln/poll/muskelaufbau | 1 | 3 | 7,3 | FATTA (giro 36, 12/11; pos già buona, rafforzata) |
 | 144 | /koeln/lindweiler/ernaehrungsberatung | 1 | 3 | 10,3 | FATTA (giro 36, 12/11) |
 | 145 | /koeln/mauenheim/ems-alternative | 1 | 2 | 6,5 | FATTA (giro 36, 12/11; pos già buona, rafforzata) |
-| 146 | /koeln/westhoven/ernaehrungsberatung | 1 | 1 | 2,0 | in coda (pos buona: rafforzare) |
-| 147 | /koeln/loevenich/personal-training | 1 | 1 | 3,0 | in coda (pos buona: rafforzare) |
-| 148 | /koeln/marienburg/ems-alternative | 1 | 1 | 11,0 | in coda |
-| 149 | /koeln/meschenich/muskelaufbau | 0 | 7 | 19,6 | in coda |
+| 146 | /koeln/westhoven/ernaehrungsberatung | 1 | 1 | 2,0 | FATTA (giro 37, 12/11; pos 2: rafforzata con prudenza) |
+| 147 | /koeln/loevenich/personal-training | 1 | 1 | 3,0 | FATTA (giro 37, 12/11; pos 3: rafforzata con prudenza) |
+| 148 | /koeln/marienburg/ems-alternative | 1 | 1 | 11,0 | FATTA (giro 37, 12/11) |
+| 149 | /koeln/meschenich/muskelaufbau | 0 | 7 | 19,6 | FATTA (giro 37, 12/11) |
 | 150 | /koeln/wahn/online-coaching | 0 | 5 | 1,0 | in coda (pos 1: solo rafforzare, non stravolgere) |
 | 151 | /koeln/langel/personal-training | 0 | 5 | 3,2 | in coda (pos buona: rafforzare) |
 
