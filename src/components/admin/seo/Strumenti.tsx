@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ChevronDown, ExternalLink } from "lucide-react";
-import { Btn, cx } from "../ui";
+import { cx } from "../ui";
 import { baseSito, giornoBreve, num, type DatiSeo } from "./tipi";
 
 // Gli strumenti di prima (sitemap, controllo URL, richiesta di nuovo
@@ -41,12 +41,12 @@ function Esito({ ok, children }: { ok: boolean | null; children: React.ReactNode
   return (
     <p
       className={cx(
-        "mt-3 border-l-2 px-3 py-2 text-[13px] leading-snug",
+        "mt-3 rounded-xl px-3 py-2 text-[13px] leading-5",
         ok === null
-          ? "border-neutral-300 bg-[#f4f4f5] text-neutral-600"
+          ? "bg-crm-fondo text-crm-testo"
           : ok
-            ? "border-green-600 bg-green-50 text-green-800"
-            : "border-red-500 bg-red-50 text-red-700"
+            ? "bg-crm-ok/50 text-crm-ok-ink"
+            : "bg-crm-errore text-crm-errore-ink"
       )}
     >
       {children}
@@ -77,27 +77,29 @@ function Sitemap({ dati }: { dati: DatiSeo }) {
 
   return (
     <div>
-      <h3 className="text-sm font-bold text-neutral-900">Sitemap</h3>
-      <p className="mt-1 text-[12px] leading-snug text-neutral-500">
+      <h3 className="text-[13px] font-[650] leading-5 text-crm-ink">Sitemap</h3>
+      <p className="text-[13px] leading-5 text-crm-tenue">
         L&apos;elenco delle pagine del sito che Google usa per trovarle tutte.
       </p>
       {dati.sitemap === null ? (
-        <p className="mt-3 text-[12px] text-neutral-400">Stato della sitemap non disponibile.</p>
+        <p className="mt-3 text-[12px] text-crm-spento">Stato della sitemap non disponibile.</p>
       ) : dati.sitemap.length === 0 ? (
-        <p className="mt-3 text-[12px] text-amber-700">Nessuna sitemap inviata a Google.</p>
+        <p className="mt-3">
+          <span className="crm-badge crm-badge-attesa">Nessuna sitemap inviata a Google.</span>
+        </p>
       ) : (
         <ul className="mt-3 space-y-2">
           {dati.sitemap.map((s) => (
-            <li key={s.percorso} className="border border-black/[0.07] bg-[#f4f4f5] px-3 py-2 text-[12px]">
-              <p className="truncate font-medium text-neutral-800" title={s.percorso}>
+            <li key={s.percorso} className="rounded-xl bg-crm-fondo px-3 py-2 text-[12px] leading-4">
+              <p className="truncate text-[13px] font-[550] leading-5 text-crm-ink" title={s.percorso}>
                 {s.percorso.replace(baseSito(dati.proprieta), "") || s.percorso}
               </p>
-              <p className="mt-0.5 text-neutral-500">
+              <p className="mt-0.5 text-crm-tenue">
                 {s.pagine ? `${num(s.pagine)} pagine, ` : ""}letta da Google il {dataOra(s.lettaDaGoogle)}
                 {s.inAttesa && ", in attesa di lettura"}
               </p>
               {(s.errori > 0 || s.avvisi > 0) && (
-                <p className="mt-0.5 font-semibold text-red-600">
+                <p className="mt-0.5 font-[550] text-crm-rosso">
                   {s.errori > 0 && `${s.errori} errori`}
                   {s.errori > 0 && s.avvisi > 0 && ", "}
                   {s.avvisi > 0 && `${s.avvisi} avvisi`}: aprila in Search Console per i dettagli
@@ -107,9 +109,9 @@ function Sitemap({ dati }: { dati: DatiSeo }) {
           ))}
         </ul>
       )}
-      <Btn variant="outline" size="sm" className="mt-3" onClick={invia} disabled={invio}>
+      <button type="button" className="crm-btn mt-3" onClick={invia} disabled={invio}>
         {invio ? "Invio…" : "Invia di nuovo la sitemap"}
-      </Btn>
+      </button>
       {esito && <Esito ok={esito.ok}>{esito.testo}</Esito>}
     </div>
   );
@@ -160,8 +162,8 @@ function ControllaPagina({ base }: { base: string }) {
   const st = risposta?.indexStatusResult;
   return (
     <div>
-      <h3 className="text-sm font-bold text-neutral-900">Una pagina è su Google?</h3>
-      <p className="mt-1 text-[12px] leading-snug text-neutral-500">
+      <h3 className="text-[13px] font-[650] leading-5 text-crm-ink">Una pagina è su Google?</h3>
+      <p className="text-[13px] leading-5 text-crm-tenue">
         Scrivi l&apos;indirizzo o solo la parte dopo il dominio, per esempio /koeln/ehrenfeld.
       </p>
       <input
@@ -169,17 +171,17 @@ function ControllaPagina({ base }: { base: string }) {
         value={indirizzo}
         onChange={(e) => setIndirizzo(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && controlla()}
-        className="mt-3 w-full border border-black/15 bg-white px-3 py-2 text-[13px] text-neutral-900 outline-none placeholder:text-neutral-400 focus:border-neutral-900"
+        className="crm-campo mt-3"
         placeholder="/koeln/ehrenfeld"
         aria-label="Indirizzo della pagina"
       />
       <div className="mt-2 flex flex-wrap gap-2">
-        <Btn variant="ink" size="sm" onClick={controlla} disabled={!!lavoro || !indirizzo.trim()}>
+        <button type="button" className="crm-btn-primario" onClick={controlla} disabled={!!lavoro || !indirizzo.trim()}>
           {lavoro === "controllo" ? "Controllo…" : "Controlla"}
-        </Btn>
-        <Btn variant="outline" size="sm" onClick={chiedi} disabled={!!lavoro || !indirizzo.trim()}>
+        </button>
+        <button type="button" className="crm-btn" onClick={chiedi} disabled={!!lavoro || !indirizzo.trim()}>
           {lavoro === "richiesta" ? "Invio…" : "Chiedi a Google di ripassare"}
-        </Btn>
+        </button>
       </div>
 
       {risposta &&
@@ -187,7 +189,7 @@ function ControllaPagina({ base }: { base: string }) {
           <Esito ok={false}>Controllo non riuscito: {risposta.error}</Esito>
         ) : (
           <Esito ok={st?.verdict === "PASS"}>
-            <span className="font-semibold">
+            <span className="font-[650]">
               {st?.verdict === "PASS" ? "Sì, la pagina è su Google." : "No, la pagina non è ancora su Google."}
             </span>{" "}
             {st?.coverageState && <>Stato secondo Google: {st.coverageState}. </>}
@@ -197,7 +199,7 @@ function ControllaPagina({ base }: { base: string }) {
                 href={risposta.inspectionResultLink}
                 target="_blank"
                 rel="noopener"
-                className="ml-1 inline-flex items-center gap-0.5 font-semibold underline"
+                className="ml-1 inline-flex items-center gap-0.5 font-[550] underline underline-offset-2"
               >
                 Dettagli <ExternalLink className="h-3 w-3" />
               </a>
@@ -250,8 +252,8 @@ function PiuPagine({ base }: { base: string }) {
 
   return (
     <div>
-      <h3 className="text-sm font-bold text-neutral-900">Far ripassare più pagine insieme</h3>
-      <p className="mt-1 text-[12px] leading-snug text-neutral-500">
+      <h3 className="text-[13px] font-[650] leading-5 text-crm-ink">Far ripassare più pagine insieme</h3>
+      <p className="text-[13px] leading-5 text-crm-tenue">
         Un indirizzo per riga. Google accetta circa 200 richieste al giorno, condivise con altri siti: usalo solo per
         pagine cambiate davvero, non per tutte le pagine di quartiere.
       </p>
@@ -259,13 +261,13 @@ function PiuPagine({ base }: { base: string }) {
         value={testo}
         onChange={(e) => setTesto(e.target.value)}
         rows={6}
-        className="mt-3 w-full resize-y border border-black/15 bg-white px-3 py-2 font-mono text-[12px] text-neutral-900 outline-none focus:border-neutral-900"
+        className="crm-campo mt-3 resize-y font-mono sm:text-[12px]"
         aria-label="Indirizzi da far ripassare"
       />
       <div className="mt-2 flex items-center gap-3">
-        <Btn variant="outline" size="sm" onClick={invia} disabled={invio || righe.length === 0}>
+        <button type="button" className="crm-btn" onClick={invia} disabled={invio || righe.length === 0}>
           {invio ? "Invio…" : `Segnala ${righe.length} pagine`}
-        </Btn>
+        </button>
       </div>
       {esito && <Esito ok={esito.ok}>{esito.testo}</Esito>}
     </div>
@@ -275,26 +277,26 @@ function PiuPagine({ base }: { base: string }) {
 export default function Strumenti({ dati, aperto = false }: { dati: DatiSeo; aperto?: boolean }) {
   const base = baseSito(dati.proprieta);
   return (
-    <details open={aperto} className="group border border-black/10 bg-white">
-      <summary className="flex cursor-pointer list-none items-center gap-3 px-4 py-3 sm:px-5 [&::-webkit-details-marker]:hidden">
-        <span className="text-sm font-bold text-neutral-900">Strumenti</span>
-        <span className="hidden text-[12px] text-neutral-400 sm:inline">
+    <details open={aperto} className="crm-card group">
+      <summary className="flex cursor-pointer list-none items-center gap-3 px-4 py-3.5 transition-colors hover:bg-crm-fondo [&::-webkit-details-marker]:hidden">
+        <span className="text-[13px] font-[650] text-crm-ink">Strumenti</span>
+        <span className="hidden truncate text-[13px] text-crm-tenue sm:inline">
           sitemap, controllo di una pagina, richieste a Google di ripassare
         </span>
-        <ChevronDown className="ml-auto h-4 w-4 text-neutral-400 transition-transform group-open:rotate-180" />
+        <ChevronDown className="ml-auto h-4 w-4 shrink-0 text-crm-spento transition-transform group-open:rotate-180" />
       </summary>
-      <div className="grid gap-6 border-t border-black/[0.07] p-4 sm:p-5 lg:grid-cols-3 lg:gap-0 lg:divide-x lg:divide-black/[0.07] lg:p-0 lg:[&>*]:p-5">
+      <div className="grid gap-6 border-t border-crm-filo p-4 lg:grid-cols-3 lg:gap-0 lg:divide-x lg:divide-crm-filo lg:p-0 lg:[&>*]:p-4">
         <Sitemap dati={dati} />
         <ControllaPagina base={base} />
         <PiuPagine base={base} />
       </div>
-      <p className="border-t border-black/[0.07] px-4 py-2.5 text-[11px] text-neutral-400 sm:px-5">
+      <p className="break-words bg-crm-fondo px-4 py-3 text-[12px] leading-4 text-crm-tenue">
         Proprietà di Search Console: {dati.proprieta}
         <a
           href={`https://search.google.com/search-console?resource_id=${encodeURIComponent(dati.proprieta)}`}
           target="_blank"
           rel="noopener"
-          className="ml-2 inline-flex items-center gap-0.5 font-semibold text-neutral-600 hover:text-neutral-900"
+          className="ml-2 inline-flex items-center gap-0.5 font-[550] text-crm-testo hover:text-crm-ink hover:underline"
         >
           Apri Search Console <ExternalLink className="h-3 w-3" />
         </a>

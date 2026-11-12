@@ -21,7 +21,7 @@ import {
   Check,
   X,
 } from "lucide-react";
-import { Card, Stat, Badge, Btn, EmptyState, cx } from "./ui";
+import { Stat, Badge, Btn, EmptyState, cx } from "./ui";
 import type { Cliente } from "@/app/api/admin/clienti/route";
 
 const eur = (n: number) =>
@@ -120,11 +120,11 @@ export default function ClientiView() {
     { valore: 0, incassato: 0 }
   );
 
-  if (caricando) return <p className="py-10 text-sm text-neutral-400">Carico i clienti…</p>;
+  if (caricando) return <p className="py-10 text-[13px] text-crm-spento">Carico i clienti…</p>;
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 2xl:grid-cols-5">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 2xl:grid-cols-5">
         <Stat label="Fatturato contratti" value={eur(fatt.valore)} sub={`incassati ${eur(fatt.incassato)}, da incassare ${eur(Math.max(0, fatt.valore - fatt.incassato))}`} tone="ink" />
         <Stat label="Clienti attivi" value={attivi} tone="green" />
         <Stat label="Da sistemare" value={daSistemare} sub="non pagato o in ritardo" tone={daSistemare ? "red" : "ink"} onClick={() => setFiltro("pagare")} />
@@ -132,67 +132,71 @@ export default function ClientiView() {
         <Stat label="Finiscono entro 30 giorni" value={inScadenza} sub="da sentire per il rinnovo" tone="amber" />
       </div>
 
-      {errore && <p className="border border-red-500/30 bg-red-50 p-3 text-sm text-red-600">{errore}</p>}
+      {errore && <p className="rounded-xl bg-[#fee9e8] px-4 py-3 text-[13px] text-[#8e0b21]">{errore}</p>}
 
-      <div className="flex flex-wrap items-center gap-2">
-        <div className="flex border border-black/15 bg-white">
-          {([
-            ["attivi", "Attivi"],
-            ["pagare", "Da sistemare"],
-            ["conclusi", "Conclusi"],
-            ["tutti", "Tutti"],
-          ] as const).map(([k, l]) => (
-            <button
-              key={k}
-              onClick={() => setFiltro(k)}
-              className={cx("px-3.5 py-2 text-[13px] font-semibold", filtro === k ? "bg-neutral-900 text-white" : "text-neutral-600 hover:bg-black/5")}
-            >
-              {l}
-            </button>
-          ))}
+      {/* l'elenco di Shopify: linguette e ricerca in testa, righe sotto */}
+      <section className="crm-card p-2">
+        <div className="flex flex-wrap items-center gap-2 px-1 pb-2">
+          <div className="flex flex-wrap gap-1">
+            {([
+              ["attivi", "Attivi"],
+              ["pagare", "Da sistemare"],
+              ["conclusi", "Conclusi"],
+              ["tutti", "Tutti"],
+            ] as const).map(([k, l]) => (
+              <button
+                key={k}
+                onClick={() => setFiltro(k)}
+                data-attiva={filtro === k}
+                className="crm-linguetta transition-colors"
+              >
+                {l}
+              </button>
+            ))}
+          </div>
+          <label className="relative ml-auto w-full sm:w-72">
+            <Search className="pointer-events-none absolute left-2.5 top-1/2 z-10 h-4 w-4 -translate-y-1/2 text-crm-spento" />
+            <input
+              value={cerca}
+              onChange={(e) => setCerca(e.target.value)}
+              placeholder="Cerca nome, email, telefono…"
+              className="crm-campo pl-8"
+            />
+          </label>
         </div>
-        <label className="relative ml-auto w-full sm:w-72">
-          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-400" />
-          <input
-            value={cerca}
-            onChange={(e) => setCerca(e.target.value)}
-            placeholder="Cerca nome, email, telefono…"
-            className="w-full border border-black/15 bg-white py-2 pl-9 pr-3 text-sm outline-none focus:border-neutral-900"
-          />
-        </label>
-      </div>
 
-      {visibili.length === 0 ? (
-        <Card>
+        {visibili.length === 0 ? (
           <EmptyState
             titolo={lista.length ? "Nessun cliente con questo filtro." : "Ancora nessun cliente."}
             testo={lista.length ? "Prova con Tutti." : "Quando un cliente firma un contratto e paga, compare qui."}
             icon={<Users className="h-8 w-8" />}
           />
-        </Card>
-      ) : (
-        <div className="border border-black/10 bg-white">
-          {/* intestazione colonne, solo su schermo largo */}
-          <div className="hidden grid-cols-[minmax(0,1.4fr)_minmax(0,1.2fr)_minmax(0,1fr)_150px_24px] gap-4 border-b border-black/[0.07] px-5 py-2.5 text-[11px] font-semibold text-neutral-400 lg:grid">
-            <span>Cliente</span>
-            <span>Periodo</span>
-            <span>Pagamenti</span>
-            <span>Stato</span>
-            <span />
+        ) : (
+          <div>
+            {/* intestazione colonne, solo su schermo largo: la testata grigia di Shopify */}
+            <div className="hidden grid-cols-[minmax(0,1.4fr)_minmax(0,1.2fr)_minmax(0,1fr)_150px_24px] gap-4 rounded-lg bg-crm-fondo px-3 py-1.5 text-[12px] font-[550] text-[#4a4a4a] lg:grid">
+              <span>Cliente</span>
+              <span>Periodo</span>
+              <span>Pagamenti</span>
+              <span>Stato</span>
+              <span />
+            </div>
+            <div className="border-t border-crm-filo lg:border-t-0">
+              {visibili.map(({ c, s }) => (
+                <RigaCliente
+                  key={c.id}
+                  c={c}
+                  s={s}
+                  ora={ora}
+                  aperto={aperto === c.id}
+                  onApri={() => setAperto(aperto === c.id ? null : c.id)}
+                  onCambiato={carica}
+                />
+              ))}
+            </div>
           </div>
-          {visibili.map(({ c, s }) => (
-            <RigaCliente
-              key={c.id}
-              c={c}
-              s={s}
-              ora={ora}
-              aperto={aperto === c.id}
-              onApri={() => setAperto(aperto === c.id ? null : c.id)}
-              onCambiato={carica}
-            />
-          ))}
-        </div>
-      )}
+        )}
+      </section>
     </div>
   );
 }
@@ -221,32 +225,40 @@ function RigaCliente({
   const p = prossimo(c, ora);
 
   return (
-    <div className={cx("border-b border-black/[0.07] last:border-b-0", aperto && "bg-[#fafafa]")}>
+    <div
+      className={cx(
+        "border-b last:border-b-0",
+        aperto ? "rounded-xl border-transparent bg-crm-fondo" : "border-crm-filo"
+      )}
+    >
       <button
         onClick={onApri}
-        className="grid w-full grid-cols-1 gap-3 px-5 py-4 text-left transition-colors hover:bg-black/[0.02] lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1.2fr)_minmax(0,1fr)_150px_24px] lg:items-center lg:gap-4"
+        className={cx(
+          "grid w-full grid-cols-1 gap-3 px-3 py-3 text-left transition-colors lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1.2fr)_minmax(0,1fr)_150px_24px] lg:items-center lg:gap-4",
+          aperto ? "rounded-xl" : "hover:bg-crm-fondo"
+        )}
       >
         <div className="min-w-0">
-          <p className="truncate text-sm font-bold text-neutral-900">{c.nome}</p>
-          <p className="truncate text-[12px] text-neutral-500">
+          <p className="truncate text-[13px] font-[650] text-crm-ink">{c.nome}</p>
+          <p className="truncate text-[12px] text-crm-tenue">
             {c.pacchetto}
-            {c.lead && <span className="text-neutral-400"> · lead da {c.lead.canale}</span>}
+            {c.lead && <span className="text-crm-spento"> · lead da {c.lead.canale}</span>}
           </p>
         </div>
 
         <div>
           {inizio ? (
             <>
-              <div className="flex justify-between text-[11px] text-neutral-500">
+              <div className="flex justify-between text-[12px] text-crm-tenue">
                 <span>{breve(c.inizio)}</span>
                 <span>{c.fine ? breve(c.fine) : "senza fine"}</span>
               </div>
-              <div className="mt-1.5 h-1.5 bg-black/[0.07]">
-                <div className={cx("h-full", s.chiave === "concluso" ? "bg-neutral-400" : "bg-gold")} style={{ width: `${(c.fine ? avanzamento : 1) * 100}%` }} />
+              <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-black/[0.07]">
+                <div className={cx("h-full rounded-full", s.chiave === "concluso" ? "bg-crm-spento" : "bg-[#303030]")} style={{ width: `${(c.fine ? avanzamento : 1) * 100}%` }} />
               </div>
             </>
           ) : (
-            <p className="text-[12px] text-neutral-400">parte al primo pagamento</p>
+            <p className="text-[12px] text-crm-spento">parte al primo pagamento</p>
           )}
         </div>
 
@@ -260,17 +272,24 @@ function RigaCliente({
                     <span
                       key={r.id}
                       title={`${r.numero ? `Rata ${r.numero}: ` : ""}${eur(r.importo)}${r.stato === "pagato" ? `, pagata il ${giorno(r.pagatoAt)}` : r.scadenza ? `, scade il ${giorno(r.scadenza)}` : ""}`}
-                      className={cx("h-2.5 w-2.5", r.stato === "pagato" ? "bg-green-600" : scaduta ? "bg-red-500" : "border border-black/20 bg-white")}
+                      className={cx(
+                        "h-2.5 w-2.5 rounded-[3px]",
+                        r.stato === "pagato"
+                          ? "bg-crm-verde"
+                          : scaduta
+                            ? "bg-crm-rosso"
+                            : "bg-white shadow-[inset_0_0_0_1px_rgba(0,0,0,0.22)]"
+                      )}
                     />
                   );
                 })}
               </div>
-              <p className="mt-1 text-[11px] text-neutral-500">
+              <p className="mt-1 text-[12px] text-crm-tenue">
                 {pagate}/{c.rate.length} pagate{p ? ` · prossima ${breve(p.quando)}` : ""}
               </p>
             </>
           ) : (
-            <p className="text-[12px] text-neutral-400">{c.fonte === "contratto" ? "fuori dal sistema" : "—"}</p>
+            <p className="text-[12px] text-crm-spento">{c.fonte === "contratto" ? "fuori dal sistema" : "—"}</p>
           )}
         </div>
 
@@ -278,7 +297,7 @@ function RigaCliente({
           <Badge tone={s.tone}>{s.label}</Badge>
         </div>
 
-        <ChevronDown className={cx("hidden h-4 w-4 text-neutral-400 transition-transform lg:block", aperto && "rotate-180")} />
+        <ChevronDown className={cx("hidden h-4 w-4 text-crm-spento transition-transform lg:block", aperto && "rotate-180")} />
       </button>
 
       {aperto && <Dettaglio c={c} onCambiato={onCambiato} />}
@@ -359,7 +378,7 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
   }
 
   const tel = (c.telefono || "").replace(/[^\d+]/g, "");
-  const campo = "w-full border border-black/15 bg-white px-2.5 py-1.5 text-sm outline-none focus:border-neutral-900";
+  const campo = "crm-campo";
   const modificabile = c.fonte === "preventivo";
 
   const l = c.lead;
@@ -369,16 +388,16 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
       : null;
 
   return (
-    <div className="border-t border-black/[0.07]">
+    <div className="space-y-4 border-t border-crm-filo px-3 pb-5 pt-4">
       {/* da dove arriva: il contatto lasciato sul sito */}
-      <div className="flex flex-wrap items-start gap-x-6 gap-y-3 border-b border-black/[0.07] bg-white px-5 py-4">
+      <div className="flex flex-wrap items-start gap-x-6 gap-y-3 rounded-xl bg-white p-4 shadow-crm-anello">
         {l ? (
           <>
             <div className="min-w-[220px]">
-              <p className="text-sm font-bold text-neutral-900">
+              <p className="text-[13px] font-[650] text-crm-ink">
                 Lead del {giorno(l.data)} da {l.canale}
               </p>
-              <p className="mt-0.5 text-[12px] text-neutral-500">
+              <p className="mt-0.5 text-[12px] text-crm-tenue">
                 {l.pagina ? `Ha scritto dalla pagina ${l.pagina === "/" ? "principale" : l.pagina}` : "Modulo del sito"}
                 {giorniAlContratto != null && `, contratto dopo ${giorniAlContratto} ${giorniAlContratto === 1 ? "giorno" : "giorni"}`}
               </p>
@@ -386,39 +405,39 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
             {l.risposte.length > 0 && (
               <dl className="flex flex-wrap gap-1.5">
                 {l.risposte.map(([k, v]) => (
-                  <div key={k} className="border border-black/10 bg-[#f7f7f8] px-2 py-1 text-[11px]">
-                    <dt className="inline text-neutral-400">{k}: </dt>
-                    <dd className="inline font-semibold text-neutral-800">{v}</dd>
+                  <div key={k} className="rounded-lg bg-crm-fondo px-2 py-1 text-[12px]">
+                    <dt className="inline text-crm-tenue">{k}: </dt>
+                    <dd className="inline font-[550] text-crm-ink">{v}</dd>
                   </div>
                 ))}
               </dl>
             )}
             {l.nota && (
-              <p className="w-full border-l-2 border-gold/60 pl-3 text-[12px] italic leading-relaxed text-neutral-600">
+              <p className="w-full border-l-2 border-crm-bordo pl-3 text-[13px] italic leading-relaxed text-crm-testo">
                 “{l.nota}”
               </p>
             )}
           </>
         ) : (
-          <p className="text-[12px] text-neutral-400">
+          <p className="text-[12px] text-crm-tenue">
             Nessun lead del sito con la stessa email o lo stesso telefono: arrivato per passaparola, social o di persona.
           </p>
         )}
       </div>
 
-    <div className="grid gap-5 px-5 pb-6 pt-5 lg:grid-cols-3">
+    <div className="grid gap-6 pt-1 lg:grid-cols-3">
       {/* dati personali */}
-      <section>
+      <section className="min-w-0">
         <div className="mb-3 flex items-center justify-between">
-          <h4 className="text-sm font-bold text-neutral-900">Dati personali</h4>
+          <h4 className="text-[13px] font-[650] text-crm-ink">Dati personali</h4>
           {modificabile && !modifica && (
-            <button onClick={() => setModifica(true)} className="flex items-center gap-1 text-[12px] font-semibold text-neutral-500 hover:text-neutral-900">
+            <button onClick={() => setModifica(true)} className="crm-btn-piatto -my-1">
               <Pencil className="h-3 w-3" /> Modifica
             </button>
           )}
         </div>
         {modifica ? (
-          <div className="space-y-2">
+          <div className="space-y-3">
             {([
               ["clienteEmail", "Email"],
               ["clienteTelefono", "Telefono"],
@@ -426,7 +445,7 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
               ["clientePiva", "Steuernummer / P. IVA"],
             ] as const).map(([k, l]) => (
               <label key={k} className="block">
-                <span className="text-[11px] font-semibold text-neutral-500">{l}</span>
+                <span className="crm-etichetta">{l}</span>
                 <input value={dati[k]} onChange={(e) => setDati({ ...dati, [k]: e.target.value })} className={campo} />
               </label>
             ))}
@@ -440,9 +459,9 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
             </div>
           </div>
         ) : (
-          <dl className="space-y-2 text-sm">
+          <dl className="space-y-2 text-[13px]">
             <Riga label="Nome">{c.nome}</Riga>
-            <Riga label="Email">{c.email ? <a href={`mailto:${c.email}`} className="text-neutral-900 underline-offset-2 hover:underline">{c.email}</a> : "—"}</Riga>
+            <Riga label="Email">{c.email ? <a href={`mailto:${c.email}`} className="text-crm-blu underline-offset-2 hover:underline">{c.email}</a> : "—"}</Riga>
             <Riga label="Telefono">{c.telefono || "—"}</Riga>
             <Riga label="Indirizzo">{c.indirizzo || "—"}</Riga>
             {c.nascita && <Riga label="Nato il">{giorno(c.nascita)}</Riga>}
@@ -452,18 +471,18 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
         {!modifica && (c.email || tel) && (
           <div className="mt-4 flex flex-wrap gap-1.5">
             {tel && (
-              <a href={`https://wa.me/${tel.replace("+", "")}`} target="_blank" rel="noopener" className="inline-flex items-center gap-1.5 bg-[#25D366] px-2.5 py-1.5 text-[11px] font-semibold text-white hover:opacity-90">
-                <MessageCircle className="h-3 w-3" /> WhatsApp
+              <a href={`https://wa.me/${tel.replace("+", "")}`} target="_blank" rel="noopener" className="crm-btn">
+                <MessageCircle className="h-3.5 w-3.5 text-[#25D366]" /> WhatsApp
               </a>
             )}
             {tel && (
-              <a href={`tel:${tel}`} className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-2.5 py-1.5 text-[11px] font-semibold text-neutral-700 hover:border-black/30">
-                <Phone className="h-3 w-3" /> Chiama
+              <a href={`tel:${tel}`} className="crm-btn">
+                <Phone className="h-3.5 w-3.5" /> Chiama
               </a>
             )}
             {c.email && (
-              <a href={`mailto:${c.email}`} className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-2.5 py-1.5 text-[11px] font-semibold text-neutral-700 hover:border-black/30">
-                <Mail className="h-3 w-3" /> Email
+              <a href={`mailto:${c.email}`} className="crm-btn">
+                <Mail className="h-3.5 w-3.5" /> Email
               </a>
             )}
           </div>
@@ -471,9 +490,9 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
       </section>
 
       {/* contratto */}
-      <section>
-        <h4 className="mb-3 text-sm font-bold text-neutral-900">Contratto</h4>
-        <dl className="space-y-2 text-sm">
+      <section className="min-w-0">
+        <h4 className="mb-3 text-[13px] font-[650] text-crm-ink">Contratto</h4>
+        <dl className="space-y-2 text-[13px]">
           <Riga label="Pacchetto">{c.pacchetto}</Riga>
           <Riga label="Valore">{c.mensile && !c.fine ? `${eur(c.totale)} al mese` : eur(c.totale)}</Riga>
           <Riga label="Periodo">
@@ -489,15 +508,15 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
         </dl>
         {firma && (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={firma} alt={`Firma di ${c.nome}`} className="mt-3 h-16 w-auto border border-black/10 bg-white object-contain p-1" />
+          <img src={firma} alt={`Firma di ${c.nome}`} className="mt-3 h-16 w-auto rounded-lg bg-white object-contain p-1 shadow-crm-anello" />
         )}
         <div className="mt-4">
           {c.token ? (
-            <a href={`/preventivo/${c.token}`} target="_blank" rel="noopener" className="inline-flex items-center gap-1.5 bg-neutral-900 px-3 py-2 text-[12px] font-semibold text-white hover:bg-neutral-800">
+            <a href={`/preventivo/${c.token}`} target="_blank" rel="noopener" className="crm-btn-primario">
               <FileSignature className="h-3.5 w-3.5" /> Apri il contratto firmato
             </a>
           ) : c.snapshot ? (
-            <button onClick={riapri} className="inline-flex items-center gap-1.5 bg-neutral-900 px-3 py-2 text-[12px] font-semibold text-white hover:bg-neutral-800">
+            <button onClick={riapri} className="crm-btn-primario">
               <FileSignature className="h-3.5 w-3.5" /> Apri il contratto
             </button>
           ) : null}
@@ -508,12 +527,12 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
                   href={`/api/admin/documenti/${c.rifId}/pdf`}
                   target="_blank"
                   rel="noopener"
-                  className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-3 py-2 text-[12px] font-semibold text-neutral-800 hover:border-black/30"
+                  className="crm-btn"
                 >
                   <FileDown className="h-3.5 w-3.5" /> PDF firmato
                 </a>
               )}
-              <label className="inline-flex cursor-pointer items-center gap-1.5 text-[12px] font-semibold text-neutral-500 hover:text-neutral-900">
+              <label className="crm-btn-piatto cursor-pointer">
                 <Upload className="h-3.5 w-3.5" />
                 {carico ? "Carico…" : c.pdfNome ? "Sostituisci PDF" : "Carica il PDF firmato"}
                 <input type="file" accept="application/pdf" className="hidden" disabled={carico} onChange={(e) => caricaPdf(e.target.files?.[0])} />
@@ -521,7 +540,7 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
             </div>
           )}
           {c.fonte === "contratto" && (
-            <p className="mt-2 text-[11px] leading-snug text-neutral-400">
+            <p className="mt-2 text-[12px] leading-snug text-crm-tenue">
               Contratto del vecchio generatore, firmato su carta.
               {c.pdfNome ? ` Copia salvata: ${c.pdfNome}.` : ""}
             </p>
@@ -530,16 +549,16 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
       </section>
 
       {/* pagamenti e note */}
-      <section>
-        <h4 className="mb-3 text-sm font-bold text-neutral-900">Pagamenti</h4>
+      <section className="min-w-0">
+        <h4 className="mb-3 text-[13px] font-[650] text-crm-ink">Pagamenti</h4>
         {c.rate.length ? (
-          <ul className="divide-y divide-black/[0.06] border border-black/10 bg-white text-sm">
+          <ul className="divide-y divide-crm-filo overflow-hidden rounded-xl bg-white text-[13px] shadow-crm-anello">
             {c.rate.map((r) => (
               <li key={r.id} className="flex flex-wrap items-center gap-x-3 gap-y-1 whitespace-nowrap px-3 py-2">
-                <span className={cx("h-2 w-2 shrink-0 rounded-full", r.stato === "pagato" ? "bg-green-600" : "bg-black/20")} />
-                <span className="text-neutral-600">{r.numero ? `Mese ${r.numero}` : "Rata"}</span>
-                <span className="ml-auto tabular-nums font-semibold text-neutral-900">{eur(r.importo)}</span>
-                <span className="text-right text-[11px] text-neutral-500">
+                <span className={cx("h-2 w-2 shrink-0 rounded-full", r.stato === "pagato" ? "bg-crm-verde" : "bg-black/20")} />
+                <span className="text-crm-testo">{r.numero ? `Mese ${r.numero}` : "Rata"}</span>
+                <span className="ml-auto tabular-nums font-[550] text-crm-ink">{eur(r.importo)}</span>
+                <span className="text-right text-[12px] text-crm-tenue">
                   {r.stato === "pagato" ? `pagata ${breve(r.pagatoAt)}` : r.scadenza ? `il ${breve(r.scadenza)}` : r.stato}
                 </span>
                 {r.stato !== "pagato" && (
@@ -547,7 +566,7 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
                     onClick={() => segnaPagata(r.id)}
                     disabled={salvo}
                     title="Pagata con bonifico o in contanti"
-                    className="shrink-0 border border-green-600/40 px-2 py-0.5 text-[11px] font-semibold text-green-700 hover:bg-green-50 disabled:opacity-50"
+                    className="crm-btn min-h-6 shrink-0 px-2 py-0.5"
                   >
                     Segna pagata
                   </button>
@@ -556,19 +575,19 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
             ))}
           </ul>
         ) : (
-          <p className="border border-black/10 bg-white p-3 text-[12px] leading-relaxed text-neutral-500">
+          <p className="rounded-xl bg-white p-3 text-[12px] leading-relaxed text-crm-tenue shadow-crm-anello">
             {c.fonte === "contratto"
               ? "Pagato con bonifico o PayPal fuori da questo sistema: controlla sul conto."
               : "Ancora nessuna rata."}
           </p>
         )}
         {c.incassato != null && c.incassato > 0 && (
-          <p className="mt-2 text-[12px] text-neutral-500">
-            Incassati finora <span className="font-semibold text-green-700">{eur(c.incassato)}</span>
+          <p className="mt-2 text-[12px] text-crm-tenue">
+            Incassati finora <span className="font-[550] text-crm-verde">{eur(c.incassato)}</span>
           </p>
         )}
 
-        <h4 className="mb-2 mt-5 text-sm font-bold text-neutral-900">Note</h4>
+        <h4 className="mb-2 mt-5 text-[13px] font-[650] text-crm-ink">Note</h4>
         {modificabile ? (
           <>
             <textarea
@@ -582,11 +601,11 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
               <Btn size="sm" variant="outline" disabled={salvo || note === (c.note || "")} onClick={() => salva({ lavoroNote: note })}>
                 Salva nota
               </Btn>
-              {msg && <span className="text-[11px] text-neutral-500">{msg}</span>}
+              {msg && <span className="text-[12px] text-crm-tenue">{msg}</span>}
             </div>
           </>
         ) : (
-          <p className="whitespace-pre-line text-[12px] leading-relaxed text-neutral-600">{c.note || "—"}</p>
+          <p className="whitespace-pre-line text-[13px] leading-relaxed text-crm-testo">{c.note || "—"}</p>
         )}
       </section>
     </div>
@@ -597,8 +616,8 @@ function Dettaglio({ c, onCambiato }: { c: Cliente; onCambiato: () => void }) {
 function Riga({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div className="grid grid-cols-[90px_minmax(0,1fr)] gap-2">
-      <dt className="text-neutral-400">{label}</dt>
-      <dd className="min-w-0 break-words text-neutral-900">{children}</dd>
+      <dt className="text-crm-tenue">{label}</dt>
+      <dd className="min-w-0 break-words text-crm-ink">{children}</dd>
     </div>
   );
 }

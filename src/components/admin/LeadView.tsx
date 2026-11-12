@@ -8,7 +8,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { Mail, Phone, Inbox, MessageCircle, Search, ChevronDown, FileSignature } from "lucide-react";
-import { Card, Badge, Btn, EmptyState, Stat, cx } from "./ui";
+import { Badge, Btn, EmptyState, Stat, cx } from "./ui";
 import type { BozzaContratto } from "./PreventiviView";
 
 export interface Contatto {
@@ -36,19 +36,24 @@ export interface Contatto {
 type Stato = "nuovo" | "contattato" | "appuntamento" | "cliente" | "perso";
 
 const STATI: { k: Stato; label: string; tone: string; pallino: string }[] = [
-  { k: "nuovo", label: "Nuovo", tone: "red", pallino: "bg-red-500" },
-  { k: "contattato", label: "Contattato", tone: "blue", pallino: "bg-blue-600" },
+  { k: "nuovo", label: "Nuovo", tone: "red", pallino: "bg-crm-rosso" },
+  { k: "contattato", label: "Contattato", tone: "blue", pallino: "bg-crm-blu" },
   { k: "appuntamento", label: "Appuntamento", tone: "amber", pallino: "bg-amber-500" },
-  { k: "cliente", label: "Cliente", tone: "green", pallino: "bg-green-600" },
-  { k: "perso", label: "Perso", tone: "neutral", pallino: "bg-neutral-400" },
+  { k: "cliente", label: "Cliente", tone: "green", pallino: "bg-crm-verde" },
+  { k: "perso", label: "Perso", tone: "neutral", pallino: "bg-crm-spento" },
 ];
 
+// la scelta attiva prende i colori dei badge di Polaris
 const QUALITA = [
-  { k: "buono", label: "Buono", attivo: "border-green-600 bg-green-600 text-white" },
-  { k: "medio", label: "Così così", attivo: "border-amber-500 bg-amber-500 text-white" },
-  { k: "scarso", label: "Scarso", attivo: "border-neutral-700 bg-neutral-700 text-white" },
-  { k: "spam", label: "Spam", attivo: "border-red-600 bg-red-600 text-white" },
+  { k: "buono", label: "Buono", attivo: "bg-crm-ok text-crm-ok-ink" },
+  { k: "medio", label: "Così così", attivo: "bg-crm-attesa text-crm-attesa-ink" },
+  { k: "scarso", label: "Scarso", attivo: "bg-[#303030] text-white" },
+  { k: "spam", label: "Spam", attivo: "bg-crm-errore text-crm-errore-ink" },
 ];
+
+// i tastini a scelta (motivo, qualita'): bianchi con anello, pieni se scelti
+const CHIP = "rounded-lg px-2.5 py-1 text-[12px] font-[550] transition-colors";
+const CHIP_SPENTO = "bg-white text-crm-testo shadow-crm-anello hover:bg-crm-fondo-2";
 
 const MOTIVI = ["Prezzo", "Non risponde", "Non interessato", "Troppo lontano", "Ha scelto un altro", "Solo curiosità"];
 
@@ -142,7 +147,7 @@ export default function LeadView({ onCreaContratto }: { onCreaContratto?: (b: Bo
     }
   }
 
-  if (caricando) return <p className="py-10 text-sm text-neutral-400">Carico i lead…</p>;
+  if (caricando) return <p className="py-10 text-[13px] text-crm-spento">Carico i lead…</p>;
 
   const q = cerca.trim().toLowerCase();
   const mostrati = contatti.filter((c) => {
@@ -159,50 +164,51 @@ export default function LeadView({ onCreaContratto }: { onCreaContratto?: (b: Bo
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
         <Stat label="Da chiamare" value={conteggi.nuovo || 0} sub="nuovi, nessuno li ha ancora sentiti" tone={conteggi.nuovo ? "red" : "green"} onClick={() => setFiltro("nuovo")} />
         <Stat label="In corso" value={(conteggi.contattato || 0) + (conteggi.appuntamento || 0)} sub="contattati o con appuntamento" tone="blue" onClick={() => setFiltro("aperti")} />
         <Stat label="Diventati clienti" value={clienti} sub={totale ? `${Math.round((clienti / totale) * 100)}% dei lead` : "—"} tone="green" onClick={() => setFiltro("cliente")} />
         <Stat label="Contatti buoni" value={buoni} sub={`su ${totale} arrivati`} tone="ink" />
       </div>
 
-      <div className="flex flex-wrap items-center gap-2">
-        <div className="flex flex-wrap border border-black/15 bg-white">
-          {([
-            ["aperti", "Da lavorare", (conteggi.nuovo || 0) + (conteggi.contattato || 0) + (conteggi.appuntamento || 0)],
-            ...STATI.map((s) => [s.k, s.label, conteggi[s.k] || 0] as const),
-            ["tutti", "Tutti", totale],
-          ] as const).map(([k, l, n]) => (
-            <button
-              key={k}
-              onClick={() => setFiltro(k as typeof filtro)}
-              className={cx("px-3 py-2 text-[13px] font-semibold", filtro === k ? "bg-neutral-900 text-white" : "text-neutral-600 hover:bg-black/5")}
-            >
-              {l} <span className={cx("ml-0.5 text-[11px]", filtro === k ? "text-white/60" : "text-neutral-400")}>{n}</span>
-            </button>
-          ))}
+      {/* l'elenco di Shopify: linguette e ricerca in testa, righe sotto */}
+      <section className="crm-card p-2">
+        <div className="flex flex-wrap items-center gap-2 px-1 pb-2">
+          <div className="flex flex-wrap gap-1">
+            {([
+              ["aperti", "Da lavorare", (conteggi.nuovo || 0) + (conteggi.contattato || 0) + (conteggi.appuntamento || 0)],
+              ...STATI.map((s) => [s.k, s.label, conteggi[s.k] || 0] as const),
+              ["tutti", "Tutti", totale],
+            ] as const).map(([k, l, n]) => (
+              <button
+                key={k}
+                onClick={() => setFiltro(k as typeof filtro)}
+                data-attiva={filtro === k}
+                className="crm-linguetta inline-flex items-center gap-1.5 transition-colors"
+              >
+                {l} <span className="text-[12px] font-medium tabular-nums text-crm-spento">{n}</span>
+              </button>
+            ))}
+          </div>
+          <label className="relative ml-auto w-full sm:w-64">
+            <Search className="pointer-events-none absolute left-2.5 top-1/2 z-10 h-4 w-4 -translate-y-1/2 text-crm-spento" />
+            <input
+              value={cerca}
+              onChange={(e) => setCerca(e.target.value)}
+              placeholder="Cerca nome, email, telefono…"
+              className="crm-campo pl-8"
+            />
+          </label>
         </div>
-        <label className="relative ml-auto w-full sm:w-64">
-          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-400" />
-          <input
-            value={cerca}
-            onChange={(e) => setCerca(e.target.value)}
-            placeholder="Cerca nome, email, telefono…"
-            className="w-full border border-black/15 bg-white py-2 pl-9 pr-3 text-sm outline-none focus:border-neutral-900"
-          />
-        </label>
-      </div>
 
-      {mostrati.length === 0 ? (
-        <Card>
+        {mostrati.length === 0 ? (
           <EmptyState
             titolo={totale ? "Nessun lead in questo gruppo." : "Nessun lead ricevuto."}
             testo={filtro === "nuovo" ? "Tutti i lead sono stati sentiti." : undefined}
             icon={<Inbox className="h-8 w-8" />}
           />
-        </Card>
-      ) : (
-        <div className="border border-black/10 bg-white">
+        ) : (
+        <div className="border-t border-crm-filo">
           {mostrati.map((c) => (
             <RigaLead
               key={c.id}
@@ -216,7 +222,8 @@ export default function LeadView({ onCreaContratto }: { onCreaContratto?: (b: Bo
             />
           ))}
         </div>
-      )}
+        )}
+      </section>
     </div>
   );
 }
@@ -246,59 +253,70 @@ function RigaLead({
   const tel = (c.phone || "").replace(/[^\d+]/g, "").replace(/^00/, "+");
 
   return (
-    <div className={cx("border-b border-black/[0.07] last:border-b-0", aperto && "bg-[#fafafa]")}>
-      <button onClick={onApri} className="flex w-full flex-wrap items-center gap-x-4 gap-y-2 px-5 py-3.5 text-left hover:bg-black/[0.02]">
+    <div
+      className={cx(
+        "border-b last:border-b-0",
+        aperto ? "rounded-xl border-transparent bg-crm-fondo" : "border-crm-filo"
+      )}
+    >
+      <button
+        onClick={onApri}
+        className={cx(
+          "flex w-full flex-wrap items-center gap-x-4 gap-y-2 px-3 py-3 text-left transition-colors",
+          aperto ? "rounded-xl" : "hover:bg-crm-fondo"
+        )}
+      >
         <span className={cx("h-2.5 w-2.5 shrink-0 rounded-full", st.pallino)} title={st.label} />
         <span className="min-w-0 flex-1">
-          <span className="block truncate text-sm font-bold text-neutral-900">
+          <span className="block truncate text-[13px] font-[650] text-crm-ink">
             {c.name.trim()}
-            {!c.read && stato === "nuovo" && <span className="ml-2 align-middle text-[10px] font-bold uppercase text-red-500">da leggere</span>}
+            {!c.read && stato === "nuovo" && <span className="ml-2 align-middle text-[12px] font-[550] text-crm-rosso">da leggere</span>}
           </span>
-          <span className="block truncate text-[12px] text-neutral-500">
+          <span className="block truncate text-[12px] text-crm-tenue">
             {[obiettivo, c.service].filter(Boolean).join(" · ") || c.email}
           </span>
         </span>
         <Badge tone={ch.tone}>{ch.label}</Badge>
         {c.qualita && <Badge tone={c.qualita === "buono" ? "green" : c.qualita === "spam" ? "red" : "outline"}>{QUALITA.find((x) => x.k === c.qualita)?.label}</Badge>}
         <Badge tone={st.tone}>{st.label}</Badge>
-        <span className="w-28 text-right text-[11px] tabular-nums text-neutral-400">{dataOra(c.createdAt).split(",")[0]}</span>
-        <ChevronDown className={cx("h-4 w-4 text-neutral-400 transition-transform", aperto && "rotate-180")} />
+        <span className="w-24 text-right text-[12px] tabular-nums text-crm-spento sm:w-28">{dataOra(c.createdAt).split(",")[0]}</span>
+        <ChevronDown className={cx("h-4 w-4 text-crm-spento transition-transform", aperto && "rotate-180")} />
       </button>
 
       {aperto && (
-        <div className="grid gap-6 border-t border-black/[0.07] px-5 pb-6 pt-5 lg:grid-cols-[minmax(0,1fr)_380px]">
+        <div className="grid gap-6 border-t border-crm-filo px-3 pb-5 pt-4 lg:grid-cols-[minmax(0,1fr)_380px]">
           {/* cosa ha scritto */}
           <div className="min-w-0">
             <div className="flex flex-wrap gap-1.5">
               {tel && (
-                <a href={`https://wa.me/${tel.replace("+", "")}`} target="_blank" rel="noopener" className="inline-flex items-center gap-1.5 bg-[#25D366] px-3 py-1.5 text-[12px] font-semibold text-white hover:opacity-90">
-                  <MessageCircle className="h-3.5 w-3.5" /> WhatsApp
+                <a href={`https://wa.me/${tel.replace("+", "")}`} target="_blank" rel="noopener" className="crm-btn">
+                  <MessageCircle className="h-3.5 w-3.5 text-[#25D366]" /> WhatsApp
                 </a>
               )}
               {tel && (
-                <a href={`tel:${tel}`} className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-3 py-1.5 text-[12px] font-semibold text-neutral-700 hover:border-black/30">
+                <a href={`tel:${tel}`} className="crm-btn">
                   <Phone className="h-3.5 w-3.5" /> {c.phone}
                 </a>
               )}
-              <a href={`mailto:${c.email}`} className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-3 py-1.5 text-[12px] font-semibold text-neutral-700 hover:border-black/30">
-                <Mail className="h-3.5 w-3.5" /> {c.email}
+              <a href={`mailto:${c.email}`} className="crm-btn max-w-full">
+                <Mail className="h-3.5 w-3.5 shrink-0" /> <span className="truncate">{c.email}</span>
               </a>
             </div>
 
             {risposte.length > 0 && (
               <dl className="mt-4 flex flex-wrap gap-1.5">
                 {risposte.map(([k, v]) => (
-                  <div key={k} className="border border-black/10 bg-white px-2 py-1 text-[11px]">
-                    <dt className="inline text-neutral-400">{k}: </dt>
-                    <dd className="inline font-semibold text-neutral-800">{v}</dd>
+                  <div key={k} className="rounded-lg bg-white px-2 py-1 text-[12px] shadow-crm-anello">
+                    <dt className="inline text-crm-tenue">{k}: </dt>
+                    <dd className="inline font-[550] text-crm-ink">{v}</dd>
                   </div>
                 ))}
               </dl>
             )}
             {nota && (
-              <p className="mt-3 whitespace-pre-wrap border-l-2 border-gold/60 pl-3 text-[13px] leading-relaxed text-neutral-700">{nota}</p>
+              <p className="mt-3 whitespace-pre-wrap border-l-2 border-crm-bordo pl-3 text-[13px] leading-relaxed text-crm-testo">{nota}</p>
             )}
-            <p className="mt-4 text-[11px] text-neutral-400">
+            <p className="mt-4 text-[12px] text-crm-spento">
               Arrivato il {dataOra(c.createdAt)} da {ch.label}
               {c.landingPage ? `, pagina ${c.landingPage.split("?")[0]}` : ""}
               {c.contattatoAt ? ` · sentito la prima volta il ${dataOra(c.contattatoAt).split(",")[0]}` : ""}
@@ -309,44 +327,42 @@ function RigaLead({
           <div className="space-y-4">
             {onCreaContratto && (
               <div>
-                <Btn variant="brand" className="w-full py-3" onClick={onCreaContratto}>
+                <Btn variant="ink" className="w-full" onClick={onCreaContratto}>
                   <FileSignature className="h-4 w-4" />
                   Crea contratto
                 </Btn>
-                <p className="mt-1 text-[11px] text-neutral-400">
+                <p className="mt-1.5 text-[12px] leading-4 text-crm-tenue">
                   Nome, email e telefono sono già dentro: scegli il pacchetto e mandalo da firmare e pagare.
                 </p>
               </div>
             )}
             <div>
-              <p className="mb-1.5 text-xs font-semibold text-neutral-600">A che punto è</p>
-              <div className="grid grid-cols-5 border border-black/15 bg-white">
+              <p className="crm-etichetta">A che punto è</p>
+              <div className="grid grid-cols-3 gap-0.5 rounded-xl bg-white p-0.5 shadow-crm-anello sm:grid-cols-5">
                 {STATI.map((s) => (
                   <button
                     key={s.k}
                     onClick={() => salva({ stato: s.k })}
                     disabled={daContratto}
-                    className={cx(
-                      "border-r border-black/10 px-1 py-2 text-[11px] font-semibold last:border-r-0 disabled:cursor-not-allowed",
-                      stato === s.k ? "bg-neutral-900 text-white" : "text-neutral-600 hover:bg-black/5"
-                    )}
+                    data-attiva={stato === s.k}
+                    className="crm-linguetta min-w-0 truncate px-0.5 py-1.5 text-[12px] transition-colors disabled:cursor-not-allowed lg:text-[11px]"
                   >
                     {s.label}
                   </button>
                 ))}
               </div>
-              {daContratto && <p className="mt-1 text-[11px] text-green-700">Ha un contratto: lo trovi in Clienti.</p>}
+              {daContratto && <p className="mt-1.5 text-[12px] text-crm-verde">Ha un contratto: lo trovi in Clienti.</p>}
             </div>
 
             {stato === "perso" && (
               <div>
-                <p className="mb-1.5 text-xs font-semibold text-neutral-600">Perché è andato perso</p>
+                <p className="crm-etichetta">Perché è andato perso</p>
                 <div className="flex flex-wrap gap-1.5">
                   {MOTIVI.map((m) => (
                     <button
                       key={m}
                       onClick={() => salva({ motivo: c.motivo === m ? "" : m })}
-                      className={cx("border px-2.5 py-1 text-[11px] font-semibold", c.motivo === m ? "border-neutral-900 bg-neutral-900 text-white" : "border-black/15 bg-white text-neutral-600")}
+                      className={cx(CHIP, c.motivo === m ? "bg-[#303030] text-white" : CHIP_SPENTO)}
                     >
                       {m}
                     </button>
@@ -356,13 +372,13 @@ function RigaLead({
             )}
 
             <div>
-              <p className="mb-1.5 text-xs font-semibold text-neutral-600">Com&apos;è il contatto</p>
+              <p className="crm-etichetta">Com&apos;è il contatto</p>
               <div className="flex flex-wrap gap-1.5">
                 {QUALITA.map((x) => (
                   <button
                     key={x.k}
                     onClick={() => salva({ qualita: c.qualita === x.k ? null : x.k })}
-                    className={cx("border px-2.5 py-1 text-[11px] font-semibold", c.qualita === x.k ? x.attivo : "border-black/15 bg-white text-neutral-600 hover:border-black/30")}
+                    className={cx(CHIP, c.qualita === x.k ? x.attivo : CHIP_SPENTO)}
                   >
                     {x.label}
                   </button>
@@ -371,16 +387,16 @@ function RigaLead({
             </div>
 
             <div>
-              <p className="mb-1.5 text-xs font-semibold text-neutral-600">Appunti</p>
+              <p className="crm-etichetta">Appunti</p>
               <textarea
                 value={note}
                 onChange={(e) => setNote(e.target.value)}
                 onBlur={() => note !== (c.note || "") && salva({ note })}
                 rows={3}
                 placeholder="Chiamato martedì, richiamare dopo le 18…"
-                className="w-full border border-black/15 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-900"
+                className="crm-campo"
               />
-              <p className="mt-1 text-[11px] text-neutral-400">Si salva da solo quando esci dal campo.</p>
+              <p className="mt-1.5 text-[12px] text-crm-tenue">Si salva da solo quando esci dal campo.</p>
             </div>
           </div>
         </div>

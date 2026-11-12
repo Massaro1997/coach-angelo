@@ -1,10 +1,11 @@
 "use client";
 
-// Training del giorno: titolo, durata e gli esercizi come schede, nome grande
-// e i numeri che servono in palestra subito sotto.
+// Training del giorno, dentro la sua linguetta: titolo e durata in una riga,
+// poi gli esercizi come schede, nome grande e i numeri che servono in
+// palestra subito sotto. Lo scorrimento lo fa il pannello che lo contiene.
 
 import type { ReactNode } from "react";
-import { CirclePlay, Clock, Dumbbell, Timer, Weight } from "lucide-react";
+import { CirclePlay, Clock, Dumbbell, Moon, Timer, Weight } from "lucide-react";
 import type { Allenamento, Esercizio } from "@/lib/app-coaching/tipi";
 import type { Testi } from "../testi";
 import { CARTA, linkSicuro, useTesti } from "./comuni";
@@ -77,21 +78,41 @@ function SchedaEsercizio({ e, n }: { e: Esercizio; n: number }) {
   );
 }
 
-export default function SezioneAllenamento({ allenamento }: { allenamento: Allenamento }) {
+export default function SezioneAllenamento({
+  allenamento,
+  riposo = false,
+  titoloVisibile = false,
+}: {
+  allenamento: Allenamento;
+  /** giorno segnato anche come riposo (es. solo mobilita') */
+  riposo?: boolean;
+  /** senza linguette sopra serve il titolo "Training" */
+  titoloVisibile?: boolean;
+}) {
   const t = useTesti();
   const titolo = allenamento.titolo?.trim();
   const durata = allenamento.durata?.trim();
   const esercizi = allenamento.esercizi ?? [];
 
   return (
-    <section className="mt-8" aria-labelledby="sezione-training">
-      <h2 id="sezione-training" className="flex items-center gap-2 text-2xl font-bold">
-        <Dumbbell className="size-6 text-[var(--app-colore)]" aria-hidden />
+    <section aria-labelledby="sezione-training">
+      <h2
+        id="sezione-training"
+        className={titoloVisibile ? "mb-2 flex items-center gap-2 text-xl font-bold" : "sr-only"}
+      >
+        <Dumbbell className="size-5 text-[var(--app-colore)]" aria-hidden />
         {t.training}
       </h2>
 
+      {riposo && (
+        <p className="mb-2 inline-flex items-center gap-1.5 rounded-lg bg-neutral-100 px-2.5 py-1 font-medium text-neutral-700">
+          <Moon className="size-4" aria-hidden />
+          {t.riposo}
+        </p>
+      )}
+
       {(titolo || durata) && (
-        <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-lg">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-lg">
           {titolo && <span className="font-semibold">{titolo}</span>}
           {durata && (
             <span className="inline-flex items-center gap-1.5 text-neutral-600">
@@ -102,11 +123,11 @@ export default function SezioneAllenamento({ allenamento }: { allenamento: Allen
         </div>
       )}
       {allenamento.note?.trim() && (
-        <p className="mt-2 whitespace-pre-line text-neutral-700">{allenamento.note}</p>
+        <p className="mt-1.5 whitespace-pre-line text-neutral-700">{allenamento.note}</p>
       )}
 
       {esercizi.length > 0 && (
-        <ol className="mt-4 space-y-3">
+        <ol className={`space-y-2.5 ${titolo || durata || allenamento.note?.trim() ? "mt-3" : ""}`}>
           {esercizi.map((e, i) => (
             <li key={e.id || i}>
               <SchedaEsercizio e={e} n={i + 1} />

@@ -5,6 +5,7 @@ import type { CSSProperties, ReactNode } from "react";
 import type { Metadata, Viewport } from "next";
 import { MARCHIO } from "@/lib/app-coaching/marchio";
 import { ICONE, MANIFEST_URL, TEMA } from "./_ui/pwa";
+import Guscio from "./_ui/Guscio";
 import RegistraSW from "./_ui/RegistraSW";
 import { testiDi } from "./testi";
 
@@ -46,6 +47,9 @@ export const viewport: Viewport = {
   viewportFit: "cover",
   themeColor: TEMA.superficie,
   colorScheme: "light",
+  // Android: con la tastiera aperta la pagina si accorcia (100dvh compreso),
+  // come in un'app; su iPhone ci pensa il Guscio con la visualViewport
+  interactiveWidget: "resizes-content",
 };
 
 // colori del marchio come variabili: i componenti usano var(--app-colore)
@@ -58,13 +62,30 @@ const variabili = {
   touchAction: "manipulation",
 } as CSSProperties;
 
+// Regole che valgono solo dentro l'app (globals.css e' del sito):
+// - html e body fermi: niente scorrimento ne' rimbalzo della pagina intera,
+//   sotto il rimbalzo di iOS e dietro la tastiera non si vede il body del sito;
+// - controlli da app: niente evidenziazione al tocco, niente selezione del
+//   testo ne' menu del tocco lungo, niente link sottolineati;
+// - le animazioni brevi di fogli e giorni.
+const CSS_APP = `
+html,body{background:${TEMA.fondo};color:${TEMA.testo};height:100%;overflow:hidden;overscroll-behavior:none}
+[data-app]{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+[data-app] :is(a,button,label,summary,[role=tab]){-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+[data-app] a{text-decoration:none}
+[data-app][data-tastiera] .app-via-con-tastiera{display:none}
+@keyframes app-appare{from{opacity:0}to{opacity:1}}
+@keyframes app-sale{from{transform:translateY(100%)}to{transform:none}}
+@keyframes app-da-destra{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
+@keyframes app-da-sinistra{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+`;
+
 export default function AppLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="min-h-dvh text-[17px] leading-normal antialiased" style={variabili}>
-      {/* sotto il rimbalzo di iOS e dietro la tastiera si vedrebbe il body scuro del sito */}
-      <style>{`html,body{background:${TEMA.fondo};color:${TEMA.testo}}`}</style>
+    <Guscio style={variabili}>
+      <style>{CSS_APP}</style>
       {children}
       <RegistraSW />
-    </div>
+    </Guscio>
   );
 }

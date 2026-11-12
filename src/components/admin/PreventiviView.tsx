@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { FileSignature, Plus, Link2, Send, Trash2, Check, X, Mail, MessageCircle } from "lucide-react";
-import { Card, Stat, Badge, Btn, EmptyState, cx } from "./ui";
+import { Card, Stat, Badge, EmptyState, cx } from "./ui";
 import { LISTINO, ORE_MESE, PREZZO_ORA, vociOre, voceAOre, type VocePreventivo } from "@/lib/preventivo-listino";
 
 interface Rata {
@@ -153,30 +153,46 @@ export default function PreventiviView({
   }
 
   if (caricando && !lista.length && !nuovo) {
-    return <p className="py-10 text-sm text-neutral-400">Carico i contratti…</p>;
+    return <p className="py-10 text-[13px] text-crm-spento">Carico i contratti…</p>;
   }
 
   const firmati = lista.filter((p) => p.stato === "firmato");
   const inAttesa = lista.filter((p) => p.stato !== "firmato" && p.stato !== "sostituito");
   const incassato = lista.reduce((s, p) => s + p.accontoIncassato, 0);
   const daIncassare = firmati.reduce((s, p) => s + (p.totale - p.accontoIncassato), 0);
+  // "Link di ... copiato." e' una conferma, il resto sono errori: cambia solo il colore
+  const msgConferma = msg.startsWith("Link di ");
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
         <Stat label="Contratti" value={lista.length} tone="ink" />
         <Stat label="In attesa" value={inAttesa.length} tone="amber" />
         <Stat label="Incassato" value={eur(incassato)} tone="green" />
-        <Stat label="Da incassare" value={eur(daIncassare)} tone="brand" />
+        <Stat label="Da incassare" value={eur(daIncassare)} tone="ink" />
       </div>
 
-      {msg && <p className="border border-red-500/30 bg-red-50 p-3 text-sm text-red-600">{msg}</p>}
+      {msg && (
+        <p
+          role={msgConferma ? "status" : "alert"}
+          className={cx(
+            "rounded-xl px-3 py-2 text-[13px] font-[550]",
+            msgConferma ? "bg-crm-ok/50 text-crm-ok-ink" : "bg-crm-errore text-crm-errore-ink"
+          )}
+        >
+          {msg}
+        </p>
+      )}
 
-      <div className="flex items-center justify-between">
-        <Btn variant="ink" onClick={() => setNuovo((v) => !v)}>
+      <div className="flex items-center justify-end">
+        <button
+          type="button"
+          onClick={() => setNuovo((v) => !v)}
+          className={nuovo ? "crm-btn" : "crm-btn-primario"}
+        >
           {nuovo ? <X className="h-3.5 w-3.5" /> : <Plus className="h-3.5 w-3.5" />}
           {nuovo ? "Annulla" : "Nuovo contratto"}
-        </Btn>
+        </button>
       </div>
 
       {nuovo && (
@@ -200,27 +216,27 @@ export default function PreventiviView({
         </Card>
         )
       ) : (
-        <div className="space-y-3">
+        <ul className="crm-card divide-y divide-crm-filo" aria-label="Contratti">
           {lista.map((p) => {
             const st = tonoStato(p);
             const link = `${typeof window !== "undefined" ? window.location.origin : ""}/preventivo/${p.token}`;
             const m = messaggioCliente(p.lingua, p.clienteNome, p.numero, link);
             return (
-              <Card key={p.id} bodyClassName="p-4">
-                <div className="flex flex-wrap items-start gap-3">
+              <li key={p.id} className="p-4">
+                <div className="flex flex-wrap items-start gap-x-4 gap-y-2">
                   <div className="min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-2">
-                      <span className="text-sm font-bold text-neutral-900">{p.numero}</span>
+                      <span className="text-[13px] font-[650] text-crm-ink">{p.numero}</span>
                       <Badge tone={st.tone}>{st.label}</Badge>
                       {p.stato === "firmato" && (
-                        <Badge tone="outline">{p.lavoro}</Badge>
+                        <Badge tone="neutral">{p.lavoro}</Badge>
                       )}
                     </div>
-                    <p className="mt-1 text-sm text-neutral-700">
+                    <p className="mt-1 text-[13px] text-crm-ink">
                       {p.clienteNome}
                       {p.oggetto ? ` — ${p.oggetto}` : ""}
                     </p>
-                    <p className="mt-0.5 text-[11px] text-neutral-400">
+                    <p className="mt-0.5 text-[12px] leading-4 text-crm-tenue">
                       {p.clienteEmail || "senza email"} · creato {data(p.createdAt)}
                       {p.validoFino && ` · valido fino al ${data(p.validoFino)}`}
                       {p.firmatoAt && ` · firmato da ${p.firmatoNome} il ${data(p.firmatoAt)}`}
@@ -232,12 +248,7 @@ export default function PreventiviView({
                           <span
                             key={r.id}
                             title={r.descrizione}
-                            className={cx(
-                              "px-1.5 py-0.5 text-[10px] font-bold",
-                              r.stato === "pagato"
-                                ? "bg-green-600 text-white"
-                                : "border border-black/10 bg-[#f4f4f5] text-neutral-500"
-                            )}
+                            className={cx("crm-badge tabular-nums", r.stato === "pagato" && "crm-badge-ok")}
                           >
                             {r.rataNumero && r.rateTotali ? `${r.rataNumero}/${r.rateTotali} ` : ""}
                             {eur(r.importo)}
@@ -249,7 +260,7 @@ export default function PreventiviView({
                   </div>
 
                   <div className="shrink-0 text-right">
-                    <p className="text-sm font-bold tabular-nums text-neutral-900">
+                    <p className="text-[15px] font-[650] leading-5 tracking-[-0.01em] tabular-nums text-crm-ink">
                       {(() => {
                         const v = voceAOre(p.items);
                         if (v && !v.oreFisse && !v.preparato && !p.firmatoAt) return "4–20 ore, sceglie lei";
@@ -261,7 +272,7 @@ export default function PreventiviView({
                       const b = p.items?.find((x) => x.modulo === "bonus");
                       if (!v) return null;
                       return (
-                        <p className="text-[10px] text-neutral-400">
+                        <p className="mt-0.5 text-[12px] leading-4 text-crm-tenue">
                           {p.firmatoAt || v.oreFisse || v.preparato ? `${v.quantita} ore pagate` : `${eur(PREZZO_ORA)}/ora`}
                           {b && ` + ${b.quantita} gratis`}
                           {v.preparato && !p.firmatoAt && " · pronto da firmare"}
@@ -269,36 +280,31 @@ export default function PreventiviView({
                       );
                     })()}
                     {p.periodicita === "mensile" && p.mesi > 1 && (
-                      <p className="text-[10px] text-neutral-400">
+                      <p className="mt-0.5 text-[12px] leading-4 tabular-nums text-crm-tenue">
                         {eur(Math.round((p.totale / p.mesi) * 100) / 100)}/mese × {p.mesi}
                       </p>
                     )}
                     {p.accontoIncassato > 0 && (
-                      <p className="mt-0.5 text-[10px] font-semibold text-green-600">
+                      <p className="mt-0.5 text-[12px] font-[550] leading-4 tabular-nums text-crm-verde">
                         incassati {eur(p.accontoIncassato)}
                       </p>
                     )}
                   </div>
                 </div>
 
-                <div className="mt-3 flex flex-wrap items-center gap-1.5 border-t border-black/[0.06] pt-3">
-                  <Btn
-                    size="sm"
-                    variant="outline"
+                <div className="mt-3 flex flex-wrap items-center gap-2">
+                  <button
+                    type="button"
+                    className="crm-btn"
                     onClick={() => {
                       navigator.clipboard?.writeText(link);
                       setMsg(`Link di ${p.numero} copiato.`);
                     }}
                   >
-                    <Link2 className="h-3 w-3" />
+                    <Link2 className="h-3.5 w-3.5" />
                     Copia link
-                  </Btn>
-                  <a
-                    href={`/preventivo/${p.token}`}
-                    target="_blank"
-                    rel="noopener"
-                    className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-2.5 py-1.5 text-[11px] font-semibold text-neutral-700 hover:border-black/30"
-                  >
+                  </button>
+                  <a href={`/preventivo/${p.token}`} target="_blank" rel="noopener" className="crm-btn">
                     Apri
                   </a>
                   {!p.firmatoAt && (
@@ -306,55 +312,58 @@ export default function PreventiviView({
                       href={linkWhatsapp(p.clienteTelefono, m.whatsapp)}
                       target="_blank"
                       rel="noopener"
-                      className="inline-flex items-center gap-1.5 bg-[#25D366] px-2.5 py-1.5 text-[11px] font-semibold text-white hover:opacity-90"
+                      className="crm-btn"
                     >
-                      <MessageCircle className="h-3 w-3" />
+                      <MessageCircle className="h-3.5 w-3.5" />
                       WhatsApp
                     </a>
                   )}
                   {p.clienteEmail && !p.firmatoAt && (
-                    <a
-                      href={linkEmail(p.clienteEmail, m.oggetto, m.testo)}
-                      className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-2.5 py-1.5 text-[11px] font-semibold text-neutral-700 hover:border-black/30"
-                    >
-                      <Mail className="h-3 w-3" />
+                    <a href={linkEmail(p.clienteEmail, m.oggetto, m.testo)} className="crm-btn">
+                      <Mail className="h-3.5 w-3.5" />
                       Email già scritta
                     </a>
                   )}
                   {p.clienteEmail && !p.firmatoAt && (
-                    <Btn size="sm" variant="ink" onClick={() => azione(p.id, { azione: "invia" })}>
-                      <Send className="h-3 w-3" />
+                    <button type="button" className="crm-btn-primario" onClick={() => azione(p.id, { azione: "invia" })}>
+                      <Send className="h-3.5 w-3.5" />
                       {p.inviatoAt ? "Reinvia" : "Invia al cliente"}
-                    </Btn>
+                    </button>
                   )}
                   {p.stato === "firmato" && p.lavoro !== "concluso" && (
-                    <Btn
-                      size="sm"
-                      variant="brand"
+                    <button
+                      type="button"
+                      className="crm-btn-primario"
                       onClick={() =>
                         azione(p.id, {
                           lavoro: p.lavoro === "da iniziare" ? "in corso" : p.lavoro === "in corso" ? "consegnato" : "concluso",
                         })
                       }
                     >
-                      <Check className="h-3 w-3" />
+                      <Check className="h-3.5 w-3.5" />
                       {p.lavoro === "da iniziare"
                         ? "Inizia"
                         : p.lavoro === "in corso"
                         ? "Consegna"
                         : "Concludi"}
-                    </Btn>
+                    </button>
                   )}
                   {p.stato !== "firmato" && (
-                    <Btn size="sm" variant="ghost" onClick={() => elimina(p.id, p.numero)}>
-                      <Trash2 className="h-3 w-3" />
-                    </Btn>
+                    <button
+                      type="button"
+                      className="crm-btn-piatto ml-auto min-h-7 text-crm-tenue hover:text-crm-rosso"
+                      onClick={() => elimina(p.id, p.numero)}
+                      aria-label={`Elimina il contratto ${p.numero}`}
+                      title="Elimina"
+                    >
+                      <Trash2 className="h-3.5 w-3.5" />
+                    </button>
                   )}
                 </div>
-              </Card>
+              </li>
             );
           })}
-        </div>
+        </ul>
       )}
     </div>
   );
@@ -508,8 +517,7 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
     }
   }
 
-  const campo =
-    "w-full border border-black/15 bg-white px-3 py-2.5 text-sm outline-none transition-colors focus:border-neutral-900";
+  const campo = "crm-campo";
 
   /* ------------------------------------------------ fatto: il link pronto */
   if (creato) {
@@ -517,54 +525,58 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
     const m = messaggioCliente(lingua, clienteNome, creato.numero, link);
     return (
       <Card>
-        <div className="mx-auto max-w-xl py-6 text-center">
-          <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-600 text-white">
+        <div className="mx-auto max-w-xl py-4 text-center sm:py-6">
+          <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-crm-ok text-crm-ok-ink">
             <Check className="h-6 w-6" />
           </span>
-          <h3 className="mt-4 text-lg font-bold text-neutral-900">{creato.numero} è pronto</h3>
-          <p className="mt-1 text-sm text-neutral-500">
+          <h3 className="mt-4 text-[17px] font-[650] leading-6 tracking-[-0.01em] text-crm-ink">{creato.numero} è pronto</h3>
+          <p className="mt-1 text-[13px] leading-5 text-crm-tenue">
             {creato.inviato
               ? `Mandato a ${clienteEmail}. Quando firma e paga lo vedi qui sotto.`
               : pac.oreMese
               ? "Compilalo tu (dati, ore, ore gratis) e salva: poi lei spunta le conferme, firma e paga, dal tuo telefono o col link."
               : "Manda il link al cliente, anche su WhatsApp: firma dal telefono e paga subito."}
           </p>
-          <div className="mt-5 flex items-stretch">
-            <input readOnly value={link} className={cx(campo, "min-w-0 flex-1 bg-[#f4f4f5] text-xs text-neutral-600")} onFocus={(e) => e.target.select()} />
-            <Btn variant="ink" onClick={() => navigator.clipboard?.writeText(link)}>
+          <div className="mt-5 flex items-center gap-2">
+            <input
+              readOnly
+              value={link}
+              className={cx(campo, "min-w-0 flex-1 bg-crm-fondo text-crm-tenue sm:text-[12px]")}
+              onFocus={(e) => e.target.select()}
+              aria-label="Link del contratto"
+            />
+            <button type="button" className="crm-btn h-[30px]" onClick={() => navigator.clipboard?.writeText(link)}>
               <Link2 className="h-3.5 w-3.5" />
               Copia
-            </Btn>
+            </button>
           </div>
-          {errore && <p className="mt-3 text-sm text-red-500">{errore}</p>}
+          {errore && (
+            <p role="alert" className="mt-3 rounded-xl bg-crm-errore px-3 py-2 text-[13px] text-crm-errore-ink">
+              {errore}
+            </p>
+          )}
           <div className="mt-4 flex flex-wrap justify-center gap-2">
             <a
               href={linkWhatsapp(clienteTelefono, m.whatsapp)}
               target="_blank"
               rel="noopener"
-              className="inline-flex items-center gap-1.5 bg-[#25D366] px-4 py-2 text-[13px] font-semibold text-white hover:opacity-90"
+              className="crm-btn-primario"
             >
               <MessageCircle className="h-3.5 w-3.5" />
               Manda su WhatsApp
             </a>
             {emailOk && (
-              <a
-                href={linkEmail(clienteEmail.trim(), m.oggetto, m.testo)}
-                className="inline-flex items-center gap-1.5 bg-neutral-900 px-4 py-2 text-[13px] font-semibold text-white hover:bg-neutral-800"
-              >
+              <a href={linkEmail(clienteEmail.trim(), m.oggetto, m.testo)} className="crm-btn">
                 <Mail className="h-3.5 w-3.5" />
                 Apri l&apos;email già scritta
               </a>
             )}
-            <a
-              href={`/preventivo/${creato.token}`}
-              target="_blank"
-              rel="noopener"
-              className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-4 py-2 text-[13px] font-semibold text-neutral-700 hover:border-black/30"
-            >
+            <a href={`/preventivo/${creato.token}`} target="_blank" rel="noopener" className="crm-btn">
               {pac.oreMese ? "Compila tu il contratto" : "Guarda come lo vede il cliente"}
             </a>
-            <Btn variant="outline" onClick={onFatto}>Chiudi</Btn>
+            <button type="button" className="crm-btn" onClick={onFatto}>
+              Chiudi
+            </button>
           </div>
         </div>
       </Card>
@@ -572,23 +584,33 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
   }
 
   /* ---------------------------------------------------------------- form */
+  const aiuto = "mt-1.5 text-[12px] leading-4 text-crm-tenue";
+  // le schede da scegliere (pacchetto, rate o subito): anello grigio, nero se scelta
+  const scelta = (attiva: boolean) =>
+    cx(
+      "rounded-xl bg-white text-left transition-[background-color,box-shadow]",
+      attiva ? "shadow-[0_0_0_2px_#101010]" : "shadow-crm-anello hover:bg-crm-fondo"
+    );
+  const stepper = "inline-flex items-stretch overflow-hidden rounded-xl bg-white shadow-crm-campo";
+  const tastoStepper = "px-3.5 text-[17px] font-[550] text-crm-testo transition-colors hover:bg-crm-fondo";
+
   return (
-    <Card
-      title={iniziale ? `Nuovo contratto per ${iniziale.nome}` : "Nuovo contratto"}
-      subtitle={
-        iniziale
-          ? "Dati del lead già inseriti: scegli il pacchetto."
-          : "Il cliente lo firma dal telefono e paga subito la prima parte."
-      }
-    >
-      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
-        <div className="space-y-7">
+    <div className="space-y-3">
+      <div>
+        <h2 className="text-[15px] font-[650] leading-6 tracking-[-0.01em] text-crm-ink">
+          {iniziale ? `Nuovo contratto per ${iniziale.nome}` : "Nuovo contratto"}
+        </h2>
+        <p className="text-[13px] leading-5 text-crm-tenue">
+          {iniziale
+            ? "Dati del lead già inseriti: scegli il pacchetto."
+            : "Il cliente lo firma dal telefono e paga subito la prima parte."}
+        </p>
+      </div>
+
+      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_320px]">
+        <div className="min-w-0 space-y-4">
           {/* 1. pacchetto */}
-          <div>
-            <h3 className="mb-3 text-sm font-bold text-neutral-900">
-              <span className="mr-2 inline-flex h-5 w-5 items-center justify-center bg-neutral-900 text-[11px] text-white">1</span>
-              Cosa compra
-            </h3>
+          <Card title={<Passo n={1}>Cosa compra</Passo>}>
             <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3">
               {PACCHETTI.map((p) => {
                 const attivo = p.id === pacchetto;
@@ -597,47 +619,43 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                 return (
                   <button
                     key={p.id}
+                    type="button"
+                    aria-pressed={attivo}
                     onClick={() => {
                       setPacchetto(p.id);
                       setPagamento(p.rate ? "rate" : "subito");
                     }}
-                    className={cx(
-                      "relative overflow-hidden border bg-white p-4 text-left transition-all",
-                      attivo
-                        ? "border-neutral-900 shadow-[0_8px_24px_rgba(0,0,0,0.08)]"
-                        : "border-black/10 hover:border-black/30"
-                    )}
+                    className={cx(scelta(attivo), "p-3.5")}
                   >
-                    {attivo && <span className="absolute inset-y-0 left-0 w-1 bg-gold" />}
                     <div className="flex items-start justify-between gap-2">
-                      <span className="text-sm font-bold text-neutral-900">{p.titolo}</span>
-                      {p.consigliato && <Badge tone="brand">top</Badge>}
+                      <span className="text-[13px] font-[650] leading-5 text-crm-ink">{p.titolo}</span>
+                      {p.consigliato && <Badge tone="neutral">top</Badge>}
                     </div>
                     {p.id === "custom" ? (
-                      <p className="mt-3 text-2xl font-bold text-neutral-300">—</p>
+                      <p className="mt-2 text-[20px] font-[650] leading-7 text-crm-spento">—</p>
                     ) : (
-                      <p className="mt-3 text-2xl font-bold tabular-nums text-neutral-900">
+                      <p className="mt-2 text-[20px] font-[650] leading-7 tracking-[-0.02em] tabular-nums text-crm-ink">
                         {p.oreMese ? (
                           <>
                             {eur(PREZZO_ORA)}
-                            <span className="text-sm font-semibold text-neutral-400"> /ora</span>
+                            <span className="text-[13px] font-[550] tracking-normal text-crm-spento"> /ora</span>
                           </>
                         ) : p.aOre ? (
                           <>
                             {eur(tot)}
-                            <span className="text-sm font-semibold text-neutral-400"> /ora</span>
+                            <span className="text-[13px] font-[550] tracking-normal text-crm-spento"> /ora</span>
                           </>
                         ) : vr && vr.mesi <= 1 && vr.periodicita === "mensile" ? (
                           <>
                             {eur(vr.prezzo)}
-                            <span className="text-sm font-semibold text-neutral-400"> /mese</span>
+                            <span className="text-[13px] font-[550] tracking-normal text-crm-spento"> /mese</span>
                           </>
                         ) : (
                           eur(tot)
                         )}
                       </p>
                     )}
-                    <p className="mt-1 text-[11px] text-neutral-500">
+                    <p className="mt-0.5 text-[12px] leading-4 text-crm-tenue">
                       {vr && vr.mesi > 1
                         ? p.subito
                           ? `oppure ${eur(vr.prezzo)} al mese`
@@ -648,57 +666,62 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                 );
               })}
             </div>
-          </div>
+          </Card>
 
           {/* 2. come paga */}
           {!suMisura && (
-            <div>
-              <h3 className="mb-3 text-sm font-bold text-neutral-900">
-                <span className="mr-2 inline-flex h-5 w-5 items-center justify-center bg-neutral-900 text-[11px] text-white">2</span>
-                Come paga
-              </h3>
+            <Card title={<Passo n={2}>Come paga</Passo>}>
               {pac.oreMese ? (
-                <div className="space-y-4">
+                <div className="space-y-5">
                   <div>
-                    <p className="text-xs font-semibold text-neutral-600">Ore pagate al mese ({eur(PREZZO_ORA)} l&apos;ora)</p>
-                    <div className="mt-2 flex flex-wrap gap-1.5">
+                    <p className="crm-etichetta">Ore pagate al mese ({eur(PREZZO_ORA)} l&apos;ora)</p>
+                    <div className="mt-1 flex flex-wrap gap-1">
                       <button
+                        type="button"
                         onClick={() => setOreFisse(0)}
-                        className={cx("border px-3 py-1.5 text-[12px] font-semibold", oreFisse === 0 ? "border-neutral-900 bg-neutral-900 text-white" : "border-black/15 bg-white text-neutral-600")}
+                        data-attiva={oreFisse === 0}
+                        aria-pressed={oreFisse === 0}
+                        className="crm-linguetta"
                       >
                         Sceglie lei (4–20)
                       </button>
                       {ORE_MESE.map((n) => (
                         <button
                           key={n}
+                          type="button"
                           onClick={() => setOreFisse(n)}
-                          className={cx("border px-2.5 py-1.5 text-[12px] font-semibold tabular-nums", oreFisse === n ? "border-neutral-900 bg-neutral-900 text-white" : "border-black/15 bg-white text-neutral-600")}
+                          data-attiva={oreFisse === n}
+                          aria-pressed={oreFisse === n}
+                          className="crm-linguetta min-w-9 tabular-nums"
                         >
                           {n}
                         </button>
                       ))}
                     </div>
-                    <p className="mt-1.5 text-[11px] text-neutral-500">
+                    <p className={aiuto}>
                       {oreFisse
                         ? `${oreFisse} ore × ${eur(PREZZO_ORA)} = ${eur(oreFisse * PREZZO_ORA)} al mese. Nel contratto sono già segnate, la cliente non le cambia.`
                         : "Nel contratto la cliente mette la X su quante ore vuole: da 4 a 20 al mese."}
                     </p>
                   </div>
                   <div>
-                    <p className="text-xs font-semibold text-neutral-600">Ore gratis: (contate a parte, 0 €)</p>
-                    <div className="mt-2 flex flex-wrap items-center gap-3">
-                      <div className="flex items-stretch border border-black/15 bg-white">
-                        <button onClick={() => setBonusOre(Math.max(0, bonusOre - 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora gratis in meno">−</button>
-                        <span className="w-12 border-x border-black/15 py-2 text-center text-sm font-bold tabular-nums">{bonusOre}</span>
-                        <button onClick={() => setBonusOre(Math.min(20, bonusOre + 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora gratis in più">+</button>
+                    <p className="crm-etichetta">Ore gratis: (contate a parte, 0 €)</p>
+                    <div className="mt-1 flex flex-wrap items-center gap-3">
+                      <div className={stepper}>
+                        <button type="button" onClick={() => setBonusOre(Math.max(0, bonusOre - 1))} className={tastoStepper} aria-label="Un'ora gratis in meno">−</button>
+                        <span className="w-12 border-x border-crm-filo py-1.5 text-center text-[13px] font-[650] tabular-nums text-crm-ink">{bonusOre}</span>
+                        <button type="button" onClick={() => setBonusOre(Math.min(20, bonusOre + 1))} className={tastoStepper} aria-label="Un'ora gratis in più">+</button>
                       </div>
                       {bonusOre > 0 && (
-                        <div className="flex border border-black/15">
+                        <div className="flex flex-wrap gap-1">
                           {([true, false] as const).map((v) => (
                             <button
                               key={String(v)}
+                              type="button"
                               onClick={() => setBonusOgniMese(v)}
-                              className={cx("px-3 py-1.5 text-[12px] font-semibold", bonusOgniMese === v ? "bg-neutral-900 text-white" : "bg-white text-neutral-600")}
+                              data-attiva={bonusOgniMese === v}
+                              aria-pressed={bonusOgniMese === v}
+                              className="crm-linguetta"
                             >
                               {v ? "Ogni mese" : "Solo il primo mese"}
                             </button>
@@ -706,31 +729,38 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                         </div>
                       )}
                     </div>
-                    <p className="mt-1.5 text-[11px] text-neutral-500">
+                    <p className={aiuto}>
                       Se il prezzo le sembra tanto: nel contratto c&apos;è una riga a parte «Bonusstunden geschenkt», gratis. La prima visita è sempre gratis.
                     </p>
                   </div>
                 </div>
               ) : pac.aOre ? (
                 <div className="flex flex-wrap items-center gap-3">
-                  <div className="flex items-stretch border border-black/15 bg-white">
-                    <button onClick={() => setOre(Math.max(1, ore - 1))} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora in meno">−</button>
+                  <div className={stepper}>
+                    <button type="button" onClick={() => setOre(Math.max(1, ore - 1))} className={tastoStepper} aria-label="Un'ora in meno">−</button>
                     <input
                       value={ore}
                       onChange={(e) => setOre(Math.max(1, Math.min(200, Number(e.target.value) || 1)))}
                       type="number"
                       min={1}
-                      className="w-16 border-x border-black/15 py-2 text-center text-sm font-bold outline-none"
+                      className="w-16 border-x border-crm-filo py-1.5 text-center text-base font-[650] tabular-nums text-crm-ink outline-none focus-visible:bg-crm-fondo sm:text-[13px]"
                       aria-label="Ore"
                     />
-                    <button onClick={() => setOre(ore + 1)} className="px-3.5 text-lg font-bold text-neutral-600 hover:bg-black/5" aria-label="Un'ora in più">+</button>
+                    <button type="button" onClick={() => setOre(ore + 1)} className={tastoStepper} aria-label="Un'ora in più">+</button>
                   </div>
-                  <span className="text-sm text-neutral-600">
-                    ore × {eur(voce?.prezzo || 0)} = <span className="font-bold text-neutral-900">{eur(totale)}</span>, pagate alla firma
+                  <span className="text-[13px] text-crm-testo">
+                    ore × {eur(voce?.prezzo || 0)} = <span className="font-[650] tabular-nums text-crm-ink">{eur(totale)}</span>, pagate alla firma
                   </span>
-                  <div className="flex gap-1.5">
+                  <div className="flex gap-1">
                     {[5, 10, 20].map((n) => (
-                      <button key={n} onClick={() => setOre(n)} className={cx("border px-2.5 py-1 text-[11px] font-semibold", ore === n ? "border-neutral-900 bg-neutral-900 text-white" : "border-black/15 bg-white text-neutral-600")}>
+                      <button
+                        key={n}
+                        type="button"
+                        onClick={() => setOre(n)}
+                        data-attiva={ore === n}
+                        aria-pressed={ore === n}
+                        className="crm-linguetta"
+                      >
                         {n} ore
                       </button>
                     ))}
@@ -744,20 +774,24 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                     return (
                       <button
                         key={m}
+                        type="button"
+                        aria-pressed={attivo}
                         onClick={() => setPagamento(m)}
-                        className={cx(
-                          "flex items-center gap-3 border bg-white p-3.5 text-left transition-all",
-                          attivo ? "border-neutral-900" : "border-black/10 hover:border-black/30"
-                        )}
+                        className={cx(scelta(attivo), "flex items-center gap-3 p-3.5")}
                       >
-                        <span className={cx("flex h-4 w-4 shrink-0 items-center justify-center rounded-full border-2", attivo ? "border-gold" : "border-black/20")}>
-                          {attivo && <span className="h-2 w-2 rounded-full bg-gold" />}
+                        <span
+                          className={cx(
+                            "flex h-4 w-4 shrink-0 items-center justify-center rounded-full border-2",
+                            attivo ? "border-crm-ink" : "border-crm-spento"
+                          )}
+                        >
+                          {attivo && <span className="h-2 w-2 rounded-full bg-crm-ink" />}
                         </span>
                         <span>
-                          <span className="block text-sm font-bold text-neutral-900">
+                          <span className="block text-[13px] font-[650] leading-5 tabular-nums text-crm-ink">
                             {m === "rate" ? `${eur(v.prezzo)} al mese` : `${eur(v.prezzo)} subito`}
                           </span>
-                          <span className="block text-[11px] text-neutral-500">
+                          <span className="block text-[12px] leading-4 text-crm-tenue">
                             {m === "rate"
                               ? `${v.mesi} addebiti uguali, in automatico`
                               : "Un pagamento solo alla firma"}
@@ -768,7 +802,7 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                   })}
                 </div>
               ) : (
-                <p className="border border-black/10 bg-[#f4f4f5] px-3.5 py-3 text-sm text-neutral-600">
+                <p className="rounded-xl bg-crm-fondo px-3.5 py-3 text-[13px] text-crm-testo">
                   {mensile
                     ? doc.mesi > 1
                       ? `${eur(rata)} al mese per ${doc.mesi} mesi, addebito automatico.`
@@ -776,146 +810,151 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                     : `${eur(totale)} in un pagamento solo alla firma.`}
                 </p>
               )}
-            </div>
+            </Card>
           )}
 
           {/* su misura: voci a mano */}
           {suMisura && (
-            <div className="space-y-3">
-              <h3 className="text-sm font-bold text-neutral-900">
-                <span className="mr-2 inline-flex h-5 w-5 items-center justify-center bg-neutral-900 text-[11px] text-white">2</span>
-                Voci e pagamento
-              </h3>
-              <label className="block">
-                <span className="text-xs font-semibold text-neutral-600">Titolo del contratto</span>
-                <input value={oggetto} onChange={(e) => setOggetto(e.target.value)} placeholder="es. Coaching Hochzeit 4 Monate" className={campo} />
-              </label>
-              <div className="space-y-2">
-                <div className="hidden gap-2 text-[11px] font-semibold text-neutral-400 sm:flex">
-                  <span className="flex-1">Descrizione</span>
-                  <span className="w-16">Quantità</span>
-                  <span className="w-28">Prezzo €</span>
-                  {items.length > 1 && <span className="w-8" />}
-                </div>
-                {items.map((v, i) => (
-                  <div key={i} className="flex gap-2">
-                    <input
-                      value={v.descrizione}
-                      onChange={(e) => {
-                        const c = [...items];
-                        c[i] = { ...c[i], descrizione: e.target.value };
-                        setItems(c);
-                      }}
-                      placeholder="Descrizione"
-                      className={cx(campo, "flex-1")}
-                    />
-                    <input
-                      value={v.quantita}
-                      onChange={(e) => {
-                        const c = [...items];
-                        c[i] = { ...c[i], quantita: Number(e.target.value) || 1 };
-                        setItems(c);
-                      }}
-                      type="number"
-                      min={1}
-                      className={cx(campo, "w-16")}
-                      aria-label="Quantità"
-                    />
-                    <input
-                      value={v.prezzo || ""}
-                      onChange={(e) => {
-                        const c = [...items];
-                        c[i] = { ...c[i], prezzo: Number(e.target.value) || 0 };
-                        setItems(c);
-                      }}
-                      type="number"
-                      step="0.01"
-                      placeholder="0,00"
-                      className={cx(campo, "w-28")}
-                      aria-label="Prezzo"
-                    />
-                    {items.length > 1 && (
-                      <button
-                        onClick={() => setItems(items.filter((_, j) => j !== i))}
-                        className="w-8 text-neutral-400 hover:text-red-500"
-                        aria-label="Togli voce"
-                      >
-                        <X className="mx-auto h-4 w-4" />
-                      </button>
-                    )}
+            <Card title={<Passo n={2}>Voci e pagamento</Passo>}>
+              <div className="space-y-4">
+                <label className="block">
+                  <span className="crm-etichetta">Titolo del contratto</span>
+                  <input value={oggetto} onChange={(e) => setOggetto(e.target.value)} placeholder="es. Coaching Hochzeit 4 Monate" className={campo} />
+                </label>
+                <div className="space-y-2">
+                  <div className="hidden gap-2 text-[12px] font-[550] text-crm-tenue sm:flex">
+                    <span className="flex-1">Descrizione</span>
+                    <span className="w-16">Quantità</span>
+                    <span className="w-28">Prezzo €</span>
+                    {items.length > 1 && <span className="w-8" />}
                   </div>
-                ))}
-                <Btn size="sm" variant="outline" onClick={() => setItems([...items, { descrizione: "", prezzo: 0, quantita: 1 }])}>
-                  <Plus className="h-3 w-3" />
-                  Aggiungi voce
-                </Btn>
-              </div>
-              <div className="flex flex-wrap items-end gap-3">
-                <div className="flex border border-black/15">
-                  {(["una tantum", "mensile"] as const).map((v) => (
-                    <button
-                      key={v}
-                      onClick={() => setPeriodicita(v)}
-                      className={cx("px-3.5 py-2 text-[13px] font-semibold", periodicita === v ? "bg-neutral-900 text-white" : "bg-white text-neutral-600")}
-                    >
-                      {v === "mensile" ? "A rate mensili" : "Una volta"}
-                    </button>
+                  {items.map((v, i) => (
+                    <div key={i} className="flex flex-wrap gap-2 sm:flex-nowrap">
+                      <input
+                        value={v.descrizione}
+                        onChange={(e) => {
+                          const c = [...items];
+                          c[i] = { ...c[i], descrizione: e.target.value };
+                          setItems(c);
+                        }}
+                        placeholder="Descrizione"
+                        className={cx(campo, "sm:w-auto sm:min-w-0 sm:flex-1")}
+                      />
+                      <input
+                        value={v.quantita}
+                        onChange={(e) => {
+                          const c = [...items];
+                          c[i] = { ...c[i], quantita: Number(e.target.value) || 1 };
+                          setItems(c);
+                        }}
+                        type="number"
+                        min={1}
+                        className={cx(campo, "w-20 sm:w-16")}
+                        aria-label="Quantità"
+                      />
+                      <input
+                        value={v.prezzo || ""}
+                        onChange={(e) => {
+                          const c = [...items];
+                          c[i] = { ...c[i], prezzo: Number(e.target.value) || 0 };
+                          setItems(c);
+                        }}
+                        type="number"
+                        step="0.01"
+                        placeholder="0,00"
+                        className={cx(campo, "w-auto min-w-0 flex-1 sm:w-28 sm:flex-none")}
+                        aria-label="Prezzo"
+                      />
+                      {items.length > 1 && (
+                        <button
+                          type="button"
+                          onClick={() => setItems(items.filter((_, j) => j !== i))}
+                          className="crm-btn-piatto w-8 justify-center px-0 text-crm-spento hover:text-crm-rosso"
+                          aria-label="Togli voce"
+                        >
+                          <X className="h-4 w-4" />
+                        </button>
+                      )}
+                    </div>
                   ))}
+                  <button
+                    type="button"
+                    className="crm-btn"
+                    onClick={() => setItems([...items, { descrizione: "", prezzo: 0, quantita: 1 }])}
+                  >
+                    <Plus className="h-3.5 w-3.5" />
+                    Aggiungi voce
+                  </button>
                 </div>
-                {periodicita === "mensile" ? (
-                  <label className="block w-28">
-                    <span className="text-xs font-semibold text-neutral-600">Mesi</span>
-                    <input value={mesi} onChange={(e) => setMesi(Math.max(1, Number(e.target.value) || 1))} type="number" min={1} className={campo} />
-                  </label>
-                ) : (
-                  <label className="block w-36">
-                    <span className="text-xs font-semibold text-neutral-600">Alla firma paga %</span>
-                    <input value={accontoPerc} onChange={(e) => setAccontoPerc(Math.min(100, Math.max(0, Number(e.target.value) || 0)))} type="number" min={0} max={100} className={campo} />
-                  </label>
+                <div className="flex flex-wrap items-end gap-3">
+                  <div className="flex gap-1 pb-0.5">
+                    {(["una tantum", "mensile"] as const).map((v) => (
+                      <button
+                        key={v}
+                        type="button"
+                        onClick={() => setPeriodicita(v)}
+                        data-attiva={periodicita === v}
+                        aria-pressed={periodicita === v}
+                        className="crm-linguetta"
+                      >
+                        {v === "mensile" ? "A rate mensili" : "Una volta"}
+                      </button>
+                    ))}
+                  </div>
+                  {periodicita === "mensile" ? (
+                    <label className="block w-28">
+                      <span className="crm-etichetta">Mesi</span>
+                      <input value={mesi} onChange={(e) => setMesi(Math.max(1, Number(e.target.value) || 1))} type="number" min={1} className={campo} />
+                    </label>
+                  ) : (
+                    <label className="block w-36">
+                      <span className="crm-etichetta">Alla firma paga %</span>
+                      <input value={accontoPerc} onChange={(e) => setAccontoPerc(Math.min(100, Math.max(0, Number(e.target.value) || 0)))} type="number" min={0} max={100} className={campo} />
+                    </label>
+                  )}
+                </div>
+                {periodicita === "mensile" && (
+                  <p className="text-[12px] leading-4 text-crm-tenue">
+                    Scrivi il prezzo di un mese e come quantità il numero di mesi: ogni mese si addebita la stessa cifra.
+                  </p>
                 )}
               </div>
-              {periodicita === "mensile" && (
-                <p className="text-[11px] text-neutral-500">
-                  Scrivi il prezzo di un mese e come quantità il numero di mesi: ogni mese si addebita la stessa cifra.
-                </p>
-              )}
-            </div>
+            </Card>
           )}
 
           {/* 3. cliente */}
-          <div>
-            <h3 className="mb-3 text-sm font-bold text-neutral-900">
-              <span className="mr-2 inline-flex h-5 w-5 items-center justify-center bg-neutral-900 text-[11px] text-white">3</span>
-              Per chi
-            </h3>
+          <Card title={<Passo n={3}>Per chi</Passo>}>
             <div className="grid gap-3 sm:grid-cols-2">
               <label className="block sm:col-span-2">
-                <span className="text-xs font-semibold text-neutral-600">Nome e cognome</span>
+                <span className="crm-etichetta">Nome e cognome</span>
                 <input value={clienteNome} onChange={(e) => setClienteNome(e.target.value)} placeholder="Max Mustermann" className={campo} autoComplete="off" />
               </label>
               <label className="block">
-                <span className="text-xs font-semibold text-neutral-600">Email</span>
+                <span className="crm-etichetta">Email</span>
                 <input value={clienteEmail} onChange={(e) => setClienteEmail(e.target.value)} type="email" placeholder="per mandarlo per email" className={campo} autoComplete="off" />
               </label>
               <label className="block">
-                <span className="text-xs font-semibold text-neutral-600">Telefono</span>
+                <span className="crm-etichetta">Telefono</span>
                 <input value={clienteTelefono} onChange={(e) => setClienteTelefono(e.target.value)} type="tel" placeholder="per mandarlo su WhatsApp" className={campo} autoComplete="off" />
               </label>
             </div>
-            <div className="mt-3 flex flex-wrap items-center gap-3">
-              <span className="text-xs font-semibold text-neutral-600">Lingua del documento</span>
-              <div className="flex border border-black/15">
+            <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2">
+              <span className="text-[13px] text-crm-testo">Lingua del documento</span>
+              <div className="flex gap-1">
                 {(["de", "it"] as const).map((l) => (
                   <button
                     key={l}
+                    type="button"
                     onClick={() => setLingua(l)}
-                    className={cx("px-3 py-1.5 text-xs font-bold", lingua === l ? "bg-neutral-900 text-white" : "bg-white text-neutral-500")}
+                    data-attiva={lingua === l}
+                    aria-pressed={lingua === l}
+                    className="crm-linguetta"
                   >
                     {l === "de" ? "Deutsch" : "Italiano"}
                   </button>
                 ))}
               </div>
-              <button onClick={() => setConNota((v) => !v)} className="ml-auto text-xs font-semibold text-neutral-500 underline-offset-2 hover:text-neutral-900 hover:underline">
+              <button type="button" onClick={() => setConNota((v) => !v)} className="crm-btn-piatto ml-auto">
                 {conNota ? "Togli la nota" : "+ Nota personale per il cliente"}
               </button>
             </div>
@@ -926,21 +965,22 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
                 rows={3}
                 placeholder={lingua === "de" ? "Hallo Max, wie besprochen …" : "Ciao Max, come d'accordo …"}
                 className={cx(campo, "mt-3")}
+                aria-label="Nota personale per il cliente"
               />
             )}
-          </div>
+          </Card>
         </div>
 
         {/* riepilogo */}
         <aside className="lg:sticky lg:top-4 lg:self-start">
-          <div className="border border-black/10 bg-[#f7f7f8] p-5">
-            <p className="text-sm font-bold text-neutral-900">{doc.oggetto || "Contratto"}</p>
-            <p className="mt-0.5 text-[12px] text-neutral-500">{clienteNome.trim() || "Cliente da inserire"}</p>
+          <div className="crm-card p-4">
+            <p className="text-[13px] font-[650] leading-5 text-crm-ink">{doc.oggetto || "Contratto"}</p>
+            <p className="text-[13px] leading-5 text-crm-tenue">{clienteNome.trim() || "Cliente da inserire"}</p>
 
-            <dl className="mt-5 space-y-3 text-sm">
+            <dl className="mt-4 space-y-2.5 text-[13px]">
               <div className="flex items-baseline justify-between gap-3">
-                <dt className="text-neutral-600">Paga alla firma</dt>
-                <dd className="text-xl font-bold tabular-nums text-neutral-900">
+                <dt className="text-crm-testo">Paga alla firma</dt>
+                <dd className="text-right text-[20px] font-[650] leading-7 tracking-[-0.02em] tabular-nums text-crm-ink">
                   {pac.oreMese && !oreFisse
                     ? `${eur(ORE_MESE[0] * PREZZO_ORA)}–${eur(ORE_MESE[ORE_MESE.length - 1] * PREZZO_ORA)}`
                     : eur(oggi)}
@@ -948,63 +988,88 @@ function FormNuovo({ onFatto, iniziale }: { onFatto: () => void; iniziale?: Bozz
               </div>
               {mensile && doc.mesi > 1 && (
                 <div className="flex items-baseline justify-between gap-3">
-                  <dt className="text-neutral-600">Poi in automatico</dt>
-                  <dd className="text-right font-semibold tabular-nums text-neutral-900">
+                  <dt className="text-crm-testo">Poi in automatico</dt>
+                  <dd className="text-right font-[550] tabular-nums text-crm-ink">
                     {doc.mesi - 1} × {eur(rata)}
                   </dd>
                 </div>
               )}
               {mensile && doc.mesi <= 1 && (
                 <div className="flex items-baseline justify-between gap-3">
-                  <dt className="text-neutral-600">Poi in automatico</dt>
-                  <dd className="text-right font-semibold text-neutral-900">ogni mese</dd>
+                  <dt className="text-crm-testo">Poi in automatico</dt>
+                  <dd className="text-right font-[550] text-crm-ink">ogni mese</dd>
                 </div>
               )}
               {!mensile && doc.accontoPerc < 100 && (
                 <div className="flex items-baseline justify-between gap-3">
-                  <dt className="text-neutral-600">Saldo dopo</dt>
-                  <dd className="font-semibold tabular-nums text-neutral-900">{eur(totale - oggi)}</dd>
+                  <dt className="text-crm-testo">Saldo dopo</dt>
+                  <dd className="font-[550] tabular-nums text-crm-ink">{eur(totale - oggi)}</dd>
                 </div>
               )}
-              <div className="flex items-baseline justify-between gap-3 border-t border-black/10 pt-3">
-                <dt className="font-semibold text-neutral-900">Totale contratto</dt>
-                <dd className="font-bold tabular-nums text-neutral-900">
+              <div className="flex items-baseline justify-between gap-3 border-t border-crm-filo pt-2.5">
+                <dt className="font-[550] text-crm-ink">Totale contratto</dt>
+                <dd className="text-right font-[650] tabular-nums text-crm-ink">
                   {pac.oreMese && !oreFisse ? "secondo le ore scelte" : mensile && doc.mesi <= 1 ? `${eur(totale)}/mese` : eur(totale)}
                 </dd>
               </div>
               {pac.oreMese && bonusOre > 0 && (
                 <div className="flex items-baseline justify-between gap-3">
-                  <dt className="text-neutral-600">Ore gratis</dt>
-                  <dd className="text-right font-semibold text-neutral-900">
+                  <dt className="text-crm-testo">Ore gratis</dt>
+                  <dd className="text-right font-[550] text-crm-ink">
                     +{bonusOre} {bonusOgniMese ? "ogni mese" : "il primo mese"}
                   </dd>
                 </div>
               )}
             </dl>
 
-            <p className="mt-4 text-[11px] leading-relaxed text-neutral-500">
+            <p className="mt-4 text-[12px] leading-4 text-crm-tenue">
               Valido 14 giorni. Il contratto parte quando il cliente firma e il primo pagamento è arrivato.
             </p>
 
-            {errore && <p className="mt-3 text-sm text-red-500">{errore}</p>}
+            {errore && (
+              <p role="alert" className="mt-3 rounded-xl bg-crm-errore px-3 py-2 text-[13px] text-crm-errore-ink">
+                {errore}
+              </p>
+            )}
 
-            <div className="mt-5 space-y-2">
-              <Btn variant="brand" className="w-full py-3" onClick={() => crea(true)} disabled={invio || !pronto || !emailOk}>
+            <div className="mt-4 space-y-2">
+              <button
+                type="button"
+                className="crm-btn-primario h-9 w-full text-[13px]"
+                onClick={() => crea(true)}
+                disabled={invio || !pronto || !emailOk}
+              >
                 <Send className="h-3.5 w-3.5" />
                 {invio ? "Un attimo…" : "Crea e manda per email"}
-              </Btn>
-              <Btn variant="outline" className="w-full py-3" onClick={() => crea(false)} disabled={invio || !pronto}>
+              </button>
+              <button
+                type="button"
+                className="crm-btn h-9 w-full text-[13px]"
+                onClick={() => crea(false)}
+                disabled={invio || !pronto}
+              >
                 <Link2 className="h-3.5 w-3.5" />
                 Crea solo il link
-              </Btn>
+              </button>
               {!emailOk && pronto && (
-                <p className="text-center text-[11px] text-neutral-400">Senza email: crea il link e mandalo su WhatsApp.</p>
+                <p className="text-center text-[12px] leading-4 text-crm-tenue">Senza email: crea il link e mandalo su WhatsApp.</p>
               )}
             </div>
           </div>
         </aside>
       </div>
-    </Card>
+    </div>
   );
 }
 
+/** Il numero del passo accanto al titolo della card. */
+function Passo({ n, children }: { n: number; children: ReactNode }) {
+  return (
+    <span className="inline-flex items-center gap-2">
+      <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-crm-fondo-2 text-[11px] font-[650] tabular-nums text-crm-testo">
+        {n}
+      </span>
+      {children}
+    </span>
+  );
+}

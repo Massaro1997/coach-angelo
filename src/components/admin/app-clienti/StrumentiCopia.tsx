@@ -7,10 +7,9 @@
 
 import { useState } from "react";
 import { CalendarPlus, CopyPlus, Plus, Repeat, X } from "lucide-react";
-import { Btn } from "../ui";
 import type { DataISO } from "@/lib/app-coaching/tipi";
 import { aggiungiGiorni, dataValida, giornoSettimana } from "@/lib/app-coaching/date";
-import { api, BASE, CAMPO_PICCOLO, Conferma, Errore, dataCorta, testoErrore } from "./comune";
+import { api, Avviso, BASE, CAMPO_PICCOLO, Conferma, Errore, dataCorta, testoErrore } from "./comune";
 
 type Op = { da: DataISO; a: DataISO; verso: DataISO };
 type Esito = { testo: string; daRifare: Op[]; saltate: number };
@@ -98,19 +97,19 @@ export default function StrumentiCopia({
 
   return (
     <div className="space-y-4">
-      {avvisoSalva && <p className="border border-amber-500/40 bg-amber-50 px-3 py-2 text-[12px] text-amber-900">{avvisoSalva}</p>}
+      {avvisoSalva && <Avviso tono="attesa">{avvisoSalva}</Avviso>}
 
       {/* ---------------------------------------------- giorno su altre date */}
       <div>
-        <p className="flex items-center gap-1.5 text-[13px] font-semibold text-neutral-900">
-          <CopyPlus className="h-3.5 w-3.5 text-neutral-500" /> Copia questo giorno su…
+        <p className="flex items-center gap-1.5 text-[13px] font-[650] leading-5 text-crm-ink">
+          <CopyPlus className="h-3.5 w-3.5 text-crm-spento" /> Copia questo giorno su…
         </p>
         {!esisteGiorno ? (
-          <p className="mt-1 text-[12px] text-neutral-400">Il giorno è vuoto: scrivi il piano e salvalo, poi puoi copiarlo.</p>
+          <p className="mt-1 text-[12px] leading-4 text-crm-tenue">Il giorno è vuoto: scrivi il piano e salvalo, poi puoi copiarlo.</p>
         ) : (
           <>
             <div className="mt-2 flex flex-wrap items-center gap-2">
-              <div className="w-40">
+              <div className="w-44">
                 <input
                   type="date"
                   value={nuovaData}
@@ -119,23 +118,31 @@ export default function StrumentiCopia({
                   aria-label="Data su cui copiare"
                 />
               </div>
-              <Btn size="sm" variant="outline" onClick={() => aggiungi(nuovaData)} disabled={!dataValida(nuovaData) || nuovaData === data}>
-                <Plus className="h-3 w-3" /> Aggiungi
-              </Btn>
-              <Btn size="sm" variant="ghost" onClick={prossimaSettimana}>
-                <CalendarPlus className="h-3 w-3" /> + stesso giorno, settimana dopo
-              </Btn>
+              <button
+                type="button"
+                onClick={() => aggiungi(nuovaData)}
+                disabled={!dataValida(nuovaData) || nuovaData === data}
+                className="crm-btn max-sm:min-h-9"
+              >
+                <Plus className="h-3.5 w-3.5" /> Aggiungi
+              </button>
+              <button type="button" onClick={prossimaSettimana} className="crm-btn-piatto max-sm:min-h-9">
+                <CalendarPlus className="h-3.5 w-3.5" /> + stesso giorno, settimana dopo
+              </button>
             </div>
             {destinazioni.length > 0 && (
               <div className="mt-2 flex flex-wrap gap-1.5">
                 {destinazioni.map((d) => (
-                  <span key={d} className="inline-flex items-center gap-1 border border-black/10 bg-[#f4f4f5] py-0.5 pl-2 pr-0.5 text-[12px] capitalize text-neutral-800">
+                  <span
+                    key={d}
+                    className="inline-flex items-center gap-0.5 rounded-lg bg-black/[0.06] py-0.5 pl-2 pr-0.5 text-[12px] font-[550] capitalize leading-5 text-crm-testo"
+                  >
                     {dataCorta(d)}
                     <button
                       type="button"
                       onClick={() => setDestinazioni((x) => x.filter((y) => y !== d))}
                       aria-label={`Togli ${dataCorta(d)}`}
-                      className="inline-flex h-5 w-5 items-center justify-center text-neutral-400 hover:text-neutral-900"
+                      className="inline-flex h-5 w-5 items-center justify-center rounded-md text-crm-tenue hover:bg-black/[0.08] hover:text-crm-ink"
                     >
                       <X className="h-3 w-3" />
                     </button>
@@ -143,47 +150,45 @@ export default function StrumentiCopia({
                 ))}
               </div>
             )}
-            <Btn
-              size="sm"
-              variant="ink"
-              className="mt-2"
+            <button
+              type="button"
+              className="crm-btn mt-2 max-sm:min-h-9"
               disabled={!destinazioni.length || sporco || occupato}
               onClick={() => esegui(destinazioni.map((d) => ({ da: data, a: data, verso: d })), false)}
             >
               Copia su {destinazioni.length ? giorni(destinazioni.length) : "…"}
-            </Btn>
+            </button>
           </>
         )}
       </div>
 
       {/* ------------------------------------------- settimana alla prossima */}
-      <div className="border-t border-black/[0.07] pt-4">
-        <p className="flex items-center gap-1.5 text-[13px] font-semibold text-neutral-900">
-          <CopyPlus className="h-3.5 w-3.5 text-neutral-500" /> Copia la settimana alla prossima
+      <div className="border-t border-crm-filo pt-4">
+        <p className="flex items-center gap-1.5 text-[13px] font-[650] leading-5 text-crm-ink">
+          <CopyPlus className="h-3.5 w-3.5 text-crm-spento" /> Copia la settimana alla prossima
         </p>
-        <p className="mt-1 text-[12px] text-neutral-500">
-          Da <span className="font-semibold text-neutral-800">{dataCorta(lun)} – {dataCorta(dom)}</span> a{" "}
-          <span className="font-semibold text-neutral-800">
+        <p className="mt-1 text-[12px] leading-4 text-crm-tenue">
+          Da <span className="font-[550] text-crm-ink">{dataCorta(lun)} – {dataCorta(dom)}</span> a{" "}
+          <span className="font-[550] text-crm-ink">
             {dataCorta(aggiungiGiorni(lun, 7))} – {dataCorta(aggiungiGiorni(lun, 13))}
           </span>
         </p>
-        <Btn
-          size="sm"
-          variant="ink"
-          className="mt-2"
+        <button
+          type="button"
+          className="crm-btn mt-2 max-sm:min-h-9"
           disabled={sporco || occupato}
           onClick={() => esegui([{ da: lun, a: dom, verso: aggiungiGiorni(lun, 7) }], false)}
         >
           Copia la settimana
-        </Btn>
+        </button>
       </div>
 
       {/* --------------------------------------------- ripeti per N settimane */}
-      <div className="border-t border-black/[0.07] pt-4">
-        <p className="flex items-center gap-1.5 text-[13px] font-semibold text-neutral-900">
-          <Repeat className="h-3.5 w-3.5 text-neutral-500" /> Ripeti questa settimana
+      <div className="border-t border-crm-filo pt-4">
+        <p className="flex items-center gap-1.5 text-[13px] font-[650] leading-5 text-crm-ink">
+          <Repeat className="h-3.5 w-3.5 text-crm-spento" /> Ripeti questa settimana
         </p>
-        <div className="mt-2 flex flex-wrap items-center gap-2 text-[12px] text-neutral-600">
+        <div className="mt-2 flex flex-wrap items-center gap-2 text-[13px] text-crm-testo">
           <span>per</span>
           <div className="w-16">
             <input
@@ -199,10 +204,9 @@ export default function StrumentiCopia({
           </div>
           <span>settimane, fino a {dataCorta(aggiungiGiorni(lun, 7 * nSett + 6))}</span>
         </div>
-        <Btn
-          size="sm"
-          variant="ink"
-          className="mt-2"
+        <button
+          type="button"
+          className="crm-btn mt-2 max-sm:min-h-9"
           disabled={sporco || occupato}
           onClick={() =>
             esegui(
@@ -212,11 +216,11 @@ export default function StrumentiCopia({
           }
         >
           Ripeti per {nSett} {nSett === 1 ? "settimana" : "settimane"}
-        </Btn>
+        </button>
       </div>
 
       {/* --------------------------------------------------------- esito */}
-      {lavoro && <p className="text-[12px] font-semibold text-neutral-600">{lavoro}</p>}
+      {lavoro && <p className="text-[12px] font-[550] text-crm-tenue">{lavoro}</p>}
       {errore && <Errore testo={errore} />}
       {esito &&
         (esito.saltate > 0 ? (
@@ -236,7 +240,7 @@ export default function StrumentiCopia({
             onAnnulla={() => setEsito({ ...esito, saltate: 0, daRifare: [] })}
           />
         ) : (
-          <p className="border border-green-600/30 bg-green-50 px-3 py-2 text-[12px] text-green-800">{esito.testo}</p>
+          <Avviso>{esito.testo}</Avviso>
         ))}
     </div>
   );

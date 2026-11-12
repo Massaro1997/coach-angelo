@@ -476,3 +476,313 @@ a:hover > .fp-tondo {
 .fp-arco {
   clip-path: ellipse(88% 50% at 50% 50%);
 }
+
+/* =====================================================================
+   Gestionale (/admin) nella grafica dei CRM DirezioneX (12/11/2026),
+   la stessa di Linea Erre e del gestionale DirezioneX: admin di Shopify
+   (Polaris). Nero #0a0a0a attorno, pannello bianco staccato 4px con
+   angoli 16px, card 20px con ombra morbida e niente bordo, campi 12px con
+   anello 1px, tasto principale nero lucido a pillola, badge Polaris,
+   Inter 13px. Niente rosso FitPrimo dentro il gestionale: il marchio sta
+   nel logo. Token col prefisso crm- per non pestare quelli del sito
+   (ink, line, gold...).
+   ===================================================================== */
+@theme {
+  --color-crm-ink: #101010;
+  --color-crm-testo: #303030;
+  --color-crm-tenue: #616161;
+  --color-crm-spento: #8a8a8a;
+  --color-crm-bordo: #e3e3e3;
+  --color-crm-filo: #ebebeb;
+  --color-crm-fondo: #f7f7f7;
+  --color-crm-fondo-2: #f1f1f1;
+  --color-crm-blu: #005bd3;
+  --color-crm-rosso: #c70a24;
+  --color-crm-verde: #29845a;
+
+  /* i badge di Polaris */
+  --color-crm-ok: #b3f782;
+  --color-crm-ok-ink: #0f2400;
+  --color-crm-attesa: #ffe45c;
+  --color-crm-attesa-ink: #312500;
+  --color-crm-avviso: #ffbf80;
+  --color-crm-avviso-ink: #381600;
+  --color-crm-errore: #ffd0cc;
+  --color-crm-errore-ink: #360200;
+  --color-crm-info: #8ce1f8;
+  --color-crm-info-ink: #002c38;
+
+  --shadow-crm-card: 0 0 2px 0 rgba(0, 0, 0, 0.24), 0 2px 12px 0 rgba(0, 0, 0, 0.02),
+    0 4px 16px 0 rgba(0, 0, 0, 0.02), 0 4px 48px 0 rgba(0, 0, 0, 0.02);
+  --shadow-crm-campo: 0 2px 3px -1px rgba(0, 0, 0, 0.04), 0 3px 4px -1.5px rgba(0, 0, 0, 0.04),
+    0 0 0 1px rgba(0, 0, 0, 0.13);
+  --shadow-crm-pop: 0 8px 24px -8px rgba(0, 0, 0, 0.28), 0 8px 16px -4px rgba(0, 0, 0, 0.05),
+    0 3px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.06);
+  --shadow-crm-anello: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 1px 0 0 rgba(0, 0, 0, 0.05);
+}
+
+/* la radice del gestionale: la mettono Shell e la schermata di login */
+.crm-admin {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #101010;
+  background: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+}
+.crm-admin ::selection {
+  background: #c9e1ff;
+}
+
+@layer components {
+  /* card: bianca, angoli 20px, ombra morbida, niente bordo */
+  .crm-card {
+    overflow: hidden;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: var(--shadow-crm-card);
+  }
+
+  /* tasti: base comune */
+  .crm-btn,
+  .crm-btn-primario,
+  .crm-btn-critico {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 28px;
+    border-radius: 10px;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 550;
+    line-height: 16px;
+    white-space: nowrap;
+    transition: background-color 0.12s;
+  }
+  .crm-btn:disabled,
+  .crm-btn-primario:disabled,
+  .crm-btn-critico:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  /* il tasto principale di Shopify: nero, lucido */
+  .crm-btn-primario {
+    background-color: #101010;
+    background-image: radial-gradient(50% 50% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 1px 0.5px -0.5px rgba(0, 0, 0, 0.13), 0 1px 2px -0.5px rgba(0, 0, 0, 0.13),
+      0 4px 6px -2px rgba(0, 0, 0, 0.13), 0 2px 3px -1.5px rgba(0, 0, 0, 0.13),
+      inset 0 0 4px 1px #101010, inset 0 0 4px 2px rgba(255, 255, 255, 0.1),
+      inset 0 0 12px -6px rgba(255, 255, 255, 0.75);
+    color: #fff;
+  }
+  .crm-btn-primario:hover:not(:disabled) {
+    background-color: #2a2a2a;
+  }
+  /* secondario: bianco con anello, come "Esporta" di Shopify */
+  .crm-btn {
+    background: #fff;
+    color: #303030;
+    box-shadow: 0 -1px 0 0 #b5b5b5 inset, 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 0.5px 0 1.5px #fff inset;
+  }
+  .crm-btn:hover:not(:disabled) {
+    background: #f7f7f7;
+  }
+  /* azioni distruttive (elimina) */
+  .crm-btn-critico {
+    background: #c70a24;
+    color: #fff;
+    box-shadow: 0 -1px 0 1px rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.25) inset;
+  }
+  .crm-btn-critico:hover:not(:disabled) {
+    background: #a30a1f;
+  }
+  /* tasto solo testo/icona */
+  .crm-btn-piatto {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 550;
+    color: #303030;
+  }
+  .crm-btn-piatto:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  /* i campi: bianchi, angoli 12px, anello 1px, fuoco blu */
+  .crm-campo {
+    width: 100%;
+    min-height: 30px;
+    border-radius: 12px;
+    background: #fff;
+    padding: 5px 12px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #101010;
+    box-shadow: var(--shadow-crm-campo);
+    outline: none;
+  }
+  .crm-campo::placeholder {
+    color: #8a8a8a;
+  }
+  .crm-campo:focus-visible {
+    outline: 2px solid #005bd3;
+    outline-offset: 1px;
+  }
+  .crm-campo:disabled {
+    background: #f7f7f7;
+    color: #8a8a8a;
+  }
+  textarea.crm-campo {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  select.crm-campo {
+    appearance: none;
+    padding-right: 32px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%234a4a4a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m7 15 5 5 5-5'/%3E%3Cpath d='m7 9 5-5 5 5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+  /* sul telefono 16px, se no Safari su iPhone ingrandisce la pagina */
+  @media (max-width: 640px) {
+    .crm-campo {
+      font-size: 16px;
+    }
+  }
+  .crm-etichetta {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-weight: 450;
+    color: #303030;
+  }
+
+  /* badge di Polaris: pillola piccola, colori pieni chiari */
+  .crm-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 550;
+    line-height: 16px;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, 0.06);
+    color: #303030;
+  }
+  .crm-badge-ok { background: #b3f782; color: #0f2400; }
+  .crm-badge-attesa { background: #ffe45c; color: #312500; }
+  .crm-badge-avviso { background: #ffbf80; color: #381600; }
+  .crm-badge-errore { background: #ffd0cc; color: #360200; }
+  .crm-badge-info { background: #8ce1f8; color: #002c38; }
+  .crm-badge-scuro { background: #303030; color: #fff; }
+
+  /* l'elenco di Shopify: testata grigia arrotondata, righe con filo chiaro */
+  .crm-tabella {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 13px;
+  }
+  .crm-tabella th {
+    background: #f7f7f7;
+    color: #4a4a4a;
+    font-size: 12px;
+    font-weight: 550;
+    text-align: left;
+    padding: 6px 12px;
+    white-space: nowrap;
+  }
+  .crm-tabella th:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  .crm-tabella th:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .crm-tabella td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ebebeb;
+    vertical-align: middle;
+  }
+  .crm-tabella tbody tr:last-child td {
+    border-bottom: 0;
+  }
+  .crm-tabella tbody tr:hover td {
+    background: #f7f7f7;
+  }
+  .crm-tabella .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* linguette/filtri a pillola (Tutti, Attivi...) */
+  .crm-linguetta {
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-weight: 550;
+    color: #616161;
+  }
+  .crm-linguetta:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #303030;
+  }
+  .crm-linguetta[aria-selected="true"],
+  .crm-linguetta[data-attiva="true"] {
+    background: rgba(0, 0, 0, 0.08);
+    color: #101010;
+  }
+
+  /* scorrimento sottile; nel menu nero la barra compare solo passandoci sopra */
+  .crm-pannello {
+    scrollbar-width: thin;
+    scrollbar-color: #cccccc transparent;
+  }
+  .crm-menu-nero {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  .crm-menu-nero:hover {
+    scrollbar-color: #3a3a3a transparent;
+  }
+}
+
+.crm-admin input[type="checkbox"],
+.crm-admin input[type="radio"] {
+  accent-color: #303030;
+}
+
+/* Rete di sicurezza per le viste scritte a mano: dentro il gestionale il
+   rosso del marchio (bg-gold, text-gold) diventa il nero di Polaris. */
+.crm-admin .bg-gold { background-color: #303030; }
+.crm-admin .text-gold { color: #303030; }
+.crm-admin .border-gold { border-color: #303030; }
+/* .bg-gold del sito ha anche un gradiente rosso come immagine di fondo:
+   senza toglierlo il colore qui sopra resterebbe coperto */
+.crm-admin .bg-gold { background-image: none; }
+
+/* Cornice (Shell e login). Il :focus-visible del sito (riga ~138) non sta in
+   nessun layer, quindi vince sulle utility: nel gestionale il suo anello
+   rosso diventa blu Polaris; nella colonna nera, bianco tenue e interno. */
+.crm-admin :focus-visible { outline-color: #005bd3; }
+.crm-admin .crm-campo:focus-visible { outline-offset: 1px; }
+.crm-colonna :focus-visible {
+  outline-color: rgba(255, 255, 255, 0.45);
+  outline-offset: -2px;
+}
+
+/* Le barre di scorrimento -webkit- del sito hanno il binario scuro e il
+   pollice rosso: su Safari si vedrebbero sul pannello bianco */
+.crm-admin ::-webkit-scrollbar-track { background: transparent; }
+.crm-admin ::-webkit-scrollbar-thumb { background: #cccccc; }
+.crm-admin .crm-menu-nero::-webkit-scrollbar-thumb { background: #3a3a3a; }
+/* il campo della tavolozza Ctrl K non ha anello: e' gia' tutta la finestra */
+.crm-tavolozza input:focus-visible { outline: none; }

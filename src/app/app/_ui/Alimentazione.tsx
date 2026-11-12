@@ -1,14 +1,22 @@
 "use client";
 
-// Ernaehrung del giorno: obiettivi (kcal, macro, acqua) come righe di una
-// tabella, che reggono anche "Kohlenhydrate" sul telefono piu' stretto, poi i
-// pasti con orario e le voci con la quantita'.
+// Ernaehrung del giorno, dentro la sua linguetta: obiettivi (kcal, macro,
+// acqua) come righe di una tabella, che reggono anche "Kohlenhydrate" sul
+// telefono piu' stretto, poi i pasti con orario e le voci con la quantita'.
+// Lo scorrimento lo fa il pannello che lo contiene.
 
 import { Clock, Utensils } from "lucide-react";
 import type { Alimentazione } from "@/lib/app-coaching/tipi";
 import { CARTA, useTesti } from "./comuni";
 
-export default function SezioneAlimentazione({ alimentazione }: { alimentazione: Alimentazione }) {
+export default function SezioneAlimentazione({
+  alimentazione,
+  titoloVisibile = false,
+}: {
+  alimentazione: Alimentazione;
+  /** senza linguette sopra serve il titolo "Ernährung" */
+  titoloVisibile?: boolean;
+}) {
   const t = useTesti();
   const n = (v: number) => v.toLocaleString(t.locale);
 
@@ -23,29 +31,32 @@ export default function SezioneAlimentazione({ alimentazione }: { alimentazione:
   const pasti = alimentazione.pasti ?? [];
 
   return (
-    <section className="mt-8" aria-labelledby="sezione-alimentazione">
-      <h2 id="sezione-alimentazione" className="flex items-center gap-2 text-2xl font-bold">
-        <Utensils className="size-6 text-emerald-600" aria-hidden />
+    <section aria-labelledby="sezione-alimentazione" className="space-y-3">
+      <h2
+        id="sezione-alimentazione"
+        className={titoloVisibile ? "flex items-center gap-2 text-xl font-bold" : "sr-only"}
+      >
+        <Utensils className="size-5 text-emerald-600" aria-hidden />
         {t.alimentazione}
       </h2>
 
       {obiettivi.length > 0 && (
-        <dl className={`${CARTA} mt-3 divide-y divide-black/[0.06]`}>
+        <dl className={`${CARTA} divide-y divide-black/[0.06]`}>
           {obiettivi.map((o) => (
-            <div key={o.etichetta} className="flex items-baseline justify-between gap-4 px-4 py-3">
+            <div key={o.etichetta} className="flex items-baseline justify-between gap-4 px-4 py-2.5">
               <dt className="text-neutral-600">{o.etichetta}</dt>
-              <dd className="text-xl font-bold tabular-nums">{o.valore}</dd>
+              <dd className="text-lg font-bold tabular-nums">{o.valore}</dd>
             </div>
           ))}
         </dl>
       )}
 
       {alimentazione.note?.trim() && (
-        <p className="mt-3 whitespace-pre-line text-neutral-700">{alimentazione.note}</p>
+        <p className="whitespace-pre-line text-neutral-700">{alimentazione.note}</p>
       )}
 
       {pasti.length > 0 && (
-        <ol className="mt-4 space-y-3">
+        <ol className="space-y-2.5">
           {pasti.map((p, i) => (
             <li key={p.id || i} className={`${CARTA} p-4`}>
               <div className="flex items-baseline justify-between gap-3">

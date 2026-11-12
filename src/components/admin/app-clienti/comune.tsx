@@ -7,7 +7,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { TriangleAlert } from "lucide-react";
-import { Btn, cx } from "../ui";
+import { cx } from "../ui";
 import type { ClienteApp, DataISO } from "@/lib/app-coaching/tipi";
 import { MARCHIO } from "@/lib/app-coaching/marchio";
 
@@ -43,13 +43,12 @@ export const testoErrore = (e: unknown) => (e instanceof Error ? e.message : "Qu
 
 /* -------------------------------------------------------------- campi */
 
-// text-base sul telefono: sotto i 16px Safari su iPhone ingrandisce la pagina
-// a ogni tocco su un campo.
-export const CAMPO =
-  "w-full border border-black/15 bg-white px-2.5 py-2 text-base text-neutral-900 outline-none placeholder:text-neutral-400 focus:border-neutral-900 disabled:bg-neutral-50 disabled:text-neutral-500 sm:text-sm";
+// I campi della grafica Polaris (.crm-campo in globals.css): sul telefono il
+// testo e' gia' a 16px, se no Safari su iPhone ingrandisce la pagina a ogni
+// tocco su un campo.
+export const CAMPO = "crm-campo";
 
-export const CAMPO_PICCOLO =
-  "w-full border border-black/15 bg-white px-2 py-1.5 text-base text-neutral-900 outline-none placeholder:text-neutral-300 focus:border-neutral-900 disabled:bg-neutral-50 sm:text-[13px]";
+export const CAMPO_PICCOLO = "crm-campo px-2.5";
 
 export function Campo({
   etichetta,
@@ -64,14 +63,14 @@ export function Campo({
 }) {
   return (
     <label className={cx("block min-w-0", className)}>
-      <span className="mb-1 block text-[11px] font-semibold text-neutral-500">{etichetta}</span>
+      <span className="crm-etichetta">{etichetta}</span>
       {children}
-      {nota && <span className="mt-1 block text-[11px] leading-snug text-neutral-400">{nota}</span>}
+      {nota && <span className="mt-1 block text-[12px] leading-4 text-crm-tenue">{nota}</span>}
     </label>
   );
 }
 
-/** Bottoncino quadrato con sola icona (sposta, togli...). */
+/** Bottoncino tondo con sola icona (sposta, togli...). */
 export function BtnIcona({
   titolo,
   onClick,
@@ -93,8 +92,8 @@ export function BtnIcona({
       onClick={onClick}
       disabled={disabled}
       className={cx(
-        "inline-flex h-8 w-8 shrink-0 items-center justify-center text-neutral-500 transition-colors disabled:opacity-30",
-        pericolo ? "hover:bg-red-50 hover:text-red-600" : "hover:bg-black/5 hover:text-neutral-900"
+        "inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-crm-tenue transition-colors disabled:pointer-events-none disabled:opacity-30",
+        pericolo ? "hover:bg-[#fff1f1] hover:text-crm-rosso" : "hover:bg-black/[0.05] hover:text-crm-ink"
       )}
     >
       {children}
@@ -102,17 +101,46 @@ export function BtnIcona({
   );
 }
 
+/** Riquadro rosso di Polaris (Banner critical). */
 export function Errore({ testo, onRiprova }: { testo: string; onRiprova?: () => void }) {
   return (
-    <div className="flex items-start gap-2 border border-red-500/30 bg-red-50 p-3 text-sm text-red-700" role="alert">
-      <TriangleAlert className="mt-0.5 h-4 w-4 shrink-0" />
+    <div
+      className="flex items-start gap-2 rounded-xl bg-[#fff1f1] px-3 py-2.5 text-[13px] leading-5 text-[#8e0b21] shadow-[inset_0_0_0_1px_rgba(199,10,36,0.14)]"
+      role="alert"
+    >
+      <TriangleAlert className="mt-0.5 h-4 w-4 shrink-0 text-crm-rosso" />
       <p className="min-w-0 flex-1 whitespace-pre-line">{testo}</p>
       {onRiprova && (
-        <button type="button" onClick={onRiprova} className="shrink-0 text-[12px] font-semibold underline underline-offset-2">
+        <button type="button" onClick={onRiprova} className="crm-btn shrink-0">
           Riprova
         </button>
       )}
     </div>
+  );
+}
+
+/** Avviso verde di Polaris (Banner success): "fatto", "creato"... */
+export function Avviso({
+  children,
+  tono = "ok",
+  className,
+}: {
+  children: ReactNode;
+  tono?: "ok" | "attesa";
+  className?: string;
+}) {
+  return (
+    <p
+      className={cx(
+        "rounded-xl px-3 py-2 text-[13px] leading-5",
+        tono === "ok"
+          ? "bg-[#eafbdc] text-crm-ok-ink shadow-[inset_0_0_0_1px_rgba(41,132,90,0.16)]"
+          : "bg-[#fff7d1] text-crm-attesa-ink shadow-[inset_0_0_0_1px_rgba(178,132,0,0.2)]",
+        className
+      )}
+    >
+      {children}
+    </p>
   );
 }
 
@@ -141,28 +169,27 @@ export function Conferma({
   return (
     <div
       className={cx(
-        "border p-3 text-sm",
-        pericolo ? "border-red-500/40 bg-red-50 text-red-900" : "border-amber-500/40 bg-amber-50 text-amber-950"
+        "rounded-xl p-3 text-[13px] leading-5",
+        pericolo
+          ? "bg-[#fff1f1] text-[#5e0010] shadow-[inset_0_0_0_1px_rgba(199,10,36,0.16)]"
+          : "bg-[#fff7d1] text-crm-attesa-ink shadow-[inset_0_0_0_1px_rgba(178,132,0,0.22)]"
       )}
       role="alertdialog"
     >
-      <div className="leading-snug">{testo}</div>
+      <div>{testo}</div>
       {children && <div className="mt-2">{children}</div>}
       <div className="mt-3 flex flex-wrap gap-2">
         <button
           type="button"
           onClick={onConferma}
           disabled={occupato || bloccato}
-          className={cx(
-            "px-3 py-1.5 text-[12px] font-semibold text-white transition-opacity disabled:opacity-40",
-            pericolo ? "bg-red-600 hover:bg-red-700" : "bg-neutral-900 hover:bg-neutral-800"
-          )}
+          className={cx(pericolo ? "crm-btn-critico" : "crm-btn-primario", "max-sm:min-h-9")}
         >
           {occupato ? "Un attimo…" : conferma}
         </button>
-        <Btn size="sm" variant="outline" onClick={onAnnulla} disabled={occupato}>
+        <button type="button" onClick={onAnnulla} disabled={occupato} className="crm-btn max-sm:min-h-9">
           {annulla}
-        </Btn>
+        </button>
       </div>
     </div>
   );

@@ -1,23 +1,22 @@
 "use client";
 
 import { ExternalLink, PlugZap } from "lucide-react";
-import { Btn } from "../ui";
 import type { ErroreSeo } from "./tipi";
 
 /* ------------------------------------------------------------ caricamento */
 
 const Blocco = ({ className }: { className: string }) => (
-  <div className={`animate-pulse bg-black/[0.06] ${className}`} />
+  <div className={`animate-pulse rounded-lg bg-black/[0.06] ${className}`} />
 );
 
 /** Stessa forma della pagina vera, cosi' quando arrivano i dati niente salta. */
 export function Caricamento() {
   return (
-    <div className="space-y-4 sm:space-y-5" aria-busy="true" aria-label="Carico i dati di Google">
+    <div className="space-y-4" aria-busy="true" aria-label="Carico i dati di Google">
       <Blocco className="h-6 w-full max-w-xl" />
-      <div className="grid grid-cols-1 gap-px border border-black/10 bg-black/10 min-[420px]:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2 sm:gap-4 lg:grid-cols-4">
         {[0, 1, 2, 3].map((i) => (
-          <div key={i} className="space-y-3 bg-white p-4 sm:p-5">
+          <div key={i} className="crm-card space-y-3 p-4">
             <Blocco className="h-3.5 w-28" />
             <Blocco className="h-9 w-24" />
             <Blocco className="h-3 w-32" />
@@ -25,34 +24,34 @@ export function Caricamento() {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 gap-4 sm:gap-5 2xl:grid-cols-12">
-        <div className="border border-black/10 bg-white p-5 2xl:col-span-7">
+      <div className="grid grid-cols-1 gap-4 2xl:grid-cols-12">
+        <div className="crm-card p-4 2xl:col-span-7">
           <Blocco className="h-4 w-48" />
           <div className="mt-6 flex h-44 items-end gap-1 sm:h-56">
             {Array.from({ length: 28 }, (_, i) => (
               <div
                 key={i}
-                className="flex-1 animate-pulse bg-black/[0.06]"
+                className="flex-1 animate-pulse rounded-t-[3px] bg-black/[0.06]"
                 style={{ height: `${25 + ((i * 37) % 60)}%` }}
               />
             ))}
           </div>
         </div>
-        <div className="space-y-3 border border-black/10 bg-white p-5 2xl:col-span-5">
+        <div className="crm-card space-y-3 p-4 2xl:col-span-5">
           <Blocco className="h-4 w-28" />
           {[0, 1, 2, 3].map((i) => (
             <Blocco key={i} className="h-12 w-full" />
           ))}
         </div>
       </div>
-      <p className="text-[12px] text-neutral-400">Chiedo i numeri a Google Search Console…</p>
+      <p className="text-[12px] text-crm-spento">Chiedo i numeri a Google Search Console…</p>
     </div>
   );
 }
 
 /* ------------------------------------------------------------ errore */
 
-const CODICE = "rounded-none bg-black/[0.06] px-1 py-0.5 font-mono text-[12px] text-neutral-800";
+const CODICE = "rounded-md bg-crm-fondo-2 px-1 py-0.5 font-mono text-[12px] text-crm-ink";
 
 function testi(e: ErroreSeo): { titolo: string; corpo: React.ReactNode; passi?: React.ReactNode[] } {
   switch (e.tipo) {
@@ -141,24 +140,25 @@ export function Errore({
 }) {
   const t = testi(errore);
   return (
-    <section className="relative border border-black/10 bg-white">
-      <span className="absolute inset-y-0 left-0 w-1 bg-amber-500" />
-      <div className="max-w-3xl p-5 sm:p-7">
-        <PlugZap className="h-7 w-7 text-amber-500" />
-        <h2 className="mt-3 text-lg font-bold tracking-tight text-neutral-900 sm:text-xl">{t.titolo}</h2>
-        <p className="mt-2 text-[14px] leading-relaxed text-neutral-600 [&_b]:font-semibold [&_b]:text-neutral-900">
+    <section className="crm-card">
+      <div className="max-w-3xl p-4 sm:p-5">
+        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-crm-attesa text-crm-attesa-ink">
+          <PlugZap className="h-5 w-5" />
+        </span>
+        <h2 className="mt-3 text-[15px] font-[650] leading-6 tracking-[-0.01em] text-crm-ink sm:text-[17px]">{t.titolo}</h2>
+        <p className="mt-1 text-[13px] leading-5 text-crm-testo [&_b]:font-[650] [&_b]:text-crm-ink">
           {t.corpo}
         </p>
 
         {t.passi && (
           <>
-            <p className="mt-5 text-[13px] font-semibold text-neutral-900">
+            <p className="mt-5 text-[13px] font-[650] text-crm-ink">
               Per rimetterlo a posto (lo fa chi gestisce il sito, dieci minuti):
             </p>
             <ol className="mt-2 space-y-2">
               {t.passi.map((p, i) => (
-                <li key={i} className="flex gap-3 text-[13px] leading-relaxed text-neutral-600">
-                  <span className="flex h-5 w-5 shrink-0 items-center justify-center bg-neutral-900 text-[11px] font-bold text-white">
+                <li key={i} className="flex gap-3 text-[13px] leading-5 text-crm-testo">
+                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-crm-fondo-2 text-[11px] font-[650] tabular-nums text-crm-testo">
                     {i + 1}
                   </span>
                   <span className="min-w-0">{p}</span>
@@ -170,20 +170,20 @@ export function Errore({
 
         <div className="mt-6 flex flex-wrap items-center gap-2">
           {errore.tipo === "sessione" ? (
-            <Btn variant="ink" onClick={() => window.location.reload()}>
+            <button type="button" className="crm-btn-primario" onClick={() => window.location.reload()}>
               Ricarica la pagina
-            </Btn>
+            </button>
           ) : (
-            <Btn variant="ink" onClick={riprova} disabled={riprovo}>
+            <button type="button" className="crm-btn-primario" onClick={riprova} disabled={riprovo}>
               {riprovo ? "Riprovo…" : "Riprova"}
-            </Btn>
+            </button>
           )}
           {proprieta && errore.tipo !== "sessione" && (
             <a
               href={`https://search.google.com/search-console?resource_id=${encodeURIComponent(proprieta)}`}
               target="_blank"
               rel="noopener"
-              className="inline-flex items-center gap-1.5 border border-black/15 bg-white px-4 py-2 text-[13px] font-semibold text-neutral-700 transition-all hover:border-black/30"
+              className="crm-btn"
             >
               Guarda i numeri direttamente su Search Console <ExternalLink className="h-3.5 w-3.5" />
             </a>
@@ -191,7 +191,7 @@ export function Errore({
         </div>
 
         {errore.dettaglio && errore.tipo !== "sessione" && (
-          <p className="mt-5 text-[11px] text-neutral-400">
+          <p className="mt-5 break-words text-[12px] leading-4 text-crm-spento">
             Risposta tecnica di Google: <span className="font-mono">{errore.dettaglio}</span>
           </p>
         )}

@@ -50,16 +50,16 @@ function Testata({ dati, aggiorna, aggiorno }: { dati: DatiSeo; aggiorna: () => 
   }
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-      <p className="max-w-3xl text-base leading-snug text-neutral-700 sm:text-lg [&_b]:font-bold [&_b]:text-neutral-900">
+      <p className="max-w-3xl text-[15px] leading-6 tracking-[-0.01em] text-crm-testo sm:text-[17px] sm:leading-7 [&_b]:font-[650] [&_b]:text-crm-ink">
         {frase}
       </p>
-      <div className="flex shrink-0 items-center gap-3 text-[11px] text-neutral-400">
+      <div className="flex shrink-0 items-center gap-3 text-[12px] text-crm-spento">
         <span className="hidden md:inline">Google dà i dati con 3 giorni di ritardo</span>
         <button
           type="button"
           onClick={aggiorna}
           disabled={aggiorno}
-          className="border border-black/15 bg-white px-2.5 py-1.5 font-semibold text-neutral-700 transition-colors hover:border-black/30 disabled:opacity-50"
+          className="crm-btn"
         >
           {aggiorno ? "Aggiorno…" : "Aggiorna"}
         </button>
@@ -78,7 +78,7 @@ function Freccia({ verso, bene }: { verso: Verso; bene: boolean }) {
     <Icona
       className={cx(
         "h-4 w-4 shrink-0",
-        verso === "pari" ? "text-neutral-400" : bene ? "text-green-600" : "text-red-500"
+        verso === "pari" ? "text-crm-spento" : bene ? "text-crm-verde" : "text-crm-rosso"
       )}
       strokeWidth={2.5}
     />
@@ -97,17 +97,17 @@ function Confronto({
   prima: string;
 }) {
   return (
-    <p className="mt-2 flex flex-wrap items-center gap-x-1.5 text-[12px] sm:text-[13px]">
+    <p className="mt-1.5 flex flex-wrap items-center gap-x-1.5 text-[12px] sm:text-[13px]">
       <Freccia verso={verso} bene={bene} />
       <span
         className={cx(
-          "font-bold",
-          verso === "pari" ? "text-neutral-500" : bene ? "text-green-700" : "text-red-600"
+          "font-[650]",
+          verso === "pari" ? "text-crm-tenue" : bene ? "text-crm-verde" : "text-crm-rosso"
         )}
       >
         {testo}
       </span>
-      <span className="text-neutral-400">{prima}</span>
+      <span className="text-crm-spento">{prima}</span>
     </p>
   );
 }
@@ -157,23 +157,20 @@ function Numero({
   valore,
   confronto,
   spiega,
-  primo,
 }: {
   titolo: string;
   valore: string;
   confronto: ReturnType<typeof confrontoConteggio>;
   spiega: string;
-  primo?: boolean;
 }) {
   return (
-    <div className="relative bg-white p-4 sm:p-5 2xl:p-6">
-      {primo && <span className="absolute inset-y-0 left-0 w-1 bg-gold" />}
-      <h3 className="text-[13px] font-semibold text-neutral-600">{titolo}</h3>
-      <p className="mt-2 text-3xl font-bold leading-none tracking-tight text-neutral-900 tabular-nums sm:text-4xl 2xl:text-5xl">
+    <div className="crm-card p-4">
+      <h3 className="text-[13px] font-[550] leading-5 text-crm-testo">{titolo}</h3>
+      <p className="mt-1 text-[24px] font-[650] leading-8 tracking-[-0.02em] text-crm-ink tabular-nums sm:text-[28px] sm:leading-9">
         {valore}
       </p>
       <Confronto {...confronto} />
-      <p className="mt-3 text-[12px] leading-snug text-neutral-500">{spiega}</p>
+      <p className="mt-2 text-[12px] leading-4 text-crm-tenue">{spiega}</p>
     </div>
   );
 }
@@ -183,10 +180,9 @@ function Numeri({ dati }: { dati: DatiSeo }) {
   return (
     <section
       aria-label="Ultimi 28 giorni rispetto ai 28 prima"
-      className="grid grid-cols-1 gap-px border border-black/10 bg-black/10 min-[420px]:grid-cols-2 lg:grid-cols-4"
+      className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2 sm:gap-4 lg:grid-cols-4"
     >
       <Numero
-        primo
         titolo="Click da Google"
         valore={num(ora.clic)}
         confronto={confrontoConteggio(ora.clic, prima.clic)}
@@ -217,21 +213,24 @@ function Numeri({ dati }: { dati: DatiSeo }) {
 /* ============================================================ ricerche */
 
 function DeltaClic({ ora, prima }: { ora: number; prima: number | null }) {
-  if (prima === null) return <span className="text-[10px] font-semibold text-blue-600">nuova</span>;
+  if (prima === null) return <span className="text-[11px] font-[550] text-crm-blu">nuova</span>;
   const d = ora - prima;
   if (d === 0) return null;
   return (
-    <span className={cx("text-[10px] font-semibold tabular-nums", d > 0 ? "text-green-600" : "text-red-500")}>
+    <span className={cx("text-[11px] font-[550] tabular-nums", d > 0 ? "text-crm-verde" : "text-crm-rosso")}>
       {d > 0 ? "+" : "−"}
       {Math.abs(d)}
     </span>
   );
 }
 
+// l'arancio di Polaris per il testo: oltre la prima pagina
+const ARANCIO = "text-[#b54d00]";
+
 function tonoPosizione(p: number) {
-  if (p <= 3.5) return "text-green-700";
-  if (p <= 10.5) return "text-neutral-900";
-  return "text-amber-600";
+  if (p <= 3.5) return "text-crm-verde";
+  if (p <= 10.5) return "text-crm-ink";
+  return ARANCIO;
 }
 
 function Ricerche({ dati }: { dati: DatiSeo }) {
@@ -248,7 +247,7 @@ function Ricerche({ dati }: { dati: DatiSeo }) {
           ? `${conClic} ricerche diverse hanno portato almeno un click`
           : undefined
       }
-      bodyClassName=""
+      bodyClassName="p-2"
     >
       {lista.length === 0 ? (
         <EmptyState
@@ -259,36 +258,31 @@ function Ricerche({ dati }: { dati: DatiSeo }) {
       ) : (
         <>
           <div className="overflow-x-auto">
-            <table className="w-full table-fixed text-[13px]">
+            <table className="crm-tabella table-fixed">
               <thead>
-                <tr className="border-b border-black/[0.07] text-[11px] text-neutral-400">
-                  <th className="px-4 py-2 text-left font-medium sm:px-5">Ricerca</th>
-                  <th className="w-[4.5rem] px-2 py-2 text-right font-medium sm:w-20">Click</th>
-                  <th className="hidden w-24 px-2 py-2 text-right font-medium min-[480px]:table-cell">Comparse</th>
-                  <th className="w-[5.5rem] px-4 py-2 text-right font-medium sm:w-24 sm:px-5">Posizione</th>
+                <tr>
+                  <th>Ricerca</th>
+                  <th className="num w-[4.75rem] sm:w-24">Click</th>
+                  <th className="num hidden w-28 min-[480px]:table-cell">Comparse</th>
+                  <th className="num w-24 sm:w-28">Posizione</th>
                 </tr>
               </thead>
               <tbody>
                 {mostrate.map((r) => (
-                  <tr key={r.chiave} className="border-b border-black/[0.04] last:border-0 hover:bg-[#f4f4f5]/70">
-                    <td className="px-4 py-2 sm:px-5">
-                      <span className="block truncate text-neutral-800" title={r.chiave}>
+                  <tr key={r.chiave}>
+                    <td>
+                      <span className="block truncate text-crm-ink" title={r.chiave}>
                         {r.chiave}
                       </span>
                     </td>
-                    <td className="whitespace-nowrap px-2 py-2 text-right">
-                      <span className="font-bold tabular-nums text-neutral-900">{num(r.clic)}</span>{" "}
+                    <td className="num whitespace-nowrap">
+                      <span className="font-[550] text-crm-ink">{num(r.clic)}</span>{" "}
                       <DeltaClic ora={r.clic} prima={r.clicPrima} />
                     </td>
-                    <td className="hidden whitespace-nowrap px-2 py-2 text-right tabular-nums text-neutral-500 min-[480px]:table-cell">
+                    <td className="num hidden whitespace-nowrap text-crm-tenue min-[480px]:table-cell">
                       {num(r.impressioni)}
                     </td>
-                    <td
-                      className={cx(
-                        "whitespace-nowrap px-4 py-2 text-right font-semibold tabular-nums sm:px-5",
-                        tonoPosizione(r.posizione)
-                      )}
-                    >
+                    <td className={cx("num whitespace-nowrap font-[550]", tonoPosizione(r.posizione))}>
                       {pos(r.posizione)}
                     </td>
                   </tr>
@@ -296,18 +290,14 @@ function Ricerche({ dati }: { dati: DatiSeo }) {
               </tbody>
             </table>
           </div>
-          <div className="flex flex-wrap items-center justify-between gap-2 border-t border-black/[0.07] px-4 py-2.5 text-[11px] text-neutral-400 sm:px-5">
+          <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 px-2 pb-1 pt-3 text-[12px] leading-4 text-crm-tenue">
             <span>
-              Posizione: <span className="font-semibold text-green-700">verde</span> tra i primi tre,{" "}
-              <span className="font-semibold text-amber-600">arancio</span> oltre la prima pagina. Accanto ai click, la
+              Posizione: <span className="font-[550] text-crm-verde">verde</span> tra i primi tre,{" "}
+              <span className={cx("font-[550]", ARANCIO)}>arancio</span> oltre la prima pagina. Accanto ai click, la
               differenza con i 28 giorni prima.
             </span>
             {lista.length > 10 && (
-              <button
-                type="button"
-                onClick={() => setTutte((v) => !v)}
-                className="font-semibold text-neutral-700 hover:text-neutral-900"
-              >
+              <button type="button" onClick={() => setTutte((v) => !v)} className="crm-btn">
                 {tutte ? "Mostra meno" : `Mostra le prime ${Math.min(50, lista.length)}`}
               </button>
             )}
@@ -330,9 +320,9 @@ function Pagine({ dati }: { dati: DatiSeo }) {
   const max = Math.max(...lista.map((p) => p.clic), 1);
 
   return (
-    <Card title="Le pagine che portano click" bodyClassName="px-4 py-4 sm:px-5">
+    <Card title="Le pagine che portano click">
       {lista.length === 0 ? (
-        <p className="text-[13px] text-neutral-400">Nessuna pagina ha ricevuto visite da Google nel periodo.</p>
+        <p className="text-[13px] text-crm-tenue">Nessuna pagina ha ricevuto visite da Google nel periodo.</p>
       ) : (
         <ol className="space-y-3.5">
           {mostrate.map((p: RigaSeo) => (
@@ -342,20 +332,20 @@ function Pagine({ dati }: { dati: DatiSeo }) {
                   href={`${base}${p.chiave}`}
                   target="_blank"
                   rel="noopener"
-                  className="group flex min-w-0 items-center gap-1 text-[13px] text-neutral-800 hover:text-neutral-950"
+                  className="group flex min-w-0 items-center gap-1 text-[13px] text-crm-ink"
                   title={p.chiave}
                 >
                   <span className="truncate group-hover:underline">{nomePagina(p.chiave)}</span>
-                  <ExternalLink className="h-3 w-3 shrink-0 text-neutral-300 group-hover:text-neutral-500" />
+                  <ExternalLink className="h-3 w-3 shrink-0 text-crm-spento group-hover:text-crm-testo" />
                 </a>
-                <span className="ml-auto shrink-0 text-[13px] font-bold tabular-nums text-neutral-900">
+                <span className="ml-auto shrink-0 text-[13px] font-[550] tabular-nums text-crm-ink">
                   {num(p.clic)}
                 </span>
               </div>
-              <div className="mt-1 h-1.5 bg-black/[0.05]">
-                <div className="h-full bg-[#e30613]/75" style={{ width: `${(p.clic / max) * 100}%` }} />
+              <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-crm-fondo-2">
+                <div className="h-full rounded-full bg-crm-blu" style={{ width: `${(p.clic / max) * 100}%` }} />
               </div>
-              <p className="mt-1 text-[11px] text-neutral-400">
+              <p className="mt-1 text-[12px] leading-4 text-crm-tenue">
                 comparsa {num(p.impressioni)} volte, posizione {pos(p.posizione)}
                 {p.clicPrima !== null && p.clicPrima !== p.clic && (
                   <>, prima {num(p.clicPrima)} click</>
@@ -369,7 +359,7 @@ function Pagine({ dati }: { dati: DatiSeo }) {
         <button
           type="button"
           onClick={() => setTutte((v) => !v)}
-          className="mt-4 text-[11px] font-semibold text-neutral-700 hover:text-neutral-900"
+          className="crm-btn mt-4"
         >
           {tutte ? "Mostra meno" : `Mostra tutte (${Math.min(40, lista.length)})`}
         </button>
@@ -382,7 +372,7 @@ function Pagine({ dati }: { dati: DatiSeo }) {
 
 function spiega(o: Occasione): ReactNode {
   const pagina = o.pagina ? (
-    <span className="font-medium text-neutral-800">{nomePagina(o.pagina)}</span>
+    <span className="font-[550] text-crm-ink">{nomePagina(o.pagina)}</span>
   ) : (
     "la pagina che compare"
   );
@@ -417,44 +407,44 @@ function conArticolo(p: string): string {
 }
 
 const SEGNO: Record<Occasione["tipo"], string> = {
-  "seconda-pagina": "bg-amber-500",
-  "fondo-prima": "bg-blue-600",
-  "pochi-click": "bg-[#e30613]",
+  "seconda-pagina": "bg-crm-spento",
+  "fondo-prima": "bg-crm-blu",
+  "pochi-click": "bg-crm-ink",
 };
 
 function Occasioni({ dati }: { dati: DatiSeo }) {
   const lista = trovaOccasioni(dati);
   return (
-    <section className="border border-black/10 bg-white">
-      <div className="border-b border-black/[0.07] px-4 py-4 sm:px-5">
-        <h2 className="text-base font-bold tracking-tight text-neutral-900">Occasioni</h2>
-        <p className="mt-1 max-w-2xl text-[13px] leading-snug text-neutral-500">
+    <section className="crm-card">
+      <div className="px-4 pb-1 pt-4">
+        <h2 className="text-[13px] font-[650] leading-5 text-crm-ink">Occasioni</h2>
+        <p className="max-w-2xl text-[13px] leading-5 text-crm-tenue">
           Ricerche dove il sito compare spesso ma prende pochi click. Sistemare queste rende più che scrivere pagine
           nuove.
         </p>
       </div>
       {lista.length === 0 ? (
-        <p className="px-4 py-6 text-[13px] text-neutral-500 sm:px-5">
+        <p className="px-4 pb-4 pt-3 text-[13px] text-crm-tenue">
           Nessuna occasione evidente in questo periodo: le ricerche dove il sito compare spesso sono già in alto e
           ricevono click. Riguarda tra qualche settimana.
         </p>
       ) : (
-        <ul>
+        <ul className="mt-2">
           {lista.map((o) => (
             <li
               key={o.ricerca}
-              className="flex flex-col gap-2 border-b border-black/[0.05] px-4 py-3.5 last:border-0 sm:flex-row sm:items-start sm:gap-5 sm:px-5"
+              className="flex flex-col gap-2 border-t border-crm-filo px-4 py-3 sm:flex-row sm:items-start sm:gap-4"
             >
-              <span className={cx("mt-1.5 hidden h-2 w-2 shrink-0 sm:block", SEGNO[o.tipo])} aria-hidden />
+              <span className={cx("mt-1.5 hidden h-2 w-2 shrink-0 rounded-full sm:block", SEGNO[o.tipo])} aria-hidden />
               <div className="min-w-0 flex-1">
-                <p className="font-semibold text-neutral-900">&ldquo;{o.ricerca}&rdquo;</p>
-                <p className="mt-0.5 text-[13px] leading-snug text-neutral-600">{spiega(o)}</p>
-                <p className="mt-1 text-[11px] text-neutral-400">
+                <p className="text-[13px] font-[650] text-crm-ink">&ldquo;{o.ricerca}&rdquo;</p>
+                <p className="mt-0.5 text-[13px] leading-5 text-crm-testo">{spiega(o)}</p>
+                <p className="mt-1 text-[12px] leading-4 text-crm-tenue">
                   {num(o.impressioni)} comparse e {num(o.clic)} click in 28 giorni
                 </p>
               </div>
-              <p className="shrink-0 text-[12px] leading-tight text-neutral-500 sm:w-32 sm:text-right">
-                <span className="text-[13px] font-bold text-neutral-900">{guadagnoAParole(o.guadagno)}</span>
+              <p className="shrink-0 text-[12px] leading-4 text-crm-tenue sm:w-32 sm:text-right">
+                <span className="text-[13px] font-[650] text-crm-ink">{guadagnoAParole(o.guadagno)}</span>
                 <span className="sm:block"> in più al mese</span>
               </p>
             </li>
@@ -462,7 +452,7 @@ function Occasioni({ dati }: { dati: DatiSeo }) {
         </ul>
       )}
       {lista.length > 0 && (
-        <p className="border-t border-black/[0.07] px-4 py-2.5 text-[11px] text-neutral-400 sm:px-5">
+        <p className="bg-crm-fondo px-4 py-3 text-[12px] leading-4 text-crm-tenue">
           Il valore è un ordine di grandezza calcolato sul CTR tipico di ogni posizione, serve a scegliere da dove
           cominciare.
         </p>
@@ -500,14 +490,14 @@ export default function SeoVista({
   }
 
   return (
-    <div className="space-y-4 sm:space-y-5">
+    <div className="space-y-4">
       <Testata dati={dati} aggiorna={aggiorna} aggiorno={aggiorno} />
       <Numeri dati={dati} />
       {/* Fino a 1536px: andamento, occasioni, poi ricerche e pagine affiancate.
           Su schermo largo due colonne che scorrono ognuna per conto suo,
           cosi' sotto il grafico non resta un buco quando le occasioni sono tante. */}
-      <div className="grid grid-cols-1 gap-4 sm:gap-5 xl:grid-cols-2 2xl:grid-cols-12 2xl:items-start">
-        <div className="contents 2xl:col-span-7 2xl:flex 2xl:flex-col 2xl:gap-5">
+      <div className="grid grid-cols-1 gap-4 xl:grid-cols-2 2xl:grid-cols-12 2xl:items-start">
+        <div className="contents 2xl:col-span-7 2xl:flex 2xl:flex-col 2xl:gap-4">
           <div className="order-1 min-w-0 xl:col-span-2">
             <Andamento dati={dati} />
           </div>
@@ -515,7 +505,7 @@ export default function SeoVista({
             <Ricerche dati={dati} />
           </div>
         </div>
-        <div className="contents 2xl:col-span-5 2xl:flex 2xl:flex-col 2xl:gap-5">
+        <div className="contents 2xl:col-span-5 2xl:flex 2xl:flex-col 2xl:gap-4">
           <div className="order-2 min-w-0 xl:col-span-2">
             <Occasioni dati={dati} />
           </div>

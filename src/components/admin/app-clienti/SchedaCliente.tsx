@@ -18,11 +18,12 @@ import {
   PowerOff,
   Trash2,
 } from "lucide-react";
-import { Badge, Btn, cx } from "../ui";
+import { cx } from "../ui";
 import type { ClienteApp, DataISO, Giornata, MeseISO } from "@/lib/app-coaching/tipi";
 import { meseDi, oggiISO } from "@/lib/app-coaching/date";
 import {
   api,
+  Avviso,
   BASE,
   CAMPO,
   Conferma,
@@ -174,22 +175,22 @@ export default function SchedaCliente({
       <button
         type="button"
         onClick={() => chiedi({ tipo: "indietro" })}
-        className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-neutral-500 hover:text-neutral-900"
+        className="crm-btn-piatto -ml-2 text-[13px] text-crm-tenue hover:text-crm-ink"
       >
         <ArrowLeft className="h-4 w-4" /> Tutti i clienti dell&apos;app
       </button>
 
       {/* ---------------------------------------------------------- testata */}
-      <section className="border border-black/10 bg-white">
-        <div className="flex flex-wrap items-start gap-x-4 gap-y-3 px-4 py-4 sm:px-5">
+      <section className="crm-card">
+        <div className="flex flex-wrap items-start gap-x-4 gap-y-3 p-4 sm:px-5">
           <div className="min-w-0 flex-1">
             <div className="flex flex-wrap items-center gap-2">
-              <h2 className="text-xl font-bold tracking-tight text-neutral-900">{cliente.nome}</h2>
-              <Badge tone="outline">{cliente.lingua === "it" ? "Italiano" : "Tedesco"}</Badge>
-              {!cliente.attivo && <Badge tone="red">disattivato</Badge>}
+              <h2 className="text-[20px] font-[650] leading-7 tracking-[-0.02em] text-crm-ink">{cliente.nome}</h2>
+              <span className="crm-badge">{cliente.lingua === "it" ? "Italiano" : "Tedesco"}</span>
+              {!cliente.attivo && <span className="crm-badge crm-badge-errore">disattivato</span>}
             </div>
-            {cliente.obiettivo && <p className="mt-0.5 text-[13px] text-neutral-600">{cliente.obiettivo}</p>}
-            <p className="mt-1 text-[12px] text-neutral-400">
+            {cliente.obiettivo && <p className="mt-0.5 text-[13px] leading-5 text-crm-testo">{cliente.obiettivo}</p>}
+            <p className="mt-1 text-[12px] leading-4 text-crm-tenue">
               {[
                 cliente.telefono,
                 cliente.email,
@@ -200,24 +201,33 @@ export default function SchedaCliente({
             </p>
           </div>
           {!modifica && (
-            <div className="flex flex-wrap gap-1.5">
-              <Btn size="sm" variant="outline" onClick={() => {
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => {
                   setModifica(true);
                   setChiesta(null);
-                }}>
-                <Pencil className="h-3 w-3" /> Modifica
-              </Btn>
-              <Btn size="sm" variant="outline" onClick={() => setChiesta("codice")}>
-                <KeyRound className="h-3 w-3" /> Nuovo codice
-              </Btn>
+                }}
+                className="crm-btn max-sm:min-h-9"
+              >
+                <Pencil className="h-3.5 w-3.5" /> Modifica
+              </button>
+              <button type="button" onClick={() => setChiesta("codice")} className="crm-btn max-sm:min-h-9">
+                <KeyRound className="h-3.5 w-3.5" /> Nuovo codice
+              </button>
               {cliente.attivo ? (
-                <Btn size="sm" variant="outline" onClick={() => setChiesta("disattiva")}>
-                  <PowerOff className="h-3 w-3" /> Disattiva
-                </Btn>
+                <button type="button" onClick={() => setChiesta("disattiva")} className="crm-btn max-sm:min-h-9">
+                  <PowerOff className="h-3.5 w-3.5" /> Disattiva
+                </button>
               ) : (
-                <Btn size="sm" variant="outline" disabled={occupato} onClick={() => azione(() => patch({ attivo: true }))}>
-                  <Power className="h-3 w-3" /> Riattiva
-                </Btn>
+                <button
+                  type="button"
+                  disabled={occupato}
+                  onClick={() => azione(() => patch({ attivo: true }))}
+                  className="crm-btn max-sm:min-h-9"
+                >
+                  <Power className="h-3.5 w-3.5" /> Riattiva
+                </button>
               )}
               <button
                 type="button"
@@ -225,9 +235,9 @@ export default function SchedaCliente({
                   setChiesta("elimina");
                   setNomeConferma("");
                 }}
-                className="inline-flex items-center justify-center gap-1.5 px-2.5 py-1.5 text-[11px] font-semibold text-red-600 transition-all hover:bg-red-50"
+                className="crm-btn-piatto text-crm-rosso hover:bg-[#fff1f1] max-sm:min-h-9"
               >
-                <Trash2 className="h-3 w-3" /> Elimina
+                <Trash2 className="h-3.5 w-3.5" /> Elimina
               </button>
             </div>
           )}
@@ -235,16 +245,16 @@ export default function SchedaCliente({
 
         {/* conferme e modifica, sotto la testata */}
         {(modifica || chiesta || erroreAzione || appenaCreato || nuovoCodice) && (
-          <div className="space-y-3 border-t border-black/[0.07] px-4 py-4 sm:px-5">
+          <div className="space-y-3 border-t border-crm-filo p-4 sm:px-5">
             {appenaCreato && !nuovoCodice && (
-              <p className="border border-green-600/30 bg-green-50 px-3 py-2 text-[13px] text-green-900">
-                Cliente creato. Ora mandagli l&apos;accesso con <b>Manda su WhatsApp</b>, poi scrivi il piano toccando un giorno del calendario.
-              </p>
+              <Avviso>
+                Cliente creato. Ora mandagli l&apos;accesso con <b className="font-[650]">Manda su WhatsApp</b>, poi scrivi il piano toccando un giorno del calendario.
+              </Avviso>
             )}
             {nuovoCodice && (
-              <p className="border border-green-600/30 bg-green-50 px-3 py-2 text-[13px] text-green-900">
-                Nuovo codice pronto: il vecchio non funziona più. Rimandalo al cliente con <b>Manda su WhatsApp</b>.
-              </p>
+              <Avviso>
+                Nuovo codice pronto: il vecchio non funziona più. Rimandalo al cliente con <b className="font-[650]">Manda su WhatsApp</b>.
+              </Avviso>
             )}
             {modifica && (
               <ModuloCliente iniziale={cliente} etichettaSalva="Salva i dati" onSalva={salvaDati} onAnnulla={() => setModifica(false)} />
@@ -302,7 +312,7 @@ export default function SchedaCliente({
                 onAnnulla={() => setChiesta(null)}
               >
                 <label className="block">
-                  <span className="mb-1 block text-[12px]">
+                  <span className="mb-1 block text-[13px]">
                     Per confermare scrivi il nome: <b>{cliente.nome}</b>
                   </span>
                   <input
@@ -320,27 +330,27 @@ export default function SchedaCliente({
         )}
 
         {/* ------------------------------------------------------- accesso */}
-        <div className="grid gap-px border-t border-black/[0.07] bg-black/[0.07] md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)_minmax(0,1fr)]">
+        <div className="grid gap-px border-t border-crm-filo bg-crm-filo md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)_minmax(0,1fr)]">
           <div className="bg-white px-4 py-3 sm:px-5">
-            <p className="text-[11px] font-semibold text-neutral-500">Codice d&apos;accesso</p>
-            <div className="mt-1 flex items-center gap-2">
-              <span className="select-all font-mono text-xl font-bold tracking-[0.12em] text-neutral-900">
+            <p className="text-[12px] font-[550] leading-4 text-crm-tenue">Codice d&apos;accesso</p>
+            <div className="mt-1.5 flex items-center gap-2">
+              <span className="select-all font-mono text-xl font-[650] tracking-[0.12em] text-crm-ink">
                 {codiceLeggibile(cliente.codice)}
               </span>
               <BtnCopia fatto={copiato === "codice"} onClick={() => copia("codice", cliente.codice)} etichetta="Copia il codice" />
             </div>
           </div>
           <div className="min-w-0 bg-white px-4 py-3 sm:px-5">
-            <p className="text-[11px] font-semibold text-neutral-500">Link d&apos;accesso (entra senza codice)</p>
-            <div className="mt-1 flex items-center gap-2">
-              <span className="min-w-0 flex-1 select-all truncate text-[13px] text-neutral-800" title={cliente.linkAccesso}>
+            <p className="text-[12px] font-[550] leading-4 text-crm-tenue">Link d&apos;accesso (entra senza codice)</p>
+            <div className="mt-1.5 flex items-center gap-2">
+              <span className="min-w-0 flex-1 select-all truncate text-[13px] text-crm-testo" title={cliente.linkAccesso}>
                 {cliente.linkAccesso.replace(/^https?:\/\/(www\.)?/, "")}
               </span>
               <BtnCopia fatto={copiato === "link"} onClick={() => copia("link", cliente.linkAccesso)} etichetta="Copia il link" />
             </div>
           </div>
           <div className="bg-white px-4 py-3 sm:px-5">
-            <p className="text-[11px] font-semibold text-neutral-500">
+            <p className="text-[12px] font-[550] leading-4 text-crm-tenue">
               Messaggio in {cliente.lingua === "it" ? "italiano" : "tedesco"}, con istruzioni per installarla
             </p>
             <div className="mt-1.5 flex flex-wrap items-center gap-2">
@@ -349,31 +359,31 @@ export default function SchedaCliente({
                   href={wa}
                   target="_blank"
                   rel="noopener"
-                  className="inline-flex items-center gap-1.5 bg-[#25D366] px-3 py-2 text-[12px] font-semibold text-white hover:opacity-90"
+                  className="inline-flex min-h-[28px] items-center gap-1.5 rounded-[10px] bg-[#25D366] px-3 py-1 text-[12px] font-[650] leading-4 text-white shadow-[inset_0_-1px_0_rgba(0,0,0,0.16),0_1px_2px_rgba(0,0,0,0.1)] transition-colors hover:bg-[#1fbf5b] max-sm:min-h-9"
                 >
                   <MessageCircle className="h-3.5 w-3.5" /> Manda su WhatsApp
                 </a>
               ) : (
-                <span className="text-[12px] text-neutral-400">Aggiungi il telefono (Modifica) per mandarlo su WhatsApp.</span>
+                <span className="text-[12px] leading-4 text-crm-tenue">Aggiungi il telefono (Modifica) per mandarlo su WhatsApp.</span>
               )}
               <button
                 type="button"
                 onClick={() => copia("messaggio", messaggioAccesso(cliente))}
-                className="inline-flex items-center gap-1.5 border border-black/15 px-2.5 py-2 text-[12px] font-semibold text-neutral-700 hover:border-black/30"
+                className="crm-btn max-sm:min-h-9"
               >
-                {copiato === "messaggio" ? <Check className="h-3.5 w-3.5 text-green-600" /> : <Copy className="h-3.5 w-3.5" />}
+                {copiato === "messaggio" ? <Check className="h-3.5 w-3.5 text-crm-verde" /> : <Copy className="h-3.5 w-3.5" />}
                 {copiato === "messaggio" ? "Copiato" : "Copia messaggio"}
               </button>
             </div>
           </div>
         </div>
         {erroreCopia && (
-          <p className="border-t border-black/[0.07] px-4 py-2 text-[12px] text-red-600 sm:px-5">{erroreCopia}</p>
+          <p className="border-t border-crm-filo px-4 py-2 text-[12px] text-crm-rosso sm:px-5">{erroreCopia}</p>
         )}
 
         {cliente.note && (
-          <p className="whitespace-pre-line border-t border-black/[0.07] px-4 py-3 text-[12px] leading-relaxed text-neutral-600 sm:px-5">
-            <span className="font-semibold text-neutral-800">Note interne: </span>
+          <p className="whitespace-pre-line border-t border-crm-filo bg-crm-fondo px-4 py-3 text-[13px] leading-5 text-crm-testo sm:px-5">
+            <span className="font-[650] text-crm-ink">Note interne: </span>
             {cliente.note}
           </p>
         )}
@@ -436,10 +446,12 @@ export default function SchedaCliente({
             onCopiato={() => setVersione((v) => v + 1)}
           />
         ) : (
-          <div className="hidden flex-col items-center justify-center border border-dashed border-black/15 bg-white/60 px-8 py-16 text-center xl:flex">
-            <CalendarDays className="h-8 w-8 text-neutral-300" />
-            <p className="mt-3 text-sm font-bold text-neutral-700">Tocca un giorno del calendario</p>
-            <p className="mt-1 max-w-sm text-xs leading-relaxed text-neutral-400">
+          <div className="hidden flex-col items-center justify-center rounded-[20px] bg-white px-8 py-16 text-center shadow-[inset_0_0_0_1px_rgba(0,0,0,0.08)] xl:flex">
+            <span className="flex h-16 w-16 items-center justify-center rounded-full bg-crm-filo text-crm-spento">
+              <CalendarDays className="h-7 w-7" />
+            </span>
+            <p className="mt-4 text-sm font-[650] text-crm-ink">Tocca un giorno del calendario</p>
+            <p className="mt-1 max-w-sm text-[13px] leading-5 text-crm-tenue">
               Qui scrivete allenamento e alimentazione di quel giorno. Con «Copia e ripeti» lo portate sugli altri giorni o sulle
               settimane dopo.
             </p>
@@ -452,14 +464,8 @@ export default function SchedaCliente({
 
 function BtnCopia({ fatto, onClick, etichetta }: { fatto: boolean; onClick: () => void; etichetta: string }) {
   return (
-    <button
-      type="button"
-      onClick={onClick}
-      title={etichetta}
-      aria-label={etichetta}
-      className="inline-flex shrink-0 items-center gap-1 border border-black/15 px-2 py-1 text-[11px] font-semibold text-neutral-700 hover:border-black/30"
-    >
-      {fatto ? <Check className="h-3 w-3 text-green-600" /> : <Copy className="h-3 w-3" />}
+    <button type="button" onClick={onClick} title={etichetta} aria-label={etichetta} className="crm-btn shrink-0 px-2.5 max-sm:min-h-8">
+      {fatto ? <Check className="h-3.5 w-3.5 text-crm-verde" /> : <Copy className="h-3.5 w-3.5" />}
       {fatto ? "Copiato" : "Copia"}
     </button>
   );

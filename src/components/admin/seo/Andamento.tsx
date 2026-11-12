@@ -16,7 +16,7 @@ function tetto(n: number): number {
 }
 
 /**
- * Barre rosse = ultimi 28 giorni. Linea tratteggiata = i 28 giorni prima,
+ * Barre blu = ultimi 28 giorni. Linea tratteggiata = i 28 giorni prima,
  * allineati: 28 giorni sono 4 settimane esatte, quindi ogni barra si
  * confronta con lo stesso giorno della settimana.
  */
@@ -46,17 +46,15 @@ export default function Andamento({ dati }: { dati: DatiSeo }) {
     <Card
       title="Andamento giorno per giorno"
       action={
-        <div className="flex border border-black/10" role="group" aria-label="Cosa mostrare">
+        <div className="flex gap-1" role="group" aria-label="Cosa mostrare">
           {(["clic", "impressioni"] as const).map((m) => (
             <button
               key={m}
               type="button"
               onClick={() => setMetrica(m)}
               aria-pressed={metrica === m}
-              className={cx(
-                "px-2.5 py-1 text-[11px] font-semibold transition-colors sm:px-3",
-                metrica === m ? "bg-neutral-900 text-white" : "bg-white text-neutral-500 hover:text-neutral-900"
-              )}
+              data-attiva={metrica === m}
+              className="crm-linguetta"
             >
               {m === "clic" ? "Click" : "Comparse"}
             </button>
@@ -65,15 +63,15 @@ export default function Andamento({ dati }: { dati: DatiSeo }) {
       }
     >
       {/* Riga che cambia col dito o col mouse: niente tooltip che sparisce sul telefono. */}
-      <p className="min-h-[2.5rem] text-[13px] leading-snug text-neutral-600 sm:min-h-0" aria-live="polite">
+      <p className="min-h-[2.5rem] text-[13px] leading-5 text-crm-testo sm:min-h-0" aria-live="polite">
         {g ? (
           <>
-            <span className="font-semibold text-neutral-900">{giornoLungo(g.data)}</span>:{" "}
-            <span className="font-semibold text-neutral-900">{num(g.clic)}</span> click, comparso{" "}
+            <span className="font-[650] text-crm-ink">{giornoLungo(g.data)}</span>:{" "}
+            <span className="font-[650] text-crm-ink">{num(g.clic)}</span> click, comparso{" "}
             {num(g.impressioni)} volte
             {g.impressioni > 0 && <>, posizione media {pos(g.posizione)}</>}
             {v && (
-              <span className="text-neutral-400">
+              <span className="text-crm-spento">
                 {" "}
                 (quattro settimane prima: {num(v[metrica])} {parola})
               </span>
@@ -83,7 +81,7 @@ export default function Andamento({ dati }: { dati: DatiSeo }) {
           <>Nessun{metrica === "clic" ? " click" : "a comparsa"} negli ultimi 28 giorni.</>
         ) : (
           <>
-            In 28 giorni <span className="font-semibold text-neutral-900">{num(totale)}</span> {parola}, in media{" "}
+            In 28 giorni <span className="font-[650] text-crm-ink">{num(totale)}</span> {parola}, in media{" "}
             {(totale / n).toLocaleString("it-IT", { maximumFractionDigits: 1 })} al giorno. Il giorno migliore è
             stato {giornoLungo(ora[iMigliore]!.data)} con {num(valori[iMigliore]!)}.
           </>
@@ -92,7 +90,7 @@ export default function Andamento({ dati }: { dati: DatiSeo }) {
 
       <div className="mt-4 flex gap-2">
         {/* asse */}
-        <div className="relative w-9 shrink-0 text-right text-[10px] tabular-nums text-neutral-400 sm:w-11">
+        <div className="relative w-9 shrink-0 text-right text-[11px] tabular-nums text-crm-spento sm:w-11">
           <span className="absolute right-0 top-0 -translate-y-1/2">{num(max)}</span>
           <span className="absolute right-0 top-1/2 -translate-y-1/2">{num(max / 2)}</span>
           <span className="absolute bottom-0 right-0 translate-y-1/2">0</span>
@@ -100,11 +98,11 @@ export default function Andamento({ dati }: { dati: DatiSeo }) {
 
         <div className="min-w-0 flex-1">
           <div
-            className="relative h-44 border-b border-black/20 sm:h-56 xl:h-64"
+            className="relative h-44 border-b border-crm-bordo sm:h-56 xl:h-64"
             onMouseLeave={() => setSel(null)}
           >
-            <div className="pointer-events-none absolute inset-x-0 top-0 border-t border-dashed border-black/[0.08]" />
-            <div className="pointer-events-none absolute inset-x-0 top-1/2 border-t border-dashed border-black/[0.08]" />
+            <div className="pointer-events-none absolute inset-x-0 top-0 border-t border-dashed border-crm-filo" />
+            <div className="pointer-events-none absolute inset-x-0 top-1/2 border-t border-dashed border-crm-filo" />
 
             <div className="absolute inset-0 flex items-end">
               {ora.map((giorno, i) => {
@@ -122,8 +120,8 @@ export default function Andamento({ dati }: { dati: DatiSeo }) {
                   >
                     <span
                       className={cx(
-                        "block w-full transition-colors",
-                        attivo ? "bg-neutral-900" : "bg-[#e30613]/80 group-hover:bg-[#e30613]"
+                        "block w-full rounded-t-[3px] transition-colors",
+                        attivo ? "bg-crm-ink" : "bg-crm-blu/80 group-hover:bg-crm-blu"
                       )}
                       style={{ height: val > 0 ? `max(2px, ${(val / max) * 100}%)` : "0px" }}
                     />
@@ -142,7 +140,7 @@ export default function Andamento({ dati }: { dati: DatiSeo }) {
                 <polyline
                   points={linea}
                   fill="none"
-                  stroke="#525252"
+                  stroke="#616161"
                   strokeWidth={1.5}
                   strokeDasharray="4 3"
                   strokeLinejoin="round"
@@ -153,7 +151,7 @@ export default function Andamento({ dati }: { dati: DatiSeo }) {
           </div>
 
           {/* date: una a settimana, sotto la barra giusta */}
-          <div className="relative mt-1.5 h-4 text-[10px] text-neutral-400">
+          <div className="relative mt-1.5 h-4 text-[11px] text-crm-spento">
             {ora.map((giorno, i) =>
               i % 7 === 0 || i === n - 1 ? (
                 <span
@@ -174,13 +172,13 @@ export default function Andamento({ dati }: { dati: DatiSeo }) {
         </div>
       </div>
 
-      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-[11px] text-neutral-500">
+      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-[12px] text-crm-tenue">
         <span className="inline-flex items-center gap-1.5">
-          <span className="h-2.5 w-2.5 bg-[#e30613]/80" /> ultimi 28 giorni
+          <span className="h-2.5 w-2.5 rounded-[3px] bg-crm-blu/80" /> ultimi 28 giorni
         </span>
         <span className="inline-flex items-center gap-1.5">
           <svg width="18" height="4" aria-hidden>
-            <line x1="0" y1="2" x2="18" y2="2" stroke="#525252" strokeWidth="1.5" strokeDasharray="4 3" />
+            <line x1="0" y1="2" x2="18" y2="2" stroke="#616161" strokeWidth="1.5" strokeDasharray="4 3" />
           </svg>
           i 28 giorni prima, stesso giorno della settimana
         </span>

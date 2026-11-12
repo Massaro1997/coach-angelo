@@ -4,7 +4,7 @@
 
 import { useState, type FormEvent } from "react";
 import { Check, X } from "lucide-react";
-import { Btn, cx } from "../ui";
+import { cx } from "../ui";
 import type { ClienteApp, Lingua } from "@/lib/app-coaching/tipi";
 import { CAMPO, Campo, Errore, testoErrore } from "./comune";
 
@@ -69,8 +69,8 @@ export default function ModuloCliente({
   }
 
   return (
-    <form onSubmit={invia} className="space-y-3">
-      <fieldset disabled={salvando} className="grid gap-3 sm:grid-cols-2">
+    <form onSubmit={invia} className="space-y-4">
+      <fieldset disabled={salvando} className="grid gap-x-3 gap-y-4 sm:grid-cols-2">
         <Campo etichetta="Nome e cognome *">
           <input
             value={d.nome}
@@ -82,7 +82,7 @@ export default function ModuloCliente({
           />
         </Campo>
         <Campo etichetta="Lingua dell'app e dei messaggi">
-          <div className="flex border border-black/15 bg-white">
+          <div className="flex gap-0.5 rounded-xl bg-crm-fondo-2 p-0.5 shadow-[inset_0_0_0_1px_rgba(0,0,0,0.06)]">
             {(
               [
                 ["de", "Tedesco"],
@@ -95,8 +95,8 @@ export default function ModuloCliente({
                 onClick={() => cambia("lingua", k)}
                 aria-pressed={d.lingua === k}
                 className={cx(
-                  "flex-1 px-3 py-2 text-[13px] font-semibold",
-                  d.lingua === k ? "bg-neutral-900 text-white" : "text-neutral-600 hover:bg-black/5"
+                  "min-h-[30px] flex-1 rounded-[10px] px-3 py-1 text-[13px] font-[550] transition-colors max-sm:min-h-9",
+                  d.lingua === k ? "bg-white text-crm-ink shadow-crm-anello" : "text-crm-tenue hover:bg-black/[0.04] hover:text-crm-ink"
                 )}
               >
                 {l}
@@ -146,12 +146,12 @@ export default function ModuloCliente({
       </fieldset>
       {errore && <Errore testo={errore} />}
       <div className="flex flex-wrap gap-2">
-        <Btn type="submit" variant="brand" disabled={salvando}>
+        <button type="submit" disabled={salvando} className="crm-btn-primario max-sm:min-h-9">
           <Check className="h-3.5 w-3.5" /> {salvando ? "Salvo…" : etichettaSalva}
-        </Btn>
-        <Btn variant="ghost" onClick={onAnnulla} disabled={salvando}>
+        </button>
+        <button type="button" onClick={onAnnulla} disabled={salvando} className="crm-btn-piatto disabled:opacity-50 max-sm:min-h-9">
           <X className="h-3.5 w-3.5" /> Annulla
-        </Btn>
+        </button>
       </div>
     </form>
   );

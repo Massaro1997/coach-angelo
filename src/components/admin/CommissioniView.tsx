@@ -96,24 +96,24 @@ export default function CommissioniView() {
     else setErrore("Non tolto, riprova.");
   }
 
-  if (caricando) return <p className="py-10 text-sm text-neutral-400">Carico le commissioni…</p>;
+  if (caricando) return <p className="py-10 text-[13px] text-crm-spento">Carico le commissioni…</p>;
 
-  const campo = "border border-black/15 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-900";
+  const campo = "crm-campo";
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
         <Stat label="Da dare" value={eur(maturata)} sub="commissioni maturate finora" tone="ink" />
         <Stat label="Già dati" value={eur(dati)} tone="green" />
         <Stat label={resta < 0 ? "In anticipo" : "Restano"} value={eur(Math.abs(resta))} tone="brand" />
         <Stat label="A fine contratti" value={eur(inTutto)} sub={`${righe.length} ${righe.length === 1 ? "cliente" : "clienti"} dall'online`} tone="amber" />
       </div>
 
-      {errore && <p className="border border-red-500/30 bg-red-50 p-3 text-sm text-red-600">{errore}</p>}
+      {errore && <p className="rounded-xl bg-[#fee9e8] px-4 py-3 text-[13px] text-[#8e0b21]">{errore}</p>}
 
       <Card bodyClassName="p-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <h3 className="text-sm font-bold text-neutral-900">Soldi dati a DirezioneX</h3>
+          <h3 className="text-[13px] font-[650] text-crm-ink">Soldi dati a DirezioneX</h3>
           <Btn variant={aperto ? "outline" : "ink"} onClick={() => setAperto((a) => !a)}>
             {aperto ? <X className="h-3.5 w-3.5" /> : <Check className="h-3.5 w-3.5" />}
             {aperto ? "Chiudi" : "Segna soldi dati"}
@@ -121,9 +121,9 @@ export default function CommissioniView() {
         </div>
 
         {aperto && (
-          <div className="mt-4 flex flex-wrap items-end gap-3 border-t border-black/[0.07] pt-4">
+          <div className="mt-4 flex flex-wrap items-end gap-3 rounded-xl bg-crm-fondo p-3">
             <label className="block">
-              <span className="block text-xs font-semibold text-neutral-600">Quanto ha dato</span>
+              <span className="crm-etichetta">Quanto ha dato</span>
               <input
                 value={importo}
                 onChange={(e) => setImporto(e.target.value)}
@@ -134,35 +134,35 @@ export default function CommissioniView() {
               />
             </label>
             <label className="block">
-              <span className="block text-xs font-semibold text-neutral-600">Quando</span>
-              <input type="date" value={data} onChange={(e) => setData(e.target.value)} className={campo} />
+              <span className="crm-etichetta">Quando</span>
+              <input type="date" value={data} onChange={(e) => setData(e.target.value)} className={cx(campo, "w-auto")} />
             </label>
             <Btn disabled={salvo || valore <= 0} onClick={segna}>
               {salvo ? "Salvo…" : "Conferma"}
             </Btn>
             {valore > 0 && (
-              <p className="pb-2 text-sm text-neutral-700">
+              <p className="pb-1 text-[13px] text-crm-testo">
                 {dopo < 0 ? "In anticipo di" : "Dopo restano"}{" "}
-                <span className="font-bold tabular-nums text-neutral-900">{eur(Math.abs(dopo))}</span>
+                <span className="font-[650] tabular-nums text-crm-ink">{eur(Math.abs(dopo))}</span>
               </p>
             )}
           </div>
         )}
 
         {versati.length > 0 ? (
-          <ul className="mt-3 divide-y divide-black/[0.06] border-t border-black/[0.07] text-sm">
+          <ul className="mt-3 divide-y divide-crm-filo border-t border-crm-filo text-[13px]">
             {versati.map((v) => (
               <li key={v.id} className="flex items-center gap-3 py-2">
-                <span className="font-bold tabular-nums text-green-700">{eur(v.importo)}</span>
-                <span className="text-neutral-600">{giorno(v.data)}</span>
-                <button onClick={() => togli(v)} className="ml-auto text-[12px] font-semibold text-neutral-400 hover:text-red-600">
+                <span className="font-[650] tabular-nums text-crm-verde">{eur(v.importo)}</span>
+                <span className="text-crm-tenue">{giorno(v.data)}</span>
+                <button onClick={() => togli(v)} className="crm-btn-piatto ml-auto -mr-2 text-crm-tenue hover:text-crm-rosso">
                   Togli
                 </button>
               </li>
             ))}
           </ul>
         ) : (
-          <p className="mt-2 text-[12px] text-neutral-500">Ancora nessun pagamento segnato.</p>
+          <p className="mt-2 text-[12px] text-crm-tenue">Ancora nessun pagamento segnato.</p>
         )}
       </Card>
 
@@ -175,8 +175,9 @@ export default function CommissioniView() {
           />
         </Card>
       ) : (
-        <div className="border border-black/10 bg-white">
-          <div className="hidden grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)_110px_110px] gap-4 border-b border-black/[0.07] px-5 py-2.5 text-[11px] font-semibold text-neutral-400 sm:grid">
+        <section className="crm-card p-2">
+          {/* testata grigia di Shopify, solo da tablet in su */}
+          <div className="hidden grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)_110px_110px] gap-4 rounded-lg bg-crm-fondo px-3 py-1.5 text-[12px] font-[550] text-[#4a4a4a] sm:grid">
             <span>Cliente</span>
             <span>Regola</span>
             <span className="text-right">Maturata</span>
@@ -185,20 +186,20 @@ export default function CommissioniView() {
           {righe.map(({ c, k }) => (
             <div
               key={c.id}
-              className="grid grid-cols-2 gap-x-4 gap-y-1 border-b border-black/[0.07] px-5 py-3 last:border-b-0 sm:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)_110px_110px] sm:items-center"
+              className="grid grid-cols-2 gap-x-4 gap-y-1 border-b border-crm-filo px-3 py-2.5 transition-colors last:border-b-0 hover:bg-crm-fondo sm:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)_110px_110px] sm:items-center"
             >
               <div className="col-span-2 min-w-0 sm:col-span-1">
-                <p className="truncate text-sm font-bold text-neutral-900">{c.nome}</p>
-                <p className="truncate text-[12px] text-neutral-500">
+                <p className="truncate text-[13px] font-[650] text-crm-ink">{c.nome}</p>
+                <p className="truncate text-[12px] text-crm-tenue">
                   {c.pacchetto} · lead da {c.lead?.canale}
                 </p>
               </div>
-              <p className="col-span-2 text-[12px] text-neutral-600 sm:col-span-1">{regola(k)}</p>
-              <p className="text-sm font-bold tabular-nums text-neutral-900 sm:text-right">{eur(k.maturata)}</p>
-              <p className="text-right text-sm tabular-nums text-neutral-500">{k.totale != null ? eur(k.totale) : "senza fine"}</p>
+              <p className="col-span-2 text-[12px] text-crm-testo sm:col-span-1">{regola(k)}</p>
+              <p className="text-[13px] font-[650] tabular-nums text-crm-ink sm:text-right">{eur(k.maturata)}</p>
+              <p className="text-right text-[13px] tabular-nums text-crm-tenue">{k.totale != null ? eur(k.totale) : "senza fine"}</p>
             </div>
           ))}
-        </div>
+        </section>
       )}
     </div>
   );

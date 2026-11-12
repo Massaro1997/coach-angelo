@@ -12,8 +12,8 @@ export default function GSCAdminPage() {
   }, [router]);
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-[#f4f4f5]">
-      <p className="text-sm text-neutral-400">Ti porto al gestionale…</p>
+    <div className="flex min-h-screen items-center justify-center bg-crm-fondo">
+      <p className="text-[13px] text-crm-spento">Ti porto al gestionale…</p>
     </div>
   );
 }

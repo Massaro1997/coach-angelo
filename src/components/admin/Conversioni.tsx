@@ -33,13 +33,13 @@ export interface DatiConversioni {
 const PERIODI = [7, 28, 90, 365];
 
 function Delta({ ora, prima }: { ora: number; prima: number }) {
-  if (prima === 0 && ora === 0) return <span className="text-neutral-400">nessuna variazione</span>;
-  if (prima === 0) return <span className="text-green-600 font-semibold">nuovi</span>;
+  if (prima === 0 && ora === 0) return <span className="text-crm-spento">nessuna variazione</span>;
+  if (prima === 0) return <span className="font-[550] text-crm-verde">nuovi</span>;
   const pct = Math.round(((ora - prima) / prima) * 100);
   const su = pct >= 0;
   return (
-    <span className={cx("font-semibold", su ? "text-green-600" : "text-red-500")}>
-      {su ? "▲" : "▼"} {Math.abs(pct)}% <span className="font-normal text-neutral-400">vs prec.</span>
+    <span className={cx("font-[550]", su ? "text-crm-verde" : "text-crm-rosso")}>
+      {su ? "▲" : "▼"} {Math.abs(pct)}% <span className="font-normal text-crm-spento">vs prec.</span>
     </span>
   );
 }
@@ -54,33 +54,32 @@ function Tabella({
   tono: "green" | "amber";
 }) {
   return (
-    <table className="w-full text-xs">
-      <thead>
-        <tr className="border-b border-black/[0.07] text-[10px] uppercase tracking-wider text-neutral-400">
-          <th className="pb-2 text-left font-bold">Pagina</th>
-          <th className="pb-2 text-right font-bold">Clic</th>
-          <th className="pb-2 text-right font-bold">{colonna === "lead" ? "Lead" : "Pos."}</th>
-        </tr>
-      </thead>
-      <tbody>
-        {righe.map((p) => (
-          <tr key={p.path} className="border-b border-black/[0.04] last:border-0">
-            <td className="max-w-[240px] truncate py-2 text-neutral-700" title={p.path}>
-              {p.path}
-            </td>
-            <td className="py-2 text-right tabular-nums text-neutral-500">{p.clic}</td>
-            <td
-              className={cx(
-                "py-2 text-right font-bold tabular-nums",
-                tono === "green" ? "text-green-600" : "text-amber-600"
-              )}
-            >
-              {colonna === "lead" ? p.lead : p.posizione}
-            </td>
+    <div className="overflow-x-auto">
+      <table className="crm-tabella">
+        <thead>
+          <tr>
+            <th>Pagina</th>
+            <th className="num">Clic</th>
+            <th className="num">{colonna === "lead" ? "Lead" : "Pos."}</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {righe.map((p) => (
+            <tr key={p.path}>
+              <td className="max-w-[240px] truncate text-crm-testo" title={p.path}>
+                {p.path}
+              </td>
+              <td className="num text-crm-tenue">{p.clic}</td>
+              <td className="num">
+                <span className={cx("crm-badge tabular-nums", tono === "green" ? "crm-badge-ok" : "crm-badge-attesa")}>
+                  {colonna === "lead" ? p.lead : p.posizione}
+                </span>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
@@ -110,8 +109,8 @@ export default function Conversioni({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [giorni]);
 
-  if (caricando && !dati) return <p className="py-10 text-sm text-neutral-400">Carico i dati…</p>;
-  if (errore) return <p className="py-10 text-sm text-red-500">{errore}</p>;
+  if (caricando && !dati) return <p className="py-10 text-[13px] text-crm-spento">Carico i dati…</p>;
+  if (errore) return <p className="py-10 text-[13px] text-crm-rosso">{errore}</p>;
   if (!dati) return null;
 
   const { lead, ordini, gsc } = dati;
@@ -121,26 +120,22 @@ export default function Conversioni({
     : [];
 
   return (
-    <div className="space-y-4 sm:space-y-5">
-      <div className="flex flex-wrap items-center gap-1.5">
+    <div className="space-y-4">
+      <div className="flex flex-wrap items-center gap-1">
         {PERIODI.map((g) => (
           <button
             key={g}
             onClick={() => setGiorni(g)}
-            className={cx(
-              "px-3 py-1.5 text-[11px] font-bold uppercase tracking-wide transition-all",
-              giorni === g
-                ? "bg-neutral-900 text-white"
-                : "border border-black/10 bg-white text-neutral-500 hover:border-black/30"
-            )}
+            data-attiva={giorni === g}
+            className="crm-linguetta transition-colors"
           >
             {g === 365 ? "12 mesi" : `${g} giorni`}
           </button>
         ))}
-        {caricando && <span className="ml-1 text-[11px] text-neutral-400">aggiorno…</span>}
+        {caricando && <span className="ml-1 text-[12px] text-crm-spento">aggiorno…</span>}
       </div>
 
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
         <Stat
           label="Lead"
           value={lead.totale}
@@ -172,8 +167,8 @@ export default function Conversioni({
 
       {gsc.ok && gsc.clic > 0 && (
         <Card title="Da clic a contatto">
-          <p className="text-sm text-neutral-600">
-            <span className="text-2xl font-bold tabular-nums text-neutral-900">
+          <p className="text-[13px] text-crm-testo">
+            <span className="text-xl font-[650] tracking-[-0.02em] tabular-nums text-crm-ink">
               {((lead.totale / gsc.clic) * 100).toFixed(1)}%
             </span>{" "}
             dei clic da Google è diventato un contatto ({lead.totale} su {gsc.clic}).
@@ -182,10 +177,10 @@ export default function Conversioni({
       )}
 
       {!gsc.ok && (
-        <div className="border border-amber-500/40 bg-amber-50 p-4">
-          <p className="text-sm font-bold text-amber-800">Search Console non collegata</p>
-          <p className="mt-1 text-xs text-amber-700">{gsc.errore}</p>
-          <p className="mt-2 text-xs text-amber-600">
+        <div className="rounded-xl bg-[#fff8db] p-4 text-[#4f4700] shadow-crm-anello">
+          <p className="text-[13px] font-[650]">Search Console non collegata</p>
+          <p className="mt-1 text-[13px]">{gsc.errore}</p>
+          <p className="mt-2 text-[12px] opacity-80">
             Lead e ordini qui sotto sono comunque reali: mancano solo i dati di ricerca.
           </p>
         </div>
@@ -215,14 +210,24 @@ export default function Conversioni({
 
       {gsc.ok && (
         <div className="grid gap-4 lg:grid-cols-2">
-          <Card title="Pagine che convertono" subtitle="Traffico da Google diventato contatto">
+          <Card
+            title="Pagine che convertono"
+            subtitle="Traffico da Google diventato contatto"
+            className="min-w-0"
+            bodyClassName="px-2 pb-2 pt-2"
+          >
             {cheConvertono.length ? (
               <Tabella righe={cheConvertono} colonna="lead" tono="green" />
             ) : (
               <EmptyState titolo="Nessuna pagina ha ancora prodotto lead tracciati." />
             )}
           </Card>
-          <Card title="Traffico che non converte" subtitle="Almeno 5 clic e nessun contatto">
+          <Card
+            title="Traffico che non converte"
+            subtitle="Almeno 5 clic e nessun contatto"
+            className="min-w-0"
+            bodyClassName="px-2 pb-2 pt-2"
+          >
             {daSistemare.length ? (
               <Tabella righe={daSistemare} colonna="posizione" tono="amber" />
             ) : (
@@ -235,8 +240,8 @@ export default function Conversioni({
       {!gsc.ok && (
         <Card title="Prossimo passo">
           <div className="flex items-start gap-3">
-            <TrendingUp className="mt-0.5 h-4 w-4 shrink-0 text-neutral-300" />
-            <p className="text-xs leading-relaxed text-neutral-500">
+            <TrendingUp className="mt-0.5 h-4 w-4 shrink-0 text-crm-spento" />
+            <p className="text-[13px] leading-5 text-crm-tenue">
               Con Search Console collegata compaiono anche le pagine che portano traffico
               senza convertire: è lì che conviene intervenire per primo.
             </p>

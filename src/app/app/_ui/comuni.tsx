@@ -74,32 +74,73 @@ export function linkWhatsapp(testo: string): string {
 
 export const CARTA = "rounded-2xl bg-white ring-1 ring-black/[0.06]";
 
-/** Barra in alto, sotto la barra di stato del telefono. */
-export function Testata({ sinistra, destra }: { sinistra: ReactNode; destra?: ReactNode }) {
+/** Margini laterali, fuori dagli angoli arrotondati e dalla tacca. */
+export const LATI = "pl-[max(1rem,env(safe-area-inset-left))] pr-[max(1rem,env(safe-area-inset-right))]";
+
+/** Margine in basso sopra la barra del tasto Home (zero con la tastiera aperta, vedi Guscio). */
+export const FONDO_SICURO = "pb-[max(0.75rem,var(--app-sotto,env(safe-area-inset-bottom)))]";
+
+/** Zona che scorre da sola dentro la schermata: la pagina intera resta ferma. */
+export const SCORRE = "min-h-0 flex-1 overflow-y-auto overscroll-y-contain";
+
+/** Strati sopra tutto (fogli dal basso): coprono la parte di schermo visibile. */
+export const SOVRAPPOSTO = "fixed inset-x-0 top-[var(--app-su,0px)] h-[var(--app-alto,100dvh)]";
+
+/** Barra in alto, sotto la barra di stato del telefono. Sotto, righe in piu' (children). */
+export function Testata({
+  sinistra,
+  destra,
+  children,
+}: {
+  sinistra: ReactNode;
+  destra?: ReactNode;
+  children?: ReactNode;
+}) {
   return (
-    <header className="sticky top-0 z-20 border-b border-black/[0.06] bg-white pt-[env(safe-area-inset-top)]">
-      <div className="mx-auto flex h-14 max-w-xl items-center justify-between gap-3 pl-[max(1rem,env(safe-area-inset-left))] pr-[max(1rem,env(safe-area-inset-right))]">
+    <header className="relative z-20 shrink-0 border-b border-black/[0.06] bg-white pt-[env(safe-area-inset-top)]">
+      <div className={`mx-auto flex h-12 max-w-xl items-center justify-between gap-3 ${LATI}`}>
         {sinistra}
         {destra}
       </div>
+      {children}
     </header>
   );
 }
 
-/** Contenuto della pagina, con margine per la barra in basso dell'iPhone. */
-export function Corpo({ children }: { children: ReactNode }) {
+/**
+ * Contenuto al centro della schermata (attesa, errori, giorno vuoto, codice).
+ * my-auto e non justify-center: se il contenuto e' piu' alto della zona (la
+ * tastiera aperta) si scorre dall'inizio, senza tagliare la parte di sopra.
+ */
+export function Centrato({
+  children,
+  schermoIntero = false,
+  stretto = true,
+}: {
+  children: ReactNode;
+  /** senza testata sopra: anche il margine della barra di stato */
+  schermoIntero?: boolean;
+  stretto?: boolean;
+}) {
   return (
-    <main className="mx-auto max-w-xl pb-[calc(2.5rem_+_env(safe-area-inset-bottom))] pl-[max(1rem,env(safe-area-inset-left))] pr-[max(1rem,env(safe-area-inset-right))] pt-5">
-      {children}
-    </main>
+    <div className={`flex flex-col ${SCORRE} ${LATI} ${schermoIntero ? "pt-[env(safe-area-inset-top)]" : ""}`}>
+      {/* in fondo sempre il margine del tasto Home: sotto puo' non esserci niente */}
+      <div
+        className={`mx-auto my-auto w-full pt-6 pb-[max(1.5rem,var(--app-sotto,env(safe-area-inset-bottom)))] ${
+          stretto ? "max-w-md" : "max-w-xl"
+        }`}
+      >
+        {children}
+      </div>
+    </div>
   );
 }
 
 export function AvvisoOffline() {
   const t = useTesti();
   return (
-    <div role="status" className="bg-amber-50 text-amber-900">
-      <p className="mx-auto flex max-w-xl items-center gap-2 px-4 py-2 text-[15px]">
+    <div role="status" className="shrink-0 bg-amber-50 text-amber-900">
+      <p className={`mx-auto flex max-w-xl items-center gap-2 py-1.5 text-[15px] leading-snug ${LATI}`}>
         <WifiOff className="size-4 shrink-0" aria-hidden />
         {t.offline}
       </p>
@@ -110,7 +151,7 @@ export function AvvisoOffline() {
 /** Schermata d'attesa: solo il simbolo, come l'avvio di un'app. */
 export function Caricamento() {
   return (
-    <div className="flex min-h-dvh items-center justify-center" aria-busy="true">
+    <div className="flex flex-1 items-center justify-center" aria-busy="true">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={MARCHIO.simbolo} alt={MARCHIO.nome} className="h-12 w-auto opacity-90" />
     </div>

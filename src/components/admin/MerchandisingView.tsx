@@ -47,17 +47,15 @@ export default function MerchandisingView() {
   };
 
   const lingue = (
-    <div className="inline-flex border border-black/15 bg-white p-0.5">
+    <div className="inline-flex gap-0.5 rounded-[10px] bg-white p-0.5 shadow-crm-anello">
       {(["de", "it"] as const).map((l) => (
         <button
           key={l}
           type="button"
           onClick={() => setLingua(l)}
           aria-pressed={lingua === l}
-          className={cx(
-            "px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide transition-colors",
-            lingua === l ? "bg-neutral-900 text-white" : "text-neutral-500 hover:text-neutral-900"
-          )}
+          data-attiva={lingua === l}
+          className="crm-linguetta px-2.5 py-0.5 text-[12px] transition-colors"
         >
           {l === "de" ? "Tedesco" : "Italiano"}
         </button>
@@ -82,7 +80,7 @@ export default function MerchandisingView() {
                 ratio={BROCHURE.ratio}
                 onZoom={setZoom}
               />
-              <p className="mt-1.5 text-[11px] text-neutral-500">{a.nota}</p>
+              <p className="mt-1.5 text-[12px] text-crm-tenue">{a.nota}</p>
             </div>
           ))}
         </div>
@@ -92,20 +90,20 @@ export default function MerchandisingView() {
           ))}
         </div>
 
-        <p className="mb-2 mt-6 text-[11px] font-bold uppercase tracking-wide text-neutral-400">
+        <p className="mb-2 mt-6 text-[13px] font-[550] text-crm-testo">
           L&apos;ordine dei pannelli, come li legge chi la apre
         </p>
         <ol className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
           {BROCHURE.imbuto.map((p, i) => (
-            <li key={p.dove} className="flex gap-3 border border-black/10 p-3">
-              <span className="flex h-6 w-6 shrink-0 items-center justify-center bg-neutral-900 text-[11px] font-bold text-white">
+            <li key={p.dove} className="flex gap-3 rounded-xl bg-crm-fondo p-3">
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#303030] text-[12px] font-[550] text-white">
                 {i + 1}
               </span>
-              <span className="min-w-0 text-[11px] leading-snug">
-                <span className="block font-bold text-neutral-900">
-                  {p.dove} <span className="font-normal text-neutral-400">· {p.fase}</span>
+              <span className="min-w-0 text-[12px] leading-snug">
+                <span className="block font-[650] text-crm-ink">
+                  {p.dove} <span className="font-normal text-crm-spento">· {p.fase}</span>
                 </span>
-                <span className="mt-0.5 block text-neutral-600">{p.cosa}</span>
+                <span className="mt-0.5 block text-crm-testo">{p.cosa}</span>
               </span>
             </li>
           ))}
@@ -135,9 +133,9 @@ export default function MerchandisingView() {
       <Card title="Template merchandising" subtitle="Come si stampa e quale file mandare al fornitore">
         <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
           {OGGETTI.map((o) => (
-            <article key={o.key} className="flex flex-col border border-black/10 p-3.5">
-              <h3 className="text-sm font-bold tracking-tight text-neutral-900">{o.nome}</h3>
-              <dl className="mt-2 space-y-1.5 text-[11px] leading-snug">
+            <article key={o.key} className="flex flex-col rounded-xl bg-white p-3.5 shadow-crm-anello">
+              <h3 className="text-[13px] font-[650] text-crm-ink">{o.nome}</h3>
+              <dl className="mt-2 space-y-1.5 text-[12px] leading-snug">
                 <Riga termine="Stampa" valore={o.tecnica} />
                 <Riga termine="Logo" valore={o.logo} />
                 <Riga termine="Colore" valore={o.supporto} />
@@ -155,25 +153,25 @@ export default function MerchandisingView() {
       <Card title="Loghi e colori" subtitle="I file di partenza per tutto il resto">
         <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
           {LOGHI.map((l) => (
-            <div key={l.src} className="border border-black/10">
+            <div key={l.src} className="overflow-hidden rounded-xl bg-white shadow-crm-anello">
               <div
                 className={cx(
-                  "flex h-24 items-center justify-center border-b border-black/10 p-4",
+                  "flex h-24 items-center justify-center border-b border-crm-filo p-4",
                   FONDO_LOGO[l.fondo]
                 )}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={l.src} alt={l.nome} className="max-h-full max-w-full" />
               </div>
-              <div className="flex items-center gap-2 p-2">
-                <p className="min-w-0 flex-1 truncate text-[11px] font-semibold text-neutral-900">
+              <div className="flex items-center gap-2 p-2 pl-3">
+                <p className="min-w-0 flex-1 truncate text-[12px] font-[550] text-crm-ink">
                   {l.nome}
                 </p>
                 <a
                   href={l.src}
                   download
                   aria-label={`Scarica ${l.nome}`}
-                  className="shrink-0 text-neutral-400 transition-colors hover:text-gold"
+                  className="shrink-0 rounded-lg p-1 text-crm-tenue transition-colors hover:bg-black/5 hover:text-crm-ink"
                 >
                   <Download className="h-4 w-4" />
                 </a>
@@ -182,7 +180,7 @@ export default function MerchandisingView() {
           ))}
         </div>
 
-        <p className="mb-2 mt-6 text-[11px] font-bold uppercase tracking-wide text-neutral-400">
+        <p className="mb-2 mt-6 text-[13px] font-[550] text-crm-testo">
           Colori
         </p>
         <div className="flex flex-wrap gap-2">
@@ -191,19 +189,22 @@ export default function MerchandisingView() {
               key={c.hex}
               type="button"
               onClick={() => copiaColore(c.hex)}
-              className="group flex items-center gap-3 border border-black/10 py-2 pl-2 pr-3.5 text-left transition-colors hover:border-gold"
+              className="group flex items-center gap-3 rounded-xl bg-white py-2 pl-2 pr-3.5 text-left shadow-crm-anello transition-colors hover:bg-crm-fondo"
             >
-              <span className="h-9 w-9 shrink-0" style={{ background: c.hex }} />
+              <span
+                className="h-9 w-9 shrink-0 rounded-lg shadow-[inset_0_0_0_1px_rgba(0,0,0,0.1)]"
+                style={{ background: c.hex }}
+              />
               <span>
-                <span className="block text-xs font-bold text-neutral-900">
+                <span className="block text-[12px] font-[650] text-crm-ink">
                   {c.nome}{" "}
-                  <span className="font-mono font-normal text-neutral-500">
+                  <span className="font-mono font-normal text-crm-tenue">
                     {copiato === c.hex ? "copiato" : c.hex}
                   </span>
                 </span>
-                <span className="block text-[11px] text-neutral-400">{c.stampa}</span>
+                <span className="block text-[12px] text-crm-spento">{c.stampa}</span>
               </span>
-              <Copy className="ml-1 h-3.5 w-3.5 text-neutral-300 transition-colors group-hover:text-gold" />
+              <Copy className="ml-1 h-3.5 w-3.5 text-crm-spento transition-colors group-hover:text-crm-ink" />
             </button>
           ))}
         </div>
@@ -221,7 +222,7 @@ export default function MerchandisingView() {
             type="button"
             onClick={() => setZoom(null)}
             aria-label="Chiudi"
-            className="absolute right-4 top-4 bg-white p-2 text-neutral-900"
+            className="absolute right-4 top-4 rounded-full bg-white p-2 text-crm-ink shadow-crm-pop transition-colors hover:bg-crm-fondo"
           >
             <X className="h-5 w-5" />
           </button>
@@ -230,7 +231,7 @@ export default function MerchandisingView() {
             src={zoom.src}
             alt={zoom.titolo}
             onClick={(e) => e.stopPropagation()}
-            className="max-h-full max-w-full bg-white shadow-2xl"
+            className="max-h-full max-w-full rounded-xl bg-white shadow-crm-pop"
           />
         </div>
       )}
@@ -255,7 +256,7 @@ function Anteprima({
     <button
       type="button"
       onClick={() => onZoom({ titolo, src })}
-      className="group relative block w-full overflow-hidden border border-black/10 bg-neutral-100 text-left"
+      className="group relative block w-full overflow-hidden rounded-xl bg-crm-fondo text-left shadow-crm-anello"
       style={{ aspectRatio: ratio }}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -265,10 +266,10 @@ function Anteprima({
         loading="lazy"
         className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
       />
-      <span className="absolute bottom-0 left-0 bg-neutral-900/80 px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-white">
+      <span className="crm-badge crm-badge-scuro absolute bottom-2 left-2">
         {etichetta}
       </span>
-      <span className="absolute right-2 top-2 bg-white/90 p-1 text-neutral-900 opacity-0 transition-opacity group-hover:opacity-100">
+      <span className="absolute right-2 top-2 rounded-lg bg-white/90 p-1 text-crm-ink opacity-0 shadow-crm-anello transition-opacity group-hover:opacity-100">
         <Maximize2 className="h-3.5 w-3.5" />
       </span>
     </button>
@@ -277,16 +278,7 @@ function Anteprima({
 
 function Scarica({ file, primario = false }: { file: FileScaricabile; primario?: boolean }) {
   return (
-    <a
-      href={file.href}
-      download
-      className={cx(
-        "inline-flex items-center gap-1.5 px-2.5 py-1.5 text-[11px] font-semibold transition-all active:scale-95",
-        primario
-          ? "bg-neutral-900 text-white hover:bg-neutral-800"
-          : "border border-black/15 bg-white text-neutral-900 hover:border-gold hover:text-gold"
-      )}
-    >
+    <a href={file.href} download className={primario ? "crm-btn-primario" : "crm-btn"}>
       <Download className="h-3.5 w-3.5" />
       {file.label}
     </a>
@@ -296,8 +288,8 @@ function Scarica({ file, primario = false }: { file: FileScaricabile; primario?:
 function Riga({ termine, valore }: { termine: string; valore: string }) {
   return (
     <div className="flex gap-2">
-      <dt className="w-12 shrink-0 text-neutral-400">{termine}</dt>
-      <dd className="text-neutral-700">{valore}</dd>
+      <dt className="w-12 shrink-0 text-crm-tenue">{termine}</dt>
+      <dd className="text-crm-testo">{valore}</dd>
     </div>
   );
 }

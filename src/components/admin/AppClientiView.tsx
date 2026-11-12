@@ -8,7 +8,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { ChevronRight, RefreshCw, Search, Smartphone, UserPlus } from "lucide-react";
-import { Badge, Btn, Card, EmptyState, Stat, cx } from "./ui";
+import { Card, EmptyState, Stat, cx, scorriInCima } from "./ui";
 import type { ClienteApp, DataISO } from "@/lib/app-coaching/tipi";
 import { aggiungiGiorni, giorniTra, oggiISO } from "@/lib/app-coaching/date";
 import { api, BASE, Errore, dataBreve, momento, testoErrore } from "./app-clienti/comune";
@@ -17,16 +17,20 @@ import SchedaCliente from "./app-clienti/SchedaCliente";
 
 type Filtro = "attivi" | "pianificare" | "tutti";
 
-/** Quanto manca alla fine del piano: sotto i 3 giorni il cliente sta per restare senza. */
-function statoPiano(c: ClienteApp, oggi: DataISO): { testo: string; tone: string; urgente: boolean } {
-  if (!c.attivo) return { testo: "disattivato", tone: "neutral", urgente: false };
+/**
+ * Quanto manca alla fine del piano: sotto i 3 giorni il cliente sta per restare
+ * senza. `badge` e' il colore del badge Polaris (.crm-badge-*): verde coperto,
+ * giallo in scadenza, rosa finito o senza piano, grigio disattivato.
+ */
+function statoPiano(c: ClienteApp, oggi: DataISO): { testo: string; badge: string; urgente: boolean } {
+  if (!c.attivo) return { testo: "disattivato", badge: "", urgente: false };
   const u = c.ultimoGiornoPianificato;
-  if (!u) return { testo: "senza piano", tone: "red", urgente: true };
-  if (u < oggi) return { testo: `piano finito il ${dataBreve(u)}`, tone: "red", urgente: true };
+  if (!u) return { testo: "senza piano", badge: "crm-badge-errore", urgente: true };
+  if (u < oggi) return { testo: `piano finito il ${dataBreve(u)}`, badge: "crm-badge-errore", urgente: true };
   const n = giorniTra(oggi, u);
-  if (n === 0) return { testo: "finisce oggi", tone: "red", urgente: true };
-  if (n <= 3) return { testo: `finisce tra ${n} ${n === 1 ? "giorno" : "giorni"}`, tone: "amber", urgente: true };
-  return { testo: `fino al ${dataBreve(u)}`, tone: "outline", urgente: false };
+  if (n === 0) return { testo: "finisce oggi", badge: "crm-badge-errore", urgente: true };
+  if (n <= 3) return { testo: `finisce tra ${n} ${n === 1 ? "giorno" : "giorni"}`, badge: "crm-badge-attesa", urgente: true };
+  return { testo: `fino al ${dataBreve(u)}`, badge: "crm-badge-ok", urgente: false };
 }
 
 function quandoFatto(d: DataISO | null, oggi: DataISO): string {
@@ -103,7 +107,7 @@ export default function AppClientiView() {
     setNuovo(false);
     setAppenaCreato(r.cliente.id);
     setApertoId(r.cliente.id);
-    window.scrollTo({ top: 0 });
+    scorriInCima();
   }
 
   /* ---------------------------------------------------- cliente aperto */
@@ -119,20 +123,20 @@ export default function AppClientiView() {
           setApertoId(null);
           setAppenaCreato(null);
           ricarica(); // i riassunti (giorni pianificati, ultimo fatto) sono cambiati
-          window.scrollTo({ top: 0 });
+          scorriInCima();
         }}
         onEliminato={() => {
           setClienti((x) => x.filter((y) => y.id !== aperto.id));
           setApertoId(null);
           setAppenaCreato(null);
-          window.scrollTo({ top: 0 });
+          scorriInCima();
         }}
       />
     );
   }
 
   /* ------------------------------------------------------------ elenco */
-  if (!pronto) return <p className="py-10 text-sm text-neutral-400">Carico i clienti dell&apos;app…</p>;
+  if (!pronto) return <p className="py-10 text-[13px] text-crm-tenue">Carico i clienti dell&apos;app…</p>;
 
   return (
     <div className="space-y-4">
@@ -153,57 +157,21 @@ export default function AppClientiView() {
 
       {errore && <Errore testo={errore} onRiprova={ricarica} />}
 
-      <div className="flex flex-wrap items-center gap-2">
-        {clienti.length > 0 && (
-          <div className="flex border border-black/15 bg-white">
-            {(
-              [
-                ["attivi", "Attivi"],
-                ["pianificare", "Da pianificare"],
-                ["tutti", "Tutti"],
-              ] as const
-            ).map(([k, l]) => (
-              <button
-                key={k}
-                type="button"
-                onClick={() => setFiltro(k)}
-                className={cx(
-                  "px-3 py-2 text-[13px] font-semibold sm:px-3.5",
-                  filtro === k ? "bg-neutral-900 text-white" : "text-neutral-600 hover:bg-black/5"
-                )}
-              >
-                {l}
-                {k === "pianificare" && urgenti > 0 && <span className="ml-1.5 tabular-nums opacity-70">{urgenti}</span>}
-              </button>
-            ))}
-          </div>
-        )}
-        <div className="ml-auto flex w-full items-center gap-2 sm:w-auto">
-          {clienti.length > 0 && (
-            <label className="relative flex-1 sm:w-64 sm:flex-none">
-              <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-400" />
-              <input
-                value={cerca}
-                onChange={(e) => setCerca(e.target.value)}
-                placeholder="Cerca nome, telefono…"
-                className="w-full border border-black/15 bg-white py-2 pl-9 pr-3 text-base text-neutral-900 outline-none placeholder:text-neutral-400 focus:border-neutral-900 sm:text-sm"
-              />
-            </label>
-          )}
-          <button
-            type="button"
-            onClick={ricarica}
-            disabled={ricarico}
-            title="Aggiorna"
-            aria-label="Aggiorna l'elenco"
-            className="inline-flex h-10 w-10 shrink-0 items-center justify-center border border-black/15 bg-white text-neutral-600 hover:border-black/30 disabled:opacity-50"
-          >
-            <RefreshCw className={cx("h-4 w-4", ricarico && "animate-spin")} />
-          </button>
-          <Btn variant="brand" onClick={() => setNuovo(true)} className="shrink-0">
-            <UserPlus className="h-4 w-4" /> Nuovo cliente
-          </Btn>
-        </div>
+      {/* azioni della pagina, come in alto a destra in Shopify */}
+      <div className="flex items-center justify-end gap-2">
+        <button
+          type="button"
+          onClick={ricarica}
+          disabled={ricarico}
+          title="Aggiorna"
+          aria-label="Aggiorna l'elenco"
+          className="crm-btn h-8 w-8 shrink-0 px-0 max-sm:h-9 max-sm:w-9"
+        >
+          <RefreshCw className={cx("h-4 w-4", ricarico && "animate-spin")} />
+        </button>
+        <button type="button" onClick={() => setNuovo(true)} className="crm-btn-primario h-8 shrink-0 max-sm:h-9 max-sm:px-4">
+          <UserPlus className="h-4 w-4" /> Nuovo cliente
+        </button>
       </div>
 
       {nuovo && (
@@ -222,76 +190,118 @@ export default function AppClientiView() {
               icon={<Smartphone className="h-8 w-8" />}
             />
             <div className="-mt-6 flex justify-center pb-10">
-              <Btn variant="brand" onClick={() => setNuovo(true)}>
+              <button type="button" onClick={() => setNuovo(true)} className="crm-btn-primario max-sm:min-h-9 max-sm:px-4">
                 <UserPlus className="h-4 w-4" /> Nuovo cliente
-              </Btn>
+              </button>
             </div>
           </Card>
         )
-      ) : visibili.length === 0 ? (
-        <Card>
-          <EmptyState
-            titolo={filtro === "pianificare" && !q ? "Nessuno da pianificare." : "Nessun cliente con questo filtro."}
-            testo={filtro === "pianificare" && !q ? "Tutti i clienti attivi hanno il piano per almeno 4 giorni." : "Prova con Tutti."}
-            icon={<Smartphone className="h-8 w-8" />}
-          />
-        </Card>
       ) : (
-        <div className="border border-black/10 bg-white">
-          {/* intestazione colonne, solo su schermo largo */}
-          <div className="hidden grid-cols-[minmax(0,1.4fr)_minmax(0,1.3fr)_minmax(0,0.7fr)_minmax(0,0.9fr)_16px] gap-4 border-b border-black/[0.07] px-5 py-2.5 text-[11px] font-semibold text-neutral-400 lg:grid">
-            <span>Cliente</span>
-            <span>Piano</span>
-            <span>Ultimo fatto</span>
-            <span>Ultimo accesso</span>
-            <span />
+        <section className="crm-card p-2">
+          {/* linguette e ricerca, in cima all'elenco come in Shopify */}
+          <div className="flex flex-wrap items-center gap-2 px-1 pb-2 pt-0.5">
+            <div className="flex flex-wrap gap-1">
+              {(
+                [
+                  ["attivi", "Attivi"],
+                  ["pianificare", "Da pianificare"],
+                  ["tutti", "Tutti"],
+                ] as const
+              ).map(([k, l]) => (
+                <button
+                  key={k}
+                  type="button"
+                  aria-pressed={filtro === k}
+                  data-attiva={filtro === k}
+                  onClick={() => setFiltro(k)}
+                  className="crm-linguetta inline-flex items-center max-sm:min-h-9"
+                >
+                  {l}
+                  {k === "pianificare" && urgenti > 0 && (
+                    <span className="ml-1.5 text-[12px] font-medium tabular-nums text-crm-spento">{urgenti}</span>
+                  )}
+                </button>
+              ))}
+            </div>
+            <label className="relative ml-auto w-full sm:w-64">
+              <Search className="pointer-events-none absolute left-2.5 top-1/2 z-10 h-4 w-4 -translate-y-1/2 text-crm-spento" />
+              <input
+                value={cerca}
+                onChange={(e) => setCerca(e.target.value)}
+                placeholder="Cerca nome, telefono…"
+                className="crm-campo pl-8 max-sm:min-h-9"
+              />
+            </label>
           </div>
-          {visibili.map(({ c, s }) => (
-            <button
-              key={c.id}
-              type="button"
-              onClick={() => {
-                setApertoId(c.id);
-                window.scrollTo({ top: 0 });
-              }}
-              className={cx(
-                "grid w-full grid-cols-[minmax(0,1fr)_16px] items-center gap-x-3 gap-y-1 border-b border-black/[0.07] px-4 py-3.5 text-left transition-colors last:border-b-0 hover:bg-black/[0.02] sm:px-5 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1.3fr)_minmax(0,0.7fr)_minmax(0,0.9fr)_16px] lg:gap-4",
-                !c.attivo && "opacity-60"
-              )}
-            >
-              <div className="min-w-0">
-                <p className="flex items-center gap-2">
-                  <span className="truncate text-sm font-bold text-neutral-900">{c.nome}</span>
-                  <span className="shrink-0 text-[10px] font-bold uppercase text-neutral-400">{c.lingua}</span>
-                </p>
-                <p className="truncate text-[12px] text-neutral-500">{c.obiettivo || c.telefono || c.email || "—"}</p>
-                {/* sul telefono il resto sta qui sotto */}
-                <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-neutral-500 lg:hidden">
-                  <Badge tone={s.tone}>{s.testo}</Badge>
-                  {c.attivo && <span>{c.giorniPianificati} giorni pianificati</span>}
-                  <span>fatto: {quandoFatto(c.ultimoFatto, oggi)}</span>
-                  {!c.ultimoAccesso && <span className="font-semibold text-amber-700">mai entrato</span>}
-                </div>
-              </div>
 
-              <div className="hidden min-w-0 lg:block">
-                <Badge tone={s.tone}>{s.testo}</Badge>
-                {c.attivo && (
-                  <p className="mt-1 text-[11px] text-neutral-500">
-                    {c.giorniPianificati === 1 ? "1 giorno pianificato" : `${c.giorniPianificati} giorni pianificati`} da oggi
-                  </p>
-                )}
+          {visibili.length === 0 ? (
+            <EmptyState
+              titolo={filtro === "pianificare" && !q ? "Nessuno da pianificare." : "Nessun cliente con questo filtro."}
+              testo={filtro === "pianificare" && !q ? "Tutti i clienti attivi hanno il piano per almeno 4 giorni." : "Prova con Tutti."}
+              icon={<Smartphone className="h-8 w-8" />}
+            />
+          ) : (
+            <div>
+              {/* intestazione colonne, solo su schermo largo (la testata grigia di Shopify) */}
+              <div className="hidden grid-cols-[minmax(0,1.4fr)_minmax(0,1.3fr)_minmax(0,0.7fr)_minmax(0,0.9fr)_16px] gap-4 rounded-lg bg-crm-fondo px-3 py-1.5 text-[12px] font-[550] leading-4 text-[#4a4a4a] lg:grid">
+                <span>Cliente</span>
+                <span>Piano</span>
+                <span>Ultimo fatto</span>
+                <span>Ultimo accesso</span>
+                <span />
               </div>
-              <p className={cx("hidden text-[13px] lg:block", c.ultimoFatto === oggi ? "font-semibold text-green-700" : "text-neutral-700")}>
-                {quandoFatto(c.ultimoFatto, oggi)}
-              </p>
-              <p className={cx("hidden text-[12px] lg:block", c.ultimoAccesso ? "text-neutral-600" : "font-semibold text-amber-700")}>
-                {c.ultimoAccesso ? momento(c.ultimoAccesso) : "mai entrato"}
-              </p>
-              <ChevronRight className="h-4 w-4 text-neutral-300" />
-            </button>
-          ))}
-        </div>
+              {visibili.map(({ c, s }) => (
+                <button
+                  key={c.id}
+                  type="button"
+                  onClick={() => {
+                    setApertoId(c.id);
+                    scorriInCima();
+                  }}
+                  className={cx(
+                    "grid w-full grid-cols-[minmax(0,1fr)_16px] items-center gap-x-3 gap-y-1 border-b border-crm-filo px-3 py-3 text-left transition-colors last:border-b-0 hover:bg-crm-fondo focus-visible:rounded-lg focus-visible:outline-2 focus-visible:outline-crm-blu lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1.3fr)_minmax(0,0.7fr)_minmax(0,0.9fr)_16px] lg:gap-4",
+                    !c.attivo && "opacity-60"
+                  )}
+                >
+                  <div className="min-w-0">
+                    <p className="flex items-center gap-2">
+                      <span className="truncate text-[13px] font-[650] leading-5 text-crm-ink">{c.nome}</span>
+                      <span className="shrink-0 text-[11px] font-[550] uppercase text-crm-spento">{c.lingua}</span>
+                    </p>
+                    <p className="truncate text-[12px] leading-4 text-crm-tenue">{c.obiettivo || c.telefono || c.email || "—"}</p>
+                    {/* sul telefono il resto sta qui sotto */}
+                    <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] leading-4 text-crm-tenue lg:hidden">
+                      <span className={cx("crm-badge", s.badge)}>{s.testo}</span>
+                      {c.attivo && <span>{c.giorniPianificati} giorni pianificati</span>}
+                      <span>fatto: {quandoFatto(c.ultimoFatto, oggi)}</span>
+                      {!c.ultimoAccesso && <span className="crm-badge crm-badge-attesa">mai entrato</span>}
+                    </div>
+                  </div>
+
+                  <div className="hidden min-w-0 lg:block">
+                    <span className={cx("crm-badge", s.badge)}>{s.testo}</span>
+                    {c.attivo && (
+                      <p className="mt-1 text-[12px] leading-4 text-crm-tenue">
+                        {c.giorniPianificati === 1 ? "1 giorno pianificato" : `${c.giorniPianificati} giorni pianificati`} da oggi
+                      </p>
+                    )}
+                  </div>
+                  <p className={cx("hidden text-[13px] lg:block", c.ultimoFatto === oggi ? "font-[550] text-crm-verde" : "text-crm-testo")}>
+                    {quandoFatto(c.ultimoFatto, oggi)}
+                  </p>
+                  <p className="hidden text-[13px] lg:block">
+                    {c.ultimoAccesso ? (
+                      <span className="text-crm-testo">{momento(c.ultimoAccesso)}</span>
+                    ) : (
+                      <span className="crm-badge crm-badge-attesa">mai entrato</span>
+                    )}
+                  </p>
+                  <ChevronRight className="h-4 w-4 text-crm-spento" />
+                </button>
+              ))}
+            </div>
+          )}
+        </section>
       )}
     </div>
   );
