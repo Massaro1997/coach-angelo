@@ -7,6 +7,7 @@ import { MARCHIO } from "@/lib/app-coaching/marchio";
 import { ICONE, MANIFEST_URL, TEMA } from "./_ui/pwa";
 import Guscio from "./_ui/Guscio";
 import RegistraSW from "./_ui/RegistraSW";
+import Sessione from "./_ui/Sessione";
 import { testiDi } from "./testi";
 
 const descrizione = testiDi("de").descrizioneApp(MARCHIO.coach);
@@ -45,7 +46,8 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: TEMA.superficie,
+  // il grigio della testata di AppShell: barra di stato e testata tutt'uno
+  themeColor: TEMA.fondo,
   colorScheme: "light",
   // Android: con la tastiera aperta la pagina si accorcia (100dvh compreso),
   // come in un'app; su iPhone ci pensa il Guscio con la visualViewport
@@ -65,26 +67,37 @@ const variabili = {
 // Regole che valgono solo dentro l'app (globals.css e' del sito):
 // - html e body fermi: niente scorrimento ne' rimbalzo della pagina intera,
 //   sotto il rimbalzo di iOS e dietro la tastiera non si vede il body del sito;
+// - niente barre di scorrimento (sul computer quella del sito e' rossa e
+//   sembrava una barra laterale): come in un'app si scorre e basta;
 // - controlli da app: niente evidenziazione al tocco, niente selezione del
 //   testo ne' menu del tocco lungo, niente link sottolineati;
-// - le animazioni brevi di fogli e giorni.
+// - le animazioni brevi di fogli e giorni (niente, se il telefono chiede meno movimento).
 const CSS_APP = `
 html,body{background:${TEMA.fondo};color:${TEMA.testo};height:100%;overflow:hidden;overscroll-behavior:none}
 [data-app]{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 [data-app] :is(a,button,label,summary,[role=tab]){-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
 [data-app] a{text-decoration:none}
+[data-app] *{scrollbar-width:none}
+[data-app] ::-webkit-scrollbar{display:none;width:0;height:0}
 [data-app][data-tastiera] .app-via-con-tastiera{display:none}
+/* grafica del sito (globals.css .fp-titolo, .fp-forma): titoli Kanit corsivo maiuscolo, forme inclinate */
+.app-titolo{font-family:var(--font-kanit),var(--font-archivo),sans-serif;font-style:italic;font-weight:700;text-transform:uppercase;letter-spacing:0;line-height:1.05}
+.app-forma{position:absolute;border-radius:14px;transform:skewX(-12deg);pointer-events:none}
 @keyframes app-appare{from{opacity:0}to{opacity:1}}
+@keyframes app-su{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes app-respiro{from{transform:scale(1)}to{transform:scale(1.07)}}
 @keyframes app-sale{from{transform:translateY(100%)}to{transform:none}}
 @keyframes app-da-destra{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
 @keyframes app-da-sinistra{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){[data-app] *{animation:none!important;scroll-behavior:auto!important}}
 `;
 
 export default function AppLayout({ children }: { children: ReactNode }) {
   return (
     <Guscio style={variabili}>
       <style>{CSS_APP}</style>
-      {children}
+      {/* accesso deciso qui per tutte le route (vedi Sessione) */}
+      <Sessione>{children}</Sessione>
       <RegistraSW />
     </Guscio>
   );

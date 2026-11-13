@@ -35,14 +35,22 @@ const de = {
     "„App installieren“ wählen",
   ],
 
-  // testata e menu
+  // comuni
   menu: "Menü",
   chiudi: "Schließen",
   esci: "Abmelden",
   esciConferma: "Wirklich abmelden?",
+  esciTesto: "Zum erneuten Anmelden brauchst du deinen Code.",
   esciSi: "Ja, abmelden",
   annulla: "Abbrechen",
   offline: "Offline: du siehst den zuletzt geladenen Stand.",
+
+  // titoli delle sezioni (testata)
+  titoloPlan: "Plan",
+  titoloFortschritt: "Fortschritt",
+  titoloShop: "Shop",
+  titoloCoach: "Coach",
+  titoloProfil: "Profil",
 
   // home
   ciao: (nome: string) => `Hallo ${nome}`,
@@ -50,9 +58,46 @@ const de = {
   oggi: "Heute",
   nienteOggi: "Für heute ist nichts eingetragen.",
   apriGiorno: "Tag öffnen",
+  apriTraining: "Training öffnen",
+  vediGiorno: "Tag ansehen",
+  vaiAlPiano: "Zum Plan",
   settimana: ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"],
   mesePrima: "Vorheriger Monat",
   meseDopo: "Nächster Monat",
+  questaSettimana: "Diese Woche",
+  serie: (n: number): string => (n === 1 ? "Tag in Folge" : "Tage in Folge"),
+  allenamentiSettimana: "Trainings diese Woche",
+  diPianificati: (n: number) => `von ${n}`,
+  prossimaOra: "Nächste Stunde",
+  nessunaOra: "Keine Stunde gebucht.",
+  prenotaOra: "Stunde buchen",
+  rataAperta: (importo: string) => `Rate offen: ${importo}`,
+  scadeIl: (data: string) => `fällig am ${data}`,
+  scaduta: "überfällig",
+  daPagare: "Zahlung offen",
+  pacchettoFinisce: (data: string) => `Dein Paket endet am ${data}`,
+  pacchettoInScadenza: "Dein Paket läuft bald aus",
+  rinnova: "Jetzt verlängern",
+  contrattoDaFirmare: "Vertrag noch nicht unterschrieben",
+  firmaOra: "Jetzt unterschreiben",
+  messaggiNuovi: (n: number, coach: string) =>
+    n === 1 ? `1 neue Nachricht von ${coach}` : `${n} neue Nachrichten von ${coach}`,
+  leggi: "Lesen",
+
+  // prenotazioni
+  statoPrenotazione: {
+    confermata: "Bestätigt",
+    "da pagare": "Zahlung offen",
+    svolta: "Erledigt",
+    annullata: "Storniert",
+  },
+
+  // piano
+  vistaSettimana: "Woche",
+  vistaMese: "Monat",
+  settimanaPrima: "Vorherige Woche",
+  settimanaDopo: "Nächste Woche",
+  nientePianoBreve: "Kein Plan",
 
   // contenuti del giorno
   training: "Training",
@@ -85,6 +130,7 @@ const de = {
   giornoPrima: "Vorheriger Tag",
   giornoDopo: "Nächster Tag",
   erroreCarica: "Der Plan konnte nicht geladen werden.",
+  erroreCaricaDati: "Die Daten konnten nicht geladen werden.",
   riprova: "Nochmal versuchen",
   domanda: (coach: string) => `Frage an ${coach}?`,
   scriviWhatsapp: "Auf WhatsApp schreiben",
@@ -104,6 +150,36 @@ const de = {
   salvato: "Gespeichert",
   erroreSalva: "Nicht gespeichert. Prüf deine Verbindung und versuch es nochmal.",
 
+  // profilo
+  clienteDal: (quando: string) => `Dabei seit ${quando}`,
+  obiettivoTitolo: "Dein Ziel",
+  contatti: "Kontakt",
+  email: "E-Mail",
+  telefono: "Telefon",
+  nonIndicato: "Nicht angegeben",
+  emailNonValida: "Bitte prüf die E-Mail-Adresse.",
+  telefonoNonValido: "Bitte prüf die Telefonnummer.",
+  lingua: "Sprache",
+  contratto: "Dein Paket",
+  nessunContratto: "Noch kein Paket verbunden.",
+  vaiAlloShop: "Zum Shop",
+  statoAbbonamento: {
+    attivo: "Aktiv",
+    "da firmare": "Zu unterschreiben",
+    "in scadenza": "Läuft bald aus",
+    concluso: "Beendet",
+  },
+  alMese: (importo: string) => `${importo} pro Monat`,
+  finoAl: (data: string) => `bis ${data}`,
+  senzaScadenza: "Ohne feste Laufzeit",
+  prossimaRata: (importo: string, data: string) => `Nächste Rate: ${importo} am ${data}`,
+  app: "App",
+  appInstallata: "Die App ist auf deinem Handy.",
+  legale: "Rechtliches",
+  privacy: "Datenschutz",
+  impressum: "Impressum",
+  erroreLingua: "Die Sprache konnte nicht gespeichert werden.",
+
   // accesso dal link
   entrando: "Du wirst angemeldet …",
   linkNonValido: "Dieser Link funktioniert nicht mehr. Gib einfach deinen Code ein.",
@@ -111,7 +187,8 @@ const de = {
 
   // pagina offline del service worker
   offlineTitolo: "Keine Verbindung",
-  offlineTesto: "Diesen Tag hast du noch nicht offline gespeichert.",
+  offlineTesto: "Diese Seite hast du noch nicht offline gespeichert.",
+  offlineBottone: "Zur App",
 };
 
 export type Testi = typeof de;
@@ -149,18 +226,60 @@ const it: Testi = {
   chiudi: "Chiudi",
   esci: "Esci",
   esciConferma: "Vuoi davvero uscire?",
+  esciTesto: "Per rientrare ti servirà il tuo codice.",
   esciSi: "Sì, esci",
   annulla: "Annulla",
   offline: "Offline: vedi l'ultima versione scaricata.",
+
+  titoloPlan: "Piano",
+  titoloFortschritt: "Progressi",
+  titoloShop: "Shop",
+  titoloCoach: "Coach",
+  titoloProfil: "Profilo",
 
   ciao: (nome) => `Ciao ${nome}`,
   obiettivo: (o) => `Il tuo obiettivo: ${o}`,
   oggi: "Oggi",
   nienteOggi: "Per oggi non c'è niente in programma.",
   apriGiorno: "Apri il giorno",
+  apriTraining: "Apri l'allenamento",
+  vediGiorno: "Vedi il giorno",
+  vaiAlPiano: "Vai al piano",
   settimana: ["Lu", "Ma", "Me", "Gi", "Ve", "Sa", "Do"],
   mesePrima: "Mese prima",
   meseDopo: "Mese dopo",
+  questaSettimana: "Questa settimana",
+  serie: (n) => (n === 1 ? "giorno di fila" : "giorni di fila"),
+  allenamentiSettimana: "Allenamenti questa settimana",
+  diPianificati: (n) => `su ${n}`,
+  prossimaOra: "Prossima ora",
+  nessunaOra: "Nessuna ora prenotata.",
+  prenotaOra: "Prenota un'ora",
+  rataAperta: (importo) => `Rata da pagare: ${importo}`,
+  scadeIl: (data) => `scade il ${data}`,
+  scaduta: "scaduta",
+  daPagare: "Da pagare",
+  pacchettoFinisce: (data) => `Il tuo pacchetto finisce il ${data}`,
+  pacchettoInScadenza: "Il tuo pacchetto sta per finire",
+  rinnova: "Rinnova ora",
+  contrattoDaFirmare: "Contratto ancora da firmare",
+  firmaOra: "Firma ora",
+  messaggiNuovi: (n, coach) =>
+    n === 1 ? `1 nuovo messaggio da ${coach}` : `${n} nuovi messaggi da ${coach}`,
+  leggi: "Leggi",
+
+  statoPrenotazione: {
+    confermata: "Confermata",
+    "da pagare": "Da pagare",
+    svolta: "Svolta",
+    annullata: "Annullata",
+  },
+
+  vistaSettimana: "Settimana",
+  vistaMese: "Mese",
+  settimanaPrima: "Settimana prima",
+  settimanaDopo: "Settimana dopo",
+  nientePianoBreve: "Nessun piano",
 
   training: "Allenamento",
   alimentazione: "Alimentazione",
@@ -191,6 +310,7 @@ const it: Testi = {
   giornoPrima: "Giorno prima",
   giornoDopo: "Giorno dopo",
   erroreCarica: "Non è stato possibile caricare il piano.",
+  erroreCaricaDati: "Non è stato possibile caricare i dati.",
   riprova: "Riprova",
   domanda: (coach) => `Una domanda per ${coach}?`,
   scriviWhatsapp: "Scrivi su WhatsApp",
@@ -209,12 +329,42 @@ const it: Testi = {
   salvato: "Salvato",
   erroreSalva: "Non salvato. Controlla la connessione e riprova.",
 
+  clienteDal: (quando) => `Con noi da ${quando}`,
+  obiettivoTitolo: "Il tuo obiettivo",
+  contatti: "Contatti",
+  email: "Email",
+  telefono: "Telefono",
+  nonIndicato: "Non indicato",
+  emailNonValida: "Controlla l'indirizzo email.",
+  telefonoNonValido: "Controlla il numero di telefono.",
+  lingua: "Lingua",
+  contratto: "Il tuo pacchetto",
+  nessunContratto: "Nessun pacchetto collegato.",
+  vaiAlloShop: "Vai allo shop",
+  statoAbbonamento: {
+    attivo: "Attivo",
+    "da firmare": "Da firmare",
+    "in scadenza": "In scadenza",
+    concluso: "Concluso",
+  },
+  alMese: (importo) => `${importo} al mese`,
+  finoAl: (data) => `fino al ${data}`,
+  senzaScadenza: "Senza scadenza fissa",
+  prossimaRata: (importo, data) => `Prossima rata: ${importo} il ${data}`,
+  app: "App",
+  appInstallata: "L'app è sul tuo telefono.",
+  legale: "Note legali",
+  privacy: "Privacy",
+  impressum: "Impressum",
+  erroreLingua: "Non è stato possibile salvare la lingua.",
+
   entrando: "Ti stiamo facendo entrare …",
   linkNonValido: "Questo link non funziona più. Inserisci il tuo codice.",
   vaiCodice: "Vai al codice",
 
   offlineTitolo: "Nessuna connessione",
-  offlineTesto: "Questo giorno non è ancora salvato sul telefono.",
+  offlineTesto: "Questa pagina non è ancora salvata sul telefono.",
+  offlineBottone: "Apri l'app",
 };
 
 export const TESTI: Record<Lingua, Testi> = { de, it };

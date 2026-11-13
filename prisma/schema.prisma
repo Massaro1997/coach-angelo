@@ -207,7 +207,12 @@ model AppCliente {
   token         String        @unique
   attivo        Boolean       @default(true)
   ultimoAccesso DateTime?
+  // contratto FitPrimo collegato (Preventivo.id): abbonamento, rate, ore incluse
+  preventivoId  String?
   giornate      AppGiornata[]
+  prenotazioni  AppPrenotazione[]
+  misure        AppMisura[]
+  messaggi      AppMessaggio[]
   createdAt     DateTime      @default(now())
   updatedAt     DateTime      @updatedAt
 
@@ -235,4 +240,85 @@ model AppGiornata {
 
   @@unique([clienteId, data])
   @@index([data])
+}
+
+/// Disponibilita' settimanale del coach per le ore 1:1 (dal 13/11/2026).
+model AppSlot {
+  id        String   @id @default(cuid())
+  coach     String   @default("fitprimo")
+  giorno    Int      // 0 = lunedi' ... 6 = domenica
+  inizio    String   // "07:00"
+  fine      String   // "08:00"
+  luogo     String?
+  attivo    Boolean  @default(true)
+  createdAt DateTime @default(now())
+
+  @@index([coach])
+}
+
+/// Giorni in cui il coach non prende prenotazioni (ferie, malattia).
+model AppChiusura {
+  id        String   @id @default(cuid())
+  coach     String   @default("fitprimo")
+  data      String   // YYYY-MM-DD
+  nota      String?
+  createdAt DateTime @default(now())
+
+  @@unique([coach, data])
+}
+
+/// Ora 1:1 prenotata dal cliente (o dal coach per lui).
+/// Nel DB c'e' anche un indice unico parziale (coach, data, inizio) sulle
+/// prenotazioni attive: due clienti non possono prendere la stessa ora.
+model AppPrenotazione {
+  id          String     @id @default(cuid())
+  coach       String     @default("fitprimo")
+  clienteId   String
+  cliente     AppCliente @relation(fields: [clienteId], references: [id], onDelete: Cascade)
+  data        String     // YYYY-MM-DD
+  inizio      String     // "07:00"
+  fine        String     // "08:00"
+  luogo       String?
+  tipo        String     @default("inclusa") // inclusa | extra
+  stato       String     @default("confermata") // confermata | da pagare | svolta | annullata
+  pagamentoId String?    // Pagamento dell'ora extra, se va pagata
+  nota        String?
+  annullataAt DateTime?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@index([coach, data])
+  @@index([clienteId])
+}
+
+/// Misure del corpo segnate dal cliente (peso, circonferenze).
+model AppMisura {
+  id        String     @id @default(cuid())
+  clienteId String
+  cliente   AppCliente @relation(fields: [clienteId], references: [id], onDelete: Cascade)
+  data      String     // YYYY-MM-DD
+  peso      Float?     // kg
+  vita      Float?     // cm
+  fianchi   Float?
+  petto     Float?
+  braccio   Float?
+  coscia    Float?
+  grasso    Float?     // %
+  nota      String?
+  createdAt DateTime   @default(now())
+
+  @@index([clienteId, data])
+}
+
+/// Messaggi tra cliente e coach dentro l'app.
+model AppMessaggio {
+  id        String     @id @default(cuid())
+  clienteId String
+  cliente   AppCliente @relation(fields: [clienteId], references: [id], onDelete: Cascade)
+  daCoach   Boolean
+  testo     String
+  lettoAt   DateTime?
+  createdAt DateTime   @default(now())
+
+  @@index([clienteId, createdAt])
 }

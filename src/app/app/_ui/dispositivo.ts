@@ -4,7 +4,7 @@
 import { useSyncExternalStore } from "react";
 import type { DataISO } from "@/lib/app-coaching/tipi";
 import { aggiungiGiorni } from "@/lib/app-coaching/date";
-import { SCOPE, SW_URL } from "./pwa";
+import { API_DA_PRECARICARE, ROTTE_SEZIONI, SCOPE, SW_URL } from "./pwa";
 
 const nessunCambio = () => () => {};
 
@@ -116,12 +116,16 @@ export function registraSW() {
 // una volta per data: l'app installata resta aperta in memoria per giorni
 let precaricatoPer: DataISO | null = null;
 
-/** Chiede al SW di salvare i giorni vicini: in palestra si aprono anche senza campo. */
+/**
+ * Chiede al SW di salvare le sezioni, i giorni vicini e i progressi: in
+ * palestra l'app si apre anche senza campo. Il SW ne prende al massimo 20.
+ */
 export function precaricaGiorni(oggi: DataISO) {
   if (precaricatoPer === oggi || !SW_ATTIVO || !("serviceWorker" in navigator) || !navigator.onLine) return;
   precaricatoPer = oggi;
-  const urls = [SCOPE];
+  const urls = [SCOPE, ...ROTTE_SEZIONI];
   for (let i = -1; i <= 6; i++) urls.push(`${SCOPE}/giorno/${aggiungiGiorni(oggi, i)}`);
+  urls.push(...API_DA_PRECARICARE);
   navigator.serviceWorker.ready
     .then((reg) => reg.active?.postMessage({ tipo: "precarica", urls }))
     .catch(() => {});

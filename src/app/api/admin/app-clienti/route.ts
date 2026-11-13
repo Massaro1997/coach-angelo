@@ -9,6 +9,7 @@ import { nuovoCodice, nuovoToken } from "@/lib/app-coaching/sessione";
 import { caricaRiassunti, RIASSUNTO_VUOTO, toClienteApp } from "@/lib/app-coaching/serializza";
 import { pulisciDatiCliente } from "@/lib/app-coaching/pulisci";
 import { oggiISO } from "@/lib/app-coaching/date";
+import { contrattiBrevi } from "@/lib/app-coaching/shop";
 
 export const dynamic = "force-dynamic";
 
@@ -20,10 +21,13 @@ export async function GET() {
 
   // solo i clienti di questo marchio: il giorno del white label il DB e' condiviso
   const righe = await prisma.appCliente.findMany({ where: { coach: MARCHIO.chiave } });
-  const riassunti = await caricaRiassunti(
-    righe.map((r) => r.id),
-    oggiISO()
-  );
+  const [riassunti, contratti] = await Promise.all([
+    caricaRiassunti(
+      righe.map((r) => r.id),
+      oggiISO()
+    ),
+    contrattiBrevi(righe.map((r) => r.preventivoId)),
+  ]);
 
   // ordinamento in JS: in Postgres "nome" seguirebbe la collation (maiuscole, umlaut)
   righe.sort(
@@ -33,7 +37,13 @@ export async function GET() {
   );
 
   return NextResponse.json({
-    clienti: righe.map((r) => toClienteApp(r, riassunti.get(r.id) ?? RIASSUNTO_VUOTO)),
+    clienti: righe.map((r) =>
+      toClienteApp(
+        r,
+        riassunti.get(r.id) ?? RIASSUNTO_VUOTO,
+        r.preventivoId ? (contratti.get(r.preventivoId) ?? null) : null
+      )
+    ),
   });
 }
 
@@ -53,6 +63,12 @@ export async function POST(req: NextRequest) {
   const { nome, ...resto } = dati;
   if (!nome) return NextResponse.json({ error: "Il nome e' obbligatorio" }, { status: 400 });
 
+  // il contratto collegato deve esistere: un id sbagliato lascerebbe lo shop vuoto senza dire perche'
+  const contratti = await contrattiBrevi([resto.preventivoId ?? null]);
+  if (resto.preventivoId && !contratti.has(resto.preventivoId)) {
+    return NextResponse.json({ error: "Contratto non trovato" }, { status: 400 });
+  }
+
   // codice e token sono unique: su una collisione (rarissima) se ne tira un altro
   for (let i = 0; i < TENTATIVI_CODICE; i++) {
     try {
@@ -65,7 +81,8 @@ export async function POST(req: NextRequest) {
           token: nuovoToken(),
         },
       });
-      return NextResponse.json({ cliente: toClienteApp(c, RIASSUNTO_VUOTO) }, { status: 201 });
+      const contratto = c.preventivoId ? (contratti.get(c.preventivoId) ?? null) : null;
+      return NextResponse.json({ cliente: toClienteApp(c, RIASSUNTO_VUOTO, contratto) }, { status: 201 });
     } catch (e) {
       if (e instanceof Prisma.PrismaClientKnownRequestError && e.code === "P2002") continue;
       throw e;

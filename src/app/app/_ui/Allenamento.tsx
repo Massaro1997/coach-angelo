@@ -1,25 +1,53 @@
 "use client";
 
-// Training del giorno, dentro la sua linguetta: titolo e durata in una riga,
-// poi gli esercizi come schede, nome grande e i numeri che servono in
-// palestra subito sotto. Lo scorrimento lo fa il pannello che lo contiene.
+// Training del giorno, sotto la foto del giorno (Giorno), che ne porta gia'
+// titolo, durata e numero di esercizi: qui la testata con i manubri 3D, la
+// nota del coach sull'allenamento, poi gli esercizi in UNA card come lista
+// curata (numero nel tondo, nome grande, i numeri che servono in palestra in
+// pillole, note, video come tasto piccolo). Card unica e non una per
+// esercizio: si legge come una scheda d'allenamento, non come un modulo.
+// Nessuno scorrimento proprio: scorre #app-scroll di AppShell.
+// TestataParte e NotaPiano li usa anche Alimentazione: stesse testate e note.
 
 import type { ReactNode } from "react";
-import { CirclePlay, Clock, Dumbbell, Moon, Timer, Weight } from "lucide-react";
+import { IoPlayCircle } from "react-icons/io5";
 import type { Allenamento, Esercizio } from "@/lib/app-coaching/tipi";
 import type { Testi } from "../testi";
 import { CARTA, linkSicuro, useTesti } from "./comuni";
+import { Icona3D } from "./kit";
+import type { NomeIcona } from "./immagini";
 
-function Chip({ children, forte, icona }: { children: ReactNode; forte?: boolean; icona?: ReactNode }) {
+/** Testata di una parte del giorno: icona 3D e titolo. */
+export function TestataParte({ id, icona, titolo }: { id: string; icona: NomeIcona; titolo: ReactNode }) {
+  return (
+    <div className="mb-3 flex items-center gap-3 px-1">
+      <Icona3D nome={icona} dimensione={40} />
+      <h2 id={id} className="min-w-0 flex-1 truncate text-[20px] font-bold">
+        {titolo}
+      </h2>
+    </div>
+  );
+}
+
+/** Nota scritta dal coach su allenamento o pasti: la scheda 3D dice cos'e', niente titoletto. */
+export function NotaPiano({ testo }: { testo: string }) {
+  return (
+    <div className={`${CARTA} flex gap-3 p-4`}>
+      <Icona3D nome="scheda" dimensione={40} />
+      <p className="min-w-0 flex-1 self-center whitespace-pre-line break-words text-[16px] leading-relaxed text-neutral-800">
+        {testo}
+      </p>
+    </div>
+  );
+}
+
+function Pill({ children, forte }: { children: ReactNode; forte?: boolean }) {
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1 tabular-nums ${
-        forte
-          ? "bg-[var(--app-colore)]/10 text-lg font-bold text-[var(--app-colore-scuro)]"
-          : "bg-neutral-100 font-medium text-neutral-800"
+      className={`inline-flex items-center rounded-full bg-neutral-100 px-3 py-1 tabular-nums ${
+        forte ? "text-[16px] font-bold text-neutral-900" : "text-[15px] font-medium text-neutral-700"
       }`}
     >
-      {icona}
       {children}
     </span>
   );
@@ -34,104 +62,71 @@ function serieRipetizioni(e: Esercizio, t: Testi): string | null {
   return null;
 }
 
-function SchedaEsercizio({ e, n }: { e: Esercizio; n: number }) {
+function VoceEsercizio({ e, n }: { e: Esercizio; n: number }) {
   const t = useTesti();
   const sr = serieRipetizioni(e, t);
   const carico = e.carico?.trim();
   const pausa = e.pausa?.trim();
+  const note = e.note?.trim();
   const video = linkSicuro(e.video);
 
   return (
-    <div className={`${CARTA} p-4`}>
-      <div className="flex gap-3">
-        <span className="grid size-8 shrink-0 place-items-center rounded-full bg-neutral-900 text-[15px] font-bold text-white tabular-nums">
-          {n}
-        </span>
-        <div className="min-w-0 flex-1">
-          <h3 className="text-xl font-bold leading-snug break-words">{e.nome}</h3>
-          {(sr || carico || pausa) && (
-            <div className="mt-2 flex flex-wrap gap-2">
-              {sr && <Chip forte>{sr}</Chip>}
-              {carico && (
-                <Chip icona={<Weight className="size-4 text-neutral-500" aria-label={t.carico} />}>{carico}</Chip>
-              )}
-              {pausa && (
-                <Chip icona={<Timer className="size-4 text-neutral-500" aria-hidden />}>{t.pausa(pausa)}</Chip>
-              )}
-            </div>
-          )}
-          {e.note?.trim() && <p className="mt-2 whitespace-pre-line text-neutral-600">{e.note}</p>}
-          {video && (
-            <a
-              href={video}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-3 inline-flex h-11 items-center gap-2 rounded-xl bg-neutral-100 px-4 font-semibold text-neutral-900 active:bg-neutral-200"
-            >
-              <CirclePlay className="size-5 text-[var(--app-colore)]" aria-hidden />
-              {t.video}
-            </a>
-          )}
-        </div>
+    <li className="flex gap-3.5 p-4">
+      <span className="grid size-9 shrink-0 place-items-center rounded-full bg-neutral-900 text-[16px] font-bold text-white tabular-nums">
+        {n}
+      </span>
+      {/* pt: il nome sta in riga col numero */}
+      <div className="min-w-0 flex-1 pt-1">
+        <h3 className="text-[18px] font-bold leading-snug break-words">{e.nome}</h3>
+        {(sr || carico || pausa) && (
+          <div className="mt-2 flex flex-wrap gap-1.5">
+            {sr && <Pill forte>{sr}</Pill>}
+            {carico && (
+              <Pill>
+                <span className="sr-only">{t.carico}: </span>
+                {carico}
+              </Pill>
+            )}
+            {pausa && <Pill>{t.pausa(pausa)}</Pill>}
+          </div>
+        )}
+        {note && <p className="mt-2 whitespace-pre-line break-words text-[15px] leading-relaxed text-neutral-600">{note}</p>}
+        {video && (
+          <a
+            href={video}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex h-11 items-center gap-2 rounded-full bg-neutral-100 pl-3 pr-4 text-[15px] font-semibold text-neutral-900 transition-colors active:bg-neutral-200"
+          >
+            <IoPlayCircle className="size-5 text-[var(--app-colore)]" aria-hidden />
+            {t.video}
+          </a>
+        )}
       </div>
-    </div>
+    </li>
   );
 }
 
-export default function SezioneAllenamento({
-  allenamento,
-  riposo = false,
-  titoloVisibile = false,
-}: {
-  allenamento: Allenamento;
-  /** giorno segnato anche come riposo (es. solo mobilita') */
-  riposo?: boolean;
-  /** senza linguette sopra serve il titolo "Training" */
-  titoloVisibile?: boolean;
-}) {
+export default function SezioneAllenamento({ allenamento }: { allenamento: Allenamento }) {
   const t = useTesti();
-  const titolo = allenamento.titolo?.trim();
-  const durata = allenamento.durata?.trim();
   const esercizi = allenamento.esercizi ?? [];
+  const nota = allenamento.note?.trim();
 
   return (
     <section aria-labelledby="sezione-training">
-      <h2
-        id="sezione-training"
-        className={titoloVisibile ? "mb-2 flex items-center gap-2 text-xl font-bold" : "sr-only"}
-      >
-        <Dumbbell className="size-5 text-[var(--app-colore)]" aria-hidden />
-        {t.training}
-      </h2>
+      {/* durata e numero di esercizi li dice gia' la foto del giorno */}
+      <TestataParte id="sezione-training" icona="manubri" titolo={t.training} />
 
-      {riposo && (
-        <p className="mb-2 inline-flex items-center gap-1.5 rounded-lg bg-neutral-100 px-2.5 py-1 font-medium text-neutral-700">
-          <Moon className="size-4" aria-hidden />
-          {t.riposo}
-        </p>
-      )}
-
-      {(titolo || durata) && (
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-lg">
-          {titolo && <span className="font-semibold">{titolo}</span>}
-          {durata && (
-            <span className="inline-flex items-center gap-1.5 text-neutral-600">
-              <Clock className="size-5" aria-label={t.durata} />
-              {durata}
-            </span>
-          )}
+      {nota && (
+        <div className="mb-3">
+          <NotaPiano testo={nota} />
         </div>
-      )}
-      {allenamento.note?.trim() && (
-        <p className="mt-1.5 whitespace-pre-line text-neutral-700">{allenamento.note}</p>
       )}
 
       {esercizi.length > 0 && (
-        <ol className={`space-y-2.5 ${titolo || durata || allenamento.note?.trim() ? "mt-3" : ""}`}>
+        <ol className={`${CARTA} divide-y divide-black/[0.06] overflow-hidden`}>
           {esercizi.map((e, i) => (
-            <li key={e.id || i}>
-              <SchedaEsercizio e={e} n={i + 1} />
-            </li>
+            <VoceEsercizio key={e.id || i} e={e} n={i + 1} />
           ))}
         </ol>
       )}

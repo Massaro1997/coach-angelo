@@ -13,16 +13,32 @@ export const SCOPE = "/app";
 export const SW_URL = "/app/sw.js";
 export const MANIFEST_URL = "/app/manifest.webmanifest";
 
-/** Cambiare la versione butta tutte le cache al prossimo activate. */
+/**
+ * Cambiare la versione butta tutte le cache al prossimo activate.
+ * v2 (13/11/2026): app con home e barra delle sezioni, le pagine v1 vanno buttate.
+ */
 export const CACHE_PREFISSO = `${MARCHIO.chiave}-app-`;
-export const CACHE_VERSIONE = `${CACHE_PREFISSO}v1`;
+export const CACHE_VERSIONE = `${CACHE_PREFISSO}v2`;
+
+/** Le sezioni della barra in basso (e il profilo): le precarica il SW per l'offline. */
+export const ROTTE_SEZIONI = [
+  `${SCOPE}/plan`,
+  `${SCOPE}/fortschritt`,
+  `${SCOPE}/shop`,
+  `${SCOPE}/coach`,
+  `${SCOPE}/profil`,
+];
+
+/** Dati salvati in anticipo per la palestra senza campo (oltre a quelli che l'app chiede da se'). */
+export const API_DA_PRECARICARE = ["/api/app/progressi"];
 
 /** Il SW lo mette sulle risposte API servite dalla cache (niente rete). */
 export const HEADER_OFFLINE = "x-app-offline";
 
 /** Colori neutri dell'interfaccia (non di marchio: quelli stanno in MARCHIO). */
 export const TEMA = {
-  fondo: "#f4f4f5",
+  // lo stesso grigio del guscio (AppShell): niente bordi tra barra di stato e testata
+  fondo: "#f4f4f6",
   superficie: "#ffffff",
   testo: "#121214",
 } as const;

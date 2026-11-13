@@ -21,8 +21,8 @@ export function GET() {
     orientation: "portrait",
     // fondo dello splash di Android: lo stesso dell'icona
     background_color: MARCHIO.sfondoIcona,
-    // barra di stato chiara come la testata dell'app
-    theme_color: TEMA.superficie,
+    // barra di stato dello stesso grigio della testata dell'app
+    theme_color: TEMA.fondo,
     categories: ["health", "fitness", "lifestyle"],
     icons: [
       { src: ICONE.i192, sizes: "192x192", type: "image/png", purpose: "any" },

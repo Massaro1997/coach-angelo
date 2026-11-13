@@ -1,12 +1,14 @@
 "use client";
 
 // Schermata d'ingresso: codice a 8 cifre che il coach ha mandato al cliente,
-// al centro della schermata. Con la tastiera aperta la zona si accorcia
-// (Guscio) e il campo resta in vista; la riga per installare l'app, in fondo,
-// sparisce finche' la tastiera e' su. Le istruzioni stanno in un foglio.
+// al centro della schermata. La mostra Sessione (layout) su qualsiasi route
+// si entri senza sessione; entrati, Sessione mostra la route stessa. Con la
+// tastiera aperta la zona si accorcia (Guscio) e il campo resta in vista; la
+// riga per installare l'app, in fondo, sparisce finche' la tastiera e' su.
+// Le istruzioni per installare stanno in un foglio.
 
 import { useState, type FormEvent } from "react";
-import { ChevronUp, Smartphone } from "lucide-react";
+import { IoChevronUp, IoPhonePortraitOutline } from "react-icons/io5";
 import { MARCHIO } from "@/lib/app-coaching/marchio";
 import { accedi, type EsitoAccesso } from "./archivio";
 import { useStandalone } from "./dispositivo";
@@ -39,7 +41,7 @@ export default function Ingresso() {
     setInvio(true);
     setErrore(null);
     const esito = await accedi({ codice: cifre });
-    // se va bene la home passa da sola al calendario
+    // se va bene Sessione passa da sola alla route
     if (esito !== "ok") {
       setInvio(false);
       setErrore(messaggio(esito, t));
@@ -54,7 +56,7 @@ export default function Ingresso() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={MARCHIO.logo} alt={MARCHIO.nome} className="h-8 w-auto" />
 
-          <h1 className="fp-titolo mt-8 pr-1 text-[36px]">{t.benvenuto}</h1>
+          <h1 className="mt-8 text-[32px] font-bold leading-tight">{t.benvenuto}</h1>
           <p className="mt-2 text-lg leading-snug text-neutral-600">{t.introCodice(MARCHIO.coach)}</p>
 
           <form onSubmit={invia} className="mt-6" noValidate>
@@ -80,17 +82,17 @@ export default function Ingresso() {
               aria-invalid={errore ? true : undefined}
               aria-describedby={errore ? "errore-codice" : undefined}
               // 30 px: sopra i 16 Safari non ingrandisce la pagina al tocco
-              className="mt-2 h-16 w-full scroll-my-4 rounded-2xl bg-white px-4 text-center text-[30px] font-bold tracking-[0.12em] text-neutral-900 tabular-nums outline-none ring-1 ring-black/10 transition-shadow placeholder:text-neutral-300 focus:ring-2 focus:ring-[var(--app-colore)]"
+              className="mt-2 h-16 w-full scroll-my-4 rounded-[20px] bg-white px-4 text-center text-[30px] font-bold tracking-[0.12em] text-neutral-900 tabular-nums shadow-[0_1px_2px_rgba(0,0,0,0.05)] outline-none ring-1 ring-black/[0.06] transition-shadow placeholder:text-neutral-300 focus:ring-2 focus:ring-neutral-900"
             />
             {errore && (
-              <p id="errore-codice" role="alert" className="mt-2 text-[var(--app-colore-scuro)]">
+              <p id="errore-codice" role="alert" className="mt-2 text-[#7f1d1d]">
                 {errore}
               </p>
             )}
             <button
               type="submit"
               disabled={!completo || invio}
-              className="mt-3 h-14 w-full rounded-2xl bg-[var(--app-colore)] text-lg font-semibold text-white transition-opacity active:opacity-85 disabled:opacity-40"
+              className="mt-3 h-14 w-full rounded-full bg-[var(--app-colore)] text-lg font-semibold text-white transition-opacity active:opacity-85 disabled:opacity-40"
             >
               {invio ? t.attendi : t.entra}
             </button>
@@ -105,11 +107,11 @@ export default function Ingresso() {
             type="button"
             onClick={() => setIstruzioni(true)}
             aria-haspopup="dialog"
-            className="mx-auto flex min-h-12 w-full max-w-md items-center gap-3 rounded-2xl bg-white px-4 text-left ring-1 ring-black/[0.06] transition-colors active:bg-neutral-50"
+            className="mx-auto flex min-h-14 w-full max-w-md items-center gap-3 rounded-[20px] bg-white px-4 text-left shadow-[0_1px_2px_rgba(0,0,0,0.05)] transition-colors active:bg-neutral-50"
           >
-            <Smartphone className="size-5 shrink-0 text-neutral-500" aria-hidden />
+            <IoPhonePortraitOutline className="size-5 shrink-0 text-neutral-500" aria-hidden />
             <span className="min-w-0 flex-1 truncate font-semibold">{t.installaTitolo}</span>
-            <ChevronUp className="size-5 shrink-0 text-neutral-400" aria-hidden />
+            <IoChevronUp className="size-5 shrink-0 text-neutral-400" aria-hidden />
           </button>
         </div>
       )}

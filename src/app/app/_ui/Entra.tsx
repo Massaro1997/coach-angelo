@@ -1,7 +1,8 @@
 "use client";
 
 // /app/entra/<token>: il link che il coach manda su WhatsApp. Si entra col
-// token e si va al calendario; se il link non vale piu', si rimanda al codice.
+// token e si va alla home; se il link non vale piu', si rimanda al codice.
+// Unica route fuori dal controllo di Sessione: e' l'accesso stesso.
 // Tutto al centro della schermata, come l'avvio di un'app.
 
 import { useEffect, useState } from "react";
@@ -51,7 +52,7 @@ export default function Entra({ token }: { token: string }) {
                 setEsito(null);
                 setTentativo((n) => n + 1);
               }}
-              className="mt-6 h-14 w-full rounded-2xl bg-[var(--app-colore)] text-lg font-semibold text-white transition-opacity active:opacity-85"
+              className="mt-6 h-14 w-full rounded-full bg-[var(--app-colore)] text-lg font-semibold text-white transition-opacity active:opacity-85"
             >
               {t.riprova}
             </button>
@@ -59,7 +60,7 @@ export default function Entra({ token }: { token: string }) {
             <Link
               href="/app"
               replace
-              className="mt-6 flex h-14 w-full items-center justify-center rounded-2xl bg-[var(--app-colore)] text-lg font-semibold text-white transition-opacity active:opacity-85"
+              className="mt-6 flex h-14 w-full items-center justify-center rounded-full bg-[var(--app-colore)] text-lg font-semibold text-white transition-opacity active:opacity-85"
             >
               {t.vaiCodice}
             </Link>

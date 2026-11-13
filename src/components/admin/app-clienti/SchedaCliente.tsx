@@ -4,6 +4,8 @@
 // azioni, poi calendario del mese ed editor del giorno toccato. Il modulo del
 // giorno vive qui: se ci sono modifiche non salvate, cambiare giorno, chiudere
 // o tornare all'elenco chiede prima conferma (dentro la pagina).
+// v2: in testata contratto collegato, prossima ora 1:1 e messaggi; sotto il
+// calendario le prossime ore e le misure (pezzi in SchedaV2.tsx).
 
 import { useEffect, useState } from "react";
 import {
@@ -40,6 +42,9 @@ import { daPiano, firma, pulisci, type Modulo } from "./piano";
 import ModuloCliente, { type DatiCliente } from "./ModuloCliente";
 import Calendario from "./Calendario";
 import EditorGiorno from "./EditorGiorno";
+import type { ContrattoCollegabile, ThreadAdmin } from "@/lib/app-coaching/tipi-v2";
+import { attiva, perOrdine, type ClienteAppV2, type Prenotazioni } from "./dati-v2";
+import { Misure, ModuloContratto, ProssimeOre, RigaV2, type ContrattoBreve } from "./SchedaV2";
 
 type Aperto = { data: DataISO; modulo: Modulo; base: string };
 type Azione = { tipo: "giorno"; data: DataISO } | { tipo: "chiudi" } | { tipo: "indietro" };
@@ -54,12 +59,21 @@ function apertoDa(data: DataISO, g: Giornata | null | undefined): Aperto {
 export default function SchedaCliente({
   cliente,
   appenaCreato,
+  prenotazioni,
+  thread,
+  onApriMessaggi,
+  onApriPrenotazioni,
   onCliente,
   onIndietro,
   onEliminato,
 }: {
   cliente: ClienteApp;
   appenaCreato?: boolean;
+  /** tutte le ore 1:1 caricate dal contenitore: qui si filtrano quelle del cliente */
+  prenotazioni: Prenotazioni;
+  thread: ThreadAdmin | null;
+  onApriMessaggi: () => void;
+  onApriPrenotazioni: () => void;
   onCliente: (c: ClienteApp) => void;
   onIndietro: () => void;
   onEliminato: () => void;
@@ -167,6 +181,24 @@ export default function SchedaCliente({
     setModifica(false);
   }
 
+  /* --------------------------------------------- v2: contratto e ore 1:1 */
+  const [contrattoAperto, setContrattoAperto] = useState(false);
+  // dettagli del contratto appena collegato, se la risposta del server non li porta
+  const [contrattoLocale, setContrattoLocale] = useState<ContrattoBreve | null>(null);
+  const v2 = cliente as ClienteAppV2;
+  const contratto: ContrattoBreve | null =
+    v2.contratto !== undefined ? v2.contratto : v2.preventivoId ? contrattoLocale : null;
+  const prossima =
+    prenotazioni.lista
+      .filter((p) => p.clienteId === cliente.id && p.data >= prenotazioni.oggi && attiva(p))
+      .sort(perOrdine)[0] ?? null;
+
+  async function collegaContratto(id: string | null, scelto: ContrattoCollegabile | null) {
+    await patch({ preventivoId: id });
+    setContrattoLocale(scelto ? { numero: scelto.numero, titolo: scelto.titolo, stato: scelto.stato } : null);
+    setContrattoAperto(false);
+  }
+
   const wa = linkWhatsApp(cliente);
   const nomeOk = nomeConferma.trim().toLowerCase() === cliente.nome.trim().toLowerCase();
 
@@ -244,8 +276,14 @@ export default function SchedaCliente({
         </div>
 
         {/* conferme e modifica, sotto la testata */}
-        {(modifica || chiesta || erroreAzione || appenaCreato || nuovoCodice) && (
+        {(modifica || chiesta || erroreAzione || appenaCreato || nuovoCodice || contrattoAperto) && (
           <div className="space-y-3 border-t border-crm-filo p-4 sm:px-5">
+            {contrattoAperto && (
+              <div>
+                <p className="mb-2 text-[13px] font-[650] leading-5 text-crm-ink">Contratto collegato</p>
+                <ModuloContratto cliente={v2} onSalva={collegaContratto} onAnnulla={() => setContrattoAperto(false)} />
+              </div>
+            )}
             {appenaCreato && !nuovoCodice && (
               <Avviso>
                 Cliente creato. Ora mandagli l&apos;accesso con <b className="font-[650]">Manda su WhatsApp</b>, poi scrivi il piano toccando un giorno del calendario.
@@ -381,6 +419,18 @@ export default function SchedaCliente({
           <p className="border-t border-crm-filo px-4 py-2 text-[12px] text-crm-rosso sm:px-5">{erroreCopia}</p>
         )}
 
+        {/* --------------------------- v2: contratto, prossima ora, messaggi */}
+        <RigaV2
+          contratto={contratto}
+          collegato={!!v2.preventivoId}
+          prossima={prossima}
+          oggi={prenotazioni.oggi}
+          thread={thread}
+          onContratto={() => setContrattoAperto(true)}
+          onApriPrenotazioni={onApriPrenotazioni}
+          onApriMessaggi={onApriMessaggi}
+        />
+
         {cliente.note && (
           <p className="whitespace-pre-line border-t border-crm-filo bg-crm-fondo px-4 py-3 text-[13px] leading-5 text-crm-testo sm:px-5">
             <span className="font-[650] text-crm-ink">Note interne: </span>
@@ -457,6 +507,12 @@ export default function SchedaCliente({
             </p>
           </div>
         )}
+      </div>
+
+      {/* ------------------------------------- v2: prossime ore e misure */}
+      <div className="grid gap-4 xl:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] xl:items-start">
+        <ProssimeOre clienteId={cliente.id} pren={prenotazioni} onApriPrenotazioni={onApriPrenotazioni} />
+        <Misure clienteId={cliente.id} />
       </div>
     </div>
   );

@@ -5,15 +5,157 @@
 // Qui: elenco dei clienti dell'app con chi sta per restare senza piano, e la
 // scheda del cliente con calendario ed editor (in ./app-clienti).
 // API: /api/admin/app-clienti, contratto in src/lib/app-coaching/tipi.ts.
+//
+// v2 (13/11/2026): linguette Clienti | Prenotazioni | Disponibilita' |
+// Messaggi. Le ore 1:1 e le conversazioni si caricano qui una volta sola e
+// passano a tutte le linguette (dati-v2.ts); contratto in tipi-v2.ts.
 
-import { useEffect, useMemo, useState } from "react";
-import { ChevronRight, RefreshCw, Search, Smartphone, UserPlus } from "lucide-react";
+import { useEffect, useMemo, useState, type KeyboardEvent } from "react";
+import {
+  CalendarCheck,
+  ChevronRight,
+  Clock,
+  MessageCircle,
+  RefreshCw,
+  Search,
+  Smartphone,
+  UserPlus,
+  Users,
+} from "lucide-react";
 import { Card, EmptyState, Stat, cx, scorriInCima } from "./ui";
 import type { ClienteApp, DataISO } from "@/lib/app-coaching/tipi";
+import type { ThreadAdmin } from "@/lib/app-coaching/tipi-v2";
 import { aggiungiGiorni, giorniTra, oggiISO } from "@/lib/app-coaching/date";
 import { api, BASE, Errore, dataBreve, momento, testoErrore } from "./app-clienti/comune";
+import { usePrenotazioni, useConversazioni, type Prenotazioni } from "./app-clienti/dati-v2";
 import ModuloCliente, { type DatiCliente } from "./app-clienti/ModuloCliente";
 import SchedaCliente from "./app-clienti/SchedaCliente";
+import VistaPrenotazioni from "./app-clienti/VistaPrenotazioni";
+import VistaDisponibilita from "./app-clienti/VistaDisponibilita";
+import VistaMessaggi from "./app-clienti/VistaMessaggi";
+
+/* ====================================================================
+   Contenitore con le linguette
+   ==================================================================== */
+
+type Linguetta = "clienti" | "prenotazioni" | "disponibilita" | "messaggi";
+
+const LINGUETTE: { key: Linguetta; label: string; icon: typeof Users }[] = [
+  { key: "clienti", label: "Clienti", icon: Users },
+  { key: "prenotazioni", label: "Prenotazioni", icon: CalendarCheck },
+  { key: "disponibilita", label: "Disponibilità", icon: Clock },
+  { key: "messaggi", label: "Messaggi", icon: MessageCircle },
+];
+
+export default function AppClientiView({ onNonLetti }: { onNonLetti?: (n: number) => void } = {}) {
+  const [linguetta, setLinguetta] = useState<Linguetta>("clienti");
+  // Una linguetta gia' aperta resta montata (nascosta): orari non salvati,
+  // risposta a meta' o scheda cliente aperta non si perdono cambiando linguetta.
+  const [visitate, setVisitate] = useState<Linguetta[]>(["clienti"]);
+  const [threadAperto, setThreadAperto] = useState<{ id: string; nome: string } | null>(null);
+  const pren = usePrenotazioni();
+  const conv = useConversazioni(onNonLetti);
+
+  function vai(l: Linguetta) {
+    if (l === linguetta) return;
+    setLinguetta(l);
+    setVisitate((v) => (v.includes(l) ? v : [...v, l]));
+    // entrando si ricaricano: i clienti prenotano e annullano dall'app
+    if (l === "prenotazioni" || l === "disponibilita") pren.ricarica();
+    if (l === "messaggi") conv.ricarica();
+    scorriInCima();
+  }
+
+  // frecce sinistra/destra tra le linguette, come nei tablist
+  function tasti(e: KeyboardEvent<HTMLDivElement>) {
+    if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+    e.preventDefault();
+    const i = LINGUETTE.findIndex((x) => x.key === linguetta);
+    const n = LINGUETTE[(i + (e.key === "ArrowRight" ? 1 : -1) + LINGUETTE.length) % LINGUETTE.length];
+    vai(n.key);
+    document.getElementById(`linguetta-app-${n.key}`)?.focus();
+  }
+
+  const pannello = (l: Linguetta) => ({
+    id: `pannello-app-${l}`,
+    role: "tabpanel" as const,
+    "aria-labelledby": `linguetta-app-${l}`,
+    className: linguetta === l ? "" : "hidden",
+  });
+
+  return (
+    <div className="space-y-4">
+      <div
+        role="tablist"
+        aria-label="Sezioni dell'app clienti"
+        onKeyDown={tasti}
+        className="flex flex-wrap gap-1 border-b border-crm-filo pb-2"
+      >
+        {LINGUETTE.map(({ key, label, icon: Icona }) => {
+          const on = linguetta === key;
+          const conta = key === "messaggi" ? conv.nonLetti : 0;
+          return (
+            <button
+              key={key}
+              id={`linguetta-app-${key}`}
+              type="button"
+              role="tab"
+              aria-selected={on}
+              aria-controls={`pannello-app-${key}`}
+              tabIndex={on ? 0 : -1}
+              data-attiva={on}
+              onClick={() => vai(key)}
+              className="crm-linguetta inline-flex items-center gap-1.5 max-sm:min-h-9"
+            >
+              <Icona className="h-4 w-4 shrink-0" strokeWidth={1.75} aria-hidden="true" />
+              {label}
+              {conta > 0 && (
+                <span
+                  className="min-w-5 rounded-full bg-crm-ink px-1.5 text-center text-[11px] font-[650] leading-5 tabular-nums text-white"
+                  aria-label={`${conta} da leggere`}
+                >
+                  {conta}
+                </span>
+              )}
+            </button>
+          );
+        })}
+      </div>
+
+      <div {...pannello("clienti")}>
+        <VistaClienti
+          prenotazioni={pren}
+          thread={conv.thread}
+          onClienteAperto={pren.ricarica}
+          onApriMessaggi={(id, nome) => {
+            setThreadAperto({ id, nome });
+            vai("messaggi");
+          }}
+          onApriPrenotazioni={() => vai("prenotazioni")}
+        />
+      </div>
+      {visitate.includes("prenotazioni") && (
+        <div {...pannello("prenotazioni")}>
+          <VistaPrenotazioni pren={pren} />
+        </div>
+      )}
+      {visitate.includes("disponibilita") && (
+        <div {...pannello("disponibilita")}>
+          <VistaDisponibilita prenotazioni={pren.lista} oggi={pren.oggi} onApriPrenotazioni={() => vai("prenotazioni")} />
+        </div>
+      )}
+      {visitate.includes("messaggi") && (
+        <div {...pannello("messaggi")}>
+          <VistaMessaggi conv={conv} aperto={threadAperto} onApri={setThreadAperto} visibile={linguetta === "messaggi"} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ====================================================================
+   Linguetta Clienti: la vista di prima, invariata
+   ==================================================================== */
 
 type Filtro = "attivi" | "pianificare" | "tutti";
 
@@ -40,7 +182,20 @@ function quandoFatto(d: DataISO | null, oggi: DataISO): string {
   return dataBreve(d);
 }
 
-export default function AppClientiView() {
+function VistaClienti({
+  prenotazioni,
+  thread,
+  onClienteAperto,
+  onApriMessaggi,
+  onApriPrenotazioni,
+}: {
+  prenotazioni: Prenotazioni;
+  thread: ThreadAdmin[];
+  /** si apre una scheda: le sue prossime ore 1:1 vanno ricaricate */
+  onClienteAperto: () => void;
+  onApriMessaggi: (clienteId: string, nome: string) => void;
+  onApriPrenotazioni: () => void;
+}) {
   const [clienti, setClienti] = useState<ClienteApp[]>([]);
   const [pronto, setPronto] = useState(false);
   const [errore, setErrore] = useState("");
@@ -110,6 +265,9 @@ export default function AppClientiView() {
     scorriInCima();
   }
 
+  // messaggi non letti per cliente, per il badge nell'elenco
+  const nonLettiDi = useMemo(() => new Map(thread.map((t) => [t.clienteId, t.nonLetti])), [thread]);
+
   /* ---------------------------------------------------- cliente aperto */
   const aperto = apertoId ? clienti.find((c) => c.id === apertoId) : undefined;
   if (aperto) {
@@ -118,6 +276,10 @@ export default function AppClientiView() {
         key={aperto.id}
         cliente={aperto}
         appenaCreato={appenaCreato === aperto.id}
+        prenotazioni={prenotazioni}
+        thread={thread.find((t) => t.clienteId === aperto.id) ?? null}
+        onApriMessaggi={() => onApriMessaggi(aperto.id, aperto.nome)}
+        onApriPrenotazioni={onApriPrenotazioni}
         onCliente={(c) => setClienti((x) => x.map((y) => (y.id === c.id ? c : y)))}
         onIndietro={() => {
           setApertoId(null);
@@ -256,6 +418,7 @@ export default function AppClientiView() {
                   type="button"
                   onClick={() => {
                     setApertoId(c.id);
+                    onClienteAperto();
                     scorriInCima();
                   }}
                   className={cx(
@@ -267,6 +430,12 @@ export default function AppClientiView() {
                     <p className="flex items-center gap-2">
                       <span className="truncate text-[13px] font-[650] leading-5 text-crm-ink">{c.nome}</span>
                       <span className="shrink-0 text-[11px] font-[550] uppercase text-crm-spento">{c.lingua}</span>
+                      {(nonLettiDi.get(c.id) ?? 0) > 0 && (
+                        <span className="crm-badge crm-badge-info shrink-0">
+                          <MessageCircle className="h-3 w-3" aria-hidden="true" />
+                          {nonLettiDi.get(c.id)} da leggere
+                        </span>
+                      )}
                     </p>
                     <p className="truncate text-[12px] leading-4 text-crm-tenue">{c.obiettivo || c.telefono || c.email || "—"}</p>
                     {/* sul telefono il resto sta qui sotto */}

@@ -4,8 +4,8 @@
 // riga in fondo alla schermata del codice). iPhone: solo a mano da Safari
 // (Apple non ha un bottone). Android: il bottone di Chrome quando c'e', se no a mano.
 
-import type { LucideIcon } from "lucide-react";
-import { Download, EllipsisVertical, Share, SquarePlus } from "lucide-react";
+import { IoAddCircleOutline, IoDownloadOutline, IoEllipsisVertical, IoShareOutline } from "react-icons/io5";
+import type { IconType } from "react-icons";
 import { installa, usePiattaforma, usePuoInstallare } from "./dispositivo";
 import { useTesti } from "./comuni";
 import Foglio from "./Foglio";
@@ -18,7 +18,7 @@ function Passi({
 }: {
   titolo?: string;
   passi: string[];
-  icone: (LucideIcon | null)[];
+  icone: (IconType | null)[];
   nota?: string;
 }) {
   return (
@@ -58,9 +58,9 @@ export function Installa() {
         <button
           type="button"
           onClick={() => void installa()}
-          className="flex h-14 w-full items-center justify-center gap-2 rounded-2xl bg-neutral-900 text-lg font-semibold text-white transition-opacity active:opacity-80"
+          className="flex h-14 w-full items-center justify-center gap-2 rounded-full bg-neutral-900 text-lg font-semibold text-white transition-opacity active:opacity-80"
         >
-          <Download className="size-5" aria-hidden />
+          <IoDownloadOutline className="size-5" aria-hidden />
           {t.installaBottone}
         </button>
       )}
@@ -68,7 +68,7 @@ export function Installa() {
         <Passi
           titolo={entrambe ? t.iphone : undefined}
           passi={t.passiIphone}
-          icone={[Share, SquarePlus, null]}
+          icone={[IoShareOutline, IoAddCircleOutline, null]}
           nota={t.notaIphone}
         />
       )}
@@ -76,7 +76,7 @@ export function Installa() {
         <Passi
           titolo={entrambe ? t.android : undefined}
           passi={t.passiAndroid}
-          icone={[EllipsisVertical, Download]}
+          icone={[IoEllipsisVertical, IoDownloadOutline]}
         />
       )}
     </div>

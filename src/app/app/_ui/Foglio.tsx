@@ -3,10 +3,15 @@
 // Foglio che sale dal basso (bottom sheet), come nelle app. Copre la parte di
 // schermo che si vede (sopra la tastiera, vedi Guscio); si chiude toccando il
 // fondo scuro, con la X, con Esc o tirandolo giu' dalla maniglia. Se il
-// contenuto e' piu' alto dello schermo scorre dentro il foglio, non la pagina.
+// contenuto e' piu' alto dello schermo scorre dentro il foglio, non la pagina:
+// e' l'unica zona che scorre oltre a #app-scroll di AppShell.
+// Si disegna dentro il Guscio ([data-app]) con un portale: cosi' nessun
+// genitore animato (il giorno che entra di lato ha un transform) lo puo'
+// spostare o tagliare, e restano le variabili della tastiera.
 
 import { useEffect, useEffectEvent, useId, useRef, type ReactNode, type TouchEvent } from "react";
-import { X } from "lucide-react";
+import { createPortal } from "react-dom";
+import { IoClose } from "react-icons/io5";
 import { SOVRAPPOSTO, useTesti } from "./comuni";
 
 /** px verso il basso per chiudere tirando la maniglia */
@@ -54,7 +59,7 @@ export default function Foglio({
     if (y !== null && p && p.clientY - y > TIRO_CHIUDE) onChiudi();
   }
 
-  return (
+  const foglio = (
     // i tocchi nel foglio non arrivano alla schermata sotto: nell'albero di
     // React il foglio puo' stare dentro la zona dove il dito di lato cambia giorno
     <div
@@ -98,7 +103,7 @@ export default function Foglio({
               aria-label={t.chiudi}
               className="grid size-11 shrink-0 place-items-center rounded-full text-neutral-500 active:bg-neutral-100"
             >
-              <X className="size-6" aria-hidden />
+              <IoClose className="size-6" aria-hidden />
             </button>
           </div>
         </div>
@@ -109,4 +114,8 @@ export default function Foglio({
       </div>
     </div>
   );
+
+  // si apre sempre dopo un tocco, mai sul server: document c'e'
+  const guscio = typeof document === "undefined" ? null : document.querySelector<HTMLElement>("[data-app]");
+  return guscio ? createPortal(foglio, guscio) : foglio;
 }

@@ -2,12 +2,16 @@
 //
 // Perche' cosi': in palestra spesso non c'e' campo e il cliente deve vedere
 // il piano lo stesso. Quindi:
-//  - dati (/api/app/io, /api/app/giornate*): rete prima, copia in cache; se la
-//    rete non risponde entro pochi secondi si serve la copia, segnata con
-//    l'header HEADER_OFFLINE cosi' l'app lo puo' dire;
-//  - pagine /app gia' viste: rete prima, copia in cache; i giorni vicini li
-//    precarica l'app con un messaggio "precarica";
+//  - dati (/api/app/io, /api/app/home, /api/app/progressi, /api/app/giornate*):
+//    rete prima, copia in cache; se la rete non risponde entro pochi secondi si
+//    serve la copia, segnata con l'header HEADER_OFFLINE cosi' l'app lo puo' dire;
+//  - shop, prenotazioni, messaggi, misure: mai in cache (prezzi, ore libere e
+//    chat vecchie farebbero piu' danni di un "offline");
+//  - pagine /app gia' viste: rete prima, copia in cache; sezioni e giorni
+//    vicini (e /api/app/progressi) li precarica l'app con un messaggio "precarica";
 //  - /_next/static: hanno l'hash nel nome, prima la cache;
+//  - foto e icone 3D dell'app (/app-img, dal 13/11): copia salvata subito e
+//    intanto si aggiorna, come logo e icone (in palestra le card restano belle);
 //  - POST/PUT/DELETE: mai toccati, vanno dritti in rete.
 // Il codice e' una stringa (non un file in public/) per prendere nomi e colori
 // da MARCHIO e i testi da testi.ts.
@@ -17,8 +21,8 @@ import { CACHE_PREFISSO, CACHE_VERSIONE, HEADER_OFFLINE, ICONE, SCOPE, TEMA } fr
 import { TESTI } from "../testi";
 
 const testiOffline = {
-  de: { titolo: TESTI.de.offlineTitolo, testo: TESTI.de.offlineTesto, bottone: TESTI.de.calendario },
-  it: { titolo: TESTI.it.offlineTitolo, testo: TESTI.it.offlineTesto, bottone: TESTI.it.calendario },
+  de: { titolo: TESTI.de.offlineTitolo, testo: TESTI.de.offlineTesto, bottone: TESTI.de.offlineBottone },
+  it: { titolo: TESTI.it.offlineTitolo, testo: TESTI.it.offlineTesto, bottone: TESTI.it.offlineBottone },
 };
 
 const costanti = {
@@ -63,8 +67,15 @@ function paginaDaSalvare(p) {
   );
 }
 
+// solo letture che servono in palestra; tutto il resto di /api va dritto in rete
 function apiDati(p) {
-  return p === "/api/app/io" || p === "/api/app/giornate" || p.indexOf("/api/app/giornate/") === 0;
+  return (
+    p === "/api/app/io" ||
+    p === "/api/app/home" ||
+    p === "/api/app/progressi" ||
+    p === "/api/app/giornate" ||
+    p.indexOf("/api/app/giornate/") === 0
+  );
 }
 
 function conAttesa(promessa, ms) {
@@ -255,6 +266,16 @@ async function salvaStatici(testo, cache, visti) {
   }
 }
 
+// dati (progressi): come la cache di dati(), cosi' offline li serve dati()
+async function precaricaDati(url) {
+  const cache = await caches.open(C_DATI);
+  const v = await cache.match(url.href, OPZ);
+  const data = v ? Date.parse(v.headers.get("date") || "") : NaN;
+  if (v && Date.now() - data < FRESCA) return;
+  const res = await fetch(url.href, { cache: "no-store" });
+  if (res.ok) await cache.put(url.href, res);
+}
+
 async function precarica(urls) {
   const pagine = await caches.open(C_PAGINE);
   const statici = await caches.open(C_STATICI);
@@ -262,7 +283,12 @@ async function precarica(urls) {
   for (const u of urls.slice(0, 20)) {
     let url;
     try { url = new URL(u, self.location.origin); } catch (e) { continue; }
-    if (url.origin !== self.location.origin || !paginaDaSalvare(url.pathname)) continue;
+    if (url.origin !== self.location.origin) continue;
+    if (apiDati(url.pathname)) {
+      try { await precaricaDati(url); } catch (e) {}
+      continue;
+    }
+    if (!paginaDaSalvare(url.pathname)) continue;
     const chiave = url.origin + url.pathname;
     try {
       const v = await pagine.match(chiave, OPZ);
@@ -329,7 +355,10 @@ self.addEventListener("fetch", function (event) {
   }
 
   if (p.indexOf("/_next/static/") === 0) { event.respondWith(statico(req)); return; }
-  if (p.indexOf("/brand/") === 0 || p.indexOf("/app-icone/") === 0) { event.respondWith(marchio(event)); return; }
+  if (p.indexOf("/brand/") === 0 || p.indexOf("/app-icone/") === 0 || p.indexOf("/app-img/") === 0) {
+    event.respondWith(marchio(event));
+    return;
+  }
 
   if (inApp(p) && req.headers.get("RSC") === "1" && !req.headers.get("Next-Router-Prefetch")) {
     event.respondWith(rsc(req));

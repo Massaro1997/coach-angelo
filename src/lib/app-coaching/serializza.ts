@@ -66,7 +66,15 @@ export function linkAccesso(token: string): string {
   return `${MARCHIO.sito}/app/entra/${token}`;
 }
 
-export function toClienteApp(r: AppCliente, riassunto: RiassuntoCliente): ClienteApp {
+/**
+ * `contratto`: il riassunto del contratto collegato (contrattiBrevi in
+ * shop.ts); senza, la scheda mostra solo che c'e' un preventivoId.
+ */
+export function toClienteApp(
+  r: AppCliente,
+  riassunto: RiassuntoCliente,
+  contratto: ClienteApp["contratto"] = null
+): ClienteApp {
   return {
     id: r.id,
     nome: r.nome,
@@ -83,6 +91,8 @@ export function toClienteApp(r: AppCliente, riassunto: RiassuntoCliente): Client
     giorniPianificati: riassunto.giorniPianificati,
     ultimoGiornoPianificato: riassunto.ultimoGiornoPianificato,
     ultimoFatto: riassunto.ultimoFatto,
+    preventivoId: r.preventivoId,
+    contratto: r.preventivoId ? contratto : null,
   };
 }
 

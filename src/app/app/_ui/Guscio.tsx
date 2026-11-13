@@ -1,8 +1,8 @@
 "use client";
 
 // Il guscio dell'app: una schermata sola, alta esattamente quanto lo schermo,
-// come un'app vera. La pagina non scorre mai; scorrono solo le zone che lo
-// dichiarano (lista esercizi, pasti, fogli dal basso).
+// come un'app vera. La pagina non scorre mai; scorrono solo #app-scroll di
+// AppShell (una zona per schermata) e i fogli dal basso.
 //
 // Di solito l'altezza e' 100dvh. Con la tastiera aperta (su iPhone la pagina
 // non si accorcia: la tastiera ci finisce sopra) il guscio segue la parte
@@ -11,6 +11,7 @@
 // --app-alto, --app-su e --app-sotto le leggono anche i fogli (SOVRAPPOSTO).
 
 import { useEffect, useRef, type CSSProperties, type ReactNode } from "react";
+
 
 /** Quanto si deve accorciare lo schermo perche' sia la tastiera e non altro. */
 const SOGLIA_TASTIERA = 150;

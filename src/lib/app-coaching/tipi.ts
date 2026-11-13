@@ -106,6 +106,10 @@ export type ClienteApp = {
   giorniPianificati: number; // giornate da oggi in avanti
   ultimoGiornoPianificato: DataISO | null;
   ultimoFatto: DataISO | null;
+  // contratto FitPrimo collegato (v2); stato = quello visto dal cliente
+  // (attivo, da firmare, in scadenza, concluso)
+  preventivoId: string | null;
+  contratto: { numero: string; titolo: string; stato: string } | null;
 };
 
 /* ------------------------------------------------------------------ API
@@ -121,7 +125,7 @@ Gestionale (cookie admin, requireAdmin):
   GET    /api/admin/app-clienti                                -> {clienti: ClienteApp[]}
   POST   /api/admin/app-clienti      body {nome, email?, telefono?, lingua?, obiettivo?, note?}
                                                                -> {cliente: ClienteApp}
-  PATCH  /api/admin/app-clienti/[id] body Partial<{nome,email,telefono,lingua,obiettivo,note,attivo}>
+  PATCH  /api/admin/app-clienti/[id] body Partial<{nome,email,telefono,lingua,obiettivo,note,attivo,preventivoId}>
                                      | {nuovoCodice: true}     -> {cliente: ClienteApp}
   DELETE /api/admin/app-clienti/[id]                           -> {ok}
   GET    /api/admin/app-clienti/[id]/giornate?mese=YYYY-MM     -> {giornate: Giornata[], oggi: DataISO}

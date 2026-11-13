@@ -253,6 +253,8 @@ export type DatiCliente = {
   obiettivo?: string | null;
   note?: string | null;
   attivo?: boolean;
+  /** Preventivo.id del contratto collegato; che esista lo verifica la rotta. */
+  preventivoId?: string | null;
 };
 
 const RE_EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -287,6 +289,12 @@ export function pulisciDatiCliente(
   if (presente(o, "attivo")) {
     if (typeof o.attivo !== "boolean") return { dati: null, errore: "Valore di attivo non valido" };
     dati.attivo = o.attivo;
+  }
+  if (presente(o, "preventivoId")) {
+    // null o "" = scollega
+    if (o.preventivoId === null || o.preventivoId === "") dati.preventivoId = null;
+    else if (typeof o.preventivoId === "string" && RE_ID.test(o.preventivoId)) dati.preventivoId = o.preventivoId;
+    else return { dati: null, errore: "Contratto non valido" };
   }
   return { dati, errore: null };
 }

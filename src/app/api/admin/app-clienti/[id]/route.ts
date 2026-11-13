@@ -9,6 +9,7 @@ import { nuovoCodice, nuovoToken } from "@/lib/app-coaching/sessione";
 import { caricaRiassunti, RIASSUNTO_VUOTO, toClienteApp } from "@/lib/app-coaching/serializza";
 import { pulisciDatiCliente } from "@/lib/app-coaching/pulisci";
 import { oggiISO } from "@/lib/app-coaching/date";
+import { contrattiBrevi } from "@/lib/app-coaching/shop";
 
 export const dynamic = "force-dynamic";
 
@@ -42,6 +43,12 @@ export async function PATCH(
   });
   if (!esiste) return NextResponse.json({ error: "Non trovato" }, { status: 404 });
 
+  // il contratto collegato deve esistere: un id sbagliato lascerebbe lo shop vuoto senza dire perche'
+  if (dati.preventivoId) {
+    const c = await prisma.preventivo.findUnique({ where: { id: dati.preventivoId }, select: { id: true } });
+    if (!c) return NextResponse.json({ error: "Contratto non trovato" }, { status: 400 });
+  }
+
   // Nuovo codice = accesso da rifare: il codice entra nella firma del cookie,
   // quindi le sessioni aperte cadono. Si cambia anche il token, se no il
   // vecchio link su WhatsApp farebbe rientrare chi non deve piu'.
@@ -51,8 +58,12 @@ export async function PATCH(
         where: { id },
         data: rigenera ? { ...dati, codice: nuovoCodice(), token: nuovoToken() } : dati,
       });
-      const riassunto = (await caricaRiassunti([id], oggiISO())).get(id) ?? RIASSUNTO_VUOTO;
-      return NextResponse.json({ cliente: toClienteApp(c, riassunto) });
+      const [riassunti, contratti] = await Promise.all([
+        caricaRiassunti([id], oggiISO()),
+        contrattiBrevi([c.preventivoId]),
+      ]);
+      const contratto = c.preventivoId ? (contratti.get(c.preventivoId) ?? null) : null;
+      return NextResponse.json({ cliente: toClienteApp(c, riassunti.get(id) ?? RIASSUNTO_VUOTO, contratto) });
     } catch (e) {
       if (e instanceof Prisma.PrismaClientKnownRequestError) {
         if (e.code === "P2002" && rigenera) continue;
