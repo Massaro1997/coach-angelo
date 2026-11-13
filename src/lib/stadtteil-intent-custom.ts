@@ -6809,6 +6809,240 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "brueck/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Brück ist Kraft, die du draußen wiederfindest: zwei geführte Einheiten pro Woche bei dir zu Hause bauen Beine, Rücken und Griffkraft auf, die du am Wochenende im Königsforst tatsächlich benutzt. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Brück: geführtes Krafttraining zu Hause statt Stromweste, Kraft für Königsforst und Alltag. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Kraft, die du benutzen kannst, statt eines Reizes im Studio",
+        body: "EMS reizt Muskeln unter einer Weste, während du fast stillstehst. Was dabei nicht entsteht: Bewegungen, die du außerhalb des Studios abrufen kannst. In Brück liegt der Königsforst direkt an der Veedelgrenze, und genau daran messe ich das Training. Kniebeugen, Ausfallschritte und Zugübungen mit steigender Last machen sich bemerkbar, wenn du dort wanderst, läufst oder mit dem Rad die Forstwege fährst. Eine Stromweste macht das nicht, egal wie oft du hingehst.",
+      },
+      {
+        title: "Zwei Einheiten pro Woche, bei dir zu Hause in Brück",
+        body: "Ich komme mit Kurzhanteln, Kettlebell und Bändern zu dir, zwischen Olpener Straße und Waldrand. Jede Einheit dauert 45 bis 60 Minuten: Aufwärmen, drei bis vier Grundübungen mit protokollierter Last, zum Schluss Rumpf. Alle vier bis sechs Wochen vergleichen wir die Zahlen. Du siehst, was stärker geworden ist, statt es glauben zu müssen. Einen Jahresvertrag gibt es bei mir nicht, du buchst Stunden.",
+      },
+      {
+        title: "Warum gerade Brück dafür gebaut ist",
+        body: "Das Veedel hat gut 10.000 Einwohner auf 7,5 Quadratkilometern und mit der Stadtbahn-Linie 1 eine direkte Achse in die Stadt. Viele hier sind sowieso draußen unterwegs, im Königsforst oder auf dem Mauspfad. Für die ist ein Training sinnlos, das nur in einem Studioraum existiert. Sinnvoller ist der Kreislauf aus zwei Krafteinheiten pro Woche und der Bewegung, die du ohnehin schon magst: Die Kraft aus dem Wohnzimmer macht die Waldrunde leichter, und die Waldrunde hält dich zwischen den Einheiten in Schwung.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Brück?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€, Anfahrt und Material inklusive. Es gibt keinen Jahresvertrag und keine Aufnahmegebühr. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ist EMS nicht viel zeitsparender?",
+        a: "Die reine Impulszeit ist kürzer, aber der Effekt bleibt im Studio. Zwei richtige Krafteinheiten pro Woche bauen Technik und Last auf, die draußen und im Alltag tragen. Zeit sparst du bei mir an anderer Stelle: Ich komme nach Brück, du fährst nirgendwo hin.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Nein. Ich bringe alles mit, was wir für steigende Lasten brauchen. Ein freies Stück Boden von zwei mal zwei Metern reicht, der Garten geht im Sommer genauso.",
+      },
+      {
+        q: "Ich war lange nicht sportlich aktiv. Ist das trotzdem machbar?",
+        a: "Ja. Wir starten mit einem Technik-Check an leichten Gewichten und steigern erst, wenn die Ausführung sitzt. Das Protokoll richtet sich nach deinem Stand, nicht nach einem Standardplan.",
+      },
+    ],
+  },
+
+  "holweide/personal-training": {
+    answer:
+      "Personal Training in Köln-Holweide plane ich um Dienste und Familienzeiten, nicht umgekehrt: 1-zu-1 bei dir zu Hause, mit Terminen, die auch vor dem Frühdienst oder nach der Übergabe funktionieren. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Holweide: 1-zu-1 zu Hause, Termine passend zu Dienstplan und Familie, Kraft für Rücken und Alltag. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Veedel, in dem viele beruflich körperlich arbeiten",
+        body: "Holweide ist das Veedel des Evangelischen Krankenhauses, einer der großen Kliniken im Kölner Osten. Viele Anfragen von hier kommen aus Pflege, Praxis und Therapie: Menschen, die acht bis zwölf Stunden auf den Beinen sind, heben, stützen und umlagern, und deren Rücken das irgendwann quittiert. Für diesen Alltag trainiere ich gezielt: Kreuzheben-Varianten für sauberes Heben, Rumpfkraft fürs Stützen, Beinkraft für lange Stehphasen. Das ist kein Fitnessprogramm neben dem Beruf, es ist eines für den Beruf.",
+      },
+      {
+        title: "Termine, die mit dem Dienstplan leben",
+        body: "Ein fester Montagabend nützt nichts, wenn deine Woche zwischen Früh-, Spät- und Wochenenddienst wechselt. Deshalb legen wir die zwei Einheiten pro Woche jede Woche neu, auch morgens um sieben oder am frühen Nachmittag vor dem Spätdienst. Trainiert wird bei dir zu Hause, ich bringe das Material mit. Holweide ist mit 21.000 Einwohnern auf gut vier Quadratkilometern dicht gebaut, zwischen zwei Terminen im Veedel liegen für mich nur Minuten, deshalb kann ich hier auch kurzfristig Zeiten halten.",
+      },
+      {
+        title: "Plan, Protokoll und messbare Schritte",
+        body: "Jede Einheit folgt einem Plan: Aufwärmen, Grundübungen mit dokumentierter Steigerung, gezielte Arbeit an deinen Schwachstellen. Alle vier bis sechs Wochen messen wir nach, Kraftwerte und, wenn du willst, Umfänge und Gewicht. Wenn Abnehmen Teil des Ziels ist, rechnet Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, dein Kalorienziel dazu. Auch das läuft flexibel per App und Video, ohne zusätzliche Termine im Kalender.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Holweide?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Alternativ gibt es das Online Coaching ab 150€ im Monat mit Plan in der App und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite im Schichtdienst. Wie flexibel sind die Termine wirklich?",
+        a: "Wir planen Woche für Woche neu, passend zu deinem Dienstplan. Frühe Morgentermine und frühe Nachmittage sind ausdrücklich möglich, nicht nur der klassische Feierabend.",
+      },
+      {
+        q: "Mein Rücken meldet sich schon. Kann ich trotzdem trainieren?",
+        a: "In den meisten Fällen ja, gerade dann. Wir starten mit einem Check und bauen Belastung schrittweise auf. Bei akuten Beschwerden oder nach Verletzungen gehört die ärztliche Abklärung zuerst dazu, danach übernehme ich.",
+      },
+      {
+        q: "Wo findet das Training statt?",
+        a: "Bei dir zu Hause in Holweide, ich bringe alles mit. Wer lieber draußen trainiert: Die Dellbrücker Heide und der Thielenbruch liegen direkt hinter der Veedelgrenze und eignen sich gut für Ausdauer-Anteile.",
+      },
+    ],
+  },
+
+  "eil/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Eil macht aus dem weitläufigsten Veedel von Porz dein Trainingsgelände: Kraftplan in der App für zu Hause, Ausdauereinheiten auf den Wegen der Wahner Heide, wöchentlicher Video-Check-in mit mir. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Eil: Kraftplan per App für zu Hause, Ausdauer in der Wahner Heide, wöchentlicher Video-Check-in. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "16 Quadratkilometer Veedel, null Studio nötig",
+        body: "Eil ist flächenmäßig riesig: gut 16 Quadratkilometer, aber nur rund 9.300 Einwohner, weil ein großer Teil zur Wahner Heide gehört. Ein Fitnessstudio suchst du im Ortskern vergeblich, und genau deshalb funktioniert hier Online Coaching so gut. Die Kraftarbeit passiert zu Hause nach Plan in der App, mit Übungen, die zu deinem Material passen. Die Ausdauer holst du dir vor der Haustür: Die Heide beginnt am Ortsrand, und ihre markierten Wege sind flach genug für saubere, vergleichbare Läufe und zügige Geh-Einheiten.",
+      },
+      {
+        title: "So funktioniert der Plan in der Praxis",
+        body: "Nach dem kostenlosen Erstgespräch bekommst du deinen Plan in die App: zwei bis drei Krafteinheiten für zu Hause, dazu Ausdauervorgaben für die Heide mit Pulsbereich oder Tempo, je nachdem, womit du arbeitest. Du hakst jede Einheit ab, ich lese mit. Einmal pro Woche sprechen wir per Video: Was lief, was nicht, was ändern wir. Die Wahner Heide ist Naturschutzgebiet, geplant wird deshalb konsequent auf den freigegebenen Wegen, die für Training mehr als genug hergeben.",
+      },
+      {
+        title: "Ernährung läuft im selben System mit",
+        body: "Wenn du nebenbei Gewicht verlieren oder Muskeln aufbauen willst, steigt Natalie ein, unsere Ernährungsberaterin für Sport- und Fitnessernährung. Sie legt mit dir Kalorien- und Eiweißziel fest und schaut wöchentlich auf deine Fotos und Einträge. Alles in derselben App, ohne zweiten Anbieter. Und wenn du zwischendurch eine Technik-Kontrolle mit mir vor Ort willst: Die 1-zu-1 Stunde in Eil kostet 50€ und lässt sich mit dem Online Coaching kombinieren.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Eil?",
+        a: "Ab 150€ im Monat, mit Trainingsplan in der App, Ernährungssteuerung und wöchentlichem Video-Check-in. Das Erstgespräch ist kostenlos, eine Mindestlaufzeit über die Garantiezeit von 14 Tagen hinaus gibt es nicht.",
+      },
+      {
+        q: "Brauche ich Geräte für die Kraftarbeit zu Hause?",
+        a: "Ein Grundstock hilft: verstellbare Kurzhanteln oder eine Kettlebell und ein Widerstandsband. Ich plane mit dem, was du hast, und sage dir ehrlich, welche eine Anschaffung als Nächstes am meisten bringt.",
+      },
+      {
+        q: "Darf man in der Wahner Heide überhaupt trainieren?",
+        a: "Laufen und Gehen auf den freigegebenen Wegen ist erlaubt, und genau so plane ich deine Einheiten. Abseits der Wege wird nichts geplant, das Gebiet ist Naturschutzgebiet.",
+      },
+      {
+        q: "Was unterscheidet das von einer Trainings-App von der Stange?",
+        a: "Der Plan wird jede Woche von einem Menschen nachgestellt, der deine Einträge wirklich liest. Wenn eine Woche kippt, kippt der Plan mit, statt dich mit verpassten Einheiten zu frustrieren.",
+      },
+    ],
+  },
+
+  "longerich/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Longerich ist Krafttraining, das dir etwas beibringt: Nach drei Monaten beherrschst du Technik und kennst deine Zahlen, beides gehört dir und geht nie verloren. Zwei geführte Einheiten pro Woche bei dir zu Hause, die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Longerich: Krafttraining zu Hause, das Technik und messbare Kraft aufbaut statt Stromreiz. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Nach drei Monaten EMS kannst du nur eines: wieder hingehen",
+        body: "Das ist der Kern des Unterschieds. EMS liefert einen Reiz, solange du zahlst und unter der Weste stehst. Es hinterlässt keine Fähigkeit. Krafttraining funktioniert umgekehrt: Du lernst Kniebeuge, Hüftbeuge und Zugmuster sauber auszuführen, und dieses Können bleibt, auch in jedem Urlaub, auch wenn du mal pausierst. Dazu kommt ein Protokoll mit deinen Lasten. Wer nach zwölf Wochen bei mir aufhören würde, nähme Technik und Zahlen mit. Wer bei EMS aufhört, nimmt nichts mit.",
+      },
+      {
+        title: "Zu Hause in Longerich, ohne Vertrag",
+        body: "Longerich ist ein ruhiges Wohnveedel im Kölner Norden, knapp 14.000 Einwohner auf gut sechs Quadratkilometern, viele Häuser mit Keller oder Garten. Mehr braucht es nicht: Ich komme zweimal pro Woche mit Material zu dir, wir trainieren im Wohnzimmer, im Keller oder draußen. Du buchst Stunden statt eines Jahresvertrags, und wenn es nicht passt, greift die 14-Tage-Garantie. Die Anfahrtszeit, die ein Studiotermin kosten würde, steckst du in die Einheit selbst.",
+      },
+      {
+        title: "Messbar statt gefühlt",
+        body: "Alle vier bis sechs Wochen vergleichen wir: Welche Last bewegst du in den Grundübungen, wie stabil ist der Rumpf, wie fühlen sich Treppen, Einkäufe, Gartenarbeit an. Diese Alltagsmomente sind der eigentliche Test, denn dafür trainierst du. Ein Stromimpuls kann Muskeln reizen, aber er kann dir nicht beibringen, eine Kiste sauber vom Boden zu heben. Genau das lernst du hier in den ersten Wochen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Longerich?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, Anfahrt nach Longerich und Material inklusive. Kein Jahresvertrag, keine Aufnahmegebühr, Erstgespräch kostenlos.",
+      },
+      {
+        q: "EMS wird mir als gelenkschonend empfohlen. Ist Krafttraining riskanter?",
+        a: "Sauber dosiertes Krafttraining ist gelenkfreundlich und stärkt nebenbei Knochen und Sehnen, weil echte Last darauf wirkt. Wir beginnen leicht, steigern nach Protokoll, und ich korrigiere jede Wiederholung live.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Die ersten Kraftzuwächse zeigen sich im Protokoll meist nach drei bis vier Wochen, sichtbare Veränderungen je nach Ausgangslage nach acht bis zwölf. Versprochen wird nichts, gemessen alles.",
+      },
+      {
+        q: "Kann ich das mit Laufen oder Radfahren kombinieren?",
+        a: "Ja, das ist sogar ideal. Zwei Krafteinheiten pro Woche lassen genug Raum für Ausdauer, und die stärkeren Beine merkst du auf dem Rad und beim Laufen zuerst.",
+      },
+    ],
+  },
+
+  "seeberg/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Seeberg funktioniert auch in der Etagenwohnung: zwei geführte Krafteinheiten pro Woche mit kontrolliertem Tempo statt fallender Gewichte, leise genug für jedes Mehrfamilienhaus. Ich bringe das Material mit, die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Seeberg: leises Krafttraining in der Wohnung, kontrolliertes Tempo, Protokoll und Eiweißziel. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Krafttraining, das deine Nachbarn nicht hören",
+        body: "Seeberg ist dicht gebaut: rund 11.000 Menschen auf nicht einmal zwei Quadratkilometern, die meisten in Etagenwohnungen. Der häufigste Einwand gegen Training zu Hause lautet hier: zu laut, zu wenig Platz, die Nachbarn unter mir. Beides ist lösbar. Wir arbeiten ohne Sprünge und ohne abgelegte Hanteln, mit Übungen, die auf zwei mal zwei Metern stattfinden. Eine Matte unter dir dämpft den Rest, und die lauteste Phase einer Einheit bleibt dein Atem.",
+      },
+      {
+        title: "Langsames Tempo baut mehr Muskel auf, nicht weniger",
+        body: "Was nach Kompromiss klingt, ist Trainingslehre: Muskelaufbau entsteht durch Spannung über Zeit. Eine Kniebeuge mit drei Sekunden Absenken reizt den Muskel stärker als eine schnelle, schlampige, und sie ist dabei praktisch lautlos. Wir nutzen verstellbare Kurzhanteln, eine Kettlebell und Bänder, gesteigert wird über Last, Tempo und Pausenlänge, alles im Protokoll. Alle vier bis sechs Wochen wird nachgemessen: Kraftwerte und, wenn du willst, Umfänge an Arm, Brust und Bein.",
+      },
+      {
+        title: "Essen entscheidet die Hälfte",
+        body: "Ohne Eiweiß und genug Kalorien wächst nichts, egal wie gut das Training ist. Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, legt mit dir ein Eiweißziel fest, das mit normalem Supermarkt-Einkauf erreichbar ist. Für die Erholung zwischen den Einheiten liegt der Fühlinger See direkt vor der Tür: lockere Runden am Wasser statt dritter Krafteinheit, denn gewachsen wird in der Pause.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Seeberg?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Mit App-Plan und wöchentlichem Check-in gibt es das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Reicht Training in der Wohnung wirklich für sichtbare Muskeln?",
+        a: "Ja, wenn die Last planmäßig steigt. Verstellbare Kurzhanteln decken die ersten sechs bis zwölf Monate locker ab. Entscheidend ist das Protokoll, nicht die Postleitzahl des Trainingsorts.",
+      },
+      {
+        q: "Wie oft muss ich trainieren?",
+        a: "Zwei Einheiten pro Woche reichen für kontinuierlichen Aufbau, wenn Eiweiß und Schlaf stimmen. Mehr bringt erst etwas, wenn du fortgeschritten bist, und auch dann planen wir es gemeinsam.",
+      },
+      {
+        q: "Brauche ich Proteinpulver?",
+        a: "Nein. Das Eiweißziel lässt sich mit Quark, Eiern, Hülsenfrüchten, Fleisch oder Fisch erreichen. Pulver ist höchstens eine bequeme Ergänzung, nie die Voraussetzung.",
+      },
+    ],
+  },
+
+  "roggendorf-thenhoven/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Roggendorf/Thenhoven scheitert nicht an den Übungen, sondern an der Anfahrt zum nächsten Studio. Deshalb drehe ich es um: Ich komme mit dem Material in Kölns nördlichstes Doppeldorf, zwei Einheiten pro Woche mit Protokoll. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln Roggendorf/Thenhoven: der Trainer kommt ins Dorf, zwei Einheiten pro Woche mit Protokoll und Eiweißziel. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Muskel wächst aus Regelmäßigkeit, und die stirbt am Fahrweg",
+        body: "Roggendorf/Thenhoven ist der nördlichste Stadtteil auf der linken Rheinseite, zwei Dörfer mit zusammen knapp 4.800 Einwohnern auf fast 14 Quadratkilometern, ohne eigenes Studio. Wer hier Muskeln aufbauen will, plant pro Studiobesuch schnell eine Stunde nur für Hin- und Rückweg. Zwei Besuche pro Woche heißt: ein halber Arbeitstag im Monat fürs Fahren. Genau an dieser Rechnung sterben die meisten Vorsätze, nicht an der Motivation. Also fahre ich, nicht du.",
+      },
+      {
+        title: "So sieht das Training im Dorf aus",
+        body: "Ich bringe verstellbare Kurzhanteln, Kettlebell und Bänder mit, trainiert wird im Wohnzimmer, in der Garage oder im Garten. Der Plan steht auf Grundübungen: Kniebeuge-, Druck- und Zugvarianten, jede Woche mit protokollierter Last. Alle vier bis sechs Wochen messen wir nach. Wer eigene Ausrüstung anschaffen will, bekommt von mir eine ehrliche Reihenfolge: erst das, was das Protokoll wirklich verlangt, nicht das, was der Sportversand empfiehlt.",
+      },
+      {
+        title: "Eiweiß, Erholung und der Chorbusch",
+        body: "Fürs Wachstum braucht es neben der Last zwei Dinge: ein Eiweißziel, das Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, mit dir festlegt, und echte Erholung zwischen den Einheiten. Dafür liegt der Chorbusch direkt am Ortsrand: lockere Spaziergänge oder Radrunden dort halten den Kreislauf in Gang, ohne die Muskeln zusätzlich zu ermüden. Mehr Infrastruktur braucht dein Aufbau nicht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Roggendorf/Thenhoven?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Anfahrt ins Dorf und Material inklusive. Alternativ gibt es das Online Coaching ab 150€ im Monat, wenn du lieber nach App-Plan trainierst. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Lohnt sich das ohne Studio-Geräte überhaupt?",
+        a: "Ja. Für die ersten sechs bis zwölf Monate Aufbau reichen steigende Lasten mit Kurzhanteln und Kettlebell vollständig. Maschinen werden erst viel später interessant, wenn überhaupt.",
+      },
+      {
+        q: "Wie schnell baue ich Muskeln auf?",
+        a: "Realistisch sind als Einsteiger ein bis zwei Kilo Muskelmasse in den ersten drei Monaten, danach wird es langsamer. Das Protokoll zeigt dir den Fortschritt früher als der Spiegel.",
+      },
+      {
+        q: "Zu welchen Zeiten kommst du nach Roggendorf/Thenhoven?",
+        a: "Morgens, nachmittags und am frühen Abend, die genauen Fenster klären wir im kostenlosen Erstgespräch. Die Termine bleiben dann fest, denn feste Termine sind hier der halbe Fortschritt.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
