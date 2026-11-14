@@ -7789,6 +7789,177 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "neustadt-sued/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Neustadt-Süd: Trainingsplan per App, wöchentliche Video-Check-ins und Ernährungssteuerung, ab 150€ im Monat. Der Plan ist für Tage gebaut, an denen der Abend im Veedel schon vergeben ist: du trainierst morgens oder mittags, kurz und geführt, statt auf den freien Abend zu warten.",
+    metaDescription:
+      "Online Coaching für Köln-Neustadt-Süd: Plan per App für volle Südstadt-Tage, Einheiten vor der Arbeit oder mittags, Volksgarten als Lauf-Anker. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "In der Südstadt ist der Abend das Problem",
+        body: "Neustadt-Süd ist das Veedel der vollen Kalender: Kneipen, Konzerte, Verabredungen rund um Chlodwigplatz und Zülpicher Straße. Wer sein Training auf „heute Abend“ legt, verliert es genau an diesen Abenden. Deshalb drehe ich den Plan um: deine Einheiten liegen vor der Arbeit oder in der Mittagspause, dauern 30 bis 45 Minuten und stehen als feste Blöcke in der App. Der Abend bleibt frei, das Training findet trotzdem statt.",
+      },
+      {
+        title: "37.803 Menschen auf 2,87 km², also planen wir mit wenig Platz",
+        body: "Kaum ein Kölner Stadtteil ist so dicht besiedelt wie Neustadt-Süd, und die Wohnungen sind entsprechend geschnitten. Dein Plan braucht deshalb keine Hantelbank im Wohnzimmer: jede Krafteinheit kommt in einer Fassung für zwei Quadratmeter Bodenfläche, mit Körpergewicht, Kurzhanteln oder Band. Wenn du in einem Studio angemeldet bist, schreibe ich den Plan stattdessen auf dessen Geräte. Beides geht, die App führt dich durch jede Wiederholung.",
+      },
+      {
+        title: "Der Volksgarten ist dein fester Ausdauer-Anker",
+        body: "Für die Cardio-Blöcke brauchst du keine Anfahrt: der Volksgarten liegt mitten im Veedel, der Innere Grüngürtel schließt direkt an. Eine Runde dort steht einmal pro Woche fest im Plan, mit Vorgabe für Tempo oder Dauer, die ich nach deinem Stand anpasse. Du läufst vor der Tür, die Auswertung passiert in der App, und beim wöchentlichen Video-Check-in besprechen wir, ob die Belastung rauf oder runter geht.",
+      },
+      {
+        title: "Check-in jede Woche, Angelo bleibt erreichbar",
+        body: "Einmal pro Woche sehen wir uns per Video: Rückblick auf die Trainingswoche, Blick auf dein Protokoll, nächste Schritte. Zwischendurch schickst du Technik-Videos direkt aus der App und bekommst Korrekturen, bevor sich Fehler einschleifen. Die Ernährungssteuerung läuft parallel mit: Kalorien- und Eiweißziel, abgestimmt darauf, dass in der Südstadt auch mal gegessen und gefeiert wird. Wenn du später lieber 1-zu-1 trainieren willst, geht das jederzeit, ich bin in Köln.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Neustadt-Süd?",
+        a: "Ab 150€ im Monat: Trainingsplan per App, wöchentliche Video-Check-ins, Technik-Korrektur per Video und Ernährungssteuerung. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Ich habe weder Geräte noch Platz in der Wohnung. Geht das trotzdem?",
+        a: "Ja. Jede Einheit gibt es in einer Fassung für kleine Wohnungen: Körpergewicht, Band oder ein Paar Kurzhanteln reichen. Für die Ausdauer nutzt du Volksgarten und Grüngürtel vor der Tür.",
+      },
+      {
+        q: "Warum Online Coaching statt Studio-Mitgliedschaft in der Innenstadt?",
+        a: "Das eine schließt das andere nicht aus. Online Coaching liefert das, was der Studiovertrag nicht enthält: einen Plan, der auf deine Woche geschrieben ist, wöchentliche Kontrolle und jemanden, der nachfragt, wenn du aussetzt. Trainieren kannst du damit im Studio, zu Hause oder im Park.",
+      },
+      {
+        q: "Was passiert, wenn eine Woche komplett voll ist?",
+        a: "Dann wird der Plan angepasst statt ausgesetzt: kürzere Einheiten, andere Tage, notfalls eine Erhaltungswoche. Das klären wir im Check-in. Ein Plan, der nur in perfekten Wochen funktioniert, ist keiner.",
+      },
+    ],
+  },
+
+  "longerich/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Longerich mit Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: ein Topf, zwei Ziele. Die Familie isst weiter ein gemeinsames Essen, nur deine Portion wird auf dein Ziel gerechnet. Die Beratung läuft online, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Longerich: ein Familienessen, deine Portion aufs Ziel gerechnet. Natalie plant Mengen statt Extra-Gerichte. Online, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Longerich-Problem: niemand kocht zweimal",
+        body: "Longerich ist ein Familien-Veedel: Reihenhäuser, Gärten, gemeinsames Abendessen. Genau daran scheitern die meisten Ernährungspläne, denn sie verlangen ein zweites Gericht nur für dich. Das hält niemand durch, der abends für drei oder vier Leute kocht. Natalie plant deshalb andersherum: das Familienessen bleibt, wie es ist. Verändert wird deine Portion, nicht der Topf.",
+      },
+      {
+        title: "Ein Topf, zwei Ziele: so funktioniert die Rechnung",
+        body: "Aus denselben Zutaten lassen sich sehr verschiedene Teller bauen. Wer abnehmen will, bekommt mehr vom Gemüse und vom Eiweiß und weniger von der Beilage; wer Muskeln aufbaut, stockt gezielt auf. Natalie rechnet mit dir die drei, vier Gerichte durch, die bei euch am häufigsten auf dem Tisch stehen, und legt fest, wie dein Teller davon aussieht. Du wiegst am Anfang ein paar Wochen mit, danach reicht das Auge.",
+      },
+      {
+        title: "Eiweiß zuerst, auch für den Rest der Familie kein Schaden",
+        body: "Der häufigste Befund in der Beratung: zu wenig Eiweiß, zu viel Beilage. Die Korrektur hilft allen am Tisch, auch wenn nur du ein Ziel verfolgst. Natalie legt dein Tagesziel für Eiweiß und Kalorien fest, abgestimmt auf dein Training mit mir oder auf das, was du allein machst. Keine verbotenen Lebensmittel, keine Sonderprodukte, nur Mengen, die zu deinem Ziel passen.",
+      },
+      {
+        title: "Online-Beratung, die neben Familie und Job Platz hat",
+        body: "Die Termine mit Natalie laufen per Video, auch abends, wenn die Kinder im Bett sind. Kein Babysitter, keine Fahrt durch die Stadt. Zwischen den Terminen schickst du Fotos deiner Teller oder kurze Fragen, und beim nächsten Gespräch wird nachjustiert. Wer in Longerich im Schichtdienst arbeitet, etwa im Krankenhaus, bekommt die Mahlzeiten um den Dienstplan gelegt statt um ein Lehrbuch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Longerich?",
+        a: "Das Erstgespräch mit Natalie ist kostenlos, dort besprecht ihr Ziel und Umfang. Danach läuft die Beratung einzeln oder als Teil des Online Coachings ab 150€ im Monat, zusammen mit dem Training.",
+      },
+      {
+        q: "Muss meine Familie die Ernährung mit umstellen?",
+        a: "Nein. Das gemeinsame Essen bleibt. Geplant wird nur deine Portion: mehr Eiweiß, passende Mengen, die Beilage nach deinem Ziel. Niemand am Tisch bekommt ein Diätgericht vorgesetzt.",
+      },
+      {
+        q: "Funktioniert das auch, wenn ich gar nicht selbst koche?",
+        a: "Ja. Dann arbeitet Natalie mit dem, was bei euch auf den Tisch kommt oder was du unterwegs isst, und legt die Auswahl- und Mengenregeln dafür fest. Entscheidend ist, dass der Plan deinen Alltag abbildet, nicht einen idealen.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Mit einem sauber gerechneten Kaloriendefizit sind 0,3 bis 0,5 Kilo pro Woche realistisch und haltbar. Versprochen wird nichts darüber hinaus: Natalie arbeitet mit Wiegedaten und passt an, wenn sich vier Wochen nichts bewegt.",
+      },
+    ],
+  },
+
+  "hoehenhaus/personal-training": {
+    answer:
+      "Personal Training in Köln-Höhenhaus läuft 1-zu-1 bei dir zu Hause: zwei feste Termine pro Woche, Krafttraining mit Technik-Korrektur und Protokoll, die Ausdauer-Anteile im Dünnwalder Wald direkt nebenan. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Höhenhaus: 1-zu-1 bei dir zu Hause, Ausdauer im Dünnwalder Wald nebenan, zwei feste Termine pro Woche mit Protokoll. 50€/Std.",
+    sections: [
+      {
+        title: "Höhenhaus hat kein Studio im Veedel, und braucht auch keins",
+        body: "Wer in Höhenhaus trainieren will, fährt bisher raus: nach Mülheim, nach Dellbrück oder weiter. Beim 1-zu-1 Training drehe ich das um und komme zu dir, zwischen Honschaftsstraße und Im Weidenbruch. Was eine Stunde braucht, bringe ich mit: Kurzhanteln, Band, Gewichtsweste. Die Fahrt, die du dir sparst, steckt als Trainingszeit in der Stunde, und ein Termin bei dir zu Hause fällt deutlich seltener aus als einer, zu dem man erst hinfahren muss.",
+      },
+      {
+        title: "Der Dünnwalder Wald liegt direkt an der Stadtteilgrenze",
+        body: "Für die Ausdauer- und Lauftechnik-Anteile müssen wir Höhenhaus kaum verlassen: der Dünnwalder Wald beginnt gleich hinter der nördlichen Stadtteilgrenze, mit ebenen, ruhigen Wegen, die sich für Intervalle und lockere Läufe gleichermaßen eignen. Im Plan heißt das: Kraft bei dir zu Hause, ein Wald-Block pro Woche, je nach Ziel als Tempoarbeit oder als ruhiger Ausdauerlauf. Im Sommer verlegen wir auch Krafteinheiten nach draußen.",
+      },
+      {
+        title: "Zwei Termine pro Woche, jeder Satz im Protokoll",
+        body: "Wir starten mit einem Check: Beweglichkeit, Grundkraft, Technik bei Kniebeuge und Hüftstreckung. Daraus entsteht dein Plan mit zwei festen Terminen pro Woche. Jede Einheit wird protokolliert, Gewicht, Wiederholungen, Tempo, und alle vier bis sechs Wochen vergleichen wir die Zahlen. Wenn sich nichts bewegt, ändere ich den Plan, nicht die Ausrede. Nach 90 Tagen siehst du schwarz auf weiß, was sich verändert hat.",
+      },
+      {
+        title: "Für wen das 1-zu-1 Training in Höhenhaus gedacht ist",
+        body: "Die typische Anfrage aus Höhenhaus kommt nicht von Wettkampfsportlern, sondern von Leuten zwischen 35 und 60, die nach Jahren Pause wieder anfangen wollen: Rücken meldet sich, Kondition ist weg, allein im Studio fehlt der Faden. Genau dafür ist das Format gebaut. Das Einstiegsniveau spielt keine Rolle, der Check am Anfang legt fest, wo wir starten. Garantie: wenn du nach 14 Tagen nicht weitermachen willst, bekommst du dein Geld zurück.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Höhenhaus?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Anfahrtskosten innerhalb von Höhenhaus und ohne Vertragsbindung. Das Erstgespräch ist kostenlos. Wer lieber mit App-Plan und Video-Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Kurzhanteln, Bänder und Gewichtsweste bringe ich mit, ein paar Quadratmeter im Wohnzimmer oder Garten reichen. Mit steigender Kraft passe ich das Material an.",
+      },
+      {
+        q: "Trainieren wir auch draußen?",
+        a: "Ja, der Dünnwalder Wald liegt direkt an der Stadtteilgrenze: dort laufen die Ausdauer-Blöcke, bei gutem Wetter auch ganze Einheiten. Den Mix aus drinnen und draußen legen wir nach deinem Ziel und der Jahreszeit fest.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Ist das ein Problem?",
+        a: "Nein, das ist der Normalfall in meinen Anfragen aus Höhenhaus. Der Check am ersten Termin legt dein Startniveau fest, die ersten Wochen bauen Technik und Grundlage auf, gesteigert wird erst, wenn die Ausführung sitzt.",
+      },
+    ],
+  },
+
+  "weiden/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Weiden ist echtes Krafttraining im 1-zu-1: 50€ pro Stunde, jederzeit kündbar, statt Stromweste im Jahresvertrag. Bevor du ein EMS-Abo unterschreibst, lohnt eine ehrliche Rechnung in Euro und in Ergebnissen. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Weiden: rechne das Jahresabo ehrlich gegen 50€/Std echtes Krafttraining ohne Bindung. Messbare Kraft statt Stromreiz. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Mach die Abo-Rechnung, bevor du unterschreibst",
+        body: "EMS-Studios verkaufen fast immer Laufzeitverträge: du zahlst zwölf Monate, ob du hingehst oder nicht. Beim 1-zu-1 Training zahlst du die Stunde, 50€, und kannst jederzeit aufhören. Rechne beides auf ein Jahr hoch und auf die Einheiten, die du realistisch schaffst, nicht die, die im Prospekt stehen. Dazu kommt die 14-Tage-Garantie: wenn du nach zwei Wochen nicht weitermachen willst, bekommst du dein Geld zurück. Ein Jahresvertrag kennt diesen Ausstieg nicht.",
+      },
+      {
+        title: "Was der Stromreiz nicht liefert",
+        body: "EMS reizt den Muskel, aber es lehrt ihn nichts: keine Kniebeuge mit sauberer Tiefe, kein Heben vom Boden, keine Last, die von Monat zu Monat steigt. Genau diese steigende Last ist der Mechanismus, über den Kraft und Muskulatur langfristig wachsen, und sie lässt sich messen. In deinem Protokoll steht nach acht Wochen, wie viel mehr du bewegst als am Anfang. Nach acht Wochen EMS steht da nur, dass du acht Mal in der Weste gestanden hast.",
+      },
+      {
+        title: "Training in Weiden, ohne zusätzliche Fahrt",
+        body: "Das Training kommt zu dir: 1-zu-1 bei dir zu Hause in Weiden, Kurzhanteln, Band und Gewichtsweste bringe ich mit. Wer lieber draußen trainiert, nutzt die Feldwege Richtung Widdersdorf für die Ausdauer-Anteile. Zwei feste Termine pro Woche, jede Einheit mit Technik-Korrektur, denn sauber ausgeführte Übungen sind auch das beste Rückenprogramm, ganz ohne Reizstrom.",
+      },
+      {
+        title: "Für wen EMS trotzdem gedacht sein mag, und für wen nicht",
+        body: "Wer ausschließlich 20 Minuten pro Woche investieren kann und will, für den ist EMS besser als nichts. Wer aber in Weiden nach einer EMS-Alternative sucht, will meist etwas anderes: messbar stärker werden, Gewicht verlieren oder den Rücken stabil bekommen, mit jemandem, der die Ausführung korrigiert. Dafür braucht es echte Bewegung gegen echte Last, zweimal pro Woche, mit Plan. Das Erstgespräch kostet nichts, danach entscheidest du mit Zahlen auf dem Tisch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Weiden?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Jahresvertrag und ohne Anmeldegebühr, plus kostenloses Erstgespräch. Zum Vergleich lohnt es, dein EMS-Angebot auf zwölf Monate hochzurechnen, inklusive aller Nebenkosten im Vertrag.",
+      },
+      {
+        q: "Ist EMS nicht effizienter, weil es nur 20 Minuten dauert?",
+        a: "Die 20 Minuten gelten nur für den Reiz selbst. Kraftaufbau braucht steigende Last und saubere Bewegung, und beides liefert EMS nicht. Effizient ist das Training, das dein Ziel erreicht, nicht das kürzeste.",
+      },
+      {
+        q: "Wo trainieren wir in Weiden?",
+        a: "Bei dir zu Hause, das Material bringe ich mit. Für Ausdauer-Blöcke nutzen wir die Feldwege am westlichen Rand von Weiden Richtung Widdersdorf. Studio-Einheiten sind möglich, wenn du bereits irgendwo Mitglied bist.",
+      },
+      {
+        q: "Ich habe schon ein EMS-Abo. Lohnt der Wechsel?",
+        a: "Rechne aus, was die Restlaufzeit kostet, und nimm das kostenlose Erstgespräch als zweite Meinung: wir messen deinen Stand und du vergleichst nach vier Wochen echtem Krafttraining die Zahlen. Entscheiden kannst du dann mit Daten statt mit Werbeversprechen.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
