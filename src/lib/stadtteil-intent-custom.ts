@@ -8132,6 +8132,92 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "fuehlingen/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Fühlingen denkt vom See her: Rudern, Paddeln und lange Radrunden an der Regattabahn sind Rückenarbeit, und ohne kräftige hintere Kette zahlt der untere Rücken die Rechnung. Zwei Krafteinheiten pro Woche bei dir im Dorf bauen genau diese Kette auf. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Fühlingen: starke hintere Kette für Rudern, Paddeln und Alltag. Zwei geführte Einheiten pro Woche bei dir im Dorf. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der See trainiert den Rücken, oder er verschleißt ihn",
+        body: "Wer in Fühlingen Sport macht, macht ihn meistens am Wasser: Rudern und Kanu an der Regattabahn, dazu die Radrunden um den See. Das sind alles Sportarten, bei denen der Rücken arbeitet. Gut ausgeführt stärken sie ihn, aber sobald Rumpf und Hüftstrecker zu schwach sind, übernimmt die Lendenwirbelsäule als Scharnier, und aus dem Hobby wird die Schmerzquelle. Im Training bauen wir deshalb zuerst das auf, was der Zugschlag voraussetzt: Gesäß, hintere Oberschenkel, Rückenstrecker und einen Rumpf, der die Position hält.",
+      },
+      {
+        title: "Das Dorf sitzt mehr, als es denkt",
+        body: "Fühlingen hat gut 2.200 Einwohner auf 4,94 km², aber kaum Nahversorgung im Ort: Einkauf, Arbeit und Schule bedeuten fast immer Auto oder Bahn. Viele Rückenprobleme hier entstehen nicht am See, sondern auf dem Fahrersitz und am Schreibtisch danach. Deshalb gehören in jede Einheit Hüftstreckung und Brustwirbelsäulen-Mobilität: die zwei Stellen, die vom Sitzen zuerst einrosten und deren Steifheit der untere Rücken ausgleichen muss.",
+      },
+      {
+        title: "So läuft das Training bei dir im Veedel",
+        body: "Zwei geführte Einheiten pro Woche, bei dir zu Hause oder im Sommer draußen am See. Hanteln, Bänder und Bank bringe ich mit, zwei mal drei Meter Platz reichen. Der Kern sind einfache, schwere Grundmuster in sauberer Technik: Hüftheben, Kreuzheben-Varianten, Ruderzüge, Tragen. Jede Einheit wird protokolliert, die Last steigt nur, wenn die Ausführung stimmt. Nach vier bis sechs Wochen messen wir nach, was sich im Alltag und auf dem Wasser verändert hat.",
+      },
+      {
+        title: "Erst abklären, dann aufbauen",
+        body: "Ein Trainer ersetzt keinen Arzt. Wenn dein Rücken akut schmerzt, Taubheit oder Ausstrahlung ins Bein dabei ist, gehört das zuerst in ärztliche Abklärung. Das Rückentraining setzt danach an: Es macht die Strukturen belastbar, damit der nächste Hexenschuss gar nicht erst kommt. Im Erstgespräch gehen wir Vorgeschichte und Befunde durch und legen fest, womit wir sicher starten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Fühlingen?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Material, das ich mitbringe. Das Erstgespräch ist kostenlos und findet bei dir in Fühlingen oder am See statt.",
+      },
+      {
+        q: "Ich rudere an der Regattabahn und habe oft Kreuzschmerzen. Hilft das Training?",
+        a: "Sehr wahrscheinlich ja. Bei Ruderern ist die Kombination aus schwachem Gesäß, steifer Hüfte und langem Sitzen im Alltag die häufigste Ursache. Wir kräftigen die hintere Kette und schauen uns an, wo deine Zugposition zusammenbricht.",
+      },
+      {
+        q: "Muss ich dafür in ein Studio fahren?",
+        a: "Nein. Ich komme zu dir nach Fühlingen, das Material bringe ich mit. Wer lieber im Studio trainiert, kann das, aber nötig ist es nicht.",
+      },
+      {
+        q: "Wie schnell lassen Rückenschmerzen durch Training nach?",
+        a: "Bei muskulär bedingten Beschwerden berichten die meisten nach vier bis acht Wochen regelmäßigen Trainings von deutlich weniger Schmerzen. Voraussetzung sind zwei Einheiten pro Woche und ärztliche Abklärung, falls die Beschwerden akut sind.",
+      },
+    ],
+  },
+
+  "eil/personal-training": {
+    answer:
+      "Personal Training in Köln-Eil löst das eigentliche Problem des Veedels: Es gibt kein Studio im Ort, und die Fahrt nach Porz-Mitte ist genau der Punkt, an dem gute Vorsätze enden. Deshalb komme ich zu dir, zwei feste 1-zu-1 Termine pro Woche, Material inklusive. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Eil: zwei feste 1-zu-1 Termine pro Woche bei dir zu Hause, Material bringe ich mit, die Wahner Heide für den Ausgleich. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In Eil scheitert Training am Weg, nicht am Willen",
+        body: "Eil verteilt seine rund 9.300 Einwohner auf 16,25 km², vom alten Ortskern bis an den Rand der Wahner Heide. Ein eigenes Fitnessstudio gibt das Veedel nicht her, die nächsten liegen Richtung Porz-Mitte. Wer nach Feierabend erst noch fahren, parken und auf Geräte warten muss, lässt das dritte Training der Woche irgendwann ausfallen, und dann das zweite. Zwei feste Termine bei dir zu Hause drehen das um: Der Weg entfällt, der Termin steht im Kalender, und ausfallen lasse ich dich nicht.",
+      },
+      {
+        title: "Training, das sich nach Schicht und Familie richtet",
+        body: "Der Flughafen Köln/Bonn liegt direkt hinter der Heide, und wer dort oder im Umschlag drumherum arbeitet, kennt das Problem mit Kursplänen: Früh- und Spätschicht passen in kein festes Studio-Programm. Im 1-zu-1 legen wir die zwei Wochentermine um deinen Dienstplan, auch vormittags oder am frühen Abend, und verschieben sie, wenn der Plan sich dreht. Der Trainingsplan selbst bleibt gleich: Grundübungen mit Protokoll, Last und Wiederholungen steigen von Woche zu Woche.",
+      },
+      {
+        title: "Die Wahner Heide als zweiter Trainingsraum",
+        body: "Für die Krafteinheiten reichen zwei mal drei Meter in deiner Wohnung oder Garage, Hanteln, Bänder und Bank bringe ich mit. Was Eil den Studio-Vierteln voraus hat, liegt vor der Tür: die Wahner Heide mit ihren Sand- und Waldwegen. Dort legen wir an trainingsfreien Tagen zügige Gehrunden oder lockere Läufe fest, als aktiven Ausgleich, nicht als zweites Training. Kraft kommt aus den geführten Einheiten, die Heide hält dich dazwischen in Bewegung.",
+      },
+      {
+        title: "Messbar statt gefühlt",
+        body: "Im kostenlosen Erstgespräch klären wir Ausgangslage, Gesundheitsstatus und Ziel: abnehmen, Kraft aufbauen, einfach wieder belastbar werden. Danach bekommst du einen Plan mit Zahlen, nicht mit Versprechen. Jede Einheit wird protokolliert, alle vier bis sechs Wochen vergleichen wir Lasten, Umfänge und Gewicht mit dem Start. Wenn du zusätzlich an der Ernährung arbeiten willst, steigt Natalie ein, unsere Ernährungsberaterin für Sport- und Fitnessernährung.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Eil?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, inklusive Anfahrt nach Eil und Material. Wer nach dem Start lieber selbstständig trainiert, kann ins Online Coaching ab 150€ im Monat wechseln. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich wohne am Rand von Eil, Richtung Grengel. Kommst du trotzdem?",
+        a: "Ja. Ich trainiere im ganzen Veedel und in den Nachbarorten wie Grengel, Urbach und Gremberghoven. Die Anfahrt ist im Preis enthalten.",
+      },
+      {
+        q: "Ich arbeite im Schichtdienst am Flughafen. Wie flexibel sind die Termine?",
+        a: "Die zwei Wochentermine legen wir um deinen Dienstplan, auch vormittags. Ändert sich die Schicht, verschieben wir den Termin in derselben Woche statt ihn zu streichen.",
+      },
+      {
+        q: "Brauche ich eigene Geräte oder viel Platz?",
+        a: "Nein. Verstellbare Kurzhanteln, Bänder und eine klappbare Bank bringe ich mit. Eine freie Fläche von zwei mal drei Metern reicht, im Sommer geht es auf Wunsch nach draußen.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
