@@ -7285,6 +7285,268 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "immendorf/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Immendorf funktioniert ohne Kurs, ohne Studio und ohne Publikum: zwei Krafteinheiten pro Woche bei dir zu Hause, ein Kalorienziel von Natalie und feste Gehrunden am Dorfrand. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Immendorf: 1-zu-1 Training bei dir zu Hause statt Abnehmkurs, Kalorienziel von Natalie, Gehrunden am Dorfrand. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Abnehmen, ohne dass das halbe Dorf mitredet",
+        body: "In Immendorf leben 2.121 Menschen, und man kennt sich. Genau das hält viele vom Anfangen ab: der Abnehmkurs, die Laufgruppe, das Studio in Rodenkirchen, überall trifft man Bekannte, und plötzlich ist das eigene Gewicht Gesprächsthema an der Kasse. Beim 1-zu-1 bei dir zu Hause gibt es kein Publikum. Niemand sieht deine Startwerte außer dir und mir, und du musst nichts erklären, bevor die ersten Kilos weg sind. Erzählen kannst du es später, wenn man dich darauf anspricht.",
+      },
+      {
+        title: "Das Defizit entsteht am Esstisch, nicht auf dem Feldweg",
+        body: "Wer im Dorf wohnt und mit dem Auto pendelt, verbrennt im Alltag wenig nebenbei. Deshalb rechnen wir ehrlich: das Kaloriendefizit kommt zu etwa vier Fünfteln aus dem Essen. Natalie legt mit dir ein Tagesziel fest, das zu deiner Küche passt, ohne das Kochen für die Familie umzuwerfen. Die Bewegung obendrauf planen wir trotzdem fest ein, nur eben als Termin statt als Hoffnung: zügige Runden am Dorfrand, zu Zeiten, die dein Pendeltag hergibt.",
+      },
+      {
+        title: "Zwei Krafteinheiten entscheiden, woraus du die Kilos verlierst",
+        body: "Ohne Krafttraining verschwindet im Defizit beides, Fett und Muskel, und am Ende bist du leichter, aber weicher. Zwei Einheiten pro Woche in deinem Wohnzimmer oder Garten reichen, um die Muskulatur zu halten: Kniebeuge, Drücken, Ziehen, mit Kurzhanteln und deinem Körpergewicht, sauber gesteigert. Geräte brauchst du dafür nicht, und eine Anfahrt auch nicht, denn ich komme in den Kölner Süden zu dir raus.",
+      },
+      {
+        title: "Gemessen wird leise: Trend und Umfang statt großer Ansagen",
+        body: "Du wiegst dich mehrmals pro Woche, zählt wird aber nur der Wochenschnitt, dazu alle vier Wochen der Bauchumfang. So siehst du schwarz auf weiß, ob der Plan arbeitet, ohne dass eine einzelne Zahl dich aus der Bahn wirft. Wenn sich vier Wochen nichts bewegt, ändern wir Essen oder Training, nicht die Ausrede. Der erste Schritt ist ein kostenloses Erstgespräch über Ziel, Alltag und Startpunkt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Immendorf?",
+        a: "Eine 1-zu-1 Stunde bei dir zu Hause kostet 50€. Wer vor allem Plan und Kontrolle will, nimmt das Online Coaching ab 150€ im Monat, die Ernährungsarbeit mit Natalie ist dort Teil des Pakets. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich ein Fitnessstudio, um abzunehmen?",
+        a: "Nein. Das Defizit entsteht über das Essen, und die zwei Krafteinheiten pro Woche funktionieren mit Kurzhanteln und Körpergewicht in deiner Wohnung. In Immendorf gibt es ohnehin kein Studio, und für dieses Ziel fehlt dir dadurch nichts.",
+      },
+      {
+        q: "Wie schnell nehme ich damit ab?",
+        a: "Geplant sind 0,5 bis 1% des Körpergewichts pro Woche, je nach Startpunkt. Das klingt unspektakulär, bleibt aber haltbar: schnellere Diäten kosten Muskeln und enden meist im Jojo. Nach vier Wochen siehst du den ersten belastbaren Trend.",
+      },
+      {
+        q: "Muss ich für die Ernährungsberatung irgendwo hinfahren?",
+        a: "Nein. Natalie arbeitet vor Ort bei dir oder per Video, die Kontrolle dazwischen läuft per App. Für Pendler aus Immendorf ist Video meist die ehrlichere Lösung, weil kein zusätzlicher Termin mit Anfahrt entsteht.",
+      },
+    ],
+  },
+
+  "urbach/ems-alternative": {
+    answer:
+      "Die ehrliche EMS-Alternative in Köln-Porz-Urbach ist Krafttraining mit echter Last: Strom reizt den Muskel, aber Knochen, Sehnen und Gelenke passen sich nur an Gewicht an, das du wirklich bewegst. Zwei 1-zu-1 Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Urbach: Training mit echter Last statt Stromreiz, denn Knochen und Sehnen reagieren nur auf Gewicht. 1-zu-1 bei dir, 50€/Std, ohne Vertrag.",
+    sections: [
+      {
+        title: "Strom erreicht den Muskel, aber nicht dein Skelett",
+        body: "EMS kann einen Muskel zum Anspannen bringen, das ist unbestritten. Aber ein Körper besteht nicht nur aus Muskeln: Knochendichte, Sehnen und Bänder passen sich nur an, wenn echte Last durch sie hindurchgeht, beim Aufstehen aus der Kniebeuge, beim Heben vom Boden, beim Tragen. Genau diese Strukturen entscheiden ab 40 darüber, ob du belastbar alt wirst. Eine Weste, die dich im Stehen anspannen lässt, trainiert sie nicht mit. Gewicht in der Hand tut es.",
+      },
+      {
+        title: "Urbach hat 13.000 Einwohner und keinen Grund für ein Studio-Abo",
+        body: "Urbach ist mit 13.179 Einwohnern auf 2,29 km² eines der dichtesten Veedel im Bezirk Porz, gewachsen aus Wohnstraßen, nicht aus Gewerbeflächen. Für EMS fährst du Richtung Porz-Mitte oder weiter und bindest dich an Laufzeiten. Beim 1-zu-1 komme ich zu dir: Kurzhanteln, Langhantel je nach Phase, dein Wohnzimmer oder der Garten reichen. Keine Anfahrt, kein Vertrag, und die Stunde gehört komplett deiner Technik und deiner Steigerung.",
+      },
+      {
+        title: "20 Minuten Reiz gegen 60 Minuten Arbeit",
+        body: "Das EMS-Versprechen lautet: voller Effekt in 20 Minuten. Nur steht in diesen 20 Minuten kein einziges Bewegungsmuster, das du danach im Alltag abrufen kannst. In einer Trainingsstunde bei mir lernst du heben, drücken, ziehen und stabil stehen, mit Lasten, die von Woche zu Woche dokumentiert steigen. Nach zwölf Wochen kannst du den Unterschied nicht nur fühlen, sondern nachlesen: jede Einheit steht im Protokoll.",
+      },
+      {
+        title: "Wann EMS trotzdem seinen Platz hat",
+        body: "Als ergänzender Reiz für Leute, die bereits schwer trainieren, oder in der Physiotherapie nach Verletzung kann EMS sinnvoll sein. Als Ersatz für Krafttraining ist es das nicht, und als Abo neben einem vollen Familien- und Pendlertag erst recht nicht. Wenn du in Urbach wohnst und überlegst, womit du anfängst: fang mit echter Last an. Das Erstgespräch ist kostenlos, danach entscheidest du.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Urbach?",
+        a: "Eine 1-zu-1 Stunde bei dir zu Hause kostet 50€, ohne Vertragsbindung und ohne Anfahrtkosten im Kölner Stadtgebiet. Zum Vergleich: EMS-Studios liegen meist bei 80 bis 100€ im Monat mit Laufzeit. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ist EMS nicht gelenkschonender als Hanteltraining?",
+        a: "Schonung ist nicht automatisch gut: Gelenke, Sehnen und Knochen brauchen dosierte Last, um belastbar zu bleiben. Dosiert heißt an dich angepasst, nicht weggelassen. Sauberes Krafttraining mit passender Steigerung ist für gesunde Gelenke kein Risiko, sondern ihre Versicherung.",
+      },
+      {
+        q: "Brauche ich eigene Geräte für das Training zu Hause?",
+        a: "Nein. Für den Anfang bringe ich mit, was wir brauchen, meist Kurzhanteln und Widerstandsbänder. Wenn du später aufrüsten willst, beraten wir das anhand deines Plans, nicht anhand eines Katalogs.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse im Vergleich zu EMS?",
+        a: "Die ersten Kraftsteigerungen stehen nach zwei bis drei Wochen im Protokoll, sichtbare Veränderungen brauchen je nach Ziel acht bis zwölf Wochen. Der Unterschied: diese Fortschritte gehören dir, weil du die Bewegungen gelernt hast, nicht gemietet.",
+      },
+    ],
+  },
+
+  "muengersdorf/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Müngersdorf findet dort statt, wo Köln seinen Sport gebaut hat: Sprints und Tempoläufe auf den Jahnwiesen am RheinEnergieStadion, lange Intervalle im Äußeren Grüngürtel, Kraft und Sprungkraft im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Müngersdorf: Sprints auf den Jahnwiesen am Stadion, Intervalle im Äußeren Grüngürtel, Kraft im Studio. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Du wohnst im Sport-Veedel der Stadt, nutze es wie eins",
+        body: "Müngersdorf ist das Veedel des RheinEnergieStadions: rund um die Arena liegen die Jahnwiesen, Trainingsplätze, Schwimmbad und der Äußere Grüngürtel, mehr Sportfläche hat kein anderer Kölner Stadtteil direkt vor der Tür. 8.305 Einwohner teilen sich 5,13 km², es ist also auch unter der Woche Platz. Was den meisten hier fehlt, ist nicht die Infrastruktur, sondern die Struktur: ein Plan, der aus dem Gelände messbare Fortschritte macht statt netter Runden.",
+      },
+      {
+        title: "Die Jahnwiesen sind dein Rasenplatz, der Grüngürtel deine Langstrecke",
+        body: "Auf dem ebenen, gepflegten Rasen der Jahnwiesen laufen wir Sprints über 30 bis 60 Meter, Richtungswechsel und Beschleunigungen, so wie du sie im Vereinssport brauchst. Für die Ausdauerbasis wechseln wir in den Äußeren Grüngürtel: lange Intervalle auf weichem Boden, bei jedem Wetter. Beide Flächen liegen so nah beieinander, dass eine einzige Einheit beides enthalten kann, ohne Fahrtzeit dazwischen.",
+      },
+      {
+        title: "Schnell wirst du draußen, stark wirst du drinnen",
+        body: "Sprintzeiten und Sprunghöhe verbessern sich nur, wenn auch die Kraft dahinter wächst. Deshalb gehört neben den Außeneinheiten eine Krafteinheit in den Plan: Kniebeuge, Hüftstreckung, Rumpf, im Studio oder bei dir zu Hause. Alle vier bis sechs Wochen messe ich Sprintzeit und Sprunghöhe nach. Trainiert wird nach diesen Zahlen, nicht nach Gefühl, und wenn sie sich nicht bewegen, ändere ich den Plan.",
+      },
+      {
+        title: "Für Vereinssportler und Leute, die es wieder wissen wollen",
+        body: "Typische Anfragen aus Müngersdorf und Umgebung: Fußballer und Hockeyspieler aus den Vereinen rund um den Sportpark, Läufer, die schneller werden wollen, und Wiedereinsteiger, die nach Jahren Büro wieder sprinten können möchten, ohne sich beim ersten Antritt zu verletzen. Das Einstiegsniveau ist egal, der Technik-Check am Anfang legt fest, wo wir starten. Danach reichen zwei geführte Einheiten pro Woche.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Müngersdorf?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Wer mit Plan und wöchentlichen Check-ins arbeiten will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir in Müngersdorf?",
+        a: "Sprints und Richtungswechsel auf den Jahnwiesen am RheinEnergieStadion, lange Intervalle im Äußeren Grüngürtel, Kraft im Studio oder bei dir zu Hause. Den Mix lege ich nach deinem Ziel und der Saison fest.",
+      },
+      {
+        q: "Ich spiele im Verein. Ersetzt das Athletiktraining mein Mannschaftstraining?",
+        a: "Nein, es ergänzt es. Im Verein trainierst du deinen Sport, bei mir die Basis darunter: Schnelligkeit, Sprungkraft, Stabilität, Bremskraft. Eine gezielte Einheit pro Woche neben dem Vereinstraining reicht meist, den Umfang stimmen wir auf deinen Spielplan ab.",
+      },
+      {
+        q: "Bin ich für Athletiktraining fit genug?",
+        a: "Der Technik-Check am Anfang beantwortet genau das: Sprint, Sprung, Rumpfstabilität. Danach startet der Plan auf deinem Niveau. Wiedereinsteiger beginnen mit Lauftechnik und Grundkraft, nicht mit maximalen Sprints.",
+      },
+    ],
+  },
+
+  "porz/personal-training": {
+    answer:
+      "Personal Training in Köln-Porz heißt: du musst für dein Training nicht mehr über den Rhein. Zwei 1-zu-1 Einheiten pro Woche bei dir zu Hause oder am Porzer Rheinufer, geplant um S-Bahn-Pendeln und Familienkalender. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Porz: 1-zu-1 bei dir zu Hause oder am Porzer Rheinufer, ohne Fahrt in die Innenstadt. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Porz hat alles, nur dein Training war bisher woanders",
+        body: "Porz-Mitte ist das Zentrum eines Bezirks mit über 110.000 Menschen: Ärzte, Einkauf, S-Bahn, alles da. Trotzdem fahren viele für ihr Training in die Innenstadt oder nach Deutz und verlieren pro Einheit eine Stunde an Brücke und Bahn. Beim 1-zu-1 drehe ich das um: ich komme ins Veedel, trainiert wird in deiner Wohnung, im Hof oder draußen am Wasser. Die Stunde, die du bisher für den Weg gebraucht hast, steckt dann im Training.",
+      },
+      {
+        title: "Das Porzer Rheinufer ist dein Außenstudio",
+        body: "Zwischen Fähranleger und Promenade hat Porz einen der ruhigsten Uferabschnitte im rechtsrheinischen Köln, flach und gerade, mit Blick auf die linke Rheinseite. Hier laufen wir Intervalle und Technik, machen Ausfallschritte, Sprünge und Rumpfarbeit an der frischen Luft. Die Kraftarbeit mit Gewichten bleibt drinnen: Kurzhanteln und Langhantel in deinem Wohnzimmer reichen, Geräte musst du dafür nicht kaufen, ich bringe den Anfang mit.",
+      },
+      {
+        title: "Ein Plan, der Pendeln und Schichten übersteht",
+        body: "Viele Anfragen aus Porz kommen von Leuten mit unregelmäßigen Tagen: Pendler mit S12 und S19, Schichtarbeit am Flughafen, Homeoffice-Tage dazwischen. Deshalb stehen bei uns zwei feste Einheiten pro Woche, aber die Uhrzeit rotiert mit deinem Kalender, früh morgens, mittags oder nach Feierabend. Jede Einheit steht im Protokoll: Übungen, Gewichte, Steigerung. Alle vier Wochen schauen wir auf die Zahlen und stellen nach.",
+      },
+      {
+        title: "Kosten, Ablauf und der erste Schritt",
+        body: "Die 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit und ohne Anfahrtkosten im Kölner Stadtgebiet. Wer lieber mit App-Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat, die Ernährungsseite übernimmt dort Natalie. Der Einstieg ist in beiden Fällen gleich: ein kostenloses Erstgespräch über Ziel, Gesundheit und Wochenablauf, danach der Technik-Check und der erste Plan.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Porz?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, inklusive Anfahrt nach Porz. Das Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo findet das Training in Porz statt?",
+        a: "Bei dir zu Hause, im Hof oder draußen am Porzer Rheinufer, je nach Wetter und Phase deines Plans. Ein Studio brauchst du nicht, die nötige Grundausstattung bringe ich am Anfang mit.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Geht das trotzdem?",
+        a: "Ja, das ist sogar der häufigste Fall. Wir starten mit einem Technik- und Belastungscheck und bauen von da auf, in deinem Tempo. Die Steigerung steht jede Woche im Protokoll, nicht in einer Vorgabe von der Stange.",
+      },
+      {
+        q: "Wie oft pro Woche sollte ich trainieren?",
+        a: "Zwei geführte Einheiten pro Woche sind der Standard, dazu kurze Hausaufgaben von 15 bis 20 Minuten für die Tage dazwischen. Wer nur eine Einheit schafft, kombiniert sie mit einem App-Plan für die zweite.",
+      },
+      {
+        q: "Trainierst du auch in anderen Teilen von Porz?",
+        a: "Ja, im ganzen Bezirk: von Ensen und Westhoven über Urbach und Zündorf bis Wahn und Lind. Für Termine außerhalb Kölns klären wir die Anfahrt im kostenlosen Erstgespräch.",
+      },
+    ],
+  },
+
+  "klettenberg/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Klettenberg ist vor allem für eine Gruppe gedacht, über die selten gesprochen wird: Leute, die gerade abgenommen haben und jetzt wieder Substanz aufbauen wollen. Zwei Krafteinheiten pro Woche, leicht erhöhte Kalorien, dokumentierte Steigerung. 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Klettenberg: der Aufbau-Block nach der Diät, zwei Krafteinheiten pro Woche mit Protokoll, Essensplan von Natalie. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Nach der Diät ist vor dem Aufbau",
+        body: "Viele Anfragen zum Muskelaufbau beginnen mit demselben Satz: ich habe abgenommen, aber jetzt fühle ich mich schlaff. Das ist kein Scheitern, sondern Physik: in jedem Defizit geht neben Fett auch Muskel verloren, wenn das Krafttraining fehlt. Der Block danach dreht das um. Kalorien leicht über den Verbrauch, Eiweiß hoch, zwei Krafteinheiten pro Woche, und das Gewicht darf dabei langsam steigen, weil es jetzt aus dem richtigen Material besteht.",
+      },
+      {
+        title: "Die Waage lügt in dieser Phase, das Protokoll nicht",
+        body: "Wer nach einer Diät wieder zunimmt, erschrickt schnell. Deshalb messen wir im Aufbau anders: entscheidend sind die Lasten im Trainingsprotokoll, der Oberarm- und Beinumfang und alle vier Wochen ein Foto, nicht die Tageszahl auf der Waage. Steigen die Gewichte und bleiben die Bauchmaße stabil, läuft der Aufbau sauber. Genau diese Unterscheidung fehlt beim Training auf eigene Faust, und sie ist der Grund, warum viele nach der Diät wieder aufgeben.",
+      },
+      {
+        title: "Klettenberger Altbau reicht als Trainingsraum",
+        body: "Klettenberg ist dicht bebaut, 10.476 Menschen auf 1,8 km², die meisten in Gründerzeitwohnungen ohne Hobbykeller. Für den Aufbau reicht das: Kniebeuge, Rumänisches Kreuzheben, Drücken und Rudern funktionieren mit Kurzhanteln auf wenigen Quadratmetern, und sobald die Lasten wachsen, wechseln wir für die schweren Grundübungen ins Studio. Der Klettenbergpark um die Ecke übernimmt die Pausentage: Spaziergänge halten den Kopf im Projekt, ohne die Erholung zu stören.",
+      },
+      {
+        title: "Essen für den Aufbau, ohne die Diät-Disziplin zu verlieren",
+        body: "Der häufigste Fehler nach der Diät ist das Entweder-oder: entweder weiter hungern oder zurück zu alten Mengen. Natalie legt mit dir die Mitte fest, meist 200 bis 300 Kilokalorien über dem Verbrauch und 1,6 bis 2 Gramm Eiweiß pro Kilo Körpergewicht, verteilt auf Mahlzeiten, die in deinen Tag passen. So wächst Muskel statt Fettpolster, und die Gewohnheiten aus der Diätphase bleiben dein Fundament statt dein Feind.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Klettenberg?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, bei dir zu Hause oder im Studio. Das Online Coaching mit Trainingsplan, Ernährung und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe gerade abgenommen. Nehme ich im Aufbau wieder zu?",
+        a: "Leicht, und das ist gewollt: ohne kleinen Kalorienüberschuss wächst kaum Muskel. Wir steuern das eng, mit Umfangsmessungen und Protokoll statt Tageswiegen, damit der Zuwachs aus Muskel besteht und nicht aus dem alten Polster.",
+      },
+      {
+        q: "Wie lange dauert es, bis man Muskelaufbau sieht?",
+        a: "Kraftwerte steigen ab der zweiten, dritten Woche, sichtbare Veränderungen brauchen acht bis zwölf Wochen konsequenter Arbeit. Ein ehrlicher Aufbau-Block dauert vier bis sechs Monate, und jede Einheit davon steht im Protokoll.",
+      },
+      {
+        q: "Geht Muskelaufbau auch ohne Fitnessstudio?",
+        a: "Die ersten Monate ja: Kurzhanteln und Körpergewicht in deiner Wohnung reichen, solange die Steigerung geplant ist. Wenn die Lasten später zu groß für zu Hause werden, nehmen wir fürs schwere Grundprogramm das Studio dazu.",
+      },
+    ],
+  },
+
+  "zuendorf/personal-training": {
+    answer:
+      "Personal Training in Köln-Zündorf nutzt, was andere nur am Sonntag besuchen: die Groov als zweiten Trainingsort, dein Zuhause für die Kraftarbeit, ein Coach, der ans Ende der Linie 7 rausfährt. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Zündorf: Kraft bei dir zu Hause, Ausdauer und Technik an der Groov am Rheinufer. 1-zu-1 für 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die Groov ist sonntags Ausflugsziel und dienstags dein Trainingsplatz",
+        body: "Halb Köln kennt Zündorf von der Groov: die Freizeitinsel mit Weiher und Rheinufer, Minigolf und Biergarten. Am Wochenende ist sie voll, unter der Woche gehört sie den Zündorfern. Genau dann trainieren wir dort: flache Runden um den Weiher für Intervalle und Gehpausen, die Wiesen für Sprünge, Ausfallschritte und Rumpfarbeit, der Rheinuferweg für alles, was länger ist. Du wohnst neben einer der schönsten Trainingsflächen im Kölner Südosten, sie war bisher nur als Kulisse eingeplant.",
+      },
+      {
+        title: "Am Ende der Linie 7 kommt das Training zu dir",
+        body: "Zündorf liegt weit draußen, 11.699 Einwohner auf 8,12 km², mit altem Ortskern und Neubaugebieten, aber ohne Fitnessstudio-Dichte der Innenstadt. Wer hierhin gezogen ist, hat sich für Platz und gegen tägliche Extra-Fahrten entschieden, und das Training sollte das respektieren: ich komme zu dir raus, die Kraftarbeit passiert mit Kurzhanteln und Langhantel in deinem Wohnzimmer, Hof oder Garten. Den Anfang an Ausrüstung bringe ich mit.",
+      },
+      {
+        title: "Zwei feste Einheiten, ein Protokoll, alle vier Wochen der Beweis",
+        body: "Der Plan ist unspektakulär und funktioniert genau deshalb: zwei geführte Einheiten pro Woche, eine mit Schwerpunkt Kraft, eine draußen an der Groov oder am Rheinufer, dazu 15 Minuten Hausaufgabe an zwei weiteren Tagen. Jede Übung, jedes Gewicht und jede Steigerung steht im Protokoll. Alle vier Wochen vergleichen wir die Zahlen mit deinem Ziel, ob das Abnehmen ist, Kraft oder einfach wieder Belastbarkeit für Job und Familie.",
+      },
+      {
+        title: "Für wen das in Zündorf gedacht ist",
+        body: "Die typischen Anfragen aus dem Kölner Südosten: Eltern, deren Sportprogramm beim ersten Kind geendet hat, Pendler, die abends nicht noch einmal losfahren wollen, und Leute ab 40, die merken, dass von allein nichts mehr besser wird. Das Startniveau ist egal, der Technik-Check in der ersten Stunde legt fest, womit wir anfangen. Der Schritt davor ist ein kostenloses Erstgespräch über Ziel, Gesundheit und deinen Wochenablauf.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Zündorf?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, inklusive Anfahrt nach Zündorf. Alternativ gibt es das Online Coaching mit App-Plan und wöchentlichen Check-ins ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo trainieren wir in Zündorf?",
+        a: "Kraft bei dir zu Hause, Ausdauer und Technik an der Groov oder auf dem Rheinuferweg. Unter der Woche sind beide Flächen ruhig, und den Mix lege ich nach deinem Ziel und dem Wetter fest.",
+      },
+      {
+        q: "Brauche ich eigene Hanteln oder Geräte?",
+        a: "Zum Start nicht, ich bringe Kurzhanteln und Bänder mit. Ob sich später eigene Ausrüstung lohnt, entscheidet dein Plan: viele bleiben dauerhaft bei einer kleinen Grundausstattung, die in einen Schrank passt.",
+      },
+      {
+        q: "Funktioniert das auch mit unregelmäßigen Arbeitszeiten?",
+        a: "Ja. Die zwei Termine pro Woche stehen fest, aber ihre Uhrzeit rotiert mit deinem Kalender, früh, mittags oder abends. Fällt ein Termin aus, wird er verschoben statt gestrichen, das ist der Sinn des festen Rhythmus.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
