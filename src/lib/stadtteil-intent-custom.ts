@@ -7960,6 +7960,178 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "ensen/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Ensen verstehe ich als Vorsorge: Ab etwa 30 verliert der Körper ohne Krafttraining von Jahrzehnt zu Jahrzehnt Muskelmasse, und genau das lässt sich mit zwei protokollierten Einheiten pro Woche umkehren. Ich trainiere mit dir bei dir zu Hause im Veedel oder im Studio. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Ensen: zwei protokollierte Krafteinheiten pro Woche gegen den schleichenden Muskelverlust ab 30, zu Hause im Veedel oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Muskeln sind keine Eitelkeit, sondern deine Rücklage",
+        body: "Wer nicht gezielt dagegen trainiert, verliert ab etwa Mitte 30 stetig Muskelmasse, und ab 60 beschleunigt sich dieser Abbau. Das merkst du nicht im Spiegel zuerst, sondern an den Einkaufstaschen, der Kellertreppe, dem Aufstehen vom Boden. Krafttraining ist der einzige Hebel, der diesen Prozess nachweislich umdreht, in jedem Alter. Deshalb behandle ich Muskelaufbau in Ensen nicht als Strandfigur-Projekt, sondern als das, was es ist: die verlässlichste Investition in deine nächsten zwanzig Jahre.",
+      },
+      {
+        title: "Kurze Wege: Ensen ist 1,62 Quadratkilometer klein",
+        body: "Ensen gehört mit 1,62 km² und rund 7.700 Einwohnern zu den kompakten Stadtteilen im Bezirk Porz. Für dein Training heißt das: Es gibt keine lange Anfahrt, die als Ausrede taugt. Ich komme mit Hanteln, Bank und Plan zu dir in die Wohnung oder ins Haus, zwei feste Termine pro Woche, jede Einheit mit Protokoll. Wenn du lieber an Geräten arbeitest, trainieren wir im Studio. Entscheidend ist nicht der Ort, sondern dass die Last von Woche zu Woche kontrolliert steigt.",
+      },
+      {
+        title: "Das Rheinufer gehört bei mir zur Erholung, nicht zum Aufbau",
+        body: "Das Rheinufer Ensen ist für Spaziergänge und lockere Bewegung an trainingsfreien Tagen da. Das klingt banal, ist aber Teil des Plans: Muskel wächst in der Erholung, und tägliche Geh-Kilometer verbessern Durchblutung und Regeneration, ohne neue Ermüdung aufzubauen. Wer stattdessen an freien Tagen noch Läufe einschiebt, bremst den Aufbau oft aus. Ich lege mit dir fest, was zwischen den Krafteinheiten passiert, damit die zwei Stunden pro Woche ihre volle Wirkung entfalten.",
+      },
+      {
+        title: "Essen für den Aufbau, ohne den Alltag umzubauen",
+        body: "Für neuen Muskel brauchst du genug Eiweiß und einen leichten Kalorienüberschuss, keine Spezialdiät. Ich lege mit dir einen Eiweiß-Zielwert pro Tag fest, der sich mit normalem Einkaufen erreichen lässt. Wenn du es genauer willst, steigt Natalie ein, unsere Ernährungsberaterin für Sport- und Fitnessernährung: Sie baut den Zielwert in deine echten Essgewohnheiten ein, statt dir einen fremden Plan überzustülpen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Ensen?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ob bei dir zu Hause in Ensen oder im Studio. Wer selbstständig trainieren will, nimmt das Online Coaching ab 150€ im Monat mit Plan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich bin über 50. Lohnt sich Muskelaufbau überhaupt noch?",
+        a: "Gerade dann. Studien zeigen Kraftzuwächse in jedem Alter, auch jenseits der 70. Der Unterschied liegt nur im Einstieg: Wir beginnen mit leichteren Lasten und mehr Technikarbeit, die Steigerung folgt demselben Prinzip wie bei Jüngeren.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Nein. Ich bringe verstellbare Kurzhanteln, Bänder und bei Bedarf eine Bank mit. Zwei mal drei Meter freie Fläche reichen. Wenn dir das Training liegt, berate ich dich später, welche Anschaffung sich für die Tage ohne mich lohnt.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Die Kraft steigt in den ersten vier bis sechs Wochen deutlich, das ist zuerst Technik und Nervensystem. Sichtbar mehr Muskel braucht je nach Ausgangslage zwei bis drei Monate. Wir messen alle vier bis sechs Wochen nach, damit du es schwarz auf weiß siehst.",
+      },
+    ],
+  },
+
+  "fuehlingen/muskelaufbau": {
+    answer:
+      "Fühlingen hat mit dem Fühlinger See Kölns größte Ausdauer-Anlage vor der Haustür, aber keinen Ort für die Langhantel. Für Muskelaufbau bringe ich deshalb das Gewicht zu dir ins Dorf: zwei geführte Einheiten pro Woche mit Protokoll und Eiweiß-Zielwert. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Fühlingen: der See liefert Ausdauer, die Langhantel bringe ich. Zwei protokollierte Krafteinheiten pro Woche bei dir im Dorf. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Dorf mit Weltklasse-Ausdauer und null Hantelbänken",
+        body: "Rund um Fühlingen dreht sich sportlich fast alles um Ausdauer: die Regattastrecke, die Lauf- und Radrunden am See, Schwimmen im Sommer. Was auf den 4,94 km² des Stadtteils fehlt, ist ein Ort für schweres Krafttraining, und die gut 2.200 Einwohner geben kein eigenes Studio her. Muskel braucht aber Last, die planmäßig steigt, kein weiteres Ausdauer-Angebot. Diese Lücke fülle ich: Ich komme mit dem Material zu dir und mache aus deinem Wohnzimmer, deiner Garage oder deinem Garten einen Kraftraum auf Zeit.",
+      },
+      {
+        title: "So sieht eine Aufbau-Woche in Fühlingen aus",
+        body: "Zwei geführte Krafteinheiten pro Woche, jede mit Protokoll: Grundübungen wie Kniebeuge, Rudern und Drücken, Lasten und Wiederholungen werden notiert und von Woche zu Woche gesteigert. Dazwischen liegt höchstens eine lockere Runde am See, nicht mehr. Wer nebenher weiter lange Einheiten rudert oder läuft, bespricht das mit mir: Wir takten die Belastung so, dass sich Kraft und Ausdauer nicht gegenseitig den Fortschritt wegnehmen.",
+      },
+      {
+        title: "Warum gerade Ausdauersportler vom Aufbau profitieren",
+        body: "Viele, die am Fühlinger See trainieren, haben jahrelang Kilometer gesammelt und wundern sich, dass Rumpf, Schultern und Beine trotzdem schwächer werden. Der Grund ist einfach: Ausdauertraining erhält Muskeln bestenfalls, es baut sie nicht auf. Ein gezielter Kraftblock verbessert bei Läufern und Ruderern nachweislich Haltung und Belastbarkeit, und die Kilometer am See fühlen sich leichter an, nicht schwerer.",
+      },
+      {
+        title: "Essen im Dorf-Rhythmus, nicht nach App-Diktat",
+        body: "Für den Aufbau legen wir einen täglichen Eiweiß-Zielwert fest und einen moderaten Kalorienüberschuss. Das funktioniert mit normalem Einkauf, auch wenn der nächste Supermarkt nicht im Veedel liegt: Wir planen die Woche einmal durch, damit die Vorräte stimmen. Wenn du mehr Struktur willst, übernimmt Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, und passt die Mengen an dein Ziel an.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Fühlingen?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Material, das ich mitbringe. Für Selbstständige mit Plan gibt es das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos und findet bei dir oder am See statt.",
+      },
+      {
+        q: "Ich habe weder Hanteln noch Platz. Geht das trotzdem?",
+        a: "Ja. Verstellbare Kurzhanteln, Bänder und eine klappbare Bank bringe ich mit, und eine freie Fläche von zwei mal drei Metern reicht. Im Sommer trainieren wir auf Wunsch draußen im Garten.",
+      },
+      {
+        q: "Kann ich weiter laufen oder rudern, während ich Muskeln aufbaue?",
+        a: "Ja, in angepasster Dosis. Ein bis zwei lockere Ausdauer-Einheiten pro Woche stören den Aufbau nicht. Lange oder harte Einheiten legen wir bewusst, damit sie nicht direkt vor einem Krafttag liegen.",
+      },
+      {
+        q: "Wie lange dauert es, bis man etwas sieht?",
+        a: "Kraftwerte steigen ab den ersten Wochen, sichtbare Veränderung braucht je nach Ausgangslage zwei bis drei Monate. Wir messen alle vier bis sechs Wochen nach: Umfänge, Lasten, Wiederholungen. Daran erkennst du den Fortschritt früher als im Spiegel.",
+      },
+    ],
+  },
+
+  "buchforst/personal-training": {
+    answer:
+      "Personal Training in Köln-Buchforst hat die kürzesten Wege der Stadt: Das Veedel misst nur 0,83 Quadratkilometer, und ich komme mit Material und Plan direkt zu dir. Auch in den kompakten Wohnungen der Weißen Stadt reichen zwei mal drei Meter. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Buchforst: 1-zu-1 bei dir zu Hause, auch in den kompakten Wohnungen der Weißen Stadt. Zwei feste Termine pro Woche mit Protokoll. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "0,83 Quadratkilometer: dein Training ist schon im Veedel",
+        body: "Buchforst ist einer der kleinsten Stadtteile Kölns, eingeklemmt zwischen Mülheim, Buchheim und Kalk, mit rund 7.400 Einwohnern auf 0,83 km². Ein eigenes Fitnessstudio sucht man hier vergeblich, die nächsten liegen in den Nachbarvierteln. Genau deshalb drehe ich den Weg um: Ich komme zu dir, zwei feste Termine pro Woche, Hanteln, Bänder und Bank bringe ich mit. Dein Arbeitsweg zum Training ist der Flur.",
+      },
+      {
+        title: "Training in der Weißen Stadt: kompakt geplant wie die Siedlung selbst",
+        body: "Die denkmalgeschützte Weiße Stadt aus den Jahren um 1930 prägt Buchforst, und ihre Wohnungen sind bewusst kompakt geschnitten. Für dein Training ist das kein Hindernis: Kniebeugen, Rudern, Drücken und Rumpfarbeit brauchen zwei mal drei Meter Fläche, mehr nicht. Ich plane die Übungsauswahl nach deiner Wohnung, nicht umgekehrt, und mit kontrolliertem Tempo statt fallender Gewichte bleibt das Training leise genug für jedes Mietshaus.",
+      },
+      {
+        title: "Für draußen: in zehn Minuten am Rhein",
+        body: "Wenn du Ausdauer-Anteile willst, nutzen wir die Lage: Vom westlichen Rand Buchforsts bist du schnell am Rheinufer in Mülheim, für Intervalle, Treppen und zügige Geh-Blöcke. Diese Einheiten baue ich als Ergänzung ein, nicht als Ersatz für die Kraftarbeit. Das Grundgerüst bleiben die zwei geführten Termine pro Woche bei dir.",
+      },
+      {
+        title: "So startest du",
+        body: "Im kostenlosen Erstgespräch klären wir Ziel, Gesundheitsstatus und Terminlage, danach bekommst du einen Plan mit zwei festen Einheiten pro Woche. Jede Stunde wird protokolliert: Lasten, Wiederholungen, Fortschritt. Alle vier bis sechs Wochen messen wir nach und passen den Plan an. Du siehst jederzeit, wofür du bezahlst.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Buchforst?",
+        a: "Die 1-zu-1 Stunde kostet 50€, bei dir zu Hause inklusive Material. Das Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Meine Wohnung ist klein. Reicht der Platz wirklich?",
+        a: "Ja. Zwei mal drei Meter freie Fläche genügen, das schafft fast jedes Wohnzimmer in Buchforst, auch in der Weißen Stadt. Die Übungsauswahl passe ich an den Raum an, ohne dass die Wirkung leidet.",
+      },
+      {
+        q: "Müssen die Nachbarn das Training hören?",
+        a: "Nein. Wir arbeiten mit kontrolliertem Tempo, Gewichte werden abgesetzt, nicht fallen gelassen, und Sprünge ersetze ich in Mietwohnungen durch gleichwertige Übungen ohne Aufprall.",
+      },
+      {
+        q: "Für wen lohnt sich das 1-zu-1 in Buchforst?",
+        a: "Für alle, die ohne Studio-Anfahrt verbindlich trainieren wollen: Einsteiger, Wiedereinsteiger nach Pause oder Verletzung und Berufstätige, die feste Termine brauchen, damit das Training nicht dem Kalender zum Opfer fällt.",
+      },
+    ],
+  },
+
+  "stammheim/personal-training": {
+    answer:
+      "Personal Training in Köln-Stammheim nutzt den schönsten Außen-Trainingsort der rechten Rheinseite: den Schlosspark direkt am Fluss, mit ebenen Wegen für Intervalle und Wiesen für die Kraftarbeit. Im Winter verlegen wir die Einheiten zu dir nach Hause. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Stammheim: 1-zu-1 im Schlosspark am Rhein oder bei dir zu Hause, zwei feste Termine pro Woche mit Protokoll. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Schlosspark ist dein Studio am Rhein",
+        body: "Kaum ein Kölner Veedel hat einen Trainingsort wie den Schlosspark Stammheim: eine weitläufige Parkanlage direkt am Rheinufer, mit altem Baumbestand, ebenen Wegen und großen Wiesen. Wir nutzen die Wege für Intervalle und zügige Geh-Blöcke und die Wiesen für Kraftübungen mit mitgebrachtem Material. Du trainierst mit Blick aufs Wasser statt auf einen Spiegel, und der Park liegt für die gut 8.200 Stammheimer höchstens ein paar Minuten entfernt.",
+      },
+      {
+        title: "Bei Wind und Regen: dein Wohnzimmer wird zum Kraftraum",
+        body: "Ein Plan, der nur bei Sonne funktioniert, ist keiner. Von November bis März verlege ich die meisten Einheiten zu dir nach Hause: verstellbare Kurzhanteln, Bänder und Bank bringe ich mit, zwei mal drei Meter Fläche reichen. Die Übungen bleiben dieselben wie im Park, das Protokoll läuft durch. So verlierst du im Winter nicht, was du im Sommer aufgebaut hast.",
+      },
+      {
+        title: "Zwei feste Termine, ein Protokoll, nachmessen",
+        body: "Das Grundgerüst in Stammheim sind zwei geführte 1-zu-1 Einheiten pro Woche. Jede Stunde wird dokumentiert: Lasten, Wiederholungen, Zeiten. Alle vier bis sechs Wochen messen wir nach und vergleichen mit dem Start. Wenn sich die Zahlen nicht bewegen, ändere ich den Plan, nicht die Ausrede. Beim Thema Essen unterstützt auf Wunsch Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung.",
+      },
+      {
+        title: "Für wen das in Stammheim passt",
+        body: "Typische Anfragen aus dem Veedel kommen von Leuten, die zwischen Familie und Arbeit wieder anfangen wollen: abnehmen, Rücken stärken, Kondition zurückholen. Dafür braucht es keinen Umweg über ein Studio in Mülheim oder Leverkusen, sondern einen festen Termin im eigenen Veedel, einen Plan und jemanden, der die Technik korrigiert, bevor sich Fehler einschleifen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Stammheim?",
+        a: "Die 1-zu-1 Stunde kostet 50€, im Schlosspark wie bei dir zu Hause, Material inklusive. Das Online Coaching gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Darf man im Schlosspark überhaupt trainieren?",
+        a: "Ja. Der Schlosspark ist eine öffentliche Grünanlage, und ein 1-zu-1 Training mit Kleingeräten ist dort problemlos möglich. Wir nehmen Rücksicht auf andere Besucher und hinterlassen nichts, dann gibt es keine Konflikte.",
+      },
+      {
+        q: "Was passiert bei schlechtem Wetter?",
+        a: "Der Termin findet trotzdem statt, nur drinnen: Ich bringe das Material zu dir nach Hause, die Einheit folgt demselben Plan. Abgesagt wird bei mir wegen Wetter nicht, das ist der Vorteil gegenüber einem reinen Outdoor-Angebot.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Kann ich einsteigen?",
+        a: "Ja. Das Erstgespräch klärt Gesundheitsstatus und Belastbarkeit, die ersten Wochen arbeiten wir mit leichten Lasten und viel Technik. Das Tempo bestimmt dein Körper, nicht ein Standardplan.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
