@@ -11962,7 +11962,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Als letzte Übung: im Stehen. Füße hüftbreit, Knie leicht gebeugt. Dann langsam nach vorne rollen, Wirbel für Wirbel, Kinn zur Brust, Schultern folgen, bis du mit den Fingern so weit nach unten kommst, wie es geht. Kein Zwang, keine Schmerzen. Zehn Sekunden halten, dann genauso langsam wieder aufrichten. Das streckt die gesamte Rückseite und gibt dir gleichzeitig ein klares Körpergefühl für den Tag."
+        "text": "Als letzte Übung: im Stehen. Füße hüftbreit, Knie leicht gebeugt. Dann langsam nach vorne rollen, Wirbel für Wirbel, Kinn zur Brust, Schultern folgen, bis du mit den Fingern so weit nach unten kommst, wie es geht. Kein Zwang, keine Schmerzen. Zehn Sekunden halten, dann genauso langsam wieder aufrichten. Das streckt die gesamte Rückseite und gibt dir gleichzeitig ein klares Körpergefühl für den Tag. Und wenn sich morgens nicht nur der Rücken steif anfühlt: Für Schultern und Nacken gibt es eigene [Übungen gegen hängende und hochgezogene Schultern](/blog/schulter-mobility-uebungen), die genauso wenig Zeit kosten."
       },
       {
         "type": "ul",
@@ -13895,7 +13895,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Und dann ist da noch das Thema Mobilität. Viele Rückenprobleme haben ihre Wurzel in eingeschränkter Hüftmobilität oder in verkürzten Brustmuskeln. Wer vor dem Krafttraining fünf Minuten gezieltes Mobility-Warm-up macht, hat eine bessere Ausgangsposition und verletzt sich seltener. Das kostet keine Extraeinheit, sondern gehört einfach dazu."
+        "text": "Und dann ist da noch das Thema Mobilität. Viele Rückenprobleme haben ihre Wurzel in eingeschränkter Hüftmobilität oder in verkürzten Brustmuskeln. Wer vor dem Krafttraining fünf Minuten gezieltes Mobility-Warm-up macht, hat eine bessere Ausgangsposition und verletzt sich seltener. Das kostet keine Extraeinheit, sondern gehört einfach dazu. Passende [Übungen, um die Hüfte zu mobilisieren](/blog/huefte-beweglichkeit-uebungen), habe ich in einem eigenen Artikel Schritt für Schritt erklärt."
       },
       {
         "type": "h2",
