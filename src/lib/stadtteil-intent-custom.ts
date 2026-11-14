@@ -7043,6 +7043,248 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "neustadt-nord/rueckentraining": {
+    answer:
+      "Rückentraining in der Kölner Neustadt-Nord richtet sich gegen die Haltung, die hier den ganzen Tag dominiert: vorgebeugt am Schreibtisch, vorgebeugt auf dem Rad. Zwei Krafteinheiten pro Woche bauen Streckung und hintere Kette auf, im Inneren Grüngürtel, bei dir zu Hause oder im Studio. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln Neustadt-Nord: raus aus der Dauerbeuge von Schreibtisch und Fahrrad, Kraft für Streckung und hintere Kette. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Tag findet in der Beuge statt",
+        body: "Die Neustadt-Nord ist das Veedel der kurzen Wege und der langen Sitzzeiten: 28.604 Menschen auf 3,49 km², dazu die Büros am Mediapark, am Friesenplatz und entlang der Ringe. Wer hier lebt, fährt Rad und sitzt dann acht Stunden am Bildschirm. Beides passiert in derselben Position: Hüfte gebeugt, Rücken rund, Arme nach vorn. Der Körper bekommt von morgens bis abends ein einziges Signal. Die Rückseite, also Gesäß, hintere Oberschenkel und die Muskeln entlang der Wirbelsäule, arbeitet dabei fast nie. Genau da setzt das Training an.",
+      },
+      {
+        title: "Die Gegenrichtung trainieren, nicht die Beuge dehnen",
+        body: "Ein verspannter Rücken aus der Dauerbeuge braucht keine Schonung und keine endlosen Dehnübungen, er braucht Kraft in der Gegenrichtung. Im Plan stehen deshalb Hüftstrecken, Rudern, Kreuzheben-Varianten mit sauberer Technik und gezielte Arbeit für die Schulterblätter. Zwei Einheiten pro Woche reichen, wenn die Last Schritt für Schritt steigt. Nach vier bis sechs Wochen merkst du es zuerst auf dem Rad: Der Nacken meldet sich später, das lange Sitzen danach kippt dich nicht mehr so schnell zusammen.",
+      },
+      {
+        title: "Stadtgarten, Grüngürtel oder dein Wohnzimmer",
+        body: "Du musst für das Training nicht aus dem Veedel raus. Der Innere Grüngürtel und der Stadtgarten liegen direkt vor der Tür, dort arbeiten wir mit Körpergewicht, Kurzhanteln und Widerstandsbändern, die ich mitbringe. Wer lieber drinnen trainiert, macht die Einheiten zu Hause oder im Studio mit Langhantel. Für Bürotage am Mediapark plane ich auch Mittagseinheiten: 60 Minuten von Tür zu Tür, Technik und Hauptübungen sind in dieser Zeit sauber machbar.",
+      },
+      {
+        title: "Erst verstehen, wo es klemmt, dann laden",
+        body: "Wir starten mit einem Check: Wie weit streckt deine Hüfte, was machen die Schulterblätter, wo weicht der Rücken unter Last aus. Daraus entsteht der Plan, und alle vier bis sechs Wochen wird nachgemessen. Bei akuten Schmerzen, die in Bein oder Arm ausstrahlen, gehört der erste Weg zum Arzt. Das Training übernimmt danach: stärker werden, damit der Alltag in der Beuge dich nicht mehr festhält.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in der Neustadt-Nord?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Wer selbstständig mit Plan und wöchentlichen Check-ins arbeiten will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Ich fahre viel Rad. Reicht das nicht als Bewegung?",
+        a: "Radfahren ist gute Ausdauer, aber es findet in der gleichen gebeugten Haltung statt wie der Schreibtisch. Für den Rücken zählt die Gegenrichtung: Streckung und Zugkraft. Die bekommst du nur über gezieltes Krafttraining.",
+      },
+      {
+        q: "Wo trainieren wir in der Neustadt-Nord?",
+        a: "Draußen im Inneren Grüngürtel oder im Stadtgarten, bei dir zu Hause mit mitgebrachtem Equipment oder im Studio. Den Ort legen wir nach deinem Tagesablauf fest, auch eine Mittagspause am Mediapark reicht für eine volle Einheit.",
+      },
+      {
+        q: "Wie schnell lassen Rückenschmerzen vom Sitzen nach?",
+        a: "Die meisten spüren nach vier bis sechs Wochen mit zwei Einheiten pro Woche einen Unterschied im Alltag. Messbar machen wir es über die Kraftwerte im Plan. Bleibt ein Schmerz unverändert oder strahlt er aus, gehört er zuerst in ärztliche Abklärung.",
+      },
+    ],
+  },
+
+  "weiss/personal-training": {
+    answer:
+      "Personal Training in Köln-Weiß kommt zu dir ins Dorf: 1-zu-1 Einheiten bei dir zu Hause oder draußen am Weißer Rheinbogen, mit Equipment, das ich mitbringe, und einem Plan mit messbarer Progression. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Weiß: 1-zu-1 bei dir zu Hause oder am Weißer Rheinbogen, Equipment kommt mit, Plan mit Progression. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Dorf am Rhein, in dem das Training zu dir kommt",
+        body: "Weiß hat 5.923 Einwohner auf 4,16 km², einen eigenen Rheinabschnitt und keine einzige Trainingsfläche mit Geräten. Wer hier ernsthaft trainieren will, fährt bisher raus, nach Rodenkirchen oder weiter. Beim Personal Training drehe ich das um: Ich komme mit Kurzhanteln, Kettlebells und Widerstandsbändern zu dir. Dein Wohnzimmer, deine Garage oder dein Garten reichen für vollwertiges Krafttraining, wenn Übungsauswahl und Progression stimmen. Die Fahrzeit, die du dir sparst, ist ein Trainingstag mehr pro Woche.",
+      },
+      {
+        title: "Der Rheinbogen ist dein zweiter Trainingsort",
+        body: "Direkt am Veedel liegt das Naturschutzgebiet Weißer Rheinbogen: flache Wege am Wasser, Wiesen, kaum Verkehr. Dort verlege ich bei gutem Wetter ganze Einheiten nach draußen, Kraftzirkel auf der Wiese, Intervalle und zügige Läufe auf dem Leinpfad. Im Naturschutzgebiet bleiben wir auf den Wegen, Platz ist trotzdem mehr als genug. So entsteht ein Wechsel, den kein Studio bietet: Kraft zu Hause, Ausdauer und Technik am Wasser.",
+      },
+      {
+        title: "Plan, Zahlen und ein fester Termin",
+        body: "Am Anfang steht ein Check: Beweglichkeit, Grundkraft, dein Ziel und dein Kalender. Daraus baue ich einen Plan mit zwei Einheiten pro Woche und trage jede Einheit in der App mit: Gewichte, Wiederholungen, Fortschritt. Alle vier bis sechs Wochen vergleichen wir die Zahlen mit dem Start. Wenn sich nichts bewegt, ändere ich den Plan, nicht du deinen Anspruch. Der feste Termin tut den Rest: In einem Dorf wie Weiß sage ich nicht anonym ab, ich stehe vor deiner Tür.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Weiß?",
+        a: "Die 1-zu-1 Stunde kostet 50€, auch bei dir zu Hause in Weiß. Wer lieber mit App-Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe keine Geräte zu Hause. Geht das trotzdem?",
+        a: "Ja. Ich bringe Kurzhanteln, Kettlebells und Bänder mit. Für Muskelaufbau und Rückenkraft reicht das in den ersten Monaten vollständig, die Progression steuere ich über Last, Tempo und Übungsauswahl.",
+      },
+      {
+        q: "Wo genau trainieren wir draußen in Weiß?",
+        a: "Am Rheinufer von Weiß und auf den Wegen durch den Weißer Rheinbogen. Flach, ruhig und direkt vor der Tür. Im Winter oder bei Dauerregen verlegen wir die Einheit nach drinnen, der Plan läuft durch.",
+      },
+      {
+        q: "Für wen lohnt sich Personal Training im Veedel?",
+        a: "Für alle, die in Weiß wohnen und nicht für jede Einheit nach Rodenkirchen oder in die Stadt fahren wollen: Wiedereinsteiger, Berufstätige mit engem Kalender, Eltern, die trainieren wollen, während die Kinder zu Hause sind.",
+      },
+    ],
+  },
+
+  "suelz/personal-training": {
+    answer:
+      "Personal Training in Köln-Sülz löst das Problem, das hier fast jeder kennt: angefangen wird oft, durchgehalten selten. 1-zu-1 Einheiten mit festem Termin, bei dir zu Hause, im Beethovenpark oder im Studio, mit dokumentierter Progression. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Sülz: fester Termin statt drittem Fehlstart, Training zu Hause, im Beethovenpark oder im Studio, Fortschritt dokumentiert. 50€/Std.",
+    sections: [
+      {
+        title: "In Sülz scheitert niemand am Angebot",
+        body: "Sülz ist mit 36.851 Einwohnern auf 5,17 km² eines der größten Veedel der Stadt, und an Sportmöglichkeiten fehlt es nicht: Studios, Vereine, Laufgruppen, der Beethovenpark. Trotzdem erzählen mir die meisten beim Erstgespräch dieselbe Geschichte: zweimal, dreimal angefangen, nach sechs Wochen versandet. Nicht aus Faulheit, sondern weil niemand merkt, wenn du fehlst. Personal Training ändert genau diesen Punkt: Der Termin steht, ich stehe da, und das Training ist auf dich gebaut statt auf den Durchschnitt eines Kursplans.",
+      },
+      {
+        title: "Beethovenpark, dein Wohnzimmer oder die Langhantel im Studio",
+        body: "Trainiert wird dort, wo es in deine Woche passt. Im Beethovenpark arbeiten wir draußen mit Körpergewicht, Kurzhanteln und Bändern, die ich mitbringe. Zu Hause reicht ein freier Streifen Boden, auch in einer Sülzer Altbauwohnung. Für schwere Grundübungen mit der Langhantel gehen wir ins Studio. Viele kombinieren: eine Einheit draußen oder daheim, eine am Eisen. Der Plan bleibt derselbe, nur der Ort wechselt.",
+      },
+      {
+        title: "Fortschritt steht bei mir in Zahlen, nicht im Gefühl",
+        body: "Jede Einheit wird in der App dokumentiert: Übungen, Gewichte, Wiederholungen. Alle vier bis sechs Wochen vergleichen wir mit dem Start und entscheiden anhand der Zahlen, was sich ändert. Das ist der Unterschied zum vierten Anlauf auf eigene Faust: Du siehst schwarz auf weiß, dass sich etwas bewegt, und genau das hält Menschen bei der Stange, nicht Motivation aus dem Kalenderblatt.",
+      },
+      {
+        title: "Für Sülzer Kalender gebaut",
+        body: "Hier wohnen viele Familien mit zwei Berufen und vollen Wochen. Deshalb lege ich Termine früh am Morgen, in die Mittagszeit oder auf den frühen Abend und halte sie Woche für Woche gleich, damit das Training ein fester Block wird statt Verhandlungsmasse. Fällt ein Termin aus, wird er verschoben, nicht gestrichen. Zwei Einheiten pro Woche reichen für sichtbaren Aufbau in drei Monaten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Sülz?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Als Alternative gibt es das Online Coaching ab 150€ im Monat mit Trainingsplan in der App und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe schon mehrmals angefangen und aufgehört. Warum sollte es diesmal halten?",
+        a: "Weil zwei Dinge anders sind: Es gibt einen festen Termin mit einer Person, die auf dich wartet, und einen dokumentierten Fortschritt, den du alle paar Wochen schwarz auf weiß siehst. Beides fehlt beim Training auf eigene Faust.",
+      },
+      {
+        q: "Wo trainieren wir in Sülz?",
+        a: "Im Beethovenpark, bei dir zu Hause mit mitgebrachtem Equipment oder im Studio an der Langhantel. Auch der Grüngürtel Richtung Decksteiner Weiher ist für Ausdauerblöcke nah genug. Den Mix legen wir im Erstgespräch fest.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche?",
+        a: "Ja, wenn sie geplant sind und die Last steigt. Dazu bekommst du kurze Aufgaben für die Tage dazwischen, meist 15 bis 20 Minuten. Mehr Volumen bauen wir erst ein, wenn die Basis steht.",
+      },
+    ],
+  },
+
+  "neubrueck/personal-training": {
+    answer:
+      "Personal Training in Köln-Neubrück heißt: 1-zu-1 Training mit festem Plan und messbarer Progression, bei dir zu Hause in der Siedlung oder draußen am Königsforst, der direkt hinter dem Veedel beginnt. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Neubrück: 1-zu-1 bei dir zu Hause oder am Königsforst, fester Plan, messbarer Fortschritt. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Im kompaktesten Veedel des Bezirks ist der Weg nie die Ausrede",
+        body: "Neubrück ist mit 1,1 km² das kompakteste Veedel im Bezirk Kalk: 8.342 Menschen, kurze Wege, alles beieinander. Ein Studio gibt es hier trotzdem nicht, und die Fahrt nach Kalk oder in die Stadt frisst genau die Zeit, an der Trainingsvorsätze scheitern. Deshalb komme ich zu dir: mit Kurzhanteln, Kettlebells und Widerstandsbändern reicht dein Wohnzimmer für vollwertiges Krafttraining. Von jeder Haustür in Neubrück stehst du außerdem in wenigen Minuten am Rand des Königsforsts.",
+      },
+      {
+        title: "Kraft drinnen, Ausdauer im Königsforst",
+        body: "Der Wechsel macht den Plan: Die Krafteinheiten laufen bei dir zu Hause, sauber dokumentiert mit Gewichten und Wiederholungen in der App. Für Ausdauer, Intervalle und lange Grundlagenblöcke nutzen wir die breiten, flachen Wege des Königsforsts, die direkt an Neubrück anschließen. So entsteht ein komplettes Training ohne Mitgliedschaft und ohne Anfahrt, und alle vier bis sechs Wochen zeigen die Zahlen, ob es wirkt. Wenn nicht, ändere ich den Plan.",
+      },
+      {
+        title: "Für wen das in Neubrück passt",
+        body: "Die typischen Anfragen aus Neubrück kommen von Berufstätigen, die morgens mit Auto oder Bahn rauspendeln und abends keine zweite Fahrt mehr antreten wollen, und von Eltern, die trainieren möchten, ohne das Haus lange zu verlassen. Das Einstiegsniveau spielt keine Rolle: Am Anfang steht ein Check von Beweglichkeit und Grundkraft, daraus entsteht dein Plan mit zwei Einheiten pro Woche.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Neubrück?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, auch bei dir zu Hause. Wer lieber eigenständig mit Plan und wöchentlichem Check-in arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich eigene Geräte oder einen Hobbyraum?",
+        a: "Nein. Ich bringe das Equipment mit, ein freier Streifen Boden im Wohnzimmer reicht. Schwere Langhantelarbeit bauen wir erst ein, wenn dein Ziel sie wirklich braucht, dann im Studio.",
+      },
+      {
+        q: "Trainieren wir auch im Königsforst?",
+        a: "Ja, er beginnt direkt hinter dem Veedel. Dort laufen Intervalle, zügige Läufe und Technikblöcke auf breiten, flachen Wegen. Kraft bleibt drinnen, Ausdauer geht nach draußen, der Plan verbindet beides.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Mit zwei geführten Einheiten pro Woche sind Kraftzuwächse nach vier bis sechs Wochen messbar, sichtbare Veränderung braucht etwa drei Monate. Jede Einheit steht in der App, du siehst den Verlauf schwarz auf weiß.",
+      },
+    ],
+  },
+
+  "vogelsang/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Vogelsang mit Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung: ein Plan, der aus deiner Familienküche kommt, statt neben ihr herzulaufen. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Vogelsang mit Natalie: ein Essen für den ganzen Haushalt statt Extra-Diät, online per Video und App. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Essen für alle statt zwei Küchen",
+        body: "Vogelsang ist ein Wohnveedel: 8.336 Menschen, viele Häuser mit Familienküche, gekocht wird abends für alle. Genau daran scheitern die meisten Diäten, denn sie verlangen ein zweites Essen nur für dich. Natalie baut deinen Plan deshalb um den gemeinsamen Topf: dieselben Gerichte für den ganzen Haushalt, bei dir ändern sich Portionsaufbau und Eiweißanteil. Niemand am Tisch isst Diätkost, und du musst nicht doppelt kochen. Das ist der Unterschied zwischen einem Plan, der zwei Wochen hält, und einem, der bleibt.",
+      },
+      {
+        title: "So läuft die Beratung in Vogelsang ab",
+        body: "Die Beratung ist komplett online, du fährst also für keinen Termin aus dem Veedel. Erst fotografierst du eine Woche lang dein Essen in der App, ohne etwas zu ändern. Im Videotermin baut Natalie dann mit dir um, in der Reihenfolge mit der größten Wirkung: zuerst Eiweiß in den Hauptmahlzeiten, dann die Abendportionen, zuletzt das, was zwischen den Mahlzeiten läuft. Die Zutaten bleiben die, die du beim normalen Wocheneinkauf sowieso kaufst.",
+      },
+      {
+        title: "Wenn du willst, kommt das Training dazu",
+        body: "Ernährung steuert das Gewicht, Training entscheidet, was davon Muskel bleibt. Wer beides will, kombiniert die Beratung mit zwei Krafteinheiten pro Woche: als Online Coaching mit Plan in der App oder als 1-zu-1 Training für 50€ pro Stunde, bei dir zu Hause oder auf den Wiesen des Äußeren Grüngürtels am Rand des Veedels. Erstgespräch und Bestandsaufnahme sind in beiden Fällen kostenlos.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Vogelsang?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich für meine Familie und mich getrennt kochen?",
+        a: "Nein, das ist genau der Punkt des Plans: ein Gericht für alle, bei dir angepasst über Portionsgröße und Eiweißanteil. Pläne mit Extra-Essen nur für dich scheitern erfahrungsgemäß am Alltag.",
+      },
+      {
+        q: "Brauche ich spezielle Produkte oder Shakes?",
+        a: "Nein. Natalie arbeitet mit normalen Lebensmitteln aus dem Supermarkt. Keine Pulver, keine Ersatzmahlzeiten, keine Abos.",
+      },
+      {
+        q: "Wie schnell nehme ich damit ab?",
+        a: "Realistisch sind 0,3 bis 0,5 Kilo pro Woche, je nach Ausgangslage. Natalie legt das Tempo mit dir fest und prüft es in den Check-ins. Schneller geht fast immer auf Kosten von Muskeln, und das rächt sich danach.",
+      },
+    ],
+  },
+
+  "brueck/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Brück mit Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung: für Tage, die mit Pendeln enden und bei denen das erste richtige Essen oft erst abends auf dem Tisch steht. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Brück mit Natalie: Schluss mit dem Essens-Stau am Abend nach dem Pendeltag, online per Video und App. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In Brück staut sich das Essen am Abend",
+        body: "Brück liegt am Stadtrand, viele der 10.234 Bewohner pendeln mit der Linie 1 oder dem Auto in die Stadt und zurück. Das typische Muster, das Natalie in den Bestandsaufnahmen von hier sieht: morgens fast nichts, mittags irgendwas Schnelles, und zwischen 19 und 23 Uhr kommt dann der ganze Tag auf einmal auf den Teller. Die Tageskalorien sind oft gar nicht zu hoch, sie sind nur falsch verteilt: Der Abend wird übergroß, der Schlaf schlechter, der nächste Morgen startet wieder ohne Hunger. Diesen Kreis bricht die Beratung auf.",
+      },
+      {
+        title: "Der Tag wird umgebaut, nicht der Feierabend verboten",
+        body: "Natalie verbietet dir das Abendessen nicht, sie nimmt ihm den Druck. Zuerst bekommt der Tag zwei echte Mahlzeiten mit genug Eiweiß, auch wenn eine davon im Zug oder am Arbeitsplatz stattfindet. Dann wird das Abendessen geplant statt improvisiert: eine richtige, sättigende Mahlzeit, aber nicht mehr die einzige des Tages. Du fotografierst eine Woche lang dein Essen in der App, danach baut Natalie im Videotermin mit dir um. Gekocht wird mit dem, was du in Brück sowieso einkaufst.",
+      },
+      {
+        title: "Bewegung hat Brück vor der Tür, die Steuerung kommt dazu",
+        body: "Mit dem Königsforst direkt am Veedel bewegen sich viele Brücker ohnehin: Spaziergänge, Läufe, Rad. Was fehlt, ist selten der Wille, sondern die Steuerung von Kalorien und Eiweiß. Wer zur Beratung auch Training will, kombiniert beides: Online Coaching mit Plan in der App oder 1-zu-1 Einheiten für 50€ pro Stunde, zu Hause oder am Waldrand. Die Beratung selbst bleibt komplett online und passt damit auch in Pendlerwochen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Brück?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich esse abends am meisten. Muss das weg?",
+        a: "Nein. Das Abendessen bleibt eine vollwertige Mahlzeit. Es hört nur auf, die einzige des Tages zu sein, denn genau das treibt Portionen und Heißhunger nach oben.",
+      },
+      {
+        q: "Wie läuft die Beratung ab, wenn ich pendle?",
+        a: "Komplett online: Du dokumentierst dein Essen per Foto in der App, die Termine mit Natalie laufen per Video am Abend oder am Wochenende. Du musst für keinen Termin irgendwo hinfahren.",
+      },
+      {
+        q: "Ich laufe schon regelmäßig im Königsforst. Warum nehme ich nicht ab?",
+        a: "Weil Bewegung den Verbrauch nur zum Teil bestimmt. Wenn der Abend die Kalorien des ganzen Tages nachholt, gleicht kein Lauf das aus. Die Bestandsaufnahme zeigt, wo deine Kalorien wirklich stehen, erst dann wird geändert.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
