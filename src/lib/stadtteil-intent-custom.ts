@@ -8218,6 +8218,263 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "lindenthal/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Lindenthal macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz für lange, unplanbare Arbeitstage: zwei feste Anker-Mahlzeiten statt eines perfekten Plans, der am ersten 12-Stunden-Tag reißt. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Lindenthal mit Natalie: zwei Anker-Mahlzeiten für lange Klinik- und Bürotage statt starrer Pläne. Online per Video, ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum perfekte Pläne in Lindenthal scheitern",
+        body: "Lindenthal ist das Veedel der Uniklinik, der Praxen und der Kanzleien: viele der 30.725 Menschen hier haben Arbeitstage, die selten um 17 Uhr enden und fast nie so laufen wie geplant. Ein Ernährungsplan mit sechs abgewogenen Mahlzeiten hält so einem Kalender keine Woche stand. Natalie baut deshalb andersherum: Zwei Mahlzeiten am Tag werden zu festen Ankern, meist ein eiweißreiches Frühstück und ein geplantes Abendessen. Was dazwischen passiert, regelt nicht ein Plan, sondern eine Handvoll Regeln, die auch in der Klinikkantine und beim Bäcker an der Dürener Straße funktionieren.",
+      },
+      {
+        title: "Die Mittagslücke: Regeln statt Rezepte",
+        body: "Der schwächste Punkt langer Arbeitstage ist die Mitte: Das Mittagessen fällt aus, wird durch Kaffee ersetzt, und um 16 Uhr entscheidet der Hunger statt du. Natalie gibt dir für genau diese Lücke eine Auswahlstrategie: was du in Kantine, Mensa oder beim Imbiss nimmst, wenn es schnell gehen muss, und was du als Reserve in Schublade oder Kitteltasche legst. Das ist unspektakulär, aber es ist der Unterschied zwischen einem kontrollierten Nachmittag und dem täglichen Absturz in Süßes.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Alles online, kein zusätzlicher Termin, zu dem du fahren musst. Du fotografierst eine Woche lang dein Essen in der App, ohne etwas zu ändern. Danach baut Natalie im Videotermin mit dir um, in der Reihenfolge mit der größten Wirkung: zuerst die beiden Anker-Mahlzeiten, dann die Mittagsregeln, zuletzt Kaffee, Snacks und die späten Abende. Im wöchentlichen Check-in wird nachjustiert, wenn eine Woche aus dem Ruder lief. Genau dafür ist der Check-in da.",
+      },
+      {
+        title: "Training dazu, wenn du willst",
+        body: "Ernährung steuert dein Gewicht, Krafttraining entscheidet, was davon Muskel bleibt. Wer beides will, kombiniert die Beratung mit zwei Einheiten pro Woche: im Online Coaching mit Plan in der App oder als 1-zu-1 Training für 50€ pro Stunde, bei dir zu Hause oder draußen am Stadtwald. Erstgespräch und Bestandsaufnahme kosten in beiden Fällen nichts.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Lindenthal?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Mein Arbeitstag ist jeden Tag anders. Funktioniert das trotzdem?",
+        a: "Genau dafür ist der Ansatz gebaut. Die beiden Anker-Mahlzeiten liegen an den Rändern des Tages, wo auch lange Dienste selten etwas ändern. Die Mitte des Tages regeln Auswahlregeln statt eines festen Plans.",
+      },
+      {
+        q: "Muss ich Kalorien zählen?",
+        a: "Am Anfang ja, aber nur eine Woche lang zur Bestandsaufnahme per Foto in der App. Danach arbeitest du mit Portionsregeln und den Ankern. Dauerhaftes Tracken verlangt Natalie nicht, bei manchen bleibt es als Werkzeug, bei den meisten nicht.",
+      },
+      {
+        q: "Ersetzt die Beratung eine medizinische Ernährungstherapie?",
+        a: "Nein. Natalie berät gesunde Erwachsene zu Sport- und Fitnessernährung, Abnehmen und Muskelaufbau. Bei diagnostizierten Erkrankungen gehört die Ernährung in ärztliche Begleitung, das sagen wir dir im Erstgespräch auch offen.",
+      },
+    ],
+  },
+
+  "altstadt-sued/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für die Kölner Südstadt macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: Du lernst bestellen statt verzichten, denn in diesem Veedel findet Essen draußen statt. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in der Kölner Südstadt mit Natalie: bestellen lernen statt verzichten, Strategie für Brauhaus, Imbiss und Restaurant. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In der Südstadt entscheidet die Bestellung, nicht das Rezept",
+        body: "27.764 Menschen auf 2,36 km², dazu eine der höchsten Dichten an Restaurants, Imbissen und Kneipen der Stadt: Wer in Altstadt-Süd wohnt, kocht seltener selbst als der Rest von Köln, zwischen Severinstraße und Chlodwigplatz ist das nächste Essen nie weiter als fünf Minuten entfernt. Klassische Ernährungsberatung mit Wochenrezepten geht daran vorbei. Natalie setzt deshalb dort an, wo deine Kalorien wirklich herkommen: bei dem, was du bestellst. Du bekommst keine Kochpläne, die du nicht nutzt, sondern eine Strategie für Speisekarten.",
+      },
+      {
+        title: "So sieht eine Speisekarten-Strategie aus",
+        body: "Für jede Situation gibt es eine beste Wahl, man muss sie nur kennen: beim Italiener, beim Libanesen, am Dönerstand, im Brauhaus. Natalie geht mit dir die Orte durch, an denen du tatsächlich isst, und legt für jeden zwei bis drei Standardbestellungen fest, die zu deinem Eiweiß- und Kalorienziel passen. Dazu kommen Regeln für das Drumherum: Brotkorb, Soßen, das zweite Kölsch. Nach ein paar Wochen bestellst du automatisch richtig, ohne dass es am Tisch jemand merkt. Das ist der Unterschied zu einer Diät: Sie sieht man dir an der Laune an, eine gute Bestellstrategie nicht.",
+      },
+      {
+        title: "Was mit dem Rest des Tages passiert",
+        body: "Die Beratung läuft komplett online: Erst eine Woche Bestandsaufnahme per Foto in der App, dann der Umbau im Videotermin. Neben den Bestellregeln bekommt dein Tag ein stabiles Fundament, meist ein eiweißreiches Frühstück oder Mittagessen, das du selbst in der Hand hast. So trägt eine Hälfte des Tages das Ziel, und die andere Hälfte bleibt Südstadt-Leben. Im wöchentlichen Check-in prüft Natalie mit dir, ob die Waage sich in die richtige Richtung bewegt, und stellt nach, wenn nicht.",
+      },
+      {
+        title: "Training im Veedel dazu",
+        body: "Wer schneller vorankommen will, kombiniert die Beratung mit zwei Krafteinheiten pro Woche: als Online Coaching mit Plan in der App oder als 1-zu-1 Training für 50€ pro Stunde, bei dir zu Hause, am Rheinufer oder im Inneren Grüngürtel. Muskeln sind beim Abnehmen keine Deko, sie halten deinen Verbrauch oben. Erstgespräch und Bestandsaufnahme sind kostenlos.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in der Kölner Südstadt?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich will nicht aufhören, essen zu gehen. Geht das?",
+        a: "Das sollst du auch nicht. Der Ansatz ist genau dafür gebaut: Du isst weiter draußen, aber du bestellst nach einer Strategie, die zu deinem Ziel passt. Verzicht auf das Veedel-Leben hält niemand durch, bessere Bestellungen schon.",
+      },
+      {
+        q: "Funktioniert das auch mit Alkohol?",
+        a: "Ja, mit ehrlichen Regeln statt Verboten. Kölsch hat pro Stange weniger Kalorien als die meisten Cocktails, aber die Menge macht den Unterschied. Natalie rechnet deine typischen Abende mit ein und legt mit dir fest, was ins Budget passt.",
+      },
+      {
+        q: "Brauche ich spezielle Produkte oder Shakes?",
+        a: "Nein. Keine Pulver, keine Ersatzmahlzeiten, keine Abos. Natalie arbeitet mit dem Essen, das es in deinem Alltag wirklich gibt, und in der Südstadt heißt das eben oft: Speisekarte statt Kochtopf.",
+      },
+    ],
+  },
+
+  "weiden/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Weiden macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: Deine Woche wird im Einkaufswagen entschieden, nicht am Herd. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Weiden mit Natalie: der Wocheneinkauf als Plan, klare Einkaufsliste statt Diätrezepte. Online per Video und App, ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Einkauf ist der halbe Plan",
+        body: "Weiden hat mit dem Rhein-Center das größte Einkaufszentrum im Kölner Westen direkt im Veedel, dazu Supermärkte in jeder Richtung. Das heißt: Was bei dir zu Hause im Schrank liegt, hast du einmal pro Woche selbst entschieden. Genau da setzt Natalie an. Statt Rezepten bekommst du eine Einkaufslogik: ein fester Grundstock aus Eiweißquellen, Gemüse und sattmachenden Beilagen, der jede Woche in den Wagen wandert. Was nicht im Haus ist, isst du abends auch nicht. Das klingt banal und ist in der Praxis der stärkste Hebel, den es gibt.",
+      },
+      {
+        title: "Abends um sieben, S-Bahn plus Hunger",
+        body: "Viele in Weiden pendeln in die Innenstadt und kommen mit der S-Bahn oder über die Aachener Straße zurück, müde und hungrig. Die kritische Zeit ist nicht das Mittagessen, sondern die Stunde nach dem Heimkommen. Natalie plant für diese Stunde: schnelle Standardgerichte aus deinem Grundstock, die in 15 Minuten stehen, und eine klare Regel für den Moment zwischen Haustür und Abendessen. Wenn der Hunger eine Antwort hat, bevor er laut wird, bleibt das Kalorienziel auch an langen Tagen stehen.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Komplett online, ohne zusätzliche Fahrten: In der ersten Woche dokumentierst du per Foto, was du tatsächlich isst und was tatsächlich im Einkaufswagen landet. Im Videotermin baut Natalie dann mit dir um, zuerst die Einkaufsliste, dann die Abende, zuletzt Snacks und Wochenende. Jede Woche gibt es einen Check-in, in dem ihr Gewicht, Energie und Hunger durchgeht und die Liste nachschärft. Nach vier bis sechs Wochen läuft der Einkauf automatisch richtig, und genau dann wird Abnehmen leise.",
+      },
+      {
+        title: "Training dazu, direkt im Veedel",
+        body: "Ernährung macht das Defizit, Krafttraining schützt die Muskeln darin. Wer beides will, ergänzt die Beratung um zwei Einheiten pro Woche: im Online Coaching mit Plan in der App oder als 1-zu-1 Training für 50€ pro Stunde bei dir zu Hause in Weiden. Das Erstgespräch ist in beiden Fällen kostenlos und klärt, welcher Weg zu deinem Alltag passt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Weiden?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich dafür besondere Lebensmittel kaufen?",
+        a: "Nein. Der Grundstock besteht aus normalen Lebensmitteln, die es in jedem Supermarkt in Weiden gibt. Keine Spezialprodukte, keine Pulver, keine Abos.",
+      },
+      {
+        q: "Ich koche nicht gern. Ist das ein Problem?",
+        a: "Nein. Natalie plant mit Standardgerichten, die in 15 Minuten stehen, und mit Dingen, die gar nicht gekocht werden müssen. Es geht nicht um Kochkunst, sondern darum, dass die schnelle Lösung bei dir zu Hause die richtige ist.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Auf der Waage nach zwei bis drei Wochen, im Spiegel nach sechs bis acht. Natalie plant bewusst ein moderates Tempo von etwa einem halben Kilo pro Woche, weil alles darüber erfahrungsgemäß Muskeln kostet und nach der Diät zurückkommt.",
+      },
+    ],
+  },
+
+  "gremberghoven/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Gremberghoven macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: Regeln für das Essen unterwegs, denn wer in Logistik und Verkehr arbeitet, isst oft dort, wo gerade Pause ist. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Gremberghoven mit Natalie: klare Regeln für Essen unterwegs, an der Tankstelle und in der Pause. Online per Video, ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel, das vom Unterwegssein lebt",
+        body: "Gremberghoven ist als Eisenbahnersiedlung für die Beschäftigten des Rangierbahnhofs Gremberg gebaut worden, und bis heute arbeiten viele der rund 3.100 Menschen hier in Logistik, Verkehr und Gewerbe rund um Bahn und Autobahn. Wer so arbeitet, isst selten dreimal am Tag zu Hause: Es gibt Pausenräume, Raststätten, Tankstellen, den Imbiss am Gewerbegebiet. Ernährungsberatung, die nur aus Kochrezepten besteht, hilft dir da nicht weiter. Natalie plant stattdessen genau für diese Orte.",
+      },
+      {
+        title: "Die Unterwegs-Regeln",
+        body: "Für jeden typischen Stopp gibt es eine beste Wahl, und die legt Natalie mit dir fest: was du an der Tankstelle nimmst, wenn es schnell gehen muss, was am Imbiss funktioniert, was du dir morgens in zwei Minuten einpackst, damit du gar nicht erst wählen musst. Dazu kommt eine einfache Tagesstruktur: eine warme, sättigende Hauptmahlzeit zu Hause, der Rest unterwegs nach Regeln. So bleibt dein Eiweiß- und Kalorienziel auch in Wochen stehen, in denen du kaum am eigenen Herd stehst.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Komplett online, in deine Zeiten gelegt statt in Ladenöffnungszeiten: Du fotografierst eine Woche lang dein Essen in der App, auch das von der Raststätte, gerade das. Im Videotermin baut Natalie mit dir um, zuerst die Unterwegs-Entscheidungen, dann die Mahlzeit zu Hause, zuletzt das Wochenende. Der wöchentliche Check-in läuft per Video oder Sprachnachricht, je nachdem, wie deine Woche aussieht.",
+      },
+      {
+        title: "Wenn Training dazukommen soll",
+        body: "Zwei Krafteinheiten pro Woche machen aus dem Abnehmen einen Körperumbau: als Online Coaching mit Plan in der App oder als 1-zu-1 Training für 50€ pro Stunde, bei dir zu Hause in der Siedlung, ich bringe das Material mit. Das kostenlose Erstgespräch klärt, was in deinen Dienstplan passt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Gremberghoven?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich esse oft an Tankstellen und Raststätten. Kann das überhaupt funktionieren?",
+        a: "Ja, wenn du weißt, was du dort nimmst. Auch an einer Tankstelle gibt es Entscheidungen, die zu deinem Ziel passen, und welche, die es kippen. Genau diese Auswahl legt Natalie mit dir fest, Ort für Ort.",
+      },
+      {
+        q: "Funktioniert die Beratung auch mit Wechselschicht?",
+        a: "Ja. Die Tagesstruktur hängt bei Natalie nicht an Uhrzeiten, sondern an deinem Dienst: eine Hauptmahlzeit zu Hause, der Rest nach Regeln. Die Check-ins legt sie in deine freien Fenster.",
+      },
+      {
+        q: "Muss ich Essen vorkochen und in Boxen mitnehmen?",
+        a: "Nur wenn du das willst. Meal Prep ist ein Werkzeug, keine Pflicht. Für die meisten reicht die Kombination aus zwei Minuten Einpacken am Morgen und klaren Regeln für alles, was unterwegs dazukommt.",
+      },
+    ],
+  },
+
+  "heimersdorf/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Heimersdorf: Trainingsplan per App, wöchentliche Video-Check-ins und Ernährungssteuerung, ab 150€ im Monat. Trainiert wird da, wo die Siedlung am stärksten ist: zu Hause, im eigenen Garten und auf den autofreien Wegen zwischen den Wohnzeilen. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Heimersdorf: Plan in der App für Wohnzimmer, Garten und die Wege der Siedlung, wöchentlicher Check-in. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die Siedlung hat alles, was dein Training braucht",
+        body: "Heimersdorf ist eine ruhige Siedlung mit 6.278 Menschen auf 1,75 km², viele wohnen im Reihenhaus mit Garten. Für Online Coaching ist das die beste Ausgangslage, die es gibt: Platz für eine Trainingsecke im Keller oder Wohnzimmer, ein Garten für die Sommermonate und direkt vor der Tür autofreie Fußwege für Geh- und Laufeinheiten, ohne eine einzige Ampel. Dein Plan in der App ist genau auf diese drei Orte gebaut, nicht auf ein Studio, das es im Veedel ohnehin nicht gibt.",
+      },
+      {
+        title: "So funktioniert das Coaching",
+        body: "Im kostenlosen Erstgespräch klären wir Ziel, Gesundheitsstatus und was an Material da ist, meist reicht wenig. Danach bekommst du deinen Plan in der App: jede Übung als Video, jede Einheit mit klaren Vorgaben für Gewichte, Wiederholungen und Pausen. Du trägst ein, was du geschafft hast, und ich lese jede Einheit mit. Einmal pro Woche sprechen wir im Video-Check-in über Fortschritt, Technik und die nächste Woche. Du trainierst allein, aber nie unbeobachtet, und genau das unterscheidet Coaching von einer Fitness-App vom Band.",
+      },
+      {
+        title: "Ausdauer am Fühlinger See, Kraft zu Hause",
+        body: "Für die Ausdauerbausteine liegt Heimersdorf ideal: Der Fühlinger See mit seinen flachen, vermessenen Wegen ist in wenigen Minuten erreichbar, im Plan stehen dort Geh- oder Laufintervalle mit klaren Zeitvorgaben. Die Kraftarbeit bleibt zu Hause, zwei Einheiten pro Woche zu je 30 bis 45 Minuten. Diese Mischung funktioniert in der Siedlung besser als jedes Studio-Abo, weil der Weg zum Training bei null liegt und Ausreden damit auch.",
+      },
+      {
+        title: "Ernährung läuft mit",
+        body: "Im Coaching steckt die Ernährungssteuerung mit Natalie, unserer Ernährungsberaterin für Sport- und Fitnessernährung: Kalorien- und Eiweißziel, Bestandsaufnahme per Foto in der App, Anpassungen im Check-in. Training und Essen ziehen so am selben Strang, und du siehst am Monatsende in den Zahlen, dass sich beides bewegt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Heimersdorf?",
+        a: "Ab 150€ im Monat, mit Trainingsplan in der App, wöchentlichem Video-Check-in und Ernährungssteuerung. Keine Anfahrtskosten, keine Studiogebühr, das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Für den Start reichen Kurzhanteln oder ein Set Widerstandsbänder, zusammen unter 100€. Was sinnvoll ist, klären wir im Erstgespräch anhand deines Ziels und des Platzes, den du hast.",
+      },
+      {
+        q: "Was ist der Unterschied zum 1-zu-1 Personal Training?",
+        a: "Beim Personal Training bin ich für 50€ pro Stunde persönlich bei dir in Heimersdorf. Im Online Coaching trainierst du nach Plan allein, ich prüfe jede Einheit und wir sprechen wöchentlich. Viele starten 1-zu-1 und wechseln nach ein paar Monaten ins Coaching, der Weg zurück steht immer offen.",
+      },
+      {
+        q: "Funktioniert Online Coaching auch für Einsteiger?",
+        a: "Ja, wenn der Plan es ist. Die ersten Wochen bestehen aus einfachen Grundübungen mit Videoanleitung, und im Check-in schauen wir deine Technik gemeinsam an. Wer eine Vorgeschichte mit Verletzungen hat, startet besser mit ein paar 1-zu-1 Stunden, das sage ich dir im Erstgespräch ehrlich.",
+      },
+    ],
+  },
+
+  "rath-heumar/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Rath/Heumar richtet sich gegen den Rücken, den das Veedel am häufigsten produziert: den Autofahrer-Rücken. Zwei Krafteinheiten pro Woche für Hüfte, Rumpf und hintere Kette, bei dir zu Hause, dazu Gehprogramm auf dem weichen Boden des Königsforsts. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Rath/Heumar: gezielte Kraft gegen den Autofahrer-Rücken, zwei Einheiten pro Woche bei dir zu Hause, Gehprogramm im Königsforst. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Autofahrer-Rücken",
+        body: "Rath/Heumar liegt am Autobahnkreuz, und wer hier wohnt, pendelt überdurchschnittlich oft mit dem Auto: zur Arbeit, zum Einkauf, zu den Kindern. Eine Stunde am Steuer ist für den Rücken anstrengender als eine Stunde am Schreibtisch, denn die Hüfte ist gebeugt, das Becken kippt nach hinten und die Lendenwirbelsäule hängt rund in der Sitzschale, während die Arme nach vorn arbeiten. Das Ergebnis kennen viele: Steifheit beim Aussteigen, Ziehen im Kreuz am Abend. Dagegen hilft kein besserer Autositz, sondern Kraft an den richtigen Stellen.",
+      },
+      {
+        title: "Was wir konkret trainieren",
+        body: "Zwei Einheiten pro Woche bei dir zu Hause, ich bringe das Material mit. Im Zentrum stehen die Gegenspieler des Sitzens: Gesäß und hintere Oberschenkel über Hüftstreckung, der Rumpf über Halteübungen, der obere Rücken über Zugübungen gegen die Lenkrad-Haltung. Die Hüftbeuger werden nicht nur gedehnt, sondern unter Last durch den vollen Bewegungsumfang geführt, das hält länger als jede Dehnübung allein. Jede Einheit wird dokumentiert, alle vier bis sechs Wochen messen wir nach.",
+      },
+      {
+        title: "Der Königsforst als drittes Trainingsgerät",
+        body: "Mit 12,91 km² ist Rath/Heumar einer der größten Stadtteile Kölns, und der Königsforst liegt direkt am Veedel. Für einen Rücken, der viel sitzt, ist der Waldboden Gold wert: weich, leicht uneben, er zwingt die kleine, tiefe Rumpfmuskulatur bei jedem Schritt zum Mitarbeiten, ganz ohne Übungscharakter. Zwischen den Krafteinheiten stehen deshalb zügige Gehrunden im Wald auf dem Plan, mit Dauer und Tempo als Vorgabe. Das ist kein Ersatz fürs Krafttraining, aber der Teil, der den Fortschritt in den Alltag trägt.",
+      },
+      {
+        title: "Nach Schmerzen wieder einsteigen",
+        body: "Wenn dein Rücken aktuell zwickt, klärt das kostenlose Erstgespräch zuerst, ob Training dran ist oder erst ein Arztbesuch. Akute, ausstrahlende Schmerzen gehören in ärztliche Abklärung, das sage ich dir offen. Ist die Freigabe da, starten wir mit kontrollierten, leichten Lasten und steigern in Stufen. Ziel ist nicht Schonung, sondern ein Rücken, der Belastung wieder verträgt, auch zwei Stunden A3 im Feierabendverkehr.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Rath/Heumar?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, bei dir zu Hause, Material bringe ich mit. Wer nach den ersten Wochen selbstständiger arbeiten will, wechselt ins Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche wirklich?",
+        a: "Ja, wenn sie gezielt sind und du dazwischen die Gehrunden machst. Mehr Krafttraining bringt beim Rücken selten mehr, entscheidend sind die richtigen Übungen und die saubere Steigerung über Wochen.",
+      },
+      {
+        q: "Hilft nicht einfach mehr Spazierengehen im Königsforst?",
+        a: "Gehen auf Waldboden ist ein guter Baustein, aber es baut keine Kraft auf. Ein Rücken wird belastbar durch gezielte Kraftarbeit an Gesäß, Rumpf und oberem Rücken. Die Kombination aus beidem ist der Grund, warum das Programm funktioniert.",
+      },
+      {
+        q: "Ich sitze beruflich den ganzen Tag im Auto. Was kann ich sofort tun?",
+        a: "Zwei Dinge: alle 60 bis 90 Minuten kurz aussteigen und die Hüfte strecken, und abends eine zügige Gehrunde statt direkt aufs Sofa. Das ersetzt kein Training, nimmt aber dem Rücken die Dauerspannung. Den Rest bauen wir in den zwei Einheiten pro Woche auf.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
