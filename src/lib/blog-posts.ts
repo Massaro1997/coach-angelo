@@ -5676,7 +5676,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zwölf Wochen Krafttraining verändern deinen Körper, deine Energie und deine Haltung. Das ist kein leeres Versprechen, das ist das, was ich täglich in meiner Arbeit als Personal Trainer in Köln beobachte. Wenn du wissen willst, wo du anfängst und was konkret für dich möglich ist, lade ich dich herzlich zu einem kostenlosen Erstgespräch ein. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung, was in deiner Situation realistisch machbar ist. Den Termin dafür findest du direkt unter diesem Artikel."
+        "text": "Zwölf Wochen Krafttraining verändern deinen Körper, deine Energie und deine Haltung. Das ist kein leeres Versprechen, das ist das, was ich täglich in meiner Arbeit als [Personal Trainer in Köln](/personal-trainer-koeln) beobachte. Wenn du wissen willst, wo du anfängst und was konkret für dich möglich ist, lade ich dich herzlich zu einem kostenlosen Erstgespräch ein. Kein Verkaufsgespräch, kein Druck. Einfach eine ehrliche Einschätzung, was in deiner Situation realistisch machbar ist. Den Termin dafür findest du direkt unter diesem Artikel."
       }
     ]
   },
@@ -12021,7 +12021,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Druck, einfach 30 bis 45 Minuten, in denen wir schauen, was dir wirklich helfen kann. Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
+        "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir als [Personal Trainer in Köln](/personal-trainer-koeln). Kein Verkaufsgespräch, kein Druck, einfach 30 bis 45 Minuten, in denen wir schauen, was dir wirklich helfen kann. Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
       }
     ]
   },
