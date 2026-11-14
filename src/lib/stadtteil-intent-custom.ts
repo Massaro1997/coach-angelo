@@ -7547,6 +7547,248 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "langel/ems-alternative": {
+    answer:
+      "EMS verspricht dir gesparte Zeit, aber von Köln-Langel aus gibt es diese Rechnung nicht: Im Dorf selbst steht kein EMS-Studio, jeder Termin beginnt mit Anfahrt. Meine Alternative kommt zu dir: zwei geführte Krafteinheiten pro Woche mit echter Last und Protokoll, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Langel: geführtes Krafttraining bei dir zu Hause statt Anfahrt zur Stromweste. Echte Last, Protokoll, kein Jahresvertrag. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Zeitargument kippt am südlichsten Zipfel von Köln",
+        body: "Langel ist mit 3.588 Einwohnern eines der kleinsten Veedel der Stadt und liegt ganz im Süden des rechten Rheinufers, an der Fähre nach Hitdorf. Das Verkaufsargument von EMS lautet überall gleich: 20 Minuten pro Woche reichen. Nur stehen diese 20 Minuten in einem Studio, das von Langel aus erst erreicht werden muss. Ich drehe die Logik um und bringe das Training zu dir: Hanteln, Bank und Plan stehen in deinem Wohnzimmer oder deinem Garten, die Anfahrt übernehme ich.",
+      },
+      {
+        title: "Was die Stromweste nicht kann",
+        body: "EMS reizt Muskeln mit Impulsen, während du statische Positionen hältst. Was dabei fehlt, ist Bewegung unter Last: Kniebeuge, Hüftstreckung, Druck und Zug über den vollen Weg. Genau diese Muster brauchst du im Alltag, beim Heben, Tragen, Treppensteigen. Deshalb arbeite ich mit Gewichten, die sich von Woche zu Woche steigern lassen, und einem Protokoll, in dem du die Steigerung schwarz auf weiß siehst. Ein Kribbeln lässt sich nicht protokollieren.",
+      },
+      {
+        title: "Der Rheindamm ist die zweite Hälfte des Programms",
+        body: "Zwischen den Krafteinheiten nutzt du, was Langel ohnehin hat: die flachen, ruhigen Dammwege am Rheinufer. Zügiges Gehen oder lockeres Laufen dort ist die Grundlagenausdauer, die keine Weste ersetzt, und sie kostet weder Vertrag noch Termin. Ich gebe dir dafür klare Vorgaben mit, Dauer und Tempo, damit die Tage zwischen den Einheiten zählen statt zu verpuffen.",
+      },
+      {
+        title: "Ohne Jahresvertrag, mit messbarem Stand",
+        body: "Du zahlst pro Stunde, 50€, ohne Laufzeit. Alle vier bis sechs Wochen messen wir nach: Gewichte, Wiederholungen, bei Bedarf Umfänge. Wenn die Zahlen stehen bleiben, ändere ich den Plan. Das Erstgespräch ist kostenlos, und wenn EMS für deinen Fall tatsächlich die bessere Wahl wäre, sage ich dir das darin offen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Langel?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€, ohne Jahresvertrag und ohne Anmeldegebühr. Zum Vergleich: EMS-Abos liegen meist bei 80 bis 130€ im Monat bei 12 Monaten Laufzeit, plus deine Fahrzeit zu jedem Termin.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Ich bringe Kurzhanteln, Bänder und bei Bedarf eine Klappbank mit. Was du brauchst, sind etwa vier Quadratmeter freie Fläche, in der Wohnung, der Garage oder im Garten.",
+      },
+      {
+        q: "Ist Krafttraining nicht anstrengender als EMS?",
+        a: "Es fühlt sich anders an: Statt 20 Minuten Dauerreiz arbeitest du in Sätzen mit Pausen. Die Belastung steuere ich über Gewicht und Tempo, vom Einstieg nach Jahren Pause bis zum ambitionierten Niveau. Anstrengung ist planbar, genau das ist der Punkt.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Die ersten vier bis sechs Wochen bringen vor allem Technik und spürbar mehr Kraft, sichtbare Veränderung folgt bei zwei Einheiten pro Woche meist ab Woche acht. Im Protokoll siehst du den Fortschritt aber ab der ersten Woche.",
+      },
+    ],
+  },
+
+  "lindweiler/personal-training": {
+    answer:
+      "Personal Training in Köln-Lindweiler heißt: Das Training kommt zu dir, nicht umgekehrt. Auf 1,16 Quadratkilometern gibt es kein Studio, also trainieren wir 1-zu-1 bei dir zu Hause oder draußen am Siedlungsrand, mit mitgebrachtem Material. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Lindweiler: 1-zu-1 bei dir zu Hause, Material bringe ich mit. Fester Termin, messbarer Fortschritt. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Lindweiler hat keine Trainingsinfrastruktur, und das ist lösbar",
+        body: "Mit 3.549 Einwohnern auf 1,16 Quadratkilometern ist Lindweiler eine der kleinsten Ecken im Bezirk Chorweiler. Wer hier trainieren will, fährt bisher raus, nach Longerich, Pesch oder weiter. Genau dieser Weg ist der häufigste Grund, warum Vorsätze nach drei Wochen enden. Ich nehme ihn aus der Gleichung: Kurzhanteln, Bänder und Bank kommen mit mir, dein Wohnzimmer oder der Hof wird zur Trainingsfläche, und der Termin steht fest in deinem Kalender.",
+      },
+      {
+        title: "So sieht eine Woche mit mir aus",
+        body: "Zwei Einheiten pro Woche, jede 60 Minuten: Krafttraining mit Grundübungen, aufgebaut nach einem Plan, der zu deinem Startpunkt passt, nicht zu einem Idealbild. Dazwischen bekommst du eine kurze Aufgabe für einen dritten Tag, meist 20 Minuten Gehen oder Mobility. Alle vier bis sechs Wochen messen wir nach, Gewichte, Wiederholungen, auf Wunsch Umfänge, und du siehst, ob sich etwas bewegt. Wenn nicht, ändere ich den Plan, nicht du deine Motivation.",
+      },
+      {
+        title: "Für wen das in Lindweiler gedacht ist",
+        body: "Die typischen Anfragen aus dem Kölner Norden kommen von Leuten, die nach Jahren wieder anfangen wollen, von Eltern, deren Zeitfenster zwischen Arbeit und Familie liegt, und von Menschen über 50, die Kraft für den Alltag zurückwollen. Dafür braucht es kein Studio, sondern einen Plan und jemanden, der die Technik korrigiert, bevor sich Fehler einschleifen. Termine lege ich auch früh morgens oder am frühen Abend, wenn der Tag es verlangt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Lindweiler?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit. Wer lieber eigenständig mit Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Reicht meine Wohnung zum Trainieren?",
+        a: "Ja. Vier Quadratmeter freie Fläche genügen, das Material bringe ich mit. In der warmen Jahreszeit verlegen wir Einheiten nach draußen an den Siedlungsrand, Richtung Felder zwischen Lindweiler und Pesch.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Ist das ein Problem?",
+        a: "Nein, das ist der Normalfall. Wir starten mit einem Technik- und Beweglichkeits-Check und bauen von dort auf. Die ersten Wochen sind bewusst leichter, als du erwartest: Erst kommt das Muster, dann das Gewicht.",
+      },
+      {
+        q: "Wie schnell merke ich etwas?",
+        a: "Mehr Kraft und ein stabileres Alltagsgefühl kommen meist in den ersten vier Wochen, sichtbare Veränderung bei zwei Einheiten pro Woche ab etwa Woche acht. Dein Protokoll zeigt den Fortschritt ab der ersten Einheit.",
+      },
+    ],
+  },
+
+  "hoehenhaus/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Höhenhaus mit Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: Selbst gekocht heißt nicht automatisch kaloriengerecht. Deine Gerichte bleiben, Natalie stellt Mengen, Eiweiß und Reihenfolge richtig. Komplett online, enthalten im Online Coaching ab 150€ im Monat, Erstgespräch kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Höhenhaus mit Natalie: selbst gekocht, trotzdem kein Fortschritt? Mengen und Eiweiß statt neuer Rezepte. Online, im Coaching ab 150€/Monat.",
+    sections: [
+      {
+        title: "Das Höhenhaus-Problem: gut gekocht, trotzdem keine Veränderung",
+        body: "In der Gartensiedlung wird gekocht, oft täglich und besser als in mancher Innenstadtküche. Trotzdem bewegt sich die Waage nicht, und genau das frustriert mehr als jede Fast-Food-Gewohnheit, denn es fühlt sich an, als wäre schon alles richtig. Natalies Erfahrung: Das Problem sind fast nie die Gerichte, sondern Portionsgrößen, Öl und Butter beim Anbraten, das Brot am Abend und die Kleinigkeiten zwischendurch. Deshalb beginnt sie nicht mit neuen Rezepten, sondern mit einer ehrlichen Bestandsaufnahme von dem, was du ohnehin kochst.",
+      },
+      {
+        title: "Mengen statt Verbote, Eiweiß zuerst",
+        body: "Aus der Bestandsaufnahme entsteht dein Kalorien- und Eiweißziel. Die Gerichte deiner Woche bleiben auf dem Tisch, angepasst wird die Zusammensetzung: mehr Eiweiß auf den Teller, Beilagen in Mengen, die zu deinem Ziel passen, und klare Regeln für das Abendbrot, das in Höhenhaus häufiger über Erfolg und Misserfolg entscheidet als das Mittagessen. Verbotslisten gibt es nicht, weil sie den Familientisch spalten und nach drei Wochen kippen.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Alles findet online statt, per Video-Termin und App: Du fotografierst ein paar Tage dein Essen, Natalie wertet aus, dann steht der Plan. Danach gibt es wöchentliche Check-ins, in denen Gewicht, Energie und Alltag zusammen betrachtet werden. Die Ernährungsberatung ist Teil des Online Coachings ab 150€ im Monat, auf Wunsch kombiniert mit Krafttraining bei dir zu Hause in Höhenhaus, denn Muskeln sind der Teil der Rechnung, den keine Diät ersetzt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung für Köln-Höhenhaus?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos und klärt, ob der Ansatz zu dir passt.",
+      },
+      {
+        q: "Muss ich neue Rezepte lernen?",
+        a: "Nein, das ist der Kern von Natalies Ansatz: Deine Gerichte bleiben. Angepasst werden Mengen, Eiweißanteil und die Verteilung über den Tag. Neue Rezepte kommen nur dazu, wenn du sie dir wünschst.",
+      },
+      {
+        q: "Funktioniert das für die ganze Familie?",
+        a: "Ja. Es wird einmal gekocht, nicht doppelt: Deine Portion unterscheidet sich in Menge und Beilage, nicht im Gericht. So bleibt der Familientisch gemeinsam, und dein Ziel läuft trotzdem mit.",
+      },
+      {
+        q: "Zählt Natalie jede Kalorie?",
+        a: "Nur am Anfang, um ein realistisches Bild zu bekommen. Danach arbeitet sie mit Portionsregeln und festen Ankern, die ohne tägliches Rechnen funktionieren. Wer gern trackt, kann das tun, Pflicht ist es nicht.",
+      },
+    ],
+  },
+
+  "ehrenfeld/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Ehrenfeld scheitert selten am Angebot, eher am Überangebot: Wer ständig Kurs, Studio und Methode wechselt, gibt dem Muskel keinen Grund zu wachsen. Ich setze dagegen auf Wiederholung: dieselben Grundübungen, steigende Last, Protokoll. 1-zu-1 für 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Ehrenfeld: ein fester Plan statt ständig neuer Workouts. Grundübungen, steigende Last, Protokoll, 1-zu-1. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum ausgerechnet Ehrenfeld beim Muskelaufbau stolpert",
+        body: "Kaum ein Veedel hat so viel Auswahl: Studios, Kurse, immer neue Trainingskonzepte zwischen Venloer Straße und Grünem Weg, auf 3,71 Quadratkilometern mit über 38.000 Menschen. Für die Fitness ist das großartig, für Muskelaufbau ist es eine Falle. Muskeln wachsen durch denselben Reiz, der über Monate planvoll größer wird, nicht durch jede Woche ein neues Workout. Wer ständig wechselt, startet immer wieder bei null und nennt es Abwechslung.",
+      },
+      {
+        title: "Mein Programm ist absichtlich unspektakulär",
+        body: "Wir wählen fünf bis sechs Grundübungen, die zu deinem Körper und deiner Ausgangslage passen: Varianten von Kniebeuge, Hüftstreckung, Drücken und Ziehen. Diese Übungen bleiben, nur Gewicht, Wiederholungen und Tempo ändern sich, dokumentiert in deinem Protokoll. Nach acht Wochen vergleichst du nicht Gefühle, sondern Zahlen. Trainiert wird 1-zu-1 bei dir zu Hause, draußen am Inneren Grüngürtel oder in deinem Studio, wenn du schon eine Mitgliedschaft hast.",
+      },
+      {
+        title: "Essen entscheidet die zweite Hälfte",
+        body: "Ohne Baumaterial kein Aufbau: Du bekommst ein Eiweißziel pro Tag, abgestimmt auf dein Gewicht, und einen leichten Kalorienüberschuss, der Muskeln ernährt, ohne dich aufzuschwemmen. Wenn du es genauer willst, steigt Natalie ein, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, und baut das Ziel in deinen Ehrenfelder Alltag ein, auch wenn der selten um 18 Uhr Feierabend macht.",
+      },
+      {
+        title: "Messbar in Wochen, sichtbar in Monaten",
+        body: "Die ehrliche Zeitrechnung: Kraft steigt ab den ersten Wochen, sichtbare Veränderung braucht bei zwei Einheiten pro Woche etwa acht bis zwölf Wochen, je nach Ausgangspunkt. Alle vier bis sechs Wochen messen wir nach. Stagniert das Protokoll, ändere ich Volumen oder Übungsauswahl, das ist mein Job, nicht deiner.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Ehrenfeld?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€, ohne Laufzeit. Wer selbstständig trainiert und nur Plan plus wöchentliche Kontrolle will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe schon ein Studio-Abo in Ehrenfeld. Brauche ich dich trotzdem?",
+        a: "Gerade dann: Das Abo liefert Geräte, aber keinen Plan und keine Technikkorrektur. Ich kann die Einheiten in deinem Studio führen oder dir einen Plan dafür schreiben, den wir regelmäßig gemeinsam prüfen.",
+      },
+      {
+        q: "Geht Muskelaufbau auch ohne Studio?",
+        a: "Ja. Mit Kurzhanteln, Band und Bank, die ich mitbringe, sind die ersten sechs bis neun Monate problemlos abgedeckt. Danach entscheidet dein Protokoll, ob schwereres Gerät nötig ist.",
+      },
+      {
+        q: "Wie oft muss ich pro Woche trainieren?",
+        a: "Zwei konsequente Einheiten reichen für soliden Aufbau, drei beschleunigen ihn. Wichtiger als die Anzahl ist, dass dieselben Übungen regelmäßig und mit steigender Last wiederkommen.",
+      },
+    ],
+  },
+
+  "blumenberg/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Blumenberg mit Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: Die Woche wird aus dem Vorrat geplant, nicht aus dem Spontankauf, damit kein Abend am fehlenden Einkauf scheitert. Komplett online, enthalten im Online Coaching ab 150€ im Monat, Erstgespräch kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Blumenberg mit Natalie: Wochenplan aus dem Vorrat statt Spontankauf. Kalorien- und Eiweißziel, online per Video. Im Coaching ab 150€/Monat.",
+    sections: [
+      {
+        title: "Warum in Blumenberg der Vorrat gewinnt",
+        body: "Blumenberg liegt am nördlichen Stadtrand, 5.147 Einwohner zwischen Feldern Richtung Worringen und Roggendorf/Thenhoven. Wer hier nach Feierabend merkt, dass nichts im Haus ist, bestellt oder improvisiert, und genau an diesen Abenden kippen die meisten Ernährungsvorsätze. Natalie plant deshalb andersherum: Deine Woche wird aus einer festen Vorratsbasis gebaut, tiefgekühltes Gemüse, Hülsenfrüchte, Eier, Quark, Reis und das, was du ohnehin magst. Der Wocheneinkauf füllt die Basis auf, der Rest der Woche hängt an keinem Laden mehr.",
+      },
+      {
+        title: "Vom Vorrat zum Ziel",
+        body: "Aus der Basis entstehen Gerichte, die in 20 Minuten stehen und zu deinem Kalorien- und Eiweißziel passen, das Natalie am Anfang berechnet. Es gibt keine Verbotsliste und kein Superfood-Regal: gutes Eiweiß kommt aus dem normalen Supermarkt. Angepasst werden Mengen und Zusammenstellung, nicht dein Geschmack. Wenn Kinder mitessen, wird einmal gekocht, deine Portion unterscheidet sich in Menge und Beilage.",
+      },
+      {
+        title: "Online-Beratung, die zum Stadtrand passt",
+        body: "Die Beratung läuft komplett per Video und App, ohne Fahrt in eine Praxis: Bestandsaufnahme mit Fotos deiner echten Woche, dann Plan, dann wöchentliche Check-ins mit Blick auf Gewicht, Energie und Alltag. Enthalten ist das im Online Coaching ab 150€ im Monat. Wer zusätzlich Kraft aufbauen will, kombiniert es mit Training bei sich zu Hause in Blumenberg, die Geh-Runden über die Felder gibt es vor der Haustür gratis dazu.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung für Köln-Blumenberg?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich teure Spezialprodukte?",
+        a: "Nein. Die Vorratsbasis besteht aus normalen Supermarkt-Lebensmitteln: TK-Gemüse, Hülsenfrüchte, Eier, Quark, Haferflocken, Reis. Eiweißpulver ist eine Option für volle Tage, nie eine Pflicht.",
+      },
+      {
+        q: "Was passiert, wenn eine Woche komplett anders läuft als geplant?",
+        a: "Dafür ist der Vorrat da: Der Plan kennt für jede Mahlzeit eine schnelle Ausweichvariante aus der Basis. Im wöchentlichen Check-in schaut Natalie, woran es lag, und passt die nächste Woche an, statt dich von vorn anfangen zu lassen.",
+      },
+      {
+        q: "Hilft die Beratung auch beim Abnehmen?",
+        a: "Ja, über ein Kalorienziel mit Sättigung statt Hunger: Eiweiß und Volumen zuerst auf den Teller. In Kombination mit zwei Krafteinheiten pro Woche bleibt dabei die Muskulatur erhalten, das unterscheidet den Ansatz von Crash-Diäten.",
+      },
+    ],
+  },
+
+  "suelz/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Sülz steht direkt vor deiner Tür: echtes Krafttraining mit steigender Last, kombiniert mit Beethovenpark und Decksteiner Weiher statt 20 Minuten Stromweste im fensterlosen Raum. Zwei geführte 1-zu-1 Einheiten pro Woche, 50€ pro Stunde, kein Jahresvertrag, Erstgespräch kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Sülz: Krafttraining mit echter Last plus Grüngürtel vor der Tür statt Stromweste. Kein Jahresvertrag. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Sülz hat das, was kein EMS-Studio verkaufen kann",
+        body: "Das EMS-Versprechen richtet sich an Menschen ohne Zeit und ohne Trainingsumgebung. In Sülz stimmt die zweite Hälfte nicht: Der Äußere Grüngürtel beginnt am Veedelsrand, der Beethovenpark und die flache Runde am Decksteiner Weiher liegen für über 36.000 Sülzer in Geh-Entfernung. Wer hier für 20 Minuten Stromreiz in einen Raum ohne Tageslicht geht, tauscht die beste Trainingsfläche der Stadt gegen eine Weste. Ich baue dein Training andersherum: Kraft mit echter Last, dazu der Grüngürtel als Ausdauer- und Ausgleichsfläche.",
+      },
+      {
+        title: "Echte Last schlägt Impuls, und sie ist messbar",
+        body: "EMS reizt den Muskel, während du statisch hältst. Krafttraining bewegt Gewicht über den vollen Weg: Kniebeuge, Hüftstreckung, Drücken, Ziehen. Nur so lernen Technik und Nervensystem mit, nur so lässt sich die Belastung Woche für Woche steigern und protokollieren. Nach drei Monaten bei mir kannst du deine Entwicklung in Kilo und Wiederholungen nachlesen. Nach drei Monaten EMS hast du Termine absolviert.",
+      },
+      {
+        title: "So trainieren wir in Sülz",
+        body: "Zwei 1-zu-1 Einheiten pro Woche, bei dir zu Hause mit mitgebrachtem Material, in deinem Studio oder bei passendem Wetter im Beethovenpark. Dazwischen bekommst du eine Vorgabe für die Runde am Decksteiner Weiher, zügiges Gehen oder lockeres Laufen mit klarer Dauer. Alle vier bis sechs Wochen wird nachgemessen. Du zahlst 50€ pro Stunde, ohne Laufzeit, und kannst jederzeit aufhören, auch das unterscheidet das Modell vom EMS-Jahresvertrag.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Sülz?",
+        a: "50€ pro geführter 1-zu-1 Stunde, ohne Jahresvertrag und ohne Anmeldegebühr. EMS-Studios liegen meist bei 80 bis 130€ im Monat mit 12 Monaten Bindung. Das Erstgespräch bei mir ist kostenlos.",
+      },
+      {
+        q: "Ich habe wirklich wenig Zeit. Reichen zwei Stunden pro Woche?",
+        a: "Ja, wenn sie geplant sind: zwei Krafteinheiten mit Protokoll plus eine Geh- oder Laufvorgabe im Grüngürtel decken Kraft und Ausdauer ab. Das ist mehr Wirkung pro Woche als 20 Minuten Stromreiz, bei ehrlicher Rechnung inklusive Anfahrt oft kaum Mehraufwand.",
+      },
+      {
+        q: "Ist EMS nicht gelenkschonender?",
+        a: "Gelenke, Sehnen und Knochen werden belastbarer, wenn sie kontrolliert steigende Last erfahren, genau das leistet geführtes Krafttraining mit sauberer Technik. Die Stromweste spart die Bewegung ein, und damit auch die Anpassung, die du im Alltag brauchst.",
+      },
+      {
+        q: "Kann ich bei dir auch im Studio trainieren, statt zu Hause?",
+        a: "Ja. Wenn du bereits Mitglied in einem Studio in Sülz oder Umgebung bist, führe ich die Einheiten dort. Zu Hause reichen sonst vier Quadratmeter, das Material bringe ich mit.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
