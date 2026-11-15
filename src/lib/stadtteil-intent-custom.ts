@@ -8475,6 +8475,263 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "humboldt-gremberg/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Humboldt/Gremberg ist Krafttraining, das sich dosieren lässt: Die Stromweste feuert den ganzen Körper auf einmal, echtes Training belastet gezielt das, was zu schwach ist, und schont das, was dein Job schon fordert. Zwei geführte Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde, ohne Jahresvertrag.",
+    metaDescription:
+      "EMS-Alternative in Köln-Humboldt/Gremberg: dosiertes Krafttraining statt Ganzkörper-Stromreiz, zwei Einheiten pro Woche bei dir zu Hause. 50€/Std, jederzeit kündbar, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ganz oder gar nicht: Strom lässt sich nicht verteilen",
+        body: "Eine EMS-Weste reizt fast alle großen Muskelgruppen gleichzeitig, das ist ihr Verkaufsargument. Genau da liegt das Problem: Du kannst nicht entscheiden, wohin die Belastung geht. Im Krafttraining wähle ich für jede Übung Gewicht, Tempo und Umfang einzeln. Dein schwacher oberer Rücken bekommt mehr Arbeit, deine gereizte Schulter bekommt weniger, und beides steht nächste Woche wieder zur Diskussion. Diese Feinsteuerung ist der Kern von gutem Training, und eine Weste hat dafür keinen Regler.",
+      },
+      {
+        title: "Ein Veedel, in dem viele Körper schon im Dienst sind",
+        body: "In Humboldt/Gremberg leben über 15.000 Menschen auf 2,82 km², und viele davon arbeiten körperlich: Lager, Bahn, Handwerk, Pflege. Wer abends schon acht Stunden Belastung in Rücken und Beinen hat, braucht keinen zusätzlichen Vollgas-Reiz über den ganzen Körper, sondern gezielte Kraft an den Stellen, die der Job einseitig lässt. Das entscheidet das Erstgespräch: Was ist bei dir schon stark, weil du es täglich tust, und was ist die Lücke, die dich irgendwann Probleme kostet?",
+      },
+      {
+        title: "Zwei Einheiten pro Woche, das Wäldchen für den Ausgleich",
+        body: "Wir trainieren im 1-zu-1 bei dir zu Hause, ich bringe Hanteln, Bänder und Protokoll mit. Jede Einheit dauert eine Stunde, jede Übung wird notiert, alle vier bis sechs Wochen vergleichen wir die Zahlen. Für den Ausgleich an trainingsfreien Tagen liegt das Gremberger Wäldchen am Rand des Veedels: zügige Runden dort stehen als lockere Vorgabe im Plan, ohne Stoppuhr-Druck.",
+      },
+      {
+        title: "Was es kostet, und was nicht",
+        body: "Die Stunde kostet 50€, abgerechnet wird, was stattfindet. Es gibt keinen Jahresvertrag, keine Aufnahmegebühr und keine Pausengebühr, wenn der Dienstplan mal zwei Wochen dazwischenfunkt. EMS-Studios arbeiten fast immer mit Laufzeitverträgen, rechne das vor der Unterschrift einmal auf zwölf Monate hoch und vergleiche es mit dem, was du wirklich trainierst.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Humboldt/Gremberg?",
+        a: "50€ pro 1-zu-1 Stunde bei dir zu Hause, ohne Vertragslaufzeit. Das Erstgespräch kostet nichts. Wer lieber mit App und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Ich arbeite körperlich. Brauche ich überhaupt noch Training?",
+        a: "Körperliche Arbeit macht stark, aber einseitig: meist viel Heben und Tragen, wenig Zug für den oberen Rücken, wenig kontrollierte Hüftarbeit. Das Training füllt genau diese Lücken, damit der Job dich nicht langsam verschleißt.",
+      },
+      {
+        q: "Ist EMS nicht effektiver, weil alles gleichzeitig arbeitet?",
+        a: "Gleichzeitig heißt nicht besser. Fortschritt entsteht, wenn die richtige Stelle die richtige Last bekommt und die Last planbar steigt. Das kann ein Stromimpuls, der alles auf einmal reizt, nicht leisten.",
+      },
+      {
+        q: "Wo trainieren wir in Humboldt/Gremberg?",
+        a: "Bei dir zu Hause, ich bringe das Material mit. Dazu kommen lockere Ausgleichsrunden im Gremberger Wäldchen oder auf den Poller Wiesen nebenan, als Vorgabe für die Tage zwischen den Einheiten.",
+      },
+    ],
+  },
+
+  "meschenich/personal-training": {
+    answer:
+      "Personal Training in Köln-Meschenich heißt: Ich komme zu dir, nicht du durch den Feierabendverkehr zu einem Studio. 1-zu-1 Training bei dir zu Hause, der Ausdauerteil auf den Feldwegen Richtung Immendorf und Godorf. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Meschenich: 1-zu-1 Training bei dir zu Hause, Ausdauer auf den Feldwegen am Ortsrand, feste Termine statt Fahrt zum Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Feierabend soll nicht auf der Brühler Landstraße enden",
+        body: "Meschenich ist der südlichste Zipfel des linksrheinischen Köln, und der Alltag vieler Nachbarn läuft über eine einzige Achse: die Brühler Landstraße. Wer hier wohnt und in der Stadt arbeitet, sitzt die Strecke zweimal am Tag ab. Ein Studiotermin bedeutet dann eine dritte Fahrt, und genau an der scheitern die meisten guten Vorsätze. Deshalb drehe ich es um: Der Termin steht bei dir zu Hause, zur festen Uhrzeit, und beginnt in dem Moment, in dem du die Tür aufmachst.",
+      },
+      {
+        title: "Nach drei Straßen stehst du im Grünen",
+        body: "Mit 4,72 km² und knapp 7.800 Einwohnern hat Meschenich etwas, das kaum ein Innenstadt-Veedel bietet: Der Ortsrand ist nie weit, und dahinter beginnen Felder. Die Wege Richtung Immendorf und Godorf sind flach und ruhig, dort legen wir den Ausdauerteil hin: Gehintervalle oder lockere Läufe mit klarer Dauer- und Tempovorgabe, je nach Stand. Die Kraftarbeit bleibt drinnen, dafür reichen zwei mal drei Meter in der Wohnung, das Material bringe ich mit.",
+      },
+      {
+        title: "Ein Plan, der kontrolliert wird",
+        body: "Wir starten mit dem kostenlosen Erstgespräch: Ziel, Gesundheitsstand, Wochenrhythmus. Danach stehen feste Einheiten, meist zwei pro Woche, jede dokumentiert. Alle vier bis sechs Wochen messen wir nach, mit Zahlen statt Gefühl: Gewichte, Wiederholungen, Umfänge, je nach Ziel. Wenn sich nichts bewegt, ändere ich den Plan und nicht die Ausrede.",
+      },
+      {
+        title: "Für wen das in Meschenich passt",
+        body: "Typische Anfragen aus dem Kölner Süden: Berufstätige, die nach dem Pendeln keine dritte Fahrt mehr wollen, Eltern, die nur in festen Zeitfenstern trainieren können, und Wiedereinsteiger, die nach Jahren Pause einen kontrollierten Start suchen. Für alle gilt dieselbe Logik: kurze Wege, feste Termine, messbarer Fortschritt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Meschenich?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Vertragslaufzeit. Das Erstgespräch ist kostenlos. Als Alternative gibt es Online Coaching ab 150€ im Monat mit Plan und wöchentlichen Check-ins.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Hanteln, Bänder und alles Weitere bringe ich mit. Wenn du später eigene Ausrüstung willst, sage ich dir, was sich für dein Ziel lohnt und was Geldverschwendung wäre.",
+      },
+      {
+        q: "Trainierst du in Meschenich auch draußen?",
+        a: "Ja, die Feldwege Richtung Immendorf und Godorf nutzen wir für den Ausdauerteil, sobald die Grundlagen stehen. Kraft trainieren wir drinnen, da ist die Ausführung besser kontrollierbar.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Die ersten messbaren Veränderungen bei Kraft und Kondition zeigen sich meist nach vier bis sechs Wochen, sichtbare Veränderungen je nach Ziel nach acht bis zwölf. Versprochen wird nur, was im Protokoll landet.",
+      },
+    ],
+  },
+
+  "neubrueck/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Neubrück ist Kraft, auf der du stehen kannst: Training im Stehen, mit freien Gewichten und auf einem Bein, trainiert Kraft und Gleichgewicht zusammen. In der Stromweste stehst du still. Zwei Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde, ohne Jahresvertrag.",
+    metaDescription:
+      "EMS-Alternative in Köln-Neubrück: Krafttraining im Stehen statt Stromweste, Kraft und Gleichgewicht zusammen trainiert, bei dir zu Hause. 50€/Std, ohne Vertrag, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In der Weste stehst du still",
+        body: "Eine EMS-Einheit findet fast bewegungslos statt: Du hältst Positionen, der Strom macht die Arbeit. Was dabei nie trainiert wird, ist das Zusammenspiel von Kraft und Gleichgewicht, also genau das, was dich im Alltag trägt. Eine Kiste Wasser die Treppe hochtragen, auf der Leiter stehen, ein Stolperer, der keiner wird: Das alles ist Kraft in Bewegung, auf wechselndem Stand. Deshalb trainieren wir stehend, schrittweise auch einbeinig, mit Gewichten, die du wirklich hältst und bewegst.",
+      },
+      {
+        title: "Warum gerade ab 50 beides zusammengehört",
+        body: "Neubrück ist in den sechziger Jahren als Siedlung geplant worden, und viele Nachbarn sind dem Veedel über Jahrzehnte treu geblieben. Ab 50 entscheiden zwei Dinge darüber, wie selbstständig die nächsten zwanzig Jahre werden: Muskelkraft und Gleichgewicht. Beides baut ohne Training messbar ab, beides reagiert in jedem Alter auf Übung. Ein Reizstrom kann den Muskel aktivieren, aber das Gleichgewicht lernt nur, wer es benutzt.",
+      },
+      {
+        title: "So trainieren wir in Neubrück",
+        body: "Zwei geführte Einheiten pro Woche bei dir zu Hause, auf 1,1 km² ist kein Weg im Veedel weit. Ich bringe das Material mit und dokumentiere jede Übung. Der Einstieg richtet sich nach deinem Stand, nicht nach einem Schema: Erst saubere Ausführung beidbeinig, dann mehr Last, dann instabilere Positionen. Für die Tage dazwischen gibt es Gehvorgaben Richtung Königsforst, der direkt hinter dem Veedel beginnt.",
+      },
+      {
+        title: "Der nüchterne Blick auf EMS",
+        body: "EMS ist nicht nutzlos: Als Reiz für Menschen mit sehr wenig Zeit oder als Einstieg unter Aufsicht kann es funktionieren. Aber es wird oft als komplette Lösung verkauft, meist im Jahresvertrag. Wenn dein Ziel ist, im Alltag sicher und stark zu bleiben, dann ist Training, das Stehen, Halten und Tragen übt, die direktere und ehrlichere Methode, und du bindest dich an nichts außer an zwei Termine pro Woche.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Neubrück?",
+        a: "50€ pro 1-zu-1 Stunde, jederzeit kündbar, Erstgespräch kostenlos. Zum Vergleich: EMS-Abos laufen meist zwölf Monate, auch in Wochen, in denen du nicht hingehst.",
+      },
+      {
+        q: "Ich habe lange nicht trainiert. Ist freies Training nicht riskanter als EMS?",
+        a: "Im 1-zu-1 nicht, denn jede Übung wird angeleitet und an deinen Stand angepasst. Wir beginnen mit leichten Lasten und stabilen Positionen. Riskant ist eher, Kraft und Gleichgewicht gar nicht zu trainieren.",
+      },
+      {
+        q: "Kann ich Gleichgewicht wirklich noch verbessern?",
+        a: "Ja, in jedem Alter. Gleichgewicht ist trainierbar wie Kraft: durch regelmäßige, schrittweise schwierigere Übung. Erste messbare Verbesserungen zeigen sich oft schon nach wenigen Wochen.",
+      },
+      {
+        q: "Wo findet das Training in Neubrück statt?",
+        a: "Bei dir zu Hause, das Material bringe ich mit. Dazu kommen Gehvorgaben für die trainingsfreien Tage, meist Richtung Königsforst.",
+      },
+    ],
+  },
+
+  "holweide/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Holweide löst das eigentliche Problem: Ein EMS-Studio lebt vom festen Wochenslot, und genau den kann ein Dienstplan nicht liefern. Mein Training kommt zu dir und wird jede Woche neu um deine Schichten gelegt. 50€ pro Stunde, ohne Jahresvertrag, Erstgespräch kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Holweide: Krafttraining bei dir zu Hause mit Terminen, die sich jede Woche dem Dienstplan anpassen, statt festem Studio-Slot im Jahresvertrag. 50€/Std.",
+    sections: [
+      {
+        title: "Das Studio-Modell passt nicht zu Schichtarbeit",
+        body: "EMS-Studios planen in festen, wiederkehrenden Terminen: jede Woche derselbe Slot, meist im Jahresvertrag. Wer in Holweide an der Klinik, in der Pflege oder im Schichtbetrieb arbeitet, weiß, was mit so einem Slot passiert: Der Frühdienst verschiebt sich, die Nachtwoche kommt dazwischen, der Termin verfällt, und bezahlt ist er trotzdem. Das Problem ist nicht dein Wille, es ist ein Terminmodell, das für Büroarbeitszeiten gebaut wurde.",
+      },
+      {
+        title: "Termine, die jede Woche neu gelegt werden",
+        body: "Bei mir gibt es keinen festen Slot, sondern eine feste Absprache: Sobald dein Dienstplan steht, legen wir die zwei Einheiten der Woche hinein, auch vormittags nach der Nacht oder am frühen Nachmittag vor der Spätschicht. Ich komme zu dir nach Hause, die Anfahrt entfällt, und eine Einheit, die der Dienst doch noch kippt, wird verschoben statt abgerechnet.",
+      },
+      {
+        title: "Müde Schichten brauchen dosierte Last, keinen Maximalreiz",
+        body: "EMS wirbt damit, in 20 Minuten den ganzen Körper maximal zu reizen. Nach einer Nachtwoche ist das die falsche Medizin: Ein Körper mit wenig Schlaf braucht Belastung, die sich fein dosieren lässt, mal eine fordernde Einheit, mal eine bewusst leichte. Im geführten Krafttraining stelle ich das pro Übung ein und notiere es. So entsteht über Monate Fortschritt, der auch durch unregelmäßige Wochen trägt.",
+      },
+      {
+        title: "Die Rechnung am Jahresende",
+        body: "Rechne ein EMS-Abo ehrlich: Monatsbeitrag mal zwölf, geteilt durch die Einheiten, die du mit deinem Dienstplan realistisch wahrnimmst. Bei mir zahlst du 50€ pro Stunde, und zwar nur für Stunden, die stattfinden. Keine Laufzeit, keine Gebühr für Wochen, in denen die Station dich auffrisst. Das Erstgespräch ist kostenlos und klärt, ob das Modell zu deinem Alltag passt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Holweide?",
+        a: "50€ pro 1-zu-1 Stunde bei dir zu Hause, abgerechnet wird nur, was stattfindet. Kein Jahresvertrag. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite im Wechseldienst. Wie planen wir Termine?",
+        a: "Sobald dein Dienstplan steht, legen wir die Einheiten der Woche fest, auch früh am Vormittag oder am Nachmittag. Kippt ein Dienst den Termin, wird verschoben, nicht abgerechnet.",
+      },
+      {
+        q: "Ist EMS nach der Nachtschicht nicht praktischer, weil es nur 20 Minuten dauert?",
+        a: "Kurz heißt nicht passend. Nach wenig Schlaf braucht der Körper dosierte, anpassbare Belastung, keinen Maximalreiz über den ganzen Körper. Genau diese Dosierung leistet geführtes Training.",
+      },
+      {
+        q: "Trainieren wir in Holweide auch draußen?",
+        a: "Die Kraftarbeit machen wir drinnen bei dir. Für trainingsfreie Tage bekommst du Gehvorgaben, zum Beispiel Richtung Thielenbruch oder Dellbrücker Heide gleich nebenan.",
+      },
+    ],
+  },
+
+  "merkenich/personal-training": {
+    answer:
+      "Personal Training in Köln-Merkenich: 1-zu-1 bei dir zu Hause, in einem Stadtteil, der aus Dörfern am Rheinbogen besteht und kein Studio braucht. Kraft drinnen, Kondition auf dem Rheindamm, Termine auch früh vor der Schicht. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Merkenich: 1-zu-1 Training zu Hause in den Dörfern am Rheinbogen, Kondition auf dem Rheindamm, Termine passend zur Schicht. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Stadtteil aus Dörfern",
+        body: "Merkenich ist mit 12,15 km² riesig und mit rund 5.900 Einwohnern dünn besiedelt, denn der Stadtteil besteht aus mehreren Dörfern am Rheinbogen: Merkenich selbst, dazu Orte wie Rheinkassel und Kasselberg. Ein Fitnessstudio gibt es hier nicht an jeder Ecke, und das ist für mein Modell kein Nachteil: Ich fahre zu dir, egal in welchem der Dörfer du wohnst, und der Trainingsort ist dein Wohnzimmer, deine Garage oder dein Garten.",
+      },
+      {
+        title: "Kraft drinnen, Kondition auf dem Damm",
+        body: "Die Krafteinheiten finden drinnen statt, mit Material, das ich mitbringe, und einem Protokoll, das jede Steigerung festhält. Für die Kondition hat der Kölner Norden eine Strecke, um die ihn viele Veedel beneiden: den flachen Rheindamm. Dort gehen oder laufen wir Intervalle mit klarer Vorgabe, und an trainingsfreien Tagen hast du dieselbe Strecke als Hausaufgabe direkt vor der Tür.",
+      },
+      {
+        title: "Termine, die vor oder nach der Schicht liegen",
+        body: "Viele Anfragen aus Merkenich kommen von Leuten, die im Industrie-Norden arbeiten und in Wechselschicht leben. Ein Trainingsplan, der nur abends um 18 Uhr funktioniert, ist für sie wertlos. Deshalb lege ich Einheiten auch auf den frühen Morgen vor der Spätschicht oder den Nachmittag nach dem Frühdienst, und wir planen Woche für Woche neu, wenn der Schichtrhythmus das verlangt.",
+      },
+      {
+        title: "Einstieg, Kosten, erster Schritt",
+        body: "Am Anfang steht das kostenlose Erstgespräch: Ziel, Gesundheitsstand, realistische Wochenstruktur. Danach meist zwei Einheiten pro Woche à 50€, ohne Vertragsbindung. Alle vier bis sechs Wochen wird nachgemessen. Wenn du lieber eigenständig trainierst, gibt es das Online Coaching ab 150€ im Monat mit Plan und wöchentlichen Check-ins.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Merkenich?",
+        a: "50€ pro 1-zu-1 Stunde bei dir zu Hause, ohne Laufzeit. Das Erstgespräch ist kostenlos. Online Coaching mit Plan und Check-ins gibt es ab 150€ im Monat.",
+      },
+      {
+        q: "Kommst du auch nach Rheinkassel oder Kasselberg?",
+        a: "Ja. Merkenich besteht aus mehreren Dörfern, und ich fahre in alle. Der Termin beginnt bei dir an der Haustür, nicht an einer Studiotheke.",
+      },
+      {
+        q: "Ich arbeite in Wechselschicht. Funktioniert das?",
+        a: "Ja, das ist in Merkenich eher die Regel als die Ausnahme. Wir legen die Einheiten Woche für Woche um deinen Schichtplan, auch früh morgens oder am Nachmittag.",
+      },
+      {
+        q: "Brauche ich Platz oder Geräte zu Hause?",
+        a: "Zwei mal drei Meter reichen, das Material bringe ich mit. Garage oder Garten sind im Sommer eine gute Alternative, der Rheindamm übernimmt den Ausdauerteil.",
+      },
+    ],
+  },
+
+  "hahnwald/personal-training": {
+    answer:
+      "Personal Training in Köln-Hahnwald findet hinter deiner eigenen Hecke statt: 1-zu-1 bei dir zu Hause oder im Garten, diskret und ohne Studio-Publikum, in einem Veedel, das als reines Wohngebiet ohnehin kein Studio hat. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Hahnwald: diskretes 1-zu-1 Training bei dir zu Hause oder im Garten, Beratung für den eigenen Geräteraum, Grün direkt nebenan. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel ohne Studio, und das ist kein Mangel",
+        body: "Hahnwald ist ein reines Wohngebiet: rund 2.000 Einwohner auf knapp 3 km², ruhige Straßen unter alten Bäumen, kein Gewerbe, kein Fitnessstudio. Wer hier trainieren will, fährt normalerweise raus. Die bessere Lösung kommt rein: Ich bringe Training, Material und Plan zu dir, und die Stunde gehört vollständig dir, ohne Wartezeit am Gerät und ohne Publikum.",
+      },
+      {
+        title: "Haus und Garten geben mehr her als die meisten Studios",
+        body: "Die Grundstücke in Hahnwald bieten, wovon ein Studio-Kunde nur träumt: Platz. Ein Kellerraum oder eine Garage reicht für die komplette Kraftarbeit, der Garten im Sommer für alles andere. Wenn du eigene Geräte anschaffen willst, berate ich dich ehrlich: Für die meisten Ziele genügt eine kurze Liste, die weniger kostet als ein Jahr Studiomitgliedschaft, und ich sage dir auch, welche teuren Geräte du dir sparen kannst.",
+      },
+      {
+        title: "Diskretion ist Teil des Angebots",
+        body: "Viele Kunden in dieser Lage wünschen genau das, was ein Studio nicht bieten kann: einen festen Ansprechpartner, keine wechselnden Trainer, keine Blicke, keine Begegnungen an der Theke. Im 1-zu-1 bleibt alles zwischen uns, vom Gesundheitsstand bis zum Trainingsziel. Der Plan wird dokumentiert, alle vier bis sechs Wochen messen wir nach, und du entscheidest, wer sonst noch davon erfährt: niemand.",
+      },
+      {
+        title: "Das Grün liegt direkt nebenan",
+        body: "Für die Ausdauer- und Ausgleichsarbeit grenzt Hahnwald an einige der besten Strecken im Kölner Süden: Der Forstbotanische Garten und der Friedenswald liegen im benachbarten Rodenkirchen, ruhige Wege Richtung Rondorf und Sürth beginnen am Ortsrand. Gehrunden oder lockere Läufe dort stehen als Vorgabe zwischen den Krafteinheiten im Plan.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Hahnwald?",
+        a: "50€ pro 1-zu-1 Stunde bei dir zu Hause, ohne Vertragsbindung. Das Erstgespräch ist kostenlos und klärt Ziel, Gesundheitsstand und Ablauf.",
+      },
+      {
+        q: "Trainierst du bei mir zu Hause oder draußen?",
+        a: "Beides. Kraft drinnen oder im Garten, Ausdauer auf den Wegen Richtung Forstbotanischer Garten und Friedenswald. Den Mix bestimmen dein Ziel und die Jahreszeit.",
+      },
+      {
+        q: "Kannst du mir beim Einrichten eines eigenen Trainingsraums helfen?",
+        a: "Ja. Ich sage dir, welche Ausstattung für dein Ziel sinnvoll ist und welche nicht. Bis alles da ist, bringe ich das nötige Material einfach mit.",
+      },
+      {
+        q: "Wie vertraulich ist das Training?",
+        a: "Vollständig. Du hast einen festen Trainer, keine wechselnden Gesichter, und weder dein Plan noch deine Daten verlassen unser Training.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
