@@ -9785,6 +9785,264 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "brueck/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Brück für alle, deren Studiozeit mit dem Umzug ins Grüne geendet hat: zwei geführte Krafteinheiten pro Woche bei dir zu Hause, mit Protokoll und steigender Last. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Brück: Krafttraining zu Hause mit Plan und Protokoll, ohne Studio-Anfahrt. Der Königsforst bleibt für die Erholung. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Umzug nach Brück hat viele Trainingskarrieren beendet",
+        body: "Das Muster höre ich im Erstgespräch oft: In der alten Wohnung lag das Studio auf dem Arbeitsweg, nach dem Umzug nach Brück liegt es nirgendwo mehr. 10.234 Menschen wohnen hier auf 7,5 km², mit Haus, Garten und Königsforst vor der Tür, aber ohne Hantelbank im Veedel. Drei Jahre später ist die Kraft von damals weg, und der Wiedereinstieg scheitert an derselben Anfahrt, an der schon das alte Abo gescheitert ist. Deshalb drehe ich es um: Das Training kommt zu dir.",
+      },
+      {
+        title: "Wiederaufbau geht schneller als der erste Aufbau",
+        body: "Wer früher trainiert hat, startet nicht bei null. Die Bewegungsmuster sind noch da, und Muskulatur, die schon einmal existiert hat, kommt schneller zurück als beim ersten Mal. Trotzdem beginne ich mit einem Technik-Check und moderaten Lasten: Sehnen und Gelenke brauchen nach Jahren Pause länger als der Muskel selbst. Danach wird jede Einheit protokolliert und die Last planmäßig gesteigert. Kurzhanteln und ein verstellbares Rack bringe ich mit oder wir richten eine Ecke bei dir ein, der Platz dafür ist in Brück selten das Problem.",
+      },
+      {
+        title: "Wald und Garten bleiben, was sie sind: Ausgleich",
+        body: "Die Runden im Königsforst und die Gartenarbeit fühlen sich nach Bewegung an, und das sind sie auch. Nur bauen sie keine Muskulatur auf, weil die Last nie steigt. Im Plan behalten sie ihren festen Platz als Erholung und Ausdauer, während die zwei Krafteinheiten die Arbeit machen. Dazu kommt ein Eiweißziel, das Natalie mit dir auf deinen Alltag rechnet, ohne Pulverzwang und ohne den Familientisch umzukrempeln.",
+      },
+      {
+        title: "Für wen das in Brück gedacht ist",
+        body: "Für alle zwischen Mitte dreißig und Ende fünfzig, die sagen: Ich war mal fitter. Pendler, die mit der Linie 1 in die Stadt fahren und abends nicht noch einmal losfahren wollen. Eltern, deren Zeitfenster zwischen Abendessen und müde genau eine Stunde lang ist. Das Erstgespräch klärt Ausgangslage, Material und Termine, danach steht der Plan für die ersten zwölf Wochen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Brück?",
+        a: "50€ pro Stunde im 1-zu-1 bei dir zu Hause. Wer lieber selbst trainiert und nur Plan und Kontrolle will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Ich habe seit Jahren nicht trainiert. Wie lange dauert der Wiedereinstieg?",
+        a: "Die ersten spürbaren Veränderungen stehen nach vier bis sechs Wochen im Protokoll. Frühere Trainingserfahrung beschleunigt den Aufbau deutlich, auch wenn die Pause lang war. Die ersten zwei Wochen gehören trotzdem der Technik und moderaten Lasten.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Zum Start nicht, ich bringe Kurzhanteln und Zubehör mit. Wenn du dranbleibst, lohnt sich eine kleine Grundausstattung, die ich mit dir zusammenstelle, bevor du etwas kaufst. Mehr als eine Ecke im Keller oder Wohnzimmer braucht es nicht.",
+      },
+      {
+        q: "Reicht der Königsforst nicht als Training?",
+        a: "Für Ausdauer und Kopf: ja, und er bleibt im Plan. Für Muskelaufbau: nein, weil die Belastung beim Gehen und Radfahren nicht planmäßig steigt. Die Kombination aus beidem ist genau das, was in Brück gut funktioniert.",
+      },
+    ],
+  },
+
+  "hoehenberg/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Höhenberg ist klassisches Krafttraining im 1-zu-1, bei dir zu Hause oder auf der Merheimer Heide: gerade für Einsteiger, denn die Stromweste überspringt genau das, was am Anfang den Unterschied macht. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Höhenberg: Krafttraining statt Stromweste, Technik von Anfang an, zu Hause oder auf der Merheimer Heide. 50€/Std, ohne Vertrag, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "EMS wirbt mit dem leichten Einstieg und nimmt ihn dir",
+        body: "Das Verkaufsargument der EMS-Studios richtet sich an Anfänger: keine Technik nötig, die Weste macht das schon. Genau da liegt der Fehler. Die ersten zwölf Wochen sind die Phase, in der dein Körper Bewegungen lernt und so schnell Fortschritte macht wie nie wieder. Wer diese Phase in einer Weste verbringt, hat danach kräftigere Muskeln gespürt, aber keine einzige Übung gelernt. Kniebeuge, Hüftbeuge, Drücken, Ziehen: Das Vokabular, mit dem jedes spätere Training arbeitet, fehlt komplett.",
+      },
+      {
+        title: "Was ein Einsteiger wirklich braucht",
+        body: "Am Anfang zählt nicht der Reiz, sondern die Qualität der Bewegung. Deshalb beginne ich in Höhenberg mit einem Technik-Check und Übungen, die zu deinem Stand passen, nicht mit Maximalbelastung. Die Last steigt erst, wenn die Ausführung sitzt, dann aber planmäßig und dokumentiert. Nach zwölf Wochen kannst du sauber beugen, heben und tragen und hast ein Protokoll, das zeigt, wie weit du gekommen bist. Das ist die Grundlage, auf der du überall weitertrainieren kannst, mit mir oder ohne mich.",
+      },
+      {
+        title: "Höhenberg hat den Platz dafür längst",
+        body: "12.532 Menschen auf 2,2 km², ein Veedel, in dem im Sportpark Fußball gespielt und auf der Merheimer Heide gelaufen wird: Höhenberg bewegt sich draußen. Die Krafteinheiten lege ich zu dir nach Hause oder bei gutem Wetter an den Westrand des Veedels auf die Heide. Material bringe ich mit. Du brauchst kein Studio, keinen Vertrag und keine Anfahrt, nur zwei feste Stunden pro Woche.",
+      },
+      {
+        title: "Wo EMS seinen Platz behalten kann",
+        body: "Wer seit Jahren trainiert, Übungen beherrscht und einen zusätzlichen Reiz sucht, kann EMS als Ergänzung nutzen, das ist eine ehrliche Nische. Als Einstieg ins Training ist es die teuerste Abkürzung, die am Ziel vorbeiführt. Im kostenlosen Erstgespräch schauen wir auf deinen Stand und du entscheidest danach, nicht vorher.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Höhenberg?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Vertragsbindung und ohne Anmeldegebühr. Zum Vergleich: EMS-Abos liegen meist zwischen 80 und 120€ im Monat bei 20 Minuten pro Woche und laufen über feste Vertragszeiten. Das Erstgespräch bei mir ist kostenlos.",
+      },
+      {
+        q: "Ich habe noch nie Krafttraining gemacht. Ist das nicht zu schwer?",
+        a: "Nein, der Anfang ist bewusst einfach. Der Technik-Check legt fest, womit wir starten, oft mit dem eigenen Körpergewicht und leichten Kurzhanteln. Gerade als Anfänger machst du in den ersten Wochen die größten Fortschritte deines Trainingslebens.",
+      },
+      {
+        q: "Wo trainieren wir in Höhenberg?",
+        a: "Bei dir zu Hause oder auf der Merheimer Heide am Westrand des Veedels. Geräte und Plan bringe ich mit, eine freie Fläche von wenigen Quadratmetern reicht.",
+      },
+      {
+        q: "Ist EMS nicht effizienter, weil es nur 20 Minuten dauert?",
+        a: "Die 20 Minuten reizen Muskeln, aber sie lehren keine Bewegung und steigern keine Last. Effizient ist, was dich in zwölf Wochen messbar stärker und sicherer macht, und das leistet geführtes Krafttraining mit Protokoll zuverlässiger.",
+      },
+    ],
+  },
+
+  "riehl/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Riehl: ein Plan und ein Coach statt zwanzig App-Tipps, mit Trainingsplan in der App, wöchentlichem Video-Check-in und Ernährungssteuerung, ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Riehl: ein Plan statt zwanzig Quellen, Check-in jede Woche, Kraft zu Hause, Ausdauer am Rheinufer und in der Flora. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Problem ist nicht zu wenig Information, sondern zu viel",
+        body: "Wer in Riehl läuft oder zu Hause trainiert, hat meist schon alles gelesen: drei Fitness-Apps, Videos, Artikel, dazu Ratschläge aus dem Bekanntenkreis. Jede Quelle sagt etwas anderes, also wechselt das Programm alle paar Wochen, und genau deshalb stagniert es. Online Coaching ersetzt die zwanzig Meinungen durch einen Plan, der auf deinen Stand geschrieben ist, und durch einen Menschen, der ihn jede Woche mit dir überprüft. Du musst nichts mehr entscheiden, nur noch trainieren.",
+      },
+      {
+        title: "So funktioniert es konkret",
+        body: "Nach dem kostenlosen Erstgespräch bekommst du deinen Plan in die App: Krafteinheiten für zu Hause, Ausdauerblöcke für draußen, jede Übung mit Video. Du trägst ein, was du gemacht hast, ich sehe es und passe an. Einmal pro Woche sprechen wir im Video-Check-in über Zahlen, Technik und die kommende Woche. Fragen zwischendurch beantworte ich über die App, du wartest nie bis zum nächsten Termin.",
+      },
+      {
+        title: "Riehl liefert die Strecken, der Plan die Reihenfolge",
+        body: "Zwischen Rheinufer, Flora und Zoo wohnt Riehl auf 2,39 km² fast komplett am Grün. Die flache Uferstrecke Richtung Niehl ist für Intervalle besser als jedes Laufband, und für ruhige Runden reicht der Weg um die Flora. Im Plan bekommen diese Strecken feste Aufgaben: welche Runde, welches Tempo, wie oft. Die Kraftarbeit passiert in deiner Wohnung, mit dem, was da ist, mehr als Kurzhanteln und ein Band braucht der Einstieg nicht.",
+      },
+      {
+        title: "Online, aber nicht aus der Ferne",
+        body: "Ich trainiere selbst jede Woche Kunden in Köln, auch rechts und links vom Zoo. Wenn beim Check-in eine Technikfrage offen bleibt, buchst du einzelne 1-zu-1 Stunden dazu und wir klären sie vor Ort. Die meisten brauchen das ein- oder zweimal am Anfang, danach trägt der Plan allein.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Riehl?",
+        a: "Ab 150€ im Monat, mit Trainingsplan in der App, wöchentlichem Video-Check-in und Ernährungssteuerung. Einzelne 1-zu-1 Stunden vor Ort kosten 50€ und lassen sich jederzeit dazunehmen. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Worin unterscheidet sich das von einer Fitness-App?",
+        a: "Die App ist nur das Werkzeug. Den Plan schreibe ich auf deinen Stand, deine Woche und deine Strecken in Riehl, und im wöchentlichen Check-in schaut ein Mensch auf deine Ausführung und deine Zahlen. Eine App merkt nicht, wenn du seit drei Wochen dasselbe Gewicht bewegst.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Für den Anfang reichen Kurzhanteln und ein Widerstandsband, zusammen unter 100€. Der Plan wird auf das geschrieben, was du hast. Wer später aufrüsten will, bespricht das vorher mit mir, damit nichts Unnötiges gekauft wird.",
+      },
+      {
+        q: "Ich laufe schon regelmäßig. Was bringt mir das Coaching?",
+        a: "Struktur: Die meisten Läufer in Riehl laufen jede Runde im selben Tempo. Der Plan ordnet die Läufe nach Zweck, ergänzt zwei kurze Krafteinheiten und macht Fortschritt messbar. Das ist meist der Unterschied zwischen viel laufen und besser werden.",
+      },
+    ],
+  },
+
+  "godorf/personal-training": {
+    answer:
+      "Personal Training in Köln-Godorf: 1-zu-1 bei dir zu Hause, mit Plan, Protokoll und festem Termin, denn ein Studio gibt es im Veedel nicht. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Godorf: Training bei dir zu Hause statt Anfahrt, fester Termin, messbarer Plan. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Durch Godorf fahren alle, in Godorf wohnst du",
+        body: "Hafen, Gewerbegebiet, Autobahn, das Möbelhaus: Godorf kennt halb Köln vom Durchfahren und Einkaufen. Dass zwischen all dem 2.657 Menschen wohnen, übersieht der Rest der Stadt, und die Fitnessbranche übersieht es auch. Wer hier trainieren will, fährt bisher nach Rodenkirchen oder Hürth. Mein Angebot dreht das um: Ich komme mit Material und Plan zu dir, und die Anfahrt, die sonst dein Training frisst, fällt weg.",
+      },
+      {
+        title: "In einem Veedel ohne Angebote zählt der feste Termin doppelt",
+        body: "Wo kein Studio am Weg liegt, stirbt der Vorsatz leise: erst fällt eine Fahrt aus, dann der Monat. Ein fester 1-zu-1 Termin funktioniert anders, weil jemand vor der Tür steht. Wir legen zwei Stunden pro Woche auf Zeiten, die zu deinem Tag passen, auch früh oder am Rand der Schicht. Jede Einheit steht im Protokoll: Übungen, Last, Wiederholungen. Nach zwölf Wochen vergleichen wir nicht Gefühle, sondern Zahlen.",
+      },
+      {
+        title: "Was in einer Godorfer Stunde passiert",
+        body: "Der Inhalt richtet sich nach deinem Ziel: Kraft für Rücken und Alltag, Gewicht runter, nach Jahren wieder einsteigen. Der Rahmen bleibt gleich: aufwärmen, ein Hauptteil aus Grundübungen mit steigender Last, zum Schluss Rumpf oder Beweglichkeit. Platz reicht ein Wohnzimmer, eine Garage oder der Garten. Für die Tage dazwischen bekommst du kurze Aufgaben von 15 bis 20 Minuten, mehr verlange ich neben Job und Familie nicht.",
+      },
+      {
+        title: "Preis und Einstieg",
+        body: "Die Stunde kostet 50€, ohne Vertragslaufzeit und ohne Paketzwang. Wer zusätzlich die Ernährung angehen will, arbeitet mit Natalie, unserer Ernährungsberaterin für Sport- und Fitnessernährung. Der erste Schritt ist ein kostenloses Erstgespräch bei dir in Godorf: Ausgangslage, Ziel, Termine, danach entscheidest du.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Godorf?",
+        a: "50€ pro Stunde im 1-zu-1 bei dir zu Hause, ohne Bindung. Online Coaching mit Plan und wöchentlichem Check-in gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite im Schichtbetrieb. Geht das trotzdem?",
+        a: "Ja, und zwar ohne Ausnahmeregelung: Die Termine werden jede Woche auf deinen Dienstplan gelegt, nicht umgekehrt. Auch Vormittage und frühe Nachmittage sind normale Trainingszeiten bei mir.",
+      },
+      {
+        q: "Habe ich zu Hause genug Platz für das Training?",
+        a: "Fast immer. Eine freie Fläche von drei mal zwei Metern reicht, die Geräte bringe ich mit. In Godorf trainieren wir je nach Wohnung auch in Garage oder Garten.",
+      },
+      {
+        q: "Für wen ist das 1-zu-1 in Godorf gedacht?",
+        a: "Für alle, die ohne Studio im Veedel trotzdem regelmäßig trainieren wollen: Berufstätige aus Hafen und Gewerbe, Eltern mit engem Zeitfenster, Wiedereinsteiger. Das Niveau setzt der Technik-Check am Anfang fest.",
+      },
+    ],
+  },
+
+  "westhoven/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Westhoven ist Krafttraining, das sich nach deinem Körper richtet statt nach einem Westenprogramm: 1-zu-1 bei dir zu Hause oder in der Westhovener Aue, mit Last, die dort ansetzt, wo du sie brauchst. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Westhoven: Krafttraining nach deinem Körper statt Westenprogramm, zu Hause oder in der Westhovener Aue. 50€/Std, ohne Vertrag, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die Weste kennt weder deine Schulter noch dein Knie",
+        body: "EMS reizt alle Muskelgruppen nach demselben Schema, und genau das klingt besser, als es ist. Kein Körper ist gleichmäßig: Der eine hat eine Schulter, die nach Jahren Schreibtisch nicht mehr sauber über den Kopf kommt, die andere ein Knie, das bei Belastung meckert, der dritte einen Rumpf, der beim Heben nachgibt. Training wirkt, wenn es an der schwächsten Stelle ansetzt und dort gezielt aufbaut. Ein Stromprogramm kann das nicht, weil es dich nicht bewegen sieht.",
+      },
+      {
+        title: "Erst der Befund, dann die Last",
+        body: "Deshalb beginnt bei mir jede Zusammenarbeit mit einem Beweglichkeits- und Technik-Check: Wo bist du eingeschränkt, wo stabil, was tut bei Belastung weh. Daraus entsteht ein Plan, der nicht alles gleich belastet, sondern Prioritäten setzt, und der jede Woche an deinen Zustand angepasst wird. War die Nacht kurz oder die Woche hart, wird die Einheit umgebaut statt durchgezogen. Das ist der Teil von 1-zu-1, den kein Gerät ersetzt.",
+      },
+      {
+        title: "Westhoven hat bessere Trainingsräume als jede Studiokabine",
+        body: "5.700 Menschen, der Rhein vor der Tür und mit der Westhovener Aue eine der größten freien Grünflächen im Kölner Süden, die nach Jahrzehnten als Militärgelände wieder offen ist: Wer hier wohnt, muss für gutes Training nirgendwo hinfahren. Die Krafteinheiten machen wir bei dir zu Hause oder draußen in der Aue, Material bringe ich mit. Zwei Stunden pro Woche reichen, wenn sie geplant sind.",
+      },
+      {
+        title: "Der nüchterne Vergleich zum EMS-Abo",
+        body: "Ein EMS-Vertrag kostet meist 80 bis 120€ im Monat für 20 Minuten pro Woche nach Schema, mit Laufzeit. Das 1-zu-1 kostet 50€ pro Stunde, ohne Bindung, und jede Stunde wird auf dich gebaut. Wer schon EMS gemacht hat und zufrieden ist, braucht mich nicht. Wer nach Monaten Weste immer noch nicht weiß, ob er stärker geworden ist, bekommt bei mir ein Protokoll, das die Frage beantwortet.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Westhoven?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Vertragslaufzeit. Das Erstgespräch mit Beweglichkeits-Check ist kostenlos. Online Coaching als Ergänzung gibt es ab 150€ im Monat.",
+      },
+      {
+        q: "Ich habe eine alte Verletzung. Kann ich trotzdem trainieren?",
+        a: "In den meisten Fällen ja, genau dafür ist der Check am Anfang da: Er zeigt, was belastbar ist und was Aufbau braucht. Bei akuten Beschwerden gehört zuerst ein Arzt dazu, danach plane ich das Training um den Befund herum.",
+      },
+      {
+        q: "Wo trainieren wir in Westhoven?",
+        a: "Bei dir zu Hause oder in der Westhovener Aue, je nach Wetter und Vorliebe. Kurzhanteln, Bänder und Plan bringe ich mit, du brauchst nur Platz für eine Matte.",
+      },
+      {
+        q: "Ist gezieltes Training nicht langsamer als Ganzkörper-EMS?",
+        a: "Nein, eher umgekehrt: Wer zuerst die schwächste Stelle stabilisiert, kann danach alle Übungen schwerer und sauberer ausführen und baut insgesamt schneller auf. Gleichmäßiger Reiz auf einen ungleichmäßigen Körper konserviert die Schwachstelle nur.",
+      },
+    ],
+  },
+
+  "neustadt-nord/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Neustadt-Nord ist Training, das deinen Tag in Bewegung bringt, statt ihm eine weitere statische Einheit hinzuzufügen: Krafttraining über volle Bewegungen, zu Hause, im Stadtgarten oder im Grüngürtel. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Neustadt-Nord: Krafttraining in voller Bewegung statt Stillstand in der Weste, zu Hause oder im Grüngürtel. 50€/Std, ohne Vertrag, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Tag ist schon statisch, dein Training darf es nicht sein",
+        body: "Der Alltag zwischen Ring, MediaPark und Homeoffice findet im Sitzen statt, acht bis zehn Stunden in fast derselben Position. EMS setzt genau da noch eines drauf: Du stehst 20 Minuten nahezu still, während die Weste die Muskeln reizt. Was einem Schreibtischkörper fehlt, ist aber nicht Reiz im Stehen, sondern Bewegung über volle Gelenkwege: tief beugen, über den Kopf drücken, vom Boden heben, etwas tragen. Das Training muss der bewegliche Teil deines Tages sein, nicht die Fortsetzung des Stillstands.",
+      },
+      {
+        title: "Kraft in voller Bewegung statt Impuls im Stand",
+        body: "Im 1-zu-1 arbeiten wir deshalb über komplette Bewegungen mit steigender Last: Kniebeugen bis in die volle Tiefe, Hüftbeugen, Ziehen, Drücken, Tragen. Das baut nicht nur Muskulatur auf, sondern gibt dir die Gelenkwege zurück, die der Bürotag Stück für Stück schließt. Jede Einheit steht im Protokoll, alle vier bis sechs Wochen vergleichen wir Last und Beweglichkeit. Nach zwölf Wochen merkst du den Unterschied nicht nur im Spiegel, sondern beim Bücken und auf der Treppe.",
+      },
+      {
+        title: "28.604 Nachbarn, und trotzdem null Anfahrt",
+        body: "Neustadt-Nord ist mit 28.604 Menschen auf 3,49 km² eines der dichtesten Veedel der Stadt, und zwischen Altbau und Büro wirkt Training nach Feierabend oft wie ein weiterer Termin im vollen Kalender. Deshalb kommt die Einheit zu dir: in die Wohnung, in den Stadtgarten oder in den Inneren Grüngürtel, je nach Wetter und Tageszeit. Material bringe ich mit, der Altbauflur hat schon als Trainingsfläche gereicht.",
+      },
+      {
+        title: "Wann die Weste trotzdem eine Option ist",
+        body: "Wer bereits beweglich ist, regelmäßig trainiert und einen Zusatzreiz sucht, kann EMS als Ergänzung verwenden. Als Hauptprogramm für Menschen, die den Tag im Sitzen verbringen, behandelt es das falsche Problem. Im kostenlosen Erstgespräch messen wir, wo du stehst, und du entscheidest mit den Zahlen auf dem Tisch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Neustadt-Nord?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Vertrag und ohne Anmeldegebühr. EMS-Studios in der Innenstadt liegen meist bei 80 bis 120€ im Monat mit Laufzeit. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich sitze den ganzen Tag. Womit fangen wir an?",
+        a: "Mit einem Beweglichkeits-Check: Hüfte, Brustwirbelsäule, Schultern. Danach kombiniert der Plan Kraftübungen mit den Gelenkwegen, die bei dir eng geworden sind. Die ersten Wochen fühlen sich mehr nach Beweglichkeit an, die Last kommt, sobald die Wege frei sind.",
+      },
+      {
+        q: "Wo trainieren wir in der Neustadt?",
+        a: "In deiner Wohnung, im Stadtgarten oder im Inneren Grüngürtel. Für drinnen reicht eine freie Fläche von wenigen Quadratmetern, die Geräte bringe ich mit.",
+      },
+      {
+        q: "Bringt EMS denn gar nichts?",
+        a: "Es reizt Muskeln, das ist belegt. Es ersetzt nur keine Bewegung: Beweglichkeit, Technik und die Fähigkeit, im Alltag etwas zu heben oder zu tragen, entstehen nur durch Bewegung gegen Last. Für Schreibtischberufe ist das der Teil, der zählt.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
