@@ -8988,6 +8988,288 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "neuehrenfeld/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Neuehrenfeld löst das Problem, das feste Kurszeiten nie lösen: Der Abend gehört hier oft der Familie, nicht dem Studio. Dein Plan steht in der App, die Einheiten sind auf 30 bis 45 Minuten geschnitten und passen in die Lücken deines Tages. Ab 150€ im Monat, Erstgespräch kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Neuehrenfeld: kurze Einheiten per App, die in Familienabende passen, Lauf-Blöcke im Blücherpark, Video-Check-in pro Woche. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Der Kurs um 19 Uhr verliert hier immer",
+        body: "Neuehrenfeld ist ein Wohnveedel mit viel Alltag: 23.626 Menschen auf 2,54 Quadratkilometern, viele davon Familien in Altbauetagen. Wer um 17 Uhr Feierabend macht, hat um 19 Uhr selten frei, sondern Abendessen, Kinder, Wäsche. Ein Kursplan mit festen Zeiten verliert gegen diesen Rhythmus jede Woche aufs Neue. Deshalb drehe ich es um: Nicht du passt dich dem Training an, der Plan passt sich deinem Tag an. Du bekommst Einheiten, die auch dann zählen, wenn du nur 35 Minuten hast.",
+      },
+      {
+        title: "Kurz heißt nicht halbherzig",
+        body: "Eine 35-Minuten-Einheit mit klarem Ziel schlägt eine 90-Minuten-Einheit, die nie stattfindet. Ich plane deine Woche in Bausteinen: zwei Krafteinheiten mit dem, was in deine Wohnung passt, ein Lauf- oder Geh-Block, kurze Mobility-Aufgaben für zwischendurch. Jede Übung steht mit Video in der App, jeder Satz wird eingetragen. Im wöchentlichen Video-Check-in schauen wir auf die Zahlen und ich stelle den Plan nach, bevor etwas einschläft.",
+      },
+      {
+        title: "Der Blücherpark ist dein Ausdauer-Baustein",
+        body: "Für die Laufblöcke brauchst du Neuehrenfeld nicht zu verlassen. Der Blücherpark liegt am Rand des Veedels, mit breiten Wegen um den Weiher, die sich für Intervalle genauso eignen wie für ruhige Runden. Viele aus dem Veedel legen ihren Block auf den frühen Morgen, bevor der Tag sie frisst. Auch das steht dann so im Plan: Strecke, Tempo, Dauer, nicht nur die Ansage, mal wieder laufen zu gehen.",
+      },
+      {
+        title: "Wenn du Technik-Hilfe willst, bin ich in der Nähe",
+        body: "Online Coaching heißt bei mir nicht, dass du Angelo nie siehst. Wenn neue Übungen anstehen oder die Ausführung hakt, schieben wir eine 1-zu-1 Stunde ein, im Blücherpark oder bei dir zu Hause. Die Stunde kostet dann 50€. Viele in Neuehrenfeld starten komplett online und holen sich alle paar Wochen eine Technikstunde dazu. Beides läuft über denselben Plan, nichts wird doppelt bezahlt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Neuehrenfeld?",
+        a: "Ab 150€ im Monat. Darin stecken der Trainingsplan in der App, die wöchentlichen Video-Check-ins und die Ernährungssteuerung. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Reichen 30 bis 45 Minuten pro Einheit wirklich?",
+        a: "Ja, wenn die Einheit geplant ist. Drei kurze, saubere Einheiten pro Woche schlagen jede gute Absicht von zwei langen. Entscheidend ist, dass sie stattfinden und dass die Belastung von Woche zu Woche steigt.",
+      },
+      {
+        q: "Ich habe kein Equipment in der Wohnung. Geht das trotzdem?",
+        a: "Ja. Der Plan startet mit Körpergewicht und dem, was da ist. Ob sich eine Anschaffung wie verstellbare Kurzhanteln lohnt, besprechen wir erst, wenn dein Training sie wirklich braucht.",
+      },
+      {
+        q: "Kann ich das Coaching mit Stunden vor Ort kombinieren?",
+        a: "Ja. 1-zu-1 Technikstunden im Blücherpark oder bei dir zu Hause lassen sich jederzeit einschieben, zum Beispiel wenn neue Übungen in den Plan kommen. Die Stunde kostet 50€.",
+      },
+      {
+        q: "Was passiert, wenn eine Woche komplett ausfällt?",
+        a: "Dann wird der Plan angepasst statt schlechtes Gewissen verteilt. Im Check-in schauen wir, woran es lag, und bauen die nächste Woche realistischer. Ein Plan, der nur in perfekten Wochen funktioniert, ist ein schlechter Plan.",
+      },
+    ],
+  },
+
+  "lind/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Lind hat einen Gegner, über den selten jemand spricht: das Auto. Im Dorf läuft fast jeder Weg über den Parkplatz, dein Alltag verbrennt kaum noch etwas. Ich setze deshalb auf geplante Geh-Kilometer in der Wahner Heide, zwei Krafteinheiten pro Woche bei dir zu Hause und ein Kaloriendefizit, das zu deinem Tag passt. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Lind: geplante Kilometer in der Wahner Heide statt Alltag im Auto, Krafttraining zu Hause, realistisches Defizit. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Alltag in Lind verbrennt weniger, als du denkst",
+        body: "In der Innenstadt sammelt man Schritte nebenbei: zur Bahn, zum Bäcker, die Treppe ins Büro. In Lind fährt man. Einkauf, Arbeit, Kinder, alles liegt am Ende einer Autofahrt, und so kommen viele hier auf 2.000 bis 3.000 Schritte am Tag, ohne es zu merken. Das ist der Grund, warum Diäten im Dorf oft langsamer wirken als versprochen: Das Essen wurde geändert, der Verbrauch blieb im Keller. Genau da fange ich an.",
+      },
+      {
+        title: "Die Heide ersetzt, was das Dorf dir nimmt",
+        body: "Lind hat dafür etwas, das kein Innenstadtveedel bietet: Die Wahner Heide beginnt am Ortsrand. Deine Geh-Kilometer dort sind feste Termine im Plan, mit Strecke und Dauer, nicht der gute Vorsatz, mehr rauszugehen. Drei zügige Runden pro Woche heben deinen Verbrauch spürbar an, schonen die Gelenke und kosten kein Studio-Abo. Wer mag, steigert später auf lockere Läufe, nötig ist das fürs Abnehmen nicht.",
+      },
+      {
+        title: "Krafttraining entscheidet, was von dir übrig bleibt",
+        body: "Wer nur weniger isst, verliert Muskel und Fett gemischt, und steht nach der Diät schwächer da als vorher. Deshalb gehören zwei Krafteinheiten pro Woche in den Plan, bei dir zu Hause mit Material, das ich mitbringe. Die Muskulatur bekommt einen Grund zu bleiben, der Gewichtsverlust kommt aus dem Fett. Gemessen wird im Wochenschnitt, nicht am einzelnen Morgen auf der Waage.",
+      },
+      {
+        title: "Das Defizit plant Natalie mit dir, wenn du willst",
+        body: "Das Kalorienziel rechnen wir gemeinsam aus, auf Basis deines echten Tages, nicht eines Idealtages. Wer das Essen genauer steuern will, nimmt Natalie dazu, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Sie plant die Woche um den großen Einkauf herum, der im Dorf nun mal ansteht, mit Mengen und Makros statt Verbotslisten. Die Beratung läuft per Video, du musst dafür nirgendwo hinfahren.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Lind?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ich komme dafür zu dir nach Lind. Online Coaching mit Plan, Check-ins und Ernährungssteuerung gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie viel kann ich realistisch pro Woche abnehmen?",
+        a: "Ein halbes bis ein Kilo pro Woche ist ein Tempo, das Muskulatur und Alltag übersteht. Alles darüber kostet meist Muskeln und kommt zurück. Entscheidend ist der Trend über Wochen, nicht die einzelne Zahl.",
+      },
+      {
+        q: "Muss ich dafür ins Studio fahren?",
+        a: "Nein. Die Krafteinheiten finden bei dir zu Hause statt, die Ausdauer läuft in der Wahner Heide. Das Dorf hat alles, was der Plan braucht, nur eben vor der Tür statt hinter einer Anfahrt.",
+      },
+      {
+        q: "Reicht Gehen wirklich, oder muss ich joggen?",
+        a: "Zügiges Gehen reicht, wenn es geplant stattfindet. Fürs Defizit zählt der Wochenverbrauch, nicht die Sportart. Wer später Lust auf Laufen bekommt, steigert sich, aber niemand muss.",
+      },
+      {
+        q: "Was passiert nach der Diät?",
+        a: "Die Kalorien steigen schrittweise, das Krafttraining bleibt. So hält das neue Gewicht, statt mit Zins zurückzukommen. Auch diese Phase steht von Anfang an im Plan.",
+      },
+    ],
+  },
+
+  "wahnheide/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Wahnheide muss mit wechselnden Schichten klarkommen, denn viele hier arbeiten am Flughafen gleich nebenan. Die gute Nachricht: Muskeln wachsen nicht nach Uhrzeit, sondern nach Abstand. Zwei geführte Krafteinheiten pro Woche mit 48 bis 72 Stunden dazwischen, egal ob um 8 oder um 16 Uhr. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Wahnheide: Training, das mit Schichtplänen rotiert, 48 bis 72 Stunden Abstand statt fester Uhrzeiten, Eiweißziel inklusive. 50€/Std.",
+    sections: [
+      {
+        title: "Dein Muskel kennt keine Uhrzeit, nur Abstände",
+        body: "Der Dienstplan wechselt, der Trainingsplan stirbt: So scheitert Muskelaufbau bei Schichtarbeit normalerweise. Dabei verlangt der Muskel gar keine festen Uhrzeiten. Er verlangt einen Reiz, dann 48 bis 72 Stunden Erholung, dann den nächsten, etwas schwereren Reiz. Ob die Einheit morgens nach der Frühschicht oder nachmittags vor der Spätschicht liegt, ist ihm egal. Deshalb plane ich deine Termine mit dem Dienstplan, nicht gegen ihn: Jede Woche kann anders aussehen, die Abstände bleiben gleich.",
+      },
+      {
+        title: "Nach der Nachtschicht wird nicht trainiert, sondern geschlafen",
+        body: "Muskeln wachsen in der Erholung, und die größte Baustelle bei Nachtschichten ist der Schlaf. Direkt nach einer Nacht durchzutrainieren klingt diszipliniert, bremst aber den Aufbau, weil der Körper die Reparatur nicht bezahlt bekommt. Im Plan heißt das: Nach Nachtblöcken liegt das Training am ausgeschlafenen Tag danach, davor wird höchstens mobilisiert. Das ist kein Weichspülen, das ist der Grund, warum die Gewichte bei dir trotzdem steigen.",
+      },
+      {
+        title: "Zwei Einheiten, ein Protokoll, ein Eiweißziel",
+        body: "Trainiert wird bei dir zu Hause mit Material, das ich mitbringe, oder im Studio: Grundübungen, saubere Technik, dokumentierte Steigerung von Einheit zu Einheit. Dazu bekommst du ein Eiweißziel in Gramm, das auch in der Kantine und am Automaten erreichbar ist, mit einfachen Ankern statt Kochprogramm. Alle vier Wochen vergleichen wir die Zahlen. Wenn nichts steigt, ändere ich den Plan, nicht die Ausrede.",
+      },
+      {
+        title: "Die Wahner Heide ist deine Erholungsfläche",
+        body: "Wahnheide grenzt direkt an die Wahner Heide, eines der größten Naturschutzgebiete im Kölner Raum. Für den Muskelaufbau nutzen wir sie nicht zum Schwitzen, sondern zum Regenerieren: lockere Spaziergänge an trainingsfreien Tagen halten den Kreislauf in Gang und den Kopf ruhig, ohne die Erholung anzugreifen. Gerade zwischen Schichtblöcken ist das mehr wert als jede dritte Krafteinheit.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Wahnheide?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Wer lieber mit App-Plan und wöchentlichen Video-Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich arbeite im Wechselschichtsystem. Funktioniert Muskelaufbau da überhaupt?",
+        a: "Ja. Entscheidend sind der Abstand zwischen den Einheiten und die Steigerung, nicht die Uhrzeit. Wir legen die Termine jede Woche neu auf deinen Dienstplan, die Struktur des Plans bleibt dabei gleich.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Kraftwerte bewegen sich nach vier bis sechs Wochen messbar, sichtbare Veränderung braucht drei bis sechs Monate. Muskelaufbau ist ein Projekt über Monate, dafür bleibt das Ergebnis.",
+      },
+      {
+        q: "Brauche ich dafür ein Studio?",
+        a: "Nein. Für die ersten Monate reichen verstellbare Kurzhanteln, eine Bank und ein Band, ich bringe Material auch mit. Ob sich später ein Studio lohnt, entscheidet dein Fortschritt, nicht der Startpunkt.",
+      },
+      {
+        q: "Wie viel Eiweiß brauche ich wirklich?",
+        a: "Als Faustwert 1,6 bis 2 Gramm pro Kilo Körpergewicht am Tag. Du bekommst dein Ziel in Zahlen und ein paar feste Anker, die auch in einer Schichtwoche funktionieren, statt einer Liste voller Verbote.",
+      },
+    ],
+  },
+
+  "neubrueck/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Neubrück macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, und zwar für den Topf, der hier wirklich auf dem Herd steht: In Neubrück wird für die Familie gekocht, nicht für ein Programm. Ein Essen für alle, deine Portion angepasst, komplett per Video. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Neubrück mit Natalie: ein Familienessen für alle statt Extra-Diätgerichte, Portionen und Makros per Video geplant. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Extra-Gericht ist der Anfang vom Ende",
+        body: "Der klassische Diätfehler in einem Familienveedel wie Neubrück: Einer isst plötzlich anders als der Rest. Zwei Gerichte pro Abend, doppelter Aufwand, und nach drei Wochen gewinnt der gemeinsame Topf. Natalie plant deshalb andersherum. Gekocht wird ein Essen für alle, verändert werden deine Portion und ihre Zusammensetzung: mehr Eiweißanteil auf deinem Teller, die Beilage als Stellschraube, Gemüse als Volumen. Niemand am Tisch muss mitziehen, damit dein Plan funktioniert.",
+      },
+      {
+        title: "Mengen statt Moral",
+        body: "Du bekommst keine Verbotsliste, sondern Zielwerte: ein Kalorienrahmen und ein Eiweißziel in Gramm, kontrolliert im Wochenschnitt. Der Sonntagskuchen und das Eis mit den Kindern sind dann keine Sünde, sondern eine Zahl, die eingeplant wird. Das klingt unspektakulär, und genau deshalb hält es: Regeln, die den Familienalltag verlieren, verlieren immer. Zahlen, die ihn einrechnen, bleiben.",
+      },
+      {
+        title: "Beratung per Video, auf 1,1 Quadratkilometern wäre alles andere absurd",
+        body: "Neubrück ist das kompakteste Veedel im Bezirk Kalk, eine Ernährungsberatung mit Praxisraum gibt es hier nicht. Braucht es auch nicht: Die Gespräche mit Natalie laufen per Video, am Anfang wöchentlich, später im Abstand von zwei Wochen. Dazwischen schickst du Fotos oder kurze Notizen zu deinen Mahlzeiten, wenn du magst. Angepasst wird am echten Essen deiner Woche, nicht an einem Musterplan aus der Schublade.",
+      },
+      {
+        title: "Bewegung dazu, wenn du mehr willst",
+        body: "Ernährung entscheidet das Gewicht, Training entscheidet, wie du dabei aussiehst und wie belastbar du bleibst. Wer beides angehen will, kombiniert die Beratung mit Krafttraining bei sich zu Hause in der Siedlung, Angelo kommt dafür nach Neubrück. Und für den Kopf liegt der Königsforst vor der Tür: Eine feste Runde pro Woche hebt den Verbrauch, ohne dass dafür irgendwo ein Vertrag nötig wäre.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Neubrück?",
+        a: "Die Ernährungssteuerung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Muss meine Familie bei der Ernährungsumstellung mitmachen?",
+        a: "Nein, das ist der Kern des Ansatzes. Gekocht wird ein Essen für alle, angepasst werden nur deine Portion und deren Zusammensetzung. Der Plan funktioniert, ohne dass jemand am Tisch verzichten muss.",
+      },
+      {
+        q: "Arbeitet Natalie mit Verboten?",
+        a: "Nein. Du bekommst einen Kalorienrahmen und ein Eiweißziel, gemessen im Wochenschnitt. Kuchen am Sonntag wird eingeplant statt verboten, so hält der Plan auch über Monate.",
+      },
+      {
+        q: "Wie läuft die Beratung konkret ab?",
+        a: "Per Video: am Anfang ein ausführliches Gespräch zu Zielen, Alltag und bisherigen Essgewohnheiten, danach regelmäßige kurze Termine. Zwischendurch kannst du Mahlzeiten als Foto oder Notiz schicken, Natalie passt den Plan daran an.",
+      },
+      {
+        q: "Ist das eine medizinische Ernährungstherapie?",
+        a: "Nein. Natalie berät zu Sport- und Fitnessernährung, also zu Abnehmen, Muskelaufbau und Alltagsstruktur. Für medizinische Ernährungsfragen bleibt die Ärztin oder der Arzt die richtige Adresse.",
+      },
+    ],
+  },
+
+  "buchheim/personal-training": {
+    answer:
+      "Personal Training in Köln-Buchheim: 1-zu-1 Krafttraining mit festem Termin, bei dir zu Hause mit mitgebrachtem Material oder draußen am Grüngürtel Richtung Merheimer Heide. Die Stunde kostet 50€, das Erstgespräch ist kostenlos und unverbindlich.",
+    metaDescription:
+      "Personal Trainer in Köln-Buchheim: 1-zu-1 Training zu Hause oder draußen, feste Termine statt toter Mitgliedschaft. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die Mitgliedskarte liegt in der Schublade, der Termin steht im Kalender",
+        body: "Viele Anfragen aus Buchheim beginnen mit demselben Satz: Studio-Vertrag läuft, hingehen tut keiner. Das Problem war selten das Studio in Mülheim oder Holweide, es war das Alleine-Hingehen nach einem vollen Tag. Ein 1-zu-1 Termin dreht die Mechanik um: Ich stehe vor deiner Tür, der Termin ist verabredet, und Absagen fällt einem Menschen gegenüber schwerer als einer Chipkarte. Genau diese simple Verbindlichkeit ist der halbe Erfolg.",
+      },
+      {
+        title: "Dein Wohnzimmer reicht für den Anfang locker aus",
+        body: "Buchheim ist ein Wohnveedel mit gut 13.000 Menschen und ohne eigene Fitness-Adresse, und für den Start ist das egal. Ich bringe Kurzhanteln, Band und Plan mit, trainiert wird auf wenigen Quadratmetern: Kniebeugen, Drücken, Ziehen, Rumpf. Jede Einheit steht hinterher im Protokoll, die Gewichte steigen nach Plan. Wer später an die Langhantel will, nimmt Studioeinheiten dazu, der Fortschritt entscheidet das, nicht der erste Tag.",
+      },
+      {
+        title: "Grün für die Ausdauer liegt an beiden Rändern",
+        body: "Für Outdoor-Einheiten und Ausdauerblöcke muss Buchheim nicht weit: Richtung Süden liegt die Merheimer Heide mit weiten Wiesen, Richtung Holweide zieht sich Grün am Rand des Veedels entlang. Dort laufen wir Intervalle, Treppen und Zirkel, wenn das Ziel mehr Kondition verlangt. Der Mix aus Kraft drinnen und Ausdauer draußen steht in einem gemeinsamen Plan, nicht in zwei Welten.",
+      },
+      {
+        title: "So startest du in Buchheim",
+        body: "Am Anfang steht das kostenlose Erstgespräch: Ziel, Zeitfenster, gesundheitliche Vorgeschichte. Danach ein Technik-Check und zwei feste Einheiten pro Woche, deren Uhrzeit wir an deinen Arbeitstag legen. Nach vier Wochen schauen wir gemeinsam auf die Zahlen und justieren. Wenn Abnehmen Teil des Ziels ist, kommt Natalie mit der Ernährungssteuerung dazu, per Video, ohne zusätzlichen Termindruck.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Buchheim?",
+        a: "Die 1-zu-1 Stunde kostet 50€, die Anfahrt nach Buchheim ist dabei. Online Coaching mit App-Plan und Check-ins gibt es ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Ich hatte schon zwei Studio-Verträge, die ich nie genutzt habe. Warum sollte das hier anders laufen?",
+        a: "Weil ein verabredeter Termin mit einem Menschen anders zieht als eine Mitgliedschaft. Dazu kommt ein Plan, der Fortschritt sichtbar macht. Wer Ergebnisse sieht, braucht keine Disziplin-Tricks mehr.",
+      },
+      {
+        q: "Wo trainieren wir in Buchheim?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, draußen Richtung Merheimer Heide oder im Studio, wenn schweres Langhanteltraining ansteht. Die Aufteilung folgt deinem Ziel.",
+      },
+      {
+        q: "Wie schnell merke ich etwas?",
+        a: "Die ersten Kraftsteigerungen stehen nach drei bis vier Wochen im Protokoll, spürbar belastbarer wird der Alltag meist im zweiten Monat. Sichtbare Veränderung braucht länger und hängt am Essen.",
+      },
+      {
+        q: "Gibt es eine Vertragsbindung?",
+        a: "Nein. Stunden werden einzeln oder im Paket gebucht, das Online Coaching läuft monatlich. Dazu gilt die 14-Tage-Garantie: Wenn es nicht passt, bekommst du dein Geld zurück.",
+      },
+    ],
+  },
+
+  "langel/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Langel ist das ideale Winterprojekt: Wenn die Outdoor-Saison am Rheindamm endet, beginnt die Aufbauphase im Wohnzimmer. Zwei geführte Krafteinheiten pro Woche bei dir zu Hause, dokumentierte Steigerung, ein Eiweißziel fürs Essen. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Langel: die Wintermonate als Aufbauphase nutzen, zwei Krafteinheiten pro Woche zu Hause, Protokoll und Eiweißziel. 50€/Std.",
+    sections: [
+      {
+        title: "Der Winter ist im Dorf die beste Trainingszeit",
+        body: "Im Sommer ist Langel draußen: Rheindamm, Garten, Rad. Ab November wird es ruhig, und genau diese Monate sind für Muskelaufbau Gold wert. Kraft wächst drinnen, planbar, wetterunabhängig, und wer von November bis April sauber aufbaut, startet im Frühjahr mit einem anderen Körper in die Dammsaison. Statt den Winter zu überwintern, bekommst du ihm eine Aufgabe: sechs Monate Aufbauphase mit klarem Protokoll.",
+      },
+      {
+        title: "Zwei Einheiten pro Woche, bei dir, mit Plan",
+        body: "Ein Studio gibt es im südlichsten Stadtteil von Köln nicht, also kommt das Training zu dir: verstellbare Kurzhanteln, Bank und Band reichen für Monate an Fortschritt, Material bringe ich mit. Wir arbeiten mit Grundübungen, jede Einheit wird protokolliert, Gewicht und Wiederholungen steigen nach Plan statt nach Gefühl. Alle vier Wochen vergleichen wir die Zahlen, dann siehst du schwarz auf weiß, was gewachsen ist.",
+      },
+      {
+        title: "Ohne Eiweiß baut der beste Plan nichts auf",
+        body: "Die zweite Hälfte des Aufbaus passiert am Esstisch. Du bekommst ein Eiweißziel in Gramm pro Tag und ein paar feste Anker, die den Dorfalltag überstehen, auch wenn der nächste große Supermarkt eine Autofahrt entfernt liegt. Wer es genauer will, nimmt Natalie dazu, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Kalorienüberschuss ja, aber kontrolliert: Masse ohne Maß ist nur Umweg.",
+      },
+      {
+        title: "Im Frühjahr zahlt der Damm die Rechnung aus",
+        body: "Das Schöne an einer Winter-Aufbauphase in Langel: Der Test ist eingebaut. Die erste Radrunde oder der erste Lauf auf dem Rheindamm im Frühjahr zeigt, was sechs Monate Krafttraining verändert haben, an Tempo, an Stabilität, an Haltung. Viele bleiben danach bei einer Krafteinheit pro Woche als Erhalt und verlagern den Rest wieder nach draußen. Auch dieser Übergang steht im Plan.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Langel?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt nach Langel. Online Coaching mit App-Plan, Check-ins und Ernährungssteuerung gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Reichen Kurzhanteln für echten Muskelaufbau?",
+        a: "Für die ersten sechs bis zwölf Monate ja, wenn die Progression stimmt. Verstellbare Kurzhanteln bis 30 Kilo decken fast alle Grundübungen ab. Erst danach stellt sich die Frage nach Langhantel oder Studio.",
+      },
+      {
+        q: "Wie lange dauert es, bis man etwas sieht?",
+        a: "Kraftwerte steigen messbar nach vier bis sechs Wochen, sichtbare Veränderung braucht drei bis sechs Monate. Eine Winterphase von November bis April ist genau der Zeitraum, in dem aus Training ein Ergebnis wird.",
+      },
+      {
+        q: "Ich bin über 50. Ist Muskelaufbau noch sinnvoll?",
+        a: "Gerade dann. Ab der Lebensmitte verliert der Körper ohne Training jedes Jahr Muskelmasse, und Krafttraining ist das wirksamste Mittel dagegen. Der Einstieg wird ans Startniveau angepasst, nicht an ein Idealbild.",
+      },
+      {
+        q: "Was passiert mit dem Training im Sommer?",
+        a: "Der Plan wechselt in den Erhalt: meist eine Krafteinheit pro Woche, der Rest verlagert sich auf Damm, Rad und Garten. So bleibt das Aufgebaute, ohne dass der Sommer im Wohnzimmer stattfindet.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
