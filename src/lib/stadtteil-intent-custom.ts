@@ -9441,6 +9441,178 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "raderthal/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Raderthal braucht keinen Verein: Sprint, Sprungkraft und Stabilität trainieren wir zwischen Vorgebirgspark und Friedenswald, der Kraftteil findet bei dir zu Hause statt. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Raderthal: Schnelligkeit und Sprungkraft zwischen Vorgebirgspark und Friedenswald, Kraft im 1-zu-1 zu Hause. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Zwei Grünflächen, dazwischen ein ruhiges Veedel",
+        body: "Raderthal gehört mit rund 4.900 Einwohnern auf 3,21 km² zu den kleinsten Veedeln im Bezirk Rodenkirchen, und ein großer Teil dieser Fläche ist grün. Im Norden liegt der Vorgebirgspark, im Süden am Militärring der Friedenswald. Beide erreichst du zu Fuß, ohne eine einzige große Straße lange entlangzulaufen. Für Athletiktraining heißt das: kein Anfahrtsweg, keine Platzsuche, zwei verschiedene Gelände in einem Veedel.",
+      },
+      {
+        title: "Athletik ohne Verein: die Grundlagen zählen",
+        body: "Die meisten Anfragen für Athletiktraining aus Raderthal kommen nicht aus Mannschaften, sondern von Einzelsportlern: Läufer, die ihre Form messen wollen, Radfahrer, denen Rumpfkraft fehlt, Leute, die nach Jahren Pause wieder sportlich werden wollen. Dafür braucht es keinen Verein, sondern saubere Grundlagen. Wir testen am Anfang Sprint, Sprunghöhe und Stabilität, danach baut der Plan genau diese drei Werte auf.",
+      },
+      {
+        title: "So nutzen wir Park und Friedenswald",
+        body: "Im Vorgebirgspark arbeiten wir auf den Wiesen: Sprungserien, kurze Antritte, Richtungswechsel auf weichem Boden. Der Friedenswald auf der anderen Seite des Veedels ist ruhiger und weitläufiger, dort laufen wir Tempoabschnitte und längere Intervalle auf den breiten Wegen. Zwei Orte, zwei Reize, beide vor der Haustür. Welcher Ort an welchem Tag dran ist, steht im Plan und richtet sich nach deinem Ziel.",
+      },
+      {
+        title: "Der Kraftteil kommt zu dir nach Hause",
+        body: "Ein Studio gibt es in Raderthal nicht, und für dieses Training braucht es auch keins. Sprungkraft und Schnelligkeit entstehen draußen, die Kraft dahinter bauen wir 1-zu-1 bei dir zu Hause auf: Hanteln, Bänder und Boxen bringe ich mit. Alle vier bis sechs Wochen messen wir die Testwerte nach. Wenn sich Sprintzeit und Sprunghöhe nicht bewegen, ändere ich den Plan und nicht die Ausrede.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Raderthal?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Anfahrt nach Raderthal und Material inklusive. Das Erstgespräch ist kostenlos. Für messbare Fortschritte empfehle ich zwei Einheiten pro Woche.",
+      },
+      {
+        q: "Ich spiele in keinem Verein. Lohnt sich Athletiktraining trotzdem?",
+        a: "Ja, gerade dann. Athletiktraining ist kein Mannschaftsprogramm, sondern Arbeit an Schnelligkeit, Sprungkraft und Stabilität. Davon profitieren Läufer, Radfahrer und alle, die einfach wieder belastbar werden wollen.",
+      },
+      {
+        q: "Wo genau trainieren wir in Raderthal?",
+        a: "Draußen im Vorgebirgspark oder im Friedenswald, je nach Einheit. Der Kraftteil findet bei dir zu Hause statt, das Material bringe ich mit. Alle Orte liegen im Veedel, es gibt keine Anfahrt für dich.",
+      },
+      {
+        q: "Wie schnell sehe ich Fortschritte?",
+        a: "Die ersten messbaren Veränderungen bei Sprintzeit und Sprunghöhe zeigen sich meist nach vier bis sechs Wochen. Genau in diesem Abstand testen wir nach, damit du den Vergleich schwarz auf weiß hast.",
+      },
+    ],
+  },
+
+  "riehl/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Riehl ist Krafttraining mit echten Übungen, drinnen bei dir zu Hause oder draußen am Rheinufer: keine Stromweste, kein Studiotermin, dafür Last, die Woche für Woche steigt. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Riehl: echtes Krafttraining statt Stromweste, zu Hause oder draußen am Rheinufer, mit steigender Last und Protokoll. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "EMS findet drinnen statt, Riehl ist ein Draußen-Veedel",
+        body: "Riehl liegt zwischen Rheinufer, Flora und Zoo: kaum ein Kölner Veedel hat so viel gepflegtes Grün auf so kurzer Strecke. Eine EMS-Einheit dagegen findet immer im selben Raum statt, angeschnallt an eine Weste. Meine Alternative nutzt das Veedel: Krafttraining mit Körpergewicht, Hanteln und Bändern am Rheinufer Riehl, wenn das Wetter passt, und in deiner Wohnung, wenn nicht. Der Trainingsreiz ist derselbe, der Rahmen ist deiner.",
+      },
+      {
+        title: "Was die Weste nicht kann: steigern",
+        body: "Eine EMS-Einheit sieht im zwölften Monat fast genauso aus wie in der ersten Woche: gleiche Positionen, gleicher Impuls, etwas mehr Strom. Krafttraining lebt vom Gegenteil. Die Übung wird schwerer, das Gewicht steigt, die Bewegung wird sauberer, und jeder Schritt steht im Protokoll. Nach drei Monaten kannst du Dinge, die du vorher nicht konntest. Das ist der Unterschied zwischen einem Reiz und einem Fortschritt.",
+      },
+      {
+        title: "Training am Rheinufer oder in deiner Wohnung",
+        body: "Das Rheinufer in Riehl hat flache, breite Wege und ruhige Wiesen, ideal für Einheiten mit eigenem Körpergewicht, Bändern und kurzen Läufen dazwischen. Für die Wohnung gilt: zwei mal zwei Meter freie Fläche reichen, alles andere bringe ich mit. Du brauchst weder Geräte noch einen Vertrag, nur einen festen Termin pro Woche, besser zwei.",
+      },
+      {
+        title: "Für wen das in Riehl passt",
+        body: "EMS wird meist aus Zeitgründen gewählt. Rechne aber ehrlich: Mit Umziehen und Weg kostet auch die 20-Minuten-Einheit fast eine Stunde. Dieselbe Stunde bei mir ist komplett Training, ohne Anfahrt. In Riehl fragen vor allem Leute an, die es gelenkschonend angehen wollen oder lange pausiert haben: genau dort ist geführtes Training mit echter Bewegung der sicherere Einstieg, weil du Technik lernst statt Strom zu ertragen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Riehl?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Anfahrt in Riehl und Material inklusive. Es gibt keinen Jahresvertrag und keine Studiogebühr. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ist EMS nicht effektiver, weil alle Muskeln gleichzeitig arbeiten?",
+        a: "Der Stromimpuls erreicht viele Muskeln, aber er lehrt keine Bewegung. Kraft, die du im Alltag nutzt, entsteht durch Übungen mit steigender Last. Genau die baue ich mit dir auf, mit Protokoll statt Gefühl.",
+      },
+      {
+        q: "Kann man draußen wirklich Kraft trainieren?",
+        a: "Ja. Körpergewicht, Bänder und Zusatzlast reichen für harte, saubere Krafteinheiten. Am Rheinufer Riehl haben wir Platz und Ruhe dafür. Im Winter oder bei Regen verlegen wir die Einheit in deine Wohnung.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Ist das trotzdem machbar?",
+        a: "Gerade dann. Wir starten mit einem Technik-Check und leichter Last und steigern in kleinen Schritten. Du bist nie allein mit einem Gerät, ich stehe daneben und korrigiere jede Wiederholung.",
+      },
+    ],
+  },
+
+  "muengersdorf/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Müngersdorf mit Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung: für alle, die hier schon regelmäßig trainieren, aber essen wie jemand, der es nicht tut. Komplett online per Video, als Teil des Online Coachings ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung für Köln-Müngersdorf mit Natalie: Sporternährung für alle, die schon trainieren und trotzdem stehen bleiben. Online per Video, ab 150€/Monat im Coaching.",
+    sections: [
+      {
+        title: "Ein Veedel voller Training, aber die Küche läuft nebenher",
+        body: "Müngersdorf ist das Sport-Veedel von Köln: Stadion, Jahnwiesen, Grüngürtel, dazu die Vereine drumherum. Wer hier wohnt, läuft, spielt oder trainiert oft schon zwei- bis dreimal pro Woche. Trotzdem bewegt sich bei vielen nichts mehr, weder beim Gewicht noch bei der Leistung. Der Grund steht selten im Trainingsplan, sondern auf dem Teller: Das Essen läuft nebenher, ohne Bezug zu dem, was der Körper nach den Einheiten eigentlich braucht.",
+      },
+      {
+        title: "Essen passend zum Training, nicht zusätzlich zum Alltag",
+        body: "Natalie baut keinen zweiten Alltag neben deinem auf. Sie schaut, was du ohnehin kochst und wann du trainierst, und richtet beides aufeinander aus: genug Eiweiß über den Tag verteilt, echte Mahlzeiten statt Riegel nach dem Sport, Portionen, die zu deinem Ziel passen, ob das Abnehmen ist oder Muskelaufbau. Keine Verbotslisten und keine Pulverregale, sondern Lebensmittel aus dem normalen Einkauf.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Die Beratung findet komplett online statt, per Video und über die App. Am Anfang steht ein Gespräch über deine Woche: Training, Arbeitszeiten, wer bei dir mitisst. Daraus entsteht ein Plan, den du ohne Waage im Kopf umsetzen kannst. Alle paar Wochen schaut Natalie mit dir auf die Zahlen und passt an, was nicht funktioniert. Du musst dafür nirgendwo hinfahren, auch nicht aus Müngersdorf heraus.",
+      },
+      {
+        title: "Training und Ernährung aus einem Haus",
+        body: "Wenn du beides willst, greift es ineinander: Angelo trainiert mit dir 1-zu-1 auf den Jahnwiesen, im Grüngürtel oder bei dir zu Hause, Natalie steuert die Ernährung dazu. Beide sehen dieselben Fortschritte und ziehen am selben Plan. Gerade wenn das Ziel ein konkretes ist, ein Wettkampf, eine Rückennummer in der neuen Saison oder einfach zehn Kilo weniger, ist diese Kombination der kürzeste Weg.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Müngersdorf?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat. Das 1-zu-1 Training mit Angelo kostet 50€ pro Stunde und lässt sich damit kombinieren. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich trainiere schon viel. Warum stagniert mein Gewicht trotzdem?",
+        a: "Training erhöht den Verbrauch, aber ohne passende Ernährung gleicht der Alltag das schnell wieder aus. Meist fehlt Struktur bei Eiweiß und Portionen, nicht Disziplin. Genau dort setzt Natalie an.",
+      },
+      {
+        q: "Brauche ich Supplemente?",
+        a: "In den meisten Fällen nicht. Natalie plant zuerst mit normalen Lebensmitteln. Nur wenn etwas über das Essen schwer abzudecken ist, bespricht sie mit dir gezielt eine Ergänzung, nicht umgekehrt.",
+      },
+      {
+        q: "Findet die Beratung vor Ort in Müngersdorf statt?",
+        a: "Nein, die Beratung läuft komplett online per Video und App. Das spart Wege und macht die Termine flexibel. Wer zusätzlich vor Ort trainieren will, bucht das 1-zu-1 Training mit Angelo dazu.",
+      },
+    ],
+  },
+
+  "widdersdorf/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Widdersdorf: Trainingsplan in der App, wöchentliche Video-Check-ins und Ernährungssteuerung, ab 150€ im Monat. Das Veedel ist schneller gewachsen als sein Sportangebot, dein Training muss darauf nicht warten: Haus, Garten und die flachen Feldwege reichen.",
+    metaDescription:
+      "Online Coaching für Köln-Widdersdorf: Plan in der App, Video-Check-ins, Ernährungssteuerung. Training zu Hause, im Garten und auf den Feldwegen, ab 150€/Monat.",
+    sections: [
+      {
+        title: "Ein Veedel, das schneller wuchs als seine Infrastruktur",
+        body: "Widdersdorf ist durch die Neubaugebiete im Süden kräftig gewachsen, rund 12.400 Menschen leben heute auf 5,72 km². Die Häuser standen schneller, als Sportangebote nachziehen konnten: Wer hier ein Studio oder einen freien Vereinsplatz sucht, braucht Geduld oder ein Auto. Online Coaching hängt an keiner Infrastruktur. Dein Plan funktioniert mit dem, was ohnehin da ist: Wohnzimmer, Garten und die Wege rund ums Veedel.",
+      },
+      {
+        title: "So funktioniert das Coaching",
+        body: "Du bekommst deinen Trainingsplan in der App, abgestimmt auf Ausstattung und Zeitfenster. Jede Einheit ist als Video erklärt, du hakst sie ab und ich sehe, was du geschafft hast. Einmal pro Woche sprechen wir im Video-Call über Fortschritt, Technik und die nächste Woche. Zwischen den Terminen bin ich über die App erreichbar, du wartest also nie bis zum nächsten Call, wenn eine Übung hakt.",
+      },
+      {
+        title: "Haus, Garten, Feldwege: dein Trainingsgelände",
+        body: "Die Kraftarbeit passiert drinnen oder im Garten, mit Körpergewicht und wenig Material, das sich nach und nach erweitern lässt. Für die Ausdauer liegen die flachen Feldwege Richtung Lövenich und Bocklemünd direkt vor der Tür: ruhig, eben, gut beleuchtet bis zum Ortsrand. Der Plan sagt dir, welche Einheit wohin gehört. Auch 30-Minuten-Fenster zählen, wenn sie im Plan stehen und nicht dem Zufall überlassen sind.",
+      },
+      {
+        title: "Essen wird mitgeplant, nicht extra verwaltet",
+        body: "Zum Coaching gehört die Ernährungssteuerung mit Natalie, Ernährungsberaterin für Sport- und Fitnessernährung. Sie plant mit dem, was in einem Familienhaushalt sowieso auf den Tisch kommt: ein Essen für alle, Portionen nach Ziel, genug Eiweiß auch an vollen Tagen. So bleibt das Coaching ein System statt zwei getrennter Baustellen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Widdersdorf?",
+        a: "Ab 150€ im Monat, mit Trainingsplan in der App, wöchentlichem Video-Check-in und Ernährungssteuerung. Keine Anfahrt, keine Studiogebühr, das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Reichen kurze Einheiten überhaupt für Fortschritt?",
+        a: "Ja, wenn sie geplant sind. Drei feste Einheiten von 30 bis 45 Minuten pro Woche bringen mehr als eine lange am Wochenende. Der Plan legt die Fenster dorthin, wo dein Kalender sie wirklich hergibt.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Zum Start nicht. Körpergewicht und ein Satz Bänder reichen für die ersten Monate. Wenn du stärker wirst, empfehle ich gezielt wenige Anschaffungen, meist Kurzhanteln, bevor etwas Größeres nötig ist.",
+      },
+      {
+        q: "Geht auch Training vor Ort in Widdersdorf?",
+        a: "Ja. Angelo kommt für 1-zu-1 Einheiten auch nach Widdersdorf, die Stunde kostet 50€. Viele kombinieren beides: Online Coaching als Basis und alle paar Wochen eine Technikstunde vor Ort.",
+      },
+    ],
+  },
+
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
