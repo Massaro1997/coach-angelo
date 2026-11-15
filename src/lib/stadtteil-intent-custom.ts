@@ -8732,6 +8732,262 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "lindenthal/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Lindenthal scheitert selten an zu wenig Sport: Der Stadtwald ist voll mit Läufern. Es scheitert am fehlenden Defizit und an fehlender Muskulatur. Ich setze beides auf: Krafttraining zweimal pro Woche, ein Kalorienziel, das zu deinem Tag passt, und der Stadtwald bleibt dein Gehvolumen. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Lindenthal: warum Joggen im Stadtwald allein nicht reicht. Krafttraining, Kaloriendefizit und messbarer Fettverlust. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Lindenthal joggt schon, und nimmt trotzdem nicht ab",
+        body: "Lauf an einem Samstagmorgen eine Runde um den Adenauer Weiher und zähl die Jogger. Lindenthal bewegt sich mehr als die meisten Kölner Veedel, und trotzdem höre ich im Erstgespräch oft denselben Satz: Ich laufe seit Jahren, aber das Gewicht steht. Der Grund ist einfach. Eine Stunde lockeres Laufen verbrennt grob 500 bis 600 Kilokalorien, ein Stück Kuchen danach holt die Hälfte zurück. Wer abnehmen will, braucht kein zusätzliches Lauftraining, sondern ein Defizit, das jeden Tag steht, auch an denen ohne Sport.",
+      },
+      {
+        title: "Krafttraining entscheidet, woraus die Kilos bestehen",
+        body: "Im Defizit verliert der Körper Gewicht, aber er sucht sich aus, woher er es nimmt. Ohne Krafttraining geht ein großer Teil aus der Muskulatur, und damit sinkt genau der Verbrauch, der das Abnehmen trägt. Deshalb stehen bei mir zwei Krafteinheiten pro Woche im Plan, bei dir zu Hause in Lindenthal oder im Studio. Grundübungen, saubere Technik, Gewichte, die mit dir mitwachsen. Das Laufen im Stadtwald bleibt, aber es wechselt die Rolle: vom vermeintlichen Fettverbrenner zum Grundrauschen, das den Kopf frei macht.",
+      },
+      {
+        title: "Das Kalorienziel passt zu deinem Tag, nicht umgekehrt",
+        body: "Zwischen Uniklinik, Praxis und Büro sind die Tage in Lindenthal lang und selten gleich. Ein Plan mit sechs vorgekochten Mahlzeiten überlebt das nicht. Wir setzen stattdessen ein Tagesziel in Zahlen und ein paar feste Regeln für die Stellen, an denen es wirklich kippt: das späte Abendessen, der Kaffee mit Gebäck auf der Dürener Straße, das Wochenende. Wenn du die Ernährung tiefer angehen willst, steigt Natalie als Ernährungsberaterin mit ein.",
+      },
+      {
+        title: "Gemessen wird der Trend, nicht der einzelne Morgen",
+        body: "Du wiegst dich täglich, zählen tut nur der Wochenschnitt, dazu kommen Umfänge an Bauch und Hüfte alle zwei Wochen. Realistisch sind ein bis zwei Kilo Fett pro Monat. Das klingt unspektakulär, ist aber die Rate, bei der die Muskulatur bleibt und das Ergebnis nach einem Jahr noch steht. Nach vier Wochen siehst du schwarz auf weiß, ob der Plan arbeitet. Wenn nicht, ändere ich ihn, nicht du deine Disziplin.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Lindenthal?",
+        a: "50€ pro 1-zu-1 Stunde, ohne Vertragsbindung. Das Erstgespräch ist kostenlos und klärt Ausgangslage, Ziel und wie viele Einheiten pro Woche sinnvoll sind.",
+      },
+      {
+        q: "Ich laufe schon regelmäßig im Stadtwald. Warum nehme ich nicht ab?",
+        a: "Weil Laufen allein selten ein Defizit schafft. Der Verbrauch einer Stunde ist schnell wieder gegessen. Entscheidend sind Kalorienziel und Muskulatur, das Laufen bleibt als Ausgleich im Plan.",
+      },
+      {
+        q: "Muss ich dafür ins Studio oder trainierst du in Lindenthal?",
+        a: "Ich komme zu dir nach Lindenthal. Krafttraining geht in der Wohnung mit kompaktem Equipment, bei passendem Wetter nutzen wir Stadtwald und Aachener Weiher für die Ausgleichsarbeit.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Nach vier Wochen zeigt der Wochenschnitt der Waage die Richtung, nach acht bis zwölf Wochen sieht man es an Umfängen und Kleidung. Ein bis zwei Kilo Fett pro Monat sind das realistische Tempo.",
+      },
+    ],
+  },
+  "rodenkirchen/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Rodenkirchen heißt bei uns: Natalie plant deine Woche so, dass das Wochenende am Rheinufer hineinpasst, statt sie zu sprengen. Makros und Mengen statt Verbotslisten, per Video oder vor Ort im Kölner Süden. Die Beratung ist Teil des Online Coachings ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Rodenkirchen mit Natalie: Wochenplanung, die Biergarten und Rheinufer übersteht. Makros statt Verbote. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In Rodenkirchen kippt nicht der Dienstag, sondern der Samstag",
+        body: "Die meisten, die aus Rodenkirchen zu uns kommen, essen unter der Woche ordentlich. Dann kommt das Wochenende am Rhein: Frühstück im Café, nachmittags Eis mit den Kindern am Ufer, abends Biergarten. Zwei Tage reichen, um das Defizit von fünf Tagen auszugleichen, und am Montag fängt alles von vorn an. Das Problem ist nicht das Wochenende. Das Problem ist ein Plan, der so tut, als gäbe es keins.",
+      },
+      {
+        title: "Natalie rechnet das Wochenende ein, bevor es stattfindet",
+        body: "Natalie ist Ernährungsberaterin für Sport- und Fitnessernährung und baut deine Woche von hinten auf: Erst bekommt das Wochenende sein Budget, dann werden die Werktage darum gelegt. Eiweiß bleibt jeden Tag gleich hoch, die Energie schwankt geplant statt zufällig. Du bestellst im Biergarten ohne schlechtes Gewissen, weil die Zahl schon eingeplant ist. Verbote gibt es keine, nur Mengen und eine Reihenfolge.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Am Anfang steht eine Bestandsaufnahme: Was isst du wirklich, nicht was du vorhast. Daraus entsteht ein Zielwert mit Makro-Verteilung und einem Wochenplan, der deine Gewohnheiten behält und nur die Stellschrauben dreht. Die Check-ins laufen per Video, kurz und regelmäßig, gemessen wird am Wochentrend von Gewicht und Umfängen. Angepasst wird am Plan, nicht an deiner Willenskraft.",
+      },
+      {
+        title: "Training vor der Haustür, wenn du es dazunehmen willst",
+        body: "Ernährung wirkt doppelt, wenn Muskulatur dazukommt. Rodenkirchen hat dafür die besten Voraussetzungen im Kölner Süden: das Rheinufer für Gehrunden und Läufe, den Forstbotanischen Garten und den Friedenswald direkt am Veedel. Wenn du willst, übernimmt Angelo das Krafttraining, 1-zu-1 bei dir zu Hause oder draußen. Beides greift ineinander: ein Ziel, ein System, zwei Leute, die sich abstimmen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Rodenkirchen?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch mit Natalie und Angelo kostet nichts.",
+      },
+      {
+        q: "Muss ich auf Biergarten und Essengehen am Rhein verzichten?",
+        a: "Nein. Genau dafür ist der Plan gebaut: Das Wochenende bekommt ein festes Budget, die Werktage gleichen es aus. Verzicht ist keine Strategie, Planung schon.",
+      },
+      {
+        q: "Läuft die Beratung vor Ort oder online?",
+        a: "In der Regel per Video, das passt besser in volle Wochen. Da Angelo ohnehin im Kölner Süden trainiert, lässt sich ein Termin vor Ort in Rodenkirchen aber einrichten.",
+      },
+      {
+        q: "Arbeitet Natalie mit festen Essensplänen?",
+        a: "Nein. Du bekommst Zielwerte, Mengen und Regeln für deine echten Gewohnheiten. Was auf den Tisch kommt, entscheidest du, die Zahlen dahinter stimmen trotzdem.",
+      },
+      {
+        q: "Was passiert, wenn sich nach vier Wochen nichts bewegt?",
+        a: "Dann wird der Plan geändert, nicht die Schuld verteilt. Bestandsaufnahme, Zahlen prüfen, Stellschrauben neu setzen. Der Wochentrend zeigt ehrlich, ob es arbeitet.",
+      },
+    ],
+  },
+  "muelheim/ems-alternative": {
+    answer:
+      "Die ehrliche EMS-Alternative in Köln-Mülheim: echtes Krafttraining, 1-zu-1 bei dir zu Hause oder draußen am Rheinufer. 20 Minuten Stromreiz sparen Zeit, aber sie bauen keine Kraft auf, die im Alltag trägt. Eine Stunde kostet 50€, ohne Abo und ohne Laufzeit, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Mülheim: echtes Krafttraining statt 20 Minuten Strom. 1-zu-1, ohne Abo, mit messbarer Progression. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der kurze Feierabend ist das Verkaufsargument, nicht die Lösung",
+        body: "EMS wirbt mit 20 Minuten pro Woche, und in einem Veedel voller langer Arbeitstage zieht das Argument: Wer um sieben aus dem Büro im Schanzenviertel kommt, will nicht noch 90 Minuten Studio. Nur löst die kurze Sitzung das falsche Problem. Müde macht dich nicht die Dauer des Trainings, sondern ein Training, das sich nicht nach dir richtet. Zwei gut gelegte Stunden pro Woche, geplant um deine Termine, kosten weniger Überwindung als ein fester Studio-Slot, den du dreimal im Monat verschieben musst.",
+      },
+      {
+        title: "Was der Stromreiz nicht kann",
+        body: "Der Impuls aus der Weste spannt Muskeln an, aber du bewegst dabei kaum Last über volle Bewegungen. Kreuzheben, Kniebeuge, Ziehen und Drücken lernen Gelenke, Sehnen und Nervensystem mit, nicht nur die Muskelfaser. Genau diese Kette brauchst du, wenn du Kisten trägst, Treppen steigst oder nach Jahren Schreibtisch wieder belastbar werden willst. Deshalb wächst beim Krafttraining das Gewicht auf der Stange von Monat zu Monat, während die EMS-Sitzung im nächsten Quartal noch dieselbe ist.",
+      },
+      {
+        title: "Mülheim ist als Trainingsplatz besser als sein Ruf",
+        body: "Für das, was wir vorhaben, braucht es kein Studio am Wiener Platz. Kraft trainieren wir bei dir zu Hause mit kompaktem Equipment, das ich mitbringe. Für Ausdauer und Ausgleich hat Mülheim mehr zu bieten als fast jedes andere Veedel auf der Schäl Sick: das Rheinufer mit der langen Ufergeraden, den Mülheimer Stadtgarten, die Wege Richtung Stammheimer Schlosspark. Das kostet nichts und liegt auf deinem Heimweg.",
+      },
+      {
+        title: "Die Rechnung ohne Kleingedrucktes",
+        body: "EMS läuft fast immer über Mitgliedschaften mit Laufzeit. Bei mir zahlst du 50€ pro Stunde, so lange es dir etwas bringt, und keinen Monat länger. Alle Einheiten stehen im Protokoll: Übungen, Gewichte, Wiederholungen. Nach zwölf Wochen vergleichen wir nicht dein Gefühl, sondern deine Zahlen. Wenn die nicht steigen, ändern wir den Plan, statt dir ein Upgrade zu verkaufen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Mülheim?",
+        a: "50€ pro 1-zu-1 Stunde, ohne Anmeldegebühr, ohne Laufzeit, ohne Abo. Das Erstgespräch ist kostenlos und klärt, ob zwei Einheiten pro Woche für dein Ziel reichen.",
+      },
+      {
+        q: "Ich habe wenig Zeit. Ist EMS dann nicht trotzdem praktischer?",
+        a: "Kurz ist nicht gleich wirksam. Zwei Stunden pro Woche, flexibel um deine Termine gelegt und ohne Anfahrt, weil ich nach Mülheim komme, sind planbarer als ein fester Studio-Slot.",
+      },
+      {
+        q: "Wo trainieren wir in Mülheim?",
+        a: "Kraft bei dir zu Hause, ich bringe das Equipment mit. Ausdauer und Ausgleich draußen: Rheinufer, Mülheimer Stadtgarten oder auf deiner Strecke Richtung Stammheim.",
+      },
+      {
+        q: "Für wen kann EMS trotzdem sinnvoll sein?",
+        a: "Als ärztlich begleitete Ergänzung in der Reha oder als Einstieg, wenn jede andere Hürde zu hoch ist. Als einziges Training für Kraft und Alltagstauglichkeit reicht es auf Dauer nicht.",
+      },
+    ],
+  },
+  "neubrueck/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Neubrück funktioniert ohne Studio im Veedel: schwere Grundübungen mit kompaktem Equipment bei dir zu Hause, progressive Steigerung über Monate und ein Eiweiß-Zielwert, der das Wachstum trägt. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Neubrück: Grundübungen und Progression zu Hause statt Anfahrt ins Studio. Plan vom WABBA-Athleten. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Kein Studio im Veedel, und das ist kein Hindernis",
+        body: "Neubrück ist mit 1,1 Quadratkilometern das kompakteste Veedel im Bezirk Kalk, und eine Gerätehalle gibt es hier nicht. Für Muskelaufbau ist das weniger wichtig, als die Studio-Werbung behauptet. Wachstum entsteht aus wenigen Dingen: mechanische Spannung, genug Volumen, Steigerung über Wochen. Das geht mit verstellbaren Kurzhanteln, einer Klimmzugstange im Türrahmen und einer Bank, auf wenigen Quadratmetern in Hochhaus-Wohnung oder Reihenhaus. Was nicht da ist, bringe ich mit, bis sich die Grundausstattung lohnt.",
+      },
+      {
+        title: "Der Plan folgt Wettkampf-Prinzipien, nicht Instagram",
+        body: "Ich habe als WABBA-Athlet auf der Bühne gestanden und baue deinen Plan nach denselben Regeln auf, mit denen Aufbauphasen wirklich funktionieren: Grundübungen zuerst, Isolationsarbeit als Ergänzung, jede Woche ein Protokoll mit Gewichten und Wiederholungen. Gesteigert wird kontrolliert, nicht nach Gefühl. Zwei bis drei Einheiten pro Woche reichen, wenn jede davon einen Zweck hat. Nach sechs bis acht Wochen wechselt der Block, damit der Reiz neu ist, bevor der Fortschritt steht.",
+      },
+      {
+        title: "Ohne Eiweiß wächst nichts, auch in Neubrück nicht",
+        body: "Die häufigste Bremse beim Muskelaufbau steht nicht im Trainingsraum, sondern auf dem Teller. Als Richtwert gelten 1,6 bis 2 Gramm Eiweiß pro Kilo Körpergewicht am Tag, und die meisten liegen deutlich darunter. Wir rechnen deinen Zielwert einmal aus und verteilen ihn auf Mahlzeiten, die du ohnehin isst. Wer es genauer steuern will, nimmt Natalie dazu: Sie legt Kalorienüberschuss und Makros so, dass der Aufbau aufs Muskelkonto geht und nicht auf die Hüfte.",
+      },
+      {
+        title: "Der Königsforst übernimmt die Erholung",
+        body: "Muskeln wachsen zwischen den Einheiten, nicht währenddessen. Neubrück hat dafür einen Vorteil, den kein Studio bietet: Der Königsforst beginnt direkt am Veedelsrand. Lockere Gehrunden auf den Waldwegen an trainingsfreien Tagen halten den Kreislauf in Bewegung, ohne die Regeneration zu stören. Das ist kein Beiwerk, sondern Teil des Plans, genau wie Schlaf und die Pausentage, die im Protokoll genauso festgehalten werden wie die Gewichte.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Neubrück?",
+        a: "50€ pro 1-zu-1 Stunde bei dir zu Hause, ohne Vertragsbindung. Das Erstgespräch ist kostenlos und klärt Ausgangslage, Equipment und Trainingsfrequenz.",
+      },
+      {
+        q: "Brauche ich ein Studio oder eigene Geräte?",
+        a: "Kein Studio. Verstellbare Kurzhanteln, Klimmzugstange und Bank reichen für Monate an Progression. Bis du etwas anschaffst, bringe ich das nötige Material mit.",
+      },
+      {
+        q: "Wie lange dauert sichtbarer Muskelaufbau?",
+        a: "Erste Kraftsteigerungen kommen nach vier bis sechs Wochen, sichtbare Veränderungen realistisch nach drei bis sechs Monaten. Muskelaufbau ist ein Projekt über Monate, dafür bleibt das Ergebnis.",
+      },
+      {
+        q: "Ich bin über 40. Funktioniert das noch?",
+        a: "Ja. Der Aufbau läuft etwas langsamer und die Erholung braucht mehr Beachtung, aber Grundübungen mit sauberer Steigerung funktionieren in jedem Alter. Der Plan wird an dich angepasst, nicht umgekehrt.",
+      },
+    ],
+  },
+  "neubrueck/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Neubrück beginnt bei mir nicht mit Regeln, sondern mit Messen: Zwei Wochen schauen wir ehrlich hin, was du isst und wie du dich bewegst, erst dann wird geändert. Dazu kommen zwei Krafteinheiten pro Woche zu Hause und Gehrunden im Königsforst. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Neubrück: erst messen, dann ändern. Krafttraining zu Hause, Gehrunden im Königsforst, realistisches Defizit. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Erst die Inventur, dann der Plan",
+        body: "Die meisten Diäten starten mit Regeln und scheitern an Tag zehn. Ich drehe die Reihenfolge um: In den ersten zwei Wochen änderst du nichts, du schreibst nur auf. Jede Mahlzeit, jeder Kaffee mit Milch, jede Kleinigkeit nebenbei. Fast immer zeigt die Inventur zwei oder drei Stellen, an denen täglich mehrere hundert Kilokalorien laufen, ohne dass sie satt machen. Dort setzen wir an, der Rest deines Essens bleibt, wie er ist. Ein Defizit aus zwei gezielten Änderungen hält länger als eines aus zwanzig Verboten.",
+      },
+      {
+        title: "Zwei Krafteinheiten sichern die Muskulatur",
+        body: "Im Defizit entscheidet das Krafttraining, woraus die verlorenen Kilos bestehen. Ohne Last baut der Körper Muskulatur ab, der Verbrauch sinkt, und das Abnehmen wird jede Woche schwerer. Deshalb trainieren wir zweimal pro Woche Kraft, bei dir zu Hause in Neubrück mit Equipment, das ich mitbringe. Kurze Wege sind hier der Vorteil: Im kompakten Veedel fällt keine Anfahrt an, die Einheit passt auch in einen vollen Tag zwischen Büro, Familie und Feierabend.",
+      },
+      {
+        title: "Der Königsforst ist dein Verbrauch, nicht deine Strafe",
+        body: "Direkt am Rand von Neubrück beginnt der Königsforst, und der ist für das Defizit wertvoller als jedes Spinning-Rad. Drei bis vier Gehrunden pro Woche auf den Waldwegen, 45 bis 60 Minuten in zügigem Tempo, erhöhen den Wochenverbrauch spürbar, ohne Hunger zu provozieren oder die Erholung zu stören. Gehen klingt unspektakulär, aber es ist die Bewegungsform, die Menschen mit vollen Tagen am längsten durchhalten. Genau darauf kommt es an.",
+      },
+      {
+        title: "Der Wochenschnitt entscheidet, nicht der Montagmorgen",
+        body: "Gemessen wird täglich, bewertet wöchentlich: Der Schnitt aus sieben Wiegungen zeigt den Trend, Umfänge an Bauch und Hüfte bestätigen ihn. Ein bis zwei Kilo Fett pro Monat sind das Tempo, bei dem die Muskulatur bleibt und der Jojo ausbleibt. Wenn du die Ernährung genauer steuern willst, rechnet Natalie als Ernährungsberaterin Zielwerte und Mengen mit dir durch. Nach vier Wochen siehst du am Trend, ob der Plan arbeitet, und wenn nicht, ändere ich ihn.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Neubrück?",
+        a: "50€ pro 1-zu-1 Stunde, ohne Vertragsbindung. Das Erstgespräch ist kostenlos und klärt Ausgangslage, Ziel und den sinnvollen Umfang pro Woche.",
+      },
+      {
+        q: "Warum soll ich zwei Wochen nur aufschreiben, statt sofort loszulegen?",
+        a: "Weil ein Plan nur hält, wenn er an den echten Stellen ansetzt. Die Inventur zeigt, wo deine Kalorien wirklich laufen. Zwei gezielte Änderungen halten länger als zwanzig Verbote.",
+      },
+      {
+        q: "Muss ich joggen, um abzunehmen?",
+        a: "Nein. Zügige Gehrunden im Königsforst plus zwei Krafteinheiten pro Woche reichen für ein stabiles Defizit. Laufen kann später dazukommen, wenn du es willst, nicht weil du musst.",
+      },
+      {
+        q: "Trainierst du direkt in Neubrück?",
+        a: "Ja, bei dir zu Hause, das Equipment bringe ich mit. Für die Bewegung draußen nutzen wir die Waldwege des Königsforsts direkt am Veedelsrand.",
+      },
+    ],
+  },
+  "suerth/online-coaching": {
+    answer:
+      "Online Coaching für Sürth heißt: Dein Trainingsplan steht in der App und funktioniert, egal ob dein Tag in Köln oder in Bonn endet. Wöchentliche Video-Check-ins, Ernährungssteuerung, der Leinpfad am Rhein als fester Ausdauerblock. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Sürth: Plan in der App für Pendler zwischen Köln und Bonn, Check-ins per Video, Ausdauer am Rheinufer. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Zu Hause zwischen zwei Städten",
+        body: "Sürth liegt am südlichen Rand von Köln, und die Linie 16 fährt von hier aus in beide Richtungen: in die Kölner Innenstadt und nach Bonn. Viele im Veedel pendeln mal dorthin, mal dorthin, dazu kommen Dienstreisen und Tage im Homeoffice. Ein Training, das an einen festen Ort und eine feste Uhrzeit gebunden ist, verliert in so einem Kalender immer. Der Plan in der App gewinnt, weil er mitzieht: Er weiß nicht, wo du bist, und er muss es auch nicht wissen.",
+      },
+      {
+        title: "Jede Einheit hat eine Fassung für den Ort, an dem du gerade bist",
+        body: "Dein Wochenplan steht sonntags in der App, jede Einheit in zwei Fassungen: eine für zu Hause in Sürth mit deinem Equipment, eine für unterwegs mit Hotel- oder Bürogym-Varianten. Fällt ein Tag aus, verschiebt sich der Baustein, statt die Woche zu sprengen. Zu jeder Übung gibt es ein Technik-Video, und wenn etwas hakt, schickst du mir ein Clip von deiner Ausführung. Die Antwort kommt nicht von einem Algorithmus, sondern von mir.",
+      },
+      {
+        title: "Der Leinpfad ist dein fester Ausdauerblock",
+        body: "Für die Ausdauer brauchst du in Sürth kein Laufband: Der Leinpfad am Rheinufer ist flach, lang und das ganze Jahr begehbar. Im Plan steht er als fester Block, als zügige Gehrunde oder lockerer Lauf, je nach Stand und Ziel. Die Strecke Richtung Weiß und Rodenkirchen lässt sich sauber verlängern, wenn der Umfang wächst. Erledigt wird der Block, wann er in deinen Tag passt, morgens vor der Bahn oder abends nach der Rückfahrt.",
+      },
+      {
+        title: "Check-in per Video, Angelo trotzdem in Reichweite",
+        body: "Einmal pro Woche schauen wir uns im Video-Check-in die Zahlen an: Training, Gewichtstrend, Schlaf, die Woche dahinter. Die Ernährung läuft im selben System mit, mit Zielwerten von Natalie, wenn du sie dazunimmst. Und weil ich ohnehin regelmäßig im Kölner Süden trainiere, ist der Wechsel kein Systembruch: Eine 1-zu-1 Technikstunde bei dir in Sürth lässt sich einschieben, wann immer es sinnvoll ist. Online ist hier der Normalfall, nicht die Notlösung.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Sürth?",
+        a: "Ab 150€ im Monat, mit Trainingsplan per App, wöchentlichem Video-Check-in, Ernährungssteuerung und Betreuung zwischen den Terminen. Einzelne 1-zu-1 Stunden vor Ort kosten 50€. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich pendle und bin oft unterwegs. Funktioniert das trotzdem?",
+        a: "Genau dafür ist es gebaut. Jede Einheit hat eine Fassung für zu Hause und eine für unterwegs, Check-ins legen wir auf Zeiten, die dein Kalender hergibt.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Der Plan wird auf das geschrieben, was da ist, notfalls Körpergewicht und ein Satz Kurzhanteln. Sinnvolle Anschaffungen besprechen wir, wenn sie dein Training wirklich weiterbringen.",
+      },
+      {
+        q: "Kann ich Online Coaching mit Training vor Ort kombinieren?",
+        a: "Ja. Viele starten online und schieben 1-zu-1 Technikstunden ein, wenn neue Übungen anstehen. Da Angelo regelmäßig im Kölner Süden ist, geht das ohne großen Vorlauf.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
