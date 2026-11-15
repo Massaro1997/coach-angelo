@@ -9613,6 +9613,178 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
     ],
   },
 
+
+  "godorf/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Godorf scheitert selten am Willen, sondern am Dienstplan: Wer in Wechselschicht arbeitet, verliert mit festen Studiozeiten jede zweite Woche. Ich lege deine zwei Krafteinheiten pro Woche entlang deines Schichtplans und komme dafür zu dir. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Godorf: Krafttraining zu Hause, geplant entlang deines Schichtplans statt fester Studiozeiten. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das kleinste Trainingsrevier im Kölner Süden",
+        body: "In Godorf leben 2.657 Menschen, zwischen Hafen, Industrie und ein paar ruhigen Wohnstraßen. Ein Fitnessstudio gibt es im Veedel nicht, und für viele hier wäre der Weg dorthin der Punkt, an dem das Vorhaben kippt. Also drehe ich es um: Ich komme mit Kurzhanteln, Gewichtsweste und Widerstandsbändern zu dir. Dein Wohnzimmer oder die Garage reichen für sauberen Muskelaufbau, wenn die Übungen und die Steigerung stimmen.",
+      },
+      {
+        title: "Der Schichtplan ist der Trainingsplan",
+        body: "Muskeln wachsen nicht, weil du dienstags um 18 Uhr trainierst, sondern weil dein Körper jede Woche zwei fordernde Krafteinheiten mit 48 bis 72 Stunden Abstand bekommt. Genau das lässt sich auch in Wechselschicht bauen: In der Frühschichtwoche trainieren wir am frühen Nachmittag, in der Spätschichtwoche am Vormittag. Der Plan wandert mit dem Dienstplan, nicht gegen ihn. Du schickst mir deine Schichten, ich lege die Termine.",
+      },
+      {
+        title: "Steigende Last, auch mit wenig Gerät",
+        body: "Ohne Hantelbank und Maschinenpark braucht es ein Protokoll, das Steigerung sichtbar macht: schwerere Kurzhantel, mehr Wiederholungen, langsameres Tempo, kürzere Pause. Jede Einheit wird notiert. Nach acht Wochen vergleichen wir nicht dein Gefühl, sondern die Zahlen. Wenn Kniebeuge, Rudern und Drücken sich nicht bewegt haben, ändere ich den Plan, nicht du deine Erwartung.",
+      },
+      {
+        title: "Essen im Schichtrhythmus",
+        body: "Nachtschichten bringen den Appetit durcheinander, und wer um 6 Uhr morgens Feierabend hat, isst anders als ein Büromensch. Natalie, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, verteilt dein Eiweiß so über den Schichttag, dass der Aufbau versorgt ist, egal wann du schläfst. Das läuft online und ist Teil des Online Coachings ab 150€ im Monat.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Godorf?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€. Online Coaching mit Plan, App und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Nein. Für den Anfang bringe ich alles mit. Wer dranbleibt, kauft sich meist nach ein paar Wochen ein Paar verstellbare Kurzhanteln, das reicht für lange Zeit.",
+      },
+      {
+        q: "Bremst Schichtarbeit den Muskelaufbau?",
+        a: "Unregelmäßiger Schlaf macht die Erholung schwerer, das stimmt. Aber planbar ist der Aufbau trotzdem: zwei Einheiten pro Woche im richtigen Abstand, genug Eiweiß und ein Plan, der mit dem Dienstplan rotiert, schlagen jedes starre Studioprogramm, das du nach drei Wochen abbrichst.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "An den Zahlen im Protokoll nach vier bis sechs Wochen, im Spiegel je nach Ausgangslage nach zwei bis drei Monaten. Versprechen, die schneller klingen, halten nicht.",
+      },
+    ],
+  },
+
+  "weiss/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Weiß baut die Kraft auf, die dein Alltag wirklich abruft: bücken, heben, tragen. Im Haus und im Garten geht selten etwas kaputt, weil die Last zu groß war, sondern weil der Rücken nicht auf sie vorbereitet war. Zwei Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde, das Erstgespräch ist kostenlos. Akute Schmerzen klärt zuerst ein Arzt.",
+    metaDescription:
+      "Rückentraining in Köln-Weiß: Kraft für Bücken, Heben und Tragen im Alltag, trainiert bei dir zu Hause im Rheinbogen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel aus Häusern, nicht aus Büros",
+        body: "Weiß liegt im Rheinbogen südlich von Rodenkirchen und ist mit 5.923 Einwohnern eines der dörflichsten Stücke Köln. Hier wohnt man im Haus mit Treppe, Keller und Garten, und genau da meldet sich der Rücken: beim Getränkekasten, bei der Pflanzerde, beim Enkel auf dem Arm. Das Problem ist fast nie die eine Bewegung. Es sind die vielen Sitzstunden davor, die den Rücken auf diese Momente unvorbereitet lassen.",
+      },
+      {
+        title: "Die Hüfte beugt, der Rücken bleibt lang",
+        body: "Der Kern des Trainings ist das Hüftbeugemuster: Lasten vom Boden holen, ohne dass der untere Rücken rund wird. Das üben wir erst mit dem eigenen Körper, dann mit Gewicht, in sauberen Stufen. Dazu kommen Rumpfspannung und der obere Rücken, damit Schultern und Nacken mittragen. Nach ein paar Wochen hebst du dieselbe Kiste anders, ohne darüber nachzudenken.",
+      },
+      {
+        title: "Trainiert wird dort, wo die Last entsteht: zu Hause",
+        body: "Ich komme mit dem Material zu dir nach Weiß. Wohnzimmer, Garage oder bei gutem Wetter der Garten reichen völlig. Das hat einen zweiten Vorteil: Wir üben an den echten Treppen und mit den echten Kisten, die dir im Alltag Mühe machen, nicht an einer Maschine, die es bei dir zu Hause nicht gibt.",
+      },
+      {
+        title: "Fortschritt messen wir am Alltag",
+        body: "Keine Laborwerte, sondern Alltagstests: eine volle Kiste kontrolliert vom Boden heben, eine Minute ruhig in der Stützposition bleiben, Socken im Stehen anziehen. Was davon am Anfang zwickt oder wackelt, wird notiert und alle vier Wochen wiederholt. So siehst du, ob das Training hält, was es soll, und ich sehe, wo der Plan nachsteuern muss.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Weiß?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€. Das Erstgespräch ist kostenlos und klärt, ob Training im Moment überhaupt das Richtige ist.",
+      },
+      {
+        q: "Ich habe gerade akute Rückenschmerzen. Kann ich starten?",
+        a: "Erst zum Arzt. Training ist für den Aufbau da, nicht für die Diagnose. Sobald ärztlich geklärt ist, dass du belasten darfst, steigen wir ein, auch vorsichtig.",
+      },
+      {
+        q: "Brauche ich Geräte oder einen Trainingsraum?",
+        a: "Nein. Ich bringe Bänder, Gewichte und eine Matte mit. Ein paar freie Quadratmeter im Wohnzimmer oder in der Garage reichen.",
+      },
+      {
+        q: "Reicht Spazierengehen am Rhein nicht aus?",
+        a: "Gehen ist gut für Grundaktivität und Stimmung, aber es baut keine Kraft für das Bücken und Heben auf. Die bekommst du nur mit gezielter Kraftarbeit gegen Widerstand. Die Kombination aus beidem ist das, was den Rücken ruhig hält.",
+      },
+    ],
+  },
+
+  "finkenberg/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Finkenberg macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz für dieses Veedel ist bewusst einfach: wenige Zutaten, kleine Küche, normales Budget. Die Betreuung läuft komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Finkenberg mit Natalie: einfache Pläne mit wenigen Zutaten und normalem Budget, online betreut. Im Online Coaching ab 150€/Monat.",
+    sections: [
+      {
+        title: "Viel Veedel auf wenig Fläche",
+        body: "Finkenberg ist mit 0,64 km² der kleinste Stadtteil im Bezirk Porz, und mit 6.870 Einwohnern leben hier über zehntausend Menschen pro Quadratkilometer, dicht wie sonst fast nirgends in Köln. Die Siedlung stammt aus den Siebzigern, die Küchen sind oft klein, gekocht wird für mehrere. Ein Ernährungsplan, der eine große Küche, teure Produkte und Ruhe beim Kochen voraussetzt, ist hier nach einer Woche tot. Also baut Natalie ihn andersherum.",
+      },
+      {
+        title: "Eiweiß muss nicht teuer sein",
+        body: "Die Basis deines Plans kommt aus jedem Supermarkt im Umkreis: Quark, Eier, Hülsenfrüchte, Tiefkühlgemüse, Hähnchen, Haferflocken. Keine Spezialprodukte, keine Pulverliste. Natalie rechnet dir vor, wie du auf deine Eiweißmenge kommst, ohne dass der Wocheneinkauf spürbar teurer wird. Was sich ändert, ist die Zusammenstellung, nicht die Rechnung an der Kasse.",
+      },
+      {
+        title: "Ein Topf für alle, ein Plan für dich",
+        body: "Wer für Familie kocht, kann nicht zwei Gerichte parallel stellen. Deshalb plant Natalie Mahlzeiten, die alle essen, und passt nur deine Portion an: mehr Eiweißanteil, angepasste Beilagenmenge, klare Regel für den Nachschlag. So bleibt das Essen gemeinsam, und dein Ziel läuft trotzdem mit.",
+      },
+      {
+        title: "So läuft die Betreuung ab",
+        body: "Erstgespräch per Video, dann bekommst du deinen Plan in die App. Du schickst kurze Rückmeldungen, was funktioniert hat und was nicht, Natalie stellt wöchentlich nach. Wer zusätzlich trainieren will, bekommt von mir Einheiten dazu, zu Hause in Finkenberg oder draußen. Nötig ist das für die Beratung nicht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Finkenberg?",
+        a: "Die Beratung durch Natalie ist Teil des Online Coachings ab 150€ im Monat, inklusive Plan, App und wöchentlicher Anpassung. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Muss ich kochen können?",
+        a: "Nein. Die Rezepte im Plan kommen mit wenigen Schritten aus, und viele Mahlzeiten sind zusammengestellt statt gekocht: Quark, Brot, Gemüse, Reste vom Vortag. Es geht um Mengen und Regelmäßigkeit, nicht um Kochkunst.",
+      },
+      {
+        q: "Muss die Familie mitmachen?",
+        a: "Nein. Der Plan ist so gebaut, dass ihr dasselbe esst und nur deine Portion anders zusammengesetzt ist. Niemand am Tisch muss sich umstellen, damit du vorankommst.",
+      },
+      {
+        q: "Funktioniert das, wenn ich abnehmen will?",
+        a: "Ja. Abnehmen heißt bei Natalie: ein moderates Kaloriendefizit mit genug Eiweiß, damit Muskeln bleiben und der Hunger steuerbar ist. Keine Verbotslisten, keine Produkte, die du kaufen musst.",
+      },
+    ],
+  },
+
+  "rodenkirchen/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Rodenkirchen betrifft oft Leute, die schon viel trainieren, nur einseitig: Das Rheinufer ist voller Läufer mit guter Ausdauer und wenig Muskelmasse. Zwei Krafteinheiten pro Woche neben dem Laufen, ohne dass du dein Pensum aufgeben musst. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Rodenkirchen: Krafttraining für Läufer und Ausdauersportler vom Rheinufer, zwei Einheiten pro Woche neben dem Laufen. 50€/Std.",
+    sections: [
+      {
+        title: "Viel Ausdauer, wenig Masse: das Rodenkirchener Muster",
+        body: "Wer in Rodenkirchen Sport macht, läuft meistens: am Rheinufer, durch den Forstbotanischen Garten, im Friedenswald. Die Ausdauer stimmt, aber auf der Waage und im Spiegel tut sich seit Jahren nichts. Das ist kein Zufall. Laufen setzt keinen Reiz, aus dem neuer Muskel entsteht. Dafür braucht es Last, die sich steigert, und die bekommst du nicht über mehr Kilometer, sondern über Kraftarbeit.",
+      },
+      {
+        title: "Kraft und Laufen vertragen sich, wenn die Reihenfolge stimmt",
+        body: "Du musst das Laufen nicht aufgeben, nur ordnen. Zwei Krafteinheiten pro Woche, dazu zwei bis drei Läufe statt vier bis fünf, und zwischen schwerem Beintraining und dem nächsten langen Lauf liegt mindestens ein Tag. Harte Einheiten am selben Tag trennen wir: morgens Kraft, abends locker laufen geht, umgekehrt frisst der Lauf die Kraft auf. So wächst Muskel, ohne dass deine Ausdauer einbricht.",
+      },
+      {
+        title: "Wo wir trainieren",
+        body: "Die Krafteinheiten laufen bei dir zu Hause in Rodenkirchen oder im Studio, mit Langhantel oder Kurzhanteln, je nachdem, was da ist. Kniebeuge, Kreuzheben, Drücken, Rudern, jede Einheit protokolliert. Deine Laufstrecken bleiben deine Sache, ich schaue nur auf das Wochenpensum, damit Erholung und Aufbau zusammenpassen.",
+      },
+      {
+        title: "Essen für Aufbau, wenn du läufst",
+        body: "Läufer essen oft zu wenig für Muskelaufbau, aus alter Gewohnheit oder aus Angst vor dem Zunehmen. Natalie, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, setzt einen moderaten Überschuss und genug Eiweiß an, abgestimmt auf deine Laufwoche. Zunehmen wirst du dabei vor allem dort, wo es hin soll.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Rodenkirchen?",
+        a: "50€ pro Stunde im 1-zu-1, bei dir zu Hause oder im Studio. Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich weniger laufen, um Muskeln aufzubauen?",
+        a: "Meistens etwas, zumindest in den ersten zwölf Wochen. Zwei bis drei Läufe pro Woche bleiben drin. Wer sein volles Pensum behalten will, baut langsamer auf, das ist eine ehrliche Abwägung, keine Verbotsfrage.",
+      },
+      {
+        q: "Ich laufe gar nicht. Passt das Training trotzdem?",
+        a: "Ja. Der Plan beginnt in beiden Fällen mit denselben Grundübungen und einem Technik-Check. Der Läuferteil ist nur die Abstimmung zwischen Kraft und Ausdauer, wer nicht läuft, braucht sie nicht.",
+      },
+      {
+        q: "Wie lange dauert es, bis man etwas sieht?",
+        a: "Im Trainingsprotokoll nach vier bis sechs Wochen, sichtbar am Körper je nach Ausgangslage nach zwei bis drei Monaten. Bei Läufern oft etwas später, dafür bleibt die Form im Alltag stabiler: Treppen, Tragen, lange Tage.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
