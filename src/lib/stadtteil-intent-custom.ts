@@ -9270,6 +9270,177 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "neustadt-sued/rueckentraining": {
+    answer:
+      "Rückentraining in der Kölner Neustadt-Süd trainiert das, was die Südstadt täglich verlangt: Treppen im Altbau, das Rad in den Keller, Einkäufe in den dritten Stock. Zwei Krafteinheiten pro Woche machen Hüfte und hintere Kette stark genug dafür, bei dir zu Hause oder im Volksgarten. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Neustadt-Süd: Kraft für den Altbau-Alltag aus Treppen, Tragen und Schreibtisch. 1-zu-1 zu Hause oder im Volksgarten. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Südstadt-Alltag hebt jeden Tag, nur ohne Plan",
+        body: "Die Neustadt-Süd ist ein Altbau-Veedel, und Altbau heißt: Treppenhäuser statt Aufzug. Wer hier wohnt, trägt ständig, den Wocheneinkauf nach oben, das Rad in den Hausflur, die Wasserkiste aus dem Keller, oft mit rundem Rücken und in Eile. Genau in diesen Momenten meldet sich der Rücken, nicht beim Sport. Das Problem ist nicht das Tragen selbst. Das Problem ist, dass der Rücken auf diese Last nie vorbereitet wurde.",
+      },
+      {
+        title: "Wir trainieren das Heben, das du sowieso machst",
+        body: "Im Training machen wir aus dem Alltag ein Programm: Kreuzheben-Varianten für das Anheben vom Boden, Tragen mit Gewicht in beiden Händen für den Weg nach oben, Rudern und Rumpfarbeit für die Stunden am Schreibtisch dazwischen. Jede Übung hat eine Alltagsaufgabe als Vorbild, und die Last steigt von Woche zu Woche kontrolliert. Nach ein paar Monaten ist die Wasserkiste keine Mutprobe mehr, sondern ein Satz aus deinem Trainingsplan.",
+      },
+      {
+        title: "Training dort, wo zwischen Chlodwigplatz und Grüngürtel Platz ist",
+        body: "Ein eigenes Studio brauchst du dafür nicht. Ich komme mit Hanteln, Bändern und Zusatzgewichten zu dir in die Wohnung, ein freier Fleck im Wohnzimmer reicht. Bei gutem Wetter weichen wir in den Volksgarten oder den Inneren Grüngürtel aus, beide liegen direkt am Veedel. Zwei Einheiten pro Woche à 60 Minuten, dazu eine Zehn-Minuten-Routine für die Tage dazwischen, die ohne Material funktioniert.",
+      },
+      {
+        title: "Erst der Check, dann die Last",
+        body: "Vor der ersten schweren Übung steht ein Technik- und Beweglichkeitscheck: Wie bückst du dich, wie weit streckt deine Hüfte, wo weicht der Rücken aus. Danach lege ich die Startlast fest, und alles wird protokolliert. Eine klare Grenze gibt es auch hier: Akute Schmerzen, Taubheit oder Ausstrahlung ins Bein klärt zuerst ein Arzt. Mein Teil beginnt, wenn der Rücken belastet werden darf und wieder belastbar werden soll.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Neustadt-Süd?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Das Erstgespräch ist kostenlos. Wer nach dem Aufbau eigenständig weitermachen will, wechselt ins Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Ich sitze den ganzen Tag. Reicht nicht mehr Bewegung gegen die Rückenschmerzen?",
+        a: "Bewegung hilft, löst aber das Kernproblem nicht: Ein schwacher Rücken bleibt schwach, auch wenn er oft spazieren geht. Erst Kraftarbeit für Hüfte, Rumpf und hintere Kette macht ihn unempfindlicher gegen Sitzen und Tragen.",
+      },
+      {
+        q: "Geht Rückentraining in einer normalen Altbauwohnung?",
+        a: "Ja. Für die Grundübungen reichen zwei mal zwei Meter freie Fläche. Hanteln, Bänder und Gewichte bringe ich mit, und die Nachbarn unter dir merken vom Training nichts: Wir heben kontrolliert, wir springen nicht.",
+      },
+      {
+        q: "Wie schnell wird das Tragen leichter?",
+        a: "Die meisten spüren nach vier bis sechs Wochen den ersten Unterschied, weil Technik und Startkraft schnell kommen. Ein Rücken, der schwere Alltagslasten ohne Nachdenken wegsteckt, braucht eher drei bis sechs Monate regelmäßiges Training.",
+      },
+    ],
+  },
+
+  "raderthal/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Raderthal beginnt bei dem Moment, den viele kennen: morgens steif aus dem Bett, die ersten Schritte vorsichtig. Dagegen setze ich zwei Krafteinheiten pro Woche bei dir zu Hause oder im Vorgebirgspark plus eine kurze Morgenroutine. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Raderthal: gegen den steifen Rücken am Morgen, mit Kraftaufbau zu Hause oder im Vorgebirgspark und kurzer Morgenroutine. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Morgens steif ist kein Alter, sondern ein Trainingszustand",
+        body: "Viele nehmen den steifen Rücken am Morgen als Teil des Älterwerdens hin: erst mal vorsichtig aufrichten, die erste halbe Stunde nichts heben. Dahinter steckt aber selten Verschleiß allein. Ein Rücken, der tagsüber kaum echte Last bekommt und abends lange in der gleichen Sofaposition verbringt, startet steif. Muskulatur, die regelmäßig gegen Widerstand arbeitet, hält die Wirbelsäule auch nachts stabiler und macht den Morgen wieder unauffällig.",
+      },
+      {
+        title: "Zwei Bausteine: Kraft in der Woche, Routine am Morgen",
+        body: "Der Plan hat zwei Teile. Zweimal pro Woche trainieren wir 1-zu-1 mit Hanteln und Bändern: Hüftstreckung, Zugübungen, Rumpf unter Last, jedes Gewicht im Protokoll. Dazu bekommst du eine Morgenroutine von acht bis zehn Minuten, die ohne Material neben dem Bett funktioniert: Hüfte öffnen, Brustwirbelsäule drehen, zwei Aktivierungsübungen. Die Routine nimmt die Steifheit aus dem Start, das Krafttraining sorgt dafür, dass sie gar nicht mehr entsteht.",
+      },
+      {
+        title: "Raderthal trainiert zu Hause oder im Vorgebirgspark",
+        body: "Raderthal ist mit knapp 5.000 Einwohnern eines der kleinsten Veedel im Bezirk Rodenkirchen, ein Studio gibt es im Ort nicht. Für dieses Training braucht es auch keins: Ich komme zu dir und bringe alles mit. Wer lieber draußen trainiert, geht mit mir in den Vorgebirgspark, der direkt im Veedel liegt, mit ebenen Wegen und ruhigen Wiesen. Feste Termine, auch vormittags, wenn der Tag noch dir gehört.",
+      },
+      {
+        title: "Was wir messen, damit du den Fortschritt siehst",
+        body: "Steifheit ist ein Gefühl, deshalb machen wir sie messbar: Wie tief kommst du beim Bücken, wie lange dauert der zähe Start in den Tag, welche Last hebst du sauber. Diese Werte stehen am Anfang im Protokoll und werden alle vier Wochen verglichen. Und die übliche Grenze gilt auch hier: Akute Schmerzen, Taubheit oder Ausstrahlung gehören zuerst zum Arzt. Das Training übernimmt danach.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Raderthal?",
+        a: "Die 1-zu-1 Stunde kostet 50€, Anfahrt nach Raderthal und Material inklusive. Das Erstgespräch ist kostenlos. Danach empfehle ich zwei Einheiten pro Woche, die Morgenroutine machst du allein.",
+      },
+      {
+        q: "Hilft Dehnen allein gegen den steifen Rücken am Morgen?",
+        a: "Dehnen verschafft kurzfristig Luft, ändert aber wenig am Grundzustand. Erst die Kombination aus Beweglichkeitsarbeit und steigender Kraft macht den Rücken dauerhaft unempfindlicher. Deshalb gehören bei mir beide Teile in den Plan.",
+      },
+      {
+        q: "Ich bin über 60. Ist Krafttraining für den Rücken noch sinnvoll?",
+        a: "Gerade dann. Muskulatur reagiert in jedem Alter auf Training, und die Last wird an deinen Startpunkt angepasst. Wir beginnen leicht, steigern in kleinen Schritten und halten jeden Schritt im Protokoll fest.",
+      },
+      {
+        q: "Trainieren wir auch im Winter im Vorgebirgspark?",
+        a: "Wenn du magst, ja, Krafttraining geht auch bei kaltem Wetter. Die meisten verlegen die Einheiten im Winter aber nach drinnen: Wohnzimmer reicht, das Material bringe ich mit.",
+      },
+    ],
+  },
+
+  "eil/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Eil hat ein Ziel vor der Haustür: die Wahner Heide. Zwei Krafteinheiten pro Woche bei dir zu Hause machen Hüfte, Rumpf und hintere Kette stark genug für lange Runden auf Sand und unebenen Wegen, statt nur den Schmerz zu verwalten. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Eil: Kraft für lange Runden in der Wahner Heide statt Schonung. 1-zu-1 bei dir zu Hause, mit Protokoll. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Nicht gegen den Schmerz trainieren, sondern für die Heide",
+        body: "Die meisten kommen zum Rückentraining, um etwas loszuwerden. Ich drehe die Frage um: Was willst du wieder können? In Eil liegt die Antwort meist direkt hinterm Ortsrand. Die Wahner Heide gehört zum Veedel, und eine lange Runde dort heißt zwei Stunden auf Sand und unebenen Pfaden, bergauf, bergab, vielleicht mit Rucksack. Wer das ohne Gedanken an den Rücken schafft, hat das eigentliche Trainingsziel erreicht. Der nachlassende Schmerz ist auf dem Weg dorthin ein Nebeneffekt.",
+      },
+      {
+        title: "Was ein Rücken für unebenes Gelände braucht",
+        body: "Ebene Wege verzeihen viel, Gelände nicht. Auf Sand und Wurzelpfaden arbeitet bei jedem Schritt die seitliche Hüftmuskulatur, der Rumpf gleicht ständig kleine Kippbewegungen aus, und bergab bremst die hintere Kette. Genau diese drei Systeme trainieren wir: einbeinige Übungen für die Hüfte, Tragen und Rotationskontrolle für den Rumpf, Kreuzheben-Varianten für die Kette dahinter. Alles mit Hanteln und Bändern, alles mit steigender Last im Protokoll.",
+      },
+      {
+        title: "Das Training kommt zu dir, das Gelände liegt schon da",
+        body: "Eil ist mit gut 16 Quadratkilometern riesig, hat aber kein eigenes Studio. Deshalb trainieren wir 1-zu-1 bei dir zu Hause, zwei Einheiten pro Woche, Material bringe ich mit. Sobald die Basis steht, verlagern wir einzelne Elemente nach draußen: Gehintervalle auf den Sandwegen, Tragestrecken, Stufen am Geländerand. So wird die Heide vom Ziel zum Trainingspartner, und du merkst von Einheit zu Einheit, wie das Gelände kleiner wird.",
+      },
+      {
+        title: "Der Einstieg: erst Check, dann Plan",
+        body: "Am Anfang steht das kostenlose Erstgespräch mit Beweglichkeits- und Kraftcheck: Hüftstreckung, einbeiniger Stand, sauberes Bücken. Daraus entsteht der Plan mit deinem Startgewicht und einem realistischen Heide-Ziel, zum Beispiel die große Runde in acht bis zwölf Wochen. Akute Schmerzen, Taubheit oder Ausstrahlung ins Bein klärt vorher ein Arzt, das ist die feste Regel. Freigegeben heißt dann: aufbauen, nicht schonen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Eil?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt nach Eil und Material. Das Erstgespräch ist kostenlos. Für die Zeit nach dem Aufbau gibt es das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Reicht Spazierengehen in der Wahner Heide nicht als Rückentraining?",
+        a: "Gehen ist wertvoll, ersetzt aber keine Kraftarbeit. Der Rücken wird belastbar, wenn er gegen Widerstand arbeitet. Erst dann trägt er auch lange Runden auf unebenem Boden, ohne sich hinterher zu melden.",
+      },
+      {
+        q: "Mein Rücken zwickt nach langen Wanderungen. Ist das Training trotzdem richtig?",
+        a: "Meist ja, denn Zwicken nach Belastung spricht für fehlende Kraft, nicht gegen Bewegung. Zur Sicherheit gilt: Erst ärztlich klären lassen, dann bauen wir gezielt die Muskulatur auf, die auf den letzten Kilometern schlappmacht.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause in Eil?",
+        a: "Nein. Hanteln, Bänder und Zusatzgewichte bringe ich mit, zwei mal zwei Meter freie Fläche reichen. Garten oder Terrasse funktionieren im Sommer genauso gut.",
+      },
+    ],
+  },
+
+  "bilderstoeckchen/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Bilderstöckchen ist kurz und scharf geplant: Antritte, Sprünge und Richtungswechsel im Blücherpark, Kraft im Studio, in Einheiten, die neben einem fordernden Job funktionieren. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Bilderstöckchen: kurze, intensive Einheiten im Blücherpark und im Studio, geplant um Job und Schicht. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Wenn der Tag schon anstrengend ist, zählt Intensität, nicht Umfang",
+        body: "Viele in Bilderstöckchen haben Jobs, die den Körper fordern, und genau da scheitern Standardpläne: Sie stapeln Umfang auf einen Alltag, der schon Umfang genug hat. Mein Ansatz ist das Gegenteil. Athletik entsteht aus wenigen, hochwertigen Reizen: maximale Antritte, saubere Sprünge, schwere Grundübungen mit langen Pausen. 45 Minuten mit voller Qualität bringen mehr Schnelligkeit als 90 müde Minuten, und sie lassen genug Kraft für den nächsten Arbeitstag übrig.",
+      },
+      {
+        title: "Der Blücherpark ist das Schnelligkeitsgelände des Veedels",
+        body: "Für den Tempoteil brauchen wir keinen Platz mit Tartanbahn. Der Blücherpark am Rand von Bilderstöckchen hat gerade Alleen für Sprints über 20 bis 60 Meter, feste Wege für Steigerungsläufe und Wiesen für Sprungserien und Richtungswechsel. Die Bedingungen bleiben gleich, deshalb kann ich deine Zeiten über Wochen vergleichen. Kraft und Sprungkraft unter Last bauen wir im Studio auf, das Timing beider Einheiten stimmen wir auf deine Woche ab.",
+      },
+      {
+        title: "Geplant wird um deine Arbeitswoche, nicht umgekehrt",
+        body: "Ein Athletikplan taugt nur, wenn er deine echte Woche übersteht. Deshalb frage ich zuerst, wie deine Arbeit aussieht: Wechselnde Anfangszeiten, lange Tage auf den Beinen, Wochenenddienste. Danach setze ich die zwei Einheiten so, dass die intensivste auf deinen erholtesten Tag fällt. Nach harten Arbeitswochen wird nicht gestrichen, sondern angepasst: weniger Sätze, gleiche Qualität. So reißt der Plan nicht beim ersten vollen Dienstplan.",
+      },
+      {
+        title: "Gemessen wird alle vier bis sechs Wochen",
+        body: "Am Anfang steht ein Test: Sprintzeit, Sprunghöhe, einbeinige Stabilität. Danach wird trainiert, und nach vier bis sechs Wochen stehen dieselben Tests wieder an. Du siehst schwarz auf weiß, ob du schneller und spritziger geworden bist. Wenn eine Zahl sich nicht bewegt, ändere ich den Plan und nicht die Ausrede. Das Erstgespräch mit dem ersten Test ist kostenlos.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Bilderstöckchen?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Wer nach der Aufbauphase mit App-Plan und wöchentlichen Check-ins weitermachen will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Ich arbeite körperlich. Ist zusätzliches Athletiktraining nicht zu viel?",
+        a: "Nicht, wenn es richtig dosiert ist. Körperliche Arbeit ist viel Volumen bei niedriger Intensität, Athletiktraining liefert den Gegenpol: kurze, maximale Reize mit viel Pause. Die Belastung aus deinem Job rechne ich in den Plan ein.",
+      },
+      {
+        q: "Wo im Veedel trainieren wir?",
+        a: "Schnelligkeit, Sprünge und Richtungswechsel im Blücherpark, Kraft und Sprungkraft im Studio. Bei durchgehend schlechtem Wetter verlegen wir beide Einheiten nach drinnen, der Plan läuft weiter.",
+      },
+      {
+        q: "Für wen lohnt sich Athletiktraining ohne Verein?",
+        a: "Für alle, die schneller, spritziger und stabiler werden wollen: Hobbyfußballer, Läufer, Wiedereinsteiger. Ein Wettkampfkalender ist nicht nötig, das Niveau setzt der Eingangstest.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
