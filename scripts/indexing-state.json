@@ -1435,7 +1435,7 @@
   "https://www.fitprimo.de/koeln/neustadt-sued/abnehmen": "2026-11-09",
   "https://www.fitprimo.de/koeln/neustadt-sued/muskelaufbau": "2026-11-09",
   "https://www.fitprimo.de/koeln/neustadt-sued/online-coaching": "2026-11-14",
-  "https://www.fitprimo.de/koeln/neustadt-sued/ernaehrungsberatung": "2026-11-09",
+  "https://www.fitprimo.de/koeln/neustadt-sued/ernaehrungsberatung": "2026-11-16",
   "https://www.fitprimo.de/koeln/neustadt-sued/rueckentraining": "2026-11-15",
   "https://www.fitprimo.de/koeln/neustadt-sued/athletiktraining": "2026-11-09",
   "https://www.fitprimo.de/koeln/neustadt-sued/ems-alternative": "2026-11-09",
@@ -1447,8 +1447,8 @@
   "https://www.fitprimo.de/koeln/altstadt-nord/rueckentraining": "2026-11-10",
   "https://www.fitprimo.de/koeln/altstadt-nord/athletiktraining": "2026-11-09",
   "https://www.fitprimo.de/koeln/altstadt-nord/ems-alternative": "2026-11-09",
-  "https://www.fitprimo.de/koeln/neustadt-nord/personal-training": "2026-11-09",
-  "https://www.fitprimo.de/koeln/neustadt-nord/abnehmen": "2026-11-09",
+  "https://www.fitprimo.de/koeln/neustadt-nord/personal-training": "2026-11-16",
+  "https://www.fitprimo.de/koeln/neustadt-nord/abnehmen": "2026-11-16",
   "https://www.fitprimo.de/koeln/neustadt-nord/muskelaufbau": "2026-11-09",
   "https://www.fitprimo.de/koeln/neustadt-nord/online-coaching": "2026-11-10",
   "https://www.fitprimo.de/koeln/neustadt-nord/ernaehrungsberatung": "2026-11-09",
@@ -1650,6 +1650,11 @@
   "https://www.fitprimo.de/koeln/immendorf/rueckentraining": "2026-11-16",
   "https://www.fitprimo.de/koeln/muengersdorf/abnehmen": "2026-11-16",
   "https://www.fitprimo.de/koeln/rondorf/ems-alternative": "2026-11-16",
-  "https://www.fitprimo.de/koeln/loevenich/ems-alternative": "2026-11-16"
+  "https://www.fitprimo.de/koeln/loevenich/ems-alternative": "2026-11-16",
+  "https://www.fitprimo.de/koeln/marienburg/muskelaufbau": "2026-11-16",
+  "https://www.fitprimo.de/koeln/deutz/ems-alternative": "2026-11-16",
+  "https://www.fitprimo.de/koeln/duennwald/rueckentraining": "2026-11-16",
+  "https://www.fitprimo.de/koeln/ossendorf/muskelaufbau": "2026-11-16",
+  "https://www.fitprimo.de/koeln/urbach/ernaehrungsberatung": "2026-11-16"
  }
 }
