@@ -10796,6 +10796,177 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "immendorf/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Immendorf bricht den Kreislauf, den fast jeder mit Rückenschmerzen kennt: Es zieht, du schonst dich, es wird besser, du machst nichts, es kommt wieder. Ich trainiere mit dir im schmerzfreien Fenster, zwei Einheiten pro Woche bei dir zu Hause im Dorf. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Immendorf: raus aus dem Kreislauf aus Schonen und Rückfall. Zwei Krafteinheiten pro Woche bei dir zu Hause im Dorf. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Schonen fühlt sich richtig an und ist meistens die Ursache",
+        body: "Der typische Rücken-Verlauf geht so: eine Episode, zwei Wochen vorsichtig bewegen, dann ist Ruhe, und genau da passiert der Fehler. In der Pause verliert die Rumpf- und Rückenmuskulatur Kraft, der nächste falsche Griff trifft einen schwächeren Rücken, und die Episoden kommen in immer kürzeren Abständen. Wer nur reagiert, wenn es weh tut, trainiert nie. Deshalb drehe ich die Logik um: Gearbeitet wird in den Wochen, in denen nichts zieht, denn das sind die Wochen, in denen dein Rücken Last verträgt und stärker werden kann.",
+      },
+      {
+        title: "Was wir im schmerzfreien Fenster aufbauen",
+        body: "Wir starten mit einer Bestandsaufnahme: Was löst bei dir die Episoden aus, heben, drehen, langes Sitzen? Danach bekommt dein Rücken kontrolliert steigende Last. Kreuzheben-Varianten mit Kurzhanteln, Rudern, Seitstütz, Hüftstrecker, alles in Ausführungen, die zu deinem Stand passen. Die Steigerung steht im Protokoll: Wenn du nach acht Wochen spürbar mehr bewegst als am Anfang, hat der nächste Alltagsgriff weniger Chancen. Ziel ist nicht ein schmerzfreier Monat, sondern ein Rücken mit Reserve.",
+      },
+      {
+        title: "Im kleinsten Zipfel des Kölner Südens trainierst du zu Hause",
+        body: "Immendorf hat rund 2.100 Einwohner auf 5,2 km², ganz am Südrand von Köln zwischen Godorf und Meschenich. Ein Studio gibt es im Ort nicht, und für einen schmerzenden Rücken ist die Anfahrt quer durch den Süden die beste Ausrede, nicht anzufangen. Also komme ich zu dir: Hanteln, Widerstandsbänder und Plan bringe ich mit, ein freies Stück Boden im Wohnzimmer reicht. Zwischen den Einheiten gehst du zügig auf den ruhigen Straßen und Wirtschaftswegen rund ums Dorf, denn ein Rücken mag Bewegung an jedem Tag, nicht nur an Trainingstagen.",
+      },
+      {
+        title: "Wann Training dran ist und wann erst der Arzt",
+        body: "Klar ist: Bei akuten Warnzeichen wie Taubheit, Lähmungserscheinungen oder Schmerzen, die nachts nicht nachlassen, gehört der erste Termin zum Arzt, nicht zu mir. Rückentraining ist für die vielen anderen Fälle gedacht, den unspezifischen Rückenschmerz, der kommt und geht und bei dem Bewegung und Kraftaufbau die am besten belegte Hilfe sind. Wenn du ärztlich abgeklärt bist oder gerade eine ruhige Phase hast, ist jetzt der richtige Zeitpunkt anzufangen, nicht erst nach der nächsten Episode.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Immendorf?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€. Wer nach dem Einstieg eigenständig weitermachen will, wechselt ins Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Mein Rücken ist gerade ruhig. Warum sollte ich ausgerechnet jetzt anfangen?",
+        a: "Weil jetzt trainierbar ist. In der schmerzfreien Phase verträgt dein Rücken steigende Last, und nur steigende Last baut die Kraft auf, die die nächste Episode verhindert oder abschwächt. Wer wartet, bis es wieder zieht, kann wieder nur schonen.",
+      },
+      {
+        q: "Brauche ich Geräte für das Training zu Hause in Immendorf?",
+        a: "Nein. Kurzhanteln, Bänder und was sonst nötig ist, bringe ich zu jeder Einheit mit. Gearbeitet wird auf wenigen Quadratmetern, ein Wohnzimmer oder eine Garage reicht aus.",
+      },
+      {
+        q: "Wie schnell merke ich einen Unterschied?",
+        a: "Die meisten spüren nach vier bis sechs Wochen, dass Alltagsgriffe wie Heben und Tragen leichter fallen. Entscheidend ist der Verlauf über drei Monate: mehr bewegtes Gewicht im Protokoll und längere Abstände zwischen den Beschwerden.",
+      },
+    ],
+  },
+
+  "muengersdorf/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Müngersdorf scheitert selten am Training, hier wird genug Sport gemacht. Es scheitert an der Rechnung danach: Der Verbrauch wird überschätzt, der Hunger nach dem Sport unterschätzt. Ich plane mit dir Training und die 24 Stunden drumherum, mit Kalorienziel von Natalie. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Müngersdorf: warum Sport allein nicht reicht und die Stunden nach dem Training entscheiden. Krafttraining plus Kalorienziel. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Die Sportuhr lügt, und der Kuchen danach ist ehrlich",
+        body: "Eine Laufrunde im Grüngürtel zeigt auf der Uhr schnell 600 oder 700 Kalorien an, real verbrennt der Körper oft deutlich weniger. Gleichzeitig macht Ausdauersport hungrig, und das Gefühl, sich etwas verdient zu haben, sitzt nach dem Sport besonders locker: ein Stück Kuchen und ein Milchkaffee, und die komplette Einheit ist kalorisch wieder einkassiert. Genau an dieser Stelle verlieren sportliche Leute ihr Defizit, nicht auf der Laufstrecke. Deshalb planen wir bei dir beides: die Einheit und das, was in den Stunden danach auf den Teller kommt.",
+      },
+      {
+        title: "Im Sport-Veedel wird trainiert, aber ein Defizit entsteht woanders",
+        body: "Müngersdorf ist das Veedel von Stadion und Sportanlagen, kaum irgendwo in Köln ist regelmäßiger Sport so normal wie hier. Trotzdem gilt die Grundregel überall gleich: Abgenommen wird, wenn die Woche im Kaloriendefizit endet. Zwei geführte Krafteinheiten sichern dabei deine Muskulatur, damit die Kilos aus dem Fett kommen und nicht aus der Kraft. Das Defizit selbst legt Natalie fest, unsere Ernährungsberaterin für Sport- und Fitnessernährung: ein Kalorienziel, das zu deinem Trainingspensum passt, statt einer Diät, die neben dem Sport herläuft.",
+      },
+      {
+        title: "So sieht die Woche konkret aus",
+        body: "Zwei Krafteinheiten pro Woche im 1-zu-1, bei dir zu Hause oder draußen, dazu dein bisheriger Sport, der bleibt. Neu ist die Struktur drumherum: eine eiweißreiche Mahlzeit nach dem Training statt des Belohnungs-Snacks, ein Wochenziel für Kalorien statt täglicher Schätzungen, und ein kurzer Check-in, bei dem wir Gewichtstrend und Umfänge ansehen. Nach vier Wochen weißt du, ob die Rechnung aufgeht, und zwar aus den Zahlen, nicht aus dem Bauchgefühl.",
+      },
+      {
+        title: "Für wen das in Müngersdorf gedacht ist",
+        body: "Für Leute, die schon laufen, Rad fahren oder im Verein spielen und sich trotzdem seit Monaten am gleichen Gewicht wundern. Und für die, die neu anfangen und es gleich richtig aufsetzen wollen. Nicht geeignet ist das Programm für Crash-Ziele: Wir arbeiten mit einem moderaten Defizit, das Training und Alltag übersteht, denn gehalten wird am Ende nur, was man durchhalten kann.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Training in Köln-Müngersdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan und wöchentlichem Check-in gibt es ab 150€ im Monat. Die Ernährungsberatung mit Natalie wird dazu passend vereinbart. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich mache schon viel Sport. Warum nehme ich nicht ab?",
+        a: "Meistens, weil der Verbrauch überschätzt und die Aufnahme unterschätzt wird. Sportuhren rechnen großzügig, und nach dem Training wird oft mehr gegessen als die Einheit verbrannt hat. Ein gemessenes Kalorienziel löst genau dieses Problem.",
+      },
+      {
+        q: "Muss ich mein bisheriges Training aufgeben?",
+        a: "Nein. Laufen, Rad oder Verein bleiben. Wir ergänzen zwei Krafteinheiten, damit beim Abnehmen die Muskulatur erhalten bleibt, und ordnen die Ernährung um das vorhandene Pensum herum.",
+      },
+      {
+        q: "Wie schnell sollte ich abnehmen?",
+        a: "Als Faustwert 0,3 bis 0,5 Prozent des Körpergewichts pro Woche im Schnitt. Das ist langsam genug, um Kraft und Energie fürs Training zu behalten, und schnell genug, dass du den Trend nach einem Monat klar auf der Waage siehst.",
+      },
+    ],
+  },
+
+  "rondorf/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Rondorf ist Krafttraining mit echtem Gewicht in der Hand: Die Stromweste reizt Muskeln, aber sie hat keine Hände. Greifen, halten und tragen lernst du nur mit echter Last, 1-zu-1 bei dir zu Hause. Die Stunde kostet 50€, jederzeit kündbar, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Rondorf: Krafttraining mit echter Last statt Stromweste. Greifen, halten, tragen, 1-zu-1 bei dir zu Hause. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Die Weste hat keine Hände",
+        body: "EMS setzt Elektroden auf die großen Muskelgruppen: Rücken, Bauch, Beine, Brust. Was dabei leer ausgeht, sind ausgerechnet die Stellen, über die dein Körper im Alltag Kraft überträgt: Hände, Unterarme, Griffkraft und der Schultergürtel, der eine Last stabil hält. Ein Rumpf kann noch so gereizt sein, wenn die Hand den Wasserkasten nicht sicher greift, kommt die Kraft nie an. Im Krafttraining liegt deshalb von der ersten Einheit an echtes Gewicht in deiner Hand: gehalten, gezogen, getragen, und genau davon werden Griff und Schulter belastbar.",
+      },
+      {
+        title: "Rondorfs Alltag ist Tragearbeit",
+        body: "Rondorf ist ein Haus-und-Garten-Veedel im Kölner Süden: Getränkekisten in den Keller, Einkäufe vom Auto in die Küche, Gartenzeug, Kinder, Koffer. Das sind Halte- und Trageaufgaben, keine Stromreize. Deshalb stecke ich genau diese Muster ins Training: Tragen über Strecke mit Gewicht in einer Hand, Ziehen, kontrolliertes Heben vom Boden. Nach ein paar Monaten merkst du den Unterschied nicht am Gerät, sondern an der Kellertreppe.",
+      },
+      {
+        title: "Training kommt zu dir, ohne Studio und ohne Vertrag",
+        body: "Ich komme mit Hanteln, Bändern und Plan zu dir nach Hause, trainiert wird im Wohnzimmer, in der Garage oder bei gutem Wetter draußen. Es gibt keine Vertragslaufzeit und keine Anlage, an die du gebunden bist: Du zahlst die Stunde, 50€, und kannst jederzeit aufhören. Zweimal pro Woche 60 Minuten reichen, wenn die Last sauber gesteigert wird, und die Steigerung steht bei mir in jedem Protokoll.",
+      },
+      {
+        title: "Was EMS kann und was es nicht kann",
+        body: "Fair bleiben: EMS erzeugt echte Muskelreize und wird in der Reha gezielt eingesetzt. Als Haupttraining hat es zwei Grenzen. Erstens trainiert es keine Bewegung, also weder Technik noch Gleichgewicht noch Griff. Zweitens wächst der Reiz über Stromstärke, nicht über können. Beim Krafttraining steigst du über Gewicht, Übungsauswahl und Tempo, und jede Stufe ist eine Fähigkeit, die dir bleibt, auch wenn du mal pausierst.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Rondorf?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€, ohne Vertragslaufzeit. Zum Vergleich: EMS-Studios arbeiten meist mit Abos. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ist EMS nicht zeitsparender als eine ganze Trainingsstunde?",
+        a: "Die reine Sitzung ist kürzer, aber sie trainiert weniger: keine Technik, kein Gleichgewicht, keine Griff- und Haltekraft. Zwei volle Stunden pro Woche bauen Fähigkeiten auf, die du im Alltag abrufst, und die Anfahrt sparst du dir, weil ich nach Rondorf komme.",
+      },
+      {
+        q: "Ich habe wenig Kraft in den Händen. Kann ich trotzdem einsteigen?",
+        a: "Ja, gerade dann. Griffkraft wächst wie jeder Muskel über regelmäßige, dosierte Last. Wir starten mit Gewichten, die du sicher hältst, und steigern in kleinen Schritten.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Nein. Hanteln, Widerstandsbänder und alles Weitere bringe ich mit. Ein paar freie Quadratmeter reichen für das komplette Programm.",
+      },
+    ],
+  },
+
+  "loevenich/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Lövenich ist Krafttraining über den vollen Bewegungsumfang: tiefe Kniebeuge, Ausfallschritt, Überkopfdrücken. Das macht stark und beweglich zugleich, während die Stromweste Muskeln im Stand anspannt und die Steifheit lässt, wie sie ist. 1-zu-1 bei dir zu Hause, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Lövenich: Krafttraining über den vollen Bewegungsumfang macht stark und beweglich, die Stromweste nur angespannt. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Stark wirst du nur in dem Bereich, in dem du dich bewegst",
+        body: "Ein Muskel passt sich an die Arbeit an, die er bekommt, und zwar genau in dem Bewegungsumfang, in dem er sie bekommt. EMS spannt die Muskulatur im Stehen an, fast ohne Bewegung: Der Reiz ist da, der Umfang fehlt. Krafttraining mit vollem Bewegungsweg arbeitet anders. Eine tiefe Kniebeuge kräftigt Beine und Hüfte in der Position, in die du sonst nie kommst, Überkopfdrücken öffnet Schultern und obere Wirbelsäule unter Last. Du baust Kraft auf und dehnst gleichzeitig unter Kontrolle, das ist der Teil, den keine Weste ersetzen kann.",
+      },
+      {
+        title: "Der Sitz-Tag macht steif, und Anspannung im Stand ändert daran nichts",
+        body: "Wer von Lövenich zur Arbeit fährt, sitzt in der S-Bahn oder im Auto, dann am Schreibtisch, abends wieder. Hüftbeuger und Brustmuskulatur verkürzen, die Hocke wird unangenehm, über Kopf greifen wird selten. Wenn das Gegenmittel dann aus zwanzig Minuten statischer Anspannung besteht, bleibt die Steifheit genau da, wo sie war. Im Training machen wir das Gegenteil: Jede Krafteinheit führt Hüfte, Schulter und Wirbelsäule durch die Bereiche, die der Sitz-Tag auslässt, mit Gewicht, in sauberer Technik, Schritt für Schritt tiefer.",
+      },
+      {
+        title: "Nach drei Monaten misst du beides: Kraft und Beweglichkeit",
+        body: "Am Anfang nehmen wir zwei Arten von Werten auf: was du bewegst, und wie weit du kommst, zum Beispiel in der tiefen Hocke oder mit den Armen über Kopf an der Wand. Beides steht im Protokoll und beides wird nach vier bis sechs Wochen nachgemessen. Das ist der ehrliche Unterschied zum Stromreiz: Du siehst nicht nur ein Kribbeln, sondern Zahlen, die sich bewegen. Trainiert wird zweimal pro Woche bei dir zu Hause in Lövenich, Material bringe ich mit.",
+      },
+      {
+        title: "Für wen das in Lövenich passt",
+        body: "Für alle, die EMS erwogen haben, weil es schnell und gelenkschonend klingt, aber eigentlich zwei Probleme lösen wollen: zu wenig Kraft und ein Körper, der sich nach dem Bürotag alt anfühlt. Volle Bewegungsumfänge unter kontrollierter Last sind gelenkfreundlich, weil die Gelenke bewegt und versorgt werden statt ruhiggestellt. Das Einstiegsniveau spielt keine Rolle: Tiefe und Gewicht werden auf deinen Stand eingestellt und wachsen mit.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Lövenich?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€, ohne Abo und ohne Laufzeit. Das Online Coaching mit Plan und Video-Check gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich bin steif, tiefe Kniebeugen schaffe ich nicht. Geht das trotzdem?",
+        a: "Ja, genau dafür ist das Training da. Wir beginnen in dem Umfang, der heute sauber geht, zum Beispiel auf einen Kasten, und erweitern ihn über Wochen. Beweglichkeit entsteht hier als Ergebnis des Trainings, nicht als Voraussetzung.",
+      },
+      {
+        q: "Ist Krafttraining mit vollem Bewegungsweg nicht riskanter für die Gelenke als EMS?",
+        a: "Nein, solange Last und Tiefe dosiert sind. Gelenke bleiben belastbar, wenn sie regelmäßig durch ihren Bewegungsbereich geführt werden. Deshalb steuere ich beides im 1-zu-1 und steigere erst, wenn die Technik sitzt.",
+      },
+      {
+        q: "Wo findet das Training statt?",
+        a: "Bei dir zu Hause in Lövenich, im Wohnzimmer oder Garten, mit mitgebrachten Hanteln und Bändern. Für den Ausdauerausgleich zwischen den Einheiten reichen zügige Runden durchs Veedel.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
