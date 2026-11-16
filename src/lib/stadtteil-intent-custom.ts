@@ -10281,6 +10281,263 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "widdersdorf/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Widdersdorf plane ich für den Rücken, den ein junges Familien-Veedel wirklich beansprucht: Kind auf dem Arm, Kiste im Kofferraum, dazwischen Stunden am Heimarbeitsplatz. Zwei geführte Krafteinheiten pro Woche bei dir zu Hause, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Widdersdorf: Kraft für den Eltern-Alltag aus Heben und Tragen, 1-zu-1 bei dir zu Hause. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Eltern-Rücken hebt jeden Tag, nur nie mit Plan",
+        body: "Widdersdorf ist über seine Neubaugebiete gewachsen, und mit ihnen sind viele junge Familien ins Veedel gezogen. Deren Rücken bekommt täglich Training, nur das falsche: ein Kind mit 12 oder 15 Kilo wird dutzende Male gehoben, fast immer einseitig, oft verdreht und nie mit Vorbereitung. Das ist Last ohne Progression, und genau daran werden Rücken müde. Im Training drehen wir das um: Kreuzheben-Varianten, Tragen unter Last und kontrollierte Rotation bereiten die Muskulatur auf genau diese Bewegungen vor, mit Gewichten, die planbar steigen statt zufällig zu kommen.",
+      },
+      {
+        title: "Einseitig tragen ist die unterschätzte Übung",
+        body: "Die meisten Rückenprogramme trainieren symmetrisch, dein Alltag tut es nicht: Kind auf der Hüfte, Einkauf in einer Hand, Tasche über einer Schulter. Deshalb bekommt das einseitige Tragen bei mir einen festen Platz, etwa als Koffer-Carry mit einer Kurzhantel. Das kräftigt die seitliche Rumpfmuskulatur, die den Rumpf gerade hält, wenn die Last nur auf einer Seite hängt. Der Fortschritt ist messbar in Kilo und Metern, und du merkst ihn dort, wo er zählt: beim Tragen im echten Tag.",
+      },
+      {
+        title: "Das Training kommt zu dir, weil dein Kalender voll ist",
+        body: "Zwischen Arbeit, Kindern und Wegen bleibt in Widdersdorf selten ein freier Abend für die Fahrt zu einem Studio. Deshalb komme ich mit Kurzhanteln, Kettlebell und Bändern zu dir nach Hause, ein paar Quadratmeter im Wohnzimmer reichen. Termine lege ich auch in den frühen Morgen oder auf die Zeit nach dem Zubettbringen. Zwei Einheiten pro Woche genügen, wenn sie regelmäßig stattfinden, und genau das wird mit kurzen Wegen realistisch.",
+      },
+      {
+        title: "Erst der Befund, dann die Belastung",
+        body: "Wir starten nicht mit Übungen, sondern mit Fragen und einem Bewegungscheck: Wo zwickt es, was hebst du täglich, wie beweglich sind Hüfte und Brustwirbelsäule? Daraus entsteht dein Plan. Alle vier bis sechs Wochen messen wir nach, an Lasten und an Alltagssituationen. Wichtig zur Einordnung: Bei akuten Schmerzen oder Ausstrahlung ins Bein gehört der erste Termin zum Arzt, nicht zu mir. Das Training baut Belastbarkeit auf, es ersetzt keine Diagnose.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Widdersdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€, bei dir zu Hause im Veedel. Wer lieber mit Plan in der App und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Mir tut der Rücken vom Tragen meines Kindes weh. Hilft Training?",
+        a: "Meist ja: Ein Rücken, der Heben und einseitiges Tragen im Training kennt, steckt den Alltag deutlich besser weg. Bestehen akute Schmerzen, lass sie zuerst ärztlich abklären. Danach bauen wir die Belastbarkeit Schritt für Schritt auf.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Ich bringe Kurzhanteln, Kettlebell und Widerstandsbänder mit. Ein freier Bereich von wenigen Quadratmetern reicht für das komplette Programm.",
+      },
+      {
+        q: "Wie schnell merke ich einen Unterschied?",
+        a: "Die Lasten im Protokoll steigen meist schon nach zwei bis drei Wochen. Dass sich der Alltag leichter anfühlt, berichten die meisten nach vier bis sechs Wochen regelmäßigen Trainings mit zwei Einheiten pro Woche.",
+      },
+    ],
+  },
+
+  "junkersdorf/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Junkersdorf trainiert auch das, was die Stromweste nicht erreicht: Herz, Lunge und Bewegung unter echter Last. Kraft im 1-zu-1 bei dir zu Hause, Ausdauer im Äußeren Grüngürtel direkt am Veedel, 50€ pro Stunde ohne Jahresvertrag.",
+    metaDescription:
+      "EMS-Alternative in Köln-Junkersdorf: Krafttraining plus Ausdauer im Äußeren Grüngürtel statt Stromreiz im Stehen. 50€/Std ohne Jahresvertrag, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die Weste reizt Muskeln, dein Herz geht leer aus",
+        body: "EMS setzt Stromimpulse auf die Muskulatur, während du nahezu still stehst. Was dabei nicht passiert: Dein Puls kommt nicht über längere Zeit in einen Bereich, in dem Herz und Lunge trainieren. Ausdauerleistung ist aber einer der wichtigsten Faktoren für langfristige Gesundheit, und sie entsteht nur durch Bewegung, die dich wirklich fordert. Ein Konzept, das Herz-Kreislauf-Training komplett auslässt, deckt die Hälfte dessen ab, was dein Körper braucht. Genau diese Hälfte baue ich fest in deine Woche ein.",
+      },
+      {
+        title: "Die Ausdauerhälfte liegt in Junkersdorf vor der Tür",
+        body: "Junkersdorf grenzt direkt an den Äußeren Grüngürtel, eine der längsten zusammenhängenden Grünflächen Kölns. Für zügige Geh-Einheiten, Laufintervalle oder den lockeren Dauerlauf musst du aus dem Veedel nicht heraus. Im Wochenplan heißt das: eine geführte Krafteinheit bei dir zu Hause, dazu ein bis zwei Ausdauereinheiten im Grüngürtel, die du nach meinem Plan selbst gehst oder läufst. Gemessen wird beides, an Tempo und Strecke draußen, an Kilos und Wiederholungen drinnen.",
+      },
+      {
+        title: "Kraft braucht Bewegung, nicht nur Kontraktion",
+        body: "Im Krafttraining bewegst du ein Gewicht über den vollen Weg: absenken, stabilisieren, hochdrücken. Dein Körper lernt dabei nicht nur anspannen, sondern Gelenke führen, Rumpf halten, Kraft in Bewegung umsetzen. Der Stromimpuls der Weste erzeugt Kontraktion ohne diese Bewegungsaufgabe, und genau die macht dich im Alltag und im Sport belastbar. Deshalb arbeiten wir mit Grundübungen und einem Protokoll, in dem die Last nachvollziehbar steigt.",
+      },
+      {
+        title: "So sieht deine Woche konkret aus",
+        body: "Wir starten mit einem Check: Kraftstand, Beweglichkeit, Ruhepuls und ein ehrlicher Blick auf dein Ziel. Danach steht der Rhythmus: eine Krafteinheit pro Woche im 1-zu-1, das Material bringe ich mit, dazu dein Ausdauerpensum im Grüngürtel mit klaren Vorgaben. Alle vier bis sechs Wochen messen wir nach. Kein Jahresvertrag, keine Mindestlaufzeit: Wenn das Training nichts bewegt, sollst du es nicht weiter bezahlen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Junkersdorf?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, ohne Jahresvertrag und ohne Mindestlaufzeit. Das Erstgespräch ist kostenlos. Zum Vergleich: EMS-Studios binden dich meist über ein Abo mit langer Laufzeit.",
+      },
+      {
+        q: "EMS dauert nur 20 Minuten. Ist das nicht effizienter?",
+        a: "Für den reinen Muskelreiz ist die Zeit kurz, aber Herz-Kreislauf-Training findet in diesen 20 Minuten praktisch nicht statt. Wer Gesundheit als Ganzes will, braucht beides: Kraft unter echter Last und Ausdauer. Diese Kombination bekommst du hier, und der Grüngürtel liegt direkt am Veedel.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Kann ich trotzdem starten?",
+        a: "Ja. Der Einstieg wird über den Check am Anfang auf deinen Stand gesetzt: leichte Lasten, saubere Technik, Gehen vor Laufen. Gesteigert wird erst, wenn die Basis sitzt.",
+      },
+      {
+        q: "Wo genau trainieren wir in Junkersdorf?",
+        a: "Kraft bei dir zu Hause, ich bringe Kurzhanteln, Kettlebell und Bänder mit. Die Ausdauereinheiten legen wir in den Äußeren Grüngürtel, der direkt an Junkersdorf grenzt.",
+      },
+    ],
+  },
+
+  "kalk/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Kalk geht bei mir ohne Jogging-Pflicht: Zwei Krafteinheiten pro Woche sichern deine Muskulatur, tägliche Schritte durchs Veedel verbrennen die Kalorien, und das Essensziel legt Natalie mit dir fest. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Kalk ohne Joggen: Krafttraining, tägliche Geh-Runden durchs Veedel und ein Essensplan von Natalie. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Du musst nicht laufen, um abzunehmen",
+        body: "Viele starten eine Diät mit Laufrunden, obwohl sie Laufen nicht mögen, und hören nach drei Wochen mit beidem auf. Dabei entscheidet über das Abnehmen nur das Kaloriendefizit, nicht die Sportart. Gerade mit höherem Startgewicht sind Laufeinheiten für Knie und Rücken anfangs eine unnötige Belastung. Mein Weg für Kalk: zügiges Gehen als tägliche Grundlage, zwei Krafteinheiten pro Woche, und das Essen so eingestellt, dass das Defizit entsteht, ohne dass du hungerst. Laufen kannst du später immer noch dazunehmen, wenn du willst, nicht weil du musst.",
+      },
+      {
+        title: "Kalk ist zum Gehen gebaut",
+        body: "Fast 25.000 Menschen leben hier auf knapp drei Quadratkilometern, und genau diese Dichte ist dein Vorteil: Supermarkt, Kalker Hauptstraße, die Arcaden, die KVB-Haltestellen, alles liegt in Gehweite. Wer in Kalk konsequent zu Fuß erledigt, was zu Fuß geht, kommt ohne Sportprogramm auf ein Tagespensum, das viele Diäten schlägt. Als festen Anker setzen wir eine Runde durch den Bürgerpark Kalk, der Rest läuft über deine Alltagswege. Gezählt wird mit dem Handy, das du ohnehin dabei hast.",
+      },
+      {
+        title: "Kraft schützt, was die Diät sonst mitnimmt",
+        body: "Wer nur weniger isst, verliert neben Fett auch Muskulatur, und mit ihr sinkt der Verbrauch: Der Jo-Jo-Effekt beginnt genau da. Zwei Krafteinheiten pro Woche halten die Muskeln im Defizit, mehr braucht es nicht. Wir trainieren im 1-zu-1 bei dir zu Hause, ich bringe Kurzhanteln, Kettlebell und Bänder mit. Jede Einheit steht im Protokoll, und wenn die Lasten stabil bleiben, während das Gewicht sinkt, weißt du: Es geht Fett, nicht Muskel.",
+      },
+      {
+        title: "Das Essen stellt Natalie mit dir ein",
+        body: "Die Ernährung betreut bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Es gibt keine Verbotsliste und keinen Austausch deiner Küche gegen eine Diätküche: Sie rechnet mit dir dein Kalorienziel aus, setzt das Eiweiß hoch genug, dass du satt bleibst und die Muskeln versorgt sind, und baut beides in das ein, was du ohnehin kochst und isst. Kontrolliert wird über das Gewicht im Wochenschnitt, nicht über die Tagesschwankung.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Kalk?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Plan, Ernährungssteuerung und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Muss ich dafür in ein Fitnessstudio?",
+        a: "Nein. Die Krafteinheiten machen wir bei dir zu Hause, das Material bringe ich mit. Die Geh-Runden liegen im Veedel, zum Beispiel durch den Bürgerpark Kalk.",
+      },
+      {
+        q: "Wie schnell kann ich realistisch abnehmen?",
+        a: "Nachhaltig sind etwa 0,5 bis 1 Kilo pro Woche, je nach Startgewicht. Schnellere Versprechen gehen fast immer auf Kosten von Muskulatur und Durchhaltevermögen. Wir steuern über den Wochenschnitt, nicht über einzelne Tage.",
+      },
+      {
+        q: "Was passiert im kostenlosen Erstgespräch?",
+        a: "Wir schauen auf Ausgangslage, Alltag und Ziel: Wie viel bewegst du dich heute, wie isst du, was ist realistisch? Danach bekommst du einen konkreten Vorschlag für Training, Schritte und Essensziel. Entscheiden kannst du danach in Ruhe.",
+      },
+    ],
+  },
+
+  "vingst/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Vingst scheitert selten am Training und oft am Teller: Wer wachsen will, braucht neben zwei Krafteinheiten pro Woche einen leichten Kalorienüberschuss und genug Eiweiß. Hier bekommst du beides aus einer Hand, die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Vingst: Krafttraining mit Protokoll plus Essensplan mit Kalorienüberschuss und Eiweißziel. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Hart trainiert, zu wenig gegessen: der häufigste Stillstand",
+        body: "Die meisten, die beim Muskelaufbau feststecken, trainieren genug und essen zu wenig. Ohne Energieüberschuss baut der Körper keine neue Masse auf, egal wie gut der Plan ist: Das Material fehlt schlicht. Viele essen unbewusst nur auf Erhalt oder sogar im Defizit, weil Arbeitstage, Schichten und unregelmäßige Mahlzeiten die Bilanz drücken. Deshalb beginnt Muskelaufbau bei mir mit einer Rechnung: dein tatsächlicher Bedarf, dein tatsächliches Essen, und die Lücke dazwischen.",
+      },
+      {
+        title: "Der Überschuss ist klein, aber er ist Pflicht",
+        body: "Für Muskelaufbau reichen etwa 200 bis 300 Kilokalorien über dem Bedarf, dazu ungefähr 1,6 bis 2 Gramm Eiweiß pro Kilo Körpergewicht am Tag. Mehr Überschuss macht nicht mehr Muskel, sondern mehr Fett. Wie du diese Zahlen erreichst, legt Natalie mit dir fest, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung: mit deiner Küche, deinem Budget und deinen Essenszeiten, nicht mit einem Shaker-Regal. Kontrolliert wird über die Waage im Wochenschnitt.",
+      },
+      {
+        title: "Zwei Einheiten mit Protokoll, bei dir in Vingst",
+        body: "Trainiert wird im 1-zu-1 bei dir zu Hause: Vingst ist kompakt, ich bin mit Kurzhanteln, Kettlebell und Bändern schnell bei dir, ein freies Eck in der Wohnung reicht. Auf dem Plan stehen Grundübungen, Kniebeuge-, Druck- und Zugmuster, und jede Einheit landet im Protokoll. Die Last steigt nach Regel, nicht nach Gefühl. Zwei Einheiten pro Woche sind genug, wenn Ausführung und Steigerung stimmen.",
+      },
+      {
+        title: "Gemessen wird am Körper, nicht am Spiegelgefühl",
+        body: "Alle vier bis sechs Wochen stehen drei Zahlen auf dem Tisch: Körpergewicht im Wochenschnitt, Umfänge an Arm, Brust und Bein, und die Lasten im Protokoll. Steigen die Lasten und die Umfänge, während das Gewicht langsam klettert, läuft der Aufbau. Steht eine der Zahlen, ändern wir gezielt Essen oder Training, nicht beides auf einmal. So weißt du immer, woran es lag.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Vingst?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Trainingsplan, Ernährungssteuerung und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie viel Eiweiß brauche ich wirklich?",
+        a: "Als Richtwert gelten 1,6 bis 2 Gramm pro Kilo Körpergewicht am Tag. Das geht ohne Pulver, mit normalen Lebensmitteln aus dem Supermarkt. Natalie rechnet mit dir aus, wie du da im Alltag hinkommst.",
+      },
+      {
+        q: "Werde ich im Aufbau nicht einfach dick?",
+        a: "Nicht mit einem kleinen, kontrollierten Überschuss. Wir halten ihn bei etwa 200 bis 300 Kilokalorien und prüfen Gewicht und Umfänge regelmäßig. Steigt das Fett schneller als die Kraft, wird nachjustiert.",
+      },
+      {
+        q: "Geht Muskelaufbau auch ohne Fleisch?",
+        a: "Ja. Eiweiß liefern auch Milchprodukte, Eier, Hülsenfrüchte und Tofu. Natalie plant auf Wunsch komplett vegetarisch, wichtig ist nur, dass die Tagesmenge erreicht wird.",
+      },
+    ],
+  },
+
+  "blumenberg/personal-training": {
+    answer:
+      "Personal Training in Köln-Blumenberg: 1-zu-1 Krafttraining mit Befund, Plan und dokumentierter Steigerung, bei dir zu Hause in der Siedlung. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Blumenberg: 1-zu-1 Training zu Hause mit Plan und Progression, Termine auch früh und abends. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel vom Reißbrett, ein Training mit Bauplan",
+        body: "Blumenberg ist einer der jüngsten Stadtteile Kölns: ab Ende der 1980er Jahre geplant und gebaut, Straße für Straße, bevor die ersten Bewohner einzogen. Gutes Training entsteht genauso: erst der Befund, dann der Plan, dann die Ausführung. Bei mir stehen am Anfang ein Bewegungscheck und deine Geschichte, daraus wird ein Programm mit Grundübungen und klaren Steigerungsregeln. Nichts an deinem Training ist zufällig, und du kannst jede Entscheidung im Protokoll nachlesen.",
+      },
+      {
+        title: "Kein Studio im Veedel, und es fehlt auch nicht",
+        body: "Rund 5.100 Menschen leben in Blumenberg, ein eigenes Fitnessstudio gibt es im Stadtteil nicht. Für dein Training spielt das keine Rolle: Ich komme mit Kurzhanteln, Kettlebell und Widerstandsbändern zu dir in die Wohnung oder ins Reihenhaus, ein freier Platz von wenigen Quadratmetern genügt. Bei gutem Wetter verlegen wir Teile der Einheit nach draußen an den ruhigen Siedlungsrand. Material, Plan und Korrektur bringe ich mit, du brauchst nichts anzuschaffen.",
+      },
+      {
+        title: "Mit der S-Bahn pendeln und trotzdem dranbleiben",
+        body: "Viele in Blumenberg pendeln mit der S-Bahn vom eigenen Halt in die Stadt, und an langen Arbeitstagen fällt Training als Erstes weg, wenn es einen zweiten Weg kostet. Deshalb liegt dein Termin dort, wo dein Tag ohnehin beginnt oder endet: bei dir zu Hause, auch früh vor der ersten Bahn oder abends nach der Rückfahrt. Ein fester Termin mit einer Person, die vor der Tür steht, überlebt volle Wochen deutlich besser als jeder Vorsatz.",
+      },
+      {
+        title: "Woran du nach acht Wochen den Fortschritt siehst",
+        body: "Jede Einheit steht im Protokoll: Übungen, Lasten, Wiederholungen. Nach etwa acht Wochen vergleichen wir die Zahlen mit dem Start und ergänzen sie um Alltagstests, etwa Aufstehen aus der tiefen Hocke oder Tragen über eine festgelegte Strecke. So siehst du schwarz auf weiß, was sich bewegt hat. Bewegt sich zu wenig, ändere ich den Plan, nicht die Messlatte.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Blumenberg?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt ins Veedel und Material. Das Online Coaching gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo findet das Training statt?",
+        a: "Bei dir zu Hause in Blumenberg, drinnen oder bei gutem Wetter draußen am Siedlungsrand. Ich bringe Kurzhanteln, Kettlebell und Bänder mit, ein paar freie Quadratmeter reichen.",
+      },
+      {
+        q: "Ich habe noch nie Krafttraining gemacht. Ist das ein Problem?",
+        a: "Nein, eher ein Vorteil: Wir bauen die Technik von Anfang an sauber auf, ohne alte Gewohnheiten zu korrigieren. Der Einstieg läuft über leichte Lasten und einen Bewegungscheck im ersten Termin.",
+      },
+      {
+        q: "Gibt es Termine vor der Arbeit oder spät abends?",
+        a: "Ja. Gerade für Pendler lege ich Einheiten in den frühen Morgen oder auf den Abend nach der Rückfahrt. Den festen Rhythmus finden wir im Erstgespräch.",
+      },
+    ],
+  },
+
+  "finkenberg/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Finkenberg heißt trainieren mit Anleitung, aber ohne Publikum: Plan in der App, wöchentlicher Video-Check-in mit mir, trainiert wird in deiner Wohnung. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching für Köln-Finkenberg: Trainingsplan in der App, Technik-Feedback per Video, trainieren ohne Studio in der eigenen Wohnung. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Die größte Hürde ist der Raum voller Fremder",
+        body: "Viele fangen nie an, nicht weil ihnen Wille oder Geld fehlen, sondern weil die Vorstellung abschreckt, sich zwischen Geübten an Geräte zu stellen und beobachtet zu fühlen. Diese Schwelle ist real, und sie hat schon mehr Trainingspläne beendet als jede Verletzung. Das Online Coaching nimmt sie komplett weg: Du trainierst in deiner eigenen Wohnung, zu deiner Zeit, und niemand schaut zu. Die Anleitung bekommst du trotzdem, nur eben über die App und den wöchentlichen Check-in statt über einen Trainingsraum.",
+      },
+      {
+        title: "Korrigiert wirst du trotzdem",
+        body: "Der Unterschied zu einem Video von YouTube oder einem Plan aus einer Gratis-App ist die Rückmeldung: Du filmst einzelne Übungen kurz mit dem Handy, ich sehe mir die Ausführung an und korrigiere konkret, bevor sich Fehler festsetzen. Im wöchentlichen Video-Check-in besprechen wir Fortschritt, Lasten und die nächste Woche. Dein Plan passt sich an, wenn dein Leben sich ändert, das kann keine Vorlage aus dem Internet.",
+      },
+      {
+        title: "Finkenberg hat kein Studio, deine Wohnung reicht",
+        body: "Finkenberg ist mit 0,64 Quadratkilometern das kompakteste Veedel von Porz, fast 7.000 Menschen wohnen hier, ein Fitnessstudio gibt es im Stadtteil nicht. Für das Coaching brauchst du keins: Der Plan ist für die Wohnung gebaut, als Grundausstattung reichen zwei Kurzhanteln und ein Widerstandsband, zusammen deutlich unter 100€. Jede Übung ist so gewählt, dass sie auf wenigen Quadratmetern funktioniert, auch mit Nachbarn unter dir.",
+      },
+      {
+        title: "So läuft deine erste Woche",
+        body: "Nach dem kostenlosen Erstgespräch bekommst du deinen Plan in die App: zwei bis drei Einheiten pro Woche, jede mit Videos und klaren Vorgaben. Du trainierst, trägst Lasten und Wiederholungen ein und schickst mir ein bis zwei Technikvideos. Am Ende der Woche steht der erste Check-in: Was lief, was hakt, was ändern wir. Auf Wunsch steuert Natalie zusätzlich dein Essen, von der ersten Woche an.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching für Köln-Finkenberg?",
+        a: "Das Online Coaching gibt es ab 150€ im Monat, mit Trainingsplan in der App, Technik-Feedback und wöchentlichem Video-Check-in. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich Geräte für zu Hause?",
+        a: "Wenig: Zwei Kurzhanteln und ein Widerstandsband reichen für den Start, zusammen deutlich unter 100€. Der Plan ist komplett auf das Training in der Wohnung ausgelegt.",
+      },
+      {
+        q: "Woher weißt du, ob ich sauber trainiere?",
+        a: "Du filmst einzelne Übungen kurz mit dem Handy und schickst sie mir über die App. Ich gebe dir konkrete Korrekturen, und im wöchentlichen Check-in gehen wir die Technik gemeinsam durch.",
+      },
+      {
+        q: "Kann ich später ins 1-zu-1 Training wechseln?",
+        a: "Jederzeit. Manche starten online, weil die Schwelle niedriger ist, und holen sich später einzelne Stunden vor Ort dazu, zum Beispiel für Technik an neuen Übungen. Die 1-zu-1 Stunde kostet 50€.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
