@@ -10538,6 +10538,264 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "junkersdorf/online-coaching": {
+    answer:
+      "Online Coaching f\u00fcr K\u00f6ln-Junkersdorf: Trainingsplan in der App, w\u00f6chentlicher Video-Check-in und ein Coach, der jede Einheit mitliest. Ab 150\u20ac im Monat, das Erstgespr\u00e4ch ist kostenlos.",
+    metaDescription:
+      "Online Coaching f\u00fcr K\u00f6ln-Junkersdorf: Plan in der App, Technik-Feedback per Video, w\u00f6chentlicher Check-in. Keiner f\u00e4llt mehr still aus. Ab 150\u20ac/Monat.",
+    sections: [
+      {
+        title: "Woran Training in Junkersdorf wirklich scheitert",
+        body: "An der Ausr\u00fcstung liegt es hier selten. Junkersdorf ist ein Veedel der H\u00e4user: 15.301 Menschen auf 7,38 Quadratkilometern, viele mit Keller, Garage oder einem freien Zimmer, und in erstaunlich vielen davon stehen schon Hanteln, ein Ruderger\u00e4t oder ein Ergometer. Was fehlt, ist nicht das Ger\u00e4t, sondern die Verbindlichkeit: Wenn du eine Woche aussetzt, merkt es niemand. Genau diese stille L\u00fccke schlie\u00dft das Online Coaching. Du tr\u00e4gst jede Einheit in die App ein, ich lese mit, und wenn nichts kommt, frage ich nach.",
+      },
+      {
+        title: "Ein Plan, den jemand mitliest",
+        body: "Der Unterschied zu einem Plan aus dem Internet ist nicht die \u00dcbungsauswahl, sondern die R\u00fcckmeldung. Du bekommst deinen Plan in die App, mit Videos und klaren Vorgaben f\u00fcr Lasten und Wiederholungen. Einzelne \u00dcbungen filmst du kurz mit dem Handy, ich korrigiere die Ausf\u00fchrung, bevor sich Fehler einschleifen. Einmal pro Woche sprechen wir im Video-Check-in \u00fcber Fortschritt, Stolperstellen und die n\u00e4chste Woche. Dein Keller bleibt dein Keller, aber er bekommt einen Trainer.",
+      },
+      {
+        title: "Steigerung nach Regeln statt nach Gef\u00fchl",
+        body: "Wer allein trainiert, wiederholt oft jahrelang dieselben Einheiten mit denselben Gewichten. Der K\u00f6rper hat sich l\u00e4ngst angepasst, es passiert nichts mehr, und irgendwann schl\u00e4ft das Ganze ein. Im Coaching steigen Last und Umfang nach festen Regeln, die im Plan stehen und f\u00fcr dich nachvollziehbar sind. Jede Woche hat ein Ziel, das sich aus der Vorwoche ergibt. Das Protokoll in der App zeigt dir schwarz auf wei\u00df, dass du st\u00e4rker wirst, nicht nur besch\u00e4ftigt warst.",
+      },
+      {
+        title: "Drau\u00dfen erg\u00e4nzt, drinnen gebaut",
+        body: "F\u00fcr die ruhigen Einheiten liegt der \u00c4u\u00dfere Gr\u00fcng\u00fcrtel direkt am Veedelsrand: z\u00fcgige Geh- oder Laufrunden dort stehen als eigene Punkte im Wochenplan, mit Dauer und Tempovorgabe statt Bauchgef\u00fchl. Die Kraftarbeit bleibt drinnen, bei dir zu Hause, zwei bis drei Einheiten pro Woche. Auf Wunsch steuert Natalie als Ern\u00e4hrungsberaterin zus\u00e4tzlich dein Essen, mit einem Eiwei\u00dfziel, das zum Training passt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching f\u00fcr K\u00f6ln-Junkersdorf?",
+        a: "Ab 150\u20ac im Monat, mit Trainingsplan in der App, Technik-Feedback per Video und w\u00f6chentlichem Check-in. Das Erstgespr\u00e4ch ist kostenlos.",
+      },
+      {
+        q: "Ich habe schon Ger\u00e4te zu Hause. Werden die eingebaut?",
+        a: "Ja. Im Erstgespr\u00e4ch gehen wir durch, was bei dir steht, vom Kurzhantelset bis zum Ergometer, und ich baue den Plan um deine Ausstattung herum. Neu kaufen musst du nur, was wirklich fehlt.",
+      },
+      {
+        q: "Was passiert, wenn ich eine Woche nichts eintrage?",
+        a: "Dann melde ich mich. Genau daf\u00fcr ist das Coaching da: Ausf\u00e4lle bleiben nicht unbemerkt, wir kl\u00e4ren die Ursache und passen den Plan an, statt dich in schlechtem Gewissen h\u00e4ngen zu lassen.",
+      },
+      {
+        q: "Kann ich einzelne Stunden vor Ort dazunehmen?",
+        a: "Jederzeit. Viele holen sich f\u00fcr neue \u00dcbungen eine 1-zu-1 Stunde dazu, zum Beispiel f\u00fcr Technik an der Langhantel. Die Stunde kostet 50\u20ac.",
+      },
+    ],
+  },
+
+  "buchforst/abnehmen": {
+    answer:
+      "Abnehmen in K\u00f6ln-Buchforst beginnt bei mir mit einem Blick ins Glas: Fl\u00fcssige Kalorien aus Saft, Limo, Milchkaffee und Feierabendbier kippen viele Defizite, bevor das Essen \u00fcberhaupt dran ist. Dazu kommen zwei Krafteinheiten pro Woche und ein Kalorienziel von Natalie. Erstgespr\u00e4ch kostenlos.",
+    metaDescription:
+      "Abnehmen in K\u00f6ln-Buchforst: fl\u00fcssige Kalorien zuerst, dann Krafttraining und ein realistisches Defizit. Mit Ern\u00e4hrungsberatung von Natalie. Erstgespr\u00e4ch kostenlos.",
+    sections: [
+      {
+        title: "Die Kalorien, die niemand z\u00e4hlt",
+        body: "Beim Essen sind die meisten ehrlich, beim Trinken fast niemand. Ein Glas Saft am Morgen, der Milchkaffee zwischendurch, eine Limo am Nachmittag, zwei Bier am Abend: zusammen sind das schnell 400 bis 600 Kilokalorien, die nicht satt machen und in keiner Selbsteinsch\u00e4tzung auftauchen. Deshalb starten wir in Buchforst nicht mit Verboten, sondern mit zwei Wochen ehrlichem Hinschauen, was du trinkst. Oft steckt dort das halbe Defizit, ohne dass sich am Teller etwas \u00e4ndern muss.",
+      },
+      {
+        title: "Tauschen statt verbieten",
+        body: "Natalie ist Ern\u00e4hrungsberaterin f\u00fcr Sport- und Fitnessern\u00e4hrung und arbeitet mit Tauschregeln statt Verbotslisten: Schorle d\u00fcnner mischen, Kaffee anders bestellen, Limo auf die Zuckerfrei-Variante drehen, das Bier auf feste Tage legen. Dazu bekommst du ein Kalorienziel, das zu deinem Alltag passt, und ein Eiwei\u00dfziel, damit beim Abnehmen Muskeln bleiben. Nichts davon verlangt, dass du anders lebst als dein Umfeld, es verlangt nur Entscheidungen, die du kennst.",
+      },
+      {
+        title: "Kraft sch\u00fctzt, Schritte verbrennen",
+        body: "Zweimal pro Woche trainieren wir Kraft, bei dir zu Hause in Buchforst mit mitgebrachtem Equipment oder im Studio. Das sichert deine Muskulatur, w\u00e4hrend das Gewicht sinkt. F\u00fcr die Schritte hat das Veedel kurze Wege: Buchforst misst nur 0,83 Quadratkilometer, darum verl\u00e4ngern wir bewusst. Feste Runden durch die Wei\u00dfe Stadt, die Siedlung aus den sp\u00e4ten 1920er Jahren, und weiter Richtung M\u00fclheim machen aus einem kompakten Stadtteil ein brauchbares Schrittkonto.",
+      },
+      {
+        title: "Woran du nach acht Wochen wei\u00dft, dass es funktioniert",
+        body: "Wir vergleichen Wochendurchschnitte statt Tageswerte: Das Gewicht schwankt t\u00e4glich um ein bis zwei Kilo, der Durchschnitt l\u00fcgt nicht. Dazu kommen Ma\u00dfband und ein kurzer Krafttest. Sinkt der Durchschnitt acht Wochen lang, l\u00e4uft es. Stagniert er, schauen wir zuerst wieder auf die Getr\u00e4nke und die Wochenenden, denn dort kippen die meisten Pl\u00e4ne, nicht bei den Mahlzeiten unter der Woche.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Betreuung in K\u00f6ln-Buchforst?",
+        a: "Die 1-zu-1 Trainingsstunde kostet 50\u20ac, das Online Coaching mit Plan, Check-ins und Ern\u00e4hrungssteuerung gibt es ab 150\u20ac im Monat. Das Erstgespr\u00e4ch ist kostenlos.",
+      },
+      {
+        q: "Muss ich auf Alkohol komplett verzichten?",
+        a: "Nein. Alkohol hat Kalorien, also bekommt er einen festen Platz im Wochenbudget statt eines Verbots. Mit klaren Tagen und Mengen bleibt das Defizit stehen, ohne dass du sozial aussteigst.",
+      },
+      {
+        q: "Muss ich joggen, um abzunehmen?",
+        a: "Nein. Das Defizit entsteht aus Essen, Trinken und Alltagsbewegung. Z\u00fcgige Geh-Runden reichen v\u00f6llig, das Krafttraining sch\u00fctzt dabei deine Muskulatur.",
+      },
+      {
+        q: "Wie schnell nehme ich realistisch ab?",
+        a: "Etwa 0,5 bis 1 Prozent des K\u00f6rpergewichts pro Woche im Durchschnitt. Schneller geht meist auf Kosten von Muskulatur und h\u00e4lt selten. Wir planen in Wochen und Monaten, nicht in Tagen.",
+      },
+    ],
+  },
+
+  "deutz/muskelaufbau": {
+    answer:
+      "Muskelaufbau in K\u00f6ln-Deutz plane ich wie ein Quartalsprojekt: zw\u00f6lf Wochen, zwei gef\u00fchrte Krafteinheiten pro Woche, ein Protokoll und ein Review am Ende. Die Stunde kostet 50\u20ac, das Erstgespr\u00e4ch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in K\u00f6ln-Deutz: zw\u00f6lf Wochen wie ein Projekt geplant, zwei Einheiten pro Woche, dokumentierte Steigerung. 50\u20ac/Std, Erstgespr\u00e4ch kostenlos.",
+    sections: [
+      {
+        title: "Ein Quartal f\u00fcr deinen Aufbau",
+        body: "Rund um Messe, Arena und die B\u00fcros am Deutzer Rheinufer wird in Quartalen gedacht, und genau so funktioniert Muskelaufbau am besten: ein klares Ziel, zw\u00f6lf Wochen Laufzeit, Zwischenst\u00e4nde und am Ende ein ehrlicher Vergleich mit dem Start. Wir legen im Erstgespr\u00e4ch fest, woran der Block gemessen wird, etwa Lasten in den Grund\u00fcbungen und Umfang an Oberarm oder Schulter. Danach hat jede Woche ihren Platz im Plan, und du wei\u00dft immer, in welcher Phase du gerade bist.",
+      },
+      {
+        title: "Zwei Einheiten, die in vollen Kalendern \u00fcberleben",
+        body: "Mehr als zwei gef\u00fchrte Krafteinheiten pro Woche braucht der Aufbau nicht, wenn beide schwer und sauber geplant sind. Das macht das Ganze kalenderfest: ein Termin fr\u00fch vor der Arbeit, einer am Abend, im Studio oder bei dir zu Hause in Deutz mit mitgebrachtem Equipment. F\u00e4llt ein Termin auf eine Messewoche, wird er verschoben statt gestrichen, und der Plan rechnet die Woche um. Ein Projekt scheitert nicht an einer vollen Woche, sondern an fehlender Planung daf\u00fcr.",
+      },
+      {
+        title: "Steigende Last, nicht mehr \u00dcbungen",
+        body: "Deutz trainiert viel drau\u00dfen, am Rheinboulevard und im Rheinpark, meist mit dem eigenen K\u00f6rpergewicht. F\u00fcr Ausdauer und Stabilit\u00e4t ist das gut, f\u00fcr neuen Muskel reicht es auf Dauer nicht, denn Wachstum folgt der Last. Im Plan stehen deshalb wenige Grund\u00fcbungen, Kniebeuge, Kreuzheben, Dr\u00fccken, Ziehen, deren Gewichte nach festen Regeln steigen. Jede Einheit steht im Protokoll, und das Review am Quartalsende vergleicht Zahlen, keine Eindr\u00fccke.",
+      },
+      {
+        title: "Die zweite H\u00e4lfte des Projekts steht auf dem Teller",
+        body: "Ohne leichten Kalorien\u00fcberschuss und gen\u00fcgend Eiwei\u00df bleibt das beste Training Verwaltung. Du bekommst ein Eiwei\u00dfziel pro Tag und auf Wunsch die Ern\u00e4hrungsberatung von Natalie dazu, die dein Essen auf den Aufbau abstimmt, auch wenn du mittags zwischen Terminen isst. So ziehen Training und K\u00fcche am selben Projekt, statt sich gegenseitig die Ergebnisse wegzunehmen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in K\u00f6ln-Deutz?",
+        a: "Die 1-zu-1 Stunde kostet 50\u20ac, das Online Coaching mit Plan und w\u00f6chentlichen Check-ins gibt es ab 150\u20ac im Monat. Das Erstgespr\u00e4ch ist kostenlos.",
+      },
+      {
+        q: "Was ist nach zw\u00f6lf Wochen realistisch?",
+        a: "Sauber trainiert und gegessen: sp\u00fcrbar mehr Kraft in allen Grund\u00fcbungen und erste sichtbare Ver\u00e4nderungen an Schultern, Armen und R\u00fccken. Der genaue Ma\u00dfstab wird am Anfang festgelegt und am Ende nachgemessen.",
+      },
+      {
+        q: "Wo trainieren wir in Deutz?",
+        a: "Im Studio oder bei dir zu Hause, ich bringe Hanteln, Bank und B\u00e4nder mit. Einzelne Technik- und Stabilit\u00e4tsteile verlegen wir bei gutem Wetter in den Rheinpark.",
+      },
+      {
+        q: "Ich bin \u00fcber 40. \u00c4ndert das den Plan?",
+        a: "Nur im Aufbau der ersten Wochen: Gelenke und Sehnen bekommen mehr Vorbereitungszeit. Muskel w\u00e4chst auch mit 40 und 50 zuverl\u00e4ssig, wenn Last und Eiwei\u00df stimmen.",
+      },
+    ],
+  },
+
+  "flittard/rueckentraining": {
+    answer:
+      "R\u00fcckentraining in K\u00f6ln-Flittard plane ich um Schichtpl\u00e4ne herum: gezielter Kraftaufbau f\u00fcr Rumpf, H\u00fcfte und hintere Kette, zweimal pro Woche bei dir zu Hause, mit Terminen, die zu Fr\u00fch- und Sp\u00e4tschicht passen. Die Stunde kostet 50\u20ac, das Erstgespr\u00e4ch ist kostenlos.",
+    metaDescription:
+      "R\u00fcckentraining in K\u00f6ln-Flittard: Kraftaufbau f\u00fcr Rumpf und hintere Kette, Termine passend zur Schicht, Training zu Hause. 50\u20ac/Std, Erstgespr\u00e4ch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel, das in Schichten lebt",
+        body: "Flittard ist der n\u00f6rdlichste rechtsrheinische Stadtteil K\u00f6lns, direkt hinter der Stadtgrenze beginnt Leverkusen mit dem Chempark, und viele hier arbeiten dort oder in den Betrieben entlang der Grenze, oft in Wechselschicht. Feste Abendkurse funktionieren mit so einem Kalender nicht, der R\u00fccken meldet sich trotzdem. Deshalb liegen deine zwei Einheiten pro Woche nicht zu einer Kurszeit, sondern in deinem Schichtplan: nach der Fr\u00fchschicht, vor der Sp\u00e4tschicht, und in Nachtschichtwochen dort, wo du wirklich wach bist.",
+      },
+      {
+        title: "Stehen, drehen, heben: dein R\u00fccken braucht Kraft daf\u00fcr",
+        body: "Lange Stehphasen, wiederholte Drehbewegungen, Lasten, die aus ung\u00fcnstigen Positionen bewegt werden: Das ist die Belastung, die Industrie- und Anlagenarbeit dem R\u00fccken abverlangt. Dagegen hilft kein Schonen, sondern Kapazit\u00e4t. Wir bauen sie mit wenigen \u00dcbungen auf: H\u00fcftbeuge gegen Widerstand, Zug\u00fcbungen f\u00fcr den oberen R\u00fccken, Rumpfarbeit gegen Rotation, dazu sauberes Hebe-Muster mit steigender Last. Was du im Training hebst, hebt sich im Werk leichter.",
+      },
+      {
+        title: "Das Rheinufer als Ausgleich an freien Tagen",
+        body: "Flittard hat mit seinen 7,7 Quadratkilometern viel offenes Land und ein ruhiges St\u00fcck Rheinufer. An trainingsfreien Tagen steht dort eine z\u00fcgige Geh-Runde im Plan: 30 bis 45 Minuten flaches Gehen bringen Bewegung in H\u00fcfte und Wirbels\u00e4ule, ohne neue Last draufzulegen. Das ist kein Ersatz f\u00fcrs Krafttraining, aber der Teil, der verspannte Tage sp\u00fcrbar k\u00fcrzer macht.",
+      },
+      {
+        title: "Belastbarkeit in Stufen, schwarz auf wei\u00df",
+        body: "Wir starten mit einem Bewegungscheck und leichten Lasten und steigern in Stufen, die dein R\u00fccken quittieren kann. Jede Einheit steht im Protokoll. Nach acht Wochen vergleichen wir nicht nur Gewichte, sondern Alltagstests: eine Kiste vom Boden auf die Werkbank, Tragen \u00fcber eine festgelegte Strecke, eine komplette Schicht ohne das bekannte Ziehen am Abend. Das sind die Zahlen, die z\u00e4hlen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet R\u00fcckentraining in K\u00f6ln-Flittard?",
+        a: "Die 1-zu-1 Stunde kostet 50\u20ac, inklusive Anfahrt und Material. Das Online Coaching gibt es ab 150\u20ac im Monat. Das Erstgespr\u00e4ch ist kostenlos.",
+      },
+      {
+        q: "Bekomme ich Termine, die zu Wechselschicht passen?",
+        a: "Ja, das ist der Kern des Angebots hier. Wir legen die Termine pro Woche neu, passend zu deinem Schichtplan, auch fr\u00fchmorgens oder am fr\u00fchen Nachmittag.",
+      },
+      {
+        q: "Ich habe akute R\u00fcckenschmerzen. Kann ich starten?",
+        a: "Akute, starke oder ausstrahlende Schmerzen geh\u00f6ren zuerst zum Arzt. Das Training ist Kraftaufbau, keine Therapie. Nach \u00e4rztlicher Abkl\u00e4rung bauen wir die Belastbarkeit stufenweise wieder auf.",
+      },
+      {
+        q: "Wo findet das Training statt?",
+        a: "Bei dir zu Hause in Flittard, ich bringe Hanteln, Kettlebell und B\u00e4nder mit. Wer lieber im Studio trainiert, kombiniert beides.",
+      },
+    ],
+  },
+
+  "ostheim/athletiktraining": {
+    answer:
+      "Athletiktraining in K\u00f6ln-Ostheim findet auf der Merheimer Heide statt, direkt am Veedel: wiederholte Antritte, Richtungswechsel und Sprungserien auf Rasen, Kraft im Studio. Eine Stunde kostet 50\u20ac, das Erstgespr\u00e4ch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in K\u00f6ln-Ostheim: Antritte, Richtungswechsel und Spr\u00fcnge auf dem Rasen der Merheimer Heide, Kraft im Studio. 50\u20ac/Std, Erstgespr\u00e4ch kostenlos.",
+    sections: [
+      {
+        title: "Die Merheimer Heide ist dein Platz ohne Verein",
+        body: "Am Nordrand von Ostheim liegt die Merheimer Heide: weite, offene Rasenfl\u00e4chen, auf denen sich alles aufbauen l\u00e4sst, was ein Sportplatz kann, nur ohne Platzwart und Belegungsplan. Mit H\u00fctchen und Band stecken wir Sprintbahnen, Wechselparcours und Sprungzonen ab. F\u00fcr Ostheim hei\u00dft das: kein Anfahrtsweg, keine Hallenzeit, dein Athletiktraining beginnt ein paar Minuten von der Haust\u00fcr entfernt.",
+      },
+      {
+        title: "Nicht einmal schnell, sondern immer wieder schnell",
+        body: "Im Spiel entscheidet selten der eine Sprint, sondern der achte, wenn die Beine schwer sind. Deshalb trainieren wir wiederholte Antritte: kurze Sprints mit knapper Pause, dazwischen Tempo halten, dann wieder beschleunigen. Der Rasen der Heide ist daf\u00fcr ideal, weil Stollen oder Multinocken greifen und du wie im Spiel abstoppen und drehen kannst. Wer sonntags im Verein spielt, merkt den Unterschied zuerst in der zweiten Halbzeit.",
+      },
+      {
+        title: "Springen ist leicht, landen will gelernt sein",
+        body: "Sprungkraft bringt nur weiter, wenn Knie und Sprunggelenk die Landung kontrollieren, denn dort passieren die meisten Verletzungen im Amateursport. Auf dem nachgiebigen Rasen \u00fcben wir beides getrennt: Sprungserien f\u00fcr die Explosivkraft, Lande- und Abstopp\u00fcbungen f\u00fcr die Kontrolle, erst beidbeinig, dann einbeinig. Das ist der unspektakul\u00e4re Teil des Athletiktrainings, und der, der dich am zuverl\u00e4ssigsten auf dem Platz h\u00e4lt.",
+      },
+      {
+        title: "Tempo drau\u00dfen, Kraft drinnen",
+        body: "Die Basis f\u00fcr Schnelligkeit bleibt Kraft. Darum geh\u00f6rt zur Wochenstruktur neben der Heide-Einheit eine Krafteinheit im Studio oder bei dir zu Hause: Kniebeuge, H\u00fcftstreckung, Rumpf, mit dokumentierter Steigerung. Alle vier bis sechs Wochen messen wir Sprintzeiten und Sprungweite nach. Im Winter dreht sich das Verh\u00e4ltnis, mehr Kraft drinnen, kurze Tempoblöcke drau\u00dfen, damit im Fr\u00fchjahr beides da ist.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in K\u00f6ln-Ostheim?",
+        a: "Die 1-zu-1 Stunde kostet 50\u20ac. F\u00fcr Selbsttrainierer gibt es das Online Coaching mit Plan und Video-Check-ins ab 150\u20ac im Monat. Das Erstgespr\u00e4ch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich einen Verein oder Wettkampfziele?",
+        a: "Nein. Viele Anfragen kommen von Hobbyfu\u00dfballern und L\u00e4ufern, aber schneller, stabiler und belastbarer zu werden lohnt sich auch ohne Spielbetrieb. Das Niveau setzt der Technik-Check am Anfang.",
+      },
+      {
+        q: "Wo genau trainieren wir?",
+        a: "Tempo-, Sprung- und Wechselarbeit auf den Rasenfl\u00e4chen der Merheimer Heide am Nordrand von Ostheim, Kraft im Studio oder bei dir zu Hause. Material wie H\u00fctchen und B\u00e4nder bringe ich mit.",
+      },
+      {
+        q: "Was passiert bei Regen oder im Winter?",
+        a: "Der Plan dreht sich: mehr Kraft- und Stabilit\u00e4tsarbeit drinnen, kurze Tempoeinheiten drau\u00dfen, wenn der Boden es zul\u00e4sst. Athletik kennt keine Pause, nur andere Schwerpunkte.",
+      },
+    ],
+  },
+
+  "elsdorf/muskelaufbau": {
+    answer:
+      "Muskelaufbau in K\u00f6ln-Elsdorf funktioniert nach einer einfachen Regel: erst mehr Wiederholungen, dann mehr Gewicht. Zwei gef\u00fchrte Krafteinheiten pro Woche bei dir zu Hause, Equipment bringe ich mit. Die Stunde kostet 50\u20ac, das Erstgespr\u00e4ch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in K\u00f6ln-Elsdorf: Training zu Hause mit klarer Steigerungsregel, erst Wiederholungen, dann Gewicht. 50\u20ac/Std, Erstgespr\u00e4ch kostenlos.",
+    sections: [
+      {
+        title: "Eines der kleinsten Veedel, ein vollst\u00e4ndiges Training",
+        body: "Elsdorf geh\u00f6rt mit rund 1.700 Einwohnern zu den kleinsten Stadtteilen K\u00f6lns, eingerahmt von Urbach, Wahnheide und Z\u00fcndorf. Ein Studio oder einen Kursraum gibt es hier nicht, und f\u00fcr Muskelaufbau braucht es beides nicht. Was es braucht, ist Last, ein Protokoll und jemanden, der die Technik korrigiert. Ich komme mit verstellbaren Kurzhanteln, Bank und B\u00e4ndern zu dir, und ein freier Platz im Wohnzimmer oder in der Garage wird zweimal pro Woche zum Trainingsraum.",
+      },
+      {
+        title: "Erst Wiederholungen rauf, dann Gewicht rauf",
+        body: "Die h\u00e4ufigste Frage beim Krafttraining ist: Wann steigere ich? Meine Antwort ist eine feste Regel statt Bauchgef\u00fchl. Jede \u00dcbung hat einen Wiederholungsbereich, zum Beispiel sechs bis zehn. Du beginnst am unteren Ende, arbeitest dich \u00fcber die Wochen ans obere, und erst wenn du es sauber erreichst, wird das Gewicht erh\u00f6ht und das Spiel beginnt von vorn. Das nimmt jede R\u00e4tselei aus dem Training: Du wei\u00dft in jeder Einheit, was heute zu schaffen ist.",
+      },
+      {
+        title: "Zwei Einheiten pro Woche, der Rest ist Wachstum",
+        body: "Muskeln wachsen zwischen den Einheiten, nicht w\u00e4hrend. Zwei schwere, saubere Termine pro Woche mit je 45 bis 60 Minuten reichen deshalb aus, wenn Eiwei\u00df und Schlaf mitspielen. Du bekommst ein t\u00e4gliches Eiwei\u00dfziel, auf Wunsch stimmt Natalie als Ern\u00e4hrungsberaterin dein Essen auf den Aufbau ab. F\u00fcr lockere Bewegung an freien Tagen liegt die Groov in Z\u00fcndorf gleich nebenan, eine flache Runde dort st\u00f6rt die Erholung nicht.",
+      },
+      {
+        title: "Nach zw\u00f6lf Wochen wird verglichen, nicht gesch\u00e4tzt",
+        body: "Jede Einheit steht im Protokoll: \u00dcbung, Gewicht, Wiederholungen. Nach zw\u00f6lf Wochen legen wir die Zahlen neben die erste Woche und sehen ohne Diskussion, was passiert ist: wie viel mehr Last auf der Bank, wie viele Wiederholungen mehr in der Kniebeuge, was das Ma\u00dfband an Arm und Schulter sagt. Bewegt sich zu wenig, \u00e4ndere ich den Plan. Daf\u00fcr ist das Protokoll da.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in K\u00f6ln-Elsdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50\u20ac, inklusive Anfahrt nach Elsdorf und Material. Das Online Coaching gibt es ab 150\u20ac im Monat. Das Erstgespr\u00e4ch ist kostenlos.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche wirklich?",
+        a: "Ja, wenn beide geplant und schwer genug sind. Wachstum entsteht in der Erholung dazwischen. Mehr Einheiten bringen erst etwas, wenn Essen und Schlaf schon stimmen.",
+      },
+      {
+        q: "Wie viel Platz brauche ich zu Hause?",
+        a: "Wenige freie Quadratmeter, drinnen oder in der Garage. Verstellbare Kurzhanteln, Bank und B\u00e4nder bringe ich mit, du musst nichts anschaffen.",
+      },
+      {
+        q: "Ab wann sehe ich etwas?",
+        a: "Kraft steigt meist ab den ersten Wochen, sichtbare Ver\u00e4nderungen brauchen je nach Startpunkt acht bis zw\u00f6lf Wochen. Deshalb planen wir in Zw\u00f6lf-Wochen-Bl\u00f6cken und messen am Ende nach.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
