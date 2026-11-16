@@ -11298,6 +11298,264 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "elsdorf/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Elsdorf löst das Grundproblem jedes kleinen Ortsteils: Kurse und Studios rechnen sich erst mit vielen Teilnehmern, und die gibt es bei 1.726 Einwohnern nicht. Dein Coaching braucht nur dich: Trainingsplan in der App, wöchentlicher Video-Check-in, Ernährungssteuerung. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching für Köln-Elsdorf: Plan in der App, wöchentlicher Video-Check-in, trainiert wird zu Hause und auf den Wegen Richtung Zündorf. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Ein Angebot ohne Mindestteilnehmerzahl",
+        body: "Elsdorf ist mit 1.726 Einwohnern auf 1,77 km² der kleinste Ortsteil von Porz. Ein Rückenkurs, ein Zirkeltraining, ein Studio: alles davon braucht eine Gruppe, die sich hier schlicht nicht füllt. Deshalb gibt es diese Angebote im Ort nicht, und daran wird sich nichts ändern. Online Coaching dreht die Rechnung um: Es ist für genau eine Person gebaut. Dein Plan entsteht aus deinem Ziel, deinem Material und deinen Zeiten, nicht aus dem, was sich für einen Kursraum lohnt.",
+      },
+      {
+        title: "Trainiert wird vor Ort, betreut wird digital",
+        body: "Die Krafteinheiten stehen mit Video zu jeder Übung in der App und laufen in deinem Wohnzimmer oder Garten, aufgebaut auf dem, was du hast, und sei es nur ein Paar Kurzhanteln und ein Band. Für Ausdauerblöcke nutzt der Plan die ruhigen Straßen und Feldwege Richtung Zündorf und zur Groov, Strecken, die sich Woche für Woche wiederholen lassen. Einmal pro Woche sprechen wir per Video: was lief, was hakte, was sich ändert.",
+      },
+      {
+        title: "Der Plan gibt den Takt vor, den der Ort nicht vorgibt",
+        body: "In einem Veedel ohne Studio erinnert dich nichts ans Training, kein Gebäude, kein Kurs um 19 Uhr, keine Tasche im Flur. Genau dafür ist der Wochenplan da: feste Trainingstage, jede Einheit wird in der App protokolliert, und ich lese jedes Protokoll. Steigen die Zahlen nicht, ändert sich der Plan in der nächsten Woche, nicht irgendwann. So entsteht Verbindlichkeit ohne Anfahrt und ohne Vertragsbindung an ein Studio.",
+      },
+      {
+        title: "Technik live gibt es auf Wunsch dazu",
+        body: "Wer neue Übungen lieber einmal unter Aufsicht lernt, bucht einzelne 1-zu-1 Stunden dazu: Ich komme für 50€ pro Stunde nach Elsdorf, wir gehen die Technik durch, danach läuft der Plan wieder online weiter. Viele machen das in den ersten Wochen ein- oder zweimal und danach nur noch, wenn eine neue Übungsgruppe ansteht. Pflicht ist es nie, der Online-Plan funktioniert auch ohne.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Elsdorf?",
+        a: "Ab 150€ im Monat, mit Trainingsplan in der App, wöchentlichem Video-Check-in und Ernährungssteuerung. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Für den Anfang reichen Widerstandsbänder und ein Paar Kurzhanteln, der Plan wird um dein Material herum gebaut. Ob sich später eine Anschaffung lohnt, besprechen wir im Check-in.",
+      },
+      {
+        q: "Wie läuft der wöchentliche Check-in ab?",
+        a: "15 bis 20 Minuten per Video: Wir schauen auf Trainingslog, Gewichtstrend und deine Fragen, dann passe ich Plan oder Kalorien an. Zwischen den Terminen kannst du mir jederzeit Technik-Videos schicken.",
+      },
+      {
+        q: "Funktioniert Online Coaching auch für Anfänger?",
+        a: "Ja. Jede Übung hat ein Video, dein erstes Programm besteht aus wenigen, einfachen Bewegungen, und für die Technik kannst du einzelne 1-zu-1 Stunden dazunehmen. Schwieriger wird es erst, wenn du so weit bist.",
+      },
+    ],
+  },
+
+  "altstadt-sued/rueckentraining": {
+    answer:
+      "Rückentraining in der Kölner Südstadt beginnt beim Rad: Kaum ein Veedel legt mehr Wege über Lenker und Sattel zurück, und das Rad formt dieselbe gebeugte Haltung wie der Schreibtisch danach. Dein Rücken braucht die Gegenrichtung, Zug und Streckung, zweimal pro Woche am Rheinufer, bei dir zu Hause oder im Studio. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in der Kölner Südstadt: gezielte Kraft gegen den Radfahrer-Rücken, Zugübungen und Streckung statt nur Dehnen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Lenker formt dich, das Training formt zurück",
+        body: "Zur Arbeit über die Severinsbrücke, abends die Severinstraße entlang, am Wochenende den Rheinuferradweg: In der Südstadt ersetzt das Rad das Auto, und das ist gut so. Nur addieren sich dabei Stunden in derselben Position, Hüfte gebeugt, oberer Rücken rund, Arme nach vorn gestützt. Wer danach noch am Bildschirm sitzt, verbringt fast den ganzen Tag in Beugung. Das Training setzt deshalb konsequent auf die Gegenseite: Rudern, Kreuzheben-Varianten, Streckung über die ganze hintere Kette.",
+      },
+      {
+        title: "Zwei Einheiten pro Woche, drei mögliche Orte",
+        body: "Trainiert wird dort, wo es in deine Woche passt: am Rheinufer zwischen Rheinauhafen und Südbrücke mit Bändern und mitgebrachtem Gewicht, in deiner Wohnung oder im Studio an Langhantel und Kabelzug. Der Inhalt bleibt gleich: Zugübungen für den oberen Rücken, Hüftstreckung für die Rückseite, Rumpfarbeit gegen das Hohlkreuz. Jede Einheit wird protokolliert, die Last steigt in kleinen, geplanten Schritten.",
+      },
+      {
+        title: "Dehnen öffnet, aber nur Kraft hält",
+        body: "Nach dem Radfahren zu dehnen ist sinnvoll, vor allem für Hüftbeuger und Brustmuskulatur. Es löst das Problem aber nicht, denn eine geöffnete Position, die keine Muskulatur halten kann, fällt in die alte Haltung zurück, sobald du wieder aufsteigst. Deshalb kombiniere ich beides: kurze Mobilitätsblöcke vor der Einheit, danach die Kraftarbeit, die Schulterblätter und Strecker so weit bringt, dass die aufrechte Haltung von allein hält.",
+      },
+      {
+        title: "Ein stabiler Rücken macht auch das Rad besser",
+        body: "Das Ziel ist nicht, weniger zu fahren. Mit kräftigem Rumpf und belastbarer hinterer Kette sitzt du ruhiger auf dem Rad, der Nacken meldet sich auf langen Strecken später, und Einkäufe oder Wasserkisten in den Altbau zu tragen hört auf, ein Risiko zu sein. Nach vier bis sechs Wochen vergleichen wir die Zahlen aus dem Protokoll, und du merkst den Unterschied dort, wo er zählt: im Alltag zwischen Chlodwigplatz und Rheinufer.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in der Südstadt?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Material und Protokoll. Wer nach Einweisung selbst trainieren will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Soll ich weniger Rad fahren, bis der Rücken stärker ist?",
+        a: "Nein. Radfahren bleibt deine Ausdauer und dein Verkehrsmittel. Wir ergänzen die fehlende Gegenrichtung mit Zug- und Streckübungen, damit die vielen Stunden auf dem Sattel kein Übergewicht in der Haltung mehr haben.",
+      },
+      {
+        q: "Ich habe gerade akute Rückenschmerzen. Kann ich starten?",
+        a: "Akute oder ausstrahlende Schmerzen gehören zuerst in ärztliche Abklärung, das Training ersetzt keine Diagnose. Danach starten wir im beschwerdefreien Bereich und steigern die Last kontrolliert.",
+      },
+      {
+        q: "Reichen Übungen mit dem eigenen Körpergewicht?",
+        a: "Für den Einstieg ja, dauerhaft selten: Der Rücken wird belastbar, wenn der Widerstand über Wochen steigt. Dafür nutze ich Bänder, Kurzhanteln und im Studio den Kabelzug, immer in Stufen, die zu dir passen.",
+      },
+    ],
+  },
+
+  "meschenich/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Meschenich ist oft ein Weg zurück: nach einer Verletzung, nach einer langen Pause, vor dem Wiedereinstieg ins Mannschaftstraining. Sprint, Stabilität und Sprungkraft werden stufenweise wieder aufgebaut, auf den flachen Feldwegen Richtung Immendorf und im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Meschenich: stufenweiser Wiederaufbau von Sprint, Stabilität und Sprungkraft nach Verletzung oder Pause. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Nicht mit Anlauf ins nächste Loch",
+        body: "Der häufigste Fehler nach einer Verletzungs- oder Lebenspause ist der direkte Sprung zurück ins volle Programm: erstes Mannschaftstraining, erster Zweikampf, und die alte Stelle meldet sich wieder. Athletiktraining schiebt dazwischen eine Treppe aus Stufen, die dein Körper nacheinander nimmt: erst saubere Bewegung ohne Tempo, dann Tempo auf gerader Strecke, dann Richtungswechsel und Sprünge. Eine Freigabe von Arzt oder Physio ist die Startlinie, ersetzen kann ich beide nicht.",
+      },
+      {
+        title: "Erst gerade, dann schnell, dann wendig",
+        body: "Meschenich liegt am südlichen Stadtrand, und genau das ist für den Wiederaufbau praktisch: Die flachen, geraden Feldwege Richtung Immendorf und Godorf sind ideale Strecken für Steigerungsläufe und Tempoarbeit, immer gleich, immer vergleichbar. Was Gelenke und Reflexe fordert, kommt später und kontrolliert dazu: Abstoppen, Landen, Richtungswechsel, im Studio oder auf Rasen. So wächst die Belastung in der Reihenfolge, die dein Körper verträgt, nicht in der, die der Spielplan verlangt.",
+      },
+      {
+        title: "Zahlen entscheiden, wann du bereit bist",
+        body: "Ob du wieder voll einsteigen kannst, ist keine Gefühlsfrage. Wir messen Sprintzeiten über kurze Distanzen, Sprunghöhe und Einbeinstabilität und vergleichen die Seiten miteinander: Erst wenn die zuvor verletzte Seite wieder auf dem Niveau der gesunden arbeitet, kommt die nächste Stufe frei. Diese Werte nehmen wir alle vier Wochen neu auf, und du siehst den Fortschritt als Zahl, nicht als Hoffnung.",
+      },
+      {
+        title: "Für wen das in Meschenich gedacht ist",
+        body: "Typische Anfragen aus dem Kölner Süden kommen von Fußballern aus den Vereinen der Umgebung, die nach Monaten Pause wieder spielen wollen, von Läufern nach hartnäckigen Beschwerden und von Leuten, die nach Jahren ohne Sport nicht gleich im ersten Monat alles kaputt machen wollen. Das Prinzip ist für alle gleich: Stufen statt Sprünge, Messung statt Bauchgefühl, und ein Plan, der bei dir zu Hause im Veedel beginnt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Meschenich?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Für das Eigentraining zwischen den Terminen bekommst du die Übungen in der App. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich eine ärztliche Freigabe?",
+        a: "Nach einer Verletzung ja: Das Training beginnt erst, wenn Arzt oder Physiotherapeut grünes Licht geben. Ich übernehme den Teil danach, den Aufbau von Belastbarkeit, Tempo und Spielfähigkeit.",
+      },
+      {
+        q: "Wie lange dauert der Weg zurück ins Mannschaftstraining?",
+        a: "Das hängt von Verletzung, Pause und Trainingsstand ab, seriös lässt sich das erst nach den ersten Messungen eingrenzen. Der Plan macht den Fortschritt aber sichtbar: Du siehst alle vier Wochen, welche Stufe erreicht ist.",
+      },
+      {
+        q: "Geht Athletiktraining auch ohne Verletzung davor?",
+        a: "Ja. Dieselben Bausteine, Sprint, Sprungkraft, Stabilität, machen auch Gesunde schneller und belastbarer. Dann starten wir einfach eine Stufe höher, der Technik-Check am Anfang legt das Niveau fest.",
+      },
+    ],
+  },
+
+  "neuehrenfeld/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Neuehrenfeld unterscheidet sich in einem Punkt von jedem Rückenkurs: Es wird schwerer. Ein Kurs hält dich in Bewegung, bleibt aber Woche für Woche auf demselben Niveau, und ein Rücken wird belastbar, wenn die Last planvoll steigt. Zwei Einheiten pro Woche bei dir zu Hause oder im Studio, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Neuehrenfeld: steigende Last statt immer gleicher Rückenkurs, zwei Einheiten pro Woche zu Hause oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum der Kurs allein nicht reicht",
+        body: "Rund um Neuehrenfeld ist das Kursangebot groß: Rückenfit, Pilates, Yoga, vieles davon gut gemacht. Ein Gruppenkurs hat nur eine eingebaute Grenze: Er muss für zwölf Leute gleichzeitig passen, also bleibt die Belastung in der Mitte und dort stehen. Muskulatur passt sich aber nur an, was sie fordert, und was sie letzte Woche schon konnte, fordert sie nicht mehr. Der Kurs darf bleiben, er ist Bewegung und tut gut. Die Aufgabe, aus einem empfindlichen Rücken einen belastbaren zu machen, übernimmt das Krafttraining.",
+      },
+      {
+        title: "Steigende Last funktioniert auch im Wohnzimmer",
+        body: "Für Progression braucht es kein Gerätestudio. Rudern mit dem Band wird zu Rudern mit Kurzhantel, aus beidbeinigem Heben wird einbeiniges, aus acht Wiederholungen werden zehn mit mehr Gewicht. Ich bringe das Material mit in deine Wohnung und wähle Varianten, die auf wenigen Quadratmetern und ohne Lärm für die Nachbarn funktionieren. Wer lieber an Langhantel und Kabelzug arbeitet, legt die Einheiten ins Studio, der Plan bleibt derselbe.",
+      },
+      {
+        title: "Der Blücherpark bleibt dein Ausgleich",
+        body: "Zwischen den beiden Krafteinheiten gehört Bewegung in die Woche, die nicht fordert, sondern löst: Runden im Blücherpark, der Weg zum Lenauplatz zu Fuß, das Rad statt der Bahn. Diese Grundbewegung hält den Rücken zwischen den Einheiten geschmeidig und beschleunigt die Erholung. Sie ersetzt das Training nicht, aber sie macht es wirksamer, und in Neuehrenfeld liegt sie direkt vor der Tür.",
+      },
+      {
+        title: "Fortschritt steht im Protokoll, nicht im Gefühl",
+        body: "Jede Einheit wird dokumentiert: Übung, Gewicht, Wiederholungen. Alle vier bis sechs Wochen vergleichen wir die Zahlen mit dem Start, und du siehst, was dein Rücken jetzt hält, was vor zwei Monaten unmöglich war. Diese Steigerung, nicht ein einzelner guter Tag, ist der Grund, warum die Beschwerden im Alltag seltener werden: Ein Rücken, der mehr kann, wird von denselben Aufgaben weniger gestresst.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Neuehrenfeld?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Material und Protokoll. Wer nach der Einweisung selbstständig weitermacht, wechselt ins Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Soll ich meinen Rückenkurs oder Yoga aufgeben?",
+        a: "Nein. Kurse liefern Bewegung und Mobilität, das ist wertvoll. Was ihnen fehlt, ist die individuelle Steigerung der Last, und genau die ergänzen wir mit zwei kurzen Krafteinheiten pro Woche.",
+      },
+      {
+        q: "Was ist bei akuten Schmerzen?",
+        a: "Akute oder ausstrahlende Beschwerden klärst du zuerst ärztlich ab, das Training ersetzt keine Diagnose. Danach beginnen wir im schmerzfreien Bereich und steigern kontrolliert.",
+      },
+      {
+        q: "Wie schnell merke ich einen Unterschied?",
+        a: "Im Protokoll nach wenigen Wochen, im Alltag meist nach sechs bis acht: Treppen, Tragen und langes Sitzen fühlen sich zuerst an den guten Tagen leichter an, dann immer öfter. Ein festes Datum verspreche ich nicht.",
+      },
+    ],
+  },
+
+  "poll/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Poll mit Natalie, Ernährungsberaterin für Sport- und Fitnessernährung. Ihr Ansatz hier: Der Tag wird von hinten geplant. Das gemeinsame Abendessen steht fest, also richten sich Frühstück, Mittag und Snacks danach, nicht umgekehrt. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung für Köln-Poll mit Natalie: der Tag wird vom Abendessen aus geplant, nicht gegen es. Online per Video und App, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In Poll wird abends gekocht, und das bleibt so",
+        body: "Zwischen Alt-Poll und den neueren Straßen Richtung Westhoven wird abends warm gegessen, oft mit der ganzen Familie am Tisch. Die meisten Ernährungspläne tun so, als gäbe es diesen Fixpunkt nicht: Sie verteilen den Tag gleichmäßig und scheitern dann jeden Abend um sieben. Natalie macht es andersherum. Das Abendessen ist gesetzt, in seiner normalen Größe, und der Rest des Tages wird so gebaut, dass es hineinpasst.",
+      },
+      {
+        title: "Von hinten geplant sieht ein Tag so aus",
+        body: "Steht abends Pasta mit Hackfleischsoße auf dem Plan, rechnet Natalie von dort zurück: ein Frühstück mit viel Eiweiß und wenig Zucker, mittags eine Mahlzeit, die satt macht, ohne das Kalorienbudget zu sprengen, und ein Nachmittag ohne Nebenbei-Essen, weil das Abendessen ja sicher kommt. Dieses Wissen ist der eigentliche Hebel: Wer weiß, dass abends richtig gegessen wird, muss sich durch den Nachmittag nicht snacken.",
+      },
+      {
+        title: "Sommerabende an den Wiesen sind eingerechnet",
+        body: "Poll hat mit den Poller Wiesen eine der bekanntesten Freiflächen der Stadt vor der Tür, und im Sommer wird dort gegrillt. Solche Abende sprengen keinen Plan, der sie kennt: Natalie plant sie als das große Essen des Tages ein, davor bleibt der Tag leichter, danach geht es normal weiter. Verzicht auf das Veedel-Leben ist keine Strategie, die jemand durchhält, also ist sie auch nicht Teil des Plans.",
+      },
+      {
+        title: "Beratung per Video, Alltag bleibt Alltag",
+        body: "Die Zusammenarbeit läuft komplett online: ein Analysegespräch per Video am Anfang, danach dein Rahmen in der App und ein kurzer wöchentlicher Check-in. Zwischen den Terminen reichen Notizen oder ein Foto vom Teller, Natalie antwortet konkret und ohne Belehrung. Wer zusätzlich trainieren will, kombiniert die Beratung mit 1-zu-1 Einheiten bei Angelo in Poll, nötig ist das nicht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Poll?",
+        a: "Sie ist Teil des Online Coachings ab 150€ im Monat, mit Analysegespräch, Wochenrahmen und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Muss meine Familie beim Plan mitmachen?",
+        a: "Nein. Gekocht wird ein Essen für alle, angepasst werden nur deine Portionen und der Rest deines Tages. Niemand am Tisch muss etwas anderes essen als sonst.",
+      },
+      {
+        q: "Funktioniert das auch mit Schichtarbeit oder späten Feierabenden?",
+        a: "Ja. Der Fixpunkt muss nicht 19 Uhr heißen: Natalie plant vom Zeitpunkt deiner Hauptmahlzeit aus, egal ob der um 18 oder um 22 Uhr liegt. Wichtig ist nur, dass er verlässlich ist.",
+      },
+      {
+        q: "Hilft Natalie auch bei medizinischen Ernährungsfragen?",
+        a: "Nein. Ihr Schwerpunkt ist Sport- und Fitnessernährung für gesunde Erwachsene. Unverträglichkeiten, Erkrankungen oder Essstörungen gehören in ärztliche oder therapeutische Betreuung, das sagen wir im Erstgespräch offen.",
+      },
+    ],
+  },
+
+  "elsdorf/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Elsdorf hat einen Verbündeten, den die Innenstadt nicht bietet: Hier sehen die Wochen gleich aus. Feste Essenszeiten, eine feste Gehrunde Richtung Zündorf, zwei Krafteinheiten pro Woche bei dir zu Hause, und was sich wiederholt, lässt sich steuern. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Elsdorf: gleichmäßige Wochen als Vorteil nutzen, feste Gehrunde, Krafttraining zu Hause, Kalorienziel von Natalie. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Gleichmäßige Wochen sind beim Abnehmen ein Vorteil",
+        body: "In der Innenstadt scheitern Diäten an Überraschungen: spontane Essen, Einladungen, der Imbiss auf dem Heimweg. In einem Ort mit 1.726 Einwohnern gibt es diese Fallen kaum, die Woche läuft in verlässlichen Bahnen zwischen Arbeit, Zuhause und Familie. Genau darauf baue ich den Plan: Ein Kaloriendefizit, das einmal sauber in deinen Wochenrhythmus eingepasst wird, hält hier von allein, weil ihm nichts dazwischenkommt. Die Schwäche des kleinen Ortes, dass immer dasselbe passiert, wird deine Stärke.",
+      },
+      {
+        title: "Eine Runde, die zur Gewohnheit wird",
+        body: "Statt eines vagen Bewegungsvorsatzes bekommst du eine konkrete Strecke: die immergleiche Gehrunde über die ruhigen Wege Richtung Zündorf oder zur Groov, an festen Tagen, in zügigem Tempo. Dieselbe Runde hat zwei Vorteile: Du musst nie neu entscheiden, ob und wohin, und ich kann die Zeiten vergleichen. Aus 35 Minuten werden 31, und diese Zahl erzählt mehr über deine Fitness als jede Waage.",
+      },
+      {
+        title: "Zwei Krafteinheiten schützen, was bleiben soll",
+        body: "Wer nur weniger isst, verliert Muskeln mit, und mit ihnen sinkt der Verbrauch, bis das Abnehmen stockt. Deshalb gehören zwei geführte Krafteinheiten pro Woche in den Plan, bei dir zu Hause mit mitgebrachtem Material: Grundübungen, saubere Technik, langsam steigende Gewichte. Ein Studio braucht es dafür nicht, was in Elsdorf ohnehin praktisch ist, denn hier gibt es keins.",
+      },
+      {
+        title: "Das Ziel setzt Natalie, den Takt setzt die Woche",
+        body: "Dein Kalorienziel rechnet Natalie, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, auf Basis deiner Werte und deines Alltags aus. Bewertet wird der Verlauf über Wochen, nicht der einzelne Morgen auf der Waage, und nachjustiert wird in festen Abständen. Realistisch sind etwa ein halbes Kilo pro Woche, ohne Crash und ohne Verbotslisten, dafür in einem Rhythmus, den dein Ort dir sowieso vorgibt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Elsdorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Die Kombination aus Trainingsplan und Ernährungssteuerung gibt es im Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich auf bestimmte Lebensmittel verzichten?",
+        a: "Nein. Das Defizit entsteht über Portionen und Wochenplanung, nicht über Verbote. Was dir wichtig ist, bleibt im Plan, nur in Mengen, die zum Ziel passen.",
+      },
+      {
+        q: "Wie schnell nehme ich ab?",
+        a: "Etwa ein halbes Kilo pro Woche ist das Tempo, das ohne Muskelverlust und ohne Jojo funktioniert. Die Richtung siehst du nach zwei bis drei Wochen im Wochentrend, nicht am einzelnen Tag.",
+      },
+      {
+        q: "Reicht Gehen als Bewegung, oder muss ich joggen?",
+        a: "Zügiges Gehen reicht völlig, wenn es regelmäßig passiert. Die feste Runde macht den Unterschied, nicht das Tempo, und wer später laufen will, steigert sich auf derselben Strecke.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
