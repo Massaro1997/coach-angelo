@@ -261,6 +261,12 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 253 | /koeln/deutz/ems-alternative | 0 | 2 | 13,0 | FATTA (giro 58, 16/11) |
 | 254 | /koeln/duennwald/rueckentraining | 0 | 2 | 13,0 | FATTA (giro 58, 16/11) |
 | 255 | /koeln/ossendorf/muskelaufbau | 0 | 2 | 17,5 | FATTA (giro 58, 16/11) |
+| 256 | /koeln/neustadt-sued/ernaehrungsberatung | 0 | 2 | 20,0 | FATTA (giro 59, 16/11) |
+| 257 | /koeln/urbach/ernaehrungsberatung | 0 | 2 | 21,0 | FATTA (giro 59, 16/11) |
+| 258 | /koeln/neustadt-nord/abnehmen | 0 | 2 | 29,0 | FATTA (giro 59, 16/11) |
+| 259 | /koeln/neustadt-nord/personal-training | 0 | 2 | 46,0 | FATTA (giro 59, 16/11) |
+
+Righe 256-259 entrate il 16/11/2026 (giro 59, riaggiornamento GSC a 90gg fino al 14/11, 333 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 78 candidate fuori coda prima dell'ingresso, tutte a 0 click e 2 impressioni o meno; le quattro entrate sono fra pos 20,0 e 46,0. Giro da 4 pagine, non 6: settimo slot della giornata con ~3 punti di piano residui, motivo = budget).
 
 Righe 248-251 entrate il 16/11/2026 (giro 57, riaggiornamento GSC a 90gg fino al 14/11, 333 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 86 candidate fuori coda prima dell'ingresso, tutte a 0 click e 2 impressioni o meno; le quattro entrate sono fra pos 11,0 e 12,0. Giro da 4 pagine, non 6: quinto slot della giornata con ~6 punti di piano residui, motivo = budget).
 

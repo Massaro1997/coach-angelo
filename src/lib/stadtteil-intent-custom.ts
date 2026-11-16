@@ -11127,6 +11127,177 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "neustadt-sued/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Neustadt-Süd mit Natalie, Ernährungsberaterin für Sport- und Fitnessernährung. Ihr Schwerpunkt hier: genug Eiweiß auch dann, wenn du überwiegend pflanzlich isst, ohne dich in eine Richtung zu bekehren. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Neustadt-Süd: genug Eiweiß auch bei überwiegend pflanzlicher Ernährung, ohne Verbote. Online mit Natalie, ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Pflanzlich essen und trotzdem Muskeln aufbauen",
+        body: "In der Neustadt-Süd, zwischen Zülpicher Viertel, Rathenauplatz und Volksgarten, isst ein großer Teil der Leute überwiegend vegetarisch oder gleich vegan. Das ist kein Problem, aber es verschiebt eine Baustelle: Wer trainiert und sein Essen vor allem aus Gemüse, Getreide und Bowls baut, landet oft bei viel Volumen und zu wenig Eiweiß. Die Folge kennt Natalie aus vielen Erstgesprächen: Das Training läuft, der Körper verändert sich trotzdem kaum. Genau da setzt die Beratung an.",
+      },
+      {
+        title: "Woher das Eiweiß kommt, wenn Fleisch nicht die Antwort ist",
+        body: "Natalie rechnet zuerst aus, wie viel Eiweiß du für dein Ziel brauchst, und baut es dann aus dem auf, was du ohnehin isst: Linsen, Kichererbsen und Bohnen als Basis, Tofu und Tempeh als planbare Hauptquellen, dazu Quark, Skyr und Eier, wenn du vegetarisch unterwegs bist. Wichtig ist die Verteilung: drei Mahlzeiten mit einer klaren Eiweißquelle schlagen eine große am Abend. Proteinpulver ist dabei ein Werkzeug für volle Tage, keine Pflicht.",
+      },
+      {
+        title: "Keine Bekehrung, in keine Richtung",
+        body: "Die Beratung hat keine Agenda: Wer Fleisch isst, muss nicht aufhören, wer vegan lebt, bekommt keinen Fisch in den Plan geredet. Natalie arbeitet mit deiner echten Woche, per Video und App. Du schickst ihr, was du tatsächlich isst, sie stellt Mengen, Eiweiß und Reihenfolge richtig und passt den Plan an, wenn sich dein Alltag ändert. Verbotslisten gibt es nicht, dafür Antworten auf die Frage, was du konkret einkaufst und bestellst.",
+      },
+      {
+        title: "Ernährung und Training greifen ineinander",
+        body: "Die Beratung ist Teil des Online Coachings ab 150€ im Monat und läuft neben deinem Training her, egal ob du bei Angelo 1-zu-1 trainierst oder nach Plan allein. Wer beides kombiniert, trainiert in der Neustadt-Süd meist draußen: der Volksgarten und der Innere Grüngürtel liegen direkt im Veedel, auf 2,87 km² wohnen hier knapp 38.000 Menschen, die Wege sind kurz. Der erste Schritt ist in beiden Fällen derselbe: ein kostenloses Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Neustadt-Süd?",
+        a: "Die Beratung mit Natalie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Funktioniert Muskelaufbau mit veganer Ernährung?",
+        a: "Ja. Entscheidend sind die Gesamtmenge an Eiweiß, die Verteilung über den Tag und ausreichend Kalorien. Mit Hülsenfrüchten, Tofu, Tempeh und bei Bedarf einem pflanzlichen Proteinpulver ist das gut planbar, Natalie rechnet dir die Mengen konkret aus.",
+      },
+      {
+        q: "Wie viel Eiweiß brauche ich überhaupt?",
+        a: "Für Trainierende sind 1,6 bis 2 Gramm pro Kilogramm Körpergewicht am Tag eine belastbare Spanne. Bei rein pflanzlicher Ernährung setzt Natalie eher das obere Ende an, weil pflanzliche Quellen etwas schlechter verwertet werden.",
+      },
+      {
+        q: "Muss ich dafür Nahrungsergänzungsmittel nehmen?",
+        a: "Nein. Die Beratung baut auf echtem Essen auf. Ein Proteinpulver kann an vollen Tagen helfen und bei veganer Ernährung ist Vitamin B12 Standard, aber beides bespricht Natalie mit dir einzeln statt pauschal.",
+      },
+    ],
+  },
+
+  "urbach/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Porz-Urbach mit Natalie, Ernährungsberaterin für Sport- und Fitnessernährung. Ihr Ansatz hier: nicht weniger essen, sondern anders verteilen, denn bei den meisten ist der Tag vorne leer und hinten schwer. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Urbach: Mahlzeiten neu verteilen statt verbieten, weniger Abendhunger. Online mit Natalie, ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Vorne leer, hinten schwer: das häufigste Muster",
+        body: "Der typische Tag, den Natalie in Erstgesprächen aus Urbach und dem Rest von Porz hört, sieht so aus: morgens nur Kaffee, mittags irgendwas Schnelles zwischen zwei Terminen, und ab dem Abendessen holt der Körper alles nach, bis in den späten Abend. In Summe sind das oft gar nicht zu viele Kalorien für den Tag, aber sie sitzen am falschen Ende. Der späte Hunger fühlt sich wie ein Disziplinproblem an, ist aber die logische Antwort auf zehn fast leere Stunden davor.",
+      },
+      {
+        title: "Umverteilen statt weglassen",
+        body: "Natalie dreht die Verteilung um, nicht die Verbote auf: ein Frühstück mit einer echten Eiweißquelle, ein Mittagessen, das den Namen verdient, und dann wird der Abend von selbst kleiner. Du isst nicht weniger, du isst früher. Die Erfahrung aus der Praxis ist ziemlich zuverlässig: Wer vormittags auf seine Eiweißmenge kommt, kämpft abends deutlich seltener gegen den Süßkram an. Erst wenn die Verteilung steht, geht es um Kalorienziele.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Alles online, per Video-Termin und App: Du zeigst Natalie eine normale Woche, so wie sie wirklich aussieht, mit Pendelzeiten, Familienessen und dem, was abends auf der Couch passiert. Daraus baut sie einen Plan mit deinen Gerichten in neuer Reihenfolge und neuen Mengen. Nichts davon verlangt Sonderzutaten oder doppeltes Kochen. Alle ein bis zwei Wochen wird nachjustiert, bis der Tag von allein trägt.",
+      },
+      {
+        title: "Warum das in Urbach gut funktioniert",
+        body: "Urbach ist mit 13.179 Einwohnern auf 2,29 km² ein kompaktes Wohnveedel zwischen Porz-Mitte und der Wahner Heide. Die meisten pendeln zur Arbeit und sind lange aus dem Haus, genau deshalb kippt der Tag hier so oft nach hinten. Die Beratung braucht keinen Weg zu einer Praxis: Die Termine liegen vor der Arbeit oder nach dem Abendessen. Wer zusätzlich trainieren will, kombiniert sie mit 1-zu-1 Training bei sich zu Hause, eine Stunde mit Angelo kostet 50€.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Urbach?",
+        a: "Sie ist Teil des Online Coachings ab 150€ im Monat, inklusive Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Muss ich dauerhaft Kalorien zählen?",
+        a: "Nein. Am Anfang schaut Natalie genau hin, damit die Mengen stimmen. Danach läuft der Tag über feste Mahlzeiten-Bausteine, die du ohne Waage und App zusammenstellen kannst.",
+      },
+      {
+        q: "Was ist mit dem gemeinsamen Abendessen mit der Familie?",
+        a: "Das bleibt. Verändert wird vor allem, was vor dem Abendessen passiert: Wer tagsüber richtig isst, kommt nicht ausgehungert an den Tisch und braucht danach keinen zweiten Abend-Snack mehr.",
+      },
+      {
+        q: "Hilft die Beratung auch beim Abnehmen?",
+        a: "Ja. Die neue Verteilung ist meist der erste Schritt, danach legt Natalie mit dir ein Kalorienziel fest. In Kombination mit zwei Krafteinheiten pro Woche ist ein halbes bis ein Kilo Fett pro Woche ein realistisches Tempo.",
+      },
+    ],
+  },
+
+  "neustadt-nord/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Neustadt-Nord scheitert oft nicht am Essen, sondern am Schlaf: Nach kurzen Nächten steigt der Appetit messbar, vor allem auf Süßes und Schnelles. Deshalb plane ich dein Defizit zusammen mit deinen Abenden, dazu zwei Krafteinheiten pro Woche und Gehstrecken im Grüngürtel. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Neustadt-Nord: warum kurze Nächte den Appetit treiben und wie Defizit, Krafttraining und Grüngürtel-Runden zusammenpassen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Defizit wird nachts entschieden",
+        body: "Zwischen Ring, MediaPark und Agnesviertel sind die Abende lang: späte Termine, Gastronomie vor der Haustür, der Laptop noch einmal nach 22 Uhr. Wer regelmäßig unter sieben Stunden schläft, hat am Folgetag nachweislich mehr Appetit und greift eher zu schnellen Kalorien, das zeigen Schlafstudien seit Jahren einheitlich. Das fühlt sich dann wie fehlende Disziplin an, ist aber Physiologie. Deshalb frage ich im Erstgespräch nicht nur, was du isst, sondern wann du schläfst.",
+      },
+      {
+        title: "Der Plan: Schlaffenster, feste Mahlzeiten, Kraft",
+        body: "Wir legen ein realistisches Schlaffenster fest, das an vier bis fünf Abenden pro Woche hält, und bauen die Mahlzeiten so, dass der Tag ohne ständiges Snacken auskommt. Dazu kommen zwei Krafteinheiten pro Woche, damit beim Abnehmen Muskeln bleiben statt verschwinden. Das Kalorienziel legt Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, mit dir fest. Ein halbes bis ein Kilo Fett pro Woche ist ein Tempo, das du neben einem vollen Job durchhältst.",
+      },
+      {
+        title: "Bewegung liegt hier direkt vor der Tür",
+        body: "Neustadt-Nord hat für ein Innenstadtveedel ungewöhnlich viel Grün am Rand: Der Innere Grüngürtel zieht sich an der Westseite entlang, der Stadtgarten liegt mittendrin. Deine Geh-Kilometer sammelst du auf dem Arbeitsweg und mit festen Runden dort, ohne extra Sportprogramm. Trainiert wird draußen im Grüngürtel, bei dir zu Hause oder im Studio, je nachdem, was in deine Woche passt.",
+      },
+      {
+        title: "Was ich bewusst nicht mache",
+        body: "Kein Plan mit sechs Trainingstagen, der nach drei Wochen kippt, keine verbotenen Lebensmittel und kein schlechtes Gewissen für einen Abend im Belgischen Viertel. Auf 3,49 km² leben hier 28.604 Menschen, und das Veedel lebt abends, das wegzuplanen wäre unehrlich. Stattdessen bekommt die Woche ein Budget, in das solche Abende hineinpassen, und wir messen alle vier Wochen nach, ob Gewicht und Umfänge sich bewegen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Neustadt-Nord?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Wer lieber mit App-Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat, dort ist die Ernährungsberatung mit Natalie enthalten. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Kann ich abnehmen, obwohl ich wenig schlafe?",
+        a: "Ja, aber es ist spürbar schwerer: Der Appetit steigt und die Lust auf Bewegung sinkt. Deshalb arbeiten wir an beidem gleichzeitig. Oft reicht schon ein stabileres Schlaffenster an Werktagen, perfekt muss es nicht sein.",
+      },
+      {
+        q: "Muss ich auf Abende im Veedel verzichten?",
+        a: "Nein. Das Wochenbudget rechnet Restaurant- und Kneipenabende ein. Entscheidend ist der Schnitt über die Woche, nicht der einzelne Abend.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Auf der Waage meist in den ersten zwei Wochen, sichtbar nach sechs bis acht. Wir messen alle vier Wochen Gewicht und Umfänge, damit du den Verlauf schwarz auf weiß hast und nicht nach Tagesform urteilst.",
+      },
+    ],
+  },
+
+  "neustadt-nord/personal-training": {
+    answer:
+      "Personal Training in Köln-Neustadt-Nord lege ich in die Stunde, die dir niemand nimmt: früh am Morgen, bevor der Kalender aufwacht. Treffpunkt vor deiner Haustür, trainiert wird im Stadtgarten, im Inneren Grüngürtel oder bei dir zu Hause, um 9 Uhr sitzt du am Schreibtisch. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Neustadt-Nord: feste Morgen-Einheiten im Stadtgarten oder Grüngürtel, bevor der Arbeitstag beginnt. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Abendtermin stirbt in diesem Veedel zuerst",
+        body: "Neustadt-Nord ist das Veedel der vollen Abende: Nach Feierabend warten Freunde im Belgischen Viertel, ein Konzert im Stadtgarten oder einfach der Tisch, der sich um 19 Uhr spontan ergibt. Genau dann liegt bei den meisten der Trainingstermin, und genau deshalb fällt er aus. Nach ein paar Wochen Absagen ist das Projekt beendet. Das Problem ist nicht dein Wille, es ist die Uhrzeit, gegen die das Training hier antreten muss.",
+      },
+      {
+        title: "Die Morgen-Einheit, bevor der Tag dich einholt",
+        body: "Deshalb drehe ich den Termin nach vorne: 7 Uhr, ich stehe mit dem Material vor deiner Haustür, das Warm-up ist der Weg in den Stadtgarten oder den Inneren Grüngürtel. 60 Minuten später bist du zurück, duschst zu Hause und sitzt um 9 Uhr am Schreibtisch, mit dem Training bereits im Sack. Um diese Uhrzeit funkt nichts dazwischen: keine Meetings, keine spontanen Verabredungen. Morgen-Termine werden in meiner Erfahrung deutlich seltener abgesagt als Abend-Termine.",
+      },
+      {
+        title: "Mit Plan und nachgehaltener Steigerung",
+        body: "Am Anfang steht ein Check: Beweglichkeit, Kraft, Grundmuster wie Kniebeuge und Hüftstreckung. Danach trainierst du zweimal pro Woche nach Plan, jede Einheit wird dokumentiert, alle vier bis sechs Wochen vergleichen wir die Zahlen. Krafttraining läuft mit mitgebrachtem Material draußen oder in deiner Wohnung, auch eine Altbauwohnung ohne freie Fläche reicht dafür aus. Wenn ein Ziel kippt oder eine Woche voll wird, passe ich den Plan an statt ihn durchzudrücken.",
+      },
+      {
+        title: "Training mitten im dichtesten Teil der Stadt",
+        body: "Auf 3,49 km² leben hier 28.604 Menschen, dazu kommen die Büros an Ring und MediaPark. Ein eigenes Auto hat kaum jemand nötig, ein Heimstudio hat kaum jemand Platz. Das Veedel gleicht das aus: Stadtgarten und Innerer Grüngürtel sind zu Fuß erreichbar und morgens angenehm leer. Wer lieber drinnen trainiert, bekommt die Einheit in der eigenen Wohnung oder im Studio. Der erste Schritt ist ein kostenloses Erstgespräch, dort klären wir Ziel, Uhrzeit und Ort.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Neustadt-Nord?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Alternativ gibt es das Online Coaching ab 150€ im Monat mit Trainingsplan per App und wöchentlichen Check-ins. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Ich bin kein Morgenmensch. Geht es auch anders?",
+        a: "Ja, Termine gibt es auch mittags und abends. Der Morgen ist nur der Slot, der in diesem Veedel am zuverlässigsten hält. Viele, die sich für keinen Morgenmenschen hielten, bleiben nach zwei Wochen freiwillig dabei.",
+      },
+      {
+        q: "Wo genau trainieren wir?",
+        a: "Im Stadtgarten, im Inneren Grüngürtel an der Westseite des Veedels, bei dir zu Hause oder im Studio. Den Ort legen wir nach deinem Ziel und der Jahreszeit fest.",
+      },
+      {
+        q: "Brauche ich eigene Ausrüstung?",
+        a: "Nein. Kettlebells, Widerstandsbänder und alles Weitere bringe ich mit. Du brauchst nur Sportkleidung und Schuhe, in denen du dich bewegen kannst.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
