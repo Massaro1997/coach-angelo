@@ -257,6 +257,10 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 249 | /koeln/muengersdorf/abnehmen | 0 | 2 | 11,0 | FATTA (giro 57, 16/11) |
 | 250 | /koeln/rondorf/ems-alternative | 0 | 2 | 11,5 | FATTA (giro 57, 16/11) |
 | 251 | /koeln/loevenich/ems-alternative | 0 | 2 | 12,0 | FATTA (giro 57, 16/11) |
+| 252 | /koeln/marienburg/muskelaufbau | 0 | 2 | 12,0 | FATTA (giro 58, 16/11) |
+| 253 | /koeln/deutz/ems-alternative | 0 | 2 | 13,0 | FATTA (giro 58, 16/11) |
+| 254 | /koeln/duennwald/rueckentraining | 0 | 2 | 13,0 | FATTA (giro 58, 16/11) |
+| 255 | /koeln/ossendorf/muskelaufbau | 0 | 2 | 17,5 | FATTA (giro 58, 16/11) |
 
 Righe 248-251 entrate il 16/11/2026 (giro 57, riaggiornamento GSC a 90gg fino al 14/11, 333 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 86 candidate fuori coda prima dell'ingresso, tutte a 0 click e 2 impressioni o meno; le quattro entrate sono fra pos 11,0 e 12,0. Giro da 4 pagine, non 6: quinto slot della giornata con ~6 punti di piano residui, motivo = budget).
 

@@ -10967,6 +10967,166 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "marienburg/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Marienburg funktioniert auch jenseits der 50, der Muskel braucht dann nur einen deutlicheren Reiz und mehr Eiweiß als früher. Zwei geführte Krafteinheiten pro Woche bei dir zu Hause im Veedel, mit Protokoll und steigender Last. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Marienburg, auch ab 50 und 60: klarer Trainingsreiz, Eiweißplan, 1-zu-1 bei dir zu Hause. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Muskeln wachsen auch mit 60, nur nicht mehr von allein",
+        body: "In der Forschung heißt das Phänomen anabole Resistenz: Mit den Jahren reagiert der Muskel träger auf Training und Essen. Die Konsequenz ist aber nicht Verzicht, sondern Präzision. Ein 30-Jähriger wächst von fast jedem Programm, ein 60-Jähriger braucht Sätze, die wirklich nahe an die Grenze gehen, und Pausen, die lang genug sind. Genau das ist der Grund, warum geführtes Training in diesem Alter mehr bringt als jedes Gerätetraining nach Schema: Ich sehe, ob der Satz ein Reiz war oder nur Beschäftigung, und steuere nach.",
+      },
+      {
+        title: "Zwei präzise Einheiten statt vieler halber",
+        body: "Dein Plan steht auf Grundübungen: Kniebeuge-Varianten, Drücken, Ziehen, Hüftstreckung, angepasst an Gelenke und Vorgeschichte. Jeder Satz steht im Protokoll, alle vier bis sechs Wochen wird nachgemessen. Mehr als zwei Einheiten pro Woche sind für den Anfang nicht nötig, sie müssen nur zählen. In Marienburg trainieren wir bei dir zu Hause, das Material bringe ich mit. Zwischen Südpark und Rheinufer wohnt man hier mit viel Platz und wenig Trubel, und so darf auch das Training sein: ruhig, konzentriert, ohne Wartezeit an Geräten.",
+      },
+      {
+        title: "Eiweiß ist ab 50 keine Nebensache mehr",
+        body: "Der ältere Muskel springt auf kleine Eiweißportionen schlechter an. Deshalb verteilen wir dein Eiweiß bewusst: drei bis vier Mahlzeiten mit je einer ordentlichen Portion, statt wenig am Tag und viel am Abend. Das lässt sich ohne Pulverregal lösen, mit Quark, Eiern, Fisch, Hülsenfrüchten und Fleisch in normaler Küche. Wer mag, bekommt dazu den Blick von Natalie, unserer Ernährungsberaterin für Sport- und Fitnessernährung, damit Training und Teller in dieselbe Richtung arbeiten.",
+      },
+      {
+        title: "Für wen das in Marienburg gedacht ist",
+        body: "Marienburg hat rund 7.200 Einwohner auf gut drei Quadratkilometern, viele davon in einer Lebensphase, in der Kraft über Selbstständigkeit entscheidet: Koffer heben, Treppen steigen, sicher stehen. Typische Anfragen aus dem Kölner Süden kommen von Menschen, die nie im Studio waren oder lange pausiert haben und jetzt gezielt Substanz aufbauen wollen. Das Einstiegsniveau spielt keine Rolle, der Bewegungscheck am Anfang legt fest, wo wir starten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Marienburg?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€. Wer lieber mit Plan in der App und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Bin ich mit 60 oder 65 zu alt für Muskelaufbau?",
+        a: "Nein. Studien zeigen Muskelzuwachs bis ins hohe Alter, auch bei Einsteigern. Der Unterschied ist die Dosierung: Der Reiz muss klarer gesetzt und das Eiweiß bewusster geplant werden als mit 30. Genau dafür ist das geführte Training da.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Die Lasten im Protokoll steigen meist ab der zweiten oder dritten Woche, das ist zuerst Koordination. Sichtbare und spürbare Veränderung an Kraft und Silhouette braucht erfahrungsgemäß acht bis zwölf Wochen mit zwei Einheiten pro Woche.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Nein. Ich bringe Kurzhanteln, Kettlebell und Bänder mit, ein paar freie Quadratmeter reichen. Wer einen eigenen Trainingsraum hat, bindet ihn ein: Dann bauen wir den Plan um das vorhandene Material.",
+      },
+    ],
+  },
+  "deutz/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Deutz ist Krafttraining, das dein Nervensystem mitnimmt: Kraft ist zu einem großen Teil Koordination, und die lernst du nur durch echte Bewegung, nicht durch Strom. Zwei geführte Einheiten pro Woche, nahe an Büro oder Wohnung, 50€ pro Stunde ohne Jahresvertrag. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Deutz: Kraft ist Koordination, die Stromweste trainiert sie nicht. Echtes Krafttraining im 1-zu-1, 50€/Std, kein Abo.",
+    sections: [
+      {
+        title: "Kraft entsteht zuerst im Nervensystem",
+        body: "Dass Einsteiger in den ersten Wochen schnell stärker werden, liegt kaum am Muskelquerschnitt: Das Nervensystem lernt, die richtigen Fasern im richtigen Moment gemeinsam zu aktivieren. Trainer nennen das intermuskuläre Koordination. Die Stromweste setzt genau hier aus. Sie löst Kontraktionen von außen aus, in einer Reihenfolge, die das Gerät bestimmt, nicht dein Kopf. Du stehst still, während der Muskel zuckt. Das kann einen Reiz setzen, aber es bringt dir keine einzige Bewegung bei.",
+      },
+      {
+        title: "Warum EMS-Kraft im Alltag schwer ankommt",
+        body: "Eine Kniebeuge wird stärker, indem du Kniebeugen machst: Der Körper verbessert das Muster, das er übt. Wer drei Monate unter der Weste gestanden hat, hat kein Muster geübt und kann danach keine Übung besser als vorher. Im 1-zu-1 läuft es andersherum. Du lernst Beugen, Drücken, Ziehen und Heben mit sauberer Technik, das Gewicht steigt protokolliert von Woche zu Woche, und nach drei Monaten kannst du etwas, das bleibt, egal wo du später trainierst.",
+      },
+      {
+        title: "Training, das in einen Deutzer Tag passt",
+        body: "Deutz ist mit Messe, Arena und den Büros am Bahnhof ein Veedel, durch das täglich mehr Menschen pendeln, als die rund 15.600 Einwohner zählen. Das EMS-Versprechen der kurzen Einheit zielt genau auf diese vollen Kalender. Meine Antwort darauf sind kurze Wege statt verkürztes Training: Wir trainieren bei dir zu Hause oder draußen, im Rheinpark oder an den Stufen des Rheinboulevards, mit Terminen am frühen Morgen, mittags oder nach Feierabend. Eine Stunde, in der du dich wirklich bewegst, jederzeit kündbar.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Deutz?",
+        a: "50€ pro 1-zu-1 Stunde, ohne Vertragslaufzeit. EMS-Studios arbeiten üblicherweise mit Monatsabos und zwölf Monaten Bindung. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Nach EMS hatte ich starken Muskelkater. Heißt das nicht, dass es wirkt?",
+        a: "Muskelkater zeigt nur, dass ein ungewohnter Reiz da war, nicht, dass du Kraft oder Technik aufgebaut hast. Fortschritt misst sich daran, ob du über Wochen mehr bewegen kannst. Genau dafür führen wir ein Protokoll.",
+      },
+      {
+        q: "Ich habe wirklich nur die Mittagspause. Reicht die?",
+        a: "Ja, wenn die Wege kurz sind. In Deutz trainieren wir nahe an deinem Büro oder deiner Wohnung, das Warm-up ist Teil der Stunde. Zwei solcher Einheiten pro Woche genügen für messbaren Fortschritt.",
+      },
+      {
+        q: "Ist echtes Krafttraining nicht anstrengender als EMS?",
+        a: "Anders anstrengend: Die Last ist dosiert und steigt erst, wenn die Technik sitzt. Anstrengung ist dabei kein Fehler, sondern der Grund, warum sich Knochen, Sehnen und Muskeln anpassen.",
+      },
+    ],
+  },
+  "duennwald/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Dünnwald beginnt mit einer unbequemen Wahrheit: Spazierengehen hält den Rücken in Bewegung, aber es baut ihn nicht auf. Zwei gezielte Krafteinheiten pro Woche bei dir zu Hause liefern die Last, die Wald und Wildpark nicht liefern können. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Dünnwald: Gehen allein baut keinen Rücken auf. Gezielte Kraftarbeit im 1-zu-1 zu Hause, der Wald bleibt dein Ausgleich. 50€/Std.",
+    sections: [
+      {
+        title: "Viel draußen, trotzdem Rückenschmerzen: der Dünnwald-Widerspruch",
+        body: "Dünnwald gehört mit fast 11 Quadratkilometern zu den grünsten Ecken Kölns, und wer hier wohnt, ist meist viel zu Fuß unterwegs: Dünnwalder Wald, Wildpark, Höhenfelder See. Trotzdem meldet sich bei vielen der untere Rücken. Der Grund ist kein Rätsel: Gehen belastet die Rumpf- und Hüftmuskulatur weit unterhalb der Schwelle, ab der sie stärker wird. Der Körper baut nur auf, was gefordert wird. Ein Rücken, der nur Spaziergänge kennt, bleibt genau so belastbar wie bisher, und das ist bei den meisten zu wenig.",
+      },
+      {
+        title: "Was fehlt, ist Last über der Schwelle",
+        body: "Im Training bekommt dein Rücken das, was der Waldweg nicht hergibt: Hüftstreckung gegen Gewicht, Rumpfarbeit mit Steigerung, Heben in sauberer Technik. Wir starten deutlich unter deiner Grenze und erhöhen von Woche zu Woche, jeder Satz steht im Protokoll. Zwei Einheiten pro Woche bei dir zu Hause reichen, das Material bringe ich mit. Nach vier bis sechs Wochen vergleichen wir: mehr Last bei gleicher Technik heißt, der Rücken ist messbar belastbarer geworden.",
+      },
+      {
+        title: "Der Wald bleibt dein Ausgleich, er wird nicht deine Therapie",
+        body: "Die täglichen Runden sollst du nicht aufgeben, im Gegenteil: Zwischen den Krafteinheiten sind sie die beste aktive Erholung, und mit stärkerer Hüfte und stabilerem Rumpf fühlen sie sich leichter an. Nur die Rollen müssen stimmen: Der Wald regeneriert, das Training baut auf. Wichtig zur Einordnung: Bei akuten Schmerzen, Ausstrahlung ins Bein oder Taubheit gehört der erste Weg zum Arzt. Das Training startet danach, auf Basis dessen, was abgeklärt ist.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Dünnwald?",
+        a: "Die 1-zu-1 Stunde bei dir zu Hause kostet 50€. Alternativ gibt es das Online Coaching mit Plan und wöchentlichen Check-ins ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich gehe jeden Tag eine Stunde. Reicht das nicht für den Rücken?",
+        a: "Fürs Herz und den Kopf ist das viel wert, für die Kraft der Rumpf- und Hüftmuskulatur reicht es nicht: Die Belastung liegt unter der Schwelle, ab der Muskeln aufbauen. Zwei kurze Krafteinheiten pro Woche schließen genau diese Lücke.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Kurzhanteln, Kettlebell und Bänder bringe ich mit, wenige freie Quadratmeter reichen. Bei passendem Wetter verlegen wir Teile der Einheit auch nach draußen.",
+      },
+      {
+        q: "Wie schnell wird der Rücken belastbarer?",
+        a: "Im Protokoll steigen die Lasten meist nach zwei bis drei Wochen. Dass Alltag und Waldrunden sich leichter anfühlen, berichten die meisten nach vier bis sechs Wochen mit zwei Einheiten pro Woche.",
+      },
+    ],
+  },
+  "ossendorf/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Ossendorf entscheidet sich zwischen den Trainingstagen: Der Reiz entsteht in zwei Krafteinheiten pro Woche, gewachsen wird in den 48 Stunden danach, über Schlaf und Eiweiß. Beides gehört bei mir zum Plan. 1-zu-1 bei dir zu Hause, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Ossendorf: Der Muskel wächst in der Erholung. Zwei Einheiten pro Woche plus Schlaf- und Eiweißplan, 1-zu-1 zu Hause. 50€/Std.",
+    sections: [
+      {
+        title: "Der Muskel wächst zwischen den Einheiten, nicht währenddessen",
+        body: "Das Training selbst baut nichts auf, es gibt nur den Auftrag: Im Satz entsteht der Reiz, der eigentliche Aufbau läuft in den ein bis zwei Tagen danach, wenn der Körper repariert und verstärkt. Wer das versteht, trainiert anders. Zwei harte, geführte Einheiten pro Woche mit mindestens 48 Stunden Abstand schlagen vier müde hintereinander, weil der Körper zwischen den Aufträgen Zeit zum Liefern braucht. Dein Protokoll zeigt, ob die Rechnung aufgeht: Steigen die Lasten, stimmt das Verhältnis aus Reiz und Erholung.",
+      },
+      {
+        title: "Schlaf und Eiweiß sind die halbe Miete",
+        body: "Ossendorf ist ein Veedel der langen Arbeitstage: Rund um Butzweilerhof und die Gewerbelagen wird früh angefangen, spät aufgehört und oft im Wechsel gearbeitet. Genau da geht der Aufbau meist verloren, nicht im Training. Kurze Nächte drücken die Erholung, und wer tagsüber kaum Eiweiß isst, gibt dem Körper Aufträge ohne Baumaterial. Deshalb legen wir neben den Übungen zwei einfache Dinge fest: eine realistische Schlafroutine für deine Arbeitswoche und Eiweißportionen, die sich über den Tag verteilen lassen, auch in einer Pause am Arbeitsplatz.",
+      },
+      {
+        title: "Woran du merkst, dass die Erholung fehlt",
+        body: "Das Warnsignal steht im Protokoll: Die Lasten stagnieren über Wochen, obwohl du keine Einheit verpasst hast. Der Reflex vieler Trainierender ist dann mehr Training, und genau das verschärft es. Bei mir wird in dem Fall zuerst die Erholung sortiert: Schlaf, Essen, Gesamtbelastung der Woche. Erst wenn das steht, drehen wir wieder an Gewicht und Volumen. So bleibt der Plan ehrlich, und du verschwendest keine Monate an ein Programm, das dein Alltag gerade nicht tragen kann.",
+      },
+      {
+        title: "Zwei Einheiten pro Woche, zu Hause in Ossendorf",
+        body: "Trainiert wird bei dir: Kurzhanteln, Kettlebell und Bänder bringe ich mit, ein freier Bereich im Wohnzimmer oder Hof reicht. Die Termine folgen deinem Dienstplan, auch früh morgens oder am späten Abend, und werden jede Woche neu gelegt, wenn es sein muss. Alle vier bis sechs Wochen messen wir nach. Die Stunde kostet 50€, ohne Vertragsbindung, das Erstgespräch ist kostenlos.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Ossendorf?",
+        a: "50€ pro 1-zu-1 Stunde bei dir zu Hause, ohne Laufzeit. Wer mit Plan in der App und wöchentlichen Check-ins arbeiten will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wäre es nicht besser, öfter als zweimal pro Woche zu trainieren?",
+        a: "Für Einsteiger und Wiedereinsteiger selten. Der Muskel braucht zwischen den Reizen Zeit zum Aufbauen. Erst wenn zwei Einheiten sauber laufen und die Erholung steht, lohnt sich ein drittes Modul.",
+      },
+      {
+        q: "Wie viel Schlaf brauche ich für den Aufbau?",
+        a: "Als Richtwert sieben Stunden, entscheidend ist die Regelmäßigkeit. Bei Schichtarbeit planen wir die Einheiten so, dass die härteste Belastung nicht auf die kürzeste Nacht fällt.",
+      },
+      {
+        q: "Ich arbeite im Schichtbetrieb. Funktioniert das trotzdem?",
+        a: "Ja. Die Termine werden auf deinen Dienstplan gelegt und bei Bedarf wöchentlich verschoben. Für den Aufbau zählt der Abstand zwischen den Einheiten, nicht die Uhrzeit.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
