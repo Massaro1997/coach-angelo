@@ -10043,6 +10043,244 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "urbach/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Porz-Urbach: Trainingsplan in der App, wöchentlicher Video-Check-in und Ernährungssteuerung, ab 150€ im Monat. Der Plan wechselt mit den Jahreszeiten, du musst nirgendwo hinfahren: im Sommer laufen die Ausdauereinheiten in der Wahner Heide, im Winter zieht das komplette Training in dein Wohnzimmer. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Urbach: Plan in der App, Video-Check-ins, Sommer in der Wahner Heide, Winter zu Hause. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Plan wechselt mit der Jahreszeit, du bleibst im Rhythmus",
+        body: "Die meisten Trainingsvorsätze in Urbach scheitern im November: solange es hell und trocken ist, läuft man Richtung Heide, dann kommt der Winter und mit ihm die Pause bis März. Genau da setzt das Coaching an. Dein Plan hat von Anfang an zwei Fassungen, eine für draußen und eine für drinnen, mit denselben Zielen und derselben Progression. Wenn die Tage kürzer werden, tausche ich die Einheiten aus, nicht du deine Gewohnheit. Der Winter wird damit zur normalen Trainingsphase statt zum jährlichen Neustart.",
+      },
+      {
+        title: "Urbach hat kein Studio, dein Plan braucht auch keins",
+        body: "13.179 Menschen wohnen in Urbach auf 2,29 Quadratkilometern, es ist ein dichtes Wohnviertel aus Reihenhäusern und Siedlungsbauten, ohne Fitnessstudio im Stadtteil. Fürs Krafttraining reicht das trotzdem: die Übungen im Plan sind für eine freie Fläche von zwei mal drei Metern geschrieben, mit wenig Material, das ich dir im Erstgespräch genau nenne. Wer einen Garten hat, bekommt im Sommer eine Garten-Fassung dazu. Du siehst in der App jede Einheit mit Videos, Sätzen und Pausen, und trägst ein, was du geschafft hast.",
+      },
+      {
+        title: "Die Wahner Heide ist dein Sommer-Baustein",
+        body: "Über Wahnheide bist du aus Urbach in wenigen Minuten in der Wahner Heide, einem der größten Naturschutzgebiete im Kölner Raum. Für die warme Jahreshälfte plane ich dort deine Ausdauer: zügige Märsche oder Läufe auf den sandigen Wegen, mit Puls- oder Tempovorgaben aus der App. Das ist kein Beiwerk, sondern ein fester Teil des Plans, den wir im Check-in genauso besprechen wie die Krafteinheiten.",
+      },
+      {
+        title: "Einmal pro Woche schauen wir gemeinsam drauf",
+        body: "Jede Woche gibt es einen Video-Check-in: wir gehen deine eingetragenen Einheiten durch, du zeigst mir bei Bedarf deine Technik per Clip, und ich passe den Plan an die kommende Woche an. Dazu kommt die Ernährungssteuerung mit Natalie im selben System, wenn Abnehmen oder Muskelaufbau das Ziel ist. Du bekommst keinen Standardplan, sondern einen, der auf deine Woche in Urbach geschrieben ist.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Urbach?",
+        a: "Ab 150€ im Monat, monatlich kündbar. Darin stecken der Trainingsplan in der App, die wöchentlichen Video-Check-ins und die Anpassung des Plans. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Brauche ich Geräte für das Training zu Hause?",
+        a: "Wenig. Die Grundausstattung bespreche ich im Erstgespräch, meist reichen Kurzhanteln oder ein Widerstandsband und eine freie Fläche im Wohnzimmer. Der Plan wird auf das geschrieben, was du hast.",
+      },
+      {
+        q: "Was passiert im Winter, wenn ich nicht mehr draußen trainieren will?",
+        a: "Nichts Besonderes, und genau das ist der Punkt: dein Plan hat eine Indoor-Fassung mit denselben Zielen. Die Ausdauer wandert vom Heideweg in Intervalle in der Wohnung oder im Treppenhaus, die Kraft bleibt, wo sie ist.",
+      },
+      {
+        q: "Ist Online Coaching auch für Anfänger aus Urbach geeignet?",
+        a: "Ja, wenn du bereit bist, Technik über Video-Feedback zu lernen. Im Zweifel starten wir mit ein bis zwei 1-zu-1 Stunden bei dir zu Hause und stellen danach auf das Online Coaching um.",
+      },
+    ],
+  },
+
+  "zollstock/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Zollstock: Trainingsplan in der App, wöchentlicher Video-Check-in und Ernährungssteuerung, ab 150€ im Monat. Zollstock ist ein Sport-Veedel mit festen Zeiten, vom Vereinstraining bis zum Kurs. Das Coaching ist das Gegenmodell: du trainierst, wann es passt, der Plan und der Check-in halten die Linie. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Zollstock: trainieren ohne feste Vereinszeiten, Plan in der App, Check-ins per Video, Vorgebirgspark vor der Tür. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Zollstock hat viel Sport, aber alles zu festen Zeiten",
+        body: "Mit dem Südstadion, den Vereinen und dem Vorgebirgspark ist Zollstock sportlicher als die meisten Kölner Stadtteile. Nur läuft fast alles davon nach Plan anderer Leute: Vereinstraining dienstags und donnerstags, Kurse zur vollen Stunde. Wer im Schichtdienst arbeitet, kleine Kinder hat oder abends schlicht nicht mehr aus dem Haus will, fällt durch dieses Raster. Online Coaching dreht das um: die Einheit wartet in der App und du legst sie in den Tag, wie er wirklich ist, nicht wie er sein sollte.",
+      },
+      {
+        title: "Vorgebirgspark und Grüngürtel sind dein Gelände, die Struktur kommt von mir",
+        body: "Für die Ausdauer brauchst du Zollstock nicht zu verlassen: der Vorgebirgspark liegt mitten im Veedel, der Äußere Grüngürtel schließt direkt an. In der App steht, was du dort machst, mit Tempo- oder Pulsvorgaben statt einfach einer Runde nach Gefühl. Die Krafteinheiten sind für deine Wohnung geschrieben, auf wenigen Quadratmetern und mit wenig Material. 23.327 Menschen leben hier auf gut fünf Quadratkilometern, die Wege im Veedel sind kurz, das Training nutzt das aus.",
+      },
+      {
+        title: "Einmal pro Woche gibt es den Termin, der wirklich zählt",
+        body: "Der einzige feste Termin im Coaching ist der wöchentliche Video-Check-in, und selbst der wird auf deine Woche gelegt. Wir schauen auf die eingetragenen Einheiten, auf Technik-Clips, auf Schlaf und Gewicht, wenn das zum Ziel gehört, und ich passe den Plan an. Wenn Ernährung Teil des Ziels ist, arbeitet Natalie im selben System mit. So entsteht Verbindlichkeit ohne Stundenplan: nicht die Uhrzeit kontrolliert dich, sondern das Protokoll.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Zollstock?",
+        a: "Ab 150€ im Monat, monatlich kündbar, inklusive Trainingsplan in der App, wöchentlichem Video-Check-in und Plananpassung. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich trainiere schon im Verein. Bringt mir das Coaching trotzdem etwas?",
+        a: "Ja, als Ergänzung: viele Vereinssportler haben zwei feste Mannschaftstermine, aber keinen Plan für Kraft und Ausgleich dazwischen. Genau den schreibe ich, abgestimmt auf die Vereinseinheiten, damit du dich nicht doppelt belastest.",
+      },
+      {
+        q: "Wo laufe ich in Zollstock meine Ausdauereinheiten?",
+        a: "Meist im Vorgebirgspark oder im Äußeren Grüngürtel, beide ohne Anfahrt erreichbar. Die App gibt dir Dauer, Tempo oder Pulsbereich vor, du wählst die Strecke.",
+      },
+      {
+        q: "Was brauche ich für die Krafteinheiten zu Hause?",
+        a: "Eine freie Fläche und wenig Material, meist Kurzhanteln oder ein Band. Was genau, klären wir im kostenlosen Erstgespräch, der Plan wird auf deine Ausstattung geschrieben.",
+      },
+    ],
+  },
+
+  "lindweiler/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Lindweiler ist Krafttraining, das Anstrengung nicht verspricht wegzulassen, sondern richtig dosiert: zwei geführte Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde, ohne Jahresvertrag. Denn genau das Werbeversprechen von EMS, Training fast ohne Aufwand, ist sein Schwachpunkt: der Körper passt sich nur an, was ihn wirklich fordert. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Lindweiler: echtes Krafttraining zu Hause statt Stromweste. Anstrengung richtig dosiert, 50€/Std, kein Vertrag, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Versprechen 'Training ohne Anstrengung' ist der Haken",
+        body: "EMS wird fast immer gleich beworben: 20 Minuten, kein Schwitzen, der Strom macht die Arbeit. Das klingt gut und ist genau verkehrt herum gedacht. Muskeln, Sehnen und Kreislauf passen sich an Anforderungen an, nicht an Minuten. Ein Reiz, der sich nach nichts anfühlt und sich nicht steigern lässt wie ein Gewicht, erzeugt auf Dauer auch wenig. Die Alternative ist nicht, sich zu quälen: es ist Anstrengung in der richtigen Dosis, von Woche zu Woche leicht erhöht, mit einem Coach, der die Grenze kennt und hält.",
+      },
+      {
+        title: "In Lindweiler kommt das Training zu dir",
+        body: "Lindweiler ist mit 1,16 Quadratkilometern und rund 3.500 Einwohnern eines der kleinsten Veedel im Kölner Norden, ohne Fitnessstudio und ohne EMS-Fläche. Für jedes Weste-Training müsstest du also ohnehin rausfahren. Beim 1-zu-1 Training entfällt das: ich komme mit dem nötigen Material zu dir, trainiert wird im Wohnzimmer, im Hof oder im Garten. Zwei Termine pro Woche, jeder dokumentiert, damit du schwarz auf weiß siehst, wie sich deine Gewichte und Wiederholungen bewegen.",
+      },
+      {
+        title: "Anstrengend heißt nicht gefährlich",
+        body: "Viele, die EMS erwägen, wollen eigentlich nur eines vermeiden: sich zu überlasten, nach Jahren Pause oder mit empfindlichem Rücken. Dieses Bedürfnis ist berechtigt, nur ist die Stromweste die falsche Antwort darauf. Im geführten Training beginnt jede Übung unterhalb deiner Grenze, die Technik kommt vor dem Gewicht, und gesteigert wird erst, wenn die Ausführung sitzt. So entsteht Belastbarkeit statt Schonung, und zwar in einem Tempo, das dein Körper mitgeht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Lindweiler?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Jahresvertrag und ohne Mindestlaufzeit. Zum Vergleich: EMS-Studios arbeiten fast immer mit Abos über zwölf Monate. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Ist echtes Krafttraining nicht zu hart?",
+        a: "Nein, wenn es geführt ist. Wir starten mit einem Technik-Check und Gewichten deutlich unter deiner Grenze. Anstrengung wird dosiert wie ein Medikament: genug, um etwas auszulösen, nie so viel, dass du drei Tage ausfällst.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Die ersten Wochen bringen vor allem Technik und spürbar mehr Sicherheit, messbare Kraftzuwächse stehen meist nach vier bis sechs Wochen im Protokoll. Was du dort siehst, sind deine Zahlen, nicht ein Programm der Weste.",
+      },
+      {
+        q: "Wo trainieren wir in Lindweiler?",
+        a: "Bei dir zu Hause, auf wenigen Quadratmetern freier Fläche. Das Material bringe ich mit. Wer mag, verlegt einzelne Einheiten in den Garten oder kombiniert sie mit Gehstrecken Richtung Longerich.",
+      },
+    ],
+  },
+
+  "ossendorf/personal-training": {
+    answer:
+      "Personal Training in Köln-Ossendorf läuft 1-zu-1 bei dir zu Hause oder draußen am alten Flughafen Butzweilerhof: Krafttraining mit Technik-Korrektur und Protokoll, Ausdauer auf den weiten, flachen Flächen des ehemaligen Flugfelds. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Ossendorf: 1-zu-1 zu Hause oder am alten Flughafen Butzweilerhof, mit Plan und Protokoll. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel zwischen Neubau und Gewerbe, mit einem besonderen Trainingsgelände",
+        body: "Ossendorf ist eines der Veedel, die sich gerade am stärksten verändern: rund um den Butzweilerhof sind in den letzten Jahren ganze Neubauquartiere entstanden, dazu Möbelhaus, Studios und Gewerbe. Was dabei untergeht: das ehemalige Flugfeld des Butzweilerhofs, Kölns erstem Flughafen, ist heute eine der größten offenen Flächen im Stadtgebiet. Flach, weitläufig, windig, perfekt für Sprints, Intervalle und zügige Läufe, bei denen niemand ausweichen muss. Für mich als Trainingsgelände mehr wert als jede Studiofläche im Gewerbepark.",
+      },
+      {
+        title: "1-zu-1 statt Kette im Gewerbegebiet",
+        body: "Das Fitnessangebot in Ossendorf besteht vor allem aus Ketten-Studios an den Ausfallstraßen: anonym, voll nach Feierabend, und niemand schaut auf deine Ausführung. Beim Personal Training drehen wir das um. Ich komme zu dir nach Hause oder wir treffen uns draußen, jede Übung wird gezeigt, korrigiert und protokolliert. 12.297 Menschen leben in Ossendorf, viele in den neuen Wohnungen am Butzweilerhof mit wenig Platz: die Kraftübungen sind deshalb für kleine Flächen geschrieben, das Material bringe ich mit.",
+      },
+      {
+        title: "So läuft der Einstieg",
+        body: "Am Anfang steht ein kostenloses Erstgespräch: Ziel, Gesundheitszustand, Wochenrhythmus. Danach ein Technik-Check mit den Grundübungen und ein Plan, meist zwei Einheiten pro Woche. Alle vier bis sechs Wochen vergleichen wir die Zahlen im Protokoll. Wenn sich nichts bewegt, ändere ich den Plan, nicht die Ausrede. Termine lege ich auch früh morgens oder mittags, die Linie 5 bis Am Butzweilerhof macht Ossendorf auch für Einheiten vor der Arbeit gut erreichbar.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Ossendorf?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Vertragsbindung. Wer lieber mit App-Plan und wöchentlichen Video-Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir in Ossendorf?",
+        a: "Bei dir zu Hause oder draußen am alten Flugfeld Butzweilerhof, je nach Ziel und Wetter. Für drinnen reichen wenige Quadratmeter freie Fläche, die Geräte bringe ich mit.",
+      },
+      {
+        q: "Ich wohne neu im Quartier am Butzweilerhof und habe wenig Platz. Geht das trotzdem?",
+        a: "Ja. Die Pläne sind für genau solche Wohnungen geschrieben: Kurzhanteln, Band, Körpergewicht auf zwei mal drei Metern. Die großen Bewegungen verlegen wir nach draußen.",
+      },
+      {
+        q: "Für wen ist das 1-zu-1 Training in Ossendorf gedacht?",
+        a: "Für alle, die mit Anleitung statt auf eigene Faust trainieren wollen: Einsteiger, Wiedereinsteiger nach Jahren Pause und Leute aus dem Studio, deren Zahlen seit Monaten stehen. Das Niveau setzt der Technik-Check, nicht ein Kursplan.",
+      },
+    ],
+  },
+
+  "hoehenhaus/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Höhenhaus ist die Version des 1-zu-1 Trainings, die in dein Handy zieht: derselbe Plan, dieselbe Progression, dasselbe Protokoll, aber ab 150€ im Monat statt 50€ pro Stunde. Du trainierst zu Hause in Höhenhaus, ich schaue jede Woche per Video auf deine Einheiten. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Höhenhaus: Plan, Progression und Protokoll wie im 1-zu-1, ab 150€/Monat statt 50€/Stunde. Wöchentliche Video-Check-ins, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die 150€-Frage: was vom Personal Training bleibt, wenn der Coach nicht daneben steht",
+        body: "Zwei geführte Einheiten pro Woche kosten im Monat um die 400€. Das ist für viele in Höhenhaus der einzige Grund, es zu lassen. Das Online Coaching ist die ehrliche Zwischenstufe: der Plan wird genauso individuell geschrieben, die Progression genauso gesteuert, jede Einheit genauso protokolliert. Was wegfällt, ist die Hand, die in der Sekunde korrigiert. Was bleibt, ist der Blick auf jede Woche: du filmst einzelne Sätze, ich korrigiere am Clip, und im wöchentlichen Video-Check-in stellen wir den Plan neu ein.",
+      },
+      {
+        title: "Dein Trainingsraum steht schon in Höhenhaus",
+        body: "Fast 16.000 Menschen leben in Höhenhaus, viele mit mehr Wohnfläche als in der Innenstadt: Siedlungshäuser, Erdgeschosswohnungen, Garten oder Hof dahinter. Genau dafür wird dein Plan geschrieben, nicht für einen Geräteraum. Kraft auf wenigen Quadratmetern mit wenig Material, Ausdauer auf den Wegen Richtung Wald oder als Intervalle vor der Tür. Du brauchst keine Anfahrt und keinen Vertrag mit einem Studio außerhalb des Veedels.",
+      },
+      {
+        title: "Verbindlichkeit kommt aus dem Check-in, nicht aus dem Termin",
+        body: "Der Wochenrhythmus ist einfach: du trägst jede Einheit in die App ein, ich lese mit. Einmal pro Woche sprechen wir per Video über die Zahlen, die Technik-Clips und die kommende Woche. Wenn Ernährung zum Ziel gehört, steuert Natalie sie im selben System. Aus Erfahrung ist dieser feste Blick von außen der Unterschied zwischen einem Plan, der drei Wochen hält, und einem, der durch den Winter trägt. Wer merkt, dass er mehr Anleitung braucht, wechselt jederzeit auf einzelne 1-zu-1 Stunden.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Höhenhaus?",
+        a: "Ab 150€ im Monat, monatlich kündbar: Trainingsplan in der App, wöchentlicher Video-Check-in, Technik-Korrektur per Clip und Plananpassung. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Worin unterscheidet sich das vom Personal Training bei mir zu Hause?",
+        a: "Inhaltlich in wenig: Plan, Progression und Protokoll sind dieselben. Der Unterschied ist die Korrektur: im 1-zu-1 sofort, im Coaching über Clips und den Wochen-Check-in. Dafür kostet der Monat so viel wie drei einzelne Stunden.",
+      },
+      {
+        q: "Kann ich 1-zu-1 Stunden und Online Coaching kombinieren?",
+        a: "Ja, das ist sogar der häufigste Weg: ein bis zwei Stunden zu Hause für die Technik der Grundübungen, danach läuft das Training über die App weiter. Auch später lassen sich einzelne Stunden dazubuchen.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause in Höhenhaus?",
+        a: "Wenig: meist Kurzhanteln oder ein Widerstandsband und freie Fläche. Was genau sinnvoll ist, klären wir im kostenlosen Erstgespräch, der Plan richtet sich nach deiner Ausstattung, nicht umgekehrt.",
+      },
+    ],
+  },
+
+  "ossendorf/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Ossendorf ist Krafttraining für einen wirklich belastbaren Rücken: Heben, Tragen und Ziehen unter echter Last, 1-zu-1 bei dir zu Hause, 50€ pro Stunde ohne Jahresvertrag. EMS-Studios werben gern mit dem starken Rücken, aber ein Rücken wird belastbar durch Bewegung gegen Gewicht, nicht durch Strom im Stehen. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Ossendorf: belastbarer Rücken durch Heben, Tragen, Ziehen statt Stromweste. 1-zu-1 zu Hause, 50€/Std, kein Vertrag.",
+    sections: [
+      {
+        title: "Das Rücken-Versprechen der EMS-Werbung, nüchtern betrachtet",
+        body: "Kaum ein EMS-Studio wirbt ohne das Wort Rücken. Der Reiz der Weste erreicht die Rumpfmuskeln auch, das ist nicht erfunden. Nur entsteht ein Rücken, der im Alltag hält, aus etwas anderem: aus Bewegung unter Last, in verschiedenen Richtungen und mit sauberer Technik. Eine Kiste vom Boden heben, eine Tasche tragen, etwas heranziehen, genau diese Muster trainiert die Weste nicht, weil du dabei weitgehend stehst. Wer wegen Rückenschmerzen über EMS nachdenkt, braucht meist das Gegenteil von Stillstand: kontrollierte, gesteigerte Bewegung.",
+      },
+      {
+        title: "Heben, Tragen, Ziehen: das Programm hinter dem Wort Krafttraining",
+        body: "Im 1-zu-1 bauen wir deinen Rücken über die Bewegungen auf, die er im Alltag leisten muss. Kreuzheben-Varianten mit Kurzhanteln, Trageübungen über kurze Strecken, Ruderzüge mit Band oder Hantel, dazu Rumpfarbeit, die mehr kann als Planke halten. Jede Übung beginnt deutlich unter deiner Grenze, die Technik kommt vor dem Gewicht, jeder Satz steht im Protokoll. In Ossendorf arbeiten viele zwischen Büro und Lager, sitzend oder einseitig hebend: beides sind klassische Rücken-Biografien, und beide brauchen Kraft, keine Schonung.",
+      },
+      {
+        title: "Zu Hause in Ossendorf, ohne Abo im Gewerbepark",
+        body: "Die Studio- und EMS-Angebote rund um Ossendorf liegen fast alle an den Gewerbelagen, mit Anfahrt und Jahresvertrag. Das 1-zu-1 Training kommt stattdessen zu dir: zwei Einheiten pro Woche in der Wohnung, im Hof oder draußen, das Material bringe ich mit. 50€ pro Stunde, jederzeit beendbar, und nach vier bis sechs Wochen vergleichen wir im Protokoll, was sich bewegt hat. Wenn die Zahlen stehen, ändert sich der Plan, nicht die Ausrede.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Ossendorf?",
+        a: "50€ pro Stunde im 1-zu-1, ohne Jahresvertrag. EMS-Studios rechnen meist in Monatsabos mit zwölf Monaten Laufzeit, dazu kommt die Anfahrt ins Gewerbegebiet. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich habe Rückenschmerzen vom Sitzen. Ist Krafttraining da nicht riskant?",
+        a: "Bei unspezifischen Beschwerden ist dosierte Kraft genau das, was Leitlinien empfehlen. Wir starten unterhalb deiner Grenze, mit Technik vor Gewicht. Bei akuten oder ärztlich abzuklärenden Beschwerden gehört zuerst die Diagnose, dann das Training.",
+      },
+      {
+        q: "Trainiert EMS den Rücken denn gar nicht?",
+        a: "Doch, der Strom reizt auch die Rumpfmuskulatur. Was fehlt, sind die Bewegungsmuster: Heben, Tragen und Ziehen unter Last lernst du nur, indem du sie ausführst. Genau die entscheiden, ob der Rücken im Alltag hält.",
+      },
+      {
+        q: "Wo und wie oft trainieren wir in Ossendorf?",
+        a: "Zwei Einheiten pro Woche bei dir zu Hause oder draußen, etwa am alten Flugfeld Butzweilerhof. Für drinnen reichen wenige Quadratmeter, die Ausrüstung bringe ich mit.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {

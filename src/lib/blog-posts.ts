@@ -97,7 +97,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Was kostet ein Personal Trainer für zuhause?" },
       {
         type: "p",
-        text: "Für Hausbesuche kommt bei vielen Trainern ein Aufschlag auf den Stundenpreis. Bei mir nicht: Die 1-zu-1 Stunde kostet 50€, egal ob im Studio, draußen oder bei dir zu Hause in Köln.",
+        text: "Für Hausbesuche kommt bei vielen Trainern ein Aufschlag auf den Stundenpreis. Bei mir nicht: Die 1-zu-1 Stunde kostet 50€, egal ob im Studio, draußen oder bei dir zu Hause in Köln. Wie das in einem konkreten Veedel aussieht, zeigt zum Beispiel die Seite [Personal Training in Köln-Sülz](/koeln/suelz).",
       },
       { type: "h2", text: "Wird Personal Training von der Krankenkasse bezahlt?" },
       {
