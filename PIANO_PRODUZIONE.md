@@ -265,6 +265,14 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 257 | /koeln/urbach/ernaehrungsberatung | 0 | 2 | 21,0 | FATTA (giro 59, 16/11) |
 | 258 | /koeln/neustadt-nord/abnehmen | 0 | 2 | 29,0 | FATTA (giro 59, 16/11) |
 | 259 | /koeln/neustadt-nord/personal-training | 0 | 2 | 46,0 | FATTA (giro 59, 16/11) |
+| 260 | /koeln/elsdorf/online-coaching | 0 | 2 | 49,0 | FATTA (giro 61, 16/11) |
+| 261 | /koeln/altstadt-sued/rueckentraining | 0 | 2 | 49,0 | FATTA (giro 61, 16/11) |
+| 262 | /koeln/meschenich/athletiktraining | 0 | 2 | 67,0 | FATTA (giro 61, 16/11) |
+| 263 | /koeln/neuehrenfeld/rueckentraining | 0 | 1 | 1,0 | FATTA (giro 61, 16/11; pos 1,0 con 1 impr: rafforzata con prudenza) |
+| 264 | /koeln/poll/ernaehrungsberatung | 0 | 1 | 1,0 | FATTA (giro 61, 16/11; pos 1,0 con 1 impr: rafforzata con prudenza) |
+| 265 | /koeln/elsdorf/abnehmen | 0 | 1 | 2,0 | FATTA (giro 61, 16/11; pos 2,0 con 1 impr: rafforzata con prudenza) |
+
+Righe 260-265 entrate il 16/11/2026 (giro 61, riaggiornamento GSC a 90gg fino al 14/11, 333 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 74 candidate fuori coda prima dell'ingresso, tutte a 0 click e 2 impressioni o meno; le sei entrate: tre a 2 impressioni con pos 49-67, tre a 1 impressione con pos 1,0-2,0 che si rafforzano con prudenza. Primo slot della giornata con budget pieno (~15 punti): giro da 6 pagine. Dopo questo giro restano 68 candidate, tutte a 0 click e 1-2 impressioni).
 
 Righe 256-259 entrate il 16/11/2026 (giro 59, riaggiornamento GSC a 90gg fino al 14/11, 333 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 78 candidate fuori coda prima dell'ingresso, tutte a 0 click e 2 impressioni o meno; le quattro entrate sono fra pos 20,0 e 46,0. Giro da 4 pagine, non 6: settimo slot della giornata con ~3 punti di piano residui, motivo = budget).
 
