@@ -11808,6 +11808,263 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "elsdorf/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Elsdorf schließt die Lücke, die nach der Physiotherapie bleibt: Das Rezept endet, wenn der Schmerz nachlässt, nicht wenn der Rücken wieder belastbar ist. Genau dort übernehme ich, mit Training bei dir zu Hause im kleinsten Veedel von Porz. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Elsdorf: nach der Physio weitermachen, Kraft statt Rückfall, Training bei dir zu Hause. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Rezept endet, der Rücken ist noch nicht fertig",
+        body: "Sechs Einheiten Physiotherapie nehmen den Schmerz raus, und dann? Viele hören an diesem Punkt auf, weil nichts mehr wehtut. Drei Monate später ist die Episode zurück, oft beim selben Handgriff. Der Grund ist einfach: Schmerzfrei ist nicht dasselbe wie belastbar. Die Physio bringt dich auf null, das Training bringt dich ins Plus. Ich übernehme da, wo das Rezept aufhört, und steigere die Last Schritt für Schritt, bis Kisten, Kästen und Gartenarbeit keine Mutprobe mehr sind.",
+      },
+      {
+        title: "Im kleinsten Veedel von Porz kommt das Training zu dir",
+        body: "Elsdorf hat 1.726 Einwohner auf 1,77 km², kein Studio und keinen Kursraum. Der nächste Rückenkurs bedeutet Anfahrt, und genau daran scheitert die Regelmäßigkeit, die ein Rücken braucht. Deshalb drehe ich es um: Ich komme zu dir und bringe mit, was nötig ist. Kurzhanteln, Band und dein Körpergewicht reichen für ein vollständiges Programm. Entscheidend ist nicht das Gerät, sondern dass die Einheit stattfindet, jede Woche, auch im Winter.",
+      },
+      {
+        title: "Was wir konkret aufbauen",
+        body: "Drei Muster tragen deinen Alltag: aus der Hüfte heben, am Rumpf stabil bleiben, einseitig tragen können. Dafür nutzen wir Kreuzheben-Varianten mit Kurzhanteln, Ruderzüge mit dem Band und Trageübungen mit Gewicht in einer Hand. Jede Übung hat eine Startlast und eine Steigerungsregel, beides steht im Protokoll. Nach acht Wochen vergleichen wir nicht Gefühle, sondern Zahlen: was du am Anfang bewegt hast und was heute geht.",
+      },
+      {
+        title: "Wo Training zuständig ist und wo der Arzt",
+        body: "Taubheit, Lähmungserscheinungen, Fieber oder nächtlicher Ruheschmerz gehören zum Arzt, nicht ins Training. Alles andere klären wir im Erstgespräch: was war, was die Physio gemacht hat, was dein Alltag verlangt. Wenn du parallel noch in Behandlung bist, stimme ich die Belastung darauf ab. Das Ziel bleibt immer gleich: ein Rücken, der nicht geschont werden muss.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Elsdorf?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, bei dir zu Hause ohne Aufpreis. Wer lieber mit Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Kann ich direkt nach der Physiotherapie anfangen?",
+        a: "Ja, das ist sogar der beste Zeitpunkt. Der Schmerz ist unten, die Bewegung funktioniert wieder, und jetzt entscheidet sich, ob Belastbarkeit aufgebaut wird oder die nächste Episode wartet. Ich knüpfe an die Übungen aus der Therapie an und steigere von dort.",
+      },
+      {
+        q: "Was brauche ich zu Hause für das Training?",
+        a: "Zwei mal zwei Meter freie Fläche. Kurzhanteln und Bänder bringe ich mit, bis du entscheidest, ob du eigene anschaffen willst. Ein Garten oder die Straße vor der Tür erweitern das Programm, nötig sind sie nicht.",
+      },
+      {
+        q: "Wie lange dauert es, bis der Rücken belastbar ist?",
+        a: "Erste spürbare Veränderungen kommen nach vier bis sechs Wochen, ein solider Aufbau braucht drei Monate mit zwei Einheiten pro Woche. Das Protokoll zeigt dir den Fortschritt schwarz auf weiß, lange bevor du ihn im Alltag bemerkst.",
+      },
+    ],
+  },
+
+  "rath-heumar/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Rath/Heumar scheitert selten am Sonntag und oft an den fünf Tagen davor: Eine Runde im Königsforst gleicht keine Woche im Auto aus. Ich baue den Verbrauch in deine Arbeitswoche ein und sichere ihn mit zwei Krafteinheiten ab. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Rath/Heumar: der Verbrauch gehört in die Woche, nicht nur in die Sonntagsrunde im Königsforst. Krafttraining plus Ernährung. 50€/Std.",
+    sections: [
+      {
+        title: "Die Sonntagsrunde ist gut, aber sie ist nicht die Woche",
+        body: "Anderthalb Stunden Königsforst verbrauchen grob 400 bis 500 Kilokalorien. Das ist wertvoll, aber es steht gegen fünf Tage, die im Auto und am Schreibtisch stattfinden. Wer nur am Wochenende in Bewegung kommt, verteilt auf sieben Tage gerechnet fast nichts. Deshalb rechne ich andersherum: Erst bekommt Montag bis Freitag einen festen Bewegungssockel, dann ist die Waldrunde das Extra obendrauf und nicht mehr die einzige Hoffnung der Woche.",
+      },
+      {
+        title: "Rath/Heumar fährt viel, und genau damit planen wir",
+        body: "Das Veedel liegt am Autobahnkreuz Köln-Ost, viele der 11.833 Einwohner pendeln mit dem Auto und wohnen mit Garten und Garage. Zu Fuß erledigt sich hier wenig von selbst, also bekommt Bewegung Termine: eine Abendrunde am Waldrand, die immer gleich startet, der Bäcker am Samstag zu Fuß statt mit dem Wagen, zwanzig Minuten nach dem Abendessen statt Couch ab Minute eins. Das klingt banal, summiert sich aber auf mehr Verbrauch als jede Sonntagsleistung.",
+      },
+      {
+        title: "Zwei Krafteinheiten bestimmen, woraus die Kilos bestehen",
+        body: "Ein Defizit ohne Krafttraining nimmt Muskel und Fett gleichermaßen mit, und am Ende bist du leichter, aber nicht besser dran. Zwei Einheiten pro Woche setzen den Reiz, der die Muskulatur im Defizit hält. Wir trainieren bei dir zu Hause oder draußen am Königsforst-Rand, mit Grundübungen und steigender Last. Mehr braucht es nicht, weniger reicht nicht.",
+      },
+      {
+        title: "Das Essen rechnet Natalie, und zwar im Wochenschnitt",
+        body: "Natalie legt mit dir ein Kalorienziel fest, das zu deinem Tag passt, nicht zu einem Lehrbuch-Tag. Gemessen wird der Wochenschnitt, damit ein Geburtstag oder ein Grillabend den Plan nicht kippt. Kontrolliert wird am Trend über mehrere Wochen und am Bauchumfang, nicht an einer einzelnen Morgenwägung. So bleibt das Projekt ruhig, und ruhig ist es durchhaltbar.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehmen mit Personal Trainer in Köln-Rath/Heumar?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Trainingsplan, Ernährungssteuerung mit Natalie und wöchentliche Check-ins gibt es im Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Reicht Spazierengehen im Königsforst zum Abnehmen?",
+        a: "Als einzige Maßnahme nein. Gehen ist der beste Grundverbrauch, den es gibt, aber das Defizit entsteht aus der Kombination: Kalorienziel beim Essen, Bewegungssockel in der Woche, zwei Krafteinheiten für die Muskulatur. Der Wald ist ein Baustein, nicht der Plan.",
+      },
+      {
+        q: "Muss ich dafür joggen?",
+        a: "Nein. Für das Abnehmen zählt der Gesamtverbrauch, und den liefert zügiges Gehen genauso zuverlässig, nur ohne Überlastungsrisiko für Knie und Achillessehne. Wenn du gern läufst, bauen wir es ein. Wenn nicht, fehlt deinem Ergebnis nichts.",
+      },
+      {
+        q: "Wie schnell nehme ich realistisch ab?",
+        a: "Ein halbes bis ein Kilo pro Woche ist das gesunde Tempo, bei dem die Muskulatur bleibt. Schnellere Versprechen bedeuten fast immer Wasser und Muskelverlust, und beides kommt zurück. Nach zwölf Wochen reden wir über fünf bis zehn Kilo, je nach Ausgangslage.",
+      },
+    ],
+  },
+
+  "vogelsang/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Vogelsang beginnt mit einer unbequemen Wahrheit: Es liegt selten an der Matratze oder am Stuhl. Ein Rücken, der alles aushält, wird nicht gekauft, sondern trainiert. Das machen wir zusammen, bei dir zu Hause in der Siedlung. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Vogelsang: nicht die Matratze wechseln, den Rücken belastbar machen. Krafttraining zu Hause in der Siedlung. 50€/Std, Erstgespräch gratis.",
+    sections: [
+      {
+        title: "Neue Matratze, neuer Stuhl, gleicher Rücken",
+        body: "Die Reihenfolge kennt fast jeder: Erst kommt die teure Matratze, dann der ergonomische Stuhl, dann die Einlagen. Jedes Mal wird es zwei Wochen besser, dann meldet sich der Rücken wieder. Das ist kein Zufall. Komfort senkt den Reiz, aber er baut nichts auf. Ein Rücken, der schon beim normalen Sitzen überfordert ist, braucht nicht weniger Belastung, sondern mehr Kapazität. Die entsteht nur durch Training, nicht durch Einkauf.",
+      },
+      {
+        title: "Belastbarkeit schlägt Ergonomie",
+        body: "Das Ziel ist nicht, jede Position zu vermeiden, die unangenehm werden könnte. Das Ziel ist ein Rücken, dem die Position egal ist. Dafür trainieren wir drei Dinge: Kraft im Rumpf, Kraft in der Hüfte und Zugkraft im oberen Rücken. Mit steigender Last, in sauberen Stufen, zweimal pro Woche. Der beste Bürostuhl ist am Ende ein Rücken, der auch auf dem Küchenstuhl acht Stunden durchhält.",
+      },
+      {
+        title: "Training in Vogelsang: kurze Wege, feste Routine",
+        body: "Vogelsang ist mit 8.336 Einwohnern auf 3,64 km² ein ruhiges Siedlungsveedel im Bezirk Ehrenfeld, und genau das nutzen wir. Trainiert wird in deinem Wohnzimmer oder im Hof, die Ausrüstung bringe ich mit. Für die Tage dazwischen bekommst du eine kurze Morgenroutine und eine Gehstrecke: Richtung Müngersdorf und Grüngürtel bist du in wenigen Minuten im Grünen. Die Hürde zwischen Entschluss und Einheit ist hier so klein wie die Wege.",
+      },
+      {
+        title: "Erst verstehen, dann belasten",
+        body: "Vor der ersten Last steht der Check: Wo zwickt es, seit wann, bei welchen Bewegungen, was wurde ärztlich abgeklärt. Warnzeichen wie Taubheit, Kraftverlust im Bein oder nächtlicher Ruheschmerz schicke ich zum Arzt, das ist nicht mein Feld. Für alles andere gilt: Startlast festlegen, Steigerung ins Protokoll, alle vier Wochen messen. Fortschritt ist hier eine Zahl, kein Bauchgefühl.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Vogelsang?",
+        a: "Die 1-zu-1 Stunde kostet 50€, inklusive Anfahrt und Material. Alternativ gibt es das Online Coaching ab 150€ im Monat mit Plan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Soll ich mir trotzdem einen ergonomischen Stuhl kaufen?",
+        a: "Wenn dein aktueller Stuhl wirklich kaputt ist, ja. Aber erwarte davon keine Lösung. Die Studienlage und meine Erfahrung sagen dasselbe: Entscheidend ist, wie belastbar dein Rücken ist und wie oft du die Position wechselst, nicht das Preisschild des Stuhls.",
+      },
+      {
+        q: "Wie oft muss ich trainieren?",
+        a: "Zwei Einheiten pro Woche mit mir oder nach Plan, dazu täglich fünf bis zehn Minuten Routine am Morgen. Das ist das Minimum, mit dem sich Kapazität aufbaut, und gleichzeitig ein Pensum, das neben Job und Familie durchhaltbar bleibt.",
+      },
+      {
+        q: "Geht das Training ohne Geräte bei mir zu Hause?",
+        a: "Ja. Kurzhanteln, Bänder und eine Matte bringe ich mit, dein Körpergewicht liefert den Rest. Für Rückentraining braucht es keine Maschinen, sondern die richtigen Muster mit sauber gesteigerter Last.",
+      },
+    ],
+  },
+
+  "worringen/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Worringen setzt da an, wo die Unterweisung aufhört: Die Regeln fürs Heben kennst du von der Arbeit, aber Technik hält nur, wenn Kraft dahintersteht. Die bauen wir auf, mit Terminen, die zu deiner Schicht passen. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Worringen: Hebetechnik kennst du vom Werk, die Kraft dahinter trainieren wir. Termine nach Schichtplan, zu Hause im Veedel. 50€/Std.",
+    sections: [
+      {
+        title: "Acht Stunden nach Vorschrift, der Rest des Tages ohne",
+        body: "Wer in der Industrie arbeitet, wird regelmäßig unterwiesen: aus den Beinen heben, Last nah am Körper, Hilfsmittel benutzen. Im Werk funktioniert das, weil Abläufe und Geräte darauf ausgelegt sind. Zu Hause hebt derselbe Mensch den Getränkekasten aus dem Kofferraum, die Blumenerde in den Garten und das Enkelkind aus dem Bett, ohne Hebehilfe und ohne nachzudenken. Der Rücken ist derselbe, nur die Absicherung fehlt. Genau diese Lücke trainieren wir zu.",
+      },
+      {
+        title: "Technik ohne Kraft kippt unter Last",
+        body: "Rückengerecht heben heißt: Beine und Hüfte arbeiten, der Rücken bleibt lang. Das setzt voraus, dass Beine und Hüfte stark genug sind, sonst bricht die Form bei der dritten Wiederholung zusammen und der Rücken übernimmt doch. Deshalb trainieren wir das Heben selbst: Kreuzheben-Varianten mit steigendem Gewicht, einseitiges Tragen, Zugübungen für den oberen Rücken. Nicht um die Vorschrift zu ersetzen, sondern damit du die Kraft hast, sie einzuhalten.",
+      },
+      {
+        title: "Ganz im Norden, Termine nach Schichtplan",
+        body: "Worringen ist der nördlichste Stadtteil von Köln, 10.365 Einwohner, und viele arbeiten in Schicht in den Werken der Umgebung. Ein Kurs um 18 Uhr ist für die Frühschicht zu spät und für die Spätschicht unmöglich. Deshalb lege ich Einheiten auch auf den Vormittag nach der Nacht oder den frühen Nachmittag vor der Spätschicht, bei dir zu Hause, ohne zusätzliche Fahrt. Für freie Tage liegen das Worringer Rheinufer und der Bruch direkt vor der Tür, als Gehstrecke zum Runterkommen.",
+      },
+      {
+        title: "Der Einstieg: Bestandsaufnahme, dann Stufen",
+        body: "Im Erstgespräch klären wir, was dein Rücken täglich leisten muss und wo er sich meldet. Ärztliche Warnzeichen wie ausstrahlende Taubheit oder Kraftverlust gehören zuerst in die Praxis, das sage ich dir offen. Danach bekommt jede Übung eine Startlast und eine Steigerungsregel, und alle vier Wochen steht der Vergleich im Protokoll. Du siehst, was dein Rücken verträgt, bevor der Alltag es testet.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Worringen?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, die Anfahrt nach Worringen ist drin. Das Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Für das Erstgespräch zahlst du nichts.",
+      },
+      {
+        q: "Ich arbeite Wechselschicht. Wie planen wir die Termine?",
+        a: "Wir legen die Einheiten pro Woche neu, passend zum Schichtplan. Zwei feste Zeitfenster relativ zu deiner Schicht reichen, zum Beispiel vormittags nach der Nachtschicht. Dein Plan hängt an deiner Woche, nicht an einem Stundenplan.",
+      },
+      {
+        q: "Heben wir im Training richtig schwer?",
+        a: "Schwer genug, dass der Körper einen Grund hat, stärker zu werden, und leicht genug, dass die Form steht. Die Last steigt in geplanten Stufen. Ein Rücken wird nicht durch Schonung belastbar, sondern durch Gewicht, das er kontrolliert bewegt hat.",
+      },
+      {
+        q: "Ich arbeite schon körperlich. Brauche ich trotzdem Training?",
+        a: "Gerade dann. Arbeit belastet einseitig und in immer gleichen Mustern, sie trainiert nicht, sie verbraucht. Das Training gleicht die einseitige Belastung aus und baut die Reserve auf, von der dein Arbeitstag zehrt.",
+      },
+    ],
+  },
+
+  "eil/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Eil fängt oft beim Frühstück an: Brötchen und Süßes machen satt für eine Stunde, um halb elf ist der Hunger zurück und zieht sich durch den Tag. Natalie baut deinen Morgen auf Eiweiß um, der Rest wird dadurch leichter. Enthalten im Online Coaching ab 150€ im Monat, Erstgespräch kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Eil mit Natalie: das Frühstück umbauen, den Dauerhunger stoppen. Online-Beratung im Coaching ab 150€/Monat, Erstgespräch gratis.",
+    sections: [
+      {
+        title: "Satt für eine Stunde: das Brötchen-Frühstück",
+        body: "Zwei Brötchen mit Marmelade, dazu ein süßer Kaffee: So beginnt der Tag in vielen Küchen, und er beginnt mit einem Blutzuckerberg. Eine Stunde später kommt das Tal, und mit ihm der Hunger, der eigentlich keiner sein dürfte. Ab da hangelt sich der Tag von Snack zu Snack, und abends wundert man sich über die Bilanz. Das Problem ist selten die Menge am Morgen, sondern die Zusammensetzung: viel Weißmehl und Zucker, fast kein Eiweiß.",
+      },
+      {
+        title: "Eiweiß am Morgen trägt bis mittags",
+        body: "Der Umbau ist unspektakulär: Quark oder Skyr mit Obst, Eier dazu, das Brötchen bleibt, aber es trägt nicht mehr allein. Mit 25 bis 30 Gramm Eiweiß am Morgen hält die Sättigung drei bis vier Stunden, und die Snack-Kette reißt von selbst ab. Natalie verbietet dir nichts vom Bäcker, sie ändert die Rolle des Frühstücks: vom Zuckerstart zum Fundament. Wer nur eine einzige Mahlzeit umbauen will, baut diese um.",
+      },
+      {
+        title: "Beratung per Video, in einem Veedel mit langen Wegen",
+        body: "Eil ist mit 16,25 km² einer der größten Stadtteile von Porz, 9.336 Einwohner verteilt auf Ortskern, Siedlungen und viel Fläche Richtung Wahner Heide. Für eine Beratung quer durch die Stadt fahren lohnt sich nicht, also findet sie per Video statt: Bestandsaufnahme deiner echten Woche, ein Ziel in Zahlen, dann wöchentliche Check-ins am Gewichtstrend. Geplant wird mit dem, was du ohnehin einkaufst und kochst.",
+      },
+      {
+        title: "Die Heide vor der Tür zählt in die Bilanz",
+        body: "Essen regelt das Defizit, Bewegung stützt es. In Eil liegt die Wahner Heide direkt hinter den letzten Häusern, und eine feste Runde dort ist der angenehmste Grundverbrauch, den das Veedel zu bieten hat. Wenn du zusätzlich trainieren willst, kommt Angelo dazu: zwei Krafteinheiten pro Woche, damit beim Abnehmen die Muskulatur bleibt. Beides zusammen läuft über denselben Plan und dieselben Check-ins.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Eil?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch kostet nichts, dabei klären wir auch, ob das Frühstücksthema bei dir überhaupt der richtige Hebel ist.",
+      },
+      {
+        q: "Muss ich auf Brötchen verzichten?",
+        a: "Nein. Das Brötchen bekommt Gesellschaft, nicht Hausverbot: Eiweiß dazu, Zucker reduziert, fertig. Pläne, die Lebensmittel verbieten, halten in Eil genauso kurz wie überall sonst. Natalie arbeitet mit Mengen und Zusammensetzung, nicht mit Verbotslisten.",
+      },
+      {
+        q: "Wie schnell merke ich einen Unterschied?",
+        a: "Beim Hunger innerhalb weniger Tage: Wer morgens Eiweiß isst, kommt ohne Vormittagssnack bis mittags. Auf der Waage zählt der Trend über drei bis vier Wochen. Genau den schauen wir uns in den Check-ins an, nicht die einzelne Tageszahl.",
+      },
+      {
+        q: "Behandelt Natalie auch Unverträglichkeiten oder Krankheiten?",
+        a: "Nein. Natalie ist Ernährungsberaterin für Sport- und Fitnessernährung: Abnehmen, Muskelaufbau, Essen rund ums Training. Diagnosen und Ernährungstherapie gehören zu Arzt oder Ernährungstherapeuten, und dahin verweisen wir dich dann auch ehrlich.",
+      },
+    ],
+  },
+
+  "zollstock/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung in Köln-Zollstock löst ein Problem, das es vor ein paar Jahren kaum gab: Im Homeoffice sind es drei Meter bis zum Kühlschrank, und aus drei Mahlzeiten werden zehn kleine. Natalie gibt deinem Essenstag wieder feste Fenster. Enthalten im Online Coaching ab 150€ im Monat, Erstgespräch kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Zollstock mit Natalie: feste Essensfenster statt Homeoffice-Grasen, Pause im Vorgebirgspark. Ab 150€/Monat, Erstgespräch gratis.",
+    sections: [
+      {
+        title: "Drei Meter bis zum Kühlschrank",
+        body: "Im Büro gab es natürliche Hürden: Essen holen kostete einen Weg, Kollegen schauten zu, die Küche war weit. Im Homeoffice fällt das alles weg. Zwischen zwei Videocalls eine Handvoll Nüsse, beim Nachdenken ein Stück Käse, nach dem schwierigen Gespräch ein Keks. Keine dieser Portionen fühlt sich wie eine Mahlzeit an, und genau deshalb zählt sie niemand mit. Am Abend fehlt im Kopf die Hälfte dessen, was der Tag wirklich geliefert hat.",
+      },
+      {
+        title: "Feste Fenster statt Dauergrasen",
+        body: "Die Lösung ist keine Diät, sondern eine Tagesordnung: drei Mahlzeiten mit Anfang und Ende, dazwischen bleibt die Küche zu. Mittags gibt es eine echte Pause mit einem echten Teller, nicht ein Brot über der Tastatur. Was offen herumsteht, wird gegessen, also steht nichts offen herum. Das klingt streng und ist das Gegenteil: Innerhalb der Fenster ist Platz für ordentliche Portionen, und der ständige kleine Hunger verschwindet, weil der Blutzucker nicht mehr den ganzen Tag Achterbahn fährt.",
+      },
+      {
+        title: "Die Pause geht in den Vorgebirgspark",
+        body: "Zollstock hat für die neue Mittagspause die beste Infrastruktur im Kölner Süden: Der Vorgebirgspark liegt mitten im Veedel, der Äußere Grüngürtel schließt direkt an. Eine 20-Minuten-Runde ersetzt das Ritual, das vorher der Gang zum Kühlschrank war, und liefert nebenbei den Bewegungssockel, den ein Schreibtischtag nicht hat. Bei 23.327 Einwohnern auf gut fünf Quadratkilometern ist der Park nie weiter als ein paar Minuten entfernt.",
+      },
+      {
+        title: "So läuft die Beratung mit Natalie",
+        body: "Zuerst eine Woche Protokoll, ohne etwas zu ändern: Natalie will sehen, wie dein Tag wirklich isst, nicht wie er sollte. Daraus entstehen die Fenster, ein Kalorienrahmen und zwei bis drei Regeln, die zu deinem Arbeitstag passen. Danach wöchentliche Video-Check-ins am Gewichtstrend. Wenn du Training dazunehmen willst, übernimmt Angelo den Part, im Park oder bei dir zu Hause, über denselben Plan.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Zollstock?",
+        a: "Sie ist Teil des Online Coachings ab 150€ im Monat, mit Plan, App und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos und klärt, ob das Format zu deinem Arbeitstag passt.",
+      },
+      {
+        q: "Sind Snacks dann komplett verboten?",
+        a: "Nein, sie bekommen einen Platz. Ein geplanter Nachmittagssnack im Fenster ist in Ordnung. Was wegfällt, ist das Nebenbei-Essen ohne Entscheidung: die zehn ungezählten Griffe zwischen den Calls, die am Monatsende den Unterschied machen.",
+      },
+      {
+        q: "Ich koche mittags nicht. Was esse ich in der Pause?",
+        a: "Vorgekochtes vom Vortag, eine große Bowl aus fertigen Komponenten oder etwas Kaltes mit genug Eiweiß. Natalie baut die Mittagsoption aus dem, was dein Kühlschrank ohnehin hergibt. Entscheidend ist der Teller mit Anfang und Ende, nicht die Kochleistung.",
+      },
+      {
+        q: "Läuft die Beratung komplett online?",
+        a: "Ja, Protokoll, Auswertung und Check-ins laufen per Video und App. Das passt zum Homeoffice-Alltag, um den es geht. Wer Training dazubucht, sieht Angelo persönlich in Zollstock, die Ernährungsseite bleibt digital.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
