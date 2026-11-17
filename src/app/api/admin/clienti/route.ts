@@ -13,6 +13,7 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { requireAdmin } from "@/lib/admin-auth";
+import { voceAOre } from "@/lib/preventivo-listino";
 
 export const dynamic = "force-dynamic";
 
@@ -53,6 +54,8 @@ export interface Cliente {
   totale: number;
   mesi: number;
   mensile: boolean;
+  /** contratto a ore (Personal Training 1-zu-1): abbonamento mensile senza fine */
+  aOre: boolean;
   inizio: string | null;
   fine: string | null;
   firmatoAt: string | null;
@@ -139,6 +142,7 @@ export async function GET() {
       totale: p.totale,
       mesi,
       mensile: p.periodicita === "mensile",
+      aOre: !!voceAOre(p.items),
       inizio: inizio ? inizio.toISOString() : null,
       fine: inizio && (p.periodicita !== "mensile" || mesi > 1) ? piuMesi(inizio, mesi).toISOString() : null,
       firmatoAt: p.firmatoAt?.toISOString() ?? null,
@@ -201,6 +205,7 @@ export async function GET() {
       totale: d.total,
       mesi,
       mensile: mesi > 1,
+      aOre: false,
       inizio: inizio ? inizio.toISOString() : null,
       fine: inizio ? piuMesi(inizio, mesi).toISOString() : null,
       firmatoAt: null,
