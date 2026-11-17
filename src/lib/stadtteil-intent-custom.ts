@@ -11556,6 +11556,258 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "niehl/personal-training": {
+    answer:
+      "Personal Training in Köln-Niehl richtet sich nach dem, was dein Tag schon von dir verlangt hat: Wer im Werk, im Hafen oder in der Pflege acht Stunden auf den Beinen war, braucht dosierte Last statt Auspowern. Ich komme zu dir nach Hause, der Outdoor-Teil läuft im Nordpark. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Niehl: dosiertes 1-zu-1 Krafttraining nach körperlicher Arbeit, bei dir zu Hause oder im Nordpark. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Training muss wissen, was vorher war",
+        body: "Niehl ist das Veedel der körperlichen Arbeit: die Ford-Werke, der Niehler Hafen, dazu Logistik und Pflege. Viele meiner Anfragen aus dem Kölner Norden klingen gleich: Ich bin den ganzen Tag auf den Beinen, warum tut mir trotzdem alles weh? Die Antwort: Arbeit belastet, aber sie trainiert nicht. Sie wiederholt dieselben Bewegungen in derselben Haltung, ohne Steigerung und ohne Ausgleich. Ein Plan von der Stange legt da einfach mehr Erschöpfung obendrauf. Ich baue dein Training andersherum: erst schauen, was dein Tag schon verbraucht hat, dann die Lücken gezielt belasten.",
+      },
+      {
+        title: "Dosiert heißt nicht leicht",
+        body: "Dosierte Last bedeutet nicht, dass wir uns schonen. Es bedeutet, dass die harten Sätze dahin fallen, wo dein Körper sie verkraften und in Kraft umwandeln kann. Konkret: zwei Einheiten pro Woche, jede mit klarem Schwerpunkt, die Übungen gegenläufig zu deiner Arbeitshaltung gewählt. Wer viel steht und hebt, bekommt Zug- und Rumpfarbeit mit kontrolliertem Volumen. Wer sitzt, bekommt Hüfte und Rücken. Alle vier Wochen messen wir nach, und wenn die Zahlen stehen bleiben, ändere ich den Plan und nicht die Ausrede.",
+      },
+      {
+        title: "Zu Hause in Niehl oder im Nordpark",
+        body: "Niehl ist mit gut 12 km² einer der größten Stadtteile Kölns, und zwischen Alt-Niehl, den Wohnvierteln und dem Industriegürtel liegen weite Wege. Deshalb komme ich zu dir: Kraftarbeit bei dir zu Hause mit Material, das ich mitbringe. Für draußen liegt der Nordpark direkt vor der Tür, mit breiten Wegen und Wiesen für Ausdauerintervalle und Technikarbeit. Du brauchst kein Studio, keine Anfahrt und keinen Parkplatz, nur einen festen Termin.",
+      },
+      {
+        title: "Der erste Monat, Schritt für Schritt",
+        body: "Wir starten mit einem kostenlosen Erstgespräch und einem Beweglichkeits- und Kraftcheck. Daraus entsteht dein Plan: zwei feste Termine pro Woche, jede Übung mit protokollierter Last. Nach vier Wochen vergleichen wir die Zahlen mit dem Start. Du siehst schwarz auf weiß, ob sich etwas bewegt. Eine Stunde kostet 50€, und wenn du lieber mit App und wöchentlichen Check-ins arbeitest, gibt es das Online Coaching ab 150€ im Monat.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Niehl?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Ich arbeite körperlich. Bringt mir Krafttraining überhaupt etwas?",
+        a: "Gerade dann. Körperliche Arbeit belastet einseitig und steigert sich nicht planbar. Gezieltes Krafttraining gleicht die Arbeitshaltung aus und baut die Reserve auf, die dich durch die Schicht trägt, statt dich am Wochenende flachzulegen.",
+      },
+      {
+        q: "Wo trainieren wir in Niehl konkret?",
+        a: "Die Kraftarbeit läuft bei dir zu Hause, ich bringe das Material mit. Für Ausdauer und Technik nutzen wir den Nordpark. Ein Studio brauchst du dafür nicht.",
+      },
+      {
+        q: "Ich hatte lange kein Training. Wo fangen wir an?",
+        a: "Mit einem Check statt mit Vollgas: Beweglichkeit, Grundkraft, Belastbarkeit. Danach steigt die Last kontrolliert von Woche zu Woche. Der Einstieg ist der Teil, den ich am genauesten plane.",
+      },
+    ],
+  },
+  "westhoven/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Westhoven ist für Wochen gebaut, die nicht zu Hause stattfinden: Dein Plan existiert in einer Fassung für deine Wohnung und einer für Hotelzimmer und fremde Studios, die Check-ins laufen asynchron. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching für Köln-Westhoven: ein Trainingsplan, der auf Dienstreisen mitfährt, mit Hotel-Fassung und asynchronen Check-ins. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Das Problem ist nicht dein Wille, sondern dein Kalender",
+        body: "Wer in Westhoven wohnt und beruflich viel unterwegs ist, kennt das Muster: Zu Hause läuft das Training zwei Wochen gut, dann kommen drei Reisetage, und der Faden reißt. Ein Trainer mit festem Studio und festen Zeiten kann dir dabei nicht helfen, denn sein Angebot endet an seiner Tür. Ein Coaching in der App fährt mit. Der Plan weiß, dass deine Woche zwei Orte hat, und ist für beide geschrieben.",
+      },
+      {
+        title: "Jede Einheit in zwei Fassungen",
+        body: "Der Unterschied steckt im Detail: Jede Krafteinheit in deinem Plan gibt es in einer Heim-Fassung mit deinem Material und einer Auswärts-Fassung, die mit Körpergewicht, Kurzhanteln oder einem typischen Hotelstudio auskommt. Gleiche Muskelgruppen, gleiche Progression, andere Werkzeuge. Du entscheidest morgens, welche Fassung dran ist, und die Woche zählt trotzdem als eine Woche. So entsteht über Monate eine Linie statt einer Sammlung von Neustarts.",
+      },
+      {
+        title: "Check-ins, die keine Uhrzeit brauchen",
+        body: "Die Rückmeldung läuft asynchron: Du schickst Videos deiner Sätze und kurze Notizen, wenn es bei dir passt, abends im Hotel oder sonntags in Westhoven. Ich antworte mit Technikkorrektur und passe die Lasten an, bevor die neue Woche beginnt. Es gibt keinen Termin, den du wegen eines verspäteten Zuges absagen musst. Für die Grundlagenausdauer bleibt der Rheinuferweg vor deiner Tür: flach, beleuchtet und ohne Umweg erreichbar.",
+      },
+      {
+        title: "Was nach zwölf Wochen anders ist",
+        body: "Nach zwölf Wochen hast du ein Protokoll, das durch Reisewochen hindurch weiterläuft, messbar mehr Last auf den Grundübungen und eine Routine, die nicht mehr vom Ort abhängt. Das Coaching kostet ab 150€ im Monat. Ob es zu deinem Reiserhythmus passt, klären wir im kostenlosen Erstgespräch, gern per Video.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching für Köln-Westhoven?",
+        a: "Ab 150€ im Monat, mit individuellem Plan, Videoanalyse deiner Technik und wöchentlicher Anpassung. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich bin jede Woche unterwegs. Funktioniert das trotzdem?",
+        a: "Genau dafür ist es gedacht. Jede Einheit existiert in einer Heim- und einer Auswärts-Fassung, die Check-ins laufen ohne feste Uhrzeit. Der Plan reißt nicht ab, wenn du nicht in Köln bist.",
+      },
+      {
+        q: "Brauche ich Geräte im Hotel?",
+        a: "Nein. Die Auswärts-Fassungen kommen mit Körpergewicht aus oder nutzen, was ein einfaches Hotelstudio hergibt. Die Progression steuere ich über Tempo, Pausen und Wiederholungen.",
+      },
+      {
+        q: "Sehen wir uns auch mal persönlich?",
+        a: "Wenn du magst, ja. Viele starten mit einer 1-zu-1 Stunde in Westhoven für den Technikcheck und wechseln danach ins Online Coaching. Die Stunde kostet 50€.",
+      },
+    ],
+  },
+  "weiss/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Weiß heißt: zwei Stunden pro Woche richtig investieren. Fünf bis sechs Grundübungen mit steigender Last schlagen jede Sammlung von Isolationsübungen, und beides passt in dein Haus im Dorf am Rheinbogen. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Weiß: Grundübungen mit Progression statt Geräte-Parcours, zwei Einheiten pro Woche bei dir zu Hause. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Zwei Stunden pro Woche sind genug, wenn nichts davon verschenkt wird",
+        body: "Die meisten Trainingspläne scheitern in Weiß nicht an der Disziplin, sondern an der Übungsauswahl. Wer nur zwei Einheiten pro Woche hat, kann sie nicht mit zehn Isolationsübungen füllen, von denen jede einen kleinen Muskel ein bisschen reizt. Aufbau entsteht dort, wo viel Muskulatur gleichzeitig gegen steigende Last arbeitet: Kniebeuge, Hüftstrecken, Drücken, Ziehen, Tragen. Fünf, sechs Übungen, sauber ausgeführt und von Woche zu Woche schwerer. Das ist kein Minimalprogramm, das ist das Programm.",
+      },
+      {
+        title: "Der Bizeps wächst am Klimmzug mit",
+        body: "Der Einwand kommt oft: Und was ist mit den Armen? Die Antwort steht in jedem Protokoll. Wer sein Rudern und seine Klimmzugvarianten über Monate steigert, baut Arme auf, ohne eine einzige Curl-Übung. Die großen Bewegungen nehmen die kleinen Muskeln mit. Isolationsübungen haben ihren Platz, wenn eine Schwachstelle gezielt nachziehen muss, aber sie sind das Dessert und nicht die Mahlzeit. In einem Zwei-Stunden-Budget gewinnt immer die Übung, die mehr bewegt.",
+      },
+      {
+        title: "Dein Haus in Weiß reicht als Studio",
+        body: "Für dieses Training braucht es keinen Gerätepark. Ich komme mit Kurzhanteln, Langhantelzubehör und Widerstandsbändern zu dir, und ein Kellerraum, ein Wohnzimmer oder der Garten reicht als Trainingsfläche. Weiß hat kein Studio im Veedel, und für diesen Ansatz ist das kein Verlust. Die Runde am Weißer Rheinbogen bleibt für die lockeren Tage dazwischen, denn Aufbau passiert in der Erholung zwischen den Einheiten, nicht an sieben Trainingstagen.",
+      },
+      {
+        title: "Woran du nach zwölf Wochen den Unterschied siehst",
+        body: "Das Protokoll zeigt es zuerst: mehr Last auf denselben Übungen, mehr saubere Wiederholungen. Danach ziehen Spiegel und Hosenbund nach. Wir messen alle vier Wochen Kraftwerte und Umfänge, und die Ernährung läuft parallel mit, denn ohne leichten Kalorienüberschuss und 1,6 bis 2 g Eiweiß pro Kilo baut auch das beste Programm nichts auf. Bei Bedarf plant Natalie, Ernährungsberaterin für Sport- und Fitnessernährung, diesen Teil mit dir.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Weiß?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Wer nach der Startphase mit Plan und wöchentlichen Check-ins weitermacht, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Reichen wirklich zwei Einheiten pro Woche für Muskelaufbau?",
+        a: "Ja, wenn sie aus Grundübungen mit steigender Last bestehen und die Erholung dazwischen stimmt. Drei Einheiten können schneller sein, zwei konsequente schlagen aber jede unregelmäßige Vier-Tage-Routine.",
+      },
+      {
+        q: "Brauche ich dafür Geräte zu Hause in Weiß?",
+        a: "Nein. Ich bringe Hanteln und Bänder mit, und die Übungsauswahl ist für Haus und Garten gebaut. Ein fester Platz von zwei mal drei Metern reicht.",
+      },
+      {
+        q: "Was ist mit gezieltem Armtraining?",
+        a: "Arme wachsen über Zug- und Drückübungen zuverlässig mit. Gezielte Isolationsübungen setze ich erst ein, wenn das Protokoll eine echte Schwachstelle zeigt, nicht als Standardprogramm.",
+      },
+    ],
+  },
+  "worringen/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Worringen mit Natalie, Ernährungsberaterin für Sport- und Fitnessernährung: Dein Plan wird um die Mahlzeiten gebaut, die du nicht selbst kochst, Kantine, Pausenbrot im Werk, das schnelle Mittag unterwegs. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung für Köln-Worringen: Natalie plant deine Woche um Kantine und Werksalltag herum, statt gegen sie. Sport- und Fitnessernährung, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Plan scheitert mittags, nicht abends",
+        body: "Viele Ernährungspläne tun so, als würdest du jede Mahlzeit selbst kochen. In Worringen sieht die Realität anders aus: Wer im Chemiewerk nebenan, im Betrieb oder auswärts arbeitet, isst mittags das, was Kantine oder Pausenraum hergeben. Genau an dieser Mahlzeit zerbrechen die meisten Pläne, weil sie dort keine Antwort haben. Natalie dreht es um: Die Mahlzeit, die du am wenigsten kontrollierst, wird zuerst geplant, mit einfachen Auswahlregeln statt mit einer Dose Salat, die du nie mitnehmen wirst.",
+      },
+      {
+        title: "Auswahlregeln statt Mitbring-Zwang",
+        body: "Für die Kantine bekommst du keine Verbotsliste, sondern eine Reihenfolge: zuerst die Eiweißquelle wählen, dann die Beilage danach ausrichten, die Sättigung über Menge und nicht über Nachschlag steuern. Das funktioniert mit jeder Wochenkarte, auch mit Currywurst-Tagen, weil es Entscheidungen vereinfacht statt Gerichte zu verbieten. Frühstück und Abendessen zu Hause in Worringen sind dann die Stellschrauben, die Natalie präzise einstellt, denn die hast du selbst in der Hand.",
+      },
+      {
+        title: "Essen, das zu Schicht und Training passt",
+        body: "Wenn du bei mir trainierst oder im Online Coaching bist, stimmt Natalie die Mahlzeiten auf die Einheiten ab: Eiweiß über den Tag verteilt, die größere Portion an Trainingstagen, an freien Tagen entsprechend weniger. Und wer in Wechselschicht arbeitet, bekommt keine Uhrzeiten, sondern Mahlzeiten-Slots relativ zum Aufstehen. Die Bewegung dazu liegt vor der Tür: die Runde durch den Worringer Bruch oder am Rheinufer zählt als Alltagsverbrauch, nicht als Sport, und genau so planen wir sie ein.",
+      },
+      {
+        title: "So startet die Beratung",
+        body: "Am Anfang steht ein kostenloses Erstgespräch: Was isst du wirklich, wo entscheidet jemand anderes mit, was soll sich ändern? Daraus baut Natalie einen Plan mit wenigen festen Regeln. Nach zwei Wochen wird nachjustiert, denn der erste Entwurf überlebt selten den ersten Kantinenmontag unverändert. Gemessen wird am Ergebnis: Gewicht, Energie in der Schicht, Kraftwerte im Training.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was macht die Ernährungsberatung in Köln-Worringen konkret?",
+        a: "Natalie ist Ernährungsberaterin für Sport- und Fitnessernährung. Sie plant deine Woche um deine echten Mahlzeiten herum, auch um Kantine und Schichtpausen, und stimmt das Essen auf dein Training ab. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich esse mittags in der Kantine. Ist das ein Problem?",
+        a: "Nein, es ist der Ausgangspunkt. Du bekommst Auswahlregeln, die mit jeder Wochenkarte funktionieren, und die Mahlzeiten zu Hause werden darauf abgestimmt.",
+      },
+      {
+        q: "Funktioniert das auch mit Wechselschicht?",
+        a: "Ja. Der Plan arbeitet mit Slots relativ zu deiner Wachzeit statt mit festen Uhrzeiten, damit Früh-, Spät- und Nachtwoche dieselbe Struktur behalten.",
+      },
+      {
+        q: "Muss ich dafür auch trainieren?",
+        a: "Nein, die Beratung geht auch allein. Die besten Ergebnisse sehen wir aber, wenn Essen und zwei Krafteinheiten pro Woche zusammenspielen. Beides zusammen klären wir im Erstgespräch.",
+      },
+    ],
+  },
+  "meschenich/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Meschenich ist Krafttraining mit echtem Gewicht: Der heftige Muskelkater aus der Stromweste beweist nur, dass Strom geflossen ist, nicht dass du stärker wirst. Aufbau entsteht durch steigende Last, und die gibt es 1-zu-1 bei dir zu Hause für 50€ pro Stunde.",
+    metaDescription:
+      "EMS-Alternative in Köln-Meschenich: Muskelkater aus der Weste ist kein Fortschritt. Krafttraining mit steigender Last, 1-zu-1 bei dir zu Hause. 50€/Std.",
+    sections: [
+      {
+        title: "Muskelkater ist kein Messwert",
+        body: "Nach der ersten EMS-Sitzung haben viele den härtesten Muskelkater ihres Lebens, und genau das wirkt wie ein Beweis: Da muss ja etwas passiert sein. Doch Muskelkater zeigt nur, dass ein Reiz ungewohnt war, nicht, dass er dich aufbaut. Die Stromweste erzeugt die Erschöpfung direkt im Muskel, am Nervensystem vorbei, und das fühlt sich nach mehr an, als es ist. Stärker wirst du von etwas anderem: von einer Last, die du diese Woche bewegst und die nächste Woche ein Stück höher liegt. Dieses Prinzip hat die Weste nicht im Programm.",
+      },
+      {
+        title: "Das Gefühl danach ist nicht das Ergebnis danach",
+        body: "Im Krafttraining trennen wir vom ersten Tag an zwei Dinge: wie sich eine Einheit anfühlt und was sie messbar verändert. Deshalb bekommst du ein Protokoll, in dem jede Übung mit Gewicht und Wiederholungen steht. Ob du vorankommst, liest du nach vier Wochen in Zahlen ab, nicht an deinem Kater am Dienstag. Das ist unbequemer als eine Sensation aus der Steckdose, aber es ist der Unterschied zwischen einem Erlebnis und einem Ergebnis.",
+      },
+      {
+        title: "Meschenich braucht kein Studio dafür",
+        body: "In Meschenich gibt es ohnehin kein EMS-Studio, die nächsten Anbieter sitzen in Rodenkirchen oder Brühl. Für echtes Krafttraining ist das egal: Ich komme mit Hanteln und Bändern zu dir, trainiert wird in deiner Wohnung, im Hof oder bei gutem Wetter auf den Feldwegen Richtung Immendorf. Zwei Einheiten pro Woche mit voller Technikkorrektur, und der Ausdauerteil läuft draußen statt in einer Kabine.",
+      },
+      {
+        title: "Rechne es einmal nüchtern durch",
+        body: "EMS-Verträge laufen meist über Monate und liefern eine 20-Minuten-Reizung pro Woche. Beim 1-zu-1 Training kostet die volle Stunde 50€, ohne Vertragsbindung, und du lernst Bewegungen, die dir bleiben: heben, ziehen, drücken, tragen. Nach zwölf Wochen kannst du damit allein weitertrainieren, wenn du willst. Das Erstgespräch ist kostenlos, und die ersten 14 Tage sind durch die Geld-zurück-Garantie abgesichert.",
+      },
+    ],
+    faq: [
+      {
+        q: "Ist der starke Muskelkater nach EMS nicht ein gutes Zeichen?",
+        a: "Nein. Muskelkater zeigt einen ungewohnten Reiz an, nicht Aufbau. Fortschritt erkennst du daran, dass du über Wochen mehr Last sauber bewegst, und genau das wird im Krafttraining protokolliert.",
+      },
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Meschenich?",
+        a: "Eine 1-zu-1 Stunde Krafttraining kostet 50€, ohne Abo und ohne Vertragslaufzeit. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo trainieren wir, wenn Meschenich kein Studio hat?",
+        a: "Bei dir zu Hause, ich bringe das Material mit. Für Ausdauer und Technik nutzen wir die Feldwege Richtung Immendorf und Godorf direkt am Veedel.",
+      },
+      {
+        q: "Ich habe EMS schon probiert. Fange ich bei null an?",
+        a: "Nein, aber wir messen neu: ein Technikcheck und Ausgangswerte für die Grundübungen. Von dort steigt die Last kontrolliert, und nach vier Wochen vergleichen wir die Zahlen.",
+      },
+    ],
+  },
+  "zuendorf/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Zündorf ist Krafttraining ohne Deckel: Die Stromweste kann ihre Reizstärke nur begrenzt steigern, dein Körper an der Hantel dagegen jahrelang. Trainiert wird bei dir zu Hause im Veedel, die Ausdauer an der Groov. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Zündorf: Krafttraining mit Progression ohne Deckel statt Stromreiz mit eingebautem Plateau. 1-zu-1 im Veedel, 50€/Std.",
+    sections: [
+      {
+        title: "Das eingebaute Plateau der Stromweste",
+        body: "Die ersten Wochen EMS fühlen sich nach Fortschritt an, weil jeder neue Reiz etwas bewegt. Dann wird es still. Der Grund liegt im Gerät: Eine Weste kann im Wesentlichen nur eines, den ganzen Körper elektrisch anspannen, und die Reizstärke lässt sich nur bis zur Schmerzgrenze drehen. Danach gibt es keine nächste Stufe. Krafttraining hat dieses Problem nicht: mehr Gewicht, mehr Wiederholungen, langsameres Tempo, schwerere Übungsvarianten. Die Leiter nach oben ist praktisch endlos, und genau deshalb funktioniert sie auch noch im dritten Jahr.",
+      },
+      {
+        title: "Steigerung ist keine Option, sie ist das Training",
+        body: "Dein Körper passt sich nur an, wenn die Anforderung wächst. Deshalb ist ein Plan, der sich nicht steigern lässt, kein Trainingsplan, sondern eine Wiederholung. Bei mir steht jede Übung mit Last und Wiederholungen im Protokoll, und die nächste Stufe ist immer schon definiert: erst mehr saubere Wiederholungen, dann mehr Gewicht. Du weißt in jeder Einheit, was heute zu schlagen ist. Das ist der Unterschied zwischen 20 Minuten absitzen und 60 Minuten aufbauen.",
+      },
+      {
+        title: "Zündorf ist als Trainingsort besser als jede Kabine",
+        body: "Die Kraftarbeit läuft bei dir zu Hause in Zündorf, ich bringe Hanteln und Bänder mit. Für die Ausdauerblöcke liegt die Groov vor der Tür: flache, vermessbare Runden am Wasser, die sich für Intervalle genauso eignen wie für den lockeren Grundlagenteil. Im alten Ortskern und am Rheinufer bist du dafür an der frischen Luft statt in einer Studiokabine, und die Linie 7 oder die Fähre brauchst du fürs Training gar nicht erst.",
+      },
+      {
+        title: "Was nach zwölf Wochen auf dem Papier steht",
+        body: "Nach zwölf Wochen vergleichen wir dein Protokoll mit dem Start: Last und Wiederholungen auf fünf, sechs Grundübungen, dazu Umfänge und, wenn du willst, Fotos. Steht da keine Steigerung, ändere ich den Plan. Eine Stunde kostet 50€, das Online Coaching mit App und wöchentlichen Check-ins gibt es ab 150€ im Monat, und die ersten 14 Tage deckt die Geld-zurück-Garantie ab.",
+      },
+    ],
+    faq: [
+      {
+        q: "Warum stagniert EMS nach den ersten Wochen?",
+        a: "Weil sich der Reiz kaum weiter steigern lässt. Die Weste kennt nur Stromstärke bis zur Schmerzgrenze. Krafttraining steigert über Gewicht, Wiederholungen, Tempo und Übungswahl und hat dadurch kein eingebautes Plateau.",
+      },
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Zündorf?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit. Das Online Coaching gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo trainieren wir in Zündorf?",
+        a: "Kraft bei dir zu Hause mit mitgebrachtem Material, Ausdauer und Intervalle an der Groov oder am Rheinufer. Ein Studio ist nicht nötig.",
+      },
+      {
+        q: "Ich bin EMS-Kunde und unzufrieden. Wie steige ich um?",
+        a: "Mit einem kostenlosen Erstgespräch und einem Technikcheck. Danach starten wir mit zwei Einheiten pro Woche und messbaren Ausgangswerten, von denen aus die Last Woche für Woche steigt.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
