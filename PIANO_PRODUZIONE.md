@@ -301,6 +301,12 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 293 | /koeln/kalk/ems-alternative | 0 | 1 | 10,0 | FATTA (giro 67, 17/11; pos 10,0: rafforzata con prudenza) |
 | 294 | /koeln/mauenheim/personal-training | 0 | 1 | 10,0 | FATTA (giro 67, 17/11; pos 10,0: rafforzata con prudenza) |
 | 295 | /koeln/chorweiler/personal-training | 0 | 1 | 11,0 | FATTA (giro 67, 17/11; pos 11,0: rafforzata con prudenza) |
+| 296 | /koeln/braunsfeld/ems-alternative | 0 | 1 | 7,0 | FATTA (giro 68, 17/11; pos 7,0: rafforzata con prudenza) |
+| 297 | /koeln/kalk/online-coaching | 0 | 1 | 7,0 | FATTA (giro 68, 17/11; pos 7,0: rafforzata con prudenza) |
+| 298 | /koeln/muelheim/rueckentraining | 0 | 1 | 7,0 | FATTA (giro 68, 17/11; pos 7,0: rafforzata con prudenza) |
+| 299 | /koeln/neustadt-sued/personal-training | 0 | 1 | 7,0 | FATTA (giro 68, 17/11; pos 7,0: rafforzata con prudenza) |
+| 300 | /koeln/ossendorf/online-coaching | 0 | 1 | 7,0 | FATTA (giro 68, 17/11; pos 7,0: rafforzata con prudenza) |
+| 301 | /koeln/hoehenberg/ernaehrungsberatung | 0 | 1 | 8,0 | FATTA (giro 68, 17/11; pos 8,0: rafforzata con prudenza) |
 
 Righe 288-291 entrate il 17/11/2026 (giro 66, riaggiornamento GSC a 90gg fino al 15/11, 332 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 45 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le quattro entrate sono fra pos 5,0 e 7,0, tutte in prima pagina: si rafforzano con prudenza. Giro da 4 pagine, non 6: sesto slot della giornata con ~3 punti di piano residui, motivo = budget. Dopo questo giro restano 41 candidate, tutte a 0 click e 1 impressione).
 
