@@ -12662,6 +12662,174 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "volkhoven-weiler/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Volkhoven/Weiler ist ein Projekt über Monate, und genau dafür ist das ruhige Doppeldorf gut: zwei geführte Krafteinheiten pro Woche bei dir zu Hause, dazwischen geplante Erholung, Eiweiß und Schlaf, denn der Muskel wächst in der Pause. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Volkhoven/Weiler: 2 geführte Einheiten pro Woche zu Hause, Plan für die Tage dazwischen, Eiweißziel und Nachmessen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Muskel wächst zwischen den Einheiten",
+        body: "Die Einheit setzt den Reiz, der Aufbau passiert in den 48 Stunden danach, mit genug Eiweiß und Schlaf. Deshalb plane ich für dich nicht zwei Stunden pro Woche, sondern sieben Tage: zwei geführte Krafteinheiten, dazu klare Vorgaben für die Tage dazwischen, Schritte, Eiweißmenge, Pausenlänge. Wer nur trainiert und die Erholung dem Zufall überlässt, lässt den halben Fortschritt liegen. Im Protokoll steht beides, und beides schauen wir uns gemeinsam an.",
+      },
+      {
+        title: "Zwei Dörfer, kein Studio, trotzdem alles da",
+        body: "Volkhoven und Weiler sind zwei alte Orte, die zusammengewachsen sind: 5.921 Menschen auf 4,35 Quadratkilometern, ruhige Wohnstraßen, kein Fitnessstudio im Veedel. Für Muskelaufbau ist das kein Nachteil. Ich bringe Kurzhanteln, Band und was deine aktuelle Phase braucht, ein freies Stück Boden im Wohnzimmer oder die Garage reicht. Die Bedingungen bleiben jede Woche gleich, und gleiche Bedingungen machen deine Steigerung sauber vergleichbar.",
+      },
+      {
+        title: "Der Fühlinger See gehört zur Erholung, nicht zum Aufbau",
+        body: "Der See liegt gleich hinter Fühlingen, von den meisten Ecken in Volkhoven/Weiler bist du in wenigen Minuten mit dem Rad dort. In der Aufbauphase nutzen wir ihn bewusst locker: Gehrunden oder eine ruhige Radrunde an den trainingsfreien Tagen halten dich in Bewegung, ohne die Erholung zu stören. Harte Intervalle am See und schwere Krafteinheiten am selben Tag bremsen sich gegenseitig, also bekommt jedes seinen festen Platz in der Woche.",
+      },
+      {
+        title: "So messen wir, ob du wirklich Muskeln aufbaust",
+        body: "Alle vier bis sechs Wochen vergleichen wir: die Gewichte im Protokoll, Umfänge an Arm, Brust und Bein, auf Wunsch Fotos unter gleichen Bedingungen. Stagnieren die Zahlen, ändere ich zuerst Volumen oder Essensvorgabe, nicht deine Motivation. So merkst du nach spätestens acht Wochen schwarz auf weiß, ob der Plan für dich funktioniert.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Volkhoven/Weiler?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, das Online Coaching mit Plan und wöchentlichem Check gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie oft muss ich für Muskelaufbau trainieren?",
+        a: "Zwei geführte Krafteinheiten pro Woche reichen, wenn Eiweiß und Erholung stimmen. Mehr Einheiten bringen Einsteigern selten mehr, sie verlängern nur die Erholungszeit.",
+      },
+      {
+        q: "Brauche ich eigene Geräte zu Hause?",
+        a: "Nein. Ich bringe das Material mit und passe es an deine Phase an. Du brauchst nur einen freien, ebenen Platz im Wohnzimmer, Keller oder in der Garage.",
+      },
+      {
+        q: "Wie lange dauert es, bis man Muskeln sieht?",
+        a: "Kraftzuwachs ist nach vier bis sechs Wochen messbar, sichtbare Veränderung braucht bei konsequentem Training und passendem Essen meist zehn bis zwölf Wochen.",
+      },
+    ],
+  },
+  "kalk/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Kalk ist Krafttraining mit Zahlen: Nach der Stromweste bleibt dir nur der Muskelkater als Rückmeldung, nach echtem Training steht ein Gewicht im Protokoll, das du Woche für Woche vergleichen kannst. Zwei geführte Einheiten, zu Hause oder im Bürgerpark, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Kalk: Krafttraining mit messbarem Fortschritt statt Stromreiz, bei dir zu Hause oder im Bürgerpark Kalk. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Woran merkst du, dass es wirkt?",
+        body: "Das ist die Frage, an der EMS scheitert. Die Weste erzeugt einen starken Reiz, aber ihr einziges Feedback ist der Muskelkater am nächsten Tag, und Muskelkater ist kein Maß für Fortschritt. Beim Krafttraining steht nach jeder Einheit eine Zahl: Gewicht mal Wiederholungen, sauber notiert. Nach acht Wochen vergleichst du nicht Gefühle, sondern Zahlen, und siehst genau, wie viel stärker du geworden bist.",
+      },
+      {
+        title: "Training für fast 25.000 Menschen auf drei Quadratkilometern",
+        body: "Kalk ist eng bebaut, die meisten wohnen in Etagenwohnungen. Deshalb baue ich die Heimeinheiten leise und platzsparend auf: kontrollierte Grundübungen statt Sprüngen, mitgebrachtes Material, ein freies Stück Boden genügt. Für den Außenteil liegt der Bürgerpark Kalk im Veedel, mit Wiesen und Wegen für Komplexübungen, Schlitten-Alternativen und Tempoarbeit, wenn dein Plan sie vorsieht.",
+      },
+      {
+        title: "Was die Weste nicht kann: schwerer werden",
+        body: "Muskeln passen sich an, wenn die Last über Monate steigt. Eine Kurzhantel kann von 8 auf 12 auf 16 Kilo wachsen, die Weste bleibt die Weste, und mehr Stromstärke ist keine höhere Last, sondern nur ein unangenehmerer Reiz. Dazu kommt: Kniebeuge, Ziehen und Drücken trainieren Bewegungen, die du im Alltag brauchst, beim Tragen, Treppensteigen, Aufstehen. Zwanzig Minuten Stehen im Stromanzug trainieren keine einzige davon.",
+      },
+      {
+        title: "So läuft der Einstieg in Kalk",
+        body: "Im kostenlosen Erstgespräch nehmen wir deinen Ist-Stand auf: Kraftwerte, Beweglichkeit, was dein Alltag zulässt. Daraus wird ein 8-Wochen-Plan mit zwei festen Terminen pro Woche, früh, mittags oder abends, auch für Schichtdienst. Nach acht Wochen wird nachgemessen, und wenn EMS für dein Ziel tatsächlich die bessere Wahl wäre, sage ich dir das im Erstgespräch offen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Kalk?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, ohne Jahresvertrag und ohne Anmeldegebühr. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ist EMS nicht viel schneller als normales Krafttraining?",
+        a: "Die Sitzung ist kürzer, der Fortschritt nicht. Kraft steigt über steigende Last und gelernte Bewegungen, und beides liefert nur echtes Training. Rechnet man die Anfahrt zum Studio dazu, schrumpft auch der Zeitvorteil.",
+      },
+      {
+        q: "Wo trainieren wir in Kalk?",
+        a: "Bei dir zu Hause oder im Bürgerpark Kalk. Das Material bringe ich mit, du brauchst keine eigene Ausrüstung.",
+      },
+      {
+        q: "Für wen ist EMS trotzdem sinnvoll?",
+        a: "Für Leute, die bewusst nur einen kurzen Reiz ohne Übungslernen wollen und mit der Vertragsbindung leben können. Wer stärker werden, abnehmen oder seinen Rücken stabilisieren will, fährt mit messbarem Krafttraining besser.",
+      },
+    ],
+  },
+  "mauenheim/personal-training": {
+    answer:
+      "Personal Training in Köln-Mauenheim nutzt die kurzen Wege des kleinsten Veedels im Bezirk Nippes: keine Anfahrt für dich, also werden zwei bis drei kompakte Einheiten pro Woche realistisch, und Regelmäßigkeit bringt mehr als jede einzelne Heldeneinheit. 1-zu-1 bei dir zu Hause, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Mauenheim: 1-zu-1 zu Hause in der Siedlung, kompakte Einheiten, feste Termine früh bis abends. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Regelmäßigkeit schlägt Heldeneinheiten",
+        body: "Eine lange Einheit pro Woche fühlt sich nach viel an und bewegt wenig. Zwei bis drei kompakte Einheiten verteilen den Reiz, lassen dich sauberer erholen und bauen schneller Gewohnheit auf. Möglich wird das, wenn der Weg zum Training wegfällt: In Mauenheim, 0,51 Quadratkilometer klein, beginnt deine Einheit an der eigenen Haustür. Kein Packen, keine Fahrt, keine ausgefallene Einheit wegen eines vollen Tages.",
+      },
+      {
+        title: "Trainieren in der Siedlung aus den 1920er Jahren",
+        body: "Mauenheim ist geprägt von der GAG-Siedlung nach Plänen von Wilhelm Riphahn, mit ihren grünen Innenhöfen und ruhigen Wohnstraßen. Genau dort trainieren wir: die Krafteinheit in deiner Wohnung mit mitgebrachtem Material, das Aufwärmen als zügige Runde um die Höfe, Technikübungen dort, wo Platz ist. Die Nachbarn stören wir nicht, ich arbeite mit leisen, kontrollierten Übungen statt mit Sprüngen.",
+      },
+      {
+        title: "Der Park liegt direkt am Veedelsrand",
+        body: "Für die Außeneinheiten liegt der Weidenpescher Park gleich hinter der Stadtteilgrenze: alte Bäume, breite Wege, Wiesen für Komplexübungen und Tempoarbeit. Im Sommer verlegen wir ganze Einheiten dorthin, im Winter bleibt der Kraftteil drinnen und draußen wird gegangen oder gelaufen. Beides steht im selben Wochenplan und zahlt auf dasselbe Ziel ein.",
+      },
+      {
+        title: "Für wen das in Mauenheim passt",
+        body: "Typische Anfragen kommen von Leuten, die lange im Veedel wohnen und für Alltag, Garten und Enkel stark bleiben wollen, und von Berufstätigen, deren Studio-Zeit dem Familienkalender zum Opfer fällt. Der Einstieg ist immer gleich: kostenloses Erstgespräch, Aufnahme deines Ist-Stands, dann ein Plan mit festen Terminen, früh ab 6:30 Uhr, mittags oder abends.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Mauenheim?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos, eine Jahresbindung gibt es nicht.",
+      },
+      {
+        q: "Reicht der Platz in einer Etagenwohnung?",
+        a: "Ja. Ein freies Stück Boden von wenigen Quadratmetern genügt, das Material bringe ich mit und wähle Übungen, die leise und platzsparend sind.",
+      },
+      {
+        q: "Können wir auch komplett draußen trainieren?",
+        a: "Ja, bei passendem Wetter verlegen wir die ganze Einheit in den Weidenpescher Park oder auf die ruhigen Straßen der Siedlung.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Kraft und Ausdauer verbessern sich messbar in den ersten vier bis sechs Wochen. Nach acht Wochen wird nachgemessen, und der Plan wird angepasst, wenn sich eine Zahl nicht bewegt.",
+      },
+    ],
+  },
+  "chorweiler/personal-training": {
+    answer:
+      "Personal Training in Köln-Chorweiler heißt 1-zu-1 dort, wo du wohnst: in deiner Wohnung, auch im Hochhaus, oder draußen am Fühlinger See, der direkt an das Veedel grenzt. Kein Studio nötig, kein Jahresvertrag, die Stunde kostet 50€ und das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Chorweiler: 1-zu-1 in deiner Wohnung oder am Fühlinger See, feste Termine, ohne Jahresvertrag. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Training, das in jede Wohnung passt",
+        body: "In Chorweiler leben 13.340 Menschen auf 1,92 Quadratkilometern, die meisten in Geschosswohnungen aus den 1970er Jahren. Dafür ist mein Training gebaut: kontrollierte Kraftübungen ohne Springen, mitgebrachtes Material, ein freies Stück Boden im Wohnzimmer reicht. Du musst nirgendwo hinfahren und niemandem erklären, warum du anfängst. Ich komme zu dir, auch in den zwölften Stock.",
+      },
+      {
+        title: "Der Fühlinger See liegt vor der Tür",
+        body: "Direkt nördlich von Chorweiler beginnt das Gelände am Fühlinger See, zu Fuß oder mit dem Rad in wenigen Minuten erreichbar. Von Frühjahr bis Herbst verlegen wir Einheiten dorthin: Gehen und Laufen auf den flachen Wegen, Kraft- und Stabilitätsübungen auf den Wiesen. Kaum ein Kölner Veedel hat so viel freie Trainingsfläche so nah an so vielen Wohnungen.",
+      },
+      {
+        title: "Was Personal Training wirklich kostet",
+        body: "Viele halten Personal Training für einen Sport der Villenviertel. Die Rechnung ist einfacher: Eine Stunde kostet 50€, ohne Anmeldegebühr, ohne Jahresvertrag, ohne Zusatzkosten für Material. Wer einmal pro Woche geführt trainiert und die zweite Einheit nach meinem Plan allein macht, zahlt im Monat rund 200€ und bekommt dafür etwas, das kein Abo liefert: einen Plan, der auf deinen Körper gerechnet ist, und jemanden, der kontrolliert, ob er wirkt. Günstiger geht es mit dem Online Coaching ab 150€ im Monat.",
+      },
+      {
+        title: "So starten wir in Chorweiler",
+        body: "Am Anfang steht das kostenlose Erstgespräch, bei dir zu Hause oder draußen am See: Ist-Stand, Ziele, was dein Alltag zulässt. Daraus entsteht ein 8-Wochen-Plan mit zwei festen Terminen pro Woche, auch früh morgens oder nach Spätschicht. Nach acht Wochen messen wir nach. Wenn sich nichts bewegt hat, ändert sich der Plan, nicht deine Schuldzuweisung.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet ein Personal Trainer in Köln-Chorweiler?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos, eine Vertragsbindung über ein Jahr gibt es nicht.",
+      },
+      {
+        q: "Funktioniert das Training in einer Hochhauswohnung?",
+        a: "Ja. Die Übungen sind leise und brauchen wenige Quadratmeter, das Material bringe ich mit. Sprünge und fallende Gewichte kommen in der Wohnung nicht vor.",
+      },
+      {
+        q: "Können wir am Fühlinger See trainieren?",
+        a: "Ja, von Frühjahr bis Herbst regelmäßig. Der See grenzt direkt an Chorweiler, die flachen Wege und Wiesen eignen sich für Ausdauer, Kraft und Stabilität.",
+      },
+      {
+        q: "Muss ich fit sein, um anzufangen?",
+        a: "Nein. Das Erstgespräch nimmt deinen echten Ist-Stand auf, und der Plan startet auf deinem Niveau, auch nach Jahren ohne Sport.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
