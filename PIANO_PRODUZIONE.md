@@ -283,6 +283,14 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 275 | /koeln/worringen/rueckentraining | 0 | 1 | 3,0 | FATTA (giro 63, 17/11; pos 3,0 con 1 impr: rafforzata con prudenza) |
 | 276 | /koeln/eil/ernaehrungsberatung | 0 | 1 | 4,0 | FATTA (giro 63, 17/11; pos 4,0 con 1 impr: rafforzata con prudenza) |
 | 277 | /koeln/zollstock/ernaehrungsberatung | 0 | 1 | 4,0 | FATTA (giro 63, 17/11; pos 4,0 con 1 impr: rafforzata con prudenza) |
+| 278 | /koeln/brueck/abnehmen | 0 | 1 | 4,0 | FATTA (giro 64, 17/11; pos 4,0 con 1 impr: rafforzata con prudenza) |
+| 279 | /koeln/grengel/personal-training | 0 | 1 | 4,0 | FATTA (giro 64, 17/11; pos 4,0 con 1 impr: rafforzata con prudenza) |
+| 280 | /koeln/mauenheim/athletiktraining | 0 | 1 | 4,0 | FATTA (giro 64, 17/11; pos 4,0 con 1 impr: rafforzata con prudenza) |
+| 281 | /koeln/worringen/ems-alternative | 0 | 1 | 4,0 | FATTA (giro 64, 17/11; pos 4,0 con 1 impr: rafforzata con prudenza) |
+| 282 | /koeln/gremberghoven/personal-training | 0 | 1 | 5,0 | FATTA (giro 64, 17/11; pos 5,0 con 1 impr: rafforzata con prudenza) |
+| 283 | /koeln/hahnwald/ems-alternative | 0 | 1 | 5,0 | FATTA (giro 64, 17/11; pos 5,0 con 1 impr: rafforzata con prudenza) |
+
+Righe 278-283 entrate il 17/11/2026 (giro 64, riaggiornamento GSC a 90gg fino al 15/11, 332 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 55 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 4,0 e 5,0, tutte in prima pagina: si rafforzano con prudenza. Quarto slot della giornata con ~8 punti di piano: giro da 6 pagine. Dopo questo giro restano 49 candidate, tutte a 0 click e 1 impressione).
 
 Righe 260-265 entrate il 16/11/2026 (giro 61, riaggiornamento GSC a 90gg fino al 14/11, 333 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 74 candidate fuori coda prima dell'ingresso, tutte a 0 click e 2 impressioni o meno; le sei entrate: tre a 2 impressioni con pos 49-67, tre a 1 impressione con pos 1,0-2,0 che si rafforzano con prudenza. Primo slot della giornata con budget pieno (~15 punti): giro da 6 pagine. Dopo questo giro restano 68 candidate, tutte a 0 click e 1-2 impressioni).
 
