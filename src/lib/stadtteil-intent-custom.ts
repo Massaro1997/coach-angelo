@@ -12323,6 +12323,178 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "altstadt-nord/personal-training": {
+    answer:
+      "Personal Training in Köln Altstadt-Nord ist für die gebaut, die hier wohnen, nicht nur arbeiten: Trainiert wird vor deiner Haustür, in den Stunden, in denen das Zentrum den Bewohnern gehört, am Rheinufer, in der Grünanlage am Theodor-Heuss-Ring oder bei dir zu Hause. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln Altstadt-Nord: 1-zu-1 Training vor deiner Haustür, am Rheinufer oder zu Hause, in den ruhigen Stunden des Zentrums. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Du wohnst, wo die halbe Stadt nur zu Gast ist",
+        body: "18.617 Menschen wohnen in Altstadt-Nord, zwischen Eigelstein, Dom und Ring. Dazu kommen jeden Tag Pendler und Besucher, und auf deren Takt ist das Veedel eingestellt: Die Studios rund um Hauptbahnhof und Ring sind genau dann am vollsten, wenn die Büros schließen. Wer hier wohnt, steht als Letzter in der Schlange an der eigenen Hantelbank. Personal Training dreht das um: Der Termin richtet sich nach deinem Tag als Bewohner, nicht nach dem Feierabend von hunderttausend Gästen.",
+      },
+      {
+        title: "Die Stunden, in denen das Zentrum dir gehört",
+        body: "Früh am Morgen und nach dem Abendpendeln kippt das Veedel: Die Züge sind weg, das Rheinufer wird leer, die Grünanlage am Theodor-Heuss-Ring gehört den Anwohnern. Genau dort lege ich die Einheiten hin. Treffpunkt ist deine Haustür, das Material bringe ich mit, nach 60 Minuten bist du zurück. Aus dem Kunibertsviertel oder vom Eigelstein bist du in wenigen Gehminuten am Wasser, eine Anfahrt gibt es nicht, ein Auto brauchst du sowieso nicht.",
+      },
+      {
+        title: "Plan und Protokoll statt guter Vorsätze",
+        body: "Am Anfang steht ein Check: Beweglichkeit, Kraft, Grundmuster wie Kniebeuge und Zug. Daraus entsteht dein Plan, meist zwei feste Einheiten pro Woche. Jede Übung wird mit Gewicht und Wiederholungen notiert, alle vier bis sechs Wochen vergleichen wir die Zahlen und stellen nach. Die schwere Langhantelarbeit liegt im Studio, der Rest draußen oder in deiner Wohnung, auch ein Altbauzimmer ohne freie Wand reicht mit mitgebrachtem Material aus.",
+      },
+      {
+        title: "Wer in Altstadt-Nord anfragt",
+        body: "Meist Leute, die bewusst zentral wohnen und ihre Wege kurz halten wollen: ohne Auto, ohne Anfahrt, ohne einen Abend, der für eine Trainingsfahrt draufgeht. Viele haben Studio-Phasen hinter sich, die im vollen Feierabendbetrieb versandet sind. Das Ziel ist selten Bühne oder Strand, sondern Belastbarkeit: Treppen, Einkäufe, lange Arbeitstage, die nicht mehr im Rücken enden. Der erste Schritt ist ein kostenloses Erstgespräch, dort klären wir Ziel, Ort und Uhrzeit.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Altstadt-Nord?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Wer lieber mit App-Plan und wöchentlichen Video-Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir?",
+        a: "Am Rheinufer, in der Grünanlage am Theodor-Heuss-Ring, bei dir zu Hause oder im Studio. Treffpunkt ist deine Haustür, den Ort legen wir nach Ziel und Jahreszeit fest.",
+      },
+      {
+        q: "Zu welchen Uhrzeiten geht das?",
+        a: "Früh am Morgen, mittags und am Abend. Gerade die frühen und späten Stunden funktionieren im Zentrum am besten, weil Wege und Flächen dann frei sind.",
+      },
+      {
+        q: "Brauche ich eigene Ausrüstung?",
+        a: "Nein. Kettlebells, Widerstandsbänder und alles Weitere bringe ich mit. Du brauchst nur Sportkleidung und Schuhe, in denen du dich gut bewegen kannst.",
+      },
+    ],
+  },
+
+  "meschenich/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Meschenich mit Natalie, Ernährungsberaterin für Sport- und Fitnessernährung. Ihr Ansatz hier: Zuerst trennen wir Hunger von Gewohnheit, denn die meisten Extra-Kalorien werden ohne Hunger gegessen, nach der Uhr oder aus Routine. Die Beratung läuft per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Meschenich mit Natalie: Hunger von Gewohnheit trennen statt Verbotsliste, per Video und App. Im Online Coaching ab 150€/Monat.",
+    sections: [
+      {
+        title: "Gegessen wird, weil es Zeit ist, nicht weil Hunger da ist",
+        body: "Das Frühstück, weil es zum Aufstehen gehört. Der Keks zum Kaffee, weil er daneben liegt. Das Abendessen um sieben, weil es immer um sieben gab. Viele Tage bestehen aus Mahlzeiten, die der Kalender bestellt hat, nicht der Körper. Das Ergebnis sind Kalorien, die niemand gebraucht hätte, und ein Sättigungsgefühl, das sich kaum noch meldet. Genau hier setzt Natalie an: nicht bei einer Verbotsliste, sondern bei der Frage, welche deiner Mahlzeiten überhaupt aus Hunger entstehen.",
+      },
+      {
+        title: "Zwei Wochen hinschauen, bevor sich etwas ändert",
+        body: "Die Beratung beginnt mit einer ehrlichen Bestandsaufnahme: Du isst zwei Wochen normal weiter und notierst kurz, wann du isst und wie hungrig du davor warst. Mehr nicht. Dieses Protokoll zeigt fast immer zwei bis drei Essmomente, die reine Automatik sind. Die werden nicht verboten, sondern ersetzt oder verschoben, einer nach dem anderen. Das ist unspektakulär, aber es verändert die Wochenbilanz stärker als jeder Diätplan, der am ersten Hungertag reißt.",
+      },
+      {
+        title: "Mahlzeiten, die satt machen, damit Weglassen nicht weh tut",
+        body: "Wer Gewohnheitsessen streicht, braucht Mahlzeiten, die wirklich tragen. Natalie baut deine Hauptmahlzeiten deshalb um Eiweiß und Volumen auf: Quark, Eier, Hülsenfrüchte, Gemüse, Kartoffeln, alles aus dem normalen Einkauf, nichts aus dem Spezialregal. Drei Mahlzeiten, die satt machen, schlagen fünf, die es nicht tun. Dazu bekommt der echte Appetit einen festen Platz: ein geplanter Snack ist kein Rückfall, ein ungeplanter Dauergriff schon.",
+      },
+      {
+        title: "Der Abend im südlichsten Veedel der Stadt",
+        body: "Meschenich ist mit 7.789 Einwohnern der südlichste linksrheinische Stadtteil Kölns, und abends spielt sich das Leben hier zu Hause ab, nicht in einer Kneipenmeile. Genau dort sitzt bei den meisten das zäheste Gewohnheitsessen: der Griff neben dem Fernseher, lange nach dem Abendessen. Der wirksamste Unterbrecher ist banal und liegt vor der Tür: die Runde über die Feldwege Richtung Immendorf oder Godorf direkt nach dem Essen. Danach ist der Automatismus meist durchbrochen, und der Abend braucht keinen zweiten Teller.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wie läuft die Ernährungsberatung für Meschenich ab?",
+        a: "Komplett online: Erstgespräch per Video, danach feste Termine mit Natalie und kurze Rückmeldungen über die App. Die Beratung ist im Online Coaching ab 150€ im Monat enthalten, das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich Kalorien zählen?",
+        a: "Am Anfang nicht. Die ersten zwei Wochen beobachtest du nur, wann du isst und wie hungrig du warst. Ob später ein Kalorienziel dazukommt, hängt von deinem Ziel ab, viele kommen ohne dauerhaftes Zählen aus.",
+      },
+      {
+        q: "Isst meine Familie einfach mit?",
+        a: "Ja. Es gibt keine Extra-Gerichte, nur eine andere Zusammensetzung deiner Teller. Was auf den Tisch kommt, bleibt deine Küche, geändert werden Anteile und Zeitpunkte.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Das Protokoll zeigt die Muster nach zwei Wochen, die Waage reagiert meist im zweiten Monat. Natalie schaut auf den Wochentrend, nicht auf einzelne Tage, und steuert in den Terminen nach.",
+      },
+    ],
+  },
+
+  "pesch/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Pesch rechnet mit dem echten Jahr: Erkältung, Ferien, volle Arbeitswochen. Selbstgebaute Pläne sterben an der ersten Unterbrechung, hier ist der Wiedereinstieg Teil des Plans. Trainingsplan per App, wöchentlicher Video-Check-in, ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching für Köln-Pesch: ein Plan, der Unterbrechungen übersteht, mit geführtem Wiedereinstieg, App und Video-Check-in. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Pläne sterben in Woche sieben, nicht in Woche eins",
+        body: "Die ersten Wochen laufen fast immer: Motivation da, Kalender frei, alles neu. Gefährlich wird die erste Unterbrechung, eine Erkältung, zwei Wochen Ferien, ein Projekt, das die Abende frisst. Ein selbstgebauter Plan hat für diesen Moment keine Antwort: Nach der Pause fühlt sich alles wie Rückschritt an, der Wiedereinstieg wird verschoben, und aus zwei Wochen Pause werden sechs Monate. Nicht der Anfang entscheidet über ein Trainingsjahr, sondern das, was nach der ersten Lücke passiert.",
+      },
+      {
+        title: "Der Wiedereinstieg ist eingebaut, nicht dir überlassen",
+        body: "Im Coaching ist die Lücke ein normaler Planungsfall. Du meldest sie, und die Woche danach steht schon angepasst in der App: reduzierte Lasten, weniger Sätze, dieselben Übungen, damit der Körper anknüpft statt neu anzufangen. Nach ein bis zwei Wochen bist du wieder auf dem Stand von vorher, das zeigen deine eigenen Protokollzahlen. Es gibt keine Schulddebatte und keine Woche null, nur die nächste geplante Einheit. Genau dieser Mechanismus unterscheidet ein Trainingsjahr von drei Anläufen.",
+      },
+      {
+        title: "So läuft das Coaching in Pesch",
+        body: "Pesch ist ein ruhiges Wohnveedel im Kölner Norden, 7.799 Einwohner auf 2,83 km², und das Training braucht hier keine Fahrt in die Stadt: Die Krafteinheiten laufen bei dir zu Hause mit Kurzhanteln, Bändern und Körpergewicht, jede Übung steht mit Video im Plan. Einmal pro Woche sprechen wir im Video-Check-in über deine eingetragenen Einheiten, bei Bedarf schickst du kurze Technik-Clips. Wenn Abnehmen oder Muskelaufbau das Ziel ist, steuert Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, die Ernährungsseite im selben System.",
+      },
+      {
+        title: "Was der Plan von dir braucht",
+        body: "Ehrliche Einträge, mehr nicht. Jeder Satz mit Gewicht und Wiederholungen, jede ausgefallene Einheit als ausgefallen markiert. Aus diesen Daten entsteht die Steuerung: Was zu leicht war, wird schwerer, was zweimal ausfiel, wird verschoben oder verkürzt. Ein Plan, der nur aus guten Wochen besteht, ist eine Wette. Einer, der deine echten Wochen kennt, ist ein Werkzeug. Nach drei Monaten vergleichen wir nicht Gefühle, sondern deine Zahlen vom Anfang mit denen von heute.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet das Online Coaching für Pesch?",
+        a: "Ab 150€ im Monat, monatlich kündbar: Trainingsplan per App, wöchentlicher Video-Check-in, Technik-Feedback auf deine Clips und auf Wunsch Ernährungssteuerung. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Was passiert, wenn ich krank werde oder in den Urlaub fahre?",
+        a: "Du meldest die Pause kurz in der App, danach bekommst du eine angepasste Wiedereinstiegswoche mit reduzierten Lasten. Der Plan rechnet mit Unterbrechungen, nicht gegen sie.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Für den Anfang reichen Kurzhanteln oder Bänder und etwas freie Fläche. Der Plan wird auf dein Material geschrieben, Anschaffungen besprechen wir erst, wenn sie Fortschritt bringen.",
+      },
+      {
+        q: "Ich habe noch nie nach Plan trainiert. Passt das trotzdem?",
+        a: "Ja. Die ersten Wochen bestehen aus wenigen Grundübungen mit Technik-Videos, und deine Clips zeigen mir, ob die Ausführung sitzt. Das Niveau setzt dein Stand, nicht eine Vorlage.",
+      },
+    ],
+  },
+
+  "poll/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Poll unterscheidet zwei Dinge, die oft verwechselt werden: Was den Rücken heute Abend beruhigt, und was ihn auf Dauer belastbar macht. Dehnen und Wärme bleiben erlaubt, dazu kommen zwei Krafteinheiten pro Woche, zu Hause in Poll oder im Studio. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Poll: Dehnen lindert, Kraft verändert. Zwei Einheiten pro Woche für Rumpf und hintere Kette, zu Hause oder im Studio. 50€/Std.",
+    sections: [
+      {
+        title: "Das Abendritual hilft, bis morgen",
+        body: "Wer öfter Rückenschmerzen hat, hat meist ein eingespieltes Programm: dehnen, die Faszienrolle, eine heiße Dusche, vielleicht die Massage alle paar Wochen. All das wirkt, und genau das ist die Falle: Die Linderung fühlt sich wie eine Lösung an, also bleibt es dabei. Nur ändert keine dieser Maßnahmen, was der Rücken kann. Sie beruhigen die Meldung, ohne die Ursache zu erreichen, und deshalb kommt die Meldung wieder, nächste Woche, nächsten Monat, am immer gleichen Punkt.",
+      },
+      {
+        title: "Linderung behalten, Belastbarkeit dazubauen",
+        body: "Im Training kommt die fehlende zweite Hälfte dazu: Kraft für Hüftstreckung, Gesäß, unteren Rücken und Rumpf, in Übungen mit kontrolliert steigender Last und sauberem Protokoll. Was dein Rücken tragen kann, wächst von Woche zu Woche, und das ist die Größe, die über Schmerzfreiheit im Alltag entscheidet. Dein Abendritual darfst du behalten, es wird nur vom Hauptprogramm zur Nachsorge. Nach acht Wochen vergleichen wir Zahlen, nicht Eindrücke: bewegte Gewichte, gehaltene Zeiten, und wie oft sich der Rücken überhaupt noch meldet.",
+      },
+      {
+        title: "Trainiert wird in Poll, nicht quer durch die Stadt",
+        body: "Die Krafteinheiten laufen bei dir zu Hause in Alt-Poll oder der Siedlung, mit mitgebrachtem Material, oder im Studio an der Langhantel. Für die Tage dazwischen liegt vor dem Veedel die beste Gehstrecke des rechtsrheinischen Südens: die Poller Wiesen und das Rheinufer Richtung Südbrücke, flach, lang und das ganze Jahr begehbar. Zügiges Gehen hält die Strukturen versorgt, die das Krafttraining aufbaut, und ersetzt die Schonhaltung, die den Rücken nur weiter schwächt.",
+      },
+      {
+        title: "Für wen das passt und wer zuerst zum Arzt sollte",
+        body: "Das Training ist für den unspezifischen Rückenschmerz gedacht, der kommt und geht: nach langen Sitztagen, nach Belastung, in immer ähnlichen Situationen. Bei Warnzeichen wie Taubheit, ausstrahlenden Schmerzen ins Bein oder Schmerzen, die nachts nicht nachlassen, gehört der erste Termin zum Arzt. Ist das abgeklärt oder gerade eine ruhige Phase da, ist das der beste Startpunkt: Ein Rücken, der nicht akut schmerzt, verträgt Last, und nur Last macht ihn belastbarer.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Poll?",
+        a: "Die 1-zu-1 Stunde kostet 50€, trainiert wird meist zweimal pro Woche. Wer nach den ersten Wochen selbstständig weitermachen will, wechselt ins Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Soll ich mit Dehnen und Faszienrolle aufhören?",
+        a: "Nein. Beides lindert und ist als Ergänzung sinnvoll. Es ersetzt nur nicht den Kraftaufbau, deshalb bekommt es im Plan den Platz nach dem Training, nicht statt des Trainings.",
+      },
+      {
+        q: "Wie schnell merke ich einen Unterschied?",
+        a: "Die meisten spüren nach vier bis sechs Wochen, dass lange Sitztage und Alltagslasten weniger Thema sind. Die Protokollzahlen zeigen den Fortschritt schon vorher, deshalb trainieren wir nach Zahlen statt nach Tagesform.",
+      },
+      {
+        q: "Ich habe gerade akute Schmerzen. Kann ich starten?",
+        a: "Bei akuten starken Schmerzen klärt zuerst ein Arzt die Ursache. Danach starten wir mit kontrollierten, leichten Einheiten und steigern Schritt für Schritt. Der Einstieg in einer schmerzarmen Phase ist ideal.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
