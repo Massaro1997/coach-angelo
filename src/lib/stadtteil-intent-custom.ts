@@ -12065,6 +12065,264 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "brueck/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Brück entscheidet sich oft am Abend: Wer mit der Linie 1 heimpendelt, isst die größte Mahlzeit des Tages nach 19 Uhr, hungrig und müde. Ich verteile dein Essen neu über den Tag und sichere das Defizit mit zwei Krafteinheiten pro Woche. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Brück: das späte Abendessen nach dem Pendeln entschärfen, zwei Krafteinheiten pro Woche, Königsforst als Erholung. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Das Abendessen nach dem Pendeln ist der heimliche Gegner",
+        body: "Brück liegt am Ende eines langen Arbeitstages: Bahn, Büro, Bahn, und erst dann die Küche. Wer bis zum Abend kaum isst, kommt mit großem Hunger an, und der entscheidet dann, was auf den Teller kommt und wie viel. Das Problem ist selten der Wille, sondern die Verteilung. Wir bauen deinen Tag so um, dass Mittag und Nachmittag sättigen, vor allem mit Eiweiß. Dann ist das Abendessen eine normale Mahlzeit und kein Ausgleich für acht Stunden Verzicht.",
+      },
+      {
+        title: "Zwei Krafteinheiten pro Woche halten, was die Waage verspricht",
+        body: "Ohne Krafttraining besteht verlorenes Gewicht zu einem guten Teil aus Muskulatur, und die fehlt dir später beim Halten des Ergebnisses. Deshalb trainieren wir zweimal pro Woche bei dir zu Hause in Brück: Kniebeuge, Rudern, Drücken, mit Gewichten, die ich mitbringe und die über Wochen steigen. Jede Einheit dauert 60 Minuten und steht im Protokoll, damit wir sehen, ob die Kraft bleibt, während das Gewicht fällt.",
+      },
+      {
+        title: "Der Königsforst ist deine Erholung, nicht dein Rechenposten",
+        body: "Der Wald beginnt direkt am Veedel, und viele in Brück sind regelmäßig dort. Gut so, aber ich plane ihn bewusst nicht als Kalorienposten ein: Spaziergänge und lockere Runden sind dein Ausgleich für Kopf und Rücken, und was sie verbrennen, ist Bonus. Das Defizit selbst steht vorher fest, im Essen und in den zwei Trainingsterminen. So kippt ein verregnetes Wochenende ohne Waldrunde nicht gleich die ganze Woche.",
+      },
+      {
+        title: "Wenn du die Ernährung mitlösen willst: Natalie",
+        body: "Natalie ist unsere Ernährungsberaterin für Sport- und Fitnessernährung. Sie legt mit dir ein Kalorienziel fest, das zu Pendeltagen passt, mit konkreten Lösungen für die bekannten Stellen: das Frühstück im Stehen, die Kantine, der Abend auf dem Sofa. Keine verbotenen Lebensmittel, sondern ein Wochenschnitt, der aufgeht. Den Einstieg besprechen wir im kostenlosen Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Brück?",
+        a: "Die 1-zu-1 Trainingsstunde kostet 50€. Das Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat, die Ernährungsberatung mit Natalie besprechen wir im kostenlosen Erstgespräch.",
+      },
+      {
+        q: "Wie schnell nehme ich realistisch ab?",
+        a: "Ein halbes bis ein Kilo pro Woche ist ein Tempo, das Muskulatur und Alltag übersteht. Schneller geht fast immer auf Kosten der Muskeln, und das rächt sich beim Halten des Gewichts.",
+      },
+      {
+        q: "Muss ich dafür ins Fitnessstudio?",
+        a: "Nein. Die Krafteinheiten machen wir bei dir zu Hause in Brück, das Material bringe ich mit. Wer lieber draußen trainiert, nutzt mit mir die Wege am Rand des Königsforsts.",
+      },
+      {
+        q: "Ich esse abends am meisten. Muss sich das komplett ändern?",
+        a: "Nein, aber es wird entschärft. Wenn Mittag und Nachmittag sättigen, bleibt das Abendessen eine normale Mahlzeit. Ein warmes Essen am Abend passt in jedes Defizit, solange der Tag drumherum stimmt.",
+      },
+    ],
+  },
+
+  "grengel/personal-training": {
+    answer:
+      "Personal Training in Köln-Grengel richte ich nach deiner Energie, nicht nach der Uhr: Wer an Flughafen oder im Frühdienst arbeitet, ist mittags frei, aber nicht frisch. Trainiert wird 1-zu-1 bei dir zu Hause oder auf den Heidewegen, die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Grengel: Termine nach Dienstplan und Energie, Training zu Hause oder an der Wahner Heide. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Frei haben und frisch sein ist nicht dasselbe",
+        body: "Grengel liegt direkt am Flughafen Köln/Bonn, und viele hier arbeiten in Diensten, die um vier oder fünf Uhr beginnen. Wer um 13 Uhr Feierabend hat, hat theoretisch den ganzen Nachmittag, praktisch aber einen Körper, der seit dem frühen Morgen läuft. Deshalb plane ich nicht nur den Termin, sondern auch die Dosis: Nach einer Frühdienstwoche wird anders trainiert als nach zwei freien Tagen. Der Plan kennt deinen Dienstplan, nicht nur deinen Kalender.",
+      },
+      {
+        title: "Die Wahner Heide beginnt hinter den letzten Häusern",
+        body: "Grengel ist mit 10,66 km² groß und mit 5.555 Einwohnern dünn besiedelt, der größte Teil davon ist Heide. Das Naturschutzgebiet hat klare Regeln, auf den Wegen bleiben gehört dazu, und genau die nutzen wir: lange, ruhige Sandwege für zügiges Gehen und lockere Läufe, ohne Ampel und ohne Verkehr. Der sandige Boden macht aus jedem Schritt etwas mehr Arbeit als Asphalt. Für die Ausdauerseite deines Trainings gibt es in Köln kaum ein besseres Gelände.",
+      },
+      {
+        title: "Kraft wird zu Hause aufgebaut",
+        body: "Ein Studio gibt es in Grengel nicht, und das ist kein Nachteil: Für sauberes Krafttraining reichen dein Wohnzimmer oder der Garten und das Material, das ich mitbringe. Zwei Einheiten pro Woche, 60 Minuten, mit Technik-Korrektur an jeder Wiederholung und einem Protokoll, in dem jede Steigerung steht. Alle vier bis sechs Wochen messen wir nach und passen den Plan an.",
+      },
+      {
+        title: "So startest du",
+        body: "Am Anfang steht ein kostenloses Erstgespräch: Ziel, Gesundheitsstand, Dienstplan. Daraus baue ich deinen Plan, meist zwei geführte Einheiten pro Woche plus eine kurze Aufgabe für die Tage dazwischen. Die 1-zu-1 Stunde kostet 50€, wer lieber mit Plan und wöchentlichen Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Grengel?",
+        a: "Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos. Online Coaching mit Trainingsplan und wöchentlichen Check-ins gibt es ab 150€ im Monat.",
+      },
+      {
+        q: "Ich arbeite im Frühdienst am Flughafen. Wann trainieren wir?",
+        a: "Dann, wenn es für dich funktioniert, auch am frühen Nachmittag. Wichtiger als die Uhrzeit ist die Belastung: Nach harten Dienstwochen senke ich die Last, statt den Termin ausfallen zu lassen.",
+      },
+      {
+        q: "Dürfen wir in der Wahner Heide trainieren?",
+        a: "Auf den freigegebenen Wegen ja, und daran halten wir uns. Gehen, Laufen und Intervalle funktionieren dort hervorragend. Übungen mit Material machen wir bei dir zu Hause oder im Garten.",
+      },
+      {
+        q: "Brauche ich eigene Geräte?",
+        a: "Nein. Kurzhanteln, Widerstandsbänder und alles Weitere bringe ich mit. Wenn du später eigenes Material anschaffen willst, beraten wir das nach Bedarf, nötig ist es nicht.",
+      },
+    ],
+  },
+
+  "mauenheim/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Mauenheim braucht keine Tartanbahn: Für Antritte reichen 30 Meter, für Sprungkraft ein Stück Rasen, und beides hat das kleinste Veedel von Nippes direkt vor der Tür. Kraft und Sprungtechnik kommen bei dir zu Hause dazu. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Mauenheim: Antritte auf 30 Metern, Sprungkraft auf Rasen, Kraft zu Hause. Schnelligkeit braucht wenig Platz. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Schnelligkeit braucht 30 Meter, kein Stadion",
+        body: "Mauenheim misst 0,51 km² und ist damit eines der kleinsten Veedel der Stadt. Für Athletiktraining ist das kein Hindernis, denn die Qualitäten, die den Unterschied machen, brauchen wenig Raum: Ein Antritt ist nach 20 bis 30 Metern entschieden, ein Sprung braucht zwei Quadratmeter Rasen, ein Richtungswechsel noch weniger. Im Grünzug am Rand des Veedels, Richtung Nippeser Tälchen, finden wir alles davon. Wer glaubt, für Schnelligkeit erst irgendwohin fahren zu müssen, trainiert meist gar nicht.",
+      },
+      {
+        title: "Kurze Wege, kurze Einheiten, hohe Qualität",
+        body: "Athletiktraining lebt nicht von Umfang, sondern von Frische: Antritte und Sprünge bringen nur etwas, wenn das Nervensystem ausgeruht ist. Deshalb sind die Einheiten in Mauenheim bewusst kompakt: 60 Minuten von deiner Haustür an, zehn Minuten Vorbereitung, dann wenige, dafür saubere Wiederholungen mit voller Pause dazwischen. Müde Sprints machen langsamer, nicht schneller, und genau das verhindere ich mit der Planung.",
+      },
+      {
+        title: "Die Kraft dahinter bauen wir bei dir zu Hause auf",
+        body: "Explosivität entsteht aus Kraft. Kniebeuge, Hüftstrecken und Rumpfarbeit machen wir bei dir in der Wohnung oder im Hof, mit Material, das ich mitbringe. Beides greift ineinander: Was du drinnen an Kraft gewinnst, setzen wir draußen in Antritte und Sprünge um. Alle vier bis sechs Wochen messe ich Sprintzeit und Sprunghöhe, damit der Fortschritt in Zahlen steht und nicht im Gefühl.",
+      },
+      {
+        title: "Für wen das in Mauenheim passt",
+        body: "Für Vereinsspieler aus Fußball, Handball oder Tennis, die im Winter oder neben dem Mannschaftstraining an sich arbeiten wollen, und für Läufer, denen Spritzigkeit fehlt. Auch ohne Verein funktioniert es: schneller, stabiler und belastbarer zu werden hilft in jedem Sport und auf jeder Treppe. Das Einstiegsniveau klären wir im Technik-Check der ersten Stunde.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Mauenheim?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos. Für Training mit Plan und wöchentlichen Check-ins gibt es das Online Coaching ab 150€ im Monat.",
+      },
+      {
+        q: "Wo trainieren wir in einem so kleinen Veedel?",
+        a: "Antritte, Sprünge und Richtungswechsel im Grünzug am Rand von Mauenheim, Kraft bei dir zu Hause oder im Hof. Schnelligkeit braucht 30 Meter, und die hat das Veedel.",
+      },
+      {
+        q: "Wie oft pro Woche ist sinnvoll?",
+        a: "Zwei geführte Einheiten pro Woche, eine für Schnelligkeit und Sprungkraft, eine für Kraft. Mehr Umfang bringt bei Athletik wenig, Frische schlägt Menge.",
+      },
+      {
+        q: "Ich spiele im Verein. Kollidiert das mit dem Mannschaftstraining?",
+        a: "Nein, ich plane um deine Vereinstage herum. Schnelligkeit legen wir auf frische Tage, Kraft mit genug Abstand zum Spiel, damit du am Wochenende nicht mit schweren Beinen aufläufst.",
+      },
+    ],
+  },
+
+  "worringen/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Worringen ist Training, das leichte und harte Wochen kennt: Nach einer Nachtschichtwoche wird anders trainiert als nach freien Tagen. Die Stromweste fährt immer dasselbe Programm. Zwei geführte Krafteinheiten pro Woche bei dir zu Hause, 50€ pro Stunde, ohne Jahresvertrag.",
+    metaDescription:
+      "EMS-Alternative in Köln-Worringen: Krafttraining mit leichten und harten Wochen statt 20-Minuten-Standardprogramm. Zu Hause im Veedel, 50€/Std, ohne Vertrag.",
+    sections: [
+      {
+        title: "EMS kennt keine leichten Wochen",
+        body: "Das EMS-Programm dauert 20 Minuten und ist jedes Mal im Kern gleich: Ganzkörperreiz nach Schema, diese Woche wie letzte Woche. Echtes Training funktioniert anders, es wird in Wellen geplant. Auf Wochen mit steigender Last folgt eine leichtere Woche, nach Krankheit oder einer harten Schichtphase wird reduziert statt durchgezogen. Diese Steuerung ist kein Extra, sie ist der Grund, warum Fortschritt über Monate weiterläuft, statt nach dem Anfangseffekt stehen zu bleiben.",
+      },
+      {
+        title: "Gerade in Worringen entscheidet die Woche, nicht der Termin",
+        body: "Im nördlichsten Veedel der Stadt arbeiten viele im Schichtsystem der umliegenden Werke. Dieselbe Übung ist nach einer Nachtschichtwoche eine andere Belastung als nach zwei freien Tagen, auch wenn auf dem Papier dasselbe steht. Deshalb frage ich vor jeder Einheit ab, was hinter dir liegt, und stelle Last und Umfang darauf ein. Ein Standardprogramm aus der Steckdose kann das nicht, es kennt deine Woche nicht.",
+      },
+      {
+        title: "Zwei Einheiten bei dir zu Hause, der Rest liegt vor der Tür",
+        body: "Trainiert wird in Worringen, nicht hinter einer Studiotheke: bei dir zu Hause oder im Garten, mit Material, das ich mitbringe. Für die ruhigen Tage dazwischen hat das Veedel mit Rheinufer und Worringer Bruch zwei Gelände, die jede Erholungseinheit angenehmer machen als ein Laufband. Die 1-zu-1 Stunde kostet 50€, es gibt keine Laufzeit und keinen Vertrag, der weiterläuft, wenn dein Dienstplan sich ändert.",
+      },
+      {
+        title: "Woran du nach drei Monaten den Unterschied siehst",
+        body: "Im Protokoll: welche Gewichte du bewegst, wie sich harte und leichte Wochen abgewechselt haben, und wie die Testübungen sich entwickelt haben. Wer mit EMS zufrieden ist, soll dabei bleiben, der Reiz ist nicht wirkungslos. Aber wer wissen will, ob sein Training mit seinem Leben mitgeht, statt daneben zu laufen, bekommt hier die Zahlen dazu.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Worringen?",
+        a: "50€ pro 1-zu-1 Stunde, ohne Anmeldegebühr und ohne Jahresvertrag. Das Erstgespräch ist kostenlos. Online Coaching mit Plan und Check-ins gibt es ab 150€ im Monat.",
+      },
+      {
+        q: "Ich arbeite Schicht. Wie planen wir die Termine?",
+        a: "Die Termine rotieren mit deinem Dienstplan, und die Belastung rotiert mit: Nach anstrengenden Schichtwochen senke ich Last und Umfang, statt den Termin zu streichen. So bleibt das Training dauerhaft machbar.",
+      },
+      {
+        q: "Ist EMS nicht effizienter, weil es nur 20 Minuten dauert?",
+        a: "Die 20 Minuten sind nur der Reiz, nicht das Ergebnis. Was über Monate zählt, ist die Steuerung: Steigerung, Entlastung, Anpassung an deine Woche. Genau das leistet das Standardprogramm nicht.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Hanteln, Bänder und alles Weitere bringe ich mit. Ein freies Stück Boden im Wohnzimmer oder im Garten reicht.",
+      },
+    ],
+  },
+
+  "gremberghoven/personal-training": {
+    answer:
+      "Personal Training in Köln-Gremberghoven kommt zu dir, denn das Veedel ist eine Insel zwischen Gleisen und Autobahnen: Jeder Weg raus kostet Zeit, also findet das Training in der Siedlung statt, in deinem Haus oder Garten. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Gremberghoven: Training zu Hause in der Eisenbahnersiedlung statt Anfahrt über die Autobahn. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Veedel wie eine Insel",
+        body: "Gremberghoven liegt zwischen dem Rangierbahnhof Gremberg, einem der größten Deutschlands, und den Autobahnen rundum. Wer hier wohnt, kennt die Folge: Für fast alles muss man raus, und jeder Weg beginnt mit Auto oder Bahn. Beim Training dreht sich das um. Ich komme in die Siedlung, und aus einer Trainingsstunde werden nicht anderthalb mit Anfahrt. Zwei feste 1-zu-1 Termine pro Woche, die auch dann noch stattfinden, wenn der Tag voll war.",
+      },
+      {
+        title: "Die alte Eisenbahnersiedlung ist ein besserer Trainingsort, als sie aussieht",
+        body: "Gremberghoven wurde in den 1920er Jahren als Siedlung für Eisenbahner gebaut: ruhige Straßen, Häuser mit Gärten, wenig Durchgangsverkehr. Genau das macht das Training einfach. Kraftübungen im Garten oder im Wohnzimmer, Geh- und Laufstrecken auf Straßen, auf denen kaum ein Auto fährt. Material bringe ich mit, vom Widerstandsband bis zur Kurzhantel. Mit 3.149 Einwohnern trainierst du hier ungestörter als in jedem Studio.",
+      },
+      {
+        title: "Geplant wird um Dienst und Familie, gemessen wird ehrlich",
+        body: "Viele Anfragen aus Gremberghoven kommen von Leuten mit wechselnden Diensten, auch bei der Bahn. Deshalb lege ich die Termine Woche für Woche neu, statt einen festen Slot zu verlangen, der an deinem Plan vorbeigeht. Am Anfang stehen ein Gesundheitscheck und erste Messwerte, danach wird jede Einheit protokolliert. Alle vier bis sechs Wochen vergleichen wir: Kraft, Gewicht, Umfänge, je nachdem, was dein Ziel ist.",
+      },
+      {
+        title: "Kosten und Einstieg",
+        body: "Die 1-zu-1 Stunde kostet 50€, ohne Vertragsbindung. Wer einen Plan mit wöchentlichen Check-ins will, nimmt das Online Coaching ab 150€ im Monat. Der Einstieg ist immer gleich: ein kostenloses Erstgespräch bei dir in Gremberghoven, in dem wir Ziel, Gesundheitsstand und Terminlage klären. Danach entscheidest du, ob wir starten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Gremberghoven?",
+        a: "50€ pro 1-zu-1 Stunde, das Erstgespräch ist kostenlos. Online Coaching mit Trainingsplan und wöchentlichen Check-ins gibt es ab 150€ im Monat.",
+      },
+      {
+        q: "Wo genau trainieren wir?",
+        a: "Bei dir zu Hause oder im Garten in der Siedlung. Für Geh- und Laufeinheiten nutzen wir die ruhigen Straßen des Veedels, alles ohne Anfahrt.",
+      },
+      {
+        q: "Ich arbeite in wechselnden Diensten. Geht das trotzdem?",
+        a: "Ja. Die Termine werden Woche für Woche um deinen Dienstplan gelegt, nicht umgekehrt. Auch die Belastung passe ich an: Nach harten Dienstwochen wird dosiert statt durchgezogen.",
+      },
+      {
+        q: "Brauche ich Vorerfahrung oder eigene Geräte?",
+        a: "Beides nicht. Material bringe ich mit, und das Niveau legt der Check in der ersten Stunde fest, nicht ein Standardplan.",
+      },
+    ],
+  },
+
+  "hahnwald/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Hahnwald ist Krafttraining als Reserve für die nächsten Jahrzehnte: Gewichte, die über Monate steigen, bauen Substanz auf, die mit 60 und 70 noch trägt. Der Stromreiz verwaltet nur den Status quo. Zwei geführte Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde, ohne Vertrag.",
+    metaDescription:
+      "EMS-Alternative in Köln-Hahnwald: Krafttraining als Reserve für die nächsten Jahrzehnte statt 20-Minuten-Erhalt. 1-zu-1 bei dir zu Hause, 50€/Std, ohne Vertrag.",
+    sections: [
+      {
+        title: "Erhalten reicht nicht, wenn die Jahre mitlaufen",
+        body: "EMS wird gern als bequemer Weg verkauft, um in Form zu bleiben. Aber ab der Lebensmitte verliert der Körper ohne Gegenreiz Jahr für Jahr Muskulatur und Knochendichte, und ein Reiz, der nur erhält, verliert dieses Rennen langsam und leise. Was du mit 70 noch tragen, heben und steigen kannst, entscheidet sich daran, wie viel Reserve du vorher aufgebaut hast. Reserve entsteht durch Last, die über Monate steigt, nicht durch ein Programm, das jede Woche gleich bleibt.",
+      },
+      {
+        title: "Hahnwald hat den Platz, den andere im Studio mieten",
+        body: "Mit 2.028 Einwohnern auf fast drei Quadratkilometern wohnt kaum jemand in Köln großzügiger als hier. Ein eigenes Zimmer, der Keller oder der Garten reichen für vollwertiges Krafttraining vollkommen aus, das Material bringe ich mit. Ein EMS-Termin dagegen heißt von Hahnwald aus immer: rausfahren, denn im reinen Wohngebiet gibt es kein Studio. Das Training bei dir spart nicht nur den Weg, es nimmt dem Absagen auch jeden Vorwand.",
+      },
+      {
+        title: "So sieht Aufbau statt Erhalt konkret aus",
+        body: "Zwei Einheiten pro Woche, 60 Minuten, im 1-zu-1. Im Zentrum stehen die Bewegungen, die im Alter den Unterschied machen: aufstehen, heben, tragen, Treppen steigen, jeweils mit Gewicht und sauberer Technik. Jede Einheit steht im Protokoll, alle vier bis sechs Wochen wird gemessen. So siehst du nicht nur, dass du trainierst, sondern dass du stärker wirst, und zwar in Zahlen, die du mit jedem Arzt besprechen kannst.",
+      },
+      {
+        title: "Was EMS bleibt, und was nicht",
+        body: "Der Stromreiz aktiviert Muskulatur, das ist unbestritten, und als Ergänzung mag er seinen Platz haben. Was er nicht liefert, ist steigende Last auf Knochen, Sehnen und Gelenke, und genau dort entsteht die Belastbarkeit, um die es ab 50 geht. Wer beides vergleichen will, bekommt von mir nach zwölf Wochen ein Protokoll mit Zahlen. Die Entscheidung triffst du dann anhand von Ergebnissen, nicht anhand von Werbung.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Hahnwald?",
+        a: "50€ pro 1-zu-1 Stunde, ohne Jahresvertrag und ohne Anmeldegebühr. Das Erstgespräch ist kostenlos und findet bei dir zu Hause statt.",
+      },
+      {
+        q: "Ich habe nie mit Gewichten trainiert. Ist das mit über 50 noch sinnvoll?",
+        a: "Gerade dann. Muskulatur und Knochen reagieren in jedem Alter auf Training, die Last wird nur sorgfältiger gesteigert. Der Einstieg beginnt mit einem Gesundheitscheck und leichten Gewichten, nicht mit Rekorden.",
+      },
+      {
+        q: "Reicht mein Haus als Trainingsort wirklich aus?",
+        a: "Ja. Ein freies Stück Boden genügt, Garten oder Keller sind ein Bonus. Hanteln, Bänder und alles Weitere bringe ich zu jedem Termin mit.",
+      },
+      {
+        q: "Trainiert Angelo auch Paare oder Eheleute zusammen?",
+        a: "Das klären wir im Erstgespräch. Grundsätzlich ist das 1-zu-1 der Kern des Angebots, weil die Technik-Korrektur die volle Aufmerksamkeit braucht. Lösungen für zwei Personen im selben Haushalt besprechen wir individuell.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
