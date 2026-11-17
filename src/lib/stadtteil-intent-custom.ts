@@ -12830,6 +12830,234 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "braunsfeld/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Braunsfeld ist Krafttraining, das sich steigern lässt: Bei EMS ist nach ein bis zwei kurzen Einheiten pro Woche Schluss, mehr gibt der Ganzkörperreiz nicht her. Echtes Training wächst mit deinem Ziel, von zwei auf drei Einheiten, mit Gewichten, die steigen. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Braunsfeld: Krafttraining, das sich steigern lässt, statt einer Wochendosis mit eingebauter Obergrenze. 1-zu-1, 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Mehr EMS kannst du nicht buchen",
+        body: "EMS-Studios empfehlen selbst meist eine Einheit pro Woche, Fortgeschrittenen höchstens zwei. Der Grund steckt in der Methode: Der Stromreiz trifft fast alle großen Muskelgruppen auf einmal, und davon muss sich der Körper mehrere Tage erholen. Das bedeutet aber auch: Wer schneller vorankommen will, kann nicht einfach öfter kommen. Die Wochendosis ist vom System vorgegeben, nicht von deinem Ziel. Du kannst mehr bezahlen, aber nicht mehr trainieren.",
+      },
+      {
+        title: "Krafttraining hat drei Stellschrauben",
+        body: "Im echten Training lässt sich der Reiz in drei Richtungen steigern: schwerere Gewichte, mehr Sätze, mehr Einheiten. Wir starten mit zwei geführten Stunden pro Woche, und wenn dein Ziel mehr verlangt, etwa vor einem Urlaub oder nach einem guten ersten Block, bauen wir eine dritte Einheit ein, die du nach Plan allein machst. Jeder Satz steht im Protokoll, du siehst schwarz auf weiß, was sich seit Woche eins bewegt hat.",
+      },
+      {
+        title: "Trainiert wird in Braunsfeld, nicht quer durch die Stadt",
+        body: "Braunsfeld ist kompakt: 12.362 Menschen auf 1,69 Quadratkilometern, zwischen Aachener Straße und Stadtwald. Die Einheiten lege ich vor oder nach deinen Arbeitstag, bei dir zu Hause, im Studio oder draußen Richtung Stadtwald, der direkt hinter der Veedelsgrenze beginnt. Dort laufen auch die Ausdauerblöcke, die eine Stromweste gar nicht abdecken kann.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wie oft kann man EMS-Training pro Woche machen?",
+        a: "Die meisten Anbieter empfehlen eine Einheit pro Woche, erfahrenen Nutzern höchstens zwei, weil der Ganzkörperreiz lange Erholung braucht. Genau deshalb lässt sich EMS kaum steigern, wenn du schneller vorankommen willst.",
+      },
+      {
+        q: "Ist Krafttraining nicht viel zeitaufwendiger als EMS?",
+        a: "Pro Woche kostet es mehr Zeit, ja: zwei Einheiten von 45 bis 60 Minuten. Entscheidend ist aber, was pro Woche dabei herauskommt, und da liegt Training mit steigender Last vorn, weil sich Gewicht, Umfang und Häufigkeit anpassen lassen.",
+      },
+      {
+        q: "Was kostet die EMS-Alternative in Braunsfeld?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ohne Jahresvertrag und ohne Anmeldegebühr. Das Online Coaching gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Kann ich EMS und Krafttraining kombinieren?",
+        a: "Ja, das geht. Wenn dir EMS gefällt, kannst du es behalten. Die messbare Progression kommt aber aus dem Training mit echter Last, und im kostenlosen Erstgespräch sage ich dir ehrlich, was in deinem Fall sinnvoll ist.",
+      },
+    ],
+  },
+  "kalk/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Kalk setzt auf das Studio, das du schon hast: In Kalk ist ein Fitnessstudio mit niedrigem Beitrag nie weit, was fehlt, ist der Plan. Du bekommst einen Trainingsplan für genau deine Geräte, wöchentliche Video-Check-ins und Ernährungssteuerung, ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Kalk: der Plan für das Studio, das du schon hast, mit wöchentlichen Check-ins und Ernährungssteuerung. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "In Kalk fehlt kein Studio, sondern ein Plan",
+        body: "Kalk ist eines der dichtesten Veedel im rechtsrheinischen Köln: 24.911 Menschen auf 2,97 Quadratkilometern, und rund um Kalker Hauptstraße und Arcaden gibt es mehrere Studios mit günstigen Beiträgen. Der Zugang ist hier nicht das Problem. Die meisten Mitgliedschaften scheitern an etwas anderem: Es gibt keinen Plan, der zu deinem Ziel passt, und niemanden, der nachsieht, ob du ihm folgst. Genau diese Lücke füllt das Coaching.",
+      },
+      {
+        title: "Dein Plan wird auf dein Studio geschrieben",
+        body: "Im kostenlosen Erstgespräch klären wir, wo du trainierst, welche Geräte dort stehen und wie viele Tage pro Woche realistisch sind. Daraus baue ich deinen Plan in der App: jede Übung an Geräten, die es in deinem Studio wirklich gibt, mit Gewichten und Wiederholungen zum Eintragen. Einmal pro Woche sehen wir uns per Video, ich lese jede protokollierte Einheit und stelle den Plan nach, bevor du dich festläufst.",
+      },
+      {
+        title: "Für die Tage ohne Studio: Bürgerpark und Wohnzimmer",
+        body: "Jede Trainingswoche enthält eine Heimfassung für Tage, an denen du es nicht ins Studio schaffst: kurze Krafteinheiten mit wenig Material. Die Ausdauerblöcke legen wir in den Bürgerpark Kalk, Gehen oder Laufen nach Puls statt nach Gefühl. Dazu kommt die Ernährungssteuerung mit Kalorien- und Eiweißziel, denn ohne sie bleibt auch der beste Plan unter seinen Möglichkeiten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Brauche ich eine Studio-Mitgliedschaft für das Online Coaching?",
+        a: "Nein. Der Plan funktioniert auch komplett zu Hause mit wenig Material. Wenn du aber schon in einem Studio in Kalk angemeldet bist, nutzen wir es: Der Plan wird auf dessen Geräte geschrieben.",
+      },
+      {
+        q: "Funktioniert der Plan mit jedem Studio?",
+        a: "Ja. Im Erstgespräch gehen wir durch, welche Geräte und Hanteln dein Studio hat, und der Plan verwendet nur, was dort wirklich steht. Wechselst du das Studio, passe ich den Plan an.",
+      },
+      {
+        q: "Was kostet das Online Coaching in Kalk?",
+        a: "Ab 150€ im Monat, mit Trainingsplan in der App, wöchentlichem Video-Check-in und Ernährungssteuerung. Das Erstgespräch ist kostenlos, dein Studiobeitrag bleibt davon unberührt.",
+      },
+      {
+        q: "Was ist der Unterschied zum Personal Training vor Ort?",
+        a: "Beim 1-zu-1 Training für 50€ pro Stunde stehe ich neben dir und korrigiere jede Wiederholung sofort. Im Online Coaching trainierst du allein nach Plan, und ich schaue wöchentlich auf deine Einheiten. Wer Technik von Grund auf lernen will, startet besser mit einigen 1-zu-1 Stunden.",
+      },
+    ],
+  },
+  "muelheim/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Mülheim räumt mit einem Irrtum auf: Crunches und Planks trainieren vor allem die Vorderseite, dein Rücken braucht die hintere Kette. Zwei geführte Einheiten pro Woche für Gesäß, Rückenstrecker und hintere Oberschenkel, bei dir zu Hause oder im Studio. Die Stunde kostet 50€, das Erstgespräch ist kostenlos. Akute Schmerzen klärt zuerst ein Arzt.",
+    metaDescription:
+      "Rückentraining in Köln-Mülheim: nicht noch mehr Planks, sondern Kraft für die hintere Kette. 1-zu-1 zu Hause oder im Studio, 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum dein Bauch-Workout den Rücken nicht erreicht",
+        body: "Wer Rückenprobleme hat, landet oft bei Core-Workouts: Crunches, Planks, Fahrrad in der Luft. Das ist nicht falsch, aber es trainiert überwiegend die Körpervorderseite. Die Strukturen, die dich beim Heben, Tragen und langen Stehen tatsächlich halten, sitzen hinten: Rückenstrecker, Gesäß, hintere Oberschenkel. Solange diese Kette schwach bleibt, bleibt der Rücken die schwächste Stelle deines Tages, egal wie lange du die Plank hältst.",
+      },
+      {
+        title: "So trainieren wir die hintere Kette",
+        body: "Zwei Einheiten pro Woche, bei dir zu Hause mit mitgebrachtem Material oder im Studio: Hüftheben, rumänisches Kreuzheben mit einem Gewicht, das zu deinem Stand passt, Rudern und beladenes Tragen. Die Last steigt langsam und steht in jedem Protokoll, damit der Rücken Woche für Woche mehr verträgt, statt nur geschont zu werden. Planks bekommen ihren Platz als Ergänzung, nicht als Hauptprogramm.",
+      },
+      {
+        title: "Zwischen den Einheiten: Gehen am Rhein",
+        body: "Mülheim arbeitet viel im Sitzen, von den Büros rund um Schanzenstraße und Carlswerk bis zum Homeoffice. Deshalb gehört zum Programm ein täglicher Gehblock: das Rheinufer Mülheim und der Mülheimer Stadtgarten liegen für die meisten im Veedel vor der Tür. Gehen hält die Hüfte beweglich und den Rücken in Bewegung, ohne ihn zu belasten, und kostet nichts außer 30 Minuten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Hilft Krafttraining wirklich gegen Rückenschmerzen?",
+        a: "Ein stärkerer Rücken verträgt im Alltag mehr, und gezielter Kraftaufbau ist einer der am besten belegten Wege dahin. Bei akuten oder ausstrahlenden Schmerzen gehört der erste Weg aber zum Arzt, das Training beginnt danach.",
+      },
+      {
+        q: "Sind Planks und Crunches schlecht für den Rücken?",
+        a: "Nein, sie sind nur nicht genug. Sie kräftigen Bauch und Rumpfvorderseite, ersetzen aber kein Training für Rückenstrecker, Gesäß und hintere Oberschenkel. Im Plan tauchen sie als Ergänzung auf.",
+      },
+      {
+        q: "Wie schnell merke ich einen Unterschied?",
+        a: "Die meisten spüren nach vier bis sechs Wochen, dass Heben und langes Stehen leichter fallen. Messbar machen wir es über die Protokolle: mehr Gewicht bei gleicher Technik heißt, der Rücken ist belastbarer geworden.",
+      },
+      {
+        q: "Was kostet das Rückentraining in Mülheim?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ohne Jahresvertrag. Das Erstgespräch ist kostenlos, dort klären wir auch, ob vor dem Start noch eine ärztliche Abklärung sinnvoll ist.",
+      },
+    ],
+  },
+  "neustadt-sued/personal-training": {
+    answer:
+      "Personal Training in Köln-Neustadt-Süd macht aus Bewegung ein Training: Kaum ein Veedel bewegt sich so viel wie die Südstadt, zwischen Volksgarten-Runde, Kursen und Studio. Was oft fehlt, ist die Richtung. 1-zu-1 mit Eingangsmessung, Plan und dokumentierter Progression, die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Trainer in Köln-Neustadt-Süd: aus viel Bewegung wird ein Plan mit Richtung. 1-zu-1 im Volksgarten, zu Hause oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Viel Bewegung, wenig Fortschritt",
+        body: "Die Südstadt ist voller Möglichkeiten: Laufrunden im Volksgarten, Kurse an jeder zweiten Ecke, Studios, der Innere Grüngürtel. Viele hier machen seit Jahren irgendetwas, und genau das ist das Problem: Drei verschiedene Aktivitäten pro Woche setzen drei verschiedene Reize, aber nichts baut aufeinander auf. Wer sich seit zwei Jahren bewegt und weder stärker noch schlanker geworden ist, hat kein Motivationsproblem. Es fehlt ein Programm.",
+      },
+      {
+        title: "Erst messen, dann trainieren",
+        body: "Wir starten mit dem kostenlosen Erstgespräch und einer Eingangsmessung: Kraftwerte an den Grundübungen, Beweglichkeit, Umfänge. Daraus entsteht ein 8-Wochen-Plan mit zwei festen 1-zu-1 Terminen pro Woche. Was du gern weitermachst, etwa Laufen oder Yoga, wird eingeplant statt verboten, bekommt aber eine Rolle im Programm. Nach acht Wochen wird nachgemessen, und die Zahlen entscheiden, nicht das Gefühl.",
+      },
+      {
+        title: "Trainiert wird im Veedel",
+        body: "Neustadt-Süd ist dicht: 37.803 Menschen auf 2,87 Quadratkilometern. Das Training braucht trotzdem keinen Anfahrtsweg. Wir trainieren bei dir zu Hause mit mitgebrachtem Material, im Volksgarten, im Inneren Grüngürtel oder im Studio, mit Terminen auch früh am Morgen, bevor dein Kalender aufwacht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Ich laufe schon und mache Kurse, wozu noch ein Personal Trainer?",
+        a: "Laufen und Kurse halten dich in Bewegung, aber sie steigern sich nicht systematisch. Ein Trainer misst, wo du stehst, setzt ein Ziel und baut die Wochen so, dass die Reize aufeinander aufbauen. Deine liebsten Aktivitäten bleiben Teil des Plans.",
+      },
+      {
+        q: "Wo findet das Training in Neustadt-Süd statt?",
+        a: "Bei dir zu Hause, im Volksgarten, im Inneren Grüngürtel oder im Studio. Das Material bringe ich mit, ein freies Stück Boden im Wohnzimmer reicht.",
+      },
+      {
+        q: "Wie schnell sehe ich Ergebnisse?",
+        a: "Nach acht Wochen wird nachgemessen: Kraftwerte, Umfänge, auf Wunsch Fotos. Spürbar wird es meist früher, aber versprochen wird nur, was die Messung zeigen kann.",
+      },
+      {
+        q: "Was kostet ein Personal Trainer in Neustadt-Süd?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ohne Jahresvertrag und ohne Anmeldegebühr. Das Erstgespräch mit Eingangsmessung ist kostenlos.",
+      },
+    ],
+  },
+  "ossendorf/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Ossendorf zählt keine Kalenderwochen, sondern deine freien Tage: Wer im Handel oder im Gewerbegebiet am Butzweilerhof arbeitet, hat samstags Dienst und dafür einen freien Dienstag. Der Plan legt die Einheiten auf deine Tage, der Check-in läuft, wenn du frei hast. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Ossendorf: ein Trainingsplan, der deine freien Tage zählt statt Kalenderwochen. App, Video-Check-ins, ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein freier Tag ist nicht der Samstag",
+        body: "Ossendorf ist zur Hälfte Arbeitsort: Auf 6,81 Quadratkilometern leben 12.297 Menschen, und am Butzweilerhof arbeiten täglich Tausende in Handel, Medien und Logistik. Die meisten Trainingspläne und Kurse sind trotzdem für die Büro-Woche gebaut: Einheiten am Feierabend, der lange Block am Sonntag. Wer samstags an der Kasse oder im Lager steht und dafür dienstags frei hat, fällt durch dieses Raster. Nicht weil der Wille fehlt, sondern weil der Plan die falsche Woche zählt.",
+      },
+      {
+        title: "Der Plan rechnet mit deinem Dienstplan",
+        body: "Im Coaching steht deine Woche zuerst: Du trägst ein, welche Tage frei sind, und der Plan verteilt die Einheiten darauf. Arbeitstage bekommen kurze Heimeinheiten von 20 bis 30 Minuten, der freie Tag die lange Krafteinheit. Ändert sich der Dienstplan, verschieben sich die Einheiten in der App mit, ohne dass die Woche verloren ist. Der Video-Check-in liegt auf deinem freien Tag, egal ob das ein Dienstag oder ein Donnerstag ist.",
+      },
+      {
+        title: "Trainiert wird zu Hause, ohne Umweg",
+        body: "Du brauchst kein Studio: Der Kraftplan funktioniert im Wohnzimmer mit wenig Material, die Ausdauerblöcke laufen auf den flachen Straßen des Veedels oder Richtung Bickendorf, wo der Äußere Grüngürtel beginnt. Dazu kommt die Ernährungssteuerung mit Kalorien- und Eiweißziel, angepasst an Tage, an denen das Mittagessen in der Pause stattfindet.",
+      },
+    ],
+    faq: [
+      {
+        q: "Für wen ist das Online Coaching in Ossendorf gedacht?",
+        a: "Für alle, deren Woche nicht dem Büro-Rhythmus folgt: Einzelhandel, Lager, Medienproduktion, wechselnde Dienste. Der Plan wird um deine freien Tage gebaut, nicht um den Kalender.",
+      },
+      {
+        q: "Was passiert, wenn sich mein Dienstplan kurzfristig ändert?",
+        a: "Die Einheiten lassen sich in der App verschieben, und beim wöchentlichen Check-in stellen wir die nächste Woche neu. Eine verschobene Einheit ist kein gescheiterter Plan.",
+      },
+      {
+        q: "Brauche ich Geräte oder ein Studio?",
+        a: "Nein. Die Heimeinheiten kommen mit wenig Material aus, eine Anschaffungsliste für unter 100€ bekommst du im Erstgespräch. Wenn du ein Studio nutzt, schreibe ich den Plan auf dessen Geräte.",
+      },
+      {
+        q: "Was kostet das Online Coaching?",
+        a: "Ab 150€ im Monat, mit Trainingsplan in der App, wöchentlichem Video-Check-in und Ernährungssteuerung. Das Erstgespräch ist kostenlos.",
+      },
+    ],
+  },
+  "hoehenberg/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Höhenberg macht bei uns Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz: Trainingstage und freie Tage essen nicht gleich. Wer zwei- bis dreimal pro Woche trainiert, braucht an diesen Tagen mehr, an den anderen weniger. Die Beratung läuft online, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Höhenberg mit Natalie: Trainingstage essen anders als freie Tage. Online per Video und App, im Online Coaching ab 150€/Monat enthalten.",
+    sections: [
+      {
+        title: "Jeden Tag gleich zu essen passt nicht zu zwei Trainingstagen",
+        body: "Die meisten essen Montag bis Sonntag ungefähr dasselbe, egal ob trainiert wird oder nicht. Dabei sind die Anforderungen verschieden: An Trainingstagen braucht der Körper Kohlenhydrate rund um die Einheit und genug Eiweiß für die Erholung, an freien Tagen weniger Energie bei gleichem Eiweiß. Natalie arbeitet deshalb mit zwei Tagestypen statt mit einem Dauerplan. Das ist keine komplizierte Diät, sondern dieselbe Küche mit zwei verschiedenen Mengen.",
+      },
+      {
+        title: "Höhenberg trainiert im Verein, der Plan rechnet mit",
+        body: "Höhenberg ist ein Sport-Veedel: Der Sportpark Höhenberg, Heimspielstätte von Viktoria Köln, liegt mitten im Stadtteil, und viele hier trainieren dienstags und donnerstags im Verein und spielen am Wochenende. Genau auf diese Tage wird der Wochenplan gerechnet: die größeren Mahlzeiten um Training und Spiel, die leichteren auf die freien Tage. Für den Ausgleich dazwischen liegt die Merheimer Heide direkt am Veedelsrand.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Das Erstgespräch ist kostenlos und läuft per Video: Natalie fragt, was bei dir tatsächlich auf den Tisch kommt, wann du trainierst und was du erreichen willst. Daraus rechnet sie dein Kalorien- und Eiweißziel und legt die zwei Tagestypen fest. Gekocht wird, was du ohnehin kochst, angepasst werden Mengen und Verteilung. Über die App-Check-ins wird nachgesteuert, wenn sich Gewicht oder Trainingsplan ändern.",
+      },
+    ],
+    faq: [
+      {
+        q: "Muss ich an trainingsfreien Tagen hungern?",
+        a: "Nein. An freien Tagen sinkt nur die Energiemenge, vor allem bei den Kohlenhydraten. Das Eiweißziel bleibt jeden Tag gleich, damit die Muskulatur versorgt ist und der Hunger nicht durchschlägt.",
+      },
+      {
+        q: "Funktioniert das mit Vereinstraining am Abend?",
+        a: "Ja, genau dafür ist der Plan gebaut. Die größte Mahlzeit liegt dann nach dem Training, und der Nachmittag bekommt einen festen Baustein, damit du nicht leer auf den Platz gehst.",
+      },
+      {
+        q: "Macht die Beratung Angelo oder Natalie?",
+        a: "Die Ernährungsberatung macht Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Angelo übernimmt das Training, beide arbeiten mit demselben Plan.",
+      },
+      {
+        q: "Was kostet die Ernährungsberatung in Höhenberg?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch per Video ist kostenlos.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
