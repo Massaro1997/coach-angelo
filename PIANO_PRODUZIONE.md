@@ -293,6 +293,12 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 285 | /koeln/meschenich/ernaehrungsberatung | 0 | 1 | 5,0 | FATTA (giro 65, 17/11; pos 5,0 con 1 impr: rafforzata con prudenza) |
 | 286 | /koeln/pesch/online-coaching | 0 | 1 | 5,0 | FATTA (giro 65, 17/11; pos 5,0 con 1 impr: rafforzata con prudenza) |
 | 287 | /koeln/poll/rueckentraining | 0 | 1 | 5,0 | FATTA (giro 65, 17/11; pos 5,0 con 1 impr: rafforzata con prudenza) |
+| 288 | /koeln/rondorf/muskelaufbau | 0 | 1 | 5,0 | FATTA (giro 66, 17/11; pos 5,0: rafforzata con prudenza) |
+| 289 | /koeln/rath-heumar/ernaehrungsberatung | 0 | 1 | 6,0 | FATTA (giro 66, 17/11; pos 6,0: rafforzata con prudenza) |
+| 290 | /koeln/roggendorf-thenhoven/ems-alternative | 0 | 1 | 6,0 | FATTA (giro 66, 17/11; pos 6,0: rafforzata con prudenza) |
+| 291 | /koeln/ostheim/personal-training | 0 | 1 | 7,0 | FATTA (giro 66, 17/11; pos 7,0: rafforzata con prudenza) |
+
+Righe 288-291 entrate il 17/11/2026 (giro 66, riaggiornamento GSC a 90gg fino al 15/11, 332 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 45 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le quattro entrate sono fra pos 5,0 e 7,0, tutte in prima pagina: si rafforzano con prudenza. Giro da 4 pagine, non 6: sesto slot della giornata con ~3 punti di piano residui, motivo = budget. Dopo questo giro restano 41 candidate, tutte a 0 click e 1 impressione).
 
 Righe 284-287 entrate il 17/11/2026 (giro 65, riaggiornamento GSC a 90gg fino al 15/11, 332 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 49 candidate fuori coda prima dell'ingresso. In cima è emersa altstadt-nord/personal-training con 2 impressioni e pos 69,5, lavorata a fondo; le altre tre a 1 impressione e pos 5,0, in prima pagina, rafforzate con prudenza. Giro da 4 pagine, non 6: quinto slot della giornata con ~6 punti di piano residui, motivo = budget. Dopo questo giro restano 45 candidate, tutte a 0 click e 1 impressione).
 

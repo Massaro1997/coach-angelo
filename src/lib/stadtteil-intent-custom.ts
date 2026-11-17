@@ -12495,6 +12495,173 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "rondorf/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Rondorf braucht kein Geräte-Arsenal, sondern Last, die mitwächst: Ich bringe zu jeder Einheit die Hanteln mit, die deine aktuelle Phase verlangt, und zwei geführte Termine pro Woche bei dir zu Hause reichen für messbaren Aufbau. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Rondorf: zwei geführte Einheiten pro Woche bei dir zu Hause, ich bringe die passenden Gewichte mit, Fortschritt im Protokoll. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die Hanteln wachsen mit dir, nicht umgekehrt",
+        body: "Der häufigste Fehler beim Training zu Hause: Man kauft einmal ein Set Kurzhanteln, und nach acht Wochen ist es zu leicht. Ab da stagniert der Aufbau, denn Muskel reagiert auf steigende Last, nicht auf mehr Wiederholungen mit demselben Gewicht. In Rondorf löse ich das, indem ich das Material zu jeder Einheit mitbringe: Kurzhanteln, Kettlebells und Band in genau der Abstufung, die dein Protokoll gerade verlangt. Du kaufst nichts, du lagerst nichts, und die Last ist nie der Grund, warum eine Einheit ausfällt.",
+      },
+      {
+        title: "Ein Wohnzimmer in Rondorf reicht als Trainingsfläche",
+        body: "Rondorf ist ein Veedel der Häuser: 9.293 Menschen auf 8,2 km², viel Platz pro Haushalt im Vergleich zur Innenstadt. Für Muskelaufbau genügt davon eine freie Fläche von gut zwei mal zwei Metern. Dort stehen die Übungen, die den Großteil des Aufbaus tragen: Kniebeuge und Ausfallschritt mit Zusatzlast, Rudern, Drücken, Kreuzheben mit der Kettlebell. Alles andere ist Beiwerk. Wer mag, verlegt einzelne Einheiten in den Garten; nötig ist es nicht.",
+      },
+      {
+        title: "Fortschritt steht im Protokoll, nicht im Spiegel",
+        body: "Die ersten acht bis zwölf Wochen entscheidet nicht das Spiegelbild, ob dein Training funktioniert, sondern das Protokoll: Gewicht, Wiederholungen und Sätze jeder Übung, Einheit für Einheit. Steigen die Zahlen, baust du auf, auch wenn der Spiegel noch schweigt. Alle vier Wochen schauen wir gemeinsam auf die Kurve und passen den Plan an. Für die Tage zwischen den Einheiten reichen Spaziergänge, etwa auf den Feldwegen am Ortsrand: Erholung gehört zum Aufbau, zusätzliches Auspowern bremst ihn.",
+      },
+      {
+        title: "Wer in Rondorf typischerweise anfragt",
+        body: "Meist Berufstätige zwischen 35 und 55, die nach Jahren am Schreibtisch wieder Substanz aufbauen wollen und keine Lust auf die Fahrt zu einem Studio außerhalb des Veedels haben. Die Termine lege ich auf den frühen Morgen oder den Abend, damit sie neben Arbeit und Familie stehen bleiben. Das Einstiegsgewicht spielt keine Rolle: Der Technik-Check im kostenlosen Erstgespräch legt fest, womit wir anfangen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Rondorf?",
+        a: "Die geführte 1-zu-1 Stunde kostet 50€, inklusive Material und Protokoll. Wer nach einigen Wochen selbstständig weitertrainieren will, wechselt ins Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich mir Geräte oder eine Hantelbank kaufen?",
+        a: "Nein. Ich bringe alles mit, was deine aktuelle Trainingsphase braucht. Erst wenn du irgendwann ohne mich weitermachen willst, beraten wir, welche Anschaffung sich für dich wirklich lohnt.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche wirklich für Muskelaufbau?",
+        a: "Ja, wenn die Last stimmt und planmäßig steigt. Zwei saubere Ganzkörpereinheiten pro Woche schlagen vier planlose. Entscheidend ist das Protokoll, nicht die Stundenzahl.",
+      },
+      {
+        q: "Wie wichtig ist das Essen neben dem Training?",
+        a: "Sehr wichtig: Ohne genug Eiweiß wächst wenig. Du bekommst von Anfang an einen einfachen Eiweiß-Zielwert pro Tag. Wer es genauer steuern will, nimmt die Ernährungsberatung mit Natalie im Online Coaching dazu.",
+      },
+    ],
+  },
+
+  "rath-heumar/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Rath/Heumar mit Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: Gekocht wird in Rath/Heumar meist gut, es fehlen die Zahlen darunter, also Mengen, Eiweißverteilung und ein Ziel. Komplett online per Video und App, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Rath/Heumar mit Natalie: gute Küche behalten, Mengen und Eiweiß dazu, online per Video und App. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Gesund gekocht ist nicht automatisch passend gegessen",
+        body: "Die Bestandsaufnahmen, die Natalie aus Veedeln wie Rath/Heumar kennt, zeigen selten Fastfood-Probleme. Hier stehen frische Zutaten, ein voller Kühlschrank und oft ein eigener Garten hinter dem Essen. Trotzdem bewegt sich das Gewicht nicht, denn gesund sagt nichts über Menge: Das gute Olivenöl, der Käse zum Abschluss und der zweite Nachschlag vom selbstgekochten Essen summieren sich genauso wie jede Tiefkühlpizza. Natalie nimmt deiner Küche nichts weg; sie legt Zahlen darunter, damit du siehst, wovon wie viel auf den Teller gehört.",
+      },
+      {
+        title: "Eine Woche Fotos, dann wird gerechnet",
+        body: "Der Einstieg ist eine ehrliche Bestandsaufnahme: Sieben Tage fotografierst du dein Essen in der App, ohne etwas zu ändern. Im Videotermin rechnet Natalie mit dir nach, wo Kalorien und Eiweiß wirklich stehen, und meistens gibt es zwei Überraschungen: mehr Energie als gedacht, weniger Eiweiß als gedacht. Danach wird nicht die Küche ausgetauscht, sondern justiert: gleiche Gerichte, angepasste Mengen, Eiweiß auf alle Mahlzeiten verteilt statt nur auf das Abendessen.",
+      },
+      {
+        title: "Die Runde im Königsforst bleibt, sie bekommt nur Rückendeckung",
+        body: "Viele in Rath/Heumar bewegen sich regelmäßig, der Königsforst liegt schließlich vor der Tür. Die Beratung ersetzt das nicht, sie sorgt dafür, dass die Bewegung sich auszahlt: Ein Spaziergang verbrennt weniger, als ein großzügiger Schuss Öl liefert, und genau diese Rechnung macht Natalie sichtbar. Wer zusätzlich Kraft aufbauen will, kombiniert die Beratung mit 1-zu-1 Training für 50€ pro Stunde bei sich zu Hause; nötig für den Start ist das nicht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Rath/Heumar?",
+        a: "Die Beratung mit Natalie ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch ist kostenlos und unverbindlich.",
+      },
+      {
+        q: "Muss ich auf meine eigene Küche verzichten und nach Plan-Rezepten kochen?",
+        a: "Nein. Natalie arbeitet mit den Gerichten, die du ohnehin kochst, und passt Mengen und Zusammensetzung an. Neue Rezepte gibt es nur, wenn du sie willst.",
+      },
+      {
+        q: "Ich esse schon gesund. Was soll eine Beratung da noch bringen?",
+        a: "Die Zahlen. Gesunde Lebensmittel können trotzdem zu viel Energie und zu wenig Eiweiß liefern. Die Bestandsaufnahme zeigt es schwarz auf weiß, und oft reichen danach kleine Mengenänderungen statt einer Umstellung.",
+      },
+      {
+        q: "Läuft die Beratung komplett online?",
+        a: "Ja, per Videotermin und App. Du musst zu keinem Termin fahren, auch die Check-ins laufen digital. Das funktioniert von Rath/Heumar aus genauso gut wie aus der Innenstadt.",
+      },
+    ],
+  },
+
+  "roggendorf-thenhoven/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Roggendorf/Thenhoven ist Krafttraining, das Bewegungen lehrt statt Muskeln nur zu reizen: Kniebeuge, Hüftknick, Heben und Tragen sind Technik, und Technik vermittelt ein Trainer, keine Stromweste. Zwei geführte Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde, ohne Jahresvertrag, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln Roggendorf/Thenhoven: echtes Krafttraining mit Technik statt Stromreiz, zwei geführte Einheiten pro Woche zu Hause. 50€/Std, kein Jahresvertrag.",
+    sections: [
+      {
+        title: "Strom erzeugt Spannung, aber keine Bewegung",
+        body: "Die EMS-Weste kann eines gut: Muskeln elektrisch anspannen. Was sie nicht kann: dir beibringen, wie eine saubere Kniebeuge aussieht, wie du mit geradem Rücken aus der Hüfte hebst oder eine Last kontrolliert trägst. Genau diese Muster entscheiden aber darüber, ob Rücken und Knie den Alltag mitmachen. Kraft, die an Bewegungen hängt, entsteht nur durch die Bewegungen selbst, mit echtem Gewicht und jemandem, der die Ausführung korrigiert, Satz für Satz.",
+      },
+      {
+        title: "Technik lernt man im 1-zu-1, nicht in 20 Minuten Komplettreiz",
+        body: "In meinen Einheiten in Roggendorf/Thenhoven stehen vier bis sechs Grundbewegungen im Mittelpunkt. Jede davon wird zuerst leicht und sauber gelernt, dann über Wochen schwerer gemacht. Die Weste überspringt diesen Schritt, indem sie alle Muskeln gleichzeitig feuert, und genau deshalb bleibt nach dem EMS-Abo oft nichts, was man ohne Weste anwenden könnte. Nach ein paar Monaten Technikarbeit dagegen kannst du jede Übung überall ausführen: im Wohnzimmer, im Garten, irgendwann im Urlaub ohne mich.",
+      },
+      {
+        title: "Das Doppeldorf hat alles, was das Training braucht",
+        body: "Ein Studio gibt es in Kölns nördlichstem Stadtteil nicht, gebraucht wird es auch nicht: Material bringe ich mit, trainiert wird bei dir zu Hause in Roggendorf oder Thenhoven. Für die Ausdauer liegt der Chorbusch direkt am Ortsrand, mit flachen, ruhigen Wegen für Geh- und Laufeinheiten zwischen den Krafttagen. Bezahlt wird pro Stunde, nicht pro Vertragsjahr: 50€ je Einheit, jederzeit beendbar.",
+      },
+      {
+        title: "Für wen das hier passt",
+        body: "Für alle, die EMS wegen der Zeitersparnis attraktiv finden, aber Kraft wollen, die bleibt: Berufstätige, die abends trainieren, Ältere, die sicher heben und treppensteigen wollen, Wiedereinsteiger nach langer Pause. Das kostenlose Erstgespräch klärt Ziel und Startniveau; danach stehen zwei feste Termine pro Woche, die sich nach deinem Kalender richten, nicht nach einem Studio-Belegungsplan.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Roggendorf/Thenhoven?",
+        a: "50€ pro geführter 1-zu-1 Stunde, inklusive Material, ohne Jahresvertrag. Zum Vergleich: EMS-Studios binden meist über Abos mit langer Laufzeit. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "EMS verspricht Ergebnisse in 20 Minuten. Dauert echtes Training nicht viel länger?",
+        a: "Eine Einheit dauert 60 Minuten, davon ist nichts Anfahrt, weil ich zu dir komme. Entscheidend ist ohnehin nicht die Minutenzahl, sondern dass die Last über Monate steigt und die Technik sitzt.",
+      },
+      {
+        q: "Ist EMS nicht schonender für die Gelenke?",
+        a: "Der Stromreiz umgeht die Gelenke, aber genau das ist der Nachteil: Sehnen, Bänder und Knochen werden nur belastbarer, wenn sie kontrolliert Last tragen. Sauber ausgeführtes Krafttraining mit passender Steigerung ist gelenkschonend und baut sie zugleich auf.",
+      },
+      {
+        q: "Ich habe noch nie Krafttraining gemacht. Ist das ein Problem?",
+        a: "Nein, es ist der beste Startpunkt: Du lernst die Bewegungen von Anfang an richtig, ohne alte Fehler korrigieren zu müssen. Begonnen wird mit leichtem Gewicht, die Technik kommt vor der Last.",
+      },
+    ],
+  },
+
+  "ostheim/personal-training": {
+    answer:
+      "Personal Training in Köln-Ostheim ist für den Anfang da, nicht für die, die schon fit sind: 1-zu-1 bei dir zu Hause oder auf der Merheimer Heide, Start auf deinem echten Niveau, Messung alle vier Wochen. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Ostheim: 1-zu-1 bei dir zu Hause oder auf der Merheimer Heide, Start bei null möglich, messbarer Fortschritt. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Du musst nicht fit sein, um anzufangen",
+        body: "Viele warten mit dem Training, bis sie sich fit genug dafür fühlen, und genau so vergehen Jahre. Personal Training dreht diese Logik um: Es ist dafür gebaut, bei null anzufangen. Im 1-zu-1 gibt es keinen Kursraum, in dem alle schneller sind als du, und keine Geräte, an denen man sich blamieren kann. Es gibt dein Startniveau, einen Plan dafür und jemanden, der jede Wiederholung anschaut. Das kostenlose Erstgespräch misst, wo du stehst; von dort wird gesteigert, in deinem Tempo.",
+      },
+      {
+        title: "Trainiert wird in Ostheim, nicht irgendwo in der Stadt",
+        body: "Ostheim ist mit 13.951 Menschen auf 3,75 km² ein dichtes Veedel, und genau das macht die Wege kurz: Ich komme mit dem Material zu dir, ein freies Stück Boden in der Wohnung genügt. Für Draußen-Einheiten liegt die Merheimer Heide direkt am Veedelsrand, mit Rasenflächen und Wegen, die sich für Geh-Intervalle, Lauftechnik und Zirkel eignen. Du brauchst weder Anfahrt noch Studiomitgliedschaft, nur einen festen Termin zweimal pro Woche.",
+      },
+      {
+        title: "Alle vier Wochen siehst du es schwarz auf weiß",
+        body: "Motivation hält, wenn Fortschritt sichtbar ist. Deshalb wird jede Einheit protokolliert und alle vier Wochen gemessen: mehr Gewicht bei denselben Übungen, mehr Strecke in derselben Zeit, weniger Pause zwischen den Sätzen. Ob dein Ziel Abnehmen, Kraft oder einfach Belastbarkeit im Alltag ist, legt das Erstgespräch fest; der Plan dahinter bleibt nie statisch, sondern wird nach jeder Messung angepasst.",
+      },
+      {
+        title: "Was eine Einheit in Ostheim kostet",
+        body: "Die 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit und ohne versteckte Pakete. Wer nach den ersten Monaten selbstständig weitertrainieren will, wechselt ins Online Coaching ab 150€ im Monat mit Plan in der App und wöchentlichem Check-in. Für Ernährungsfragen sitzt mit Natalie eine Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung mit im Team.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Ostheim?",
+        a: "50€ pro 1-zu-1 Stunde, inklusive Material und Protokoll. Das Erstgespräch ist kostenlos und unverbindlich, danach entscheidest du, ob und wie es weitergeht.",
+      },
+      {
+        q: "Ich habe seit Jahren keinen Sport gemacht. Kann ich trotzdem starten?",
+        a: "Ja, genau dafür ist das 1-zu-1 Training gedacht. Die ersten Einheiten bauen Grundlagen auf: Beweglichkeit, saubere Bewegungen, leichtes Gewicht. Verglichen wirst du nur mit deinen eigenen Zahlen vom Vormonat.",
+      },
+      {
+        q: "Wo genau trainieren wir in Ostheim?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material oder draußen auf der Merheimer Heide am Rand des Veedels. Die meisten kombinieren beides, je nach Wetter und Trainingsphase.",
+      },
+      {
+        q: "Wie schnell sehe ich erste Ergebnisse?",
+        a: "Im Protokoll nach etwa vier Wochen, am Körper je nach Ziel nach acht bis zwölf. Entscheidend ist die Regelmäßigkeit: Zwei feste Einheiten pro Woche schlagen jeden Motivationsschub, der nach zehn Tagen endet.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
