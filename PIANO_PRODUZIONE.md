@@ -319,6 +319,12 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 311 | /koeln/riehl/athletiktraining | 0 | 1 | 11,0 | FATTA (giro 70, 18/11; pos 11,0: rafforzata con prudenza) |
 | 312 | /koeln/rath-heumar/ems-alternative | 0 | 1 | 12,0 | FATTA (giro 70, 18/11; pos 12,0: rafforzata con prudenza) |
 | 313 | /koeln/volkhoven-weiler/athletiktraining | 0 | 1 | 12,0 | FATTA (giro 70, 18/11; pos 12,0: rafforzata con prudenza) |
+| 314 | /koeln/eil/ems-alternative | 0 | 1 | 12,0 | FATTA (giro 71, 18/11; pos 12,0: rafforzata con prudenza) |
+| 315 | /koeln/ensen/ems-alternative | 0 | 1 | 12,0 | FATTA (giro 71, 18/11; pos 12,0: rafforzata con prudenza) |
+| 316 | /koeln/longerich/rueckentraining | 0 | 1 | 12,0 | FATTA (giro 71, 18/11; pos 12,0: rafforzata con prudenza) |
+| 317 | /koeln/marienburg/online-coaching | 0 | 1 | 12,0 | FATTA (giro 71, 18/11; pos 12,0: rafforzata con prudenza) |
+| 318 | /koeln/neuehrenfeld/ems-alternative | 0 | 1 | 12,0 | FATTA (giro 71, 18/11; pos 12,0: rafforzata con prudenza) |
+| 319 | /koeln/vingst/ems-alternative | 0 | 1 | 12,0 | FATTA (giro 71, 18/11; pos 12,0: rafforzata con prudenza) |
 
 Righe 302-307 entrate il 18/11/2026 (giro 69, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 31 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 9,0 e 11,0, in prima pagina o a ridosso. Secondo slot della giornata con ~12 punti di piano: giro da 6 pagine. Dopo questo giro restano 25 candidate, tutte a 0 click e 1 impressione).
 
@@ -351,6 +357,8 @@ Righe 224-229 entrate il 15/11/2026 (giro 53, riaggiornamento GSC a 90gg fino al
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
 
 Righe 308-313 entrate il 18/11/2026 (giro 70, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 25 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 11,0 e 12,0, a ridosso della prima pagina: si rafforzano con prudenza. Terzo slot della giornata con ~10 punti di piano: giro da 6 pagine. Dopo questo giro restano 19 candidate, tutte a 0 click e 1 impressione).
+
+Righe 314-319 entrate il 18/11/2026 (giro 71, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 19 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono tutte a pos 12,0, a ridosso della prima pagina: si rafforzano con prudenza. Nota: weidenpesch/abnehmen, indicata dal giro 70 come prossima a pos 11,0, è in realtà già FATTA dalla riga 129 (giro 34): la nota del giro 70 era imprecisa. Quarto slot della giornata con ~8 punti di piano: giro da 6 pagine. Dopo questo giro restano 13 candidate, tutte a 0 click e 1 impressione).
 
 ## 2. Articoli blog su domande scoperte (regola 2 del copione)
 
