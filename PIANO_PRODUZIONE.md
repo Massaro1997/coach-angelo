@@ -333,6 +333,9 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 325 | /koeln/merheim/rueckentraining | 0 | 1 | 14,0 | FATTA (giro 73, 18/11; pos 14,0: rafforzata con prudenza) |
 | 326 | /koeln/rodenkirchen/ems-alternative | 0 | 1 | 14,0 | FATTA (giro 73, 18/11; pos 14,0: rafforzata con prudenza) |
 | 327 | /koeln/worringen/abnehmen | 0 | 1 | 14,0 | FATTA (giro 73, 18/11; pos 14,0: rafforzata con prudenza) |
+| 328 | /koeln/lindenthal/personal-training | 0 | 1 | 15,0 | FATTA (giro 74, 18/11) |
+| 329 | /koeln/suerth/muskelaufbau | 0 | 1 | 18,0 | FATTA (giro 74, 18/11) |
+| 330 | /koeln/vogelsang/abnehmen | 0 | 1 | 22,0 | FATTA (giro 74, 18/11) |
 
 Righe 302-307 entrate il 18/11/2026 (giro 69, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 31 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 9,0 e 11,0, in prima pagina o a ridosso. Secondo slot della giornata con ~12 punti di piano: giro da 6 pagine. Dopo questo giro restano 25 candidate, tutte a 0 click e 1 impressione).
 
@@ -365,6 +368,8 @@ Righe 224-229 entrate il 15/11/2026 (giro 53, riaggiornamento GSC a 90gg fino al
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
 
 Righe 308-313 entrate il 18/11/2026 (giro 70, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 25 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 11,0 e 12,0, a ridosso della prima pagina: si rafforzano con prudenza. Terzo slot della giornata con ~10 punti di piano: giro da 6 pagine. Dopo questo giro restano 19 candidate, tutte a 0 click e 1 impressione).
+
+Righe 328-330 entrate il 18/11/2026 (giro 74, riaggiornamento GSC a 90gg fino al 16/11, stesso ordine click/impressioni/posizione; 6 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le tre entrate: lindenthal/personal-training pos 15,0, suerth/muskelaufbau pos 18,0, vogelsang/abnehmen pos 22,0. Giro da 3 pagine, non 4: settimo slot della giornata con ~2 punti di piano residui, motivo = budget. Dopo questo giro restano 3 candidate: rodenkirchen/personal-training pos 36,0, zuendorf/ernaehrungsberatung pos 44,0, kalk/personal-training pos 97,0, tutte a 0 click e 1 impressione).
 
 Righe 324-327 entrate il 18/11/2026 (giro 73, riaggiornamento GSC a 90gg fino al 16/11, stesso ordine click/impressioni/posizione; 10 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le quattro entrate: stammheim/muskelaufbau a pos 5,0 rafforzata con molta prudenza, le altre tre a pos 14,0. Giro da 4 pagine, non 6: sesto slot della giornata con ~3 punti di piano residui, motivo = budget. Dopo questo giro restano 6 candidate, tutte a 0 click e 1 impressione).
 
