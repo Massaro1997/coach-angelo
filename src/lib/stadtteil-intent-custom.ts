@@ -13316,6 +13316,264 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "grengel/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Grengel mit Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: Du zählst nicht ewig Kalorien. Vier Wochen lang wird gewogen und notiert, als Lernphase mit Ablaufdatum. Danach steuerst du deine Portionen mit Handmaßen und festen Tellerregeln, ganz ohne App. Komplett online per Video, enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Grengel mit Natalie: vier Wochen Lernphase mit Zahlen, danach Handmaße statt ewigem Tracken. Online per Video, ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Vier Wochen zählen, dann nie wieder",
+        body: "Die meisten scheitern nicht am Wissen, sondern am Dauerprotokoll: Kaum jemand wiegt im dritten Monat noch sein Abendessen ab. Deshalb behandelt Natalie das Tracken als Lernphase mit klarem Ende. Vier Wochen lang erfasst du, was du isst. In dieser Zeit wird sichtbar, wo deine Kalorien wirklich herkommen, meistens sind es zwei oder drei Posten und nicht zwanzig. Danach wird das Protokoll abgeschaltet und durch Regeln ersetzt, die du im Kopf behalten kannst.",
+      },
+      {
+        title: "Handmaße reichen für den Esstisch in Grengel",
+        body: "Eine Handfläche Eiweiß, eine Faust Gemüse, eine hohle Hand Beilage: Handmaße sind ungenauer als die Waage, aber sie sind immer dabei und funktionieren auch, wenn es schnell gehen muss. In einem Veedel wie Grengel, wo abends zu Hause gekocht und nicht bestellt wird, reicht diese Genauigkeit völlig aus. Die Lernphase davor sorgt dafür, dass du genau weißt, bei welchen deiner Gerichte das Augenmaß täuscht und wo du großzügig sein kannst.",
+      },
+      {
+        title: "Die Wahner Heide ist Teil der Rechnung",
+        body: "Grengel liegt direkt am Rand der Wahner Heide, und viele hier sind regelmäßig dort unterwegs, mit Hund, zu Fuß, am Wochenende. Diese Bewegung taucht in keiner Fitness-App als Training auf, aber sie zählt in der Energiebilanz. Natalie rechnet deine Alltagsbewegung mit ein, bevor sie an den Kalorien kürzt. Oft ist der erste Schritt nicht weniger zu essen, sondern die Heiderunde von zwei auf vier Tage pro Woche zu bringen.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Alles läuft online: Erstgespräch per Video, danach legt Natalie dein Kalorien- und Eiweißziel fest und startet die Lernphase. Einmal pro Woche schaut sie auf deine Zahlen und passt an. Ab Woche fünf arbeitest du mit den Regeln, die sich bei dir bewährt haben, und meldest dich im wöchentlichen Check-in. Wenn du zusätzlich trainieren willst, koppelt Angelo das Training an dieselben Ziele.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Ernährungsberatung in Köln-Grengel?",
+        a: "Sie ist im Online Coaching ab 150€ im Monat enthalten, mit Trainingsplan und wöchentlichem Check-in. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Muss ich dauerhaft Kalorien zählen?",
+        a: "Nein. Gezählt wird nur in der Lernphase von etwa vier Wochen. Danach steuerst du mit Handmaßen und festen Regeln, und der Check-in fängt auf, wenn das Gewicht vom Kurs abweicht.",
+      },
+      {
+        q: "Wie genau sind Handmaße wirklich?",
+        a: "Für den Alltag genau genug. Entscheidend ist nicht die Grammzahl, sondern dass du die großen Posten im Griff hast, und die kennst du nach der Lernphase. Wird es wieder unscharf, schaltet Natalie das Protokoll für eine Woche dazu.",
+      },
+      {
+        q: "Ich wohne in Grengel. Treffen wir uns persönlich?",
+        a: "Die Ernährungsberatung läuft komplett per Video und App. Fürs Training im Veedel oder in der Wahner Heide ist Angelo da, auch das klärst du im kostenlosen Erstgespräch.",
+      },
+    ],
+  },
+
+  "holweide/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Holweide: Trainingsplan in der App, Ernährungssteuerung und ein Coach, der deine Technik wirklich sieht. Du filmst deine schweren Sätze mit dem Handy, ich schaue sie an und korrigiere, bevor sich Fehler einschleifen. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching in Köln-Holweide: Plan in der App, Video-Feedback auf deine Technik, Ernährungssteuerung. Ab 150€/Monat, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Problem ist nicht der Plan, sondern das Feedback",
+        body: "Trainingspläne gibt es überall, kostenlos und in jeder Variante. Was fehlt, ist jemand, der deine Ausführung sieht: Deine Kniebeuge sieht anders aus als die im Lehrvideo, und genau diese Differenz entscheidet über Fortschritt und Gelenke. Im Online Coaching schickst du mir kurze Videos deiner schweren Sätze direkt aus der App, und ich antworte mit konkreten Korrekturen statt mit allgemeinen Tipps.",
+      },
+      {
+        title: "So läuft der Video-Check konkret",
+        body: "Du brauchst kein Stativ und keinen Schnitt: Handy an die Wand lehnen, Satz filmen, hochladen. Ich markiere, was ich sehe, etwa Tiefe, Rückenposition oder Tempo, und in der nächsten Einheit steht die Korrektur als Notiz über der Übung. So baust du saubere Technik auf, obwohl ich nicht danebenstehe. Beim wöchentlichen Video-Check-in gehen wir die Woche dann einmal gemeinsam durch.",
+      },
+      {
+        title: "Trainieren in Holweide, zu Hause oder im Studio deiner Wahl",
+        body: "Holweide ist mit rund 21.000 Einwohnern eines der größten Veedel im Bezirk Mülheim. Trainiert wird dort, wo es für dich passt: im Wohnzimmer mit Kurzhanteln und Band oder in einem Studio an der Bergisch Gladbacher Straße mit Langhantel. Der Plan passt sich der Ausstattung an, die Progression bleibt dieselbe. Wer mit der S11 in die Stadt pendelt, bekommt Einheiten, die nach Feierabend noch realistisch sind.",
+      },
+      {
+        title: "Für wen Online Coaching die richtige Stufe ist",
+        body: "Online Coaching passt, wenn du selbständig trainieren kannst und Richtung plus Rückmeldung willst. Wer noch nie trainiert hat oder nach Verletzung zurückkommt, startet besser mit ein paar 1-zu-1 Stunden, bis die Grundübungen sitzen. Der Wechsel zwischen beiden Formen ist jederzeit möglich, viele kombinieren sie auch: Coaching übers Jahr, einzelne Präsenzstunden als Technik-Auffrischung.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching in Köln-Holweide?",
+        a: "Ab 150€ im Monat, inklusive Trainingsplan per App, Technik-Feedback auf deine Videos, Ernährungssteuerung und wöchentlichem Check-in. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Wie schnell bekomme ich Antwort auf ein Technikvideo?",
+        a: "Meist am selben oder am nächsten Tag. Der feste Termin ist der wöchentliche Check-in, die Videos laufen dazwischen, wann immer du trainierst.",
+      },
+      {
+        q: "Reicht mein Wohnzimmer zum Trainieren?",
+        a: "In den meisten Fällen ja. Kurzhanteln, ein Band und zwei mal zwei Meter Platz reichen für ein vollständiges Programm. Fehlt etwas, plane ich Alternativen ein statt Übungen zu streichen.",
+      },
+      {
+        q: "Was ist der Unterschied zum Personal Training vor Ort?",
+        a: "Im 1-zu-1 stehe ich für 50€ pro Stunde neben dir, im Online Coaching führst du die Einheiten selbst aus und ich steuere Plan, Technik und Ernährung aus der Ferne. Dafür kostet der ganze Monat so viel wie drei Präsenzstunden.",
+      },
+    ],
+  },
+
+  "porz/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Porz trainiert dich dort, wo EMS nie stattfindet: draußen. Die Stromweste bindet dich verkabelt an ein Gerät im Studio, mein Krafttraining findet am Rheinufer Porz oder bei dir zu Hause statt, mit Last, die von Woche zu Woche steigt. Die 1-zu-1 Stunde kostet 50€ ohne Jahresvertrag, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Porz: Krafttraining draußen am Rheinufer oder zu Hause statt verkabelt am Gerät. 50€/Std, kein Jahresvertrag, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "EMS findet immer drinnen statt",
+        body: "Eine EMS-Einheit ist an Elektroden, Kabel und ein Gerät gebunden. Du stehst angeschnallt im Studioraum und hältst Positionen, zwanzig Minuten lang, immer am selben Ort. Was dabei komplett fehlt: Tageslicht, frische Luft und Bewegung durch den Raum. Dabei hält kaum etwas ein Training so zuverlässig am Leben wie der Ort. Eine Einheit am Fluss fühlt sich nach Feierabend an, nicht nach zweitem Pflichttermin, und wird deshalb seltener abgesagt.",
+      },
+      {
+        title: "Das Rheinufer Porz ist dein Studio",
+        body: "Von Porz-Mitte sind es nur ein paar Minuten bis zum Wasser. Am Rheinufer arbeiten wir mit Körpergewicht und Kleingeräten, die ich zum Termin mitbringe: Kniebeugen, Ausfallschritte, Ziehen, Tragen, dazu Bänke und Treppen, die ohnehin da sind. Bei Regen oder Kälte verlegen wir die Einheit zu dir nach Hause. Beides ohne Studiovertrag und ohne Anfahrt quer durch die Stadt.",
+      },
+      {
+        title: "Auch draußen steigt die Last jede Woche",
+        body: "Draußen trainieren heißt nicht planlos trainieren. Jede Übung hat eine schwerere Variante, mehr Wiederholungen oder kürzere Pausen als Stellschraube, und ich halte fest, wo du stehst. Der Unterschied zur Stromweste: Dort regelt ein Drehknopf die Intensität, hier dein eigener Körper. Nach drei Monaten kannst du Dinge, die du vorher nicht konntest, und das bleibt, auch wenn du mal pausierst.",
+      },
+      {
+        title: "Für wen das in Porz passt",
+        body: "Typische Anfragen aus Porz kommen von Leuten, die nach Feierabend nicht noch einmal in die Innenstadt fahren wollen, und von Einsteigern, denen das EMS-Versprechen von zwanzig Minuten pro Woche zu schön vorkam, um wahr zu sein. Das Training passt für jedes Level, weil die erste Phase aus Technik und Körpergewicht besteht. Ob draußen oder drinnen, entscheidest du, die Jahreszeit entscheidet mit.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Porz?",
+        a: "50€ pro 1-zu-1 Stunde, ohne Vertragslaufzeit. Wer lieber mit Plan in Eigenregie arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Trainieren wir bei jedem Wetter draußen?",
+        a: "Nein. Bei Regen, Glätte oder Kälte verlegen wir die Einheit zu dir nach Hause, der Plan läuft einfach weiter. Draußen trainieren wir, wenn es dem Training nützt, nicht aus Prinzip.",
+      },
+      {
+        q: "Brauche ich eigene Geräte?",
+        a: "Nein. Für den Anfang reichen Körpergewicht und die Kleingeräte, die ich mitbringe. Wenn du später zu Hause nachlegen willst, besprechen wir gezielt, was sich für dich lohnt.",
+      },
+      {
+        q: "Ich habe schon ein EMS-Probetraining gebucht. Lohnt sich der Vergleich?",
+        a: "Ja, vergleich ruhig beides. Mein Erstgespräch ist kostenlos, danach weißt du, wie sich echte Last anfühlt und was sie kostet, und kannst entscheiden, bevor du einen Jahresvertrag unterschreibst.",
+      },
+    ],
+  },
+
+  "riehl/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Riehl setzt dort an, wo Tempo wirklich entsteht: im Rumpf. Sprints und Sprungserien trainieren wir auf den flachen Rheinwiesen in Riehl, die Stabilität dazu kommt aus gezielter Rumpf- und Kraftarbeit im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Riehl: Sprints auf den Rheinwiesen, Rumpfkraft als Basis für Tempo, Messung alle vier Wochen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Schnelligkeit ist ein Rumpfthema",
+        body: "Beim Sprint erzeugen die Beine die Kraft, aber der Rumpf überträgt sie auf den Boden. Wackelt die Körpermitte, versickert ein Teil jedes Abdrucks, egal wie stark deine Beine sind. Deshalb beginnt Athletiktraining bei mir nicht mit Sprintserien, sondern mit der Frage: Hältst du deine Position auch unter Tempo? Danach bekommt der Rumpf in jeder Einheit seinen festen Block, nicht als Bauchtraining, sondern als Stabilität gegen Rotation und unter Last.",
+      },
+      {
+        title: "Die Rheinwiesen in Riehl als Trainingsfeld",
+        body: "Zwischen Zoobrücke und Mülheimer Brücke liegt das Riehler Rheinufer: flach, breit und selten voll. Dort laufen wir Sprints von 20 bis 60 Metern, bauen Sprungserien auf dem Rasen auf und nutzen die Uferwege für Tempoläufe mit klaren Vorgaben. Den Kraftteil machen wir im Studio, wo sich Last sauber steigern lässt. Riehl selbst liefert kurze Wege: Von den meisten Ecken des Veedels bist du in wenigen Minuten am Wasser.",
+      },
+      {
+        title: "Messen statt schätzen",
+        body: "Am Anfang nehmen wir drei Werte auf: Sprintzeit, Sprunghöhe und einen Rumpftest. Alle vier Wochen wiederholen wir die Messung unter gleichen Bedingungen am gleichen Ort. So siehst du, ob das Programm wirkt, und ich sehe, welcher Baustein hängt. Bewegt sich ein Wert nicht, ändere ich den Plan und nicht die Ausrede.",
+      },
+      {
+        title: "Für wen das in Riehl passt",
+        body: "Riehl liegt zwischen Innenstadt und Nippes, und viele hier laufen ohnehin am Rhein. Typische Kunden: Läufer, deren Pace seit Monaten stehen bleibt, Vereinssportler aus dem Kölner Norden, die sich spritziger wünschen, und Wiedereinsteiger, die es diesmal strukturiert angehen wollen. Der Eingangstest setzt das Niveau, nicht dein Alter und nicht deine Vorgeschichte.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Riehl?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Mit App-Plan und wöchentlichen Check-ins gibt es das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Wo genau trainieren wir in Riehl?",
+        a: "Auf den Rheinwiesen zwischen Zoobrücke und Mülheimer Brücke für Sprints und Sprünge, im Studio für die Kraftarbeit. Bei Dauerregen findet die ganze Einheit drinnen statt.",
+      },
+      {
+        q: "Ich bin Läufer. Brauche ich trotzdem Sprungtraining?",
+        a: "Ja, dosiert. Sprungkraft verbessert die Laufökonomie, du holst also mehr Strecke aus derselben Energie. Zwei kurze Sprungblöcke pro Woche reichen dafür schon.",
+      },
+      {
+        q: "Wie oft pro Woche ist sinnvoll?",
+        a: "Eine geführte Athletikeinheit pro Woche plus dein eigenes Lauf- oder Vereinstraining reicht für messbaren Fortschritt. Mehr planen wir nur, wenn Erholung und Kalender es wirklich hergeben.",
+      },
+    ],
+  },
+
+  "rath-heumar/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Rath/Heumar ist Krafttraining, das dein Körpergefühl mitnimmt statt es zu überbrücken: Echte Last meldet dir bei jeder Wiederholung, wie viel noch geht. Strom umgeht genau dieses Signal, deshalb beschreibt die Sportmedizin Überlastungen nach zu intensiven ersten EMS-Einheiten. Trainiert wird 1-zu-1 bei dir zu Hause oder draußen am Königsforst, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Rath/Heumar: Krafttraining mit echtem Belastungsgefühl statt Stromreiz, zu Hause oder am Königsforst. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Anstrengungsgefühl ist ein Messgerät",
+        body: "Beim Krafttraining spürst du jede Wiederholung: Die letzte wird langsamer, die Technik verlangt Konzentration, dein Körper meldet, wann Schluss ist. Auf genau diesem Signal baut jede saubere Trainingssteuerung auf, von der ersten Stunde bis zum Fortgeschrittenenprogramm. Die Stromweste setzt dieses System außer Kraft: Der Reiz kommt von außen, und die Muskeln arbeiten härter, als dein Gefühl dir meldet.",
+      },
+      {
+        title: "Was die Sportmedizin zu EMS-Einsteigern dokumentiert",
+        body: "In der sportmedizinischen Literatur sind Fälle beschrieben, in denen Einsteiger ihre Muskulatur in den ersten EMS-Einheiten massiv überlastet haben, bis hin zum Muskelzerfall, der die Nieren belastet. Das ist kein Grund zur Panik, es betrifft vor allem zu intensive Anfänge ohne vorsichtige Gewöhnung. Aber es zeigt das Prinzip: Ein Reiz, den du nicht einordnen kannst, lässt sich schlecht dosieren. Echte Last dosiert sich über das Gewicht in deiner Hand, und das legen wir gemeinsam fest.",
+      },
+      {
+        title: "Rath/Heumar trainiert mit dem Königsforst",
+        body: "Mit fast 13 Quadratkilometern ist Rath/Heumar einer der größten Stadtteile Kölns, und ein großer Teil davon ist Wald. Das Krafttraining findet bei dir zu Hause oder draußen am Waldrand statt. Für die Tage dazwischen bekommst du ein einfaches Programm für den Königsforst: zügiges Gehen oder lockeres Traben auf weichem Boden. Diese Erholung unterstützt den Kraftaufbau, statt mit ihm zu konkurrieren.",
+      },
+      {
+        title: "So startest du ohne Überlastung",
+        body: "Die erste Stunde ist ein Technik-Check mit Körpergewicht und leichten Lasten. Gewicht kommt erst dazu, wenn die Ausführung sitzt, und steigt dann in kleinen, geplanten Schritten über Wochen. Du lernst dabei, Anstrengung selbst einzuschätzen, eine Fähigkeit, die dir jedes spätere Training leichter macht. Genau diese Stufen überspringt der Strom, und genau deshalb fühlen sich EMS-Anfänge oft härter an als nötig.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Rath/Heumar?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ohne Vertragsbindung. Das Online Coaching mit Plan und Check-ins gibt es ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Ist EMS denn gefährlich?",
+        a: "Richtig betreut und vorsichtig gesteigert in der Regel nicht. Die dokumentierten Probleme entstanden fast immer durch zu intensive erste Einheiten. Mein Punkt ist ein anderer: Training mit echter Last gibt dir die Rückmeldung, mit der du Belastung selbst steuern lernst.",
+      },
+      {
+        q: "Ich habe lange keinen Sport gemacht. Ist echtes Krafttraining nicht zu hart?",
+        a: "Nein, es beginnt leichter, als die meisten denken: mit Körpergewicht und Technik. Die Last steigt erst, wenn die Ausführung sitzt. Härter als nötig wird es nur ohne diese Stufen.",
+      },
+      {
+        q: "Wo trainieren wir in Rath/Heumar?",
+        a: "Bei dir zu Hause oder draußen Richtung Königsforst, je nach Wetter und Ausstattung. Für trainingsfreie Tage bekommst du ein kurzes Geh- oder Laufprogramm für den Wald mit.",
+      },
+    ],
+  },
+
+  "volkhoven-weiler/athletiktraining": {
+    answer:
+      "Athletiktraining in Köln-Volkhoven/Weiler trainiert die Fähigkeit, die Spiele entscheidet: nicht den einen schnellen Antritt, sondern den zehnten in Folge. Wiederholte Sprints und Richtungswechsel auf den Wiesen am Fühlinger See, Kraft und Sprungkraft im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Athletiktraining in Köln-Volkhoven/Weiler: wiederholte Antritte statt Einzelsprint, Training am Fühlinger See und im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der zehnte Antritt zählt, nicht der erste",
+        body: "Im Spiel bist du selten ausgeruht, wenn es schnell gehen muss. Entscheidend ist, wie viel Tempo nach dem achten, neunten, zehnten Antritt noch übrig ist. Genau das lässt sich trainieren: kurze Sprints mit knapp bemessenen Pausen, sauber gezählt und über Wochen gesteigert. Wer stattdessen nur lange, gleichmäßige Läufe macht, trainiert an dieser Fähigkeit vorbei und wundert sich, warum die zweite Halbzeit zäh wird.",
+      },
+      {
+        title: "Der Fühlinger See liegt ein paar Minuten entfernt",
+        body: "Volkhoven/Weiler grenzt direkt an Fühlingen und damit an eines der besten Trainingsgelände im Kölner Norden. Auf den Wiesen am See bauen wir Sprintserien und Richtungswechsel auf, die flache Runde um den See nutzen wir für Tempoausdauer. Für viele Einheiten braucht es aber nicht mal den See: Ein Stück Rasen und 30 Meter freie Strecke findest du auch im Veedel selbst.",
+      },
+      {
+        title: "Kraft und Sprungkraft als zweites Standbein",
+        body: "Wiederholte Sprints brauchen eine Basis: Beinkraft, Sprungkraft und eine stabile Landung. Diesen Teil bauen wir im Studio auf, mit Lasten, die zu deinem Stand passen. Ohne diese Basis wird aus ambitioniertem Sprinttraining schnell eine Überlastung an Waden und hinterer Oberschenkelmuskulatur. Mit ihr werden die Antritte nicht nur schneller, sondern bleiben auch verletzungsfrei wiederholbar.",
+      },
+      {
+        title: "Für wen das im Kölner Norden passt",
+        body: "Die typischen Anfragen kommen von Fußballern und anderen Spielsportlern aus den Vereinen der Umgebung, von Hobbyläufern, die spritziger werden wollen, und von Wiedereinsteigern nach ein paar Jahren Pause. Der Eingangstest zeigt, wo du stehst, und setzt das Startniveau. Gearbeitet wird dann an deiner schwächsten Stelle zuerst, nicht an der, die am meisten Spaß macht.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Athletiktraining in Köln-Volkhoven/Weiler?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Wer nach Plan in Eigenregie trainieren will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Was ist der Unterschied zu normalem Lauftraining?",
+        a: "Lauftraining verbessert dein gleichmäßiges Tempo, Athletiktraining die kurzen, harten Momente: Antritt, Stopp, Sprung, Richtungswechsel. Für Spielsportarten entscheidet das Zweite.",
+      },
+      {
+        q: "Wo trainieren wir genau?",
+        a: "Auf den Wiesen am Fühlinger See, auf freien Rasenflächen im Veedel und für die Kraftarbeit im Studio. Was wo stattfindet, hängt von deinem Ziel und vom Wetter ab.",
+      },
+      {
+        q: "Wie schnell werde ich schneller?",
+        a: "Die ersten messbaren Verbesserungen bei wiederholten Sprints kommen oft nach vier bis sechs Wochen, weil sich zuerst Koordination und Pausengestaltung verbessern. Danach wird der Fortschritt langsamer und hängt an der Kraftbasis.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {

@@ -313,6 +313,12 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 305 | /koeln/hahnwald/ernaehrungsberatung | 0 | 1 | 10,0 | FATTA (giro 69, 18/11; pos 10,0: rafforzata con prudenza) |
 | 306 | /koeln/stammheim/rueckentraining | 0 | 1 | 10,0 | FATTA (giro 69, 18/11; pos 10,0: rafforzata con prudenza) |
 | 307 | /koeln/gremberghoven/muskelaufbau | 0 | 1 | 11,0 | FATTA (giro 69, 18/11; pos 11,0: rafforzata con prudenza) |
+| 308 | /koeln/grengel/ernaehrungsberatung | 0 | 1 | 11,0 | FATTA (giro 70, 18/11; pos 11,0: rafforzata con prudenza) |
+| 309 | /koeln/holweide/online-coaching | 0 | 1 | 11,0 | FATTA (giro 70, 18/11; pos 11,0: rafforzata con prudenza) |
+| 310 | /koeln/porz/ems-alternative | 0 | 1 | 11,0 | FATTA (giro 70, 18/11; pos 11,0: rafforzata con prudenza) |
+| 311 | /koeln/riehl/athletiktraining | 0 | 1 | 11,0 | FATTA (giro 70, 18/11; pos 11,0: rafforzata con prudenza) |
+| 312 | /koeln/rath-heumar/ems-alternative | 0 | 1 | 12,0 | FATTA (giro 70, 18/11; pos 12,0: rafforzata con prudenza) |
+| 313 | /koeln/volkhoven-weiler/athletiktraining | 0 | 1 | 12,0 | FATTA (giro 70, 18/11; pos 12,0: rafforzata con prudenza) |
 
 Righe 302-307 entrate il 18/11/2026 (giro 69, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 31 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 9,0 e 11,0, in prima pagina o a ridosso. Secondo slot della giornata con ~12 punti di piano: giro da 6 pagine. Dopo questo giro restano 25 candidate, tutte a 0 click e 1 impressione).
 
@@ -343,6 +349,8 @@ Righe 230-235 entrate il 16/11/2026 (giro 54, riaggiornamento GSC a 90gg fino al
 Righe 224-229 entrate il 15/11/2026 (giro 53, riaggiornamento GSC a 90gg fino al 13/11, 335 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 112 candidate fuori coda prima dell'ingresso, tutte a 0 click e 2 impressioni o meno; le sei entrate sono fra pos 6,0 e 7,5, a ridosso o dentro la prima pagina: si rafforzano con prudenza. Primo slot della giornata con budget pieno: giro da 6 pagine).
 
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
+
+Righe 308-313 entrate il 18/11/2026 (giro 70, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 25 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 11,0 e 12,0, a ridosso della prima pagina: si rafforzano con prudenza. Terzo slot della giornata con ~10 punti di piano: giro da 6 pagine. Dopo questo giro restano 19 candidate, tutte a 0 click e 1 impressione).
 
 ## 2. Articoli blog su domande scoperte (regola 2 del copione)
 
