@@ -336,6 +336,11 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 328 | /koeln/lindenthal/personal-training | 0 | 1 | 15,0 | FATTA (giro 74, 18/11) |
 | 329 | /koeln/suerth/muskelaufbau | 0 | 1 | 18,0 | FATTA (giro 74, 18/11) |
 | 330 | /koeln/vogelsang/abnehmen | 0 | 1 | 22,0 | FATTA (giro 74, 18/11) |
+| 331 | /koeln/rodenkirchen/personal-training | 0 | 1 | 36,0 | FATTA (giro 75, 18/11) |
+| 332 | /koeln/zuendorf/ernaehrungsberatung | 0 | 1 | 44,0 | FATTA (giro 75, 18/11) |
+| 333 | /koeln/kalk/personal-training | 0 | 1 | 97,0 | FATTA (giro 75, 18/11) |
+
+**CODA INTENT ESAURITA (giro 75, 18/11)**: tutte le 333 pagine quartiere×servizio con impressioni nei 90 giorni (dati fino al 16/11) hanno testo su misura. Dal giro 76 la coda si alimenta solo col riaggiornamento GSC (pagine nuove con impressioni o rientri dal controllo indicizzazione del lunedì); il lavoro ordinario passa alla sezione 2 (articoli blog su domande scoperte).
 
 Righe 302-307 entrate il 18/11/2026 (giro 69, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 31 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 9,0 e 11,0, in prima pagina o a ridosso. Secondo slot della giornata con ~12 punti di piano: giro da 6 pagine. Dopo questo giro restano 25 candidate, tutte a 0 click e 1 impressione).
 
@@ -380,6 +385,17 @@ Righe 314-319 entrate il 18/11/2026 (giro 71, riaggiornamento GSC a 90gg fino al
 ## 2. Articoli blog su domande scoperte (regola 2 del copione)
 
 In coda dopo le prime pagine quartiere×servizio. Candidate da GSC («Le persone hanno chiesto anche» di MEMORY 0.2) non ancora coperte da nessuna pagina: da valutare giro per giro. Mai Hyrox come offerta. Ogni articolo chiude con il passo verso Angelo o Natalie e il link alla pagina di servizio o quartiere giusta.
+
+Nota (giro 75, 18/11): le domande PAA di MEMORY 0.2 su costi/Krankenkasse/steuer sono GIÀ coperte (blog was-kostet + FAQ di /leistungen/ernaehrungsberatung): niente doppioni. Le candidate si cercano nelle query GSC a 90gg (script /tmp riproducibile: query 90gg due proprietà, dimensione query, rowLimit 2000) confrontate con gli slug esistenti.
+
+Fatti:
+| Articolo | Query bersaglio (90gg, somma) | Giro |
+|---|---|---|
+| /blog/knieschmerzen-treppe-runtergehen-uebungen | cluster «treppen runter/abwärts» ~190 impr, pos 60-80 | 75 (18/11) |
+| /blog/wie-oft-personal-training-sinnvoll | «wie oft personal training sinnvoll» 36 impr pos 72 | 75 (18/11) |
+| /blog/haengende-schultern-korrigieren-uebungen | «hängende schultern (mann)» 51 impr pos 19-65 | 75 (18/11) |
+
+Candidate valutate e scartate (già coperte): «skinny fat» (skinny-fat-training-ernaehrung), «muskelabbau im alter» (sarkopenie-...), «warum nehm ich trotz sport nicht ab» (gewicht-stagniert + FAQ), «rückenfitness im unternehmen» (B2B non offerto).
 
 ## 3. Zone confermate (comuni fuori Colonia, SOLO scritti da Calogero)
 
