@@ -14174,6 +14174,135 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "lindenthal/personal-training": {
+    answer:
+      "Personal Training in Köln-Lindenthal plane ich um Kalender, die sich jede Woche ändern: Viele hier arbeiten an der Uniklinik oder an der Universität, mit Diensten, Lehre und Terminen, die ein festes 18-Uhr-Training unmöglich machen. Deshalb rotieren unsere 1-zu-1 Einheiten mit deiner Woche, bei dir zu Hause, im Stadtwald oder im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Lindenthal: 1-zu-1 Termine, die mit Klinik- und Uni-Kalendern rotieren, im Stadtwald, zu Hause oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Termine, die eine Klinikwoche überstehen",
+        body: "Lindenthal ist das Veedel der wechselnden Kalender: Die Uniklinik und die Universität gehören zu den größten Arbeitgebern der Stadt, und wer dort arbeitet, kennt seinen Wochenplan oft erst kurz vorher. Ein Abo mit festem Kurstermin scheitert daran zuverlässig. Bei mir legen wir die zwei Einheiten der kommenden Woche jeweils am Wochenende fest, mal morgens vor der Frühbesprechung, mal nachmittags zwischen zwei Terminen. Der Plan bleibt derselbe, nur die Uhrzeit wandert.",
+      },
+      {
+        title: "Der Stadtwald als zweiter Trainingsraum",
+        body: "Mit dem Stadtwald hat Lindenthal eine Trainingsfläche, um die andere Veedel beneiden: breite, ebene Wege für Intervalle und Technikläufe, Wiesen für Einheiten mit Kurzhanteln und Bändern, die ich mitbringe, und mit dem Aachener Weiher ein fester Wendepunkt für Tempoarbeit. Im Winter oder bei Dauerregen verlegen wir dieselbe Einheit zu dir nach Hause oder ins Studio. Das Programm hängt nicht am Ort, sondern am Plan.",
+      },
+      {
+        title: "So läuft dein 1-zu-1 ab",
+        body: "Am Anfang steht ein Technik- und Kraft-Check, daraus entsteht dein Plan. Jede Einheit wird protokolliert: Gewichte, Wiederholungen, Tempo. Alle vier bis sechs Wochen vergleichen wir die Zahlen mit dem Start, und wenn sich nichts bewegt, ändere ich das Programm statt dir mehr Disziplin zu predigen. Mit 30.725 Einwohnern und kurzen Wegen ist Lindenthal gut zu planen: Anfahrtszeit verliert hier niemand.",
+      },
+      {
+        title: "Für wen das in Lindenthal gedacht ist",
+        body: "Für Leute, deren Beruf den Takt vorgibt: Ärztinnen und Pfleger nach dem Dienst, wissenschaftliche Mitarbeiter zwischen Lehre und Labor, Berufstätige, die schon zwei Studio-Anläufe hinter sich haben. Das Ziel setzen wir gemeinsam, meist geht es um Kraft, Haltung und Energie im Alltag, nicht um Bühnenform. Das Einstiegsniveau spielt keine Rolle, der Check am Anfang holt dich dort ab, wo du stehst.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Lindenthal?",
+        a: "Eine 1-zu-1 Stunde kostet 50€. Wer lieber mit Wochenplan und Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Was passiert, wenn mein Dienstplan einen Termin kippt?",
+        a: "Wir verschieben innerhalb der Woche statt zu streichen. Weil wir die Termine wochenweise legen, geht kein Training verloren, nur die Uhrzeit ändert sich.",
+      },
+      {
+        q: "Wo trainieren wir in Lindenthal?",
+        a: "Draußen im Stadtwald, bei dir zu Hause mit mitgebrachtem Material oder im Studio. Den Mix legen wir nach Ziel, Wetter und deiner Woche fest.",
+      },
+      {
+        q: "Brauche ich eigene Ausrüstung?",
+        a: "Nein. Kurzhanteln, Kettlebell und Bänder bringe ich mit. Für zu Hause reicht eine freie Fläche von zwei mal zwei Metern.",
+      },
+    ],
+  },
+
+  "suerth/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Sürth messe ich nicht im Spiegel, sondern im Alltag: Getränkekisten tragen, Gartenarbeit, ein Kind auf den Arm nehmen, ohne dass der Körper streikt. Dafür reichen zwei Krafteinheiten pro Woche mit Grundübungen und steigender Last, bei dir zu Hause in Sürth oder im Studio. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Sürth: Kraft für Alltag, Haus und Garten statt Spiegelprogramm. Grundübungen mit Protokoll, zu Hause oder im Studio. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Kraft, die in Sürth jeden Tag gebraucht wird",
+        body: "Sürth ist ein Veedel der Häuser und Gärten, und genau da zeigt sich, was Muskeln wert sind: Beete umgraben, Umzugskartons in den Keller, das Fahrrad die Treppe hoch. Ich baue dein Training um diese Bewegungen herum auf. Kniebeugen, Kreuzheben, Drücken und Ziehen sind nichts anderes als die kontrollierte Version dessen, was Haus und Garten sowieso von dir verlangen, nur mit planbarer Steigerung statt Zufallsbelastung.",
+      },
+      {
+        title: "Warum gerade diese vier Übungen",
+        body: "Wer Alltagskraft will, braucht Übungen, die viele Muskeln gleichzeitig fordern. Eine Maschine im Studio isoliert, eine Kniebeuge mit Gewicht trainiert Beine, Rumpf und Griff in einer Bewegung, so wie beim Heben im echten Leben. Deshalb besteht dein Plan aus wenigen Grundübungen, die wir sauber lernen und dann Woche für Woche schwerer machen. Das Material bringe ich mit, ein Studio im Veedel brauchst du dafür nicht.",
+      },
+      {
+        title: "Das Protokoll zeigt, ob es funktioniert",
+        body: "Jede Einheit notiere ich: Last, Wiederholungen, Ausführung. Nach zwölf Wochen steht da schwarz auf weiß, was sich verändert hat, zum Beispiel von der leeren Stange zu deinem halben Körpergewicht beim Kreuzheben. Diese Zahlen sind ehrlicher als der Spiegel, denn sichtbare Muskeln brauchen Monate, messbare Kraft wächst ab der zweiten Woche.",
+      },
+      {
+        title: "Essen, das den Aufbau trägt",
+        body: "Ohne Baumaterial kein Aufbau: Als Richtwert gelten 1,6 bis 2 Gramm Eiweiß pro Kilo Körpergewicht am Tag, verteilt auf normale Mahlzeiten statt Pulverregal. Wenn du dabei Unterstützung willst, rechnet Natalie als Ernährungsberaterin deinen Bedarf aus und baut ihn in dein Familienessen ein, ohne Extra-Kochen für dich allein.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Sürth?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€. Das Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Bin ich zu alt für Muskelaufbau?",
+        a: "Nein. Muskeln reagieren in jedem Alter auf Training, nur die Steigerung verläuft langsamer und die Erholung braucht mehr Beachtung. Der Check am Anfang legt das Startgewicht fest, nicht dein Geburtsjahr.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche wirklich?",
+        a: "Ja, wenn sie geplant sind und die Last steigt. Der Muskel wächst in der Erholung zwischen den Einheiten, mehr Training ohne Plan bremst eher, als dass es hilft.",
+      },
+      {
+        q: "Muss ich dafür in ein Studio?",
+        a: "Nein. Ich bringe Kurzhanteln, Langhantel-Alternativen und Bänder zu dir nach Sürth mit. Wer lieber im Studio trainiert, kann das, nötig ist es nicht.",
+      },
+    ],
+  },
+
+  "vogelsang/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Vogelsang beginnt bei mir am Morgen: Wer mit süßem Frühstück oder ganz ohne in den Tag startet, kämpft ab dem Nachmittag gegen Heißhunger, und der gewinnt am Abend fast immer. Also drehen wir die erste Mahlzeit auf Eiweiß, dazu zwei Krafteinheiten pro Woche und ein Kalorienziel, das Natalie auf deinen Tag rechnet. Eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Vogelsang: Eiweiß-Frühstück gegen den Abend-Heißhunger, Krafttraining zu Hause, Kalorienziel von Ernährungsberaterin Natalie. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum dein Frühstück über den Abend entscheidet",
+        body: "Die meisten Diäten scheitern abends auf dem Sofa, aber angelegt wird das Scheitern morgens: Ein Frühstück aus Weißbrot, Marmelade oder Cornflakes lässt den Blutzucker steigen und fallen, und ab mittags meldet sich der Hunger im Stundentakt. Eine erste Mahlzeit mit 25 bis 30 Gramm Eiweiß, etwa Quark, Eier oder Skyr, hält spürbar länger satt. Das Kaloriendefizit bleibt dasselbe, es fühlt sich nur nicht mehr nach Kampf an.",
+      },
+      {
+        title: "Bewegung vor der Haustür statt Studio-Pflicht",
+        body: "Vogelsang hat kein Fitnessstudio an jeder Ecke, und für das Abnehmen ist das kein Nachteil. Die Krafteinheiten machen wir bei dir zu Hause, ich bringe das Material mit. Für die Alltagsbewegung liegt der Äußere Grüngürtel direkt am Rand des Veedels: eine feste Runde dort, drei- bis viermal pro Woche zügig gegangen, hebt deinen Tagesverbrauch zuverlässiger als ein gelegentlicher Sport-Großeinsatz.",
+      },
+      {
+        title: "Krafttraining schützt, was du behalten willst",
+        body: "Im Kaloriendefizit baut der Körper ab, und ohne Gegensignal nimmt er auch Muskulatur. Genau das lässt nach der Diät den Verbrauch sinken und das Gewicht zurückkommen. Zwei Krafteinheiten pro Woche mit Grundübungen sind dieses Gegensignal: Sie sagen dem Körper, dass die Muskeln gebraucht werden, und das Fett die Reserve ist, an die er gehen soll.",
+      },
+      {
+        title: "Natalie rechnet, du isst trotzdem normal",
+        body: "Natalie ist Ernährungsberaterin für Sport- und Fitnessernährung. Sie legt dein Kalorienziel über den Wochenschnitt fest und baut es um dein echtes Leben in Vogelsang: Familienessen, Kantine, der Kuchen am Sonntag. Verbotslisten gibt es nicht, dafür eine Reihenfolge auf dem Teller, mit der das Defizit auch nach Feierabend hält.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Vogelsang?",
+        a: "Eine 1-zu-1 Trainingsstunde kostet 50€, das Online Coaching mit Ernährungsplan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich auf mein Frühstücksbrötchen verzichten?",
+        a: "Nein, es bekommt nur Gesellschaft: erst Eiweiß, dann der Rest. Wer satt in den Vormittag startet, isst über den Tag automatisch weniger, ohne zu zählen.",
+      },
+      {
+        q: "Wie schnell nehme ich ab?",
+        a: "Realistisch sind 0,5 bis 1% deines Körpergewichts pro Woche. Schneller geht es fast immer auf Kosten der Muskulatur, und dann kommt das Gewicht nach der Diät zurück.",
+      },
+      {
+        q: "Wo trainieren wir in Vogelsang?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, die Geh-Runden legen wir auf den Äußeren Grüngürtel am Westrand des Veedels. Ein Studio brauchst du nicht.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
