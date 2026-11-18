@@ -14303,6 +14303,135 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "rodenkirchen/personal-training": {
+    answer:
+      "Personal Training in Köln-Rodenkirchen für Leute, die längst Sport machen: Tennis, Laufen, Rad. Das ist dein Sport, aber es ist kein Training. Ich baue das Krafttraining darunter, das dich dabei belastbar hält. Eine 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Rodenkirchen: Krafttraining als Fundament für Tennis, Laufen und Rad. 1-zu-1 im Studio, zu Hause oder am Rheinufer. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Sport ist nicht dein Training",
+        body: "Kaum ein Veedel bewegt sich so viel wie Rodenkirchen: Auf dem Leinpfad am Rhein wird gelaufen und Rad gefahren, in den Vereinen des Kölner Südens wird Tennis gespielt, und im Sommer kommt das Schwimmen dazu. Trotzdem höre ich im Erstgespräch oft denselben Satz: Ich mache doch viel, warum zwickt es trotzdem überall? Die Antwort ist unbequem. Tennis belastet eine Seite, Laufen verschleißt ohne Kraftbasis, und auf dem Rad trägt dein Skelett fast nichts. Dein Sport verbraucht Belastbarkeit, er baut sie nicht auf.",
+      },
+      {
+        title: "Krafttraining als Fundament, nicht als Ersatz",
+        body: "Ich will dir deinen Sport nicht wegnehmen, im Gegenteil: Er ist der Grund, warum wir trainieren. Ein bis zwei Krafteinheiten pro Woche reichen, um das aufzubauen, was dein Sport auslässt. Beim Läufer ist das meist die hintere Kette, Gesäß und Beinbeuger. Beim Tennisspieler die schwächere Seite und der Rumpf, der jede Rotation abfangen muss. Beim Radfahrer der ganze Oberkörper und die Knochen, die auf dem Sattel nie echtes Gewicht tragen. Die Einheiten lege ich um deine Sporttage, nicht dagegen: Vor dem Matchtag wird nicht schwer gebeugt.",
+      },
+      {
+        title: "So starten wir",
+        body: "Am Anfang schaue ich mir an, was dein Sport von dir verlangt und was dein Körper davon gerade hergibt: Beweglichkeit in Hüfte und Schulter, Stabilität auf einem Bein, Kraft in den Grundmustern. Daraus entsteht ein Plan mit wenigen Übungen, die genau deine Lücken schließen. Trainiert wird, wo es dir passt: bei dir zu Hause mit mitgebrachtem Material, im Studio oder draußen am Rheinufer. Alle vier Wochen vergleichen wir die Werte, und du merkst den Unterschied dort, wo er zählt, auf dem Platz und auf deiner Laufstrecke.",
+      },
+      {
+        title: "Für wen das in Rodenkirchen gedacht ist",
+        body: "Für die Tennisspielerin, deren Schulter nach drei Sätzen zu macht. Für den Läufer, der jedes Frühjahr dieselbe Wade spürt. Für den Radfahrer, der 150 Kilometer fahren kann, aber beim Kistenschleppen in den dritten Stock passen muss. Also für Leute ab etwa 40, die ihren Sport noch zwanzig Jahre machen wollen. Wer dagegen ganz neu anfangen will, ist mir genauso willkommen, nur sieht der Plan dann anders aus: erst Grundlagen, dann Sport.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Rodenkirchen?",
+        a: "Die 1-zu-1 Stunde kostet 50€, egal ob im Studio, bei dir zu Hause oder draußen. Wer lieber nach Plan allein trainiert und wöchentliche Check-ins will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ich spiele zweimal pro Woche Tennis. Wann soll ich noch Kraft trainieren?",
+        a: "Eine Krafteinheit pro Woche reicht für den Anfang, und ich lege sie mit mindestens einem Tag Abstand zu deinen Matchtagen. Die Einheit dauert 60 Minuten. Das ist weniger Zeit, als dich eine Zerrung kostet.",
+      },
+      {
+        q: "Ersetzt das Krafttraining mein Lauftraining?",
+        a: "Nein. Deine Läufe bleiben dein Ausdauertraining, das Krafttraining sorgt dafür, dass Sehnen, Gelenke und Muskeln die Kilometer wegstecken. Beides zusammen macht dich schneller als mehr Kilometer allein.",
+      },
+      {
+        q: "Wo trainieren wir in Rodenkirchen?",
+        a: "Bei dir zu Hause, im Studio oder draußen am Rheinufer. Material bringe ich mit. Was davon sinnvoll ist, klären wir im kostenlosen Erstgespräch.",
+      },
+    ],
+  },
+
+  "zuendorf/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Zündorf mit Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Ihr Ansatz hier: Das Abendbrot bleibt. Brot, Käse und Aufschnitt am Abend sind kein Diätfehler, sie sind nur selten richtig zusammengesetzt. Natalie baut deine kalte Küche um, statt sie zu verbieten. Komplett online, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Zündorf mit Natalie: Das klassische Abendbrot bleibt, nur richtig zusammengesetzt. Online per Video und App. Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Abendbrot ist nicht dein Problem, seine Zusammensetzung schon",
+        body: "In vielen Zündorfer Küchen wird abends nicht gekocht, sondern aufgeschnitten: Brot, Butter, Käse, Wurst, vielleicht eine Gewürzgurke dazu. Fast jede Diät tut so, als müsste das weg, und genau daran scheitert sie. Natalie dreht es um: Das Format bleibt, die Bausteine ändern sich. Auf dem Teller landet zuerst das Eiweiß, also Eier, Fisch, magerer Aufschnitt, körniger Frischkäse, erst danach füllt das Brot auf. Aus derselben Mahlzeit wird so ein Abendessen, das satt macht und dein Ziel trägt.",
+      },
+      {
+        title: "Warum kalte Küche beim Abnehmen ein Vorteil ist",
+        body: "Ein Abendbrot hat feste Bausteine, und feste Bausteine kann man steuern: zwei Scheiben statt vier, Eiweiß zuerst, Butter dünner, fertig. Niemand muss Rezepte lernen oder nach einem langen Arbeitstag noch am Herd stehen. Diese Wiederholbarkeit schlägt jede ausgefeilte Diät, denn entscheidend ist nicht die perfekte Mahlzeit, sondern die, die du jeden Abend genauso wieder isst. Natalie rechnet dir aus, wie dein Abend aussehen muss, damit Kalorien und Eiweiß über die Woche stimmen.",
+      },
+      {
+        title: "Beratung ohne einen einzigen Fahrtweg",
+        body: "Zündorf liegt am südöstlichen Rand der Stadt, zu einer Ernährungsberatung mit Praxisraum fährst du von hier eine halbe Stunde oder länger. Bei uns fährst du gar nicht: Die Zusammenarbeit mit Natalie läuft per Video-Termin und App. Du fotografierst eine Woche lang dein Essen, ohne etwas zu ändern, dann wird gemeinsam ausgewertet und dein Rahmen festgelegt. Danach gibt es einen kurzen wöchentlichen Check-in, in dem der Plan an die echte Woche angepasst wird.",
+      },
+      {
+        title: "Bewegung dazu, in deinem Tempo",
+        body: "Essen steuert dein Gewicht, Bewegung entscheidet, was vom Gewichtsverlust Muskel bleibt. Der einfachste Einstieg in Zündorf ist eine feste Abendrunde nach dem Essen, am Rheinufer oder um die Groov, zwanzig Minuten reichen. Wer mehr will, kombiniert die Beratung mit Krafttraining bei Angelo, 1-zu-1 bei dir zu Hause oder nach Plan im Online Coaching. Nichts davon ist Pflicht, der Ernährungsteil funktioniert auch allein.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die Ernährungsberatung für Zündorf?",
+        a: "Die Beratung ist Teil des Online Coachings ab 150€ im Monat, zusammen mit Trainingsplan und wöchentlichen Check-ins. Das Erstgespräch ist kostenlos, damit du vorher weißt, ob es zu dir passt.",
+      },
+      {
+        q: "Muss ich abends anfangen zu kochen?",
+        a: "Nein. Genau das ist der Punkt: Dein Abendbrot bleibt, Natalie verändert nur die Zusammensetzung. Wer gern kocht, bekommt warme Alternativen, aber nötig ist es nicht.",
+      },
+      {
+        q: "Zahlt die Krankenkasse die Beratung?",
+        a: "Unsere Beratung ist eine Privatleistung für Sport- und Fitnessernährung. Kassen bezuschussen Ernährungsberatung nur unter bestimmten Voraussetzungen und bei dafür zertifizierten Anbietern, meist mit ärztlicher Bescheinigung. Eine verbindliche Auskunft gibt dir nur deine Kasse.",
+      },
+      {
+        q: "Isst meine Familie dann etwas anderes als ich?",
+        a: "Nein, der Abendbrottisch bleibt gemeinsam. Du stellst dir deinen Teller nur nach anderen Regeln zusammen: Eiweiß zuerst, Brotmenge nach deinem Ziel. Niemand am Tisch braucht einen Extra-Plan.",
+      },
+    ],
+  },
+
+  "kalk/personal-training": {
+    answer:
+      "Personal Training in Köln-Kalk mit eingebautem Enddatum: Ich trainiere dich so, dass du mich nach einigen Monaten nicht mehr brauchst. Technik, Plan und Routine bauen wir zusammen auf, danach trainierst du selbstständig weiter. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Personal Training in Köln-Kalk: ein Coach auf Zeit statt ein Abo fürs Leben. Technik und Plan aufbauen, dann selbstständig weitertrainieren. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Ein Coach auf Zeit statt ein Abo fürs Leben",
+        body: "50€ pro Stunde sind Geld, und ich finde, du solltest genau wissen, was du dafür bekommst und wie lange. Deshalb arbeite ich in Kalk mit einem Phasenmodell: In den ersten Wochen lernst du die Grundübungen technisch sauber, danach verstehst du, wie dein Plan funktioniert und warum die Gewichte steigen. Ab da werden die Abstände größer, erst alle zwei Wochen, später ein Technik-Check im Monat. Das Ziel ist nicht, dich zu halten. Das Ziel ist, dass du es allein kannst.",
+      },
+      {
+        title: "Warum dieses Modell ausgerechnet in Kalk aufgeht",
+        body: "Rund um die Kalker Hauptstraße liegen die Studio-Abos preislich oft unter dem, was anderswo ein einziges Mittagessen kostet. An Trainingsfläche fehlt es hier also nicht, und genau deshalb wäre es unehrlich, dir dauerhaft Stunden zu verkaufen. Was fehlt, ist der Teil, den kein günstiges Abo liefert: jemand, der deine Ausführung korrigiert, bevor sie zur Gewohnheit wird, und ein Plan, der zu deinem Körper passt statt zum Aushang im Studio. Diesen Teil baue ich mit dir auf, nutzen kannst du ihn danach überall.",
+      },
+      {
+        title: "Was du nach zwölf Wochen kannst",
+        body: "Du beherrschst Kniebeuge, Kreuzheben, Drücken und Rudern so, dass du sie allein steigern kannst. Du weißt, wann ein Gewicht raufgehört und wann nicht, wie ein Training in 45 bis 60 Minuten aufgebaut ist und was du bei Schulter- oder Rückenziehen änderst, statt einfach abzubrechen. Dein Plan steht schriftlich in deiner App und wächst mit. Und wenn du später irgendwo hängst, buchst du eine einzelne Stunde, keine Mitgliedschaft bei mir.",
+      },
+      {
+        title: "Für wen das gedacht ist",
+        body: "Für Einsteiger und Wiedereinsteiger aus Kalk, Humboldt/Gremberg und Höhenberg, die keine Lust haben, dauerhaft für Begleitung zu zahlen, aber auch keine Lust, sich die Technik aus Videos zusammenzuraten. Trainiert wird im Studio deiner Wahl, bei dir zu Hause mit mitgebrachtem Material oder draußen im Bürgerpark. Wer umgekehrt dauerhaft feste gemeinsame Termine will, bekommt die natürlich auch, nur dränge ich sie niemandem auf.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training in Köln-Kalk?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Beim Phasenmodell kommen die meisten mit acht bis zwölf Stunden über drei Monate aus, danach reichen einzelne Technik-Checks. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wie lange brauche ich dich wirklich?",
+        a: "Die meisten Einsteiger sind nach drei bis sechs Monaten so weit, dass sie allein weitertrainieren. Wie schnell es bei dir geht, hängt vom Startpunkt ab, und genau das schätze ich im kostenlosen Erstgespräch ehrlich ein.",
+      },
+      {
+        q: "Brauche ich dafür ein Studio-Abo?",
+        a: "Für Langhantel-Grundübungen ist ein Studio sinnvoll, und in Kalk ist das günstig zu haben. Es geht aber auch ohne: bei dir zu Hause oder im Bürgerpark mit Material, das ich mitbringe. Den Plan passe ich an den Ort an.",
+      },
+      {
+        q: "Was ist, wenn ich danach doch Begleitung will?",
+        a: "Dann wechselst du ins Online Coaching ab 150€ im Monat: Du trainierst nach Plan allein, wir sehen uns im wöchentlichen Check-in. Oder du behältst einen festen Termin im Monat. Beides ist jederzeit kündbar.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
