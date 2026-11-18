@@ -13058,6 +13058,264 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "ehrenfeld/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Ehrenfeld räumt mit dem größten EMS-Verkaufsargument auf: Abnehmen. 20 Minuten Stromreiz verbrennen kaum Energie, dein Gewicht entscheidet sich über Muskelmasse, Alltagsbewegung und Essen. Genau diese drei baue ich mit dir auf, im 1-zu-1 zu Hause oder im Grüngürtel. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Ehrenfeld: 20 Minuten Strom verbrennen kaum Kalorien. Echtes Krafttraining plus Alltagsbewegung im Grüngürtel. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Die Kalorien-Rechnung, die dir kein EMS-Studio zeigt",
+        body: "EMS wird in Ehrenfeld oft als Abnehm-Abkürzung beworben: 20 Minuten pro Woche, der Strom macht den Rest. Nur ist der Energieverbrauch einer EMS-Einheit klein, denn du bewegst dich dabei kaum, und Kalorien verbrennt vor allem Bewegung. Eine Woche Abnehmen entscheidet sich über zehntausende Schritte, mehrere echte Trainingseinheiten und das, was auf dem Teller liegt. Wer das auf 20 stille Minuten in der Weste verdichtet, hat die Rechnung nicht gemacht, sondern gekauft.",
+      },
+      {
+        title: "Was stattdessen wirkt: Muskeln, Schritte, Teller",
+        body: "Mein Ansatz für Ehrenfeld hat drei Teile. Erstens zwei geführte Krafteinheiten pro Woche, denn Muskelmasse hebt deinen Verbrauch rund um die Uhr, nicht nur während der Einheit. Zweitens Alltagsbewegung, die in diesem Veedel vor der Tür liegt: Der Innere Grüngürtel grenzt direkt an, und wer Wege auf der Venloer Straße zu Fuß statt mit der Bahn macht, sammelt Verbrauch nebenbei. Drittens das Essen, auf Wunsch mit Natalie, unserer Ernährungsberaterin für Sport- und Fitnessernährung.",
+      },
+      {
+        title: "Krafttraining, das sich steigert statt zu kribbeln",
+        body: "In der Stromweste fühlt sich jede Einheit intensiv an, aber das Gefühl ist kein Fortschritt. Beim echten Training steht nach jeder Einheit ein Eintrag im Protokoll: Übung, Gewicht, Wiederholungen. Nach drei Monaten vergleichst du Zahlen statt Eindrücke. Trainiert wird bei dir zu Hause mit mitgebrachtem Material, im Studio oder draußen, und zwar ohne Jahresvertrag: Die Stunde kostet 50€ und ist jederzeit kündbar.",
+      },
+      {
+        title: "Für wen EMS trotzdem passen kann",
+        body: "Ich rede EMS nicht pauschal schlecht. Wer partout keine Zeit für zwei Stunden pro Woche findet und nur einen Erhaltungsreiz sucht, bekommt mit EMS mehr als mit nichts. Aber wer in Ehrenfeld anfragt, will fast immer etwas verändern: Gewicht runter, Form aufbauen, belastbarer werden. Dafür braucht es steigende Last und Bewegung, und das sage ich dir auch im kostenlosen Erstgespräch so ehrlich.",
+      },
+    ],
+    faq: [
+      {
+        q: "Hilft EMS beim Abnehmen?",
+        a: "Kaum direkt. Der Energieverbrauch einer 20-Minuten-Einheit ist klein, weil du dich in der Weste fast nicht bewegst. Abnehmen entsteht aus einem Kaloriendefizit über die ganze Woche: Essen, Alltagsbewegung und Muskelmasse zählen dafür deutlich mehr.",
+      },
+      {
+        q: "Was kostet die EMS-Alternative in Ehrenfeld?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ohne Jahresvertrag und jederzeit kündbar. Das Online Coaching mit Trainings- und Essensplan gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wo trainieren wir in Ehrenfeld?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, im Studio oder draußen im Inneren Grüngürtel, der direkt an Ehrenfeld grenzt. Den Mix legen wir nach deinem Ziel und deinem Kalender fest.",
+      },
+      {
+        q: "Ich habe schon EMS gemacht. Kann ich wechseln?",
+        a: "Ja, und der Einstieg fällt dann oft leicht: Du bist Anstrengung gewohnt, es fehlen nur Technik und steigende Last. Wir starten mit einem Technik-Check und bauen von dort auf.",
+      },
+    ],
+  },
+
+  "lindweiler/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Lindweiler scheitert oft an einem Gerät im Badezimmer: der Waage. Das Tagesgewicht schwankt durch Wasser und Mageninhalt um ein bis zwei Kilo, wer täglich abliest und falsch deutet, bricht ab. Ich arbeite mit dir nach Wochentrend, zwei Krafteinheiten pro Woche bei dir zu Hause und einem Kalorienziel von Natalie. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Lindweiler: Wochentrend statt Tagesgewicht, zwei Krafteinheiten zu Hause, Kalorienziel von Natalie. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Warum die Waage dich jeden Morgen anlügt",
+        body: "Zwischen zwei Morgen können auf der Waage zwei Kilo liegen, ohne dass sich an deinem Körperfett etwas geändert hat: Wasser, Salz, Kohlenhydratspeicher, Mageninhalt. Viele Diäten in Lindweiler enden nicht, weil der Plan schlecht war, sondern weil nach einer disziplinierten Woche eine falsche Zahl auf dem Display stand. Deshalb lege ich die Messung fest, bevor wir am Essen etwas ändern: Gewogen wird täglich unter gleichen Bedingungen, gezählt wird nur der Wochendurchschnitt, dazu kommen Maßband und alle vier Wochen Fotos.",
+      },
+      {
+        title: "Der Wochentrend zeigt, was wirklich passiert",
+        body: "Ein halbes bis ein Kilo Fett pro Monat weniger ist ein gutes, haltbares Tempo, und genau das sieht man nur im Trend über Wochen, nie am Einzeltag. Sinkt der Wochendurchschnitt, läuft das Defizit, egal was der Dienstag behauptet hat. Stagniert er drei Wochen, ändern wir etwas Konkretes: Portionen, Schritte oder eine dritte kurze Einheit. So triffst du Entscheidungen nach Daten statt nach Frust, und die Abbruchfalle nach einer schlechten Zahl verschwindet.",
+      },
+      {
+        title: "Training und Bewegung direkt in der Siedlung",
+        body: "Lindweiler ist mit 3.549 Einwohnern auf 1,16 Quadratkilometern ein ruhiges, flaches Veedel, und das reicht völlig: Die zwei Krafteinheiten pro Woche machen wir bei dir zu Hause mit mitgebrachtem Material, sie sichern deine Muskulatur im Defizit. Dazu kommt eine feste Gehrunde über die Siedlungsstraßen Richtung Longerich oder Pesch, die dein Tagesverbrauch trägt. Kein Studio, keine Anfahrt, kein Vorwand.",
+      },
+      {
+        title: "Das Essensziel legt Natalie mit dir fest",
+        body: "Natalie, unsere Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung, rechnet dein Kalorien- und Eiweißziel aus und baut es um deine echten Essgewohnheiten herum, nicht um eine Verbotsliste. Im Online Coaching ab 150€ im Monat betreut sie dich per Video und App, mit wöchentlichem Check-in. Training und Essen folgen damit demselben Plan, und beides wird an denselben Wochenzahlen gemessen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wie oft soll ich mich beim Abnehmen wiegen?",
+        a: "Täglich, morgens unter gleichen Bedingungen, aber bewertet wird nur der Wochendurchschnitt. Einzelne Tageswerte schwanken um ein bis zwei Kilo durch Wasser und Mageninhalt und sagen über Fett fast nichts aus.",
+      },
+      {
+        q: "Was mache ich, wenn das Gewicht eine Woche stillsteht?",
+        a: "Erst mal nichts. Zwei bis drei Wochen Stillstand im Wochentrend sind das Signal, etwas zu ändern, vorher ist es meist Wasser. Dann passen wir Portionen, Schritte oder das Training an, eines nach dem anderen.",
+      },
+      {
+        q: "Was kostet Abnehm-Coaching in Lindweiler?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ich komme mit Material zu dir. Das Online Coaching mit Trainingsplan, Essensziel von Natalie und wöchentlichem Check-in gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Muss ich dafür in ein Studio?",
+        a: "Nein. In Lindweiler gibt es ohnehin keins, und für zwei Krafteinheiten pro Woche reichen Wohnzimmer oder Hof. Kurzhanteln, Bänder und Bank bringe ich mit.",
+      },
+    ],
+  },
+
+  "godorf/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Godorf beginnt bei mir mit einem Freispruch: Dein Stoffwechsel ist sehr wahrscheinlich nicht kaputt, auch nicht nach Jahren Schichtarbeit. Zwischen zwei gleich großen Menschen liegen beim Grundumsatz selten mehr als ein paar hundert Kalorien. Was fehlt, sind Muskelmasse und ehrliche Zahlen, und an beidem arbeiten wir: zwei Krafteinheiten pro Woche bei dir zu Hause, das Kalorienziel rechnet Natalie. 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Godorf: Der Stoffwechsel ist selten schuld. Muskelaufbau plus ehrliches Kalorienziel statt Stoffwechsel-Mythos. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Der Mythos vom kaputten Stoffwechsel",
+        body: "Wer lange Schicht arbeitet und mehrere Diäten hinter sich hat, glaubt irgendwann: Bei mir verbrennt nichts mehr. Die Messdaten geben das nicht her. Der Grundumsatz unterscheidet sich zwischen Menschen gleicher Größe und Muskelmasse nur wenig, und auch nach Diäten sinkt er moderat, nicht auf null. Was wirklich passiert: Im unregelmäßigen Rhythmus wird Essen schlechter erinnert und schlechter gezählt, Müdigkeit erhöht den Appetit, und die Bewegung zwischen den Schichten fällt weg. Das sind lösbare Probleme, kein Schicksal.",
+      },
+      {
+        title: "Zwei Hebel, die deinen Verbrauch wirklich heben",
+        body: "Der erste Hebel ist Muskelmasse: Sie arbeitet rund um die Uhr, auch nachts im Pausenraum-Rhythmus. Zwei geführte Krafteinheiten pro Woche bei dir zu Hause sichern sie im Defizit und bauen sie langsam auf, die Termine wandern mit deinem Dienstplan. Der zweite Hebel sind Schritte: Godorf ist klein, aber flach, und eine feste Runde Richtung Sürth oder am Veedelsrand lässt sich vor oder nach fast jeder Schicht gehen. Beides zusammen hebt deinen Wochenverbrauch zuverlässiger als jedes Stoffwechsel-Produkt.",
+      },
+      {
+        title: "Ehrliche Zahlen statt gefühltem Hungern",
+        body: "Viele, die zu mir kommen, essen gefühlt fast nichts und nehmen trotzdem nicht ab. Fast immer fehlen im Kopfprotokoll die Kalorien zwischen den Mahlzeiten: der Kaffee mit Milch in der Pause, das Brötchen auf dem Heimweg, das Bier nach der Spätschicht. Natalie, unsere Ernährungsberaterin für Sport- und Fitnessernährung, legt mit dir ein Kalorienziel fest und einen einfachen Weg, es zu zählen, der auch in einer Schichtwoche hält. Nach vier Wochen weißt du schwarz auf weiß, woran es lag.",
+      },
+      {
+        title: "So startest du in Godorf",
+        body: "Am Anfang steht das kostenlose Erstgespräch: dein Dienstrhythmus, deine Essenszeiten, was du schon versucht hast. Dann vereinbaren wir zwei feste, aber wöchentlich verschiebbare Trainingstermine bei dir zu Hause, Material bringe ich mit. Gemessen wird am Wochendurchschnitt von Gewicht und Maßband, nicht am Einzeltag. Realistisch sind ein halbes bis ein Kilo Fett pro Monat, dauerhaft, ohne dass du dem eigenen Stoffwechsel misstraust.",
+      },
+    ],
+    faq: [
+      {
+        q: "Kann der Stoffwechsel durch Schichtarbeit kaputtgehen?",
+        a: "Nein, nicht im Sinne von dauerhaft zerstört. Schichtarbeit verschiebt Appetit, Schlaf und Essenszeiten, und das macht ein Defizit schwerer einzuhalten. Der Verbrauch selbst bleibt in normaler Spannweite, und mit mehr Muskelmasse steigt er.",
+      },
+      {
+        q: "Ich esse wenig und nehme nicht ab. Woran liegt das?",
+        a: "Fast immer an untergezählten Kalorien, vor allem aus Getränken und Kleinigkeiten zwischen den Mahlzeiten, und an überschätztem Verbrauch. Vier Wochen ehrliches Zählen mit Natalie zeigen es schwarz auf weiß.",
+      },
+      {
+        q: "Was kostet Abnehm-Coaching in Godorf?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ich komme zu dir. Das Online Coaching mit Trainingsplan, Kalorienziel und wöchentlichem Check-in gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Funktionieren die Termine auch in Wechselschicht?",
+        a: "Ja. Du schickst mir deinen Dienstplan, und die zwei Einheiten pro Woche wandern mit: in der Frühschichtwoche nachmittags, in der Spätschichtwoche vormittags.",
+      },
+    ],
+  },
+
+  "hahnwald/ernaehrungsberatung": {
+    answer:
+      "Ernährungsberatung für Köln-Hahnwald mit Natalie, Ernährungsberaterin für Sport- und Fitnessernährung. Ihr Ansatz hier: Gesund heißt nicht leicht. Olivenöl, Nüsse, Säfte und gutes Brot sind hochwertige Lebensmittel mit sehr viel Energie, und wer hochwertig isst, isst oft unbemerkt zu viel davon. Natalie setzt Mengen dahinter, ohne die Qualität anzutasten. Enthalten im Online Coaching ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Ernährungsberatung in Köln-Hahnwald mit Natalie: Gesund heißt nicht kalorienarm. Mengen hinter gute Lebensmittel setzen statt Qualität opfern. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Die Falle der guten Küche",
+        body: "In Hahnwald wird selten schlecht gegessen: eigene Küche, gute Zutaten, wenig Fertigware. Trotzdem bewegt sich das Gewicht nicht, und das hat einen einfachen Grund: Energiedichte. Ein Schuss Olivenöl über dem Salat sind schnell 200 Kalorien, eine Handvoll Nüsse am Abend noch einmal so viel, der frisch gepresste Saft zum Frühstück trinkt sich wie Wasser und zählt wie eine Mahlzeit. Nichts davon ist ungesund. Aber gesund und kalorienarm sind zwei verschiedene Eigenschaften, und die zweite wird beim Einkauf guter Produkte gern mitgedacht, obwohl sie nicht drinsteckt.",
+      },
+      {
+        title: "Mengen statt Verzicht",
+        body: "Natalies Ansatz dreht deshalb nicht an der Qualität, sondern an den Mengen. Das Öl bleibt, aber es wird gemessen statt gegossen. Die Nüsse bleiben, aber als Portion statt als Schale. Der Saft wird seltener, ganze Früchte übernehmen. Dazu bekommt jede Mahlzeit einen Eiweißanker, der satt macht, denn Sättigung pro Kalorie ist die Stellschraube, an der hochwertige Küche meist am meisten gewinnt. Verbote braucht dieser Plan nicht, nur Zahlen an Stellen, an denen bisher Gefühl war.",
+      },
+      {
+        title: "So läuft die Beratung ab",
+        body: "Die Beratung findet komplett online statt, per Video und App, und passt damit auch in volle Kalender. Am Anfang stehen eine Bestandsaufnahme deiner echten Esswoche und ein Kalorien- und Eiweißziel. Danach begleitet Natalie dich mit wöchentlichen Check-ins: Was hat funktioniert, wo klemmt es, was wird angepasst. Die Beratung ist Teil des Online Coachings ab 150€ im Monat, zusammen mit dem Trainingsplan von Angelo, denn Essen und Training wirken auf dasselbe Ziel.",
+      },
+      {
+        title: "Wenn das Ziel Muskelerhalt statt Abnehmen ist",
+        body: "Nicht jede Anfrage aus Hahnwald will Gewicht verlieren. Oft geht es darum, mit 50 oder 60 Kraft und Form zu halten, und dann rechnet Natalie in die andere Richtung: genug Eiweiß über den Tag verteilt, genug Energie an Trainingstagen, damit das Krafttraining Substanz aufbauen kann statt nur zu erhalten. Auch hier gilt: Die Küche bleibt deine, die Zahlen darunter werden neu gesetzt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Warum nehme ich nicht ab, obwohl ich gesund esse?",
+        a: "Weil gesund nicht kalorienarm bedeutet. Öl, Nüsse, Avocado, Säfte und gutes Brot haben eine hohe Energiedichte, und ohne Mengenangaben summieren sie sich unbemerkt. Natalie setzt Portionen dahinter, die Lebensmittel selbst bleiben.",
+      },
+      {
+        q: "Muss ich auf Wein oder Restaurantbesuche verzichten?",
+        a: "Nein. Beides wird eingeplant statt verboten: ein Wochenbudget, in das Einladungen und Abende hineinpassen, und klare Regeln für die Tage drumherum.",
+      },
+      {
+        q: "Wie läuft die Ernährungsberatung für Hahnwald ab?",
+        a: "Komplett online per Video und App, mit wöchentlichem Check-in bei Natalie. Sie ist im Online Coaching ab 150€ im Monat enthalten, zusammen mit dem Trainingsplan. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Wer macht die Beratung, Angelo oder Natalie?",
+        a: "Natalie, Ernährungsberaterin mit Schwerpunkt Sport- und Fitnessernährung. Angelo übernimmt das Training, beide arbeiten mit demselben Plan und denselben Wochenzahlen.",
+      },
+    ],
+  },
+
+  "stammheim/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Stammheim nimmt sich den Rücken vor, der schief belastet wird: die Tasche immer auf derselben Schulter, das Kind immer auf derselben Hüfte, am Arbeitsplatz immer dieselbe Drehung. Zwei Krafteinheiten pro Woche bei dir zu Hause gleichen die starke und die schwache Seite gezielt an. Die Stunde kostet 50€, das Erstgespräch ist kostenlos. Bei akuten Schmerzen gehört der erste Weg zum Arzt.",
+    metaDescription:
+      "Rückentraining in Köln-Stammheim: einseitige Belastung ausgleichen, starke und schwache Seite angleichen. 1-zu-1 zu Hause, 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Rücken ist nicht schwach, er ist einseitig",
+        body: "Kaum ein Alltag belastet symmetrisch: Die Einkaufstasche hängt immer rechts, das Kind sitzt immer links auf der Hüfte, am Schreibtisch dreht sich der Oberkörper immer zur selben Seite. Über Jahre entsteht so ein Rücken mit einer fleißigen und einer faulen Seite, und die fleißige meldet sich irgendwann: Verspannung, Ziehen, einseitige Ermüdung. Reine Symmetrie gibt es nicht und braucht es nicht, aber große Links-Rechts-Unterschiede sind trainierbar, und genau da setze ich an.",
+      },
+      {
+        title: "Einseitig trainieren, um gerade zu werden",
+        body: "Klingt paradox, funktioniert aber: Gegen Dysbalancen helfen vor allem einseitige Übungen. Rudern mit einem Arm, Koffertragen mit einer Kurzhantel, Ausfallschritte, Seitstütz, jeweils mit der schwächeren Seite zuerst und mit ihr als Maßstab für beide. Dazu kommt Kraft für die hintere Kette, damit Gesäß und Rückenstrecker das Angleichen tragen. Alles wird protokolliert, sodass du den Unterschied zwischen links und rechts über die Wochen schrumpfen siehst.",
+      },
+      {
+        title: "Training zu Hause, Ausgleich im Schlosspark",
+        body: "Die zwei Krafteinheiten pro Woche machen wir 1-zu-1 bei dir zu Hause in Stammheim, das Material bringe ich mit. Für die Tage dazwischen bekommst du ein kurzes Gehprogramm, und dafür ist das Veedel gut ausgestattet: Der Schlosspark Stammheim und das Rheinufer liegen direkt vor der Tür, flach und ohne Umwege erreichbar. Zügiges Gehen mit bewusst wechselnder Taschenseite ist dabei schon Teil der Übung.",
+      },
+      {
+        title: "Was du nach zwölf Wochen merkst",
+        body: "Der erste Effekt ist meist, dass die ständig verspannte Seite ruhiger wird, weil die andere mitarbeitet. Danach kommen die messbaren Schritte: gleicher Halt im Seitstütz links wie rechts, gleiches Gewicht beim einarmigen Rudern, Tragen ohne Schiefstand. Alle vier bis sechs Wochen messen wir nach. Und falls hinter deinen Beschwerden mehr steckt als Dysbalance, sage ich dir das ehrlich und schicke dich zuerst zum Arzt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Woran merke ich, dass mein Rücken einseitig belastet ist?",
+        a: "Typisch sind Verspannungen, die immer auf derselben Seite auftreten, eine Schulter, die höher steht, oder deutliche Kraftunterschiede beim einarmigen Tragen. Im Erstgespräch testen wir das mit einfachen Übungen durch.",
+      },
+      {
+        q: "Sind einseitige Übungen nicht gefährlich für den Rücken?",
+        a: "Nein, dosiert sind sie das Werkzeug der Wahl: Sie zwingen Rumpf und Hüfte, eine schiefe Last zu stabilisieren, genau wie im Alltag. Die schwächere Seite gibt das Tempo vor, gesteigert wird in kleinen Schritten.",
+      },
+      {
+        q: "Was kostet Rückentraining in Stammheim?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ich komme mit Material zu dir. Das Online Coaching mit Plan und wöchentlichem Check-in gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Hilft das Training bei akuten Rückenschmerzen?",
+        a: "Akute oder ausstrahlende Schmerzen gehören zuerst zum Arzt. Das Training setzt danach an: Es baut die Kraft und Balance auf, die neuen Episoden vorbeugen.",
+      },
+    ],
+  },
+
+  "gremberghoven/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Gremberghoven richtet sich an alle, die früher trainiert haben und seit Jahren pausieren: Dein Körper vergisst Muskeln nicht vollständig, der Wiederaufbau geht deutlich schneller als der erste Aufbau damals. Zwei geführte Krafteinheiten pro Woche bei dir zu Hause in der Siedlung reichen für das Comeback. 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Gremberghoven: Wiedereinstieg nach Jahren Pause. Muskelgedächtnis nutzen, Sehnen langsam mitnehmen. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Dein Körper erinnert sich an jedes Training von früher",
+        body: "Viele in Gremberghoven haben eine Sportvergangenheit: Fußball im Verein, Kraftraum in der Ausbildung, dann kamen Job, Familie und die Jahre dazwischen. Die gute Nachricht ist messbar: Muskulatur, die einmal da war, kommt beim Wiedereinstieg schneller zurück als beim ersten Aufbau. Die Zellkerne, die der Muskel damals angelegt hat, bleiben auch in der Pause erhalten. Du startest also nicht bei null, du startest bei Erinnerung.",
+      },
+      {
+        title: "Die Bremse beim Comeback sind nicht die Muskeln",
+        body: "Der häufigste Fehler beim Wiedereinstieg: trainieren wie mit 25, weil es sich in der ersten Woche gut anfühlt. Muskeln reagieren schnell, aber Sehnen, Bänder und Gelenke passen sich langsamer an, und genau da entstehen die Rückschläge, die das Comeback nach sechs Wochen beenden. Deshalb steuere ich die ersten zwei Monate bewusst: Grundübungen mit sauberer Technik, Last steigt nach Protokoll und nicht nach Ego, und das Volumen wächst erst, wenn der Bewegungsapparat mitgekommen ist.",
+      },
+      {
+        title: "Training in der Eisenbahnersiedlung statt Fahrt ins Studio",
+        body: "Gremberghoven liegt zwischen Rangierbahnhof und Autobahnen, jeder Studiobesuch beginnt mit Anfahrt, und genau daran sind hier schon viele Comebacks gescheitert. Also kommt das Training zu dir: zwei feste 1-zu-1 Termine pro Woche in deinem Haus, Garten oder Hof, Kurzhanteln, Bank und Bänder bringe ich mit. Mit 48 bis 72 Stunden Abstand zwischen den Einheiten hat der Muskel genau den Rhythmus, den er für den Aufbau braucht.",
+      },
+      {
+        title: "Essen fürs Comeback: Eiweiß zuerst",
+        body: "Beim Wiederaufbau zählt neben der Last vor allem Eiweiß: etwa 1,6 bis 2 Gramm pro Kilo Körpergewicht am Tag, verteilt über drei bis vier Mahlzeiten. Das klappt mit normalem Supermarkt-Einkauf, ohne Pulverregal. Wer es genauer will, bekommt im Online Coaching ab 150€ im Monat ein Essensziel von Natalie dazu, unserer Ernährungsberaterin für Sport- und Fitnessernährung. Alle vier bis sechs Wochen messen wir nach: Gewichte, Wiederholungen, Umfänge.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wie schnell kommen Muskeln nach einer langen Pause zurück?",
+        a: "Deutlich schneller als beim ersten Aufbau, oft sind in drei bis sechs Monaten große Teile des alten Stands wieder da. Voraussetzung ist ein sauberer Einstieg, der Sehnen und Gelenke langsam mitnimmt.",
+      },
+      {
+        q: "Ich habe seit über zehn Jahren keinen Sport gemacht. Geht das trotzdem?",
+        a: "Ja. Das Muskelgedächtnis verfällt nicht nach einer festen Frist. Wir starten mit einem Technik-Check, wählen Varianten, die dein Körper heute kann, und steigern nach Protokoll.",
+      },
+      {
+        q: "Was kostet Muskelaufbau-Training in Gremberghoven?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ich komme mit dem Material in die Siedlung. Das Online Coaching mit Trainings- und Essensplan gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Reichen zwei Einheiten pro Woche wirklich?",
+        a: "Ja, gerade beim Wiedereinstieg. Zwei fordernde Einheiten mit 48 bis 72 Stunden Abstand setzen den Wachstumsreiz, mehr Volumen kommt erst dazu, wenn Technik und Bewegungsapparat stabil sind.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
