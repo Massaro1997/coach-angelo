@@ -13831,6 +13831,178 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+
+  "bocklemuend-mengenich/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Bocklemünd/Mengenich messe ich nicht an der Waage, sondern an Kraftwerten und Zentimetern: Wer Muskeln aufbaut und etwas Fett verliert, wiegt oft gleich viel und sieht trotzdem anders aus. Zwei geführte Krafteinheiten pro Woche bei dir zu Hause, eine Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Bocklemünd/Mengenich: Fortschritt an Kraftwerten und Maßband statt an der Waage, zwei geführte Einheiten pro Woche zu Hause. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Warum die Waage dich beim Muskelaufbau anlügt",
+        body: "Muskelgewebe ist dichter als Fettgewebe: Ein Kilo Muskel nimmt deutlich weniger Platz ein als ein Kilo Fett. Wer sauber Kraft aufbaut und nebenbei etwas Fett abgibt, kann wochenlang dasselbe wiegen, während Hosenbund und Schultern sich spürbar verändern. Deshalb entscheidet bei mir nicht die Waage über den Fortschritt. Entscheidend sind die Gewichte im Protokoll und das Maßband: Oberarm, Brust, Taille, Oberschenkel, alle vier Wochen gemessen, immer zur gleichen Tageszeit.",
+      },
+      {
+        title: "So sieht die Messung konkret aus",
+        body: "Beim Start nehmen wir drei Zahlenreihen auf: deine Arbeitsgewichte in fünf Grundübungen, deine Umfänge und auf Wunsch Fotos, die nur du behältst. Danach trainierst du zweimal pro Woche geführt, und jede Einheit steht im Protokoll. Nach vier Wochen vergleichen wir: Gehen die Arbeitsgewichte hoch, wächst der Muskel, auch wenn die Waage schweigt. Stagnieren sie, ändere ich Übungsauswahl oder Satzschema, nicht du deine Motivation.",
+      },
+      {
+        title: "Training zu Hause in Bocklemünd und Mengenich",
+        body: "Beide Ortsteile zusammen haben 10.629 Einwohner auf knapp fünf Quadratkilometern, ein eigenes Fitnessstudio mit freien Gewichten gibt es im Veedel nicht. Dafür komme ich zu dir: Hanteln, Bank und Band bringe ich mit, ein freies Eck im Wohnzimmer reicht. Viele hier arbeiten in Diensten, auch bei den WDR-Studios am Rand von Bocklemünd wird nicht nur von neun bis fünf gearbeitet. Deshalb lege ich Termine auch in den Vormittag oder den frühen Abend.",
+      },
+      {
+        title: "Essen gehört zum Aufbau dazu",
+        body: "Ohne genug Eiweiß wächst auch mit gutem Training wenig. Du bekommst von mir einen einfachen Zielwert pro Tag, abgestimmt auf dein Körpergewicht, und ein paar Gerichte, die ihn ohne Pulver erreichen. Wer es genauer will, arbeitet zusätzlich mit Natalie, unserer Ernährungsberaterin für Sport- und Fitnessernährung. Das lässt sich im kostenlosen Erstgespräch gleich mitklären.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Bocklemünd/Mengenich?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€. Wer lieber mit Wochenplan und Check-ins arbeitet, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Warum nehme ich trotz Training nicht ab?",
+        a: "Wenn du Kraft aufbaust, kann neues Muskelgewebe den Fettverlust auf der Waage verdecken. Deshalb messen wir Umfänge und Kraftwerte. Bleiben auch die stehen, schauen wir aufs Essen, nicht auf noch mehr Training.",
+      },
+      {
+        q: "Muss ich dafür in ein Studio?",
+        a: "Nein. Zwei Einheiten pro Woche mit verstellbaren Kurzhanteln, Bank und Band reichen für Monate an Fortschritt. Das Material bringe ich zu dir nach Bocklemünd oder Mengenich mit.",
+      },
+      {
+        q: "Wann sehe ich die ersten Ergebnisse?",
+        a: "Die Arbeitsgewichte steigen meist schon in den ersten vier Wochen, das ist der Anfang. Sichtbare Veränderungen an Umfängen brauchen in der Regel acht bis zwölf Wochen konsequentes Training mit genug Eiweiß.",
+      },
+    ],
+  },
+
+  "mauenheim/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Mauenheim setzt dort an, wo der stärkste Schutz für deinen Rücken sitzt: an Hüfte und Gesäß. Wer das Heben aus der Hüfte beherrscht, entlastet den unteren Rücken bei jedem Bücken. Zwei geführte Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Mauenheim: Hüfte und Gesäß als Schutz für den unteren Rücken, Hüftknick lernen, zwei Einheiten pro Woche zu Hause. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Der stärkste Schutz für deinen Rücken sitzt unterhalb davon",
+        body: "Gesäß und hintere Oberschenkel sind die größten Muskeln deines Körpers, und genau sie sollten die Arbeit übernehmen, wenn du etwas vom Boden hebst. Sind sie zu schwach oder nicht angesteuert, rundet stattdessen der untere Rücken ein und übernimmt eine Last, für die er nicht gebaut ist. Viele Rückenprogramme trainieren deshalb am Problem vorbei: Sie kräftigen den Rücken selbst, lassen aber die Muskeln weg, die ihn entlasten würden.",
+      },
+      {
+        title: "Der Hüftknick: eine Bewegung, die dein Alltag jeden Tag abruft",
+        body: "Im Zentrum steht bei mir der Hüftknick: Hüfte nach hinten schieben, Rücken lang lassen, aus Gesäß und Beinen aufrichten. Wir üben ihn zuerst mit einem Stab am Rücken, dann mit leichten Kurzhanteln, dann mit steigender Last. Kisten tragen, Einkäufe heben, Gartenarbeit in den Höfen der Siedlung: Es ist immer dieselbe Bewegung. Wer sie unter Last geübt hat, macht sie im Alltag automatisch richtig.",
+      },
+      {
+        title: "Training zu Hause im kleinen Veedel",
+        body: "Mauenheim misst gerade einen halben Quadratkilometer, und genau das macht das Format einfach: Ich komme mit Hanteln, Band und Matte zu dir, die Einheit beginnt an deiner Tür. Zwischen den beiden Wochenterminen bekommst du kurze Aufgaben von zehn Minuten, dazu reicht das Treppenhaus oder eine Runde Richtung Nordpark gleich hinter dem Veedelsrand. Mehr Infrastruktur braucht ein belastbarer Rücken nicht.",
+      },
+      {
+        title: "Woran du nach zwölf Wochen merkst, dass es wirkt",
+        body: "Nicht am Gefühl allein, sondern an drei Dingen: Du hebst im Alltag ohne nachzudenken aus der Hüfte, deine Arbeitsgewichte beim Kreuzheben mit Kurzhanteln sind messbar gestiegen, und die typischen Verspannungstage nach körperlicher Arbeit werden seltener. Bei akuten Schmerzen mit Warnzeichen wie Taubheit oder Ausstrahlung ins Bein gehört der erste Weg zum Arzt, das Training übernimmt danach den Wiederaufbau.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Mauenheim?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos. Wer nach der Aufbauphase selbstständig weitermacht, kann ins Online Coaching ab 150€ im Monat wechseln.",
+      },
+      {
+        q: "Warum Gesäßtraining, wenn der Rücken wehtut?",
+        a: "Weil ein starkes Gesäß das Heben übernimmt, das sonst der untere Rücken abfängt. Kräftigst du nur den Rücken, bleibt die Ursache der Überlastung bestehen. Beides zusammen macht den Unterschied.",
+      },
+      {
+        q: "Ich habe eine Bandscheibenvorwölbung. Kann ich trainieren?",
+        a: "Nach ärztlicher Abklärung in den meisten Fällen ja, mit angepasster Auswahl und kontrollierter Steigerung. Wir starten mit dem, was heute schmerzfrei geht, und erweitern von dort aus.",
+      },
+      {
+        q: "Wie schnell lerne ich den Hüftknick?",
+        a: "Die Grundform sitzt meist nach zwei bis drei Einheiten. Bis die Bewegung auch unter Last und im Alltag automatisch läuft, dauert es einige Wochen, genau dafür sind die kurzen Aufgaben zwischen den Terminen da.",
+      },
+    ],
+  },
+
+  "merkenich/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Merkenich behandelt den Muskel als das, was er ist: dein größtes Stoffwechselorgan. Mehr Muskelmasse verbraucht auch in Ruhe mehr Energie, rund um die Uhr. Dafür braucht es echtes Krafttraining mit steigender Last, nicht 20 Minuten Reizstrom. 1-zu-1 bei dir zu Hause, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Merkenich: Krafttraining, das Muskelmasse und Grundumsatz aufbaut statt 20 Minuten Reizstrom. 1-zu-1 zu Hause in den Dörfern am Rheinbogen, 50€/Std.",
+    sections: [
+      {
+        title: "Dein Muskel arbeitet auch, wenn du schläfst",
+        body: "Muskelgewebe verbraucht Energie, selbst wenn du auf dem Sofa sitzt. Wer über Monate Muskelmasse aufbaut, hebt damit seinen Grundumsatz an: Der Körper verbrennt dauerhaft mehr, ohne dass du dafür etwas tust. Das ist der Unterschied zur Frage, wie viele Kalorien eine einzelne Einheit verbraucht. Es geht nicht um die Stunde selbst, sondern um das Gewebe, das sie über Monate entstehen lässt und das danach Tag und Nacht mitarbeitet.",
+      },
+      {
+        title: "Warum 20 Minuten Strom dafür nicht reichen",
+        body: "Muskelaufbau braucht Volumen: mehrere Sätze pro Muskelgruppe, Spannung über den vollen Bewegungsweg und eine Last, die von Woche zu Woche steigt. Eine kurze Reizstrom-Einheit kann einen Muskel aktivieren, aber sie liefert weder das Volumen noch die Steigerung, aus denen neues Gewebe entsteht. Beim echten Training steht beides im Protokoll: Du siehst, wie Sätze und Gewichte wachsen, und genau diese Kurve ist es, die den Stoffwechsel langfristig verändert.",
+      },
+      {
+        title: "Training in den Dörfern am Rheinbogen",
+        body: "Merkenich besteht aus mehreren Dörfern: Merkenich selbst, Rheinkassel, Kasselberg, Feldkassel. Ich komme mit Hanteln und Bank in dein Wohnzimmer oder deine Garage, im Sommer verlegen wir einzelne Einheiten nach draußen an den Rheindamm. Termine richte ich nach deinem Dienstplan, im Kölner Norden arbeiten viele in Schichten. So fällt der Weg weg, der bei jedem Studiobesuch dazukäme, egal ob mit oder ohne Stromweste.",
+      },
+      {
+        title: "Der Umstieg von EMS auf echtes Training",
+        body: "Wer von EMS kommt, kennt Anstrengung, aber oft keine Übungstechnik, denn die Weste verlangt keine. Die ersten zwei bis drei Wochen gehören deshalb der Technik an leichten Gewichten: Kniebeuge, Rudern, Drücken, Heben. Danach beginnt die Steigerung, und ab da zählt das Protokoll. Nach zwölf Wochen kannst du vergleichen, was sich bewegt hat: Arbeitsgewichte, Umfänge und wie sich Alltagslasten anfühlen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet das Training im Vergleich zu EMS?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit. EMS-Studios arbeiten meist mit Abos um die 80 bis 100€ im Monat plus Anfahrt. Das Erstgespräch bei mir ist kostenlos.",
+      },
+      {
+        q: "Erhöht Krafttraining wirklich den Grundumsatz?",
+        a: "Ja, über die aufgebaute Muskelmasse, und ehrlicherweise langsam: Das ist ein Effekt von Monaten, kein Trick von Wochen. Dafür bleibt er bestehen, solange du die Masse hältst, auch mit reduziertem Training.",
+      },
+      {
+        q: "Ist EMS nicht schonender für die Gelenke?",
+        a: "Gelenke, Sehnen und Knochen werden belastbar, indem sie dosierte Last erfahren. Genau die fehlt beim Reizstrom. Im 1-zu-1 startet die Last dort, wo dein Körper heute steht, und steigt kontrolliert.",
+      },
+      {
+        q: "Wo trainieren wir in Merkenich?",
+        a: "Bei dir zu Hause, in allen Ortsteilen von Merkenich bis Feldkassel. Hanteln, Bank und Band bringe ich mit, im Sommer geht ein Teil der Einheiten nach draußen an den Rheindamm.",
+      },
+    ],
+  },
+
+  "hahnwald/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Hahnwald scheitert selten an der Ausstattung: In vielen Häusern steht ein eigener Fitnessraum, benutzt wird er kaum. Was fehlt, ist kein weiteres Gerät, sondern ein Programm, eine Steigerungslogik und ein fester Termin. Genau das bringe ich mit, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Hahnwald: aus dem ungenutzten Fitnessraum wird ein Programm mit Protokoll und festem Termin. 1-zu-1 bei dir zu Hause, 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Geräte bauen keinen Muskel, Programme tun es",
+        body: "Der häufigste Fall, den ich in Villenvierteln sehe: ein gut ausgestatteter Raum im Keller, dazu Jahre an guten Vorsätzen. Der Muskel wächst aber nicht durch Besitz, sondern durch Wiederholung unter steigender Last, und die entsteht nur mit einem Plan, der festlegt, was wann wie schwer trainiert wird. Ich schreibe diesen Plan, führe die Einheiten und dokumentiere jede Steigerung. Aus demselben Raum, der jahrelang stand, kommt dann messbarer Fortschritt.",
+      },
+      {
+        title: "Bestandsaufnahme statt Neuanschaffung",
+        body: "Im Erstgespräch schauen wir uns an, was da ist. Meist reicht es längst: Für drei Monate Aufbau braucht es verstellbare Hanteln, eine Bank und etwas Platz, den Rest ergänze ich aus meinem eigenen Material. Was du nicht brauchst, sage ich dir auch, bevor du es kaufst. Die Grundübungen bleiben dieselben wie überall: Kniebeuge, Drücken, Rudern, Heben, in einer Reihenfolge und Dosierung, die zu deinem Stand passt.",
+      },
+      {
+        title: "Der feste Termin ist die halbe Arbeit",
+        body: "Hahnwald hat gut 2.000 Einwohner, viele mit Kalendern, in denen das eigene Training als Erstes gestrichen wird. Deshalb ist der wichtigste Teil meiner Arbeit unspektakulär: Ich stehe zweimal pro Woche vor deiner Tür, zur vereinbarten Zeit, und das Training findet statt. Im 1-zu-1 bei dir zu Hause, ohne Publikum und ohne Anfahrt. Nach einigen Wochen trägt die Routine sich selbst, bis dahin trage ich sie.",
+      },
+      {
+        title: "Zwölf Wochen, drei Zahlenreihen",
+        body: "Wir messen am Anfang und dann alle vier Wochen: Arbeitsgewichte in den Grundübungen, Umfänge, auf Wunsch Fotos. Ab etwa 50 spielt zusätzlich das Eiweiß eine größere Rolle, der Muskel reagiert träger auf Reize und braucht klarere Signale. Wer das Essen mit anpacken will, arbeitet dazu mit Natalie, unserer Ernährungsberaterin für Sport- und Fitnessernährung. Beides zusammen lässt sich im kostenlosen Erstgespräch planen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Personal Training für Muskelaufbau in Hahnwald?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€, ohne Vertragsbindung. Das Erstgespräch mit Bestandsaufnahme deines Raums ist kostenlos. Online Coaching mit Wochenplan gibt es ab 150€ im Monat.",
+      },
+      {
+        q: "Brauche ich einen eigenen Fitnessraum?",
+        a: "Nein. Er ist praktisch, wenn er da ist, aber verstellbare Kurzhanteln, eine Bank und ein freies Eck reichen für Monate an Aufbau. Fehlendes Material bringe ich mit.",
+      },
+      {
+        q: "Meine Geräte sind alt. Kann ich damit trainieren?",
+        a: "Meistens ja. Entscheidend ist nicht das Baujahr, sondern ob sich die Last fein genug steigern lässt. Das prüfe ich beim ersten Termin, bevor du irgendetwas neu kaufst.",
+      },
+      {
+        q: "Wie lange dauert es bis zu sichtbaren Ergebnissen?",
+        a: "Kraftwerte steigen meist ab der vierten Woche, sichtbare Veränderungen an den Umfängen brauchen acht bis zwölf Wochen mit zwei Einheiten pro Woche und ausreichend Eiweiß.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
