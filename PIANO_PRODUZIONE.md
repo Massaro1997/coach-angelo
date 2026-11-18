@@ -329,6 +329,10 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 321 | /koeln/mauenheim/rueckentraining | 0 | 1 | 13,0 | FATTA (giro 72, 18/11; pos 13,0: rafforzata con prudenza) |
 | 322 | /koeln/merkenich/ems-alternative | 0 | 1 | 13,0 | FATTA (giro 72, 18/11; pos 13,0: rafforzata con prudenza) |
 | 323 | /koeln/hahnwald/muskelaufbau | 0 | 1 | 14,0 | FATTA (giro 72, 18/11; pos 14,0: rafforzata con prudenza) |
+| 324 | /koeln/stammheim/muskelaufbau | 0 | 1 | 5,0 | FATTA (giro 73, 18/11; pos 5,0: rafforzata con molta prudenza) |
+| 325 | /koeln/merheim/rueckentraining | 0 | 1 | 14,0 | FATTA (giro 73, 18/11; pos 14,0: rafforzata con prudenza) |
+| 326 | /koeln/rodenkirchen/ems-alternative | 0 | 1 | 14,0 | FATTA (giro 73, 18/11; pos 14,0: rafforzata con prudenza) |
+| 327 | /koeln/worringen/abnehmen | 0 | 1 | 14,0 | FATTA (giro 73, 18/11; pos 14,0: rafforzata con prudenza) |
 
 Righe 302-307 entrate il 18/11/2026 (giro 69, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 31 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 9,0 e 11,0, in prima pagina o a ridosso. Secondo slot della giornata con ~12 punti di piano: giro da 6 pagine. Dopo questo giro restano 25 candidate, tutte a 0 click e 1 impressione).
 
@@ -361,6 +365,8 @@ Righe 224-229 entrate il 15/11/2026 (giro 53, riaggiornamento GSC a 90gg fino al
 La coda si riaggiorna coi dati GSC a ogni giro che la consuma (lo script usato è riproducibile: query `page` a 90gg sulle due proprietà, filtro `/koeln/x/y`). Le pagine con posizione già buona (p.es. nippes/abnehmen a 5,3; bocklemuend/personal-training a 2,0) si lavorano con più prudenza: il testo su misura deve rafforzare, non stravolgere, quello che già funziona.
 
 Righe 308-313 entrate il 18/11/2026 (giro 70, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 25 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 11,0 e 12,0, a ridosso della prima pagina: si rafforzano con prudenza. Terzo slot della giornata con ~10 punti di piano: giro da 6 pagine. Dopo questo giro restano 19 candidate, tutte a 0 click e 1 impressione).
+
+Righe 324-327 entrate il 18/11/2026 (giro 73, riaggiornamento GSC a 90gg fino al 16/11, stesso ordine click/impressioni/posizione; 10 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le quattro entrate: stammheim/muskelaufbau a pos 5,0 rafforzata con molta prudenza, le altre tre a pos 14,0. Giro da 4 pagine, non 6: sesto slot della giornata con ~3 punti di piano residui, motivo = budget. Dopo questo giro restano 6 candidate, tutte a 0 click e 1 impressione).
 
 Righe 320-323 entrate il 18/11/2026 (giro 72, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 13 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le quattro entrate sono fra pos 13,0 e 14,0. Giro da 4 pagine, non 6: quinto slot della giornata con ~5 punti di piano residui, motivo = budget. Dopo questo giro restano 9 candidate, tutte a 0 click e 1 impressione).
 
