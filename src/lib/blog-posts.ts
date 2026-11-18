@@ -23,6 +23,174 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "knieschmerzen-treppe-runtergehen-uebungen",
+    title: "Knieschmerzen beim Treppe runtergehen: Warum abwärts schlimmer ist",
+    metaTitle: "Knieschmerzen beim Treppe runtergehen: Ursachen, Übungen",
+    metaDescription:
+      "Knieschmerzen beim Treppe runtergehen entstehen meist durch schwache Oberschenkelmuskeln, die das Abbremsen nicht schaffen. Welche Übungen helfen und wann du zum Arzt solltest.",
+    date: "2026-11-18",
+    readMinutes: 6,
+    excerpt:
+      "Treppe hoch geht, Treppe runter sticht? Das ist typisch und hat einen klaren Grund: Abwärts muss dein Oberschenkel bremsen, und genau das ist seine schwächste Disziplin.",
+    blocks: [
+      {
+        type: "p",
+        text: "Wenn das Knie beim Treppe runtergehen schmerzt, beim Hochgehen aber kaum, liegt das meist nicht am Gelenk selbst, sondern an der Muskulatur: Abwärts muss der vordere Oberschenkel dein Körpergewicht Stufe für Stufe abbremsen, und dabei wirkt ein Mehrfaches deines Gewichts auf das Kniescheibengelenk. Ist der Muskel dieser Bremsarbeit nicht gewachsen, meldet sich das Knie. Die gute Nachricht: Genau diese Bremskraft lässt sich gezielt trainieren.",
+      },
+      { type: "h2", text: "Warum runter schlimmer ist als rauf" },
+      {
+        type: "p",
+        text: "Beim Hochsteigen arbeitet dein Oberschenkel konzentrisch, er zieht sich zusammen und drückt dich nach oben. Beim Runtergehen passiert das Gegenteil: Der Muskel wird unter Last lang, er bremst dich ab, damit du nicht fällst. Diese bremsende Arbeit nennt man exzentrisch, und sie erzeugt deutlich höhere Spannungen im Muskel und mehr Druck hinter der Kniescheibe. Wer wenig trainiert ist, viel sitzt oder nach einer Pause wieder angefangen hat, dem fehlt fast immer zuerst diese Bremskraft. Deshalb kommen die Schmerzen typischerweise abwärts, bergab beim Wandern oder beim Aussteigen aus dem Auto.",
+      },
+      { type: "h2", text: "Die häufigsten Ursachen im Überblick" },
+      {
+        type: "ul",
+        items: [
+          "Schwache vordere Oberschenkelmuskulatur, die das Abbremsen nicht kontrolliert: die mit Abstand häufigste Ursache bei sonst Gesunden.",
+          "Schwache Hüft- und Gesäßmuskulatur: Das Knie kippt beim Absteigen leicht nach innen, die Kniescheibe läuft schief in ihrer Rinne.",
+          "Reizung hinter der Kniescheibe nach ungewohnter Belastung, etwa einer langen Bergwanderung oder einem neuen Trainingsplan.",
+          "Verschleiß im Gelenk: möglich, aber auch bei nachgewiesener Arthrose entscheidet die Muskelkraft oft darüber, ob und wie stark es schmerzt.",
+        ],
+      },
+      { type: "h2", text: "Drei Übungen, die die Bremskraft aufbauen" },
+      {
+        type: "p",
+        text: "Der Grundsatz: Du trainierst genau die Bewegung, die wehtut, nur dosiert und kontrolliert. Starte in einem Bereich, der höchstens ein leichtes Ziehen auslöst, und steigere langsam. Ein Schmerz, der während der Übung über ein mildes Ziehen hinausgeht oder danach schlimmer wird, ist das Signal, eine Stufe zurückzugehen.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Langsames Abwärtssteigen von einer niedrigen Stufe: Stell dich auf die unterste Treppenstufe, steige mit einem Bein kontrolliert ab und brauche dafür drei volle Sekunden. 3 Sätze mit 8 Wiederholungen pro Seite, jeden zweiten Tag.",
+          "Kniebeuge mit langsamer Abwärtsphase: vier Sekunden runter, normal rauf, anfangs nur so tief, wie es schmerzfrei geht. 3 Sätze mit 8 bis 10 Wiederholungen.",
+          "Seitliches Beinheben im Liegen oder Hüftabduktion am Band für die Gesäßmuskulatur, damit das Knie beim Absteigen nicht nach innen kippt. 3 Sätze mit 12 bis 15 Wiederholungen pro Seite.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Rechne in Wochen, nicht in Tagen: Sehnen und Muskeln passen sich langsamer an als die Motivation es gern hätte. Die meisten spüren nach vier bis sechs Wochen konsequenten Trainings einen deutlichen Unterschied auf der Treppe. Wie du dein Knie darüber hinaus stabil bekommst, steht ausführlich im Artikel [Knie stabilisieren: die besten Übungen](/blog/knie-stabilisieren-uebungen).",
+      },
+      { type: "h2", text: "Wann du damit zum Arzt solltest" },
+      {
+        type: "p",
+        text: "Übungen sind der richtige Weg bei Belastungsschmerz ohne Vorgeschichte. Zum Arzt gehört das Knie, wenn es geschwollen, überwärmt oder nach einem Sturz oder Verdrehen verletzt ist, wenn es blockiert oder nachgibt, wenn es nachts oder in Ruhe schmerzt oder wenn die Beschwerden trotz mehrerer Wochen Training zunehmen. Auch die Frage, ob hinter dem Schmerz beim Treppensteigen mehr steckt, klärt der Artikel [Knieschmerzen beim Treppensteigen: Ursachen](/blog/knieschmerzen-treppensteigen-ursachen).",
+      },
+      { type: "h2", text: "Allein üben oder anleiten lassen?" },
+      {
+        type: "p",
+        text: "Die Übungen oben kannst du ohne Geräte zu Hause machen. Der häufigste Fehler ist nicht die Übungsauswahl, sondern die Ausführung: zu schnell, zu tief, zu früh gesteigert. Wenn du sichergehen willst, baue ich dir das Training 1-zu-1 um dein Knie herum auf, im Studio, draußen oder bei dir zu Hause in Köln, mit einer Steigerung, die dein Knie mitgeht. Was das kostet und wie es abläuft, steht auf der Seite [Personal Training in Köln](/personal-trainer-koeln).",
+      },
+    ],
+  },
+  {
+    slug: "wie-oft-personal-training-sinnvoll",
+    title: "Wie oft ist Personal Training sinnvoll? Ehrliche Antwort vom Trainer",
+    metaTitle: "Wie oft Personal Training? Was wirklich sinnvoll ist",
+    metaDescription:
+      "Für die meisten sind 1 bis 2 Einheiten Personal Training pro Woche sinnvoll: 2 zum Start, später weniger. Ein Trainer rechnet ehrlich vor, was sich wann lohnt.",
+    date: "2026-11-18",
+    readMinutes: 6,
+    excerpt:
+      "Zweimal pro Woche am Anfang, später weniger: Die ehrliche Antwort auf eine Frage, bei der viele Trainer lieber mehr verkaufen würden.",
+    blocks: [
+      {
+        type: "p",
+        text: "Für die meisten Menschen sind ein bis zwei Personal-Training-Einheiten pro Woche sinnvoll: zwei pro Woche in den ersten acht bis zwölf Wochen, solange Technik und Routine entstehen, danach reicht oft eine, ergänzt um eigenes Training nach Plan. Dauerhaft drei oder mehr bezahlte Stunden pro Woche brauchen die wenigsten. Das sage ich als Personal Trainer, der an diesen Stunden verdient, und genau deshalb bekommst du hier die Rechnung, die sonst selten jemand aufmacht.",
+      },
+      { type: "h2", text: "Warum am Anfang zwei Einheiten pro Woche?" },
+      {
+        type: "p",
+        text: "In den ersten Wochen passiert das, was über deinen langfristigen Erfolg entscheidet: Du lernst die Grundübungen technisch sauber, dein Körper gewöhnt sich an die Belastung, und das Training bekommt einen festen Platz in deiner Woche. Mit zwei geführten Einheiten pro Woche sitzt beides nach rund drei Monaten. Mit nur einer dauert es länger, weil zwischen den Terminen zu viel Zeit vergeht und sich Fehler in der Ausführung einschleifen, bevor sie jemand korrigiert.",
+      },
+      { type: "h2", text: "Wann eine Einheit pro Woche reicht" },
+      {
+        type: "p",
+        text: "Eine geführte Stunde pro Woche reicht, sobald du die Übungen sicher ausführst und zwischen den Terminen selbst trainierst. Die gemeinsame Einheit ist dann der Qualitätscheck: Technik korrigieren, Gewichte anpassen, den Plan weiterentwickeln. Die übrigen Einheiten machst du allein, im Studio oder zu Hause. So bekommst du den Effekt von drei Trainings pro Woche zum Preis von vier bezahlten Stunden im Monat.",
+      },
+      { type: "h2", text: "Was das im Monat kostet" },
+      {
+        type: "table",
+        headers: ["Modell", "Bei FitPrimo in Köln"],
+        rows: [
+          ["Start: 2 Einheiten pro Woche (8 Stunden)", "400€ im Monat"],
+          ["Danach: 1 Einheit pro Woche (4 Stunden)", "200€ im Monat"],
+          ["Online Coaching: Plan, Ernährung, wöchentlicher Check-in", "ab 150€ im Monat"],
+          ["Hybrid: Online Coaching plus einzelne 1-zu-1 Stunden", "ab 200€ im Monat"],
+          ["Erstgespräch", "kostenlos"],
+        ],
+      },
+      {
+        type: "p",
+        text: "Die Stunde kostet bei mir 50€, im Studio, draußen oder bei dir zu Hause. Was andere Anbieter in Köln nehmen und woran du erkennst, ob ein Trainer sein Geld wert ist, steht im Artikel [Was kostet ein Personal Trainer in Köln?](/blog/was-kostet-personal-trainer-koeln).",
+      },
+      { type: "h2", text: "Wie lange braucht man einen Personal Trainer?" },
+      {
+        type: "p",
+        text: "Ehrlich: Für das reine Lernen reichen drei bis sechs Monate. Danach kannst du die Frequenz senken oder ins Online Coaching wechseln, bei dem du nach Plan allein trainierst und wir uns einmal pro Woche kurz abstimmen. Viele bleiben trotzdem länger bei festen Terminen, aber aus einem anderen Grund: Der Termin ist die Garantie, dass das Training stattfindet. Ob dir das den Preis wert ist, kannst nur du entscheiden, und es ist völlig in Ordnung, wenn die Antwort nein lautet.",
+      },
+      { type: "h2", text: "Woran du merkst, dass die Frequenz falsch ist" },
+      {
+        type: "ul",
+        items: [
+          "Du kommst zu jeder Einheit, trainierst dazwischen aber nie: Dann trägt der Trainer dein Training, nicht du. Besser kurz runter auf eine Stunde und eigene Einheiten mit festem Wochentag einplanen.",
+          "Du sagst Termine regelmäßig ab, weil die Woche zu voll ist: Zwei Termine waren zu ambitioniert, einer, der immer stattfindet, bringt mehr als zwei auf dem Papier.",
+          "Du machst seit Monaten dieselben Übungen mit denselben Gewichten: Egal wie oft du buchst, der Plan entwickelt sich nicht. Das ist ein Trainerproblem, kein Frequenzproblem.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Wenn du wissen willst, welche Frequenz zu deinem Ziel und deinem Kalender passt, ist das Erstgespräch kostenlos und unverbindlich. Dort rechne ich dir beide Wege durch, den mit mehr und den mit weniger bezahlten Stunden. Einen Überblick über Leistungen, Preise und Trainingsorte gibt die Seite [Personal Training in Köln](/personal-trainer-koeln).",
+      },
+    ],
+  },
+  {
+    slug: "haengende-schultern-korrigieren-uebungen",
+    title: "Hängende Schultern korrigieren: Übungen, die wirklich aufrichten",
+    metaTitle: "Hängende Schultern korrigieren: die besten Übungen",
+    metaDescription:
+      "Hängende Schultern kommen meist von schwachem oberen Rücken und verkürzter Brust. Fünf Übungen, die aufrichten, und warum Haltung erzwingen nicht funktioniert.",
+    date: "2026-11-18",
+    readMinutes: 6,
+    excerpt:
+      "Brust raus, Schultern zurück: Dieser Befehl hält ungefähr dreißig Sekunden. Was dauerhaft aufrichtet, ist Kraft im oberen Rücken, nicht Disziplin.",
+    blocks: [
+      {
+        type: "p",
+        text: "Hängende Schultern sind in den meisten Fällen kein Skelettproblem, sondern ein Kräfteverhältnis: Die Brustmuskulatur ist durch Sitzen und Bildschirmarbeit verkürzt und zieht die Schultern nach vorn, der obere Rücken ist zu schwach, um dagegenzuhalten. Korrigieren lässt sich das mit Zugübungen für den oberen Rücken plus Dehnung der Brust, drei kurze Einheiten pro Woche reichen. Sich einfach gerade zu halten funktioniert dagegen nicht, denn Haltung ist keine Willensfrage, sondern eine Kraftfrage.",
+      },
+      { type: "h2", text: "Woher hängende Schultern kommen" },
+      {
+        type: "p",
+        text: "Dein Schultergürtel wird von einem Kräftepaar in Position gehalten: vorne Brust und vordere Schulter, hinten Trapez, Rhomboiden und hintere Schulter. Acht Stunden am Schreibtisch, der Blick aufs Handy und das Lenkrad trainieren jeden Tag die vordere Seite in Verkürzung, während die hintere Seite nichts zu tun bekommt. Bei Männern kommt oft ein zweiter Verstärker dazu: jahrelanges Bankdrücken ohne vergleichbares Rudervolumen. Das Ergebnis sieht man im Spiegel als nach vorn gekippte, hängende Schultern, oft zusammen mit einem beginnenden Rundrücken.",
+      },
+      { type: "h2", text: "Fünf Übungen, die aufrichten" },
+      {
+        type: "ul",
+        items: [
+          "Rudern am Band oder mit Kurzhantel: der wichtigste Baustein. Ziehe die Ellenbogen nach hinten und die Schulterblätter zusammen, halte oben eine Sekunde. 3 Sätze mit 10 bis 12 Wiederholungen.",
+          "Band über Kopf auseinanderziehen: Arme gestreckt vor der Brust, das Band bis zur Brust auseinanderziehen, Schulterblätter bewusst zusammenführen. 3 Sätze mit 15 Wiederholungen.",
+          "Y-Heben in Bauchlage: Arme schräg über Kopf anheben, Daumen zeigen nach oben. Trainiert den unteren Trapez, den fast niemand trainiert. 3 Sätze mit 10 Wiederholungen.",
+          "Brustdehnung im Türrahmen: Unterarm an den Rahmen, Körper leicht vordrehen, 30 bis 45 Sekunden pro Seite halten, täglich.",
+          "Kinn zurückschieben: Hinterkopf lang machen, als würdest du ein Doppelkinn erzeugen, fünf Sekunden halten, zehnmal. Richtet die Halswirbelsäule auf, die bei hängenden Schultern fast immer mit nach vorn wandert.",
+        ],
+      },
+      { type: "h2", text: "Warum Haltung erzwingen nicht funktioniert" },
+      {
+        type: "p",
+        text: "Jeder kennt den Moment: Man denkt an seine Haltung, richtet sich auf, und zwei Minuten später hängt alles wieder. Das ist kein Mangel an Disziplin. Eine Position, für die die Muskulatur zu schwach ist, kann der Kopf nicht dauerhaft erzwingen, so wie niemand durch Konzentration länger stehen kann, als die Beine tragen. Erst wenn der obere Rücken kräftig genug ist, wird die aufrechte Position zur Position, die der Körper von selbst einnimmt. Deshalb führt der Weg über Training, nicht über Erinnerungszettel am Monitor.",
+      },
+      { type: "h2", text: "Was du im Training sonst noch ändern solltest" },
+      {
+        type: "p",
+        text: "Wenn du bereits Krafttraining machst, gilt eine einfache Regel: mindestens so viel ziehen wie drücken. Auf jeden Satz Bankdrücken oder Schulterdrücken kommt ein Satz Rudern oder Klimmzug. Wer seit Jahren brustlastig trainiert, darf eine Zeit lang sogar doppelt so viel ziehen. Falls sich zusätzlich schon ein runder oberer Rücken zeigt, findest du das passende Programm im Artikel [Rundrücken korrigieren](/blog/rundruecken-korrigieren-uebungen), und bei Schmerzen in der Schulter hilft der Artikel [Schulterschmerzen: Übungen für zuhause](/blog/schulterschmerzen-uebungen-zuhause).",
+      },
+      { type: "h2", text: "Wann es mehr als Training braucht" },
+      {
+        type: "p",
+        text: "Hängende Schultern mit Schmerzen, Kribbeln in den Armen oder deutlichem Schulterhochstand auf einer Seite gehören einmal ärztlich abgeklärt, bevor du trainierst. Für alle anderen gilt: Nach acht bis zwölf Wochen konsequenten Trainings sieht man den Unterschied, auf Fotos deutlicher als im Spiegel. Wenn du die Übungen lieber mit Korrektur lernst, baue ich sie dir 1-zu-1 in einen Plan ein, im Studio, draußen oder bei dir zu Hause in Köln. Den Überblick gibt die Seite [Personal Training in Köln](/personal-trainer-koeln).",
+      },
+    ],
+  },
+  {
     slug: "was-kostet-personal-trainer-koeln",
     title: "Was kostet ein Personal Trainer in Köln wirklich?",
     metaTitle: "Was kostet ein Personal Trainer in Köln? 2026",
@@ -8460,7 +8628,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Personal Training in Köln ist eine Investition, keine Ausgabe. Wenn du weißt, was im Preis steckt, was extra kostet und wie du dein Budget einteilst, bekommst du deutlich mehr als eine Sportstunde. Du bekommst einen Plan, Verantwortlichkeit und jemanden, der mitdenkt. Wenn du wissen willst, was das für dich konkret bedeutet, und welches Setup zu deinen Zielen und deinem Alltag passt, dann meld dich gerne für ein kostenloses Erstgespräch bei mir. Kein Druck, keine Verkaufsshow, nur ein ehrliches Gespräch darüber, was für dich sinnvoll ist. Was ich selbst anbiete, mit Preisen und allen Stadtteilen, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln)."
+        "text": "Personal Training in Köln ist eine Investition, keine Ausgabe. Wenn du weißt, was im Preis steckt, was extra kostet und wie du dein Budget einteilst, bekommst du deutlich mehr als eine Sportstunde. Du bekommst einen Plan, Verantwortlichkeit und jemanden, der mitdenkt. Wenn du wissen willst, was das für dich konkret bedeutet, und welches Setup zu deinen Zielen und deinem Alltag passt, dann meld dich gerne für ein kostenloses Erstgespräch bei mir. Kein Druck, keine Verkaufsshow, nur ein ehrliches Gespräch darüber, was für dich sinnvoll ist. Was ich selbst anbiete, mit Preisen und allen Stadtteilen, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln). Und wie viele Stunden im Monat überhaupt sinnvoll sind, rechne ich im Artikel [Wie oft ist Personal Training sinnvoll?](/blog/wie-oft-personal-training-sinnvoll) vor."
       }
     ]
   },

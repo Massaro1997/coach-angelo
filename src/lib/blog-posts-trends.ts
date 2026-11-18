@@ -655,7 +655,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du dir unsicher bist, ob du die Übungen richtig ausführst, oder wenn du einen Plan willst, der zu deinem Arbeitsalltag passt, melde dich gern für ein kostenloses Erstgespräch bei mir. Wir schauen uns deine Haltung gemeinsam an, und du gehst mit zwei, drei konkreten Ansatzpunkten nach Hause, ganz ohne Verpflichtung. Haltung ist eines meiner Lieblingsthemen, weil die Fortschritte so sichtbar sind."
+        "text": "Wenn du dir unsicher bist, ob du die Übungen richtig ausführst, oder wenn du einen Plan willst, der zu deinem Arbeitsalltag passt, melde dich gern für ein kostenloses Erstgespräch bei mir. Wir schauen uns deine Haltung gemeinsam an, und du gehst mit zwei, drei konkreten Ansatzpunkten nach Hause, ganz ohne Verpflichtung. Haltung ist eines meiner Lieblingsthemen, weil die Fortschritte so sichtbar sind. Wenn bei dir weniger der Rücken rund ist als die Schultern nach vorn hängen, findest du das passende Programm im Artikel [Hängende Schultern korrigieren](/blog/haengende-schultern-korrigieren-uebungen)."
       }
     ]
   },
@@ -3144,7 +3144,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du wissen willst, warum ausgerechnet dein Knie auf der Treppe meckert und welche Übungen in deiner Situation sinnvoll sind, komm gern zu einem kostenlosen Erstgespräch zu mir. Wir schauen uns deine Bewegung gemeinsam an, ich zeige dir den Selbstcheck live, und du bekommst eine ehrliche Einschätzung, was Training bei dir leisten kann. Nach über 20 Jahren mit Knie Kunden in Köln sehe ich die typischen Muster meistens in den ersten fünf Minuten."
+        "text": "Wenn du wissen willst, warum ausgerechnet dein Knie auf der Treppe meckert und welche Übungen in deiner Situation sinnvoll sind, komm gern zu einem kostenlosen Erstgespräch zu mir. Wir schauen uns deine Bewegung gemeinsam an, ich zeige dir den Selbstcheck live, und du bekommst eine ehrliche Einschätzung, was Training bei dir leisten kann. Nach über 20 Jahren mit Knie Kunden in Köln sehe ich die typischen Muster meistens in den ersten fünf Minuten. Und falls dein Knie vor allem abwärts meckert, lies den Artikel [Knieschmerzen beim Treppe runtergehen](/blog/knieschmerzen-treppe-runtergehen-uebungen): Dort steht, warum runter schlimmer ist als rauf."
       }
     ]
   },
@@ -3329,7 +3329,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du herausfinden willst, welcher Weg für dich der richtige ist, komm einfach auf ein kostenloses Erstgespräch vorbei. Ich sage dir ehrlich, ob und wie viel Begleitung du wirklich brauchst, und wenn die Antwort lautet, dass dir ein Studio-Abo und drei gute Tipps reichen, dann sage ich dir auch das. Versprochen. Wie ich arbeite und was es kostet, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln)."
+        "text": "Wenn du herausfinden willst, welcher Weg für dich der richtige ist, komm einfach auf ein kostenloses Erstgespräch vorbei. Ich sage dir ehrlich, ob und wie viel Begleitung du wirklich brauchst, und wenn die Antwort lautet, dass dir ein Studio-Abo und drei gute Tipps reichen, dann sage ich dir auch das. Versprochen. Wie ich arbeite und was es kostet, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln). Wie viele geführte Stunden pro Woche sich wirklich lohnen, steht im Artikel [Wie oft ist Personal Training sinnvoll?](/blog/wie-oft-personal-training-sinnvoll)."
       }
     ]
   },
@@ -5855,7 +5855,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du die drei Stufen lieber mit Anleitung durchziehen willst, statt alleine zu raten, ob deine Ausführung stimmt: Meld dich für ein kostenloses Erstgespräch bei mir, 30 bis 45 Minuten, vor Ort in Köln oder online. Danach weißt du, wo du stehst und wie dein nächster Schritt aussieht. Einen fertigen Trainingsplan als PDF gibt es bei mir übrigens schon ab 25 Euro, falls du erstmal klein starten willst."
+        "text": "Wenn du die drei Stufen lieber mit Anleitung durchziehen willst, statt alleine zu raten, ob deine Ausführung stimmt: Meld dich für ein kostenloses Erstgespräch bei mir, 30 bis 45 Minuten, vor Ort in Köln oder online. Danach weißt du, wo du stehst und wie dein nächster Schritt aussieht. Einen fertigen Trainingsplan als PDF gibt es bei mir übrigens schon ab 25 Euro, falls du erstmal klein starten willst. Übrigens: Wenn deine Schultern nicht schmerzen, sondern vor allem nach vorn hängen, ist der Artikel [Hängende Schultern korrigieren](/blog/haengende-schultern-korrigieren-uebungen) der bessere Startpunkt."
       }
     ]
   },
@@ -6211,7 +6211,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du möchtest, dass sich jemand deine Einbeinkniebeuge, deine Landetechnik und deinen Aufbau einmal persönlich anschaut? Dann nutz die Gelegenheit für ein unverbindliches Erstgespräch bei mir, kostenlos, 30 bis 45 Minuten. Danach hast du Klarheit, auf welcher Stufe du startest und was dein Knie wirklich braucht."
+        "text": "Du möchtest, dass sich jemand deine Einbeinkniebeuge, deine Landetechnik und deinen Aufbau einmal persönlich anschaut? Dann nutz die Gelegenheit für ein unverbindliches Erstgespräch bei mir, kostenlos, 30 bis 45 Minuten. Danach hast du Klarheit, auf welcher Stufe du startest und was dein Knie wirklich braucht. Wenn dein Knie speziell beim Absteigen schmerzt, hilft dir der Artikel [Knieschmerzen beim Treppe runtergehen](/blog/knieschmerzen-treppe-runtergehen-uebungen) weiter."
       }
     ]
   },
