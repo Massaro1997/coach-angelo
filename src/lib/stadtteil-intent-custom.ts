@@ -13574,6 +13574,263 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "eil/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Eil gleicht aus, was die Stromweste nicht einmal erkennt: deine stärkere und deine schwächere Seite. Die Weste feuert beide Körperhälften mit demselben Impuls, echtes Krafttraining arbeitet einbeinig, einarmig und einseitig beladen. Zwei geführte Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde ohne Jahresvertrag, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Eil: Krafttraining, das deine schwächere Seite gezielt aufbaut, statt beide Hälften gleich zu reizen. 50€/Std, kein Jahresvertrag.",
+    sections: [
+      {
+        title: "Die Stromweste kennt keine Seiten",
+        body: "Kaum ein Körper ist symmetrisch: eine Hand greift fester, ein Bein stemmt mehr, eine Hüfte übernimmt beim Treppensteigen die Hauptarbeit. Die EMS-Weste kann darauf nicht reagieren, ihr Impuls trifft links und rechts gleich, und der Abstand zwischen starker und schwacher Seite bleibt, wie er ist. Im geführten Training sehe ich den Unterschied schon beim ersten Ausfallschritt und kann ihn gezielt bearbeiten: Die schwächere Seite bekommt mehr Sätze, die stärkere hält das Niveau.",
+      },
+      {
+        title: "Einbeinig, einarmig, einseitig beladen",
+        body: "Die Werkzeuge dafür sind einfach und passen in meine Tasche: Kurzhantel und Kettlebell für einarmiges Drücken und Ziehen, der Koffergriff mit Gewicht nur auf einer Seite, Ausfallschritte und einbeinige Kniebeugen für die Beine. Solche Übungen zwingen den Rumpf, gegen die Schieflage zu arbeiten, genau das, was beim Tragen einer Tasche oder Kiste im Alltag passiert. Trainiert wird bei dir zu Hause in Eil, ein freies Stück Boden reicht.",
+      },
+      {
+        title: "Unebener Boden deckt Unterschiede auf",
+        body: "Wer in Eil wohnt, hat die Wahner Heide als Testgelände direkt vor der Tür: Sand und wurzelige Wege verzeihen keine schiefe Hüfte, dort merkst du jeden Unterschied zwischen links und rechts sofort. In der warmen Jahreszeit lege ich einzelne Einheiten deshalb dorthin, mit Schrittsprüngen, Trageübungen und Balancearbeit auf unebenem Grund. Was im Wohnzimmer aufgebaut wird, wird draußen überprüft.",
+      },
+      {
+        title: "Für wen das in Eil passt",
+        body: "Für alle, die nach einer alten Verletzung einer Seite nie wieder ganz vertraut haben, für Schichtarbeiter aus dem Umfeld von Flughafen und Logistik, die einseitig heben und tragen, und für alle, denen das EMS-Versprechen von zwanzig Minuten zu pauschal ist. Ein Termin wird um deinen Dienstplan gelegt, nicht umgekehrt. Nach vier bis sechs Wochen messen wir nach, ob der Abstand zwischen den Seiten kleiner wird.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Eil?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit. Wer mit App-Plan und wöchentlichen Check-ins arbeiten will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Woher weiß ich, ob ich eine schwächere Seite habe?",
+        a: "Das zeigt der Eingangs-Check in der ersten Stunde: einbeinige Kniebeuge, einarmiges Ziehen, Koffergriff im Seitenvergleich. Die meisten Unterschiede sieht man sofort, ganz ohne Geräte.",
+      },
+      {
+        q: "Ist einseitiges Training nicht gefährlich?",
+        a: "Nein, es ist kontrolliert dosiert. Die Last startet niedrig und steigt erst, wenn die Technik sitzt. Gefährlicher ist es, eine Schieflage jahrelang unbearbeitet zu lassen und immer weiter einseitig zu belasten.",
+      },
+      {
+        q: "Es gibt kein Studio in Eil. Brauche ich eins?",
+        a: "Nein. Ich bringe Kurzhanteln, Kettlebell und Bänder mit, trainiert wird bei dir zu Hause. Für einzelne Einheiten draußen nutzen wir die Wahner Heide, sie liegt von fast jeder Ecke Eils ein paar Minuten entfernt.",
+      },
+    ],
+  },
+
+  "ensen/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Ensen trainiert, was die Stromweste grundsätzlich nicht kann: Kraft mit Tempo. Die Weste spannt Muskeln im Stand an, bewegt wird dabei nichts. Schnellkraft, also der Antritt zum Bus, der sichere Schritt beim Stolpern, entsteht nur durch echte, zügige Bewegung gegen Last. Zwei geführte Einheiten pro Woche, 50€ pro Stunde, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Ensen: Schnellkraft statt Stromreiz im Stand. Zügige Bewegung gegen echte Last, am Rheinufer oder zu Hause. 50€/Std, ohne Jahresvertrag.",
+    sections: [
+      {
+        title: "Kraft hat eine Geschwindigkeit",
+        body: "Ob dir Kraft im Alltag hilft, entscheidet oft das Tempo: das Ausfallbein beim Stolpern, der schnelle Antritt über die Straße, das Kind, das vom Klettergerüst kippt. Für solche Momente zählt nicht, wie stark ein Muskel maximal anspannen kann, sondern wie schnell er Kraft aufbaut. Genau diese Fähigkeit baut nur Training auf, in dem sich wirklich etwas bewegt, und zwar zügig: Aufstehen mit Gewicht, Züge mit Tempo, Sprünge. In der Stromweste stehst du still, während der Impuls läuft.",
+      },
+      {
+        title: "Zügig trainieren heißt nicht hektisch trainieren",
+        body: "Schnellkraft wird kontrolliert aufgebaut. Erst sitzt die Technik in Ruhe, dann wird die Aufwärtsbewegung bewusst zügig ausgeführt, die Last bleibt dabei moderat. Das ist kein Training für Leistungssportler, sondern für jeden, der im Alltag reaktionsfähig bleiben will, besonders ab der Lebensmitte, wenn gerade die schnellen Muskelfasern zuerst abbauen. Zwei Einheiten pro Woche reichen, jede enthält einen kurzen Tempo-Block und einen klassischen Kraftteil.",
+      },
+      {
+        title: "Kurze Wege: Rheinufer oder Wohnzimmer",
+        body: "Ensen ist eines der kleinsten Veedel im Bezirk Porz, das Rheinufer liegt von jeder Ecke nur ein paar Minuten entfernt. Für Antritte, Schrittsprünge und Treppenläufe ist der flache Uferweg ideal, den Kraftteil machen wir bei dir zu Hause mit Material, das ich mitbringe. Eine Anfahrt zu einem Studio, ob mit oder ohne Stromweste, fällt komplett weg.",
+      },
+      {
+        title: "Für wen das in Ensen passt",
+        body: "Für alle, die merken, dass sie zwar laufen oder radeln, aber bei schnellen Bewegungen zögern. Für Eltern, die beim Spielen mithalten wollen. Und für alle, die ein EMS-Abo erwägen, weil es effizient klingt: Der Vergleich im kostenlosen Erstgespräch zeigt dir, was zwanzig Minuten Strom nicht leisten. Das Tempo im Training setzt dein Stand, nicht dein Geburtsjahr, der Einstieg funktioniert in jedem Alter.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Ensen?",
+        a: "50€ pro 1-zu-1 Stunde, ohne Vertragslaufzeit. Alternativ gibt es das Online Coaching mit App-Plan und wöchentlichen Check-ins ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Bin ich für Schnellkraft-Training nicht zu alt?",
+        a: "Im Gegenteil: Die schnellen Muskelfasern bauen ohne Training am stärksten ab, deshalb lohnt sich der Reiz gerade ab 40 oder 50. Die Übungen werden deinem Stand angepasst, vom zügigen Aufstehen vom Stuhl bis zum Sprung.",
+      },
+      {
+        q: "Warum reicht EMS dafür nicht?",
+        a: "Weil bei EMS keine Bewegung stattfindet. Der Strom spannt den Muskel an, während du die Position hältst. Schnellkraft entsteht aber nur, wenn du Last tatsächlich beschleunigst, und genau das wird im Training geübt.",
+      },
+      {
+        q: "Wo trainieren wir in Ensen?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material und, wenn das Wetter passt, am Rheinufer für Antritte und Sprünge. Beides liegt in Ensen nur wenige Minuten auseinander.",
+      },
+    ],
+  },
+
+  "longerich/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Longerich beginnt mit einer Entlastung im Kopf: Ein auffälliger Befund auf dem Bild ist nicht automatisch die Ursache deiner Schmerzen, Verschleißzeichen finden sich auch bei vielen Menschen ohne Beschwerden. Entscheidend ist, was dein Rücken tragen kann, und das lässt sich trainieren: zwei Krafteinheiten pro Woche bei dir zu Hause, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Longerich: Belastbarkeit aufbauen statt Befunde fürchten. Zwei Krafteinheiten pro Woche bei dir zu Hause. 50€/Std, Erstgespräch kostenlos.",
+    sections: [
+      {
+        title: "Das Bild ist nicht der Schmerz",
+        body: "Viele kommen mit einem Befund in der Tasche zum ersten Termin: Vorwölbung, Verschleiß, degenerative Veränderung. Was dabei selten dazugesagt wird: Solche Zeichen zeigen sich in Untersuchungen auch bei vielen Menschen, die gar keine Rückenschmerzen haben, und werden mit dem Alter ganz normal häufiger. Ein Befund ist also kein Urteil über das, was dein Rücken darf. Abklären lassen gehört dazu, danach aber gilt: Ein belasteter, trainierter Rücken meldet sich in der Regel seltener als ein geschonter.",
+      },
+      {
+        title: "Trainiert wird, was du können willst",
+        body: "Statt um den Befund baue ich dein Training um Fähigkeiten auf: eine Kiste vom Boden heben, das Enkelkind tragen, eine Stunde Gartenarbeit ohne Quittung am nächsten Morgen. Dafür arbeiten wir an Hüfte, Gesäß, Rückenstreckern und Rumpf, mit Übungen, die kontrolliert schwerer werden. Jede Stufe wird protokolliert. Du merkst nach ein paar Wochen nicht nur weniger Ziehen, sondern vor allem mehr Zutrauen, und das ist bei Rückenschmerzen die halbe Miete.",
+      },
+      {
+        title: "Zu Hause in Longerich, um den Pendel-Tag gelegt",
+        body: "Longerich ist ein Pendler-Veedel, und nach Arbeitstag plus Bahn ist der Weg in ein Studio die größte Hürde. Deshalb komme ich zu dir: Kurzhanteln, Kettlebell und Bänder bringe ich mit, ein freier Platz im Wohnzimmer reicht. Termine gibt es früh vor der Arbeit oder am Abend. Zwischen den Einheiten bekommst du kurze Aufgaben von zehn Minuten, die sich ohne Umziehen erledigen lassen.",
+      },
+      {
+        title: "Wo die Grenze liegt",
+        body: "Rückentraining ersetzt keinen Arztbesuch. Bei frischen starken Schmerzen, Ausstrahlung ins Bein mit Taubheit oder Lähmungszeichen gehört die Abklärung an den Anfang, nicht das Training. Ich arbeite in dem Rahmen, den die Abklärung freigibt, und steigere die Last in dem Tempo, das dein Rücken bestätigt. Viele meiner Kunden kommen genau aus dieser Lücke: Die Akutphase ist vorbei, die Physio-Rezepte sind aufgebraucht, und jetzt soll der Rücken wieder stark werden.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Longerich?",
+        a: "Die 1-zu-1 Stunde kostet 50€. Mit App-Plan und wöchentlichen Check-ins gibt es das Online Coaching ab 150€ im Monat. Das Erstgespräch ist in beiden Fällen kostenlos.",
+      },
+      {
+        q: "Ich habe einen Bandscheibenbefund. Darf ich überhaupt trainieren?",
+        a: "In den meisten Fällen ja, nach ärztlicher Abklärung sogar ausdrücklich erwünscht. Wir starten im schmerzfreien Bereich mit kontrollierter Last und steigern langsam. Was dein Arzt ausgeschlossen haben will, bleibt draußen.",
+      },
+      {
+        q: "Hilft nicht erst mal Schonung?",
+        a: "Kurz nach einer akuten Episode ja, danach kehrt sich der Effekt um: Ein dauerhaft geschonter Rücken verliert Kraft und meldet sich schneller wieder. Der Weg zurück führt über dosierte, steigende Belastung.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Ich bringe alles mit, was wir brauchen. Wenn du später eigenes Material anschaffen willst, besprechen wir gezielt, was sich für dein Training lohnt.",
+      },
+    ],
+  },
+
+  "marienburg/online-coaching": {
+    answer:
+      "Online Coaching für Köln-Marienburg setzt auf das, was volle Kalender wirklich brauchen: Verbindlichkeit statt Motivation. Dein Plan steht in der App, aber der wöchentliche Check-in ist ein fester Termin mit mir, einem Menschen, der deine Woche kennt, nicht eine Erinnerung, die sich wegwischen lässt. Ab 150€ im Monat, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Online Coaching für Köln-Marienburg: fester wöchentlicher Check-in statt App-Erinnerung, Plan für zu Hause, Südpark und Rheinufer. Ab 150€/Monat.",
+    sections: [
+      {
+        title: "Woran Training bei vollen Kalendern wirklich scheitert",
+        body: "Wer in Marienburg Verantwortung trägt, dem fehlt selten das Wissen und nie die Disziplin, sonst sähe der Kalender anders aus. Was fehlt, ist eine Instanz, die nachhält: Ein Termin mit sich selbst fliegt als erstes aus der Woche, ein Termin mit einer Person bleibt stehen. Genau so ist das Coaching gebaut. Jede Einheit, die du trainierst, sehe ich im Protokoll, und einmal pro Woche besprechen wir per Video, was lief, was ausfiel und wie die nächste Woche realistisch aussieht.",
+      },
+      {
+        title: "Der Plan passt sich dem Kalender an, nicht umgekehrt",
+        body: "Dein Trainingsplan steht in der App, mit Videos zu jeder Übung und Platz für deine Zahlen. Fällt eine Woche kürzer aus, wird sie umgebaut statt abgeschrieben: drei Einheiten werden zu zwei dichteren, eine Reisewoche bekommt eine Fassung ohne Geräte. Auf Wunsch gehört die Ernährung dazu, abgestimmt mit Natalie, unserer Ernährungsberaterin für Sport- und Fitnessernährung. Der Maßstab ist nie die perfekte Woche, sondern der Trend über Monate.",
+      },
+      {
+        title: "Trainiert wird, wo Marienburg am stärksten ist: bei dir",
+        body: "Viele Häuser im Veedel haben einen Keller mit Geräten, die seit Jahren niemand anfasst, einen Garten oder zumindest ein ruhiges Zimmer. Der Plan wird auf genau das geschrieben, was du hast, vom kompletten Heimstudio bis zur einzelnen Kurzhantel. Für die Ausdauer liegen Südpark und Rheinufer vor der Tür. Niemand sieht dich trainieren, niemand wartet an einem Gerät, und die Anfahrt ist null Meter.",
+      },
+      {
+        title: "Für wen das in Marienburg passt",
+        body: "Für alle, deren Wochen zu unterschiedlich für feste Studiotermine sind: viel Verantwortung, Reisen, Abendtermine. Für alle, die schon mehrere Anläufe mit Apps und Plänen hinter sich haben, die ohne Gegenüber eingeschlafen sind. Und für alle, die zwischendurch lieber eine präzise Rückfrage stellen, als eine Stunde zu buchen. Wer phasenweise doch geführte Stunden vor Ort will, kombiniert beides, das besprechen wir im Erstgespräch.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Online Coaching für Köln-Marienburg?",
+        a: "Ab 150€ im Monat, monatlich kündbar. Enthalten sind Trainingsplan in der App, wöchentlicher Video-Check-in und auf Wunsch die Ernährungssteuerung mit Natalie. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Was unterscheidet das von einer Trainings-App?",
+        a: "Die Rückmeldung. Eine App merkt nicht, wenn du drei Wochen schleifen lässt, ich schon. Jede Einheit wird gelesen, der Check-in findet statt, und der Plan wird von einem Menschen umgebaut, der deine Vorgeschichte kennt.",
+      },
+      {
+        q: "Ich habe Geräte im Keller. Werden die eingeplant?",
+        a: "Ja. Beim Start gehen wir durch, was du hast, und der Plan wird exakt darauf geschrieben. Oft steckt in vorhandenen Geräten mehr Programm, als ihre Besitzer vermuten.",
+      },
+      {
+        q: "Wie diskret läuft das ab?",
+        a: "Vollständig. Trainiert wird bei dir, die Check-ins laufen per Video zu Zeiten, die du wählst. Es gibt keinen Studiobesuch und kein Publikum.",
+      },
+    ],
+  },
+
+  "neuehrenfeld/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Neuehrenfeld plant nicht nur zwanzig Minuten, sondern deine ganze Woche: zwei geführte Krafteinheiten plus kurze Aufgaben für die Tage dazwischen. Denn ein Körper verändert sich nicht durch einen Wochentermin, sondern durch das, was zwischen den Terminen passiert. 50€ pro Stunde, ohne Jahresvertrag, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Neuehrenfeld: Training, das die ganze Woche plant statt 20 Minuten. Einheiten zu Hause, Ausgleich im Blücherpark. 50€/Std ohne Vertrag.",
+    sections: [
+      {
+        title: "Was ist mit den anderen sechs Tagen?",
+        body: "Das EMS-Versprechen klingt verlockend: einmal pro Woche zwanzig Minuten, fertig. Nur hat deine Woche gut zehntausend Minuten, und was in den übrigen passiert, entscheidet mehr über Rücken, Gewicht und Kraft als jeder einzelne Termin. Ein Studio, das dich einmal pro Woche verkabelt, hat auf diese Zeit keine Antwort. Mein Training schon: Es gibt dir neben den Einheiten einen einfachen Rahmen für die restliche Woche, und der kostet dich pro Tag weniger Zeit als die Parkplatzsuche vorm Studio.",
+      },
+      {
+        title: "Zwei Einheiten plus zehn Minuten am Tag",
+        body: "Das Gerüst: zwei geführte Krafteinheiten pro Woche bei dir zu Hause, dazwischen kleine Aufgaben, die ich dir mitgebe. Mal sind es zwei Übungen mit dem eigenen Körpergewicht am Morgen, mal ein Schrittziel, mal gezieltes Lockern nach dem Schreibtischtag. Nichts davon braucht Umziehen oder Geräte. In der App hakst du ab, was erledigt ist, und ich sehe, wo die Woche klemmt, bevor daraus ein Stillstand wird.",
+      },
+      {
+        title: "Neuehrenfeld spielt mit: Altbau und Blücherpark",
+        body: "Für die Einheiten reicht ein freies Stück Boden in der Altbauwohnung, das Material bringe ich mit, und die Übungen sind so gewählt, dass unter dir niemand die Decke fürchten muss. Für die Tage dazwischen liegt der Blücherpark ideal: Die Runde um den Weiher ist ein fertiger Baustein fürs Schrittziel, ob mit Kinderwagen, Hund oder allein nach Feierabend. So wird aus dem Veedel selbst ein Teil des Plans.",
+      },
+      {
+        title: "Für wen das in Neuehrenfeld passt",
+        body: "Für alle, die schon gemerkt haben, dass ein einzelner Wochentermin nichts verändert hat, egal ob mit oder ohne Stromweste. Für Eltern, deren Abende verplant sind und die Trainingszeit in kleinen Blöcken brauchen. Und für Einsteiger, die keinen radikalen Umbau wollen, sondern einen Rahmen, der neben Job und Familie hält. Gestartet wird mit dem kostenlosen Erstgespräch, dort bauen wir die erste Woche gemeinsam.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Neuehrenfeld?",
+        a: "Die 1-zu-1 Stunde kostet 50€, ohne Vertragslaufzeit. Wer vor allem den Wochenrahmen mit App und Check-ins will, nimmt das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Sind die Aufgaben zwischen den Einheiten Pflicht?",
+        a: "Sie sind der halbe Effekt. Deshalb sind sie bewusst klein gehalten, meist unter zehn Minuten. Fällt eine Woche aus, wird der Rahmen angepasst statt mit schlechtem Gewissen aufgeladen.",
+      },
+      {
+        q: "Reichen zwanzig Minuten EMS pro Woche wirklich nicht?",
+        a: "Als einziger Reiz der Woche verändern sie wenig. Muskeln, Gewicht und Rücken reagieren auf die Summe aus Training, Bewegung und Essen über sieben Tage, und genau diese Summe wird hier geplant.",
+      },
+      {
+        q: "Was brauche ich in der Wohnung?",
+        a: "Ein freies Stück Boden, mehr nicht. Kurzhanteln, Kettlebell und Bänder bringe ich mit, und die Übungsauswahl nimmt Rücksicht auf Nachbarn unter dir.",
+      },
+    ],
+  },
+
+  "vingst/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Vingst bringt dir bei, was die Stromweste für dich erledigen will: Spannung selbst aufbauen. Beim Heben schützt dich nicht der Muskel allein, sondern die Fähigkeit, Rumpf und Atmung im richtigen Moment zu koordinieren, und genau das lernt man nur unter echter Last. Zwei geführte Einheiten pro Woche bei dir zu Hause, 50€ pro Stunde, Erstgespräch kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Vingst: Spannung und Atmung unter echter Last lernen statt Strom von außen. Training zu Hause im Veedel. 50€/Std, kein Jahresvertrag.",
+    sections: [
+      {
+        title: "Die Weste spannt dich an, aber sie bringt dir nichts bei",
+        body: "Bei EMS kommt die Spannung von außen: Der Strom zieht die Muskeln zusammen, du hältst die Position. Im Alltag ist es genau umgekehrt, da muss dein Körper die Spannung selbst erzeugen, bevor die Last kommt: Rumpf fest, Luft richtig gesetzt, dann heben. Wer das nie geübt hat, hebt die Getränkekiste mit rundem Rücken und angehaltener Luft irgendwo zwischen Brust und Hals. Dieses Zusammenspiel lässt sich nicht einflößen, es will unter steigender, echter Last geübt werden.",
+      },
+      {
+        title: "Atmen unter Last ist eine Technik, keine Nebensache",
+        body: "Im Training lernst du von der ersten Stunde an beides zusammen: Spannung aufbauen, bevor das Gewicht sich bewegt, und die Atmung so setzen, dass sie die Spannung stützt statt stört. Das klingt unspektakulär, verändert aber alles, vom Kreuzheben mit der Kettlebell bis zum Wäschekorb im Treppenhaus. Die Last steigt erst, wenn das Muster sitzt, und wird protokolliert. Nach ein paar Wochen machst du es automatisch richtig, auch wenn niemand zuschaut.",
+      },
+      {
+        title: "Training im dichtesten Veedel des Bezirks",
+        body: "Vingst ist eng bebaut, kaum jemand hat hier Platz für Geräte, und genau deshalb komme ich zu dir: Kurzhanteln, Kettlebell und Bänder reisen mit, ein freies Eck in der Wohnung genügt. Wer zwischendurch raus will, nutzt die Merheimer Heide gleich hinter der Stadtteilgrenze für Trage- und Gehübungen. Ein EMS-Termin dagegen bedeutet von Vingst aus immer: Anfahrt, Studio, Jahresvertrag.",
+      },
+      {
+        title: "Für wen das in Vingst passt",
+        body: "Für alle, die körperlich arbeiten oder pendeln und ihren Rücken im Alltag ständig brauchen, nicht nur im Training. Für alle, denen nach dem Heben öfter etwas zieht, obwohl sie eigentlich kräftig sind, das ist meist ein Technik-, kein Kraftproblem. Und für alle, die bei EMS unterschreiben wollten, weil es schnell klang: Was du hier lernst, gehört dir und funktioniert in jeder Lebenslage, ganz ohne Gerät und Elektroden.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Vingst?",
+        a: "50€ pro 1-zu-1 Stunde, ohne Vertragslaufzeit. Mit App-Plan und wöchentlichen Check-ins gibt es das Online Coaching ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Was heißt Spannung aufbauen konkret?",
+        a: "Bauch und Rumpf bewusst fest machen und die Atmung passend dazu setzen, bevor du hebst oder drückst. Das üben wir mit leichten Gewichten, bis es automatisch läuft, erst dann steigt die Last.",
+      },
+      {
+        q: "Ich habe wenig Platz in der Wohnung. Reicht das?",
+        a: "Ja. Ein freies Eck von etwa zwei mal zwei Metern genügt, das Material bringe ich mit. Genau dafür ist das Training gebaut, Vingst ist das dichteste Veedel im Bezirk Kalk.",
+      },
+      {
+        q: "Ist das auch für Untrainierte geeignet?",
+        a: "Gerade für sie. Spannung und Atmung sind die Grundlage, auf der jedes spätere Training aufbaut. Wer sie am Anfang lernt, spart sich später das mühsame Umlernen.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
