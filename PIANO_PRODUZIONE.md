@@ -307,6 +307,14 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 299 | /koeln/neustadt-sued/personal-training | 0 | 1 | 7,0 | FATTA (giro 68, 17/11; pos 7,0: rafforzata con prudenza) |
 | 300 | /koeln/ossendorf/online-coaching | 0 | 1 | 7,0 | FATTA (giro 68, 17/11; pos 7,0: rafforzata con prudenza) |
 | 301 | /koeln/hoehenberg/ernaehrungsberatung | 0 | 1 | 8,0 | FATTA (giro 68, 17/11; pos 8,0: rafforzata con prudenza) |
+| 302 | /koeln/ehrenfeld/ems-alternative | 0 | 1 | 9,0 | FATTA (giro 69, 18/11; pos 9,0: rafforzata con prudenza) |
+| 303 | /koeln/lindweiler/abnehmen | 0 | 1 | 9,0 | FATTA (giro 69, 18/11; pos 9,0: rafforzata con prudenza) |
+| 304 | /koeln/godorf/abnehmen | 0 | 1 | 10,0 | FATTA (giro 69, 18/11; pos 10,0: rafforzata con prudenza) |
+| 305 | /koeln/hahnwald/ernaehrungsberatung | 0 | 1 | 10,0 | FATTA (giro 69, 18/11; pos 10,0: rafforzata con prudenza) |
+| 306 | /koeln/stammheim/rueckentraining | 0 | 1 | 10,0 | FATTA (giro 69, 18/11; pos 10,0: rafforzata con prudenza) |
+| 307 | /koeln/gremberghoven/muskelaufbau | 0 | 1 | 11,0 | FATTA (giro 69, 18/11; pos 11,0: rafforzata con prudenza) |
+
+Righe 302-307 entrate il 18/11/2026 (giro 69, riaggiornamento GSC a 90gg fino al 16/11, 330 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 31 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le sei entrate sono fra pos 9,0 e 11,0, in prima pagina o a ridosso. Secondo slot della giornata con ~12 punti di piano: giro da 6 pagine. Dopo questo giro restano 25 candidate, tutte a 0 click e 1 impressione).
 
 Righe 288-291 entrate il 17/11/2026 (giro 66, riaggiornamento GSC a 90gg fino al 15/11, 332 pagine intent con impressioni, stesso ordine click/impressioni/posizione; 45 candidate fuori coda prima dell'ingresso, tutte a 0 click e 1 impressione; le quattro entrate sono fra pos 5,0 e 7,0, tutte in prima pagina: si rafforzano con prudenza. Giro da 4 pagine, non 6: sesto slot della giornata con ~3 punti di piano residui, motivo = budget. Dopo questo giro restano 41 candidate, tutte a 0 click e 1 impressione).
 
