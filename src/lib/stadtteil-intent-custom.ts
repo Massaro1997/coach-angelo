@@ -14003,6 +14003,177 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
       },
     ],
   },
+  "stammheim/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Stammheim verstehe ich als Schutzprogramm für deine Gelenke: Kräftige Muskeln um Knie, Hüfte und Schulter fangen Stöße ab und führen jede Bewegung sauberer. Zwei geführte Krafteinheiten pro Woche bei dir zu Hause oder im Studio, eine Stunde kostet 50€, die Erstberatung ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau in Köln-Stammheim: Krafttraining, das Knie, Hüfte und Schulter schützt. Zwei Einheiten pro Woche, zu Hause oder im Studio. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Muskeln sind die Stoßdämpfer deiner Gelenke",
+        body: "Ein Knie, das beim Treppensteigen meckert, braucht selten Schonung, sondern meistens eine stärkere Umgebung: Oberschenkel, Gesäß und Wade nehmen dem Gelenk Arbeit ab, wenn sie kräftig genug sind. Genau da setzt mein Muskelaufbau in Stammheim an. Wir bauen in zwei Einheiten pro Woche die Muskulatur um die großen Gelenke auf, mit Übungen über den vollen Bewegungsumfang und mit Gewichten, die sich deinem Stand anpassen. Bestehende Beschwerden gehören vorher in ärztliche Abklärung, das Training übernimmt danach den Aufbau.",
+      },
+      {
+        title: "Sehnen brauchen länger als Muskeln, deshalb steigen wir in Stufen",
+        body: "Muskeln reagieren in Wochen auf Training, Sehnen und Bänder brauchen Monate. Wer zu schnell zu viel drauflegt, spürt das zuerst an Ellenbogen oder Knie. Deshalb steigere ich die Last bei dir nach Protokoll: erst saubere Technik, dann mehr Wiederholungen, dann mehr Gewicht. Du siehst jede Steigerung schwarz auf weiß im Trainingsprotokoll und merkst sie im Alltag, vom Anheben der Getränkekiste bis zur Radrunde am Rheinufer Stammheim.",
+      },
+      {
+        title: "Training in Stammheim: zu Hause, im Studio oder am Schlosspark",
+        body: "Stammheim ist mit 8.215 Einwohnern auf 3,78 km² ein ruhiger Teil von Mülheim, ein eigenes Studio gibt es im Veedel nicht. Ich komme deshalb mit Hanteln, Bank und Bändern zu dir nach Hause, alternativ trainieren wir im Studio oder kombinieren die Krafteinheit mit Aufwärmen und Technikarbeit im Schlosspark Stammheim am Rhein. Der Park liegt flach am Wasser und eignet sich gut für die Geh- und Laufanteile vor und nach dem Hauptteil.",
+      },
+      {
+        title: "Für wen das gedacht ist",
+        body: "Typisch sind zwei Gruppen: Leute ab 40, die merken, dass Knie oder Schulter bei Alltagsbewegungen schneller zwicken als früher, und Sportler aus den Vereinen der Umgebung, die neben Fußball oder Laufen eine stabile Basis aufbauen wollen. In beiden Fällen gilt derselbe Weg: Technik-Check am Anfang, zwei geführte Einheiten pro Woche, Kontrollmessung alle vier bis sechs Wochen. Wenn sich Kraftwerte und Alltag nicht verbessern, ändere ich den Plan.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Stammheim?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, bei dir zu Hause oder im Studio. Online Coaching mit Plan und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Hilft Muskelaufbau wirklich bei empfindlichen Knien?",
+        a: "Kräftige Beinmuskeln entlasten das Kniegelenk bei jedem Schritt, das ist gut belegt. Wichtig ist die Reihenfolge: Erst klärt ein Arzt bestehende Schmerzen ab, dann bauen wir die Muskulatur drumherum kontrolliert auf.",
+      },
+      {
+        q: "Brauche ich Geräte zu Hause?",
+        a: "Nein. Ich bringe verstellbare Kurzhanteln, Bänder und bei Bedarf eine Bank mit. Für die ersten Monate reicht das vollständig, danach besprechen wir, ob sich eigene Ausstattung lohnt.",
+      },
+      {
+        q: "Wie lange dauert es, bis man Ergebnisse sieht?",
+        a: "Kraftwerte steigen meist schon nach vier bis sechs Wochen messbar, sichtbare Veränderungen brauchen je nach Ausgangslage zwei bis drei Monate. Deshalb messen wir regelmäßig nach und verlassen uns nicht auf den Spiegel allein.",
+      },
+    ],
+  },
+
+  "merheim/rueckentraining": {
+    answer:
+      "Rückentraining in Köln-Merheim für den Rücken, der abends schlappmacht: Wenn es nach Feierabend zieht und morgens ruhig ist, fehlt meist Kraftausdauer in der Haltemuskulatur. Die bauen wir in zwei Einheiten pro Woche auf, bei dir zu Hause oder im Studio. 50€ pro Stunde, Erstberatung kostenlos.",
+    metaDescription:
+      "Rückentraining in Köln-Merheim: Kraftausdauer gegen den Rücken, der abends schmerzt. Zwei Einheiten pro Woche, zu Hause oder im Studio. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Warum dein Rücken abends schmerzt und morgens nicht",
+        body: "Viele kennen das Muster: Der Morgen ist in Ordnung, ab dem Nachmittag zieht es im Kreuz. Das spricht oft nicht für einen Schaden, sondern für Ermüdung: Die Muskeln, die deine Haltung den ganzen Tag halten, geben nach Stunden auf, und dann hängen die Strukturen dahinter in der Belastung. Die Antwort ist nicht mehr Schonung, sondern mehr Ausdauer in genau dieser Muskulatur. Anhaltende oder ausstrahlende Schmerzen gehören vorher in ärztliche Abklärung, das Training setzt danach an.",
+      },
+      {
+        title: "Kraftausdauer trainiert man anders als Maximalkraft",
+        body: "Für einen Rücken, der lange durchhalten soll, arbeiten wir mit moderaten Gewichten und höheren Wiederholungszahlen: Rudern, Hüftstrecken, Tragen über Strecke, Halteübungen für den Rumpf. Dazu kommt der Wechsel zwischen den Positionen, denn kein Rücken ist für acht Stunden dieselbe Haltung gebaut. Zwei geführte Einheiten pro Woche reichen, kurze Ausgleichsübungen für zwischendurch bekommst du als Hausaufgabe mit.",
+      },
+      {
+        title: "Merheimer Heide: dein Ausgleich vor der Haustür",
+        body: "Merheim hat mit der Merheimer Heide eine große freie Fläche direkt im Veedel. Die nutzen wir doppelt: für zügige Geh-Runden an trainingsfreien Tagen, die die Rückenmuskulatur durchbluten, und bei gutem Wetter für Trainingseinheiten draußen mit mitgebrachtem Material. Wer im Veedel wohnt oder in einem der 11.354 Haushalte rund um Olpener Straße und Klinikgelände arbeitet, erreicht die Heide in wenigen Minuten zu Fuß.",
+      },
+      {
+        title: "So läuft der Einstieg in Merheim",
+        body: "Wir starten mit einem Gespräch und einem Beweglichkeits- und Kraft-Check: Wo ermüdet dein Rücken zuerst, was hält deine Hüfte, wie sieht dein Arbeitstag aus. Daraus entsteht ein Plan mit zwei Einheiten pro Woche, bei dir zu Hause mit mitgebrachtem Material oder im Studio. Alle vier bis sechs Wochen messen wir nach: Haltezeiten, Wiederholungen, und vor allem, wie sich deine Abende anfühlen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Rückentraining in Köln-Merheim?",
+        a: "Eine 1-zu-1 Stunde kostet 50€, zu Hause oder im Studio. Online Coaching mit Plan und Video-Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos und klärt, was zu deinem Rücken passt.",
+      },
+      {
+        q: "Mein Rücken schmerzt nur abends. Ist Training trotzdem sinnvoll?",
+        a: "Gerade dann. Abendlicher Schmerz bei ruhigem Morgen spricht häufig für ermüdete Haltemuskulatur, und die lässt sich gezielt trainieren. Zur Sicherheit gilt: Neue, starke oder ausstrahlende Schmerzen zuerst ärztlich abklären lassen.",
+      },
+      {
+        q: "Trainieren wir auch draußen in Merheim?",
+        a: "Ja, bei passendem Wetter auf der Merheimer Heide mit mitgebrachtem Material. Die Grundlagen mit Gewichten legen wir bei dir zu Hause oder im Studio, die Heide kommt für Geh-Runden und Outdoor-Einheiten dazu.",
+      },
+      {
+        q: "Wie schnell merke ich einen Unterschied?",
+        a: "Die meisten spüren nach vier bis sechs Wochen, dass der Abend später oder gar nicht mehr zieht. Messbar machen wir das über Haltezeiten und Wiederholungszahlen, die wir von Anfang an dokumentieren.",
+      },
+    ],
+  },
+
+  "rodenkirchen/ems-alternative": {
+    answer:
+      "Die EMS-Alternative in Köln-Rodenkirchen ist Krafttraining mit echter Last, auch deinen Knochen zuliebe: Das Skelett passt sich an Belastung an, die es tragen muss, und genau die liefert die Stromweste nicht. Zwei geführte Einheiten pro Woche, zu Hause, im Studio oder am Rheinufer. 50€ pro Stunde, Erstberatung kostenlos.",
+    metaDescription:
+      "EMS-Alternative in Köln-Rodenkirchen: Krafttraining mit echter Last für Muskeln und Knochen statt Stromreiz. Zu Hause, im Studio oder am Rheinufer. 50€/Std.",
+    sections: [
+      {
+        title: "Dein Skelett trainiert nur mit, wenn es etwas tragen muss",
+        body: "Knochen bleiben stark, wenn sie regelmäßig Last tragen: Kniebeugen, Kreuzheben, Tragen und Drücken mit Gewicht gelten als der wirksamste Trainingsreiz für den Erhalt der Knochendichte. Die EMS-Weste reizt deine Muskeln elektrisch, aber dein Skelett bekommt dabei kaum zusätzliche Last zu tragen. Wer ab 50 in sein Training investiert, und in Rodenkirchen sind das viele meiner Anfragen, sollte diesen Unterschied kennen, bevor er einen Jahresvertrag unterschreibt.",
+      },
+      {
+        title: "Krafttraining mit echter Last, ohne Studio-Pflicht",
+        body: "Mein Training findet dort statt, wo es dir passt: bei dir zu Hause mit mitgebrachten Hanteln und Bändern, im Studio oder draußen. Rodenkirchen bietet dafür mehr als fast jedes andere Veedel im Kölner Süden: das Rheinufer für Geh- und Laufanteile, den Forstbotanischen Garten und den Friedenswald für Einheiten im Grünen. Der Kraftteil bleibt immer gleich aufgebaut: Grundübungen, steigende Last, ein Protokoll, das jede Steigerung festhält.",
+      },
+      {
+        title: "Was der Vergleich wirklich kostet",
+        body: "EMS-Studios verkaufen 20 Minuten pro Woche, meist im Jahresvertrag. Bei mir kostet die geführte Stunde 50€, ohne Laufzeit, jederzeit beendbar. Entscheidender als der Preis ist, was du dafür bekommst: Nach drei Monaten EMS kannst du eine Stromweste bedienen. Nach drei Monaten Krafttraining beherrschst du Kniebeuge, Hüftknick und Drücken, kennst deine Gewichte und kannst damit überall weitertrainieren, im Urlaub, im Studio, im eigenen Keller.",
+      },
+      {
+        title: "Für wen die Alternative in Rodenkirchen passt",
+        body: "Mit 17.732 Einwohnern ist Rodenkirchen das Zentrum des Kölner Südens, und die Anfragen von hier sind oft langfristig gedacht: fit bleiben für die nächsten Jahrzehnte, nicht für den Sommer. Dazu passt Training, das Muskeln, Knochen und Koordination gemeinsam entwickelt. Wir starten mit einem kostenlosen Erstgespräch und einem Technik-Check, danach stehen zwei Einheiten pro Woche, deren Fortschritt wir alle vier bis sechs Wochen messen.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet die EMS-Alternative in Köln-Rodenkirchen?",
+        a: "50€ pro geführte Stunde im 1-zu-1, ohne Vertragslaufzeit. Online Coaching mit Plan und Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Ist EMS nicht schonender für die Gelenke?",
+        a: "Die Weste vermeidet Last, aber genau die Last ist es, an die sich Knochen, Sehnen und Gelenke anpassen. Richtig dosiertes Krafttraining beginnt leicht und steigert sich in Stufen, das ist schonend und baut gleichzeitig Substanz auf.",
+      },
+      {
+        q: "Wo trainieren wir in Rodenkirchen?",
+        a: "Bei dir zu Hause mit mitgebrachtem Material, im Studio oder draußen: am Rheinufer, im Forstbotanischen Garten oder im Friedenswald. Den Mix legen wir nach deinem Ziel und der Jahreszeit fest.",
+      },
+      {
+        q: "Ich habe schon EMS gemacht. Kann ich wechseln?",
+        a: "Ja, und der Einstieg fällt meist leicht: Die Muskulatur ist an Reize gewöhnt, es fehlen nur Technik und Lastgewöhnung. Nach dem Technik-Check bauen wir beides in wenigen Wochen auf.",
+      },
+    ],
+  },
+
+  "worringen/abnehmen": {
+    answer:
+      "Abnehmen in Köln-Worringen plane ich über das Plateau hinaus: Nach den ersten Kilos sinkt dein Verbrauch und der Fortschritt stockt, das ist normal und lösbar. Krafttraining, ein angepasstes Kalorienziel und feste Geh-Runden durch den Worringer Bruch halten die Kurve in Bewegung. 50€ pro Stunde, Erstberatung kostenlos.",
+    metaDescription:
+      "Abnehmen in Köln-Worringen: Plan gegen das Gewichts-Plateau, mit Krafttraining, angepasstem Kalorienziel und Geh-Runden im Worringer Bruch. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Das Plateau ist kein Scheitern, sondern Mathematik",
+        body: "Fast jede Abnahme stockt nach einigen Wochen, und das hat nachvollziehbare Gründe: Ein leichterer Körper verbraucht weniger, und viele bewegen sich in einer Diät unbemerkt weniger, weil die Energie fehlt. Das Defizit, das am Anfang funktionierte, ist dann einfach keins mehr. Die üblichen Reaktionen, noch weniger essen oder aufgeben, verschärfen das Problem. Mein Weg: nachrechnen, das Kalorienziel anpassen, die Alltagsbewegung bewusst halten und die Muskulatur mit Krafttraining schützen, damit der Verbrauch nicht weiter fällt als nötig.",
+      },
+      {
+        title: "Worringer Bruch und Rheinufer: Bewegung, die nicht verhandelt wird",
+        body: "Worringen ist Kölns nördlichster Stadtteil, und kaum ein Veedel hat so viel freie Fläche drumherum: 11,73 km², der Worringer Bruch als Naturschutzgebiet in einer alten Rheinschlinge und das Rheinufer Richtung Langel. Daraus machen wir feste Geh-Runden, drei bis vier pro Woche, mit Strecke und Dauer im Plan statt nach Lust und Laune. Diese Runden sind in jeder Diätphase die Konstante, die dein Verbrauch braucht, gerade wenn das Gewicht gerade stockt.",
+      },
+      {
+        title: "Krafttraining schützt, was du behalten willst",
+        body: "Wer ohne Krafttraining abnimmt, verliert neben Fett auch Muskulatur, und damit genau das Gewebe, das im Ruhezustand Energie verbraucht und nach der Diät das neue Gewicht halten soll. Deshalb gehören zwei geführte Krafteinheiten pro Woche in jeden meiner Abnehm-Pläne, bei dir zu Hause mit mitgebrachtem Material oder im Studio. Beim Essen unterstützt Natalie als Ernährungsberaterin für Sport- und Fitnessernährung: mit einem Eiweißziel und einem Kalorienrahmen, der zu deinem Alltag passt, nicht gegen ihn.",
+      },
+      {
+        title: "So sieht der Ablauf in Worringen aus",
+        body: "Im kostenlosen Erstgespräch schauen wir auf deine bisherigen Versuche: Was hat funktioniert, wo kam der Stillstand, wie sieht deine Woche aus. Danach stehen zwei Krafteinheiten pro Woche, feste Geh-Runden und ein Kalorienziel, das wir alle vier Wochen gegen die Waage und den Maßband-Umfang prüfen. Stockt der Fortschritt, wird angepasst statt verschärft. Das Ziel ist ein Gewicht, das du hältst, nicht eins, das du nur erreichst.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Abnehm-Coaching in Köln-Worringen?",
+        a: "Eine geführte 1-zu-1 Stunde kostet 50€. Online Coaching mit Trainingsplan, Kalorienziel und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch kostet nichts.",
+      },
+      {
+        q: "Mein Gewicht stockt seit Wochen. Was mache ich falsch?",
+        a: "Oft nichts. Mit sinkendem Gewicht sinkt der Verbrauch, und das alte Defizit reicht nicht mehr. Wir rechnen nach, passen Kalorienziel und Bewegung an und prüfen nach vier Wochen, ob sich die Kurve wieder bewegt.",
+      },
+      {
+        q: "Muss ich für das Training nach Worringen pendeln?",
+        a: "Nein, ich komme zu dir. Krafttraining machen wir bei dir zu Hause mit mitgebrachten Hanteln und Bändern, die Geh-Runden legst du selbst durch den Worringer Bruch oder am Rheinufer, nach Plan mit fester Strecke.",
+      },
+      {
+        q: "Wie viel kann ich realistisch abnehmen?",
+        a: "Nachhaltig sind etwa 0,5 bis 1% des Körpergewichts pro Woche, mit Plateauphasen dazwischen. Wichtiger als das Tempo ist, dass Muskulatur und Alltagsbewegung erhalten bleiben, denn die entscheiden, ob das Gewicht unten bleibt.",
+      },
+    ],
+  },
 };
 
 export function getIntentCustom(stadtteil: string, intent: string): IntentCustom | undefined {
