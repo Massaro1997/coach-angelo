@@ -310,6 +310,11 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "Ehrlich: Für das reine Lernen reichen drei bis sechs Monate. Danach kannst du die Frequenz senken oder ins Online Coaching wechseln, bei dem du nach Plan allein trainierst und wir uns einmal pro Woche kurz abstimmen. Viele bleiben trotzdem länger bei festen Terminen, aber aus einem anderen Grund: Der Termin ist die Garantie, dass das Training stattfindet. Ob dir das den Preis wert ist, kannst nur du entscheiden, und es ist völlig in Ordnung, wenn die Antwort nein lautet.",
       },
+      { type: "h2", text: "Wie sinnvoll ist ein Personal Trainer überhaupt?" },
+      {
+        type: "p",
+        text: "Die Frage hinter der Frage, deshalb beantworte ich sie gleich mit: Ein Personal Trainer ist an drei Stellen sinnvoll. Wenn du seit Monaten trainierst und sich nichts verändert, denn dann ist nicht dein Wille das Problem, sondern Plan oder Ausführung. Wenn Schmerzen oder Unsicherheit dich von den wirksamen Übungen fernhalten, weil niemand dir je Kniebeuge, Kreuzheben oder Drücken sauber beigebracht hat. Und wenn du ohne festen Termin schlicht nicht trainierst, denn die teuerste Mitgliedschaft ist die, die du nicht nutzt. Wer dagegen seit Jahren strukturiert trainiert, Fortschritte macht und sich gern selbst organisiert, braucht keinen Trainer, höchstens ab und zu einen Technik-Check. Auch das sage ich im Erstgespräch so deutlich.",
+      },
       { type: "h2", text: "Woran du merkst, dass die Frequenz falsch ist" },
       {
         type: "ul",
@@ -10171,7 +10176,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Für Menschen, die sehr viel Kontrolle von außen brauchen, die ohne eine anwesende Person kaum trainieren würden, ist Personal Training vor Ort oft sinnvoller. Das ist keine Wertung, sondern einfach ehrlich. Ich kläre das im Erstgespräch, bevor wir loslegen."
+        "text": "Für Menschen, die sehr viel Kontrolle von außen brauchen, die ohne eine anwesende Person kaum trainieren würden, ist Personal Training vor Ort oft sinnvoller. Das ist keine Wertung, sondern einfach ehrlich. Ich kläre das im Erstgespräch, bevor wir loslegen. Wie viele geführte Stunden pro Woche dann wirklich nötig sind, rechne ich im Artikel [Wie oft ist Personal Training sinnvoll?](/blog/wie-oft-personal-training-sinnvoll) vor."
       },
       {
         "type": "h2",

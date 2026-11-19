@@ -16,6 +16,8 @@ export interface FaqItem {
   shortAnswer: string;
   body: { h2: string; text: string }[];
   relatedSlugs: string[];
+  /** Link facoltativo di approfondimento, reso dopo il corpo (href interno + testo del link). */
+  weiterlesen?: { href: string; label: string };
 }
 
 export const faqCategories: { key: FaqCategory; label: string }[] = [
@@ -50,6 +52,10 @@ export const fitnessFaqs: FaqItem[] = [
       },
     ],
     relatedSlugs: ["warum-nehme-ich-nicht-ab-trotz-sport", "abnehmen-wie-schnell-realistisch", "wie-viele-kalorien-zum-abnehmen"],
+    weiterlesen: {
+      href: "/blog/wie-oft-personal-training-sinnvoll",
+      label: "Wie oft ist Personal Training sinnvoll?",
+    },
   },
   {
     slug: "warum-nehme-ich-nicht-ab-trotz-sport",

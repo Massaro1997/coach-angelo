@@ -100,6 +100,15 @@ export default async function FaqPage({
                 <p className="text-ink/70 leading-relaxed text-lg">{b.text}</p>
               </div>
             ))}
+            {f.weiterlesen && (
+              <p className="text-ink/70 leading-relaxed text-lg">
+                Mehr dazu im Artikel{" "}
+                <Link href={f.weiterlesen.href} className="font-semibold underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">
+                  {f.weiterlesen.label}
+                </Link>
+                .
+              </p>
+            )}
           </div>
 
           {/* CTA */}
