@@ -6798,15 +6798,19 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "online-coaching-vorteile-nachteile",
     "title": "Online Coaching: Vorteile und Nachteile, ein ehrlicher Blick von einem Kölner Trainer",
-    "metaTitle": "Online Coaching: Vorteile & Nachteile im Vergleich",
-    "metaDescription": "Ein Kölner Personal Trainer erklärt offen, wann Online Coaching wirklich funktioniert, und wann du besser auf persönliche Betreuung setzt.",
+    "metaTitle": "Online Coaching: Vorteile und Nachteile ehrlich erklärt",
+    "metaDescription": "Lohnt sich Online Coaching? Die echten Vorteile (Flexibilität, Preis, Dokumentation) und die Nachteile, die kaum jemand anspricht, von einem Trainer, der beides anbietet.",
     "date": "2026-06-15",
     "readMinutes": 5,
     "excerpt": "Online Coaching boomt. Aber lohnt es sich wirklich? Angelo, Personal Trainer aus Köln, erklärt klar, wann es funktioniert und wann nicht.",
     "blocks": [
       {
         "type": "p",
-        "text": "Ich bekomme die Frage oft: Lohnt sich Online Coaching überhaupt, oder ist das nur Trainingsplan per PDF und fertig? Gute Frage. Ich arbeite mit Klienten in Köln vor Ort und gleichzeitig mit Menschen, die ich nie persönlich getroffen habe. Beide Modelle funktionieren, aber nicht für jeden. Hier erkläre ich dir ohne Marketingsprache, was Online Coaching wirklich bedeutet, wo es glänzt und wo es seine Grenzen hat."
+        "text": "Die ehrliche Kurzfassung: Online Coaching lohnt sich, wenn du eigenständig trainieren kannst und bereit bist, Videos und Feedback einzuschicken. Dann bekommst du individuelle Betreuung zu einem deutlich niedrigeren Preis als vor Ort und völlig unabhängig von Ort und Terminen. Es lohnt sich nicht, wenn du Übungen noch nie korrekt gelernt hast, Verletzungen mitbringst oder ohne eine Person neben dir nicht ins Tun kommst."
+      },
+      {
+        "type": "p",
+        "text": "Ich bekomme die Frage oft: Lohnt sich Online Coaching überhaupt, oder ist das nur Trainingsplan per PDF und fertig? Gute Frage. Ich arbeite mit Klienten in Köln vor Ort und gleichzeitig mit Menschen, die ich nie persönlich getroffen habe. Beide Modelle funktionieren, aber nicht für jeden. Hier erkläre ich dir ohne Marketingsprache, was Online Coaching wirklich bedeutet, wo es glänzt und wo es seine Grenzen hat. Wie so ein Coaching Schritt für Schritt abläuft, vom Erstgespräch bis zu den Check-ins, steht im Artikel [Online Fitness Coaching: Wie funktioniert es?](/blog/online-fitness-coaching-wie-funktioniert-es)."
       },
       {
         "type": "h2",
@@ -6926,7 +6930,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Online Coaching ist kein schlechteres Training, es ist ein anderes Format mit eigenen Stärken und klaren Grenzen. Wer selbstständig arbeitet, kommunikationsbereit ist und grundlegende Bewegungserfahrung mitbringt, kann damit sehr weit kommen. Wer Unterstützung braucht, um den ersten Schritt zu machen, oder körperliche Einschränkungen hat, ist erst einmal besser mit persönlicher Begleitung aufgehoben. Wenn du dir nicht sicher bist, welches Format zu dir passt, dann lass uns kurz darüber reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam herausfinden, was für dich wirklich Sinn macht, ohne Verkaufsblabla, versprochen. Schreib mir einfach über fitprimo.de."
+        "text": "Online Coaching ist kein schlechteres Training, es ist ein anderes Format mit eigenen Stärken und klaren Grenzen. Wer selbstständig arbeitet, kommunikationsbereit ist und grundlegende Bewegungserfahrung mitbringt, kann damit sehr weit kommen. Wer Unterstützung braucht, um den ersten Schritt zu machen, oder körperliche Einschränkungen hat, ist erst einmal besser mit persönlicher Begleitung aufgehoben. Was mein [Online Coaching](/leistungen/online-coaching) konkret enthält, ab 150 Euro im Monat, findest du auf der Leistungsseite. Und wenn du dir nicht sicher bist, welches Format zu dir passt, dann lass uns kurz darüber reden: Ich biete ein [kostenloses Erstgespräch](/contatti) an, in dem wir gemeinsam herausfinden, was für dich wirklich Sinn macht, ohne Verkaufsblabla, versprochen."
       }
     ]
   },
