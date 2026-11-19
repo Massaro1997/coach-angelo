@@ -10057,15 +10057,27 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "online-fitness-coaching-wie-funktioniert-es",
     "title": "Online Fitness Coaching: Wie funktioniert es wirklich und für wen lohnt es sich?",
-    "metaTitle": "Online Fitness Coaching: Wie funktioniert es wirklich?",
-    "metaDescription": "Online Coaching Fitness: Wie funktioniert es, was passiert Schritt für Schritt und für wen lohnt es sich wirklich? Angelo, PT aus Köln, erklärt es konkret.",
+    "metaTitle": "Online Fitness Coaching: Ablauf, Kosten, für wen es passt",
+    "metaDescription": "Online Fitness Coaching heißt: echter Trainer, individueller Plan, wöchentliche Check-ins, digital statt vor Ort. Angelo aus Köln erklärt Ablauf, Kosten und für wen es sich lohnt.",
     "date": "2026-06-16",
-    "readMinutes": 5,
-    "excerpt": "Online Coaching klingt abstrakt, ist es aber nicht. Angelo, Personal Trainer aus Köln, erklärt den genauen Ablauf und zeigt, wer wirklich davon profitiert.",
+    "readMinutes": 6,
+    "excerpt": "Online Coaching klingt abstrakt, ist es aber nicht. Angelo, Personal Trainer aus Köln, erklärt den genauen Ablauf, die ehrlichen Kosten und zeigt, wer wirklich davon profitiert.",
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort vorweg: Online Fitness Coaching bedeutet, dass ein echter Trainer deinen individuellen Trainings- und Ernährungsplan erstellt, deine Fortschritte jede Woche auswertet und per Chat und Video-Check-in erreichbar bleibt. Nur der Kanal ist digital, die Betreuung ist persönlich. Seriöses Coaching kostet in Deutschland meist zwischen 100 und 300 Euro im Monat, bei mir startet es ab 150 Euro."
+      },
+      {
+        "type": "p",
         "text": "Viele fragen mich dasselbe: Online Coaching, ist das nicht einfach ein PDF-Plan per E-Mail? Nein. Ganz und gar nicht. Ich bin Angelo, Personal Trainer aus Köln, und ich begleite Klienten sowohl vor Ort als auch online. Der Unterschied zwischen einem anonymen Onlineplan und echtem Online Coaching ist riesig. Ich erkläre dir hier Schritt für Schritt, wie das bei mir wirklich abläuft und ob es für dich Sinn macht."
+      },
+      {
+        "type": "h2",
+        "text": "Was Fitness Coaching überhaupt bedeutet"
+      },
+      {
+        "type": "p",
+        "text": "Der Begriff Fitness Coaching wird für fast alles benutzt, vom Gruppenkurs bis zur App. Gemeint ist im Kern aber etwas Bestimmtes: Eine Person mit Ausbildung und Erfahrung übernimmt die Planung und die Steuerung deines Trainings, statt dir nur Übungen vorzumachen. Ein Coach fragt zuerst, warum du bisher nicht weitergekommen bist, und baut dann Training, Ernährung und Alltag zu einem Plan zusammen, den du durchhalten kannst. Ob das vor Ort im Studio passiert oder online über Check-ins, ist eine Frage des Formats, nicht der Qualität. Genau deshalb lohnt es sich, beide Varianten zu kennen, bevor du dich entscheidest."
       },
       {
         "type": "h2",
@@ -10159,6 +10171,22 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Was Online Fitness Coaching kostet"
+      },
+      {
+        "type": "p",
+        "text": "Konkrete Zahlen, weil die kaum jemand nennt: Seriöses Online Coaching mit individuellem Plan und wöchentlicher Betreuung liegt in Deutschland meist zwischen 100 und 300 Euro im Monat. Bei mir startet es ab 150 Euro monatlich, mit Trainingsplan, Ernährungssteuerung und Video-Check-ins. Zum Vergleich: Eine einzelne Personal-Training-Stunde vor Ort kostet bei mir 50 Euro, ein Monat mit zwei Terminen pro Woche also deutlich mehr als das komplette Online-Paket. Billig-Angebote unter 50 Euro im Monat sind fast immer Vorlagenpläne ohne echte Betreuung. Wie sich die Preise fürs Training vor Ort zusammensetzen, habe ich im Artikel [Was kostet ein Personal Trainer in Köln?](/blog/was-kostet-personal-trainer-koeln) aufgeschlüsselt."
+      },
+      {
+        "type": "h2",
+        "text": "Woran du einen guten Online Fitness Coach erkennst"
+      },
+      {
+        "type": "p",
+        "text": "Der Markt ist voll mit selbsternannten Coaches, deshalb hier meine ehrliche Checkliste. Ein guter Online Fitness Coach will vor dem Vertrag ein echtes Gespräch, keinen anonymen Fragebogen. Er nennt seine Qualifikation und seine Preise offen, statt sie hinter einem Verkaufsgespräch zu verstecken. Er verspricht dir keinen Körper in vier Wochen, sondern erklärt, welcher Zeitraum realistisch ist. Und er passt deinen Plan nachweislich an, du merkst also nach jedem Check-in, dass jemand deine Rückmeldungen gelesen hat. Wenn einer dieser Punkte fehlt, zahlst du für einen PDF-Plan mit Logo."
+      },
+      {
+        "type": "h2",
         "text": "Häufige Missverständnisse, die ich immer wieder höre"
       },
       {
@@ -10195,7 +10223,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Online Coaching ist kein Ersatz für Motivation, die du selbst mitbringen musst. Aber es gibt dir die Struktur, das Wissen und die Begleitung, die du brauchst, um wirklich voranzukommen. Wenn du wissen willst, ob es für dich passt, lade ich dich zu einem kostenlosen Erstgespräch ein. Kein Druck, keine Verpflichtung, nur ein ehrliches Gespräch darüber, wo du stehst und was möglich ist. Das Erstgespräch buchst du direkt unter diesem Artikel."
+        "text": "Online Coaching ist kein Ersatz für Motivation, die du selbst mitbringen musst. Aber es gibt dir die Struktur, das Wissen und die Begleitung, die du brauchst, um wirklich voranzukommen. Was mein [Online Coaching](/leistungen/online-coaching) genau enthält und was es kostet, steht auf der Leistungsseite. Wenn du wissen willst, ob es für dich passt, lade ich dich zu einem kostenlosen Erstgespräch ein. Kein Druck, keine Verpflichtung, nur ein ehrliches Gespräch darüber, wo du stehst und was möglich ist. Das Erstgespräch buchst du direkt unter diesem Artikel."
       }
     ]
   },
