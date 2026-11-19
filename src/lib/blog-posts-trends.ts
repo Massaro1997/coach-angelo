@@ -8194,16 +8194,24 @@ export const trendPosts: BlogPost[] = [
   },
   {
     "slug": "skinny-fat-training-ernaehrung",
-    "title": "Skinny Fat: Schlank angezogen, weich ausgezogen? So kommst du da raus",
-    "metaTitle": "Skinny Fat: Training und Ernährung, die es lösen",
-    "metaDescription": "Skinny Fat heißt: normales Gewicht, wenig Muskeln, weiche Mitte. Warum Diäten das Problem verschlimmern und welcher Plan aus Kraft und Protein es löst.",
-    "date": "2026-07-09",
-    "readMinutes": 6,
-    "excerpt": "Normales Gewicht, aber weich am Bauch und dünn an Armen und Schultern: Skinny Fat ist ein Muskelproblem, kein Gewichtsproblem. Und genau deshalb lösen Diäten es nie.",
+    "title": "Skinny Fat loswerden: Warum Diäten scheitern und was wirklich hilft",
+    "metaTitle": "Skinny Fat loswerden: Der Plan aus Kraft und Eiweiß",
+    "metaDescription": "Skinny Fat loswerden heißt aufbauen, nicht abnehmen: Selbsttest, der Plan aus Krafttraining und Eiweiß und was Frauen und Männer unterscheidet.",
+    "date": "2026-11-19",
+    "readMinutes": 7,
+    "excerpt": "Normales Gewicht, aber weich am Bauch und dünn an Armen und Schultern: Skinny Fat ist ein Muskelproblem, kein Gewichtsproblem. Und genau deshalb lösen Diäten es nie. Hier steht der Selbsttest und der Plan, der herausführt.",
     "blocks": [
       {
         "type": "p",
-        "text": "Skinny Fat löst du nicht mit einer Diät, sondern mit Krafttraining und Eiweiß. Der Zustand, schlank in Kleidung, aber weich und konturlos ohne, entsteht durch zu wenig Muskelmasse bei gleichzeitig zu viel Körperfett. Dein Gewicht ist normal, dein BMI unauffällig, aber die Zusammensetzung stimmt nicht. Wenn du jetzt eine Diät machst, verlierst du neben Fett auch noch die wenige Muskulatur, die du hast, und wirst danach eine kleinere, immer noch weiche Version deiner selbst. Der Ausweg geht in die andere Richtung: aufbauen statt abnehmen."
+        "text": "Skinny Fat wirst du nicht mit einer Diät los, sondern mit Krafttraining und Eiweiß. Der Zustand, schlank in Kleidung, aber weich und konturlos ohne, entsteht durch zu wenig Muskelmasse bei gleichzeitig zu viel Körperfett. Dein Gewicht ist normal, dein BMI unauffällig, aber die Zusammensetzung stimmt nicht. Wenn du jetzt eine Diät machst, verlierst du neben Fett auch noch die wenige Muskulatur, die du hast, und wirst danach eine kleinere, immer noch weiche Version deiner selbst. Der Ausweg geht in die andere Richtung: aufbauen statt abnehmen. Wie das konkret aussieht, steht in diesem Artikel, inklusive Selbsttest und dem Unterschied zwischen Männern und Frauen."
+      },
+      {
+        "type": "h2",
+        "text": "Bin ich skinny fat? Der ehrliche Selbsttest"
+      },
+      {
+        "type": "p",
+        "text": "Drei Merkmale zusammen ergeben das Bild. Erstens: Dein Gewicht und dein BMI sind normal, niemand würde dich dick nennen. Zweitens: Trotzdem ist die Mitte weich, der Bauchumfang ist im Verhältnis zur Körpergröße hoch. Als Faustregel gilt: Der Bauchumfang auf Nabelhöhe sollte weniger als die Hälfte deiner Körpergröße betragen, bei 180 Zentimetern also unter 90. Drittens: Arme, Schultern und Beine wirken dünn, es fehlt sichtbare Muskulatur, und im Gym wärst du bei den Grundübungen deutlich schwächer als der Durchschnitt. Wer alle drei Punkte abnickt, ist mit hoher Wahrscheinlichkeit skinny fat. Wer nur Punkt zwei erfüllt und insgesamt zu viel wiegt, hat ein klassisches Abnehmthema, und das ist ein anderer Plan."
       },
       {
         "type": "h2",
@@ -8241,7 +8249,15 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Was hier passiert, ist eine klassische Body Recomposition, und Skinny-Fat-Männer sind dafür ideale Kandidaten. Als Anfänger reagiert deine Muskulatur stark auf die ersten strukturierten Reize, während der leicht erhöhte Fettanteil als Energiereserve dient. Die ersten sechs Monate sind das Fenster, in dem du gleichzeitig aufbauen und straffen kannst, so leicht wie nie wieder danach."
+        "text": "Was hier passiert, ist eine klassische Body Recomposition, und Skinny-Fat-Körper sind dafür ideale Kandidaten. Als Anfänger reagiert deine Muskulatur stark auf die ersten strukturierten Reize, während der leicht erhöhte Fettanteil als Energiereserve dient. Die ersten sechs Monate sind das Fenster, in dem du gleichzeitig aufbauen und straffen kannst, so leicht wie nie wieder danach. In der Praxis sieht die Woche so aus: Montag, Mittwoch, Freitag je 45 bis 60 Minuten Ganzkörpertraining mit je einer Übung aus Beugen, Drücken, Ziehen und Heben, drei Arbeitssätze pro Übung. An den freien Tagen Schritte sammeln, mehr nicht. Cardio-Marathons sind in dieser Phase kontraproduktiv, sie fressen Regeneration, die der Muskelaufbau braucht."
+      },
+      {
+        "type": "h2",
+        "text": "Skinny fat als Frau: gleiches Prinzip, anderer Weg hinein"
+      },
+      {
+        "type": "p",
+        "text": "Bei Frauen entsteht der Zustand oft über einen anderen Weg: Jahre mit wenig Essen und viel Cardio. Wer dauerhaft mit 1.200 bis 1.400 Kalorien lebt und dreimal pro Woche joggt, aber nie Widerstand trainiert, hält das Gewicht und verliert trotzdem Jahr für Jahr Muskulatur. Das Ergebnis ist dasselbe Muster: normale Kleidergröße, aber wenig Spannung an Armen, Beinen und Po. Die Lösung ist identisch mit der für Männer, und sie fühlt sich für viele Frauen zunächst falsch an: mehr essen, schwerer trainieren. Die Angst, durch Krafttraining massig zu werden, ist unbegründet, dafür fehlen Frauen schlicht die hormonellen Voraussetzungen. Was stattdessen passiert, zeigen die [Vorher-Nachher-Verläufe von Frauen im Krafttraining](/blog/krafttraining-frauen-vorher-nachher): festere Form bei gleichem oder leicht höherem Gewicht."
       },
       {
         "type": "h2",
@@ -8253,7 +8269,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Falls du gerade nicht sicher bist, ob du skinny fat bist oder einfach abnehmen solltest: Das lässt sich in einem kurzen Gespräch mit ein paar Messungen klären. Meine Erstberatung ist kostenlos, dauert 30 bis 45 Minuten, und du bekommst von mir eine ehrliche Einordnung plus die ersten konkreten Schritte. Schreib mir, wenn du so weit bist."
+        "text": "Falls du nach dem Selbsttest nicht sicher bist, ob du skinny fat bist oder einfach abnehmen solltest: Das lässt sich in einem kurzen Gespräch mit ein paar Messungen klären. Meine Erstberatung beim [Personal Training in Köln](/personal-trainer-koeln) ist kostenlos, dauert 30 bis 45 Minuten, und du bekommst eine ehrliche Einordnung plus die ersten konkreten Schritte. Beim Ernährungsteil schaut Natalie von der [Ernährungsberatung](/leistungen/ernaehrungsberatung) mit drauf. Schreib mir, wenn du so weit bist."
       }
     ]
   },
