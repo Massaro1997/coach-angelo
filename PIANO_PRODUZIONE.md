@@ -394,8 +394,12 @@ Fatti:
 | /blog/knieschmerzen-treppe-runtergehen-uebungen | cluster «treppen runter/abwärts» ~190 impr, pos 60-80 | 75 (18/11) |
 | /blog/wie-oft-personal-training-sinnvoll | «wie oft personal training sinnvoll» 36 impr pos 72 | 75 (18/11) |
 | /blog/haengende-schultern-korrigieren-uebungen | «hängende schultern (mann)» 51 impr pos 19-65 | 75 (18/11) |
+| /blog/mit-muskelkater-trainieren | cluster «(mit) muskelkater (trotzdem) trainieren/sport» ~30 impr pos ~80 | 76 (19/11) |
+| /blog/stressbauch-erkennen-symptome | cluster «stressbauch / stress bauch erkennen/symptome» ~59 impr pos 58-88 | 76 (19/11) |
 
-Candidate valutate e scartate (già coperte): «skinny fat» (skinny-fat-training-ernaehrung), «muskelabbau im alter» (sarkopenie-...), «warum nehm ich trotz sport nicht ab» (gewicht-stagniert + FAQ), «rückenfitness im unternehmen» (B2B non offerto).
+Riscritte in modo sostanziale su cluster GSC (giro 76, 19/11): /blog/krafttraining-anfaenger-gym-plan (cluster «erster tag/erstes mal fitnessstudio, gym/krafttraining anfänger» ~53 impr pos 24-59: risposta diretta, checklist primo giorno, 2 sezioni nuove, meta su «Erster Tag im Fitnessstudio»); /blog/muskelaufbau-ernaehrung-plan-anfaenger (cluster «ernährungsplan muskelaufbau (beispiel/erstellen)» ~127 impr pos 40-60: tabella Beispiel-Tag, sezione «in 4 Schritten selbst erstellen», CTA con Natalie verso /leistungen/ernaehrungsberatung).
+
+Candidate valutate e scartate (già coperte): «skinny fat» (skinny-fat-training-ernaehrung), «muskelabbau im alter» (sarkopenie-...), «warum nehm ich trotz sport nicht ab» (gewicht-stagniert + FAQ), «rückenfitness im unternehmen» (B2B non offerto), «erster tag im fitnessstudio» come articolo NUOVO (krafttraining-anfaenger-gym-plan ha già quel title a pos ~25: un secondo articolo si cannibalizzava, si è rafforzato quello — giro 76), «dehnen nach krafttraining / mobility vor oder nach training» (dehnen-oder-mobility-unterschied li copre, pos ~26), «hüftbeuger/steife hüfte» (huefte-beweglichkeit-uebungen), «schmerzen in den beinen beim treppensteigen» (sospetto vascolare, tema medico: non nostro).
 
 ## 3. Zone confermate (comuni fuori Colonia, SOLO scritti da Calogero)
 
