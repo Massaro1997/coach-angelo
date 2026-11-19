@@ -5291,12 +5291,16 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "hueftschmerzen-sitzen-uebungen",
     "title": "Hüftschmerzen vom Sitzen: Übungen für deine eingerostete Hüfte",
-    "metaTitle": "Hüftschmerzen vom Sitzen: Übungen für mehr Beweglichkeit",
-    "metaDescription": "Steife, schmerzende Hüfte vom Bürostuhl? Diese Übungen öffnen deinen Hüftbeuger, aktivieren dein Gesäß und bringen dich schmerzfreier durch den Alltag.",
+    "metaTitle": "Hüftschmerzen beim Sitzen: Übungen, die wirklich öffnen",
+    "metaDescription": "Hüftschmerzen beim Sitzen kommen meist vom verkürzten Hüftbeuger und schwachem Gesäß. Fünf Übungen, Dehnungen für Büro und Auto und was bei Hüftarthrose am Stuhl wirklich hilft.",
     "date": "2026-07-03",
-    "readMinutes": 6,
+    "readMinutes": 7,
     "excerpt": "Du stehst nach einem langen Meeting auf und die ersten Schritte fühlen sich an, als wärst du 30 Jahre gealtert? Das ist deine Hüfte, die stundenlang in derselben gebeugten Position festgehalten wurde. Ich zeige dir die Übungen, die bei meinen Bürokunden am zuverlässigsten wirken.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort zuerst: Hüftschmerzen beim oder nach dem Sitzen entstehen in den meisten Fällen durch einen dauerverkürzten Hüftbeuger und ein Gesäß, das im Sitzen nichts zu tun hat. Beides lässt sich mit einer Routine aus Dehnung und Kräftigung von acht bis zehn Minuten am Tag zuverlässig verbessern, die erste Erleichterung kommt oft schon nach wenigen Tagen. Welche Übungen das sind und was du im Büro, im Auto und bei Hüftarthrose konkret machst, steht hier."
+      },
       {
         "type": "p",
         "text": "Kennst du diesen Moment: Drei Stunden Videokonferenz, du stehst auf, und die ersten Schritte zum Kaffeeautomaten fühlen sich an wie mit einem fremden, viel älteren Körper? Vorne an der Hüfte zieht es, die Schritte sind kurz, erst nach ein paar Metern läuft es sich wieder normal. Das erzählen mir Bürokunden in Köln ständig, und es hat eine erstaunlich simple Erklärung."
@@ -5349,6 +5353,22 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Hüftbeuger dehnen im Sitzen: was geht und was nicht"
+      },
+      {
+        "type": "p",
+        "text": "Viele suchen nach Dehnübungen für den Hüftbeuger, die im Sitzen funktionieren, fürs Großraumbüro oder die lange Autofahrt. Die ehrliche Antwort: Im Sitzen kannst du den Hüftbeuger nicht dehnen, denn Sitzen ist genau die Position, in der er verkürzt ist. Dafür musst du die Hüfte strecken, also aufstehen. Was im Sitzen sehr wohl geht: das Gesäß dehnen. Leg dazu den rechten Knöchel auf das linke Knie, richte den Rücken auf und beuge dich mit geradem Oberkörper leicht nach vorn, 30 bis 45 Sekunden pro Seite, das entlastet die Hüfte spürbar. Und die kleinste wirksame Hüftbeuger-Dehnung für zwischendurch braucht nur deinen Stuhl: Stell dich hin, setz einen Fuß auf die Sitzfläche, schieb das Becken nach vorn, 20 Sekunden pro Seite. Das fällt selbst im Büro kaum auf und unterbricht die Verkürzung dort, wo sie entsteht."
+      },
+      {
+        "type": "h2",
+        "text": "Richtig sitzen mit Hüftarthrose"
+      },
+      {
+        "type": "p",
+        "text": "Bei einer diagnostizierten Hüftarthrose gelten ein paar zusätzliche Regeln, die mir Kunden nach ihrer Physiotherapie immer wieder bestätigen: Sitz hoch, nicht tief. Die Hüfte sollte beim Sitzen höher stehen als die Knie, denn je tiefer der Stuhl, desto stärker die Beugung und der Druck im Gelenk. Tiefe Sofas und niedrige Autositze sind die üblichen Schmerzauslöser, ein Keilkissen oder eine höhere Stuhleinstellung helfen sofort. Dazu: Beine nicht übereinanderschlagen, beide Füße am Boden, und spätestens alle 30 bis 45 Minuten aufstehen, denn ein arthrotisches Gelenk mag Bewegung und hasst Dauerpositionen. Die Übungen aus diesem Artikel darfst du mit Arthrose in schmerzfreiem Rahmen machen, die Belastungssteigerung gehört aber in Absprache mit Arzt oder Physiotherapie, das ist nicht mein Feld als Trainer."
+      },
+      {
+        "type": "h2",
         "text": "Im Büro: die Zwei Minuten Regel"
       },
       {
@@ -5365,7 +5385,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die Hüfte ist für mich das unterschätzteste Gelenk bei Büromenschen: Wenn sie wieder frei wird, verbessern sich oft auch unterer Rücken und Knie gleich mit, weil die Nachbarn nicht mehr kompensieren müssen. Es lohnt sich also doppelt, hier dranzubleiben, auch wenn zehn Minuten Routine unspektakulär klingen."
+        "text": "Die Hüfte ist für mich das unterschätzteste Gelenk bei Büromenschen: Wenn sie wieder frei wird, verbessern sich oft auch unterer Rücken und Knie gleich mit, weil die Nachbarn nicht mehr kompensieren müssen. Es lohnt sich also doppelt, hier dranzubleiben, auch wenn zehn Minuten Routine unspektakulär klingen. Wenn deine Hüfte nicht wehtut, sondern vor allem steif ist, findest du im Artikel [Steife Hüfte: Beweglichkeit verbessern](/blog/huefte-beweglichkeit-uebungen) das passende Aufbauprogramm."
       },
       {
         "type": "p",
