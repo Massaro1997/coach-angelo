@@ -4944,7 +4944,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Aber, und das ist der entscheidende Punkt: Der größte Teil der Gewichtszunahme ab 40 kommt nicht aus dieser Biologie, sondern aus dem Leben drumherum. Weniger Bewegung im Alltag, mehr Auto, mehr Sitzen, mehr Geschäftsessen, mehr Stress, weniger Schlaf. Die Kalorien bleiben, der Verbrauch sinkt. Die Biologie gibt den Rahmen vor, das Verhalten füllt ihn."
+        "text": "Aber, und das ist der entscheidende Punkt: Der größte Teil der Gewichtszunahme ab 40 kommt nicht aus dieser Biologie, sondern aus dem Leben drumherum. Weniger Bewegung im Alltag, mehr Auto, mehr Sitzen, mehr Geschäftsessen, mehr Stress, weniger Schlaf. Die Kalorien bleiben, der Verbrauch sinkt. Die Biologie gibt den Rahmen vor, das Verhalten füllt ihn. Wie du daraus einen Plan machst, der in deinen Alltag passt, steht im Artikel [Abnehmen für Männer ab 40](/blog/abnehmen-maenner-ab-40)."
       },
       {
         "type": "h2",
@@ -7628,7 +7628,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein Mann mit 105 Kilo und ordentlichem Bauch kann mit diesem Plan realistisch 0,5 bis 1 Kilo Fett pro Woche verlieren. Für 10 Zentimeter weniger Bauchumfang brauchst du grob drei bis sechs Monate. Jeder, der dir schnellere Ergebnisse verspricht, verkauft dir entweder Wasserverlust oder Muskelabbau. Das Gute: Viszerales Fett reagiert als erstes auf ein Defizit. Deine Blutwerte und dein Energielevel verbessern sich oft schon nach vier bis sechs Wochen, lange bevor der Spiegel dich zufriedenstellt."
+        "text": "Ein Mann mit 105 Kilo und ordentlichem Bauch kann mit diesem Plan realistisch 0,5 bis 1 Kilo Fett pro Woche verlieren. Für 10 Zentimeter weniger Bauchumfang brauchst du grob drei bis sechs Monate. Jeder, der dir schnellere Ergebnisse verspricht, verkauft dir entweder Wasserverlust oder Muskelabbau. Das Gute: Viszerales Fett reagiert als erstes auf ein Defizit. Deine Blutwerte und dein Energielevel verbessern sich oft schon nach vier bis sechs Wochen, lange bevor der Spiegel dich zufriedenstellt. Den kompletten Fahrplan mit Training, Eiweiß und Alltag findest du im Artikel [Abnehmen für Männer ab 40](/blog/abnehmen-maenner-ab-40)."
       },
       {
         "type": "p",

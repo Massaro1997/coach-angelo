@@ -23,6 +23,75 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "abnehmen-maenner-ab-40",
+    title: "Abnehmen für Männer ab 40: Der Plan, der zum Alltag passt",
+    metaTitle: "Abnehmen für Männer ab 40: So klappt es wirklich",
+    metaDescription:
+      "Abnehmen ab 40 funktioniert anders als mit 25: Krafttraining statt Hungern, Eiweiß, Schritte und ein Defizit, das du durchhältst. Der komplette Plan.",
+    date: "2026-11-19",
+    readMinutes: 7,
+    excerpt:
+      "Mit 40 nimmst du nicht mehr ab wie mit 25, aber nicht aus den Gründen, die du vermutest. Der Stoffwechsel ist selten das Problem. Hier ist der Plan, der bei meinen Kunden funktioniert: Krafttraining, Eiweiß, Schritte und ein Defizit, das den Namen verdient.",
+    blocks: [
+      {
+        type: "p",
+        text: "Abnehmen als Mann ab 40 funktioniert über vier Hebel: Krafttraining zwei- bis dreimal pro Woche, damit die Muskulatur bleibt, etwa 2 Gramm Eiweiß pro Kilo Körpergewicht, ein moderates Kaloriendefizit von 300 bis 500 kcal und 8.000 bis 10.000 Schritte am Tag. Was nicht funktioniert: hungern und joggen. Genau das haben die meisten Männer, die zu mir kommen, schon zwei- oder dreimal versucht, und jedes Mal kam das Gewicht zurück. In diesem Artikel bekommst du den Plan in der Reihenfolge, in der er umgesetzt wird, und die ehrliche Antwort, wie schnell es geht.",
+      },
+      {
+        type: "h2",
+        text: "Warum Abnehmen ab 40 anders läuft als mit 25",
+      },
+      {
+        type: "p",
+        text: "Der Stoffwechsel bricht mit 40 nicht ein. Große Vergleichsstudien zeigen, dass der Energieverbrauch pro Kilo Körpermasse zwischen 20 und 60 erstaunlich stabil bleibt. Was sich wirklich ändert, sind drei Dinge: Du hast über die Jahre unbemerkt Muskelmasse verloren, wenn du nie Krafttraining gemacht hast. Dein Alltag ist bewegungsärmer geworden, vom Fußballplatz ins Büro, vom Fahrrad ins Auto. Und dein Leben lässt weniger Raum für Extremprogramme: Job, Familie, Termine. Die Details dazu stehen im Artikel [Stoffwechsel beim Mann ab 40](/blog/stoffwechsel-mann-ab-40-veraenderung). Die Konsequenz für den Plan: Er muss die Muskeln schützen und in einen vollen Kalender passen, sonst hält er keine sechs Wochen.",
+      },
+      {
+        type: "h2",
+        text: "Hebel 1: Krafttraining kommt vor Cardio",
+      },
+      {
+        type: "p",
+        text: "Wenn du ab 40 nur über Essen und Joggen abnimmst, stammen schnell 25 bis 40 Prozent des verlorenen Gewichts aus Muskelmasse. Das Ergebnis kennst du vielleicht: weniger Kilo auf der Waage, aber kein besseres Bild im Spiegel, und nach der Diät geht die Zunahme schneller als vorher. Krafttraining dreht das um. Zwei bis drei Ganzkörpereinheiten pro Woche mit Beugen, Drücken, Ziehen und Heben signalisieren deinem Körper, dass die Muskulatur gebraucht wird, und das Defizit bedient sich am Fett. Mehr als 45 bis 60 Minuten pro Einheit braucht es nicht. Cardio ist das Sahnehäubchen, nicht die Basis: Ein bis zwei lockere Ausdauereinheiten oder einfach konsequent Schritte sammeln reichen völlig.",
+      },
+      {
+        type: "h2",
+        text: "Hebel 2: Eiweiß zuerst, dann der Rest vom Teller",
+      },
+      {
+        type: "p",
+        text: "2 Gramm Eiweiß pro Kilo Körpergewicht klingen nach viel, sind aber der Unterschied zwischen Fettabbau und Muskelabbau. Für einen 90-Kilo-Mann heißt das etwa 180 Gramm am Tag, verteilt auf drei bis vier Mahlzeiten mit je 30 bis 40 Gramm. Praktisch: Eier oder Skyr am Morgen, eine Handfläche Fleisch oder Fisch mittags und abends, dazu Quark, Hülsenfrüchte oder ein Shake, wenn eine Mahlzeit schwächelt. Eiweiß sättigt außerdem am stärksten von allen Nährstoffen, der Heißhunger am Abend wird spürbar leiser. Erst wenn das Eiweiß steht, kümmerst du dich um Kalorien: 300 bis 500 kcal unter deinem Verbrauch, nicht mehr. Ein größeres Defizit fühlt sich zwei Wochen heldenhaft an und endet am Kühlschrank.",
+      },
+      {
+        type: "h2",
+        text: "Hebel 3: Der Alltag entscheidet, nicht die Trainingsstunde",
+      },
+      {
+        type: "p",
+        text: "Drei Stunden Training pro Woche sind 2 Prozent deiner Woche. Die anderen 98 Prozent entscheiden, ob das Defizit real ist. Zwei Stellschrauben wirken bei Männern ab 40 am stärksten. Erstens Schritte: 8.000 bis 10.000 am Tag, getrackt mit dem Handy, verbrennen mehr als jede Jogging-Einheit, die du dreimal verschiebst. Treppen statt Aufzug, ein Telefonat im Gehen, abends eine Runde um den Block. Zweitens Getränke und Wochenende: Bier, Wein, Softdrinks und das lockere Wochenende können ein sauberes Wochendefizit komplett löschen. Du musst nichts davon streichen, aber zählen musst du es. Ein geplantes freies Essen pro Woche ist drin, 48 freie Stunden sind es nicht.",
+      },
+      {
+        type: "h2",
+        text: "Was du in welchem Monat erwarten kannst",
+      },
+      {
+        type: "p",
+        text: "Realistisch sind 0,5 bis 1 Prozent des Körpergewichts pro Woche, für einen 95-Kilo-Mann also zwei bis vier Kilo im Monat. Monat eins läuft oft schneller, davon ist ein Teil Wasser. Ab Monat zwei wird es unspektakulär, und genau da entscheidet sich alles: Die Waage schwankt, einzelne Tage zeigen Plus, der Wochendurchschnitt zählt. Nach drei Monaten sitzen Hemden anders und der Gürtel ein Loch enger. Nach sechs Monaten sind 10 bis 15 Kilo möglich, ohne dass du ein einziges Mal gehungert hast. Wenn die Waage trotz Training stillsteht, liegt es fast immer an einem von [fünf typischen Gründen](/blog/gewicht-stagniert-trotz-training), nicht am Stoffwechsel.",
+      },
+      {
+        type: "h2",
+        text: "Die häufigsten Fragen von Männern ab 40",
+      },
+      {
+        type: "p",
+        text: "Warum nehme ich ab 40 nicht mehr ab wie früher? Weil Muskelmasse fehlt und der Alltag bewegungsärmer ist, nicht weil der Stoffwechsel kaputt ist. Beides lässt sich ändern. Welcher Sport ist zum Abnehmen ab 40 am besten? Krafttraining, kombiniert mit Alltagsbewegung. Es schützt die Muskulatur, hält den Verbrauch oben und ist gelenkschonender als die meisten denken. Muss ich auf Bier verzichten? Nein, aber es zählt. Zwei, drei Bier am Wochenende passen in ein geplantes Defizit, jeden Abend zwei nicht. Und wenn der Bauch das Hauptproblem ist: Für den gibt es keinen Spezialtrick, nur das Gesamtpaket. Wie das konkret aussieht, steht im Artikel [Bierbauch loswerden](/blog/bierbauch-loswerden-mann).",
+      },
+      {
+        type: "p",
+        text: "Wenn du das alles schon mal gelesen hast und es trotzdem nie länger als sechs Wochen gehalten hat, ist das kein Wissensproblem, sondern ein Umsetzungsproblem. Genau dafür gibt es mich. Beim [Personal Training in Köln](/personal-trainer-koeln) bauen wir den Plan um deinen Kalender, nicht umgekehrt, und bei den Ernährungsfragen schaut Natalie mit drauf. Das Erstgespräch ist kostenlos, dauert 30 bis 45 Minuten und verpflichtet dich zu nichts: Danach weißt du, wo du stehst und womit du anfängst.",
+      },
+    ],
+  },
+  {
     slug: "mit-muskelkater-trainieren",
     title: "Mit Muskelkater trainieren: Wann es okay ist und wann du pausieren solltest",
     metaTitle: "Mit Muskelkater trainieren: Wann ja, wann besser nicht",
