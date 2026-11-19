@@ -4067,16 +4067,17 @@ export const trendPosts: BlogPost[] = [
   },
   {
     "slug": "huefte-beweglichkeit-uebungen",
-    "title": "Beweglichkeit der Hüfte verbessern: Tests und Übungen gegen die steife Hüfte",
-    "metaTitle": "Beweglichkeit Hüfte: Übungen und Tests gegen Steifheit",
-    "metaDescription": "Beweglichkeit der Hüfte verbessern: 2 einfache Selbsttests und 5 progressive Übungen gegen die steife Hüfte vom vielen Sitzen. Mit klarem Wochenplan.",
-    "date": "2026-06-29",
-    "readMinutes": 7,
-    "excerpt": "Acht Stunden Sitzen pro Tag machen die Hüfte steif, das ist bei fast allen meiner Kunden Thema Nummer eins. Zwei Selbsttests zeigen dir, wo du stehst, fünf Übungen bringen dich weiter.",
+    "title": "Steife Hüfte? Tests und Übungen, die sie beweglich und stark machen",
+    "metaTitle": "Steife Hüfte: Übungen für Beweglichkeit und Kraft",
+    "metaDescription": "Steife Hüfte vom Sitzen: 2 Selbsttests, 5 Übungen zum Mobilisieren und ein Abschnitt zum Hüftmuskulatur trainieren. Mit Wochenplan für 6 Wochen.",
+    "date": "2026-11-19",
+    "readMinutes": 8,
+    "excerpt": "Acht Stunden Sitzen pro Tag machen die Hüfte steif, das ist bei fast allen meiner Kunden Thema Nummer eins. Zwei Selbsttests zeigen dir, wo du stehst, fünf Übungen mobilisieren, und ein eigener Abschnitt erklärt, warum die Hüfte auch Kraft braucht."
+      ,
     "blocks": [
       {
         "type": "p",
-        "text": "Wenn deine Hüfte steif ist, liegt das in den meisten Fällen an zwei Dingen: verkürzt reagierende Hüftbeuger durch viele Stunden Sitzen und eine Gesäßmuskulatur, die verlernt hat zu arbeiten. Die gute Nachricht: Die Beweglichkeit der Hüfte lässt sich in sechs bis acht Wochen deutlich verbessern, mit fünf Übungen und etwa 15 Minuten an vier Tagen pro Woche. Bevor du loslegst, solltest du aber wissen, wo du überhaupt stehst. Deshalb starten wir mit zwei Tests, die ich in jeder Erstberatung benutze."
+        "text": "Eine steife Hüfte löst du mit zwei Dingen gleichzeitig: mobilisieren und kräftigen. Die Steifheit kommt in den meisten Fällen von verkürzt reagierenden Hüftbeugern durch viele Stunden Sitzen und von einer Gesäßmuskulatur, die verlernt hat zu arbeiten. Nur dehnen reicht deshalb nicht: Eine Hüfte, die beweglicher wird, aber schwach bleibt, versteift wieder. Die gute Nachricht: Mit fünf Übungen und etwa 15 Minuten an vier Tagen pro Woche verbessert sich die Hüftmobilität in sechs bis acht Wochen deutlich. Bevor du loslegst, solltest du wissen, wo du stehst. Deshalb starten wir mit zwei Tests, die ich in jeder Erstberatung benutze."
       },
       {
         "type": "h2",
@@ -4118,11 +4119,19 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Hüftmuskulatur trainieren: Beweglichkeit, die bleibt, braucht Kraft"
+      },
+      {
+        "type": "p",
+        "text": "Wer die Hüfte nur mobilisiert, behandelt das Symptom. Damit die neue Beweglichkeit bleibt, muss die Muskulatur rund um die Hüfte arbeiten können: das Gesäß als stärkster Strecker, die seitliche Hüftmuskulatur, die dein Becken beim Gehen und Treppensteigen stabil hält, und die Adduktoren an der Innenseite. Drei Übungen decken das ab. Die Glute Bridge kennst du schon aus dem Fünferblock, ihre Steigerung ist die einbeinige Variante oder der Hip Thrust mit den Schultern auf der Couch. Für die seitliche Hüfte: Seitlage, Beine angewinkelt, oberes Knie gegen einen leichten Widerstand öffnen wie eine Muschel, 12 bis 15 Wiederholungen pro Seite, alternativ Seitschritte mit einem Band um die Knie. Für die Innenseite: im Stand ein Kissen zwischen die Knie klemmen und 10 Sekunden maximal drücken, 5 Wiederholungen. Zweimal pro Woche angehängt an die Mobilisation reicht. Ab dem Moment, in dem du im Gym bist, übernehmen Kniebeugen, Ausfallschritte und Kreuzheben diese Arbeit nebenbei mit."
+      },
+      {
+        "type": "h2",
         "text": "Was du nicht erwarten solltest"
       },
       {
         "type": "p",
-        "text": "Ehrliche Ansage: Wenn du acht Stunden am Tag sitzt und 15 Minuten übst, gewinnt nicht automatisch die Übung. Steh deshalb zusätzlich jede Stunde einmal auf, und wenn es nur für 30 Sekunden ist. Und falls deine Hüfte nicht nur steif ist, sondern im Gelenk selbst schmerzt, klemmt oder blockiert, gehört das ärztlich abgeklärt, bevor du ein Übungsprogramm startest. Ein Trainingsplan ersetzt keine Diagnose, auch meiner nicht."
+        "text": "Ehrliche Ansage: Wenn du acht Stunden am Tag sitzt und 15 Minuten übst, gewinnt nicht automatisch die Übung. Steh deshalb zusätzlich jede Stunde einmal auf, und wenn es nur für 30 Sekunden ist. Wenn die Hüfte vor allem beim oder nach dem Sitzen wehtut, findest du passende Übungen im Artikel [Hüftschmerzen beim Sitzen](/blog/hueftschmerzen-sitzen-uebungen). Und falls deine Hüfte nicht nur steif ist, sondern im Gelenk selbst schmerzt, klemmt oder blockiert, gehört das ärztlich abgeklärt, bevor du ein Übungsprogramm startest. Ein Trainingsplan ersetzt keine Diagnose, auch meiner nicht."
       },
       {
         "type": "p",
