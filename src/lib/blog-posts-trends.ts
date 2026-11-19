@@ -6172,15 +6172,15 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn die Abklärung gemacht ist und du beim Aufbau nicht alleine herumprobieren willst: Vereinbare ein kostenloses Kennenlerngespräch mit mir, dauert 30 bis 45 Minuten, in Köln oder per Video. Dort besprechen wir, welche Stufe für dich der richtige Start ist. Wer danach einen strukturierten Plan zum Selbsttrainieren möchte, bekommt ihn als PDF ab 25 Euro."
+        "text": "Wenn die Abklärung gemacht ist und du beim Aufbau nicht alleine herumprobieren willst: Vereinbare ein kostenloses Kennenlerngespräch mit mir, dauert 30 bis 45 Minuten, in Köln oder per Video. Dort besprechen wir, welche Stufe für dich der richtige Start ist. Wer danach einen strukturierten Plan zum Selbsttrainieren möchte, bekommt ihn als PDF ab 25 Euro. Und sobald die Schmerzen abgeklungen sind, geht der Aufbau weiter: Mit den [Stabi-Übungen fürs Knie](/blog/knie-stabilisieren-uebungen) machst du dein Knie Schritt für Schritt wieder voll belastbar."
       }
     ]
   },
   {
     "slug": "knie-stabilisieren-uebungen",
     "title": "Knie stabilisieren: Übungen für ein Knie, das dich nicht im Stich lässt",
-    "metaTitle": "Knie stabilisieren: Übungen für Sport und Alltag",
-    "metaDescription": "Knie stabilisieren Übungen: Selbsttest, 3 Trainingsstufen mit Gleichgewicht und Einbeinkraft, plus Extras für Sportler. Vom Personal Trainer aus Köln.",
+    "metaTitle": "Knie stabilisieren: Stabi-Übungen in 3 Stufen",
+    "metaDescription": "Knie stabilisieren: Selbsttest, Stabi-Übungen in 3 Stufen für Gleichgewicht und Einbeinkraft, dazu Übungen, die die Kniemuskulatur stärken. Vom Personal Trainer aus Köln.",
     "date": "2026-07-06",
     "readMinutes": 6,
     "excerpt": "Kniestabilität entsteht nicht im Knie selbst, sondern durch Hüfte, Fuß und Gleichgewichtssinn. Mit Selbsttest, drei Übungsstufen und Extras für Sportler baust du sie systematisch auf.",
@@ -6220,6 +6220,27 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Kniemuskulatur stärken: Kraft gehört dazu"
+      },
+      {
+        "type": "p",
+        "text": "Gleichgewicht allein reicht nicht. Ein Knie ist erst dann wirklich belastbar, wenn die Muskeln drumherum Last tragen können: der Quadrizeps an der Vorderseite, die hintere Oberschenkelmuskulatur und das Gesäß. Wer nur auf dem Balancekissen steht, aber nie gegen Widerstand arbeitet, baut Reaktionsfähigkeit ohne Substanz auf. Deshalb kommen zu den drei Stabi-Stufen zwei Kraftübungen pro Woche dazu."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Kniebeuge ans Gewicht angepasst: Anfänger auf einen Stuhl oder eine Bank, Fortgeschrittene mit Kurzhanteln. 3 mal 10, kontrolliert runter, zügig hoch.",
+          "Step-ups auf eine Treppenstufe oder einen stabilen Kasten: 3 mal 8 pro Bein. Das obere Bein arbeitet, das untere schiebt nicht nach.",
+          "Hüftstreckung in der Brücke, beidbeinig oder einbeinig: 3 mal 12. Stärkt das Gesäß, das bei fast allen Knieproblemen zu wenig arbeitet.",
+          "Wenn die Übungen schmerzfrei gehen, steigere zuerst die Wiederholungen, dann das Gewicht. Nie beides gleichzeitig."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Wenn dein Knie beim Training bereits schmerzt und du gezielt dagegen arbeiten willst, findest du im Artikel [Knieschmerzen: Übungen zum Stärken](/blog/knieschmerzen-uebungen-staerken) den sanfteren Einstieg mit Übungsauswahl nach Beschwerdebild."
+      },
+      {
+        "type": "h2",
         "text": "Für Sportler: Landen und Richtungswechsel"
       },
       {
@@ -6236,7 +6257,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du möchtest, dass sich jemand deine Einbeinkniebeuge, deine Landetechnik und deinen Aufbau einmal persönlich anschaut? Dann nutz die Gelegenheit für ein unverbindliches Erstgespräch bei mir, kostenlos, 30 bis 45 Minuten. Danach hast du Klarheit, auf welcher Stufe du startest und was dein Knie wirklich braucht. Wenn dein Knie speziell beim Absteigen schmerzt, hilft dir der Artikel [Knieschmerzen beim Treppe runtergehen](/blog/knieschmerzen-treppe-runtergehen-uebungen) weiter."
+        "text": "Du möchtest, dass sich jemand deine Einbeinkniebeuge, deine Landetechnik und deinen Aufbau einmal persönlich anschaut? Dann nutz die Gelegenheit für ein unverbindliches Erstgespräch beim [Personal Training in Köln](/personal-trainer-koeln), kostenlos, 30 bis 45 Minuten. Danach hast du Klarheit, auf welcher Stufe du startest und was dein Knie wirklich braucht. Wenn dein Knie speziell beim Absteigen schmerzt, hilft dir der Artikel [Knieschmerzen beim Treppe runtergehen](/blog/knieschmerzen-treppe-runtergehen-uebungen) weiter."
       }
     ]
   },
