@@ -3058,12 +3058,16 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "knieschmerzen-treppensteigen-ursachen",
     "title": "Knieschmerzen beim Treppensteigen: Ursachen und die richtigen Übungen",
-    "metaTitle": "Knieschmerzen beim Treppensteigen: Ursachen und Übungen",
-    "metaDescription": "Knieschmerzen auf der Treppe? Ich erkläre die häufigsten Ursachen aus Trainersicht und zeige Übungen, die dein Knie Stufe für Stufe belastbarer machen.",
+    "metaTitle": "Knieschmerzen beim Treppensteigen: Ursachen rauf und runter",
+    "metaDescription": "Knieschmerzen beim Treppensteigen haben meist eine simple Ursache: zu wenig Muskelkraft fürs gebeugte Knie. Was hinter Schmerz rauf und runter steckt und welche Übungen helfen.",
     "date": "2026-06-25",
-    "readMinutes": 6,
-    "excerpt": "Auf gerader Strecke ist alles gut, aber auf der Treppe meldet sich das Knie? Das hat einen simplen mechanischen Grund: Beim Treppensteigen wirkt ein Vielfaches deines Körpergewichts auf das Kniegelenk. Ich erkläre dir die häufigsten Ursachen aus Trainersicht und zeige dir, wie du dein Knie wieder treppenfest machst.",
+    "readMinutes": 7,
+    "excerpt": "Auf gerader Strecke ist alles gut, aber auf der Treppe meldet sich das Knie? Das hat einen simplen mechanischen Grund: Beim Treppensteigen wirkt ein Vielfaches deines Körpergewichts auf das Kniegelenk. Ich erkläre dir, was hinter Schmerzen beim Rauf- und beim Runtergehen steckt und wie du dein Knie wieder treppenfest machst.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort vorweg: Knieschmerzen beim Treppensteigen entstehen in den meisten Fällen nicht durch einen Schaden im Gelenk, sondern weil die Muskulatur um Knie und Hüfte der Treppenbelastung nicht gewachsen ist. Beim Hochgehen drückt ein Mehrfaches deines Körpergewichts auf das gebeugte Knie, beim Runtergehen noch mehr. Und genau deshalb ist die Lösung im untersuchten, strukturell gesunden Knie fast immer gezielter Kraftaufbau, nicht Schonung."
+      },
       {
         "type": "p",
         "text": "Die Treppe ist der ehrlichste Knietest, den es gibt. Auf gerader Strecke spürst du nichts, aber im Treppenhaus zieht oder drückt es vorne im Knie, manchmal rauf, öfter noch runter. Wenn dir das bekannt vorkommt, bist du in großer Gesellschaft: Das ist eines der häufigsten Themen, mit denen Kunden über 40 zu mir ins Training kommen."
@@ -3081,8 +3085,20 @@ export const trendPosts: BlogPost[] = [
         "text": "Die Erklärung ist reine Mechanik. Beim normalen Gehen wirkt auf das Gelenk zwischen Kniescheibe und Oberschenkelknochen etwa das halbe Körpergewicht. Beim Treppensteigen nach oben sind es gut das Dreifache, beim Runtergehen sogar noch mehr. Dazu kommt: Auf der Treppe steht dein ganzes Gewicht auf einem gebeugten Bein, während das andere in der Luft ist. Ein Knie, das dafür zu wenig muskuläre Unterstützung hat, meldet sich genau hier zuerst."
       },
       {
+        "type": "h2",
+        "text": "Schmerzen beim Treppe hochgehen: was dahintersteckt"
+      },
+      {
         "type": "p",
-        "text": "Dass runter oft schlimmer ist als rauf, wundert viele. Der Grund: Beim Runtergehen arbeitet dein Oberschenkel als Bremse, die Muskulatur muss nachgebend Kraft aufbringen, das nennt man exzentrische Arbeit. Das ist die anspruchsvollste Belastungsform für Muskel und Sehne, und gleichzeitig die, die im Alltag am seltensten trainiert wird. Kein Wunder, dass genau dort die Schwachstelle sichtbar wird."
+        "text": "Meldet sich das Knie vor allem aufwärts, zeigt das fast immer auf den Quadrizeps, also die vordere Oberschenkelmuskulatur, und auf die Kniescheibe. Beim Hochsteigen drückst du dein ganzes Gewicht über ein stark gebeugtes Bein nach oben, und die Kniescheibe wird dabei mit großer Kraft in ihre Gleitrinne gepresst. Ist der Muskel zu schwach oder zieht das Knie dabei nach innen, entsteht vorne am Knie genau der dumpfe Druck oder das Stechen, das viele vom dritten Stockwerk kennen. Typisch ist auch, dass der Schmerz bei hohen Stufen oder mit Einkaufstaschen deutlicher wird: mehr Beugung und mehr Last treffen dieselbe Schwachstelle."
+      },
+      {
+        "type": "h2",
+        "text": "Warum runter oft schlimmer ist als rauf"
+      },
+      {
+        "type": "p",
+        "text": "Dass runter oft schlimmer ist als rauf, wundert viele. Der Grund: Beim Runtergehen arbeitet dein Oberschenkel als Bremse, die Muskulatur muss nachgebend Kraft aufbringen, das nennt man exzentrische Arbeit. Das ist die anspruchsvollste Belastungsform für Muskel und Sehne, und gleichzeitig die, die im Alltag am seltensten trainiert wird. Kein Wunder, dass genau dort die Schwachstelle zuerst sichtbar wird. Wenn dein Knie fast nur abwärts schmerzt, habe ich dazu einen eigenen Artikel mit dem passenden Übungsaufbau: [Knieschmerzen beim Treppe runtergehen](/blog/knieschmerzen-treppe-runtergehen-uebungen)."
       },
       {
         "type": "h2",
@@ -3101,6 +3117,14 @@ export const trendPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Der Punkt mit dem nach innen wandernden Knie ist mir besonders wichtig, weil er so häufig ist und so selten erkannt wird. Wenn Hüfte und Gesäß das Bein nicht führen, kippt das Knie bei jeder Stufe leicht nach innen, und die Kniescheibe läuft dann nicht mehr sauber in ihrer Gleitrinne. Nicht dramatisch bei zehn Stufen, aber bei hunderten Stufen pro Tag über Monate summiert sich der Reiz."
+      },
+      {
+        "type": "h2",
+        "text": "Wenn nicht das Knie, sondern die Beine schmerzen"
+      },
+      {
+        "type": "p",
+        "text": "Manche spüren auf der Treppe gar keinen klaren Knieschmerz, sondern schwere, brennende oder schnell ermüdende Beine. Sitzt das Brennen vorne im Oberschenkel und verschwindet es nach ein paar Minuten Pause, ist das meist schlicht ein Kraftproblem: Die Muskulatur ist der Dauerbelastung aus Stufen, Einkäufen und Alltag nicht gewachsen, und dieselben Übungen, die das Knie treppenfest machen, lösen auch das. Ein Warnsignal ist etwas anderes: krampfartige Schmerzen in der Wade, die beim Gehen zuverlässig kommen und im Stehen sofort verschwinden. Das kann auf eine Durchblutungsstörung hindeuten und gehört zum Arzt, nicht in den Trainingsplan."
       },
       {
         "type": "h2",
