@@ -4821,8 +4821,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "faszien-nacken-verspannung-loesen",
     "title": "Faszien im Nacken: Verspannungen ehrlich lösen, ohne Wundermittel",
-    "metaTitle": "Faszien Nacken: Verspannungen lösen mit System",
-    "metaDescription": "Faszien im Nacken verspannt? Was Triggerpunkte wirklich sind, wie du dich mit Ball und Übungen selbst behandelst und wann der Arzt dran ist.",
+    "metaTitle": "Faszien in Nacken und Schulter lösen: ehrliche Anleitung",
+    "metaDescription": "Verspannte Faszien in Nacken und Schulter löst du mit Ball, Bewegung und Kraft, nicht mit Wundergeräten. Die Anleitung, die Tabuzonen an der Halswirbelsäule und was bei Spannung bis in den Kopf hilft.",
     "date": "2026-07-01",
     "readMinutes": 6,
     "excerpt": "Nackenverspannungen lassen sich selbst behandeln, mit einem Ball, zwei Übungen und realistischen Erwartungen. Was Triggerpunkte wirklich sind und was reine Verkaufsgeschichte ist, liest du hier.",
@@ -4849,6 +4849,22 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Faszien an der Halswirbelsäule: warum du dort nicht rollst"
+      },
+      {
+        "type": "p",
+        "text": "Viele suchen gezielt nach Übungen für die Faszien an der Halswirbelsäule, und genau davon rate ich ab. Direkt auf den Wirbeln hat weder Ball noch Rolle etwas verloren: Dort liegen Knochenvorsprünge, Nerven und die Arterien, die dein Gehirn versorgen, und der mögliche Gewinn steht in keinem Verhältnis zum Risiko. Die gute Nachricht: Das tiefe Gewebe rund um die Halswirbelsäule erreichst du ohnehin besser über Bewegung als über Druck. Langsame Kopfdrehungen bis an die Grenze, Nicken mit langem Nacken, dazu die Rotation der Brustwirbelsäule aus dem Übungsteil unten. Das mobilisiert die Strukturen an der Wirbelsäule sicher, und die druckempfindlichen Punkte behandelst du daneben im Muskel, nie auf dem Knochen."
+      },
+      {
+        "type": "h2",
+        "text": "Wenn die Spannung bis in den Kopf zieht"
+      },
+      {
+        "type": "p",
+        "text": "Der obere Trapez und die kleinen Nackenstrecker setzen am Hinterkopf an, und auch die Kopfhaut selbst ist von einer Faszienplatte überzogen. Deshalb enden viele Nackenverspannungen als dumpfer Druck, der vom Nacken über den Hinterkopf bis zur Stirn oder hinter die Augen zieht, das klassische Muster des Spannungskopfschmerzes. Was in meiner Erfahrung hilft: die Ballbehandlung am oberen Trapez wie oben beschrieben, dazu kreisende Fingerspitzen mit mildem Druck an Schläfen und Hinterkopfansatz für ein bis zwei Minuten. Wichtig auch hier die Grenze: Ein Kopfschmerz, der plötzlich und heftig auftritt, von Sehstörungen oder Übelkeit begleitet wird oder sich von deinen üblichen Kopfschmerzen deutlich unterscheidet, gehört zum Arzt, nicht auf den Ball."
+      },
+      {
+        "type": "h2",
         "text": "Warum der Nacken immer wieder zumacht"
       },
       {
@@ -4866,7 +4882,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die Konsequenz: Der Ball ist deine Soforthilfe, aber die Dauerlösung heißt Kraft plus Beweglichkeit. Zwei Übungen reichen für den Anfang: Schulterblatt-Absenken am Kabelzug oder mit Band, 3 mal 12, zwei Mal pro Woche, und thorakale Rotationen im Vierfüßlerstand, 8 pro Seite, täglich. Bei meinen Kunden mit Dauerverspannung ist der Nacken nach 6 bis 8 Wochen dieser Kombination meist ein anderes Kapitel."
+        "text": "Die Konsequenz: Der Ball ist deine Soforthilfe, aber die Dauerlösung heißt Kraft plus Beweglichkeit. Zwei Übungen reichen für den Anfang: Schulterblatt-Absenken am Kabelzug oder mit Band, 3 mal 12, zwei Mal pro Woche, und thorakale Rotationen im Vierfüßlerstand, 8 pro Seite, täglich. Wenn deine Schultern dabei generell steif sind, findest du in [Schulter-Mobility-Übungen](/blog/schulter-mobility-uebungen) das passende Programm dazu. Bei meinen Kunden mit Dauerverspannung ist der Nacken nach 6 bis 8 Wochen dieser Kombination meist ein anderes Kapitel."
       },
       {
         "type": "h2",
@@ -4878,7 +4894,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn dein Nacken ein Dauergast ist und du den Verdacht hast, dass Haltung, Training oder fehlende Kraft dahinterstecken, lass uns das gemeinsam anschauen. Mein Erstgespräch kostet dich keinen Cent, dauert 30 bis 45 Minuten und am Ende hast du einen ehrlichen Befund aus Trainersicht plus zwei oder drei Übungen, mit denen du sofort starten kannst."
+        "text": "Wenn dein Nacken ein Dauergast ist und du den Verdacht hast, dass Haltung, Training oder fehlende Kraft dahinterstecken, lass uns das gemeinsam anschauen. Mein [kostenloses Erstgespräch](/contatti) dauert 30 bis 45 Minuten, und am Ende hast du einen ehrlichen Befund aus Trainersicht plus zwei oder drei Übungen, mit denen du sofort starten kannst. Wie das [Rückentraining](/leistungen/rueckentraining) bei mir grundsätzlich aussieht, steht auf der Leistungsseite."
       }
     ]
   },
