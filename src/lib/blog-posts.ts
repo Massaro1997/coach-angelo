@@ -731,10 +731,10 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "rueckenschmerzen-bueroarbeit-uebungen",
     "title": "Rückenschmerzen durch Büroarbeit: 7 Übungen, die wirklich helfen",
-    "metaTitle": "Rückenschmerzen durch Büroarbeit: Übungen und Training",
-    "metaDescription": "Rückenschmerzen durch Büroarbeit: 7 Übungen für zuhause und fürs Büro, etwa 20 Minuten, erste Besserung nach 2 bis 3 Wochen. Und wann gezieltes Krafttraining den Rücken dauerhaft stabilisiert.",
+    "metaTitle": "Rückenschmerzen durch Büroarbeit: Training und Übungen",
+    "metaDescription": "Welches Training bei Rückenschmerzen durch Büroarbeit wirklich hilft: 7 Übungen für zuhause, dazu der Krafttraining-Plan mit 2 Einheiten pro Woche, der den Rücken dauerhaft stabil macht.",
     "date": "2026-06-12",
-    "readMinutes": 4,
+    "readMinutes": 6,
     "excerpt": "Schreibtisch, steifer Rücken, und kein Ende in Sicht? Personal Trainer Angelo aus Köln erklärt, welche 7 Übungen Büroangestellten wirklich Linderung bringen.",
     "blocks": [
       {
@@ -820,6 +820,22 @@ export const blogPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Schau dir auch deinen Bildschirm an. Die Oberkante sollte ungefähr auf Augenhöhe sein, damit dein Kopf nicht nach unten sinkt. Ein nach vorne gebeugter Kopf belastet die Halswirbelsäule enorm, und das zieht sich direkt in den oberen und mittleren Rücken. Das ist ein einfacher Fix mit großer Wirkung."
+      },
+      {
+        "type": "h2",
+        "text": "Das Training, das den Bürorücken dauerhaft stabil macht"
+      },
+      {
+        "type": "p",
+        "text": "Die sieben Übungen oben lindern. Was den Rücken auf Dauer belastbar macht, ist aber Krafttraining. Der Grund ist simpel: Acht Stunden Sitzen schwächen vor allem die Muskeln auf der Rückseite deines Körpers, also Gesäß, hintere Oberschenkel, Rückenstrecker und die Muskulatur zwischen den Schulterblättern. Mobilisation macht diese Muskeln nicht stärker. Sie müssen gegen Widerstand arbeiten, sonst bleibt die Schwäche, und mit ihr kommen die Schmerzen zurück, sobald du mit den Übungen aufhörst."
+      },
+      {
+        "type": "p",
+        "text": "Für Büroangestellte reichen zwei Krafteinheiten pro Woche zu je 45 bis 60 Minuten. Der Kern besteht aus vier Bewegungen: eine Rudervariante für den oberen Rücken, eine Hüftstreckung wie die Brücke mit Gewicht oder rumänisches Kreuzheben mit Kurzhanteln, Ausfallschritte für Beine und Gesäß und eine Stützübung wie den Unterarmstütz für die Rumpfspannung. Dazu an den Bürotagen die kurze Mobilisationsrunde von oben. Mehr braucht es am Anfang nicht, und genau deshalb hält man es durch. Warum Kräftigung bei Rückenschmerzen oft besser wirkt als reines Dehnen, habe ich im Artikel [Krafttraining gegen Rückenschmerzen](/blog/rueckenschmerzen-krafttraining-hilft) ausführlich erklärt."
+      },
+      {
+        "type": "p",
+        "text": "Wichtig ist die Reihenfolge: erst die Technik sauber lernen, dann das Gewicht steigern. Wer mit schmerzendem Rücken unsauber Kreuzheben übt, macht es schlimmer. Wenn du unsicher bist, lass dir die vier Grundbewegungen einmal sauber zeigen, zum Beispiel beim [Personal Training in Köln](/personal-trainer-koeln). Danach kannst du sie jahrelang allein weitertrainieren."
       },
       {
         "type": "h2",
@@ -3360,7 +3376,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen im Büro sind kein Schicksal. Sie sind ein Signal, das du ernst nehmen, aber nicht fürchten musst. Mit den richtigen Bewegungsgewohnheiten und gezieltem Krafttraining lässt sich sehr viel verändern, auch wenn du lange Jahre mit Rückenproblemen gelebt hast. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du sicher gehen willst, dass du die richtigen Übungen für deinen Rücken machst, dann melde dich einfach. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was dein Rücken wirklich braucht. Kein Verkaufsgespräch, keine Verpflichtung, nur ein ehrlicher Blick auf deine Situation."
+        "text": "Rückenschmerzen im Büro sind kein Schicksal. Sie sind ein Signal, das du ernst nehmen, aber nicht fürchten musst. Mit den richtigen Bewegungsgewohnheiten und gezieltem Krafttraining lässt sich sehr viel verändern, auch wenn du lange Jahre mit Rückenproblemen gelebt hast. Die konkreten Übungen und den Trainingsplan dazu findest du im Beitrag [Rückenschmerzen durch Büroarbeit: Training und Übungen](/blog/rueckenschmerzen-bueroarbeit-uebungen). Wenn du nicht weißt, wo du anfangen sollst, oder wenn du sicher gehen willst, dass du die richtigen Übungen für deinen Rücken machst, dann melde dich einfach. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was dein Rücken wirklich braucht. Kein Verkaufsgespräch, keine Verpflichtung, nur ein ehrlicher Blick auf deine Situation."
       }
     ]
   },
@@ -10430,7 +10446,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenübungen im Büro müssen nicht spektakulär sein, um zu wirken. Diese sieben Übungen kosten dich täglich weniger als zehn Minuten und du kannst sie alle direkt am Schreibtisch machen, ohne Ausrüstung, ohne Umziehen. Wenn du merkst, dass die Schmerzen trotzdem bleiben oder du einen individuellen Plan brauchst, der zu deinem Alltag passt: Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was bei dir genau sinnvoll ist. Melde dich einfach über fitprimo.de."
+        "text": "Rückenübungen im Büro müssen nicht spektakulär sein, um zu wirken. Diese sieben Übungen kosten dich täglich weniger als zehn Minuten und du kannst sie alle direkt am Schreibtisch machen, ohne Ausrüstung, ohne Umziehen. Wenn du zusätzlich zuhause etwas tun willst, findest du im Artikel [Rückenschmerzen durch Büroarbeit: Training und Übungen](/blog/rueckenschmerzen-bueroarbeit-uebungen) das komplette Programm inklusive Krafttraining. Und wenn du merkst, dass die Schmerzen trotzdem bleiben oder du einen individuellen Plan brauchst, der zu deinem Alltag passt: Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was bei dir genau sinnvoll ist."
       }
     ]
   },
@@ -12682,7 +12698,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Was ich als Personal Trainer in Köln häufig sehe: Menschen kommen zu mir, nachdem sie monatelang geschmerzgedämpft weitergequält haben. Mit einem gezielten Aufbauprogramm für Rumpf, Gesäß und die tiefen Rückenmuskeln lassen sich viele dieser Beschwerden langfristig deutlich reduzieren. Die Pausenroutine ist der Einstieg. Ein individuelles Training ist der nächste Schritt."
+        "text": "Was ich als Personal Trainer in Köln häufig sehe: Menschen kommen zu mir, nachdem sie monatelang geschmerzgedämpft weitergequält haben. Mit einem gezielten Aufbauprogramm für Rumpf, Gesäß und die tiefen Rückenmuskeln lassen sich viele dieser Beschwerden langfristig deutlich reduzieren. Die Pausenroutine ist der Einstieg. Wie das aufbauende [Training bei Rückenschmerzen durch Büroarbeit](/blog/rueckenschmerzen-bueroarbeit-uebungen) aussieht, habe ich in einem eigenen Beitrag beschrieben. Ein individuelles Training ist der nächste Schritt."
       },
       {
         "type": "h2",
