@@ -5806,8 +5806,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "schulterschmerzen-uebungen-zuhause",
     "title": "Schulterschmerzen Übungen für zuhause: In 3 Stufen zurück zur starken Schulter",
-    "metaTitle": "Schulterschmerzen Übungen für zuhause: Dein 3-Stufen-Plan",
-    "metaDescription": "Schulterschmerzen Übungen für zuhause: 3 Stufen vom sanften Bewegen bis zum Kräftigen, Impingement einfach erklärt, ganz ohne Geräte startbar.",
+    "metaTitle": "Übungen bei Schulterschmerzen: der 3-Stufen-Plan",
+    "metaDescription": "Welche Übungen bei Schulterschmerzen wirklich helfen: 3 Stufen vom sanften Bewegen bis zum Kräftigen, welche Übungen du besser weglässt, alles für zuhause ohne Geräte.",
     "date": "2026-07-05",
     "readMinutes": 7,
     "excerpt": "Ein 3-Stufen-Programm gegen Schulterschmerzen für zuhause: erst schmerzarm bewegen, dann kräftigen, dann steigern. Plus eine einfache Erklärung, was Impingement eigentlich bedeutet.",
@@ -5815,6 +5815,24 @@ export const trendPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Die besten Übungen gegen Schulterschmerzen für zuhause folgen einem einfachen Prinzip: erst schmerzarm bewegen, dann mit leichtem Widerstand kräftigen, dann schrittweise steigern. Du brauchst dafür anfangs nichts außer einer Wand, einem Handtuch und später einem Widerstandsband. Ich bin Angelo, Personal Trainer in Köln, und ich habe als ehemaliger Wettkampfathlet selbst erlebt, wie eine gereizte Schulter das Training vermiesen kann. Hier bekommst du den Fahrplan, den ich mit meinen Klienten nutze."
+      },
+      {
+        "type": "h2",
+        "text": "Diese Übungen helfen bei Schulterschmerzen"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Pendeln und Wall Slides zum schmerzarmen Bewegen (Stufe 1, täglich)",
+          "Schulterblatt-Kreisen für die Kontrolle rund ums Schulterblatt (Stufe 1)",
+          "Außenrotation mit Band und Rudern mit Band als Kern der Kräftigung (Stufe 2, dreimal pro Woche)",
+          "Liegestütz an der Wand und Y-Heben in Bauchlage (Stufe 2)",
+          "Seitheben bis Schulterhöhe, betont langsam (Stufe 2 bis 3)"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Wie jede Übung genau geht, in welcher Reihenfolge du sie aufbaust und wann du steigern darfst, steht in den drei Stufen weiter unten. Vorher lohnt sich ein kurzer Blick darauf, was in der Schulter überhaupt los ist."
       },
       {
         "type": "h2",
@@ -5861,6 +5879,14 @@ export const trendPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Nach etwa vier Wochen konsequenter Stufe 2 wird gesteigert: stärkeres Band, kleine Kurzhanteln, Liegestütze auf den Knien statt an der Wand. Meine Faustregel für die Progression: Erhöhe pro Woche nur eine Stellschraube, entweder Widerstand oder Wiederholungen, nie beides gleichzeitig. Und bewerte den Schmerz ehrlich auf einer Skala von 0 bis 10. Bis 3 ist während der Übung akzeptabel, solange es danach wieder abklingt und am nächsten Morgen nicht schlechter ist. Alles darüber heißt: einen Schritt zurück."
+      },
+      {
+        "type": "h2",
+        "text": "Diese Übungen lässt du vorerst weg"
+      },
+      {
+        "type": "p",
+        "text": "Genauso wichtig wie die richtigen Übungen ist, was du in der gereizten Phase nicht machst: Nackendrücken und alles, was Gewicht hinter dem Kopf bewegt, Dips zwischen Bänken, Seitheben deutlich über die Waagerechte und Bankdrücken mit voller Absenktiefe. All das presst die gereizte Sehne genau in den engen Raum, von dem oben die Rede war. Das heißt nicht für immer, sondern bis die Stufen 1 und 2 zuverlässig schmerzarm laufen. Wie du trotz gereizter Schulter sinnvoll weiter Krafttraining machst, mit Ampelsystem und Alternativen für jede Problemübung, habe ich im Artikel [Schulterschmerzen beim Krafttraining](/blog/schulterschmerzen-krafttraining-weiter) aufgeschrieben."
       },
       {
         "type": "h2",
