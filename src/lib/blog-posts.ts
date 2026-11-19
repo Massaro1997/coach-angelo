@@ -23,6 +23,120 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "mit-muskelkater-trainieren",
+    title: "Mit Muskelkater trainieren: Wann es okay ist und wann du pausieren solltest",
+    metaTitle: "Mit Muskelkater trainieren: Wann ja, wann besser nicht",
+    metaDescription:
+      "Mit leichtem Muskelkater kannst du trainieren, bei starkem wartest du besser. Die einfache Entscheidungsregel, was im Muskel passiert und was die Erholung wirklich beschleunigt.",
+    date: "2026-11-19",
+    readMinutes: 5,
+    excerpt:
+      "Leichter Muskelkater ist kein Grund, das Training ausfallen zu lassen. Starker schon. Hier ist die Regel, mit der du die Entscheidung in zehn Sekunden triffst.",
+    blocks: [
+      {
+        type: "p",
+        text: "Die kurze Antwort: Mit leichtem Muskelkater kannst du trainieren, am besten eine andere Muskelgruppe oder locker. Bei starkem Muskelkater, der dich beim normalen Gehen oder Treppensteigen spürbar einschränkt, wartest du ein bis zwei Tage. Muskelkater ist keine Verletzung, aber er ist ein Zeichen, dass der Muskel gerade repariert wird. Wer immer wieder voll in den schmerzenden Muskel trainiert, verlängert die Reparatur, statt schneller voranzukommen.",
+      },
+      { type: "h2", text: "Was Muskelkater eigentlich ist" },
+      {
+        type: "p",
+        text: "Muskelkater entsteht durch winzige Risse in den Muskelfasern, meist nach ungewohnter Belastung: ein neuer Plan, mehr Gewicht als sonst oder viel bremsende Arbeit wie Bergabgehen und langsames Absenken. Der Schmerz kommt verzögert, oft erst 24 bis 48 Stunden später, und ist am zweiten Tag häufig am stärksten. Mit Laktat oder Übersäuerung hat das nichts zu tun, dieser Mythos hält sich nur hartnäckig. Die Reparatur dieser Mikrorisse ist übrigens genau der Reiz, durch den der Muskel belastbarer wird. Muskelkater ist also kein Unfall, aber auch kein Pflichtbeweis: Du kannst ohne Muskelkater genauso Muskeln aufbauen.",
+      },
+      { type: "h2", text: "Die Entscheidungsregel in drei Stufen" },
+      {
+        type: "ul",
+        items: [
+          "Leichtes Ziehen, das du nur bei Druck oder Anspannung merkst: ganz normal trainieren. Die Belastung schadet dem Muskel nicht, und oft fühlt er sich nach dem Aufwärmen besser an.",
+          "Deutlicher Muskelkater, der bei Alltagsbewegungen spürbar ist: trainieren ja, aber eine andere Muskelgruppe. Nach Beintag kommt Oberkörper, der schmerzende Bereich bekommt höchstens lockere Bewegung.",
+          "Starker Muskelkater, der Gehen, Hinsetzen oder Armheben schwer macht: ein bis zwei Tage Pause für diese Muskeln. Spazieren, Radfahren in lockerem Tempo oder Schwimmen sind erlaubt und helfen sogar.",
+        ],
+      },
+      { type: "h2", text: "Was passiert, wenn du trotzdem voll trainierst?" },
+      {
+        type: "p",
+        text: "Eine harte Einheit in einen stark schmerzenden Muskel bringt doppelt Nachteile: Deine Kraft ist messbar reduziert, du trainierst also mit schlechterer Technik und weniger Leistung, und du setzt neue Mikrorisse auf eine Baustelle, die noch nicht fertig ist. Gefährlich ist das für Gesunde selten, aber es ist der langsamste Weg zum Ziel. Mehr Fortschritt bekommst du, wenn du die Reize so setzt, dass der Muskel dazwischen fertig reparieren kann. Genau dafür sind Trainingspläne mit wechselnden Muskelgruppen gebaut.",
+      },
+      { type: "h2", text: "Was die Erholung wirklich beschleunigt" },
+      {
+        type: "p",
+        text: "Die ehrliche Liste ist kurz: leichte Bewegung, die den betroffenen Muskel durchblutet, ausreichend Schlaf und genug Eiweiß als Baumaterial. Wärme, etwa ein warmes Bad, empfinden viele als angenehm. Statisches Dehnen verhindert Muskelkater dagegen nicht und beschleunigt die Reparatur auch nicht messbar, das habe ich im Artikel [Dehnen nach dem Krafttraining](/blog/dehnen-oder-mobility-unterschied) genauer aufgedröselt. Auch Massagepistolen und Eisbäder können sich gut anfühlen, ersetzen aber nicht Schlaf und Geduld. Welche Methoden sich sonst noch lohnen, steht im Artikel [Regeneration beschleunigen](/blog/regeneration-beschleunigen-methoden).",
+      },
+      { type: "h2", text: "Wann der Schmerz kein Muskelkater ist" },
+      {
+        type: "p",
+        text: "Vorsicht, wenn der Schmerz schon während der Übung stechend auftritt, wenn er nur auf einer Seite sitzt, wenn ein Gelenk schmerzt statt des Muskels, wenn eine Schwellung oder ein Bluterguss dazukommt oder wenn die Beschwerden nach fünf bis sieben Tagen nicht deutlich besser sind. Das spricht eher für eine Zerrung oder Reizung, und damit gehst du zum Arzt statt ins Training. Ein extrem seltenes, aber ernstes Warnsignal nach sehr hartem Training ist dunkler, colafarbener Urin: Damit sofort in die Notaufnahme.",
+      },
+      { type: "h2", text: "Trainieren, ohne dass der Muskelkater dich ausbremst" },
+      {
+        type: "p",
+        text: "Dauernd starker Muskelkater ist kein Zeichen von gutem Training, sondern von schlechter Steigerung. In meinen Plänen wächst die Belastung so, dass du gefordert bist, aber am nächsten Tag normal die Treppe runterkommst. Wenn du dir unsicher bist, ob dein Einstieg oder dein Pensum passt, komm auf ein kostenloses Erstgespräch vorbei, in Köln oder online. Wie ich arbeite und was es kostet, steht auf der Seite [Personal Training in Köln](/personal-trainer-koeln). Und wenn du gerade als Anfängerin mit Krafttraining startest, findest du speziell für den Einstieg den Artikel [Muskelkater beim Krafttraining: Guide für Anfängerinnen](/blog/krafttraining-frauen-anfaenger-muskelkater).",
+      },
+    ],
+  },
+  {
+    slug: "stressbauch-erkennen-symptome",
+    title: "Stressbauch erkennen: Diese Anzeichen sprechen dafür",
+    metaTitle: "Stressbauch erkennen: Symptome und was dagegen hilft",
+    metaDescription:
+      "Stressbauch erkennen: typische Anzeichen wie Zunahme am Bauch trotz gleicher Ernährung, Heißhunger am Abend und schlechter Schlaf. Und was wirklich dagegen hilft.",
+    date: "2026-11-19",
+    readMinutes: 6,
+    excerpt:
+      "Der Bauch wächst, obwohl du nicht mehr isst als früher? In stressigen Phasen ist das ein bekanntes Muster. Woran du einen Stressbauch erkennst und welche Hebel wirklich helfen.",
+    blocks: [
+      {
+        type: "p",
+        text: "Ein Stressbauch zeigt sich typischerweise so: Das Fett sammelt sich vor allem am Bauch, während Arme und Beine weitgehend gleich bleiben, die Zunahme fällt in eine anhaltend stressige Phase, und dazu kommen oft schlechter Schlaf, Heißhunger am Abend und das Gefühl, trotz wenig Essen zuzunehmen. Das ist keine Einbildung: Dauerstress verschiebt über das Hormon Cortisol die Fetteinlagerung Richtung Körpermitte und verändert nebenbei, wie viel und was du isst. Die gute Nachricht: Die Hebel dagegen sind bekannt und liegen fast alle in deiner Hand.",
+      },
+      { type: "h2", text: "Die typischen Anzeichen im Überblick" },
+      {
+        type: "ul",
+        items: [
+          "Der Umfang wächst am Bauch, nicht gleichmäßig am ganzen Körper. Der Hosenbund spannt, obwohl die Waage sich wenig bewegt.",
+          "Die Zunahme fällt zeitlich mit einer belastenden Phase zusammen: Projektdruck, Pflege von Angehörigen, Trennung, Schichtdienst.",
+          "Heißhunger auf Süßes oder Deftiges, vor allem abends und nebenbei, oft ohne echten Hunger.",
+          "Schlechter oder zu kurzer Schlaf, morgens wie gerädert, tagsüber Energielöcher.",
+          "Das Essverhalten ist unregelmäßig geworden: Mahlzeiten fallen aus, dafür wird abends und am Wochenende nachgeholt.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Je mehr dieser Punkte zutreffen, desto wahrscheinlicher spielt Stress bei deinem Bauch eine Rolle. Ein Beweis ist die Liste nicht, aber sie zeigt dir, wo du zuerst ansetzen solltest.",
+      },
+      { type: "h2", text: "Was dahintersteckt, in zwei Minuten" },
+      {
+        type: "p",
+        text: "Bei Dauerstress bleibt der Cortisolspiegel chronisch erhöht. Cortisol begünstigt, dass Energie bevorzugt als Fett in der Körpermitte gespeichert wird, auch um die inneren Organe herum. Gleichzeitig steigert Stress bei vielen Menschen den Appetit auf schnelle Kalorien und raubt Schlaf, und Schlafmangel verstärkt den Heißhunger am nächsten Tag noch einmal. Es wirken also mehrere Mechanismen in dieselbe Richtung. Wie stark der Hormoneffekt wirklich ist und was daran übertrieben dargestellt wird, habe ich im Artikel [Cortisol und Bauchfett](/blog/cortisol-bauchfett-zusammenhang) ehrlich eingeordnet.",
+      },
+      { type: "h2", text: "Stressbauch oder einfach zu viele Kalorien?" },
+      {
+        type: "p",
+        text: "Die unbequeme Wahrheit: Auch ein Stressbauch entsteht am Ende aus einem Kalorienüberschuss. Stress ist der Verstärker, nicht der Zauberer. Er sorgt dafür, dass du mehr isst, als du merkst, schlechter schläfst und dich weniger bewegst, und er verschiebt, wo das Fett landet. Das ist ein wichtiger Unterschied für die Lösung: Du musst nicht dein Cortisol messen lassen, sondern an Schlaf, Bewegung und Essrhythmus arbeiten. Wer dagegen nur eine Diät über den Stress legt, scheitert meist doppelt, weil die strengen Regeln selbst zur Stressquelle werden. Wenn du dich in diesem Muster wiedererkennst, lies auch den Artikel [Gestresst zugenommen: was jetzt?](/blog/gestresst-zugenommen-was-tun).",
+      },
+      { type: "h2", text: "Was wirklich gegen den Stressbauch hilft" },
+      {
+        type: "ul",
+        items: [
+          "Krafttraining zwei- bis dreimal pro Woche: baut Stress ab, erhält Muskeln im Defizit und verbessert, wie dein Körper Kohlenhydrate verarbeitet.",
+          "Schlaf zuerst: eine feste Schlafenszeit und 7 bis 8 Stunden sind beim Stressbauch oft wirksamer als jede Ernährungsregel.",
+          "Eiweiß und Gemüse als Gerüst jeder Mahlzeit: sättigt und nimmt dem abendlichen Heißhunger die Wucht.",
+          "Tägliche Spaziergänge: niedrigschwellige Bewegung, die nachweislich Anspannung senkt und Kalorien verbrennt, ohne zusätzlichen Erholungsbedarf.",
+          "Kurze Entspannungsroutinen: schon wenige Minuten ruhige Atmung senken die akute Anspannung, konkrete Übungen stehen im Artikel [Atemübungen gegen Stress](/blog/atemuebungen-stress-sofort).",
+        ],
+      },
+      { type: "h2", text: "Wann du das ärztlich abklären lässt" },
+      {
+        type: "p",
+        text: "Eine schnelle, deutliche Zunahme am Bauch ohne erkennbaren Grund, dazu Symptome wie starke Erschöpfung, Bluthochdruck, auffällige Haut oder ausbleibende Periode: Damit gehst du zum Arzt, bevor du an Training und Ernährung schraubst. Dahinter können hormonelle Erkrankungen stecken, die sich nicht wegtrainieren lassen. Für den klassischen Stressbauch aus vollen Wochen, kurzen Nächten und Essen nebenbei gilt das aber nicht, der reagiert gut auf die Hebel oben.",
+      },
+      { type: "h2", text: "Der nächste Schritt, wenn du es angehen willst" },
+      {
+        type: "p",
+        text: "Beim Stressbauch lohnt sich die Kombination aus beidem: ein Training, das in volle Wochen passt, und ein Essrhythmus, der ohne Verbote funktioniert. Genau so arbeiten wir bei FitPrimo: Ich baue dir das Training, Natalie ordnet als Ernährungsberaterin für Sport- und Fitnessernährung dein Essverhalten, ohne Diätplan von der Stange. Der Einstieg ist ein kostenloses Erstgespräch, in Köln oder online. Was die [Ernährungsberatung in Köln](/leistungen/ernaehrungsberatung) beinhaltet und was das [Personal Training in Köln](/personal-trainer-koeln) kostet, steht auf den jeweiligen Seiten.",
+      },
+    ],
+  },
+  {
     slug: "knieschmerzen-treppe-runtergehen-uebungen",
     title: "Knieschmerzen beim Treppe runtergehen: Warum abwärts schlimmer ist",
     metaTitle: "Knieschmerzen beim Treppe runtergehen: Ursachen, Übungen",
@@ -1832,16 +1946,16 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "muskelaufbau-ernaehrung-plan-anfaenger",
-    "title": "Muskelaufbau Ernährungsplan: Was du als Anfänger wirklich essen musst",
-    "metaTitle": "Muskelaufbau Ernährungsplan für Anfänger",
-    "metaDescription": "Muskelaufbau Ernährungsplan für Einsteiger: konkrete Mahlzeiten, Kalorienorientierung und ein praktikabler Wochenplan ohne Diät-Chaos. Jetzt lesen.",
-    "date": "2026-06-13",
-    "readMinutes": 5,
-    "excerpt": "Kein Diät-Chaos, keine Supplements-Flut. Dieser Muskelaufbau Ernährungsplan zeigt dir als Anfänger genau, was, wann und wie viel du essen solltest.",
+    "title": "Ernährungsplan für Muskelaufbau: Beispiel-Tag und Anleitung zum Selbst-Erstellen",
+    "metaTitle": "Ernährungsplan Muskelaufbau: Beispiel und Anleitung",
+    "metaDescription": "Ernährungsplan für Muskelaufbau: ein kompletter Beispiel-Tag mit Kalorien und Protein pro Mahlzeit und die Anleitung, mit der du deinen Plan in 4 Schritten selbst erstellst.",
+    "date": "2026-11-19",
+    "readMinutes": 6,
+    "excerpt": "Ein kompletter Beispiel-Tag mit Kalorien und Proteinmengen, dazu die 4 Schritte, mit denen du deinen eigenen Ernährungsplan für Muskelaufbau baust. Ohne Diät-Chaos, ohne Supplement-Flut.",
     "blocks": [
       {
         "type": "p",
-        "text": "Du fängst mit dem Training an, willst Muskeln aufbauen, und weißt nicht genau, was auf den Teller soll. Verständlich. Das Netz ist voll mit widersprüchlichen Infos, Supplement-Werbung und Plänen, die sich kein normaler Mensch im Alltag leisten kann, weder zeitlich noch finanziell. Ich zeige dir, wie ein solider Muskelaufbau Ernährungsplan als Anfänger wirklich aussieht: konkret, umsetzbar, ohne Magie."
+        "text": "Ein Ernährungsplan für Muskelaufbau steht auf drei Zahlen: dein Tagesbedarf plus 200 bis 300 Kilokalorien Überschuss, 1,6 bis 2 Gramm Protein pro Kilogramm Körpergewicht und drei bis vier Mahlzeiten, auf die sich das verteilt. Mehr Theorie brauchst du nicht. In diesem Artikel findest du einen kompletten Beispiel-Tag mit konkreten Mahlzeiten und die vier Schritte, mit denen du daraus deinen eigenen Plan machst: konkret, umsetzbar, ohne Magie."
       },
       {
         "type": "h2",
@@ -1893,19 +2007,25 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Konkreter Wochenplan: So könnten deine Mahlzeiten aussehen"
+        "text": "Beispiel-Tag: ein kompletter Ernährungsplan zum Nachkochen"
       },
       {
         "type": "p",
-        "text": "Ich zeige dir ein einfaches Tagesbeispiel, das du variieren kannst. Frühstück: drei Eier gerührt, zwei Scheiben Vollkornbrot, eine Handvoll Spinat. Das sind ungefähr 500 bis 550 Kilokalorien und rund 35 Gramm Protein. Kein Schnickschnack, fertig in zehn Minuten."
+        "text": "Das folgende Tagesbeispiel ist für eine Person um 75 Kilogramm gerechnet, die drei Mal pro Woche trainiert. Es liefert rund 2.600 bis 2.800 Kilokalorien und 120 bis 130 Gramm Protein, also genau den leichten Überschuss von oben. Jede Mahlzeit ist in zehn bis zwanzig Minuten gemacht."
+      },
+      {
+        "type": "table",
+        "headers": ["Mahlzeit", "Was auf den Teller kommt", "Kalorien und Protein"],
+        "rows": [
+          ["Frühstück", "3 Eier gerührt, 2 Scheiben Vollkornbrot, eine Handvoll Spinat", "ca. 500 bis 550 kcal, 35 g Protein"],
+          ["Mittagessen", "150 g Hähnchenbrust gegrillt, 200 g gegarter Reis, Paprika und Zucchini in Olivenöl", "ca. 600 bis 650 kcal, 45 g Protein"],
+          ["Snack", "Griechischer Joghurt mit Beeren oder Nüsse mit einem Stück Obst", "ca. 300 kcal, 15 g Protein"],
+          ["Abendessen", "200 g Lachs aus der Pfanne, Süßkartoffel aus dem Ofen, grüner Salat", "ca. 600 kcal, 40 g Protein"]
+        ]
       },
       {
         "type": "p",
-        "text": "Mittagessen: 150 Gramm Hähnchenbrust gegrillt, 200 Gramm gegarter Reis, gebratene Paprika und Zucchini mit etwas Olivenöl. Das bringt dir ungefähr 600 bis 650 Kilokalorien und weitere 45 Gramm Protein. Abendessen: 200 Gramm Lachs in der Pfanne, Süßkartoffel aus dem Ofen, grüner Salat. Nochmals etwa 600 Kilokalorien, 40 Gramm Protein."
-      },
-      {
-        "type": "p",
-        "text": "Dazwischen ein Snack: griechischer Joghurt mit Beeren oder ein paar Nüsse mit einem Stück Obst. So kommst du über den Tag auf rund 2.600 bis 2.800 Kilokalorien und 120 bis 130 Gramm Protein. Für die Woche gilt: Wechsle die Proteinquellen, tausche Hähnchen gegen Rind oder Tofu, und du vermeidest Monotonie."
+        "text": "Wiegst du deutlich mehr oder weniger als 75 Kilogramm, skalierst du die Portionen entsprechend mit, die Struktur bleibt gleich. Für die Woche gilt: Wechsle die Proteinquellen, tausche Hähnchen gegen Rind, Fisch oder Tofu, und du vermeidest Monotonie. Wenn du ohne Fleisch isst, findest du die passenden Austausch-Optionen im Artikel [Muskelaufbau-Ernährung vegetarisch](/blog/muskelaufbau-ernaehrung-vegetarisch)."
       },
       {
         "type": "ul",
@@ -1916,6 +2036,23 @@ export const blogPosts: BlogPost[] = [
           "Samstag: Eier-basiertes Gericht, Haferflocken zum Frühstück",
           "Sonntag: Hülsenfrüchte, Linsensuppe oder Kichererbsen-Pfanne"
         ]
+      },
+      {
+        "type": "h2",
+        "text": "Deinen Ernährungsplan in vier Schritten selbst erstellen"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Schritt 1: Bedarf schätzen. Körpergewicht in Kilogramm mal 33 bis 35, dazu 200 bis 300 Kilokalorien Überschuss. Das ist dein Tagesziel.",
+          "Schritt 2: Protein festlegen. 1,6 bis 2 Gramm pro Kilogramm Körpergewicht, verteilt auf drei bis vier Mahlzeiten mit je 25 bis 45 Gramm.",
+          "Schritt 3: Mahlzeiten bauen. Jede Mahlzeit bekommt eine Proteinquelle, eine Kohlenhydratquelle und Gemüse. Wähle fünf bis sechs Gerichte, die du wirklich gern isst und schnell kochen kannst, und rotiere sie.",
+          "Schritt 4: Vier Wochen beobachten, dann justieren. Nimmst du kaum zu, iss pro Tag 200 Kilokalorien mehr. Legst du vor allem am Bauch zu, nimm 200 raus. Die Waage einmal pro Woche morgens reicht."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Das ist der ganze Mechanismus. Ein guter Plan ist keine starre Tabelle, sondern ein Gerüst aus Gerichten, die du magst, plus eine einfache Regel zum Nachsteuern. Alles, was komplizierter ist, scheitert im Alltag an der ersten vollen Arbeitswoche."
       },
       {
         "type": "h2",
@@ -1981,7 +2118,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein Muskelaufbau Ernährungsplan muss nicht kompliziert sein. Feste Mahlzeiten, ausreichend Protein, genug Energie aus Kohlenhydraten und Fetten, das ist das Gerüst. Der Rest kommt mit der Zeit. Wenn du dir nicht sicher bist, wo du anfangen sollst, oder wenn du merkst, dass du trotz Bemühungen keine Fortschritte machst, dann lass uns kurz reden. Ich biete ein kostenloses Erstgespräch an, damit wir gemeinsam schauen, was für dich konkret Sinn macht. Kein Verkaufsgespräch, keine Verpflichtung. Einfach ein ehrlicher Austausch. Meld dich unter fitprimo.de."
+        "text": "Ein Ernährungsplan für Muskelaufbau muss nicht kompliziert sein. Feste Mahlzeiten, ausreichend Protein, genug Energie aus Kohlenhydraten und Fetten, das ist das Gerüst. Der Rest kommt mit der Zeit. Wenn du merkst, dass du trotz Plan nicht vorankommst, oder wenn du einen Plan willst, der wirklich auf deinen Alltag gerechnet ist, dann ist das bei FitPrimo Natalies Gebiet: Als Ernährungsberaterin für Sport- und Fitnessernährung baut sie deinen Plan um deine Woche herum, nicht umgekehrt. Der Einstieg ist ein kostenloses Erstgespräch, alles Weitere steht auf der Seite [Ernährungsberatung in Köln](/leistungen/ernaehrungsberatung). Und das passende Training dazu findest du beim [Personal Training in Köln](/personal-trainer-koeln)."
       }
     ]
   },
@@ -6839,15 +6976,32 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "krafttraining-anfaenger-gym-plan",
     "title": "Erster Tag im Fitnessstudio: So startest du als Anfänger mit Krafttraining durch",
-    "metaTitle": "Krafttraining Anfänger: Dein erster Gym-Plan",
-    "metaDescription": "Erster Tag im Fitnessstudio? Dieser Guide zeigt dir, wie du als Anfänger mit Krafttraining startest, welche Übungen wirklich zählen und typische Fehler vermeidest.",
-    "date": "2026-06-15",
-    "readMinutes": 5,
-    "excerpt": "Kein Plan, wo du anfangen sollst? Dieser Guide gibt dir als absoluter Gym-Neuling einen ehrlichen, alltagstauglichen Einstieg ins Krafttraining.",
+    "metaTitle": "Erster Tag im Fitnessstudio: Gym-Plan für Anfänger",
+    "metaDescription": "Erster Tag im Fitnessstudio: der Ablauf für die erste Stunde, was du mitnimmst, welche Übungen reichen und wie daraus dein erster Gym-Plan als Anfänger wird.",
+    "date": "2026-11-19",
+    "readMinutes": 7,
+    "excerpt": "Kein Plan, wo du anfangen sollst? Dieser Guide gibt dir den Ablauf für deine erste Stunde im Gym und einen ehrlichen, alltagstauglichen Einstieg ins Krafttraining.",
     "blocks": [
       {
         "type": "p",
-        "text": "Du stehst zum ersten Mal vor dem Eingang des Fitnessstudios und weißt nicht genau, was dich erwartet. Zu viele Geräte, zu viele Menschen, die aussehen, als hätten sie das schon jahrelang gemacht. Das ist normal. Fast jeder hat so angefangen. In diesem Guide bekommst du einen klaren, konkreten Plan, damit du nicht einfach planlos von Gerät zu Gerät wanderst."
+        "text": "Für deinen ersten Tag im Fitnessstudio brauchst du keinen ausgefeilten Plan, sondern einen einfachen Ablauf: fünf bis zehn Minuten locker aufwärmen, vier bis fünf Grundbewegungen mit leichten Gewichten, kurz abschließen, fertig. Das dauert 45 bis 60 Minuten und reicht völlig. Ziel von Tag eins ist nicht der große Muskelreiz, sondern dass du dich im Raum zurechtfindest und wiederkommst. Wie genau die erste Stunde aussieht und wie daraus in den Wochen danach ein richtiger Gym-Plan wird, steht in diesem Guide."
+      },
+      {
+        "type": "h2",
+        "text": "Dein erster Besuch: Was du mitnimmst"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Saubere Hallenschuhe, bequeme Sportkleidung und ein Handtuch: in fast allen Studios Pflicht auf den Polstern.",
+          "Eine Wasserflasche. Trinken zwischen den Sätzen ist normal, der Wasserspender ist meist frei nutzbar.",
+          "Ein kleines Vorhängeschloss für den Spind, falls das Studio keins stellt. Vorher kurz nachfragen spart Ärger.",
+          "Dein Handy höchstens für Musik und Timer, nicht zum Nachschlagen von Übungen. Den Plan hast du nach diesem Artikel im Kopf."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Wenn dir der Einstieg leichter fällt, ohne Stoßzeiten: Vormittags und am frühen Nachmittag sind die meisten Studios angenehm leer, voll wird es typischerweise werktags zwischen 17 und 20 Uhr. Und du darfst die Mitarbeiter fragen, wie ein Gerät funktioniert und wie man die Sitzhöhe einstellt. Genau dafür sind sie da, und niemand erwartet, dass du das am ersten Tag allein weißt. Notier dir nach jeder Übung kurz Gewicht und Einstellung, dann startet dein zweiter Besuch doppelt so entspannt."
       },
       {
         "type": "h2",
@@ -6909,7 +7063,15 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein konkretes Beispiel für eine Ganzkörper-Einheit: Kniebeugen, Bankdrücken, Rudern am Kabelzug und Schulterdrücken mit der Kurzhantel. Das ist nicht kompliziert, aber es funktioniert. Genau diese Schlichtheit ist der Punkt."
+        "text": "Ein konkretes Beispiel für eine Ganzkörper-Einheit: Kniebeugen, Bankdrücken, Rudern am Kabelzug und Schulterdrücken mit der Kurzhantel. Das ist nicht kompliziert, aber es funktioniert. Genau diese Schlichtheit ist der Punkt. Für den allerersten Besuch ist übrigens auch die Gerätevariante völlig in Ordnung: Beinpresse, Brustpresse, Latzug und Rudermaschine geben die Bewegung vor, du konzentrierst dich nur auf das Gefühl im Muskel. Auf die freien Grundübungen wechselst du dann, sobald du dich im Studio sicher fühlst."
+      },
+      {
+        "type": "h2",
+        "text": "Was du am ersten Tag besser lässt"
+      },
+      {
+        "type": "p",
+        "text": "Keine maximalen Gewichte, kein Zirkel aus zwölf Übungen aus einer App und kein Training bis zum völligen Muskelversagen. All das hat später seinen Platz. Am ersten Tag produziert es vor allem eines: heftigen Muskelkater, der dir die zweite Einheit vermiest. Wähle die Gewichte so, dass die letzten zwei Wiederholungen anstrengend sind, aber sauber bleiben, und geh im Zweifel leichter. Falls der Muskelkater trotzdem kommt, steht im Artikel [Mit Muskelkater trainieren](/blog/mit-muskelkater-trainieren), wie du damit umgehst, ohne die Woche zu verlieren."
       },
       {
         "type": "h2",
@@ -6961,7 +7123,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Der erste Schritt ins Fitnessstudio ist oft der schwerste, aber du hast ihn schon im Kopf. Jetzt musst du ihn nur noch körperlich machen. Fang mit einem einfachen Plan an, lern die Grundübungen, bleib konsequent und gib dir Zeit. Fortschritt passiert nicht in einer Woche, aber mit jeder Woche, die du dabei bleibst. Wenn du dir unsicher bist, wie du deinen persönlichen Anfänger-Plan aufbauen sollst, oder einfach jemanden an deiner Seite haben möchtest, der dir zeigt, wie es konkret für dich aussehen kann, dann melde dich gern für ein kostenloses Erstgespräch bei mir. Kein Verkaufsgespräch, kein Stress. Nur ein ehrliches Gespräch darüber, was für dich funktioniert."
+        "text": "Der erste Schritt ins Fitnessstudio ist oft der schwerste, aber du hast ihn schon im Kopf. Jetzt musst du ihn nur noch körperlich machen. Fang mit dem Ablauf für Tag eins an, lern die Grundübungen, bleib konsequent und gib dir Zeit. Fortschritt passiert nicht in einer Woche, aber mit jeder Woche, die du dabei bleibst. Wie du die Anfangsmotivation über die kritischen ersten Wochen rettest, steht im Artikel [Fitness-Motivation in den ersten Wochen](/blog/fitness-motivation-anfaenger-erste-wochen). Und wenn du lieber jemanden an deiner Seite hast, der die ersten Einheiten mitgeht und dir einen Plan baut, der zu deinem Alltag passt: Genau das mache ich, im Studio in Köln, draußen oder bei dir zu Hause. Das Erstgespräch ist kostenlos, einen fertigen Trainingsplan als PDF gibt es schon ab 25 Euro. Ablauf und Preise stehen auf der Seite [Personal Training in Köln](/personal-trainer-koeln)."
       }
     ]
   },
@@ -17570,7 +17732,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Grundsätzlich gilt: Ein leichter, dumpfer Muskelkater ist kein Grund, das Training zu verschieben, solange du andere Muskelgruppen trainierst. Ein Muskelkater, bei dem du keine normale Bewegung ausführen kannst, ist ein Zeichen für zu viel auf einmal. Dann ist eine Pause keine Niederlage, sondern die klügste Entscheidung."
+        "text": "Grundsätzlich gilt: Ein leichter, dumpfer Muskelkater ist kein Grund, das Training zu verschieben, solange du andere Muskelgruppen trainierst. Ein Muskelkater, bei dem du keine normale Bewegung ausführen kannst, ist ein Zeichen für zu viel auf einmal. Dann ist eine Pause keine Niederlage, sondern die klügste Entscheidung. Die komplette Entscheidungsregel mit drei Stufen, die für alle gilt und nicht nur für den Einstieg, findest du im Artikel [Mit Muskelkater trainieren](/blog/mit-muskelkater-trainieren)."
       },
       {
         "type": "h2",

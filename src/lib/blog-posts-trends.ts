@@ -6389,7 +6389,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Hebel drei: Ein moderates Defizit von 300 bis 500 Kalorien, nicht mehr. Ein aggressives Defizit ist selbst ein Stressor und treibt Cortisol zusätzlich hoch. Wer gestresst ist und crashdiätet, stapelt Stress auf Stress. Hebel vier: Alltagsbewegung sichern, bevor du an Extra-Cardio denkst. 8.000 Schritte am Tag sind für den Stressbauch wertvoller als eine vierte Trainingseinheit, die du eh absagst."
+        "text": "Hebel drei: Ein moderates Defizit von 300 bis 500 Kalorien, nicht mehr. Ein aggressives Defizit ist selbst ein Stressor und treibt Cortisol zusätzlich hoch. Wer gestresst ist und crashdiätet, stapelt Stress auf Stress. Hebel vier: Alltagsbewegung sichern, bevor du an Extra-Cardio denkst. 8.000 Schritte am Tag sind für den Stressbauch wertvoller als eine vierte Trainingseinheit, die du eh absagst. Woran du überhaupt erkennst, ob dein Bauch ein Stressbauch ist, steht Punkt für Punkt im Artikel [Stressbauch erkennen: die Anzeichen](/blog/stressbauch-erkennen-symptome)."
       },
       {
         "type": "h2",
@@ -6562,7 +6562,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Dazu kommt: Müdigkeit senkt die Schwelle für alles. Der Aufzug statt der Treppe, das Sofa statt des Spaziergangs, Lieferdienst statt Kochen. Jede einzelne Entscheidung ist winzig. Über einen Monat summieren sie sich auf ein bis zwei Kilo."
+        "text": "Dazu kommt: Müdigkeit senkt die Schwelle für alles. Der Aufzug statt der Treppe, das Sofa statt des Spaziergangs, Lieferdienst statt Kochen. Jede einzelne Entscheidung ist winzig. Über einen Monat summieren sie sich auf ein bis zwei Kilo. Ob deine Zunahme dieses stresstypische Muster zeigt, prüfst du mit der Checkliste im Artikel [Stressbauch erkennen](/blog/stressbauch-erkennen-symptome)."
       },
       {
         "type": "h2",
@@ -7459,7 +7459,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Massage und Massagepistolen reduzieren das Muskelkater-Gefühl und können die wahrgenommene Erholung verbessern. Das ist nicht nichts, sich besser fühlen hat einen Wert. Nur die Leistungsfähigkeit stellt sich dadurch kaum schneller wieder her. Ähnlich Foam Rolling: kurzfristig mehr Beweglichkeit, angenehm vor dem Training, aber kein Reparatur-Turbo. Sauna nach dem Training entspannt und hat eigene Gesundheitsvorteile fürs Herz-Kreislauf-System. Kreatin ist streng genommen kein Recovery-Supplement, unterstützt aber die Leistungsfähigkeit über harte Trainingsphasen hinweg und ist eines der wenigen Supplements mit wirklich robuster Datenlage."
+        "text": "Massage und Massagepistolen reduzieren das Muskelkater-Gefühl und können die wahrgenommene Erholung verbessern. Das ist nicht nichts, sich besser fühlen hat einen Wert. Nur die Leistungsfähigkeit stellt sich dadurch kaum schneller wieder her. Ähnlich Foam Rolling: kurzfristig mehr Beweglichkeit, angenehm vor dem Training, aber kein Reparatur-Turbo. Sauna nach dem Training entspannt und hat eigene Gesundheitsvorteile fürs Herz-Kreislauf-System. Kreatin ist streng genommen kein Recovery-Supplement, unterstützt aber die Leistungsfähigkeit über harte Trainingsphasen hinweg und ist eines der wenigen Supplements mit wirklich robuster Datenlage. Und falls die Frage gerade akut ist, ob du mit schweren Beinen überhaupt ins Training sollst: Die Antwort steht im Artikel [Mit Muskelkater trainieren](/blog/mit-muskelkater-trainieren)."
       },
       {
         "type": "p",
