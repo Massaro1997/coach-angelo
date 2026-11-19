@@ -180,7 +180,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du über 40 bist und Krafttraining machst oder damit anfangen willst, gehört Kreatin für mich zu den zwei oder drei Supplements, die den Namen verdienen. Es ersetzt kein Training und keine ordentliche Proteinzufuhr. Aber es macht das, was du im Training aufbaust, ein Stück effektiver. Mehr muss ein Supplement nicht können."
+        "text": "Wenn du über 40 bist und Krafttraining machst oder damit anfangen willst, gehört Kreatin für mich zu den zwei oder drei Supplements, die den Namen verdienen. Es ersetzt kein Training und keine ordentliche Proteinzufuhr. Aber es macht das, was du im Training aufbaust, ein Stück effektiver. Mehr muss ein Supplement nicht können. Für Frauen gelten übrigens ein paar eigene Besonderheiten, von der Angst vorm Aufschwemmen bis zu den Wechseljahren: Die habe ich im Artikel [Kreatin für Frauen](/blog/kreatin-frauen-guide) gesammelt."
       },
       {
         "type": "p",
@@ -5142,10 +5142,10 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "kreatin-frauen-guide",
     "title": "Kreatin für Frauen: Was es bringt und warum niemand davon aufschwemmt",
-    "metaTitle": "Kreatin für Frauen: Wirkung, Dosierung, Fakten",
-    "metaDescription": "Kreatin für Frauen: Warum es dich nicht aufschwemmt, was Studien zu Kraft, Zyklus und Wechseljahren zeigen und wie du richtig dosierst.",
+    "metaTitle": "Kreatin für Frauen: Wirkung, Dosierung, Wechseljahre",
+    "metaDescription": "Kreatin für Frauen: Warum es dich nicht aufschwemmt, was Studien zu Kraft und Zyklus zeigen, welche Rolle es in den Wechseljahren spielt und wie du richtig dosierst.",
     "date": "2026-07-02",
-    "readMinutes": 6,
+    "readMinutes": 7,
     "excerpt": "Frauen haben niedrigere Kreatinspeicher als Männer und profitieren oft besonders deutlich. Trotzdem hält sich die Angst vor Wassereinlagerungen. Zeit für Klarheit.",
     "blocks": [
       {
@@ -5203,15 +5203,23 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Zyklus, Schwangerschaft, Wechseljahre"
+        "text": "Zyklus und Schwangerschaft"
       },
       {
         "type": "p",
-        "text": "Interessant ist, dass dein Kreatinstoffwechsel mit den Hormonen schwankt. Östrogen und Progesteron beeinflussen, wie dein Körper Kreatin herstellt und verwertet. Manche Forscherinnen vermuten deshalb, dass Frauen in bestimmten Zyklusphasen und rund um die Menopause besonders von stabil gefüllten Speichern profitieren. Für die Wechseljahre gibt es erste Studien, die Kreatin plus Krafttraining mit besserem Erhalt von Muskel- und Knochenmasse in Verbindung bringen."
+        "text": "Interessant ist, dass dein Kreatinstoffwechsel mit den Hormonen schwankt. Östrogen und Progesteron beeinflussen, wie dein Körper Kreatin herstellt und verwertet. Manche Forscherinnen vermuten deshalb, dass Frauen in bestimmten Zyklusphasen besonders von stabil gefüllten Speichern profitieren. In der Schwangerschaft und Stillzeit rate ich dagegen zur Zurückhaltung. Nicht, weil es Hinweise auf Schäden gäbe, sondern weil schlicht zu wenige Daten existieren. Diesen Unterschied sollte seriöse Beratung immer machen."
+      },
+      {
+        "type": "h2",
+        "text": "Kreatin in den Wechseljahren"
       },
       {
         "type": "p",
-        "text": "In der Schwangerschaft und Stillzeit rate ich zur Zurückhaltung. Nicht, weil es Hinweise auf Schäden gäbe, sondern weil schlicht zu wenige Daten existieren. Diesen Unterschied sollte seriöse Beratung immer machen."
+        "text": "Die Wechseljahre verdienen einen eigenen Abschnitt, weil hier zwei Dinge zusammenkommen. Erstens: Mit dem sinkenden Östrogenspiegel beschleunigt sich der Abbau von Muskel- und Knochenmasse spürbar. Viele Frauen verlieren in den Jahren um die Menopause Kraft, ohne dass sich an Training oder Alltag etwas geändert hat. Zweitens: Genau in dieser Phase zeigen erste Studien, dass Kreatin in Kombination mit Krafttraining den Erhalt von Muskulatur und Knochendichte unterstützen kann. Kreatin ersetzt dabei weder das Training noch eine ärztlich begleitete Hormontherapie, es ist ein Baustein obendrauf."
+      },
+      {
+        "type": "p",
+        "text": "Praktisch ändert sich an der Anwendung nichts: dieselben 3 bis 5 Gramm Monohydrat täglich, dauerhaft. Was sich ändern sollte, ist das Training. Ohne regelmäßige Belastung mit Gewichten gibt es für Muskeln und Knochen keinen Grund zu bleiben, mit oder ohne Pulver. Wie ein sinnvoller Einstieg aussieht, steht im [Trainingsplan für Frauen ab 50](/blog/krafttraining-frauen-ab-50-trainingsplan). Und falls du vor der ersten Einnahme wissen willst, was an den üblichen Bedenken dran ist: Im Artikel [Kreatin-Nebenwirkungen im Faktencheck](/blog/kreatin-nebenwirkungen-fakten) gehe ich sie einzeln durch."
       },
       {
         "type": "h2",
@@ -5236,7 +5244,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du Krafttraining gerade für dich entdeckst oder endlich mit Struktur trainieren willst, melde dich gern für ein kostenloses Erstgespräch. Wir schauen uns 30 bis 45 Minuten deine Ausgangslage an, und danach weißt du, was in deinem Fall wirklich Sinn ergibt. Ohne Verpflichtung."
+        "text": "Wenn du Krafttraining gerade für dich entdeckst oder endlich mit Struktur trainieren willst, melde dich gern für ein kostenloses Erstgespräch beim [Personal Training in Köln](/personal-trainer-koeln). Wir schauen uns 30 bis 45 Minuten deine Ausgangslage an, und danach weißt du, was in deinem Fall wirklich Sinn ergibt. Ohne Verpflichtung. Und wenn du Fragen zur Ernährung drumherum hast, von Eiweiß bis Supplemente, ist unsere [Ernährungsberatung mit Natalie](/leistungen/ernaehrungsberatung) die richtige Adresse."
       }
     ]
   },

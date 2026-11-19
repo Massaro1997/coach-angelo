@@ -4693,7 +4693,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Kalzium und Vitamin D spielen für die Knochendichte eine zentrale Rolle. Milchprodukte, grünes Gemüse wie Brokkoli oder Grünkohl, und regelmäßiger Aufenthalt im Freien helfen. Wenn du dir unsicher bist, ob du ausreichend versorgt bist, ist ein Blutbild beim Hausarzt der klarste Weg."
+        "text": "Kalzium und Vitamin D spielen für die Knochendichte eine zentrale Rolle. Milchprodukte, grünes Gemüse wie Brokkoli oder Grünkohl, und regelmäßiger Aufenthalt im Freien helfen. Wenn du dir unsicher bist, ob du ausreichend versorgt bist, ist ein Blutbild beim Hausarzt der klarste Weg. Beim Thema Supplemente lohnt außerdem ein Blick auf [Kreatin für Frauen](/blog/kreatin-frauen-guide): gerade ab 50 einer der wenigen Zusätze mit solider Studienlage."
       },
       {
         "type": "p",
