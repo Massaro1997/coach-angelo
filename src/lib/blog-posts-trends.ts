@@ -4394,16 +4394,16 @@ export const trendPosts: BlogPost[] = [
   },
   {
     "slug": "schulter-mobility-uebungen",
-    "title": "Schulter Mobility: Übungen für freie Überkopfbewegung im Gym",
-    "metaTitle": "Schulter Mobility: Übungen für die Überkopfposition",
-    "metaDescription": "Schulter Mobility für steife Schultern: Wandtest, 5 Übungen fürs Gym und warum meist die Brustwirbelsäule schuld ist, nicht die Schulter selbst.",
-    "date": "2026-06-30",
-    "readMinutes": 6,
-    "excerpt": "Wenn du die Arme nicht sauber über den Kopf bekommst, liegt das seltener an der Schulter als du denkst. Ein Test an der Wand und fünf Übungen bringen Klarheit und Fortschritt.",
+    "title": "Schulter mobilisieren: Übungen für bewegliche, freie Schultern",
+    "metaTitle": "Schulter mobilisieren: Übungen, die wirklich wirken",
+    "metaDescription": "Schulter mobilisieren in 10 Minuten: Wandtest, 5 Übungen, Schulterblätter freibekommen und was aktiv-assistiv aus der Physiotherapie bedeutet.",
+    "date": "2026-11-19",
+    "readMinutes": 7,
+    "excerpt": "Steife Schultern sitzen selten in der Schulter selbst. Ein Test an der Wand zeigt dir, wo es bei dir hakt, fünf Übungen bringen Bewegung zurück, und ein Abschnitt erklärt, was die Begriffe aus der Physiotherapie bedeuten.",
     "blocks": [
       {
         "type": "p",
-        "text": "Steife Schultern beim Schulterdrücken, Klimmzug oder Snatch haben in den meisten Fällen zwei Ursachen: eine unbewegliche Brustwirbelsäule und ein Lat, der die Arme nach unten zieht. Die Schulter selbst, also das Kugelgelenk, ist seltener das Problem. Das ist eine gute Nachricht, denn Brustwirbelsäule und Lat reagieren schnell auf Training. In diesem Artikel testest du zuerst, wo es bei dir hakt, danach bekommst du fünf Übungen, die du direkt in dein Aufwärmen im Gym einbauen kannst."
+        "text": "Die Schulter mobilisierst du am wirksamsten über drei Ansatzpunkte: die Brustwirbelsäule, die sich strecken muss, das Schulterblatt, das frei auf dem Brustkorb gleiten muss, und den Lat, der die Arme nach unten zieht. Das Kugelgelenk selbst ist bei gesunden Schultern am seltensten das Problem. Das ist eine gute Nachricht, denn alle drei Bereiche reagieren schnell auf regelmäßige Arbeit: 8 bis 10 Minuten vor dem Training reichen. In diesem Artikel testest du zuerst, wo es bei dir hakt, danach bekommst du fünf Übungen, einen eigenen Abschnitt für die Schulterblätter und eine ehrliche Einordnung, wann Mobilisieren nicht mehr dein Job ist, sondern der von Arzt oder Physio."
       },
       {
         "type": "h2",
@@ -4441,11 +4441,27 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Schulterblätter mobilisieren: die vergessene Hälfte"
+      },
+      {
+        "type": "p",
+        "text": "Etwa ein Drittel jeder Armhebung kommt nicht aus dem Schultergelenk, sondern aus der Drehung des Schulterblatts. Wer viel sitzt, verliert genau diese Bewegung: Das Schulterblatt klebt in einer vorgekippten Position fest, und das Gelenk muss den fehlenden Weg kompensieren. Zwei Übungen bringen es zurück. Erstens Schulterblatt-Kreise im Vierfüßlerstand: Arme gestreckt lassen, nur das Schulterblatt aktiv Richtung Decke schieben und dann zwischen die Wirbel sinken lassen, 10 langsame Wiederholungen. Zweitens Wand-Engel: Rücken an der Wand, Arme in U-Position, beim Hochschieben die Schulterblätter bewusst nach unten-außen drehen lassen, statt die Schultern zu den Ohren zu ziehen. Wenn deine Schultern dabei chronisch nach vorn fallen, liegt das meist an der Haltung, nicht am Gelenk: Dafür gibt es einen eigenen Artikel über [nach vorne hängende Schultern](/blog/haengende-schultern-korrigieren-uebungen)."
+      },
+      {
+        "type": "h2",
+        "text": "Aktiv, aktiv-assistiv, passiv: was die Physio-Begriffe bedeuten"
+      },
+      {
+        "type": "p",
+        "text": "Wer nach Übungen zum Schultermobilisieren sucht, landet oft bei Begriffen aus der Physiotherapie. Die Übersetzung ist einfach. Passiv heißt: Jemand oder etwas bewegt deinen Arm, ohne dass deine Muskeln arbeiten. Aktiv-assistiv heißt: Du bewegst selbst, bekommst aber Unterstützung, zum Beispiel indem der gesunde Arm über einen Stock oder ein Handtuch mithilft. Aktiv heißt: Deine Muskulatur macht die komplette Arbeit. Nach einer Operation oder bei einer Frozen Shoulder arbeitet die Physiotherapie bewusst in dieser Reihenfolge, und das gehört in fachliche Hände, nicht in einen Blogartikel. Für gesunde, steife Trainierende gilt das Umgekehrte: So aktiv wie möglich. Eine neue Position, die du nur passiv erreichst, gehört dir noch nicht. Erst wenn du sie mit eigener Muskelspannung halten kannst, wie in Übung 5 mit dem Gewicht über dem Kopf, bleibt sie."
+      },
+      {
+        "type": "h2",
         "text": "Was du beim Dehnen der Schulter falsch machen kannst"
       },
       {
         "type": "p",
-        "text": "Zwei Warnungen aus der Praxis. Erstens: Wer sehr beweglich in der Schulter ist, vielleicht sogar überbeweglich, braucht kein zusätzliches Dehnen, sondern Stabilität. Wenn deine Schultern eher lose sind und gern mal schnappen, lass die passiven Dehnpositionen weg und konzentrier dich auf die aktiven Übungen 3 bis 5. Zweitens: Schmerz beim Überkopfdrücken, der stechend ist oder nachts auftritt, ist kein Mobility-Thema. Damit gehst du zum Arzt oder Physiotherapeuten, nicht an die Hantel und nicht an die Rolle. Ich schicke solche Fälle konsequent weiter, auch wenn ich damit einen Kunden später starte."
+        "text": "Zwei Warnungen aus der Praxis. Erstens: Wer sehr beweglich in der Schulter ist, vielleicht sogar überbeweglich, braucht kein zusätzliches Dehnen, sondern Stabilität. Wenn deine Schultern eher lose sind und gern mal schnappen, lass die passiven Dehnpositionen weg und konzentrier dich auf die aktiven Übungen 3 bis 5. Zweitens: Schmerz beim Überkopfdrücken, der stechend ist oder nachts auftritt, ist kein Mobility-Thema. Damit gehst du zum Arzt oder Physiotherapeuten, nicht an die Hantel und nicht an die Rolle. Ich schicke solche Fälle konsequent weiter, auch wenn ich damit einen Kunden später starte. Für den unklaren Bereich dazwischen, Schultern, die nicht blockiert sind, aber zwicken, findest du sanfte Einstiege im Artikel [Übungen bei Schulterschmerzen für zuhause](/blog/schulterschmerzen-uebungen-zuhause)."
       },
       {
         "type": "h2",
