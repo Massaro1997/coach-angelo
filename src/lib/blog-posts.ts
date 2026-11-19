@@ -5896,9 +5896,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "krafttraining-frauen-vorher-nachher",
-    "title": "Krafttraining Frauen Vorher-Nachher: Was in 12 Wochen wirklich passiert",
-    "metaTitle": "Krafttraining Frauen: Vorher-Nachher in 12 Wochen",
-    "metaDescription": "Was verändert Krafttraining bei Frauen wirklich? Realistische Vorher-Nachher-Ergebnisse nach 1 Monat, 12 Wochen, 6 Monaten und einem Jahr. Ohne Mythen.",
+    "title": "Krafttraining Frauen Vorher-Nachher: was nach 1 Monat, 12 Wochen und 1 Jahr wirklich passiert",
+    "metaTitle": "Krafttraining Frauen Vorher-Nachher: 1 Monat bis 1 Jahr",
+    "metaDescription": "Realistische Vorher-Nachher-Verläufe von Frauen im Krafttraining: nach 1 Monat, 2 Monaten, 12 Wochen, 6 Monaten und 1 Jahr. Und warum die Waage dabei lügt.",
     "date": "2026-06-14",
     "readMinutes": 5,
     "excerpt": "Kein Wunder, keine Magie. Hier erfährst du, welche Veränderungen Frauen durch Krafttraining in 12 Wochen realistisch erwarten können und welche Mythen endlich aufhören müssen.",
@@ -5906,6 +5906,16 @@ export const blogPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Die kurze Antwort: Nach einem Monat Krafttraining spürst du vor allem mehr Kraft und Energie, im Spiegel siehst du noch wenig. Nach acht Wochen sitzt die Kleidung anders und erste Konturen zeigen sich. Nach zwölf Wochen sehen auch andere den Unterschied: mehr Definition, mehr Kraft, ein stabilerer Rücken. Voraussetzung sind drei Einheiten pro Woche, genug Protein und Schlaf."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Nach 1 Monat: mehr Kraft, besserer Schlaf, im Spiegel noch kaum Veränderung",
+          "Nach 2 Monaten: Kleidung sitzt anders, erste Konturen an Armen und Schultern",
+          "Nach 12 Wochen (3 Monaten): sichtbare Definition, stabiler Rücken, deutlich mehr Kraft",
+          "Nach 6 Monaten: straffere Beine und Po, aufrechtere Haltung, Gewichthalten wird leichter",
+          "Nach 1 Jahr: der Unterschied ist auf Fotos unübersehbar, auch ohne gutes Licht"
+        ]
       },
       {
         "type": "p",
@@ -5941,7 +5951,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Woche fünf bis acht: Jetzt wird es sichtbar"
+        "text": "Nach zwei Monaten: jetzt wird es sichtbar"
       },
       {
         "type": "p",
@@ -5957,7 +5967,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Nach zwölf Wochen: Das realistische Vorher-Nachher"
+        "text": "Nach drei Monaten: das realistische 12-Wochen-Vorher-Nachher"
       },
       {
         "type": "p",
@@ -5989,7 +5999,19 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Die häufigsten Mythen über Krafttraining bei Frauen"
+        "text": "Abnehmen mit Krafttraining: warum die Waage das Vorher-Nachher nicht zeigt"
+      },
+      {
+        "type": "p",
+        "text": "Viele Frauen fangen mit Krafttraining an, um abzunehmen, und sind nach acht Wochen frustriert, weil die Waage fast dasselbe anzeigt. Dabei ist genau das oft das beste Zeichen. Wer gleichzeitig Muskeln aufbaut und Fett verliert, verändert die Körperform, ohne dass sich das Gewicht groß bewegt. Ein Kilo Muskel braucht weniger Platz als ein Kilo Fett. Deshalb passt die Hose besser, während die Zahl stehen bleibt."
+      },
+      {
+        "type": "p",
+        "text": "Miss den Fortschritt darum nicht an der Waage allein. Ein Maßband an Taille und Hüfte, ein Foto alle vier Wochen im gleichen Licht und die Frage, wie die Kleidung sitzt, sagen mehr über dein Vorher-Nachher als jede Morgenwägung. Falls die Zahl dich trotzdem beschäftigt, habe ich aufgeschrieben, [warum das Gewicht trotz Training stagniert](/blog/gewicht-stagniert-trotz-training) und wann das ein Problem ist."
+      },
+      {
+        "type": "p",
+        "text": "Ein Bereich verändert sich dabei übrigens besonders früh und wird auf Fotos fast immer übersehen: der Rücken. Rudern und Kreuzheben bauen genau die Muskulatur auf, die Schulterblätter und Wirbelsäule aufrichtet. Ein trainierter Rücken macht den sichtbarsten Unterschied in der Haltung, und zwar schon nach wenigen Monaten."
       },
       {
         "type": "p",
