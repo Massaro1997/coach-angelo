@@ -4570,7 +4570,19 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Und wo passt Mobility hin?"
+        "text": "Mobility vor oder nach dem Training?"
+      },
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: vor dem Training, als Teil des Aufwärmens. Dort bereitet Mobility genau die Gelenkwinkel vor, die du in den Hauptübungen brauchst, und kostet dich keine Kraft, weil die Übungen aktiv, aber nicht ermüdend sind. Nach dem Training ist Mobility nicht falsch, aber du bist dann müde, die Bewegungsqualität sinkt, und genau die lebt bei Mobility von Präzision. Wenn du sie als Cooldown nach dem Krafttraining magst, wähl ruhige Varianten ohne Endkraft-Anteil, zum Beispiel langsame Hüftkreise oder die tiefe Hocke mit Festhalten."
+      },
+      {
+        "type": "p",
+        "text": "Für alles, was mehr sein soll als Vorbereitung, also echte Fortschritte in der Beweglichkeit, ist ein eigener kurzer Block an einem trainingsfreien Tag die beste Lösung. Zehn konzentrierte Minuten schlagen dort jede müde Viertelstunde direkt nach dem letzten Satz."
+      },
+      {
+        "type": "h2",
+        "text": "Mobility als eigene Trainingsqualität"
       },
       {
         "type": "p",
@@ -4586,7 +4598,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Falls du dir aus diesen Bausteinen keinen eigenen Wochenplan bauen willst, mach ich das gern mit dir zusammen. Der erste Termin bei mir ist eine kostenlose Erstberatung von 30 bis 45 Minuten, dort sortieren wir dein Aufwärmen, dein Training und deine 5-Minuten-Extras einmal komplett durch."
+        "text": "Falls du dir aus diesen Bausteinen keinen eigenen Wochenplan bauen willst, mach ich das gern mit dir zusammen. Der erste Termin ist eine [kostenlose Erstberatung](/contatti) von 30 bis 45 Minuten, dort sortieren wir dein Aufwärmen, dein Training und deine 5-Minuten-Extras einmal komplett durch. Wie das Training mit mir in Köln abläuft, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln)."
       }
     ]
   },
@@ -5025,7 +5037,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Um das sinkende Testosteron hat sich eine ganze Industrie gebildet, von dubiosen Boostern bis zu fragwürdigen Kliniken. Deshalb Klartext: Der normale altersbedingte Rückgang ist moderat und macht aus dir keinen anderen Menschen. Was den Wert dagegen richtig nach unten zieht, sind Übergewicht, chronischer Schlafmangel, Dauerstress und Bewegungsmangel. Ein übergewichtiger 45 Jähriger mit fünf Stunden Schlaf hat oft schlechtere Werte als ein fitter 60 Jähriger."
+        "text": "Um das sinkende Testosteron hat sich eine ganze Industrie gebildet, von dubiosen Boostern bis zu fragwürdigen Kliniken. Deshalb Klartext: Der normale altersbedingte Rückgang ist moderat und macht aus dir keinen anderen Menschen. Was den Wert dagegen richtig nach unten zieht, sind Übergewicht, chronischer Schlafmangel, Dauerstress und Bewegungsmangel. Ein übergewichtiger 45 Jähriger mit fünf Stunden Schlaf hat oft schlechtere Werte als ein fitter 60 Jähriger. Wie [Krafttraining und Personal Coaching dein Testosteron ab 40](/blog/testosteron-krafttraining-mann-ab-40) konkret beeinflussen, habe ich in einem eigenen Artikel aufgeschrieben."
       },
       {
         "type": "p",
@@ -7060,11 +7072,11 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "1-zu-1 Coaching für dein Testosteron: was es kostet und was es bringt"
+        "text": "Personal Coaching rund um dein Testosteron: was es kostet und was es bringt"
       },
       {
         "type": "p",
-        "text": "Wenn du nach einem Coaching rund um dein Testosteron suchst, sag ich dir vorher ehrlich, was du bei mir bekommst und was nicht. Kein Hormon-Protokoll, keine Booster, keine versprochenen Laborwerte. Stattdessen arbeiten wir an den drei Hebeln aus diesem Artikel: ein Krafttraining, das zu deinen Gelenken und deinem Kalender passt, eine Ernährung, die Bauchfett abbaut statt Muskeln, und ein Alltag, in dem Schlaf und Erholung wieder Platz haben. Das sind die Stellschrauben, die du selbst in der Hand hast, und genau dabei begleite ich dich."
+        "text": "Wenn du nach einem Personal Coaching rund um dein Testosteron suchst, sag ich dir vorher ehrlich, was du bei mir bekommst und was nicht. Kein Hormon-Protokoll, keine Booster, keine versprochenen Laborwerte. Stattdessen arbeiten wir an den drei Hebeln aus diesem Artikel: ein Krafttraining, das zu deinen Gelenken und deinem Kalender passt, eine Ernährung, die Bauchfett abbaut statt Muskeln, und ein Alltag, in dem Schlaf und Erholung wieder Platz haben. Das sind die Stellschrauben, die du selbst in der Hand hast, und genau dabei begleite ich dich."
       },
       {
         "type": "p",
@@ -7072,7 +7084,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Falls du wissen willst, wie so ein Training für deine Ausgangslage konkret aussieht: Melde dich für ein kostenloses Erstgespräch bei mir. Wir nehmen uns 30 bis 45 Minuten, sprechen über deine Werte, deinen Schlaf und dein bisheriges Training, und du gehst mit einem klaren nächsten Schritt raus. Ob du danach mit mir arbeitest, entscheidest allein du."
+        "text": "Falls du wissen willst, wie so ein Training für deine Ausgangslage konkret aussieht: [Melde dich für ein kostenloses Erstgespräch](/contatti). Wir nehmen uns 30 bis 45 Minuten, sprechen über deine Werte, deinen Schlaf und dein bisheriges Training, und du gehst mit einem klaren nächsten Schritt raus. Was das Training vor Ort umfasst, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln). Ob du danach mit mir arbeitest, entscheidest allein du."
       }
     ]
   },
