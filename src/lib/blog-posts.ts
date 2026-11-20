@@ -13994,15 +13994,15 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "muskelaufbau-ab-40-mann-trainingsplan-tipps",
     "title": "Muskelaufbau ab 40: Der realistische Plan für Männer mit echtem Alltag",
-    "metaTitle": "Muskelaufbau ab 40: Plan vom Personal Trainer",
-    "metaDescription": "Wie Männer ab 40 Muskeln aufbauen: Trainingsplan mit 3 bis 4 Einheiten pro Woche, Grundübungen, Protein und Regeneration. Vom Personal Trainer aus Köln.",
+    "metaTitle": "Muskelaufbau ab 40: Trainingsplan für Männer",
+    "metaDescription": "Muskelaufbau ab 40: kompletter Trainingsplan für Männer mit 3 Einheiten pro Woche als Tabelle, dazu Protein, Regeneration und Progression. Vom Personal Trainer aus Köln.",
     "date": "2026-10-21",
-    "readMinutes": 4,
+    "readMinutes": 6,
     "excerpt": "Ab 40 tickt dein Körper anders. Trotzdem kannst du Muskeln aufbauen, stark werden und gut aussehen. Hier steht, wie das konkret geht.",
     "blocks": [
       {
         "type": "p",
-        "text": "Die kurze Antwort: Muskelaufbau ab 40 funktioniert. Drei bis vier Einheiten pro Woche à 45 bis 60 Minuten, Grundübungen mit sauberer Technik, 1,6 bis 2 Gramm Protein pro Kilo Körpergewicht und mehr Erholung als mit 25. Wie das konkret aussieht, steht in diesem Plan."
+        "text": "Die kurze Antwort: Muskelaufbau ab 40 funktioniert. Drei bis vier Einheiten pro Woche à 45 bis 60 Minuten, Grundübungen mit sauberer Technik, 1,6 bis 2 Gramm Protein pro Kilo Körpergewicht und mehr Erholung als mit 25. Weiter unten findest du den kompletten Trainingsplan für eine Woche als Tabelle, so wie ich ihn mit meinen Kunden in Köln aufsetze."
       },
       {
         "type": "p",
@@ -14022,7 +14022,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Wie oft und wie lange du wirklich trainieren solltest"
+        "text": "Krafttraining ab 40: wie oft und wie lange wirklich"
       },
       {
         "type": "p",
@@ -14053,6 +14053,36 @@ export const blogPosts: BlogPost[] = [
           "Scharnier: Kreuzheben, Romanian Deadlift",
           "Core: Plank-Varianten, Pallof Press"
         ]
+      },
+      {
+        "type": "h2",
+        "text": "Der Trainingsplan: eine Woche konkret"
+      },
+      {
+        "type": "p",
+        "text": "Hier ist der Ganzkörperplan, mit dem die meisten meiner Kunden ab 40 starten. Drei Einheiten pro Woche, jeweils ein Ruhetag oder mehr dazwischen, zum Beispiel Montag, Mittwoch und Freitag. Jede Einheit beginnt mit zehn Minuten Aufwärmen: fünf Minuten Rudergerät oder zügiges Gehen, danach zwei leichte Aufwärmsätze der ersten Übung. Die Gewichte wählst du so, dass die letzten zwei Wiederholungen jedes Satzes anstrengend sind, aber sauber bleiben."
+      },
+      {
+        "type": "table",
+        "headers": ["Einheit", "Übung", "Sätze × Wiederholungen"],
+        "rows": [
+          ["A (z. B. Montag)", "Goblet Squat", "3 × 8–10"],
+          ["", "Bankdrücken", "3 × 6–8"],
+          ["", "Rudern am Kabelzug", "3 × 10–12"],
+          ["", "Plank", "3 × 30–45 Sek."],
+          ["B (z. B. Mittwoch)", "Romanian Deadlift", "3 × 8–10"],
+          ["", "Schulterdrücken sitzend", "3 × 8–10"],
+          ["", "Latzug oder Klimmzüge", "3 × 6–10"],
+          ["", "Pallof Press", "3 × 10 je Seite"],
+          ["C (z. B. Freitag)", "Kniebeuge mit Stange", "3 × 6–8"],
+          ["", "Rudern mit Langhantel", "3 × 8–10"],
+          ["", "Schrägbankdrücken mit Kurzhanteln", "3 × 8–10"],
+          ["", "Farmer's Walk", "3 × 30 Meter"]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So steigerst du dich: Schaffst du in allen Sätzen die obere Wiederholungszahl sauber, erhöhst du beim nächsten Mal das Gewicht um das kleinste verfügbare Maß, meist 2,5 Kilo. Mehr Steuerung braucht es am Anfang nicht. Nach acht bis zwölf Wochen tauschst du einzelne Übungen oder wechselst auf einen Oberkörper-Unterkörper-Split mit vier Einheiten, falls dein Kalender das hergibt. Wer lieber zuhause ohne Hantelbank startet: Goblet Squat, Rudern mit einer Kurzhantel und Liegestütze decken die ersten Monate genauso ab."
       },
       {
         "type": "h2",

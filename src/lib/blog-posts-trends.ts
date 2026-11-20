@@ -7712,7 +7712,7 @@ export const trendPosts: BlogPost[] = [
     "slug": "bierbauch-loswerden-mann",
     "title": "Bierbauch loswerden: Der ehrliche Plan gegen viszerales Fett",
     "metaTitle": "Bierbauch loswerden: Der ehrliche Plan für Männer",
-    "metaDescription": "Bierbauch loswerden ohne Crash-Diät: Warum viszerales Fett gefährlich ist, wie du es misst und der realistische Plan aus Defizit, Kraft und Alltag.",
+    "metaDescription": "Bierbauch loswerden ohne Crash-Diät: warum der Bauch trotz Sport bleibt, wie du viszerales Fett misst und der 4-Wochen-Einstieg aus Defizit, Kraft und Alltag.",
     "date": "2026-07-08",
     "readMinutes": 7,
     "excerpt": "Der Bierbauch ist kein Schönheitsproblem, sondern ein Stoffwechselproblem. Hier bekommst du keinen Detox-Quatsch, sondern einen Plan, der in einen normalen Männeralltag passt.",
@@ -7776,11 +7776,27 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Bierbauch trotz Sport: warum er bleibt"
+      },
+      {
+        "type": "p",
+        "text": "Viele Männer, die zu mir kommen, trainieren längst. Zweimal Fußball, ab und zu joggen, vielleicht sogar Studio. Der Bauch bleibt trotzdem, und der Grund ist fast immer derselbe: Das Training verbrennt weniger, als man glaubt, und das Essen danach gleicht es mehr als aus. Eine Stunde Kicken sind vielleicht 500 bis 600 kcal, zwei Kölsch und eine Portion Pommes danach sind mehr. Sport ohne Defizit verändert den Bauchumfang nicht, er macht dich nur fitter unter dem Fett. Wenn dein Gewicht seit Monaten trotz Training stillsteht, findest du die häufigsten Ursachen im Artikel [Gewicht stagniert trotz Training](/blog/gewicht-stagniert-trotz-training)."
+      },
+      {
+        "type": "h2",
+        "text": "Bauch weg: die ersten vier Wochen in der richtigen Reihenfolge"
+      },
+      {
+        "type": "p",
+        "text": "Wer alles gleichzeitig ändert, hält selten durch. So setze ich den Einstieg mit meinen Kunden auf: Woche eins misst du nur: Bauchumfang, Gewicht, und drei Tage lang ehrlich alles notieren, was du isst und trinkst. Woche zwei greifst du die flüssigen Kalorien an: Alkohol auf zwei Tage begrenzen, Softdrinks und Säfte streichen. Allein das sind bei vielen Männern 2000 bis 3000 kcal pro Woche. Woche drei kommen zwei Krafteinheiten dazu, Ganzkörper, 45 Minuten. Woche vier stellst du das Eiweiß hoch und baust die Schritte in den Alltag ein. Danach steht das Fundament, und ab da ist es Wiederholung."
+      },
+      {
+        "type": "h2",
         "text": "Der erste Schritt, wenn du es ernst meinst"
       },
       {
         "type": "p",
-        "text": "Miss heute Abend deinen Bauchumfang und schreib die Zahl auf. Das dauert eine Minute und macht aus einem vagen Unwohlsein ein konkretes Projekt mit Startwert. Und wenn du willst, dass jemand mit Wettkampferfahrung deinen Plan baut und dich ehrlich begleitet: Buch dir einfach meine kostenlose Erstberatung. Wir sprechen 30 bis 45 Minuten über deinen Alltag, deine Zahlen und den Weg, der für dich funktioniert. Kostet nichts außer der Ehrlichkeit, anzufangen."
+        "text": "Miss heute Abend deinen Bauchumfang und schreib die Zahl auf. Das dauert eine Minute und macht aus einem vagen Unwohlsein ein konkretes Projekt mit Startwert. Und wenn du willst, dass jemand mit Wettkampferfahrung deinen Plan baut und dich ehrlich begleitet: Buch dir einfach meine [kostenlose Erstberatung](/contatti). Wir sprechen 30 bis 45 Minuten über deinen Alltag, deine Zahlen und den Weg, der für dich funktioniert. Wie das 1-zu-1-Training in Köln abläuft, steht auf der Seite [Personal Training in Köln](/personal-trainer-koeln). Kostet nichts außer der Ehrlichkeit, anzufangen."
       }
     ]
   },
