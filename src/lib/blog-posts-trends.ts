@@ -160,7 +160,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Vergiss Ladephasen, Zyklen und teure Spezialformen. 3 bis 5 Gramm Kreatin Monohydrat pro Tag, jeden Tag, fertig. Der Zeitpunkt ist fast egal, Hauptsache regelmäßig. Ich empfehle meinen Klienten, es morgens in den Kaffee oder ins Wasser zu rühren, weil es dann zur Routine wird. Nach etwa vier Wochen sind die Speicher voll."
+        "text": "Vergiss Ladephasen, Zyklen und teure Spezialformen. 3 bis 5 Gramm Kreatin Monohydrat pro Tag, jeden Tag, fertig. Der Zeitpunkt ist fast egal, Hauptsache regelmäßig. Ich empfehle meinen Klienten, es morgens in den Kaffee oder ins Wasser zu rühren, weil es dann zur Routine wird. Nach etwa vier Wochen sind die Speicher voll. Die komplette Anleitung mit Dosierungstabelle und den typischen Fehlern steht im Artikel [Kreatin richtig einnehmen](/blog/kreatin-einnahme-richtig)."
       },
       {
         "type": "p",
@@ -5171,7 +5171,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Für gesunde Erwachsene bleibt das Fazit nach heutigem Wissensstand eindeutig: Kreatinmonohydrat in normaler Dosierung ist eines der sichersten und am besten erforschten Supplements, die du kaufen kannst. Die gruseligen Geschichten stammen aus Umkleidekabinen, nicht aus Fachjournalen. Was Kreatin nicht ersetzt: konsequentes Training, ausreichend Protein und Schlaf. Ohne diese Basis wirkt gar nichts."
+        "text": "Für gesunde Erwachsene bleibt das Fazit nach heutigem Wissensstand eindeutig: Kreatinmonohydrat in normaler Dosierung ist eines der sichersten und am besten erforschten Supplements, die du kaufen kannst. Die gruseligen Geschichten stammen aus Umkleidekabinen, nicht aus Fachjournalen. Viele der Praxisprobleme oben verschwinden übrigens schon mit der richtigen Dosierung und Routine: Wie beides aussieht, steht im Artikel [Kreatin richtig einnehmen](/blog/kreatin-einnahme-richtig). Was Kreatin nicht ersetzt: konsequentes Training, ausreichend Protein und Schlaf. Ohne diese Basis wirkt gar nichts."
       },
       {
         "type": "p",
@@ -5480,8 +5480,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "kreatin-einnahme-richtig",
     "title": "Kreatin richtig einnehmen: Dosis, Timing und die Fehler, die ich ständig sehe",
-    "metaTitle": "Kreatin einnehmen: Dosis, Timing, Ladephase",
-    "metaDescription": "Kreatin richtig einnehmen: 3 bis 5 g täglich, Timing fast egal, Ladephase optional. So machst du es von Anfang an ohne die typischen Fehler.",
+    "metaTitle": "Kreatin Einnahme und Dosierung: so stimmt beides",
+    "metaDescription": "Kreatin Einnahme einfach erklärt: Dosierung von 3 bis 5 g täglich nach Körpergewicht, Timing fast egal, Ladephase optional. Mit Tabelle und den typischen Fehlern.",
     "date": "2026-07-03",
     "readMinutes": 5,
     "excerpt": "Kaum ein Supplement ist so simpel in der Anwendung wie Kreatin, und trotzdem wird erstaunlich viel falsch gemacht. Die komplette Anleitung in fünf Minuten.",
@@ -5492,7 +5492,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
-        "text": "Die richtige Dosis: warum 3 bis 5 Gramm reichen"
+        "text": "Die richtige Dosierung: warum 3 bis 5 Gramm reichen"
       },
       {
         "type": "p",
@@ -5500,7 +5500,16 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Sehr schwere Menschen mit viel Muskelmasse orientieren sich am oberen Ende, also 5 Gramm. Eine 60 Kilo leichte Person fährt mit 3 Gramm genauso gut. Grammgenaues Abwiegen ist unnötig, ein gestrichener Teelöffel entspricht ungefähr 3 bis 4 Gramm."
+        "text": "Sehr schwere Menschen mit viel Muskelmasse orientieren sich am oberen Ende, also 5 Gramm. Eine 60 Kilo leichte Person fährt mit 3 Gramm genauso gut. Grammgenaues Abwiegen ist unnötig, ein gestrichener Teelöffel entspricht ungefähr 3 bis 4 Gramm. Als Einnahmeempfehlung auf einen Blick:"
+      },
+      {
+        "type": "table",
+        "headers": ["Körpergewicht", "Tagesdosis Kreatinmonohydrat", "In Teelöffeln"],
+        "rows": [
+          ["bis 65 kg", "3 g", "knapp 1 gestrichener TL"],
+          ["65 bis 85 kg", "3 bis 5 g", "1 gestrichener bis 1 gehäufter TL"],
+          ["über 85 kg", "5 g", "1 gehäufter TL"]
+        ]
       },
       {
         "type": "h2",
@@ -5562,7 +5571,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du deinen Trainingsplan einmal von jemandem prüfen lassen willst, der davon lebt, dass Pläne funktionieren: Buch dir eine kostenlose Erstberatung bei mir. Eine halbe bis dreiviertel Stunde, ehrliche Analyse, keine Vertragsfalle."
+        "text": "Ob Kreatin bei dir überhaupt Nebenwirkungen haben kann, habe ich im Artikel [Kreatin Nebenwirkungen: Fakten statt Mythen](/blog/kreatin-nebenwirkungen-fakten) aufgeschrieben. Und wenn du deinen Trainingsplan einmal von jemandem prüfen lassen willst, der davon lebt, dass Pläne funktionieren: Buch dir eine [kostenlose Erstberatung](/contatti) bei mir. Eine halbe bis dreiviertel Stunde, ehrliche Analyse, keine Vertragsfalle."
       }
     ]
   },
@@ -7949,7 +7958,7 @@ export const trendPosts: BlogPost[] = [
     "slug": "grundumsatz-erhoehen-methoden",
     "title": "Grundumsatz erhöhen: Was deinen Stoffwechsel wirklich antreibt",
     "metaTitle": "Grundumsatz erhöhen: Das funktioniert wirklich",
-    "metaDescription": "Grundumsatz steigern ohne Detox-Märchen: Muskelmasse, NEAT und Protein sind die echten Hebel. Mit konkreten Zahlen, was wie viel bringt.",
+    "metaDescription": "Grundumsatz steigern ohne Detox-Märchen: Muskelmasse, NEAT und Protein sind die echten Hebel. Mit Formel zum Berechnen und konkreten Zahlen, was wie viel bringt.",
     "date": "2026-07-09",
     "readMinutes": 6,
     "excerpt": "Deinen Grundumsatz erhöhst du über Muskelmasse, Alltagsbewegung und ausreichend Essen. Ingwer-Shots und Stoffwechsel-Tees kannst du dir sparen. Hier stehen die Zahlen dazu.",
@@ -7957,6 +7966,14 @@ export const trendPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Du kannst deinen Grundumsatz erhöhen, aber nur über drei Wege, die tatsächlich messbar wirken: mehr Muskelmasse aufbauen, mehr Alltagsbewegung einbauen (NEAT) und aufhören, chronisch zu wenig zu essen. Alles andere, was dir verkauft wird, bewegt sich im Bereich von Rundungsfehlern. Ein Kilogramm zusätzliche Muskulatur verbrennt in Ruhe etwa 13 kcal pro Tag, klingt wenig, summiert sich aber mit dem Training selbst und dem Nachbrenneffekt auf einen relevanten Unterschied. Der Grundumsatz ist die Energie, die dein Körper in kompletter Ruhe verbraucht, bei den meisten Erwachsenen zwischen 1300 und 1900 kcal täglich. In diesem Artikel zerlege ich, welcher Hebel wie viel bringt und warum die Detox-Industrie dir das Gegenteil erzählt."
+      },
+      {
+        "type": "h2",
+        "text": "So berechnest du deinen Grundumsatz"
+      },
+      {
+        "type": "p",
+        "text": "Bevor du am Grundumsatz drehst, solltest du wissen, wo er ungefähr liegt. Die in Studien am besten abschneidende Formel ist die von Mifflin-St. Jeor: 10 mal Gewicht in Kilo plus 6,25 mal Größe in Zentimetern minus 5 mal Alter, bei Männern plus 5, bei Frauen minus 161. Ein Beispiel: Ein Mann mit 88 Kilo, 180 cm und 45 Jahren kommt auf 880 plus 1125 minus 225 plus 5, also rund 1785 kcal Grundumsatz. Das ist nur die Ruhe-Basis: Dein tatsächlicher Tagesverbrauch liegt je nach Bewegung 30 bis 80 Prozent darüber. Wie du vom Grundumsatz zum richtigen Kalorienziel fürs Abnehmen kommst, steht in der FAQ [Wie viele Kalorien zum Abnehmen?](/fitness-faq/wie-viele-kalorien-zum-abnehmen)."
       },
       {
         "type": "h2",
@@ -8013,7 +8030,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Falls du unsicher bist, wo du stehst und welcher der drei Hebel bei dir am meisten bringt: Genau solche Fragen kläre ich im kostenlosen Erstgespräch. 30 bis 45 Minuten, wir rechnen deinen Ist-Zustand durch, und du bekommst eine ehrliche Einschätzung statt einer Verkaufsshow."
+        "text": "Falls du unsicher bist, wo du stehst und welcher der drei Hebel bei dir am meisten bringt: Genau solche Fragen kläre ich im [kostenlosen Erstgespräch](/contatti). 30 bis 45 Minuten, wir rechnen deinen Ist-Zustand durch, und du bekommst eine ehrliche Einschätzung statt einer Verkaufsshow. Beim Essen unterstützt dich bei uns Natalie, unsere Ernährungsberaterin: Was die [Ernährungsberatung in Köln](/leistungen/ernaehrungsberatung) umfasst, steht auf der Leistungsseite."
       }
     ]
   },
