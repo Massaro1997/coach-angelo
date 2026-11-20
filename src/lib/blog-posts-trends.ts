@@ -3692,7 +3692,7 @@ export const trendPosts: BlogPost[] = [
     "slug": "mobility-training-anfaenger",
     "title": "Mobility Training für Anfänger: Der Unterschied zu Dehnen und deine erste Routine",
     "metaTitle": "Mobility Training für Anfänger: So startest du richtig",
-    "metaDescription": "Mobility Training erklärt: der echte Unterschied zum Dehnen, warum Kraftsportler es brauchen und eine Basisroutine mit 6 Übungen für den Start.",
+    "metaDescription": "Mobility Training für Anfänger erklärt: was Mobilitätstraining vom Dehnen unterscheidet, warum Kraftsportler es brauchen und eine Basisroutine mit 6 Übungen.",
     "date": "2026-06-28",
     "readMinutes": 7,
     "excerpt": "Mobility ist nicht dasselbe wie Dehnen, auch wenn beides oft verwechselt wird. Hier bekommst du die Definition, die dir wirklich hilft, plus eine Basisroutine mit sechs Übungen.",
@@ -3708,6 +3708,14 @@ export const trendPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Nimm die Hüftbeuger. Beim klassischen Dehnen kniest du im Ausfallschritt, schiebst die Hüfte nach vorn und wartest 45 Sekunden. Das verlängert kurzfristig das Gefühl von Spannung. Beim Mobility Training machst du aus derselben Position eine Bewegung: Du schiebst die Hüfte kontrolliert vor und zurück, spannst dabei das Gesäß an und hältst die Endposition aktiv für ein paar Sekunden. Dein Nervensystem lernt dadurch, dass diese Endposition sicher ist und dass du dort Kraft hast. Passives Dehnen gibt dir Bewegungsradius auf dem Papier. Mobility gibt dir Bewegungsradius, den du unter Last abrufen kannst. Für Sport und Alltag zählt nur der zweite."
+      },
+      {
+        "type": "h2",
+        "text": "Mobilitätstraining, Mobility, Beweglichkeitstraining: alles dasselbe?"
+      },
+      {
+        "type": "p",
+        "text": "Kurz zur Begriffsklärung, weil die Wörter durcheinander benutzt werden: Mobilitätstraining und Mobility Training meinen dasselbe, einmal auf Deutsch, einmal auf Englisch. Beweglichkeitstraining ist der Oberbegriff und schließt auch passives Dehnen mit ein. In der Physiotherapie meint Mobilisation oft noch etwas Drittes: Techniken, bei denen der Therapeut ein Gelenk von außen bewegt. Wenn du also nach Mobilitätstraining für zuhause suchst, bist du hier richtig: Es geht um aktive, selbst ausgeführte Übungen, die deinen nutzbaren Bewegungsradius vergrößern. Welche Form wann sinnvoll ist, habe ich im Artikel [Dehnen oder Mobility: der Unterschied](/blog/dehnen-oder-mobility-unterschied) genauer auseinandergenommen."
       },
       {
         "type": "h2",
@@ -3766,7 +3774,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du herausfinden willst, wo deine persönlichen Baustellen liegen, statt auf Verdacht zu trainieren: In meiner kostenlosen Erstberatung in Köln teste ich genau das mit dir durch, 30 bis 45 Minuten, und du bekommst deine drei wichtigsten Übungen mit nach Hause. Danach entscheidest du in Ruhe, ob du mehr willst."
+        "text": "Wenn du herausfinden willst, wo deine persönlichen Baustellen liegen, statt auf Verdacht zu trainieren: In meiner [kostenlosen Erstberatung](/contatti) in Köln teste ich genau das mit dir durch, 30 bis 45 Minuten, und du bekommst deine drei wichtigsten Übungen mit nach Hause. Wie das [Personal Training in Köln](/personal-trainer-koeln) danach abläuft, steht auf der Leistungsseite. Danach entscheidest du in Ruhe, ob du mehr willst."
       }
     ]
   },
@@ -4139,7 +4147,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Woche 1 und 2 machst du alle Übungen im wohlfühlbaren Bereich, es geht ums Kennenlernen der Positionen. Woche 3 und 4 hältst du die Endpositionen länger und spannst dort bewusst an: In der Hüftbeuger-Mobilisation zum Beispiel 5 Sekunden in der Endposition bleiben. Woche 5 und 6 fügst du Last hinzu, etwa die Glute Bridge einbeinig oder die Kosakenhocke mit einer Kurzhantel vor der Brust. Dieses Prinzip, erst Position, dann Zeit, dann Last, ist dasselbe, das ich in der Wettkampfvorbereitung genutzt habe. Es funktioniert bei einer 70-jährigen Kundin genauso wie bei einem 25-jährigen Kraftsportler, nur die Einstiegsstufe ist anders."
+        "text": "Woche 1 und 2 machst du alle Übungen im wohlfühlbaren Bereich, es geht ums Kennenlernen der Positionen. Woche 3 und 4 hältst du die Endpositionen länger und spannst dort bewusst an: In der Hüftbeuger-Mobilisation zum Beispiel 5 Sekunden in der Endposition bleiben. Woche 5 und 6 fügst du Last hinzu, etwa die Glute Bridge einbeinig oder die Kosakenhocke mit einer Kurzhantel vor der Brust. Dieses Prinzip, erst Position, dann Zeit, dann Last, ist dasselbe, das ich in der Wettkampfvorbereitung genutzt habe. Es funktioniert bei einer 70-jährigen Kundin genauso wie bei einem 25-jährigen Kraftsportler, nur die Einstiegsstufe ist anders. Wenn du nicht nur die Hüfte, sondern den ganzen Körper angehen willst, findest du im Artikel [Mobility Training für Anfänger](/blog/mobility-training-anfaenger) die passende Basisroutine."
       },
       {
         "type": "h2",
@@ -4566,7 +4574,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Mobility ist keine Trainingsphase, sondern eine eigene Trainingsqualität. Sie gehört als kurzer Block ins Aufwärmen und optional als eigene 10-Minuten-Einheit an trainingsfreie Tage. Der Unterschied zum passiven Dehnen ist die aktive Kontrolle: Du lernst, Endpositionen mit Kraft zu halten, und genau das überträgt sich auf Kniebeuge, Drücken und Alltag. In meiner Zeit auf der Bühne habe ich passives Dehnen fast komplett durch aktive Mobility ersetzt und war beweglicher als je zuvor, bei gleichzeitig besserer Stabilität. Das ist eine Einzelerfahrung, kein Studienergebnis, aber sie deckt sich mit dem, was ich seit Jahren bei Kunden sehe."
+        "text": "Mobility ist keine Trainingsphase, sondern eine eigene Trainingsqualität. Sie gehört als kurzer Block ins Aufwärmen und optional als eigene 10-Minuten-Einheit an trainingsfreie Tage. Der Unterschied zum passiven Dehnen ist die aktive Kontrolle: Du lernst, Endpositionen mit Kraft zu halten, und genau das überträgt sich auf Kniebeuge, Drücken und Alltag. In meiner Zeit auf der Bühne habe ich passives Dehnen fast komplett durch aktive Mobility ersetzt und war beweglicher als je zuvor, bei gleichzeitig besserer Stabilität. Das ist eine Einzelerfahrung, kein Studienergebnis, aber sie deckt sich mit dem, was ich seit Jahren bei Kunden sehe. Wenn du neu einsteigst, findest du im Artikel [Mobility Training für Anfänger](/blog/mobility-training-anfaenger) eine komplette Basisroutine mit sechs Übungen."
       },
       {
         "type": "h2",
@@ -6558,7 +6566,7 @@ export const trendPosts: BlogPost[] = [
     "slug": "osteoporose-vorbeugen-krafttraining",
     "title": "Osteoporose vorbeugen: Warum Krafttraining deine beste Versicherung ist",
     "metaTitle": "Osteoporose vorbeugen mit Krafttraining: So geht es",
-    "metaDescription": "Osteoporose vorbeugen: Warum schwere Gewichte deine Knochendichte schützen, welche Übungen wirken und warum Schwimmen dafür nicht reicht.",
+    "metaDescription": "Osteoporose vorbeugen: welches Training die Knochendichte wirklich schützt, ob ein Gerätezirkel wie Kieser reicht und wie deine Trainingswoche konkret aussieht.",
     "date": "2026-07-07",
     "readMinutes": 7,
     "excerpt": "Nach der Menopause verlieren Frauen rasant Knochendichte. Gezieltes Krafttraining ist das wirksamste Werkzeug dagegen. Welche Übungen zählen und wie du sicher startest.",
@@ -6603,6 +6611,22 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Gerätezirkel wie Kieser oder freie Gewichte?"
+      },
+      {
+        "type": "p",
+        "text": "Diese Frage bekomme ich oft von Frauen, die schon bei einem Geräteanbieter wie Kieser Training trainieren oder darüber nachdenken. Die ehrliche Antwort: Beides belastet den Knochen, und ein geführter Gerätezirkel ist ein guter, sicherer Einstieg, gerade wenn du noch nie trainiert hast oder dich mit Hanteln unwohl fühlst. Die Maschine führt die Bewegung, das Verletzungsrisiko ist klein, und der Widerstand lässt sich fein steigern. Zwei Dinge kann der Zirkel aber nicht: Er trainiert kaum dein Gleichgewicht, weil du sitzt oder liegst, und er bereitet dich nicht auf die Belastungen vor, bei denen Brüche wirklich passieren: stolpern, abfangen, etwas Schweres tragen. Deshalb mein Rat: Wenn dir der Zirkel liegt, behalte ihn als Basis und ergänze freie Übungen im Stehen, Ausfallschritte, Balancearbeit und Tragen von Gewicht. Wenn du neu startest, lern von Anfang an beides."
+      },
+      {
+        "type": "h2",
+        "text": "So sieht eine Trainingswoche für die Knochen aus"
+      },
+      {
+        "type": "p",
+        "text": "Konkret reicht dieses Gerüst: zwei Krafteinheiten à 45 Minuten pro Woche mit den Übungen oben, jeweils 2 bis 3 Arbeitssätze mit 5 bis 8 Wiederholungen, sobald die Technik sitzt. Dazu an zwei bis drei Tagen fünf Minuten Sprung- oder Hüpfbelastung, dem Niveau angepasst: Das kann anfangs zügiges Treppensteigen sein, später kleine Sprünge. Und täglich ein bis zwei Minuten Gleichgewicht, zum Beispiel Einbeinstand beim Zähneputzen. Mehr Umfang bringt den Knochen wenig: Entscheidend ist, dass der Reiz schwer genug ist und über Monate regelmäßig kommt."
+      },
+      {
+        "type": "h2",
         "text": "Warum Schwimmen und Radfahren nicht reichen"
       },
       {
@@ -6619,7 +6643,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Knochendichte baust du nicht in vier Wochen auf, aber jedes Trainingsjahr zahlt auf ein Konto ein, von dem du mit 70 und 80 lebst. Wenn du wissen möchtest, wie ein knochengerechtes Programm für dich aussieht, vereinbare ein kostenloses Erstgespräch mit mir. Wir nehmen uns 30 bis 45 Minuten, gehen deine Situation durch, und du bekommst eine klare Empfehlung, ob 1-zu-1 Training in Köln, Online Coaching oder erstmal ein Plan zum Selbermachen das Richtige für dich ist."
+        "text": "Knochendichte baust du nicht in vier Wochen auf, aber jedes Trainingsjahr zahlt auf ein Konto ein, von dem du mit 70 und 80 lebst. Wie das Krafttraining für Frauen ab 50 insgesamt aussieht, über die Knochen hinaus, steht im Artikel [Krafttraining für Frauen ab 50](/blog/krafttraining-frauen-ab-50-trainingsplan). Wenn du wissen möchtest, wie ein knochengerechtes Programm für dich aussieht, vereinbare ein [kostenloses Erstgespräch](/contatti) mit mir. Wir nehmen uns 30 bis 45 Minuten, gehen deine Situation durch, und du bekommst eine klare Empfehlung, ob [1-zu-1 Training in Köln](/personal-trainer-koeln), Online Coaching oder erstmal ein Plan zum Selbermachen das Richtige für dich ist."
       }
     ]
   },
@@ -7701,7 +7725,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wichtig ist die Reihenfolge: Erst ärztlicher Check, wenn du lange nichts gemacht hast oder Vorerkrankungen bestehen. Dann sauberer Technikaufbau mit moderaten Gewichten, gern an geführten Maschinen. Und erst dann die schrittweise Steigerung. Wer diese Reihenfolge respektiert, verletzt sich im Krafttraining seltener als beim Fußball mit den Kumpels."
+        "text": "Wichtig ist die Reihenfolge: Erst ärztlicher Check, wenn du lange nichts gemacht hast oder Vorerkrankungen bestehen. Dann sauberer Technikaufbau mit moderaten Gewichten, gern an geführten Maschinen. Und erst dann die schrittweise Steigerung. Wer diese Reihenfolge respektiert, verletzt sich im Krafttraining seltener als beim Fußball mit den Kumpels. Das Training schützt übrigens nicht nur die Muskeln: Dieselbe Belastung erhält auch die Knochendichte, wie der Artikel [Osteoporose vorbeugen mit Krafttraining](/blog/osteoporose-vorbeugen-krafttraining) zeigt."
       },
       {
         "type": "h2",

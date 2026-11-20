@@ -4625,7 +4625,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Krafttraining ist dabei das wirkungsvollste Werkzeug, das du hast. Nicht wegen irgendwelcher Versprechen, sondern weil mechanische Belastung auf Knochen und Muskeln deren Erhalt direkt stimuliert. Spazierengehen ist schön, aber es reicht nicht. Dein Skelett braucht echten Widerstand, um zu reagieren."
+        "text": "Krafttraining ist dabei das wirkungsvollste Werkzeug, das du hast. Nicht wegen irgendwelcher Versprechen, sondern weil mechanische Belastung auf Knochen und Muskeln deren Erhalt direkt stimuliert. Spazierengehen ist schön, aber es reicht nicht. Dein Skelett braucht echten Widerstand, um zu reagieren. Warum das so ist und welche Übungen den Knochen das stärkste Signal geben, habe ich im Artikel [Osteoporose vorbeugen mit Krafttraining](/blog/osteoporose-vorbeugen-krafttraining) im Detail aufgeschrieben."
       },
       {
         "type": "p",
