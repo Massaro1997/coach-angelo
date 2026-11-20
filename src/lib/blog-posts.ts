@@ -4056,7 +4056,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ich bekomme diese Frage fast jede Woche: Lohnt sich Online Fitness Coaching überhaupt? Oder zahlt man am Ende für PDFs und Schweigen? Als Personal Trainer in Köln arbeite ich seit Jahren sowohl vor Ort als auch online. Ich kenne beide Seiten. Und ich sage dir jetzt genau, was du von Online Coaching erwarten kannst, was oft schiefläuft und worauf du achten musst, bevor du Geld ausgibst."
+        "text": "Ich bekomme diese Frage fast jede Woche: Lohnt sich Online Fitness Coaching überhaupt? Oder zahlt man am Ende für PDFs und Schweigen? Als Personal Trainer in Köln arbeite ich seit Jahren sowohl vor Ort als auch online. Ich kenne beide Seiten. Hier geht es um Erfahrungen: was Klienten wirklich erleben, was oft schiefläuft und worauf du achten musst, bevor du Geld ausgibst. Wenn du zuerst den Ablauf verstehen willst, von der Eingangsanalyse bis zum Check-in, lies [wie Online Fitness Coaching funktioniert](/blog/online-fitness-coaching-wie-funktioniert-es)."
       },
       {
         "type": "h2",
@@ -4147,6 +4147,18 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Erfahrungen nach drei Monaten: was realistisch passiert"
+      },
+      {
+        "type": "p",
+        "text": "Der erste Monat ist fast immer der unspektakulärste. Du lernst das Check-in-System kennen, der Plan wird zwei-, dreimal nachjustiert, und auf der Waage passiert oft weniger, als du hoffst. Genau hier brechen die meisten schlechten Coaching-Erfahrungen ab: Der Klient wird still, der Coach fragt nicht nach, das Abo läuft leer weiter. In einem guten Coaching ist der erste Monat die Kalibrierungsphase, und das sagt dir der Coach auch vorher."
+      },
+      {
+        "type": "p",
+        "text": "Im zweiten Monat wird das Training zur Routine. Die Technik-Videos werden seltener korrigiert, die Gewichte steigen messbar, und die Check-ins dauern keine zehn Minuten mehr. Ab dem dritten Monat sieht man die Veränderungen, die man vorher nur gemessen hat: Kleidung sitzt anders, Alltagsbelastungen fallen leichter. Wer nach zwölf Wochen weder messbare noch sichtbare Veränderung hat, sollte das Gespräch mit dem Coach suchen, und zwar konkret: Woran liegt es, was ändern wir?"
+      },
+      {
+        "type": "h2",
         "text": "Was meine Klienten mir nach Monaten Online Coaching berichten"
       },
       {
@@ -4179,7 +4191,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Online Fitness Coaching kann richtig gut funktionieren, wenn du weißt, worauf du achtest, und wenn du den richtigen Coach findest. Es ist kein Wundermittel, aber es ist ein starkes Werkzeug für Menschen, die Struktur, klare Kommunikation und einen Plan brauchen, der wirklich zu ihrem Alltag passt. Wenn du neugierig bist, wie das für dich konkret aussehen könnte, dann meld dich für ein kostenloses Erstgespräch. Kein Verkaufsdruck, keine vorgefertigten Antworten. Wir schauen gemeinsam, was zu deinen Zielen passt."
+        "text": "Online Fitness Coaching kann richtig gut funktionieren, wenn du weißt, worauf du achtest, und wenn du den richtigen Coach findest. Es ist kein Wundermittel, aber es ist ein starkes Werkzeug für Menschen, die Struktur, klare Kommunikation und einen Plan brauchen, der wirklich zu ihrem Alltag passt. Die Details zu meinem Angebot stehen auf der Seite [Online Coaching bei FitPrimo](/leistungen/online-coaching). Wenn du wissen willst, wie das für dich konkret aussieht, [vereinbar ein kostenloses Erstgespräch](/contatti). Kein Verkaufsdruck, keine vorgefertigten Antworten. Wir schauen gemeinsam, was zu deinen Zielen passt."
       }
     ]
   },
@@ -4664,13 +4676,18 @@ export const blogPosts: BlogPost[] = [
         "text": "Das Volumen steigerst du langsam. Starte in den ersten vier Wochen mit zwei bis drei Sätzen pro Übung und acht bis zwölf Wiederholungen. Wenn sich das Gewicht nach drei Einheiten locker anfühlt, erhöhst du es leicht. Nie mehr als zehn Prozent auf einmal. Dieser Rhythmus schützt Gelenke und hält die Motivation hoch, weil du echte Fortschritte siehst."
       },
       {
-        "type": "ul",
-        "items": [
-          "Montag: Unterkörper und Rumpf (Kniebeugen, Ausfallschritte, Planke)",
-          "Mittwoch: Oberkörper drücken und ziehen (Rudern, Schulterdrücken, Liegestütz-Variante)",
-          "Freitag: Ganzkörper mit Fokus auf Hüfte und Rücken (Kreuzheben, Glute Bridge, Rudern)",
-          "Samstag oder Sonntag: aktive Erholung, Spaziergang oder leichtes Yoga"
+        "type": "table",
+        "headers": ["Tag", "Schwerpunkt", "Übungen mit Sätzen und Wiederholungen"],
+        "rows": [
+          ["Montag", "Unterkörper und Rumpf", "Kniebeugen 3×10, Ausfallschritte 3×8 je Bein, Planke 3×30 Sekunden"],
+          ["Mittwoch", "Oberkörper drücken und ziehen", "Rudern 3×10, Schulterdrücken 3×10, Liegestütz-Variante 3×8"],
+          ["Freitag", "Ganzkörper, Hüfte und Rücken", "Kreuzheben 3×8, Glute Bridge 3×12, Rudern 3×10"],
+          ["Samstag oder Sonntag", "Aktive Erholung", "Spaziergang oder leichtes Yoga, kein Krafttraining"]
         ]
+      },
+      {
+        "type": "p",
+        "text": "Viele suchen diesen Trainingsplan als PDF. Du brauchst keins: Druck einfach diese Seite aus oder fotografier die Tabelle, sie enthält alles, was du im Studio oder zuhause wissen musst. Ein Plan auf Papier neben der Hantelbank funktioniert genauso gut wie jedes Dokument, und die Tabelle hier bleibt aktuell, wenn ich sie anpasse."
       },
       {
         "type": "h2",
@@ -4741,7 +4758,19 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Finde eine Umgebung, die dir liegt. Manche Frauen trainieren lieber zu Hause mit Kurzhanteln, manche brauchen ein Fitnessstudio für die Motivation. Beides ist möglich. Du brauchst für diesen Plan keine teuren Geräte. Eine Langhantel oder zwei Kurzhanteln, ein Widerstandsband, ein bisschen Platz. Das reicht für den Anfang."
+        "text": "Finde eine Umgebung, die dir liegt. Manche Frauen trainieren lieber zu Hause mit Kurzhanteln, manche brauchen ein Fitnessstudio für die Motivation. Beides ist möglich. Reines Hanteltraining reicht für diesen Plan völlig aus: eine Langhantel oder zwei Kurzhanteln, ein Widerstandsband, ein bisschen Platz. Teure Geräte brauchst du nicht."
+      },
+      {
+        "type": "h2",
+        "text": "Fit mit 50: was in einem Jahr realistisch ist"
+      },
+      {
+        "type": "p",
+        "text": "Fit mit 50 heißt nicht, mit 25-Jährigen im Studio mitzuhalten. Es heißt: Treppen ohne Nachdenken, ein voller Wasserkasten ohne fremde Hilfe, ein Rücken, der einen langen Arbeitstag wegsteckt. Mit zwei bis drei Einheiten pro Woche ist das für die meisten Frauen in sechs bis zwölf Monaten erreichbar, auch nach Jahren ohne Sport. Die Kraftwerte steigen am Anfang schnell, weil dein Nervensystem die Bewegungen neu lernt. Das motiviert mehr als jede Zahl auf der Waage."
+      },
+      {
+        "type": "p",
+        "text": "Nach einem Jahr konsequentem Training, egal ob du mit 50 oder über 50 startest, sind messbar mehr Muskelmasse, bessere Knochendichtewerte und ein spürbar stabileres Gleichgewicht realistisch. Was nicht realistisch ist: dasselbe Ergebnis mit Spaziergängen, Gymnastik ohne Widerstand oder zwei Wochen Motivation im Januar. Der Plan oben ist bewusst klein gehalten, damit er ein Jahr durchhaltbar ist, denn genau da entsteht das Ergebnis."
       },
       {
         "type": "p",
