@@ -3144,7 +3144,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zur Dosierung: dreimal pro Woche reicht, und die Stufe wächst mit dir mit, erst 15, dann 20, dann 25 Zentimeter. Meine Schmerzregel für den Aufbau: Ein Ziehen bis Stufe drei auf einer Zehnerskala ist okay, solange es nach der Einheit wieder verschwindet und das Knie am nächsten Tag nicht schlechter ist. Wird es schlimmer, war der Sprung zu groß, dann eine Stufe zurück. Dieses geduldige Herantasten schlägt jedes Hauruck Programm."
+        "text": "Zur Dosierung: dreimal pro Woche reicht, und die Stufe wächst mit dir mit, erst 15, dann 20, dann 25 Zentimeter. Meine Schmerzregel für den Aufbau: Ein Ziehen bis Stufe drei auf einer Zehnerskala ist okay, solange es nach der Einheit wieder verschwindet und das Knie am nächsten Tag nicht schlechter ist. Wird es schlimmer, war der Sprung zu groß, dann eine Stufe zurück. Dieses geduldige Herantasten schlägt jedes Hauruck Programm. Ein komplettes Sechs-Wochen-Programm mit Progressionsstufen findest du in den [Übungen gegen Knieschmerzen](/blog/knieschmerzen-uebungen-staerken)."
       },
       {
         "type": "h2",
@@ -6238,6 +6238,17 @@ export const trendPosts: BlogPost[] = [
         "text": "Die wirksamsten Übungen gegen Knieschmerzen stärken zwei Bereiche: den Quadrizeps an der Vorderseite deines Oberschenkels und die Gesäßmuskulatur. Beide zusammen arbeiten wie Stoßdämpfer für dein Kniegelenk. Sind sie schwach, landet jede Treppenstufe und jeder Laufschritt ungefiltert im Gelenk. In diesem Artikel bekommst du von mir, Angelo, Personal Trainer aus Köln, ein aufbauendes Übungsprogramm von leicht bis fordernd und eine klare Regel, wie viel Schmerz dabei okay ist."
       },
       {
+        "type": "ul",
+        "items": [
+          "Wandsitz: 3×20 bis 45 Sekunden, der sanfteste Einstieg",
+          "Langsames Aufstehen vom Stuhl: 3×10, drei Sekunden fürs Absetzen",
+          "Kniebeuge bis Stuhlhöhe: 3×10, wenn die ersten zwei Stufen problemlos laufen",
+          "Beckenheben: 3×12, später einbeinig",
+          "Seitliches Beinheben: 3×15 pro Seite",
+          "Muschelöffner: 3×15 pro Seite, optional mit Mini-Band"
+        ]
+      },
+      {
         "type": "h2",
         "text": "Warum Kraft dein bestes Mittel gegen Knieschmerzen ist"
       },
@@ -6284,6 +6295,14 @@ export const trendPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Meine Regel dafür ist die 24-Stunden-Probe. Während der Übung ist ein Ziehen bis 3 auf einer Skala von 0 bis 10 vertretbar. Entscheidend ist der nächste Morgen: Fühlt sich das Knie gleich oder besser an, war die Dosis richtig. Ist es schlechter, war es zu viel, und du gehst eine Stufe und etwas Umfang zurück. Mit dieser einen Regel steuerst du dein Training sicherer als mit jedem starren Plan, weil sie dein Knie selbst zum Feedbackgeber macht."
+      },
+      {
+        "type": "h2",
+        "text": "Physiotherapie oder eigenes Training?"
+      },
+      {
+        "type": "p",
+        "text": "Beides hat seinen Platz, und die Reihenfolge ist klar. Wenn dein Knie ärztlich abgeklärt ist und du eine Verordnung für Physiotherapie hast, nutz sie: Ein Physiotherapeut darf befunden und behandeln, das darf und kann ein Trainer nicht. Die Übungen hier ersetzen keine Physiotherapie, sie sind das, was danach kommt oder parallel läuft: der langfristige Kraftaufbau, für den sechs Einheiten Physio schlicht zu kurz sind. Viele meiner Kunden kommen genau an diesem Punkt zu mir, wenn die Verordnung ausläuft, die Schmerzen besser sind, aber die Kraft noch fehlt."
       },
       {
         "type": "h2",
@@ -7327,7 +7346,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Das ergibt 123 bis 148 g, verteilt auf vier bis fünf Mahlzeiten. Die Verteilung ist übrigens wichtiger als viele denken: 130 g in einer einzigen Abendmahlzeit verwertet dein Körper schlechter als vier Portionen à 30 bis 35 g über den Tag. Perfektion brauchst du nicht, aber ein proteinreiches Frühstück löst bei den meisten Menschen schon die halbe Tagesration."
+        "text": "Das ergibt 123 bis 148 g, verteilt auf vier bis fünf Mahlzeiten. Die Verteilung ist übrigens wichtiger als viele denken: 130 g in einer einzigen Abendmahlzeit verwertet dein Körper schlechter als vier Portionen à 30 bis 35 g über den Tag. Perfektion brauchst du nicht, aber ein proteinreiches Frühstück löst bei den meisten Menschen schon die halbe Tagesration. Für den optionalen Shake brauchst du übrigens kein Pulver: Rezepte stehen im Artikel [Protein Shake selber machen](/blog/protein-shake-selber-machen-muskelaufbau)."
       },
       {
         "type": "h2",

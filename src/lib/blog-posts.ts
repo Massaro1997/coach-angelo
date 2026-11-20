@@ -2093,7 +2093,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Verteile dein Protein auf drei bis vier Mahlzeiten. Der Körper kann nicht unbegrenzt viel auf einmal verwerten. Gleichmäßige Verteilung ist effizienter als eine riesige Proteinbombe beim Abendessen."
+        "text": "Verteile dein Protein auf drei bis vier Mahlzeiten. Der Körper kann nicht unbegrenzt viel auf einmal verwerten. Gleichmäßige Verteilung ist effizienter als eine riesige Proteinbombe beim Abendessen. Wenn eine Mahlzeit im Alltag nicht drin ist, hilft ein [selbst gemachter Protein Shake](/blog/protein-shake-selber-machen-muskelaufbau) aus Quark, Milch und Frucht, ganz ohne Pulver."
       },
       {
         "type": "h2",
@@ -8230,6 +8230,10 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "So machst du einen Proteinshake ohne Pulver: eine Eiweißquelle (250 g Magerquark, 150 g Hüttenkäse oder 2 Eier), 200 bis 300 ml Flüssigkeit (Milch, Pflanzenmilch oder Wasser), dazu eine Frucht für Kohlenhydrate und ein Esslöffel Nussmus für Fette. Alles 30 Sekunden mixen, fertig. Das liefert 25 bis 35 Gramm Eiweiß, so viel wie ein Standard-Shake aus Pulver. Vier konkrete Rezepte mit Mengen findest du unten."
+      },
+      {
+        "type": "p",
         "text": "Du kommst abends aus dem Büro, bist müde, hast kaum Hunger, weißt aber, dass du nach dem Training etwas Vernünftiges essen solltest. Dann greifst du zum Protein Shake. Aber muss das wirklich immer das teure Pulver aus dem Fitnessladen sein? Nein. Mit ein paar einfachen Zutaten aus dem Supermarkt kannst du Shakes mixen, die genauso gut funktionieren, und manchmal sogar besser schmecken."
       },
       {
@@ -8361,7 +8365,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Protein Shakes selber machen ist keine Kunst. Es braucht ein bisschen Planung und den Willen, mal etwas auszuprobieren. Wenn du merkst, dass du trotz Shake und Training nicht die Ergebnisse bekommst, die du willst, liegt es meistens an der Gesamtstrategie, nicht am Rezept. Genau dafür bin ich da. Wenn du wissen willst, wie du Ernährung und Training in deinen Kölner Alltag integrierst, ohne dein Leben komplett umzustellen, dann buch dir ein kostenloses Erstgespräch auf fitprimo.de. Kein Druck, kein Verkaufsgespräch, nur ein ehrliches Gespräch darüber, was für dich funktioniert."
+        "text": "Protein Shakes selber machen ist keine Kunst. Es braucht ein bisschen Planung und den Willen, mal etwas auszuprobieren. Wenn du merkst, dass du trotz Shake und Training nicht die Ergebnisse bekommst, die du willst, liegt es meistens an der Gesamtstrategie, nicht am Rezept. Wie viel Eiweiß du insgesamt brauchst, hängt von Gewicht und Ziel ab: Den kompletten Tagesplan dazu findest du im [Ernährungsplan für Muskelaufbau](/blog/muskelaufbau-ernaehrung-plan-anfaenger). Und wenn du die Ernährung nicht allein sortieren willst: Bei FitPrimo kümmert sich Natalie als Ernährungsberaterin für Sport- und Fitnessernährung genau darum, alle Infos auf der Seite [Ernährungsberatung](/leistungen/ernaehrungsberatung). Der Einstieg ist ein [kostenloses Erstgespräch](/contatti), ohne Druck und ohne Verkaufsgespräch."
       }
     ]
   },
