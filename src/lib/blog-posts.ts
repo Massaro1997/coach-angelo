@@ -1185,7 +1185,11 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
-        "text": "Du bist über 40, trainierst regelmäßig und merkst trotzdem, dass irgendetwas nicht mehr so funktioniert wie früher. Die Knie melden sich nach dem Beintraining, die Schulter zickt, und die Erholung dauert länger als gedacht. Das ist keine Schwäche. Das ist Biologie. Und wenn du verstehst, was sich verändert hat, kannst du dein Training so anpassen, dass du in deinen 40ern stärker wirst als je zuvor."
+        "text": "Die kurze Antwort: Training ab 40 funktioniert für Männer mit drei bis vier Krafteinheiten pro Woche, mehr Aufwärmzeit, mindestens 48 Stunden Pause pro Muskelgruppe und Protein als fester Größe. Härter trainieren wie mit 25 ist der falsche Weg, smarter trainieren der richtige. Was das konkret heißt, steht in diesem Artikel."
+      },
+      {
+        "type": "p",
+        "text": "Du bist über 40, trainierst regelmäßig und merkst trotzdem, dass irgendetwas nicht mehr so funktioniert wie früher. Die Knie melden sich nach dem Beintraining, die Schulter zickt, und die Erholung dauert länger als gedacht. Das ist keine Schwäche. Das ist Biologie. Und wenn du verstehst, was sich verändert hat, kannst du dein Training so anpassen, dass du in deinen 40ern stärker wirst als je zuvor. Suchst du direkt einen konkreten Wochenplan für den Muskelaufbau, findest du den im [Trainingsplan für Männer ab 40](/blog/muskelaufbau-ab-40-mann-trainingsplan-tipps)."
       },
       {
         "type": "h2",
@@ -1305,6 +1309,18 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Motivation im Training über 40: was wirklich trägt"
+      },
+      {
+        "type": "p",
+        "text": "Die Motivation funktioniert über 40 anders als mit 25. Damals reichte der Blick in den Spiegel oder der Vergleich im Verein. Heute konkurriert das Training mit Job, Familie und einem Kalender, der nie leer wird. Deshalb trägt Disziplin allein nicht weit, was trägt, sind feste Routinen: dieselben zwei bis drei Zeitfenster jede Woche, im Kalender geblockt wie ein Termin mit einem Kunden. Wer jede Woche neu entscheidet, ob und wann er trainiert, verliert dieses Spiel fast immer."
+      },
+      {
+        "type": "p",
+        "text": "Der zweite Hebel ist ein Ziel mit Datum, das nichts mit Optik zu tun hat: zehn saubere Klimmzüge bis zum Sommer, 100 Kilo Kreuzheben, schmerzfrei eine Woche Skifahren. Solche Ziele überleben auch die Wochen, in denen der Spiegel nichts Neues zeigt. Und wenn die Luft komplett raus ist: kürzen statt streichen. Eine 20-Minuten-Einheit hält die Routine am Leben, null Minuten brechen sie."
+      },
+      {
+        "type": "h2",
         "text": "Wie ein realistischer Trainingsplan ab 40 aussieht"
       },
       {
@@ -1321,11 +1337,23 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Personal Training ab 40: wann es sich lohnt"
+      },
+      {
+        "type": "p",
+        "text": "Vieles aus diesem Artikel kannst du allein umsetzen. Ein Personal Trainer lohnt sich ab 40 vor allem in drei Situationen: wenn du nach Jahren Pause wieder einsteigst und nicht weißt, was dein Körper heute verträgt. Wenn alte Baustellen mittrainieren, Knie, Schulter, unterer Rücken, und du Übungen brauchst, die um sie herum aufbauen statt sie zu reizen. Oder wenn du seit Monaten stagnierst, weil Volumen, Intensität und Erholung nicht mehr zusammenpassen."
+      },
+      {
+        "type": "p",
+        "text": "Genau mit diesen Männern arbeite ich in Köln am häufigsten. Beim [Personal Training](/personal-trainer-koeln) kostet die Stunde 50 Euro, wir trainieren im Studio, draußen oder bei dir zuhause, und der Plan wird um deinen Kalender herum gebaut, nicht umgekehrt. Ob sich das für deine Situation lohnt, klären wir vorher ehrlich im Erstgespräch."
+      },
+      {
+        "type": "h2",
         "text": "Fazit"
       },
       {
         "type": "p",
-        "text": "Training ab 40 ist kein Kampf gegen den Körper. Es ist eine Zusammenarbeit mit ihm. Wer versteht, was sich verändert hat, und sein Training entsprechend anpasst, kann in seinen 40ern echte Stärke aufbauen, funktional, nachhaltig und ohne ständige Verletzungen. Wenn du nicht weißt, wo du anfangen sollst, oder dein aktuelles Training nicht mehr die Ergebnisse bringt, die du dir wünschst, dann meld dich einfach. Im kostenlosen Erstgespräch schauen wir gemeinsam, was für dich persönlich wirklich Sinn ergibt. Kein Pitch, kein Druck, nur ein ehrliches Gespräch. Du findest mich unter https://www.fitprimo.de."
+        "text": "Training ab 40 ist kein Kampf gegen den Körper. Es ist eine Zusammenarbeit mit ihm. Wer versteht, was sich verändert hat, und sein Training entsprechend anpasst, kann in seinen 40ern echte Stärke aufbauen, funktional, nachhaltig und ohne ständige Verletzungen. Wenn du nicht weißt, wo du anfangen sollst, oder dein aktuelles Training nicht mehr die Ergebnisse bringt, die du dir wünschst, dann [meld dich für ein kostenloses Erstgespräch](/contatti). Wir schauen gemeinsam, was für dich persönlich wirklich Sinn ergibt. Kein Pitch, kein Druck, nur ein ehrliches Gespräch."
       }
     ]
   },
@@ -14129,7 +14157,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Der Testosteronspiegel sinkt bei Männern ab dem späten dritten Lebensjahrzehnt kontinuierlich. Das ist kein Drama, aber es bedeutet: Muskeln wachsen langsamer, und Fett setzt sich schneller an, besonders am Bauch. Gleichzeitig braucht das Bindegewebe, also Sehnen und Gelenke, deutlich länger, um sich an neue Belastungen zu gewöhnen. [Was Krafttraining mit deinem Testosteron ab 40 wirklich macht](/blog/testosteron-krafttraining-mann-ab-40), habe ich in einem eigenen Artikel erklärt. Und wer gar nicht trainiert, baut ab 50 messbar ab, rund ein Prozent Muskelmasse pro Jahr: Wie du diesen [Muskelabbau im Alter stoppst](/blog/sarkopenie-muskelabbau-alter-verhindern), steht ebenfalls im Blog."
+        "text": "Der Testosteronspiegel sinkt bei Männern ab dem späten dritten Lebensjahrzehnt kontinuierlich. Das ist kein Drama, aber es bedeutet: Muskeln wachsen langsamer, und Fett setzt sich schneller an, besonders am Bauch. Was sich ab 40 im Körper insgesamt ändert und wie du dein [Training über 40](/blog/training-ab-40-mann) darauf einstellst, habe ich separat beschrieben. Gleichzeitig braucht das Bindegewebe, also Sehnen und Gelenke, deutlich länger, um sich an neue Belastungen zu gewöhnen. [Was Krafttraining mit deinem Testosteron ab 40 wirklich macht](/blog/testosteron-krafttraining-mann-ab-40), habe ich in einem eigenen Artikel erklärt. Und wer gar nicht trainiert, baut ab 50 messbar ab, rund ein Prozent Muskelmasse pro Jahr: Wie du diesen [Muskelabbau im Alter stoppst](/blog/sarkopenie-muskelabbau-alter-verhindern), steht ebenfalls im Blog."
       },
       {
         "type": "p",

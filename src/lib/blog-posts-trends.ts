@@ -7127,7 +7127,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Mein Rat ist unbequem: Wenn du nur sechs Stunden schläfst, trainiere dreimal statt sechsmal und investiere die gewonnene Zeit in Schlaf. Dein Hormonsystem belohnt Erholung genauso wie Belastung. Ohne beides zusammen funktioniert es nicht, schon gar nicht jenseits der 40."
+        "text": "Mein Rat ist unbequem: Wenn du nur sechs Stunden schläfst, trainiere dreimal statt sechsmal und investiere die gewonnene Zeit in Schlaf. Dein Hormonsystem belohnt Erholung genauso wie Belastung. Ohne beides zusammen funktioniert es nicht, schon gar nicht jenseits der 40. Wie du dein gesamtes [Training ab 40](/blog/training-ab-40-mann) an diese neuen Regeln anpasst, habe ich in einem eigenen Beitrag beschrieben."
       },
       {
         "type": "h2",
