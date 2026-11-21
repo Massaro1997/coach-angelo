@@ -3299,19 +3299,19 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "rueckenschmerzen-buero-was-tun",
     "title": "Rückenschmerzen im Büro: Was wirklich hilft (und was nicht)",
-    "metaTitle": "Rückenschmerzen im Büro: Was wirklich hilft",
-    "metaDescription": "Rückenschmerzen im Büro? Personal Trainer Angelo aus Köln zeigt, was wirklich hilft, welche Übungen sofort wirken und wann du professionelle Hilfe brauchst.",
+    "metaTitle": "Rückenschmerzen im Büro: was tun? Das hilft wirklich",
+    "metaDescription": "Rückenschmerzen im Büro: was tun? Der Plan für heute, diese Woche und auf Dauer, von Personal Trainer Angelo aus Köln. Plus die Fehler, die alles verlängern.",
     "date": "2026-06-13",
     "readMinutes": 4,
     "excerpt": "Stundenlang sitzen, dann der vertraute Ziehen im Rücken. Personal Trainer Angelo erklärt, was du sofort tun kannst und wann Selbsthilfe nicht mehr reicht.",
     "blocks": [
       {
         "type": "p",
-        "text": "Du sitzt seit Stunden am Schreibtisch, der Nacken zieht, der untere Rücken meldet sich. Kein Einzelfall. Als Personal Trainer in Köln sehe ich das täglich bei meinen Klienten: Büroangestellte, die ihren Rücken eigentlich schonen wollen und trotzdem immer wieder dieselben Schmerzen haben. Der Grund liegt selten am falschen Stuhl. Er liegt fast immer an zu wenig Bewegung und zu schwacher Muskulatur."
+        "text": "Du sitzt seit Stunden am Schreibtisch, der Nacken zieht, der untere Rücken meldet sich. Was tun? Die kurze Antwort in drei Zeiträumen: Heute hilft Bewegung statt Schonung, aufstehen, Schultern kreisen, drei einfache Übungen ohne Ausrüstung. Diese Woche baust du feste Bewegungspausen in den Arbeitstag ein. Und auf Dauer löst nur eines das Problem wirklich: Kraft rund um die Wirbelsäule. Als Personal Trainer in Köln sehe ich das täglich bei meinen Klienten, der Grund liegt selten am falschen Stuhl. Er liegt fast immer an zu wenig Bewegung und zu schwacher Muskulatur. Hier steht, was in welcher Reihenfolge wirkt."
       },
       {
         "type": "h2",
-        "text": "Warum Sitzen deinem Rücken so zusetzt"
+        "text": "Warum der Bürojob deinem Rücken so zusetzt"
       },
       {
         "type": "p",
@@ -3407,7 +3407,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen im Büro sind kein Schicksal. Sie sind ein Signal, das du ernst nehmen, aber nicht fürchten musst. Mit den richtigen Bewegungsgewohnheiten und gezieltem Krafttraining lässt sich sehr viel verändern, auch wenn du lange Jahre mit Rückenproblemen gelebt hast. Die konkreten Übungen und den Trainingsplan dazu findest du im Beitrag [Rückenschmerzen durch Büroarbeit: Training und Übungen](/blog/rueckenschmerzen-bueroarbeit-uebungen). Wenn du nicht weißt, wo du anfangen sollst, oder wenn du sicher gehen willst, dass du die richtigen Übungen für deinen Rücken machst, dann melde dich einfach. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was dein Rücken wirklich braucht. Kein Verkaufsgespräch, keine Verpflichtung, nur ein ehrlicher Blick auf deine Situation."
+        "text": "Rückenschmerzen im Büro sind kein Schicksal. Sie sind ein Signal, das du ernst nehmen, aber nicht fürchten musst. Mit den richtigen Bewegungsgewohnheiten und gezieltem Krafttraining lässt sich sehr viel verändern, auch wenn du lange Jahre mit Rückenproblemen gelebt hast. Die konkreten Übungen und den Trainingsplan dazu findest du im Beitrag [Rückenschmerzen durch Büroarbeit: Training und Übungen](/blog/rueckenschmerzen-bueroarbeit-uebungen), und für den Arbeitstag selbst die [Rückenübungen direkt am Schreibtisch](/blog/rueckenubungen-im-buro-sitzen-schreibtisch). Wenn du nicht weißt, wo du anfangen sollst, oder wenn du sicher gehen willst, dass du die richtigen Übungen für deinen Rücken machst, dann [melde dich für ein kostenloses Erstgespräch](/contatti). Kein Verkaufsgespräch, keine Verpflichtung, nur ein ehrlicher Blick auf deine Situation."
       }
     ]
   },
@@ -6378,7 +6378,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Der häufigste Fehler ist, mit zu viel anzufangen und zu schnell aufzuhören. Jemand hat drei Wochen lang Schmerzen, sucht eine schnelle Lösung, startet mit einem ambitionierten Trainingsplan, ist nach einer Woche zu erschöpft oder zu sore, und hört wieder auf. Das bringt nichts. Konsistenz über Monate schlägt Intensität über Wochen."
+        "text": "Der häufigste Fehler ist, mit zu viel anzufangen und zu schnell aufzuhören. Jemand hat drei Wochen lang Schmerzen, sucht eine schnelle Lösung, startet mit einem ambitionierten Trainingsplan, ist nach einer Woche zu erschöpft oder zu sore, und hört wieder auf. Das bringt nichts. Konsistenz über Monate schlägt Intensität über Wochen. Was stattdessen in welcher Reihenfolge sinnvoll ist, steht im Fahrplan [Rückenschmerzen im Büro: was tun](/blog/rueckenschmerzen-buero-was-tun)."
       },
       {
         "type": "p",
@@ -12848,7 +12848,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Diese Routine ist Prävention und Soforthilfe in einem. Sie ersetzt aber keine professionelle Einschätzung, wenn du bereits seit Wochen unter akuten Schmerzen leidest, wenn der Schmerz in die Beine ausstrahlt oder wenn du morgens kaum aufstehen kannst. In diesen Fällen gehst du zuerst zum Arzt oder Physiotherapeuten, und danach gerne zu mir."
+        "text": "Diese Routine ist Prävention und Soforthilfe in einem. Sie ersetzt aber keine professionelle Einschätzung, wenn du bereits seit Wochen unter akuten Schmerzen leidest, wenn der Schmerz in die Beine ausstrahlt oder wenn du morgens kaum aufstehen kannst. In diesen Fällen gehst du zuerst zum Arzt oder Physiotherapeuten, und danach gerne zu mir. Einen vollständigen Fahrplan, was bei [Rückenschmerzen im Büro zu tun ist](/blog/rueckenschmerzen-buero-was-tun), von der Sofortmaßnahme bis zur dauerhaften Lösung, habe ich separat aufgeschrieben."
       },
       {
         "type": "p",
