@@ -7093,7 +7093,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Interessanter als der akute Peak ist, was Monate und Jahre von Krafttraining mit deinem Hormonsystem machen. Drei Mechanismen greifen ineinander. Erstens: Du baust Muskelmasse auf und verlierst Fett, vor allem viszerales Bauchfett. Weniger Bauchfett heißt weniger Aromatase-Aktivität, also weniger Umwandlung von Testosteron in Östrogen. Zweitens: Deine Zellen reagieren wieder besser auf Insulin. Insulinresistenz und niedriges Testosteron gehen bei Männern über 40 fast immer Hand in Hand. Drittens: Wer körperlich arbeitet, schläft tiefer, und im Tiefschlaf läuft deine Hormonproduktion auf Hochtouren."
+        "text": "Interessanter als der akute Peak ist, was Monate und Jahre von Krafttraining mit deinem Hormonsystem machen. Drei Mechanismen greifen ineinander. Erstens: Du baust Muskelmasse auf und verlierst Fett, vor allem viszerales Bauchfett, wie das konkret geht, zeigt der Beitrag [Bauchfett verlieren als Mann](/blog/bauchfett-verlieren-maenner). Weniger Bauchfett heißt weniger Aromatase-Aktivität, also weniger Umwandlung von Testosteron in Östrogen. Zweitens: Deine Zellen reagieren wieder besser auf Insulin. Insulinresistenz und niedriges Testosteron gehen bei Männern über 40 fast immer Hand in Hand. Drittens: Wer körperlich arbeitet, schläft tiefer, und im Tiefschlaf läuft deine Hormonproduktion auf Hochtouren."
       },
       {
         "type": "p",
@@ -7847,7 +7847,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Das Fett unter der Haut an Hüfte oder Beinen ist optisch lästig, gesundheitlich aber relativ harmlos. Der typische harte, vorgewölbte Männerbauch ist etwas anderes: viszerales Fett, das zwischen deinen Organen sitzt. Es ist hormonell aktiv, produziert Entzündungsstoffe und erhöht dein Risiko für Herzinfarkt, Typ-2-Diabetes und Bluthochdruck massiv. Es senkt nebenbei auch dein Testosteron, weil Bauchfett Testosteron in Östrogen umwandelt. Ein Teufelskreis: Weniger Testosteron macht den Fettabbau schwerer, mehr Fett senkt das Testosteron weiter."
+        "text": "Das Fett unter der Haut an Hüfte oder Beinen ist optisch lästig, gesundheitlich aber relativ harmlos. Wie du Körperfett am Bauch grundsätzlich angehst, von der Ernährung bis zum Training, steht im Beitrag [Bauchfett verlieren als Mann](/blog/bauchfett-verlieren-maenner). Der typische harte, vorgewölbte Männerbauch ist etwas anderes: viszerales Fett, das zwischen deinen Organen sitzt. Es ist hormonell aktiv, produziert Entzündungsstoffe und erhöht dein Risiko für Herzinfarkt, Typ-2-Diabetes und Bluthochdruck massiv. Es senkt nebenbei auch dein Testosteron, weil Bauchfett Testosteron in Östrogen umwandelt. Ein Teufelskreis: Weniger Testosteron macht den Fettabbau schwerer, mehr Fett senkt das Testosteron weiter."
       },
       {
         "type": "p",

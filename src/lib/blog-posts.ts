@@ -2242,14 +2242,18 @@ export const blogPosts: BlogPost[] = [
     "slug": "bauchfett-verlieren-maenner",
     "title": "Bauchfett verlieren als Mann: Was wirklich funktioniert (und was nicht)",
     "metaTitle": "Bauchfett verlieren als Mann: Was wirklich hilft",
-    "metaDescription": "Bauchfett verlieren als Mann, Angelo, Personal Trainer in Köln, erklärt welche Mythen nicht funktionieren und was du im Alltag wirklich tun kannst.",
+    "metaDescription": "Bauchfett verlieren als Mann: realistisch 1 bis 2 cm Bauchumfang pro Monat. Personal Trainer Angelo aus Köln erklärt, was wirklich wirkt und welche Mythen nicht.",
     "date": "2026-06-13",
     "readMinutes": 5,
     "excerpt": "Bauchfett bei Männern ist hartnäckig. Angelo, Personal Trainer in Köln, räumt mit den größten Mythen auf und zeigt, was im Alltag tatsächlich wirkt.",
     "blocks": [
       {
         "type": "p",
-        "text": "Du arbeitest viel, sitzt lange, und irgendwann war der Bauch einfach da. Das kennen viele Männer in Köln, die zwischen Job, Familie und dem Rest des Lebens kaum Zeit zum Atmen finden. Die gute Nachricht: Du musst kein Profi-Athlet werden. Du musst nur aufhören, auf die falschen Versprechen hereinzufallen, und anfangen, ein paar simple Dinge konsequent umzusetzen."
+        "text": "Die kurze Antwort: Bauchfett verlierst du als Mann über ein moderates Kaloriendefizit, zwei bis drei Krafteinheiten pro Woche und ausreichend Schlaf. Realistisch sind 1 bis 2 Zentimeter Bauchumfang pro Monat, gezieltes Wegtrainieren nur am Bauch funktioniert nicht. Wie du das im Alltag umsetzt, steht in diesem Artikel."
+      },
+      {
+        "type": "p",
+        "text": "Du arbeitest viel, sitzt lange, und irgendwann war der Bauch einfach da. Das kennen viele Männer in Köln, die zwischen Job, Familie und dem Rest des Lebens kaum Zeit zum Atmen finden. Die gute Nachricht: Du musst kein Profi-Athlet werden. Du musst nur aufhören, auf die falschen Versprechen hereinzufallen, und anfangen, ein paar simple Dinge konsequent umzusetzen. Geht es dir speziell um den klassischen [Bierbauch und wie er wirklich weggeht](/blog/bierbauch-loswerden-mann), habe ich dem ein eigenes Stück gewidmet."
       },
       {
         "type": "h2",
@@ -2315,7 +2319,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du kannst deine Ernährung perfekt gestalten und trotzdem kaum Fortschritte machen, wenn du chronisch müde und gestresst bist. Schlechter Schlaf erhöht Cortisol, senkt die Impulskontrolle beim Essen und macht dich tagsüber träge. Wer müde ist, greift öfter zu schnellen Kohlenhydraten, trinkt mehr Kaffee und bewegt sich weniger. Der Zusammenhang ist direkt."
+        "text": "Du kannst deine Ernährung perfekt gestalten und trotzdem kaum Fortschritte machen, wenn du chronisch müde und gestresst bist. Schlechter Schlaf erhöht Cortisol, senkt die Impulskontrolle beim Essen und macht dich tagsüber träge. Wer müde ist, greift öfter zu schnellen Kohlenhydraten, trinkt mehr Kaffee und bewegt sich weniger. Der Zusammenhang ist direkt, wie eng [Cortisol und Bauchfett zusammenhängen](/blog/cortisol-bauchfett-zusammenhang), habe ich separat aufgeschrieben."
       },
       {
         "type": "p",
@@ -2327,7 +2331,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wer dir verspricht, in zwei Wochen den Bauch loszuwerden, lügt dich an oder verkauft dir etwas. Fettabbau braucht Zeit, und das ist keine schlechte Nachricht. Es bedeutet, dass du nicht jeden Monat von vorne anfangen musst. Wer konsequent ein moderates Defizit hält, sich regelmäßig bewegt und ausreichend schläft, wird nach einigen Wochen echte Veränderungen spüren, zuerst am Energieniveau, dann am Spiegel."
+        "text": "Wer dir verspricht, in zwei Wochen den Bauch loszuwerden, lügt dich an oder verkauft dir etwas. Die ehrlichen Zahlen: Mit einem moderaten Defizit verlierst du etwa 0,5 bis 1 Kilo pro Woche, davon landet nur ein Teil sichtbar am Bauch. Am Maßband sind 1 bis 2 Zentimeter Bauchumfang pro Monat ein sehr gutes Tempo. Ein deutlich sichtbarer Unterschied braucht je nach Ausgangspunkt drei bis sechs Monate. Das ist keine schlechte Nachricht, es bedeutet, dass du nicht jeden Monat von vorne anfangen musst. Zuerst spürst du es am Energieniveau, dann am Gürtel, zuletzt am Spiegel."
       },
       {
         "type": "p",
@@ -2369,7 +2373,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Bauchfett verlieren als Mann ist keine Frage der Willenskraft. Es ist eine Frage der richtigen Strategie und der Beständigkeit im Alltag. Kein Wundermittel, kein Extremprogramm. Protein, Krafttraining, Schlaf, weniger Stress, ein moderates Defizit. Das ist es. Wenn du weißt, dass du mit einem klaren, auf dich zugeschnittenen Plan schneller vorankommst, dann meld dich gerne für ein kostenloses Erstgespräch bei Angelo in Köln. Kein Druck, kein Verkaufsgespräch. Nur ein offenes Gespräch darüber, wo du stehst und wo du hinwillst."
+        "text": "Bauchfett verlieren als Mann ist keine Frage der Willenskraft. Es ist eine Frage der richtigen Strategie und der Beständigkeit im Alltag. Kein Wundermittel, kein Extremprogramm. Protein, Krafttraining, Schlaf, weniger Stress, ein moderates Defizit. Das ist es. Wenn du weißt, dass du mit einem klaren, auf dich zugeschnittenen Plan schneller vorankommst: Beim [Personal Training in Köln](/personal-trainer-koeln) bauen wir genau den, und das [Erstgespräch ist kostenlos](/contatti). Kein Druck, kein Verkaufsgespräch. Nur ein offenes Gespräch darüber, wo du stehst und wo du hinwillst."
       }
     ]
   },
