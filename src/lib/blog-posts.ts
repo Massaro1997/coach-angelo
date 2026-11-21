@@ -834,7 +834,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Übungen allein lösen das Problem nicht vollständig, wenn du den Rest des Tages nichts veränderst. Der einfachste Hebel: Steh alle 45 bis 60 Minuten kurz auf. Nicht für fünf Minuten, einfach nur kurz aufstehen, drei Schritte gehen, wieder hinsetzen. Das reicht, um den Muskeltonus zu unterbrechen und die Durchblutung anzuregen."
+        "text": "Übungen allein lösen das Problem nicht vollständig, wenn du den Rest des Tages nichts veränderst. Der einfachste Hebel: Steh alle 45 bis 60 Minuten kurz auf. Nicht für fünf Minuten, einfach nur kurz aufstehen, drei Schritte gehen, wieder hinsetzen. Das reicht, um den Muskeltonus zu unterbrechen und die Durchblutung anzuregen. Und für die Momente, in denen du nicht aufstehen kannst, habe ich sieben [Rückenübungen für direkt am Schreibtisch](/blog/rueckenubungen-im-buro-sitzen-schreibtisch) zusammengestellt, die niemandem im Großraumbüro auffallen."
       },
       {
         "type": "p",
@@ -850,7 +850,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Für Büroangestellte reichen zwei Krafteinheiten pro Woche zu je 45 bis 60 Minuten. Der Kern besteht aus vier Bewegungen: eine Rudervariante für den oberen Rücken, eine Hüftstreckung wie die Brücke mit Gewicht oder rumänisches Kreuzheben mit Kurzhanteln, Ausfallschritte für Beine und Gesäß und eine Stützübung wie den Unterarmstütz für die Rumpfspannung. Dazu an den Bürotagen die kurze Mobilisationsrunde von oben. Mehr braucht es am Anfang nicht, und genau deshalb hält man es durch. Warum Kräftigung bei Rückenschmerzen oft besser wirkt als reines Dehnen, habe ich im Artikel [Krafttraining gegen Rückenschmerzen](/blog/rueckenschmerzen-krafttraining-hilft) ausführlich erklärt."
+        "text": "Für Büroangestellte reichen zwei Krafteinheiten pro Woche zu je 45 bis 60 Minuten. Der Kern besteht aus vier Bewegungen: eine Rudervariante für den oberen Rücken, eine Hüftstreckung wie die Brücke mit Gewicht oder rumänisches Kreuzheben mit Kurzhanteln, Ausfallschritte für Beine und Gesäß und eine Stützübung wie den Unterarmstütz für die Rumpfspannung. Dazu an den Bürotagen eine [Rückenfitness-Routine für den Arbeitstag](/blog/rueckentraining-beim-sitzen-im-buero), die das Sitzen zwischen den Einheiten erträglich macht. Mehr braucht es am Anfang nicht, und genau deshalb hält man es durch. Warum Kräftigung bei Rückenschmerzen oft besser wirkt als reines Dehnen, habe ich im Artikel [Krafttraining gegen Rückenschmerzen](/blog/rueckenschmerzen-krafttraining-hilft) ausführlich erklärt."
       },
       {
         "type": "p",
@@ -10443,6 +10443,26 @@ export const blogPosts: BlogPost[] = [
         "text": "Du sitzt seit zwei Stunden am Schreibtisch und spürst schon wieder dieses Ziehen im unteren Rücken. Kein Sportraum in der Nähe, keine Zeit für eine Mittagspause-Yoga-Session. Ich kenne das. Als Personal Trainer in Köln arbeite ich regelmäßig mit Berufstätigen, die ihren Rücken schonen wollen, aber zwischen Meetings kaum Luft bekommen. Diese sieben Übungen funktionieren genau in dieser Situation, direkt am Stuhl, ohne Ausrüstung."
       },
       {
+        "type": "p",
+        "text": "Die Übersicht vorab, die Details zu jeder Übung folgen weiter unten:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Schulterrollen: 10 Wiederholungen, langsam nach hinten",
+          "Schulterblatt-Squeeze: 10 x 3 Sekunden halten",
+          "Brustwirbelsäulen-Rotation: 8 x pro Seite",
+          "Beckenkippen: 10 Wiederholungen",
+          "Hüftkreisen: 8 x rechts und links",
+          "Nackendehnung: 20-30 Sekunden pro Seite",
+          "Hüftbeuger-Stretch im Ausfallschritt: 20-30 Sekunden pro Seite"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Eine Sache noch, bevor es losgeht: Diese Übungen lindern, sie beheben nicht. Wenn du die Ursache angehen willst, also einen Rücken aufbauen, der acht Stunden Sitzen wegsteckt, dann brauchst du Krafttraining. Wie das aussieht, steht im Beitrag [Rückenschmerzen durch Büroarbeit: Training und Übungen](/blog/rueckenschmerzen-bueroarbeit-uebungen). Hier geht es um das, was du sofort am Stuhl tun kannst."
+      },
+      {
         "type": "h2",
         "text": "Warum Sitzen deinen Rücken überhaupt so belastet"
       },
@@ -10539,18 +10559,6 @@ export const blogPosts: BlogPost[] = [
         "text": "Halte die Position 20 bis 30 Sekunden pro Seite. Wenn du keinen Platz für einen Ausfallschritt hast, reicht es auch, im Stand das Knie nach hinten zu ziehen und den Fuß hinter dir festzuhalten. Vier Mal am Tag reicht aus, um den Effekt zu spüren."
       },
       {
-        "type": "ul",
-        "items": [
-          "Schulterrollen: 10 Wiederholungen, langsam nach hinten",
-          "Schulterblatt-Squeeze: 10 x 3 Sekunden halten",
-          "Brustwirbelsäulen-Rotation: 8 x pro Seite",
-          "Beckenkippen: 10 Wiederholungen",
-          "Hüftkreisen: 8 x rechts und links",
-          "Nackendehnung: 20-30 Sekunden pro Seite",
-          "Hüftbeuger-Stretch im Ausfallschritt: 20-30 Sekunden pro Seite"
-        ]
-      },
-      {
         "type": "h2",
         "text": "Wie du die Übungen in deinen Arbeitsalltag integrierst"
       },
@@ -10572,7 +10580,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenübungen im Büro müssen nicht spektakulär sein, um zu wirken. Diese sieben Übungen kosten dich täglich weniger als zehn Minuten und du kannst sie alle direkt am Schreibtisch machen, ohne Ausrüstung, ohne Umziehen. Wenn du zusätzlich zuhause etwas tun willst, findest du im Artikel [Rückenschmerzen durch Büroarbeit: Training und Übungen](/blog/rueckenschmerzen-bueroarbeit-uebungen) das komplette Programm inklusive Krafttraining. Und wenn du merkst, dass die Schmerzen trotzdem bleiben oder du einen individuellen Plan brauchst, der zu deinem Alltag passt: Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was bei dir genau sinnvoll ist."
+        "text": "Rückenübungen im Büro müssen nicht spektakulär sein, um zu wirken. Diese sieben Übungen kosten dich täglich weniger als zehn Minuten und du kannst sie alle direkt am Schreibtisch machen, ohne Ausrüstung, ohne Umziehen. Wenn du zusätzlich zuhause etwas tun willst, findest du im Artikel [Rückenschmerzen durch Büroarbeit: Training und Übungen](/blog/rueckenschmerzen-bueroarbeit-uebungen) das komplette Programm inklusive Krafttraining. Und wenn du merkst, dass die Schmerzen trotzdem bleiben oder du einen individuellen Plan brauchst, der zu deinem Alltag passt: [Buch dir ein kostenloses Erstgespräch](/contatti), wir schauen gemeinsam, was bei dir genau sinnvoll ist."
       }
     ]
   },
@@ -12568,16 +12576,20 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "rueckentraining-beim-sitzen-im-buero",
-    "title": "Rückentraining beim Sitzen: 7 Übungen, die du direkt am Schreibtisch machen kannst",
-    "metaTitle": "Rückentraining im Büro: 7 Übungen am Schreibtisch",
-    "metaDescription": "Rückentraining beim Sitzen im Büro: 7 konkrete Mikro-Übungen ohne Equipment, die Verspannungen lösen und deinen Rücken direkt am Schreibtisch stärken.",
+    "title": "Rückenfitness im Arbeitsalltag: Rückentraining, das beim Sitzen funktioniert",
+    "metaTitle": "Rückenfitness im Unternehmen: Training im Arbeitstag",
+    "metaDescription": "Rückenfitness im Unternehmen und im Homeoffice: eine Tagesroutine aus 7 Mikro-Übungen beim Sitzen, ehrlich eingeordnet, was Firmenangebote wirklich bringen.",
     "date": "2026-06-17",
     "readMinutes": 5,
-    "excerpt": "Kein Aufstehen, kein Equipment, keine Ausrede. Diese 7 Mikro-Übungen stärken deinen Rücken mitten im Büroalltag und lösen Verspannungen sofort.",
+    "excerpt": "Rückenfitness gehört in den Arbeitstag, nicht nur in den Feierabend. Eine Tagesroutine aus 7 Mikro-Übungen beim Sitzen, plus eine ehrliche Einordnung, was Firmenkurse leisten.",
     "blocks": [
       {
         "type": "p",
-        "text": "Acht, neun, manchmal zehn Stunden am Tag sitzen. Der Rücken meldet sich irgendwann immer. Nicht dramatisch am Anfang, nur ein leichtes Ziehen im Nacken, ein dumpfer Druck in der Lendenwirbelsäule. Das Problem ist nicht das Sitzen an sich, sondern das statische Sitzen ohne jede Unterbrechung. Ich zeige dir sieben Übungen, die du genau jetzt, ohne aufzustehen und ohne irgendwas zu kaufen, an deinem Schreibtisch machen kannst."
+        "text": "Acht, neun, manchmal zehn Stunden am Tag sitzen. Der Rücken meldet sich irgendwann immer. Nicht dramatisch am Anfang, nur ein leichtes Ziehen im Nacken, ein dumpfer Druck in der Lendenwirbelsäule. Die kurze Antwort: Rückenfitness funktioniert im Arbeitsalltag am besten als Tagesroutine, nicht als einzelne Mittagspausen-Aktion. Sieben Mikro-Übungen beim Sitzen, über den Tag verteilt, plus zwei echte Trainingseinheiten pro Woche. Wie diese Routine aussieht, zeige ich dir hier, und ich ordne ehrlich ein, was Rückenfitness-Angebote im Unternehmen leisten und was nicht."
+      },
+      {
+        "type": "p",
+        "text": "Falls du stattdessen einzelne Übungen mit genauer Anleitung suchst, die am Stuhl niemandem auffallen, findest du die in den [Rückenübungen im Büro](/blog/rueckenubungen-im-buro-sitzen-schreibtisch). Hier geht es um die Routine für den ganzen Arbeitstag."
       },
       {
         "type": "h2",
@@ -12687,6 +12699,22 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Rückenfitness im Unternehmen: was Firmenangebote wirklich bringen"
+      },
+      {
+        "type": "p",
+        "text": "Viele Unternehmen bieten inzwischen etwas an: einen wöchentlichen Rückenkurs, einen Zuschuss zum Fitnessstudio, höhenverstellbare Schreibtische. Das ist gut gemeint und besser als nichts. Aber eine ehrliche Einordnung gehört dazu: Ein Kurs pro Woche kann 40 Stunden Sitzen nicht ausgleichen. Die Forschung zur Trainingshäufigkeit ist da eindeutig, ein einzelner Reiz pro Woche hält bestenfalls den Status quo."
+      },
+      {
+        "type": "p",
+        "text": "Was im Unternehmen tatsächlich wirkt, sind nicht die großen Programme, sondern die kleinen Strukturen: feste Bewegungspausen, die im Team normal sind, statt belächelt zu werden. Meetings, in denen Stehen erlaubt ist. Und ein höhenverstellbarer Tisch, der auch wirklich hochgefahren wird, nicht nur am ersten Tag. Der Tisch ist dabei Unterstützung, keine Lösung: Wer acht Stunden steht statt sitzt, hat am Ende auch Beschwerden, nur andere. Entscheidend ist der Wechsel."
+      },
+      {
+        "type": "p",
+        "text": "Wenn dein Arbeitgeber nichts davon anbietet, bist du trotzdem nicht machtlos. Die Routine aus diesem Artikel brauchst du mit niemandem abzustimmen, sie kostet nichts und fällt im Großraumbüro nicht auf. Und für den Aufbau echter Kraft, der dauerhaft schützt, reicht es, zweimal pro Woche außerhalb der Arbeit zu trainieren. Wie so ein Programm für Bürorücken aussieht, steht im Beitrag [Rückenschmerzen durch Büroarbeit: Training und Übungen](/blog/rueckenschmerzen-bueroarbeit-uebungen)."
+      },
+      {
+        "type": "h2",
         "text": "Was diese Übungen leisten können und was nicht"
       },
       {
@@ -12707,7 +12735,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückentraining beim Sitzen im Büro ist keine Zauberei und kein großes Zeitinvestment. Es braucht Konsequenz und das Bewusstsein, dass du deinem Körper täglich etwas zurückgeben musst, das der Schreibtisch ihm nimmt. Wenn du merkst, dass du alleine nicht weiterkommst, oder wenn du ein strukturiertes Programm willst, das zu deinem Leben in Köln passt, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos, unverbindlich, und wir schauen gemeinsam, was für dich wirklich sinnvoll ist. Du findest mich unter fitprimo.de."
+        "text": "Rückentraining beim Sitzen im Büro ist keine Zauberei und kein großes Zeitinvestment. Es braucht Konsequenz und das Bewusstsein, dass du deinem Körper täglich etwas zurückgeben musst, das der Schreibtisch ihm nimmt. Wenn du merkst, dass du alleine nicht weiterkommst, oder wenn du ein strukturiertes Programm willst, das zu deinem Arbeitsalltag in Köln passt, dann [vereinbare ein kostenloses Erstgespräch](/contatti). Wir schauen gemeinsam, was für dich wirklich sinnvoll ist, unverbindlich und ohne Verkaufsdruck."
       }
     ]
   },
@@ -13038,7 +13066,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die ehrliche Antwort lautet: Lieber dreimal täglich zwei Minuten als einmal am Tag zwanzig Minuten. Dein Nervensystem lernt durch Wiederholung, nicht durch Dauer. Verknüpfe die Übungen mit Momenten, die sowieso passieren: vor dem ersten Kaffee, nach jedem Videocall, bevor du in die Mittagspause gehst. Und wenn du schon vor dem ersten Kaffee etwas für deinen Rücken tun willst: ein paar [Rückenübungen morgens nach dem Aufwachen](/blog/rueckenubungen-morgens-aufwachen) dauern fünf Minuten, bevor du dich überhaupt an den Schreibtisch setzt."
+        "text": "Die ehrliche Antwort lautet: Lieber dreimal täglich zwei Minuten als einmal am Tag zwanzig Minuten. Dein Nervensystem lernt durch Wiederholung, nicht durch Dauer. Verknüpfe die Übungen mit Momenten, die sowieso passieren: vor dem ersten Kaffee, nach jedem Videocall, bevor du in die Mittagspause gehst. Wie du daraus eine komplette [Rückenfitness-Routine für den Arbeitstag](/blog/rueckentraining-beim-sitzen-im-buero) machst, habe ich separat beschrieben. Und wenn du schon vor dem ersten Kaffee etwas für deinen Rücken tun willst: ein paar [Rückenübungen morgens nach dem Aufwachen](/blog/rueckenubungen-morgens-aufwachen) dauern fünf Minuten, bevor du dich überhaupt an den Schreibtisch setzt."
       },
       {
         "type": "p",
@@ -13066,7 +13094,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fehler Nummer zwei ist zu viel auf einmal wollen. Zwanzig Knieheben hintereinander bringen weniger als acht saubere Wiederholungen mit voller Körperwahrnehmung. Qualität schlägt Quantität hier deutlicher als in fast jeder anderen Trainingsform. Verlangsame die Bewegung, fühle nach, was passiert."
+        "text": "Fehler Nummer zwei ist zu viel auf einmal wollen. Zwanzig Knieheben hintereinander bringen weniger als acht saubere Wiederholungen mit voller Körperwahrnehmung. Qualität schlägt Quantität hier deutlicher als in fast jeder anderen Trainingsform. Verlangsame die Bewegung, fühle nach, was passiert. Wenn dir eher der Rücken als der Bauch zu schaffen macht, findest du im Beitrag [Rückenübungen im Büro](/blog/rueckenubungen-im-buro-sitzen-schreibtisch) das passende Gegenstück zu diesen Übungen."
       },
       {
         "type": "ul",
