@@ -874,7 +874,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn Laufen dein Ziel ist, führt der sicherste Weg über Geh-Lauf-Intervalle. Das Prinzip: Du wechselst zwischen lockerem Traben und flottem Gehen und verschiebst das Verhältnis Woche für Woche Richtung Laufen. So bleibt der Puls im grünen Bereich und deine Gelenke bekommen Zeit für die Anpassung."
+        "text": "Wenn Laufen dein Ziel ist, führt der sicherste Weg über Geh-Lauf-Intervalle. Das Prinzip: Du wechselst zwischen lockerem Traben und flottem Gehen und verschiebst das Verhältnis Woche für Woche Richtung Laufen. So bleibt der Puls im grünen Bereich und deine Gelenke bekommen Zeit für die Anpassung. Und wenn die Basis steht und du gezielt schneller und stabiler werden willst, ist das [Athletiktraining in Köln](/leistungen/athletiktraining) der nächste Schritt: Sprints, Sprungkraft und Krafttraining im 1-zu-1."
       },
       {
         "type": "ul",

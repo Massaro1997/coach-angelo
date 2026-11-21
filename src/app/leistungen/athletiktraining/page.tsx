@@ -140,6 +140,84 @@ export default function AthletiktrainingKoeln() {
         </div>
       </section>
 
+      {/* Was ein Athletiktrainer macht */}
+      <section className="py-16 sm:py-20 bg-surface border-y border-line">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-4">
+            Was ein Athletiktrainer macht, und was <span className="text-gold">nicht</span>
+          </h2>
+          <div className="space-y-4 text-ink/70 leading-relaxed max-w-prose">
+            <p>
+              Ein Athletiktrainer trainiert nicht deinen Sport, sondern die körperlichen
+              Grundlagen dahinter: Maximalkraft, Schnelligkeit, Sprungkraft, Rumpfstabilität
+              und Beweglichkeit. Die Taktik und die Technik deiner Sportart bleiben bei
+              deinem Verein oder deinem Lauftraining. Meine Aufgabe ist, dass du dort mit
+              mehr Antritt, mehr Stabilität und weniger Verletzungen ankommst.
+            </p>
+            <p>
+              Konkret heißt das in Köln: Kniebeugen, Kreuzheben und Ausfallschritte als
+              Kraftbasis im Studio, Sprints über 10 bis 60 Meter und Richtungswechsel auf
+              Rasen oder Tartan, Sprünge und Landetechnik mit Steigerung über Wochen, dazu
+              gezielte Rumpf- und Sprunggelenksarbeit. Was davon in deinem Plan landet,
+              hängt von deinem Sport und deinem Technik-Check am Anfang ab, nicht von einem
+              Schema aus der Schublade.
+            </p>
+            <p>
+              Für reine Fitnessziele ohne Sportbezug, etwa Muskelaufbau oder Abnehmen, ist
+              das klassische{" "}
+              <Link href="/leistungen/personal-training" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Personal Training</Link>{" "}
+              der passendere Rahmen. Viele Kunden kombinieren beides: erst die Basis, dann
+              die Athletik.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 sm:py-20 bg-background">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-8">
+            Häufige Fragen zum <span className="text-gold">Athletiktraining</span>
+          </h2>
+          <div className="space-y-8 max-w-prose">
+            <div>
+              <h3 className="font-bold text-ink mb-2">Für welche Sportarten lohnt sich Athletiktraining?</h3>
+              <p className="text-ink/70 leading-relaxed">
+                Für jede Sportart mit Laufen, Springen oder Richtungswechseln: Fußball,
+                Tennis, Handball, Basketball, Laufen, Triathlon. Auch Hobbyläufer, die nur
+                schneller und verletzungsfreier werden wollen, profitieren von der
+                Kombination aus Kraft und Sprinttechnik.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold text-ink mb-2">Wie oft pro Woche sollte ich trainieren?</h3>
+              <p className="text-ink/70 leading-relaxed">
+                Zwei geführte Einheiten pro Woche reichen neben deinem Sport, eine für
+                Kraft, eine für Schnelligkeit und Sprungkraft. Wichtiger als die Menge ist
+                die Abstimmung mit deinen Spielen oder Wettkämpfen, damit du erholt in den
+                Verein gehst statt müde.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold text-ink mb-2">Brauche ich einen Verein oder Wettkampfambitionen?</h3>
+              <p className="text-ink/70 leading-relaxed">
+                Nein. Athletiktraining heißt nur: schneller, stabiler und belastbarer
+                werden. Der Technik-Check am Anfang legt dein Niveau fest, nicht ein
+                Wettkampfkalender.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold text-ink mb-2">Wo in Köln findet das Training statt?</h3>
+              <p className="text-ink/70 leading-relaxed">
+                Kraft und Sprungkraft im Studio, Sprints und Intervalle draußen: am
+                Rheinufer, im Stadtwald, am Fühlinger See oder auf einem Platz in deinem
+                Stadtteil. Die Liste unten zeigt alle Stadtteile, in denen ich trainiere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Andere Leistungen */}
       <section className="bg-surface border-y border-line">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 py-6">
