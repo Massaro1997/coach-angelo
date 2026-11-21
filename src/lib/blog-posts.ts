@@ -4737,7 +4737,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Protein ist der wichtigste Baustein. Ohne ausreichend Protein passiert beim Krafttraining nicht viel. Eine gute Orientierung ist etwa 1,5 bis 1,8 Gramm Protein pro Kilogramm Körpergewicht täglich. Quellen: Hülsenfrüchte, Eier, Fisch, mageres Fleisch, Quark. Nicht jeden Tag perfekt, aber als roter Faden."
+        "text": "Protein ist der wichtigste Baustein. Ohne ausreichend Protein passiert beim Krafttraining nicht viel. Eine gute Orientierung ist etwa 1,5 bis 1,8 Gramm Protein pro Kilogramm Körpergewicht täglich. Quellen: Hülsenfrüchte, Eier, Fisch, mageres Fleisch, Quark. Nicht jeden Tag perfekt, aber als roter Faden. Wenn neben dem Training auch die Waage ein Thema ist: Im Artikel [Abnehmen nach 40 als Frau](/blog/abnehmen-nach-40-frau) steht, warum der Körper ab 40 anders reagiert und was dagegen hilft."
       },
       {
         "type": "p",
@@ -6063,7 +6063,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Viele Frauen fangen mit Krafttraining an, um abzunehmen, und sind nach acht Wochen frustriert, weil die Waage fast dasselbe anzeigt. Dabei ist genau das oft das beste Zeichen. Wer gleichzeitig Muskeln aufbaut und Fett verliert, verändert die Körperform, ohne dass sich das Gewicht groß bewegt. Ein Kilo Muskel braucht weniger Platz als ein Kilo Fett. Deshalb passt die Hose besser, während die Zahl stehen bleibt."
+        "text": "Viele Frauen fangen mit Krafttraining an, um abzunehmen, und sind nach acht Wochen frustriert, weil die Waage fast dasselbe anzeigt. Dabei ist genau das oft das beste Zeichen. Wer gleichzeitig Muskeln aufbaut und Fett verliert, verändert die Körperform, ohne dass sich das Gewicht groß bewegt. Ein Kilo Muskel braucht weniger Platz als ein Kilo Fett. Deshalb passt die Hose besser, während die Zahl stehen bleibt. Was beim Abnehmen ab 40 hormonell zusätzlich mitspielt, habe ich im Artikel [Abnehmen nach 40 als Frau](/blog/abnehmen-nach-40-frau) aufgeschrieben."
       },
       {
         "type": "p",
@@ -6426,15 +6426,15 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "abnehmen-nach-40-frau",
     "title": "Abnehmen nach 40 als Frau: Warum es schwerer wird und was wirklich hilft",
-    "metaTitle": "Abnehmen nach 40 als Frau: Was wirklich hilft",
-    "metaDescription": "Ab 40 nehmen Frauen leichter zu und schwerer ab. Angelo, Personal Trainer in Köln, erklärt warum und zeigt konkrete Strategien, die im Alltag funktionieren.",
+    "metaTitle": "Abnehmen ab 40 als Frau: Was wirklich hilft",
+    "metaDescription": "Ab 40 nehmen Frauen leichter zu und schwerer ab: Hormone und Muskelmasse verändern sich. Welche 4 Hebel wirklich helfen, ohne Crash-Diät und ohne Verbotslisten.",
     "date": "2026-06-14",
     "readMinutes": 4,
     "excerpt": "Ab 40 verändert sich der Körper von Frauen spürbar. Hormone, Stoffwechsel, Schlaf: Alles spielt zusammen. Hier erfährst du, was du konkret tun kannst.",
     "blocks": [
       {
         "type": "p",
-        "text": "Du isst genauso wie mit 35, bewegst dich ähnlich, und trotzdem zeigt die Waage nach oben. Das ist kein Einbildung und kein Zeichen schwacher Disziplin. Ab 40 verändert sich bei Frauen tatsächlich etwas im Körper, grundlegend und messbar. Ich erkläre dir als Personal Trainer in Köln, was dahintersteckt und was du ganz konkret dagegen tun kannst."
+        "text": "Abnehmen ab 40 funktioniert, aber über andere Hebel als mit 25: Krafttraining statt Dauer-Cardio, mehr Protein, ein moderates Defizit und Schlaf, der den Namen verdient. Du isst genauso wie mit 35, bewegst dich ähnlich, und trotzdem zeigt die Waage nach oben? Das ist keine Einbildung und kein Zeichen schwacher Disziplin. Ab 40 verändert sich bei Frauen tatsächlich etwas im Körper, grundlegend und messbar. Ich erkläre dir als Personal Trainer in Köln, was dahintersteckt und was du ganz konkret dagegen tun kannst."
       },
       {
         "type": "h2",
@@ -6462,7 +6462,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Crash-Diäten führen außerdem zu einem erhöhten Cortisolspiegel. Cortisol ist ein Stresshormon, das bei dauerhafter Ausschüttung die Fetteinlagerung am Bauch zusätzlich begünstigt. Du stresst deinen Körper, er speichert mehr, du isst weniger: ein Kreislauf, den ich bei Klientinnen in Köln immer wieder sehe."
+        "text": "Crash-Diäten führen außerdem zu einem erhöhten Cortisolspiegel. [Cortisol ist ein Stresshormon](/blog/cortisol-bauchfett-zusammenhang), das bei dauerhafter Ausschüttung die Fetteinlagerung am Bauch zusätzlich begünstigt. Du stresst deinen Körper, er speichert mehr, du isst weniger: ein Kreislauf, den ich bei Klientinnen in Köln immer wieder sehe."
       },
       {
         "type": "p",
@@ -6478,7 +6478,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zwei bis drei Krafttrainingseinheiten pro Woche reichen, um einen spürbaren Unterschied zu machen. Du musst nicht täglich ins Gym. Du musst aber konsequent dran bleiben, über Monate, nicht über Wochen. Gerade Frauen, die neu ins Krafttraining einsteigen, sehen oft innerhalb weniger Monate, wie sich Körperzusammensetzung und Energielevel verändern."
+        "text": "Zwei bis drei Krafttrainingseinheiten pro Woche reichen, um einen spürbaren Unterschied zu machen. Du musst nicht täglich ins Gym. Du musst aber konsequent dran bleiben, über Monate, nicht über Wochen. Gerade Frauen, die neu ins Krafttraining einsteigen, sehen oft innerhalb weniger Monate, wie sich Körperzusammensetzung und Energielevel verändern. Einen konkreten Einstieg mit Übungen und Wochenstruktur findest du im [Trainingsplan für Frauen ab 50](/blog/krafttraining-frauen-ab-50-trainingsplan), der genauso ab 40 funktioniert."
       },
       {
         "type": "p",
@@ -6548,7 +6548,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Abnehmen nach 40 als Frau ist machbar. Es funktioniert nur nicht mehr mit denselben Methoden wie mit 25, und das ist völlig normal. Krafttraining, ausreichend Protein, guter Schlaf und ein realistischer Umgang mit Stress sind keine Geheimtipps, aber sie wirken, wenn man sie konsequent anwendet. Wenn du wissen möchtest, wie das konkret für deinen Alltag in Köln aussehen kann, dann meld dich gerne bei mir. Das erste Gespräch ist kostenlos und unverbindlich. Gemeinsam schauen wir, was für dich wirklich Sinn macht."
+        "text": "Abnehmen nach 40 als Frau ist machbar. Es funktioniert nur nicht mehr mit denselben Methoden wie mit 25, und das ist völlig normal. Krafttraining, ausreichend Protein, guter Schlaf und ein realistischer Umgang mit Stress sind keine Geheimtipps, aber sie wirken, wenn man sie konsequent anwendet. Wenn du wissen möchtest, wie das konkret für deinen Alltag in Köln aussehen kann, dann [meld dich gerne bei mir](/contatti): Das erste Gespräch ist kostenlos und unverbindlich. Und wenn vor allem die Ernährung dein Thema ist, schau dir die [Ernährungsberatung mit Natalie](/leistungen/ernaehrungsberatung) an. Gemeinsam schauen wir, was für dich wirklich Sinn macht."
       }
     ]
   },

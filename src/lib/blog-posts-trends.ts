@@ -3265,6 +3265,18 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Faszientraining ohne Rolle: geht das?"
+      },
+      {
+        "type": "p",
+        "text": "Ja, und zwar besser, als die Werbung für Rollen vermuten lässt. Dein Bindegewebe reagiert vor allem auf Zug, Last und federnde Bewegungen, nicht auf Druck. Dynamisches Dehnen über die volle Bewegungsamplitude, leichte Sprünge, Seilspringen, Hopserlauf und Übungen wie tiefe Ausfallschritte mit Rotation setzen genau die Reize, an die sich Faszien anpassen. Auch ein Tennisball oder deine eigenen Hände ersetzen für punktuelle Stellen wie Fußsohle oder Gesäß die Rolle problemlos."
+      },
+      {
+        "type": "p",
+        "text": "Wer keine Rolle kaufen will, verpasst also nichts Entscheidendes. Die Rolle ist bequem für große Flächen wie Oberschenkel und Rücken, mehr nicht. Wichtiger als das Werkzeug ist die Mischung: ein paar Minuten federnde, dynamische Bewegungen vor dem Training wirken auf dein Gewebe langfristig mehr als zehn Minuten passives Rollen auf dem Wohnzimmerboden."
+      },
+      {
+        "type": "h2",
         "text": "Was Faszientraining nicht ersetzt"
       },
       {
@@ -3285,7 +3297,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Falls du gerade anfängst und nicht weißt, wie du Rollen, Mobility und Krafttraining sinnvoll kombinierst: Genau dafür biete ich eine kostenlose Erstberatung an, 30 bis 45 Minuten, in Köln oder online. Wir schauen uns an, wo du stehst, und du gehst mit einem klaren Plan raus, ob du danach mit mir trainierst oder nicht."
+        "text": "Falls du gerade anfängst und nicht weißt, wie du Rollen, [Mobility](/blog/mobility-training-anfaenger) und Krafttraining sinnvoll kombinierst: Genau dafür biete ich eine [kostenlose Erstberatung](/contatti) an, 30 bis 45 Minuten, in Köln oder online. Wir schauen uns an, wo du stehst, und du gehst mit einem klaren Plan raus, ob du danach mit mir trainierst oder nicht."
       }
     ]
   },
@@ -3747,7 +3759,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Dazu kommt der langweiligste, aber wichtigste Punkt: Krafttraining über die volle Bewegungsamplitude ist selbst hervorragendes Beweglichkeitstraining. Studien zeigen, dass tiefes, kontrolliertes Krafttraining die Beweglichkeit ähnlich gut verbessert wie reines Dehnen. Mobility Übungen und Krafttraining sind also keine Gegner, sie verstärken sich."
+        "text": "Dazu kommt der langweiligste, aber wichtigste Punkt: Krafttraining über die volle Bewegungsamplitude ist selbst hervorragendes Beweglichkeitstraining. Studien zeigen, dass tiefes, kontrolliertes Krafttraining die Beweglichkeit ähnlich gut verbessert wie reines Dehnen. Mobility Übungen und Krafttraining sind also keine Gegner, sie verstärken sich. Dasselbe gilt übrigens für die Schaumstoffrolle: Was sie kann und was nicht, steht im [Faszientraining-Guide für Anfänger](/blog/faszientraining-anfaenger-guide)."
       },
       {
         "type": "h2",
@@ -4922,7 +4934,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Klare Grenze, und die ziehe ich auch im Studio: Wenn dein Nackenschmerz mit Kribbeln, Taubheit oder Kraftverlust im Arm einhergeht, nach einem Unfall aufgetreten ist, mit Schwindel oder starken Kopfschmerzen kommt oder sich über Wochen trotz Selbstbehandlung verschlechtert, gehst du zum Arzt. Ein Trainer, der bei solchen Zeichen einfach weiterrollen lässt, arbeitet fahrlässig. Für die gewöhnliche stressige Verspannung dagegen gilt: Ball, Bewegung, Kraft, Geduld. Unspektakulär, günstig, funktioniert."
+        "text": "Klare Grenze, und die ziehe ich auch im Studio: Wenn dein Nackenschmerz mit Kribbeln, Taubheit oder Kraftverlust im Arm einhergeht, nach einem Unfall aufgetreten ist, mit Schwindel oder starken Kopfschmerzen kommt oder sich über Wochen trotz Selbstbehandlung verschlechtert, gehst du zum Arzt. Ein Trainer, der bei solchen Zeichen einfach weiterrollen lässt, arbeitet fahrlässig. Für die gewöhnliche stressige Verspannung dagegen gilt: Ball, Bewegung, Kraft, Geduld. Unspektakulär, günstig, funktioniert. Wie du grundsätzlich mit Rolle und Ball arbeitest, ohne auf Marketing-Versprechen hereinzufallen, steht im [Faszientraining-Guide für Anfänger](/blog/faszientraining-anfaenger-guide)."
       },
       {
         "type": "p",
