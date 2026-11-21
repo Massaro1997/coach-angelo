@@ -1764,14 +1764,26 @@ export const blogPosts: BlogPost[] = [
     "slug": "schnell-abnehmen-ohne-sport",
     "title": "Schnell abnehmen ohne Sport: Was wirklich funktioniert, und was nicht",
     "metaTitle": "Schnell abnehmen ohne Sport: Was wirklich klappt",
-    "metaDescription": "Abnehmen ohne intensives Training, möglich oder Mythos? Angelo, Personal Trainer in Köln, zeigt, was Ernährung wirklich bewirkt und welche Tipps im Alltag funktionieren.",
+    "metaDescription": "Abnehmen ohne Sport funktioniert: 0,5 bis 1 Kilo pro Woche sind realistisch. Wie es über die Ernährung klappt, welche Fehler bremsen und wo die Grenzen liegen.",
     "date": "2026-06-13",
     "readMinutes": 4,
     "excerpt": "Kein Fitnessstudio, trotzdem abnehmen? Angelo erklärt, welche Ernährungsanpassungen für Berufstätige in Köln echte Ergebnisse bringen, ohne Halbwahrheiten.",
     "blocks": [
       {
         "type": "p",
-        "text": "Viele Berufstätige in Köln haben schlicht keine Zeit für dreimal Sport pro Woche. Das Leben passiert: Überstunden, Pendelei, Familie. Die Frage ist dann schnell: Kann ich trotzdem abnehmen? Die ehrliche Antwort ist ja, aber nicht auf jede Art und Weise, die dir das Internet verkauft. Lass mich dir sagen, was wirklich zählt."
+        "text": "Ja, du kannst ohne Sport abnehmen: Entscheidend ist allein das Kaloriendefizit, und das entsteht in der Küche. Realistisch sind am Anfang 0,5 bis 1 Kilo pro Woche, danach eher ein halbes. Alles, was schneller geht, ist Wasser, kein Fett. Viele Berufstätige in Köln haben schlicht keine Zeit für dreimal Sport pro Woche: Überstunden, Pendelei, Familie. Genau für diese Situation ist dieser Artikel. Ich sage dir, was ohne Training wirklich zählt, und wo die ehrlichen Grenzen liegen."
+      },
+      {
+        "type": "h2",
+        "text": "Wie schnell geht Abnehmen ohne Sport wirklich?"
+      },
+      {
+        "type": "p",
+        "text": "In der ersten Woche zeigt die Waage oft 1 bis 2 Kilo weniger, das ist vor allem Wasser: Wer weniger Kohlenhydrate und weniger Salz isst, leert die Glykogenspeicher, und die binden Wasser. Echter Fettverlust läuft langsamer. Mit einem moderaten Defizit von 300 bis 500 Kalorien verlierst du etwa ein halbes Kilo Fett pro Woche, also zwei Kilo im Monat. Fünf Kilo weniger sind damit ein Projekt von zwei bis drei Monaten, nicht von zwei Wochen."
+      },
+      {
+        "type": "p",
+        "text": "Das klingt ernüchternd, hat aber einen Vorteil: Dieses Tempo hältst du neben Job und Familie durch, und das Gewicht bleibt unten. Die Crash-Variante mit 800 Kalorien am Tag schafft zwar schnellere Zahlen auf der Waage, kostet dich aber Muskelmasse und endet fast immer im Jojo. Ohne Training ist dieses Risiko sogar größer, denn es fehlt der Reiz, der deine Muskulatur schützt."
       },
       {
         "type": "h2",
@@ -1807,7 +1819,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Stress ist ein echter Faktor, und ich rede hier nicht von einem Buzzword. Cortisol, das Stresshormon, beeinflusst, wie dein Körper Energie speichert und wann du Hunger bekommst. Wer permanent unter Druck steht, hat oft abends einen riesigen Hunger, weil er tagsüber kaum Zeit hatte zu essen."
+        "text": "Stress ist ein echter Faktor, und ich rede hier nicht von einem Buzzword. [Cortisol, das Stresshormon](/blog/cortisol-bauchfett-zusammenhang), beeinflusst, wie dein Körper Energie speichert und wann du Hunger bekommst. Wer permanent unter Druck steht, hat oft abends einen riesigen Hunger, weil er tagsüber kaum Zeit hatte zu essen."
       },
       {
         "type": "p",
@@ -1907,7 +1919,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du musst nicht ins Fitnessstudio, um anzufangen. Aber du musst ehrlich mit dir sein, was du isst, wie du schläfst und welche Gewohnheiten dich bremsen. Ich arbeite in Köln mit Berufstätigen, die genau diesen Alltag kennen: wenig Zeit, viel Stress, echte Ziele. Wenn du wissen willst, wo du konkret ansetzen kannst, komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, keine Verpflichtung. Nur ein ehrlicher Blick auf deine Situation. Meld dich unter fitprimo.de."
+        "text": "Du musst nicht ins Fitnessstudio, um anzufangen. Aber du musst ehrlich mit dir sein, was du isst, wie du schläfst und welche Gewohnheiten dich bremsen. Ich arbeite in Köln mit Berufstätigen, die genau diesen Alltag kennen: wenig Zeit, viel Stress, echte Ziele. Wenn die Ernährung deine einzige Stellschraube ist, lohnt sich ein Blick auf die [Ernährungsberatung mit Natalie](/leistungen/ernaehrungsberatung): Sie baut mit dir eine Essensstruktur, die ohne Training funktioniert. Oder du kommst auf ein [kostenloses Erstgespräch](/contatti) zu mir. Kein Verkaufsgespräch, keine Verpflichtung, nur ein ehrlicher Blick auf deine Situation."
       }
     ]
   },
@@ -12843,7 +12855,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Viele denken, morgens trainieren sei das einzig Wahre für den Fettabbau. Das stimmt so nicht. Dein Körper verbrennt Fett nicht nach einem festen Tagesplan, sondern reagiert auf Reize: Bewegung, Ernährung, Erholung. Wer abends trainiert, nutzt oft sogar einen Vorteil, weil Körpertemperatur und Muskelkraft am Abend natürlicherweise höher sind als am frühen Morgen."
+        "text": "Viele denken, morgens trainieren sei das einzig Wahre für den Fettabbau. Das stimmt so nicht. Dein Körper verbrennt Fett nicht nach einem festen Tagesplan, sondern reagiert auf Reize: Bewegung, Ernährung, Erholung. Wer abends trainiert, nutzt oft sogar einen Vorteil, weil Körpertemperatur und Muskelkraft am Abend natürlicherweise höher sind als am frühen Morgen. Und in Wochen, in denen gar kein Training reinpasst, trägt die Ernährung allein weiter: Wie das geht, steht im Artikel [Abnehmen ohne Sport](/blog/schnell-abnehmen-ohne-sport)."
       },
       {
         "type": "p",

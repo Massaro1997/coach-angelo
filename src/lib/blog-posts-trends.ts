@@ -6521,14 +6521,14 @@ export const trendPosts: BlogPost[] = [
     "slug": "cortisol-bauchfett-zusammenhang",
     "title": "Cortisol und Bauchfett: Wie viel Wahrheit steckt dahinter?",
     "metaTitle": "Cortisol und Bauchfett: Der echte Zusammenhang",
-    "metaDescription": "Macht Cortisol Bauchfett? Was Stress mit deinem Bauch wirklich zu tun hat, was übertrieben wird und welche 4 Hebel den Unterschied machen.",
+    "metaDescription": "Macht Cortisol Bauchfett? Was Stress mit deinem Bauch zu tun hat, wie du Cortisol wirklich senkst und welche 4 Hebel den Unterschied machen.",
     "date": "2026-07-06",
     "readMinutes": 6,
     "excerpt": "Stress kann Bauchfett begünstigen, aber anders als Instagram behauptet. Der ehrliche Blick auf den Zusammenhang und was du dagegen tun kannst.",
     "blocks": [
       {
         "type": "p",
-        "text": "Ja, es gibt einen Zusammenhang zwischen chronischem Stress, Cortisol und Bauchfett. Aber er läuft anders, als es dir die meisten Reels erzählen. Cortisol zaubert kein Fett auf deinen Bauch, während du im Kaloriendefizit bist. Es sorgt indirekt dafür, dass du mehr isst, schlechter schläfst und dich weniger bewegst, und es beeinflusst, wo dein Körper überschüssige Energie bevorzugt speichert. Der Unterschied klingt akademisch, entscheidet aber komplett darüber, welche Strategie dir hilft."
+        "text": "Ja, es gibt einen Zusammenhang zwischen chronischem Stress, Cortisol und Bauchfett. Aber er läuft anders, als es dir die meisten Reels erzählen. Cortisol zaubert kein Fett auf deinen Bauch, während du im Kaloriendefizit bist. Es sorgt indirekt dafür, dass du mehr isst, schlechter schläfst und dich weniger bewegst, und es beeinflusst, wo dein Körper überschüssige Energie bevorzugt speichert. Der Unterschied klingt akademisch, entscheidet aber komplett darüber, welche Strategie dir hilft. Falls du zuerst wissen willst, ob dein Bauch überhaupt ein Stressbauch ist: Die Anzeichen habe ich im Artikel [Stressbauch erkennen](/blog/stressbauch-erkennen-symptome) als Checkliste aufgeschrieben. Hier geht es um den Mechanismus dahinter und darum, was du gegen den Cortisol-Bauch tun kannst."
       },
       {
         "type": "h2",
@@ -6593,15 +6593,27 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Cortisol senken: was wirklich wirkt und was du dir sparen kannst"
+      },
+      {
+        "type": "p",
+        "text": "Die gute Nachricht: Du musst dein Cortisol nicht aktiv bekämpfen. Bei gesunden Menschen reguliert es sich von selbst, sobald die Dauerbelastung nachlässt. Senken heißt also nicht Supplement einwerfen, sondern die Stressoren abbauen, auf die dein Körper reagiert. Am stärksten wirken genau die unspektakulären Dinge: sieben Stunden Schlaf zu festen Zeiten, Tageslicht am Morgen, zügige Spaziergänge, zwei bis drei Krafttrainingseinheiten pro Woche und eine Koffein-Grenze am frühen Nachmittag. Auch zehn Minuten langsames Atmen am Abend sind kein Esoterik-Tipp, sondern eine der wenigen Sofortmaßnahmen, die messbar entspannen."
+      },
+      {
+        "type": "p",
+        "text": "Sparen kannst du dir dagegen fast alles, was als Cortisol-Blocker, Detox-Tee oder Hormon-Reset verkauft wird. Dahinter steht kein Mechanismus, der ein Kalorienplus ausgleicht. Und ein Detail, das oft übersehen wird: Extrem hartes tägliches Training senkt Cortisol nicht, es erhöht es. Wer gestresst ist und sich zusätzlich jeden Tag auspowert, arbeitet gegen sich selbst. Moderat und regelmäßig schlägt brutal und selten."
+      },
+      {
+        "type": "h2",
         "text": "Was du realistisch erwarten kannst"
       },
       {
         "type": "p",
-        "text": "Bauchfett geht zuletzt, das muss ich ehrlich sagen. Die Reihenfolge, die ich bei Klienten sehe: Erst besserer Schlaf und weniger Heißhunger, nach drei bis vier Wochen fällt die Waage, nach acht bis zwölf Wochen sitzt die Hose am Bund lockerer. Wer dir schnellere Bauchergebnisse verspricht, verkauft dir Wasserverlust oder eine Story."
+        "text": "Bauchfett geht zuletzt, das muss ich ehrlich sagen. Die Reihenfolge, die ich bei Klienten sehe: Erst besserer Schlaf und weniger Heißhunger, nach drei bis vier Wochen fällt die Waage, nach acht bis zwölf Wochen sitzt die Hose am Bund lockerer. Wer dir schnellere Bauchergebnisse verspricht, verkauft dir Wasserverlust oder eine Story. Warum die Waage dabei nicht immer mitspielt, erkläre ich im Artikel [Gewicht stagniert trotz Training](/blog/gewicht-stagniert-trotz-training)."
       },
       {
         "type": "p",
-        "text": "Falls du das Thema nicht länger allein durchprobieren willst: Lass uns einmal kostenlos sprechen, 30 bis 45 Minuten, online oder in Köln. Ich sage dir offen, welcher der vier Hebel bei dir vermutlich klemmt und ob ein Coaching überhaupt nötig ist. Manchmal reicht schon ein sauberer Plan, den du selbst umsetzt."
+        "text": "Falls du das Thema nicht länger allein durchprobieren willst: Lass uns einmal [kostenlos sprechen](/contatti), 30 bis 45 Minuten, online oder in Köln. Ich sage dir offen, welcher der vier Hebel bei dir vermutlich klemmt und ob ein [Personal Training in Köln](/personal-trainer-koeln) überhaupt nötig ist. Manchmal reicht schon ein sauberer Plan, den du selbst umsetzt."
       }
     ]
   },
@@ -8068,7 +8080,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "NEAT steht für Non-Exercise Activity Thermogenesis, also alle Bewegung außerhalb des Trainings: Treppen, Gehen, Stehen, Einkäufe tragen, Zappeln. Und jetzt die Zahl, die viele überrascht: Der NEAT-Unterschied zwischen einem bewegten und einem sitzenden Alltag kann 400 bis 800 kcal pro Tag betragen. Das schlägt jede Trainingseinheit. Drei Stunden Bürostuhl kannst du nicht mit 45 Minuten Hanteltraining neutralisieren. Was bei meinen Kunden funktioniert hat, ohne dass es sich nach Sport anfühlt:"
+        "text": "NEAT steht für Non-Exercise Activity Thermogenesis, also alle Bewegung außerhalb des Trainings: Treppen, Gehen, Stehen, Einkäufe tragen, Zappeln. Und jetzt die Zahl, die viele überrascht: Der NEAT-Unterschied zwischen einem bewegten und einem sitzenden Alltag kann 400 bis 800 kcal pro Tag betragen. Das schlägt jede Trainingseinheit. Drei Stunden Bürostuhl kannst du nicht mit 45 Minuten Hanteltraining neutralisieren. Genau deshalb funktioniert auch [Abnehmen ohne Sport](/blog/schnell-abnehmen-ohne-sport), solange Ernährung und Alltagsbewegung stimmen. Was bei meinen Kunden funktioniert hat, ohne dass es sich nach Sport anfühlt:"
       },
       {
         "type": "ul",
