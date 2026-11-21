@@ -2514,6 +2514,49 @@ export const stadtteilIntentCustom: Record<string, IntentCustom> = {
     ],
   },
 
+  "humboldt-gremberg/muskelaufbau": {
+    answer:
+      "Muskelaufbau in Köln-Humboldt/Gremberg: Grundübungen mit Protokoll und geplanter Steigerung, im Studio oder mit dem richtigen Setup bei dir zu Hause, dazu ein klarer Eiweiß-Zielwert. Die 1-zu-1 Stunde kostet 50€, das Erstgespräch ist kostenlos.",
+    metaDescription:
+      "Muskelaufbau mit Personal Trainer in Köln-Humboldt/Gremberg: Grundübungen mit Protokoll, Training im Studio oder zuhause, Eiweiß-Zielwert. 50€/Std, Erstberatung kostenlos.",
+    sections: [
+      {
+        title: "Krafttraining in einem Veedel ohne eigenes Studio-Angebot",
+        body: "Humboldt/Gremberg hat 15.111 Einwohner auf 2,82 km², aber anders als im Nachbarveedel Kalk gibt es hier kaum Fitnessstudios: Die meisten liegen hinter der Veedelsgrenze, rund um die Kalker Arcaden oder in Poll. Für dein Muskelaufbau-Training heißt das konkret: Entweder wir trainieren bei dir zu Hause, mit Kurzhanteln, Band und ein paar gezielten Anschaffungen, die zusammen weniger kosten als ein Jahr Mitgliedschaft, oder du nimmst ein Studio in Kalk oder Poll und ich stelle dort Plan und Technik ein. Beides funktioniert, wenn die Steigerung geplant ist.",
+      },
+      {
+        title: "Schwer genug, auch ohne Hantelbank",
+        body: "Für die ersten sechs bis zwölf Monate Muskelaufbau reichen zu Hause verstellbare Kurzhanteln bis etwa 30 Kilo pro Hand: Goblet-Kniebeugen, rumänisches Kreuzheben, Rudern vorgebeugt, Drücken vom Boden, Ausfallschritte. Ich zeige dir die Varianten, mit denen dieselbe Übung schwerer wird, ohne dass neues Gerät nötig ist, und das Protokoll führt dich Woche für Woche: gleiche Übungen, mehr Gewicht oder Wiederholungen, dokumentiert statt gefühlt. Wenn die Hanteln irgendwann zu leicht sind, ist der Wechsel ins Studio der logische nächste Schritt, nicht der erste.",
+      },
+      {
+        title: "Essen fürs Wachstum, auch im Schichtbetrieb",
+        body: "Das Veedel arbeitet in Schichten, bei der Bahn, in der Logistik, im Handwerk, und genau daran scheitert hier am häufigsten der Aufbau: Wer um 5 Uhr anfängt oder bis 22 Uhr steht, isst unregelmäßig und kommt selten auf sein Eiweiß. Deshalb bekommst du von mir keinen Ernährungsplan mit sechs festen Mahlzeiten, sondern einen Tageszielwert, als Faustregel 1,6 bis 2 Gramm Eiweiß pro Kilo Körpergewicht, und Lösungen, die in deine Schicht passen: vorbereitete Mahlzeiten, die richtige Wahl am Kiosk, ein Shake, wo nichts anderes geht. Wer es genauer will, nimmt die Betreuung durch Ernährungsberaterin Natalie dazu.",
+      },
+      {
+        title: "Termine, die zur Schicht passen",
+        body: "Muskelaufbau braucht Konstanz über Monate, und Konstanz scheitert selten an der Motivation, sondern am Kalender. Deshalb lege ich Einheiten in Humboldt/Gremberg auch auf den frühen Morgen oder den frühen Nachmittag, je nach deinem Schichtplan, und plane sie von Woche zu Woche neu, wenn dein Dienstplan wechselt. Zwei Einheiten pro Woche reichen für sauberen Aufbau. Was zählt, ist, dass sie stattfinden.",
+      },
+    ],
+    faq: [
+      {
+        q: "Was kostet Muskelaufbau-Training in Köln-Humboldt/Gremberg?",
+        a: "Die 1-zu-1 Stunde kostet 50€, bei dir zu Hause ohne Aufschlag. Das Online Coaching mit Plan per App und wöchentlichen Check-ins gibt es ab 150€ im Monat. Das Erstgespräch ist kostenlos.",
+      },
+      {
+        q: "Geht Muskelaufbau wirklich ohne Fitnessstudio?",
+        a: "Ja, für Einsteiger und Wiedereinsteiger über viele Monate. Entscheidend ist, dass die Belastung regelmäßig steigt, nicht wo sie stattfindet. Mit verstellbaren Kurzhanteln und einem Protokoll wächst zu Hause dasselbe wie an der Maschine.",
+      },
+      {
+        q: "Ich arbeite in Wechselschicht. Wie planen wir das?",
+        a: "Wir legen die Termine pro Woche neu, passend zum Dienstplan, auch früh morgens oder am Nachmittag. Der Trainingsplan ist auf zwei Einheiten gebaut, damit er auch in anstrengenden Wochen steht.",
+      },
+      {
+        q: "Wie schnell sehe ich etwas?",
+        a: "Kraftwerte steigen bei Einsteigern in den ersten acht bis zwölf Wochen deutlich, sichtbare Veränderungen folgen danach. Versprechen in Kilo mache ich nicht, das Trainingsbuch zeigt dir jede Woche schwarz auf weiß, ob es vorangeht.",
+      },
+    ],
+  },
+
   "worringen/personal-training": {
     answer:
       "Personal Training in Köln-Worringen: 1-zu-1 Krafttraining mit Plan und Progression, bei dir zu Hause oder draußen am Rheinufer, im nördlichsten Veedel der Stadt. Die Stunde kostet 50€, das Erstgespräch ist kostenlos.",

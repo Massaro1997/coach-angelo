@@ -339,6 +339,7 @@ Creato il 06/11/2026 (giro 5). Fonte: Search Console, somma delle due proprietà
 | 331 | /koeln/rodenkirchen/personal-training | 0 | 1 | 36,0 | FATTA (giro 75, 18/11) |
 | 332 | /koeln/zuendorf/ernaehrungsberatung | 0 | 1 | 44,0 | FATTA (giro 75, 18/11) |
 | 333 | /koeln/kalk/personal-training | 0 | 1 | 97,0 | FATTA (giro 75, 18/11) |
+| 334 | /koeln/humboldt-gremberg/muskelaufbau | 0 | 1 | 9,0 | FATTA (giro 85, 21/11; entrata col riaggiornamento GSC al 19/11, unica candidata senza testo su misura; pos 9 → rafforzata con prudenza) |
 
 **CODA INTENT ESAURITA (giro 75, 18/11)**: tutte le 333 pagine quartiere×servizio con impressioni nei 90 giorni (dati fino al 16/11) hanno testo su misura. Dal giro 76 la coda si alimenta solo col riaggiornamento GSC (pagine nuove con impressioni o rientri dal controllo indicizzazione del lunedì); il lavoro ordinario passa alla sezione 2 (articoli blog su domande scoperte).
 
