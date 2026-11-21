@@ -5856,7 +5856,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fettabbau und Muskelaufbau gleichzeitig, also Body Recomposition, ist möglich, dauert aber länger als ein reines Abnehmziel. Wer nur abnehmen will und dabei strukturiert vorgeht, kann in drei Monaten einen deutlichen Unterschied erzielen. Wer Muskeln aufbauen will, braucht Geduld über mehrere Monate hinaus."
+        "text": "Fettabbau und Muskelaufbau gleichzeitig, also [Body Recomposition](/blog/body-recomposition-guide), ist möglich, dauert aber länger als ein reines Abnehmziel. Wer nur abnehmen will und dabei strukturiert vorgeht, kann in drei Monaten einen deutlichen Unterschied erzielen. Wer Muskeln aufbauen will, braucht Geduld über mehrere Monate hinaus."
       },
       {
         "type": "p",
@@ -8577,7 +8577,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Viele greifen bei Rückenproblemen sofort zu YouTube-Workouts oder App-Plänen und machen alles mit maximaler Intensität. Das geht meistens schief. Nicht weil Krafttraining gefährlich wäre, sondern weil schlechte Technik bei geschwächter Muskulatur echten Schaden anrichten kann. Ein Kreuzheben mit rundem Rücken ist keine Therapie, es ist ein Risiko."
+        "text": "Viele greifen bei Rückenproblemen sofort zu YouTube-Workouts oder App-Plänen und machen alles mit maximaler Intensität. Das geht meistens schief. Nicht weil Krafttraining gefährlich wäre, sondern weil schlechte Technik bei geschwächter Muskulatur echten Schaden anrichten kann. Ein Kreuzheben mit rundem Rücken ist keine Therapie, es ist ein Risiko. Falls dein Rücken gerade wegen des Trainings schmerzt, findest du die Ursachen und den Fahrplan im Artikel [Rückenschmerzen durch Krafttraining beheben](/blog/rueckenschmerzen-durch-krafttraining-beheben)."
       },
       {
         "type": "p",
@@ -9991,7 +9991,7 @@ export const blogPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
-        "text": "Du arbeitest voll, die Kinder warten, der Feierabend in Köln-Ehrenfeld oder Nippes fühlt sich schon um 20 Uhr viel zu spät an. Für Sport bleibt schlicht keine Energie. Die gute Nachricht: Du brauchst keinen Sport, um Gewicht zu verlieren. Dein Körper reagiert auf das, was du isst, viel stärker als auf das, was du im Gym tust. Hier erfährst du, wie du das konkret nutzt."
+        "text": "Du arbeitest voll, die Kinder warten, der Feierabend in Köln-Ehrenfeld oder Nippes fühlt sich schon um 20 Uhr viel zu spät an. Für Sport bleibt schlicht keine Energie. Die gute Nachricht: Du brauchst keinen Sport, um Gewicht zu verlieren. Dein Körper reagiert auf das, was du isst, viel stärker als auf das, was du im Gym tust. Hier geht es um die dauerhafte Ernährungsumstellung; wie viel Tempo dabei realistisch ist, steht im Artikel [Schnell abnehmen ohne Sport](/blog/schnell-abnehmen-ohne-sport)."
       },
       {
         "type": "h2",
@@ -12550,7 +12550,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Diese Übungen sind ein guter Start. Aber wenn du morgens aufwachst und der Rücken wirklich schmerzt, wenn du nachts schlecht schläfst wegen der Verspannungen, wenn die Steifigkeit auch nach einer Stunde nicht nachlässt, dann reicht eine Fünf-Minuten-Routine allein nicht. Das sage ich dir direkt, weil es die Wahrheit ist."
+        "text": "Diese Übungen sind ein guter Start. Aber wenn du morgens aufwachst und der Rücken wirklich schmerzt, wenn du nachts schlecht schläfst wegen der Verspannungen, wenn die Steifigkeit auch nach einer Stunde nicht nachlässt, dann reicht eine Fünf-Minuten-Routine allein nicht. Das sage ich dir direkt, weil es die Wahrheit ist. Woher die [morgendliche Steifheit im Rücken](/blog/rueckenschmerzen-morgendliche-steifheit-ursachen) überhaupt kommt und wann sie ein Warnsignal ist, habe ich in einem eigenen Artikel erklärt."
       },
       {
         "type": "p",

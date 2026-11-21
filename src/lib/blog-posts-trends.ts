@@ -1677,7 +1677,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die Folgen spürst du doppelt. Erstens sofort: weniger Kraft, weniger Energie, ein weicheres Körpergefühl. Zweitens langfristig: Jedes verlorene Kilo Muskulatur senkt deinen Grundumsatz. Du verbrennst also dauerhaft weniger Kalorien. Genau das macht den Jojo-Effekt nach dem Absetzen so brutal. Du hast dann nicht nur deinen alten Appetit zurück, sondern auch noch einen sparsameren Körper als vorher."
+        "text": "Die Folgen spürst du doppelt. Erstens sofort: weniger Kraft, weniger Energie, ein weicheres Körpergefühl. Zweitens langfristig: Jedes verlorene Kilo Muskulatur senkt deinen Grundumsatz. Du verbrennst also dauerhaft weniger Kalorien. Genau das macht den [Jojo-Effekt nach der Abnehmspritze](/blog/jojo-effekt-nach-abnehmspritze-vermeiden) so brutal. Du hast dann nicht nur deinen alten Appetit zurück, sondern auch noch einen sparsameren Körper als vorher."
       },
       {
         "type": "h2",
