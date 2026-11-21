@@ -850,6 +850,10 @@ export const trendPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
+        "text": "Die kurze Antwort: Als Anfänger verbesserst du deine Ausdauer am zuverlässigsten mit drei lockeren Einheiten pro Woche à 20 bis 45 Minuten, in einem Tempo, bei dem du dich noch unterhalten kannst. Erste messbare Effekte kommen nach vier bis sechs Wochen, ein belastbares Fundament nach etwa zwölf. Gehen zählt dabei genauso wie Laufen. Wie du das konkret aufbaust, steht in diesem Fahrplan."
+      },
+      {
+        "type": "p",
         "text": "Jedes Frühjahr sehe ich im Kölner Grüngürtel dasselbe Schauspiel: Menschen mit brandneuen Laufschuhen, die in der ersten Woche viel zu schnell loslegen, mit hochrotem Kopf nach zwei Kilometern stehen bleiben und drei Wochen später nie wieder gesehen werden. Das ist keine Charakterschwäche. Das ist ein Planungsfehler. Ausdauer aufzubauen funktioniert nach ein paar simplen Regeln, und wenn du die kennst, ist der Einstieg fast schon langweilig einfach."
       },
       {
@@ -893,6 +897,14 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Wie viel Ausdauer du in einem Monat aufbauen kannst"
+      },
+      {
+        "type": "p",
+        "text": "Viele wollen ihre Ausdauer in einem Monat verbessern, vor einem Urlaub, einem Firmenlauf oder einfach, weil der Entschluss frisch ist. Die ehrliche Einordnung: Ein Monat reicht für spürbare Fortschritte, aber nicht für ein Fundament. Realistisch sind nach vier Wochen mit drei Einheiten pro Woche ein um etwa 5 Schläge niedrigerer [Ruhepuls](/blog/ruhepuls-senken-training), deutlich längere Belastung am Stück, also zum Beispiel von 2 auf 10 Minuten Traben ohne Pause, und ein Alltag, der sich leichter anfühlt. Was in einem Monat nicht passiert: Sehnen und Gelenke sind noch nicht angepasst, deshalb wäre jetzt mehr Tempo oder Umfang genau der Fehler, der dich in Woche sechs ausbremst. Wenn du nur vier Wochen Zeit hast, trainiere lieber jeden zweiten Tag locker als dreimal hart. Danach weiterzumachen ist ohnehin der eigentliche Gewinn."
+      },
+      {
+        "type": "h2",
         "text": "Was im Körper passiert, wenn du dranbleibst"
       },
       {
@@ -921,7 +933,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du beim Einstieg lieber jemanden an deiner Seite hast, der auf deine Technik schaut, den Plan an dein Leben anpasst und dich durch die ersten zwölf Wochen begleitet: Dafür gibt es mich. Im kostenlosen Erstgespräch finden wir heraus, wo du gerade stehst und welcher Weg für dich realistisch ist. Kein Verkaufsgespräch, versprochen, sondern eine ehrliche Standortbestimmung."
+        "text": "Wenn du beim Einstieg lieber jemanden an deiner Seite hast, der auf deine Technik schaut, den Plan an dein Leben anpasst und dich durch die ersten zwölf Wochen begleitet: Dafür gibt es mich. Im [kostenlosen Erstgespräch](/contatti) finden wir heraus, wo du gerade stehst und welcher Weg für dich realistisch ist. Kein Verkaufsgespräch, versprochen, sondern eine ehrliche Standortbestimmung. Wie das [Personal Training in Köln](/personal-trainer-koeln) abläuft und was es kostet, steht dort schwarz auf weiß."
       }
     ]
   },
@@ -6596,8 +6608,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "osteoporose-vorbeugen-krafttraining",
     "title": "Osteoporose vorbeugen: Warum Krafttraining deine beste Versicherung ist",
-    "metaTitle": "Osteoporose vorbeugen mit Krafttraining: So geht es",
-    "metaDescription": "Osteoporose vorbeugen: welches Training die Knochendichte wirklich schützt, ob ein Gerätezirkel wie Kieser reicht und wie deine Trainingswoche konkret aussieht.",
+    "metaTitle": "Osteoporose: welches Training die Knochen stärkt",
+    "metaDescription": "Osteoporose vorbeugen oder mit Diagnose trainieren: welches Krafttraining die Knochendichte schützt, ob ein Gerätezirkel wie Kieser reicht und wie deine Woche aussieht.",
     "date": "2026-07-07",
     "readMinutes": 7,
     "excerpt": "Nach der Menopause verlieren Frauen rasant Knochendichte. Gezieltes Krafttraining ist das wirksamste Werkzeug dagegen. Welche Übungen zählen und wie du sicher startest.",
@@ -6647,6 +6659,18 @@ export const trendPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Diese Frage bekomme ich oft von Frauen, die schon bei einem Geräteanbieter wie Kieser Training trainieren oder darüber nachdenken. Die ehrliche Antwort: Beides belastet den Knochen, und ein geführter Gerätezirkel ist ein guter, sicherer Einstieg, gerade wenn du noch nie trainiert hast oder dich mit Hanteln unwohl fühlst. Die Maschine führt die Bewegung, das Verletzungsrisiko ist klein, und der Widerstand lässt sich fein steigern. Zwei Dinge kann der Zirkel aber nicht: Er trainiert kaum dein Gleichgewicht, weil du sitzt oder liegst, und er bereitet dich nicht auf die Belastungen vor, bei denen Brüche wirklich passieren: stolpern, abfangen, etwas Schweres tragen. Deshalb mein Rat: Wenn dir der Zirkel liegt, behalte ihn als Basis und ergänze freie Übungen im Stehen, Ausfallschritte, Balancearbeit und Tragen von Gewicht. Wenn du neu startest, lern von Anfang an beides."
+      },
+      {
+        "type": "h2",
+        "text": "Training mit bestehender Osteoporose: was geht, was nicht"
+      },
+      {
+        "type": "p",
+        "text": "Viele Frauen, die diesen Artikel lesen, haben die Diagnose schon. Die wichtigste Nachricht zuerst: Osteoporose ist kein Trainingsverbot, im Gegenteil. Die LIFTMOR-Studie hat genau das untersucht: Frauen mit niedriger Knochendichte, die zweimal pro Woche angeleitetes, schweres Krafttraining machten, verbesserten ihre Knochendichte und verletzten sich dabei nicht häufiger als die Vergleichsgruppe. Entscheidend war das Wort angeleitet: Die Technik wurde über Wochen aufgebaut, bevor das Gewicht stieg."
+      },
+      {
+        "type": "p",
+        "text": "Drei Regeln gelten mit Diagnose zusätzlich. Erstens: Deine Ärztin ist im Boot und kennt deinen letzten Messwert, danach richtet sich, wie schnell gesteigert wird. Zweitens: Keine schweren Belastungen in gebeugter oder stark rotierter Wirbelsäule, also kein Gewichtheben mit rundem Rücken, keine schweren Crunches, kein ruckartiges Drehen unter Last. Die Wirbelsäule wird in ihrer Längsachse belastet, aufrecht und kontrolliert. Drittens: Sprünge und Stoßbelastungen erst, wenn Kraft und Gleichgewicht stehen und nichts medizinisch dagegen spricht, vorher übernimmt zügiges Treppensteigen diese Rolle. Mit diesen Leitplanken ist Training nicht das Risiko. Das Risiko ist das Sofa."
       },
       {
         "type": "h2",
