@@ -414,6 +414,15 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "Ich arbeite anders: Krafttraining im Studio, Planung und Ernährung digital. Dadurch kann ich die Stunde für 50€ anbieten, ohne an der Betreuung zu sparen. Mein Geld verdiene ich nicht mit der Adresse, sondern mit deinen Ergebnissen. Die sprechen sich rum.",
       },
+      { type: "h2", text: "Was kostet ein Personal Trainer pro Stunde?" },
+      {
+        type: "p",
+        text: "Deutschlandweit kostet eine Stunde Personal Training meist zwischen 60€ und 120€. In München oder Hamburg liegt der Schnitt eher bei 90€ bis 150€, in kleineren Städten bei 50€ bis 80€. Köln liegt dazwischen: Die meisten Angebote bewegen sich zwischen 60€ und 130€ pro Stunde. Meine 1-zu-1 Stunde kostet 50€, weil ich kein eigenes Studio finanzieren muss.",
+      },
+      {
+        type: "p",
+        text: "Zwei Dinge solltest du beim Stundenpreis immer mitdenken. Erstens die Paketlogik: Fast alle Trainer werden pro Stunde günstiger, wenn du 10 oder 20 Einheiten im Voraus buchst, oft um 15 bis 25 Prozent. Zweitens das, was NICHT in der Stunde steckt: Trainingsplan für die Tage dazwischen, Ernährung, Erreichbarkeit bei Fragen. Ein Trainer für 70€ mit echter Betreuung drumherum ist billiger als einer für 50€, der dich nach der Stunde vergisst. Welche versteckten Kosten es sonst noch gibt, steht im Artikel [Was kostet eine Stunde Personal Training wirklich?](/blog/personal-trainer-koeln-preise-pro-stunde).",
+      },
       { type: "h2", text: "Was kostet ein Personal Trainer pro Monat?" },
       {
         type: "p",
@@ -454,6 +463,11 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         text: "Für Hausbesuche kommt bei vielen Trainern ein Aufschlag auf den Stundenpreis. Bei mir nicht: Die 1-zu-1 Stunde kostet 50€, egal ob im Studio, draußen oder bei dir zu Hause in Köln. Wie das in einem konkreten Veedel aussieht, zeigt zum Beispiel die Seite [Personal Training in Köln-Sülz](/koeln/suelz).",
+      },
+      { type: "h2", text: "Was kostet Personal Coaching?" },
+      {
+        type: "p",
+        text: "Personal Coaching und Personal Training meinen oft dasselbe, aber nicht immer. Wenn mit Coaching die laufende Betreuung gemeint ist, also Plan, Ernährung und wöchentliche Check-ins statt gemeinsamer Stunden vor Ort, dann reden wir über 150€ bis 400€ im Monat. Bei mir startet das [Online Coaching](/leistungen/online-coaching) ab 150€ monatlich, mit individuellem Trainingsplan, Ernährungssteuerung durch Natalie und Video-Feedback zu deinen Übungen. Angebote deutlich unter 100€ im Monat sind in der Regel Vorlagenpläne ohne echte Betreuung: Da zahlst du wenig und bekommst entsprechend wenig.",
       },
       { type: "h2", text: "Wird Personal Training von der Krankenkasse bezahlt?" },
       {
@@ -8801,14 +8815,14 @@ export const blogPosts: BlogPost[] = [
     "slug": "personal-trainer-koeln-preise-pro-stunde",
     "title": "Personal Trainer Köln: Was kostet eine Stunde wirklich, und wann lohnt es sich?",
     "metaTitle": "Personal Trainer Köln: Was kostet eine Stunde?",
-    "metaDescription": "Personal Trainer Köln Preise pro Stunde: Was kostet Training wirklich, welche Kosten versteckt sind und wann es sich finanziell lohnt. Ehrliche Einschätzung.",
+    "metaDescription": "Eine Stunde Personal Training kostet in Köln 60€ bis 130€, bei FitPrimo 50€. Welche Kosten versteckt sind und wann sich der Preis wirklich lohnt.",
     "date": "2026-06-15",
     "readMinutes": 5,
     "excerpt": "Zwischen 50 und 150 Euro pro Stunde, die Preisspanne für Personal Training in Köln ist riesig. Hier erfährst du, was dahintersteckt und wann es sich wirklich lohnt.",
     "blocks": [
       {
         "type": "p",
-        "text": "Du hast dich schon gefragt, ob Personal Training in Köln etwas für deinen Geldbeutel ist, oder denkst, das sei nur was für Leute mit dickem Konto. Ich verstehe das. Als Personal Trainer, der in Köln arbeitet, bekomme ich diese Frage fast täglich. Die Antwort ist komplizierter als eine einzelne Zahl, aber auch ehrlicher als du vielleicht erwartest."
+        "text": "Die kurze Antwort: Eine Stunde Personal Training kostet in Köln meist zwischen 60€ und 130€, bei mir sind es 50€, im Studio, draußen oder bei dir zuhause. Interessanter als die nackte Zahl ist aber, was in diesem Preis steckt, was manchmal versteckt dazukommt und ab wann sich das Geld wirklich lohnt. Genau das rechne ich dir hier vor. Den großen Überblick über alle Modelle, auch Monatspreise und Online Coaching, findest du im Artikel [Was kostet ein Personal Trainer in Köln?](/blog/was-kostet-personal-trainer-koeln)."
       },
       {
         "type": "h2",
@@ -8932,6 +8946,14 @@ export const blogPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Sprich offen über dein Budget. Ein seriöser Trainer macht dir kein Angebot, das du dir nicht leisten kannst, nur um den Deal zu machen. Wer dir Druck macht oder dich in teure Langzeitpakete drängt, bevor er dich überhaupt kennt, ist nicht der Richtige für dich."
+      },
+      {
+        "type": "h2",
+        "text": "Ein ehrliches Rechenbeispiel: drei Monate bei mir"
+      },
+      {
+        "type": "p",
+        "text": "Damit die Spannen nicht abstrakt bleiben, rechne ich dir mein eigenes Angebot vor. Zwei 1-zu-1 Stunden pro Woche zu je 50€ sind 400€ im Monat, über drei Monate also 1.200€. Dafür bekommst du rund 24 betreute Einheiten, einen Plan für die Tage dazwischen und die Technik, mit der du danach alleine weitertrainieren kannst. Keine Anmeldegebühr, keine Pflichtmitgliedschaft, kein Aufschlag für Hausbesuche in Köln. Wem das zu viel ist, der startet mit einer Stunde pro Woche (200€ im Monat) oder mit dem Online Coaching ab 150€ monatlich. Das Erstgespräch kostet nichts und dauert 30 bis 45 Minuten: Danach weißt du genau, welche Variante zu deinem Budget passt."
       },
       {
         "type": "h2",
