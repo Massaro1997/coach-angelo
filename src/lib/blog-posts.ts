@@ -4659,7 +4659,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Mit den Wechseljahren verändert sich der Hormonhaushalt grundlegend. Östrogen fällt ab, und das hat direkte Auswirkungen auf Muskelmasse, Knochendichte und die Art, wie dein Körper Energie verwerten. Das ist keine Katastrophe, aber es ist ein Signal: Wer jetzt nichts tut, verliert über die Jahre Muskeln und Knochensubstanz deutlich schneller als in jüngeren Jahren."
+        "text": "Mit den Wechseljahren verändert sich der Hormonhaushalt grundlegend. Östrogen fällt ab, und das hat direkte Auswirkungen auf Muskelmasse, Knochendichte und die Art, wie dein Körper Energie verwerten. Das ist keine Katastrophe, aber es ist ein Signal: Wer jetzt nichts tut, verliert über die Jahre Muskeln und Knochensubstanz deutlich schneller als in jüngeren Jahren. Dieser schleichende Muskelverlust hat einen Namen, und du kannst ihn aufhalten: Wie [Sarkopenie entsteht und wie du den Muskelabbau im Alter stoppst](/blog/sarkopenie-muskelabbau-alter-verhindern), habe ich in einem eigenen Artikel erklärt."
       },
       {
         "type": "p",
@@ -14081,7 +14081,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Der Testosteronspiegel sinkt bei Männern ab dem späten dritten Lebensjahrzehnt kontinuierlich. Das ist kein Drama, aber es bedeutet: Muskeln wachsen langsamer, und Fett setzt sich schneller an, besonders am Bauch. Gleichzeitig braucht das Bindegewebe, also Sehnen und Gelenke, deutlich länger, um sich an neue Belastungen zu gewöhnen. [Was Krafttraining mit deinem Testosteron ab 40 wirklich macht](/blog/testosteron-krafttraining-mann-ab-40), habe ich in einem eigenen Artikel erklärt."
+        "text": "Der Testosteronspiegel sinkt bei Männern ab dem späten dritten Lebensjahrzehnt kontinuierlich. Das ist kein Drama, aber es bedeutet: Muskeln wachsen langsamer, und Fett setzt sich schneller an, besonders am Bauch. Gleichzeitig braucht das Bindegewebe, also Sehnen und Gelenke, deutlich länger, um sich an neue Belastungen zu gewöhnen. [Was Krafttraining mit deinem Testosteron ab 40 wirklich macht](/blog/testosteron-krafttraining-mann-ab-40), habe ich in einem eigenen Artikel erklärt. Und wer gar nicht trainiert, baut ab 50 messbar ab, rund ein Prozent Muskelmasse pro Jahr: Wie du diesen [Muskelabbau im Alter stoppst](/blog/sarkopenie-muskelabbau-alter-verhindern), steht ebenfalls im Blog."
       },
       {
         "type": "p",
