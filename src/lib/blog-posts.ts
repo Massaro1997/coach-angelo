@@ -4506,14 +4506,18 @@ export const blogPosts: BlogPost[] = [
     "slug": "krafttraining-frauen-zuhause-muskelaufbau",
     "title": "Krafttraining für Frauen zuhause: So baust du Muskeln auf, ohne das Haus zu verlassen",
     "metaTitle": "Krafttraining Frauen zuhause: Muskeln aufbauen",
-    "metaDescription": "Krafttraining für Frauen zuhause: Konkrete Übungen, ein Starterplan und ehrliche Tipps von Personal Trainer Angelo aus Köln. Kein Studio nötig.",
+    "metaDescription": "Krafttraining für Frauen zuhause: 3 Einheiten pro Woche, 6 Übungen ohne Geräte, ein 4-Wochen-Starterplan und der Umstieg auf Kurzhanteln. Von Trainer Angelo.",
     "date": "2026-06-14",
     "readMinutes": 4,
     "excerpt": "Kein Studio, keine Geräte, kein Problem. Personal Trainer Angelo zeigt dir, wie Frauen zuhause effektiv Muskeln aufbauen und ihren Körper formen können.",
     "blocks": [
       {
         "type": "p",
-        "text": "Du willst stärker werden, deinen Körper formen und hast weder Zeit noch Lust, dich in ein Fitnessstudio einzuschreiben? Verständlich. Als Personal Trainer in Köln erlebe ich genau das regelmäßig. Die gute Nachricht: Dein Wohnzimmer reicht vollkommen aus. Du brauchst keinen Spiegel, kein Abo und keine fancy Ausrüstung. Was du brauchst, ist ein Plan, der wirklich funktioniert."
+        "text": "Die kurze Antwort: Krafttraining für Frauen zuhause funktioniert mit drei Ganzkörper-Einheiten pro Woche à 35 bis 45 Minuten, sechs Grundübungen mit dem eigenen Körpergewicht und einer einzigen Regel für den Fortschritt: Sobald zwölf saubere Wiederholungen leicht werden, wird die Übung schwerer gemacht, nicht länger. Den kompletten Starterplan findest du in diesem Artikel."
+      },
+      {
+        "type": "p",
+        "text": "Du willst stärker werden, deinen Körper formen und hast weder Zeit noch Lust, dich in ein Fitnessstudio einzuschreiben? Verständlich. Als Personal Trainer in Köln erlebe ich genau das regelmäßig. Dein Wohnzimmer reicht vollkommen aus. Du brauchst keinen Spiegel, kein Abo und keine fancy Ausrüstung. Was du brauchst, ist ein Plan, der wirklich funktioniert. Und falls du über 50 bist: Für dich gibt es einen [eigenen Trainingsplan für Frauen ab 50](/blog/krafttraining-frauen-ab-50-trainingsplan), der Hormone, Knochen und Erholung mitdenkt."
       },
       {
         "type": "h2",
@@ -4584,6 +4588,18 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Wann Kurzhanteln sinnvoll werden und welche du brauchst"
+      },
+      {
+        "type": "p",
+        "text": "Irgendwann, meist nach zwei bis vier Monaten, wird das eigene Körpergewicht bei den Beinübungen zu leicht. Du schaffst 15 saubere Kniebeugen, 20 Hüftheben, und selbst die schwereren Varianten brennen nicht mehr richtig. Das ist der Moment für Kurzhanteln, nicht vorher. Wer am ersten Tag Hanteln kauft, zahlt meist für Motivation, nicht für Trainingseffekt."
+      },
+      {
+        "type": "p",
+        "text": "Für den Einstieg reichen zwei Paar: ein leichtes mit 4 bis 6 Kilo für Schulterdrücken und Rudern in der Vorbeuge, ein schwereres mit 8 bis 12 Kilo für Kniebeugen, Ausfallschritte und Hüftheben mit Gewicht auf der Hüfte. Verstellbare Kurzhanteln sind die platzsparende Alternative, wenn du länger dabei bleiben willst. Mit diesen zwei Paaren trainierst du denselben Plan weiter, nur mit Last: gleiche Übungen, gleiche Satzlogik, acht bis zwölf Wiederholungen, und wieder gilt, schwerer statt mehr."
+      },
+      {
+        "type": "h2",
         "text": "Ernährung: Was du zuhause anders machen solltest"
       },
       {
@@ -4624,7 +4640,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Bessere Indikatoren: Du schaffst mehr Wiederholungen als letzte Woche. Du fühlst dich stabiler beim Treppensteigen. Deine Körperhaltung ist aufrechter. Du schläfst tiefer. Diese kleinen Verschiebungen passieren schneller als du denkst, wenn du das Training konsequent durchziehst. Ich sage meinen Klientinnen immer: Vertrau dem Prozess vier Wochen lang, bevor du irgendwas änderst."
+        "text": "Bessere Indikatoren: Du schaffst mehr Wiederholungen als letzte Woche. Du fühlst dich stabiler beim Treppensteigen. Deine Körperhaltung ist aufrechter. Du schläfst tiefer. Diese kleinen Verschiebungen passieren schneller als du denkst, wenn du das Training konsequent durchziehst. Was in welchem Monat realistisch ist, habe ich im Artikel [Krafttraining bei Frauen: das Vorher-Nachher ohne Märchen](/blog/krafttraining-frauen-vorher-nachher) Monat für Monat aufgeschrieben. Ich sage meinen Klientinnen immer: Vertrau dem Prozess vier Wochen lang, bevor du irgendwas änderst."
       },
       {
         "type": "h2",
@@ -4632,7 +4648,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Krafttraining zuhause funktioniert. Es braucht keine teuren Geräte, kein Studio und keine komplizierte Theorie. Es braucht einen Plan, den du wirklich befolgst, und den Willen, dich Woche für Woche ein bisschen mehr zu fordern. Wenn du unsicher bist, wo du anfangen sollst, oder wenn du nach einigen Wochen merkst, dass du nicht weiterkommst, bin ich für dich da. Ich biete ein kostenloses Erstgespräch an, in dem wir deinen Ausgangspunkt besprechen und schauen, was wirklich zu dir und deinem Alltag passt. Meld dich einfach über fitprimo.de."
+        "text": "Krafttraining zuhause funktioniert. Es braucht keine teuren Geräte, kein Studio und keine komplizierte Theorie. Es braucht einen Plan, den du wirklich befolgst, und den Willen, dich Woche für Woche ein bisschen mehr zu fordern. Wenn du unsicher bist, wo du anfangen sollst, oder wenn du nach einigen Wochen merkst, dass du nicht weiterkommst, bin ich für dich da, auch bei dir zuhause in Köln: Beim [Personal Training](/personal-trainer-koeln) komme ich zu dir und wir trainieren mit dem, was da ist. [Buch dir ein kostenloses Erstgespräch](/contatti), in dem wir deinen Ausgangspunkt besprechen und schauen, was wirklich zu dir und deinem Alltag passt."
       }
     ]
   },
@@ -4784,7 +4800,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Finde eine Umgebung, die dir liegt. Manche Frauen trainieren lieber zu Hause mit Kurzhanteln, manche brauchen ein Fitnessstudio für die Motivation. Beides ist möglich. Reines Hanteltraining reicht für diesen Plan völlig aus: eine Langhantel oder zwei Kurzhanteln, ein Widerstandsband, ein bisschen Platz. Teure Geräte brauchst du nicht."
+        "text": "Finde eine Umgebung, die dir liegt. Manche Frauen trainieren lieber zu Hause mit Kurzhanteln, manche brauchen ein Fitnessstudio für die Motivation. Beides ist möglich. Reines Hanteltraining reicht für diesen Plan völlig aus: eine Langhantel oder zwei Kurzhanteln, ein Widerstandsband, ein bisschen Platz. Teure Geräte brauchst du nicht. Wenn du ganz ohne Studio starten willst, zeigt dir der Artikel [Krafttraining für Frauen zuhause](/blog/krafttraining-frauen-zuhause-muskelaufbau), wie der Einstieg nur mit dem eigenen Körpergewicht aussieht."
       },
       {
         "type": "h2",
@@ -6079,7 +6095,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Mythos Nummer zwei: Cardio ist besser zum Abnehmen. Ausdauertraining verbrennt Kalorien während der Einheit. Krafttraining erhöht deinen Grundumsatz, weil Muskeln auch in Ruhe Energie verbrauchen. Beides hat seinen Platz, aber wer ausschließlich auf dem Laufband steht und die Hanteln ignoriert, verschenkt enormes Potenzial."
+        "text": "Mythos Nummer zwei: Cardio ist besser zum Abnehmen. Ausdauertraining verbrennt Kalorien während der Einheit. Krafttraining erhöht deinen Grundumsatz, weil Muskeln auch in Ruhe Energie verbrauchen. Beides hat seinen Platz, aber wer ausschließlich auf dem Laufband steht und die Hanteln ignoriert, verschenkt enormes Potenzial. Du brauchst dafür übrigens kein Studio: [Krafttraining für Frauen zuhause](/blog/krafttraining-frauen-zuhause-muskelaufbau) funktioniert mit dem eigenen Körpergewicht genauso."
       },
       {
         "type": "p",
