@@ -3582,7 +3582,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Station 2 ist der Sled Push über 50 Meter, in der Open Division der Männer mit 152 kg, bei den Frauen mit 102 kg inklusive Schlitten. Technik: tiefe Position, Arme fast gestreckt, Druck aus den Beinen, kleine schnelle Schritte. Wer sich hoch aufrichtet und aus den Armen drückt, bleibt stehen. Und wer vor dem Sled nicht schon im Training gelernt hat, kontrolliert zu atmen, dem schießt hier der Puls auf ein Niveau, von dem er sich zwei Kilometer lang nicht erholt."
+        "text": "Station 2 ist der Sled Push über 50 Meter, in der Open Division der Männer mit 152 kg, bei den Frauen mit 102 kg inklusive Schlitten. Technik: tiefe Position, Arme fast gestreckt, Druck aus den Beinen, kleine schnelle Schritte; im Detail zerlege ich beide Schlitten-Stationen im Artikel [Sled Push und Sled Pull](/blog/sled-push-sled-pull-training). Wer sich hoch aufrichtet und aus den Armen drückt, bleibt stehen. Und wer vor dem Sled nicht schon im Training gelernt hat, kontrolliert zu atmen, dem schießt hier der Puls auf ein Niveau, von dem er sich zwei Kilometer lang nicht erholt."
       },
       {
         "type": "h2",
@@ -3618,7 +3618,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Dann die Wall Balls. 100 Wiederholungen für die meisten Divisionen, 75 für Frauen in der Open. Kniebeuge, Ball gegen das Ziel, fangen, wiederholen. Nach allem, was davor war, ist das weniger eine Kraftfrage als eine Kopffrage. Wer hier in großen Sätzen denkt, bricht ein. Wer von Anfang an in geplanten Paketen arbeitet, zum Beispiel 10er-Sätze mit drei Atemzügen Pause, kommt durch. Zu den Wall Balls habe ich einen eigenen Technik-Artikel geschrieben, weil an keiner Station so viele Wiederholungen wegen Fehlern nicht gezählt werden."
+        "text": "Dann die Wall Balls. 100 Wiederholungen für die meisten Divisionen, 75 für Frauen in der Open. Kniebeuge, Ball gegen das Ziel, fangen, wiederholen. Nach allem, was davor war, ist das weniger eine Kraftfrage als eine Kopffrage. Wer hier in großen Sätzen denkt, bricht ein. Wer von Anfang an in geplanten Paketen arbeitet, zum Beispiel 10er-Sätze mit drei Atemzügen Pause, kommt durch. Zu den Wall Balls habe ich einen eigenen [Technik-Artikel](/blog/wall-balls-technik-lernen) geschrieben, weil an keiner Station so viele Wiederholungen wegen Fehlern nicht gezählt werden."
       },
       {
         "type": "h2",
@@ -3978,8 +3978,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "wall-balls-technik-lernen",
     "title": "Wall Balls: Technik lernen, Fehler vermeiden, sauber steigern",
-    "metaTitle": "Wall Balls Übung: Technik richtig lernen",
-    "metaDescription": "Wall Balls Übung Schritt für Schritt: saubere Technik, die häufigsten Fehler und eine Progression für Anfänger. Vom Personal Trainer erklärt.",
+    "metaTitle": "Wall Balls: Technik, Fehler, Progression bis 100",
+    "metaDescription": "Wall Balls, die der Judge zählt: tiefe Kniebeuge, Wurf aus den Beinen, Atemrhythmus. Die 4 häufigsten Fehler und die Progression vom Goblet Squat bis 100 Reps.",
     "date": "2026-06-28",
     "readMinutes": 5,
     "excerpt": "Wall Balls sehen simpel aus und werden trotzdem ständig falsch gemacht. So lernst du die Technik von Grund auf und steigerst dich, ohne dass die Form bricht.",
@@ -4040,7 +4040,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Im Hyrox sind Wall Balls die achte und letzte Station. Du kommst mit über acht Kilometern Laufen und sieben Stationen in den Beinen dort an, und dann warten 100 Wiederholungen, bei Frauen in der Open Division 75. An keiner anderen Station sehe ich so viele Menschen stehen, den Ball im Arm, den Blick leer. Nicht weil ihnen die Kraft fehlt, sondern weil sie ohne Plan angefangen haben. Große Sätze am Anfang, Einbruch bei 40, und die letzten 30 Wiederholungen werden einzeln erkämpft."
+        "text": "Im Hyrox sind Wall Balls die achte und letzte der [acht Stationen](/blog/hyrox-uebungen-erklaert-technik). Du kommst mit über acht Kilometern Laufen und sieben Stationen in den Beinen dort an, und dann warten 100 Wiederholungen, bei Frauen in der Open Division 75. An keiner anderen Station sehe ich so viele Menschen stehen, den Ball im Arm, den Blick leer. Nicht weil ihnen die Kraft fehlt, sondern weil sie ohne Plan angefangen haben. Große Sätze am Anfang, Einbruch bei 40, und die letzten 30 Wiederholungen werden einzeln erkämpft."
       },
       {
         "type": "p",
@@ -4048,15 +4048,15 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du willst wissen, ob deine Kniebeuge tief genug ist und dein Wurf aus den Beinen kommt? Das sehe ich in fünf Minuten. Komm auf eine kostenlose Erstberatung vorbei, bring nichts mit außer Sportsachen, und du gehst mit zwei oder drei Korrekturen raus, die sofort etwas verändern."
+        "text": "Du willst wissen, ob deine Kniebeuge tief genug ist und dein Wurf aus den Beinen kommt? Das sehe ich in fünf Minuten. Komm auf eine [kostenlose Erstberatung](/contatti) vorbei, bring nichts mit außer Sportsachen, und du gehst mit zwei oder drei Korrekturen raus, die sofort etwas verändern. Und wenn du grundsätzlich an Explosivität und sauberer Kniebeuge arbeiten willst, ist das [Athletiktraining in Köln](/leistungen/athletiktraining) der richtige Rahmen dafür."
       }
     ]
   },
   {
     "slug": "sled-push-sled-pull-training",
     "title": "Sled Push und Sled Pull: Technik, Kraftaufbau und Alternativen",
-    "metaTitle": "Sled Push Training: Technik und Alternativen",
-    "metaDescription": "Sled Push und Sled Pull richtig trainieren: Technik im Detail, Kraftaufbau für die Beine und Alternativen, wenn dein Gym keinen Schlitten hat.",
+    "metaTitle": "Sled Push und Sled Pull: Technik, Kraft, Pacing",
+    "metaDescription": "Sled Push mit 152 kg, ohne dass der Puls explodiert: die Position, die funktioniert, der Kraftaufbau dahinter und Alternativen, wenn dein Gym keinen Schlitten hat.",
     "date": "2026-06-28",
     "readMinutes": 6,
     "excerpt": "Der Schlitten ist die Station, die Hyrox-Rennen kippen lässt. So schiebst und ziehst du technisch sauber, baust die nötige Kraft auf und trainierst auch ohne Sled.",
@@ -4071,7 +4071,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ich sage meinen Kunden in Köln immer denselben Satz: Der Sled gewinnt dir kein Rennen, aber er kann dir eines ruinieren. Die 50 Meter Push dauern bei den meisten Einsteigern zwei bis vier Minuten. Das klingt kurz. Aber kein anderes Element im Hyrox treibt den Puls so schnell und so hoch, und wer hier über seinem Limit arbeitet, läuft die nächsten zwei Kilometer im Notprogramm. Der Schaden entsteht also nicht am Schlitten selbst, sondern in allem, was danach kommt."
+        "text": "Ich sage meinen Kunden in Köln immer denselben Satz: Der Sled gewinnt dir kein Rennen, aber er kann dir eines ruinieren. Die 50 Meter Push dauern bei den meisten Einsteigern zwei bis vier Minuten. Das klingt kurz. Aber kein anderes Element im Hyrox treibt den Puls so schnell und so hoch, und wer hier über seinem Limit arbeitet, läuft die nächsten zwei Kilometer im Notprogramm. Der Schaden entsteht also nicht am Schlitten selbst, sondern in allem, was danach kommt. Wo die beiden Sled-Stationen im Rennen liegen und was an den anderen sechs zählt, steht in der Übersicht [aller acht Hyrox-Stationen](/blog/hyrox-uebungen-erklaert-technik)."
       },
       {
         "type": "p",
@@ -4137,7 +4137,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Falls du in Köln bist und den Sled einmal unter Anleitung testen willst: Meld dich einfach für ein kostenloses Erstgespräch. Wir schauen uns in 30 bis 45 Minuten deine Ausgangslage an, und wenn es passt, steht der Schlitten beim ersten Training bereit."
+        "text": "Falls du in Köln bist und den Sled einmal unter Anleitung testen willst: Meld dich einfach für ein [kostenloses Erstgespräch](/contatti). Wir schauen uns in 30 bis 45 Minuten deine Ausgangslage an, und wenn es passt, steht der Schlitten beim ersten Training bereit. Beinkraft, Antritt und Rumpfstabilität bauen wir im [Athletiktraining in Köln](/leistungen/athletiktraining) gezielt auf."
       }
     ]
   },
@@ -4254,11 +4254,11 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Gehen wir sie durch. SkiErg: Der beste Ersatz ohne Gerät sind Medizinball-Slams und Band-Pulldowns in hoher Wiederholungszahl, kombiniert mit Bergaufläufen für das Herz-Kreislauf-Profil. Sled Push: Autoschieben auf leerem Parkplatz, Reifenziehen oder steile Bergsprints mit Vorlage. Sled Pull: Reifen oder Sandsack am Seil heranziehen, alternativ schwere Rows mit dem Band in tiefem Stand. Rudern: fehlt ersatzlos als Gerät, das Profil deckst du mit zügigen Läufen plus Zugübungen ab."
+        "text": "Gehen wir sie durch. SkiErg: Der beste Ersatz ohne Gerät sind Medizinball-Slams und Band-Pulldowns in hoher Wiederholungszahl, kombiniert mit Bergaufläufen für das Herz-Kreislauf-Profil. Sled Push: Autoschieben auf leerem Parkplatz, Reifenziehen oder steile Bergsprints mit Vorlage; mehr Ersatzvarianten und die Technik am echten Schlitten stehen im Artikel [Sled Push und Sled Pull](/blog/sled-push-sled-pull-training). Sled Pull: Reifen oder Sandsack am Seil heranziehen, alternativ schwere Rows mit dem Band in tiefem Stand. Rudern: fehlt ersatzlos als Gerät, das Profil deckst du mit zügigen Läufen plus Zugübungen ab."
       },
       {
         "type": "p",
-        "text": "Der Rest ist draußen sogar besser aufgehoben als drinnen. Burpee Broad Jumps brauchen nur eine Wiese, 40 Meter hin und zurück. Farmers Carry machst du mit zwei gefüllten Kanistern oder Kurzhanteln, falls vorhanden. Sandbag Lunges funktionieren mit deinem Sandsack eins zu eins wie im Wettkampf. Und Wall Balls wirfst du gegen eine Betonwand, ein Brückenpfeiler tut es auch, markier dir die Zielhöhe mit Kreide auf 2,70 oder 3 Meter."
+        "text": "Der Rest ist draußen sogar besser aufgehoben als drinnen. Burpee Broad Jumps brauchen nur eine Wiese, 40 Meter hin und zurück. Farmers Carry machst du mit zwei gefüllten Kanistern oder Kurzhanteln, falls vorhanden. Sandbag Lunges funktionieren mit deinem Sandsack eins zu eins wie im Wettkampf. Und Wall Balls wirfst du gegen eine Betonwand, ein Brückenpfeiler tut es auch, markier dir die Zielhöhe mit Kreide auf 2,70 oder 3 Meter; die [saubere Wall-Ball-Technik](/blog/wall-balls-technik-lernen) übst du am besten, bevor du die Wiederholungen hochschraubst."
       },
       {
         "type": "h2",
@@ -6749,8 +6749,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "schlafprobleme-wechseljahre-sport",
     "title": "Schlafprobleme in den Wechseljahren: Was Sport wirklich bringt",
-    "metaTitle": "Wechseljahre und Schlaf: Was Training bewirken kann",
-    "metaDescription": "Schlafprobleme in den Wechseljahren? Richtig getimtes Training verbessert deinen Schlaf messbar. Welche Einheiten helfen und welche Abendroutine wirkt.",
+    "metaTitle": "Schlafprobleme in den Wechseljahren: Sport hilft so",
+    "metaDescription": "Training verkürzt die Einschlafzeit und vertieft den Schlaf, auch in den Wechseljahren. Welche Einheiten wann helfen, welche stören und die Abendroutine dazu.",
     "date": "2026-07-07",
     "readMinutes": 6,
     "excerpt": "Nachts wach, morgens erledigt: Schlafprobleme gehören zu den häufigsten Wechseljahresbeschwerden. Wie Training deinen Schlaf verbessert und worauf es beim Timing ankommt.",
@@ -6807,7 +6807,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Schlechter Schlaf macht müde, Müdigkeit killt das Training, fehlendes Training verschlechtert den Schlaf. Diesen Kreislauf kannst du an der Bewegungsstelle aufbrechen, denn die ist am besten planbar. Fang klein an: drei feste Einheiten pro Woche, davon zwei Kraft, dazu der Abendspaziergang. Wenn du möchtest, dass jemand dieses Puzzle für dich zusammensetzt und an deinen Kalender anpasst, dann nutz mein kostenloses Kennenlerngespräch. In 30 bis 45 Minuten sortieren wir gemeinsam, was bei dir gerade Schlaf und Energie frisst, und du gehst mit zwei oder drei konkreten Änderungen raus, die du sofort umsetzen kannst."
+        "text": "Schlechter Schlaf macht müde, Müdigkeit killt das Training, fehlendes Training verschlechtert den Schlaf. Diesen Kreislauf kannst du an der Bewegungsstelle aufbrechen, denn die ist am besten planbar. Fang klein an: drei feste Einheiten pro Woche, davon zwei Kraft, dazu der Abendspaziergang. Wie ein solcher Einstieg ins Krafttraining konkret aussieht, zeigt der [Trainingsplan für Frauen ab 50](/blog/krafttraining-frauen-ab-50-trainingsplan). Wenn du möchtest, dass jemand dieses Puzzle für dich zusammensetzt und an deinen Kalender anpasst, dann nutz mein [kostenloses Kennenlerngespräch](/contatti). In 30 bis 45 Minuten sortieren wir gemeinsam, was bei dir gerade Schlaf und Energie frisst, und du gehst mit zwei oder drei konkreten Änderungen raus, die du sofort umsetzen kannst, beim [Personal Training in Köln](/personal-trainer-koeln) oder online."
       }
     ]
   },
@@ -8409,8 +8409,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "body-recomposition-guide",
     "title": "Body Recomposition: Gleichzeitig Fett verlieren und Muskeln aufbauen",
-    "metaTitle": "Body Recomposition: Der komplette Guide",
-    "metaDescription": "Body Recomposition erklärt: Für wen gleichzeitiger Fettabbau und Muskelaufbau funktioniert, wie du Training und Eiweiß einstellst und woran du Fortschritt misst.",
+    "metaTitle": "Body Recomposition: für wen sie klappt und wie",
+    "metaDescription": "Gleichzeitig Fett verlieren und Muskeln aufbauen klappt bei Anfängern, Wiedereinsteigern und Männern mit höherem Körperfett. Training, Eiweiß, Defizit: der Plan.",
     "date": "2026-07-09",
     "readMinutes": 8,
     "excerpt": "Fett verlieren und gleichzeitig Muskeln aufbauen gilt vielen als unmöglich. Für bestimmte Gruppen ist es sogar der Normalfall. Der Guide zeigt dir, ob du dazugehörst und wie es geht.",
@@ -8447,7 +8447,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die Zielgruppe, mit der ich am meisten arbeite, Männer zwischen 40 und 60 mit Bürojob und 15 bis 25 Kilo zu viel, ist für Recomposition praktisch der Idealfall. Untrainiert genug für schnelle Muskelreaktion, genug Reserven für den Fettabbau."
+        "text": "Die Zielgruppe, mit der ich am meisten arbeite, Männer zwischen 40 und 60 mit Bürojob und 15 bis 25 Kilo zu viel, ist für Recomposition praktisch der Idealfall. Untrainiert genug für schnelle Muskelreaktion, genug Reserven für den Fettabbau. Der zweite Idealfall ist der [Skinny-Fat-Körper](/blog/skinny-fat-training-ernaehrung): normales Gewicht, wenig Muskeln, weiche Mitte. Auch hier führt der Weg über Aufbauen statt Abnehmen."
       },
       {
         "type": "h2",
@@ -8463,7 +8463,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Kalorien stellst du auf Erhaltung oder maximal 200 bis 300 kcal darunter ein. Das große Defizit einer klassischen Diät wäre hier kontraproduktiv, es würgt den Muskelaufbau ab. Der nicht verhandelbare Teil ist das Eiweiß: 1,8 bis 2,2 g pro kg Körpergewicht, jeden Tag, verteilt auf drei bis fünf Mahlzeiten. Das ist für die meisten Männer die größte Umstellung, denn 180 Gramm Eiweiß isst niemand aus Versehen. Magerquark, Eier, Hähnchen, Fisch, Skyr, Linsen, notfalls ein Shake: Womit du sie erreichst, ist zweitrangig, dass du sie erreichst, nicht."
+        "text": "Kalorien stellst du auf Erhaltung oder maximal 200 bis 300 kcal darunter ein. Das große Defizit einer klassischen Diät wäre hier kontraproduktiv, es würgt den Muskelaufbau ab. Der nicht verhandelbare Teil ist das Eiweiß: 1,8 bis 2,2 g pro kg Körpergewicht, jeden Tag, verteilt auf drei bis fünf Mahlzeiten. Das ist für die meisten Männer die größte Umstellung, denn 180 Gramm Eiweiß isst niemand aus Versehen. Magerquark, Eier, Hähnchen, Fisch, Skyr, Linsen, notfalls ein Shake: Womit du sie erreichst, ist zweitrangig, dass du sie erreichst, nicht. Deine persönliche Zielzahl rechnest du dir im [Proteinbedarf-Guide](/blog/proteinbedarf-berechnen-guide) in zwei Minuten aus."
       },
       {
         "type": "h2",
@@ -8471,7 +8471,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Das Frustrierende und gleichzeitig Schöne an Recomposition: Die Waage zeigt monatelang fast dieselbe Zahl, während sich dein Körper komplett umbaut. Ein Kilo Muskel kommt dazu, ein Kilo Fett verschwindet, die Waage sagt null. Deshalb misst du anders: Bauchumfang alle zwei Wochen, Fotos von vorn und von der Seite alle vier Wochen bei gleichem Licht, Trainingsgewichte jede Einheit, und wie die Hosen sitzen. Wenn der Bauchumfang sinkt, die Gewichte steigen und das Hemd an den Schultern enger wird, läuft deine Recomposition exakt nach Plan, egal was die Waage behauptet."
+        "text": "Das Frustrierende und gleichzeitig Schöne an Recomposition: Die Waage zeigt monatelang fast dieselbe Zahl, während sich dein Körper komplett umbaut. Ein Kilo Muskel kommt dazu, ein Kilo Fett verschwindet, die Waage sagt null. Deshalb misst du anders: Bauchumfang alle zwei Wochen, Fotos von vorn und von der Seite alle vier Wochen bei gleichem Licht, Trainingsgewichte jede Einheit, und wie die Hosen sitzen. Wenn der Bauchumfang sinkt, die Gewichte steigen und das Hemd an den Schultern enger wird, läuft deine Recomposition exakt nach Plan, egal was die Waage behauptet. Falls du gerade frustriert auf eine stillstehende Waage schaust, lies auch [Gewicht stagniert trotz Training](/blog/gewicht-stagniert-trotz-training): Grund Nummer eins dort ist genau diese versteckte Recomposition."
       },
       {
         "type": "p",
@@ -8479,7 +8479,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du unsicher bist, ob Recomposition für deine Ausgangslage der richtige Weg ist oder ob eine klassische Diätphase mehr Sinn ergäbe: Genau solche Fragen klären wir in meiner kostenlosen Erstberatung. 30 bis 45 Minuten am Telefon oder bei mir in Köln, du bekommst eine klare Empfehlung und entscheidest dann in Ruhe, wie es weitergeht."
+        "text": "Wenn du unsicher bist, ob Recomposition für deine Ausgangslage der richtige Weg ist oder ob eine klassische Diätphase mehr Sinn ergäbe: Genau solche Fragen klären wir in meiner [kostenlosen Erstberatung](/contatti). 30 bis 45 Minuten am Telefon oder bei mir beim [Personal Training in Köln](/personal-trainer-koeln), du bekommst eine klare Empfehlung und entscheidest dann in Ruhe, wie es weitergeht. Für den Eiweiß- und Kalorienteil schaut auf Wunsch Natalie von der [Ernährungsberatung](/leistungen/ernaehrungsberatung) mit drauf."
       }
     ]
   },
@@ -8540,7 +8540,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Was hier passiert, ist eine klassische Body Recomposition, und Skinny-Fat-Körper sind dafür ideale Kandidaten. Als Anfänger reagiert deine Muskulatur stark auf die ersten strukturierten Reize, während der leicht erhöhte Fettanteil als Energiereserve dient. Die ersten sechs Monate sind das Fenster, in dem du gleichzeitig aufbauen und straffen kannst, so leicht wie nie wieder danach. In der Praxis sieht die Woche so aus: Montag, Mittwoch, Freitag je 45 bis 60 Minuten Ganzkörpertraining mit je einer Übung aus Beugen, Drücken, Ziehen und Heben, drei Arbeitssätze pro Übung. An den freien Tagen Schritte sammeln, mehr nicht. Cardio-Marathons sind in dieser Phase kontraproduktiv, sie fressen Regeneration, die der Muskelaufbau braucht."
+        "text": "Was hier passiert, ist eine klassische [Body Recomposition](/blog/body-recomposition-guide), und Skinny-Fat-Körper sind dafür ideale Kandidaten. Als Anfänger reagiert deine Muskulatur stark auf die ersten strukturierten Reize, während der leicht erhöhte Fettanteil als Energiereserve dient. Die ersten sechs Monate sind das Fenster, in dem du gleichzeitig aufbauen und straffen kannst, so leicht wie nie wieder danach. In der Praxis sieht die Woche so aus: Montag, Mittwoch, Freitag je 45 bis 60 Minuten Ganzkörpertraining mit je einer Übung aus Beugen, Drücken, Ziehen und Heben, drei Arbeitssätze pro Übung. An den freien Tagen Schritte sammeln, mehr nicht. Cardio-Marathons sind in dieser Phase kontraproduktiv, sie fressen Regeneration, die der Muskelaufbau braucht."
       },
       {
         "type": "h2",
@@ -8583,7 +8583,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Der wichtigste zuerst, weil ihn fast niemand auf dem Schirm hat. Wenn du neu oder nach langer Pause mit Krafttraining angefangen hast, baust du in den ersten Monaten Muskeln auf, während du gleichzeitig Fett verlierst. Zwei Kilo Muskeln rauf, zwei Kilo Fett runter: Die Waage zeigt exakt dieselbe Zahl, dein Körper hat sich trotzdem massiv verändert. So prüfst du das: Miss deinen Bauchumfang und vergleich alte Fotos. Sitzt die Hose lockerer, obwohl das Gewicht steht? Dann stagnierst du nicht, du misst nur falsch. In diesem Fall änderst du nichts am Plan, nur am Messinstrument."
+        "text": "Der wichtigste zuerst, weil ihn fast niemand auf dem Schirm hat. Wenn du neu oder nach langer Pause mit Krafttraining angefangen hast, baust du in den ersten Monaten Muskeln auf, während du gleichzeitig Fett verlierst. Zwei Kilo Muskeln rauf, zwei Kilo Fett runter: Die Waage zeigt exakt dieselbe Zahl, dein Körper hat sich trotzdem massiv verändert. So prüfst du das: Miss deinen Bauchumfang und vergleich alte Fotos. Sitzt die Hose lockerer, obwohl das Gewicht steht? Dann stagnierst du nicht, du misst nur falsch. In diesem Fall änderst du nichts am Plan, nur am Messinstrument. Wie dieser doppelte Umbau funktioniert und für wen er realistisch ist, steht im [Body-Recomposition-Guide](/blog/body-recomposition-guide)."
       },
       {
         "type": "h2",

@@ -5121,7 +5121,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Schlaf ist Ernährung für die Muskeln. Klingt komisch, stimmt aber. Wer dauerhaft schlecht oder zu wenig schläft, stört aktiv seinen Aufbau. Sieben bis acht Stunden pro Nacht sind kein Luxus, sondern Teil deines Trainingsplans."
+        "text": "Schlaf ist Ernährung für die Muskeln. Klingt komisch, stimmt aber. Wer dauerhaft schlecht oder zu wenig schläft, stört aktiv seinen Aufbau. Sieben bis acht Stunden pro Nacht sind kein Luxus, sondern Teil deines Trainingsplans. Wenn die Wechseljahre dir gerade die Nächte zerlegen, lies dazu [Schlafprobleme in den Wechseljahren: Was Sport wirklich bringt](/blog/schlafprobleme-wechseljahre-sport)."
       },
       {
         "type": "h2",
@@ -6576,7 +6576,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wechseljahresbeschwerden wie Hitzewallungen und nächtliches Schwitzen erschweren erholsamen Schlaf zusätzlich. Das ist eine reale Herausforderung. Konkrete Maßnahmen wie ein kühles Schlafzimmer, ein fester Einschlafrituall und das Vermeiden von Alkohol am Abend können helfen. Wenn die Beschwerden stark sind, ist der Weg zur Gynäkologin keine Niederlage, sondern Eigenverantwortung."
+        "text": "Wechseljahresbeschwerden wie Hitzewallungen und nächtliches Schwitzen erschweren erholsamen Schlaf zusätzlich. Das ist eine reale Herausforderung. Konkrete Maßnahmen wie ein kühles Schlafzimmer, ein fester Einschlafrituall und das Vermeiden von Alkohol am Abend können helfen; was richtig getimtes Training zusätzlich bewirkt, steht im Artikel [Schlafprobleme in den Wechseljahren](/blog/schlafprobleme-wechseljahre-sport). Wenn die Beschwerden stark sind, ist der Weg zur Gynäkologin keine Niederlage, sondern Eigenverantwortung."
       },
       {
         "type": "p",
