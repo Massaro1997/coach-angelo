@@ -558,7 +558,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Miss drei Morgen hintereinander deinen Ruhepuls. Rechne deine HFmax mit der Tanaka-Formel. Bestimme deine Zone 2 über Karvonen. Und dann geh raus und prüfe das Ganze mit dem Talk-Test. Wenn die Zahlen und dein Gefühl zusammenpassen, hast du deinen Bereich gefunden. Wenn nicht, justierst du nach. Mehr Wissenschaft brauchst du für den Anfang nicht."
+        "text": "Miss drei Morgen hintereinander deinen Ruhepuls. Rechne deine HFmax mit der Tanaka-Formel. Bestimme deine Zone 2 über Karvonen. Und dann geh raus und prüfe das Ganze mit dem Talk-Test. Wenn die Zahlen und dein Gefühl zusammenpassen, hast du deinen Bereich gefunden. Wenn nicht, justierst du nach. Mehr Wissenschaft brauchst du für den Anfang nicht. Und wie viel hartes Training neben dem lockeren überhaupt sinnvoll ist, klärt der Vergleich [HIIT oder Zone 2](/blog/hiit-oder-zone-2-was-besser)."
       },
       {
         "type": "p",
@@ -2816,12 +2816,16 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "hiit-oder-zone-2-was-besser",
     "title": "HIIT oder Zone 2: Was ist besser für dein Ziel?",
-    "metaTitle": "HIIT oder Zone 2 Training: Was ist besser für dich?",
-    "metaDescription": "HIIT oder Zone 2? Ich vergleiche beide Methoden ehrlich: Fettabbau, Ausdauer, Zeitaufwand, Stress. Und sage dir, welche Mischung zu welchem Ziel passt.",
+    "metaTitle": "HIIT oder Zone 2? Die ehrliche Antwort nach Ziel",
+    "metaDescription": "Die kurze Antwort: 80 Prozent locker, 20 Prozent hart. Wann HIIT gewinnt, wann Zone 2, und welche Mischung bei Stress, wenig Zeit oder Abnehmen passt.",
     "date": "2026-06-23",
     "readMinutes": 7,
     "excerpt": "HIIT-Fans nennen Zone 2 Zeitverschwendung, Zone-2-Jünger halten HIIT für Cortisol-Selbstzerstörung. Beide Lager liegen falsch. Ich erkläre dir, was beide Methoden wirklich können, und warum die Antwort für 90 Prozent der Berufstätigen eine klare Mischung ist.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: Für die meisten Berufstätigen ist die Mischung besser als jedes Lager, nämlich rund 80 Prozent lockeres Zone-2-Training und 20 Prozent intensive Intervalle. HIIT gewinnt, wenn du erholt bist und maximal 90 Minuten pro Woche hast. Zone 2 gewinnt, wenn Job, Schlaf oder Stress dich schon genug fordern. Fürs Abnehmen ist es fast egal, da entscheidet die Ernährung. Warum das so ist und wie deine persönliche Mischung aussieht, liest du hier."
+      },
       {
         "type": "p",
         "text": "Kaum ein Thema spaltet die Fitnesswelt gerade so wie dieses. Auf der einen Seite das Versprechen: 15 Minuten HIIT ersetzen eine Stunde Joggen. Auf der anderen Seite der Zone-2-Trend mit seinem Mantra vom langsamen Laufen. Ich arbeite seit über 20 Jahren mit Berufstätigen in Köln, und ich benutze beide Werkzeuge. Die eigentliche Frage ist nicht, welches besser ist. Die Frage ist: besser wofür, für wen und in welcher Lebensphase."
@@ -2844,7 +2848,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Zone 2 ist das lockere Ausdauertraining bei etwa 60 bis 70 Prozent der maximalen Herzfrequenz, im Plaudertempo. Es baut die aerobe Basis: mehr Mitochondrien, besserer Fettstoffwechsel, ein effizienteres Herz, ein niedrigerer Ruhepuls. Es stresst den Körper kaum, du kannst es fast täglich machen, und es verbessert nachweislich die Erholungsfähigkeit. Für Menschen mit stressigem Job ist es oft sogar ein Stressabbau statt einer zusätzlichen Belastung. Der Nachteil ist ehrlich benannt: Es kostet Zeit. Unter 30 Minuten pro Einheit passiert wenig, richtig wirksam wird es ab 45 bis 60 Minuten und mehreren Einheiten pro Woche. Und es verbessert dein oberes Leistungslimit nur begrenzt: Wer nie intensiv trainiert, bleibt beim Endspurt und am Berg schwach."
+        "text": "Zone 2 ist das lockere Ausdauertraining bei etwa 60 bis 70 Prozent der maximalen Herzfrequenz, im Plaudertempo. Wie du deinen persönlichen Zone-2-Puls bestimmst, habe ich im Artikel [Zone 2 Puls berechnen](/blog/zone-2-training-puls-berechnen) Schritt für Schritt aufgeschrieben. Es baut die aerobe Basis: mehr Mitochondrien, besserer Fettstoffwechsel, ein effizienteres Herz, ein niedrigerer Ruhepuls. Es stresst den Körper kaum, du kannst es fast täglich machen, und es verbessert nachweislich die Erholungsfähigkeit. Für Menschen mit stressigem Job ist es oft sogar ein Stressabbau statt einer zusätzlichen Belastung. Der Nachteil ist ehrlich benannt: Es kostet Zeit. Unter 30 Minuten pro Einheit passiert wenig, richtig wirksam wird es ab 45 bis 60 Minuten und mehreren Einheiten pro Woche. Und es verbessert dein oberes Leistungslimit nur begrenzt: Wer nie intensiv trainiert, bleibt beim Endspurt und am Berg schwach."
       },
       {
         "type": "h2",
@@ -2886,7 +2890,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du unsicher bist, wie deine persönliche Mischung aussehen sollte, bring einfach deine Woche mit ins kostenlose Erstgespräch: Job, Schlaf, bisheriges Training. Daraus lese ich dir ziemlich genau heraus, wo dein Engpass liegt und welche Kombination dich wirklich weiterbringt. Kostet nichts außer einer Stunde deiner Zeit."
+        "text": "Wie du Kraft, Zone 2 und eine Intervalleinheit in eine volle Arbeitswoche packst, zeigt dir der [Trainingsplan für Berufstätige mit 3 Stunden pro Woche](/blog/trainingsplan-berufstaetige-wenig-zeit). Und wenn du unsicher bist, wie deine persönliche Mischung aussehen sollte, bring einfach deine Woche mit ins [kostenlose Erstgespräch](/contatti): Job, Schlaf, bisheriges Training. Daraus lese ich dir ziemlich genau heraus, wo dein Engpass liegt und welche Kombination dich wirklich weiterbringt. Kostet nichts außer einer Stunde deiner Zeit."
       }
     ]
   },
@@ -2981,12 +2985,16 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "muskelaufbau-ab-45-realistisch",
     "title": "Muskelaufbau ab 45: Was wirklich noch geht und was du vergessen kannst",
-    "metaTitle": "Muskelaufbau ab 45: realistische Erwartungen",
-    "metaDescription": "Wie viel Muskelaufbau ist ab 45 realistisch? Ehrliche Zahlen, typische Fehler und was bei meinen Klienten funktioniert. Von Personal Trainer Angelo, Köln.",
+    "metaTitle": "Muskelaufbau ab 45: diese Zahlen sind realistisch",
+    "metaDescription": "3 bis 6 Kilo Muskeln im ersten Jahr sind ab 45 drin, mit drei Einheiten pro Woche. Die ehrlichen Zahlen, die fünf Regeln und der Fahrplan meiner Ü45-Klienten.",
     "date": "2026-06-25",
     "readMinutes": 7,
     "excerpt": "Mit 45 noch Muskeln aufbauen? Definitiv ja, ich sehe es jede Woche bei meinen Klienten. Aber die Instagram-Erwartungen kannst du vergessen. Hier sind die ehrlichen Zahlen und die Regeln, die ab der Lebensmitte wirklich zählen.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: Ja, Muskelaufbau funktioniert mit 45 noch, und zwar deutlich besser, als die meisten glauben. Realistisch sind 3 bis 6 Kilo Muskelmasse im ersten konsequenten Trainingsjahr, mit drei Krafteinheiten pro Woche, 1,6 bis 2 Gramm Eiweiß pro Kilo Körpergewicht und mehr Respekt vor der Regeneration als mit 25. Was du vergessen kannst: 10 Kilo in sechs Monaten. Hier sind die ehrlichen Zahlen und die Regeln, die ab der Lebensmitte wirklich zählen."
+      },
       {
         "type": "p",
         "text": "Vor drei Jahren stand ein Mann bei mir im Studio, 47 Jahre, ehemaliger Fußballer, seit 15 Jahren nur noch Schreibtisch. Sein erster Satz: Angelo, sei ehrlich, lohnt sich das überhaupt noch? Heute drückt er 90 Kilo auf der Bank, hat sichtbar breitere Schultern und trägt wieder die Jeansgröße von damals. Also ja, es lohnt sich. Aber lass uns über die realistische Version sprechen, nicht über die aus der Werbung."
@@ -3051,7 +3059,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Monat eins und zwei: Technik lernen, Gelenke und Sehnen an die Belastung gewöhnen, moderate Gewichte. Monat drei bis sechs: systematisch Last steigern, hier kommen die ersten sichtbaren Veränderungen. Ab Monat sechs: Feintuning bei Ernährung und Volumen, hier trennt sich Fortschritt von Stillstand. Klingt unspektakulär, und genau deshalb funktioniert es. Muskelaufbau ab 45 ist ein Handwerk, kein Hack."
+        "text": "Monat eins und zwei: Technik lernen, Gelenke und Sehnen an die Belastung gewöhnen, moderate Gewichte. Monat drei bis sechs: systematisch Last steigern, hier kommen die ersten sichtbaren Veränderungen. Ab Monat sechs: Feintuning bei Ernährung und Volumen, hier trennt sich Fortschritt von Stillstand. Klingt unspektakulär, und genau deshalb funktioniert es. Muskelaufbau ab 45 ist ein Handwerk, kein Hack. Einen konkreten Wochenplan mit Übungen findest du im Artikel [Muskelaufbau ab 40: Trainingsplan und Tipps](/blog/muskelaufbau-ab-40-mann-trainingsplan-tipps), der Plan trägt auch mit 45 oder 50. Und falls du dich fragst, welche Rolle das Testosteron dabei spielt: [Testosteron und Krafttraining ab 40](/blog/testosteron-krafttraining-mann-ab-40) räumt mit den Ausreden auf."
       },
       {
         "type": "h2",
@@ -3063,7 +3071,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du wissen willst, wie so ein Fahrplan konkret für dich aussieht, mit deinem Körper, deinem Zeitbudget und deiner Vorgeschichte, dann lass uns einfach mal sprechen. Das Erstgespräch bei mir ist kostenlos und unverbindlich, und du gehst in jedem Fall mit einer ehrlichen Einschätzung nach Hause."
+        "text": "Wenn du wissen willst, wie so ein Fahrplan konkret für dich aussieht, mit deinem Körper, deinem Zeitbudget und deiner Vorgeschichte, dann lass uns einfach mal sprechen. Das [Erstgespräch bei mir](/contatti) ist kostenlos und unverbindlich, und du gehst in jedem Fall mit einer ehrlichen Einschätzung nach Hause. Wie das [Personal Training in Köln](/personal-trainer-koeln) abläuft und was es kostet, steht dort schwarz auf weiß."
       }
     ]
   },
@@ -6593,7 +6601,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Hebel eins: Schlaf vor Diät. Wer übermüdet ein Kaloriendefizit fährt, kämpft gegen den eigenen Hunger mit gezogener Handbremse. Erst die Nächte stabilisieren, dann die Ernährung anfassen. In der Praxis heißt das: feste Schlafenszeit, sieben Stunden Minimum als Ziel, Koffein-Deadline am frühen Nachmittag."
+        "text": "Hebel eins: Schlaf vor Diät. Wer übermüdet ein Kaloriendefizit fährt, kämpft gegen den eigenen Hunger mit gezogener Handbremse. Erst die Nächte stabilisieren, dann die Ernährung anfassen. In der Praxis heißt das: feste Schlafenszeit, sieben Stunden Minimum als Ziel, Koffein-Deadline am frühen Nachmittag. Wie du diese Hebel in eine volle Arbeitswoche baust, zeigt der Artikel [Abnehmen trotz Stress im Job](/blog/abnehmen-trotz-stress-job)."
       },
       {
         "type": "p",
@@ -7097,7 +7105,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Bei Männern mit Übergewicht und niedrig-normalen Werten zeigen Interventionsstudien, dass regelmäßiges Training plus Fettabbau den Testosteronspiegel deutlich anheben kann. Nicht auf das Niveau eines 25-Jährigen, das verspreche ich dir nicht. Aber genug, dass du den Unterschied im Alltag spürst: Antrieb, Stimmung, Libido, Regeneration."
+        "text": "Bei Männern mit Übergewicht und niedrig-normalen Werten zeigen Interventionsstudien, dass regelmäßiges Training plus Fettabbau den Testosteronspiegel deutlich anheben kann. Nicht auf das Niveau eines 25-Jährigen, das verspreche ich dir nicht. Aber genug, dass du den Unterschied im Alltag spürst: Antrieb, Stimmung, Libido, Regeneration. Und was beim Muskelaufbau selbst in deinem Alter realistisch ist, habe ich in [Muskelaufbau ab 45: die ehrlichen Zahlen](/blog/muskelaufbau-ab-45-realistisch) aufgeschrieben."
       },
       {
         "type": "h2",
@@ -8370,7 +8378,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ehrlichkeit gehört dazu: Es gibt Situationen, in denen der Feierabend-Slot strukturell verliert. Wenn du regelmäßig erst nach 20 Uhr rauskommst und um 6 Uhr aufstehst, frisst spätes intensives Training in deinen ohnehin knappen Schlaf, und Schlaf schlägt Training, immer. Dann ist die Morgeneinheit vor der Arbeit oder die Mittagspause die bessere Baustelle, auch wenn beides erst mal unbequem klingt. Und wenn du seit Wochen auf dem Zahnfleisch gehst, jede Nacht unter sechs Stunden, dann ist die richtige Trainingsentscheidung diese Woche: Spaziergänge und früher ins Bett. Das sage ich dir als Trainer, der davon lebt, dass Leute trainieren."
+        "text": "Ehrlichkeit gehört dazu: Es gibt Situationen, in denen der Feierabend-Slot strukturell verliert. Wenn du regelmäßig erst nach 20 Uhr rauskommst und um 6 Uhr aufstehst, frisst spätes intensives Training in deinen ohnehin knappen Schlaf, und Schlaf schlägt Training, immer. Dann ist die Morgeneinheit vor der Arbeit oder die Mittagspause die bessere Baustelle, auch wenn beides erst mal unbequem klingt. Oder du nimmst abends bewusst die lockere Variante: Welche Intensität wann die richtige ist, sortiert der Vergleich [HIIT oder Zone 2](/blog/hiit-oder-zone-2-was-besser). Und wenn du seit Wochen auf dem Zahnfleisch gehst, jede Nacht unter sechs Stunden, dann ist die richtige Trainingsentscheidung diese Woche: Spaziergänge und früher ins Bett. Das sage ich dir als Trainer, der davon lebt, dass Leute trainieren."
       },
       {
         "type": "h2",

@@ -2923,12 +2923,16 @@ export const blogPosts: BlogPost[] = [
   {
     "slug": "abnehmen-trotz-stress-job",
     "title": "Abnehmen trotz Stress im Job: So klappt es auch mit Vollzeitstelle",
-    "metaTitle": "Abnehmen trotz Stress im Job: So klappts",
-    "metaDescription": "Vollzeitstelle, Zeitdruck, Heißhunger: Wie du trotzdem abnimmst. Angelo, Personal Trainer in Köln, zeigt dir konkrete Strategien für den Alltag.",
+    "metaTitle": "Abnehmen trotz Stress im Job: der Plan, der hält",
+    "metaDescription": "Weniger Entscheidungen statt mehr Disziplin: feste Mahlzeiten, 3x30 Minuten Krafttraining, Schlaf verteidigen. So nimmst du trotz Vollzeitstelle ab.",
     "date": "2026-06-13",
     "readMinutes": 4,
     "excerpt": "Stress, wenig Zeit, ständiger Heißhunger: Trotzdem abnehmen ist möglich. Angelo erklärt, was wirklich funktioniert, wenn der Job alles frisst.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: Abnehmen trotz Stress im Job funktioniert über weniger Entscheidungen, nicht über mehr Disziplin. Konkret heißt das: zwei bis drei feste, erprobte Mahlzeiten statt täglich neu überlegen, ein sattes Mittagessen mit Protein gegen den Heißhunger am Abend, dreimal pro Woche 30 bis 40 Minuten Krafttraining in einem Zeitfenster, das nicht verhandelbar ist, und sieben Stunden Schlaf, die du verteidigst. Warum genau diese vier Punkte und wie du sie in eine volle Woche baust, liest du hier."
+      },
       {
         "type": "p",
         "text": "Acht Stunden Büro, Meetings, Deadlines, und abends fehlt dir die Energie für irgendetwas. Ich kenne das aus eigener Erfahrung und von meinen Klienten hier in Köln. Trotzdem sagen mir viele nach ein paar Wochen, dass sie Gewicht verloren haben, ohne ihr Leben auf den Kopf zu stellen. Das Geheimnis liegt nicht in Willenskraft. Es liegt in System."
@@ -2939,7 +2943,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du dauerhaft unter Druck stehst, schüttet dein Körper Cortisol aus. Cortisol ist kein Bösewicht, es hält dich in stressigen Momenten funktionsfähig. Das Problem entsteht, wenn der Spiegel nie sinkt, weil der nächste Termin schon wartet. Dann signalisiert dein Körper ständig Gefahr, und Gefahr bedeutet für ihn: Energie speichern, Fettabbau stoppen."
+        "text": "Wenn du dauerhaft unter Druck stehst, schüttet dein Körper Cortisol aus. Cortisol ist kein Bösewicht, es hält dich in stressigen Momenten funktionsfähig. Das Problem entsteht, wenn der Spiegel nie sinkt, weil der nächste Termin schon wartet. Dann signalisiert dein Körper ständig Gefahr, und Gefahr bedeutet für ihn: Energie speichern, Fettabbau stoppen. Warum dauerhaft hohes Cortisol das Fett ausgerechnet am Bauch parkt, habe ich im Artikel [Cortisol und Bauchfett](/blog/cortisol-bauchfett-zusammenhang) genauer erklärt."
       },
       {
         "type": "p",
@@ -3042,7 +3046,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Abnehmen trotz Stress im Job ist machbar, aber es braucht den richtigen Ansatz für deine Situation. Kein Copy-Paste-Plan aus dem Internet, sondern eine Strategie, die zu deinem Alltag, deinen Arbeitszeiten und deinem Körper passt. Wenn du bereit bist, das anzugehen, stehe ich dir gerne zur Seite. Meld dich für ein kostenloses Erstgespräch bei mir, Angelo, Personal Trainer in Köln. Wir schauen gemeinsam, wo du gerade stehst und was der nächste sinnvolle Schritt ist."
+        "text": "Abnehmen trotz Stress im Job ist machbar, aber es braucht den richtigen Ansatz für deine Situation. Kein Copy-Paste-Plan aus dem Internet, sondern eine Strategie, die zu deinem Alltag, deinen Arbeitszeiten und deinem Körper passt. Wenn die Waage trotz Training schon länger stillsteht, findest du die fünf häufigsten Gründe im Artikel [Gewicht stagniert trotz Training](/blog/gewicht-stagniert-trotz-training). Und wenn du das Thema lieber nicht mehr allein angehst: Meld dich für ein [kostenloses Erstgespräch](/contatti) bei mir, Angelo, Personal Trainer in Köln. Wir schauen gemeinsam, wo du gerade stehst und was der nächste sinnvolle Schritt ist."
       }
     ]
   },
@@ -12989,7 +12993,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ich sehe es immer wieder. Jemand startet mit einem neuen Plan, trainiert fünf Abende die Woche, isst kaum noch, und nach drei Wochen ist alles wieder vorbei. Der Körper macht nicht mit, die Motivation kippt, und das schlechte Gewissen bleibt. Das ist kein Versagen in der Willenskraft, das ist ein Planungsproblem."
+        "text": "Ich sehe es immer wieder. Jemand startet mit einem neuen Plan, trainiert fünf Abende die Woche, isst kaum noch, und nach drei Wochen ist alles wieder vorbei. Der Körper macht nicht mit, die Motivation kippt, und das schlechte Gewissen bleibt. Das ist kein Versagen in der Willenskraft, das ist ein Planungsproblem. Wenn bei dir noch der Dauerstress im Job dazukommt, lies den Artikel [Abnehmen trotz Stress im Job](/blog/abnehmen-trotz-stress-job): Dort steht das System, das auch nach einem Zehn-Stunden-Tag noch funktioniert."
       },
       {
         "type": "p",
@@ -14285,7 +14289,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Und dann ist da noch der Vergleich mit Social Media. Bodybuilder mit 22 Jahren und freiem Tag für Training und Erholung sind keine realistische Referenz für einen Familienvater in Köln mit 44. Vergleich dich mit dir selbst von vor drei Monaten. Das ist die einzige Metrik, die zählt."
+        "text": "Und dann ist da noch der Vergleich mit Social Media. Bodybuilder mit 22 Jahren und freiem Tag für Training und Erholung sind keine realistische Referenz für einen Familienvater in Köln mit 44. Vergleich dich mit dir selbst von vor drei Monaten. Das ist die einzige Metrik, die zählt. Welche Kilozahlen im ersten Jahr wirklich drin sind, habe ich in [Muskelaufbau ab 45: Was realistisch ist](/blog/muskelaufbau-ab-45-realistisch) mit ehrlichen Zahlen aufgeschrieben."
       },
       {
         "type": "ul",
