@@ -870,7 +870,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du musst nicht laufen, um deine Ausdauer zu verbessern. Wer lange nichts gemacht hat oder deutliches Übergewicht mitbringt, startet besser mit zügigem Gehen. 30 bis 45 Minuten flottes Gehen, vier bis fünf Mal pro Woche, verändern nach acht Wochen messbar deinen Ruhepuls und deine Belastbarkeit. Eine Klientin von mir, 52, Büroleiterin, hat genau so angefangen: erst nur Gehen, nach sechs Wochen Geh-Lauf-Intervalle, nach vier Monaten lief sie 30 Minuten am Stück. Hätte ich sie in Woche eins losrennen lassen, wäre sie mit Knieschmerzen ausgestiegen. Da bin ich mir ziemlich sicher, denn genau das war ihr zwei Jahre vorher schon einmal passiert, damals ohne Anleitung."
+        "text": "Du musst nicht laufen, um deine Ausdauer zu verbessern. Wer lange nichts gemacht hat oder deutliches Übergewicht mitbringt, startet besser mit zügigem Gehen. 30 bis 45 Minuten flottes Gehen, vier bis fünf Mal pro Woche, verändern nach acht Wochen messbar deinen Ruhepuls und deine Belastbarkeit. Eine Klientin von mir, 52, Büroleiterin, hat genau so angefangen: erst nur Gehen, nach sechs Wochen Geh-Lauf-Intervalle, nach vier Monaten lief sie 30 Minuten am Stück. Hätte ich sie in Woche eins losrennen lassen, wäre sie mit Knieschmerzen ausgestiegen. Da bin ich mir ziemlich sicher, denn genau das war ihr zwei Jahre vorher schon einmal passiert, damals ohne Anleitung. Den kompletten Stufenplan für genau diesen Fall findest du im Artikel [Joggen anfangen mit Übergewicht](/blog/joggen-anfangen-uebergewicht)."
       },
       {
         "type": "h2",
@@ -1305,8 +1305,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "joggen-anfangen-uebergewicht",
     "title": "Joggen anfangen mit Übergewicht: Gelenkschonend zum ersten Lauferfolg",
-    "metaTitle": "Joggen anfangen mit Übergewicht: gelenkschonender Plan",
-    "metaDescription": "Joggen mit Übergewicht anfangen, ohne die Knie zu ruinieren: Mein gelenkschonender Stufenplan aus der Praxis. Ehrlich, machbar und ohne Druck.",
+    "metaTitle": "Joggen mit Übergewicht: in 3 Phasen sicher starten",
+    "metaDescription": "Ja, du kannst auch mit 100 Kilo joggen lernen: erst 4 bis 8 Wochen zügiges Gehen, dann Kraft für die Gelenke, dann kurze Geh-Lauf-Intervalle. Der ehrliche Plan.",
     "date": "2026-05-26",
     "readMinutes": 8,
     "excerpt": "Kann ich mit 100 Kilo überhaupt joggen? Diese Frage höre ich oft, meist leise und fast entschuldigend gestellt. Meine Antwort: Ja, aber nicht am ersten Tag. Es gibt einen klugen Weg dorthin, der deine Gelenke schützt und dein Selbstvertrauen aufbaut statt es zu zerstören.",
@@ -1355,7 +1355,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Gerade das Wadenheben wird ständig übersprungen, dabei ist die Achillessehne bei Laufeinsteigern mit höherem Gewicht die häufigste Schwachstelle, die ich in der Praxis sehe. Zwei Monate konsequentes Wadentraining ersparen dir später Monate Zwangspause."
+        "text": "Gerade das Wadenheben wird ständig übersprungen, dabei ist die Achillessehne bei Laufeinsteigern mit höherem Gewicht die häufigste Schwachstelle, die ich in der Praxis sehe. Zwei Monate konsequentes Wadentraining ersparen dir später Monate Zwangspause. Wenn deine Knie schon vor dem ersten Laufschritt zwicken, bau zusätzlich die [Stabi-Übungen fürs Knie](/blog/knie-stabilisieren-uebungen) ein, bevor du mit Phase 3 startest."
       },
       {
         "type": "h2",
@@ -1367,7 +1367,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Lauf auf weichem Untergrund, wenn du kannst: Waldboden, Tartanbahn, gepflegte Parkwege. Und investiere in vernünftige Laufschuhe mit ordentlicher Dämpfung, am besten nach einer Beratung mit Laufanalyse. Bei höherem Körpergewicht verschleißen Schuhe schneller, nach etwa 500 bis 600 Kilometern ist die Dämpfung durch."
+        "text": "Lauf auf weichem Untergrund, wenn du kannst: Waldboden, Tartanbahn, gepflegte Parkwege. In Köln ist die Runde um den Decksteiner Weiher mit ihrer wassergebundenen Decke ideal dafür, alle fünf Optionen findest du im Artikel über die [besten Laufstrecken in Köln](/blog/laufstrecken-koeln-beste). Und investiere in vernünftige Laufschuhe mit ordentlicher Dämpfung, am besten nach einer Beratung mit Laufanalyse. Bei höherem Körpergewicht verschleißen Schuhe schneller, nach etwa 500 bis 600 Kilometern ist die Dämpfung durch."
       },
       {
         "type": "h2",
@@ -1387,7 +1387,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Falls du dir bei alldem einen Begleiter wünschst, der deine Technik anschaut, den Plan auf deinen Körper und deinen Alltag zuschneidet und dich bremst, wenn dein Ehrgeiz mit dir durchgeht: Genau das ist mein Job. Im kostenlosen Erstgespräch reden wir offen über deinen Startpunkt und deine Ziele, ohne Bewertung und ohne Druck. Der erste Schritt ist ein Gespräch, kein Kilometer."
+        "text": "Falls du dir bei alldem einen Begleiter wünschst, der deine Technik anschaut, den Plan auf deinen Körper und deinen Alltag zuschneidet und dich bremst, wenn dein Ehrgeiz mit dir durchgeht: Genau das ist mein Job als [Personal Trainer in Köln](/personal-trainer-koeln). Im [kostenlosen Erstgespräch](/contatti) reden wir offen über deinen Startpunkt und deine Ziele, ohne Bewertung und ohne Druck. Der erste Schritt ist ein Gespräch, kein Kilometer."
       }
     ]
   },
@@ -2474,8 +2474,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "abnehmspritze-kosten-monatlich-vergleich",
     "title": "Was kostet die Abnehmspritze monatlich? Der ehrliche Kostenvergleich mit den Alternativen",
-    "metaTitle": "Was kostet die Abnehmspritze im Monat?",
-    "metaDescription": "170 bis 350 Euro pro Monat für die Abnehmspritze: Was bekommst du dafür und was kosten die Alternativen? Trainer Angelo aus Köln rechnet nach.",
+    "metaTitle": "Abnehmspritze Kosten: 170 bis 350 € im Monat",
+    "metaDescription": "Das Medikament kostet 170 bis 350 €, ehrlich gerechnet sind es 220 bis 400 € im Monat. Was über 12 bis 18 Monate zusammenkommt und was die Alternativen kosten.",
     "date": "2026-06-16",
     "readMinutes": 7,
     "excerpt": "Meine Klienten reden mit mir über Geld, öfter als man denkt. Und bei der Abnehmspritze rechnen viele nur die Spritze selbst, nicht das Drumherum. Ich habe mal ehrlich nachgerechnet.",
@@ -2511,7 +2511,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Realistische Gesamtrechnung als Selbstzahler: 220 bis 400 Euro pro Monat, über eine typische Behandlungsdauer von 12 bis 18 Monaten also grob 2600 bis 7000 Euro. Das ist kein Argument gegen die Behandlung, wenn sie medizinisch sinnvoll ist. Aber es ist eine Zahl, die man kennen sollte, bevor man startet."
+        "text": "Realistische Gesamtrechnung als Selbstzahler: 220 bis 400 Euro pro Monat, über eine typische Behandlungsdauer von 12 bis 18 Monaten also grob 2600 bis 7000 Euro. Das ist kein Argument gegen die Behandlung, wenn sie medizinisch sinnvoll ist. Aber es ist eine Zahl, die man kennen sollte, bevor man startet. Und der letzte Punkt der Liste ist kein Verkaufsargument von mir, sondern Physiologie: Warum unter der Spritze ohne Training Muskeln verschwinden und wie du das verhinderst, steht im Artikel [Muskelverlust unter der Abnehmspritze vermeiden](/blog/abnehmspritze-muskelverlust-vermeiden)."
       },
       {
         "type": "h2",
@@ -2543,7 +2543,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ich rechne mit Klienten gerne anders als die Werbung. Nicht: Was kostet ein verlorenes Kilo? Sondern: Was kostet ein Kilo, das nach drei Jahren immer noch weg ist? Bei der Spritze ohne begleitende Verhaltensänderung ist die Rückfallquote hoch, ein Teil der Investition verpufft also. Beim Training mit Gewohnheitsaufbau ist der Verlust langsamer, aber deutlich stabiler. Die teuerste Variante ist am Ende die, die du zweimal bezahlen musst."
+        "text": "Ich rechne mit Klienten gerne anders als die Werbung. Nicht: Was kostet ein verlorenes Kilo? Sondern: Was kostet ein Kilo, das nach drei Jahren immer noch weg ist? Bei der Spritze ohne begleitende Verhaltensänderung ist die Rückfallquote hoch, ein Teil der Investition verpufft also. Wie du genau diesen Rückfall verhinderst, habe ich im Artikel über den [Jojo-Effekt nach der Abnehmspritze](/blog/jojo-effekt-nach-abnehmspritze-vermeiden) beschrieben. Beim Training mit Gewohnheitsaufbau ist der Verlust langsamer, aber deutlich stabiler. Die teuerste Variante ist am Ende die, die du zweimal bezahlen musst."
       },
       {
         "type": "p",
@@ -2559,7 +2559,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du wissen willst, welcher Weg für dein Budget und deine Ausgangslage der sinnvollste ist, komm zum kostenlosen Erstgespräch. Ich rechne mit dir ehrlich durch, was welche Variante in deinem Fall kostet und bringt. Manchmal ist meine Empfehlung am Ende gar nicht die teuerste, sondern einfach die, die zu deinem Leben passt."
+        "text": "Wenn du wissen willst, welcher Weg für dein Budget und deine Ausgangslage der sinnvollste ist, [komm zum kostenlosen Erstgespräch](/contatti). Ich rechne mit dir ehrlich durch, was welche Variante in deinem Fall kostet und bringt. Wie ich beim [Abnehmen in Köln](/leistungen/abnehmen) konkret begleite, mit Training bei mir und Ernährungsberatung bei Natalie, steht auf der Leistungsseite. Manchmal ist meine Empfehlung am Ende gar nicht die teuerste, sondern einfach die, die zu deinem Leben passt."
       }
     ]
   },
@@ -2917,7 +2917,7 @@ export const trendPosts: BlogPost[] = [
     "blocks": [
       {
         "type": "p",
-        "text": "Es gibt eine Zahl, die ich meinen Klienten nie verschweige: Nach dem Absetzen von GLP-1 Medikamenten nehmen viele Menschen innerhalb eines Jahres einen erheblichen Teil des verlorenen Gewichts wieder zu. Das ist gut dokumentiert. Und trotzdem sitzen in meinem Kölner Studio Menschen, die zwei Jahre nach der letzten Spritze ihr Gewicht halten. Der Unterschied ist kein Geheimnis und kein Glück. Es sind ein paar Dinge, die sie konsequent anders machen. Sechs davon zeige ich dir heute."
+        "text": "Es gibt eine Zahl, die ich meinen Klienten nie verschweige: Nach dem Absetzen von GLP-1 Medikamenten nehmen viele Menschen innerhalb eines Jahres einen erheblichen Teil des verlorenen Gewichts wieder zu. Das ist gut dokumentiert. Und weil die [Abnehmspritze als Selbstzahler real 220 bis 400 Euro im Monat kostet](/blog/abnehmspritze-kosten-monatlich-vergleich), ist jeder Rückfall nicht nur frustrierend, sondern auch teuer. Trotzdem sitzen in meinem Kölner Studio Menschen, die zwei Jahre nach der letzten Spritze ihr Gewicht halten. Der Unterschied ist kein Geheimnis und kein Glück. Es sind ein paar Dinge, die sie konsequent anders machen. Sechs davon zeige ich dir heute."
       },
       {
         "type": "p",
@@ -5050,7 +5050,7 @@ export const trendPosts: BlogPost[] = [
     "slug": "stoffwechsel-mann-ab-40-veraenderung",
     "title": "Stoffwechsel beim Mann ab 40: Was sich wirklich verändert und was du dagegen tun kannst",
     "metaTitle": "Stoffwechsel Mann ab 40: Das ändert sich wirklich",
-    "metaDescription": "Testosteron, Muskelmasse, Bauchfett: Was beim Mann ab 40 im Stoffwechsel passiert und welche Hebel funktionieren. Klartext von Trainer Angelo aus Köln.",
+    "metaDescription": "Der Grundumsatz bleibt bis 60 fast stabil. Was beim Mann ab 40 wirklich kippt, sind Muskelmasse und Alltag, und beides lässt sich drehen. Die vier Hebel dafür.",
     "date": "2026-07-02",
     "readMinutes": 8,
     "excerpt": "Ab 40 wird alles langsamer, sagt man. Stimmt nur halb. Der berühmte lahme Stoffwechsel ist zu großen Teilen selbstgemacht, und das ist eine gute Nachricht. Hier erkläre ich dir, was biologisch wirklich passiert und wo deine Hebel liegen.",
@@ -5102,7 +5102,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Einer meiner Klienten, 48, Vertriebsleiter, kam mit 96 Kilo und dem klassischen Satz vom kaputten Stoffwechsel. Wir haben nichts Exotisches gemacht: drei Krafteinheiten pro Woche, Protein-Frühstück statt Brötchen beim Bäcker, Schrittziel, feste Schlafenszeit an Wochentagen. Nach neun Monaten wog er 84 Kilo, hatte sichtbar mehr Muskeln und seine Blutwerte waren laut Hausarzt die besten seit zehn Jahren. Sein Stoffwechsel war nie kaputt. Er war nur arbeitslos."
+        "text": "Einer meiner Klienten, 48, Vertriebsleiter, kam mit 96 Kilo und dem klassischen Satz vom kaputten Stoffwechsel. Wir haben nichts Exotisches gemacht: drei Krafteinheiten pro Woche, Protein-Frühstück statt Brötchen beim Bäcker, Schrittziel, feste Schlafenszeit an Wochentagen. Nach neun Monaten wog er 84 Kilo, hatte sichtbar mehr Muskeln und seine Blutwerte waren laut Hausarzt die besten seit zehn Jahren. Sein Stoffwechsel war nie kaputt. Er war nur arbeitslos. Welche dieser Hebel wie viel bringen, habe ich im Artikel [Grundumsatz erhöhen](/blog/grundumsatz-erhoehen-methoden) einzeln aufgeschlüsselt."
       },
       {
         "type": "h2",
@@ -5130,7 +5130,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du gerade an dem Punkt stehst, an dem der Gürtel enger wird und die Motivation fehlt, weil gefühlt nichts mehr funktioniert: Genau für diese Situation biete ich ein kostenloses Erstgespräch an. Wir schauen uns deinen Alltag, dein Essen und deine Möglichkeiten an und bauen daraus einen Plan, der in dein Leben passt. Keine Wunder, aber ein Weg, der funktioniert."
+        "text": "Wenn du gerade an dem Punkt stehst, an dem der Gürtel enger wird und die Motivation fehlt, weil gefühlt nichts mehr funktioniert: Genau für diese Situation biete ich ein [kostenloses Erstgespräch](/contatti) an. Wir schauen uns deinen Alltag, dein Essen und deine Möglichkeiten an und bauen daraus einen Plan, der in dein Leben passt. Wie das [Personal Training in Köln](/personal-trainer-koeln) abläuft und was es kostet, steht dort offen drin. Keine Wunder, aber ein Weg, der funktioniert."
       }
     ]
   },
@@ -7867,7 +7867,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Das Fett unter der Haut an Hüfte oder Beinen ist optisch lästig, gesundheitlich aber relativ harmlos. Wie du Körperfett am Bauch grundsätzlich angehst, von der Ernährung bis zum Training, steht im Beitrag [Bauchfett verlieren als Mann](/blog/bauchfett-verlieren-maenner). Der typische harte, vorgewölbte Männerbauch ist etwas anderes: viszerales Fett, das zwischen deinen Organen sitzt. Es ist hormonell aktiv, produziert Entzündungsstoffe und erhöht dein Risiko für Herzinfarkt, Typ-2-Diabetes und Bluthochdruck massiv. Es senkt nebenbei auch dein Testosteron, weil Bauchfett Testosteron in Östrogen umwandelt. Ein Teufelskreis: Weniger Testosteron macht den Fettabbau schwerer, mehr Fett senkt das Testosteron weiter."
+        "text": "Das Fett unter der Haut an Hüfte oder Beinen ist optisch lästig, gesundheitlich aber relativ harmlos. Wie du Körperfett am Bauch grundsätzlich angehst, von der Ernährung bis zum Training, steht im Beitrag [Bauchfett verlieren als Mann](/blog/bauchfett-verlieren-maenner). Der typische harte, vorgewölbte Männerbauch ist etwas anderes: viszerales Fett, das zwischen deinen Organen sitzt. Es ist hormonell aktiv, produziert Entzündungsstoffe und erhöht dein Risiko für Herzinfarkt, Typ-2-Diabetes und Bluthochdruck massiv. Es senkt nebenbei auch dein Testosteron, weil Bauchfett Testosteron in Östrogen umwandelt. Ein Teufelskreis: Weniger Testosteron macht den Fettabbau schwerer, mehr Fett senkt das Testosteron weiter. Was sich beim [Stoffwechsel ab 40](/blog/stoffwechsel-mann-ab-40-veraenderung) sonst wirklich verändert und was nur Ausrede ist, habe ich separat aufgeschrieben."
       },
       {
         "type": "p",
@@ -8567,8 +8567,8 @@ export const trendPosts: BlogPost[] = [
   {
     "slug": "gewicht-stagniert-trotz-training",
     "title": "Gewicht stagniert trotz Training: Die 5 echten Gründe",
-    "metaTitle": "Gewicht stagniert trotz Training: 5 echte Gründe",
-    "metaDescription": "Seit Monaten Training und die Waage bewegt sich nicht? Die 5 häufigsten Ursachen, versteckte Recomposition erkennen und was du konkret änderst.",
+    "metaTitle": "Warum nehme ich trotz Sport nicht ab? 5 Gründe",
+    "metaDescription": "Versteckte Recomposition, unterschätzte Kalorien, das Wochenende, weniger Alltagsbewegung oder Wasser: die 5 Gründe, warum die Waage trotz Training stillsteht.",
     "date": "2026-07-09",
     "readMinutes": 7,
     "excerpt": "Drei Monate Fitnessstudio, die Waage steht still, der Frust wächst. In den meisten Fällen ist eine von fünf Ursachen verantwortlich, und eine davon ist sogar eine gute Nachricht.",
@@ -8611,6 +8611,14 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Nach dem Krafttraining schwerer: ist das normal?"
+      },
+      {
+        "type": "p",
+        "text": "Ja, und zwar fast immer. Direkt nach einer harten Einheit lagert dein Körper Wasser ein: Die Muskeln speichern mehr Glykogen und mit jedem Gramm Glykogen etwa drei Gramm Wasser, dazu kommt die Reparaturreaktion im Muskel, die ebenfalls Flüssigkeit zieht. Ein bis zwei Kilo mehr am Morgen nach dem Training sind deshalb kein Fett, sondern Baustelle. Das Ganze hält zwei bis vier Tage an, bei neuen Trainingsreizen auch länger. Wer sich nach jeder Einheit wiegt und erschrickt, misst also nur seinen Muskelkater. Die Konsequenz steht schon oben: Wochendurchschnitt statt Tageswert, und gewogen wird morgens, nüchtern, immer gleich."
+      },
+      {
+        "type": "h2",
         "text": "Deine Checkliste für die nächsten 14 Tage"
       },
       {
@@ -8629,7 +8637,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Und wenn du nach den 14 Tagen immer noch im Nebel stochst, hol dir einen zweiten Blick von außen. In meinem kostenlosen Erstgespräch gehen wir gemeinsam durch deine Woche, dein Training und deine Zahlen, und in 30 bis 45 Minuten finden wir in aller Regel den Punkt, an dem es hakt. Manchmal braucht es nur ein Paar erfahrene Augen."
+        "text": "Und wenn du nach den 14 Tagen immer noch im Nebel stochst, hol dir einen zweiten Blick von außen. In meinem [kostenlosen Erstgespräch](/contatti) gehen wir gemeinsam durch deine Woche, dein Training und deine Zahlen, und in 30 bis 45 Minuten finden wir in aller Regel den Punkt, an dem es hakt. Liegt es am Essen, schaut Natalie von der [Ernährungsberatung](/leistungen/ernaehrungsberatung) mit drauf. Manchmal braucht es nur ein Paar erfahrene Augen."
       }
     ]
   },
@@ -8652,7 +8660,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn mich jemand fragt, wo er mit dem Laufen anfangen soll, ist meine Antwort fast immer der Decksteiner Weiher. Die Runde um das Wasser misst gut 5 km, der Boden ist überwiegend wassergebundene Decke, also deutlich gelenkfreundlicher als Asphalt, und die Strecke ist komplett flach. Der psychologische Vorteil einer Rundstrecke: Du kannst nicht auf halber Strecke abkürzen, ohne dass es sich wie Aufgeben anfühlt, und du weißt immer genau, wie weit es noch ist. Einsteiger starten hier mit Geh-Lauf-Intervallen, zum Beispiel 2 Minuten laufen, 1 Minute gehen, über die halbe Runde, und steigern sich über Wochen zur vollen Runde. Abends und am Wochenende triffst du hier die halbe Kölner Laufszene, was je nach Typ motiviert oder nervt. Die Runde liegt übrigens direkt am Rand von Sülz: wer dort wohnt und lieber mit Anleitung startet, findet unter [Personal Training in Köln-Sülz](/koeln/suelz) Ablauf und Preise."
+        "text": "Wenn mich jemand fragt, wo er mit dem Laufen anfangen soll, ist meine Antwort fast immer der Decksteiner Weiher. Die Runde um das Wasser misst gut 5 km, der Boden ist überwiegend wassergebundene Decke, also deutlich gelenkfreundlicher als Asphalt, und die Strecke ist komplett flach. Der psychologische Vorteil einer Rundstrecke: Du kannst nicht auf halber Strecke abkürzen, ohne dass es sich wie Aufgeben anfühlt, und du weißt immer genau, wie weit es noch ist. Einsteiger starten hier mit Geh-Lauf-Intervallen, zum Beispiel 2 Minuten laufen, 1 Minute gehen, über die halbe Runde, und steigern sich über Wochen zur vollen Runde. Wer mit deutlich mehr Gewicht startet, geht es noch vorsichtiger an: Den gelenkschonenden Drei-Phasen-Einstieg habe ich im Artikel [Joggen anfangen mit Übergewicht](/blog/joggen-anfangen-uebergewicht) beschrieben. Abends und am Wochenende triffst du hier die halbe Kölner Laufszene, was je nach Typ motiviert oder nervt. Die Runde liegt übrigens direkt am Rand von Sülz: wer dort wohnt und lieber mit Anleitung startet, findet unter [Personal Training in Köln-Sülz](/koeln/suelz) Ablauf und Preise."
       },
       {
         "type": "h2",
