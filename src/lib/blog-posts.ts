@@ -5308,11 +5308,15 @@ export const blogPosts: BlogPost[] = [
     "slug": "trainingsplan-berufstaetige-wenig-zeit",
     "title": "Trainingsplan für Berufstätige: So wirst du fit mit nur 3 Stunden pro Woche",
     "metaTitle": "Trainingsplan für Berufstätige: Fit in 3h pro Woche",
-    "metaDescription": "Trainingsplan für Berufstätige mit wenig Zeit: Konkreter Wochenplan für 3 Stunden Training. Effektiv, alltagstauglich, ohne Gym-Marathon. Jetzt lesen.",
+    "metaDescription": "Drei Einheiten à 45 Minuten: Montag, Mittwoch, Freitag, Ganzkörper mit Verbundübungen. Der komplette Wochenplan für Berufstätige, auch fürs Homeoffice.",
     "date": "2026-06-14",
     "readMinutes": 4,
     "excerpt": "Voller Kalender, kaum Zeit, trotzdem Fortschritt. Dieser Wochenplan zeigt dir, wie Berufstätige mit drei Stunden pro Woche wirklich etwas bewegen können.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: Drei Einheiten pro Woche à 45 bis 60 Minuten reichen, zum Beispiel Montag, Mittwoch und Freitag. Jede Einheit trainiert den ganzen Körper mit Verbundübungen wie Kniebeugen, Kreuzheben, Rudern und Drücken, mit kurzen Pausen von 60 bis 90 Sekunden. Das sind rund drei Stunden pro Woche, und sie bringen mehr als fünf planlose Gym-Besuche. Den kompletten Wochenplan mit Übungen und die Regeln, mit denen er auch in explodierenden Wochen hält, findest du hier."
+      },
       {
         "type": "p",
         "text": "Du arbeitest Vollzeit, der Kalender ist voll und abends fehlt schlicht die Energie. Trotzdem willst du fitter werden, mehr Kraft aufbauen und dich besser fühlen. Klingt widersprüchlich? Ist es nicht. Mit einem durchdachten Trainingsplan für Berufstätige erreichst du mit wenig Zeit deutlich mehr, als du gerade glaubst. Ich zeige dir, wie ein realistischer Wochenplan aussieht, der wirklich funktioniert."
@@ -5384,7 +5388,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Mein Rat: Wenn du eine Einheit ausfallen lässt, streiche sie nicht einfach. Verschiebe sie um einen Tag. Und wenn das auch nicht klappt, reduziere die Einheit auf 20 Minuten statt sie ganz zu streichen. Ein kurzes Training ist immer besser als keines. Diese Denkweise trennt langfristig erfolgreiche Trainierende von denen, die nach drei Wochen wieder aufhören."
+        "text": "Mein Rat: Wenn du eine Einheit ausfallen lässt, streiche sie nicht einfach. Verschiebe sie um einen Tag. Und wenn das auch nicht klappt, reduziere die Einheit auf 20 Minuten statt sie ganz zu streichen. Ein kurzes Training ist immer besser als keines. Diese Denkweise trennt langfristig erfolgreiche Trainierende von denen, die nach drei Wochen wieder aufhören. Wenn dein Problem weniger der Plan als die Energie nach Feierabend ist, hilft dir die [10-Minuten-Regel aus dem Feierabend-Artikel](/blog/feierabend-training-energie)."
       },
       {
         "type": "h2",
@@ -5416,7 +5420,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Drei Stunden pro Woche. Das klingt nach wenig, und das ist auch der Punkt. Du musst dein Leben nicht umkrempeln, um fit zu werden. Du brauchst einen Plan, der zu deinem echten Alltag passt, nicht zu einem idealisierten Fitnessleben. Wenn du wissen willst, wie ein solcher Plan konkret für dich aussieht, dann meld dich für ein kostenloses Erstgespräch bei mir. Wir schauen uns gemeinsam an, was in deinem Kalender realistisch machbar ist und wie du anfängst, ohne nach zwei Wochen wieder aufzuhören."
+        "text": "Drei Stunden pro Woche. Das klingt nach wenig, und das ist auch der Punkt. Du musst dein Leben nicht umkrempeln, um fit zu werden. Du brauchst einen Plan, der zu deinem echten Alltag passt, nicht zu einem idealisierten Fitnessleben. Wenn du wissen willst, wie ein solcher Plan konkret für dich aussieht, dann meld dich für ein [kostenloses Erstgespräch](/contatti) bei mir. Wir schauen uns gemeinsam an, was in deinem Kalender realistisch machbar ist, und beim [Personal Training in Köln](/personal-trainer-koeln) übernehme ich auf Wunsch auch die komplette Planung für dich."
       }
     ]
   },
@@ -13755,7 +13759,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Der entscheidende Punkt ist Regelmäßigkeit, nicht Intensität. Drei moderate Einheiten pro Woche, die du wirklich durchziehst, bringen mehr als ein ambitionierter Plan, den du nach zwei Wochen abbrichst. Ich sage das nicht, um die Messlatte niedrig zu hängen, sondern weil ich das Muster hundertfach gesehen habe. Fang klein an, baue dann auf."
+        "text": "Der entscheidende Punkt ist Regelmäßigkeit, nicht Intensität. Drei moderate Einheiten pro Woche, die du wirklich durchziehst, bringen mehr als ein ambitionierter Plan, den du nach zwei Wochen abbrichst. Ich sage das nicht, um die Messlatte niedrig zu hängen, sondern weil ich das Muster hundertfach gesehen habe. Fang klein an, baue dann auf. Wie die drei Einheiten konkret aussehen, zeigt der [Trainingsplan für Berufstätige mit 3 Stunden pro Woche](/blog/trainingsplan-berufstaetige-wenig-zeit)."
       },
       {
         "type": "ul",

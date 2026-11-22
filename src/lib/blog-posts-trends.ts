@@ -1719,7 +1719,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die ehrliche Wahrheit: Unter der Spritze fühlen sich manche Trainingstage zäh an. Wenig Appetit bedeutet manchmal auch wenig Energie im Tank. Meine Praxiserfahrung dazu: Plane dein Training auf den Tag oder die Tageszeit, an der du dich am besten fühlst, und iss zwei bis drei Stunden vorher eine kleine, eiweißreiche Mahlzeit, auch wenn der Hunger fehlt. Ein Shake mit einer Banane reicht oft schon."
+        "text": "Die ehrliche Wahrheit: Unter der Spritze fühlen sich manche Trainingstage zäh an. Wenig Appetit bedeutet manchmal auch wenig Energie im Tank. Meine Praxiserfahrung dazu: Plane dein Training auf den Tag oder die Tageszeit, an der du dich am besten fühlst, und iss zwei bis drei Stunden vorher eine kleine, eiweißreiche Mahlzeit, auch wenn der Hunger fehlt. Ein Shake mit einer Banane reicht oft schon. Eine komplette Beispielwoche für Tage mit wenig Energie findest du im Artikel [Sport während der Abnehmspritze](/blog/sport-waehrend-abnehmspritze)."
       },
       {
         "type": "p",
@@ -2015,11 +2015,15 @@ export const trendPosts: BlogPost[] = [
     "slug": "abnehmspritze-oder-personal-training",
     "title": "Abnehmspritze oder Personal Training: Ein ehrlicher Vergleich von jemandem, der beides kennt",
     "metaTitle": "Abnehmspritze oder Personal Training? Ehrlicher Vergleich",
-    "metaDescription": "Spritze oder Training: Was bringt dir langfristig mehr? Personal Trainer Angelo aus Köln vergleicht Kosten, Ergebnisse und Nachhaltigkeit ehrlich.",
+    "metaDescription": "Die Kosten liegen näher beieinander, als du denkst. Was Spritze und Training jeweils können, wann die Kombination gewinnt und ob Coaching dabei wirklich hilft.",
     "date": "2026-06-09",
     "readMinutes": 8,
     "excerpt": "Man könnte erwarten, dass ich als Trainer die Spritze schlechtrede. Mache ich nicht. Ich begleite Klienten, die sie nutzen, und sehe jeden Tag, was sie kann und was nicht. Hier ist mein ehrlicher Vergleich.",
     "blocks": [
+      {
+        "type": "p",
+        "text": "Die kurze Antwort: Die Spritze gewinnt beim schnellen Gewichtsverlust, das Training gewinnt bei allem, was danach kommt. Wenn dein Arzt medizinischen Handlungsbedarf sieht, ist die beste Antwort oft die Kombination: Das Medikament schafft das Kaloriendefizit, das Krafttraining schützt Muskeln, Haltung und den Zustand nach dem Absetzen. Bei 5 bis 15 Kilo ohne medizinischen Druck brauchst du das Medikament meist gar nicht. Die Kosten beider Wege liegen übrigens näher beieinander, als du denkst, und genau da fangen wir an."
+      },
       {
         "type": "p",
         "text": "Fangen wir mit einem Geständnis an: Als die ersten Klienten mich vor ein paar Jahren auf die Abnehmspritze ansprachen, war ich skeptisch. Heute begleite ich in Köln regelmäßig Menschen, die GLP-1 Medikamente nutzen, und ich habe meine Meinung differenziert. Die Spritze ist ein starkes Werkzeug. Aber sie beantwortet eine andere Frage als Personal Training, und genau das verstehen viele nicht, wenn sie die beiden vergleichen."
@@ -2034,11 +2038,11 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Eine GLP-1 Behandlung kostet als Selbstzahler je nach Wirkstoff und Dosis meist zwischen 170 und 350 Euro im Monat, dazu kommen Arzttermine und in der Regel eine Anwendung über viele Monate, oft länger als ein Jahr. Rechne konservativ 200 bis 300 Euro monatlich über 12 bis 18 Monate, dann liegst du bei 2400 bis 5400 Euro. Ob und wann eine Kasse zahlt, entscheidet dein Arzt mit dir, das ist nicht mein Feld."
+        "text": "Eine GLP-1 Behandlung kostet als Selbstzahler je nach Wirkstoff und Dosis meist zwischen 170 und 350 Euro im Monat, dazu kommen Arzttermine und in der Regel eine Anwendung über viele Monate, oft länger als ein Jahr. Rechne konservativ 200 bis 300 Euro monatlich über 12 bis 18 Monate, dann liegst du bei 2400 bis 5400 Euro. Die genaue Rechnung pro Wirkstoff steht im [Kostenvergleich der Abnehmspritzen](/blog/abnehmspritze-kosten-monatlich-vergleich). Ob und wann eine Kasse zahlt, entscheidet dein Arzt mit dir, das ist nicht mein Feld."
       },
       {
         "type": "p",
-        "text": "Personal Training in Köln kostet je nach Anbieter 70 bis 120 Euro pro Einheit. Bei einem typischen Aufbau mit anfangs zwei Einheiten pro Woche, später einer, plus eigenständigem Training landest du im ersten Jahr in einer ähnlichen Größenordnung. Der Unterschied liegt nicht im Preis, sondern darin, was am Ende übrig bleibt."
+        "text": "Personal Training in Köln kostet je nach Anbieter 70 bis 120 Euro pro Einheit, bei mir sind es 50 Euro pro Stunde im 1-zu-1, online ab 150 Euro im Monat. Bei einem typischen Aufbau mit anfangs zwei Einheiten pro Woche, später einer, plus eigenständigem Training landest du im ersten Jahr in einer ähnlichen Größenordnung wie bei der Spritze. Der Unterschied liegt nicht im Preis, sondern darin, was am Ende übrig bleibt."
       },
       {
         "type": "h2",
@@ -2091,6 +2095,14 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Hilft Coaching bei der Abnehmspritze wirklich?"
+      },
+      {
+        "type": "p",
+        "text": "Ja, und zwar messbar, aber nur bei den Dingen, die das Medikament offen lässt. Die Spritze reguliert den Appetit, mehr nicht. Ein Coaching sorgt dafür, dass du trotz kleinem Appetit genug Eiweiß isst, dass zwei bis drei Krafteinheiten pro Woche wirklich stattfinden und dass bis zum Absetzen Routinen stehen, die ohne Medikament weiterlaufen. Genau an diesen drei Punkten entscheidet sich, ob der Gewichtsverlust aus Fett besteht und ob er bleibt. Was ein Coaching nicht kann: die Wirkung der Spritze verstärken, Nebenwirkungen wegtrainieren oder die ärztliche Begleitung ersetzen. Wie das Training während der Therapie konkret aussieht, steht im Artikel [Sport während der Abnehmspritze](/blog/sport-waehrend-abnehmspritze)."
+      },
+      {
+        "type": "h2",
         "text": "Mein Fazit: falsche Frage, richtige Antwort"
       },
       {
@@ -2099,7 +2111,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du gerade vor genau dieser Entscheidung stehst, lass uns reden. Im kostenlosen Erstgespräch sage ich dir offen, was ich an deiner Stelle tun würde, auch wenn die Antwort lautet, dass du erstmal mit deinem Arzt sprechen solltest. Ich verkaufe dir nichts, was du nicht brauchst. Dafür bin ich zu lange in diesem Beruf."
+        "text": "Wenn du gerade vor genau dieser Entscheidung stehst, lass uns reden. Im [kostenlosen Erstgespräch](/contatti) sage ich dir offen, was ich an deiner Stelle tun würde, auch wenn die Antwort lautet, dass du erstmal mit deinem Arzt sprechen solltest. Ich verkaufe dir nichts, was du nicht brauchst. Dafür bin ich zu lange in diesem Beruf."
       }
     ]
   },
@@ -2543,7 +2555,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Die Abnehmspritze kostet als Selbstzahler real 220 bis 400 Euro im Monat, wenn man ehrlich rechnet. Das ist viel Geld für ein Werkzeug, das ohne begleitendes Training nur die halbe Arbeit macht. Wenn du das Budget hast und dein Arzt die Behandlung befürwortet: gut, dann plane das Training von Anfang an mit ein, sonst kauft du ein Ergebnis mit Verfallsdatum. Wenn das Budget knapp ist und dein Übergewicht moderat: Steck das Geld zuerst in Training und Ernährungsumstellung, das ist die Investition mit dem besten Zins."
+        "text": "Die Abnehmspritze kostet als Selbstzahler real 220 bis 400 Euro im Monat, wenn man ehrlich rechnet. Das ist viel Geld für ein Werkzeug, das ohne begleitendes Training nur die halbe Arbeit macht. Wenn du das Budget hast und dein Arzt die Behandlung befürwortet: gut, dann plane das Training von Anfang an mit ein, sonst kauft du ein Ergebnis mit Verfallsdatum. Wenn das Budget knapp ist und dein Übergewicht moderat: Steck das Geld zuerst in Training und Ernährungsumstellung, das ist die Investition mit dem besten Zins. Was beide Wege im direkten Duell können, habe ich im Vergleich [Abnehmspritze oder Personal Training](/blog/abnehmspritze-oder-personal-training) aufgeschrieben."
       },
       {
         "type": "p",
@@ -2974,7 +2986,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Keine davon ist spektakulär. Kein Detox, kein Wundersupplement, keine Spezialdiät. Der Jojo-Effekt wird nicht mit Tricks besiegt, sondern mit einem Alltag, der das neue Gewicht von selbst trägt: Muskeln, Struktur, Bewegung, ehrliche Messung und ein Plan für den Moment, in dem es kippen könnte. Das ist weniger aufregend als jede Schlagzeile über die Abnehmspritze, aber es ist das, was nach der Schlagzeile übrig bleibt."
+        "text": "Keine davon ist spektakulär. Kein Detox, kein Wundersupplement, keine Spezialdiät. Der Jojo-Effekt wird nicht mit Tricks besiegt, sondern mit einem Alltag, der das neue Gewicht von selbst trägt: Muskeln, Struktur, Bewegung, ehrliche Messung und ein Plan für den Moment, in dem es kippen könnte. Das ist weniger aufregend als jede Schlagzeile über die Abnehmspritze, aber es ist das, was nach der Schlagzeile übrig bleibt. Falls du noch grundsätzlich abwägst, welcher Weg zu dir passt, hilft dir der ehrliche Vergleich [Abnehmspritze oder Personal Training](/blog/abnehmspritze-oder-personal-training)."
       },
       {
         "type": "p",
@@ -4457,7 +4469,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "So sieht die Umsetzung bei meinen Klienten konkret aus: Montag und Donnerstag je eine Ganzkörpereinheit, dazwischen an mindestens zwei Tagen 8.000 Schritte oder mehr. Jede Mahlzeit beginnt mit der Proteinquelle, und einmal pro Woche werden Gewicht, Taillenumfang und ein Kraftwert notiert. An Tagen mit Übelkeit wird das Training verkürzt statt gestrichen. Nebenwirkungen, die das Training regelmäßig unmöglich machen, gehören immer ins Gespräch mit deinem Arzt und nicht in die Kategorie Augen zu und durch."
+        "text": "So sieht die Umsetzung bei meinen Klienten konkret aus: Montag und Donnerstag je eine Ganzkörpereinheit, dazwischen an mindestens zwei Tagen 8.000 Schritte oder mehr. Jede Mahlzeit beginnt mit der Proteinquelle, und einmal pro Woche werden Gewicht, Taillenumfang und ein Kraftwert notiert. An Tagen mit Übelkeit wird das Training verkürzt statt gestrichen. Wie so eine Woche als Einsteiger komplett aussieht, zeigt der Artikel [Sport während der Abnehmspritze](/blog/sport-waehrend-abnehmspritze). Nebenwirkungen, die das Training regelmäßig unmöglich machen, gehören immer ins Gespräch mit deinem Arzt und nicht in die Kategorie Augen zu und durch."
       },
       {
         "type": "p",
@@ -4719,7 +4731,7 @@ export const trendPosts: BlogPost[] = [
     "slug": "sport-waehrend-abnehmspritze",
     "title": "Sport während der Abnehmspritze: Welches Training jetzt wirklich sinnvoll ist",
     "metaTitle": "Abnehmspritze und Sport: So trainierst du richtig",
-    "metaDescription": "Abnehmspritze und Sport: Welches Training während der Therapie sinnvoll ist, wie du mit wenig Energie trainierst und was du besser weglässt.",
+    "metaDescription": "Krafttraining 2-3x pro Woche plus tägliches Gehen: das richtige Training während der Abnehmspritze. Mit Beispielwoche und Tipps für Tage mit wenig Energie.",
     "date": "2026-07-01",
     "readMinutes": 5,
     "excerpt": "Training unter GLP-1 fühlt sich anders an: weniger Energie, empfindlicher Magen. So baust du eine Trainingswoche, die trotzdem funktioniert.",
@@ -4742,7 +4754,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ohne Krafttraining kann ein erheblicher Teil deines Gewichtsverlusts aus Muskelmasse bestehen, das zeigen die Daten zur Körperzusammensetzung aus den Zulassungsstudien deutlich. Deshalb steht Kraft an erster Stelle, nicht Ausdauer. Zwei Ganzkörpereinheiten pro Woche sind das Minimum, drei sind ideal, wenn deine Energie es zulässt. Wähle fünf bis sieben Übungen pro Einheit, arbeite im Bereich von 6 bis 12 Wiederholungen und notiere deine Gewichte. Für den Anfang sind geführte Maschinen völlig in Ordnung: Sie sind sicher, schnell erlernbar und an schwachen Tagen leichter zu steuern."
+        "text": "Ohne Krafttraining kann ein erheblicher Teil deines Gewichtsverlusts aus Muskelmasse bestehen, das zeigen die Daten zur Körperzusammensetzung aus den Zulassungsstudien deutlich. Wie groß dieser Verlust werden kann und wie du ihn verhinderst, steht im Artikel [Muskelverlust unter der Abnehmspritze vermeiden](/blog/abnehmspritze-muskelverlust-vermeiden). Deshalb steht Kraft an erster Stelle, nicht Ausdauer. Zwei Ganzkörpereinheiten pro Woche sind das Minimum, drei sind ideal, wenn deine Energie es zulässt. Wähle fünf bis sieben Übungen pro Einheit, arbeite im Bereich von 6 bis 12 Wiederholungen und notiere deine Gewichte. Für den Anfang sind geführte Maschinen völlig in Ordnung: Sie sind sicher, schnell erlernbar und an schwachen Tagen leichter zu steuern."
       },
       {
         "type": "p",
@@ -4794,11 +4806,11 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Nach vier bis sechs Wochen kannst du eine dritte Krafteinheit ergänzen, falls Energie und Alltag mitspielen. Mehr braucht es in dieser Phase nicht. Das Ziel lautet: stabil bleiben, Muskeln halten und eine Routine aufbauen, die auch nach dem Medikament noch trägt. Genau diese Routine ist später dein wichtigster Schutz vor der Wiederzunahme."
+        "text": "Nach vier bis sechs Wochen kannst du eine dritte Krafteinheit ergänzen, falls Energie und Alltag mitspielen. Mehr braucht es in dieser Phase nicht. Das Ziel lautet: stabil bleiben, Muskeln halten und eine Routine aufbauen, die auch nach dem Medikament noch trägt. Genau diese Routine ist später dein wichtigster Schutz vor der Wiederzunahme: Wie du den [Jojo-Effekt nach der Abnehmspritze vermeidest](/blog/jojo-effekt-nach-abnehmspritze-vermeiden), habe ich separat aufgeschrieben."
       },
       {
         "type": "p",
-        "text": "Falls du dir unsicher bist, wie viel Training dein Körper unter der Therapie gerade verträgt, musst du das nicht allein herausfinden. In meiner kostenlosen Erstberatung, 30 bis 45 Minuten, bauen wir gemeinsam eine erste Wochenstruktur, die zu deiner Energie und deinem Alltag passt. Danach entscheidest du selbst, ob du sie allein umsetzt oder mit mir zusammen."
+        "text": "Falls du dir unsicher bist, wie viel Training dein Körper unter der Therapie gerade verträgt, musst du das nicht allein herausfinden. In meiner [kostenlosen Erstberatung](/contatti), 30 bis 45 Minuten, bauen wir gemeinsam eine erste Wochenstruktur, die zu deiner Energie und deinem Alltag passt. Danach entscheidest du selbst, ob du sie allein umsetzt oder mit mir zusammen."
       }
     ]
   },
@@ -8386,7 +8398,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Nach 15 Uhr ist Willenskraft bei den meisten Berufstätigen ein leerer Akku, darauf baut man keine Routine. Was funktioniert, ist Architektur: feste Trainingstage, die Tasche an der Tür, der direkte Weg, das B-Workout im Hintergrund, die 10-Minuten-Regel als Notausgang. Nach sechs bis acht Wochen fragt dein Kopf nicht mehr, ob heute Training ist, genauso wenig wie er fragt, ob heute Zähneputzen ist. Bis dahin trägt dich das System, nicht die Motivation."
+        "text": "Nach 15 Uhr ist Willenskraft bei den meisten Berufstätigen ein leerer Akku, darauf baut man keine Routine. Was funktioniert, ist Architektur: feste Trainingstage mit einem [klaren Wochenplan](/blog/trainingsplan-berufstaetige-wenig-zeit), die Tasche an der Tür, der direkte Weg, das B-Workout im Hintergrund, die 10-Minuten-Regel als Notausgang. Nach sechs bis acht Wochen fragt dein Kopf nicht mehr, ob heute Training ist, genauso wenig wie er fragt, ob heute Zähneputzen ist. Bis dahin trägt dich das System, nicht die Motivation."
       },
       {
         "type": "p",
