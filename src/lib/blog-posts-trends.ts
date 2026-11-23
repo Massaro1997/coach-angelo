@@ -933,7 +933,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du beim Einstieg lieber jemanden an deiner Seite hast, der auf deine Technik schaut, den Plan an dein Leben anpasst und dich durch die ersten zwölf Wochen begleitet: Dafür gibt es mich. Im [kostenlosen Erstgespräch](/contatti) finden wir heraus, wo du gerade stehst und welcher Weg für dich realistisch ist. Kein Verkaufsgespräch, versprochen, sondern eine ehrliche Standortbestimmung. Wie das [Personal Training in Köln](/personal-trainer-koeln) abläuft und was es kostet, steht dort schwarz auf weiß."
+        "text": "Wenn du beim Einstieg lieber jemanden an deiner Seite hast, der auf deine Technik schaut, den Plan an dein Leben anpasst und dich durch die ersten zwölf Wochen begleitet: Dafür gibt es mich. Im [kostenlosen Erstgespräch](/contatti) finden wir heraus, wo du gerade stehst und welcher Weg für dich realistisch ist. Kein Verkaufsgespräch, versprochen, sondern eine ehrliche Standortbestimmung. Wie das [Personal Training in Köln](/personal-trainer-koeln) abläuft und was es kostet, steht dort schwarz auf weiß. Und wer nach den ersten zwölf Wochen gezielt an Tempo und Spritzigkeit arbeiten will, findet im [Athletiktraining in Köln](/leistungen/athletiktraining) den nächsten Schritt."
       }
     ]
   },
@@ -1387,7 +1387,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Falls du dir bei alldem einen Begleiter wünschst, der deine Technik anschaut, den Plan auf deinen Körper und deinen Alltag zuschneidet und dich bremst, wenn dein Ehrgeiz mit dir durchgeht: Genau das ist mein Job als [Personal Trainer in Köln](/personal-trainer-koeln). Im [kostenlosen Erstgespräch](/contatti) reden wir offen über deinen Startpunkt und deine Ziele, ohne Bewertung und ohne Druck. Der erste Schritt ist ein Gespräch, kein Kilometer."
+        "text": "Falls du dir bei alldem einen Begleiter wünschst, der deine Technik anschaut, den Plan auf deinen Körper und deinen Alltag zuschneidet und dich bremst, wenn dein Ehrgeiz mit dir durchgeht: Genau das ist mein Job als [Personal Trainer in Köln](/personal-trainer-koeln). Im [kostenlosen Erstgespräch](/contatti) reden wir offen über deinen Startpunkt und deine Ziele, ohne Bewertung und ohne Druck. Du musst dafür nicht in Köln wohnen: Auch als [Personal Trainer in Frechen](/personal-trainer-frechen) begleite ich Laufeinsteiger, vom ersten Gehintervall an. Der erste Schritt ist ein Gespräch, kein Kilometer."
       }
     ]
   },
@@ -1839,7 +1839,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Ein Hinweis in eigener Sache: Ein spezielles Hyrox-Coaching biete ich nicht an. Ich trainiere in Köln Kraft und Kondition im 1-zu-1 Personal Training, und diese Grundlage brauchst du für Hyrox genauso wie für den Alltag. Wenn du daran arbeiten willst, melde dich gern für ein kostenloses Erstgespräch."
+        "text": "Ein Hinweis in eigener Sache: Ein spezielles Hyrox-Coaching biete ich nicht an. Ich trainiere in Köln Kraft und Kondition im 1-zu-1 Personal Training, und diese Grundlage brauchst du für Hyrox genauso wie für den Alltag. Was dieses [Athletiktraining in Köln](/leistungen/athletiktraining) genau umfasst, steht auf der Leistungsseite. Wenn du daran arbeiten willst, melde dich gern für ein kostenloses Erstgespräch."
       }
     ]
   },
@@ -3083,7 +3083,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du wissen willst, wie so ein Fahrplan konkret für dich aussieht, mit deinem Körper, deinem Zeitbudget und deiner Vorgeschichte, dann lass uns einfach mal sprechen. Das [Erstgespräch bei mir](/contatti) ist kostenlos und unverbindlich, und du gehst in jedem Fall mit einer ehrlichen Einschätzung nach Hause. Wie das [Personal Training in Köln](/personal-trainer-koeln) abläuft und was es kostet, steht dort schwarz auf weiß."
+        "text": "Wenn du wissen willst, wie so ein Fahrplan konkret für dich aussieht, mit deinem Körper, deinem Zeitbudget und deiner Vorgeschichte, dann lass uns einfach mal sprechen. Das [Erstgespräch bei mir](/contatti) ist kostenlos und unverbindlich, und du gehst in jedem Fall mit einer ehrlichen Einschätzung nach Hause. Wie das [Personal Training in Köln](/personal-trainer-koeln) abläuft und was es kostet, steht dort schwarz auf weiß. Den Trainingsaufbau dahinter, nach Wettkampf-Prinzipien und über Monate geplant, zeigt die Seite [Muskelaufbau Training in Köln](/leistungen/muskelaufbau)."
       }
     ]
   },
@@ -3397,7 +3397,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du herausfinden willst, welcher Weg für dich der richtige ist, komm einfach auf ein kostenloses Erstgespräch vorbei. Ich sage dir ehrlich, ob und wie viel Begleitung du wirklich brauchst, und wenn die Antwort lautet, dass dir ein Studio-Abo und drei gute Tipps reichen, dann sage ich dir auch das. Versprochen. Wie ich arbeite und was es kostet, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln). Wie viele geführte Stunden pro Woche sich wirklich lohnen, steht im Artikel [Wie oft ist Personal Training sinnvoll?](/blog/wie-oft-personal-training-sinnvoll)."
+        "text": "Wenn du herausfinden willst, welcher Weg für dich der richtige ist, komm einfach auf ein kostenloses Erstgespräch vorbei. Ich sage dir ehrlich, ob und wie viel Begleitung du wirklich brauchst, und wenn die Antwort lautet, dass dir ein Studio-Abo und drei gute Tipps reichen, dann sage ich dir auch das. Versprochen. Wie ich arbeite und was es kostet, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln). Wie viele geführte Stunden pro Woche sich wirklich lohnen, steht im Artikel [Wie oft ist Personal Training sinnvoll?](/blog/wie-oft-personal-training-sinnvoll). Was die einzelnen Angebote bei mir kosten, steht kompakt unter [Leistungen und Preise](/servizi)."
       }
     ]
   },
@@ -4290,7 +4290,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Genau bei diesem dritten Punkt kann ich helfen, auch wenn du sonst alles selbst machst. In einem kostenlosen Kennenlerngespräch von 30 bis 45 Minuten klären wir, welche Lücken dein Outdoor-Setup hat und wie du sie mit minimalem Aufwand schließt. Manchmal reicht danach ein einziges Technik-Training im Monat als Ergänzung."
+        "text": "Genau bei diesem dritten Punkt kann ich helfen, auch wenn du sonst alles selbst machst. In einem kostenlosen Kennenlerngespräch von 30 bis 45 Minuten klären wir, welche Lücken dein Outdoor-Setup hat und wie du sie mit minimalem Aufwand schließt. Manchmal reicht danach ein einziges Technik-Training im Monat als Ergänzung. Die passende Grundlage dafür baue ich im [Athletiktraining in Köln](/leistungen/athletiktraining) auf, draußen und ohne Gerätepark."
       }
     ]
   },
@@ -7171,7 +7171,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Falls du wissen willst, wie so ein Training für deine Ausgangslage konkret aussieht: [Melde dich für ein kostenloses Erstgespräch](/contatti). Wir nehmen uns 30 bis 45 Minuten, sprechen über deine Werte, deinen Schlaf und dein bisheriges Training, und du gehst mit einem klaren nächsten Schritt raus. Was das Training vor Ort umfasst, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln). Ob du danach mit mir arbeitest, entscheidest allein du."
+        "text": "Falls du wissen willst, wie so ein Training für deine Ausgangslage konkret aussieht: [Melde dich für ein kostenloses Erstgespräch](/contatti). Wir nehmen uns 30 bis 45 Minuten, sprechen über deine Werte, deinen Schlaf und dein bisheriges Training, und du gehst mit einem klaren nächsten Schritt raus. Was das Training vor Ort umfasst, steht auf der Seite [Personal Trainer Köln](/personal-trainer-koeln), die Details zum gezielten Aufbau beim [Muskelaufbau Coaching in Köln](/leistungen/muskelaufbau). Ob du danach mit mir arbeitest, entscheidest allein du."
       }
     ]
   },
@@ -7936,7 +7936,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Miss heute Abend deinen Bauchumfang und schreib die Zahl auf. Das dauert eine Minute und macht aus einem vagen Unwohlsein ein konkretes Projekt mit Startwert. Und wenn du willst, dass jemand mit Wettkampferfahrung deinen Plan baut und dich ehrlich begleitet: Buch dir einfach meine [kostenlose Erstberatung](/contatti). Wir sprechen 30 bis 45 Minuten über deinen Alltag, deine Zahlen und den Weg, der für dich funktioniert. Wie das 1-zu-1-Training in Köln abläuft, steht auf der Seite [Personal Training in Köln](/personal-trainer-koeln). Kostet nichts außer der Ehrlichkeit, anzufangen."
+        "text": "Miss heute Abend deinen Bauchumfang und schreib die Zahl auf. Das dauert eine Minute und macht aus einem vagen Unwohlsein ein konkretes Projekt mit Startwert. Und wenn du willst, dass jemand mit Wettkampferfahrung deinen Plan baut und dich ehrlich begleitet: Buch dir einfach meine [kostenlose Erstberatung](/contatti). Wir sprechen 30 bis 45 Minuten über deinen Alltag, deine Zahlen und den Weg, der für dich funktioniert. Wie das 1-zu-1-Training in Köln abläuft, steht auf der Seite [Personal Training in Köln](/personal-trainer-koeln), und wie die Begleitung beim [Abnehmen mit Personal Trainer in Köln](/leistungen/abnehmen) aufgebaut ist, vom Kaloriendefizit bis zum Muskelschutz, liest du auf der Leistungsseite. Kostet nichts außer der Ehrlichkeit, anzufangen."
       }
     ]
   },
@@ -8246,7 +8246,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Wenn du in Köln wohnst und wissen willst, welcher Spot und welches Programm zu deinem Level passt, lass uns das bei einem [kostenlosen Erstgespräch](/contatti) klären, gerne direkt im Park deiner Wahl. 30 bis 45 Minuten, du siehst sofort, wie ich arbeite, und entscheidest danach in Ruhe."
+        "text": "Wenn du in Köln wohnst und wissen willst, welcher Spot und welches Programm zu deinem Level passt, lass uns das bei einem [kostenlosen Erstgespräch](/contatti) klären, gerne direkt im Park deiner Wahl. 30 bis 45 Minuten, du siehst sofort, wie ich arbeite, und entscheidest danach in Ruhe. Das Ganze endet übrigens nicht an der Stadtgrenze: Als [Personal Trainer in Frechen](/personal-trainer-frechen), wo ich selbst zuhause bin, trainiere ich genauso mit dir draußen."
       }
     ]
   },
@@ -8637,7 +8637,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Und wenn du nach den 14 Tagen immer noch im Nebel stochst, hol dir einen zweiten Blick von außen. In meinem [kostenlosen Erstgespräch](/contatti) gehen wir gemeinsam durch deine Woche, dein Training und deine Zahlen, und in 30 bis 45 Minuten finden wir in aller Regel den Punkt, an dem es hakt. Liegt es am Essen, schaut Natalie von der [Ernährungsberatung](/leistungen/ernaehrungsberatung) mit drauf. Manchmal braucht es nur ein Paar erfahrene Augen."
+        "text": "Und wenn du nach den 14 Tagen immer noch im Nebel stochst, hol dir einen zweiten Blick von außen. In meinem [kostenlosen Erstgespräch](/contatti) gehen wir gemeinsam durch deine Woche, dein Training und deine Zahlen, und in 30 bis 45 Minuten finden wir in aller Regel den Punkt, an dem es hakt. Liegt es am Essen, schaut Natalie von der [Ernährungsberatung](/leistungen/ernaehrungsberatung) mit drauf, und wie das begleitete [Abnehmen in Köln](/leistungen/abnehmen) insgesamt abläuft, ohne Crash-Diät und ohne Jojo, zeigt die zugehörige Leistungsseite. Manchmal braucht es nur ein Paar erfahrene Augen."
       }
     ]
   },
@@ -8702,7 +8702,7 @@ export const trendPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Du willst mit dem Laufen starten oder endlich strukturiert trainieren statt planlos Kilometer zu sammeln? Dann nutz mein kostenloses Erstgespräch: 30 bis 45 Minuten, wir schauen auf dein Level, deine Woche und deine Ziele, und du bekommst eine klare Empfehlung, ob Laufplan, Krafttraining oder beides zusammen dich weiterbringt."
+        "text": "Du willst mit dem Laufen starten oder endlich strukturiert trainieren statt planlos Kilometer zu sammeln? Dann nutz mein kostenloses Erstgespräch: 30 bis 45 Minuten, wir schauen auf dein Level, deine Woche und deine Ziele, und du bekommst eine klare Empfehlung, ob Laufplan, Krafttraining oder beides zusammen dich weiterbringt. Und falls du westlich der Stadtgrenze läufst: Ich wohne selbst in Frechen und trainiere dort als [Personal Trainer in Frechen](/personal-trainer-frechen) auch direkt vor deiner Haustür."
       }
     ]
   }

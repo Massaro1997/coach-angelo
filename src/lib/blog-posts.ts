@@ -90,7 +90,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Wenn du das alles schon mal gelesen hast und es trotzdem nie länger als sechs Wochen gehalten hat, ist das kein Wissensproblem, sondern ein Umsetzungsproblem. Genau dafür gibt es mich. Beim [Personal Training in Köln](/personal-trainer-koeln) bauen wir den Plan um deinen Kalender, nicht umgekehrt, und bei den Ernährungsfragen schaut Natalie mit drauf. Das Erstgespräch ist kostenlos, dauert 30 bis 45 Minuten und verpflichtet dich zu nichts: Danach weißt du, wo du stehst und womit du anfängst.",
+        text: "Wenn du das alles schon mal gelesen hast und es trotzdem nie länger als sechs Wochen gehalten hat, ist das kein Wissensproblem, sondern ein Umsetzungsproblem. Genau dafür gibt es mich. Beim [Personal Training in Köln](/personal-trainer-koeln) bauen wir den Plan um deinen Kalender, nicht umgekehrt, und bei den Ernährungsfragen schaut Natalie mit drauf. Das Erstgespräch ist kostenlos, dauert 30 bis 45 Minuten und verpflichtet dich zu nichts: Danach weißt du, wo du stehst und womit du anfängst. Was im Programm [Abnehmen mit Personal Trainer](/leistungen/abnehmen) konkret drinsteckt, siehst du vorab auf der Leistungsseite.",
       },
     ],
   },
@@ -329,7 +329,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Wenn du wissen willst, welche Frequenz zu deinem Ziel und deinem Kalender passt, ist das Erstgespräch kostenlos und unverbindlich. Dort rechne ich dir beide Wege durch, den mit mehr und den mit weniger bezahlten Stunden. Einen Überblick über Leistungen, Preise und Trainingsorte gibt die Seite [Personal Training in Köln](/personal-trainer-koeln).",
+        text: "Wenn du wissen willst, welche Frequenz zu deinem Ziel und deinem Kalender passt, ist das Erstgespräch kostenlos und unverbindlich. Dort rechne ich dir beide Wege durch, den mit mehr und den mit weniger bezahlten Stunden. Einen Überblick über Leistungen, Preise und Trainingsorte gibt die Seite [Personal Training in Köln](/personal-trainer-koeln). Die Pakete dahinter, vom Einzeltraining bis zum Trainingsplan als PDF, stehen unter [Leistungen und Preise](/servizi).",
       },
     ],
   },
@@ -485,7 +485,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Mein Angebot in Köln, schwarz auf weiß" },
       {
         type: "p",
-        text: "Personal Training 1-zu-1: 50€ pro Stunde. Online Coaching: ab 150€ im Monat mit individuellem Trainingsplan, Ernährungsberatung und Check-ins jede Woche. Fertige Trainingspläne als PDF ab 25€, wenn du erstmal alleine starten willst. Die Erstberatung kostet nichts, dauert ehrlich gerechnet 30 bis 45 Minuten und verpflichtet dich zu gar nichts. Alle Leistungen, der Ablauf und die Stadtteile stehen auf der Seite [Personal Trainer Köln](/personal-trainer-koeln).",
+        text: "Personal Training 1-zu-1: 50€ pro Stunde. Online Coaching: ab 150€ im Monat mit individuellem Trainingsplan, Ernährungsberatung und Check-ins jede Woche. Fertige Trainingspläne als PDF ab 25€, wenn du erstmal alleine starten willst. Die Erstberatung kostet nichts, dauert ehrlich gerechnet 30 bis 45 Minuten und verpflichtet dich zu gar nichts. Alle Leistungen, der Ablauf und die Stadtteile stehen auf der Seite [Personal Trainer Köln](/personal-trainer-koeln). Alle Pakete mit Preisen im Überblick, vom Einzeltraining bis zum PDF-Plan, findest du unter [Leistungen und Preise](/servizi).",
       },
     ],
   },
@@ -889,7 +889,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen durch Büroarbeit sind kein Schicksal, das du einfach hinnehmen musst. Mit den richtigen Übungen, etwas Konsequenz und kleinen Veränderungen im Arbeitsalltag kannst du sehr viel erreichen, ohne dein Leben umzukrempeln. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du dir unsicher bist, ob du die Übungen korrekt ausführst: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, einfach ein ehrlicher Austausch darüber, was dir wirklich hilft. Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
+        "text": "Rückenschmerzen durch Büroarbeit sind kein Schicksal, das du einfach hinnehmen musst. Mit den richtigen Übungen, etwas Konsequenz und kleinen Veränderungen im Arbeitsalltag kannst du sehr viel erreichen, ohne dein Leben umzukrempeln. Wenn du nicht weißt, wo du anfangen sollst, oder wenn du dir unsicher bist, ob du die Übungen korrekt ausführst: Ich biete ein kostenloses Erstgespräch an. Kein Verkaufsgespräch, einfach ein ehrlicher Austausch darüber, was dir wirklich hilft. Für den Schreibtisch-Rücken gibt es bei mir außerdem ein eigenes Programm: das [Rückentraining in Köln](/leistungen/rueckentraining). Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
       }
     ]
   },
@@ -12629,7 +12629,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir als [Personal Trainer in Köln](/personal-trainer-koeln). Kein Verkaufsgespräch, kein Druck, einfach 30 bis 45 Minuten, in denen wir schauen, was dir wirklich helfen kann. Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
+        "text": "Fünf Minuten morgens. Das ist alles, was es braucht, um deinen Rücken besser in den Tag zu bringen. Probier die Routine eine Woche lang aus und schau, was sich verändert. Wenn du merkst, dass du mehr Unterstützung brauchst, oder wenn du einfach wissen willst, was bei dir persönlich wirklich schiefläuft und wie man es konkret angeht, dann buch dir ein kostenloses Erstgespräch bei mir als [Personal Trainer in Köln](/personal-trainer-koeln). Kein Verkaufsgespräch, kein Druck, einfach 30 bis 45 Minuten, in denen wir schauen, was dir wirklich helfen kann. Und wenn dein Rücken mehr braucht als fünf Minuten am Morgen: Das gezielte [Rückentraining in Köln](/leistungen/rueckentraining) arbeitet an Rumpf, hinterer Kette und Haltung. Den Termin für die kostenlose Erstberatung findest du direkt unter diesem Artikel."
       }
     ]
   },
@@ -14326,7 +14326,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Muskelaufbau ab 40 ist kein Wunschdenken, er ist eine Frage der richtigen Herangehensweise. Du brauchst keinen Extremplan, kein Fünf-Tage-Split und keine teuren Supplemente. Du brauchst Konstanz, eine saubere Technik, genug Protein und echten Respekt vor der Erholung. Das klingt unspektakulär, weil es unspektakulär ist, und genau deshalb funktioniert es. Wenn du nicht weißt, wo du anfangen sollst, oder wenn bisherige Versuche nicht geklappt haben, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was zu dir und deinem Alltag passt. Kein Verkaufsdruck, kein Standardprogramm. Das Erstgespräch buchst du direkt unter diesem Artikel."
+        "text": "Muskelaufbau ab 40 ist kein Wunschdenken, er ist eine Frage der richtigen Herangehensweise. Du brauchst keinen Extremplan, kein Fünf-Tage-Split und keine teuren Supplemente. Du brauchst Konstanz, eine saubere Technik, genug Protein und echten Respekt vor der Erholung. Das klingt unspektakulär, weil es unspektakulär ist, und genau deshalb funktioniert es. Wenn du nicht weißt, wo du anfangen sollst, oder wenn bisherige Versuche nicht geklappt haben, dann lass uns einfach reden. Ich biete ein kostenloses Erstgespräch an, in dem wir gemeinsam schauen, was zu dir und deinem Alltag passt. Kein Verkaufsdruck, kein Standardprogramm. Wie mein [Muskelaufbau Coaching in Köln](/leistungen/muskelaufbau) aufgebaut ist, mit Grundübungen, Progression und einer Aufbauphase über Monate, liest du auf der Leistungsseite. Das Erstgespräch buchst du direkt unter diesem Artikel."
       }
     ]
   },
@@ -14614,7 +14614,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "type": "p",
-        "text": "Rückenschmerzen durch Krafttraining zu beheben ist kein Wunschdenken, sondern ein realistisches Ziel für jeden, der bereit ist, konsequent dran zu bleiben. Du musst das nicht alleine herausfinden. Wenn du in Köln lebst oder arbeitest und wissen willst, welche Übungen für deine konkrete Situation passen, dann nutz das kostenlose Erstgespräch mit mir. Wir schauen gemeinsam, wo du gerade stehst, und ich zeige dir, welche nächsten Schritte für dich Sinn ergeben. Kein Verkaufsgespräch, einfach ein ehrliches Gespräch über deinen Rücken."
+        "text": "Rückenschmerzen durch Krafttraining zu beheben ist kein Wunschdenken, sondern ein realistisches Ziel für jeden, der bereit ist, konsequent dran zu bleiben. Du musst das nicht alleine herausfinden. Wenn du in Köln lebst oder arbeitest und wissen willst, welche Übungen für deine konkrete Situation passen, dann nutz das kostenlose Erstgespräch mit mir. Wir schauen gemeinsam, wo du gerade stehst, und ich zeige dir, welche nächsten Schritte für dich Sinn ergeben. Kein Verkaufsgespräch, einfach ein ehrliches Gespräch über deinen Rücken. Wenn du danach dauerhaft an der Ursache arbeiten willst, ist das [Rückentraining in Köln](/leistungen/rueckentraining) der passende Rahmen dafür."
       }
     ]
   },
