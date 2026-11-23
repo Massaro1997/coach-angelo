@@ -224,6 +224,70 @@ export default function Servizi() {
           </p>
         </div>
       </section>
+
+      {/* ------------------------------------------- wege zum ziel (giro 95)
+          Prosa con i collegamenti alle pagine di servizio e di zona: prima di
+          questa sezione /servizi non linkava nessuna pagina commerciale. */}
+      <section className="relative bg-surface py-20 sm:py-24">
+        <div className="mx-auto max-w-4xl px-6 lg:px-8">
+          <h2 className="fp-titolo text-4xl text-ink md:text-5xl">
+            {de ? (
+              <>Finde den Weg zu deinem <span className="text-gold">Ziel</span></>
+            ) : (
+              <>Trova la strada verso il tuo <span className="text-gold">obiettivo</span></>
+            )}
+          </h2>
+          {de ? (
+            <div className="mt-6 max-w-prose space-y-4 text-lg leading-relaxed text-ink/70">
+              <p>
+                Hinter den Paketen oben stehen konkrete Ziele. Die meisten kommen zu mir, weil sie{" "}
+                <Link href="/leistungen/abnehmen" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">abnehmen</Link>{" "}
+                wollen, gezielt{" "}
+                <Link href="/leistungen/muskelaufbau" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Muskeln aufbauen</Link>{" "}
+                möchten oder ihren Rücken nach Jahren am Schreibtisch mit{" "}
+                <Link href="/leistungen/rueckentraining" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Rückentraining</Link>{" "}
+                wieder stark machen wollen. Sportler hole ich mit{" "}
+                <Link href="/leistungen/athletiktraining" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Athletiktraining</Link>{" "}
+                weiter, und wer über EMS nachdenkt, liest besser erst, warum ich{" "}
+                <Link href="/leistungen/ems-alternative" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Krafttraining statt EMS</Link>{" "}
+                empfehle. Den Ernährungsteil übernimmt Natalie in der{" "}
+                <Link href="/leistungen/ernaehrungsberatung" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Ernährungsberatung</Link>.
+              </p>
+              <p>
+                Trainiert wird dort, wo du bist: alles über Orte, Preise und Ablauf steht auf der
+                Seite{" "}
+                <Link href="/personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Personal Trainer Köln</Link>
+                , und wer westlich der Stadt wohnt, findet mich als{" "}
+                <Link href="/personal-trainer-frechen" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Personal Trainer in Frechen</Link>{" "}
+                direkt vor der Haustür.
+              </p>
+            </div>
+          ) : (
+            <div className="mt-6 max-w-prose space-y-4 text-lg leading-relaxed text-ink/70">
+              <p>
+                Dietro i pacchetti qui sopra ci sono obiettivi concreti: c&apos;è chi vuole{" "}
+                <Link href="/leistungen/abnehmen" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">dimagrire</Link>
+                , chi vuole{" "}
+                <Link href="/leistungen/muskelaufbau" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">costruire muscoli</Link>
+                , chi dopo anni di scrivania riparte dal{" "}
+                <Link href="/leistungen/rueckentraining" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">lavoro sulla schiena</Link>{" "}
+                e chi cerca una vera{" "}
+                <Link href="/leistungen/ems-alternative" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">alternativa all&apos;EMS</Link>
+                . Gli sportivi trovano l&apos;
+                <Link href="/leistungen/athletiktraining" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">allenamento atletico</Link>
+                , la parte alimentare la segue Natalie con la{" "}
+                <Link href="/leistungen/ernaehrungsberatung" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">consulenza nutrizionale</Link>.
+              </p>
+              <p>
+                Luoghi, prezzi e come funziona stanno sulla pagina{" "}
+                <Link href="/personal-trainer-koeln" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">Personal Trainer Köln</Link>
+                ; chi vive a ovest della città mi trova come{" "}
+                <Link href="/personal-trainer-frechen" className="underline decoration-ink/20 underline-offset-4 transition-colors hover:text-gold">personal trainer a Frechen</Link>.
+              </p>
+            </div>
+          )}
+        </div>
+      </section>
     </div>
   );
 }

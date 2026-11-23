@@ -8014,6 +8014,10 @@ export const trendPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Wenn du diesen Artikel bis hier gelesen hast, ist die Entscheidung im Kopf vermutlich schon gefallen. Was jetzt fehlt, ist ein konkreter Plan für deine Situation: deine Gelenke, deinen Kalender, deinen Startpunkt. Genau dafür gibt es mein kostenloses Erstgespräch: 30 bis 45 Minuten, in denen wir deinen Wiedereinstieg durchplanen. Danach weißt du genau, wie deine ersten vier Wochen aussehen, mit oder ohne mich an deiner Seite."
+      },
+      {
+        "type": "p",
+        "text": "Ein letzter Hinweis: EMS-Studios werben gezielt um Männer ab 50, die sanft wieder einsteigen wollen. Warum gerade für Knochen und Gelenke klassisches Training die bessere [EMS-Alternative in Köln](/leistungen/ems-alternative) ist, liest du auf der eigenen Seite dazu."
       }
     ]
   },

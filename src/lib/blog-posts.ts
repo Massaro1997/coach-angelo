@@ -5424,6 +5424,10 @@ export const blogPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Drei Stunden pro Woche. Das klingt nach wenig, und das ist auch der Punkt. Du musst dein Leben nicht umkrempeln, um fit zu werden. Du brauchst einen Plan, der zu deinem echten Alltag passt, nicht zu einem idealisierten Fitnessleben. Wenn du wissen willst, wie ein solcher Plan konkret für dich aussieht, dann meld dich für ein [kostenloses Erstgespräch](/contatti) bei mir. Wir schauen uns gemeinsam an, was in deinem Kalender realistisch machbar ist, und beim [Personal Training in Köln](/personal-trainer-koeln) übernehme ich auf Wunsch auch die komplette Planung für dich."
+      },
+      {
+        "type": "p",
+        "text": "Und falls du aus Zeitgründen mit EMS liebäugelst: Auf der Seite [Krafttraining statt EMS](/leistungen/ems-alternative) steht, warum zwei echte Einheiten pro Woche langfristig mehr bringen als 20 Minuten im Stromanzug."
       }
     ]
   },
@@ -8725,6 +8729,10 @@ export const blogPosts: BlogPost[] = [
       {
         "type": "p",
         "text": "Rückenschmerzen sind kein Schicksal. Sie sind meistens die Folge von zu wenig Bewegung, falsch eingesetzter Muskulatur und einem Alltag, der den Körper systematisch schwächt. Krafttraining dreht diesen Prozess um. Es braucht Zeit, Kontinuität und am Anfang eine klare Anleitung. Wenn du bereit bist, den ersten Schritt zu machen, komm auf ein kostenloses Erstgespräch zu mir. Kein Verkaufsgespräch, kein Druck. Wir schauen gemeinsam, was bei dir funktioniert. Meld dich einfach über fitprimo.de."
+      },
+      {
+        "type": "p",
+        "text": "Übrigens: Viele, die ihren Rücken stärken wollen, landen zuerst in einem EMS-Studio, weil 20 Minuten pro Woche verlockend klingen. Warum ich stattdessen auf echtes Training setze, erkläre ich auf der Seite [Krafttraining statt EMS in Köln](/leistungen/ems-alternative)."
       }
     ]
   },

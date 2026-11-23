@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { stadtteile } from "@/lib/koeln-stadtteile";
 import { intents, getIntent, siteUrl } from "@/lib/stadtteil-intent";
 import { bezirke } from "@/lib/bezirk-content";
+import { leistungenContent } from "@/lib/leistungen-content";
 
 export function generateStaticParams() {
   // ernaehrungsberatung, athletiktraining e abnehmen hanno una route statica dedicata (pagine forti a livello città)
@@ -51,9 +52,22 @@ export default async function IntentCategory({
   }));
 
   const url = `${siteUrl}/leistungen/${it.key}`;
+  const content = leistungenContent[it.key];
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
+      ...(content
+        ? [
+            {
+              "@type": "FAQPage",
+              mainEntity: content.faq.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            },
+          ]
+        : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -100,6 +114,43 @@ export default async function IntentCategory({
           </div>
         </div>
       </section>
+
+      {/* Inhalt auf Maß (nur für Intents mit Eintrag in leistungen-content) */}
+      {content && (
+        <section className="py-16 sm:py-20 bg-background">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 space-y-14">
+            {content.sections.map((s, i) => (
+              <div key={i} className="max-w-prose">
+                <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-5">{s.title}</h2>
+                <div className="space-y-4 text-lg text-ink/70 leading-relaxed">{s.body}</div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {content && (
+        <section className="py-16 sm:py-20 bg-surface border-t border-line">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="fp-titolo text-3xl sm:text-4xl text-ink mb-8">
+              Häufige Fragen zu {it.label} in Köln
+            </h2>
+            <div className="space-y-6">
+              {content.faq.map((f) => (
+                <div key={f.q} className="border-b border-line pb-6">
+                  <h3 className="font-black text-ink mb-2">{f.q}</h3>
+                  <p className="text-ink/70 leading-relaxed">{f.a}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-10">
+              <Link href="/contatti" className="fp-btn">
+                Kostenlose Erstberatung anfragen <span aria-hidden>→</span>
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Andere Leistungen */}
       <section className="bg-surface border-y border-line">
