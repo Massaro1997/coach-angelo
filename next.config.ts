@@ -18,8 +18,12 @@ const nextConfig: NextConfig = {
       // nuovo, query comprese: serve al "Cambio di indirizzo" di Search Console.
       // /api resta fuori: webhook Stripe/PayPal e moduli gia' aperti possono
       // puntare ancora al dominio vecchio, e un redirect su una POST li romperebbe.
+      // 23/11/2026: resta fuori anche /sitemap-angelocoach.xml, la lista degli
+      // indirizzi VECCHI inviata nella proprieta' angelocoach.com di Search
+      // Console: cosi' Google torna a visitarli, vede il 301 e passa tutto a
+      // fitprimo.de (a fine novembre molte pagine vecchie erano ferme ad agosto).
       {
-        source: '/:path((?!api/).*)',
+        source: '/:path((?!api/|sitemap-angelocoach\\.xml).*)',
         has: [{ type: 'host', value: '(?:www\\.)?angelocoach\\.com' }],
         destination: 'https://www.fitprimo.de/:path',
         statusCode: 301,

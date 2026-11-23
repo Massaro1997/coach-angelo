@@ -140,7 +140,7 @@ export default async function BlogPostPage({
         headline: post.title,
         description: post.metaDescription,
         datePublished: post.date,
-        dateModified: post.date,
+        dateModified: post.updated ?? post.date,
         image: `${siteUrl}/opengraph-image`,
         mainEntityOfPage: { "@type": "WebPage", "@id": url },
         author: {

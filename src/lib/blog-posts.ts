@@ -16,6 +16,9 @@ export interface BlogPost {
   metaTitle: string;
   metaDescription: string;
   date: string; // ISO
+  // Data dell'ultima riscrittura vera (YYYY-MM-DD). Va in sitemap (lastmod) e
+  // in dateModified: si mette solo quando il testo cambia davvero.
+  updated?: string;
   readMinutes: number;
   excerpt: string;
   blocks: BlogBlock[];
